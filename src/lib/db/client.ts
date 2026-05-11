@@ -4,16 +4,13 @@ import * as schema from './schema';
 import { getServerEnv } from '@/lib/env';
 
 declare global {
-  // eslint-disable-next-line no-var
   var __pgClient: ReturnType<typeof postgres> | undefined;
 }
 
 function createClient() {
   const env = getServerEnv();
   if (!env.DATABASE_URL) {
-    throw new Error(
-      'DATABASE_URL is not set. Add it to .env.local (see docs/API_KEYS.md).'
-    );
+    throw new Error('DATABASE_URL is not set. Add it to .env.local (see docs/API_KEYS.md).');
   }
   return postgres(env.DATABASE_URL, {
     prepare: false, // pgBouncer transaction-mode requires prepare=false
