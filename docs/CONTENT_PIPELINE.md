@@ -7,18 +7,19 @@
 
 ## 1. Nguồn (free, hợp pháp)
 
-| Loại | Nguồn | Cách dùng | Bản quyền |
-|---|---|---|---|
-| Wordlist | Oxford 3000/5000 (GitHub mirrors) | Danh sách từ public | OK (list) |
-| Wordlist | NGSL — newgeneralservicelist.com | 2800 từ phổ biến | CC BY-SA |
-| Wordlist | AWL (Wikipedia "Academic Word List") | 570 từ học thuật | Public |
-| Wordlist | COCA top 5000 — wordfrequency.info | Tần suất corpus | Free sample |
-| Reference IPA/POS | api.dictionaryapi.dev | Cross-check sau gen | Free, no key |
-| Reference định nghĩa | en.wiktionary.org/api/rest_v1 | Cross-check etymology | CC BY-SA |
-| Cấu trúc bài học | luyentu.com | Tham khảo cách chia topic | **Chỉ học pattern** |
-| Gen tiếng Việt | Claude desktop / ChatGPT free | Definitions, examples, mnemonic | Offline, free |
+| Loại                 | Nguồn                                | Cách dùng                       | Bản quyền           |
+| -------------------- | ------------------------------------ | ------------------------------- | ------------------- |
+| Wordlist             | Oxford 3000/5000 (GitHub mirrors)    | Danh sách từ public             | OK (list)           |
+| Wordlist             | NGSL — newgeneralservicelist.com     | 2800 từ phổ biến                | CC BY-SA            |
+| Wordlist             | AWL (Wikipedia "Academic Word List") | 570 từ học thuật                | Public              |
+| Wordlist             | COCA top 5000 — wordfrequency.info   | Tần suất corpus                 | Free sample         |
+| Reference IPA/POS    | api.dictionaryapi.dev                | Cross-check sau gen             | Free, no key        |
+| Reference định nghĩa | en.wiktionary.org/api/rest_v1        | Cross-check etymology           | CC BY-SA            |
+| Cấu trúc bài học     | luyentu.com                          | Tham khảo cách chia topic       | **Chỉ học pattern** |
+| Gen tiếng Việt       | Claude desktop / ChatGPT free        | Definitions, examples, mnemonic | Offline, free       |
 
 ### CẤM
+
 - **Không copy nguyên văn** từ Oxford Learner's Dictionary, Cambridge Dictionary, Merriam-Webster, Longman.
 - **Không crawl** luyentu.com / các app học tiếng Anh thương mại để lấy nội dung.
 - Chỉ học cấu trúc, không copy text.
@@ -30,6 +31,7 @@
 > **TODO Tuần 2**: dành 1-2h khảo sát luyentu.com, ghi pattern ở đây.
 
 Câu hỏi cần trả lời khi khảo sát:
+
 - Chia topic theo chủ đề đời sống hay theo CEFR level?
 - Mỗi lesson bao nhiêu từ (5? 10? 20? 30?)?
 - Card layout: chỉ word, hay word + IPA + nghĩa + example?
@@ -43,14 +45,17 @@ Câu hỏi cần trả lời khi khảo sát:
 ## 3. Quy trình gen 1 lesson (~20-25 từ) — STANDARD
 
 ### Bước 1: Chọn topic
+
 Tham khảo `TRACKER.md` để biết topic nào đang `[ ]`. Ưu tiên topic đời sống (Tuần 2 pilot), academic (Tuần 5+).
 
 ### Bước 2: Lấy từ
+
 - Mở `content/wordlists/oxford-3000.csv`.
 - Filter theo CEFR level (A1, A2, B1, B2, C1, C2) hoặc theo chủ đề.
 - Chọn 20-25 từ chưa có trong các lesson khác (check `content/collections/`).
 
 ### Bước 3: Gen
+
 1. Mở Claude desktop (claude.ai) hoặc ChatGPT free.
 2. Paste **prompt template** dưới đây.
 3. Paste 20-25 từ vào cuối prompt.
@@ -58,18 +63,22 @@ Tham khảo `TRACKER.md` để biết topic nào đang `[ ]`. Ưu tiên topic đ
 5. Lưu vào `content/collections/<col>/topics/<topic>/<lesson>.json`.
 
 ### Bước 4: Validate
+
 ```bash
 pnpm tsx scripts/validate-content.ts <lesson-file-path>
 ```
+
 - Validate JSON schema (Zod).
 - Gọi Free Dictionary API → so sánh IPA, POS.
 - Output `docs/CONTENT_REPORT.md` (gitignored): từ nào lệch.
 
 ### Bước 5: Review thủ công
+
 - Nếu validate báo lệch → mở Claude desktop, hỏi lại 1 từ đó, sửa JSON.
 - Đọc qua 1 lượt để bắt lỗi dịch máy / mnemonic vô nghĩa.
 
 ### Bước 6: Commit
+
 ```bash
 # trên nhánh be (vì content thuộc data/seed)
 git checkout be
@@ -78,6 +87,7 @@ git commit -m "feat(content): add lesson <topic>/<lesson> (20 words)"
 ```
 
 ### Bước 7: Seed (sau khi có Supabase)
+
 ```bash
 pnpm seed
 ```
@@ -142,12 +152,13 @@ Danh sách từ:
 
 ## 5. Tiến độ content
 
-> Cập nhật sau mỗi lesson hoàn thành.
+> Source-of-truth: **`docs/CONTENT_PLAN.md`** Phần 8. File này chỉ giữ pipeline/workflow.
 
-| Collection | Topic | Lesson | Số từ | Validate pass | Seeded? |
-|---|---|---|---|---|---|
-| oxford-3000 | daily-life | family | 20 | TODO | No |
-| ... | ... | ... | ... | ... | ... |
+| Collection  | Topic      | Lesson | Số từ | Validate | Seeded |
+| ----------- | ---------- | ------ | ----- | -------- | ------ |
+| oxford-3000 | daily-life | family | 5/20  | ⚠ IPA    | ✅     |
+
+Xem full breakdown của 10 topics × ~42 lesson MVP ở `docs/CONTENT_PLAN.md`.
 
 ---
 
