@@ -1,0 +1,9 @@
+{
+  "slug": "oxford-3000",
+  "name": "Oxford 3000",
+  "description": "3000 từ tiếng Anh thiết yếu nhất theo Oxford — phù hợp người học từ A1 đến B2.",
+  "level_min": "A1",
+  "level_max": "B2",
+  "is_official": true,
+  "cover_image": null
+}

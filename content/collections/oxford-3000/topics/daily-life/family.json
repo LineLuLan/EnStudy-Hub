@@ -1,0 +1,199 @@
+{
+  "slug": "family",
+  "name": "Family & Relationships",
+  "description": "Từ vựng về gia đình và các mối quan hệ thân thuộc.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "family",
+      "lemma": "family",
+      "ipa": "/ˈfæm.əl.i/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a group of people who are related to each other, especially parents and their children",
+          "meaning_vi": "gia đình; nhóm những người có quan hệ huyết thống hoặc hôn nhân",
+          "examples": [
+            {
+              "en": "My family lives in Hanoi, but I work in Ho Chi Minh City.",
+              "vi": "Gia đình tôi sống ở Hà Nội, nhưng tôi làm việc ở TP. Hồ Chí Minh."
+            },
+            {
+              "en": "She comes from a big family with five brothers and sisters.",
+              "vi": "Cô ấy đến từ một gia đình lớn với năm anh chị em."
+            },
+            {
+              "en": "We always have dinner together as a family on Sundays.",
+              "vi": "Chúng tôi luôn ăn tối cùng nhau như một gia đình vào Chủ nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["household", "relatives", "kin"],
+      "antonyms": [],
+      "collocations": [
+        "close family",
+        "family member",
+        "family tree",
+        "extended family",
+        "nuclear family"
+      ],
+      "etymology_hint": "From Latin 'familia' = household members including servants",
+      "mnemonic_vi": "FAM (phăm) + I + LY: nhớ 'PHĂM' như tiếng gọi cả nhà về ăn cơm — 'phăm phăm' í!"
+    },
+    {
+      "word": "mother",
+      "lemma": "mother",
+      "ipa": "/ˈmʌð.ər/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a female parent",
+          "meaning_vi": "mẹ, má; người phụ nữ sinh ra mình",
+          "examples": [
+            {
+              "en": "My mother taught me how to cook traditional Vietnamese dishes.",
+              "vi": "Mẹ tôi đã dạy tôi cách nấu các món ăn Việt Nam truyền thống."
+            },
+            {
+              "en": "She became a mother when she was twenty-five.",
+              "vi": "Cô ấy trở thành mẹ khi hai mươi lăm tuổi."
+            },
+            {
+              "en": "Mothers often worry about their children even when they grow up.",
+              "vi": "Các bà mẹ thường lo lắng cho con cái ngay cả khi chúng đã trưởng thành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mom", "mum", "mama"],
+      "antonyms": ["father"],
+      "collocations": [
+        "loving mother",
+        "single mother",
+        "working mother",
+        "mother tongue",
+        "mother country"
+      ],
+      "etymology_hint": "From Old English 'modor', shared with German 'Mutter'",
+      "mnemonic_vi": "MOM (mâm) + THER: nhớ MÂM cơm mẹ nấu — chữ M xuất hiện 2 lần như 2 vòng tay mẹ ôm con"
+    },
+    {
+      "word": "father",
+      "lemma": "father",
+      "ipa": "/ˈfɑː.ðər/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a male parent",
+          "meaning_vi": "bố, cha, ba; người đàn ông sinh ra mình",
+          "examples": [
+            {
+              "en": "My father works as an engineer at a tech company.",
+              "vi": "Bố tôi làm kỹ sư ở một công ty công nghệ."
+            },
+            {
+              "en": "He is a proud father of two children.",
+              "vi": "Anh ấy là một người cha tự hào của hai đứa con."
+            },
+            {
+              "en": "Like father, like son — they share the same passion for football.",
+              "vi": "Cha nào con nấy — họ cùng đam mê bóng đá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dad", "daddy", "papa"],
+      "antonyms": ["mother"],
+      "collocations": [
+        "proud father",
+        "biological father",
+        "father figure",
+        "founding father",
+        "father-in-law"
+      ],
+      "etymology_hint": "From Old English 'fæder', cognate with German 'Vater', Latin 'pater'",
+      "mnemonic_vi": "FA (pha) + THER (đờ): nhớ 'PHA' — bố pha trà mỗi sáng, bố là người 'pha' cho cả nhà"
+    },
+    {
+      "word": "son",
+      "lemma": "son",
+      "ipa": "/sʌn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person's male child",
+          "meaning_vi": "con trai (theo quan hệ huyết thống)",
+          "examples": [
+            {
+              "en": "Their eldest son is studying medicine in Australia.",
+              "vi": "Con trai cả của họ đang học y ở Úc."
+            },
+            {
+              "en": "He has two sons and a daughter.",
+              "vi": "Anh ấy có hai con trai và một con gái."
+            },
+            {
+              "en": "She raised her son alone after the divorce.",
+              "vi": "Cô ấy nuôi con trai một mình sau khi ly hôn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["boy", "child"],
+      "antonyms": ["daughter"],
+      "collocations": [
+        "only son",
+        "eldest son",
+        "youngest son",
+        "son-in-law",
+        "favorite son"
+      ],
+      "etymology_hint": "From Old English 'sunu', Proto-Germanic '*sunuz'",
+      "mnemonic_vi": "SON đọc gần như 'SÂN' — con trai chạy nhảy ngoài SÂN suốt ngày"
+    },
+    {
+      "word": "daughter",
+      "lemma": "daughter",
+      "ipa": "/ˈdɔː.tər/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person's female child",
+          "meaning_vi": "con gái (theo quan hệ huyết thống)",
+          "examples": [
+            {
+              "en": "Their daughter just graduated from university last month.",
+              "vi": "Con gái họ vừa tốt nghiệp đại học tháng trước."
+            },
+            {
+              "en": "He is very proud of his daughter's achievements.",
+              "vi": "Ông ấy rất tự hào về thành tích của con gái mình."
+            },
+            {
+              "en": "She is the only daughter in a family of four boys.",
+              "vi": "Cô ấy là con gái duy nhất trong gia đình có bốn anh em trai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["girl"],
+      "antonyms": ["son"],
+      "collocations": [
+        "only daughter",
+        "eldest daughter",
+        "youngest daughter",
+        "daughter-in-law",
+        "step-daughter"
+      ],
+      "etymology_hint": "From Old English 'dohtor', Proto-Germanic '*duhter'",
+      "mnemonic_vi": "DAU (đâu) + GH (gờ) + TER: nhớ 'ĐÂU TỜ' — đi ĐÂU con gái cũng cầm TỜ giấy về khoe điểm 10"
+    }
+  ]
+}
