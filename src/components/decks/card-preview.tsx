@@ -1,0 +1,112 @@
+'use client';
+
+import { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
+import type { Card } from '@/lib/db/schema';
+import { cn } from '@/lib/utils/cn';
+
+type Definition = {
+  meaning_en: string;
+  meaning_vi: string;
+  examples: Array<{ en: string; vi: string }>;
+};
+
+export function CardPreview({ card }: { card: Card }) {
+  const [open, setOpen] = useState(false);
+
+  const definitions = (card.definitions as Definition[]) ?? [];
+  const firstDef = definitions[0];
+
+  return (
+    <article className="rounded-lg border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className="flex w-full items-start justify-between gap-3 p-4 text-left"
+        aria-expanded={open}
+      >
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-baseline gap-2">
+            <span className="text-lg font-semibold">{card.word}</span>
+            {card.ipa && <span className="font-mono text-sm text-zinc-500">{card.ipa}</span>}
+            {card.pos && (
+              <span className="rounded bg-zinc-100 px-1.5 py-0.5 text-[10px] font-medium text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300">
+                {card.pos}
+              </span>
+            )}
+            {card.cefrLevel && (
+              <span className="rounded bg-blue-100 px-1.5 py-0.5 text-[10px] font-medium text-blue-900 dark:bg-blue-900/30 dark:text-blue-300">
+                {card.cefrLevel}
+              </span>
+            )}
+          </div>
+          {firstDef && (
+            <p className="mt-1 line-clamp-1 text-sm text-zinc-600 dark:text-zinc-400">
+              {firstDef.meaning_vi}
+            </p>
+          )}
+        </div>
+        <ChevronDown
+          className={cn(
+            'h-4 w-4 shrink-0 text-zinc-400 transition-transform',
+            open && 'rotate-180'
+          )}
+        />
+      </button>
+
+      {open && (
+        <div className="space-y-4 border-t border-zinc-200 px-4 pt-3 pb-4 text-sm dark:border-zinc-800">
+          {definitions.map((def, i) => (
+            <div key={i}>
+              <div className="text-zinc-900 dark:text-zinc-100">{def.meaning_en}</div>
+              <div className="mt-0.5 text-zinc-600 dark:text-zinc-400">{def.meaning_vi}</div>
+              <ul className="mt-2 space-y-1.5 text-xs">
+                {def.examples.map((ex, j) => (
+                  <li key={j} className="border-l-2 border-zinc-200 pl-3 dark:border-zinc-800">
+                    <div>{ex.en}</div>
+                    <div className="text-zinc-500">{ex.vi}</div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+
+          {(card.synonyms?.length || card.antonyms?.length || card.collocations?.length) && (
+            <div className="space-y-1 text-xs text-zinc-500">
+              {card.synonyms && card.synonyms.length > 0 && (
+                <div>
+                  <span className="font-medium text-zinc-700 dark:text-zinc-300">Đồng nghĩa:</span>{' '}
+                  {card.synonyms.join(', ')}
+                </div>
+              )}
+              {card.antonyms && card.antonyms.length > 0 && (
+                <div>
+                  <span className="font-medium text-zinc-700 dark:text-zinc-300">Trái nghĩa:</span>{' '}
+                  {card.antonyms.join(', ')}
+                </div>
+              )}
+              {card.collocations && card.collocations.length > 0 && (
+                <div>
+                  <span className="font-medium text-zinc-700 dark:text-zinc-300">
+                    Cụm thường gặp:
+                  </span>{' '}
+                  {card.collocations.join(', ')}
+                </div>
+              )}
+            </div>
+          )}
+
+          {card.mnemonicVi && (
+            <div className="rounded bg-amber-50 px-3 py-2 text-xs text-amber-900 dark:bg-amber-900/20 dark:text-amber-200">
+              <span className="font-medium">Mẹo nhớ:</span> {card.mnemonicVi}
+            </div>
+          )}
+
+          {card.etymologyHint && (
+            <div className="text-xs text-zinc-500 italic">{card.etymologyHint}</div>
+          )}
+        </div>
+      )}
+    </article>
+  );
+}
