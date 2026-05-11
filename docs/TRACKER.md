@@ -57,14 +57,15 @@
 
 ## Tuần 2 — Content & Seed
 
-- [ ] Gen content 60-90 từ qua 3 lesson pilot (Claude desktop)
-- [ ] `scripts/validate-content.ts` hoàn thiện (gọi dictionaryapi.dev)
-- [ ] `scripts/seed.ts` hoàn thiện (đọc JSON → upsert Supabase)
-- [ ] CRUD collections/topics/lessons (admin UI đơn giản)
-- [ ] Page `/decks` list collections
-- [ ] Page `/decks/[col]/[topic]/[lesson]` chi tiết + cards
-- [ ] Lesson enrollment ("Thêm vào học")
-- [ ] Card detail modal
+- [x] `scripts/seed.ts` upsert thật vào Supabase (Drizzle tx; idempotent; delete-replace cards per lesson; verify counts). Live run 2026-05-12: 1/1/1/5 (collections/topics/lessons/cards)
+- [x] `scripts/validate-content.ts` smoke-test với `family.json` — call dictionaryapi.dev, throttle 800ms, write `docs/CONTENT_REPORT.md`. 5/5 cards IPA mismatch (stylistic Oxford vs dict) — manual review pending
+- [ ] **CHỜ USER**: Gen 15 cards còn lại cho lesson `family` + 2 lesson nữa qua Claude desktop (target ~60-90 từ tổng cộng)
+- [ ] **CHỜ USER**: review `docs/CONTENT_REPORT.md`, quyết định pick IPA style (giữ Oxford hay theo dictionaryapi)
+- [ ] CRUD collections/topics/lessons (admin UI đơn giản) — defer post-MVP, content gen offline đủ
+- [ ] Page `/decks` list collections (FE work)
+- [ ] Page `/decks/[col]/[topic]/[lesson]` chi tiết + cards (FE work)
+- [ ] Lesson enrollment ("Thêm vào học") — server action + DB write
+- [ ] Card detail modal (FE work)
 
 ---
 
