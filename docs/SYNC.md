@@ -7,10 +7,10 @@
 
 | Branch | Last commit (short SHA) | Last sync FROM dev | Last merge TO dev | Notes |
 |---|---|---|---|---|
-| main | `5433a6f` | — | — | initial commit only (`README.md`) |
-| dev  | (cập nhật sau commit) | base | base | Phase 0 scaffold đang làm |
-| be   | `9ba2508` | 2026-05-11 (init) | — | mới tạo, chưa work |
-| fe   | `9ba2508` | 2026-05-11 (init) | — | mới tạo, chưa work |
+| main | `5433a6f` | — | — | initial commit only (`README.md`) — chưa nhận Phase 0 |
+| dev  | `dd778af` | base | base | Phase 0 foundation commit |
+| be   | `bea1a25` | 2026-05-11 (Phase 0) | — | synced với dev sau Phase 0 |
+| fe   | `3206fd3` | 2026-05-11 (Phase 0) | — | synced với dev sau Phase 0 |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -67,3 +67,6 @@ git checkout fe
 | 2026-05-11 | init | main → dev | `9ba2508` | tạo dev, commit blueprint |
 | 2026-05-11 | init | dev → be | `9ba2508` | tạo be |
 | 2026-05-11 | init | dev → fe | `9ba2508` | tạo fe |
+| 2026-05-11 | commit | (work) → dev | `dd778af` | Phase 0 foundation: workflow + docs + scaffold + content pilot (66 files) |
+| 2026-05-11 | sync | dev → be | `bea1a25` | merge --no-ff |
+| 2026-05-11 | sync | dev → fe | `3206fd3` | merge --no-ff |
