@@ -32,16 +32,24 @@
 
 ## Tuần 1 — Foundation (blueprint)
 
-- [ ] Supabase project tạo + keys cấp
-- [ ] `pnpm db:gen` + `pnpm db:push` → tables tạo
-- [ ] RLS policies SQL (blueprint Phần 3.2) chạy thủ công Supabase SQL editor
-- [ ] Auth magic link + Google OAuth
-- [ ] `middleware.ts` protect `(app)` routes
-- [ ] Layout shell: sidebar + topbar (shadcn)
-- [ ] Theme provider (next-themes) + Geist fonts
-- [ ] Command palette skeleton (cmdk)
-- [ ] Deploy Vercel
-- [ ] Merge `dev → main`, tag `v0.1.0-foundation`
+- [ ] **CHỜ USER**: Supabase project tạo + 4 keys cấp (xem `API_KEYS.md`)
+- [x] `pnpm db:gen` → migration `src/lib/db/migrations/0000_breezy_swarm.sql` (11 tables, FKs, indexes)
+- [ ] **CHỜ USER**: `pnpm db:push` (cần DATABASE_URL)
+- [x] RLS SQL ready-to-run ở `src/lib/db/rls.sql` (paste vào Supabase SQL Editor)
+- [ ] **CHỜ USER**: chạy `rls.sql` trên Supabase
+- [x] Auth magic link + Google OAuth: `src/features/auth/actions.ts` (signInWithMagicLink, signInWithGoogle, signOut)
+- [x] OAuth callback: `src/app/auth/callback/route.ts`
+- [x] Profile bootstrap fallback: `src/features/auth/profile.ts`
+- [x] `middleware.ts` protect `(app)` routes (Phase 0 đã làm, no-op nếu env chưa cấp)
+- [x] Layout shell: sidebar + topbar (`src/components/layout/{sidebar,topbar}.tsx`)
+- [x] Theme provider (next-themes) wired ở `app/layout.tsx`
+- [x] Toaster (sonner) provider
+- [x] Geist fonts ở root layout
+- [x] Command palette (cmdk, ⌘K) ở `src/components/command-palette.tsx`
+- [x] Login page UI: `src/app/(auth)/login/page.tsx` + `src/components/auth/login-form.tsx`
+- [x] UI primitives shadcn-style: button, input, label, separator, dropdown-menu
+- [ ] **CHỜ USER**: deploy Vercel (Optional)
+- [ ] Merge `dev → main`, tag `v0.1.0-foundation` (sau khi user verify auth flow real)
 
 ---
 

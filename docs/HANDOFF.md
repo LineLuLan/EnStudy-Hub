@@ -5,6 +5,65 @@
 
 ---
 
+## 2026-05-11 — dev — Claude Opus 4.7 (Tuần 1 done — chờ Supabase keys)
+
+**Đã hoàn thành (cycle BE/FE → dev → sync):**
+
+UI shell (commit `c0ca891` trên dev, đã sync xuống be+fe):
+
+- 5 UI primitives shadcn-style: button (cva variants), input, label, separator, dropdown-menu
+- Providers: ThemeProvider (next-themes class strategy), Toaster (sonner)
+- Sidebar (active-route highlight, brand), Topbar (search trigger, theme toggle, user menu)
+- CommandPalette ⌘K (cmdk) ở root layout — navigate 5 trang chính
+- Deps: `@radix-ui/react-{slot,dropdown-menu,label,separator}`
+
+BE work (commit `486498b` trên be → merge `8bf9121` lên dev):
+
+- `pnpm db:gen` → `src/lib/db/migrations/0000_breezy_swarm.sql` (11 tables, FKs, indexes)
+- `src/lib/db/rls.sql` — RLS policies + trigger `handle_new_user` (paste vào Supabase SQL Editor)
+- `src/features/auth/actions.ts`: signInWithMagicLink (Zod email), signInWithGoogle, signOut
+- `src/features/auth/profile.ts`: ensureProfile fallback (idempotent insert profiles + user_stats)
+- `src/app/auth/callback/route.ts`: exchange ?code= → session, redirect ?next= hoặc /dashboard
+
+FE work (commit `b41ace0` trên fe → merge `675b08e` lên dev):
+
+- `src/components/auth/login-form.tsx` (client): email input + magic link submit (useFormStatus pending), Google OAuth button, success state "Đã gửi", toast on error
+- `src/app/(auth)/login/page.tsx` (server): async searchParams, branded header, render LoginForm
+
+**Trạng thái nhánh:**
+| Branch | SHA |
+|---|---|
+| main | `5433a6f` (vẫn untouched) |
+| dev | `675b08e` |
+| be | `d8f4227` |
+| fe | `b41ace0` |
+
+**Verified locally:**
+
+- pnpm typecheck/lint: 0 errors mỗi commit
+- pnpm dev: /login, /dashboard, /review, /decks, /stats, /settings, /auth/callback đều OK (callback redirect đúng khi thiếu code)
+
+**Blocker / chờ user (TUYỆT ĐỐI):**
+
+1. **Cấp Supabase project + 4 keys** trong `.env.local` (xem `docs/API_KEYS.md` Phần 1):
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY`
+   - `DATABASE_URL` (pooler URL, port 6543)
+2. Chạy `pnpm db:push` để apply migration `0000_breezy_swarm.sql` lên Supabase.
+3. Mở Supabase Dashboard → SQL Editor → paste `src/lib/db/rls.sql` → Run.
+4. (Optional) Setup Google OAuth client + paste credentials vào Supabase Auth → Providers → Google.
+5. Test auth flow thực: `/login` → enter email → check inbox → click magic link → land on `/dashboard`.
+
+**Next step gợi ý cho session AI sau:**
+
+1. Hỏi user đã cấp Supabase + chạy `db:push` + `rls.sql` chưa.
+2. Nếu xong → test auth flow real, fix nếu lỗi (thường lỗi redirect URL hoặc Auth → URL Configuration).
+3. Sau khi auth pass: merge `dev → main`, tag `v0.1.0-foundation`.
+4. Tiếp Tuần 2 (Content & Seed) trên `be`: hoàn thiện `scripts/seed.ts` upsert thật + admin CRUD page /decks.
+
+---
+
 ## 2026-05-11 — dev — Claude Opus 4.7 (Phase 0 verify pass + bắt đầu Tuần 1)
 
 **Verify Phase 0 trên máy user (Windows / pnpm 9):**
