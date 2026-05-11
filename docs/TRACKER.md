@@ -5,24 +5,28 @@
 
 ---
 
-## Phase 0 — Foundation (current)
+## Phase 0 — Foundation ✅ DONE
 
 **Mục tiêu**: repo có khung, docs, scaffold, content pilot — không cần Supabase chạy được `pnpm dev`.
 
 - [x] Tạo nhánh `dev`, `be`, `fe` từ `main` + push remote
-- [x] `.gitignore` + `docs/` (9 file)
-- [~] Next.js 15 + TS strict + Tailwind v4 scaffold trong root
-- [ ] Config files: `tsconfig`, `next.config`, `tailwind`, `drizzle`, `eslint`, `prettier`, `commitlint`
-- [ ] Folder skeleton `src/{app,features,components,lib,stores}` theo blueprint 2.2
-- [ ] Drizzle schema full (blueprint 3.1) trong `src/lib/db/schema.ts`
-- [ ] Supabase clients (`server.ts`, `client.ts`, `middleware.ts`)
-- [ ] `src/lib/env.ts` Zod-validated env + `.env.example`
-- [ ] Husky + lint-staged + commitlint
-- [ ] Content wordlist: download Oxford 3000 CSV
-- [ ] Pilot lesson `daily-life/family` (20 từ) — JSON file
-- [ ] `scripts/seed.ts` + `scripts/validate-content.ts` (stubs)
-- [ ] Commit `dev` → merge `dev → be`, `dev → fe` → update `SYNC.md`
-- [ ] **CHỜ USER**: cấp Supabase URL + 3 keys (xem `API_KEYS.md`)
+- [x] `.gitignore` + `docs/` (9 file: README, TRACKER, HANDOFF, SYNC, DECISIONS, API_KEYS, CONTENT_PIPELINE, CONTRIBUTING, ENVIRONMENT, GLOSSARY)
+- [x] Next.js 15 + TS strict + Tailwind v4 scaffold trong root (package.json + tsconfig + next.config + postcss + drizzle config)
+- [x] Config files: `tsconfig`, `next.config`, `tailwind`/`postcss`, `drizzle`, `eslint`, `prettier`, `commitlint`
+- [x] Folder skeleton `src/{app,features,components,lib,stores}` theo blueprint 2.2
+- [x] Drizzle schema full (blueprint 3.1) trong `src/lib/db/schema.ts`
+- [x] Supabase clients (`server.ts`, `client.ts`, `middleware.ts`) via `@supabase/ssr`
+- [x] `src/lib/env.ts` Zod-validated env + `.env.example`
+- [x] Husky `pre-commit` (lint-staged) + `commit-msg` (commitlint)
+- [x] Content wordlist sample (40-word subset Oxford 3000) ở `content/wordlists/oxford-3000-sample.csv`
+- [x] Pilot lesson `daily-life/family` — **5 cards** (family, mother, father, son, daughter, full IPA/VI/examples/mnemonic)
+- [x] `scripts/seed.ts` (dry-run) + `scripts/validate-content.ts` (cross-check dictionaryapi.dev) + `scripts/sync-branches.ps1`
+- [x] Commit `dev` → merge `dev → be`, `dev → fe` → update `SYNC.md`
+- [x] PR template `.github/PULL_REQUEST_TEMPLATE.md`
+- [ ] **CHỜ USER**: chạy `pnpm install` + `pnpm dev` verify (xem `docs/ENVIRONMENT.md`)
+- [ ] **CHỜ USER**: cấp Supabase URL + 3 keys (xem `docs/API_KEYS.md`) để vào Tuần 1
+- [ ] **CHỜ USER**: bật branch protection GitHub cho `main` (require PR)
+- [ ] **CHỜ USER**: gen thêm 15 cards còn lại cho lesson `family` qua Claude desktop (đã có 5, cần thêm 15 để đủ 20 theo blueprint)
 
 ---
 

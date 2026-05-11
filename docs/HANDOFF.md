@@ -5,27 +5,59 @@
 
 ---
 
-## 2026-05-11 — dev — Claude Opus 4.7 (Phase 0 setup)
+## 2026-05-11 — dev — Claude Opus 4.7 (Phase 0 hoàn thành)
 
-**Đã làm:**
-- Tạo nhánh `dev`, `be`, `fe` từ `main`, push remote.
-- Commit `VOCAB_APP_BLUEPRINT.md` vào `dev` (was untracked).
-- Tạo `.gitignore` (Next.js + env + AI tools + content reports).
-- Tạo `docs/` với 9 file: README, TRACKER, HANDOFF, SYNC, DECISIONS, API_KEYS, CONTENT_PIPELINE, CONTRIBUTING, ENVIRONMENT, GLOSSARY.
+**Đã làm (Phase 0 foundation):**
+- Tạo + push 3 nhánh `dev`, `be`, `fe` (model 4-branch, không động `main`).
+- Commit `VOCAB_APP_BLUEPRINT.md` lên `dev`.
+- `docs/` (9 file): README, TRACKER, HANDOFF, SYNC, DECISIONS, API_KEYS, CONTENT_PIPELINE, CONTRIBUTING, ENVIRONMENT, GLOSSARY.
+- Codebase Next.js 15 + TS strict + Tailwind v4: package.json, tsconfig, next.config, postcss, drizzle.config.
+- Tooling: ESLint, Prettier (+ prettier-plugin-tailwindcss), Husky (pre-commit + commit-msg), commitlint, lint-staged.
+- `.env.example` đầy đủ keys + `.gitignore` + `.nvmrc` (node 20).
+- `src/lib/db/schema.ts` — FULL theo blueprint 3.1 (collections/topics/lessons/cards + profiles/userLessons/userCards/reviewLogs/studySessions/userStats + enums).
+- `src/lib/supabase/{server,client,middleware}.ts` via `@supabase/ssr` (Phase-0 no-op nếu env chưa cấp).
+- `src/lib/env.ts` Zod-validated, `getServerEnv()` guard chống import vào client bundle.
+- `src/lib/utils/{cn,dates,ids}.ts` + `src/lib/auth/session.ts`.
+- `src/middleware.ts` + `src/app/{layout,page,globals.css}` (Geist fonts, Tailwind v4 syntax).
+- Routes stubs: `(auth)/login` + `(app)/{layout,dashboard,review,decks,stats,settings}`.
+- `src/features/vocab/content-schema.ts` (Zod schemas cho JSON content).
+- Folder skeleton `src/{features,components,stores}` với `.gitkeep`.
+- `scripts/seed.ts` (dry-run) + `scripts/validate-content.ts` (cross-check dictionaryapi.dev) + `scripts/sync-branches.ps1`.
+- Content pilot: Oxford 3000 collection + Daily Life topic + family lesson **5 cards** (family, mother, father, son, daughter).
+- `.github/PULL_REQUEST_TEMPLATE.md`.
+- Commit Phase 0 trên `dev` → merge xuống `be` + `fe` qua `--no-ff` → push cả 3 nhánh.
+
+**Trạng thái nhánh (sau Phase 0):**
+| Branch | SHA |
+|---|---|
+| main | `5433a6f` (chưa nhận Phase 0) |
+| dev  | `dd778af` |
+| be   | `bea1a25` |
+| fe   | `3206fd3` |
 
 **Đang làm dở:**
-- Next.js scaffold + config files trong root (chưa init `package.json`).
+- Chưa chạy `pnpm install` + `pnpm dev` để verify (chạy local trên máy user, hook husky cần `prepare`).
+- 15 cards còn lại của lesson `family` (đã có 5/20) — user gen qua Claude desktop khi rảnh.
 
 **Blocker / chờ user:**
-- **Supabase project keys** (4): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `DATABASE_URL`. Cần để chạy `pnpm db:push` ở Tuần 1. Xem hướng dẫn lấy ở `API_KEYS.md`.
+1. **Chạy `pnpm install`** trên máy local — kiểm tra deps cài được, Husky setup hook.
+2. **Chạy `pnpm dev`** — verify localhost:3000 hiển thị landing page.
+3. **Chạy `pnpm typecheck` + `pnpm lint` + `pnpm build`** — sanity check.
+4. **Cấp Supabase keys (4)** — xem `docs/API_KEYS.md`. Cần để vào Tuần 1.
+5. **Bật branch protection trên GitHub** cho `main` (Settings → Branches → require PR, no force push).
+6. (Optional) **Tải Oxford 3000 CSV đầy đủ** thay sample (40 từ).
 
-**Next step gợi ý:**
-1. Đọc `TRACKER.md` mục Phase 0 cho task còn `[ ]`.
-2. Tiếp tục Next.js scaffold: tạo `package.json`, `tsconfig.json`, `next.config.ts`, `tailwind.config.ts`, `src/app/layout.tsx`, etc.
-3. Sau khi `pnpm install` + `pnpm dev` chạy được → merge `dev → be` + `dev → fe`.
+**Next step gợi ý cho session AI sau:**
+1. Hỏi user đã chạy verify chưa.
+2. Nếu đã có Supabase keys → vào Tuần 1: `pnpm db:gen` + `pnpm db:push` + chạy SQL RLS policies blueprint 3.2 trên Supabase SQL Editor.
+3. Tiếp Tuần 1: auth magic link + Google OAuth + sidebar/topbar component thực (shadcn install).
 
-**Decisions taken:**
-- Phase 0 scaffold làm full trên `dev` (không split `be`/`fe`), lý do: hạ tầng dùng chung. Tách BE/FE từ Tuần 2.
-- Schema Drizzle copy full từ blueprint 3.1 ngay từ đầu (không làm dần) — tránh rebase migration sau.
+**Decisions taken (xem `docs/DECISIONS.md`):**
+- ADR-001: 4-branch model.
+- ADR-002: Phase 0 scaffold full trên `dev`, không split BE/FE.
+- ADR-003: Schema full ngay Phase 0.
+- ADR-004: Content gen offline (không LLM runtime).
+- ADR-005: Cross-check content qua Free Dictionary API.
+- ADR-006: Tham khảo cấu trúc luyentu.com, không copy nội dung.
 
 ---
