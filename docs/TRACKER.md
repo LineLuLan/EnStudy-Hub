@@ -57,16 +57,20 @@
 
 ## Tuần 2 — Content & Seed
 
-- [x] `scripts/seed.ts` upsert thật vào Supabase (Drizzle tx; idempotent; delete-replace cards per lesson; verify counts). Live run 2026-05-12: 1/1/1/5 (collections/topics/lessons/cards)
-- [x] `scripts/validate-content.ts` smoke-test với `family.json` — call dictionaryapi.dev, throttle 800ms, write `docs/CONTENT_REPORT.md`. 5/5 cards IPA mismatch (stylistic Oxford vs dict) — manual review pending
-- [x] **Content master plan**: `docs/CONTENT_PLAN.md` — 10 topics, 42 lessons MVP, ~840 cards, phased P0-P4 với word list sẵn sàng paste vào Claude desktop
-- [ ] **CHỜ USER**: gen P0 batch (3 lesson, ~55 cards): `daily-life/family` (+15), `daily-life/food-meals` (20), `daily-life/home-rooms` (20) qua Claude desktop
+- [x] `scripts/seed.ts` upsert thật vào Supabase (Drizzle tx; idempotent; delete-replace cards per lesson; verify counts). Live run 2026-05-12: 1/1/3/60
+- [x] `scripts/validate-content.ts` smoke-test với `family.json` — call dictionaryapi.dev, throttle 800ms, write `docs/CONTENT_REPORT.md`. 5/5 cards IPA mismatch (stylistic Oxford vs dict)
+- [x] **Content master plan**: `docs/CONTENT_PLAN.md` — 10 topics, 42 lessons MVP, ~840 cards, phased P0-P4
+- [x] **P0 batch DONE** (2026-05-12, 3 lesson / 60 cards): `daily-life/family` (20), `daily-life/food-meals` (20), `daily-life/home-rooms` (20)
+- [x] Page `/decks` list collections (RSC + Drizzle queries)
+- [x] Page `/decks/[col]` list topics + lessons với "Đang học" badge
+- [x] Page `/decks/[col]/[topic]/[lesson]` detail + CardPreview collapsible
+- [x] Lesson enrollment ("Thêm vào học") — server action `enrollLesson` insert user_lessons + bulk user_cards với FSRS defaults
+- [~] **DEBUG NGÀY MAI**: `/decks` UI render "missing required error components, refreshing..." trên dev server (port 3001 do PID 1736 chiếm port 3000). Xem HANDOFF entry 2026-05-12 fe → dev → be cho hypothesis + fix steps
+- [~] **UI polish PENDING**: typography, spacing, mobile responsive, dark mode contrast, IPA font, card density, empty state, skeleton loading
+- [ ] **CHỜ USER**: gen P1 batch (7 lesson, 140 cards): clothes-appearance, body-health, daily-routine, people/personality, people/emotions, time-numbers/time-dates, time-numbers/numbers-quantities — xem `docs/CONTENT_PLAN.md` Phần 5
 - [ ] **CHỜ USER**: review `docs/CONTENT_REPORT.md`, quyết định pick IPA style (giữ Oxford hay theo dictionaryapi)
-- [ ] CRUD collections/topics/lessons (admin UI đơn giản) — defer post-MVP, content gen offline đủ
-- [ ] Page `/decks` list collections (FE work)
-- [ ] Page `/decks/[col]/[topic]/[lesson]` chi tiết + cards (FE work)
-- [ ] Lesson enrollment ("Thêm vào học") — server action + DB write
-- [ ] Card detail modal (FE work)
+- [-] CRUD collections/topics/lessons (admin UI) — skip, content gen offline đủ MVP
+- [ ] Card detail modal (FE work) — hiện đang collapsible inline trong CardPreview, modal có thể làm sau nếu cần
 
 ---
 

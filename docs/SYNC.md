@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                   |
-| ------ | ----------------------- | ------------------------ | ---------------------- | ------------------------------------------------------- |
-| main   | `5fbd1c0`               | —                        | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag         |
-| dev    | `8eac9aa`               | base                     | 2026-05-12 (`72e1229`) | Tuần 2 BE merged (seed.ts upsert live)                  |
-| be     | `72e1229`               | 2026-05-12 (post v0.1.0) | 2026-05-12 (`72e1229`) | Tuần 2 BE: seed.ts upsert thật + validate-content smoke |
-| fe     | `3db6e43`               | 2026-05-12 (Tuần 2 seed) | 2026-05-11 (`b41ace0`) | sync Tuần 2 BE, sẵn sàng build `/decks` UI khi có data  |
+| Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                   |
+| ------ | ----------------------- | ----------------------- | ---------------------- | ------------------------------------------------------- |
+| main   | `5fbd1c0`               | —                       | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag         |
+| dev    | `6bc6448`               | base                    | 2026-05-12 (`0156c17`) | Tuần 2 FE merged (/decks built, UI polish PENDING)      |
+| be     | `354d89a`               | 2026-05-12 (Tuần 2 FE)  | 2026-05-12 (`2bb295e`) | P0 content done (60 cards) + sync /decks                |
+| fe     | `0156c17`               | 2026-05-12 (P0 content) | 2026-05-12 (`0156c17`) | Tuần 2 FE /decks — chờ debug "missing error components" |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -94,3 +94,15 @@ git checkout fe
 | 2026-05-12 | commit | (Tuần 2 BE) → be  | `72e1229` | feat(seed): scripts/seed.ts upsert thật vào Supabase                      |
 | 2026-05-12 | merge  | be → dev          | `8eac9aa` | bring Tuần 2 seed work back to dev                                        |
 | 2026-05-12 | sync   | dev → fe          | `3db6e43` | sync Tuần 2 BE để fe sẵn sàng build /decks UI khi có data                 |
+| 2026-05-12 | commit | (family+15) → be  | `83dc6e1` | feat(content): family lesson +15 cards (đủ 20)                            |
+| 2026-05-12 | merge  | be → dev          | `f4dbc0f` | bring family 20 cards to dev                                              |
+| 2026-05-12 | sync   | dev → fe          | `f831cf6` | sync family 20 cards                                                      |
+| 2026-05-12 | commit | (food-meals) → be | `3a2eb17` | feat(content): add lesson daily-life/food-meals (20 cards)                |
+| 2026-05-12 | merge  | be → dev          | `edb90f4` | bring food-meals to dev                                                   |
+| 2026-05-12 | sync   | dev → fe          | `97a7a68` | sync food-meals                                                           |
+| 2026-05-12 | commit | (home-rooms) → be | `2bb295e` | feat(content): add lesson daily-life/home-rooms (20 cards) — P0 done      |
+| 2026-05-12 | merge  | be → dev          | `5bda7a9` | bring home-rooms to dev — P0 batch 60 cards live                          |
+| 2026-05-12 | sync   | dev → fe          | `d857f72` | sync home-rooms — P0 done                                                 |
+| 2026-05-12 | commit | (decks UI) → fe   | `0156c17` | feat(decks): list collections + topics + lessons + enroll                 |
+| 2026-05-12 | merge  | fe → dev          | `6bc6448` | bring /decks FE to dev                                                    |
+| 2026-05-12 | sync   | dev → be          | `354d89a` | sync /decks FE (post Tuần 2 FE)                                           |
