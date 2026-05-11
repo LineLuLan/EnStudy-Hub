@@ -15,11 +15,13 @@
 **Quyết định**: 4 nhánh long-running. BE/FE → `dev` (merge commit, no squash). `dev → main` khi release. Không rebase.
 
 **Lý do**:
+
 - History rõ ràng "BE và FE meet ở đâu" → dễ debug regression.
 - Tách prompt cho AI: 1 session chỉ focus 1 nhánh, đỡ loãng context.
 - `dev` làm staging trước khi production.
 
 **Hậu quả**:
+
 - Phải sync `dev → be`/`fe` thường xuyên (mỗi sau merge vào dev) tránh divergence.
 - Có overhead so với GitHub Flow đơn giản nhưng phù hợp với mô hình AI-assisted.
 
@@ -65,6 +67,7 @@
 **Quyết định**: Mọi content vào `content/collections/*.json`, version trong git. `scripts/seed.ts` upsert vào DB. Không có code path nào gọi Anthropic/OpenAI API runtime.
 
 **Lý do**:
+
 - Chi phí $0.
 - Deterministic, reproducible.
 - Có thể review content qua git diff trước khi merge.
@@ -81,6 +84,7 @@
 **Bối cảnh**: LLM gen có thể sai IPA / POS / nghĩa cơ bản. Cần guard rail.
 
 **Quyết định**: Sau khi gen JSON, chạy `scripts/validate-content.ts`:
+
 1. Validate JSON schema bằng Zod.
 2. Gọi `https://api.dictionaryapi.dev/api/v2/entries/en/<word>` (free, no key) — so IPA + POS.
 3. Output `docs/CONTENT_REPORT.md` (gitignored): từ nào lệch để user review thủ công.
@@ -88,6 +92,29 @@
 **Lý do**: 2 nguồn (LLM + reference dict) > 1 nguồn. Tăng độ tin cậy mà không tốn xu nào.
 
 **Hậu quả**: Cần network khi validate. Có thể cache response. Free Dictionary API không có rate limit công bố nhưng nên throttle ~1 req/s.
+
+---
+
+## ADR-007 — `auth.users` declared in schema.ts nhưng KHÔNG migrate
+
+**Date**: 2026-05-11
+**Status**: Accepted
+
+**Bối cảnh**: Drizzle pgSchema('auth').table('users') ở `src/lib/db/schema.ts` được dùng làm FK target cho profiles/userCards/.... Drizzle-kit generate tự sinh `CREATE TABLE IF NOT EXISTS "auth"."users"` trong SQL migration. Supabase đã quản lý `auth.users` thuộc schema lock — pooler user không có permission tạo bảng trong schema `auth` → `pnpm db:migrate` fail với `permission denied for schema auth`.
+
+**Quyết định**: Giữ `authUsers` declaration trong `schema.ts` (cần cho FK typing) NHƯNG manual-edit `0000_breezy_swarm.sql` xoá block `CREATE TABLE "auth"."users"`. FK constraints đến `auth.users(id)` vẫn resolve được vì bảng đã tồn tại từ Supabase Auth.
+
+**Lý do**:
+
+- Drizzle ORM chưa support `external: true` cho pgSchema → không có cách clean để bảo "table này tồn tại sẵn, đừng tạo".
+- Alternative (xoá authUsers khỏi schema.ts + dùng raw SQL FK) làm mất type safety và phức tạp hơn.
+- Manual edit chỉ 1 lần khi initial migration; future migrations chỉ diff vs snapshot nên không re-emit CREATE.
+
+**Hậu quả**:
+
+- Nếu sau này regen `0000_breezy_swarm.sql` (vd `drizzle-kit drop` + `generate`), phải xoá block auth.users CREATE lại.
+- Note inline đã thêm trong SQL file để remind.
+- Khi drizzle-orm hỗ trợ external table flag → migrate sang.
 
 ---
 
