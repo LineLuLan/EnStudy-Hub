@@ -23,24 +23,24 @@
 - [x] `scripts/seed.ts` (dry-run) + `scripts/validate-content.ts` (cross-check dictionaryapi.dev) + `scripts/sync-branches.ps1`
 - [x] Commit `dev` → merge `dev → be`, `dev → fe` → update `SYNC.md`
 - [x] PR template `.github/PULL_REQUEST_TEMPLATE.md`
-- [ ] **CHỜ USER**: chạy `pnpm install` + `pnpm dev` verify (xem `docs/ENVIRONMENT.md`)
-- [ ] **CHỜ USER**: cấp Supabase URL + 3 keys (xem `docs/API_KEYS.md`) để vào Tuần 1
-- [ ] **CHỜ USER**: bật branch protection GitHub cho `main` (require PR)
-- [ ] **CHỜ USER**: gen thêm 15 cards còn lại cho lesson `family` qua Claude desktop (đã có 5, cần thêm 15 để đủ 20 theo blueprint)
+- [x] `pnpm install` + `pnpm dev` verify (2026-05-11, commit `f8cc446`)
+- [x] Cấp Supabase URL + 4 keys (verified 2026-05-12 qua auth flow real)
+- [ ] **CHỜ USER**: bật branch protection GitHub cho `main` (require PR) — làm sau, không block ship
+- [ ] **CHỜ USER**: gen thêm 15 cards còn lại cho lesson `family` qua Claude desktop (đã có 5, cần thêm 15 để đủ 20 theo blueprint) — đẩy sang Tuần 2
 
 ---
 
-## Tuần 1 — Foundation (blueprint)
+## Tuần 1 — Foundation ✅ DONE (2026-05-12)
 
-- [ ] **CHỜ USER**: Supabase project tạo + 4 keys cấp (xem `API_KEYS.md`)
+- [x] Supabase project tạo + 4 keys cấp (2026-05-12)
 - [x] `pnpm db:gen` → migration `src/lib/db/migrations/0000_breezy_swarm.sql` (11 tables, FKs, indexes)
-- [ ] **CHỜ USER**: `pnpm db:push` (cần DATABASE_URL)
-- [x] RLS SQL ready-to-run ở `src/lib/db/rls.sql` (paste vào Supabase SQL Editor)
-- [ ] **CHỜ USER**: chạy `rls.sql` trên Supabase
+- [x] `pnpm db:push` apply migration lên Supabase (fix env loading + skip auth.users CREATE, commit `5c47f9c`)
+- [x] RLS SQL ready-to-run ở `src/lib/db/rls.sql`
+- [x] Chạy `rls.sql` trên Supabase (2026-05-12: 19 policies + trigger `on_auth_user_created` enabled)
 - [x] Auth magic link + Google OAuth: `src/features/auth/actions.ts` (signInWithMagicLink, signInWithGoogle, signOut)
 - [x] OAuth callback: `src/app/auth/callback/route.ts`
 - [x] Profile bootstrap fallback: `src/features/auth/profile.ts`
-- [x] `middleware.ts` protect `(app)` routes (Phase 0 đã làm, no-op nếu env chưa cấp)
+- [x] `middleware.ts` protect `(app)` routes
 - [x] Layout shell: sidebar + topbar (`src/components/layout/{sidebar,topbar}.tsx`)
 - [x] Theme provider (next-themes) wired ở `app/layout.tsx`
 - [x] Toaster (sonner) provider
@@ -48,8 +48,10 @@
 - [x] Command palette (cmdk, ⌘K) ở `src/components/command-palette.tsx`
 - [x] Login page UI: `src/app/(auth)/login/page.tsx` + `src/components/auth/login-form.tsx`
 - [x] UI primitives shadcn-style: button, input, label, separator, dropdown-menu
-- [ ] **CHỜ USER**: deploy Vercel (Optional)
-- [ ] Merge `dev → main`, tag `v0.1.0-foundation` (sau khi user verify auth flow real)
+- [x] **Auth flow verified real** (2026-05-12): magic link → `/auth/callback` → `/dashboard`, trigger `handle_new_user` insert đúng `profiles` + `user_stats` (IDs match `auth.users.id`)
+- [x] Merge `dev → main`, tag `v0.1.0-foundation` (2026-05-12)
+- [-] Deploy Vercel — skip Tuần 1, đẩy về Tuần 6 release
+- [-] Google OAuth credentials — skip, magic link đủ MVP, làm sau nếu cần
 
 ---
 

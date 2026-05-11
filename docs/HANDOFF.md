@@ -5,6 +5,66 @@
 
 ---
 
+## 2026-05-12 — dev → main — Claude Opus 4.7 (Tuần 1 SHIP — `v0.1.0-foundation`)
+
+**Mục tiêu hoàn thành**: verify auth flow real end-to-end với Supabase backend, đóng Tuần 1, tag release foundation.
+
+**Verify Supabase backend (manual SQL trên Dashboard):**
+
+- `pg_policies` schema `public`: **19 policies** trên 10 tables (≥ 12 expected) ✓
+- `pg_trigger` `on_auth_user_created`: 1 row, `tgenabled = 'O'` ✓
+- Auth → URL Configuration: Site URL `http://localhost:3000`, Redirect URLs có `http://localhost:3000/auth/callback` ✓
+- Auth → Providers → Email: enabled, confirm OFF ✓
+
+**Verify magic link flow real:**
+
+- `pnpm dev` Ready in 6.7s, `.env.local` nhận đủ 4 Supabase keys.
+- `/login` → submit email → "Đã gửi" state OK.
+- Lần đầu click magic link → `otp_expired` (email scanner warm hoặc click 2 lần). Lần retry (click 1 lần, ngay sau submit) → OK, redirect `/auth/callback?code=…` → `/dashboard` render.
+- 3 SELECT verify `auth.users` + `public.profiles` + `public.user_stats`: cả 3 trả 1 row, IDs khớp nhau ⇒ trigger `handle_new_user` chạy đúng.
+
+**Doc updates trên `dev`:**
+
+- `docs/TRACKER.md` Phase 0 + Tuần 1: tick `[x]` toàn bộ blocker user-side đã clear (Supabase keys, db:push, rls.sql). Mark `Tuần 1 ✅ DONE`. Skip `[-]` Vercel + Google OAuth (push về sau).
+- `docs/HANDOFF.md`: entry này.
+- `docs/SYNC.md`: thêm log row "release: v0.1.0-foundation" + 2 sync row sau merge.
+
+**Release trên `main`:**
+
+```bash
+git checkout main && git pull
+git merge dev --no-ff -m "release: v0.1.0-foundation (Phase 0 + Tuần 1)"
+git tag -a v0.1.0-foundation -m "Foundation: scaffold + UI shell + auth magic link + Supabase RLS"
+git push origin main --follow-tags
+```
+
+Sync `dev → be` và `dev → fe` ngay sau (`--no-ff`) để 3 nhánh đồng bộ điểm xuất phát Tuần 2.
+
+**Trạng thái nhánh (sau release):**
+
+| Branch | SHA                    | Note                                     |
+| ------ | ---------------------- | ---------------------------------------- |
+| main   | _(set sau merge)_      | nhận v0.1.0-foundation tag               |
+| dev    | _(set sau commit doc)_ | base cho Tuần 2                          |
+| be     | _(set sau sync)_       | sẽ làm Tuần 2 (seed + validate scripts)  |
+| fe     | _(set sau sync)_       | chờ data từ be, sau đó build `/decks` UI |
+
+**Còn lại (không block ship):**
+
+1. Bật branch protection GitHub cho `main` (Settings → Branches → require PR, no force push). User-side, làm bất cứ lúc nào.
+2. Gen 15 cards còn lại cho lesson `family` qua Claude desktop. Đẩy sang Tuần 2 content batch.
+
+**Next step gợi ý cho session AI sau (vào Tuần 2):**
+
+1. Check `git log main..dev` — không lệch, sạch sẽ.
+2. Vào Tuần 2 trên `be`:
+   - Hoàn thiện `scripts/seed.ts` (đọc `content/wordlists/*.csv` + `content/lessons/**/*.json` → upsert Supabase qua service-role key, bypass RLS).
+   - Hoàn thiện `scripts/validate-content.ts` (gọi `https://api.dictionaryapi.dev/api/v2/entries/en/<word>`, throttle ~1 req/s, output `content/validation-report.json`).
+3. Sau khi seed pass với 5 cards `family` hiện có → user gen thêm 15 cards + 2 lesson nữa (60-90 từ) qua Claude desktop.
+4. Mở `fe` build `/decks` (list) + `/decks/[col]/[topic]/[lesson]` (detail) khi đã có data thật.
+
+---
+
 ## 2026-05-11 — dev — Claude Opus 4.7 (Tuần 1 done — chờ Supabase keys)
 
 **Đã hoàn thành (cycle BE/FE → dev → sync):**
