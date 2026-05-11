@@ -1,0 +1,649 @@
+{
+  "slug": "food-meals",
+  "name": "Food & Meals",
+  "description": "Từ vựng về đồ ăn và các bữa trong ngày.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "breakfast",
+      "lemma": "breakfast",
+      "ipa": "/ˈbrek.fəst/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the first meal of the day, usually eaten in the morning",
+          "meaning_vi": "bữa sáng; bữa ăn đầu tiên trong ngày",
+          "examples": [
+            {
+              "en": "I usually have phở for breakfast in Hanoi.",
+              "vi": "Tôi thường ăn phở vào bữa sáng ở Hà Nội."
+            },
+            {
+              "en": "She skips breakfast when she's busy at work.",
+              "vi": "Cô ấy hay bỏ bữa sáng khi bận việc ở công ty."
+            },
+            {
+              "en": "Our hotel in Saigon serves a free breakfast buffet.",
+              "vi": "Khách sạn của chúng tôi ở Sài Gòn phục vụ buffet sáng miễn phí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["morning meal", "brunch"],
+      "antonyms": [],
+      "collocations": ["have breakfast", "skip breakfast", "big breakfast", "breakfast menu"],
+      "etymology_hint": "From 'break' + 'fast' (kết thúc thời gian nhịn ăn qua đêm)",
+      "mnemonic_vi": "BREAK (phá) + FAST (nhịn): 'phá vỡ' đêm dài nhịn ăn = bữa sáng"
+    },
+    {
+      "word": "lunch",
+      "lemma": "lunch",
+      "ipa": "/lʌntʃ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a meal eaten in the middle of the day",
+          "meaning_vi": "bữa trưa; bữa ăn giữa ngày",
+          "examples": [
+            {
+              "en": "We often have cơm tấm for lunch at the office.",
+              "vi": "Chúng tôi hay ăn cơm tấm vào bữa trưa ở công ty."
+            },
+            {
+              "en": "Let's go to lunch together at the canteen.",
+              "vi": "Mình cùng đi ăn trưa ở căng tin nhé."
+            },
+            {
+              "en": "My mom packed a homemade lunch for me.",
+              "vi": "Mẹ tôi chuẩn bị cơm trưa mang đi cho tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["midday meal", "luncheon"],
+      "antonyms": [],
+      "collocations": ["have lunch", "lunch break", "business lunch", "pack a lunch"],
+      "etymology_hint": "Từ 'luncheon' trong tiếng Anh thế kỷ 17",
+      "mnemonic_vi": "LUNCH (lăn-chờ): trưa ăn xong chỉ muốn 'lăn' ra ngủ"
+    },
+    {
+      "word": "dinner",
+      "lemma": "dinner",
+      "ipa": "/ˈdɪn.ə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the main meal of the day, usually eaten in the evening",
+          "meaning_vi": "bữa tối; bữa ăn chính trong ngày, thường vào buổi tối",
+          "examples": [
+            {
+              "en": "Our family always has dinner together at 7 PM.",
+              "vi": "Gia đình tôi luôn ăn tối cùng nhau lúc 7 giờ."
+            },
+            {
+              "en": "He invited me to dinner at a Vietnamese restaurant in District 1.",
+              "vi": "Anh ấy mời tôi ăn tối ở một nhà hàng Việt tại Quận 1."
+            },
+            {
+              "en": "Mom is cooking dinner in the kitchen.",
+              "vi": "Mẹ đang nấu bữa tối trong bếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supper", "evening meal"],
+      "antonyms": [],
+      "collocations": ["have dinner", "cook dinner", "dinner party", "family dinner"],
+      "etymology_hint": "Từ tiếng Pháp cổ 'disner' nghĩa là 'ăn bữa chính'",
+      "mnemonic_vi": "DIN (đin) + NER: nghe tiếng 'đin đoong' chuông báo — cả nhà 'din' xuống ăn tối"
+    },
+    {
+      "word": "food",
+      "lemma": "food",
+      "ipa": "/fuːd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "any substance that people or animals eat to live and grow",
+          "meaning_vi": "thức ăn; đồ ăn",
+          "examples": [
+            {
+              "en": "Vietnamese food is famous all over the world.",
+              "vi": "Đồ ăn Việt Nam nổi tiếng khắp thế giới."
+            },
+            {
+              "en": "We bought some food at the market in Hanoi.",
+              "vi": "Chúng tôi mua một ít đồ ăn ở chợ Hà Nội."
+            },
+            {
+              "en": "My favorite street food is bánh mì.",
+              "vi": "Món ăn đường phố tôi thích nhất là bánh mì."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meal", "cuisine", "dish"],
+      "antonyms": [],
+      "collocations": ["street food", "fast food", "healthy food", "food court"],
+      "etymology_hint": "Từ tiếng Anh cổ 'fōda'",
+      "mnemonic_vi": "FOOD (phút): chỉ 'phút' chốc là hết đồ ăn ngon"
+    },
+    {
+      "word": "water",
+      "lemma": "water",
+      "ipa": "/ˈwɔː.tə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a clear liquid that has no colour or taste and is necessary for life",
+          "meaning_vi": "nước; chất lỏng cần thiết cho sự sống",
+          "examples": [
+            {
+              "en": "Can I have a glass of water, please?",
+              "vi": "Cho tôi xin một ly nước được không?"
+            },
+            {
+              "en": "Remember to drink enough water in this Saigon heat.",
+              "vi": "Nhớ uống đủ nước trong cái nóng Sài Gòn nhé."
+            },
+            {
+              "en": "The water in this bottle is cold.",
+              "vi": "Nước trong chai này lạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["liquid", "H2O"],
+      "antonyms": [],
+      "collocations": ["drink water", "fresh water", "hot water", "bottle of water"],
+      "etymology_hint": "Từ tiếng Anh cổ 'wæter'",
+      "mnemonic_vi": "WA (oa) + TER: trẻ con 'oa oa' khóc vì khát nước"
+    },
+    {
+      "word": "bread",
+      "lemma": "bread",
+      "ipa": "/bred/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a basic food made from flour, water, and usually yeast, baked in an oven",
+          "meaning_vi": "bánh mì; thực phẩm làm từ bột, nước và men, nướng trong lò",
+          "examples": [
+            {
+              "en": "I bought some bread at the bakery this morning.",
+              "vi": "Sáng nay tôi mua một ít bánh mì ở tiệm bánh."
+            },
+            {
+              "en": "Vietnamese bánh mì uses a special type of bread.",
+              "vi": "Bánh mì Việt Nam dùng một loại bánh mì đặc biệt."
+            },
+            {
+              "en": "She eats bread and eggs for breakfast every day.",
+              "vi": "Cô ấy ăn bánh mì với trứng vào bữa sáng mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["loaf", "bun"],
+      "antonyms": [],
+      "collocations": ["slice of bread", "fresh bread", "loaf of bread", "white bread"],
+      "etymology_hint": "Từ tiếng Anh cổ 'brēad'",
+      "mnemonic_vi": "BREAD (brét) nghe như 'bẻ': bẻ bánh mì ra ăn cùng nhau"
+    },
+    {
+      "word": "rice",
+      "lemma": "rice",
+      "ipa": "/raɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "small white or brown grains from a plant grown in wet land, cooked and eaten as food",
+          "meaning_vi": "cơm; gạo; loại hạt được nấu chín để ăn",
+          "examples": [
+            {
+              "en": "Vietnamese people eat rice with almost every meal.",
+              "vi": "Người Việt ăn cơm trong hầu hết các bữa."
+            },
+            {
+              "en": "She cooked a big pot of rice for the family.",
+              "vi": "Cô ấy nấu một nồi cơm to cho cả nhà."
+            },
+            {
+              "en": "Vietnam exports a lot of rice every year.",
+              "vi": "Việt Nam xuất khẩu rất nhiều gạo mỗi năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grain"],
+      "antonyms": [],
+      "collocations": ["cook rice", "fried rice", "white rice", "bowl of rice"],
+      "etymology_hint": "Từ tiếng Hy Lạp cổ 'óryza'",
+      "mnemonic_vi": "RICE (rai-s) nghe như 'rải': mẹ 'rải' gạo vo cơm cho cả nhà"
+    },
+    {
+      "word": "fruit",
+      "lemma": "fruit",
+      "ipa": "/fruːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the soft part containing seeds that is produced by a plant, often sweet and eaten as food",
+          "meaning_vi": "trái cây; hoa quả",
+          "examples": [
+            {
+              "en": "Mango is my favorite fruit in summer.",
+              "vi": "Xoài là loại trái cây tôi thích nhất vào mùa hè."
+            },
+            {
+              "en": "She buys fresh fruit at the local market in Hanoi.",
+              "vi": "Cô ấy mua trái cây tươi ở chợ địa phương tại Hà Nội."
+            },
+            {
+              "en": "Eat more fruit to stay healthy.",
+              "vi": "Ăn nhiều hoa quả hơn để khỏe mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["produce"],
+      "antonyms": [],
+      "collocations": ["fresh fruit", "tropical fruit", "fruit juice", "dried fruit"],
+      "etymology_hint": "Từ tiếng Latin 'fructus' nghĩa là 'thu hoạch'",
+      "mnemonic_vi": "FRUIT (phờ-rút): 'rút' một quả từ rổ trái cây ra ăn"
+    },
+    {
+      "word": "vegetable",
+      "lemma": "vegetable",
+      "ipa": "/ˈvedʒ.tə.bəl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a plant or part of a plant that is eaten as food, such as cabbage, potato, or carrot",
+          "meaning_vi": "rau củ; thực vật hoặc phần của thực vật dùng làm thức ăn",
+          "examples": [
+            {
+              "en": "Vietnamese soup usually has many fresh vegetables.",
+              "vi": "Canh Việt Nam thường có nhiều rau tươi."
+            },
+            {
+              "en": "I grow vegetables in my small garden in Saigon.",
+              "vi": "Tôi trồng rau trong khu vườn nhỏ ở Sài Gòn."
+            },
+            {
+              "en": "Children should eat more vegetables every day.",
+              "vi": "Trẻ em nên ăn nhiều rau hơn mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["greens", "produce", "veggie"],
+      "antonyms": [],
+      "collocations": ["fresh vegetables", "green vegetables", "grow vegetables", "vegetable soup"],
+      "etymology_hint": "Từ tiếng Latin 'vegetabilis' nghĩa là 'sinh trưởng'",
+      "mnemonic_vi": "VEGE (vé-chờ) + TABLE: 'vé' vào bàn ăn phải có rau"
+    },
+    {
+      "word": "meat",
+      "lemma": "meat",
+      "ipa": "/miːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the flesh of an animal eaten as food",
+          "meaning_vi": "thịt; phần thịt của động vật dùng làm thức ăn",
+          "examples": [
+            {
+              "en": "My dad buys fresh meat at the market every morning.",
+              "vi": "Bố tôi mua thịt tươi ở chợ mỗi sáng."
+            },
+            {
+              "en": "She doesn't eat meat because she's a vegetarian.",
+              "vi": "Cô ấy không ăn thịt vì cô ấy ăn chay."
+            },
+            {
+              "en": "This bún chả has tender grilled meat.",
+              "vi": "Bún chả này có thịt nướng mềm thơm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flesh", "protein"],
+      "antonyms": [],
+      "collocations": ["red meat", "fresh meat", "grilled meat", "cut of meat"],
+      "etymology_hint": "Từ tiếng Anh cổ 'mete' nghĩa là 'thức ăn'",
+      "mnemonic_vi": "MEAT đọc giống 'mít': ăn thịt no như ăn mít nhồi"
+    },
+    {
+      "word": "fish",
+      "lemma": "fish",
+      "ipa": "/fɪʃ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an animal that lives in water and is used as food",
+          "meaning_vi": "cá; loài động vật sống dưới nước, dùng làm thực phẩm",
+          "examples": [
+            {
+              "en": "We eat fish at least twice a week in our family.",
+              "vi": "Gia đình tôi ăn cá ít nhất hai lần một tuần."
+            },
+            {
+              "en": "She bought fresh fish at the harbor in Nha Trang.",
+              "vi": "Cô ấy mua cá tươi ở cảng Nha Trang."
+            },
+            {
+              "en": "Cá kho tộ is a traditional fish dish in Vietnam.",
+              "vi": "Cá kho tộ là một món cá truyền thống ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seafood"],
+      "antonyms": [],
+      "collocations": ["fresh fish", "fried fish", "fish sauce", "catch fish"],
+      "etymology_hint": "Từ tiếng Anh cổ 'fisc'",
+      "mnemonic_vi": "FISH (phít): cá quẫy đuôi 'phít' một cái rồi lặn mất"
+    },
+    {
+      "word": "milk",
+      "lemma": "milk",
+      "ipa": "/mɪlk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the white liquid produced by cows and other animals, used as a drink or for making cheese, butter, etc.",
+          "meaning_vi": "sữa; chất lỏng màu trắng từ bò và các loài động vật khác",
+          "examples": [
+            {
+              "en": "My son drinks a glass of milk before going to school.",
+              "vi": "Con trai tôi uống một ly sữa trước khi đi học."
+            },
+            {
+              "en": "Can you buy some fresh milk from the supermarket?",
+              "vi": "Em mua giúp ít sữa tươi ở siêu thị nhé?"
+            },
+            {
+              "en": "Vietnamese coffee is often made with condensed milk.",
+              "vi": "Cà phê Việt Nam thường được pha với sữa đặc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dairy"],
+      "antonyms": [],
+      "collocations": ["fresh milk", "drink milk", "glass of milk", "skimmed milk"],
+      "etymology_hint": "Từ tiếng Anh cổ 'meolc'",
+      "mnemonic_vi": "MILK (miu): em bé 'miu miu' đòi sữa"
+    },
+    {
+      "word": "tea",
+      "lemma": "tea",
+      "ipa": "/tiː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a hot drink made by pouring boiling water onto dried tea leaves",
+          "meaning_vi": "trà; nước uống nóng pha từ lá trà khô",
+          "examples": [
+            {
+              "en": "My grandfather drinks green tea every morning.",
+              "vi": "Ông tôi uống trà xanh mỗi sáng."
+            },
+            {
+              "en": "Would you like a cup of tea?",
+              "vi": "Bạn dùng một tách trà nhé?"
+            },
+            {
+              "en": "Bubble tea shops are everywhere in Saigon now.",
+              "vi": "Quán trà sữa giờ có mặt khắp Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brew", "infusion"],
+      "antonyms": [],
+      "collocations": ["cup of tea", "green tea", "make tea", "iced tea"],
+      "etymology_hint": "Từ phương ngữ Min Nam của tiếng Trung 'tê'",
+      "mnemonic_vi": "TEA (ti): trẻ con kêu 'tí' xin một ngụm trà"
+    },
+    {
+      "word": "coffee",
+      "lemma": "coffee",
+      "ipa": "/ˈkɒf.i/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a hot drink made from the roasted and ground seeds of a tropical bush",
+          "meaning_vi": "cà phê; nước uống nóng từ hạt cà phê rang xay",
+          "examples": [
+            {
+              "en": "I drink Vietnamese coffee every morning before work.",
+              "vi": "Tôi uống cà phê Việt Nam mỗi sáng trước khi đi làm."
+            },
+            {
+              "en": "Let's grab a coffee at the corner café in District 1.",
+              "vi": "Mình đi uống cà phê ở quán góc đường Quận 1 nhé."
+            },
+            {
+              "en": "Vietnam is one of the world's largest coffee exporters.",
+              "vi": "Việt Nam là một trong những nước xuất khẩu cà phê lớn nhất thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["espresso", "brew"],
+      "antonyms": [],
+      "collocations": ["cup of coffee", "black coffee", "iced coffee", "coffee shop"],
+      "etymology_hint": "Từ tiếng Ả Rập 'qahwa' qua tiếng Thổ Nhĩ Kỳ 'kahve'",
+      "mnemonic_vi": "COF (cốp) + FEE: 'cốp' tiếng máy pha cà phê nhỏ giọt"
+    },
+    {
+      "word": "sugar",
+      "lemma": "sugar",
+      "ipa": "/ˈʃʊɡ.ə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a sweet substance, especially from the plants sugar cane or sugar beet, used to make food and drinks sweet",
+          "meaning_vi": "đường; chất ngọt dùng làm ngọt thức ăn và đồ uống",
+          "examples": [
+            {
+              "en": "How much sugar do you put in your coffee?",
+              "vi": "Bạn cho bao nhiêu đường vào cà phê?"
+            },
+            {
+              "en": "She added a spoon of sugar to the chè.",
+              "vi": "Cô ấy thêm một thìa đường vào chè."
+            },
+            {
+              "en": "Try to eat less sugar to stay healthy.",
+              "vi": "Cố gắng ăn ít đường lại để khỏe mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sweetener"],
+      "antonyms": ["salt"],
+      "collocations": ["brown sugar", "white sugar", "add sugar", "spoon of sugar"],
+      "etymology_hint": "Từ tiếng Ả Rập 'sukkar', gốc tiếng Phạn 'śarkarā'",
+      "mnemonic_vi": "SU (su) + GAR: 'su' hào ngâm đường thành mứt Tết ngọt lịm"
+    },
+    {
+      "word": "salt",
+      "lemma": "salt",
+      "ipa": "/sɒlt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a white substance found in sea water and in the earth, used to add flavour to food",
+          "meaning_vi": "muối; chất màu trắng dùng để nêm nếm thức ăn",
+          "examples": [
+            {
+              "en": "Don't add too much salt to the soup.",
+              "vi": "Đừng cho quá nhiều muối vào canh."
+            },
+            {
+              "en": "Vietnamese fish sauce is made from fish and salt.",
+              "vi": "Nước mắm Việt Nam được làm từ cá và muối."
+            },
+            {
+              "en": "Can you pass me the salt, please?",
+              "vi": "Bạn đưa giúp tôi lọ muối được không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seasoning"],
+      "antonyms": ["sugar"],
+      "collocations": ["sea salt", "table salt", "pinch of salt", "add salt"],
+      "etymology_hint": "Từ tiếng Anh cổ 'sealt'",
+      "mnemonic_vi": "SALT (sót) nghe như 'xót': ăn mặn quá thì 'xót' lưỡi"
+    },
+    {
+      "word": "egg",
+      "lemma": "egg",
+      "ipa": "/eɡ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an oval object produced by a female bird, used as food",
+          "meaning_vi": "trứng; vật hình bầu dục do gà, vịt đẻ ra, dùng làm thức ăn",
+          "examples": [
+            {
+              "en": "I had a fried egg with rice for breakfast.",
+              "vi": "Sáng nay tôi ăn cơm với trứng ốp la."
+            },
+            {
+              "en": "She bought a dozen eggs at the supermarket.",
+              "vi": "Cô ấy mua một tá trứng ở siêu thị."
+            },
+            {
+              "en": "Trứng vịt lộn is a popular Vietnamese snack.",
+              "vi": "Trứng vịt lộn là món ăn vặt nổi tiếng ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["fried egg", "boiled egg", "scrambled egg", "lay an egg"],
+      "etymology_hint": "Từ tiếng Norse cổ 'egg'",
+      "mnemonic_vi": "EGG (éc): tiếng gà 'éc éc' báo vừa đẻ trứng"
+    },
+    {
+      "word": "cheese",
+      "lemma": "cheese",
+      "ipa": "/tʃiːz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a food made from milk, usually solid and yellow or white in colour",
+          "meaning_vi": "phô mai; thực phẩm làm từ sữa, thường ở dạng rắn",
+          "examples": [
+            {
+              "en": "My kids love pizza with extra cheese.",
+              "vi": "Mấy đứa nhỏ nhà tôi mê pizza nhiều phô mai."
+            },
+            {
+              "en": "She put some cheese on top of the bread.",
+              "vi": "Cô ấy đặt một ít phô mai lên trên miếng bánh mì."
+            },
+            {
+              "en": "This cheese is imported from France.",
+              "vi": "Loại phô mai này được nhập từ Pháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dairy"],
+      "antonyms": [],
+      "collocations": ["slice of cheese", "melted cheese", "cream cheese", "cheese sandwich"],
+      "etymology_hint": "Từ tiếng Anh cổ 'cīese', gốc Latin 'caseus'",
+      "mnemonic_vi": "CHEESE (chí-z): chụp ảnh nói 'chí-z' miệng cười như miếng phô mai vàng"
+    },
+    {
+      "word": "snack",
+      "lemma": "snack",
+      "ipa": "/snæk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small amount of food eaten between meals",
+          "meaning_vi": "đồ ăn vặt; bữa ăn nhẹ giữa các bữa chính",
+          "examples": [
+            {
+              "en": "I always have a snack at 3 PM at the office.",
+              "vi": "Tôi luôn ăn vặt lúc 3 giờ chiều ở công ty."
+            },
+            {
+              "en": "Street snacks are everywhere in Hanoi's Old Quarter.",
+              "vi": "Đồ ăn vặt đường phố có khắp Phố cổ Hà Nội."
+            },
+            {
+              "en": "She packed some snacks for the long train ride.",
+              "vi": "Cô ấy chuẩn bị một ít đồ ăn vặt cho chuyến tàu dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bite", "nibble", "treat"],
+      "antonyms": [],
+      "collocations": ["healthy snack", "light snack", "snack bar", "have a snack"],
+      "etymology_hint": "Từ tiếng Hà Lan trung đại 'snacken' nghĩa là 'cắn'",
+      "mnemonic_vi": "SNACK (xnách): kẹp 'nách' gói snack ngồi xem phim"
+    },
+    {
+      "word": "dessert",
+      "lemma": "dessert",
+      "ipa": "/dɪˈzɜːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "sweet food eaten at the end of a meal",
+          "meaning_vi": "món tráng miệng; món ngọt ăn sau bữa chính",
+          "examples": [
+            {
+              "en": "We had chè as dessert after dinner.",
+              "vi": "Chúng tôi ăn chè tráng miệng sau bữa tối."
+            },
+            {
+              "en": "This restaurant in Saigon has amazing desserts.",
+              "vi": "Nhà hàng ở Sài Gòn này có món tráng miệng rất tuyệt."
+            },
+            {
+              "en": "Would you like some ice cream for dessert?",
+              "vi": "Bạn dùng kem tráng miệng nhé?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sweet", "pudding", "treat"],
+      "antonyms": [],
+      "collocations": ["have dessert", "sweet dessert", "dessert menu", "homemade dessert"],
+      "etymology_hint": "Từ tiếng Pháp 'desservir' nghĩa là 'dọn bàn'",
+      "mnemonic_vi": "DES (đi) + SERT (sớt): ăn xong 'đi sớt' thêm món ngọt tráng miệng"
+    }
+  ]
+}
