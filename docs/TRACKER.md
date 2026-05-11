@@ -59,7 +59,8 @@
 
 - [x] `scripts/seed.ts` upsert thật vào Supabase (Drizzle tx; idempotent; delete-replace cards per lesson; verify counts). Live run 2026-05-12: 1/1/1/5 (collections/topics/lessons/cards)
 - [x] `scripts/validate-content.ts` smoke-test với `family.json` — call dictionaryapi.dev, throttle 800ms, write `docs/CONTENT_REPORT.md`. 5/5 cards IPA mismatch (stylistic Oxford vs dict) — manual review pending
-- [ ] **CHỜ USER**: Gen 15 cards còn lại cho lesson `family` + 2 lesson nữa qua Claude desktop (target ~60-90 từ tổng cộng)
+- [x] **Content master plan**: `docs/CONTENT_PLAN.md` — 10 topics, 42 lessons MVP, ~840 cards, phased P0-P4 với word list sẵn sàng paste vào Claude desktop
+- [ ] **CHỜ USER**: gen P0 batch (3 lesson, ~55 cards): `daily-life/family` (+15), `daily-life/food-meals` (20), `daily-life/home-rooms` (20) qua Claude desktop
 - [ ] **CHỜ USER**: review `docs/CONTENT_REPORT.md`, quyết định pick IPA style (giữ Oxford hay theo dictionaryapi)
 - [ ] CRUD collections/topics/lessons (admin UI đơn giản) — defer post-MVP, content gen offline đủ
 - [ ] Page `/decks` list collections (FE work)
