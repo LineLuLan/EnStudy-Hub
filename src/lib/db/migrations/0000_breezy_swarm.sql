@@ -1,9 +1,9 @@
 CREATE TYPE "public"."card_state" AS ENUM('new', 'learning', 'review', 'relearning');--> statement-breakpoint
 CREATE TYPE "public"."cefr" AS ENUM('A1', 'A2', 'B1', 'B2', 'C1', 'C2');--> statement-breakpoint
 CREATE TYPE "public"."review_type" AS ENUM('flashcard', 'mcq', 'typing', 'listening');--> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "auth"."users" (
-	"id" uuid PRIMARY KEY NOT NULL
-);
+-- NOTE: auth.users is managed by Supabase Auth — do NOT create it.
+-- Foreign-key references below still resolve to the existing auth.users table.
+-- (Drizzle generated a CREATE TABLE block here; it was removed manually.)
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "cards" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
