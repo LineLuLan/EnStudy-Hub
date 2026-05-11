@@ -5,6 +5,105 @@
 
 ---
 
+## 2026-05-12 — fe → dev → be — Claude Opus 4.7 (Tuần 2 FE /decks built — UI polish PENDING)
+
+**Mục tiêu session**: gen P0 content batch (3 lessons / 60 cards) + build `/decks` UI để có golden path: login → /decks → /decks/[col] → /decks/[col]/[topic]/[lesson] → enroll.
+
+**Đã hoàn thành:**
+
+Content P0 (commits `83dc6e1`, `3a2eb17`, `2bb295e` trên be):
+
+- `daily-life/family` +15 cards (đủ 20 cards, A1×18 + A2×2)
+- `daily-life/food-meals` (20 cards mới, A1×18 + A2×2) — ngữ cảnh phở/cơm tấm/bún chả/bánh mì
+- `daily-life/home-rooms` (20 cards mới, A1×17 + A2×3) — ngữ cảnh nhà ống Phố cổ, chung cư Sài Gòn
+- Live seed Supabase: **1 / 1 / 3 / 60** (collections / topics / lessons / cards)
+
+FE `/decks` (commit `0156c17` trên fe → merge `6bc6448` lên dev):
+
+- `src/features/vocab/queries.ts`: `listOfficialCollections` (with topic/lesson counts), `getCollectionBySlug` (topics+lessons nested), `getLessonByPath` (3-table join + cards), `getEnrolledLessonIds(userId)`.
+- `src/features/vocab/enrollment.ts`: server action `enrollLesson(formData)` — `requireUserId` → `ensureProfile` → insert `user_lessons` (onConflictDoNothing) → bulk insert `user_cards` (FSRS defaults state=new, due=now, onConflictDoNothing on `(user_id, card_id)`) → `revalidatePath('/decks', 'layout')` + `/dashboard` + `/review`.
+- 3 RSC pages:
+  - `/decks`: grid official collections với badges (count topic/lesson, CEFR range, Official).
+  - `/decks/[col]`: sections per topic + lesson list, mark "Đang học" nếu enrolled.
+  - `/decks/[col]/[topic]/[lesson]`: header + EnrollButton + 20 CardPreview.
+- Client components:
+  - `CardPreview` (`components/decks/card-preview.tsx`): collapsible, hiển thị word + IPA mono + pos badge + CEFR badge + 1 dòng nghĩa Việt khi đóng; expand → definitions (en+vi) + 3 examples + synonyms/antonyms/collocations + mnemonic vàng + etymology italic.
+  - `EnrollButton` (`components/decks/enroll-button.tsx`): `useTransition` + sonner toast, disabled "Đang học" với check icon nếu đã enrolled.
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ tất cả `/decks/*` routes compile sạch, `/decks/[col]/[topic]/[lesson]` 2.51 kB / 129 kB First Load JS (client interactivity weight).
+- HTTP smoke-test: `/login` → 200, `/decks` → 307 redirect `/login?next=/decks` (middleware auth gate đúng).
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                            |
+| ------ | --------- | ------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)   |
+| dev    | `6bc6448` | Tuần 2 FE merged, sẵn sàng test |
+| be     | `354d89a` | sync Tuần 2 FE (post merge)     |
+| fe     | `0156c17` | base Tuần 2 FE                  |
+
+---
+
+**⚠️ BLOCKER cho ngày mai (CHƯA FIX):**
+
+User chạy `pnpm dev`, mở `http://localhost:3001/decks` (port 3001 vì 3000 bị stale node.exe PID 1736 chiếm) thì **không render page**, chỉ thấy thông báo Next.js dev mode `"missing required error components, refreshing..."`.
+
+User feedback ngắn: "UI cần phải fix vì vẫn chưa ưng lắm". Hand-off để tiếp tục.
+
+**Hypothesis ưu tiên debug ngày mai (test theo thứ tự):**
+
+1. **Stale node process trên port 3000** (PID 1736 từ 01:23 cùng ngày — leftover từ một `pnpm dev` session trước đó). Có thể đây là dev server cũ đang chạy code lỗi thời. Kill trước khi debug khác:
+
+   ```powershell
+   taskkill /PID 1736 /F
+   ```
+
+   Sau đó `pnpm dev` lại từ thư mục project → kỳ vọng bind được port 3000 với code mới.
+
+2. **Thiếu error.tsx / loading.tsx boundary trong `(app)` group**. Next 15 streaming RSC dev mode thường yêu cầu explicit error boundary; thiếu sẽ show `"missing required error components, refreshing..."` rồi loop. Tạo 2 file:
+   - `src/app/(app)/error.tsx` (Client Component, props `{ error, reset }`, render lỗi + retry button)
+   - `src/app/(app)/loading.tsx` (Skeleton 3-4 row)
+
+3. **Compile time first hit**: lần đầu mở `/decks` Next phải compile route + tất cả dependencies (drizzle, postgres-js, ...). Có thể mất 10-30s trên Windows. Đợi ~30s sau khi page chuyển trắng xem có resolve không. Nếu vẫn loop sau >1 phút → bug khác.
+
+4. **RSC streaming error trong queries**: nếu `listOfficialCollections` throw (vd connection pool timeout pgBouncer), không có error boundary thì Next dev sẽ stuck. Add `try/catch` log ở queries hoặc check dev server stderr.
+
+5. **Đã verify `pnpm build` pass production** — nếu cần đảm bảo route logic đúng, chạy `pnpm build && pnpm start` để bypass dev mode hooks, sẽ thấy page render thật.
+
+**UI polish backlog** (user muốn tinh chỉnh):
+
+- Typography hierarchy (heading size, weight, tracking)
+- Spacing density (card padding, list gaps)
+- Mobile responsive (collections grid sm:grid-cols-2 OK, lesson detail cần review)
+- Dark mode contrast (zinc palette OK; mnemonic amber có thể chói)
+- IPA font (đang dùng `font-mono` của system — có thể wire `IBM Plex Mono` hoặc `JetBrains Mono`)
+- Card preview density: 20 cards stack dài, có thể cân nhắc 2-col grid trên desktop hoặc virtual scroll
+- Empty state design (chưa có)
+- Skeleton loading state (thiếu — cũng giải quyết hypothesis #2)
+
+**Critical paths cần đọc khi vào session mới:**
+
+- `src/features/vocab/queries.ts` (read helpers, có thể là nguồn lỗi RSC)
+- `src/features/vocab/enrollment.ts` (server action insert user_lessons + bulk user_cards)
+- `src/app/(app)/decks/page.tsx` + `[col]/page.tsx` + `[col]/[topic]/[lesson]/page.tsx`
+- `src/components/decks/card-preview.tsx` + `enroll-button.tsx`
+- `src/middleware.ts` + `src/lib/supabase/middleware.ts` (auth gate)
+
+**Next step gợi ý cho session AI sau:**
+
+1. Hỏi user: đã kill PID 1736 / restart máy chưa? Đang ở browser nào?
+2. `pnpm dev`, đợi `Ready in Xs` rồi đợi thêm 10s. Mở `/decks` trong browser cùng session đã login (magic link đã verify trước đó).
+3. Nếu vẫn lỗi → mở DevTools Network/Console, copy lỗi cụ thể. Kiểm tra dev server stderr.
+4. Add `error.tsx` + `loading.tsx` boundaries (Hypothesis #2) — luôn cần cho prod UX dù không phải nguyên nhân chính.
+5. Sau khi page render → user feedback cụ thể về UI polish → tinh chỉnh từng item trong backlog trên.
+6. Sau khi `/decks` golden path xanh + UI ưng → mở Tuần 3 SRS hoặc tiếp P1 content batch.
+
+---
+
 ## 2026-05-12 — be → dev → fe — Claude Opus 4.7 (Tuần 2 BE: seed live + validate smoke)
 
 **Bối cảnh**: ngay sau release `v0.1.0-foundation` (merge `5fbd1c0` trên main, tag pushed). Mở Tuần 2 trên `be`.
