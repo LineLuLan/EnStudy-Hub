@@ -5,6 +5,68 @@
 
 ---
 
+## 2026-05-12 — be → dev → fe — Claude Opus 4.7 (Tuần 2 BE: seed live + validate smoke)
+
+**Bối cảnh**: ngay sau release `v0.1.0-foundation` (merge `5fbd1c0` trên main, tag pushed). Mở Tuần 2 trên `be`.
+
+**Đã hoàn thành:**
+
+`scripts/seed.ts` (commit `72e1229` trên be → merge `8eac9aa` lên dev):
+
+- Replace TODO bằng Drizzle transaction upsert thật:
+  - Collections: `onConflictDoUpdate` by `slug`.
+  - Topics: `onConflictDoUpdate` by `(collection_id, slug)` composite unique.
+  - Lessons: `onConflictDoUpdate` by `(topic_id, slug)` composite unique.
+  - Cards: `delete + insert` per `lesson_id` cho idempotent re-runs. Cascade wipes `user_cards/review_logs` — acceptable pre-MVP. TODO trước khi prod: thêm unique constraint `(lesson_id, word)` để true upsert.
+- Dotenv load `.env.local` ở top of script (consistent với `drizzle.config.ts`). Lazy-import `db/client` SAU khi dotenv populate process.env.
+- Post-write verify: COUNT() in ra 4 con số (collections/topics/lessons/cards) để operator confirm.
+- `process.exit(0)` ở finally để postgres-js không treo event loop.
+
+`scripts/validate-content.ts`: không cần đổi code (đã hoàn thiện sẵn từ Phase 0). Smoke-test với `family.json` pass — call dictionaryapi.dev, throttle 800ms, write `docs/CONTENT_REPORT.md` (gitignored).
+
+**Verify trên Supabase (live run 2026-05-12):**
+
+```
+[seed] LIVE — scanning content/collections
+[seed] Plan: 1 collection, 1 topic, 1 lesson (5 cards)
+  ✓ collection oxford-3000
+  ✓ topic oxford-3000/daily-life
+  ✓ lesson oxford-3000/daily-life/family — 5 cards
+[seed] ✓ DB state: 1 collections / 1 topics / 1 lessons / 5 cards.
+```
+
+Re-run idempotent (counts không đổi, no error).
+
+**Validate report (`docs/CONTENT_REPORT.md`):**
+
+5/5 cards flagged IPA mismatch — KHÔNG phải lỗi, là khác phong cách phiên âm (Oxford `/ˈfæm.əl.i/` vs dictionaryapi.dev `/ˈfɛm(ɘ)li/`). Quyết định IPA style là content decision, không block tech.
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                          |
+| ------ | --------- | --------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi từ ship)         |
+| dev    | `8eac9aa` | Tuần 2 BE merged (sẽ +1 commit cho doc batch) |
+| be     | `72e1229` | post Tuần 2 BE work                           |
+| fe     | `3db6e43` | sync post Tuần 2 BE                           |
+
+**Blocker / chờ user:**
+
+1. **Gen content 60-90 từ qua 3 lesson pilot qua Claude desktop** (offline, không LLM runtime). Trước mắt: 15 cards còn lại cho `family.json` (đã 5/20) + 2 lesson mới (vd `daily-life/food`, `daily-life/house`).
+2. **Review `docs/CONTENT_REPORT.md`** sau khi validate batch xong — quyết định IPA style. Nếu muốn theo dictionaryapi → relax `normalizeIpa` (chấp nhận diff) hoặc bulk-replace IPA trong JSON.
+
+**Next step gợi ý cho session AI sau:**
+
+1. Hỏi user đã gen thêm content chưa. Nếu có → `pnpm validate:content` toàn bộ batch → `pnpm seed`.
+2. Sau khi data đủ (~3 lesson, 60-90 cards) → chuyển sang `fe` build `/decks`:
+   - `/decks` list collections (server component, query `collections WHERE is_official = true`).
+   - `/decks/[colSlug]` list topics + lessons.
+   - `/decks/[colSlug]/[topicSlug]/[lessonSlug]` detail page với card preview.
+   - "Thêm vào học" button → server action insert `user_lessons` + bulk insert `user_cards` (state=new, due=now). RLS sẽ tự enforce owner.
+3. Optional polish trên `be`: thêm unique constraint `(lesson_id, word)` cho cards qua migration mới + thay delete-replace bằng true upsert.
+
+---
+
 ## 2026-05-12 — dev → main — Claude Opus 4.7 (Tuần 1 SHIP — `v0.1.0-foundation`)
 
 **Mục tiêu hoàn thành**: verify auth flow real end-to-end với Supabase backend, đóng Tuần 1, tag release foundation.

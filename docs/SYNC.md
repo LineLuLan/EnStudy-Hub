@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                    |
-| ------ | ----------------------- | ------------------------ | ---------------------- | -------------------------------------------------------- |
-| main   | `5fbd1c0`               | —                        | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag          |
-| dev    | `ae65666`               | base                     | base                   | Tuần 1 SHIP, sẵn sàng Tuần 2 (content seed + admin CRUD) |
-| be     | `b9b075c`               | 2026-05-12 (post v0.1.0) | 2026-05-11 (`5c47f9c`) | sync post-release, sẵn sàng Tuần 2 BE (seed/validate)    |
-| fe     | `741c601`               | 2026-05-12 (post v0.1.0) | 2026-05-11 (`b41ace0`) | sync post-release, chờ data có rồi build `/decks` UI     |
+| Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                   |
+| ------ | ----------------------- | ------------------------ | ---------------------- | ------------------------------------------------------- |
+| main   | `5fbd1c0`               | —                        | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag         |
+| dev    | `8eac9aa`               | base                     | 2026-05-12 (`72e1229`) | Tuần 2 BE merged (seed.ts upsert live)                  |
+| be     | `72e1229`               | 2026-05-12 (post v0.1.0) | 2026-05-12 (`72e1229`) | Tuần 2 BE: seed.ts upsert thật + validate-content smoke |
+| fe     | `3db6e43`               | 2026-05-12 (Tuần 2 seed) | 2026-05-11 (`b41ace0`) | sync Tuần 2 BE, sẵn sàng build `/decks` UI khi có data  |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -91,3 +91,6 @@ git checkout fe
 | 2026-05-12 | merge  | dev → main        | `5fbd1c0` | release: v0.1.0-foundation + tag                                          |
 | 2026-05-12 | sync   | dev → be          | `b9b075c` | post-release sync                                                         |
 | 2026-05-12 | sync   | dev → fe          | `741c601` | post-release sync                                                         |
+| 2026-05-12 | commit | (Tuần 2 BE) → be  | `72e1229` | feat(seed): scripts/seed.ts upsert thật vào Supabase                      |
+| 2026-05-12 | merge  | be → dev          | `8eac9aa` | bring Tuần 2 seed work back to dev                                        |
+| 2026-05-12 | sync   | dev → fe          | `3db6e43` | sync Tuần 2 BE để fe sẵn sàng build /decks UI khi có data                 |
