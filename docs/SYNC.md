@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                                        |
-| ------ | ----------------------- | ------------------------- | ---------------------- | ------------------------------------------------------------ |
-| main   | `5433a6f`               | —                         | —                      | initial commit only (`README.md`) — chưa nhận Phase 0/Tuần 1 |
-| dev    | `675b08e`               | base                      | (sau merge fe)         | Tuần 1 done (UI shell + auth)                                |
-| be     | `d8f4227`               | 2026-05-11 (sau fe merge) | 2026-05-11 (`486498b`) | BE auth + migration merged                                   |
-| fe     | `b41ace0`               | 2026-05-11 (sau be merge) | 2026-05-11 (`b41ace0`) | FE login form merged                                         |
+| Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                   |
+| ------ | ----------------------- | ------------------------ | ---------------------- | ------------------------------------------------------- |
+| main   | `5fbd1c0`               | —                        | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag         |
+| dev    | `8eac9aa`               | base                     | 2026-05-12 (`72e1229`) | Tuần 2 BE merged (seed.ts upsert live)                  |
+| be     | `72e1229`               | 2026-05-12 (post v0.1.0) | 2026-05-12 (`72e1229`) | Tuần 2 BE: seed.ts upsert thật + validate-content smoke |
+| fe     | `3db6e43`               | 2026-05-12 (Tuần 2 seed) | 2026-05-11 (`b41ace0`) | sync Tuần 2 BE, sẵn sàng build `/decks` UI khi có data  |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -65,23 +65,32 @@ git checkout fe
 
 ## Log lịch sử merge
 
-| Date       | Type   | From → To        | SHA after | Notes                                                                     |
-| ---------- | ------ | ---------------- | --------- | ------------------------------------------------------------------------- |
-| 2026-05-11 | init   | main → dev       | `9ba2508` | tạo dev, commit blueprint                                                 |
-| 2026-05-11 | init   | dev → be         | `9ba2508` | tạo be                                                                    |
-| 2026-05-11 | init   | dev → fe         | `9ba2508` | tạo fe                                                                    |
-| 2026-05-11 | commit | (work) → dev     | `dd778af` | Phase 0 foundation: workflow + docs + scaffold + content pilot (66 files) |
-| 2026-05-11 | sync   | dev → be         | `bea1a25` | merge --no-ff                                                             |
-| 2026-05-11 | sync   | dev → fe         | `3206fd3` | merge --no-ff                                                             |
-| 2026-05-11 | commit | (verify) → dev   | `f8cc446` | ESLint flat config + Supabase types + lockfile                            |
-| 2026-05-11 | sync   | dev → be         | `016703e` |                                                                           |
-| 2026-05-11 | sync   | dev → fe         | `b4bb87a` |                                                                           |
-| 2026-05-11 | commit | (UI shell) → dev | `c0ca891` | Tuần 1 layout/theme/command palette                                       |
-| 2026-05-11 | sync   | dev → be         | `beb419c` |                                                                           |
-| 2026-05-11 | sync   | dev → fe         | `33dd7f8` |                                                                           |
-| 2026-05-11 | commit | (BE auth) → be   | `486498b` | Drizzle migration + auth actions + callback                               |
-| 2026-05-11 | merge  | be → dev         | `8bf9121` |                                                                           |
-| 2026-05-11 | sync   | dev → fe         | `a04303f` |                                                                           |
-| 2026-05-11 | commit | (FE login) → fe  | `b41ace0` | Login form with magic link + Google                                       |
-| 2026-05-11 | merge  | fe → dev         | `675b08e` |                                                                           |
-| 2026-05-11 | sync   | dev → be         | `d8f4227` |                                                                           |
+| Date       | Type   | From → To         | SHA after | Notes                                                                     |
+| ---------- | ------ | ----------------- | --------- | ------------------------------------------------------------------------- |
+| 2026-05-11 | init   | main → dev        | `9ba2508` | tạo dev, commit blueprint                                                 |
+| 2026-05-11 | init   | dev → be          | `9ba2508` | tạo be                                                                    |
+| 2026-05-11 | init   | dev → fe          | `9ba2508` | tạo fe                                                                    |
+| 2026-05-11 | commit | (work) → dev      | `dd778af` | Phase 0 foundation: workflow + docs + scaffold + content pilot (66 files) |
+| 2026-05-11 | sync   | dev → be          | `bea1a25` | merge --no-ff                                                             |
+| 2026-05-11 | sync   | dev → fe          | `3206fd3` | merge --no-ff                                                             |
+| 2026-05-11 | commit | (verify) → dev    | `f8cc446` | ESLint flat config + Supabase types + lockfile                            |
+| 2026-05-11 | sync   | dev → be          | `016703e` |                                                                           |
+| 2026-05-11 | sync   | dev → fe          | `b4bb87a` |                                                                           |
+| 2026-05-11 | commit | (UI shell) → dev  | `c0ca891` | Tuần 1 layout/theme/command palette                                       |
+| 2026-05-11 | sync   | dev → be          | `beb419c` |                                                                           |
+| 2026-05-11 | sync   | dev → fe          | `33dd7f8` |                                                                           |
+| 2026-05-11 | commit | (BE auth) → be    | `486498b` | Drizzle migration + auth actions + callback                               |
+| 2026-05-11 | merge  | be → dev          | `8bf9121` |                                                                           |
+| 2026-05-11 | sync   | dev → fe          | `a04303f` |                                                                           |
+| 2026-05-11 | commit | (FE login) → fe   | `b41ace0` | Login form with magic link + Google                                       |
+| 2026-05-11 | merge  | fe → dev          | `675b08e` |                                                                           |
+| 2026-05-11 | sync   | dev → be          | `d8f4227` |                                                                           |
+| 2026-05-11 | commit | (db fix) → be     | `5c47f9c` | fix(db): drizzle-kit env loading + skip auth.users CREATE in migration    |
+| 2026-05-11 | merge  | be → dev          | `4f17bb9` | bring db migrate fix back to dev                                          |
+| 2026-05-12 | commit | (docs ship) → dev | `ae65666` | docs: tick Phase 0 + Tuần 1 done, auth flow verified real (2026-05-12)    |
+| 2026-05-12 | merge  | dev → main        | `5fbd1c0` | release: v0.1.0-foundation + tag                                          |
+| 2026-05-12 | sync   | dev → be          | `b9b075c` | post-release sync                                                         |
+| 2026-05-12 | sync   | dev → fe          | `741c601` | post-release sync                                                         |
+| 2026-05-12 | commit | (Tuần 2 BE) → be  | `72e1229` | feat(seed): scripts/seed.ts upsert thật vào Supabase                      |
+| 2026-05-12 | merge  | be → dev          | `8eac9aa` | bring Tuần 2 seed work back to dev                                        |
+| 2026-05-12 | sync   | dev → fe          | `3db6e43` | sync Tuần 2 BE để fe sẵn sàng build /decks UI khi có data                 |
