@@ -5,6 +5,81 @@
 
 ---
 
+## 2026-05-12 (đêm muộn) — fe → dev → be — Claude Opus 4.7 (Tuần 3 chunk 4: persist review results to localStorage)
+
+**Mục tiêu session**: hoàn tất Tuần 3 với persist Zustand cho `results` (deferred từ chunk 3) → `/review/summary` survive F5. Manual verify Cloze trên browser thực qua `pnpm dev` đã PASS user-side trước khi vào chunk 4.
+
+**Đã hoàn thành (commit `f13577d` trên fe → merge `de97b64` lên dev → sync `8d7c212` xuống be):**
+
+**File edit:**
+
+- `src/stores/review-session.ts`:
+  - Import thêm `persist, createJSONStorage` từ `zustand/middleware`
+  - Wrap `create<ReviewSessionState>()(persist((set, get) => ({...}), { config }))`
+  - Config: `name: 'review-session-results'`, `storage: createJSONStorage(() => localStorage)`, `partialize: (state) => ({ results: state.results })`
+  - Chỉ persist `results` — `queue/currentIndex/flipped/cardStartedAt` KHÔNG persist
+  - Reason: `queue` chứa Date objects (due/lastReview/createdAt) → JSON serialization mất type, rehydrate stale risk. `init()` được gọi mỗi khi `/review` mount với fresh server-fetched queue → tự nhiên reset state. Persist `results` thuần là để `/review/summary` không blank khi user F5.
+  - Comment trong code giải thích trade-off cho future-self
+- Indentation lệch tay sau khi wrap → lint-staged prettier tự fix khi commit (95 insertions / 79 deletions cho re-format)
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 32/32 (không đổi vs chunk 3)
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes:
+  - `/review` ƒ dynamic 43.4 kB / **172 kB** First Load (+1 kB cho persist middleware)
+  - `/review/summary` ○ 2.54 kB / **122 kB** First Load (+1 kB)
+- Manual: chưa retest browser sau persist (low risk — partialize chỉ áp results, không đổi flow ReviewSession/ClozeCard)
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                          |
+| ------ | --------- | ----------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi) |
+| dev    | `de97b64` | Tuần 3 chunk 4 persist merged |
+| be     | `8d7c212` | sync chunk 4                  |
+| fe     | `f13577d` | base chunk 4 persist          |
+
+---
+
+**Next step session sau (Tuần 4 — Dashboard & Stats):**
+
+Tuần 3 đã DONE (4 chunks: BE foundation → /review FE shell → Terminal Cloze → persist). Mở Tuần 4.
+
+1. Vào `be` branch trước cho query layer:
+   - **Streak helper** `src/features/stats/streak.ts`: từ `review_logs.reviewedAt`, group by day theo `profiles.timezone` qua `date-fns-tz`, đếm consecutive days từ today về quá khứ, return `{ current, longest, lastActiveDate }`. Update `user_stats` qua cron hoặc lazy on `/dashboard` mount.
+   - **Heatmap data** `src/features/stats/heatmap.ts`: query `review_logs WHERE userId AND reviewedAt >= 12 weeks ago`, group by date, return `Array<{ date, count }>`. UI render qua component giống GitHub contributions.
+   - **Retention chart** `src/features/stats/retention.ts`: query `state_after.stability` từ `review_logs` group by day, compute average stability progression theo thời gian.
+   - **Card maturity** `src/features/stats/maturity.ts`: `SELECT state, COUNT(*) FROM user_cards WHERE userId GROUP BY state` → 4-slice pie (new/learning/review/relearning) + mature count (state='review' AND stability > 30 days).
+   - Vitest cho streak edge cases (timezone boundary, skip day mid-streak, future date guard).
+2. Sau khi BE query layer xanh → switch `fe`:
+   - **Dashboard `/dashboard`**: 3 stat cards (streak / total reviews / mature) + heatmap section + "Bài đang học" list (enrolled lessons với progress %)
+   - **Page `/stats`**: retention line chart + daily activity bar + maturity pie
+   - Reuse component pattern từ `/decks` (RSC fetch + client components nested)
+   - Charting lib: chọn 1 trong: `recharts` (tree-shakable React, ~50kB), `chart.js` + `react-chartjs-2` (~80kB), hoặc raw SVG (zero dep, custom impl). Recommend **recharts** cho speed-to-build; raw SVG cho heatmap (đơn giản, đỡ dep).
+3. **Settings page** `/settings`: 3 form sections — Account (display name, timezone select), Daily limits (newCards 1-50, reviewMax 50-500), Appearance (theme toggle). Server actions update `profiles`. Đã có route stub.
+
+**Critical paths cần đọc khi vào Tuần 4:**
+
+- `src/lib/db/schema.ts:195-217` — `reviewLogs` schema (reviewedAt, rating, stateBefore/After jsonb)
+- `src/lib/db/schema.ts:230-241` — `studySessions` + `userStats` schemas (đã có nhưng chưa wire)
+- `src/features/srs/queue-utils.ts` — pattern pure helper `dayStartUtc(now, timezone)` reuse cho streak
+- `src/features/srs/queue.test.ts` — pattern vitest test cho timezone-aware date helpers
+- `src/components/decks/card-preview.tsx` — pattern client component reuse
+- `src/app/(app)/decks/page.tsx` — pattern RSC fetch + render cho dashboard sections
+- `VOCAB_APP_BLUEPRINT.md` Tuần 4 phần 4 nếu có spec chi tiết heatmap/streak (chưa đọc kỹ — đọc khi vào)
+
+**Lưu ý tech:**
+
+- Persist localStorage cap ~5MB browser-side — chỉ persist `results` (mỗi entry ~200 bytes, 100 entries < 25KB) → an toàn. Không quá lo bloat.
+- Persist không sync giữa tabs nếu user mở 2 tab `/review` cùng lúc → mỗi tab có state độc lập, ghi đè lẫn nhau khi tab cuối close. Edge case, không block MVP.
+- SSR hydration với persist: server render initial `results: []`, client rehydrate từ localStorage trước React mount → có thể hydration mismatch warning. Summary page đã có snapshot pattern (`useEffect` setState từ rehydrated state) → mitigated. Test browser sau session để confirm không có warning.
+- Tuần 4 sẽ cần `recharts` hoặc tương đương → check bundle impact ngay sau install (lazy load `/stats` nếu cần).
+- `user_stats.lastActiveDate` field đã có sẵn trong schema (text YYYY-MM-DD) → reuse cho streak; KHÔNG cần migration.
+
+---
+
 ## 2026-05-12 (đêm) — fe → dev → be — Claude Opus 4.7 (Tuần 3 chunk 3: Terminal Cloze làm primary `/review`)
 
 **Mục tiêu session**: thay FlashcardFlip placeholder bằng Terminal-style Inline Cloze làm primary mode `/review`. Pure helpers + state machine + auto-grade + Web Speech audio + animation polish.

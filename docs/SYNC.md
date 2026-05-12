@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev         | Last merge TO dev      | Notes                                           |
-| ------ | ----------------------- | -------------------------- | ---------------------- | ----------------------------------------------- |
-| main   | `5fbd1c0`               | —                          | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
-| dev    | `a57327f`               | base                       | 2026-05-12 (`8fa69ef`) | Tuần 3 chunk 3 Terminal Cloze merged            |
-| be     | `2c7d234`               | 2026-05-12 (chunk 3 sync)  | 2026-05-12 (`87da8ef`) | sync chunk 3 (đọc layout Cloze + reviewType)    |
-| fe     | `8fa69ef`               | 2026-05-12 (BE foundation) | 2026-05-12 (`8fa69ef`) | chunk 3 Terminal Cloze base                     |
+| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                           |
+| ------ | ----------------------- | ------------------------- | ---------------------- | ----------------------------------------------- |
+| main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
+| dev    | `de97b64`               | base                      | 2026-05-12 (`f13577d`) | Tuần 3 chunk 4 persist review results merged    |
+| be     | `8d7c212`               | 2026-05-12 (chunk 4 sync) | 2026-05-12 (`87da8ef`) | sync chunk 4 (Zustand persist)                  |
+| fe     | `f13577d`               | 2026-05-12 (chunk 3 docs) | 2026-05-12 (`f13577d`) | chunk 4 persist base                            |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -123,3 +123,6 @@ git checkout fe
 | 2026-05-12 | commit | (chunk 3 FE) → fe   | `8fa69ef` | feat(srs): /review Terminal Cloze (Tuan 3 chunk 3) — masks + grade derive |
 | 2026-05-12 | merge  | fe → dev            | `a57327f` | bring Tuần 3 chunk 3 Terminal Cloze to dev                                |
 | 2026-05-12 | sync   | dev → be            | `2c7d234` | sync chunk 3 cho BE đọc layout Cloze + reviewType='typing'                |
+| 2026-05-12 | commit | (chunk 4 FE) → fe   | `f13577d` | feat(srs): persist review results to localStorage                         |
+| 2026-05-12 | merge  | fe → dev            | `de97b64` | bring Tuần 3 chunk 4 persist to dev                                       |
+| 2026-05-12 | sync   | dev → be            | `8d7c212` | sync chunk 4 (persist middleware) xuống be                                |
