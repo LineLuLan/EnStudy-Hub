@@ -5,6 +5,110 @@
 
 ---
 
+## 2026-05-12 (đêm) — fe → dev → be — Claude Opus 4.7 (Tuần 3 chunk 3: Terminal Cloze làm primary `/review`)
+
+**Mục tiêu session**: thay FlashcardFlip placeholder bằng Terminal-style Inline Cloze làm primary mode `/review`. Pure helpers + state machine + auto-grade + Web Speech audio + animation polish.
+
+**Đã hoàn thành (commit `8fa69ef` trên fe → merge `a57327f` lên dev → sync `2c7d234` xuống be):**
+
+**Files mới (3):**
+
+- `src/components/review/cloze-utils.ts` (~65 line, PURE):
+  - `getClozeMask(word, cefr): MaskSlot[]` — A1 visible(first, last), A2 visible(first + vowels {a,e,i,o,u}), B1+/null full hidden. Non-letter (apostrophe, hyphen, space) luôn visible.
+  - `gradeFromCloze({hintsUsed, mistakes, durationMs, gaveUp}): Grade` — gaveUp || mistakes≥3 || hints≥2 → Again; 1 hint || 1-2 mistakes → Hard; 0/0/<5s → Easy; default Good
+  - `speakWord(word)` — Web Speech API `speechSynthesis.speak()` với `lang='en-US' rate=0.9`, no-op nếu browser không support
+- `src/components/review/cloze-utils.test.ts` (87 line, 15 tests):
+  - Mask A1 cho `family` (slot 0+5 visible), A2 cho `mother` (m/o/e visible, t/h/r hidden), B2 cho `ephemeral` (all hidden), null defaults B1+, single letter `a` always visible, `don't` apostrophe visible
+  - Grade: Easy <5s, Good ≥5s, Hard 1 hint, Hard 1-2 mistakes, Again gaveUp, Again 3+ mistakes, Again 2+ hints
+- `src/components/review/cloze-card.tsx` (~360 line, primary):
+  - Props: `{ item, onGrade(grade), pending }` — fully self-contained
+  - State machine: `phase: 'typing' | 'unlocked'`, `input: string`, `hintsUsed`, `mistakes`, `gaveUp`, `shakeKey` (force re-mount Framer Motion shake), `mountedAtRef` (duration), `submittedRef` (idempotent submit)
+  - Doc-level `keydown` listener (skip nếu target là input/textarea):
+    - Phase `typing`: `[a-zA-Z]` → check expected next char (auto-fill non-letters trước), match → append + check unlock; mismatch → `mistakes++` + shake. `Backspace` → trim 1 char. `?` → auto-fill non-letters + next letter + `hintsUsed++`. `Escape` → `gaveUp=true` → unlock instant.
+    - Phase `unlocked`: `1-4` → override grade. `Enter`/`Space` → submit derived. Letters no-op.
+  - Render:
+    - **Typing**: câu ví dụ với inline `<ClozeSlots>` (mono khung `[ _ _ ]`, slot active underline sky), VN dịch `backdrop-blur-[3px]` hover toggle, action row `Lightbulb`/`X`/`Eraser` buttons + counter `input/word · hint N · sai N`
+    - **Unlocked**: `AnimatePresence` glassmorphism panel `bg-white/70 backdrop-blur ring-sky-100` với `boxShadow 0 0 24px rgba(56,189,248,0.18)`, header word + IPA mono + POS + CEFR badge + `Volume2` replay button, definitions (en+vi), 2 examples còn lại (border-l sky-200), collocations slice(0,4), mnemonic amber, countdown bar Framer Motion `width 100%→0% 2s linear`, label "Tự chấm Good trong 2s · bấm 1-4 để override", rating buttons row với derived highlighted (`activeTone: ring-{tone}-300`)
+  - Cleanup: `clearTimeout` + `speechSynthesis.cancel()` on unmount
+  - `splitSentence(sentence, word)` regex `\b...\b` case-insensitive với escape special chars cho từ có meta chars
+
+**Files edit:**
+
+- `src/components/review/review-session.tsx` (re-design):
+  - Detect `isMultiWord = current.card.word.includes(' ')`:
+    - True → `<MultiWordFallback>` với `<FlashcardFlip>` + Space lật + 1-4 chấm (giữ logic chunk 2 dạng fallback)
+    - False → `<ClozeCard key={current.userCard.id}>` (key prop reset state per card)
+  - Removed: global keydown listener (mỗi card type tự quản), `RATING_BUTTONS` constant, `flipped` selector ở top level (chỉ MultiWordFallback dùng)
+  - Meta hint conditional: multi-word `Space lật · 1-4 chấm` vs cloze `gõ từ · ? hint · Esc bỏ qua`
+- `src/stores/review-session.ts`:
+  - `submitReview` call: `reviewType: 'flashcard'` → `'typing'` (Cloze IS typing mode theo `reviewTypeEnum`)
+  - Giữ `flipped` + `flip()` cho MultiWordFallback path
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 32/32 (17 BE + 15 cloze, 3 files, 9.91s)
+- `pnpm typecheck` ✓ 0 errors (fix `isLetter(ch: string | undefined)` + bounds check trong while loop với `noUncheckedIndexedAccess`)
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes:
+  - `/review` ƒ dynamic 43.4 kB / **171 kB** First Load (+4 kB so chunk 2 cho ClozeCard + AnimatePresence)
+  - `/review/summary` ○ 2.48 kB / 121 kB (không đổi)
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                            |
+| ------ | --------- | ----------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                   |
+| dev    | `a57327f` | Tuần 3 chunk 3 Terminal Cloze merged            |
+| be     | `2c7d234` | sync chunk 3 (BE đọc layout Cloze + reviewType) |
+| fe     | `8fa69ef` | base chunk 3 Terminal Cloze                     |
+
+---
+
+**Next step session sau (Tuần 3 chunk 4 — polish + persist + open Tuần 4 dashboard):**
+
+1. Vào `fe` branch (hoặc `be` tùy task)
+2. **Persist Zustand** (option deferred từ chunk 3):
+   - `import { persist } from 'zustand/middleware'` wrap `create<ReviewSessionState>`
+   - `partialize: (state) => ({ results: state.results })` — chỉ persist results để `/review/summary` survive F5
+   - Queue/currentIndex KHÔNG persist (stale risk — RSC refetch khi reload)
+   - Storage: `localStorage` với name `'review-session-results'`
+3. **Manual verify Cloze trên browser thực** (user side):
+   - Login → /decks → enroll `daily-life/family`
+   - /review → card `family` (A1) hiện câu `My [ f _ _ _ _ y ] lives in Hanoi.`
+   - Gõ `a` `m` `i` `l` → unlock + audio + 2s countdown → auto Good
+   - Card kế: gõ sai 1 lần → shake → tiếp tục → derived Hard
+   - Card sau: `?` reveal → derived Hard
+   - Card cuối: `Esc` → instant Again
+   - /review/summary → counts đúng
+4. **Tuần 4 Dashboard** mở (nếu chunk 4 không cần thiết bỏ qua, lên thẳng Tuần 4):
+   - Streak timezone-aware với `date-fns-tz` qua `profiles.timezone`
+   - Heatmap component (đọc `review_logs.reviewedAt` group by day)
+   - Dashboard layout: 3 stat cards (streak / total reviews / mature cards) + heatmap + lessons in progress
+   - Page `/stats`: retention chart từ `state_after.stability`, daily activity bar
+5. (Optional) **Tuần 5 mode picker** sớm:
+   - Đã có `reviewTypeEnum` 'flashcard'|'mcq'|'typing'|'listening'
+   - Query param `/review?mode=cloze|flip` để chọn — Cloze hiện hardcode primary
+   - MCQ + Listening minigames mới
+
+**Critical paths cần đọc khi vào chunk 4:**
+
+- `src/components/review/cloze-card.tsx` — toàn bộ state machine + keyboard, nếu tweak Cloze
+- `src/stores/review-session.ts` — wrap `create` bằng `persist` middleware
+- `src/app/(app)/review/summary/page.tsx` — đã có snapshot pattern, persist results sẽ làm snapshot ít cần thiết
+- `src/features/srs/queue.ts` — pattern cho dashboard streak/heatmap queries
+- `src/lib/db/schema.ts:195-217` — `reviewLogs` với `reviewedAt + reviewType + state_before/after` jsonb audit
+- `VOCAB_APP_BLUEPRINT.md` Tuần 4 phần dashboard nếu có spec chi tiết
+
+**Lưu ý tech:**
+
+- Bundle `/review` 171 kB OK nhưng dần lên trần — chunk 4-5 nếu add nhiều dep (Recharts cho stats, etc.) cần lazy load.
+- `speechSynthesis` Firefox cần `prefs media.webspeech.synth.enabled=true`. Edge/Chrome bật mặc định. iOS Safari có nhưng cần user gesture (đã đảm bảo: phát sau khi user gõ phím).
+- `getClozeMask('y', 'A1')` cho A1 single-letter word: i===0 AND i===len-1 → visible. Cover trong test #5.
+- `noUncheckedIndexedAccess` flag trong tsconfig — đã verify bằng cách extract `const ch = wordLower[pos]` + check `undefined`. Pattern cần dùng cho mọi truy cập index string/array.
+- `submittedRef.current` đảm bảo override 1-4 trong countdown KHÔNG gây double-submit nếu user click rồi 2s timer cũng nổ. Idempotent từ FE side, BE side đã có `clientReviewId` idempotency.
+
+---
+
 ## 2026-05-12 (khuya) — fe → dev → be — Claude Opus 4.7 (Tuần 3 chunk 2: /review FE shell với flashcard flip + Zustand + summary)
 
 **Mục tiêu session**: Build FE shell cho `/review` lấy data từ `getReviewQueue` (BE foundation đã merge sáng nay), Zustand session store, flashcard flip placeholder cho Cloze, rating buttons + keyboard shortcuts, summary page.
