@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                           |
 | ------ | ----------------------- | ------------------------- | ---------------------- | ----------------------------------------------- |
 | main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
-| dev    | `dad126c`               | base                      | 2026-05-13 (`e229e1f`) | Tuần 4 chunk 2 /dashboard FE merged             |
-| be     | `048d99a`               | 2026-05-13 (chunk 2 sync) | 2026-05-12 (`c0cfba1`) | sync chunk 2 (dashboard FE)                     |
-| fe     | `e229e1f`               | 2026-05-13 (Tuần 4 BE)    | 2026-05-13 (`e229e1f`) | base Tuần 4 chunk 2 /dashboard FE               |
+| dev    | `42387aa`               | base                      | 2026-05-13 (`4aee6b3`) | Tuần 4 chunk 3 /stats page merged               |
+| be     | `27e676d`               | 2026-05-13 (chunk 3 sync) | 2026-05-12 (`c0cfba1`) | sync chunk 3 (/stats page)                      |
+| fe     | `4aee6b3`               | 2026-05-13 (chunk 2 docs) | 2026-05-13 (`4aee6b3`) | base Tuần 4 chunk 3 /stats page                 |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -133,3 +133,6 @@ git checkout fe
 | 2026-05-13 | commit | (chunk 2 FE) → fe   | `e229e1f` | feat(ui): Tuan 4 chunk 2 /dashboard FE (stats + heatmap)                  |
 | 2026-05-13 | merge  | fe → dev            | `dad126c` | bring Tuần 4 chunk 2 /dashboard FE to dev                                 |
 | 2026-05-13 | sync   | dev → be            | `048d99a` | sync chunk 2 (dashboard FE) xuống be                                      |
+| 2026-05-13 | commit | (chunk 3 FE) → fe   | `4aee6b3` | feat(stats): Tuan 4 chunk 3 /stats page (retention + activity + maturity) |
+| 2026-05-13 | merge  | fe → dev            | `42387aa` | bring Tuần 4 chunk 3 /stats page to dev                                   |
+| 2026-05-13 | sync   | dev → be            | `27e676d` | sync chunk 3 (/stats page) xuống be                                       |

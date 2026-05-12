@@ -5,6 +5,108 @@
 
 ---
 
+## 2026-05-13 (trưa) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 3: /stats page — retention + activity + maturity)
+
+**Mục tiêu session**: build `/stats` page với 3 chart sections — retention line, daily activity stacked bar, maturity donut pie. Charting lib: raw SVG (zero dep, consistency với heatmap chunk 2).
+
+**Đã hoàn thành (commit `4aee6b3` trên fe → merge `42387aa` lên dev → sync `27e676d` xuống be):**
+
+**Files mới (5):**
+
+- `src/features/stats/retention.ts` (~80 line, BE):
+  - `getRetention(userId, weeks=12, now)` → `Retention = { points: [{date, avgStability, sampleSize}], timezone, max, start, end }`
+  - Query `review_logs.reviewedAt + stateAfter` jsonb 12 tuần qua (default), bucket by user tz day, compute avg stability per day, fill zero-sample days với `avgStability=0, sampleSize=0` để UI render gaps
+  - Cast `stateAfter` jsonb → `{ stability?: number }` defensive (handle null/missing)
+- `src/features/stats/activity.ts` (~95 line, BE):
+  - `getActivity(userId, days=30, now)` → `Activity = { cells: [{date, again, hard, good, easy, total}], timezone, max, total, totalByRating, start, end }`
+  - Query `review_logs.reviewedAt + rating` 30 ngày, bucket by user tz day, breakdown 4 ratings per day + global `totalByRating` aggregate
+  - Empty cell filler trên missing days
+- `src/components/stats/retention-line.tsx` (~125 line, RSC SVG):
+  - viewBox 720×200, padding 36/12/16/28 (L/R/T/B), Y axis "Xd" (days), X axis MM-DD ticks first/mid/last
+  - Sky-tinted area path + polyline cho non-zero sample days (filter `n > 0`), small dots tại mỗi sample point
+  - Grid lines dashed zinc-200, Y ticks at 0/50%/100% of `Math.max(5, Math.ceil(max))`
+- `src/components/stats/activity-bar.tsx` (~150 line, RSC SVG):
+  - viewBox 720×200, slot per day = plotWidth/days, bar width 75% slot
+  - 4 stacked segments per day: Again (red-400), Hard (amber-400), Good (emerald-500), Easy (sky-500) — static fillClass + swatchClass cho Tailwind JIT pick up
+  - `<title>` per rect "YYYY-MM-DD: Good ×5" cho hover tooltip
+  - Legend dưới chart với colored swatches
+- `src/components/stats/maturity-pie.tsx` (~140 line, RSC SVG):
+  - viewBox 200×200, donut outer R=80 / inner R=50 / center label
+  - `polar(angle, r)` + `donutPath(start, end)` clockwise từ 12 o'clock
+  - 4 segments fill từ `MaturityCounts`: new (zinc-300), learning (amber-400), review (emerald-500), relearning (red-400)
+  - Edge case: arc.end === arc.start (count=0) → bump +0.001 để tránh degenerate path; nhưng cũng filter `count === 0` trả null
+  - Sidebar list flex column trên mobile / row trên sm: hiển thị label + count + pct per segment + mature row "Thuộc (≥21d stability)" tách bằng border-t
+
+**Files edit:**
+
+- `src/app/(app)/stats/page.tsx` (replace placeholder, ~155 line):
+  - `'force-dynamic'` + `redirect('/login?next=/stats')` nếu chưa login
+  - `Promise.all([getRetention, getActivity, getMaturityCounts, getStreak])` parallel
+  - 4 MetricCard row top (Total reviews 30d / Accuracy % / Days active / Mature `N`) — accuracy = `(good + easy) / total` rounded
+  - 3 chart sections: retention với interpretation note, activity với 30d label, maturity với "snapshot hiện tại"
+  - "← Về dashboard" link cuối
+- `src/app/(app)/stats/loading.tsx` (mới): skeleton match — 4 cards + 3 chart blocks
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 49/49 (không đổi — RSC + pure SVG)
+- `pnpm typecheck` ✓ 0 errors (sau cast `stateAfter as { stability?: number } | null`)
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes sau khi clear `.next/` (dev server vừa stop để lại cache stale → `Cannot find module for page: /login`):
+  - `/stats` ƒ dynamic 184 B / **109 kB** First Load — RSC pure SVG, zero charting deps
+  - `/dashboard` không đổi 184 B / 109 kB
+- KHÔNG manual verify browser session này (chunk 2 đã verify, chunk 3 cùng layout pattern)
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                              |
+| ------ | --------- | --------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)     |
+| dev    | `42387aa` | Tuần 4 chunk 3 /stats page merged |
+| be     | `27e676d` | sync chunk 3 (/stats page)        |
+| fe     | `4aee6b3` | base chunk 3 /stats page          |
+
+---
+
+**Next step session sau (Tuần 4 chunk 4 — /settings):**
+
+1. Manual verify `/stats` browser (`pnpm dev` → clear `.next/` nếu cache cũ rồi mới build/dev):
+   - Login → /stats → 4 MetricCard hiển thị data 30d từ session Cloze + Dashboard chunks
+   - Retention line: dot tại ngày hôm nay nếu có review, area dưới đường
+   - Activity bar: stacked color 4 segments cho ngày hôm nay
+   - Maturity pie: 4 segments (chủ yếu "Đang học" hoặc "Mới" với content P0 hiện tại)
+   - Hover bar/pie segment → title tooltip browser
+2. Vào `fe` build `/settings`:
+   - **Form 3 sections**: Account (displayName text + timezone select 20 IANA TZ list), Daily limits (dailyNewCards range 1-50, dailyReviewMax 50-500), Appearance (theme select light/dark/system qua next-themes)
+   - Server action `updateProfile` cập nhật `profiles` table (Zod validate input)
+   - Reuse pattern form từ `src/components/auth/login-form.tsx`
+   - Theme toggle: client component qua `useTheme()` từ next-themes
+3. **Verify Tuần 4 end-to-end**:
+   - Manual: change daily new cards limit 20→10 trên /settings → /review → đảm bảo getReviewQueue trả ≤10 thẻ mới
+   - Manual: change timezone → /dashboard streak có recompute đúng theo tz mới?
+4. **Ship Tuần 4 → main**:
+   - Merge dev → main `--no-ff` với tag `v0.2.0-tuần-4-done`
+   - Sync `main → be/fe` post-release
+
+**Critical paths cần đọc khi vào chunk 4:**
+
+- `src/components/auth/login-form.tsx` — pattern form với useFormStatus + server action
+- `src/features/auth/actions.ts` — pattern server action với Zod validate
+- `src/features/auth/profile.ts` — đã có `ensureProfile`, có thể extend hoặc tạo `updateProfile`
+- `src/lib/db/schema.ts:129-141` — `profiles` fields (displayName, timezone, locale, dailyNewCards, dailyReviewMax, uiPrefs jsonb)
+- `next-themes` docs — pattern `setTheme('light' | 'dark' | 'system')`
+
+**Lưu ý tech:**
+
+- `/stats` 109 kB First Load — bằng `/dashboard`, không thêm bloat. Recharts chưa cần install.
+- Build cache: nếu vừa dùng `pnpm dev` trước khi build, có thể gặp `PageNotFoundError: Cannot find module for page: /login`. Solution: `rm -rf .next` rồi `pnpm build` lại. Đây là Next 15 RSC streaming dev cache vs prod compile mismatch.
+- Retention line skip zero-sample days từ polyline (giữ x-position) → tránh đường rơi xuống 0 đột ngột. UI trade-off: dấu chấm thưa nếu user không review hằng ngày.
+- Activity bar legend swatch class `bg-{tone}-{shade}` static trong SEGMENTS array để Tailwind JIT compile (không dùng `.replace('fill-','bg-')` dynamic).
+- Maturity donut: edge case 1 segment 100% (e.g. tất cả "Đang học") → arc full circle. Bump `+0.001` cho start===end là defensive cho count=0 edge nhưng đã filter `count === 0` trả null. OK both belt + suspenders.
+- Accuracy formula: `(good + easy) / ratingTotal` — Hard không tính đúng vì user vẫn vật lộn. Có thể debate; chunk 4 có thể add toggle "Strict accuracy" hoặc "Lenient accuracy".
+
+---
+
 ## 2026-05-13 (sáng) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 2: /dashboard FE với stats + heatmap)
 
 **Mục tiêu session**: wire `/dashboard` UI từ BE foundation chunk 1. RSC parallel fetch, 3 stat cards, enrolled lessons list với progress bars, GitHub-style heatmap 12 tuần SVG, empty state cho user mới.
