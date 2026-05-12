@@ -82,8 +82,15 @@
 
 ## Tuần 3 — SRS Core
 
-- [ ] Cài `ts-fsrs`, viết `features/srs/`
-- [ ] Review queue algorithm + tests (`vitest`)
+- [x] **BE foundation done** (2026-05-12, commit `87da8ef` trên be → merge `ae89cb2` lên dev):
+  - `features/srs/fsrs.ts`: ts-fsrs wrapper — state mapping DB↔enum, `rate()` trả về DB-shape + structured log
+  - `features/srs/queue.ts`: `getReviewQueue(userId, now)` — due reviews + new cards limit theo `profiles.daily_new_cards`, trừ cards learned today (timezone-aware)
+  - `features/srs/queue-utils.ts`: pure helpers `computeNewRemaining` + `dayStartUtc` (tách để test không khởi tạo DB)
+  - `features/srs/actions.ts`: `submitReview` server action — idempotent `(user_id, client_review_id)`, transaction update `user_cards` + insert `review_logs` jsonb audit
+- [x] Vitest setup + tests (17/17 pass):
+  - `vitest.config.ts` + scripts `test/test:watch/test:ui`
+  - `fsrs.test.ts` (9): state mapping roundtrip, initial state, rate transitions (new→learning/review, review→relearning với lapse++)
+  - `queue.test.ts` (8): `computeNewRemaining` math, `dayStartUtc` cho Asia/Ho_Chi_Minh + UTC + boundary cases
 - [ ] Page `/review` với Zustand session store
 - [ ] **Terminal-style Inline Cloze** (primary mode `/review` — replace flashcard flip):
   - Locked state: hiện 1 câu ví dụ với từ bị đục lỗ `[>_     ]` + VN dịch mờ (backdrop-blur) làm hint
@@ -95,10 +102,11 @@
 - [ ] Flashcard flip fallback (giữ cho card chưa có example đủ điều kiện cloze)
 - [ ] Rating buttons với hint thời gian
 - [ ] Keyboard shortcuts toàn cục cho review session
-- [ ] Optimistic update + idempotency (`clientReviewId`)
-- [ ] Server action `submitReview`
+- [x] Server action `submitReview` (done trong BE foundation — `features/srs/actions.ts`)
+- [x] Idempotency (`clientReviewId`) — unique index `(user_id, client_review_id)` đã có trong schema, action check existing log trước khi apply rating
+- [x] Daily new cards limit — `getReviewQueue` enforce qua `computeNewRemaining(dailyNewLimit, learnedToday)`
+- [ ] Optimistic update FE (sẽ wire khi build /review UI)
 - [ ] Page `/review/summary`
-- [ ] Daily new cards limit
 - [ ] Edge case: empty queue, exit mid-session resume
 
 ---

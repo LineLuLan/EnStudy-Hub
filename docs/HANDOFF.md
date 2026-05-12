@@ -5,6 +5,103 @@
 
 ---
 
+## 2026-05-12 (tối) — be → dev → fe — Claude Opus 4.7 (Tuần 3 SRS BE foundation: fsrs + queue + submitReview + 17 tests)
+
+**Mục tiêu session**: bắt đầu Tuần 3 — BE foundation cho SRS. Wire `ts-fsrs` (đã có sẵn trong deps), viết `features/srs/`, server action `submitReview` với idempotency, vitest tests. Để dành Cloze UI cho session FE kế tiếp.
+
+**Đã hoàn thành (commit `87da8ef` trên be → merge `ae89cb2` lên dev → sync `eb844d0` xuống fe):**
+
+**Schema confirmed (đọc `src/lib/db/schema.ts`):**
+
+- `user_cards` đã có đủ FSRS fields: `stability, difficulty, elapsedDays, scheduledDays, reps, lapses, state, lastReview, due, suspended, fsrsVersion`
+- `review_logs.clientReviewId` (notNull) có unique index `(userId, clientReviewId)` cho idempotency
+- `cardStateEnum` ('new', 'learning', 'review', 'relearning') khớp ts-fsrs State enum
+- `reviewTypeEnum` có 'typing' sẵn cho Cloze mode
+- `profiles.dailyNewCards` (default 20), `profiles.timezone` (default 'Asia/Ho_Chi_Minh')
+- `ts-fsrs ^4.4.6` đã cài (resolved 4.7.1), `zustand`, `framer-motion`, `date-fns-tz` cũng sẵn
+
+**Files mới:**
+
+- `src/features/srs/fsrs.ts` (140 line):
+  - `DB_TO_FSRS_STATE` / `FSRS_TO_DB_STATE` enum mapping bidirectional
+  - `toFsrsCard(card)` / `fromFsrsCard(fsrsCard)` — chuyển đổi shape giữa DB và ts-fsrs
+  - `rate(current, rating, now)` → `{ next: SrsUpdate, fsrsLog: { stateBefore, stateAfter, scheduledDays, elapsedDays, stability, difficulty } }`
+  - `initialFsrsState(now)` — FSRS defaults cho user_card mới (match DB defaults)
+  - Singleton FSRS instance với `enable_fuzz: true, enable_short_term: true`
+- `src/features/srs/queue.ts` (100 line):
+  - `getReviewQueue(userId, now)` → `{ due: ReviewQueueItem[], newCards: ReviewQueueItem[], meta: { dueCount, newAvailable, newLearnedToday, dailyNewLimit, timezone } }`
+  - Due reviews: `state ≠ 'new' AND due ≤ now AND !suspended`, order `due ASC`
+  - New cards: `state = 'new'`, order `createdAt ASC`, LIMIT `dailyNewLimit - learnedToday`
+  - `learnedToday` đếm `user_cards WHERE state ≠ 'new' AND reps = 1 AND lastReview ≥ todayStart(UTC từ profile.timezone)`
+- `src/features/srs/queue-utils.ts` (17 line): pure helpers `computeNewRemaining` + `dayStartUtc` (extract để test không phải khởi tạo DB client — `db/client.ts` throws nếu thiếu DATABASE_URL ở module load)
+- `src/features/srs/actions.ts` (164 line): `submitReview(input)` server action:
+  - Input schema (zod): `{ userCardId, rating (Grade 1-4), clientReviewId, durationMs?, reviewType? }`
+  - Idempotency: check existing `review_logs` by `(userId, clientReviewId)` trước, return `{ idempotent: true }` nếu trùng (kèm nextDue/nextState từ user_card hiện tại)
+  - Validate user_card thuộc về userId
+  - Compute next state qua `rate()`, transaction update `user_cards` + insert `review_logs` với `state_before`/`state_after` jsonb audit
+  - `revalidatePath('/review')` + `revalidatePath('/dashboard')`
+  - Return `{ ok: true, idempotent, nextDue, nextState, reps, lapses }`
+- `vitest.config.ts`: node env, include `src/**/*.{test,spec}.{ts,tsx}`, alias `@` → `src`
+- `src/features/srs/fsrs.test.ts` (132 line, 9 tests):
+  - State mapping roundtrip cho 4 DbCardState
+  - `fromDbState('new')` = `State.New`, `fromDbState('review')` = `State.Review`
+  - `initialFsrsState`: state='new', reps=0, lapses=0, stability=0, difficulty=0
+  - Rate new card: Again → learning + reps=1 + due ≤ 10min; Easy → review + reps=1 + due ≥ 1 day; Good → learning or review + reps=1
+  - Rate review card: Again → relearning + lapses=1; Good → stays review + scheduledDays grows
+  - `lastReview` luôn = now sau rating
+- `src/features/srs/queue.test.ts` (44 line, 8 tests):
+  - `computeNewRemaining`: 20-0=20, 20-7=13, 20-25=0, 0-5=0
+  - `dayStartUtc`: Asia/Ho_Chi_Minh 14:30 ICT → `2026-05-11T17:00:00Z`, UTC noon → `2026-05-12T00:00:00Z`, just-past-midnight ICT boundary
+- `package.json` scripts: `test`, `test:watch`, `test:ui`; devDeps `vitest@^4.1.6 + @vitest/ui@^4.1.6`
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 17/17 pass, 2 files, 4.78s
+- `pnpm typecheck` ✓ 0 errors (sau khi fix destructure trên count query: `const [{ n }] = await db.select(...)` → `const rows = ...; const n = rows[0]?.n ?? 0`)
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 10/10 routes (route `/review` vẫn placeholder 157 B — sẽ wire ở session FE kế tiếp)
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                                     |
+| ------ | --------- | -------------------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                            |
+| dev    | `ae89cb2` | Tuần 3 BE foundation merged + 17 tests pass              |
+| be     | `87da8ef` | base Tuần 3 BE foundation                                |
+| fe     | `eb844d0` | sync Tuần 3 BE foundation (ready cho /review UI session) |
+
+---
+
+**Next step gợi ý cho session AI sau (Tuần 3 chunk 2 — FE shell):**
+
+1. Switch sang `fe` branch
+2. Build `/review` page (RSC fetch queue qua `getReviewQueue`):
+   - Empty state nếu `due.length === 0 && newCards.length === 0`
+   - Hiển thị meta (due count + new count + daily limit progress)
+   - Render danh sách cards stack hoặc 1 card tại 1 thời điểm (cần quyết)
+3. Zustand store `src/stores/review-session.ts`:
+   - State: `currentIndex, ratings: Map<userCardId, rating>, startedAt, durationMs per card`
+   - Actions: `next()`, `rate(rating)` (call submitReview), `restart()`
+4. Wire `submitReview` action từ FE — generate `clientReviewId` qua `crypto.randomUUID()` cho mỗi rating-attempt
+5. Flashcard flip placeholder (chưa Cloze yet) — đơn giản: word → flip → meaning + 4 rating buttons (1-4)
+6. Sau khi flip + queue chạy ổn → mở Chunk 3 Terminal Cloze
+
+**Critical paths cần đọc ở session FE:**
+
+- `src/features/srs/queue.ts` — type `ReviewQueue` + `ReviewQueueItem`
+- `src/features/srs/actions.ts` — `submitReview` signature + return shape
+- `src/features/srs/fsrs.ts` — `Rating` enum re-export
+- `src/components/decks/card-preview.tsx` — pattern collapsible client component, reuse cho flashcard
+- `src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx` — pattern RSC + client interactivity wiring
+
+**Lưu ý tech:**
+
+- `db/client.ts` line 12-14 throws ở module load nếu `DATABASE_URL` thiếu — pure helpers phải tách ra file riêng không import `db` (đã làm với `queue-utils.ts`)
+- `crypto.randomUUID()` available trong browser nếu HTTPS hoặc localhost — OK cho dev + Vercel prod
+- Vitest 4.1.6 (latest) + Node 22.14 — peer dep warning `vite 8 wants esbuild ^0.27.0 || ^0.28.0` (found 0.19.12 từ drizzle-kit) — không ảnh hưởng
+
+---
+
 ## 2026-05-12 (chiều) — fe → dev → be — Claude Opus 4.7 (Tuần 2 FE polish: render bug fixed + UI tinh chỉnh + Cloze ideated cho Tuần 3)
 
 **Mục tiêu session**: fix render bug `/decks` "missing required error components" + polish UI 3 routes `/decks/*` (typography, spacing, 2-col grid, dark mode tones, empty state, skeleton). Ghi nhận ý tưởng Terminal-style Inline Cloze cho Tuần 3.
