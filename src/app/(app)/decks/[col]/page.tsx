@@ -25,21 +25,28 @@ export default async function CollectionPage({ params }: { params: Promise<{ col
       </Link>
 
       <div className="mt-3">
-        <h1 className="text-2xl font-semibold tracking-tight">{collection.name}</h1>
+        <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+          {collection.name}
+        </h1>
         {collection.description && (
-          <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">{collection.description}</p>
+          <p className="mt-1 text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
+            {collection.description}
+          </p>
         )}
       </div>
 
       {collection.topics.length === 0 ? (
-        <p className="mt-8 text-sm text-zinc-500">Chưa có chủ đề nào trong bộ sưu tập này.</p>
+        <div className="mt-8 rounded-lg border border-dashed border-zinc-300 p-10 text-center text-sm text-zinc-500 dark:border-zinc-700">
+          <Layers className="mx-auto h-6 w-6 text-zinc-400" />
+          <p className="mt-3 font-medium text-zinc-700 dark:text-zinc-300">Bộ này chưa có chủ đề</p>
+        </div>
       ) : (
-        <div className="mt-8 space-y-8">
+        <div className="mt-8 space-y-10">
           {collection.topics.map((topic) => (
             <section key={topic.id}>
               <div className="mb-3 flex items-center gap-2">
-                <Layers className="h-4 w-4 text-zinc-500" />
-                <h2 className="text-lg font-semibold">{topic.name}</h2>
+                <Layers className="h-5 w-5 text-zinc-500" />
+                <h2 className="text-xl font-semibold tracking-tight">{topic.name}</h2>
                 {topic.description && (
                   <span className="text-xs text-zinc-500">— {topic.description}</span>
                 )}
@@ -48,7 +55,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ col
               {topic.lessons.length === 0 ? (
                 <p className="text-sm text-zinc-500">Chưa có bài học.</p>
               ) : (
-                <ul className="divide-y divide-zinc-200 rounded-md border border-zinc-200 dark:divide-zinc-800 dark:border-zinc-800">
+                <ul className="divide-y divide-zinc-100 overflow-hidden rounded-md border border-zinc-200 dark:divide-zinc-900 dark:border-zinc-800">
                   {topic.lessons.map((lesson) => {
                     const isEnrolled = enrolled.has(lesson.id);
                     return (
@@ -58,8 +65,8 @@ export default async function CollectionPage({ params }: { params: Promise<{ col
                           className="flex items-center justify-between gap-4 px-4 py-3 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-900"
                         >
                           <div className="min-w-0">
-                            <div className="font-medium">{lesson.name}</div>
-                            <div className="mt-0.5 flex items-center gap-3 text-xs text-zinc-500">
+                            <div className="font-medium tracking-tight">{lesson.name}</div>
+                            <div className="mt-1 flex items-center gap-3 text-xs text-zinc-500">
                               <span>{lesson.cardCount} từ</span>
                               {lesson.estimatedMinutes && (
                                 <span className="inline-flex items-center gap-1">
