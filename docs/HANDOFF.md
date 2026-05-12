@@ -5,6 +5,90 @@
 
 ---
 
+## 2026-05-13 (sáng sớm) — be → dev → fe — Claude Opus 4.7 (Tuần 4 BE foundation: streak + heatmap + maturity)
+
+**Mục tiêu session**: mở Tuần 4 Dashboard. Theo pattern Tuần 3 chunk 1 (BE foundation trước, FE chunk sau), build query layer `features/stats/` + vitest pure helpers. Để dành UI cho session FE kế tiếp.
+
+**Đã hoàn thành (commit `139afed` + `c0cfba1` trên be → merge `3443d13` lên dev → sync `1e3201a` xuống fe):**
+
+**Files mới (5):**
+
+- `src/features/stats/dates.ts` (~75 line, PURE):
+  - `dayKey(date: Date, tz: string): string` — `date-fns-tz.formatInTimeZone(d, tz, 'yyyy-MM-dd')`. Test: UTC 17:00 ICT → next day, UTC 16:59:59 ICT → same day.
+  - `todayKey(now, tz)` — alias cho `dayKey(now, tz)`
+  - `shiftDay(key, delta)` — parse `YYYY-MM-DD` ở UTC 12:00 (tránh edge midnight), `setUTCDate(+delta)`, format lại. Handle month/year wrap.
+  - `computeStreaks(daysAsc, today): { current, longest }` — longest = walk forward + reset trên gap; current = strict today policy (nếu latest !== today → 0). Walk backward khi latest === today.
+- `src/features/stats/dates.test.ts` (~95 line, 17 tests):
+  - dayKey: ICT boundary 17:00 UTC vs 16:59:59 UTC, UTC tz pass-through, todayKey alias
+  - shiftDay: +1 normal, +1 month end → next month, +1 year end → next year, -1 Jan 1 → prev Dec 31, delta 0, -83 days (heatmap rollback)
+  - computeStreaks: empty (0/0), today only (1/1), yesterday only (0/1), 3 consec today (3/3), ends yesterday (0/2), longest > current (2/4), gaps in ongoing (2/2)
+- `src/features/stats/streak.ts` (~50 line):
+  - `getStreak(userId, now)` → `Streak = { current, longest, daysActive, timezone, lastActiveDate }`
+  - Đọc `profiles.timezone` (default Asia/Ho_Chi_Minh), SELECT distinct days từ `review_logs.reviewedAt ORDER BY DESC`, bucket vào Set bằng `dayKey(d, tz)`, gọi `computeStreaks`
+- `src/features/stats/heatmap.ts` (~70 line):
+  - `getHeatmap(userId, days=84, now)` → `Heatmap = { cells: [{date, count}], timezone, total, max, start, end }`
+  - Default 84 days = 12 weeks (GitHub-style sidebar widget proportion)
+  - Query reviewedAt >= `now - (days+1)*24h` (buffer 1d cho tz offset), bucket theo user tz, fill empty days với count=0
+- `src/features/stats/maturity.ts` (~50 line):
+  - `getMaturityCounts(userId)` → `MaturityCounts = { new, learning, review, relearning, mature, total }`
+  - Single SELECT `state, stability` từ `user_cards WHERE user_id`, aggregate trong JS
+  - `MATURE_STABILITY_DAYS = 21` (Anki convention) — mature = `state='review' AND stability >= 21d`
+
+**File edit:**
+
+- `commitlint.config.cjs`: thêm `'stats'` vào scope-enum (giữa `srs` và `vocab`) — chuẩn hóa cho future commits feat(stats):
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ **49/49** (32 cũ + 17 mới)
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes — bundle KHÔNG đổi (BE-only, không touch FE)
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                           |
+| ------ | --------- | ---------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                  |
+| dev    | `3443d13` | Tuần 4 BE foundation merged                    |
+| be     | `c0cfba1` | base Tuần 4 BE foundation + commitlint scope   |
+| fe     | `1e3201a` | sync Tuần 4 BE (sẵn cho /dashboard UI session) |
+
+---
+
+**Next step session sau (Tuần 4 chunk 2 — Dashboard FE):**
+
+1. Switch sang `fe` branch
+2. Quyết định charting lib (RECOMMEND: **raw SVG cho heatmap** đơn giản đỡ deps + **recharts** cho retention/maturity nếu cần; defer recharts tới khi vào /stats nếu /dashboard chỉ cần heatmap)
+3. Build `/dashboard` (RSC fetch parallel `Promise.all([getStreak, getHeatmap, getMaturityCounts, getReviewQueue, getEnrolledLessons])`):
+   - 3 stat cards: streak (🔥 N ngày), due (X cần ôn), mature (Y thuộc)
+   - "Bắt đầu ôn tập" CTA button → `/review` (disable nếu queue rỗng)
+   - "Bài đang học" list với progress %
+   - Heatmap section: 12 tuần × 7 ngày grid SVG ở dưới
+4. Empty states cho mỗi section
+5. Mobile responsive: stat cards stack vertical sm:grid-cols-3
+6. **Chunk 3** (sau): page `/stats` chi tiết với retention chart từ `state_after.stability` + daily activity bar + maturity pie
+7. **Chunk 4** (sau): page `/settings` — timezone select, daily new/review max, theme toggle
+
+**Critical paths cần đọc khi vào chunk 2 FE:**
+
+- `src/features/stats/streak.ts` + `heatmap.ts` + `maturity.ts` — type signatures cho RSC fetch
+- `src/features/srs/queue.ts:33` — `getReviewQueue(userId)` đã sẵn cho due count
+- `src/features/vocab/queries.ts` — pattern queries, có `getEnrolledLessonIds`, có thể cần thêm helper `getEnrolledLessonsWithProgress`
+- `src/app/(app)/decks/page.tsx` — pattern RSC fetch + render cards
+- `src/components/ui/skeleton.tsx` — primitive cho loading state
+- `src/lib/auth/session.ts` — `getCurrentUserId() ?? redirect('/login')`
+
+**Lưu ý tech:**
+
+- Heatmap `max` trả về 0 nếu user chưa review → UI cần guard `cell.count / Math.max(1, max)`
+- Streak strict today: nếu mở /dashboard buổi sáng trước khi review, thấy streak=0 dù hôm qua 10. Cân nhắc field "yesterdayCount" hoặc "graceUntil" để UI hiển thị "🔥 10 (chưa review hôm nay)" — soft policy
+- `getHeatmap` query buffer 1 ngày dư cover tz offset; DST edge cells có thể off-by-one. Acceptable cho MVP
+- `user_stats.currentStreak/longestStreak` columns vẫn ở schema nhưng chunk này KHÔNG update lazy. Có thể wire ở chunk 2 hoặc bỏ hẳn 2 cột
+- `/dashboard` hiện 157B placeholder; chunk 2 sẽ tăng ~120-150 kB
+
+---
+
 ## 2026-05-12 (đêm muộn) — fe → dev → be — Claude Opus 4.7 (Tuần 3 chunk 4: persist review results to localStorage)
 
 **Mục tiêu session**: hoàn tất Tuần 3 với persist Zustand cho `results` (deferred từ chunk 3) → `/review/summary` survive F5. Manual verify Cloze trên browser thực qua `pnpm dev` đã PASS user-side trước khi vào chunk 4.

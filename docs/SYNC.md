@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                           |
 | ------ | ----------------------- | ------------------------- | ---------------------- | ----------------------------------------------- |
 | main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
-| dev    | `de97b64`               | base                      | 2026-05-12 (`f13577d`) | Tuần 3 chunk 4 persist review results merged    |
-| be     | `8d7c212`               | 2026-05-12 (chunk 4 sync) | 2026-05-12 (`87da8ef`) | sync chunk 4 (Zustand persist)                  |
-| fe     | `f13577d`               | 2026-05-12 (chunk 3 docs) | 2026-05-12 (`f13577d`) | chunk 4 persist base                            |
+| dev    | `3443d13`               | base                      | 2026-05-12 (`c0cfba1`) | Tuần 4 BE foundation stats merged               |
+| be     | `c0cfba1`               | 2026-05-12 (chunk 4 docs) | 2026-05-12 (`c0cfba1`) | Tuần 4 BE foundation stats base                 |
+| fe     | `1e3201a`               | 2026-05-12 (Tuần 4 BE)    | 2026-05-12 (`f13577d`) | sync Tuần 4 BE (ready cho /dashboard UI)        |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -126,3 +126,7 @@ git checkout fe
 | 2026-05-12 | commit | (chunk 4 FE) → fe   | `f13577d` | feat(srs): persist review results to localStorage                         |
 | 2026-05-12 | merge  | fe → dev            | `de97b64` | bring Tuần 3 chunk 4 persist to dev                                       |
 | 2026-05-12 | sync   | dev → be            | `8d7c212` | sync chunk 4 (persist middleware) xuống be                                |
+| 2026-05-12 | commit | (Tuần 4 BE) → be    | `139afed` | feat(stats): Tuan 4 BE foundation - streak + heatmap + maturity           |
+| 2026-05-12 | commit | (commitlint) → be   | `c0cfba1` | chore(config): allow 'stats' scope in commitlint                          |
+| 2026-05-12 | merge  | be → dev            | `3443d13` | bring Tuần 4 BE foundation stats to dev                                   |
+| 2026-05-12 | sync   | dev → fe            | `1e3201a` | sync Tuần 4 BE foundation (ready cho /dashboard UI session)               |
