@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                   |
-| ------ | ----------------------- | ----------------------- | ---------------------- | ------------------------------------------------------- |
-| main   | `5fbd1c0`               | —                       | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag         |
-| dev    | `6bc6448`               | base                    | 2026-05-12 (`0156c17`) | Tuần 2 FE merged (/decks built, UI polish PENDING)      |
-| be     | `354d89a`               | 2026-05-12 (Tuần 2 FE)  | 2026-05-12 (`2bb295e`) | P0 content done (60 cards) + sync /decks                |
-| fe     | `0156c17`               | 2026-05-12 (P0 content) | 2026-05-12 (`0156c17`) | Tuần 2 FE /decks — chờ debug "missing error components" |
+| Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                  |
+| ------ | ----------------------- | ----------------------------- | ---------------------- | ------------------------------------------------------ |
+| main   | `5fbd1c0`               | —                             | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag        |
+| dev    | `ff527be`               | base                          | 2026-05-12 (`78d8bdd`) | Tuần 2 FE polish merged (error/loading + 2-col + typo) |
+| be     | `8e90de0`               | 2026-05-12 (Tuần 2 FE polish) | 2026-05-12 (`2bb295e`) | P0 content done + Tuần 2 FE polish synced              |
+| fe     | `78d8bdd`               | 2026-05-12 (handoff PENDING)  | 2026-05-12 (`78d8bdd`) | Tuần 2 FE polish base — render bug fix + UI tinh chỉnh |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -106,3 +106,8 @@ git checkout fe
 | 2026-05-12 | commit | (decks UI) → fe   | `0156c17` | feat(decks): list collections + topics + lessons + enroll                 |
 | 2026-05-12 | merge  | fe → dev          | `6bc6448` | bring /decks FE to dev                                                    |
 | 2026-05-12 | sync   | dev → be          | `354d89a` | sync /decks FE (post Tuần 2 FE)                                           |
+| 2026-05-12 | commit | (docs ship) → dev | `7083cd2` | docs(infra): handoff Tuần 2 FE done — UI polish + render bug PENDING      |
+| 2026-05-12 | sync   | dev → fe          | `2104629` | bring handoff docs back to fe                                             |
+| 2026-05-12 | commit | (polish) → fe     | `78d8bdd` | fix(vocab): error/loading boundaries + 2-col grid + typography polish     |
+| 2026-05-12 | merge  | fe → dev          | `ff527be` | bring Tuần 2 FE polish (render bug fix + UI tinh chỉnh) to dev            |
+| 2026-05-12 | sync   | dev → be          | `8e90de0` | sync Tuần 2 FE polish to be                                               |
