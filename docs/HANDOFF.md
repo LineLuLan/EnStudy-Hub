@@ -5,6 +5,73 @@
 
 ---
 
+## 2026-05-13 (chiều) — be → dev → fe — Claude Opus 4.7 (perf hotfix: drop auth network roundtrip on every nav)
+
+**Mục tiêu session**: user báo "click tab rất lag/load lâu". Diagnose root cause + apply 2 fix nhỏ trước khi shipping chunk 4 settings.
+
+**Diagnosis (ranked impact):**
+
+1. **#1 (major)**: `supabase.auth.getUser()` gọi 2 lần/click — middleware + `getCurrentUserId()` trong page. Mỗi call là HTTP roundtrip tới Supabase Auth server VN ↔ Singapore ~150-300ms. Tổng ~400ms auth check/click thuần backend.
+2. **#2 (major, dev-only)**: Next 15 dev mode compile route on-demand lần đầu — `/review` 172 kB tốn 10-20s lần đầu trên Windows cold cache. Production build không bị.
+3. **#3 (moderate)**: `force-dynamic` everywhere + Promise.all 5 queries `/dashboard` mỗi click = no cache, ~500ms DB. `/stats` 4 queries ~400ms.
+4. **#4 (minor)**: Middleware matcher rộng → chạy thêm cho `_next/data` + RSC prefetch → multiply auth checks.
+
+**Đã hoàn thành (commit `3627953` trên be → merge `962e5dc` lên dev → sync `cbb5499` xuống fe):**
+
+**File edit:**
+
+- `src/lib/supabase/middleware.ts`:
+  - `supabase.auth.getUser()` → `supabase.auth.getSession()`
+  - `getSession()` chỉ đọc cookie + verify JWT signature **local** (no Supabase network call). Cắt ~200ms/middleware run.
+  - Comment giải thích trade-off: middleware = lightweight gate; page-level `getCurrentUserId()` vẫn dùng `getUser()` cho authoritative check trước data access.
+- `src/lib/auth/session.ts`:
+  - Wrap `getCurrentUserId` + `requireUserId` với `cache()` từ `react` (React 19 stable API)
+  - Defensive: multiple Server Components trong cùng request render share 1 auth call. Hiện tại mỗi page chỉ gọi 1 lần nên zero benefit immediate, nhưng future-proof cho layout + page cùng gọi.
+  - Vẫn giữ `getUser()` (authoritative network check) — chỉ dedupe trong same request.
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 49/49 (không đổi)
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes — middleware bundle vẫn 99.5 kB
+- **Browser verify**: chưa retest sau fix. Cần user kiểm chứng — `pnpm dev` → click tab → cảm nhận snappy hơn.
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                      |
+| ------ | --------- | ----------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)             |
+| dev    | `962e5dc` | perf(auth): middleware getSession + cache |
+| be     | `3627953` | base auth perf fix                        |
+| fe     | `cbb5499` | sync auth perf fix                        |
+
+---
+
+**Expected impact:**
+
+- Mỗi click tab `/dashboard` `/review` `/stats` `/decks`: **-200ms** backend (middleware auth)
+- Lần đầu vào route trong dev session: vẫn lag 5-15s do **#2 dev compile** (Next 15 dev behavior, không fix được bằng code — chỉ pre-warm bằng `pnpm build && pnpm start`)
+- Subsequent clicks tab đã visited: snappy hơn rõ rệt
+
+**Future perf optimizations (chưa làm, defer):**
+
+- Wrap `getProfile(userId)` với `cache()` để dedupe 4 queries `getStreak/getHeatmap/getRetention/getActivity` mỗi cái fetch `profiles.timezone` riêng → 4 roundtrips → 1
+- Narrow middleware matcher: thêm `_next/data` vào exclude
+- Bỏ `force-dynamic` ở `/decks` (content public, có thể `revalidate: 60`)
+- Production demo: `pnpm build && pnpm start` thay vì `pnpm dev`
+
+---
+
+**Next step (Tuần 4 chunk 4 — /settings):**
+
+1. User retest browser: `pnpm dev` → click tab khắp app, expect snappier
+2. Nếu vẫn lag → DevTools Network → check TTFB. Nếu >500ms → wrap getProfile + bỏ force-dynamic /decks
+3. Tiếp chunk 4: `/settings` form 3 sections (Account/Daily limits/Appearance) + server action `updateProfile`
+4. Sau chunk 4: ship Tuần 4 → main tag `v0.2.0`
+
+---
+
 ## 2026-05-13 (trưa) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 3: /stats page — retention + activity + maturity)
 
 **Mục tiêu session**: build `/stats` page với 3 chart sections — retention line, daily activity stacked bar, maturity donut pie. Charting lib: raw SVG (zero dep, consistency với heatmap chunk 2).
