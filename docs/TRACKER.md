@@ -117,7 +117,12 @@
 - [x] Optimistic update FE — `rate()` advance currentIndex ngay, submit chạy background, status tracked trong results array
 - [x] Page `/review/summary` — counts per rating, accuracy %, total duration, error count với idempotency note
 - [x] Edge case: empty queue (RSC empty state với link `/decks`)
-- [ ] Edge case: exit mid-session resume (Zustand không persist — defer chunk 4)
+- [x] **Chunk 4 persist done** (2026-05-12, commit `f13577d` trên fe → merge `de97b64` trên dev → sync `8d7c212` xuống be):
+  - `useReviewSession` wrap với `zustand/middleware` `persist` + `createJSONStorage(() => localStorage)`
+  - `partialize: (state) => ({ results: state.results })` — chỉ persist `results` để `/review/summary` survive F5
+  - `queue/currentIndex/cardStartedAt` KHÔNG persist (avoid stale queue + Date serialization issues) — `init()` reset trên mỗi `/review` mount đảm bảo fresh start
+  - Storage name `'review-session-results'` — clear khi `reset()` hoặc `init()` called
+  - Build: `/review` 172 kB (+1 kB), `/review/summary` 122 kB (+1 kB)
 
 ---
 
