@@ -135,9 +135,14 @@
   - `features/stats/maturity.ts`: `getMaturityCounts(userId)` single SELECT + JS aggregate, mature = `state='review' AND stability >= 21d` (Anki convention)
   - `commitlint.config.cjs`: add 'stats' scope
 - [x] Vitest: 17 mới (dates.test.ts) — tz boundary, day shift month/year wrap, streak edge cases (empty, today only, yesterday only, 3 consec, ends yesterday, longest > current, gaps). Tổng 49/49 pass.
-- [ ] Dashboard `/dashboard` UI: 3 stat cards (streak / total / mature) + heatmap section + "Bài đang học" list (chunk 2 FE)
+- [x] **Chunk 2 /dashboard FE done** (2026-05-13, commit `e229e1f` trên fe → merge `dad126c` lên dev → sync `048d99a` xuống be):
+  - `features/vocab/queries.ts`: thêm `getEnrolledLessonsWithProgress(userId)` — join user_lessons + lessons + topics + collections, 2nd query group user_cards by lesson + state, return `{ lessonId, lessonSlug, lessonName, cardCount, topic/col slug+name, learned, total }` order startedAt DESC
+  - `components/dashboard/heatmap.tsx`: SVG 12-week grid với Sunday-aligned padding (firstCell.date getUTCDay), 5-level sky intensity (zinc-100 / sky-200 / sky-300 / sky-500 / sky-600), VN month labels (Th 1..Th 12), accessible `<title>` per cell, role=img + aria-label
+  - `app/(app)/dashboard/page.tsx`: RSC `Promise.all([getStreak, getHeatmap, getMaturityCounts, getReviewQueue, getEnrolledLessonsWithProgress])`, 3 StatCard (streak/due/mature) với tone rings amber/sky/emerald, CTA "Bắt đầu ôn tập (N)" → /review (disable nếu queue rỗng → "Thêm bài học mới" → /decks), enrolled list top 5 với progress bar emerald, heatmap section, brand-new-user empty state Sparkles CTA
+  - `app/(app)/dashboard/loading.tsx`: skeleton match layout (header + 3 cards + CTA + list + heatmap block)
+  - Build: `/dashboard` 181 B / **109 kB** First Load (RSC only, không client JS, không charting lib)
+- [x] Charting lib decision: **raw SVG cho heatmap** (zero dep, 131 line). Defer recharts cho `/stats` retention chart nếu cần
 - [ ] Page `/stats`: retention chart + daily activity bar + maturity pie (chunk 3 FE)
-- [ ] Chọn charting lib: recharts vs raw SVG (defer chunk 2)
 - [ ] Page `/settings`: timezone, daily limits, theme (chunk 4 FE)
 
 ---
