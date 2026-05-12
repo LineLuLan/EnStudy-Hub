@@ -151,7 +151,18 @@
   - `app/(app)/stats/page.tsx`: RSC `Promise.all([getRetention, getActivity, getMaturityCounts, getStreak])`, 4 MetricCard (total reviews / accuracy % / days active / mature) + 3 chart sections với VN copy + retention interpretation note "đường ổn định = thẻ học ngày càng đậm"
   - `app/(app)/stats/loading.tsx`: skeleton match layout
   - Build: `/stats` 184 B / **109 kB** First Load — RSC pure SVG, zero charting dep
-- [ ] Page `/settings`: timezone, daily limits, theme (chunk 4 FE)
+- [x] **Chunk 4 /settings page done** (2026-05-13, commit `a640f02` trên fe → merge `0096632` lên dev → sync `eb6ec8f` xuống be):
+  - `features/auth/profile.ts`: thêm `'use server'` directive + `updateProfile(input)` action với Zod schema (`displayName` trim+max 100, `timezone` string, `dailyNewCards` 1-50, `dailyReviewMax` 50-500), revalidate `/settings + /dashboard + /stats + /review` để stats queries pick up new tz/limits ngay
+  - `components/settings/settings-form.tsx` (~225 line): 3 SettingsSection client components:
+    - **Tài khoản**: email readonly mono + displayName input + timezone `<select>` 11 IANA TZ (VN diaspora-weighted: Asia/HCM/Bangkok/Singapore/Tokyo/Seoul/UTC/London/Paris/LA/NY/Sydney)
+    - **Giới hạn**: dailyNewCards number (1-50 step 1) + dailyReviewMax number (50-500 step 10)
+    - **Giao diện**: 3 button radio (Sun/Moon/Monitor) wired qua `useTheme()` next-themes, mounted gate cho hydration mismatch
+  - Form submit qua `useTransition` + sonner toast; theme change immediate (client-only, không qua server action)
+  - `app/(app)/settings/page.tsx`: RSC `ensureProfile(userId)` + `Promise.all([db.profile.findFirst, supabase.auth.getUser])`, fallback defaults nếu profile row chưa có
+  - `app/(app)/settings/loading.tsx`: skeleton match 3 sections + submit button
+  - Build: `/settings` 5.24 kB / **123 kB** First Load (client form + sonner + next-themes weight, tương đương `/login`)
+- [x] **Auth perf hotfix** (2026-05-13): middleware `getUser()` → `getSession()` cắt network roundtrip ~200ms/click; `getCurrentUserId/requireUserId` wrap với `React.cache()` để dedupe per-request
+- [x] **Tuần 4 chunk 4 done — sẵn ship dev → main `v0.2.0`**
 
 ---
 
