@@ -3,38 +3,11 @@
 import { useEffect, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
-import { Rating, type Grade } from 'ts-fsrs';
-import { Button } from '@/components/ui/button';
+import { type Grade } from 'ts-fsrs';
 import { useReviewSession } from '@/stores/review-session';
 import type { ReviewQueueItem } from '@/features/srs/queue';
+import { ClozeCard } from './cloze-card';
 import { FlashcardFlip } from './flashcard-flip';
-
-const RATING_BUTTONS: Array<{ grade: Grade; label: string; kbd: string; tone: string }> = [
-  {
-    grade: Rating.Again,
-    label: 'Again',
-    kbd: '1',
-    tone: 'border-red-200 text-red-700 hover:bg-red-50 dark:border-red-900/50 dark:text-red-300 dark:hover:bg-red-950/30',
-  },
-  {
-    grade: Rating.Hard,
-    label: 'Hard',
-    kbd: '2',
-    tone: 'border-amber-200 text-amber-700 hover:bg-amber-50 dark:border-amber-900/50 dark:text-amber-300 dark:hover:bg-amber-950/30',
-  },
-  {
-    grade: Rating.Good,
-    label: 'Good',
-    kbd: '3',
-    tone: 'border-emerald-200 text-emerald-700 hover:bg-emerald-50 dark:border-emerald-900/50 dark:text-emerald-300 dark:hover:bg-emerald-950/30',
-  },
-  {
-    grade: Rating.Easy,
-    label: 'Easy',
-    kbd: '4',
-    tone: 'border-sky-200 text-sky-700 hover:bg-sky-50 dark:border-sky-900/50 dark:text-sky-300 dark:hover:bg-sky-950/30',
-  },
-];
 
 export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[] }) {
   const router = useRouter();
@@ -58,30 +31,6 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
     }
   }, [currentIndex, queue.length, router]);
 
-  // Keyboard: Space flips, 1-4 rate (only when flipped).
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
-        return;
-      }
-      if (e.key === ' ') {
-        e.preventDefault();
-        flip();
-        return;
-      }
-      if (flipped && ['1', '2', '3', '4'].includes(e.key)) {
-        e.preventDefault();
-        const grade = Number(e.key) as Grade;
-        startTransition(() => {
-          void handleRate(grade);
-        });
-      }
-    };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-    // handleRate is stable via store ref + toast
-  }, [flip, flipped]); // eslint-disable-line react-hooks/exhaustive-deps
-
   async function handleRate(grade: Grade) {
     const result = await rate(grade);
     if (!result.ok) {
@@ -94,6 +43,8 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
     return null;
   }
 
+  const isMultiWord = current.card.word.includes(' ');
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between text-xs text-zinc-500">
@@ -101,28 +52,100 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
           {currentIndex + 1} / {queue.length}
         </span>
         <span>
-          <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> lật ·{' '}
-          <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chấm
+          {isMultiWord ? (
+            <>
+              <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> lật ·{' '}
+              <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chấm
+            </>
+          ) : (
+            <>
+              gõ từ · <kbd className="rounded border px-1 font-mono text-[10px]">?</kbd> hint ·{' '}
+              <kbd className="rounded border px-1 font-mono text-[10px]">Esc</kbd> bỏ qua
+            </>
+          )}
         </span>
       </div>
 
-      <FlashcardFlip item={current} flipped={flipped} onFlip={flip} />
+      {isMultiWord ? (
+        <MultiWordFallback
+          item={current}
+          flipped={flipped}
+          onFlip={flip}
+          onRate={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      ) : (
+        <ClozeCard
+          key={current.userCard.id}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      )}
+    </div>
+  );
+}
 
+/**
+ * Fallback for cards where `card.word` is a multi-word phrase (collocation seeded
+ * as a card). Typing the entire phrase is awkward, so we fall back to flashcard
+ * flip + rating buttons. Multi-word entries are not in P0 content but defensive
+ * coverage avoids a broken UI if they appear later.
+ */
+function MultiWordFallback({
+  item,
+  flipped,
+  onFlip,
+  onRate,
+  pending,
+}: {
+  item: ReviewQueueItem;
+  flipped: boolean;
+  onFlip: () => void;
+  onRate: (grade: Grade) => void;
+  pending: boolean;
+}) {
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (e.key === ' ') {
+        e.preventDefault();
+        onFlip();
+        return;
+      }
+      if (flipped && ['1', '2', '3', '4'].includes(e.key)) {
+        e.preventDefault();
+        onRate(Number(e.key) as Grade);
+      }
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [flipped, onFlip, onRate]);
+
+  return (
+    <>
+      <FlashcardFlip item={item} flipped={flipped} onFlip={onFlip} />
       <div className="grid grid-cols-4 gap-2">
-        {RATING_BUTTONS.map(({ grade, label, kbd, tone }) => (
-          <Button
+        {(
+          [
+            { grade: 1 as Grade, label: 'Again', tone: 'border-red-200 text-red-700' },
+            { grade: 2 as Grade, label: 'Hard', tone: 'border-amber-200 text-amber-700' },
+            { grade: 3 as Grade, label: 'Good', tone: 'border-emerald-200 text-emerald-700' },
+            { grade: 4 as Grade, label: 'Easy', tone: 'border-sky-200 text-sky-700' },
+          ] as const
+        ).map(({ grade, label, tone }) => (
+          <button
             key={grade}
             type="button"
-            variant="outline"
             disabled={!flipped || pending}
-            onClick={() => startTransition(() => void handleRate(grade))}
-            className={`flex h-12 flex-col gap-0.5 ${tone}`}
+            onClick={() => onRate(grade)}
+            className={`flex h-12 flex-col items-center justify-center gap-0.5 rounded-md border transition-colors hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-zinc-900 ${tone}`}
           >
             <span className="text-sm font-medium">{label}</span>
-            <kbd className="font-mono text-[10px] opacity-70">{kbd}</kbd>
-          </Button>
+            <kbd className="font-mono text-[10px] opacity-70">{grade}</kbd>
+          </button>
         ))}
       </div>
-    </div>
+    </>
   );
 }
