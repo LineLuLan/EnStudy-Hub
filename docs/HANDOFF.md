@@ -5,6 +5,97 @@
 
 ---
 
+## 2026-05-12 (khuya) — fe → dev → be — Claude Opus 4.7 (Tuần 3 chunk 2: /review FE shell với flashcard flip + Zustand + summary)
+
+**Mục tiêu session**: Build FE shell cho `/review` lấy data từ `getReviewQueue` (BE foundation đã merge sáng nay), Zustand session store, flashcard flip placeholder cho Cloze, rating buttons + keyboard shortcuts, summary page.
+
+**Đã hoàn thành (commit `3206996` trên fe → merge `311feb3` lên dev → sync `70d9780` xuống be):**
+
+**Files mới (6):**
+
+- `src/stores/review-session.ts` (129 line) — Zustand store:
+  - State: `queue: ReviewQueueItem[]`, `currentIndex`, `flipped`, `cardStartedAt`, `results: ReviewResult[]`
+  - `init(queue)`: reset + bootstrap, ghi `cardStartedAt = Date.now()`
+  - `flip()`: toggle flipped
+  - `rate(rating)`: generate `clientReviewId` qua `crypto.randomUUID()` (fallback `crv-${ts}-${rand}` cho non-crypto env), compute `durationMs` từ `cardStartedAt`, OPTIMISTIC advance currentIndex + reset flipped, await `submitReview`, update result status `'pending' → 'ok' | 'error'`
+  - `reset()`: blank state cho session mới
+- `src/components/review/flashcard-flip.tsx` (97 line):
+  - Outer `<div role="button">` (không `<button>` vì conflict với 3D transform)
+  - Framer Motion `animate={{ rotateY: flipped ? 180 : 0 }}` duration 0.5s
+  - Inline style `perspective: 1200px` + `transformStyle: preserve-3d` + `backfaceVisibility: hidden` cho front/back
+  - Front: word `text-4xl tracking-tight`, IPA `font-mono`, POS pill, hint "Bấm Space hoặc click để lật"
+  - Back: word + IPA + CEFR sky badge, first definition (en+vi), first example, mnemonic amber softened
+- `src/components/review/review-session.tsx` (128 line):
+  - 4 rating buttons với color tone (red/amber/emerald/sky) + `<kbd>` hint
+  - `useEffect` bootstrap store từ `initialQueue` prop một lần
+  - `useEffect` push `/review/summary` khi `currentIndex >= queue.length`
+  - Global keyboard handler: Space (preventDefault + flip), 1-4 (chỉ khi flipped, ignore khi target là input/textarea)
+  - `useTransition` cho rating dispatch + disabled state khi pending
+  - Toast Sonner khi `rate()` return error
+- `src/app/(app)/review/page.tsx` (RSC, replace placeholder 10-line):
+  - `getCurrentUserId() ?? redirect('/login?next=/review')`
+  - `getReviewQueue(userId)` → `due + newCards`
+  - Empty state nếu cả 2 = 0: `Sparkles` icon + link `/decks` + counter `learnedToday/dailyLimit`
+  - Otherwise: header với meta `{due} ôn lại · {new} thẻ mới · {learned}/{limit} hôm nay` + `<ReviewSession initialQueue={all} />`
+- `src/app/(app)/review/loading.tsx`: skeleton match flashcard + 4 rating buttons
+- `src/app/(app)/review/summary/page.tsx` (client) (103 line):
+  - `useReviewSession` selector cho `results` + `reset`
+  - Snapshot pattern: `useEffect` snapshot `results` ngay mount, render từ snapshot — tránh blank page khi user click "Học tiếp" → reset()
+  - 4 stat cards (Again/Hard/Good/Easy) với tone, total + duration + accuracy %, error count với idempotency note
+  - "Học tiếp" (reset + Link /review) + "Về dashboard"
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 17/17 (BE tests vẫn pass)
+- `pnpm build` ✓ 12/12 routes:
+  - `/review` ƒ dynamic 38.8 kB / **167 kB** First Load JS (framer-motion + zustand + actions client weight)
+  - `/review/summary` ○ static 2.48 kB / 121 kB First Load JS
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                             |
+| ------ | --------- | ------------------------------------------------ |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                    |
+| dev    | `311feb3` | Tuần 3 chunk 2 /review FE shell merged           |
+| be     | `70d9780` | sync chunk 2 (cho BE đọc submitReview signature) |
+| fe     | `3206996` | base chunk 2 /review FE shell                    |
+
+---
+
+**Next step session sau (Tuần 3 chunk 3 — Terminal Inline Cloze):**
+
+1. Vào `fe` branch
+2. Build `<ClozeCard>` thay `<FlashcardFlip>` làm primary trong `<ReviewSession>`:
+   - State machine: `locked → typing → unlocked`
+   - Locked: 1 câu ví dụ với từ bị đục lỗ `[>_     ]` + VN dịch mờ backdrop-blur
+   - Active typing: arrow keys nav (cần điều chỉnh keyboard handler), focus auto vào input, real-time char check
+   - Unlocked: play `audio_url` (nếu có) + neon glow + glassmorphism reveal IPA + collocations + 2 examples còn lại, 2s sau auto-collapse + focus card kế
+3. Difficulty auto theo CEFR card.cefrLevel:
+   - A1 → first+last visible (`e____l` cho `ephemeral`)
+   - A2 → first+vowels visible (`e_h_m_r_l`)
+   - B1+ → full đục lỗ
+4. Hint key `?` reveal 1 letter (-1 effective grade)
+5. Grade mapping: full chính xác lần đầu → Rating.Easy hoặc Good (tùy speed), hint → Hard, bỏ cuộc → Again
+6. Add `persist` middleware cho Zustand (localStorage) để resume mid-session khi reload
+
+**Critical paths cần đọc khi vào chunk 3:**
+
+- `src/components/review/flashcard-flip.tsx` — pattern client component đã có, copy structure
+- `src/components/review/review-session.tsx` — swap `<FlashcardFlip>` thành `<ClozeCard>` (hoặc conditional dựa trên difficulty/audio availability)
+- `src/stores/review-session.ts` — `rate()` API đã sẵn, Cloze chỉ cần đếm hints/typos → quyết grade
+- `src/features/srs/fsrs.ts` — `Rating` enum, `rate()` signature
+- Schema `cards.audio_url` đã exist nhưng content P0 hiện tại chưa fill — cần seed thêm audio hoặc dùng Web Speech API `speechSynthesis` fallback
+
+**Lưu ý tech:**
+
+- Bundle size `/review` 167 kB — chấp nhận được nhưng nếu chunk 3 add nhiều animation/audio thư viện thì cẩn thận. Có thể lazy load Cloze component.
+- Zustand store hiện tại KHÔNG persist — nếu user F5 mid-session, mất hết. Acceptable cho MVP (session ngắn 5-10 phút), nhưng add `persist({ name: 'review-session', storage: localStorage })` cho UX tốt hơn.
+- `cardStartedAt` reset mỗi card → đo time từ khi advance, KHÔNG từ khi flip. Có thể chính xác hơn nếu đo từ khi flip (= time user thực sự xem). Có thể tinh chỉnh sau.
+
+---
+
 ## 2026-05-12 (tối) — be → dev → fe — Claude Opus 4.7 (Tuần 3 SRS BE foundation: fsrs + queue + submitReview + 17 tests)
 
 **Mục tiêu session**: bắt đầu Tuần 3 — BE foundation cho SRS. Wire `ts-fsrs` (đã có sẵn trong deps), viết `features/srs/`, server action `submitReview` với idempotency, vitest tests. Để dành Cloze UI cho session FE kế tiếp.
