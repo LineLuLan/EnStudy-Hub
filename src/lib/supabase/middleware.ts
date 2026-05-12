@@ -34,9 +34,14 @@ export async function updateSession(request: NextRequest) {
     }
   );
 
+  // Middleware uses getSession() (local — reads cookie + verifies JWT signature)
+  // rather than getUser() (network — round-trip to Supabase Auth, ~150-300ms).
+  // The page-level getCurrentUserId() still runs getUser() for an authoritative
+  // check before any data access; middleware is just the lightweight gate.
   const {
-    data: { user },
-  } = await supabase.auth.getUser();
+    data: { session },
+  } = await supabase.auth.getSession();
+  const user = session?.user ?? null;
 
   const path = request.nextUrl.pathname;
   const isProtected = PROTECTED_PREFIXES.some((p) => path.startsWith(p));
