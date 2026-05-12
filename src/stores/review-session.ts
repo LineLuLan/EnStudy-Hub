@@ -88,7 +88,7 @@ export const useReviewSession = create<ReviewSessionState>((set, get) => ({
         rating,
         clientReviewId,
         durationMs,
-        reviewType: 'flashcard',
+        reviewType: 'typing',
       });
 
       set((prev) => ({
