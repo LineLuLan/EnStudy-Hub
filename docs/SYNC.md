@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                           |
 | ------ | ----------------------- | ------------------------- | ---------------------- | ----------------------------------------------- |
 | main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
-| dev    | `3443d13`               | base                      | 2026-05-12 (`c0cfba1`) | Tuần 4 BE foundation stats merged               |
-| be     | `c0cfba1`               | 2026-05-12 (chunk 4 docs) | 2026-05-12 (`c0cfba1`) | Tuần 4 BE foundation stats base                 |
-| fe     | `1e3201a`               | 2026-05-12 (Tuần 4 BE)    | 2026-05-12 (`f13577d`) | sync Tuần 4 BE (ready cho /dashboard UI)        |
+| dev    | `dad126c`               | base                      | 2026-05-13 (`e229e1f`) | Tuần 4 chunk 2 /dashboard FE merged             |
+| be     | `048d99a`               | 2026-05-13 (chunk 2 sync) | 2026-05-12 (`c0cfba1`) | sync chunk 2 (dashboard FE)                     |
+| fe     | `e229e1f`               | 2026-05-13 (Tuần 4 BE)    | 2026-05-13 (`e229e1f`) | base Tuần 4 chunk 2 /dashboard FE               |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -130,3 +130,6 @@ git checkout fe
 | 2026-05-12 | commit | (commitlint) → be   | `c0cfba1` | chore(config): allow 'stats' scope in commitlint                          |
 | 2026-05-12 | merge  | be → dev            | `3443d13` | bring Tuần 4 BE foundation stats to dev                                   |
 | 2026-05-12 | sync   | dev → fe            | `1e3201a` | sync Tuần 4 BE foundation (ready cho /dashboard UI session)               |
+| 2026-05-13 | commit | (chunk 2 FE) → fe   | `e229e1f` | feat(ui): Tuan 4 chunk 2 /dashboard FE (stats + heatmap)                  |
+| 2026-05-13 | merge  | fe → dev            | `dad126c` | bring Tuần 4 chunk 2 /dashboard FE to dev                                 |
+| 2026-05-13 | sync   | dev → be            | `048d99a` | sync chunk 2 (dashboard FE) xuống be                                      |

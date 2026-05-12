@@ -5,6 +5,83 @@
 
 ---
 
+## 2026-05-13 (sáng) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 2: /dashboard FE với stats + heatmap)
+
+**Mục tiêu session**: wire `/dashboard` UI từ BE foundation chunk 1. RSC parallel fetch, 3 stat cards, enrolled lessons list với progress bars, GitHub-style heatmap 12 tuần SVG, empty state cho user mới.
+
+**Đã hoàn thành (commit `e229e1f` trên fe → merge `dad126c` lên dev → sync `048d99a` xuống be):**
+
+**Files mới (2):**
+
+- `src/components/dashboard/heatmap.tsx` (~135 line, RSC pure SVG):
+  - Props: `{ data: Heatmap }` từ `features/stats/heatmap`
+  - Layout: 12 weeks × 7 days grid, Sunday-aligned padding (firstCell `.getUTCDay()` quyết empty cells đầu col 0)
+  - Cell: 12×12 px + 3px gap, rx=2, color theo intensity `count / max` chia 5 level (0=zinc-100, <=.25=sky-200, <=.5=sky-300, <=.75=sky-500, else sky-600), dark mode mirror
+  - Labels: VN month "Th 1..Th 12" trên column boundary đầu mỗi tháng; day-of-week "T2/T4/T6" mỗi 2 row trái
+  - Accessibility: `<svg role="img" aria-label="...">` + `<title>` per cell với "YYYY-MM-DD: N thẻ"
+  - Empty state: hiện `<p>Chưa có hoạt động ôn tập trong 12 tuần qua.</p>` nếu cells rỗng
+- `src/app/(app)/dashboard/loading.tsx`: skeleton 3 stat cards + CTA + list + heatmap block, match layout
+
+**Files edit:**
+
+- `src/features/vocab/queries.ts`: thêm `getEnrolledLessonsWithProgress(userId)`:
+  - Query 1: join `user_lessons → lessons → topics → collections` order `desc(userLessons.startedAt)`
+  - Query 2: `user_cards WHERE userId AND lessonId IN (...)` group state ≠ 'new' → Map<lessonId, count>
+  - Return `EnrolledLessonProgress[]` với `{ lessonId, lessonSlug, lessonName, cardCount, topicSlug/Name, colSlug/Name, learned, total }`
+- `src/app/(app)/dashboard/page.tsx` (replace placeholder, ~240 line):
+  - `'force-dynamic'` + `getCurrentUserId() ?? redirect('/login?next=/dashboard')`
+  - `Promise.all([getStreak, getHeatmap, getMaturityCounts, getReviewQueue, getEnrolledLessonsWithProgress])` parallel fetch
+  - 3 `<StatCard>` (Flame amber, Inbox sky, GraduationCap emerald) với value + suffix + subtitle adapt theo data state
+  - CTA `<Button asChild>` → /review nếu `dueTotal > 0`, else /decks "Thêm bài học mới"
+  - "Bài đang học" section: top 5 enrolled với progress bar emerald + percentage
+  - Heatmap section + brand-new-user Sparkles banner empty state
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 49/49 (không đổi)
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes: `/dashboard` ƒ dynamic 181 B / **109 kB** First Load
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)       |
+| dev    | `dad126c` | Tuần 4 chunk 2 /dashboard FE merged |
+| be     | `048d99a` | sync chunk 2 (dashboard FE)         |
+| fe     | `e229e1f` | base chunk 2 /dashboard FE          |
+
+---
+
+**Next step session sau (Tuần 4 chunk 3 — /stats page):**
+
+1. Manual verify `/dashboard` browser thật (`pnpm dev`):
+   - Login → /dashboard → 3 stat cards có data từ session chunk 3 Cloze, enrolled lessons hiển thị `learned/total`, heatmap có cells sky tint cho ngày hôm nay
+2. Chunk 3 `/stats` page:
+   - Retention chart từ `review_logs.state_after.stability` theo time
+   - Daily activity bar chart (X=day, Y=reviews) — reuse `heatmap.cells` hoặc query mới với rating breakdown
+   - Maturity pie chart (4 segments: new/learning/review/relearning + mature)
+   - Charting lib: `pnpm add recharts` (~50 kB tree-shake) hoặc raw SVG. Recommend recharts cho retention line + daily bar; raw SVG cho pie
+3. Chunk 4 `/settings`: timezone select + dailyNewCards 1-50 + dailyReviewMax 50-500 + theme toggle (already wired via next-themes). Form pattern reuse `/login`.
+
+**Critical paths cần đọc khi vào chunk 3:**
+
+- `src/lib/db/schema.ts:195-217` — `reviewLogs.stateAfter` jsonb với `{ stability, scheduledDays, ... }`
+- `src/features/stats/heatmap.ts` — pattern bucket by day reuse
+- `src/components/dashboard/heatmap.tsx` — SVG pattern reuse cho bar/pie nếu không dùng recharts
+- `package.json` — cần `pnpm add recharts` nếu chọn lib
+
+**Lưu ý tech:**
+
+- `/dashboard` 109 kB First Load — gọn vì pure RSC + tiny client Button wrapper. Chunk 3 recharts có thể tăng `/stats` ~150 kB
+- Heatmap Sunday-aligned padding: firstCell rơi Sunday → 0 empty, Saturday → 6 empty → 13 cols total
+- Streak strict-today: hiển thị 0 nếu user chưa review hôm nay dù chuỗi dài hôm qua. Subtitle "Kỷ lục: X · Y ngày học" cho user thấy lịch sử. Chunk 3 hoặc 4 có thể soft policy
+- `enrolled.slice(0, 5)` — chưa pagination, dùng `/decks` link đầy đủ
+- `Button asChild + disabled`: không strict disable Link, fallback href conditional sang `/decks` đảm bảo CTA luôn productive
+
+---
+
 ## 2026-05-13 (sáng sớm) — be → dev → fe — Claude Opus 4.7 (Tuần 4 BE foundation: streak + heatmap + maturity)
 
 **Mục tiêu session**: mở Tuần 4 Dashboard. Theo pattern Tuần 3 chunk 1 (BE foundation trước, FE chunk sau), build query layer `features/stats/` + vitest pure helpers. Để dành UI cho session FE kế tiếp.
