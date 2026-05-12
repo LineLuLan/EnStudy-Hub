@@ -5,6 +5,78 @@
 
 ---
 
+## 2026-05-12 (chiều) — fe → dev → be — Claude Opus 4.7 (Tuần 2 FE polish: render bug fixed + UI tinh chỉnh + Cloze ideated cho Tuần 3)
+
+**Mục tiêu session**: fix render bug `/decks` "missing required error components" + polish UI 3 routes `/decks/*` (typography, spacing, 2-col grid, dark mode tones, empty state, skeleton). Ghi nhận ý tưởng Terminal-style Inline Cloze cho Tuần 3.
+
+**Đã hoàn thành (commit `78d8bdd` trên fe → merge `ff527be` lên dev):**
+
+**Render bug fix:**
+
+- CREATE `src/app/(app)/error.tsx` — Client Component error boundary với `RefreshCcw` button "Thử lại", show error.message + digest trong dev mode, generic msg trong prod.
+- CREATE `src/app/(app)/loading.tsx` — top-level skeleton.
+- CREATE route-level `loading.tsx` cho `/decks`, `/decks/[col]`, `/decks/[col]/[topic]/[lesson]` — skeleton match đúng layout từng route.
+- CREATE `src/components/ui/skeleton.tsx` — shadcn-style primitive (`animate-pulse rounded-md bg-zinc-200 dark:bg-zinc-800`).
+
+**UI polish:**
+
+- `/decks/page.tsx`: heading thêm explicit contrast `text-zinc-900 dark:text-zinc-50`, description `leading-relaxed`, card collection title `tracking-tight`, empty state với `BookOpen` icon centered.
+- `/decks/[col]/page.tsx`: topic header bump `text-lg → text-xl tracking-tight` + icon `h-4 → h-5`, section spacing `space-y-8 → space-y-10`, divider mềm `divide-zinc-100 dark:divide-zinc-900`, lesson title `tracking-tight`, lesson meta `mt-0.5 → mt-1`, empty state có `Layers` icon.
+- `/decks/[col]/[topic]/[lesson]/page.tsx`: container `max-w-3xl → max-w-5xl`, cards `space-y-3 → grid items-start gap-3 lg:grid-cols-2` (desktop 2-col, tablet/mobile 1-col), thêm empty state cho `cards.length === 0`.
+- `card-preview.tsx`: mnemonic amber chuyển từ `bg-amber-50/...amber-900` solid → `bg-amber-50/60 ring-1 ring-amber-100 text-amber-950` (dịu hơn dark mode), CEFR badge `blue-100 → sky-100` (đỡ chói).
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 10/10 static pages, lesson detail 2.53 kB / 129 kB First Load (tăng 0.02 kB vì thêm `BookOpen` icon import).
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                               |
+| ------ | --------- | -------------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                      |
+| dev    | `ff527be` | Tuần 2 FE polish merged + Cloze ideation (TRACKER) |
+| be     | `8e90de0` | sync Tuần 2 FE polish (post merge)                 |
+| fe     | `78d8bdd` | base Tuần 2 FE polish                              |
+
+---
+
+**📝 Ý tưởng Cloze cho Tuần 3 (đã ghi TRACKER, chưa code):**
+
+User design **Terminal-style Inline Cloze** làm primary mode `/review` thay flashcard flip:
+
+- **Locked**: 1 câu ví dụ với từ bị đục lỗ `[>_      ]` + nghĩa VN mờ (backdrop-blur) làm hint.
+- **Active typing**: arrow keys nav, focus auto vào input, real-time char check (đúng → trắng, sai → shake + nháy đỏ).
+- **Unlocked**: phát `audio_url` + neon glow + glassmorphism reveal IPA/collocations/2 examples còn lại, 2s sau auto-collapse + focus card kế.
+- **Difficulty auto theo CEFR**: A1 → first+last `e_____l`, A2 → first+vowels, B1+ → full word. Hint `?` reveal 1 letter (-1 grade).
+- **FSRS mapping**: full đúng → 3-4, có hint → 2, fail → 1.
+
+**Tech sẽ cần (audit Tuần 3):**
+
+- Kiểm tra `cards.audio_url` field đã có trong schema (blueprint 3.1 mục `cards`)
+- Web Audio API hoặc `<audio>` element cho playback
+- `useReducer` hoặc Zustand cho per-card state machine (locked → typing → unlocked)
+- Framer Motion + Tailwind `backdrop-blur` cho glassmorphism
+- Global keyboard handler (arrow keys, char input, `?` hint, `Escape` quit)
+
+**Critical paths cần đọc khi vào session Tuần 3:**
+
+- `src/lib/db/schema.ts` — verify `cards.audio_url` + ts-fsrs state fields (`due, stability, difficulty, elapsed, scheduled, reps, lapses, state, learning_steps`)
+- `src/features/vocab/queries.ts` — pattern cho `getReviewQueue(userId)` mới
+- `src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx` — example RSC + client interactivity wiring để follow cho `/review`
+
+**Next step gợi ý cho session AI sau:**
+
+1. User chạy `pnpm dev` (kill PID 1736 nếu còn) → mở `http://localhost:3000/decks` verify visual mới (2-col grid, mnemonic dịu, skeleton loading, error boundary).
+2. Nếu user nói "ưng rồi" → mở **Tuần 3 SRS Core**:
+   - `pnpm add ts-fsrs zustand framer-motion`
+   - Scaffold `src/features/srs/{fsrs.ts,queue.ts,session.ts}`
+   - Page `/review` với Terminal Cloze prototype (single card trước, mở rộng sau)
+3. Nếu user còn muốn polish thêm `/decks` → đợi feedback cụ thể.
+
+---
+
 ## 2026-05-12 — fe → dev → be — Claude Opus 4.7 (Tuần 2 FE /decks built — UI polish PENDING)
 
 **Mục tiêu session**: gen P0 content batch (3 lessons / 60 cards) + build `/decks` UI để có golden path: login → /decks → /decks/[col] → /decks/[col]/[topic]/[lesson] → enroll.

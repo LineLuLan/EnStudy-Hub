@@ -65,8 +65,14 @@
 - [x] Page `/decks/[col]` list topics + lessons với "Đang học" badge
 - [x] Page `/decks/[col]/[topic]/[lesson]` detail + CardPreview collapsible
 - [x] Lesson enrollment ("Thêm vào học") — server action `enrollLesson` insert user_lessons + bulk user_cards với FSRS defaults
-- [~] **DEBUG NGÀY MAI**: `/decks` UI render "missing required error components, refreshing..." trên dev server (port 3001 do PID 1736 chiếm port 3000). Xem HANDOFF entry 2026-05-12 fe → dev → be cho hypothesis + fix steps
-- [~] **UI polish PENDING**: typography, spacing, mobile responsive, dark mode contrast, IPA font, card density, empty state, skeleton loading
+- [x] **Render bug fixed** (2026-05-12 polish session): added `(app)/error.tsx` + `loading.tsx` + 3 route-level loading.tsx — Next 15 streaming RSC giờ có error boundary đúng
+- [x] **UI polish DONE** (2026-05-12 polish session, commit `78d8bdd` trên fe → merge `ff527be` lên dev):
+  - Typography: explicit `text-zinc-900 dark:text-zinc-50` contrast, `leading-relaxed` description, topic header `text-xl tracking-tight`, lesson title `tracking-tight`
+  - Spacing: topic section `space-y-8 → space-y-10`, soft divider `divide-zinc-100 dark:divide-zinc-900`, lesson meta `mt-0.5 → mt-1`
+  - Card density: lesson detail `max-w-3xl → max-w-5xl` + `grid lg:grid-cols-2 gap-3 items-start` (20 cards no longer stack)
+  - Visual: mnemonic amber softened with `ring-1` thay vì saturated bg, CEFR blue → sky, IPA giữ `font-mono` (Geist Mono đã wired)
+  - Empty states: 3 routes có empty UI với icon + heading + sub
+  - Skeleton: `ui/skeleton.tsx` + 4 loading.tsx files (top-level + 3 segments)
 - [ ] **CHỜ USER**: gen P1 batch (7 lesson, 140 cards): clothes-appearance, body-health, daily-routine, people/personality, people/emotions, time-numbers/time-dates, time-numbers/numbers-quantities — xem `docs/CONTENT_PLAN.md` Phần 5
 - [ ] **CHỜ USER**: review `docs/CONTENT_REPORT.md`, quyết định pick IPA style (giữ Oxford hay theo dictionaryapi)
 - [-] CRUD collections/topics/lessons (admin UI) — skip, content gen offline đủ MVP
@@ -79,9 +85,16 @@
 - [ ] Cài `ts-fsrs`, viết `features/srs/`
 - [ ] Review queue algorithm + tests (`vitest`)
 - [ ] Page `/review` với Zustand session store
-- [ ] Flashcard component + Framer Motion flip
+- [ ] **Terminal-style Inline Cloze** (primary mode `/review` — replace flashcard flip):
+  - Locked state: hiện 1 câu ví dụ với từ bị đục lỗ `[>_     ]` + VN dịch mờ (backdrop-blur) làm hint
+  - Active typing: arrow keys nav giữa card, focus auto vào input, real-time char check (đúng → trắng, sai → shake/đỏ)
+  - Unlocked: phát `audio_url` + neon glow + glassmorphism reveal IPA / collocations / 2 examples còn lại, 2s sau collapse + auto-focus card kế
+  - Difficulty: auto theo CEFR (A1 → first+last `e_____l`, A2 → first+vowels, B1+ → full word)
+  - Hint key `?` reveal 1 letter (-1 grade)
+  - Submit grade → FSRS rating (full đúng → 3-4, có hint → 2, fail → 1)
+- [ ] Flashcard flip fallback (giữ cho card chưa có example đủ điều kiện cloze)
 - [ ] Rating buttons với hint thời gian
-- [ ] Keyboard shortcuts
+- [ ] Keyboard shortcuts toàn cục cho review session
 - [ ] Optimistic update + idempotency (`clientReviewId`)
 - [ ] Server action `submitReview`
 - [ ] Page `/review/summary`
