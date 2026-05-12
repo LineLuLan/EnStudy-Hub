@@ -5,6 +5,136 @@
 
 ---
 
+## 2026-05-13 (chiều muộn) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 4: /settings page + đóng Tuần 4)
+
+**Mục tiêu session**: build `/settings` form 3 sections để user chỉnh displayName / timezone / daily limits / theme. Đóng Tuần 4 sẵn ship `v0.2.0`.
+
+**Đã hoàn thành (commit `a640f02` trên fe → merge `0096632` lên dev → sync `eb6ec8f` xuống be):**
+
+**Files mới (2):**
+
+- `src/components/settings/settings-form.tsx` (~225 line, client):
+  - Props: `{ initial: { email, displayName, timezone, dailyNewCards, dailyReviewMax } }`
+  - State local: 4 useState cho 4 trường + `useTransition` cho submit pending
+  - 3 `<SettingsSection>` (bordered card layout với title + description):
+    - **Tài khoản**: Email `<Input disabled>` mono (read-only), displayName text input, timezone `<select>` 11 IANA TZ
+    - **Giới hạn hằng ngày**: dailyNewCards number 1-50 + dailyReviewMax number 50-500, grid 2-col sm:grid-cols-2
+    - **Giao diện**: `<ThemeRadio>` — 3 button (Sun/Moon/Monitor) wired qua `useTheme()` next-themes, mounted state gate cho SSR hydration
+  - Submit: `e.preventDefault() → startTransition(updateProfile)` → sonner toast success/error
+  - Theme change: handled bởi `setTheme()` client-only, KHÔNG đi qua server action (next-themes lưu localStorage)
+- `src/app/(app)/settings/loading.tsx`: skeleton 3 sections + submit button
+
+**Files edit:**
+
+- `src/features/auth/profile.ts`:
+  - Add `'use server'` directive (toàn file → server actions)
+  - Add `updateProfile(input)` action với Zod schema `UpdateProfileSchema`:
+    - `displayName`: trim + max 100 + transform '' → null
+    - `timezone`: string min 1 max 64
+    - `dailyNewCards`: coerce int 1-50
+    - `dailyReviewMax`: coerce int 50-500
+  - `requireUserId()` → `ensureProfile` → update row → revalidate `/settings` + `/dashboard` + `/stats` + `/review` (4 routes vì timezone/limits ảnh hưởng tất cả stats queries + queue)
+  - Trả `{ ok: true } | { ok: false, error: string }` cho client toast
+- `src/app/(app)/settings/page.tsx` (replace placeholder):
+  - `force-dynamic` + `getCurrentUserId() ?? redirect('/login?next=/settings')`
+  - `ensureProfile(userId)` trước (idempotent, đảm bảo row tồn tại)
+  - `Promise.all([db.query.profiles.findFirst, createSupabaseServerClient])` parallel — sau đó `await supabase.auth.getUser()` để lấy email (vì email không lưu ở profiles, chỉ ở auth.users)
+  - Fallback defaults nếu profile null (race condition with trigger)
+  - Render `<SettingsForm initial={{...}}>`
+
+**Verify đã chạy:**
+
+- `pnpm test` ✓ 49/49 (không đổi)
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` ✓ 12/12 routes:
+  - `/settings` ƒ dynamic 5.24 kB / **123 kB** First Load — form + sonner + next-themes (tương đương `/login` 129 kB)
+- **Browser verify**: chưa test — user có thể chạy `pnpm dev` mở `/settings`, thử đổi tz → click "Lưu thay đổi" → `/dashboard` xem streak có recompute theo tz mới không
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                 |
+| ------ | --------- | ------------------------------------ |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)        |
+| dev    | `0096632` | Tuần 4 chunk 4 /settings page merged |
+| be     | `eb6ec8f` | sync chunk 4 (/settings page)        |
+| fe     | `a640f02` | base chunk 4 /settings page          |
+
+---
+
+**Tuần 4 ĐÃ ĐÓNG — sẵn ship `dev → main` tag `v0.2.0`:**
+
+Hoàn thành full Tuần 4:
+
+- ✅ Chunk 1 BE foundation (`features/stats/{dates,streak,heatmap,maturity}` + 17 tests)
+- ✅ Chunk 2 `/dashboard` FE (RSC parallel fetch + 3 stat cards + heatmap SVG + enrolled list)
+- ✅ Chunk 3 `/stats` FE (retention line + activity stacked bar + maturity donut, raw SVG)
+- ✅ Chunk 4 `/settings` (form 3 sections + updateProfile action + theme radio)
+- ✅ Perf hotfix (middleware getSession + React.cache)
+
+**Bundle sizes cuối Tuần 4 (build production):**
+
+| Route                             | Page size | First Load JS |
+| --------------------------------- | --------- | ------------- |
+| `/` static                        | 184 B     | 109 kB        |
+| `/dashboard` ƒ                    | 184 B     | 109 kB        |
+| `/decks` ƒ                        | 184 B     | 109 kB        |
+| `/decks/[col]/[topic]/[lesson]` ƒ | 2.53 kB   | 129 kB        |
+| `/login` ƒ                        | 3.03 kB   | 129 kB        |
+| `/review` ƒ                       | 43.4 kB   | 172 kB        |
+| `/review/summary` ○               | 2.54 kB   | 122 kB        |
+| `/settings` ƒ                     | 5.24 kB   | 123 kB        |
+| `/stats` ƒ                        | 184 B     | 109 kB        |
+
+Middleware bundle: 99.5 kB. Test suite: 49/49.
+
+---
+
+**Next step session sau (Ship Tuần 4 → main):**
+
+1. **Manual verify end-to-end** trên `pnpm dev`:
+   - Login → /dashboard (cache hot sau perf hotfix)
+   - /settings → đổi `dailyNewCards: 20 → 10`, đổi timezone → "Lưu thay đổi"
+   - /review → verify queue cap ≤ 10 new cards
+   - /dashboard → verify streak/heatmap không bị reset, daily limits subtitle update
+   - /settings → đổi theme dark/light → verify swap smooth, persist sau F5
+2. **Pre-release checks**:
+   - `git log main..dev --oneline` — đảm bảo clean
+   - `pnpm build && pnpm start` test production preview (verify perf snappy không cần dev compile)
+   - Browser smoke test: tất cả 6 routes load < 500ms TTFB sau initial compile
+3. **Ship dev → main `v0.2.0`**:
+   ```bash
+   git checkout main && git pull
+   git merge dev --no-ff -m "release: v0.2.0 - Tuần 4 Dashboard + Stats + Settings"
+   git tag -a v0.2.0 -m "Tuần 4: Dashboard, Stats, Settings, auth perf fix"
+   git push origin main --follow-tags
+   git checkout be && git merge main --no-ff -m "sync: main -> be (v0.2.0 release)" && git push
+   git checkout fe && git merge main --no-ff -m "sync: main -> fe (v0.2.0 release)" && git push
+   ```
+4. **Tuần 5 mở (Minigames + Polish)**:
+   - MCQ mode (4 đáp án, generate distractors từ same lesson)
+   - Typing mode (đã có Cloze, có thể là biến thể)
+   - Listening mode (Web Speech TTS hoặc audio_url)
+   - Mode picker `/review?mode=cloze|mcq|typing|listening`
+   - Toast milestones (streak +1, lesson hoàn thành)
+
+**Critical paths cần đọc khi mở Tuần 5:**
+
+- `src/components/review/cloze-card.tsx` — pattern card state machine reuse
+- `src/components/review/review-session.tsx` — wrapper logic, dispatch mode based on query param
+- `src/features/srs/actions.ts:22` — `reviewType` enum đã có 'mcq' + 'typing' + 'listening'
+- `src/features/srs/queue.ts` — `ReviewQueueItem.card` có `synonyms/antonyms/collocations` reuse cho MCQ distractors
+- `VOCAB_APP_BLUEPRINT.md` Phần 6 Tuần 5 nếu có spec chi tiết
+
+**Lưu ý tech (carry-over):**
+
+- `/settings` form không validate client-side trước submit — Zod server validate trả error qua sonner toast (UX acceptable, không cần thêm react-hook-form complexity)
+- Theme `system` mode tôn trọng `prefers-color-scheme` OS, KHÔNG ghi `theme` cookie/localStorage. Theme `light`/`dark` ghi `theme` key vào localStorage qua next-themes ClassProvider
+- `getCurrentUserId` đã cached qua React.cache — `/settings` page gọi 1 lần đầu, không bị duplicate auth call
+- Email get qua `supabase.auth.getUser()` trong page — KHÔNG cached (next-themes useTheme là client). Có thể wrap `getAuthUser()` với cache nếu cần dedupe sau
+
+---
+
 ## 2026-05-13 (chiều) — be → dev → fe — Claude Opus 4.7 (perf hotfix: drop auth network roundtrip on every nav)
 
 **Mục tiêu session**: user báo "click tab rất lag/load lâu". Diagnose root cause + apply 2 fix nhỏ trước khi shipping chunk 4 settings.

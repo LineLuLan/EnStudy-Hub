@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                           |
 | ------ | ----------------------- | ------------------------- | ---------------------- | ----------------------------------------------- |
 | main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
-| dev    | `962e5dc`               | base                      | 2026-05-13 (`3627953`) | perf(auth): drop network roundtrip merged       |
-| be     | `3627953`               | 2026-05-13 (chunk 3 docs) | 2026-05-13 (`3627953`) | base auth perf fix                              |
-| fe     | `cbb5499`               | 2026-05-13 (auth perf)    | 2026-05-13 (`4aee6b3`) | sync auth perf fix                              |
+| dev    | `0096632`               | base                      | 2026-05-13 (`a640f02`) | Tuần 4 chunk 4 /settings page merged            |
+| be     | `eb6ec8f`               | 2026-05-13 (chunk 4 sync) | 2026-05-13 (`3627953`) | sync chunk 4 (/settings page)                   |
+| fe     | `a640f02`               | 2026-05-13 (auth perf)    | 2026-05-13 (`a640f02`) | base Tuần 4 chunk 4 /settings page              |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -139,3 +139,6 @@ git checkout fe
 | 2026-05-13 | commit | (auth perf) → be    | `3627953` | fix(auth): drop network roundtrip on every navigation                     |
 | 2026-05-13 | merge  | be → dev            | `962e5dc` | bring auth perf fix (getSession + React.cache) to dev                     |
 | 2026-05-13 | sync   | dev → fe            | `cbb5499` | sync auth perf fix to fe                                                  |
+| 2026-05-13 | commit | (chunk 4 FE) → fe   | `a640f02` | feat(auth): Tuan 4 chunk 4 /settings page (profile + limits + theme)      |
+| 2026-05-13 | merge  | fe → dev            | `0096632` | bring Tuần 4 chunk 4 /settings page to dev                                |
+| 2026-05-13 | sync   | dev → be            | `eb6ec8f` | sync chunk 4 (/settings page) xuống be                                    |
