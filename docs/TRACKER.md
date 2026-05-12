@@ -141,8 +141,16 @@
   - `app/(app)/dashboard/page.tsx`: RSC `Promise.all([getStreak, getHeatmap, getMaturityCounts, getReviewQueue, getEnrolledLessonsWithProgress])`, 3 StatCard (streak/due/mature) với tone rings amber/sky/emerald, CTA "Bắt đầu ôn tập (N)" → /review (disable nếu queue rỗng → "Thêm bài học mới" → /decks), enrolled list top 5 với progress bar emerald, heatmap section, brand-new-user empty state Sparkles CTA
   - `app/(app)/dashboard/loading.tsx`: skeleton match layout (header + 3 cards + CTA + list + heatmap block)
   - Build: `/dashboard` 181 B / **109 kB** First Load (RSC only, không client JS, không charting lib)
-- [x] Charting lib decision: **raw SVG cho heatmap** (zero dep, 131 line). Defer recharts cho `/stats` retention chart nếu cần
-- [ ] Page `/stats`: retention chart + daily activity bar + maturity pie (chunk 3 FE)
+- [x] Charting lib decision: **raw SVG cho mọi chart** (zero dep, consistency với heatmap). Defer recharts hoàn toàn — bundle giữ siêu nhẹ
+- [x] **Chunk 3 /stats page done** (2026-05-13, commit `4aee6b3` trên fe → merge `42387aa` lên dev → sync `27e676d` xuống be):
+  - `features/stats/retention.ts`: `getRetention(userId, weeks=12)` bucket `review_logs.state_after.stability` theo day trong user tz, return rolling daily avg + sampleSize, fill zero-sample days
+  - `features/stats/activity.ts`: `getActivity(userId, days=30)` daily rating breakdown `{ again, hard, good, easy, total }` + `totalByRating` aggregate
+  - `components/stats/retention-line.tsx` (~125 line): SVG area + polyline với grid + Y/X tick labels, skip zero-sample days từ line (giữ x-position)
+  - `components/stats/activity-bar.tsx` (~150 line): SVG stacked vertical bar 4 segments per day (red/amber/emerald/sky) với title tooltips + legend swatches, static class strings để Tailwind JIT pick up
+  - `components/stats/maturity-pie.tsx` (~140 line): SVG donut chart 4 segments + center "{total} tổng thẻ" label + sidebar list với % per segment + mature row highlight (≥21d stability)
+  - `app/(app)/stats/page.tsx`: RSC `Promise.all([getRetention, getActivity, getMaturityCounts, getStreak])`, 4 MetricCard (total reviews / accuracy % / days active / mature) + 3 chart sections với VN copy + retention interpretation note "đường ổn định = thẻ học ngày càng đậm"
+  - `app/(app)/stats/loading.tsx`: skeleton match layout
+  - Build: `/stats` 184 B / **109 kB** First Load — RSC pure SVG, zero charting dep
 - [ ] Page `/settings`: timezone, daily limits, theme (chunk 4 FE)
 
 ---
