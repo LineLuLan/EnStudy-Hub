@@ -1,11 +1,12 @@
 import 'server-only';
-import { and, asc, eq, inArray } from 'drizzle-orm';
+import { and, asc, desc, eq, inArray } from 'drizzle-orm';
 import { db } from '@/lib/db/client';
 import {
   collections,
   topics,
   lessons,
   cards,
+  userCards,
   userLessons,
   type Collection,
   type Topic,
@@ -183,4 +184,79 @@ export async function getEnrolledLessonIds(userId: string): Promise<Set<string>>
     .from(userLessons)
     .where(eq(userLessons.userId, userId));
   return new Set(rows.map((r) => r.lessonId));
+}
+
+export type EnrolledLessonProgress = {
+  lessonId: string;
+  lessonSlug: string;
+  lessonName: string;
+  cardCount: number;
+  topicSlug: string;
+  topicName: string;
+  colSlug: string;
+  colName: string;
+  learned: number; // user_cards in this lesson where state != 'new'
+  total: number; // user_cards seeded for this lesson (= cardCount on enrollment)
+};
+
+/**
+ * List the user's enrolled lessons with progress metrics, newest first.
+ * Powers the "Bài đang học" widget on the dashboard.
+ *
+ * Done in two round-trips: (1) join user_lessons → lessons → topics →
+ * collections for metadata, (2) read user_cards for the matching lessonIds
+ * and aggregate state in JS. Volume per user is small (tens of lessons).
+ */
+export async function getEnrolledLessonsWithProgress(
+  userId: string
+): Promise<EnrolledLessonProgress[]> {
+  const lessonRows = await db
+    .select({
+      lessonId: lessons.id,
+      lessonSlug: lessons.slug,
+      lessonName: lessons.name,
+      cardCount: lessons.cardCount,
+      topicSlug: topics.slug,
+      topicName: topics.name,
+      colSlug: collections.slug,
+      colName: collections.name,
+      startedAt: userLessons.startedAt,
+    })
+    .from(userLessons)
+    .innerJoin(lessons, eq(lessons.id, userLessons.lessonId))
+    .innerJoin(topics, eq(topics.id, lessons.topicId))
+    .innerJoin(collections, eq(collections.id, topics.collectionId))
+    .where(eq(userLessons.userId, userId))
+    .orderBy(desc(userLessons.startedAt));
+
+  if (lessonRows.length === 0) return [];
+
+  const lessonIds = lessonRows.map((r) => r.lessonId);
+
+  const cardRows = await db
+    .select({ lessonId: userCards.lessonId, state: userCards.state })
+    .from(userCards)
+    .where(and(eq(userCards.userId, userId), inArray(userCards.lessonId, lessonIds)));
+
+  const totalByLesson = new Map<string, number>();
+  const learnedByLesson = new Map<string, number>();
+  for (const r of cardRows) {
+    totalByLesson.set(r.lessonId, (totalByLesson.get(r.lessonId) ?? 0) + 1);
+    if (r.state !== 'new') {
+      learnedByLesson.set(r.lessonId, (learnedByLesson.get(r.lessonId) ?? 0) + 1);
+    }
+  }
+
+  return lessonRows.map((r) => ({
+    lessonId: r.lessonId,
+    lessonSlug: r.lessonSlug,
+    lessonName: r.lessonName,
+    cardCount: r.cardCount,
+    topicSlug: r.topicSlug,
+    topicName: r.topicName,
+    colSlug: r.colSlug,
+    colName: r.colName,
+    learned: learnedByLesson.get(r.lessonId) ?? 0,
+    total: totalByLesson.get(r.lessonId) ?? 0,
+  }));
 }
