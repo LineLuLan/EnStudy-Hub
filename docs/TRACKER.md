@@ -128,12 +128,17 @@
 
 ## Tuần 4 — Dashboard & Stats
 
-- [ ] Streak (timezone-aware, `date-fns-tz`)
-- [ ] Heatmap component
-- [ ] Dashboard: 3 stat cards + streak + lessons in progress
-- [ ] Page `/stats`: retention chart, daily activity bar
-- [ ] Card maturity distribution
-- [ ] Page `/settings`: timezone, daily limits, theme
+- [x] **BE foundation done** (2026-05-12, commit `139afed` trên be → merge `3443d13` lên dev → sync `1e3201a` xuống fe):
+  - `features/stats/dates.ts` (pure): `dayKey(date, tz)` qua `date-fns-tz.formatInTimeZone`, `shiftDay(key, delta)` UTC noon shift, `computeStreaks(daysAsc, today)` — longest = max consecutive run, current = run ending today (strict today policy)
+  - `features/stats/streak.ts`: `getStreak(userId, now)` đọc `profiles.timezone` + distinct days từ `review_logs.reviewedAt` → `{ current, longest, daysActive, timezone, lastActiveDate }`
+  - `features/stats/heatmap.ts`: `getHeatmap(userId, days=84)` buckets reviewedAt theo user tz, fill empty cells, return `{ cells[], total, max, start, end }`
+  - `features/stats/maturity.ts`: `getMaturityCounts(userId)` single SELECT + JS aggregate, mature = `state='review' AND stability >= 21d` (Anki convention)
+  - `commitlint.config.cjs`: add 'stats' scope
+- [x] Vitest: 17 mới (dates.test.ts) — tz boundary, day shift month/year wrap, streak edge cases (empty, today only, yesterday only, 3 consec, ends yesterday, longest > current, gaps). Tổng 49/49 pass.
+- [ ] Dashboard `/dashboard` UI: 3 stat cards (streak / total / mature) + heatmap section + "Bài đang học" list (chunk 2 FE)
+- [ ] Page `/stats`: retention chart + daily activity bar + maturity pie (chunk 3 FE)
+- [ ] Chọn charting lib: recharts vs raw SVG (defer chunk 2)
+- [ ] Page `/settings`: timezone, daily limits, theme (chunk 4 FE)
 
 ---
 
