@@ -91,7 +91,12 @@
   - `vitest.config.ts` + scripts `test/test:watch/test:ui`
   - `fsrs.test.ts` (9): state mapping roundtrip, initial state, rate transitions (new→learning/review, review→relearning với lapse++)
   - `queue.test.ts` (8): `computeNewRemaining` math, `dayStartUtc` cho Asia/Ho_Chi_Minh + UTC + boundary cases
-- [ ] Page `/review` với Zustand session store
+- [x] **Chunk 2 /review FE shell done** (2026-05-12, commit `3206996` trên fe → merge `311feb3` lên dev):
+  - `/review` RSC: `getReviewQueue(userId)` → meta header (due/new/dailyLimit) + `<ReviewSession>` hoặc empty state
+  - `/review/loading.tsx` + `/review/summary` page (client, rating distribution stats + snapshot pattern)
+  - `<FlashcardFlip>`: Framer Motion 3D rotate, word + IPA + POS front / definitions + first example + mnemonic back
+  - `<ReviewSession>`: Zustand-driven, keyboard handler (Space lật, 1-4 chấm), optimistic advance + Sonner toast error
+  - Zustand `src/stores/review-session.ts`: queue/currentIndex/flipped, `rate()` generates `crypto.randomUUID()` clientReviewId + calls submitReview, results array tracks per-rating status
 - [ ] **Terminal-style Inline Cloze** (primary mode `/review` — replace flashcard flip):
   - Locked state: hiện 1 câu ví dụ với từ bị đục lỗ `[>_     ]` + VN dịch mờ (backdrop-blur) làm hint
   - Active typing: arrow keys nav giữa card, focus auto vào input, real-time char check (đúng → trắng, sai → shake/đỏ)
@@ -99,15 +104,16 @@
   - Difficulty: auto theo CEFR (A1 → first+last `e_____l`, A2 → first+vowels, B1+ → full word)
   - Hint key `?` reveal 1 letter (-1 grade)
   - Submit grade → FSRS rating (full đúng → 3-4, có hint → 2, fail → 1)
-- [ ] Flashcard flip fallback (giữ cho card chưa có example đủ điều kiện cloze)
-- [ ] Rating buttons với hint thời gian
-- [ ] Keyboard shortcuts toàn cục cho review session
+- [x] Flashcard flip (chunk 2 — sẽ chuyển thành fallback khi Cloze chunk 3 land)
+- [x] Rating buttons (Again/Hard/Good/Easy với color tone + kbd hint 1-4)
+- [x] Keyboard shortcuts toàn cục — Space lật, 1-4 chấm rating
 - [x] Server action `submitReview` (done trong BE foundation — `features/srs/actions.ts`)
 - [x] Idempotency (`clientReviewId`) — unique index `(user_id, client_review_id)` đã có trong schema, action check existing log trước khi apply rating
 - [x] Daily new cards limit — `getReviewQueue` enforce qua `computeNewRemaining(dailyNewLimit, learnedToday)`
-- [ ] Optimistic update FE (sẽ wire khi build /review UI)
-- [ ] Page `/review/summary`
-- [ ] Edge case: empty queue, exit mid-session resume
+- [x] Optimistic update FE — `rate()` advance currentIndex ngay, submit chạy background, status tracked trong results array
+- [x] Page `/review/summary` — counts per rating, accuracy %, total duration, error count với idempotency note
+- [x] Edge case: empty queue (RSC empty state với link `/decks`)
+- [ ] Edge case: exit mid-session resume (Zustand không persist — sẽ add `persist` middleware nếu cần Tuần 3 chunk 3-4)
 
 ---
 

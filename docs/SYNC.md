@@ -116,3 +116,7 @@ git checkout fe
 | 2026-05-12 | commit | (Tuần 3 BE) → be    | `87da8ef` | feat(srs): Tuần 3 BE foundation — fsrs + queue + submitReview + tests     |
 | 2026-05-12 | merge  | be → dev            | `ae89cb2` | bring Tuần 3 BE foundation to dev                                         |
 | 2026-05-12 | sync   | dev → fe            | `eb844d0` | sync Tuần 3 BE foundation (ready cho /review UI)                          |
+| 2026-05-12 | commit | (BE docs) → dev     | `b535823` | docs(infra): handoff Tuần 3 BE foundation done                            |
+| 2026-05-12 | commit | (chunk 2 FE) → fe   | `3206996` | feat(srs): /review FE shell — flashcard flip + Zustand + summary          |
+| 2026-05-12 | merge  | fe → dev            | `311feb3` | bring Tuần 3 chunk 2 /review FE shell to dev                              |
+| 2026-05-12 | sync   | dev → be            | `70d9780` | sync chunk 2 cho BE đọc submitReview signature                            |
