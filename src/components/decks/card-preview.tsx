@@ -35,7 +35,7 @@ export function CardPreview({ card }: { card: Card }) {
               </span>
             )}
             {card.cefrLevel && (
-              <span className="rounded bg-blue-100 px-1.5 py-0.5 text-[10px] font-medium text-blue-900 dark:bg-blue-900/30 dark:text-blue-300">
+              <span className="rounded bg-sky-100 px-1.5 py-0.5 text-[10px] font-medium text-sky-900 dark:bg-sky-950/40 dark:text-sky-200">
                 {card.cefrLevel}
               </span>
             )}
@@ -97,7 +97,7 @@ export function CardPreview({ card }: { card: Card }) {
           )}
 
           {card.mnemonicVi && (
-            <div className="rounded bg-amber-50 px-3 py-2 text-xs text-amber-900 dark:bg-amber-900/20 dark:text-amber-200">
+            <div className="rounded bg-amber-50/60 px-3 py-2 text-xs text-amber-950 ring-1 ring-amber-100 dark:bg-amber-950/30 dark:text-amber-100 dark:ring-amber-900/50">
               <span className="font-medium">Mẹo nhớ:</span> {card.mnemonicVi}
             </div>
           )}
