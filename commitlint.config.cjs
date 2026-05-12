@@ -25,6 +25,7 @@ module.exports = {
       'always',
       [
         'srs',
+        'stats',
         'vocab',
         'auth',
         'db',
