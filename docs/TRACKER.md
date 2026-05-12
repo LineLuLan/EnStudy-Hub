@@ -97,13 +97,17 @@
   - `<FlashcardFlip>`: Framer Motion 3D rotate, word + IPA + POS front / definitions + first example + mnemonic back
   - `<ReviewSession>`: Zustand-driven, keyboard handler (Space lật, 1-4 chấm), optimistic advance + Sonner toast error
   - Zustand `src/stores/review-session.ts`: queue/currentIndex/flipped, `rate()` generates `crypto.randomUUID()` clientReviewId + calls submitReview, results array tracks per-rating status
-- [ ] **Terminal-style Inline Cloze** (primary mode `/review` — replace flashcard flip):
-  - Locked state: hiện 1 câu ví dụ với từ bị đục lỗ `[>_     ]` + VN dịch mờ (backdrop-blur) làm hint
-  - Active typing: arrow keys nav giữa card, focus auto vào input, real-time char check (đúng → trắng, sai → shake/đỏ)
-  - Unlocked: phát `audio_url` + neon glow + glassmorphism reveal IPA / collocations / 2 examples còn lại, 2s sau collapse + auto-focus card kế
-  - Difficulty: auto theo CEFR (A1 → first+last `e_____l`, A2 → first+vowels, B1+ → full word)
-  - Hint key `?` reveal 1 letter (-1 grade)
-  - Submit grade → FSRS rating (full đúng → 3-4, có hint → 2, fail → 1)
+- [x] **Terminal-style Inline Cloze** done (2026-05-12, commit `8fa69ef` trên fe → merge `a57327f` trên dev → sync `2c7d234` xuống be):
+  - Locked state: 1 câu ví dụ với từ đục lỗ trong khung mono `[ f _ _ _ _ y ]` + VN dịch `backdrop-blur` toggle hover
+  - Typing: doc-level keydown handler, auto-fill non-letter chars (apostrophe/hyphen), wrong-char shake (Framer Motion x-axis 0.3s) + counter mistakes, Backspace xóa, `Eraser` button bonus
+  - Unlocked: glassmorphism panel (`bg-white/70 backdrop-blur ring-sky-100` + neon glow `0 0 24px sky-400/18`), reveal word + IPA + POS + CEFR + definitions + examples[1..3] + collocations + mnemonic, Web Speech API `speechSynthesis` (en-US, rate 0.9) phát auto + nút Volume2 replay
+  - Difficulty mask theo CEFR: `getClozeMask` — A1 first+last, A2 first+vowels, B1+/null full hidden
+  - Hint key `?` → auto-fill next letter + `hintsUsed++`; Esc → instant give-up + Again
+  - Grade derive (pure `gradeFromCloze`): gaveUp || mistakes≥3 || hints≥2 → Again; 1 hint || 1-2 mistakes → Hard; 0/0/<5s → Easy; else Good
+  - Auto-submit 2s countdown (Framer Motion width animate) + override `1-4` hoặc Enter/Space; rating buttons row với derived highlighted
+  - Multi-word fallback: `card.word.includes(' ')` → `<FlashcardFlip>` + Space/1-4 keyboard (P0 chưa có nhưng defensive)
+  - `submitReview` payload `reviewType: 'typing'` (đổi từ `'flashcard'`)
+- [x] Tests: 15 cloze-utils tests pass (mask scheme + edge cases + 7 grade derivation) → tổng 32/32 với BE foundation
 - [x] Flashcard flip (chunk 2 — sẽ chuyển thành fallback khi Cloze chunk 3 land)
 - [x] Rating buttons (Again/Hard/Good/Easy với color tone + kbd hint 1-4)
 - [x] Keyboard shortcuts toàn cục — Space lật, 1-4 chấm rating
@@ -113,7 +117,7 @@
 - [x] Optimistic update FE — `rate()` advance currentIndex ngay, submit chạy background, status tracked trong results array
 - [x] Page `/review/summary` — counts per rating, accuracy %, total duration, error count với idempotency note
 - [x] Edge case: empty queue (RSC empty state với link `/decks`)
-- [ ] Edge case: exit mid-session resume (Zustand không persist — sẽ add `persist` middleware nếu cần Tuần 3 chunk 3-4)
+- [ ] Edge case: exit mid-session resume (Zustand không persist — defer chunk 4)
 
 ---
 
