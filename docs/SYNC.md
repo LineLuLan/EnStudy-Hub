@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                               |
-| ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------- |
-| main   | `5fbd1c0`               | —                            | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag     |
-| dev    | `ae89cb2`               | base                         | 2026-05-12 (`87da8ef`) | Tuần 3 BE foundation merged + 17 vitest pass        |
-| be     | `87da8ef`               | 2026-05-12 (Tuần 2 docs)     | 2026-05-12 (`87da8ef`) | Tuần 3 SRS foundation base (fsrs + queue + actions) |
-| fe     | `eb844d0`               | 2026-05-12 (Tuần 3 BE found) | 2026-05-12 (`78d8bdd`) | sẵn sàng build /review FE shell + Cloze prototype   |
+| Branch | Last commit (short SHA) | Last sync FROM dev         | Last merge TO dev      | Notes                                           |
+| ------ | ----------------------- | -------------------------- | ---------------------- | ----------------------------------------------- |
+| main   | `5fbd1c0`               | —                          | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
+| dev    | `311feb3`               | base                       | 2026-05-12 (`3206996`) | Tuần 3 chunk 2 /review FE shell merged          |
+| be     | `70d9780`               | 2026-05-12 (chunk 2 sync)  | 2026-05-12 (`87da8ef`) | Tuần 3 BE foundation + sync chunk 2             |
+| fe     | `3206996`               | 2026-05-12 (BE foundation) | 2026-05-12 (`3206996`) | chunk 2 /review FE shell base                   |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
