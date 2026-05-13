@@ -5,6 +5,82 @@
 
 ---
 
+## 2026-05-13 (tối, ship) — release `v0.2.0` — Claude Opus 4.7
+
+**Mục tiêu session**: Đóng gói Tuần 4 + Tuần 5 thành 1 release tag. User vừa test xong 4 minigame modes → chốt ship trước khi mở Tuần 6.
+
+**Trạng thái nhánh sau release:**
+
+| Branch | SHA       | Note                                                      |
+| ------ | --------- | --------------------------------------------------------- |
+| main   | `eb18493` | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `545c3eb` | sync main → dev (release merge + prettier fixes)          |
+| be     | `070f9ee` | bulk catch-up Tuần 5 + post-release sync                  |
+| fe     | `b0e723f` | post-release sync                                         |
+| tag    | `v0.2.0`  | annotated, pushed origin                                  |
+
+**Các bước đã chạy (theo plan `test-xong-nh-ng-giggly-lovelace.md`):**
+
+1. **Phase 1 — Bulk sync `be ← dev`**: `git merge dev --no-ff` trên be (commit `8af8e17`). 0 conflict (Tuần 5 toàn FE + queue.ts đã tương thích). Push origin be.
+2. **Phase 2 — Gates trên dev**:
+   - `pnpm typecheck` ✓ 0 errors
+   - `pnpm lint` ✓ 0 warnings
+   - `pnpm test` ✓ 72/72 (vitest run, 5 files, 4.48s)
+   - `pnpm build` ✓ — bundle sizes:
+     - `/review` 47.5 kB / **176 kB First Load** (4 minigame components inline)
+     - `/dashboard` 184 B / 109 kB (RSC pure)
+     - `/stats` 184 B / 109 kB (RSC pure)
+     - `/settings` 5.25 kB / 123 kB
+     - `/login` 3.03 kB / 129 kB
+     - Shared chunks 99.8 kB
+3. **Phase 3 — Merge `dev → main` local + push**:
+   - `git checkout main && git merge dev --no-ff` → 2 conflict
+   - `src/app/(app)/settings/page.tsx`: HEAD stub Tuần 1 ("TODO Tuần 4") vs dev impl đầy đủ → take dev
+   - `docs/CONTENT_PIPELINE.md`: HEAD bảng tiến độ TODO vs dev có entry family 5/20 → take dev
+   - Commit `eb18493` (commit message `merge: dev -> main (release v0.2.0 — ...)` — phải dùng `merge:` thay `release:` vì commitlint không có `release` trong type-enum). Body lines < 100 char để qua `body-max-line-length` rule
+   - User authorize push origin main (classifier chặn AI tự push default branch — user gõ `! git push origin main`)
+4. **Phase 4 — Tag `v0.2.0`**: `git tag -a v0.2.0 -m "..."` + `git push origin v0.2.0` (no classifier block). 2 tags now: `v0.1.0-foundation`, `v0.2.0`.
+5. **Phase 5 — Post-release sync**:
+   - `dev`: `git merge main --no-ff` (commit `545c3eb`) — pull release merge commit + prettier auto-formatting (14 files changed) back vào dev
+   - `be`: `git merge dev --no-ff` (commit `070f9ee`)
+   - `fe`: `git merge dev --no-ff` (commit `b0e723f`)
+6. **Phase 6 — Docs update** (commit này): SYNC.md status table + 5 log entries mới, TRACKER.md "Đã ship v0.2.0", HANDOFF.md prepend entry này.
+
+**Note prettier auto-format**: husky pre-commit hook chạy `lint-staged` (prettier --write + eslint --fix) trên merge `dev → main`. 14 file content/blueprint/docs có khoảng trắng tinh chỉnh → vào merge commit, sau đó sync về dev/be/fe. Không thay đổi behavior, chỉ formatting.
+
+**Verify final state:**
+
+- `git rev-list --left-right --count main...dev` → `0 1` (dev có 1 sync merge commit phía trên main)
+- `git rev-list --left-right --count main...be` → `0 6`
+- `git rev-list --left-right --count main...fe` → `0 2`
+- main fully reachable từ mọi downstream branch ✓
+
+**Next session — Tuần 6 kickoff:**
+
+Backlog ưu tiên cao (theo `TRACKER.md` Tuần 6):
+
+1. **Content scale**: gen P1 batch (7 lesson × 20 cards = 140) qua Claude desktop → seed Supabase. Xem `docs/CONTENT_PLAN.md` Phần 5.
+2. **CSV import UI**: trang `/decks/import` hoặc nút trong sidebar. User upload CSV/JSON → preview → enroll bulk.
+3. **Mobile responsive QA**: 4 minigame layouts trên 375px (iPhone SE). Đặc biệt MCQ (4 choices) + Listening (speaker button + slots) + Cloze (sentence + slots).
+4. **Lighthouse audit** target > 90 perf + a11y.
+5. **README.md update** — hiện tại còn boilerplate Next.js scaffold.
+
+Có thể defer:
+
+- Card editing UI (admin tools, không urgent cho personal use)
+- Suspend/bury cards
+- Personal notes per card
+- GitHub Actions cron daily DB backup
+- Refactor `<WordTypingArea>` abstraction (3 cards share ~70% state machine — chỉ cleanup khi add mode 5+)
+
+**Open todo (xem TRACKER.md):**
+
+- [ ] User bật branch protection GitHub trên `main` (require PR) — Settings UI
+- [ ] User review `docs/CONTENT_REPORT.md` quyết định pick IPA style (Oxford vs dictionaryapi)
+- [ ] User gen P1 batch content offline
+
+---
+
 ## 2026-05-13 (tối, tiếp theo 3) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 4 polish — ĐÓNG Tuần 5)
 
 **Mục tiêu session**: Chunk 4 = polish + đóng Tuần 5. Toast milestones (streak, daily limit), skeleton update, empty state cải thiện.

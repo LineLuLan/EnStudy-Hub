@@ -201,7 +201,8 @@
   - Toast lesson-complete: defer Tuần 6 (cần lesson-level mature query)
   - `/review/loading.tsx`: skeleton update — mode picker pill row (4 button placeholders) + counter row + card area (drop rating row vì các mode mới auto-grade, không có rating buttons hiển thị mặc định)
   - `/review` empty state: 2 CTA (BookOpen → /decks, link → /dashboard) thay inline link đơn lẻ — visual hierarchy tốt hơn cho user mới
-- [x] **Tuần 5 ĐÓNG** — 4 minigame modes (Cloze/MCQ/Typing/Listening) + Mode Picker + Toast milestones + Skeleton polish. Sẵn ship `dev → main` tag `v0.2.0` "Dashboard + Stats + Settings + Minigames"
+- [x] **Tuần 5 ĐÓNG** — 4 minigame modes (Cloze/MCQ/Typing/Listening) + Mode Picker + Toast milestones + Skeleton polish.
+- [x] **Đã ship `v0.2.0`** (2026-05-13, `main` SHA `eb18493`, tag `v0.2.0`) — "Dashboard + Stats + Settings + Minigames"
 
 ---
 
