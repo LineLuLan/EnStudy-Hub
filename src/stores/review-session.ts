@@ -8,12 +8,17 @@ import type { ReviewQueueItem } from '@/features/srs/queue';
 
 export type RatingStatus = 'pending' | 'ok' | 'error';
 
+export type ReviewMode = 'cloze' | 'mcq' | 'typing' | 'listening';
+
 export type ReviewResult = {
   userCardId: string;
   rating: Grade;
   clientReviewId: string;
   status: RatingStatus;
   durationMs: number;
+  // Optional: results persisted by older sessions (pre-Tuần 5 mode picker)
+  // won't have this field after hydration. New writes always set it.
+  mode?: ReviewMode;
   errorMessage?: string;
 };
 
@@ -22,12 +27,28 @@ type ReviewSessionState = {
   currentIndex: number;
   flipped: boolean;
   cardStartedAt: number;
+  mode: ReviewMode;
   results: ReviewResult[];
   init: (queue: ReviewQueueItem[]) => void;
   flip: () => void;
+  setMode: (mode: ReviewMode) => void;
   rate: (rating: Grade) => Promise<{ ok: boolean; error?: string }>;
   reset: () => void;
 };
+
+/**
+ * Map FE mode → `reviewType` enum value persisted in `review_logs`. The
+ * existing Tuần 3 Cloze mode is logged as `'typing'` (sentence-blank typing);
+ * the new Tuần 5 typing-from-definition mode also logs as `'typing'` for now.
+ * Future migration may split into a separate enum if FSRS tuning per mode
+ * proves valuable.
+ */
+function modeToReviewType(mode: ReviewMode): 'flashcard' | 'mcq' | 'typing' | 'listening' {
+  if (mode === 'mcq') return 'mcq';
+  if (mode === 'listening') return 'listening';
+  // 'cloze' and 'typing' both persist as 'typing' for now.
+  return 'typing';
+}
 
 const isClient = typeof window !== 'undefined' && typeof crypto !== 'undefined';
 
@@ -47,6 +68,7 @@ export const useReviewSession = create<ReviewSessionState>()(
       currentIndex: 0,
       flipped: false,
       cardStartedAt: 0,
+      mode: 'cloze' as ReviewMode,
       results: [],
 
       init: (queue) =>
@@ -60,6 +82,13 @@ export const useReviewSession = create<ReviewSessionState>()(
 
       flip: () => set((s) => ({ flipped: !s.flipped })),
 
+      setMode: (mode) =>
+        set({
+          mode,
+          flipped: false,
+          cardStartedAt: Date.now(),
+        }),
+
       rate: async (rating) => {
         const s = get();
         const card = s.queue[s.currentIndex];
@@ -67,6 +96,8 @@ export const useReviewSession = create<ReviewSessionState>()(
 
         const clientReviewId = newClientReviewId();
         const durationMs = Math.max(0, Date.now() - s.cardStartedAt);
+
+        const currentMode = s.mode;
 
         // Optimistic: advance to next card immediately.
         set((prev) => ({
@@ -78,6 +109,7 @@ export const useReviewSession = create<ReviewSessionState>()(
               clientReviewId,
               status: 'pending',
               durationMs,
+              mode: currentMode,
             },
           ],
           currentIndex: prev.currentIndex + 1,
@@ -91,7 +123,7 @@ export const useReviewSession = create<ReviewSessionState>()(
             rating,
             clientReviewId,
             durationMs,
-            reviewType: 'typing',
+            reviewType: modeToReviewType(currentMode),
           });
 
           set((prev) => ({
@@ -130,13 +162,14 @@ export const useReviewSession = create<ReviewSessionState>()(
         }),
     }),
     {
-      // Persist only `results` so /review/summary survives F5. Queue and
-      // currentIndex are intentionally not persisted — a fresh mount on /review
-      // bootstraps from server-fetched queue via init(), which also resets
-      // results, so partial sessions naturally start over.
+      // Persist `results` (so /review/summary survives F5) and `mode` (so the
+      // user's mode pick survives F5 too). Queue and currentIndex are
+      // intentionally not persisted — a fresh mount on /review bootstraps from
+      // server-fetched queue via init(), which resets results, so partial
+      // sessions naturally start over.
       name: 'review-session-results',
       storage: createJSONStorage(() => localStorage),
-      partialize: (state) => ({ results: state.results }),
+      partialize: (state) => ({ results: state.results, mode: state.mode }),
     }
   )
 );
