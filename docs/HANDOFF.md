@@ -5,6 +5,88 @@
 
 ---
 
+## 2026-05-13 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 1 mobile responsive QA)
+
+**Mục tiêu session**: Mở Tuần 6 với chunk 1 = mobile responsive QA tại viewport 375px (iPhone SE). Audit toàn bộ routes + fix critical issues.
+
+**Đã hoàn thành (commit `22c79d7` trên fe → merge `c932e9b` lên dev → sync `691bab1` xuống be).**
+
+**Audit findings (static review):**
+
+| Severity | Issue                                                  | Fix                                              |
+| -------- | ------------------------------------------------------ | ------------------------------------------------ |
+| Critical | Sidebar `hidden md:flex`, topbar không có hamburger    | Add `<MobileNav>` drawer trong topbar            |
+| High     | Page padding `px-6` quá đậm trên 375px (327px content) | Mobile `px-4 py-5 sm:px-6 sm:py-6`               |
+| High     | 4 minigame cards inner `p-6` (24px) chiếm chỗ          | `p-4 sm:p-6` / reveal `p-4 sm:p-5`               |
+| High     | Stats `grid sm:grid-cols-4` stack 4 cards dọc mobile   | `grid-cols-2 sm:grid-cols-4`                     |
+| Medium   | Settings submit row wrap không đẹp                     | Stack helper text mobile: `flex-col sm:flex-row` |
+| Low      | Stats SVG charts đã `w-full` viewBox                   | Không cần đổi                                    |
+| Low      | Heatmap đã có `overflow-x-auto` wrapper                | Không cần đổi                                    |
+| Low      | MCQ choices đã `grid-cols-1 sm:grid-cols-2`            | Không cần đổi                                    |
+
+**Files mới (2):**
+
+- `src/components/layout/nav-items.ts` (~20 line): extract `NAV_ITEMS` readonly array (5 items: Dashboard/Ôn tập/Decks/Thống kê/Cài đặt) dùng chung sidebar + mobile-nav. Drop duplication.
+- `src/components/layout/mobile-nav.tsx` (~100 line, client): hamburger button `md:hidden` trong topbar. Open state via `useState` (component-local — không cần global store vì topbar là client component duy nhất chứa). Open → render `role="dialog" aria-modal` overlay:
+  - Backdrop: full-screen `bg-zinc-950/40 backdrop-blur-sm` click → close
+  - Panel: slide-in left `w-64 max-w-[85vw]` với logo + close button (X) + 5 nav links
+  - Escape key đóng. `document.body.style.overflow = 'hidden'` lock scroll khi open.
+  - Pathname effect auto-close khi điều hướng — tránh stale open state sau Link click
+
+**Files edit (9):**
+
+- `src/components/layout/sidebar.tsx`: drop inline `NAV` array, import `NAV_ITEMS` từ shared file
+- `src/components/layout/topbar.tsx`: prepend `<MobileNav />`. Header `gap-3 px-4` → `gap-2 px-3 sm:gap-3 sm:px-4` (giảm padding mobile cho hamburger button thêm room)
+- `src/app/(app)/layout.tsx`: `main className` `px-6 py-6` → `px-4 py-5 sm:px-6 sm:py-6`
+- `src/components/review/cloze-card.tsx`: card outer `p-6 → p-4 sm:p-6`, reveal panel `p-5 → p-4 sm:p-5`
+- `src/components/review/typing-card.tsx`: cùng pattern
+- `src/components/review/listening-card.tsx`: cùng pattern
+- `src/components/review/mcq-card.tsx`: card outer `p-6 → p-4 sm:p-6` (không có reveal panel riêng)
+- `src/app/(app)/stats/page.tsx`: MetricCard grid `grid gap-3 sm:grid-cols-4` → `grid grid-cols-2 gap-3 sm:grid-cols-4`
+- `src/components/settings/settings-form.tsx`: submit row `flex items-center gap-3` → `flex flex-col items-start gap-3 sm:flex-row sm:items-center`
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (4.76s)
+- `pnpm build` ✓
+  - `/review` 47.5 kB / **176 kB First Load** (no change)
+  - `/settings` 5.26 kB / 123 kB (+0.01 kB)
+  - `/stats` 184 B / 109 kB (no change — Tailwind class only)
+  - MobileNav vào shared chunk topbar — `/dashboard` 184 B / 109 kB (no change)
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                            |
+| ------ | --------- | ------------------------------- |
+| main   | `eb18493` | v0.2.0 (release tag, không đổi) |
+| dev    | `c932e9b` | Tuần 6 chunk 1 mobile QA        |
+| be     | `691bab1` | sync Tuần 6 chunk 1 mobile QA   |
+| fe     | `22c79d7` | base Tuần 6 chunk 1 mobile QA   |
+
+**Bỏ ngoài scope (defer Tuần 6 chunk sau):**
+
+- Lighthouse audit thật trên dev server > 90 perf + a11y (cần `pnpm dev` + Chrome DevTools, mục tiêu chunk riêng)
+- Mobile nav animation (hiện overlay render đột ngột — có thể add Framer Motion slide-in transition, nice-to-have)
+- Mode picker labels rút ngắn mobile (hiện 4 buttons wrap 2 hàng trên 375px do "Trắc nghiệm" dài, vẫn functional — defer)
+- Counter row trong `review-session.tsx` overflow kbd hints với mode Listening dài (acceptable wrap, không critical)
+- Topbar TODO entries trong DropdownMenu (email hiển thị + logout) — không liên quan mobile
+
+**Next session — Tuần 6 chunk 2 options:**
+
+1. **Lighthouse audit + perf fixes** — chạy DevTools throttled CPU 4x, target > 90 a11y + perf. Có thể cần: image optimization (chưa có ảnh), code-split lazy load 4 minigame components (giảm `/review` 176 kB), font-display optimization
+2. **CSV import UI** — `/decks/import` page, drag-drop CSV, preview rows, bulk enroll. Đụng vào server action mới. ~200 line FE + 80 line BE
+3. **Content P1 batch** — gen 7 lesson × 20 cards = 140 từ qua Claude desktop (offline). Seed Supabase. Mở rộng wordlist coverage A2-B1
+4. **Card editing UI** — `/decks/[col]/[topic]/[lesson]/[cardId]/edit` admin form. Đụng vào RLS update policy
+
+**Open todo:**
+
+- [ ] User test mobile drawer thực tế trên 375px (Chrome DevTools device toolbar) — golden path: tap hamburger → tap link → drawer auto-close → page nav
+- [ ] User bật branch protection GitHub trên `main` (Settings UI)
+
+---
+
 ## 2026-05-13 (tối, ship) — release `v0.2.0` — Claude Opus 4.7
 
 **Mục tiêu session**: Đóng gói Tuần 4 + Tuần 5 thành 1 release tag. User vừa test xong 4 minigame modes → chốt ship trước khi mở Tuần 6.
