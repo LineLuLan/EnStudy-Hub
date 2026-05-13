@@ -8,6 +8,8 @@ import { useReviewSession } from '@/stores/review-session';
 import type { ReviewQueueItem } from '@/features/srs/queue';
 import { ClozeCard } from './cloze-card';
 import { FlashcardFlip } from './flashcard-flip';
+import { MCQCard } from './mcq-card';
+import { ModePicker } from './mode-picker';
 
 export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[] }) {
   const router = useRouter();
@@ -15,8 +17,10 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   const queue = useReviewSession((s) => s.queue);
   const currentIndex = useReviewSession((s) => s.currentIndex);
   const flipped = useReviewSession((s) => s.flipped);
+  const mode = useReviewSession((s) => s.mode);
   const init = useReviewSession((s) => s.init);
   const flip = useReviewSession((s) => s.flip);
+  const setMode = useReviewSession((s) => s.setMode);
   const rate = useReviewSession((s) => s.rate);
 
   // Bootstrap store from server-fetched queue exactly once per mount.
@@ -44,15 +48,24 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   }
 
   const isMultiWord = current.card.word.includes(' ');
+  // Cloze typing only makes sense for single-word cards; multi-word falls back
+  // to flashcard flip. MCQ works regardless of word length.
+  const effectiveMode = mode === 'cloze' && isMultiWord ? 'cloze-multiword' : mode;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5">
+      <ModePicker mode={mode} onChange={setMode} />
+
       <div className="flex items-center justify-between text-xs text-zinc-500">
         <span className="font-medium tabular-nums">
           {currentIndex + 1} / {queue.length}
         </span>
         <span>
-          {isMultiWord ? (
+          {effectiveMode === 'mcq' ? (
+            <>
+              <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chọn đáp án
+            </>
+          ) : effectiveMode === 'cloze-multiword' ? (
             <>
               <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> lật ·{' '}
               <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chấm
@@ -66,7 +79,14 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
         </span>
       </div>
 
-      {isMultiWord ? (
+      {effectiveMode === 'mcq' ? (
+        <MCQCard
+          key={`mcq-${current.userCard.id}`}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      ) : effectiveMode === 'cloze-multiword' ? (
         <MultiWordFallback
           item={current}
           flipped={flipped}
@@ -76,7 +96,7 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
         />
       ) : (
         <ClozeCard
-          key={current.userCard.id}
+          key={`cloze-${current.userCard.id}`}
           item={current}
           onGrade={(g) => startTransition(() => void handleRate(g))}
           pending={pending}
