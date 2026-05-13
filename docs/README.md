@@ -5,17 +5,17 @@
 
 ## Mục lục
 
-| File | Mục đích | Khi nào đọc |
-|---|---|---|
-| [TRACKER.md](./TRACKER.md) | Roadmap 6 tuần + trạng thái từng task | Đầu mỗi session |
-| [HANDOFF.md](./HANDOFF.md) | Session trước dừng ở đâu, ai làm gì | Đầu mỗi session |
-| [SYNC.md](./SYNC.md) | 3 nhánh `be`/`fe`/`dev` đang ở commit nào | Trước khi merge |
-| [DECISIONS.md](./DECISIONS.md) | ADR — quyết định kỹ thuật + lý do | Khi định đổi quyết định |
-| [API_KEYS.md](./API_KEYS.md) | Keys/APIs cần user cung cấp | Khi gặp env error / setup mới |
-| [CONTENT_PIPELINE.md](./CONTENT_PIPELINE.md) | Quy trình gen content + nguồn tham khảo | Khi cần thêm từ vựng |
-| [CONTRIBUTING.md](./CONTRIBUTING.md) | Quy tắc git + commit + branch flow | Trước push/merge |
-| [ENVIRONMENT.md](./ENVIRONMENT.md) | Setup máy mới + `.env` chi tiết | Setup lần đầu / máy mới |
-| [GLOSSARY.md](./GLOSSARY.md) | Thuật ngữ (FSRS, SRS, RLS, RSC...) | Khi đọc blueprint mà chưa hiểu |
+| File                                         | Mục đích                                  | Khi nào đọc                    |
+| -------------------------------------------- | ----------------------------------------- | ------------------------------ |
+| [TRACKER.md](./TRACKER.md)                   | Roadmap 6 tuần + trạng thái từng task     | Đầu mỗi session                |
+| [HANDOFF.md](./HANDOFF.md)                   | Session trước dừng ở đâu, ai làm gì       | Đầu mỗi session                |
+| [SYNC.md](./SYNC.md)                         | 3 nhánh `be`/`fe`/`dev` đang ở commit nào | Trước khi merge                |
+| [DECISIONS.md](./DECISIONS.md)               | ADR — quyết định kỹ thuật + lý do         | Khi định đổi quyết định        |
+| [API_KEYS.md](./API_KEYS.md)                 | Keys/APIs cần user cung cấp               | Khi gặp env error / setup mới  |
+| [CONTENT_PIPELINE.md](./CONTENT_PIPELINE.md) | Quy trình gen content + nguồn tham khảo   | Khi cần thêm từ vựng           |
+| [CONTRIBUTING.md](./CONTRIBUTING.md)         | Quy tắc git + commit + branch flow        | Trước push/merge               |
+| [ENVIRONMENT.md](./ENVIRONMENT.md)           | Setup máy mới + `.env` chi tiết           | Setup lần đầu / máy mới        |
+| [GLOSSARY.md](./GLOSSARY.md)                 | Thuật ngữ (FSRS, SRS, RLS, RSC...)        | Khi đọc blueprint mà chưa hiểu |
 
 ## Source of truth
 

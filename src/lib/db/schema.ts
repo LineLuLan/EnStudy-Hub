@@ -23,19 +23,9 @@ export const authUsers = authSchema.table('users', {
 });
 
 // ============ ENUMS ============
-export const cardStateEnum = pgEnum('card_state', [
-  'new',
-  'learning',
-  'review',
-  'relearning',
-]);
+export const cardStateEnum = pgEnum('card_state', ['new', 'learning', 'review', 'relearning']);
 
-export const reviewTypeEnum = pgEnum('review_type', [
-  'flashcard',
-  'mcq',
-  'typing',
-  'listening',
-]);
+export const reviewTypeEnum = pgEnum('review_type', ['flashcard', 'mcq', 'typing', 'listening']);
 
 export const cefrEnum = pgEnum('cefr', ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 

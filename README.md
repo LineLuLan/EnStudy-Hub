@@ -16,14 +16,14 @@ pnpm dev
 
 ## Tài liệu
 
-| File | Mục đích |
-|---|---|
+| File                                                 | Mục đích                                 |
+| ---------------------------------------------------- | ---------------------------------------- |
 | [`VOCAB_APP_BLUEPRINT.md`](./VOCAB_APP_BLUEPRINT.md) | Blueprint kỹ thuật A→Z (source of truth) |
-| [`docs/README.md`](./docs/README.md) | Index docs nội bộ |
-| [`docs/TRACKER.md`](./docs/TRACKER.md) | Roadmap 6 tuần |
-| [`docs/HANDOFF.md`](./docs/HANDOFF.md) | Note session-to-session |
-| [`docs/CONTRIBUTING.md`](./docs/CONTRIBUTING.md) | Git workflow + commit conventions |
-| [`docs/API_KEYS.md`](./docs/API_KEYS.md) | Keys cần cung cấp |
+| [`docs/README.md`](./docs/README.md)                 | Index docs nội bộ                        |
+| [`docs/TRACKER.md`](./docs/TRACKER.md)               | Roadmap 6 tuần                           |
+| [`docs/HANDOFF.md`](./docs/HANDOFF.md)               | Note session-to-session                  |
+| [`docs/CONTRIBUTING.md`](./docs/CONTRIBUTING.md)     | Git workflow + commit conventions        |
+| [`docs/API_KEYS.md`](./docs/API_KEYS.md)             | Keys cần cung cấp                        |
 
 ## Stack
 

@@ -5,13 +5,13 @@
 
 ## Cách lấy
 
-| File | Nguồn gợi ý | License |
-|---|---|---|
-| `oxford-3000.csv` | https://github.com/sapbmw/The-Oxford-3000 (CSV mirror) | OK (list only) |
-| `oxford-5000.csv` | https://github.com/sapbmw/The-Oxford-3000 | OK |
-| `ngsl.csv` | https://www.newgeneralservicelist.com/new-general-service-list | CC BY-SA |
-| `awl.csv` | https://en.wikipedia.org/wiki/Academic_Word_List | Public |
-| `coca-5000.csv` | https://www.wordfrequency.info/samples.asp | Free sample |
+| File              | Nguồn gợi ý                                                    | License        |
+| ----------------- | -------------------------------------------------------------- | -------------- |
+| `oxford-3000.csv` | https://github.com/sapbmw/The-Oxford-3000 (CSV mirror)         | OK (list only) |
+| `oxford-5000.csv` | https://github.com/sapbmw/The-Oxford-3000                      | OK             |
+| `ngsl.csv`        | https://www.newgeneralservicelist.com/new-general-service-list | CC BY-SA       |
+| `awl.csv`         | https://en.wikipedia.org/wiki/Academic_Word_List               | Public         |
+| `coca-5000.csv`   | https://www.wordfrequency.info/samples.asp                     | Free sample    |
 
 Tải về xong → đặt tên đúng convention `kebab-case.csv` → commit vào `content/wordlists/`.
 

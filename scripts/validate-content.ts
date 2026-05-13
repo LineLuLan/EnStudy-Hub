@@ -62,9 +62,7 @@ async function lookupDict(word: string) {
     const entry = json[0];
     if (!entry) return null;
     const ipa = entry.phonetics?.find((p) => p.text)?.text ?? null;
-    const pos = (entry.meanings ?? [])
-      .map((m) => m.partOfSpeech)
-      .filter((p): p is string => !!p);
+    const pos = (entry.meanings ?? []).map((m) => m.partOfSpeech).filter((p): p is string => !!p);
     return { ipa, pos };
   } catch {
     return null;
@@ -72,7 +70,10 @@ async function lookupDict(word: string) {
 }
 
 function normalizeIpa(s: string): string {
-  return s.replace(/[/\[\]]/g, '').trim().toLowerCase();
+  return s
+    .replace(/[/\[\]]/g, '')
+    .trim()
+    .toLowerCase();
 }
 
 async function checkCard(card: CardContent): Promise<CardIssue> {
@@ -107,7 +108,9 @@ async function main() {
     try {
       lesson = lessonContentSchema.parse(JSON.parse(await readFile(file, 'utf8')));
     } catch (err) {
-      console.error(`  ✗ ${relative(process.cwd(), file)} — schema FAIL: ${(err as Error).message}`);
+      console.error(
+        `  ✗ ${relative(process.cwd(), file)} — schema FAIL: ${(err as Error).message}`
+      );
       issues.push({
         file,
         cards: [{ word: '<schema>', schema_ok: false, dict_found: false }],
@@ -149,9 +152,13 @@ async function main() {
       if (!c.schema_ok) lines.push('- ❌ Schema failed');
       if (!c.dict_found) lines.push('- ⚠ Not found in dictionaryapi.dev');
       if (c.ipa_mismatch)
-        lines.push(`- ⚠ IPA differs: JSON \`${c.ipa_mismatch.json}\` vs dict \`${c.ipa_mismatch.dict}\``);
+        lines.push(
+          `- ⚠ IPA differs: JSON \`${c.ipa_mismatch.json}\` vs dict \`${c.ipa_mismatch.dict}\``
+        );
       if (c.pos_mismatch)
-        lines.push(`- ⚠ POS differs: JSON \`${c.pos_mismatch.json}\` vs dict ${c.pos_mismatch.dict.map((p) => `\`${p}\``).join(', ')}`);
+        lines.push(
+          `- ⚠ POS differs: JSON \`${c.pos_mismatch.json}\` vs dict ${c.pos_mismatch.dict.map((p) => `\`${p}\``).join(', ')}`
+        );
       lines.push('');
     }
   }

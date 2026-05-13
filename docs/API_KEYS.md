@@ -7,15 +7,15 @@
 
 ## Tổng quan
 
-| Key / Service | Cần khi | Bắt buộc | Free? |
-|---|---|---|---|
-| Supabase project (4 keys) | Tuần 1 onwards | **Có** | Free tier 500MB |
-| Google OAuth | Tuần 1 (Google login) | Optional | Free |
-| Vercel | Cuối Tuần 1 (deploy) | Optional | Free hobby tier |
-| Free Dictionary API | Tuần 2 (validate content) | Optional | **Free, no key** |
-| Wiktionary API | Tuần 2 (validate) | Optional | **Free, no key** |
-| ElevenLabs / Coqui TTS | Post-MVP (audio cache) | Không | $5/mo (paid) |
-| Anthropic API | Post-MVP (AI tutor) | Không | Pay-per-token |
+| Key / Service             | Cần khi                   | Bắt buộc | Free?            |
+| ------------------------- | ------------------------- | -------- | ---------------- |
+| Supabase project (4 keys) | Tuần 1 onwards            | **Có**   | Free tier 500MB  |
+| Google OAuth              | Tuần 1 (Google login)     | Optional | Free             |
+| Vercel                    | Cuối Tuần 1 (deploy)      | Optional | Free hobby tier  |
+| Free Dictionary API       | Tuần 2 (validate content) | Optional | **Free, no key** |
+| Wiktionary API            | Tuần 2 (validate)         | Optional | **Free, no key** |
+| ElevenLabs / Coqui TTS    | Post-MVP (audio cache)    | Không    | $5/mo (paid)     |
+| Anthropic API             | Post-MVP (AI tutor)       | Không    | Pay-per-token    |
 
 ---
 
