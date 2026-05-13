@@ -85,7 +85,7 @@ export function MCQCard({
 
   return (
     <div className="space-y-5">
-      <div className="rounded-xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
+      <div className="rounded-xl border border-zinc-200 bg-white p-4 sm:p-6 dark:border-zinc-800 dark:bg-zinc-950">
         <div className="flex flex-wrap items-baseline gap-2">
           <span className="text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
             {card.word}
