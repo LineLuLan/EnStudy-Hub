@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                                      |
-| ------ | ----------------------- | ------------------------- | ---------------------- | ---------------------------------------------------------- |
-| main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag            |
-| dev    | `73f6b56`               | base                      | 2026-05-13 (`e794630`) | Tuần 5 chunk 4 polish — Tuần 5 ĐÓNG, sẵn ship v0.2.0       |
-| be     | `eb6ec8f`               | 2026-05-13 (chunk 4 sync) | 2026-05-13 (`3627953`) | sync chunk 4 (/settings) — pending bulk sync Tuần 5 ch1..4 |
-| fe     | `e794630`               | 2026-05-13 (auth perf)    | 2026-05-13 (`e794630`) | base Tuần 5 chunk 4 polish                                 |
+| Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ------------------------ | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                        | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `545c3eb`               | base                     | 2026-05-13 (`545c3eb`) | sync main → dev sau release v0.2.0                        |
+| be     | `070f9ee`               | 2026-05-13 (post v0.2.0) | 2026-05-13 (`3627953`) | đã bulk catch-up Tuần 5 + sync release v0.2.0             |
+| fe     | `b0e723f`               | 2026-05-13 (post v0.2.0) | 2026-05-13 (`e794630`) | sync release v0.2.0                                       |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -150,3 +150,8 @@ git checkout fe
 | 2026-05-13 | merge  | fe → dev            | `68bec35` | bring Tuần 5 chunk 3 (Listening mode) to dev                              |
 | 2026-05-13 | commit | (T5 ch4 FE) → fe    | `e794630` | feat(review): Tuan 5 chunk 4 polish — toasts + skeleton + empty state     |
 | 2026-05-13 | merge  | fe → dev            | `73f6b56` | bring Tuần 5 chunk 4 polish to dev — Tuần 5 ĐÓNG                          |
+| 2026-05-13 | sync   | dev → be            | `8af8e17` | bulk catch-up Tuần 5 ch1..4 trước release v0.2.0                          |
+| 2026-05-13 | merge  | dev → main          | `eb18493` | release v0.2.0 — Dashboard + Stats + Settings + Minigames + tag           |
+| 2026-05-13 | sync   | main → dev          | `545c3eb` | sync release merge commit + prettier fixes back to dev                    |
+| 2026-05-13 | sync   | dev → be            | `070f9ee` | post v0.2.0 release sync                                                  |
+| 2026-05-13 | sync   | dev → fe            | `b0e723f` | post v0.2.0 release sync                                                  |
