@@ -5,6 +5,85 @@
 
 ---
 
+## 2026-05-13 (tối, tiếp theo) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 2: Typing-from-definition)
+
+**Mục tiêu session**: Mở Chunk 2 của Tuần 5 ngay sau khi Chunk 1 ship — minigame thứ 2 = gõ word từ definition (khác Cloze: Cloze có sentence với blank, Typing chỉ có meaning_vi làm cue).
+
+**Đã hoàn thành (commit `fe1861a` trên fe → merge `b4e062d` lên dev). Chưa sync xuống `be` (defer đến khi đóng Tuần 5).**
+
+**File mới (1):**
+
+- `src/components/review/typing-card.tsx` (~485 line, client): TypingCard component
+  - Top section: `<div className="text-center">` với "Nghĩa tiếng Việt" label + meaning_vi 2xl semibold + meaning_en italic xs + pos/cefr badge
+  - Slots: `<TypingSlots>` đặt giữa với shake wrapper, full-hidden mask qua `fullHiddenMask(word)` — KHÁC Cloze ở chỗ Cloze A1/A2 cho hint vowels/first-last, Typing thì ép hidden hoàn toàn (vì không có sentence context để "cheat")
+  - State machine giống Cloze: `phase: 'typing' | 'unlocked'`, `input`, `hintsUsed`, `mistakes`, `gaveUp`, `shakeKey`, `mountedAtRef`, `submittedRef`
+  - Doc-level keydown handler giống Cloze (đoạn typing): letter match → advance, mismatch → mistake + shake, `?` hint, Esc give-up, Backspace xóa, auto-fill non-letter chars (apostrophe/hyphen)
+  - Unlock reveal panel: glassmorphism với word + IPA + Volume2 → speakWord, 2 examples, mnemonic, 2s countdown bar, 1-4 override grade
+  - Reuse từ `cloze-utils.ts`: `gradeFromCloze` (heuristic), `speakWord` (TTS), `MaskSlot` (type) — KHÔNG duplicate grade logic
+
+**Files edit:**
+
+- `src/components/review/mode-picker.tsx`: `{ id: 'typing', enabled: true }` (drop hint)
+- `src/components/review/review-session.tsx`:
+  - Import `<TypingCard>`
+  - `effectiveMode` logic: `(cloze OR typing) + multi-word → 'multiword-fallback'` (đổi tên từ `cloze-multiword`)
+  - Branch render: thêm nhánh `effectiveMode === 'typing' → <TypingCard key={typing-${id}}>` (key prefix khác nhau giúp React rebuild khi đổi mode)
+  - Hint text: "gõ từ từ nghĩa · ? hint · Esc bỏ qua" cho mode typing
+- `commitlint.config.cjs`: add `'review'` vào `scope-enum` (Chunk 1 commit warn vì `feat(review):`)
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (KHÔNG thêm test mới — TypingCard reuse `gradeFromCloze` đã có 7 tests trong `cloze-utils.test.ts`, không lib mới)
+- `pnpm dev` chưa stop, dev server vẫn live từ session trước
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                                  |
+| ------ | --------- | ------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)         |
+| dev    | `b4e062d` | Tuần 5 chunk 2 typing-from-def merged |
+| be     | `eb6ec8f` | chưa sync (defer đến hết Tuần 5)      |
+| fe     | `fe1861a` | base Tuần 5 chunk 2                   |
+
+**Manual E2E checklist mới (browser):**
+
+1. `pnpm dev` → login → `/review` (đã có queue)
+2. Click **Gõ nghĩa** trong picker → card đổi sang TypingCard
+3. Top hiện meaning_vi to (vd: "con mèo") + meaning_en italic + pos/cefr badge
+4. Slots `[_ _ _]` ở giữa, hint area dưới
+5. Gõ "cat" — mỗi letter đúng → slot fill, sai → shake + mistake counter
+6. Word complete → unlock phase: word + IPA + Volume2 phát "cat", auto-submit Good sau 2s
+7. Bấm `?` để hint thêm 1 letter (hintsUsed++)
+8. Bấm Esc để give-up → auto rating Again
+9. Test edge: nếu queue có thẻ multi-word (hiếm, P0 không có) → fallback flashcard flip thay vì TypingCard
+10. SQL check: `SELECT review_type, rating FROM review_logs ORDER BY reviewed_at DESC LIMIT 5;` — thấy `review_type='typing'` cho cả Cloze và Typing (cùng enum, khác mode FE)
+
+**Refactor tiềm năng (defer)**:
+TypingCard và ClozeCard share ~70% code (state machine + keyboard + unlock panel). Có thể trừu tượng `<WordTypingArea>` chia sẻ logic, nhưng giờ KHÔNG urgency — chunk 2 ưu tiên ship sản phẩm hơn DRY. Nếu Chunk 3 (Listening) cũng share pattern này thì refactor sẽ rõ ràng hơn.
+
+**Pending cho Chunk 3 (next session) — Listening mode**:
+
+- Top: nút lớn "🔊 Nghe" + small "Bấm phím Space để phát lại"
+- Auto-phát `speakWord(card.word)` on mount + Space replay
+- Hide định nghĩa hoàn toàn (chỉ pos/cefr badge)
+- Input slots như TypingCard (full hidden)
+- Submit → unlock reveal (word + IPA + def + examples)
+- `reviewType: 'listening'` (đã sẵn enum)
+- Enable button trong ModePicker
+- Edge case: browser không có speechSynthesis → toast cảnh báo + fallback show word (degraded UX)
+
+**Pending cho Chunk 4 — Polish**:
+
+- Toast milestones: streak +1, lesson complete, daily limit reached
+- Skeleton screens: cải thiện `review/loading.tsx` match new layout (mode picker + card)
+- Empty states: hiện ổn, nhưng có thể add suggested deck links
+
+**Pending cho v0.2.0 release**: vẫn defer đến hết Tuần 5.
+
+---
+
 ## 2026-05-13 (tối) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 1: Mode Picker + MCQ mode)
 
 **Mục tiêu session**: Mở Tuần 5 với chunk 1 = Mode Picker scaffolding + MCQ mode đầu tiên — đụng đủ chain (BE queue → store → UI component → test) để xác nhận pattern Tuần 5 chạy trước khi scale sang Typing/Listening.

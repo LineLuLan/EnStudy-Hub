@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                                |
-| ------ | ----------------------- | ------------------------- | ---------------------- | ---------------------------------------------------- |
-| main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag      |
-| dev    | `dc7016a`               | base                      | 2026-05-13 (`2f6186e`) | Tuần 5 chunk 1 mode picker + MCQ merged              |
-| be     | `eb6ec8f`               | 2026-05-13 (chunk 4 sync) | 2026-05-13 (`3627953`) | sync chunk 4 (/settings page) — chưa sync Tuần 5 ch1 |
-| fe     | `2f6186e`               | 2026-05-13 (auth perf)    | 2026-05-13 (`2f6186e`) | base Tuần 5 chunk 1 (mode picker + MCQ)              |
+| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                            |
+| ------ | ----------------------- | ------------------------- | ---------------------- | ------------------------------------------------ |
+| main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag  |
+| dev    | `b4e062d`               | base                      | 2026-05-13 (`fe1861a`) | Tuần 5 chunk 2 typing-from-definition merged     |
+| be     | `eb6ec8f`               | 2026-05-13 (chunk 4 sync) | 2026-05-13 (`3627953`) | sync chunk 4 (/settings page) — chưa sync Tuần 5 |
+| fe     | `fe1861a`               | 2026-05-13 (auth perf)    | 2026-05-13 (`fe1861a`) | base Tuần 5 chunk 2 (typing-from-definition)     |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -144,3 +144,5 @@ git checkout fe
 | 2026-05-13 | sync   | dev → be            | `eb6ec8f` | sync chunk 4 (/settings page) xuống be                                    |
 | 2026-05-13 | commit | (T5 ch1 FE) → fe    | `2f6186e` | feat(review): Tuan 5 chunk 1 mode picker + MCQ mode                       |
 | 2026-05-13 | merge  | fe → dev            | `dc7016a` | bring Tuần 5 chunk 1 (mode picker + MCQ) to dev                           |
+| 2026-05-13 | commit | (T5 ch2 FE) → fe    | `fe1861a` | feat(review): Tuan 5 chunk 2 typing-from-definition mode                  |
+| 2026-05-13 | merge  | fe → dev            | `b4e062d` | bring Tuần 5 chunk 2 (typing-from-definition) to dev                      |

@@ -177,7 +177,14 @@
   - `stores/review-session.ts`: thêm `mode: ReviewMode` + `setMode(mode)`, persist `mode` cùng `results` (F5 giữ pick), `rate()` truyền `reviewType: modeToReviewType(mode)` (cloze/typing → 'typing', mcq → 'mcq', listening → 'listening'), `ReviewResult.mode` optional cho backward compat hydration
   - `components/review/review-session.tsx`: render `<ModePicker>` trên cùng, branch theo `effectiveMode` (`cloze` + multi-word → fallback flashcard flip; `mcq` → `<MCQCard>`; còn lại → `<ClozeCard>`)
 - [x] Tests: 49 → 72 — `queue.test.ts` thêm 11 (extractMeaningVi 4 + buildDistractorPool 6 + dedupe edge); `mcq-utils.test.ts` 12 (shuffle deterministic + immutable, pickDistractors dedupe/exclude/cap, assembleMcqChoices position shuffle/correct-once)
-- [ ] **Chunk 2**: Typing-from-definition mode (show meaning_vi → user gõ word; reviewType='typing' tách khỏi cloze sau nếu cần)
+- [x] **Chunk 2 typing-from-definition done** (2026-05-13, commit `fe1861a` trên fe → merge `b4e062d` lên dev):
+  - `components/review/typing-card.tsx` (~485 line, client): show `meaning_vi` 2xl center + `meaning_en` italic hint + pos/cefr badges → full-hidden input slots (`[_ _ _ _ _]` mono ring), letter-by-letter doc-level keydown, `?` reveal next letter, Esc give-up, Backspace xóa, Eraser button, wrong char shake (Framer Motion x 0.3s) + mistake counter
+  - Unlock state: glassmorphism reveal panel (re-use cloze style — word + IPA + Volume2 phát âm + 2 examples + mnemonic + 2s countdown bar + 1-4 rating override)
+  - Reuse `gradeFromCloze` + `speakWord` + `MaskSlot` type từ `cloze-utils.ts` (không trùng lặp grade heuristic). Mask helper `fullHiddenMask(word)` local — ép hidden TẤT CẢ letters (typing không có sentence context để cho A1/A2 hint như Cloze)
+  - `mode-picker.tsx`: nút "Gõ nghĩa" enable (drop "Sắp có" badge)
+  - `review-session.tsx`: branch `mode === 'typing'` → `<TypingCard>`, multi-word fallback rule mở rộng `cloze OR typing + multi-word → MultiWordFallback`, hint text "gõ từ từ nghĩa" cho typing
+  - `commitlint.config.cjs`: add scope `'review'` (Tuần 5 chunks dùng nhiều, trước đây cảnh báo)
+  - Cả Cloze và Typing share `reviewType='typing'` trong DB (cùng là typing-the-word minigames, khác cue). Split sau nếu retention analytics cần
 - [ ] **Chunk 3**: Listening mode (Web Speech API TTS phát word → user gõ)
 - [ ] **Chunk 4**: Toast milestones (streak +1, lesson hoàn thành) + skeleton + empty state polish
 
