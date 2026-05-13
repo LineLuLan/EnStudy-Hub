@@ -54,7 +54,7 @@ export function FlashcardFlip({
               {card.pos}
             </span>
           )}
-          <p className="mt-6 text-xs text-zinc-400">Bấm Space hoặc click để lật</p>
+          <p className="mt-6 text-xs text-zinc-500">Bấm Space hoặc click để lật</p>
         </div>
 
         {/* Back */}

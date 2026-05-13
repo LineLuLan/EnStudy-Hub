@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 import { eq } from 'drizzle-orm';
 import { getCurrentUserId } from '@/lib/auth/session';
@@ -8,6 +9,7 @@ import { ensureProfile } from '@/features/auth/profile';
 import { SettingsForm } from '@/components/settings/settings-form';
 
 export const dynamic = 'force-dynamic';
+export const metadata: Metadata = { title: 'Cài đặt' };
 
 export default async function SettingsPage() {
   const userId = await getCurrentUserId();
