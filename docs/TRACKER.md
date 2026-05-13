@@ -168,13 +168,18 @@
 
 ## Tuần 5 — Minigames + Polish
 
-- [ ] MCQ mode (4 đáp án)
-- [ ] Typing mode
-- [ ] Listening mode (Web Speech API)
-- [ ] Mode picker `/review`
-- [ ] Toast cho milestones
-- [ ] Loading states + skeletons
-- [ ] Empty states
+- [x] **Chunk 1 mode picker + MCQ done** (2026-05-13, commit `2f6186e` trên fe → merge `dc7016a` lên dev):
+  - `features/srs/queue.ts`: thêm `distractorPool: string[]` mỗi `ReviewQueueItem` — 1 SELECT bulk `cards WHERE lessonId IN (...)`, group by lesson, exclude self + dedupe, top-up từ global pool nếu lesson <4 cards, cap 8 entries
+  - `features/srs/queue-utils.ts`: pure helpers `extractMeaningVi(defs)` + `buildDistractorPool(siblings, selfId, selfMeaning, globalPool)` — tách để unit test không khởi tạo DB
+  - `components/review/mcq-utils.ts`: pure `shuffle<T>` (Fisher-Yates), `pickDistractors(correct, pool, n, rng?)` (case-insensitive dedupe, exclude correct), `assembleMcqChoices(correct, pool, rng?)` (4 choices shuffled + correctIndex), `createSeededRng(seed)` (Mulberry32) cho test deterministic
+  - `components/review/mcq-card.tsx` (~180 line): word + IPA + POS + Volume2 phát âm + 4 choices grid (1-col mobile / 2-col sm:), keyboard 1-4, click → 900ms reveal (green=correct, red=wrong, dim others) → `onGrade(Good)` đúng / `onGrade(Again)` sai, `submittedRef` chống double-fire
+  - `components/review/mode-picker.tsx`: radiogroup 4 buttons (Cloze/MCQ active, Typing/Listening disabled với "Sắp có" hint), pill style với `aria-checked`
+  - `stores/review-session.ts`: thêm `mode: ReviewMode` + `setMode(mode)`, persist `mode` cùng `results` (F5 giữ pick), `rate()` truyền `reviewType: modeToReviewType(mode)` (cloze/typing → 'typing', mcq → 'mcq', listening → 'listening'), `ReviewResult.mode` optional cho backward compat hydration
+  - `components/review/review-session.tsx`: render `<ModePicker>` trên cùng, branch theo `effectiveMode` (`cloze` + multi-word → fallback flashcard flip; `mcq` → `<MCQCard>`; còn lại → `<ClozeCard>`)
+- [x] Tests: 49 → 72 — `queue.test.ts` thêm 11 (extractMeaningVi 4 + buildDistractorPool 6 + dedupe edge); `mcq-utils.test.ts` 12 (shuffle deterministic + immutable, pickDistractors dedupe/exclude/cap, assembleMcqChoices position shuffle/correct-once)
+- [ ] **Chunk 2**: Typing-from-definition mode (show meaning_vi → user gõ word; reviewType='typing' tách khỏi cloze sau nếu cần)
+- [ ] **Chunk 3**: Listening mode (Web Speech API TTS phát word → user gõ)
+- [ ] **Chunk 4**: Toast milestones (streak +1, lesson hoàn thành) + skeleton + empty state polish
 
 ---
 

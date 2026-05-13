@@ -5,6 +5,109 @@
 
 ---
 
+## 2026-05-13 (tối) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 1: Mode Picker + MCQ mode)
+
+**Mục tiêu session**: Mở Tuần 5 với chunk 1 = Mode Picker scaffolding + MCQ mode đầu tiên — đụng đủ chain (BE queue → store → UI component → test) để xác nhận pattern Tuần 5 chạy trước khi scale sang Typing/Listening.
+
+**Đã hoàn thành (commit `2f6186e` trên fe → merge `dc7016a` lên dev). Chưa sync xuống `be` (BE không thay đổi, để sync lúc kết Tuần 5).**
+
+**Files mới (4):**
+
+- `src/components/review/mcq-card.tsx` (~180 line, client): MCQCard component
+  - Layout: word + IPA + POS + CEFR badge + Volume2 phát âm + prompt "Nghĩa nào đúng với từ này?" + 4 ChoiceButton grid (1-col mobile / sm:2-col)
+  - State: `selectedIndex: number | null`, `submittedRef` ngăn double-fire
+  - `assembleMcqChoices(correct, distractorPool)` qua useMemo (key card.id), trả về `{ choices, correctIndex }` shuffled
+  - Keyboard 1-4: pick choice (ignore khi đang focus input)
+  - Click → setState revealed → 900ms `setTimeout` → `onGrade(Rating.Good)` đúng / `onGrade(Rating.Again)` sai (binary grade vì MCQ chỉ có pass/fail signal)
+  - Reveal styling: correct → emerald, selected wrong → red, others → dim opacity-60
+  - Cleanup `speechSynthesis.cancel()` on unmount
+- `src/components/review/mcq-utils.ts` (~85 line, pure): helpers cho MCQ
+  - `shuffle<T>(arr, rng?)`: Fisher-Yates immutable
+  - `pickDistractors(correct, pool, n, rng?)`: case-insensitive dedupe + exclude correct + shuffle + slice n
+  - `assembleMcqChoices(correct, pool, rng?)`: ghép correct + 3 distractor + shuffle vị trí + return `correctIndex`
+  - `createSeededRng(seed)`: Mulberry32 cho test deterministic
+- `src/components/review/mcq-utils.test.ts` (12 tests): shuffle (immutable + deterministic + permutation), pickDistractors (case-insensitive exclude + dedupe + cap + empty pool + skip whitespace), assembleMcqChoices (correct exactly once + 4 distinct choices + shuffle position across 30 seeds + graceful fallback)
+- `src/components/review/mode-picker.tsx`: radiogroup component
+  - 4 buttons: Cloze (Pencil, active) / Trắc nghiệm (ListChecks, active) / Gõ nghĩa (Keyboard, disabled "Sắp có") / Nghe (Headphones, disabled "Sắp có")
+  - Pill style, active state đảo màu (`bg-zinc-900 text-zinc-50`), disabled state mờ + cursor-not-allowed + tooltip
+  - `aria-checked` + `role=radio` + `role=radiogroup` cho accessibility
+
+**Files edit:**
+
+- `src/features/srs/queue.ts`:
+  - `ReviewQueueItem` thêm `distractorPool: string[]`
+  - Sau khi fetch due+new: collect unique `lessonIds`, 1 SELECT bulk `cards WHERE lessonId IN (...)` → group by lessonId
+  - Per-item: `buildDistractorPool(siblings, card.id, selfMeaning, globalPool)` — fallback global pool khi lesson <4 cards
+- `src/features/srs/queue-utils.ts`: thêm 2 pure helpers
+  - `extractMeaningVi(defs)`: trim `definitions[0].meaning_vi`, null-safe (defensive vs jsonb)
+  - `buildDistractorPool(siblings, selfId, selfMeaning, globalPool)`: dedupe siblings (skip self + selfMeaning), top-up từ global khi <3 distinct, cap 8 candidates
+  - `SiblingMeaning = { cardId, meaningVi }` type export
+- `src/features/srs/queue.test.ts`: thêm 11 tests
+  - `extractMeaningVi`: trim, empty array, null, missing field, whitespace-only
+  - `buildDistractorPool`: exclude self card + meaning, dedupe meanings, siblings-only when ≥3, global fallback when <3, cap 8 from fat global, returns [] gracefully when pool exhausts, handles null self meaning
+- `src/stores/review-session.ts`:
+  - `ReviewMode = 'cloze' | 'mcq' | 'typing' | 'listening'` exported
+  - State thêm `mode: ReviewMode` (default 'cloze') + action `setMode(mode)` (reset cardStartedAt + flipped)
+  - `rate()` đọc `currentMode = s.mode`, append vào ReviewResult, truyền `reviewType: modeToReviewType(currentMode)` thay vì hard-code `'typing'`
+  - `modeToReviewType`: cloze/typing → 'typing', mcq → 'mcq', listening → 'listening' (Tuần 5 chunk 2 sẽ split typing-from-definition nếu cần)
+  - `partialize: { results, mode }` — F5 giữ pick
+  - `ReviewResult.mode?` optional cho backward compat (results cũ chưa có field này)
+- `src/components/review/review-session.tsx`:
+  - Render `<ModePicker>` trên đầu
+  - `effectiveMode`: nếu user chọn `cloze` mà thẻ multi-word → fallback `cloze-multiword` (flashcard flip)
+  - Branch render: `mcq` → `<MCQCard>`, `cloze-multiword` → `<MultiWordFallback>`, else → `<ClozeCard>`
+  - Hint text top thay đổi theo mode
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings (next lint flat config)
+- `pnpm test` ✓ 72/72 (49 cũ + 23 mới: 11 queue-utils + 12 mcq-utils)
+- `pnpm dev` ✓ server up (browser verify thuộc về user trước khi mở chunk 2)
+
+**Commitlint note**: scope `review` chưa có trong enum `commitlint.config.cjs` — warning only, commit pass. Lần sau dùng scope `ui` hoặc `srs` (đã có). Chunk 2+ nên cân nhắc add scope `review` vào `commitlint.config.cjs`.
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                          |
+| ------ | --------- | --------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                 |
+| dev    | `dc7016a` | Tuần 5 chunk 1 mode picker + MCQ merged       |
+| be     | `eb6ec8f` | chưa sync Tuần 5 ch1 (chỉ FE thay đổi, defer) |
+| fe     | `2f6186e` | base Tuần 5 chunk 1                           |
+
+**Manual E2E checklist cho user (browser, sau pull):**
+
+1. `pnpm dev` → login → `/review` (đảm bảo có queue, nếu hết: enroll deck mới ở `/decks`)
+2. Picker hiện ở top với 4 nút — Cloze active mặc định (pill đen)
+3. Click **Trắc nghiệm** → card đổi sang 4-choice MCQ. Word + IPA hiện trên, 4 nghĩa VN bên dưới
+4. Pick đúng → nút green flash, 900ms sau auto-advance, kiểm tra Supabase SQL: `SELECT review_type, rating, reviewed_at FROM review_logs ORDER BY reviewed_at DESC LIMIT 5;` → thấy `review_type='mcq'`, `rating=3`
+5. Pick sai → nút red, đáp án đúng cũng highlight green, advance với `rating=1` (Again)
+6. Bấm phím `1-4` thay vì click — phải work
+7. Click **Gõ nghĩa** / **Nghe** → disabled, không react, tooltip "Sắp có"
+8. F5 trang → mode đang chọn được giữ (kiểm `localStorage['review-session-results']` có `mode: 'mcq'`)
+9. Quay lại **Cloze** → cloze typing vẫn chạy bình thường, regression-free
+10. `/dashboard` sau session → streak/heatmap recompute đúng
+
+**Bundle impact** (chưa build production trong session này — chỉ dev verify):
+
+- `/review` sẽ tăng nhẹ vì MCQCard + ModePicker (lazy, không lib mới). Đo lúc build chunk cuối Tuần 5.
+
+**Pending cho Chunk 2 (next session)**: Typing-from-definition mode
+
+- Show `definitions[0].meaning_vi` ở top, ô input rỗng → user gõ word
+- Validate: case-insensitive, trim, accept hyphen/apostrophe đúng vị trí
+- Grade: 0 mistake + <5s → Good, 1-2 mistake → Hard, 3+ mistake / give-up → Again (tương tự `gradeFromCloze`)
+- Có thể tái dùng nhiều logic từ `cloze-utils.ts` — refactor ra `typing-utils.ts` chung
+- Enable nút "Gõ nghĩa" trong ModePicker (xóa disabled flag)
+- Quyết định: split `reviewType` thành `'typing'` (cloze) vs `'typing-def'` (mới) hay giữ chung — recommend giữ chung lần đầu, split nếu retention analytics cần
+
+**Pending cho v0.2.0 release** (sẵn từ Tuần 4 nhưng defer đến hết Tuần 5):
+
+- `dev → main` merge + tag `v0.2.0` — defer đến khi Tuần 5 polish xong để release "Minigames + Dashboard" thành 1 bản
+
+---
+
 ## 2026-05-13 (chiều muộn) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 4: /settings page + đóng Tuần 4)
 
 **Mục tiêu session**: build `/settings` form 3 sections để user chỉnh displayName / timezone / daily limits / theme. Đóng Tuần 4 sẵn ship `v0.2.0`.
