@@ -253,7 +253,7 @@ export function TypingCard({
 
   return (
     <div className="space-y-5">
-      <div className="rounded-xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
+      <div className="rounded-xl border border-zinc-200 bg-white p-4 sm:p-6 dark:border-zinc-800 dark:bg-zinc-950">
         {/* Definition prompt */}
         <div className="text-center">
           <div className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
@@ -361,7 +361,7 @@ export function TypingCard({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.35 }}
-            className="rounded-xl border border-sky-200/60 bg-white/70 p-5 ring-1 ring-sky-100 backdrop-blur dark:border-sky-900/40 dark:bg-zinc-950/70 dark:ring-sky-900/40"
+            className="rounded-xl border border-sky-200/60 bg-white/70 p-4 ring-1 ring-sky-100 backdrop-blur sm:p-5 dark:border-sky-900/40 dark:bg-zinc-950/70 dark:ring-sky-900/40"
             style={{ boxShadow: '0 0 24px rgba(56, 189, 248, 0.18)' }}
           >
             <div className="flex flex-wrap items-baseline gap-2">

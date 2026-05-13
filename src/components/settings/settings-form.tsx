@@ -158,7 +158,7 @@ export function SettingsForm({ initial }: { initial: InitialProfile }) {
         <ThemeRadio />
       </SettingsSection>
 
-      <div className="flex items-center gap-3 border-t border-zinc-200 pt-4 dark:border-zinc-800">
+      <div className="flex flex-col items-start gap-3 border-t border-zinc-200 pt-4 sm:flex-row sm:items-center dark:border-zinc-800">
         <Button type="submit" disabled={pending} className="gap-2">
           {pending ? <Loader2 className="h-4 w-4 animate-spin" /> : <Save className="h-4 w-4" />}
           {pending ? 'Đang lưu…' : 'Lưu thay đổi'}
