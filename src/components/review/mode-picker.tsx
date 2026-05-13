@@ -15,7 +15,7 @@ const MODES: ModeDef[] = [
   { id: 'cloze', label: 'Cloze', Icon: Pencil, enabled: true },
   { id: 'mcq', label: 'Trắc nghiệm', Icon: ListChecks, enabled: true },
   { id: 'typing', label: 'Gõ nghĩa', Icon: Keyboard, enabled: true },
-  { id: 'listening', label: 'Nghe', Icon: Headphones, enabled: false, hint: 'Sắp có' },
+  { id: 'listening', label: 'Nghe', Icon: Headphones, enabled: true },
 ];
 
 export function ModePicker({
