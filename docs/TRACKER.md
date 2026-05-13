@@ -218,12 +218,21 @@
   - `app/(app)/stats/page.tsx`: MetricCard grid `sm:grid-cols-4` → `grid-cols-2 sm:grid-cols-4` — mobile 2 cột thay 4 hàng dọc tốn scroll
   - `components/settings/settings-form.tsx`: submit row `flex items-center` → `flex flex-col items-start sm:flex-row sm:items-center` — helper text stack dưới button trên mobile
   - Build: bundle unchanged (`/review` 176 kB, `/settings` 123 kB, `/stats` 109 kB) — MobileNav tham gia shared chunk topbar
+- [x] **Chunk 2 Lighthouse audit fixes done** (2026-05-14, commit `1aec7ab` trên fe → merge `da3a05b` lên dev → sync `b50fc5d` xuống be):
+  - **Perf**: code split 4 minigame cards + flashcard-flip qua `next/dynamic`. Mỗi card lazy load with `<div h-[320px] animate-pulse>` fallback. Mode picker + orchestrator vẫn eager
+    - `/review` First Load JS **176 kB → 126 kB (−50 kB / −28%)** — biggest perf win
+    - `/login` 130 kB (+1 kB do metadata import), khác routes không đổi
+  - **A11y**:
+    - Skip-to-content link `<a href="#main-content" className="sr-only focus:not-sr-only ...">` trong `(app)/layout.tsx`. Tab key reveal link → Enter skip qua sidebar/topbar straight to `<main id="main-content">`. Cần cho keyboard + screen reader users
+    - Text contrast: 6 chỗ `text-xs text-zinc-400` → `text-zinc-500` trong cloze/typing/listening counter (`{input.length}/{word.length}`), flashcard-flip hint, review empty state line. Tailwind `zinc-400` (#a1a1aa) fail WCAG AA Normal (3.66:1 < 4.5); `zinc-500` (#71717a) pass (5.42:1)
+  - **SEO**: per-page metadata title cho 6 pages — dashboard/review/decks/stats/settings/login. Root layout title template `'%s · EnStudy Hub'` auto-fills tab title. `/review/summary` skip vì client component, defer
+  - Build: typecheck OK, lint OK, tests 72/72, build OK
 - [ ] Gen thêm 500-1000 từ
 - [ ] CSV import UI
 - [ ] Card editing UI
 - [ ] Suspend/bury cards
 - [ ] Personal notes per card
-- [ ] Lighthouse > 90
+- [ ] Lighthouse > 90 — chunk 2 đã làm code-side fixes; thực đo cần dev server + Chrome DevTools (defer chunk sau hoặc khi deploy)
 - [ ] GitHub Actions cron daily DB backup
 - [ ] Update `README.md`
 - [ ] Tag `v1.0.0` release

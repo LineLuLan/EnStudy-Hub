@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                     |
-| ------ | ----------------------- | ------------------------ | ---------------------- | --------------------------------------------------------- |
-| main   | `eb18493`               | —                        | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `c932e9b`               | base                     | 2026-05-13 (`c932e9b`) | Tuần 6 chunk 1 mobile responsive QA 375px                 |
-| be     | `691bab1`               | 2026-05-13 (Tuần 6 ch1)  | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 1 mobile QA                             |
-| fe     | `22c79d7`               | 2026-05-13 (post v0.2.0) | 2026-05-13 (`22c79d7`) | base Tuần 6 chunk 1 mobile QA                             |
+| Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ----------------------- | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                       | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `da3a05b`               | base                    | 2026-05-14 (`da3a05b`) | Tuần 6 chunk 2 Lighthouse audit fixes                     |
+| be     | `b50fc5d`               | 2026-05-14 (Tuần 6 ch2) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 2 Lighthouse                            |
+| fe     | `1aec7ab`               | 2026-05-13 (Tuần 6 ch1) | 2026-05-14 (`1aec7ab`) | base Tuần 6 chunk 2 Lighthouse                            |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -160,3 +160,8 @@ git checkout fe
 | 2026-05-13 | commit | (T6 ch1 FE) → fe    | `22c79d7` | feat(ui): Tuan 6 chunk 1 mobile responsive QA 375px                       |
 | 2026-05-13 | merge  | fe → dev            | `c932e9b` | bring Tuần 6 chunk 1 mobile QA to dev                                     |
 | 2026-05-13 | sync   | dev → be            | `691bab1` | sync Tuần 6 chunk 1 mobile QA xuống be                                    |
+| 2026-05-13 | sync   | dev → be            | `803fec6` | docs: Tuần 6 chunk 1 handoff                                              |
+| 2026-05-13 | sync   | dev → fe            | `c33dfd5` | docs: Tuần 6 chunk 1 handoff                                              |
+| 2026-05-14 | commit | (T6 ch2 FE) → fe    | `1aec7ab` | feat(perf,a11y): Tuan 6 chunk 2 Lighthouse audit fixes                    |
+| 2026-05-14 | merge  | fe → dev            | `da3a05b` | bring Tuần 6 chunk 2 Lighthouse to dev                                    |
+| 2026-05-14 | sync   | dev → be            | `b50fc5d` | sync Tuần 6 chunk 2 Lighthouse xuống be                                   |
