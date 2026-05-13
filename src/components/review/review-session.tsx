@@ -8,6 +8,7 @@ import { useReviewSession } from '@/stores/review-session';
 import type { ReviewQueueItem } from '@/features/srs/queue';
 import { ClozeCard } from './cloze-card';
 import { FlashcardFlip } from './flashcard-flip';
+import { ListeningCard } from './listening-card';
 import { MCQCard } from './mcq-card';
 import { ModePicker } from './mode-picker';
 import { TypingCard } from './typing-card';
@@ -49,10 +50,12 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   }
 
   const isMultiWord = current.card.word.includes(' ');
-  // Cloze/Typing both require letter-by-letter input; multi-word phrases fall
-  // back to flashcard flip. MCQ works regardless of word length.
+  // Cloze / Typing / Listening all require letter-by-letter input; multi-word
+  // phrases fall back to flashcard flip. MCQ works regardless of word length.
   const effectiveMode =
-    (mode === 'cloze' || mode === 'typing') && isMultiWord ? 'multiword-fallback' : mode;
+    (mode === 'cloze' || mode === 'typing' || mode === 'listening') && isMultiWord
+      ? 'multiword-fallback'
+      : mode;
 
   return (
     <div className="space-y-5">
@@ -76,6 +79,11 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
             <>
               gõ từ từ nghĩa · <kbd className="rounded border px-1 font-mono text-[10px]">?</kbd>{' '}
               hint · <kbd className="rounded border px-1 font-mono text-[10px]">Esc</kbd> bỏ qua
+            </>
+          ) : effectiveMode === 'listening' ? (
+            <>
+              <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> phát lại · gõ
+              từ · <kbd className="rounded border px-1 font-mono text-[10px]">?</kbd> hint
             </>
           ) : (
             <>
@@ -104,6 +112,13 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
       ) : effectiveMode === 'typing' ? (
         <TypingCard
           key={`typing-${current.userCard.id}`}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      ) : effectiveMode === 'listening' ? (
+        <ListeningCard
+          key={`listening-${current.userCard.id}`}
           item={current}
           onGrade={(g) => startTransition(() => void handleRate(g))}
           pending={pending}
