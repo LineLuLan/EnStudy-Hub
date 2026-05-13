@@ -208,12 +208,21 @@
 
 ## Tuần 6 — Scale content + Ship
 
+- [x] **Chunk 1 mobile responsive QA done** (2026-05-13, commit `22c79d7` trên fe → merge `c932e9b` lên dev → sync `691bab1` xuống be):
+  - `components/layout/nav-items.ts` (new): extract `NAV_ITEMS` array dùng chung sidebar + mobile-nav
+  - `components/layout/mobile-nav.tsx` (new, ~100 line, client): hamburger button `md:hidden` trong topbar → mở dialog overlay backdrop-blur + slide-in panel với 5 nav links + close button (X). Esc đóng. `document.body.style.overflow = 'hidden'` lock scroll khi open. Auto-close khi pathname đổi.
+  - `components/layout/topbar.tsx`: prepend `<MobileNav />`, header gap `gap-3 px-4` → `gap-2 px-3 sm:gap-3 sm:px-4` (giảm padding mobile cho hamburger button)
+  - `components/layout/sidebar.tsx`: refactor import NAV từ shared file, drop duplication
+  - `app/(app)/layout.tsx`: main padding `px-6 py-6` → `px-4 py-5 sm:px-6 sm:py-6`
+  - 4 minigame cards (Cloze/MCQ/Typing/Listening) + reveal panels: card outer `p-6` → `p-4 sm:p-6`, reveal panel `p-5` → `p-4 sm:p-5`. Khoảng thở thêm trên 375px
+  - `app/(app)/stats/page.tsx`: MetricCard grid `sm:grid-cols-4` → `grid-cols-2 sm:grid-cols-4` — mobile 2 cột thay 4 hàng dọc tốn scroll
+  - `components/settings/settings-form.tsx`: submit row `flex items-center` → `flex flex-col items-start sm:flex-row sm:items-center` — helper text stack dưới button trên mobile
+  - Build: bundle unchanged (`/review` 176 kB, `/settings` 123 kB, `/stats` 109 kB) — MobileNav tham gia shared chunk topbar
 - [ ] Gen thêm 500-1000 từ
 - [ ] CSV import UI
 - [ ] Card editing UI
 - [ ] Suspend/bury cards
 - [ ] Personal notes per card
-- [ ] Mobile responsive QA
 - [ ] Lighthouse > 90
 - [ ] GitHub Actions cron daily DB backup
 - [ ] Update `README.md`
