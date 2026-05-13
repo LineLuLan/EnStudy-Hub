@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev       | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ------------------------ | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                        | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `545c3eb`               | base                     | 2026-05-13 (`545c3eb`) | sync main → dev sau release v0.2.0                        |
-| be     | `070f9ee`               | 2026-05-13 (post v0.2.0) | 2026-05-13 (`3627953`) | đã bulk catch-up Tuần 5 + sync release v0.2.0             |
-| fe     | `b0e723f`               | 2026-05-13 (post v0.2.0) | 2026-05-13 (`e794630`) | sync release v0.2.0                                       |
+| dev    | `c932e9b`               | base                     | 2026-05-13 (`c932e9b`) | Tuần 6 chunk 1 mobile responsive QA 375px                 |
+| be     | `691bab1`               | 2026-05-13 (Tuần 6 ch1)  | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 1 mobile QA                             |
+| fe     | `22c79d7`               | 2026-05-13 (post v0.2.0) | 2026-05-13 (`22c79d7`) | base Tuần 6 chunk 1 mobile QA                             |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -155,3 +155,8 @@ git checkout fe
 | 2026-05-13 | sync   | main → dev          | `545c3eb` | sync release merge commit + prettier fixes back to dev                    |
 | 2026-05-13 | sync   | dev → be            | `070f9ee` | post v0.2.0 release sync                                                  |
 | 2026-05-13 | sync   | dev → fe            | `b0e723f` | post v0.2.0 release sync                                                  |
+| 2026-05-13 | sync   | dev → be            | `8d81afe` | docs: release v0.2.0 handoff                                              |
+| 2026-05-13 | sync   | dev → fe            | `9ed4823` | docs: release v0.2.0 handoff                                              |
+| 2026-05-13 | commit | (T6 ch1 FE) → fe    | `22c79d7` | feat(ui): Tuan 6 chunk 1 mobile responsive QA 375px                       |
+| 2026-05-13 | merge  | fe → dev            | `c932e9b` | bring Tuần 6 chunk 1 mobile QA to dev                                     |
+| 2026-05-13 | sync   | dev → be            | `691bab1` | sync Tuần 6 chunk 1 mobile QA xuống be                                    |
