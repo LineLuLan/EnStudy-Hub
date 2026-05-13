@@ -152,12 +152,13 @@ Danh sách từ:
 
 ## 5. Tiến độ content
 
-> Cập nhật sau mỗi lesson hoàn thành.
+> Source-of-truth: **`docs/CONTENT_PLAN.md`** Phần 8. File này chỉ giữ pipeline/workflow.
 
-| Collection  | Topic      | Lesson | Số từ | Validate pass | Seeded? |
-| ----------- | ---------- | ------ | ----- | ------------- | ------- |
-| oxford-3000 | daily-life | family | 20    | TODO          | No      |
-| ...         | ...        | ...    | ...   | ...           | ...     |
+| Collection  | Topic      | Lesson | Số từ | Validate | Seeded |
+| ----------- | ---------- | ------ | ----- | -------- | ------ |
+| oxford-3000 | daily-life | family | 5/20  | ⚠ IPA    | ✅     |
+
+Xem full breakdown của 10 topics × ~42 lesson MVP ở `docs/CONTENT_PLAN.md`.
 
 ---
 

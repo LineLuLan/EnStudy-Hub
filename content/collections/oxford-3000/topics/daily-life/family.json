@@ -188,6 +188,496 @@
       ],
       "etymology_hint": "From Old English 'dohtor', Proto-Germanic '*duhter'",
       "mnemonic_vi": "DAU (đâu) + GH (gờ) + TER: nhớ 'ĐÂU TỜ' — đi ĐÂU con gái cũng cầm TỜ giấy về khoe điểm 10"
+    },
+    {
+      "word": "brother",
+      "lemma": "brother",
+      "ipa": "/ˈbrʌð.ə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a male who has the same parents as another person",
+          "meaning_vi": "anh trai hoặc em trai; người con trai cùng cha mẹ",
+          "examples": [
+            {
+              "en": "My brother works at a bank in Hanoi.",
+              "vi": "Anh trai tôi làm việc ở một ngân hàng tại Hà Nội."
+            },
+            {
+              "en": "I have two brothers and one sister.",
+              "vi": "Tôi có hai anh em trai và một chị gái."
+            },
+            {
+              "en": "Her younger brother is still in high school.",
+              "vi": "Em trai cô ấy vẫn đang học cấp ba."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sibling", "bro"],
+      "antonyms": ["sister"],
+      "collocations": ["older brother", "younger brother", "big brother", "little brother"],
+      "etymology_hint": "From Old English 'brōþor'",
+      "mnemonic_vi": "BRO (brâu) + THER: 'Bro' thân thiết như anh trai ruột"
+    },
+    {
+      "word": "sister",
+      "lemma": "sister",
+      "ipa": "/ˈsɪs.tə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a female who has the same parents as another person",
+          "meaning_vi": "chị gái hoặc em gái; người con gái cùng cha mẹ",
+          "examples": [
+            {
+              "en": "My sister is studying at a university in Saigon.",
+              "vi": "Chị gái tôi đang học đại học ở Sài Gòn."
+            },
+            {
+              "en": "She often goes shopping with her older sister.",
+              "vi": "Cô ấy thường đi mua sắm cùng chị gái."
+            },
+            {
+              "en": "My little sister loves bún bò Huế.",
+              "vi": "Em gái tôi rất thích bún bò Huế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sibling", "sis"],
+      "antonyms": ["brother"],
+      "collocations": ["older sister", "younger sister", "big sister", "twin sister"],
+      "etymology_hint": "From Old Norse 'systir'",
+      "mnemonic_vi": "SIS (sít) + TER: 'Sít' lại gần chị gái thủ thỉ tâm sự"
+    },
+    {
+      "word": "parent",
+      "lemma": "parent",
+      "ipa": "/ˈpeə.rənt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person's father or mother",
+          "meaning_vi": "cha hoặc mẹ; phụ huynh",
+          "examples": [
+            {
+              "en": "My parents live in a small village near Hanoi.",
+              "vi": "Bố mẹ tôi sống ở một làng nhỏ gần Hà Nội."
+            },
+            {
+              "en": "Vietnamese parents often save money for their children's education.",
+              "vi": "Phụ huynh Việt Nam thường để dành tiền cho việc học của con cái."
+            },
+            {
+              "en": "He visits his parents every Tet holiday.",
+              "vi": "Anh ấy về thăm bố mẹ mỗi dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mother", "father", "guardian"],
+      "antonyms": ["child"],
+      "collocations": ["single parent", "strict parent", "proud parent", "parent-teacher meeting"],
+      "etymology_hint": "From Latin 'parens' meaning 'one who gives birth'",
+      "mnemonic_vi": "PA (pa) + RENT: 'Pa' là cha, ai cũng thuê 'rent' nhà cho con"
+    },
+    {
+      "word": "child",
+      "lemma": "child",
+      "ipa": "/tʃaɪld/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a young human being below the age of puberty; a son or daughter",
+          "meaning_vi": "đứa trẻ; con (trai hoặc gái) của ai đó",
+          "examples": [
+            {
+              "en": "Every child in the neighborhood loves the bánh mì lady.",
+              "vi": "Đứa trẻ nào trong khu phố cũng yêu quý cô bán bánh mì."
+            },
+            {
+              "en": "They have one child who studies at a school in Hanoi.",
+              "vi": "Họ có một người con đang học tại một trường ở Hà Nội."
+            },
+            {
+              "en": "As a child, I used to play in the rice fields.",
+              "vi": "Khi còn nhỏ, tôi thường chơi ngoài ruộng lúa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["kid", "youngster", "offspring"],
+      "antonyms": ["adult"],
+      "collocations": ["only child", "young child", "raise a child", "child care"],
+      "etymology_hint": "From Old English 'cild'",
+      "mnemonic_vi": "CHILD (chao) nghe như 'chào' — trẻ con luôn lễ phép chào người lớn"
+    },
+    {
+      "word": "husband",
+      "lemma": "husband",
+      "ipa": "/ˈhʌz.bənd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the man that a woman is married to",
+          "meaning_vi": "chồng; người đàn ông đã kết hôn với một người phụ nữ",
+          "examples": [
+            {
+              "en": "Her husband works for a tech company in Saigon.",
+              "vi": "Chồng cô ấy làm việc cho một công ty công nghệ ở Sài Gòn."
+            },
+            {
+              "en": "My husband and I met at university in Hanoi.",
+              "vi": "Tôi và chồng gặp nhau khi học đại học ở Hà Nội."
+            },
+            {
+              "en": "She cooks phở for her husband every Sunday morning.",
+              "vi": "Cô ấy nấu phở cho chồng mỗi sáng Chủ nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spouse", "partner"],
+      "antonyms": ["wife"],
+      "collocations": ["loving husband", "future husband", "ex-husband", "devoted husband"],
+      "etymology_hint": "From Old Norse 'húsbóndi' meaning 'master of the house'",
+      "mnemonic_vi": "HUS (hắt) + BAND: chồng đi làm cả ngày, 'hắt' cái 'band' đeo tay vợ tặng"
+    },
+    {
+      "word": "wife",
+      "lemma": "wife",
+      "ipa": "/waɪf/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the woman that a man is married to",
+          "meaning_vi": "vợ; người phụ nữ đã kết hôn với một người đàn ông",
+          "examples": [
+            {
+              "en": "His wife is a teacher at a primary school in Hanoi.",
+              "vi": "Vợ anh ấy là giáo viên ở một trường tiểu học tại Hà Nội."
+            },
+            {
+              "en": "My wife takes the kids to the market every weekend.",
+              "vi": "Vợ tôi dẫn các con đi chợ mỗi cuối tuần."
+            },
+            {
+              "en": "He bought a gift for his wife on their anniversary.",
+              "vi": "Anh ấy mua quà tặng vợ vào ngày kỷ niệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spouse", "partner"],
+      "antonyms": ["husband"],
+      "collocations": ["loving wife", "future wife", "ex-wife", "trophy wife"],
+      "etymology_hint": "From Old English 'wīf' meaning 'woman'",
+      "mnemonic_vi": "WIFE (oai-phờ) nghe như 'oai' — vợ là người 'oai' nhất trong nhà"
+    },
+    {
+      "word": "baby",
+      "lemma": "baby",
+      "ipa": "/ˈbeɪ.bi/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a very young child, especially one that has not yet begun to walk or talk",
+          "meaning_vi": "em bé; trẻ sơ sinh chưa biết đi hoặc nói",
+          "examples": [
+            {
+              "en": "Their baby was born last month at a hospital in Saigon.",
+              "vi": "Em bé của họ chào đời tháng trước tại một bệnh viện ở Sài Gòn."
+            },
+            {
+              "en": "The baby is sleeping, so please be quiet.",
+              "vi": "Em bé đang ngủ, vui lòng giữ yên lặng."
+            },
+            {
+              "en": "My sister just had a baby girl.",
+              "vi": "Chị gái tôi vừa sinh một bé gái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["infant", "newborn", "toddler"],
+      "antonyms": ["adult"],
+      "collocations": ["newborn baby", "have a baby", "baby boy", "baby girl"],
+      "etymology_hint": "From Middle English 'babi', imitative of baby talk",
+      "mnemonic_vi": "BA (ba) + BY: em bé hay gọi 'ba ba' đầu tiên khi tập nói"
+    },
+    {
+      "word": "grandfather",
+      "lemma": "grandfather",
+      "ipa": "/ˈɡrænˌfɑː.ðə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the father of a person's mother or father",
+          "meaning_vi": "ông nội hoặc ông ngoại",
+          "examples": [
+            {
+              "en": "My grandfather grows orchids in his garden in Da Lat.",
+              "vi": "Ông nội tôi trồng lan trong vườn ở Đà Lạt."
+            },
+            {
+              "en": "Her grandfather used to be a soldier.",
+              "vi": "Ông cô ấy từng là một người lính."
+            },
+            {
+              "en": "I visit my grandfather every weekend to drink tea with him.",
+              "vi": "Tôi đến thăm ông mỗi cuối tuần để uống trà cùng ông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grandpa", "granddad"],
+      "antonyms": ["grandmother"],
+      "collocations": [
+        "great-grandfather",
+        "paternal grandfather",
+        "maternal grandfather",
+        "elderly grandfather"
+      ],
+      "etymology_hint": "From 'grand' (large) + 'father'",
+      "mnemonic_vi": "GRAND (lớn) + FATHER (cha): 'cha lớn' = ông"
+    },
+    {
+      "word": "grandmother",
+      "lemma": "grandmother",
+      "ipa": "/ˈɡrænˌmʌð.ə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the mother of a person's mother or father",
+          "meaning_vi": "bà nội hoặc bà ngoại",
+          "examples": [
+            {
+              "en": "My grandmother makes the best bánh chưng at Tet.",
+              "vi": "Bà tôi gói bánh chưng ngon nhất vào dịp Tết."
+            },
+            {
+              "en": "His grandmother lives in the countryside near Hue.",
+              "vi": "Bà anh ấy sống ở vùng quê gần Huế."
+            },
+            {
+              "en": "I learned how to cook from my grandmother.",
+              "vi": "Tôi học nấu ăn từ bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grandma", "granny"],
+      "antonyms": ["grandfather"],
+      "collocations": [
+        "great-grandmother",
+        "paternal grandmother",
+        "maternal grandmother",
+        "loving grandmother"
+      ],
+      "etymology_hint": "From 'grand' (large) + 'mother'",
+      "mnemonic_vi": "GRAND (lớn) + MOTHER (mẹ): 'mẹ lớn' = bà"
+    },
+    {
+      "word": "uncle",
+      "lemma": "uncle",
+      "ipa": "/ˈʌŋ.kəl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the brother of a person's mother or father, or the husband of one's aunt",
+          "meaning_vi": "chú, bác, cậu, dượng (anh em trai của bố mẹ hoặc chồng của cô/dì)",
+          "examples": [
+            {
+              "en": "My uncle owns a coffee shop in District 1, Saigon.",
+              "vi": "Chú tôi sở hữu một quán cà phê ở Quận 1, Sài Gòn."
+            },
+            {
+              "en": "Uncle Minh always gives me lì xì at Tet.",
+              "vi": "Bác Minh luôn mừng tuổi tôi mỗi dịp Tết."
+            },
+            {
+              "en": "Her uncle drove her to the airport this morning.",
+              "vi": "Cậu cô ấy chở cô ra sân bay sáng nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relative"],
+      "antonyms": ["aunt"],
+      "collocations": ["favorite uncle", "great-uncle", "rich uncle", "uncle-in-law"],
+      "etymology_hint": "From Latin 'avunculus' meaning 'mother's brother'",
+      "mnemonic_vi": "UN (ăn) + CLE: 'Ăn cơm' với chú bác ngày giỗ"
+    },
+    {
+      "word": "aunt",
+      "lemma": "aunt",
+      "ipa": "/ɑːnt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the sister of a person's mother or father, or the wife of one's uncle",
+          "meaning_vi": "cô, dì, bác gái, mợ (chị em gái của bố mẹ hoặc vợ của chú/bác)",
+          "examples": [
+            {
+              "en": "My aunt sells phở at the corner market in Hanoi.",
+              "vi": "Cô tôi bán phở ở góc chợ tại Hà Nội."
+            },
+            {
+              "en": "Aunt Lan helped me with my homework when I was little.",
+              "vi": "Dì Lan giúp tôi làm bài tập khi tôi còn nhỏ."
+            },
+            {
+              "en": "His aunt lives in Australia and visits Vietnam every summer.",
+              "vi": "Cô anh ấy sống ở Úc và về Việt Nam mỗi mùa hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["auntie", "relative"],
+      "antonyms": ["uncle"],
+      "collocations": ["favorite aunt", "great-aunt", "maiden aunt", "aunt-in-law"],
+      "etymology_hint": "From Latin 'amita' meaning 'father's sister'",
+      "mnemonic_vi": "AUNT đọc như 'ant' (con kiến): cô/dì chăm chỉ như con kiến lo cho cháu"
+    },
+    {
+      "word": "cousin",
+      "lemma": "cousin",
+      "ipa": "/ˈkʌz.ən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a child of a person's uncle or aunt",
+          "meaning_vi": "anh chị em họ; con của cô, chú, bác, cậu, dì",
+          "examples": [
+            {
+              "en": "My cousin and I grew up together in a small town.",
+              "vi": "Tôi và anh họ lớn lên cùng nhau ở một thị trấn nhỏ."
+            },
+            {
+              "en": "She has many cousins living in Saigon.",
+              "vi": "Cô ấy có nhiều anh chị em họ sống ở Sài Gòn."
+            },
+            {
+              "en": "We meet all our cousins during Tet every year.",
+              "vi": "Năm nào chúng tôi cũng gặp tất cả anh chị em họ vào dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relative", "kin"],
+      "antonyms": [],
+      "collocations": ["first cousin", "second cousin", "distant cousin", "close cousin"],
+      "etymology_hint": "From Old French 'cosin', from Latin 'consobrinus'",
+      "mnemonic_vi": "COU (cu) + SIN: 'Cu' Sin là tên hay gọi anh em họ thân thiết"
+    },
+    {
+      "word": "nephew",
+      "lemma": "nephew",
+      "ipa": "/ˈnef.juː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the son of a person's brother or sister",
+          "meaning_vi": "cháu trai (con trai của anh chị em ruột)",
+          "examples": [
+            {
+              "en": "My nephew just started primary school in Hanoi.",
+              "vi": "Cháu trai tôi vừa vào lớp một ở Hà Nội."
+            },
+            {
+              "en": "I bought a new toy car for my nephew's birthday.",
+              "vi": "Tôi mua một chiếc ô tô đồ chơi mới cho sinh nhật cháu."
+            },
+            {
+              "en": "Her nephew is studying abroad in Singapore.",
+              "vi": "Cháu trai cô ấy đang du học tại Singapore."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relative"],
+      "antonyms": ["niece"],
+      "collocations": ["young nephew", "favorite nephew", "great-nephew", "nephew-in-law"],
+      "etymology_hint": "From Latin 'nepos' meaning 'grandson, nephew'",
+      "mnemonic_vi": "NEP (nép) + HEW: cháu trai bé 'nép' vào lòng cô chú khi gặp lạ"
+    },
+    {
+      "word": "niece",
+      "lemma": "niece",
+      "ipa": "/niːs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the daughter of a person's brother or sister",
+          "meaning_vi": "cháu gái (con gái của anh chị em ruột)",
+          "examples": [
+            {
+              "en": "My niece loves dancing and singing Vietnamese songs.",
+              "vi": "Cháu gái tôi rất thích nhảy và hát các bài hát Việt Nam."
+            },
+            {
+              "en": "I took my niece to the zoo in Saigon last weekend.",
+              "vi": "Tôi dẫn cháu gái đi sở thú ở Sài Gòn cuối tuần trước."
+            },
+            {
+              "en": "Her niece won first prize in the school's English contest.",
+              "vi": "Cháu gái cô ấy đoạt giải nhất cuộc thi tiếng Anh của trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relative"],
+      "antonyms": ["nephew"],
+      "collocations": ["young niece", "favorite niece", "great-niece", "niece-in-law"],
+      "etymology_hint": "From Old French 'niece', from Latin 'neptia'",
+      "mnemonic_vi": "NIECE đọc như 'nice' (dễ thương): cháu gái lúc nào cũng 'nice' đáng yêu"
+    },
+    {
+      "word": "relative",
+      "lemma": "relative",
+      "ipa": "/ˈrel.ə.tɪv/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a member of one's family",
+          "meaning_vi": "họ hàng; thành viên trong gia đình mở rộng",
+          "examples": [
+            {
+              "en": "All my relatives gather at my grandparents' house during Tet.",
+              "vi": "Tất cả họ hàng tôi đều tụ họp ở nhà ông bà vào dịp Tết."
+            },
+            {
+              "en": "She has some relatives living in California.",
+              "vi": "Cô ấy có một số họ hàng sống ở California."
+            },
+            {
+              "en": "He invited his close relatives to the wedding in Hanoi.",
+              "vi": "Anh ấy mời những người họ hàng thân thiết đến đám cưới ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["family member", "kin", "relation"],
+      "antonyms": ["stranger"],
+      "collocations": ["close relative", "distant relative", "blood relative", "visit relatives"],
+      "etymology_hint": "From Latin 'relativus' meaning 'having reference to'",
+      "mnemonic_vi": "RELATIVE chứa 'relate' (liên quan): những người có quan hệ liên quan = họ hàng"
     }
   ]
 }

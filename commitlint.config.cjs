@@ -25,6 +25,7 @@ module.exports = {
       'always',
       [
         'srs',
+        'stats',
         'vocab',
         'auth',
         'db',
@@ -35,6 +36,7 @@ module.exports = {
         'docs',
         'deps',
         'config',
+        'review',
       ],
     ],
     'subject-case': [0],

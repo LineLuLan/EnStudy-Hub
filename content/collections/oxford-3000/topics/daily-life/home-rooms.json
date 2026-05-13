@@ -1,0 +1,682 @@
+{
+  "slug": "home-rooms",
+  "name": "Home & Rooms",
+  "description": "Từ vựng về nhà và các phòng trong nhà.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "house",
+      "lemma": "house",
+      "ipa": "/haʊs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a building that people, usually one family, live in",
+          "meaning_vi": "nhà; căn nhà nơi gia đình sinh sống",
+          "examples": [
+            {
+              "en": "My parents bought a new house in Hanoi last year.",
+              "vi": "Bố mẹ tôi mua một căn nhà mới ở Hà Nội năm ngoái."
+            },
+            {
+              "en": "Her house has three bedrooms and a small garden.",
+              "vi": "Nhà cô ấy có ba phòng ngủ và một khu vườn nhỏ."
+            },
+            {
+              "en": "We invited our colleagues to our house for dinner.",
+              "vi": "Chúng tôi mời đồng nghiệp đến nhà ăn tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["home", "residence", "dwelling"],
+      "antonyms": [],
+      "collocations": ["build a house", "buy a house", "big house", "house owner"],
+      "etymology_hint": "Từ tiếng Anh cổ 'hūs'",
+      "mnemonic_vi": "HOUSE (hao) nghe như 'hào': ai cũng tự hào về căn nhà của mình"
+    },
+    {
+      "word": "home",
+      "lemma": "home",
+      "ipa": "/həʊm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the place where a person lives, especially with their family",
+          "meaning_vi": "nhà; tổ ấm; nơi sống của một người",
+          "examples": [
+            {
+              "en": "I miss my home in the countryside near Hanoi.",
+              "vi": "Tôi nhớ tổ ấm ở vùng quê gần Hà Nội."
+            },
+            {
+              "en": "She works from home three days a week.",
+              "vi": "Cô ấy làm việc tại nhà ba ngày một tuần."
+            },
+            {
+              "en": "It feels good to be home after a long business trip.",
+              "vi": "Cảm giác thật dễ chịu khi về nhà sau chuyến công tác dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["house", "residence", "household"],
+      "antonyms": [],
+      "collocations": ["go home", "stay at home", "leave home", "sweet home"],
+      "etymology_hint": "Từ tiếng Anh cổ 'hām'",
+      "mnemonic_vi": "HOME (hâu-m) nghe như 'hôm': hôm nào cũng muốn về nhà"
+    },
+    {
+      "word": "room",
+      "lemma": "room",
+      "ipa": "/ruːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a part of the inside of a building, separated by walls, floor and ceiling",
+          "meaning_vi": "phòng; căn phòng được ngăn bởi tường, sàn và trần",
+          "examples": [
+            {
+              "en": "My room is on the second floor.",
+              "vi": "Phòng của tôi ở tầng hai."
+            },
+            {
+              "en": "The meeting room at our office is quite big.",
+              "vi": "Phòng họp ở công ty tôi khá rộng."
+            },
+            {
+              "en": "She decorated her room with Vietnamese paintings.",
+              "vi": "Cô ấy trang trí phòng bằng những bức tranh Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chamber", "space"],
+      "antonyms": [],
+      "collocations": ["meeting room", "hotel room", "spare room", "share a room"],
+      "etymology_hint": "Từ tiếng Anh cổ 'rūm' nghĩa là 'không gian'",
+      "mnemonic_vi": "ROOM (rum) như 'rum rỉ' tiếng đóng cửa phòng"
+    },
+    {
+      "word": "kitchen",
+      "lemma": "kitchen",
+      "ipa": "/ˈkɪtʃ.ən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a room where food is prepared and cooked",
+          "meaning_vi": "nhà bếp; căn phòng để nấu ăn",
+          "examples": [
+            {
+              "en": "My mom is cooking phở in the kitchen.",
+              "vi": "Mẹ tôi đang nấu phở trong bếp."
+            },
+            {
+              "en": "Our new kitchen has a modern gas stove.",
+              "vi": "Bếp mới của chúng tôi có một bếp ga hiện đại."
+            },
+            {
+              "en": "The kitchen is the heart of every Vietnamese home.",
+              "vi": "Nhà bếp là trái tim của mọi gia đình Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cookhouse", "galley"],
+      "antonyms": [],
+      "collocations": ["modern kitchen", "clean the kitchen", "kitchen table", "kitchen sink"],
+      "etymology_hint": "Từ tiếng Anh cổ 'cycene', gốc Latin 'coquere' (nấu)",
+      "mnemonic_vi": "KIT (kít) + CHEN: vào bếp đông đúc phải 'chen' nhau"
+    },
+    {
+      "word": "bathroom",
+      "lemma": "bathroom",
+      "ipa": "/ˈbɑːθ.ruːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a room with a bath or shower and usually a toilet and sink",
+          "meaning_vi": "phòng tắm; nhà vệ sinh",
+          "examples": [
+            {
+              "en": "Excuse me, where is the bathroom?",
+              "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+            },
+            {
+              "en": "Our apartment in Saigon has two bathrooms.",
+              "vi": "Căn hộ của chúng tôi ở Sài Gòn có hai phòng tắm."
+            },
+            {
+              "en": "She cleans the bathroom every weekend.",
+              "vi": "Cô ấy dọn phòng tắm vào mỗi cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["restroom", "washroom", "toilet"],
+      "antonyms": [],
+      "collocations": [
+        "go to the bathroom",
+        "clean the bathroom",
+        "shared bathroom",
+        "master bathroom"
+      ],
+      "etymology_hint": "Từ 'bath' (tắm) + 'room' (phòng)",
+      "mnemonic_vi": "BATH (bát) + ROOM: 'bát' nước trong phòng để tắm rửa"
+    },
+    {
+      "word": "bedroom",
+      "lemma": "bedroom",
+      "ipa": "/ˈbed.ruːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a room used for sleeping in",
+          "meaning_vi": "phòng ngủ; căn phòng để ngủ",
+          "examples": [
+            {
+              "en": "My bedroom faces the morning sun.",
+              "vi": "Phòng ngủ của tôi hướng nắng sớm."
+            },
+            {
+              "en": "Our house has three bedrooms upstairs.",
+              "vi": "Nhà chúng tôi có ba phòng ngủ trên lầu."
+            },
+            {
+              "en": "She keeps her bedroom very tidy.",
+              "vi": "Cô ấy giữ phòng ngủ rất gọn gàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chamber"],
+      "antonyms": [],
+      "collocations": ["master bedroom", "spare bedroom", "share a bedroom", "bedroom door"],
+      "etymology_hint": "Từ 'bed' (giường) + 'room' (phòng)",
+      "mnemonic_vi": "BED (bét) + ROOM: 'bẹp' xuống giường trong phòng ngủ là ngủ luôn"
+    },
+    {
+      "word": "living room",
+      "lemma": "living room",
+      "ipa": "/ˈlɪv.ɪŋ ˌruːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the room in a house where people sit together, talk, watch TV, etc.",
+          "meaning_vi": "phòng khách; nơi sinh hoạt chung trong nhà",
+          "examples": [
+            {
+              "en": "We watch TV together in the living room every evening.",
+              "vi": "Cả nhà cùng xem TV ở phòng khách mỗi tối."
+            },
+            {
+              "en": "Her living room is decorated with bamboo furniture.",
+              "vi": "Phòng khách của cô ấy được trang trí bằng nội thất tre."
+            },
+            {
+              "en": "Guests are sitting in the living room having tea.",
+              "vi": "Khách đang ngồi uống trà ở phòng khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lounge", "sitting room", "front room"],
+      "antonyms": [],
+      "collocations": [
+        "spacious living room",
+        "cozy living room",
+        "living room sofa",
+        "decorate the living room"
+      ],
+      "etymology_hint": "Từ 'living' (sinh hoạt) + 'room' (phòng)",
+      "mnemonic_vi": "LIVING (sống) + ROOM: phòng dành cho sinh hoạt 'sống' chung của cả nhà"
+    },
+    {
+      "word": "garden",
+      "lemma": "garden",
+      "ipa": "/ˈɡɑː.dən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of land next to a house where plants, flowers, or vegetables are grown",
+          "meaning_vi": "vườn; mảnh đất trồng cây, hoa hoặc rau bên cạnh nhà",
+          "examples": [
+            {
+              "en": "My grandmother grows herbs in her garden.",
+              "vi": "Bà tôi trồng rau thơm trong vườn."
+            },
+            {
+              "en": "We have a small garden behind our house in Hanoi.",
+              "vi": "Chúng tôi có một khu vườn nhỏ phía sau nhà ở Hà Nội."
+            },
+            {
+              "en": "The kids love playing in the garden after school.",
+              "vi": "Bọn trẻ thích chơi trong vườn sau giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["yard", "backyard"],
+      "antonyms": [],
+      "collocations": ["flower garden", "vegetable garden", "garden plant", "tend the garden"],
+      "etymology_hint": "Từ tiếng Pháp cổ 'gardin', gốc Đức cổ",
+      "mnemonic_vi": "GAR (gà) + DEN: trong 'vườn' có 'gà' chạy quanh"
+    },
+    {
+      "word": "door",
+      "lemma": "door",
+      "ipa": "/dɔː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a flat object that is used to close the entrance of a room, building, or vehicle",
+          "meaning_vi": "cửa; tấm chắn để đóng mở lối vào",
+          "examples": [
+            {
+              "en": "Please close the door when you leave.",
+              "vi": "Vui lòng đóng cửa khi rời khỏi phòng."
+            },
+            {
+              "en": "Someone is knocking at the door.",
+              "vi": "Có người đang gõ cửa."
+            },
+            {
+              "en": "The front door of our shophouse opens onto the street.",
+              "vi": "Cửa trước nhà ống của chúng tôi mở ra đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["entrance", "doorway", "gate"],
+      "antonyms": [],
+      "collocations": ["open the door", "close the door", "front door", "back door"],
+      "etymology_hint": "Từ tiếng Anh cổ 'duru'",
+      "mnemonic_vi": "DOOR (đo) như 'đo': khi mua cửa phải 'đo' kích thước trước"
+    },
+    {
+      "word": "window",
+      "lemma": "window",
+      "ipa": "/ˈwɪn.dəʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an opening in the wall of a building, vehicle, etc. that lets in light and air, usually filled with glass",
+          "meaning_vi": "cửa sổ; ô mở trên tường để lấy ánh sáng và không khí",
+          "examples": [
+            {
+              "en": "Please open the window to let some fresh air in.",
+              "vi": "Mở cửa sổ ra để có chút không khí tươi mát."
+            },
+            {
+              "en": "My bedroom window faces the small alley.",
+              "vi": "Cửa sổ phòng ngủ của tôi nhìn ra con hẻm nhỏ."
+            },
+            {
+              "en": "She likes sitting by the window to read books.",
+              "vi": "Cô ấy thích ngồi cạnh cửa sổ đọc sách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pane", "casement"],
+      "antonyms": [],
+      "collocations": ["open the window", "close the window", "look out the window", "window pane"],
+      "etymology_hint": "Từ tiếng Norse cổ 'vindauga' nghĩa là 'mắt gió'",
+      "mnemonic_vi": "WIN (uyn) + DOW: mở cửa sổ gió 'uyn' lùa qua mát rượi"
+    },
+    {
+      "word": "wall",
+      "lemma": "wall",
+      "ipa": "/wɔːl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a vertical structure that divides or surrounds something, especially a room or building",
+          "meaning_vi": "tường; bức tường ngăn cách hoặc bao quanh phòng, tòa nhà",
+          "examples": [
+            {
+              "en": "She hung a family photo on the wall.",
+              "vi": "Cô ấy treo một bức ảnh gia đình lên tường."
+            },
+            {
+              "en": "The walls of our old house are made of brick.",
+              "vi": "Tường nhà cũ của chúng tôi được xây bằng gạch."
+            },
+            {
+              "en": "There is a clock on the wall above the desk.",
+              "vi": "Có một chiếc đồng hồ treo trên tường phía trên bàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["partition", "barrier"],
+      "antonyms": [],
+      "collocations": ["brick wall", "wall painting", "hang on the wall", "thick wall"],
+      "etymology_hint": "Từ tiếng Latin 'vallum' nghĩa là 'lũy'",
+      "mnemonic_vi": "WALL (uôn) nghe như 'oằn': tường gánh cả căn nhà nên 'oằn' chịu lực"
+    },
+    {
+      "word": "floor",
+      "lemma": "floor",
+      "ipa": "/flɔː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the lower surface of a room on which you stand",
+          "meaning_vi": "sàn nhà; mặt phẳng phía dưới của căn phòng",
+          "examples": [
+            {
+              "en": "Please don't drop food on the floor.",
+              "vi": "Đừng làm rơi đồ ăn xuống sàn nhé."
+            },
+            {
+              "en": "The floor is wet, be careful when you walk.",
+              "vi": "Sàn ướt đấy, đi cẩn thận nhé."
+            },
+            {
+              "en": "She mops the floor every morning before opening the shop.",
+              "vi": "Cô ấy lau sàn mỗi sáng trước khi mở cửa hàng."
+            }
+          ]
+        },
+        {
+          "meaning_en": "a level of a building",
+          "meaning_vi": "tầng; tầng lầu trong tòa nhà",
+          "examples": [
+            {
+              "en": "Our office is on the fifth floor.",
+              "vi": "Văn phòng của chúng tôi ở tầng năm."
+            },
+            {
+              "en": "The supermarket is on the ground floor.",
+              "vi": "Siêu thị nằm ở tầng trệt."
+            },
+            {
+              "en": "She lives on the top floor of an apartment building in Saigon.",
+              "vi": "Cô ấy sống ở tầng cao nhất của một chung cư tại Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ground", "level", "story"],
+      "antonyms": ["ceiling"],
+      "collocations": ["wooden floor", "clean the floor", "ground floor", "top floor"],
+      "etymology_hint": "Từ tiếng Anh cổ 'flōr'",
+      "mnemonic_vi": "FLOOR (phlo) như 'pho': ngồi xuống sàn ăn 'phở'"
+    },
+    {
+      "word": "ceiling",
+      "lemma": "ceiling",
+      "ipa": "/ˈsiː.lɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the upper inside surface of a room",
+          "meaning_vi": "trần nhà; mặt phía trên bên trong căn phòng",
+          "examples": [
+            {
+              "en": "There is a big fan on the ceiling of our living room.",
+              "vi": "Có một chiếc quạt to trên trần phòng khách."
+            },
+            {
+              "en": "The ceiling of our old house is leaking.",
+              "vi": "Trần nhà cũ của chúng tôi bị dột."
+            },
+            {
+              "en": "She painted the ceiling white last weekend.",
+              "vi": "Cô ấy sơn trắng trần nhà vào cuối tuần trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["roof"],
+      "antonyms": ["floor"],
+      "collocations": ["high ceiling", "low ceiling", "ceiling fan", "ceiling light"],
+      "etymology_hint": "Từ tiếng Anh trung đại 'celynge'",
+      "mnemonic_vi": "CEIL (xi) + LING: 'xi' đen trên 'trần' nhà do bồ hóng"
+    },
+    {
+      "word": "stairs",
+      "lemma": "stairs",
+      "ipa": "/steəz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a set of steps inside a building that lead from one level to another",
+          "meaning_vi": "cầu thang; bậc thang trong nhà nối các tầng",
+          "examples": [
+            {
+              "en": "Be careful when you go down the stairs.",
+              "vi": "Đi xuống cầu thang cẩn thận nhé."
+            },
+            {
+              "en": "Our shophouse has narrow stairs going up to the second floor.",
+              "vi": "Nhà ống của chúng tôi có cầu thang hẹp lên tầng hai."
+            },
+            {
+              "en": "She takes the stairs every day instead of the elevator.",
+              "vi": "Cô ấy đi cầu thang bộ mỗi ngày thay vì thang máy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["steps", "staircase"],
+      "antonyms": [],
+      "collocations": ["go up the stairs", "go down the stairs", "wooden stairs", "steep stairs"],
+      "etymology_hint": "Từ tiếng Anh cổ 'stæger'",
+      "mnemonic_vi": "STAIRS (xte) nghe như 'tê': leo cầu thang nhiều quá 'tê' chân"
+    },
+    {
+      "word": "balcony",
+      "lemma": "balcony",
+      "ipa": "/ˈbæl.kə.ni/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a platform built onto the outside wall of a building, usually with a railing",
+          "meaning_vi": "ban công; phần nhô ra phía ngoài tòa nhà, thường có lan can",
+          "examples": [
+            {
+              "en": "I grow flowers on my balcony in Saigon.",
+              "vi": "Tôi trồng hoa ở ban công nhà mình ở Sài Gòn."
+            },
+            {
+              "en": "She likes drinking coffee on the balcony every morning.",
+              "vi": "Cô ấy thích uống cà phê ngoài ban công mỗi sáng."
+            },
+            {
+              "en": "Our apartment has a small balcony with a city view.",
+              "vi": "Căn hộ của chúng tôi có một ban công nhỏ nhìn ra thành phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["terrace", "veranda"],
+      "antonyms": [],
+      "collocations": ["small balcony", "balcony door", "stand on the balcony", "balcony view"],
+      "etymology_hint": "Từ tiếng Ý 'balcone'",
+      "mnemonic_vi": "BAL (ban) + CONY: 'ban' công — ban ngày ra hóng gió"
+    },
+    {
+      "word": "garage",
+      "lemma": "garage",
+      "ipa": "/ˈɡær.ɑːʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building where a car or other vehicle is kept",
+          "meaning_vi": "ga ra; nơi để xe ô tô hoặc xe khác",
+          "examples": [
+            {
+              "en": "He parks his car in the garage every night.",
+              "vi": "Anh ấy đỗ xe trong ga ra mỗi tối."
+            },
+            {
+              "en": "Our new house in Hanoi has a garage for two cars.",
+              "vi": "Nhà mới của chúng tôi ở Hà Nội có ga ra cho hai xe."
+            },
+            {
+              "en": "The garage is also used to store old furniture.",
+              "vi": "Ga ra còn được dùng để chứa đồ nội thất cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["carport"],
+      "antonyms": [],
+      "collocations": ["park in the garage", "double garage", "garage door", "underground garage"],
+      "etymology_hint": "Từ tiếng Pháp 'garage', gốc 'garer' (đỗ xe)",
+      "mnemonic_vi": "GA + RAGE (rách): xe đỗ ở 'ga' để khỏi 'rách' nắng mưa"
+    },
+    {
+      "word": "furniture",
+      "lemma": "furniture",
+      "ipa": "/ˈfɜː.nɪ.tʃə/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "large objects such as tables, chairs, or beds that are used in a room for sitting, working, etc.",
+          "meaning_vi": "đồ nội thất; các vật dụng lớn như bàn, ghế, giường trong phòng",
+          "examples": [
+            {
+              "en": "We bought new furniture for our living room last month.",
+              "vi": "Chúng tôi mua đồ nội thất mới cho phòng khách tháng trước."
+            },
+            {
+              "en": "Wooden furniture is very popular in Vietnam.",
+              "vi": "Đồ nội thất gỗ rất được ưa chuộng ở Việt Nam."
+            },
+            {
+              "en": "The office furniture looks modern and stylish.",
+              "vi": "Đồ nội thất văn phòng trông hiện đại và đẹp mắt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["furnishings", "fittings"],
+      "antonyms": [],
+      "collocations": [
+        "wooden furniture",
+        "office furniture",
+        "buy furniture",
+        "piece of furniture"
+      ],
+      "etymology_hint": "Từ tiếng Pháp 'fourniture' nghĩa là 'cung cấp'",
+      "mnemonic_vi": "FUR (phơ) + NITURE: 'phơ' bóng đồ gỗ — bóng loáng cả nhà"
+    },
+    {
+      "word": "table",
+      "lemma": "table",
+      "ipa": "/ˈteɪ.bəl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of furniture with a flat top and one or more legs, used for putting things on",
+          "meaning_vi": "cái bàn; đồ nội thất có mặt phẳng và chân, dùng để đặt đồ",
+          "examples": [
+            {
+              "en": "The whole family sits at the table for dinner.",
+              "vi": "Cả nhà ngồi quanh bàn để ăn tối."
+            },
+            {
+              "en": "Please put the dishes on the table.",
+              "vi": "Đặt các đĩa lên bàn giúp chị nhé."
+            },
+            {
+              "en": "Our meeting table at the office is very long.",
+              "vi": "Bàn họp ở công ty chúng tôi rất dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["desk", "counter"],
+      "antonyms": [],
+      "collocations": ["dining table", "coffee table", "set the table", "round table"],
+      "etymology_hint": "Từ tiếng Latin 'tabula' nghĩa là 'tấm ván'",
+      "mnemonic_vi": "TA (ta) + BLE: 'ta' và bạn cùng ngồi vào bàn ăn cơm"
+    },
+    {
+      "word": "chair",
+      "lemma": "chair",
+      "ipa": "/tʃeə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a seat for one person, with a back, four legs, and sometimes arms",
+          "meaning_vi": "cái ghế; chỗ ngồi cho một người, có lưng tựa và chân",
+          "examples": [
+            {
+              "en": "Please have a seat on this chair.",
+              "vi": "Mời bạn ngồi xuống ghế này."
+            },
+            {
+              "en": "She bought four new chairs for the dining table.",
+              "vi": "Cô ấy mua bốn cái ghế mới cho bàn ăn."
+            },
+            {
+              "en": "The plastic chairs at street food stalls in Saigon are iconic.",
+              "vi": "Mấy chiếc ghế nhựa ở quán ăn vỉa hè Sài Gòn rất đặc trưng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seat", "stool", "armchair"],
+      "antonyms": [],
+      "collocations": ["sit on a chair", "wooden chair", "office chair", "rocking chair"],
+      "etymology_hint": "Từ tiếng Hy Lạp 'kathedra' qua tiếng Latin 'cathedra'",
+      "mnemonic_vi": "CHAIR (che-ờ) nghe như 'chê': ghế xấu thì 'chê' không ngồi"
+    },
+    {
+      "word": "bed",
+      "lemma": "bed",
+      "ipa": "/bed/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of furniture that you sleep on",
+          "meaning_vi": "cái giường; đồ nội thất dùng để ngủ",
+          "examples": [
+            {
+              "en": "I usually go to bed at 11 PM after watching the news.",
+              "vi": "Tôi thường đi ngủ lúc 11 giờ tối sau khi xem thời sự."
+            },
+            {
+              "en": "Her new bed is made of solid wood from Đồng Kỵ.",
+              "vi": "Chiếc giường mới của cô ấy làm bằng gỗ đặc từ Đồng Kỵ."
+            },
+            {
+              "en": "The kids are jumping on the bed again.",
+              "vi": "Mấy đứa nhỏ lại đang nhảy trên giường rồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bunk", "cot", "berth"],
+      "antonyms": [],
+      "collocations": ["go to bed", "make the bed", "double bed", "single bed"],
+      "etymology_hint": "Từ tiếng Anh cổ 'bedd'",
+      "mnemonic_vi": "BED (bét) như 'bẹp': nằm 'bẹp' xuống giường ngủ một giấc"
+    }
+  ]
+}
