@@ -47,7 +47,7 @@ export default async function StatsPage() {
         </p>
       </header>
 
-      <div className="grid gap-3 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <MetricCard
           icon={<Activity className="h-4 w-4 text-sky-500" />}
           label="Tổng review (30d)"

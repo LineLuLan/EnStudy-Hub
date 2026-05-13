@@ -2,23 +2,9 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import {
-  LayoutDashboard,
-  PlayCircle,
-  BookOpen,
-  BarChart3,
-  Settings,
-  GraduationCap,
-} from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 import { cn } from '@/lib/utils/cn';
-
-const NAV = [
-  { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/review', label: 'Ôn tập', icon: PlayCircle },
-  { href: '/decks', label: 'Decks', icon: BookOpen },
-  { href: '/stats', label: 'Thống kê', icon: BarChart3 },
-  { href: '/settings', label: 'Cài đặt', icon: Settings },
-] as const;
+import { NAV_ITEMS } from './nav-items';
 
 export function Sidebar() {
   const pathname = usePathname();
@@ -32,7 +18,7 @@ export function Sidebar() {
         EnStudy
       </Link>
       <nav className="flex flex-col gap-1 text-sm">
-        {NAV.map((item) => {
+        {NAV_ITEMS.map((item) => {
           const Icon = item.icon;
           const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
           return (
