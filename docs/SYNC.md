@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                           |
-| ------ | ----------------------- | ------------------------- | ---------------------- | ----------------------------------------------- |
-| main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag |
-| dev    | `0096632`               | base                      | 2026-05-13 (`a640f02`) | Tuần 4 chunk 4 /settings page merged            |
-| be     | `eb6ec8f`               | 2026-05-13 (chunk 4 sync) | 2026-05-13 (`3627953`) | sync chunk 4 (/settings page)                   |
-| fe     | `a640f02`               | 2026-05-13 (auth perf)    | 2026-05-13 (`a640f02`) | base Tuần 4 chunk 4 /settings page              |
+| Branch | Last commit (short SHA) | Last sync FROM dev        | Last merge TO dev      | Notes                                                      |
+| ------ | ----------------------- | ------------------------- | ---------------------- | ---------------------------------------------------------- |
+| main   | `5fbd1c0`               | —                         | 2026-05-12 (`ae65666`) | nhận v0.1.0-foundation (Phase 0 + Tuần 1) + tag            |
+| dev    | `73f6b56`               | base                      | 2026-05-13 (`e794630`) | Tuần 5 chunk 4 polish — Tuần 5 ĐÓNG, sẵn ship v0.2.0       |
+| be     | `eb6ec8f`               | 2026-05-13 (chunk 4 sync) | 2026-05-13 (`3627953`) | sync chunk 4 (/settings) — pending bulk sync Tuần 5 ch1..4 |
+| fe     | `e794630`               | 2026-05-13 (auth perf)    | 2026-05-13 (`e794630`) | base Tuần 5 chunk 4 polish                                 |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -142,3 +142,11 @@ git checkout fe
 | 2026-05-13 | commit | (chunk 4 FE) → fe   | `a640f02` | feat(auth): Tuan 4 chunk 4 /settings page (profile + limits + theme)      |
 | 2026-05-13 | merge  | fe → dev            | `0096632` | bring Tuần 4 chunk 4 /settings page to dev                                |
 | 2026-05-13 | sync   | dev → be            | `eb6ec8f` | sync chunk 4 (/settings page) xuống be                                    |
+| 2026-05-13 | commit | (T5 ch1 FE) → fe    | `2f6186e` | feat(review): Tuan 5 chunk 1 mode picker + MCQ mode                       |
+| 2026-05-13 | merge  | fe → dev            | `dc7016a` | bring Tuần 5 chunk 1 (mode picker + MCQ) to dev                           |
+| 2026-05-13 | commit | (T5 ch2 FE) → fe    | `fe1861a` | feat(review): Tuan 5 chunk 2 typing-from-definition mode                  |
+| 2026-05-13 | merge  | fe → dev            | `b4e062d` | bring Tuần 5 chunk 2 (typing-from-definition) to dev                      |
+| 2026-05-13 | commit | (T5 ch3 FE) → fe    | `063abca` | feat(review): Tuan 5 chunk 3 Listening mode (Web Speech API)              |
+| 2026-05-13 | merge  | fe → dev            | `68bec35` | bring Tuần 5 chunk 3 (Listening mode) to dev                              |
+| 2026-05-13 | commit | (T5 ch4 FE) → fe    | `e794630` | feat(review): Tuan 5 chunk 4 polish — toasts + skeleton + empty state     |
+| 2026-05-13 | merge  | fe → dev            | `73f6b56` | bring Tuần 5 chunk 4 polish to dev — Tuần 5 ĐÓNG                          |

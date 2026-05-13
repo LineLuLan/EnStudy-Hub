@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useTransition } from 'react';
+import { useEffect, useRef, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 import { type Grade } from 'ts-fsrs';
@@ -8,16 +8,40 @@ import { useReviewSession } from '@/stores/review-session';
 import type { ReviewQueueItem } from '@/features/srs/queue';
 import { ClozeCard } from './cloze-card';
 import { FlashcardFlip } from './flashcard-flip';
+import { ListeningCard } from './listening-card';
+import { MCQCard } from './mcq-card';
+import { ModePicker } from './mode-picker';
+import { TypingCard } from './typing-card';
 
-export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[] }) {
+export function ReviewSession({
+  initialQueue,
+  newLearnedToday,
+  dailyNewLimit,
+  isFirstReviewToday,
+  currentStreak,
+}: {
+  initialQueue: ReviewQueueItem[];
+  newLearnedToday: number;
+  dailyNewLimit: number;
+  isFirstReviewToday: boolean;
+  currentStreak: number;
+}) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
   const queue = useReviewSession((s) => s.queue);
   const currentIndex = useReviewSession((s) => s.currentIndex);
   const flipped = useReviewSession((s) => s.flipped);
+  const mode = useReviewSession((s) => s.mode);
   const init = useReviewSession((s) => s.init);
   const flip = useReviewSession((s) => s.flip);
+  const setMode = useReviewSession((s) => s.setMode);
   const rate = useReviewSession((s) => s.rate);
+
+  // Milestone toast bookkeeping. Refs (not state) because they're write-once
+  // flags and we don't want to re-render on flip.
+  const streakToastedRef = useRef(false);
+  const limitToastedRef = useRef(false);
+  const newCardsThisSessionRef = useRef(0);
 
   // Bootstrap store from server-fetched queue exactly once per mount.
   useEffect(() => {
@@ -32,9 +56,38 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   }, [currentIndex, queue.length, router]);
 
   async function handleRate(grade: Grade) {
+    // Capture pre-rate context before the store advances currentIndex.
+    const cardBefore = queue[currentIndex];
+    const wasNewCard = cardBefore?.userCard.state === 'new';
+
     const result = await rate(grade);
     if (!result.ok) {
       toast.error(`Không lưu được đánh giá: ${result.error ?? 'lỗi không xác định'}`);
+      return;
+    }
+
+    // Milestone 1: streak start-of-day. Fires once when the user submits their
+    // first successful review of today (server-derived; falsy after F5 if
+    // already reviewed today).
+    if (!streakToastedRef.current && isFirstReviewToday) {
+      streakToastedRef.current = true;
+      const nextStreak = currentStreak + 1;
+      toast.success(`🔥 Streak ${nextStreak} ngày! Bắt đầu ngày học mới.`, {
+        duration: 4000,
+      });
+    }
+
+    // Milestone 2: daily new-card limit reached. We track new cards consumed
+    // this session FE-side; server-side `newLearnedToday` is the count from
+    // earlier sessions today. Fire once.
+    if (wasNewCard) newCardsThisSessionRef.current += 1;
+    const totalNewToday = newLearnedToday + newCardsThisSessionRef.current;
+    if (!limitToastedRef.current && dailyNewLimit > 0 && totalNewToday >= dailyNewLimit) {
+      limitToastedRef.current = true;
+      toast.info(`Đã đạt mục tiêu ${dailyNewLimit} thẻ mới hôm nay 🎯`, {
+        description: 'Tiếp tục ôn các thẻ đến hạn — thẻ mới sẽ mở lại ngày mai.',
+        duration: 5000,
+      });
     }
   }
 
@@ -44,18 +97,40 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   }
 
   const isMultiWord = current.card.word.includes(' ');
+  // Cloze / Typing / Listening all require letter-by-letter input; multi-word
+  // phrases fall back to flashcard flip. MCQ works regardless of word length.
+  const effectiveMode =
+    (mode === 'cloze' || mode === 'typing' || mode === 'listening') && isMultiWord
+      ? 'multiword-fallback'
+      : mode;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5">
+      <ModePicker mode={mode} onChange={setMode} />
+
       <div className="flex items-center justify-between text-xs text-zinc-500">
         <span className="font-medium tabular-nums">
           {currentIndex + 1} / {queue.length}
         </span>
         <span>
-          {isMultiWord ? (
+          {effectiveMode === 'mcq' ? (
+            <>
+              <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chọn đáp án
+            </>
+          ) : effectiveMode === 'multiword-fallback' ? (
             <>
               <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> lật ·{' '}
               <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chấm
+            </>
+          ) : effectiveMode === 'typing' ? (
+            <>
+              gõ từ từ nghĩa · <kbd className="rounded border px-1 font-mono text-[10px]">?</kbd>{' '}
+              hint · <kbd className="rounded border px-1 font-mono text-[10px]">Esc</kbd> bỏ qua
+            </>
+          ) : effectiveMode === 'listening' ? (
+            <>
+              <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> phát lại · gõ
+              từ · <kbd className="rounded border px-1 font-mono text-[10px]">?</kbd> hint
             </>
           ) : (
             <>
@@ -66,7 +141,14 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
         </span>
       </div>
 
-      {isMultiWord ? (
+      {effectiveMode === 'mcq' ? (
+        <MCQCard
+          key={`mcq-${current.userCard.id}`}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      ) : effectiveMode === 'multiword-fallback' ? (
         <MultiWordFallback
           item={current}
           flipped={flipped}
@@ -74,9 +156,23 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
           onRate={(g) => startTransition(() => void handleRate(g))}
           pending={pending}
         />
+      ) : effectiveMode === 'typing' ? (
+        <TypingCard
+          key={`typing-${current.userCard.id}`}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      ) : effectiveMode === 'listening' ? (
+        <ListeningCard
+          key={`listening-${current.userCard.id}`}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
       ) : (
         <ClozeCard
-          key={current.userCard.id}
+          key={`cloze-${current.userCard.id}`}
           item={current}
           onGrade={(g) => startTransition(() => void handleRate(g))}
           pending={pending}
