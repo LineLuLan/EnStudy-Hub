@@ -193,7 +193,15 @@
   - `mode-picker.tsx`: drop disabled flag — tất cả 4 mode giờ live
   - `review-session.tsx`: branch `mode === 'listening' → <ListeningCard>`, multi-word fallback rule mở rộng `(cloze OR typing OR listening) + multi-word → MultiWordFallback`, hint text "Space phát lại · gõ từ · ? hint"
   - `reviewType='listening'` ghi xuống `review_logs` cho FSRS retention analytics sau (split per mode nếu cần)
-- [ ] **Chunk 4**: Toast milestones (streak +1, lesson hoàn thành) + skeleton + empty state polish
+- [x] **Chunk 4 polish done** (2026-05-13, commit `e794630` trên fe → merge `73f6b56` lên dev):
+  - `/review/page.tsx`: `Promise.all([getReviewQueue, getStreak])`, derive `isFirstReviewToday = streak.lastActiveDate === null || streak.lastActiveDate < todayKey(now, tz)`, pass meta (newLearnedToday/dailyNewLimit) + isFirstReviewToday + currentStreak qua props xuống `<ReviewSession>`
+  - `<ReviewSession>` (props mới): `streakToastedRef`, `limitToastedRef`, `newCardsThisSessionRef` — refs dedupe, không re-render
+  - Toast 1 — **Streak start of day**: fires once trên rate success đầu tiên nếu `isFirstReviewToday` true. Hiện `🔥 Streak ${currentStreak+1} ngày! Bắt đầu ngày học mới.` (sonner success, 4s)
+  - Toast 2 — **Daily new-limit reached**: tracks new cards FE-side (state==='new' on capture before store advances), fires once khi `newLearnedToday + newCardsThisSession >= dailyNewLimit`. Hiện `🎯 Đã đạt mục tiêu N thẻ mới hôm nay` + description "thẻ mới sẽ mở lại ngày mai" (sonner info, 5s)
+  - Toast lesson-complete: defer Tuần 6 (cần lesson-level mature query)
+  - `/review/loading.tsx`: skeleton update — mode picker pill row (4 button placeholders) + counter row + card area (drop rating row vì các mode mới auto-grade, không có rating buttons hiển thị mặc định)
+  - `/review` empty state: 2 CTA (BookOpen → /decks, link → /dashboard) thay inline link đơn lẻ — visual hierarchy tốt hơn cho user mới
+- [x] **Tuần 5 ĐÓNG** — 4 minigame modes (Cloze/MCQ/Typing/Listening) + Mode Picker + Toast milestones + Skeleton polish. Sẵn ship `dev → main` tag `v0.2.0` "Dashboard + Stats + Settings + Minigames"
 
 ---
 

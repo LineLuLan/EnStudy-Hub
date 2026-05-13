@@ -5,6 +5,93 @@
 
 ---
 
+## 2026-05-13 (tối, tiếp theo 3) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 4 polish — ĐÓNG Tuần 5)
+
+**Mục tiêu session**: Chunk 4 = polish + đóng Tuần 5. Toast milestones (streak, daily limit), skeleton update, empty state cải thiện.
+
+**Đã hoàn thành (commit `e794630` trên fe → merge `73f6b56` lên dev). Chưa sync xuống `be` (sẽ sync bulk khi prep v0.2.0 release).**
+
+**Files edit (3):**
+
+- `src/app/(app)/review/page.tsx`:
+  - `Promise.all([getReviewQueue, getStreak])` parallel fetch
+  - Derive `isFirstReviewToday = streak.lastActiveDate === null || streak.lastActiveDate < today` (today = `todayKey(new Date(), streak.timezone)`)
+  - Pass mới 4 props vào `<ReviewSession>`: `newLearnedToday`, `dailyNewLimit`, `isFirstReviewToday`, `currentStreak`
+  - Empty state polished: 2 CTA buttons (BookOpen Xem decks / link Về dashboard) thay inline link đơn
+
+- `src/components/review/review-session.tsx`:
+  - Signature mới: `{ initialQueue, newLearnedToday, dailyNewLimit, isFirstReviewToday, currentStreak }`
+  - 3 refs cho dedupe milestone: `streakToastedRef`, `limitToastedRef`, `newCardsThisSessionRef`
+  - `handleRate(grade)`:
+    - Capture `cardBefore = queue[currentIndex]` + `wasNewCard = state==='new'` TRƯỚC khi gọi `rate()` (store sẽ advance)
+    - `await rate(grade)` → return early nếu fail (toast error giữ nguyên)
+    - **Milestone 1 (streak start of day)**: `if (!streakToastedRef.current && isFirstReviewToday)` → `toast.success('🔥 Streak ${currentStreak+1} ngày! Bắt đầu ngày học mới.')` + set ref
+    - **Milestone 2 (daily new limit)**: `if (wasNewCard) newCardsThisSessionRef.current++` → kiểm tra `newLearnedToday + newCardsThisSession >= dailyNewLimit` → `toast.info('🎯 Đã đạt mục tiêu N thẻ mới hôm nay', { description: 'thẻ mới sẽ mở lại ngày mai' })` + set ref
+  - Refs (KHÔNG state) vì 2 lý do: (a) write-once flag không cần render churn, (b) không serialize qua Zustand persist
+
+- `src/app/(app)/review/loading.tsx`: skeleton update
+  - Thêm mode picker pill row (4 placeholder rounded-md)
+  - Bỏ rating row (4 buttons grid) vì các mode mới auto-grade, không hiển thị rating buttons mặc định ở phase typing
+  - Card area giữ nguyên `h-[320px] rounded-xl`
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (KHÔNG thêm test — toast triggers là deterministic từ server props, manual test ok)
+- `pnpm dev` ✓ vẫn live
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                                                 |
+| ------ | --------- | ---------------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                        |
+| dev    | `73f6b56` | Tuần 5 chunk 4 polish — Tuần 5 ĐÓNG, sẵn ship v0.2.0 |
+| be     | `eb6ec8f` | pending bulk sync Tuần 5 ch1..4 trước khi release    |
+| fe     | `e794630` | base Tuần 5 chunk 4 polish                           |
+
+**TUẦN 5 ĐÃ ĐÓNG — sẵn ship `dev → main` tag `v0.2.0`:**
+
+Hoàn thành full Tuần 5:
+
+- ✅ Chunk 1: Mode Picker scaffold + MCQ mode (4-choice) + distractorPool BE + tests +23
+- ✅ Chunk 2: Typing-from-definition mode (TypingCard reuse cloze grade heuristic)
+- ✅ Chunk 3: Listening mode (Web Speech API auto-play + Space replay + no-support fallback)
+- ✅ Chunk 4: Toast milestones (streak start-of-day + daily new-limit) + skeleton update + empty state CTA
+
+**4 minigame modes giờ live**:
+
+1. **Cloze** (Tuần 3): sentence với blank, gõ word từ context
+2. **Trắc nghiệm/MCQ** (Tuần 5 ch1): show word + IPA, 4 nghĩa VN
+3. **Gõ nghĩa/Typing** (Tuần 5 ch2): show meaning_vi, gõ word
+4. **Nghe/Listening** (Tuần 5 ch3): TTS phát word, gõ word
+
+**Pre-release v0.2.0 checklist (next session):**
+
+1. `git checkout be && git merge --no-ff dev -m "sync: dev -> be (Tuan 5 closed)"` — bulk catch up
+2. `pnpm build` production verify — đảm bảo build pass, đo bundle size /review (predict ~150-180kB First Load do 4 minigame components share framer-motion + lucide-react)
+3. Manual E2E full lap qua 4 modes: login → /review → switch Cloze→MCQ→Typing→Listening, mỗi mode submit 1-2 thẻ → /review/summary → /dashboard streak update
+4. SQL spot check: `SELECT review_type, COUNT(*) FROM review_logs GROUP BY review_type` — phải có 'typing' + 'mcq' + 'listening' rows
+5. Toast verify: F5 trang đã review → second time KHÔNG toast streak (vì `isFirstReviewToday` giờ false). Daily limit toast fire nếu enroll deck mới + ôn đủ N thẻ mới
+6. PR `dev → main` qua GitHub UI, self-review, merge với `--no-ff`, tag `v0.2.0` "Dashboard + Stats + Settings + Minigames"
+
+**Pending cho Tuần 6**:
+
+- Scale content: gen 500-1000 cards (P1 + P2 batches qua Claude desktop)
+- CSV import UI
+- Card editing UI (admin tools cho personal use)
+- Suspend/bury cards
+- Personal notes per card (textarea trong card detail)
+- Mobile responsive QA — minigame layouts cần test trên 375px screen
+- Lighthouse > 90 (perf + a11y)
+- GitHub Actions: cron daily DB backup (`pg_dump` qua scheduled workflow)
+- README.md update
+- Tag `v1.0.0`
+
+**Refactor nợ kỹ thuật**: 3 cards (Cloze/Typing/Listening) share ~70% state machine. Tuần 6 cleanup có thể abstract `<WordTypingArea>` — defer, không urgency.
+
+---
+
 ## 2026-05-13 (tối, tiếp theo 2) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 3: Listening mode)
 
 **Mục tiêu session**: Chunk 3 = mode Nghe — auto-phát word qua Web Speech API, user gõ lại theo audio cue (giống dictation). Cùng tốc độ với Chunk 1+2 sáng nay.
