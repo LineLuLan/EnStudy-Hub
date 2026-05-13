@@ -11,17 +11,22 @@ export default function ReviewLoading() {
         <Skeleton className="h-4 w-16" />
       </div>
 
-      <div className="mt-6 space-y-4">
+      <div className="mt-6 space-y-5">
+        {/* Mode picker pill bar (4 buttons) */}
+        <div className="flex flex-wrap gap-1.5 rounded-lg border border-zinc-200 bg-white/60 p-1 dark:border-zinc-800 dark:bg-zinc-950/60">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <Skeleton key={i} className="h-7 w-24 rounded-md" />
+          ))}
+        </div>
+
+        {/* Counter + hint row */}
         <div className="flex items-center justify-between">
           <Skeleton className="h-4 w-12" />
           <Skeleton className="h-4 w-40" />
         </div>
+
+        {/* Card area */}
         <Skeleton className="h-[320px] w-full rounded-xl" />
-        <div className="grid grid-cols-4 gap-2">
-          {Array.from({ length: 4 }).map((_, i) => (
-            <Skeleton key={i} className="h-12" />
-          ))}
-        </div>
       </div>
     </div>
   );

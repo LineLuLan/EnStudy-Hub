@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useTransition } from 'react';
+import { useEffect, useRef, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 import { type Grade } from 'ts-fsrs';
@@ -13,7 +13,19 @@ import { MCQCard } from './mcq-card';
 import { ModePicker } from './mode-picker';
 import { TypingCard } from './typing-card';
 
-export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[] }) {
+export function ReviewSession({
+  initialQueue,
+  newLearnedToday,
+  dailyNewLimit,
+  isFirstReviewToday,
+  currentStreak,
+}: {
+  initialQueue: ReviewQueueItem[];
+  newLearnedToday: number;
+  dailyNewLimit: number;
+  isFirstReviewToday: boolean;
+  currentStreak: number;
+}) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
   const queue = useReviewSession((s) => s.queue);
@@ -24,6 +36,12 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   const flip = useReviewSession((s) => s.flip);
   const setMode = useReviewSession((s) => s.setMode);
   const rate = useReviewSession((s) => s.rate);
+
+  // Milestone toast bookkeeping. Refs (not state) because they're write-once
+  // flags and we don't want to re-render on flip.
+  const streakToastedRef = useRef(false);
+  const limitToastedRef = useRef(false);
+  const newCardsThisSessionRef = useRef(0);
 
   // Bootstrap store from server-fetched queue exactly once per mount.
   useEffect(() => {
@@ -38,9 +56,38 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   }, [currentIndex, queue.length, router]);
 
   async function handleRate(grade: Grade) {
+    // Capture pre-rate context before the store advances currentIndex.
+    const cardBefore = queue[currentIndex];
+    const wasNewCard = cardBefore?.userCard.state === 'new';
+
     const result = await rate(grade);
     if (!result.ok) {
       toast.error(`Không lưu được đánh giá: ${result.error ?? 'lỗi không xác định'}`);
+      return;
+    }
+
+    // Milestone 1: streak start-of-day. Fires once when the user submits their
+    // first successful review of today (server-derived; falsy after F5 if
+    // already reviewed today).
+    if (!streakToastedRef.current && isFirstReviewToday) {
+      streakToastedRef.current = true;
+      const nextStreak = currentStreak + 1;
+      toast.success(`🔥 Streak ${nextStreak} ngày! Bắt đầu ngày học mới.`, {
+        duration: 4000,
+      });
+    }
+
+    // Milestone 2: daily new-card limit reached. We track new cards consumed
+    // this session FE-side; server-side `newLearnedToday` is the count from
+    // earlier sessions today. Fire once.
+    if (wasNewCard) newCardsThisSessionRef.current += 1;
+    const totalNewToday = newLearnedToday + newCardsThisSessionRef.current;
+    if (!limitToastedRef.current && dailyNewLimit > 0 && totalNewToday >= dailyNewLimit) {
+      limitToastedRef.current = true;
+      toast.info(`Đã đạt mục tiêu ${dailyNewLimit} thẻ mới hôm nay 🎯`, {
+        description: 'Tiếp tục ôn các thẻ đến hạn — thẻ mới sẽ mở lại ngày mai.',
+        duration: 5000,
+      });
     }
   }
 
