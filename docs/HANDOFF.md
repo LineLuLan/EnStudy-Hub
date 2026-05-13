@@ -5,6 +5,81 @@
 
 ---
 
+## 2026-05-13 (tối, tiếp theo 2) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 3: Listening mode)
+
+**Mục tiêu session**: Chunk 3 = mode Nghe — auto-phát word qua Web Speech API, user gõ lại theo audio cue (giống dictation). Cùng tốc độ với Chunk 1+2 sáng nay.
+
+**Đã hoàn thành (commit `063abca` trên fe → merge `68bec35` lên dev). Chưa sync xuống `be` (defer đến khi đóng Tuần 5).**
+
+**File mới (1):**
+
+- `src/components/review/listening-card.tsx` (~570 line, client): ListeningCard component
+  - Top section: label "Nghe phát âm", nút tròn 20x20 (Volume2 icon) ở giữa, dưới là kbd hint "Space để phát lại" + pos/cefr badge. Nút có Framer Motion `scale` pulse animation 0.8s loop khi `playing=true`
+  - State `playing: boolean` — set true khi gọi `playWord`, auto-clear sau heuristic `min(2200, max(500, word.length * 250))` ms vì Web Speech `'end'` event không fire reliable trên Firefox/Safari
+  - `playWord` callback gọi `speakWord(word)` + set playing + return cleanup
+  - Auto-play on mount: `useEffect([card.id])` check support → play hoặc setSupported(false) + toast warning
+  - Unlock cũng replay audio (user nghe word kèm reveal panel)
+  - Keyboard handler: trong `phase==='typing'` Space = replay (override default), Esc/?/Backspace/letter giống Typing. Trong `phase==='unlocked'` Space = submit derived grade (giữ behavior Cloze/Typing)
+  - **No-support fallback**: nếu `'speechSynthesis' in window === false` → `setSupported(false)`, `toast.warning("Trình duyệt không hỗ trợ phát âm. Xem chính tả ở dưới rồi gõ lại để luyện.")`, render VolumeX icon disabled + show word trong mono badge `<div className="bg-zinc-100 font-mono">{word}</div>` để card không deadlock
+  - Slots full-hidden qua `fullHiddenMask(word)` (local helper)
+  - Unlock reveal: word + IPA + Volume2 nút (replay), full firstDef (en + vi), 2 examples, mnemonic, 2s countdown bar, 1-4 override grade
+  - Reuse `gradeFromCloze` + `speakWord` + `MaskSlot` từ `cloze-utils.ts`
+
+**Files edit:**
+
+- `src/components/review/mode-picker.tsx`: `{ id: 'listening', enabled: true }` (drop hint "Sắp có"). Tất cả 4 mode giờ live
+- `src/components/review/review-session.tsx`:
+  - Import `<ListeningCard>`
+  - `effectiveMode` rule mở rộng: `(cloze OR typing OR listening) + multi-word → 'multiword-fallback'`
+  - Branch render: thêm nhánh `effectiveMode === 'listening' → <ListeningCard key={listening-${id}}>`
+  - Hint text top: "Space phát lại · gõ từ · ? hint" cho mode listening
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (KHÔNG thêm test mới — Listening reuse 100% logic đã test)
+- `pnpm dev` chưa stop, vẫn live
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                                 |
+| ------ | --------- | ------------------------------------ |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)        |
+| dev    | `68bec35` | Tuần 5 chunk 3 Listening mode merged |
+| be     | `eb6ec8f` | chưa sync (defer đến hết Tuần 5)     |
+| fe     | `063abca` | base Tuần 5 chunk 3                  |
+
+**Manual E2E checklist mới (browser):**
+
+1. `pnpm dev` → login → `/review` (đã có queue)
+2. Click **Nghe** trong picker → ListeningCard render
+3. TTS auto-play ngay → speaker icon pulse trong 1-2s
+4. Bấm Space → replay
+5. Gõ word theo audio cue → mỗi letter đúng → slot fill, sai → shake + mistake counter
+6. Word complete → unlock phase: word + IPA + replay audio, full meaning + examples + mnemonic, auto-submit Good sau 2s
+7. Bấm `?` để hint (hintsUsed++) hoặc Esc để give-up (gaveUp → Again)
+8. Test no-speech: tạm thời disable speechSynthesis trong DevTools (`speechSynthesis = undefined`) hoặc test Firefox với TTS off → toast warning hiện + speaker icon đổi sang VolumeX disabled + word hiện trong mono badge dưới
+9. SQL check: `SELECT review_type, rating FROM review_logs ORDER BY reviewed_at DESC LIMIT 5;` → thấy `review_type='listening'`
+10. Tuần 5 đến đây có **3 minigame** (MCQ, Typing, Listening) + **Cloze** (Tuần 3) — đủ 4 mode trong blueprint Tuần 5
+
+**Refactor nợ kỹ thuật (sau Tuần 5)**:
+3 cards (ClozeCard, TypingCard, ListeningCard) share ~70% state machine + keyboard + unlock panel. Có thể abstract thành `<WordTypingArea>` với props customizable cho prompt area (sentence-blank / definition / audio button). **Defer** — Chunk 4 (polish) hoặc Tuần 6 cleanup. Hiện không urgency vì 3 file ổn định, bug-free trong 1 session.
+
+**Pending cho Chunk 4 — Polish (chunk cuối Tuần 5)**:
+
+- Toast milestones:
+  - Streak +1 khi user complete review đầu tiên trong ngày (kiểm tra `lastActiveDate` qua `getStreak`)
+  - Lesson complete khi tất cả cards trong 1 lesson đạt `state='review'` (mature)
+  - Daily limit reached khi `newLearnedToday >= dailyNewLimit`
+- Skeleton screens: `app/(app)/review/loading.tsx` hiện simple — cải thiện match new layout (mode picker pill + card section)
+- Empty states: `/review` empty state đã có (link `/decks`). `/dashboard` enrolled list có. Có thể add suggested deck link trong `/review` empty state khi user chưa enroll gì
+- Skeleton cho card area khi đổi mode đột ngột (Suspense boundary?)
+
+**Pending cho v0.2.0 release**: vẫn defer đến hết Tuần 5. Khi xong Chunk 4 → tag `v0.2.0` "Dashboard + Stats + Settings + Minigames".
+
+---
+
 ## 2026-05-13 (tối, tiếp theo) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 2: Typing-from-definition)
 
 **Mục tiêu session**: Mở Chunk 2 của Tuần 5 ngay sau khi Chunk 1 ship — minigame thứ 2 = gõ word từ definition (khác Cloze: Cloze có sentence với blank, Typing chỉ có meaning_vi làm cue).

@@ -185,7 +185,14 @@
   - `review-session.tsx`: branch `mode === 'typing'` → `<TypingCard>`, multi-word fallback rule mở rộng `cloze OR typing + multi-word → MultiWordFallback`, hint text "gõ từ từ nghĩa" cho typing
   - `commitlint.config.cjs`: add scope `'review'` (Tuần 5 chunks dùng nhiều, trước đây cảnh báo)
   - Cả Cloze và Typing share `reviewType='typing'` trong DB (cùng là typing-the-word minigames, khác cue). Split sau nếu retention analytics cần
-- [ ] **Chunk 3**: Listening mode (Web Speech API TTS phát word → user gõ)
+- [x] **Chunk 3 Listening mode done** (2026-05-13, commit `063abca` trên fe → merge `68bec35` lên dev):
+  - `components/review/listening-card.tsx` (~570 line, client): auto-play `speakWord()` on mount, Space replay, large circular speaker button với pulse animation khi "đang phát" (heuristic timer ~250ms/letter capped 2.2s vì Web Speech `end` event không reliable cross-browser)
+  - Hide hoàn toàn definitions/translation trong cue phase (chỉ pos/cefr badge). Unlock reveal panel có full word + IPA + meaning_en + meaning_vi + 2 examples + mnemonic
+  - Slots full-hidden như TypingCard. Reuse `gradeFromCloze` + `speakWord` + `MaskSlot` từ `cloze-utils.ts`
+  - **No-speech fallback**: nếu `'speechSynthesis' in window === false` → toast warning + show word trong mono badge (degraded UX nhưng không dead-end). VolumeX icon thay Volume2
+  - `mode-picker.tsx`: drop disabled flag — tất cả 4 mode giờ live
+  - `review-session.tsx`: branch `mode === 'listening' → <ListeningCard>`, multi-word fallback rule mở rộng `(cloze OR typing OR listening) + multi-word → MultiWordFallback`, hint text "Space phát lại · gõ từ · ? hint"
+  - `reviewType='listening'` ghi xuống `review_logs` cho FSRS retention analytics sau (split per mode nếu cần)
 - [ ] **Chunk 4**: Toast milestones (streak +1, lesson hoàn thành) + skeleton + empty state polish
 
 ---
