@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { Activity, BarChart3, PieChart, TrendingUp } from 'lucide-react';
@@ -11,6 +12,7 @@ import { ActivityBar } from '@/components/stats/activity-bar';
 import { MaturityPie } from '@/components/stats/maturity-pie';
 
 export const dynamic = 'force-dynamic';
+export const metadata: Metadata = { title: 'Thống kê' };
 
 export default async function StatsPage() {
   const userId = await getCurrentUserId();

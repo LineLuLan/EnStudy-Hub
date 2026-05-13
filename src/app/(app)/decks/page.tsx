@@ -1,8 +1,10 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { listOfficialCollections } from '@/features/vocab/queries';
 import { BookOpen, Layers } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
+export const metadata: Metadata = { title: 'Decks' };
 
 export default async function DecksPage() {
   const cols = await listOfficialCollections();

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { BookOpen, Sparkles } from 'lucide-react';
@@ -8,6 +9,7 @@ import { todayKey } from '@/features/stats/dates';
 import { ReviewSession } from '@/components/review/review-session';
 
 export const dynamic = 'force-dynamic';
+export const metadata: Metadata = { title: 'Ôn tập' };
 
 export default async function ReviewPage() {
   const userId = await getCurrentUserId();
@@ -32,7 +34,7 @@ export default async function ReviewPage() {
           <p className="mt-2 text-sm leading-relaxed text-zinc-500">
             Quay lại sau khi có thẻ đến hạn, hoặc thêm bài học mới để bắt đầu.
           </p>
-          <p className="mt-3 text-xs text-zinc-400">
+          <p className="mt-3 text-xs text-zinc-500">
             Đã học hôm nay: {queue.meta.newLearnedToday} / {queue.meta.dailyNewLimit} thẻ mới
           </p>
           <div className="mt-5 flex justify-center gap-2">

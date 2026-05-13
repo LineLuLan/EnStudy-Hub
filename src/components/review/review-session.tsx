@@ -1,17 +1,36 @@
 'use client';
 
 import { useEffect, useRef, useTransition } from 'react';
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 import { type Grade } from 'ts-fsrs';
 import { useReviewSession } from '@/stores/review-session';
 import type { ReviewQueueItem } from '@/features/srs/queue';
-import { ClozeCard } from './cloze-card';
-import { FlashcardFlip } from './flashcard-flip';
-import { ListeningCard } from './listening-card';
-import { MCQCard } from './mcq-card';
 import { ModePicker } from './mode-picker';
-import { TypingCard } from './typing-card';
+
+// Each minigame card has a sizeable client bundle (framer-motion + per-mode
+// state machine, ~200-570 lines). Lazy-load all four + the multiword-fallback
+// flashcard so the /review initial First Load JS doesn't pull every mode the
+// user won't immediately use. Mode picker + orchestrator stay eager.
+const CardLoading = () => (
+  <div className="h-[320px] animate-pulse rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900/60" />
+);
+const ClozeCard = dynamic(() => import('./cloze-card').then((m) => m.ClozeCard), {
+  loading: CardLoading,
+});
+const MCQCard = dynamic(() => import('./mcq-card').then((m) => m.MCQCard), {
+  loading: CardLoading,
+});
+const TypingCard = dynamic(() => import('./typing-card').then((m) => m.TypingCard), {
+  loading: CardLoading,
+});
+const ListeningCard = dynamic(() => import('./listening-card').then((m) => m.ListeningCard), {
+  loading: CardLoading,
+});
+const FlashcardFlip = dynamic(() => import('./flashcard-flip').then((m) => m.FlashcardFlip), {
+  loading: CardLoading,
+});
 
 export function ReviewSession({
   initialQueue,
