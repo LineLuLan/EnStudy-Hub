@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { BookOpen, Flame, GraduationCap, Inbox, Play, Sparkles } from 'lucide-react';
@@ -11,6 +12,7 @@ import { Button } from '@/components/ui/button';
 import { HeatmapGrid } from '@/components/dashboard/heatmap';
 
 export const dynamic = 'force-dynamic';
+export const metadata: Metadata = { title: 'Dashboard' };
 
 export default async function DashboardPage() {
   const userId = await getCurrentUserId();

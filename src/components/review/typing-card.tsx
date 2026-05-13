@@ -338,7 +338,7 @@ export function TypingCard({
                 <kbd className="ml-1 rounded border px-1 font-mono text-[10px] opacity-70">⌫</kbd>
               </Button>
             )}
-            <span className="ml-auto text-xs text-zinc-400 tabular-nums">
+            <span className="ml-auto text-xs text-zinc-500 tabular-nums">
               {input.length}/{word.length}
               {(hintsUsed > 0 || mistakes > 0) && (
                 <>
