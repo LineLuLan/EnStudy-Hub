@@ -5,6 +5,101 @@
 
 ---
 
+## 2026-05-14 (sáng) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 2 Lighthouse audit fixes)
+
+**Mục tiêu session**: Code-side fixes cho Lighthouse audit — perf + a11y + SEO. Không chạy được Lighthouse CLI thực tế (cần dev server + headless Chrome setup), nên focus vào các criteria phổ biến mà Lighthouse check và fix được từ source code.
+
+**Đã hoàn thành (commit `1aec7ab` trên fe → merge `da3a05b` lên dev → sync `b50fc5d` xuống be).**
+
+### Audit findings
+
+| Category    | Issue                                                  | Fix                                                     |
+| ----------- | ------------------------------------------------------ | ------------------------------------------------------- |
+| Perf        | `/review` First Load 176 kB (4 minigame cards eager)   | Code split via `next/dynamic` → 126 kB (−50 kB)         |
+| A11y        | No skip-to-content link cho keyboard/screen reader     | `(app)/layout.tsx` thêm `<a sr-only focus:not-sr-only>` |
+| A11y        | 6 chỗ `text-xs text-zinc-400` fail WCAG AA Normal      | Bump zinc-400 → zinc-500 (5.42:1 ≥ 4.5)                 |
+| SEO         | Pages không có `<title>` riêng → tab luôn show default | Per-page `metadata.title` cho 6 pages                   |
+| OK (no fix) | Root `<html lang="vi">` đã có                          | —                                                       |
+| OK (no fix) | Heading hierarchy h1→h2→h3 đã chuẩn 9 pages            | —                                                       |
+| OK (no fix) | Icon-only buttons đã có `aria-label` (11 files)        | —                                                       |
+| OK (no fix) | Form inputs đã có `<Label htmlFor>` (settings, login)  | —                                                       |
+| OK (no fix) | Geist fonts auto font-display: swap qua `geist/font`   | —                                                       |
+| OK (no fix) | Stats SVG charts dùng viewBox + `w-full` scale         | —                                                       |
+
+### Files edit (12)
+
+**Code split:**
+
+- `src/components/review/review-session.tsx`: thay 5 static imports (`ClozeCard`, `MCQCard`, `TypingCard`, `ListeningCard`, `FlashcardFlip`) bằng `dynamic(() => import('./xxx').then((m) => m.XxxCard))`. `CardLoading` placeholder = `<div h-[320px] animate-pulse rounded-xl border bg-zinc-50>`. Mode picker + orchestrator stay eager. Cloze (default mode) cũng lazy — chấp nhận skeleton flash ~50-100ms lần đầu render mode
+
+**A11y:**
+
+- `src/app/(app)/layout.tsx`: prepend skip link `<a href="#main-content">` với `sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-1.5 focus:ring-2 focus:ring-sky-400`. `<main id="main-content">`. Tab key đầu trang reveal link, Enter skip
+- `src/components/review/cloze-card.tsx`: line 345 `text-zinc-400` → `text-zinc-500` (input counter)
+- `src/components/review/typing-card.tsx`: line 341 same
+- `src/components/review/listening-card.tsx`: line 419 same
+- `src/components/review/flashcard-flip.tsx`: line 57 "Bấm Space hoặc click để lật" same
+- `src/app/(app)/review/page.tsx`: line 35 empty state "Đã học hôm nay: X / Y thẻ mới" same
+
+**SEO:**
+
+- 6 pages: `export const metadata: Metadata = { title: '...' }` — Dashboard / Ôn tập / Decks / Thống kê / Cài đặt / Đăng nhập. Root layout title template `'%s · EnStudy Hub'` (đã set từ Phase 0) tự động ghép → tab hiện "Dashboard · EnStudy Hub" etc.
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (8.40s)
+- `pnpm build` ✓ — **bundle delta:**
+
+| Route        | Before     | After      | Δ          |
+| ------------ | ---------- | ---------- | ---------- |
+| `/review`    | 47.5 / 176 | 4.62 / 126 | **−50 kB** |
+| `/login`     | 3.03 / 129 | 3.03 / 130 | +1 kB      |
+| `/dashboard` | 184 / 109  | 184 / 109  | 0          |
+| `/stats`     | 184 / 109  | 184 / 109  | 0          |
+| `/settings`  | 5.26 / 123 | 5.26 / 123 | 0          |
+| Shared       | 99.8       | 99.9       | +0.1       |
+
+(Sizes: route-specific kB / First Load kB)
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                            |
+| ------ | --------- | ------------------------------- |
+| main   | `eb18493` | v0.2.0 (release tag, không đổi) |
+| dev    | `da3a05b` | Tuần 6 chunk 2 Lighthouse       |
+| be     | `b50fc5d` | sync Tuần 6 chunk 2 Lighthouse  |
+| fe     | `1aec7ab` | base Tuần 6 chunk 2 Lighthouse  |
+
+### Bỏ ngoài scope (defer)
+
+- **Live Lighthouse run** — cần `pnpm start` (production server) + Chrome DevTools Lighthouse panel hoặc `lighthouse` npm CLI. User chạy local sau khi merge:
+
+  ```powershell
+  pnpm build
+  pnpm start  # cổng 3000
+  # Chrome → DevTools → Lighthouse → Mobile + Performance/Accessibility/Best Practices/SEO
+  ```
+
+  Mục tiêu > 90 mỗi category. Test: `/login` (public, dễ nhất), `/dashboard`, `/review`, `/stats`.
+
+- **`/review/summary` metadata** — page là `'use client'`, Next App Router không cho export metadata từ client. Wrap server parent hoặc dùng `<title>` trong client — defer
+- **Mode picker labels mobile rút ngắn** — vẫn wrap 2 hàng trên 375px, acceptable
+- **`<picture>` / `<Image>`** — chưa có ảnh trong app, không cần optimize
+- **Service Worker / PWA** — defer hậu MVP
+- **Color contrast advanced** — 22 file dùng `text-zinc-400` nhưng phần lớn là `dark:text-zinc-400` (trên bg zinc-950 = high contrast). 6 chỗ light-mode body text đã fix. Còn `text-zinc-400` trong SVG slot letters / badges trên bg-zinc-100 — defer (ratio close 4.5:1, nhỏ)
+- **Console errors / Best Practices** — chưa audit. Common Next 15 RC: typedRoutes warnings, hydration mismatches — cần dev server + DevTools console
+
+### Next session — Tuần 6 chunk 3 options
+
+1. **Live Lighthouse run + iterate** — user chạy production server local, mở Lighthouse, capture score, fix issues lộ ra
+2. **CSV import UI** — `/decks/import` page, drag-drop, preview, bulk enroll. ~200 line FE + 80 BE
+3. **Content P1 batch** — gen 7 lesson × 20 cards offline qua Claude desktop. Seed Supabase
+4. **README.md update** + `v1.0.0` prep — sau khi content scale + Lighthouse pass
+
+---
+
 ## 2026-05-13 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 1 mobile responsive QA)
 
 **Mục tiêu session**: Mở Tuần 6 với chunk 1 = mobile responsive QA tại viewport 375px (iPhone SE). Audit toàn bộ routes + fix critical issues.
