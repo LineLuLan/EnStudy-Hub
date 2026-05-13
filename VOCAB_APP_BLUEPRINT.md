@@ -66,6 +66,7 @@ Collection (bộ sách)
 ```
 
 Ví dụ:
+
 - `Oxford 3000` → `Daily Life` → `Family & Relationships` → 25 cards
 - `IELTS Academic` → `Environment` → `Climate Change` → 20 cards
 
@@ -83,19 +84,19 @@ Ví dụ:
 
 ### 1.3 Nguồn wordlist hợp pháp
 
-| Nguồn | Số từ | Cách lấy |
-|---|---|---|
-| Oxford 3000/5000 | 3000/5000 | GitHub: search "oxford-3000.csv" |
-| AWL | 570 families | Wikipedia "Academic Word List" |
-| GSL | 2000 | Public domain, GitHub |
-| NGSL | 2800 | newgeneralservicelist.com (CC BY-SA) |
-| COCA top 5000 | 5000 | wordfrequency.info |
+| Nguồn            | Số từ        | Cách lấy                             |
+| ---------------- | ------------ | ------------------------------------ |
+| Oxford 3000/5000 | 3000/5000    | GitHub: search "oxford-3000.csv"     |
+| AWL              | 570 families | Wikipedia "Academic Word List"       |
+| GSL              | 2000         | Public domain, GitHub                |
+| NGSL             | 2800         | newgeneralservicelist.com (CC BY-SA) |
+| COCA top 5000    | 5000         | wordfrequency.info                   |
 
 **Chỉ lấy danh sách từ. KHÔNG copy định nghĩa/ví dụ từ Oxford, Cambridge, Merriam — có bản quyền.**
 
 ### 1.4 Prompt template (paste vào Claude desktop)
 
-````
+```
 Tôi đang xây dataset học tiếng Anh cho người Việt. Với danh sách từ dưới đây,
 trả về JSON array đúng format sau, không thêm text giải thích nào trước/sau:
 
@@ -145,7 +146,7 @@ Yêu cầu chất lượng:
 
 Danh sách từ:
 [paste 20-30 từ ở đây]
-````
+```
 
 ### 1.5 Folder structure cho content
 
@@ -165,6 +166,7 @@ content/
 ```
 
 Mỗi `meta.json`:
+
 ```json
 // collections/oxford-3000/meta.json
 {
@@ -313,19 +315,25 @@ src/
 
 ```typescript
 import {
-  pgTable, uuid, text, timestamp, integer, real, boolean,
-  jsonb, primaryKey, uniqueIndex, index, pgEnum
+  pgTable,
+  uuid,
+  text,
+  timestamp,
+  integer,
+  real,
+  boolean,
+  jsonb,
+  primaryKey,
+  uniqueIndex,
+  index,
+  pgEnum,
 } from 'drizzle-orm/pg-core';
 import { authUsers } from 'drizzle-orm/supabase';
 
 // ============ ENUMS ============
-export const cardStateEnum = pgEnum('card_state', [
-  'new', 'learning', 'review', 'relearning'
-]);
-export const reviewTypeEnum = pgEnum('review_type', [
-  'flashcard', 'mcq', 'typing', 'listening'
-]);
-export const cefrEnum = pgEnum('cefr', ['A1','A2','B1','B2','C1','C2']);
+export const cardStateEnum = pgEnum('card_state', ['new', 'learning', 'review', 'relearning']);
+export const reviewTypeEnum = pgEnum('review_type', ['flashcard', 'mcq', 'typing', 'listening']);
+export const cefrEnum = pgEnum('cefr', ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 
 // ============ CONTENT (public-shareable) ============
 
@@ -341,66 +349,83 @@ export const collections = pgTable('collections', {
   levelMax: cefrEnum('level_max'),
   isOfficial: boolean('is_official').notNull().default(false),
   ownerId: uuid('owner_id').references(() => authUsers.id, { onDelete: 'set null' }),
-  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
+  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
 });
 
-export const topics = pgTable('topics', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  collectionId: uuid('collection_id').notNull()
-    .references(() => collections.id, { onDelete: 'cascade' }),
-  slug: text('slug').notNull(),
-  name: text('name').notNull(),
-  description: text('description'),
-  orderIndex: integer('order_index').notNull().default(0),
-  icon: text('icon'),
-  color: text('color')
-}, (t) => ({
-  unq: uniqueIndex('topic_collection_slug').on(t.collectionId, t.slug)
-}));
+export const topics = pgTable(
+  'topics',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    collectionId: uuid('collection_id')
+      .notNull()
+      .references(() => collections.id, { onDelete: 'cascade' }),
+    slug: text('slug').notNull(),
+    name: text('name').notNull(),
+    description: text('description'),
+    orderIndex: integer('order_index').notNull().default(0),
+    icon: text('icon'),
+    color: text('color'),
+  },
+  (t) => ({
+    unq: uniqueIndex('topic_collection_slug').on(t.collectionId, t.slug),
+  })
+);
 
-export const lessons = pgTable('lessons', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  topicId: uuid('topic_id').notNull()
-    .references(() => topics.id, { onDelete: 'cascade' }),
-  slug: text('slug').notNull(),
-  name: text('name').notNull(),
-  description: text('description'),
-  orderIndex: integer('order_index').notNull().default(0),
-  cardCount: integer('card_count').notNull().default(0),
-  estimatedMinutes: integer('estimated_minutes')
-}, (t) => ({
-  unq: uniqueIndex('lesson_topic_slug').on(t.topicId, t.slug)
-}));
+export const lessons = pgTable(
+  'lessons',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    topicId: uuid('topic_id')
+      .notNull()
+      .references(() => topics.id, { onDelete: 'cascade' }),
+    slug: text('slug').notNull(),
+    name: text('name').notNull(),
+    description: text('description'),
+    orderIndex: integer('order_index').notNull().default(0),
+    cardCount: integer('card_count').notNull().default(0),
+    estimatedMinutes: integer('estimated_minutes'),
+  },
+  (t) => ({
+    unq: uniqueIndex('lesson_topic_slug').on(t.topicId, t.slug),
+  })
+);
 
-export const cards = pgTable('cards', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  lessonId: uuid('lesson_id').notNull()
-    .references(() => lessons.id, { onDelete: 'cascade' }),
-  word: text('word').notNull(),
-  lemma: text('lemma'),
-  ipa: text('ipa'),
-  pos: text('pos'),
-  cefrLevel: cefrEnum('cefr_level'),
-  // definitions: [{ meaning_en, meaning_vi, examples: [{en, vi}] }]
-  definitions: jsonb('definitions').notNull().default([]),
-  synonyms: text('synonyms').array(),
-  antonyms: text('antonyms').array(),
-  collocations: text('collocations').array(),
-  etymologyHint: text('etymology_hint'),
-  mnemonicVi: text('mnemonic_vi'),
-  audioUrl: text('audio_url'),
-  imageUrl: text('image_url'),
-  source: text('source').notNull().default('manual'),
-  contentVersion: integer('content_version').notNull().default(1),
-  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
-}, (t) => ({
-  lessonIdx: index('card_lesson_idx').on(t.lessonId)
-}));
+export const cards = pgTable(
+  'cards',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    lessonId: uuid('lesson_id')
+      .notNull()
+      .references(() => lessons.id, { onDelete: 'cascade' }),
+    word: text('word').notNull(),
+    lemma: text('lemma'),
+    ipa: text('ipa'),
+    pos: text('pos'),
+    cefrLevel: cefrEnum('cefr_level'),
+    // definitions: [{ meaning_en, meaning_vi, examples: [{en, vi}] }]
+    definitions: jsonb('definitions').notNull().default([]),
+    synonyms: text('synonyms').array(),
+    antonyms: text('antonyms').array(),
+    collocations: text('collocations').array(),
+    etymologyHint: text('etymology_hint'),
+    mnemonicVi: text('mnemonic_vi'),
+    audioUrl: text('audio_url'),
+    imageUrl: text('image_url'),
+    source: text('source').notNull().default('manual'),
+    contentVersion: integer('content_version').notNull().default(1),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    lessonIdx: index('card_lesson_idx').on(t.lessonId),
+  })
+);
 
 // ============ USER STATE ============
 
 export const profiles = pgTable('profiles', {
-  id: uuid('id').primaryKey().references(() => authUsers.id, { onDelete: 'cascade' }),
+  id: uuid('id')
+    .primaryKey()
+    .references(() => authUsers.id, { onDelete: 'cascade' }),
   displayName: text('display_name'),
   avatar: text('avatar'),
   timezone: text('timezone').notNull().default('Asia/Ho_Chi_Minh'),
@@ -408,78 +433,107 @@ export const profiles = pgTable('profiles', {
   dailyNewCards: integer('daily_new_cards').notNull().default(20),
   dailyReviewMax: integer('daily_review_max').notNull().default(200),
   uiPrefs: jsonb('ui_prefs').notNull().default({}),
-  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
+  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
 });
 
-export const userLessons = pgTable('user_lessons', {
-  userId: uuid('user_id').notNull().references(() => authUsers.id, { onDelete: 'cascade' }),
-  lessonId: uuid('lesson_id').notNull().references(() => lessons.id, { onDelete: 'cascade' }),
-  startedAt: timestamp('started_at', { withTimezone: true }).notNull().defaultNow(),
-  completedAt: timestamp('completed_at', { withTimezone: true })
-}, (t) => ({
-  pk: primaryKey({ columns: [t.userId, t.lessonId] })
-}));
+export const userLessons = pgTable(
+  'user_lessons',
+  {
+    userId: uuid('user_id')
+      .notNull()
+      .references(() => authUsers.id, { onDelete: 'cascade' }),
+    lessonId: uuid('lesson_id')
+      .notNull()
+      .references(() => lessons.id, { onDelete: 'cascade' }),
+    startedAt: timestamp('started_at', { withTimezone: true }).notNull().defaultNow(),
+    completedAt: timestamp('completed_at', { withTimezone: true }),
+  },
+  (t) => ({
+    pk: primaryKey({ columns: [t.userId, t.lessonId] }),
+  })
+);
 
-export const userCards = pgTable('user_cards', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  userId: uuid('user_id').notNull().references(() => authUsers.id, { onDelete: 'cascade' }),
-  cardId: uuid('card_id').notNull().references(() => cards.id, { onDelete: 'cascade' }),
-  lessonId: uuid('lesson_id').notNull().references(() => lessons.id, { onDelete: 'cascade' }),
-  // FSRS state
-  stability: real('stability').notNull().default(0),
-  difficulty: real('difficulty').notNull().default(0),
-  elapsedDays: integer('elapsed_days').notNull().default(0),
-  scheduledDays: integer('scheduled_days').notNull().default(0),
-  reps: integer('reps').notNull().default(0),
-  lapses: integer('lapses').notNull().default(0),
-  state: cardStateEnum('state').notNull().default('new'),
-  lastReview: timestamp('last_review', { withTimezone: true }),
-  due: timestamp('due', { withTimezone: true }).notNull().defaultNow(),
-  // meta
-  suspended: boolean('suspended').notNull().default(false),
-  fsrsVersion: integer('fsrs_version').notNull().default(1),
-  notes: text('notes'),
-  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
-}, (t) => ({
-  unq: uniqueIndex('user_card_unq').on(t.userId, t.cardId),
-  dueIdx: index('user_card_due_idx').on(t.userId, t.due)
-}));
+export const userCards = pgTable(
+  'user_cards',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userId: uuid('user_id')
+      .notNull()
+      .references(() => authUsers.id, { onDelete: 'cascade' }),
+    cardId: uuid('card_id')
+      .notNull()
+      .references(() => cards.id, { onDelete: 'cascade' }),
+    lessonId: uuid('lesson_id')
+      .notNull()
+      .references(() => lessons.id, { onDelete: 'cascade' }),
+    // FSRS state
+    stability: real('stability').notNull().default(0),
+    difficulty: real('difficulty').notNull().default(0),
+    elapsedDays: integer('elapsed_days').notNull().default(0),
+    scheduledDays: integer('scheduled_days').notNull().default(0),
+    reps: integer('reps').notNull().default(0),
+    lapses: integer('lapses').notNull().default(0),
+    state: cardStateEnum('state').notNull().default('new'),
+    lastReview: timestamp('last_review', { withTimezone: true }),
+    due: timestamp('due', { withTimezone: true }).notNull().defaultNow(),
+    // meta
+    suspended: boolean('suspended').notNull().default(false),
+    fsrsVersion: integer('fsrs_version').notNull().default(1),
+    notes: text('notes'),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    unq: uniqueIndex('user_card_unq').on(t.userId, t.cardId),
+    dueIdx: index('user_card_due_idx').on(t.userId, t.due),
+  })
+);
 
-export const reviewLogs = pgTable('review_logs', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  userCardId: uuid('user_card_id').notNull()
-    .references(() => userCards.id, { onDelete: 'cascade' }),
-  userId: uuid('user_id').notNull().references(() => authUsers.id, { onDelete: 'cascade' }),
-  rating: integer('rating').notNull(), // 1=again, 2=hard, 3=good, 4=easy
-  reviewedAt: timestamp('reviewed_at', { withTimezone: true }).notNull().defaultNow(),
-  durationMs: integer('duration_ms'),
-  stateBefore: jsonb('state_before'),
-  stateAfter: jsonb('state_after'),
-  reviewType: reviewTypeEnum('review_type').notNull().default('flashcard'),
-  clientReviewId: text('client_review_id').notNull()
-}, (t) => ({
-  clientUnq: uniqueIndex('review_log_client_unq').on(t.userId, t.clientReviewId),
-  userTimeIdx: index('review_log_user_time').on(t.userId, t.reviewedAt)
-}));
+export const reviewLogs = pgTable(
+  'review_logs',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userCardId: uuid('user_card_id')
+      .notNull()
+      .references(() => userCards.id, { onDelete: 'cascade' }),
+    userId: uuid('user_id')
+      .notNull()
+      .references(() => authUsers.id, { onDelete: 'cascade' }),
+    rating: integer('rating').notNull(), // 1=again, 2=hard, 3=good, 4=easy
+    reviewedAt: timestamp('reviewed_at', { withTimezone: true }).notNull().defaultNow(),
+    durationMs: integer('duration_ms'),
+    stateBefore: jsonb('state_before'),
+    stateAfter: jsonb('state_after'),
+    reviewType: reviewTypeEnum('review_type').notNull().default('flashcard'),
+    clientReviewId: text('client_review_id').notNull(),
+  },
+  (t) => ({
+    clientUnq: uniqueIndex('review_log_client_unq').on(t.userId, t.clientReviewId),
+    userTimeIdx: index('review_log_user_time').on(t.userId, t.reviewedAt),
+  })
+);
 
 export const studySessions = pgTable('study_sessions', {
   id: uuid('id').primaryKey().defaultRandom(),
-  userId: uuid('user_id').notNull().references(() => authUsers.id, { onDelete: 'cascade' }),
+  userId: uuid('user_id')
+    .notNull()
+    .references(() => authUsers.id, { onDelete: 'cascade' }),
   startedAt: timestamp('started_at', { withTimezone: true }).notNull().defaultNow(),
   endedAt: timestamp('ended_at', { withTimezone: true }),
   cardsReviewed: integer('cards_reviewed').notNull().default(0),
   accuracyPct: real('accuracy_pct'),
   newCardsLearned: integer('new_cards_learned').notNull().default(0),
-  xpGained: integer('xp_gained').notNull().default(0)
+  xpGained: integer('xp_gained').notNull().default(0),
 });
 
 export const userStats = pgTable('user_stats', {
-  userId: uuid('user_id').primaryKey().references(() => authUsers.id, { onDelete: 'cascade' }),
+  userId: uuid('user_id')
+    .primaryKey()
+    .references(() => authUsers.id, { onDelete: 'cascade' }),
   currentStreak: integer('current_streak').notNull().default(0),
   longestStreak: integer('longest_streak').notNull().default(0),
   totalReviews: integer('total_reviews').notNull().default(0),
   totalCardsMature: integer('total_cards_mature').notNull().default(0),
-  lastActiveDate: text('last_active_date') // YYYY-MM-DD in user TZ
+  lastActiveDate: text('last_active_date'), // YYYY-MM-DD in user TZ
 });
 ```
 
@@ -557,17 +611,16 @@ CREATE TRIGGER on_auth_user_created
 ### 4.1 FSRS wrapper (`src/features/srs/scheduler.ts`)
 
 ```typescript
-import {
-  fsrs, generatorParameters, Rating, State,
-  type Card as FSRSCard
-} from 'ts-fsrs';
+import { fsrs, generatorParameters, Rating, State, type Card as FSRSCard } from 'ts-fsrs';
 import type { UserCard } from '@/lib/db/schema';
 
-const f = fsrs(generatorParameters({
-  enable_fuzz: true,
-  request_retention: 0.9,
-  maximum_interval: 36500
-}));
+const f = fsrs(
+  generatorParameters({
+    enable_fuzz: true,
+    request_retention: 0.9,
+    maximum_interval: 36500,
+  })
+);
 
 export function toFSRSCard(uc: UserCard): FSRSCard {
   return {
@@ -579,7 +632,7 @@ export function toFSRSCard(uc: UserCard): FSRSCard {
     reps: uc.reps,
     lapses: uc.lapses,
     state: stateToFSRS(uc.state),
-    last_review: uc.lastReview ?? undefined
+    last_review: uc.lastReview ?? undefined,
   };
 }
 
@@ -601,18 +654,26 @@ export function scheduleNext(
     lapses: next.lapses,
     state: stateFromFSRS(next.state),
     lastReview: next.last_review,
-    due: next.due
+    due: next.due,
   };
 }
 
 // State helpers
 function stateToFSRS(s: UserCard['state']): State {
-  return { new: State.New, learning: State.Learning,
-           review: State.Review, relearning: State.Relearning }[s];
+  return {
+    new: State.New,
+    learning: State.Learning,
+    review: State.Review,
+    relearning: State.Relearning,
+  }[s];
 }
 function stateFromFSRS(s: State): UserCard['state'] {
-  return { [State.New]: 'new', [State.Learning]: 'learning',
-           [State.Review]: 'review', [State.Relearning]: 'relearning' }[s] as any;
+  return {
+    [State.New]: 'new',
+    [State.Learning]: 'learning',
+    [State.Review]: 'review',
+    [State.Relearning]: 'relearning',
+  }[s] as any;
 }
 ```
 
@@ -630,7 +691,7 @@ export async function getReviewQueue(opts: {
   lessonId?: string;
 }) {
   const profile = await db.query.profiles.findFirst({
-    where: eq(profiles.id, opts.userId)
+    where: eq(profiles.id, opts.userId),
   });
   const newLimit = opts.newLimit ?? profile?.dailyNewCards ?? 20;
   const reviewLimit = opts.reviewLimit ?? profile?.dailyReviewMax ?? 200;
@@ -641,31 +702,40 @@ export async function getReviewQueue(opts: {
   const newQuota = Math.max(0, newLimit - newToday);
 
   // Due reviews
-  const due = await db.select().from(userCards)
+  const due = await db
+    .select()
+    .from(userCards)
     .innerJoin(cards, eq(cards.id, userCards.cardId))
-    .where(and(
-      eq(userCards.userId, opts.userId),
-      eq(userCards.suspended, false),
-      ne(userCards.state, 'new'),
-      lte(userCards.due, new Date()),
-      opts.lessonId ? eq(userCards.lessonId, opts.lessonId) : undefined
-    ))
+    .where(
+      and(
+        eq(userCards.userId, opts.userId),
+        eq(userCards.suspended, false),
+        ne(userCards.state, 'new'),
+        lte(userCards.due, new Date()),
+        opts.lessonId ? eq(userCards.lessonId, opts.lessonId) : undefined
+      )
+    )
     .orderBy(asc(userCards.due))
     .limit(reviewLimit);
 
   // New cards
-  const newOnes = newQuota > 0
-    ? await db.select().from(userCards)
-        .innerJoin(cards, eq(cards.id, userCards.cardId))
-        .where(and(
-          eq(userCards.userId, opts.userId),
-          eq(userCards.state, 'new'),
-          eq(userCards.suspended, false),
-          opts.lessonId ? eq(userCards.lessonId, opts.lessonId) : undefined
-        ))
-        .orderBy(asc(userCards.createdAt))
-        .limit(newQuota)
-    : [];
+  const newOnes =
+    newQuota > 0
+      ? await db
+          .select()
+          .from(userCards)
+          .innerJoin(cards, eq(cards.id, userCards.cardId))
+          .where(
+            and(
+              eq(userCards.userId, opts.userId),
+              eq(userCards.state, 'new'),
+              eq(userCards.suspended, false),
+              opts.lessonId ? eq(userCards.lessonId, opts.lessonId) : undefined
+            )
+          )
+          .orderBy(asc(userCards.createdAt))
+          .limit(newQuota)
+      : [];
 
   return interleave(due, newOnes);
 }
@@ -703,7 +773,7 @@ const submitSchema = z.object({
   rating: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
   durationMs: z.number().int().min(0).max(600_000),
   clientReviewId: z.string().min(1).max(128),
-  reviewType: z.enum(['flashcard','mcq','typing','listening']).default('flashcard')
+  reviewType: z.enum(['flashcard', 'mcq', 'typing', 'listening']).default('flashcard'),
 });
 
 export async function submitReview(input: z.infer<typeof submitSchema>) {
@@ -718,32 +788,32 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
     where: and(
       eq(reviewLogs.userId, userId),
       eq(reviewLogs.clientReviewId, parsed.data.clientReviewId)
-    )
+    ),
   });
   if (existing) return { ok: true, data: existing };
 
   return await db.transaction(async (tx) => {
     const uc = await tx.query.userCards.findFirst({
-      where: and(
-        eq(userCards.id, parsed.data.userCardId),
-        eq(userCards.userId, userId)
-      )
+      where: and(eq(userCards.id, parsed.data.userCardId), eq(userCards.userId, userId)),
     });
     if (!uc) return { ok: false, error: 'not_found' as const };
 
     const stateBefore = toFSRSCard(uc);
     const next = scheduleNext(uc, parsed.data.rating);
 
-    const [log] = await tx.insert(reviewLogs).values({
-      userId,
-      userCardId: uc.id,
-      rating: parsed.data.rating,
-      durationMs: parsed.data.durationMs,
-      stateBefore,
-      stateAfter: next,
-      reviewType: parsed.data.reviewType,
-      clientReviewId: parsed.data.clientReviewId
-    }).returning();
+    const [log] = await tx
+      .insert(reviewLogs)
+      .values({
+        userId,
+        userCardId: uc.id,
+        rating: parsed.data.rating,
+        durationMs: parsed.data.durationMs,
+        stateBefore,
+        stateAfter: next,
+        reviewType: parsed.data.reviewType,
+        clientReviewId: parsed.data.clientReviewId,
+      })
+      .returning();
 
     await tx.update(userCards).set(next).where(eq(userCards.id, uc.id));
 
@@ -759,6 +829,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ## Phần 5: Wireframes
 
 ### 5.1 Dashboard `/`
+
 ```
 ┌─────────────────────────────────────────────────┐
 │  Logo        Search (⌘K)         🌙  👤        │
@@ -782,6 +853,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### 5.2 Review `/review` (mặt trước)
+
 ```
 ┌─────────────────────────────────────────────────┐
 │  ✕                Progress: 12 / 50            │
@@ -796,6 +868,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### 5.3 Review (mặt sau)
+
 ```
 ┌─────────────────────────────────────────────────┐
 │  ephemeral  /ɪˈfem.ər.əl/  🔊  adj             │
@@ -818,25 +891,27 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### 5.4 Keyboard shortcuts
-| Key | Action |
-|---|---|
-| `Space` / `Enter` | Flip card |
-| `1` / `J` | Again |
-| `2` / `K` | Hard |
-| `3` / `L` | Good |
-| `4` / `;` | Easy |
-| `R` | Replay audio |
-| `E` | Edit card |
-| `S` | Suspend |
-| `U` | Undo last |
-| `⌘K` | Command palette |
-| `Esc` | Exit review |
+
+| Key               | Action          |
+| ----------------- | --------------- |
+| `Space` / `Enter` | Flip card       |
+| `1` / `J`         | Again           |
+| `2` / `K`         | Hard            |
+| `3` / `L`         | Good            |
+| `4` / `;`         | Easy            |
+| `R`               | Replay audio    |
+| `E`               | Edit card       |
+| `S`               | Suspend         |
+| `U`               | Undo last       |
+| `⌘K`              | Command palette |
+| `Esc`             | Exit review     |
 
 ---
 
 ## Phần 6: Roadmap 6 tuần
 
 ### Tuần 1 — Foundation
+
 ```
 [ ] Init Next.js 15 + TS strict + Tailwind v4
 [ ] Setup Supabase project
@@ -853,6 +928,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### Tuần 2 — Content & Seed
+
 ```
 [ ] Tạo content/collections/oxford-3000/ với 2-3 lesson pilot
 [ ] Gen 60-90 từ bằng Claude desktop (free)
@@ -865,6 +941,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### Tuần 3 — SRS Core
+
 ```
 [ ] Cài ts-fsrs, viết features/srs/
 [ ] Review queue algorithm + tests
@@ -880,6 +957,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### Tuần 4 — Dashboard & Stats
+
 ```
 [ ] Streak calculation (timezone-aware, date-fns-tz)
 [ ] Heatmap component (react-calendar-heatmap)
@@ -890,6 +968,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### Tuần 5 — Minigames + Polish
+
 ```
 [ ] MCQ mode: 4 đáp án (1 đúng + 3 distractors cùng lesson)
 [ ] Typing mode (gõ word khi thấy nghĩa)
@@ -902,6 +981,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ```
 
 ### Tuần 6 — Scale content + ship
+
 ```
 [ ] Gen thêm 500-1000 từ (Claude desktop, nhiều batch)
 [ ] CSV import UI
@@ -918,19 +998,19 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 
 ## Phần 7: Pitfalls đã biết — fix sẵn
 
-| Bẫy | Giải pháp |
-|---|---|
-| Streak lệch ngày do timezone | Lưu `due` UTC. Tính streak theo `profiles.timezone` dùng `date-fns-tz`. `last_active_date` lưu `YYYY-MM-DD` ở TZ user. |
-| Double-submit review khi mạng yếu | `clientReviewId` (uuid v4 client gen) + unique index `(user_id, client_review_id)` trên `review_logs`. Submit lần 2 → return log cũ. |
-| Content sai sau gen | `content_version` trên `cards`. UI cho admin edit. User override qua `user_cards.notes`. |
-| User học quá nhiều card mới | `daily_new_cards` cap 20. Đếm new learned today trước khi serve new cards. |
-| FSRS params chưa optimal | `fsrs_version` cột. Sau ~1000 reviews chạy FSRS optimizer trên `review_logs` để tune `request_retention`. |
-| Supabase free hết | Cron GitHub Actions daily: `pg_dump` → upload artifact. Nâng cấp $25/mo khi >500MB. |
-| Audio TTS inconsistent | Web Speech API mỗi browser khác. Tương lai: pre-gen audio (ElevenLabs/Coqui) → cache Supabase Storage. |
-| Lessons cardCount lệch sau insert | Trigger SQL hoặc tính trong seed script — đừng tin client cập nhật. |
-| Server Action lỗi nhưng UI tưởng OK | Server Actions luôn return `{ ok: boolean, error?, data? }` — không throw. Client check `ok` trước khi optimistic update final. |
-| Drizzle migrations conflict khi solo dev nhiều máy | Chỉ chạy `drizzle-kit generate` trên 1 máy chính. Commit migration files vào git. |
-| Loading flashcard nháy ảnh placeholder | Preload next 3 cards trong queue. Component dùng `<Suspense>` boundary. |
+| Bẫy                                                | Giải pháp                                                                                                                            |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Streak lệch ngày do timezone                       | Lưu `due` UTC. Tính streak theo `profiles.timezone` dùng `date-fns-tz`. `last_active_date` lưu `YYYY-MM-DD` ở TZ user.               |
+| Double-submit review khi mạng yếu                  | `clientReviewId` (uuid v4 client gen) + unique index `(user_id, client_review_id)` trên `review_logs`. Submit lần 2 → return log cũ. |
+| Content sai sau gen                                | `content_version` trên `cards`. UI cho admin edit. User override qua `user_cards.notes`.                                             |
+| User học quá nhiều card mới                        | `daily_new_cards` cap 20. Đếm new learned today trước khi serve new cards.                                                           |
+| FSRS params chưa optimal                           | `fsrs_version` cột. Sau ~1000 reviews chạy FSRS optimizer trên `review_logs` để tune `request_retention`.                            |
+| Supabase free hết                                  | Cron GitHub Actions daily: `pg_dump` → upload artifact. Nâng cấp $25/mo khi >500MB.                                                  |
+| Audio TTS inconsistent                             | Web Speech API mỗi browser khác. Tương lai: pre-gen audio (ElevenLabs/Coqui) → cache Supabase Storage.                               |
+| Lessons cardCount lệch sau insert                  | Trigger SQL hoặc tính trong seed script — đừng tin client cập nhật.                                                                  |
+| Server Action lỗi nhưng UI tưởng OK                | Server Actions luôn return `{ ok: boolean, error?, data? }` — không throw. Client check `ok` trước khi optimistic update final.      |
+| Drizzle migrations conflict khi solo dev nhiều máy | Chỉ chạy `drizzle-kit generate` trên 1 máy chính. Commit migration files vào git.                                                    |
+| Loading flashcard nháy ảnh placeholder             | Preload next 3 cards trong queue. Component dùng `<Suspense>` boundary.                                                              |
 
 ---
 
@@ -939,6 +1019,7 @@ export async function submitReview(input: z.infer<typeof submitSchema>) {
 ### Khi bắt đầu session mới với AI agent
 
 Paste prompt sau làm system context:
+
 ```
 Tôi đang build Vocab Learning Web theo blueprint ở VOCAB_APP_BLUEPRINT.md.
 Stack đã chốt: Next.js 15 + Supabase + Drizzle + shadcn/ui + ts-fsrs.

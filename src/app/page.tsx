@@ -11,9 +11,7 @@ export default function HomePage() {
       <div className="mt-8 rounded-md border border-dashed p-4 text-sm">
         <p className="font-medium">Trạng thái</p>
         <ul className="mt-2 list-inside list-disc space-y-1 text-zinc-500">
-          <li>
-            Code base: Next.js 15 + TS strict + Tailwind v4 + Drizzle + Supabase clients.
-          </li>
+          <li>Code base: Next.js 15 + TS strict + Tailwind v4 + Drizzle + Supabase clients.</li>
           <li>Schema DB: full theo blueprint, chưa push lên Supabase.</li>
           <li>
             Tiếp theo: cấp Supabase keys (xem{' '}
