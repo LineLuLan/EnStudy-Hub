@@ -10,6 +10,7 @@ import { ClozeCard } from './cloze-card';
 import { FlashcardFlip } from './flashcard-flip';
 import { MCQCard } from './mcq-card';
 import { ModePicker } from './mode-picker';
+import { TypingCard } from './typing-card';
 
 export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[] }) {
   const router = useRouter();
@@ -48,9 +49,10 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
   }
 
   const isMultiWord = current.card.word.includes(' ');
-  // Cloze typing only makes sense for single-word cards; multi-word falls back
-  // to flashcard flip. MCQ works regardless of word length.
-  const effectiveMode = mode === 'cloze' && isMultiWord ? 'cloze-multiword' : mode;
+  // Cloze/Typing both require letter-by-letter input; multi-word phrases fall
+  // back to flashcard flip. MCQ works regardless of word length.
+  const effectiveMode =
+    (mode === 'cloze' || mode === 'typing') && isMultiWord ? 'multiword-fallback' : mode;
 
   return (
     <div className="space-y-5">
@@ -65,10 +67,15 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
             <>
               <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chọn đáp án
             </>
-          ) : effectiveMode === 'cloze-multiword' ? (
+          ) : effectiveMode === 'multiword-fallback' ? (
             <>
               <kbd className="rounded border px-1 font-mono text-[10px]">Space</kbd> lật ·{' '}
               <kbd className="rounded border px-1 font-mono text-[10px]">1-4</kbd> chấm
+            </>
+          ) : effectiveMode === 'typing' ? (
+            <>
+              gõ từ từ nghĩa · <kbd className="rounded border px-1 font-mono text-[10px]">?</kbd>{' '}
+              hint · <kbd className="rounded border px-1 font-mono text-[10px]">Esc</kbd> bỏ qua
             </>
           ) : (
             <>
@@ -86,12 +93,19 @@ export function ReviewSession({ initialQueue }: { initialQueue: ReviewQueueItem[
           onGrade={(g) => startTransition(() => void handleRate(g))}
           pending={pending}
         />
-      ) : effectiveMode === 'cloze-multiword' ? (
+      ) : effectiveMode === 'multiword-fallback' ? (
         <MultiWordFallback
           item={current}
           flipped={flipped}
           onFlip={flip}
           onRate={(g) => startTransition(() => void handleRate(g))}
+          pending={pending}
+        />
+      ) : effectiveMode === 'typing' ? (
+        <TypingCard
+          key={`typing-${current.userCard.id}`}
+          item={current}
+          onGrade={(g) => startTransition(() => void handleRate(g))}
           pending={pending}
         />
       ) : (

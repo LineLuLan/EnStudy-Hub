@@ -36,6 +36,7 @@ module.exports = {
         'docs',
         'deps',
         'config',
+        'review',
       ],
     ],
     'subject-case': [0],
