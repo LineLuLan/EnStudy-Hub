@@ -44,9 +44,7 @@ export const cardContentSchema = z.object({
 export type CardContent = z.infer<typeof cardContentSchema>;
 
 export const lessonContentSchema = z.object({
-  slug: z
-    .string()
-    .regex(/^[a-z0-9-]+$/, 'slug must be lowercase kebab-case'),
+  slug: z.string().regex(/^[a-z0-9-]+$/, 'slug must be lowercase kebab-case'),
   name: z.string().min(1),
   description: z.string().optional(),
   order_index: z.number().int().nonnegative().default(0),

@@ -24,6 +24,7 @@ main          (production, never push thẳng)
 ## 2. Daily workflow (solo dev)
 
 ### Khi bắt đầu task BE
+
 ```bash
 git checkout be
 git pull
@@ -35,6 +36,7 @@ git push origin be
 ```
 
 ### Khi bắt đầu task FE
+
 ```bash
 git checkout fe
 git pull
@@ -46,6 +48,7 @@ git push origin fe
 ```
 
 ### Khi muốn integrate (`be`/`fe` → `dev`)
+
 ```bash
 git checkout dev
 git pull
@@ -56,6 +59,7 @@ git push origin dev
 ```
 
 ### Khi release (`dev` → `main`)
+
 ```bash
 # verify
 git checkout dev
@@ -72,17 +76,18 @@ git push origin v0.X.Y
 
 ## 3. Quy tắc bất di bất dịch
 
-| Quy tắc | Lý do |
-|---|---|
-| KHÔNG `git rebase` `main`, `dev`, `be`, `fe` | Mất history, conflict 3-way phức tạp |
-| KHÔNG `git push --force` lên 4 nhánh trên | Phá history remote, mất commit của session khác |
-| KHÔNG `git reset --hard` trên 4 nhánh trên | Mất commit không phục hồi được |
-| Undo bằng `git revert <sha>` | Tạo commit mới đảo ngược, history vẫn nguyên |
-| Conflict tay vào resolve, commit thường | Đơn giản, an toàn |
-| Merge bằng `--no-ff` (merge commit) | Giữ rõ "khi nào BE/FE meet" trong history |
-| Không commit `.env*` (trừ `.env.example`) | Lộ secrets |
+| Quy tắc                                      | Lý do                                           |
+| -------------------------------------------- | ----------------------------------------------- |
+| KHÔNG `git rebase` `main`, `dev`, `be`, `fe` | Mất history, conflict 3-way phức tạp            |
+| KHÔNG `git push --force` lên 4 nhánh trên    | Phá history remote, mất commit của session khác |
+| KHÔNG `git reset --hard` trên 4 nhánh trên   | Mất commit không phục hồi được                  |
+| Undo bằng `git revert <sha>`                 | Tạo commit mới đảo ngược, history vẫn nguyên    |
+| Conflict tay vào resolve, commit thường      | Đơn giản, an toàn                               |
+| Merge bằng `--no-ff` (merge commit)          | Giữ rõ "khi nào BE/FE meet" trong history       |
+| Không commit `.env*` (trừ `.env.example`)    | Lộ secrets                                      |
 
 ### Hook tự động (sau khi cài Husky ở Phase 0)
+
 - `pre-commit`: `lint-staged` chạy ESLint + Prettier trên file đã stage.
 - `commit-msg`: `commitlint` chặn message sai format.
 
@@ -91,6 +96,7 @@ git push origin v0.X.Y
 ## 4. Commit convention (Conventional Commits)
 
 Format:
+
 ```
 <type>(<scope>): <subject>
 
@@ -100,6 +106,7 @@ Format:
 ```
 
 ### Types
+
 - `feat`: tính năng mới
 - `fix`: sửa bug
 - `chore`: maintenance (deps, config, no logic change)
@@ -112,9 +119,11 @@ Format:
 - `build`: build system
 
 ### Scopes ưu tiên
+
 - `srs`, `vocab`, `auth`, `db`, `ui`, `content`, `seed`, `infra`, `docs`
 
 ### Ví dụ
+
 ```
 feat(srs): add fsrs scheduler wrapper
 fix(auth): handle expired magic link token
@@ -124,6 +133,7 @@ refactor(vocab): extract enrollLesson to features layer
 ```
 
 ### Body khi cần
+
 ```
 feat(srs): add review queue interleaving
 
@@ -162,6 +172,7 @@ Nếu conflict trong `package.json` lock → xóa `pnpm-lock.yaml`, chạy `pnpm
 ## 7. PR template (`.github/PULL_REQUEST_TEMPLATE.md` — sẽ tạo)
 
 Khi tạo PR (chủ yếu `dev → main`):
+
 - Branch from / Branch to
 - Tóm tắt 2-3 dòng
 - Checklist:

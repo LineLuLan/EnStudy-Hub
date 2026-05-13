@@ -5,6 +5,350 @@
 
 ---
 
+## 2026-05-13 (tối, tiếp theo 3) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 4 polish — ĐÓNG Tuần 5)
+
+**Mục tiêu session**: Chunk 4 = polish + đóng Tuần 5. Toast milestones (streak, daily limit), skeleton update, empty state cải thiện.
+
+**Đã hoàn thành (commit `e794630` trên fe → merge `73f6b56` lên dev). Chưa sync xuống `be` (sẽ sync bulk khi prep v0.2.0 release).**
+
+**Files edit (3):**
+
+- `src/app/(app)/review/page.tsx`:
+  - `Promise.all([getReviewQueue, getStreak])` parallel fetch
+  - Derive `isFirstReviewToday = streak.lastActiveDate === null || streak.lastActiveDate < today` (today = `todayKey(new Date(), streak.timezone)`)
+  - Pass mới 4 props vào `<ReviewSession>`: `newLearnedToday`, `dailyNewLimit`, `isFirstReviewToday`, `currentStreak`
+  - Empty state polished: 2 CTA buttons (BookOpen Xem decks / link Về dashboard) thay inline link đơn
+
+- `src/components/review/review-session.tsx`:
+  - Signature mới: `{ initialQueue, newLearnedToday, dailyNewLimit, isFirstReviewToday, currentStreak }`
+  - 3 refs cho dedupe milestone: `streakToastedRef`, `limitToastedRef`, `newCardsThisSessionRef`
+  - `handleRate(grade)`:
+    - Capture `cardBefore = queue[currentIndex]` + `wasNewCard = state==='new'` TRƯỚC khi gọi `rate()` (store sẽ advance)
+    - `await rate(grade)` → return early nếu fail (toast error giữ nguyên)
+    - **Milestone 1 (streak start of day)**: `if (!streakToastedRef.current && isFirstReviewToday)` → `toast.success('🔥 Streak ${currentStreak+1} ngày! Bắt đầu ngày học mới.')` + set ref
+    - **Milestone 2 (daily new limit)**: `if (wasNewCard) newCardsThisSessionRef.current++` → kiểm tra `newLearnedToday + newCardsThisSession >= dailyNewLimit` → `toast.info('🎯 Đã đạt mục tiêu N thẻ mới hôm nay', { description: 'thẻ mới sẽ mở lại ngày mai' })` + set ref
+  - Refs (KHÔNG state) vì 2 lý do: (a) write-once flag không cần render churn, (b) không serialize qua Zustand persist
+
+- `src/app/(app)/review/loading.tsx`: skeleton update
+  - Thêm mode picker pill row (4 placeholder rounded-md)
+  - Bỏ rating row (4 buttons grid) vì các mode mới auto-grade, không hiển thị rating buttons mặc định ở phase typing
+  - Card area giữ nguyên `h-[320px] rounded-xl`
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (KHÔNG thêm test — toast triggers là deterministic từ server props, manual test ok)
+- `pnpm dev` ✓ vẫn live
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                                                 |
+| ------ | --------- | ---------------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                        |
+| dev    | `73f6b56` | Tuần 5 chunk 4 polish — Tuần 5 ĐÓNG, sẵn ship v0.2.0 |
+| be     | `eb6ec8f` | pending bulk sync Tuần 5 ch1..4 trước khi release    |
+| fe     | `e794630` | base Tuần 5 chunk 4 polish                           |
+
+**TUẦN 5 ĐÃ ĐÓNG — sẵn ship `dev → main` tag `v0.2.0`:**
+
+Hoàn thành full Tuần 5:
+
+- ✅ Chunk 1: Mode Picker scaffold + MCQ mode (4-choice) + distractorPool BE + tests +23
+- ✅ Chunk 2: Typing-from-definition mode (TypingCard reuse cloze grade heuristic)
+- ✅ Chunk 3: Listening mode (Web Speech API auto-play + Space replay + no-support fallback)
+- ✅ Chunk 4: Toast milestones (streak start-of-day + daily new-limit) + skeleton update + empty state CTA
+
+**4 minigame modes giờ live**:
+
+1. **Cloze** (Tuần 3): sentence với blank, gõ word từ context
+2. **Trắc nghiệm/MCQ** (Tuần 5 ch1): show word + IPA, 4 nghĩa VN
+3. **Gõ nghĩa/Typing** (Tuần 5 ch2): show meaning_vi, gõ word
+4. **Nghe/Listening** (Tuần 5 ch3): TTS phát word, gõ word
+
+**Pre-release v0.2.0 checklist (next session):**
+
+1. `git checkout be && git merge --no-ff dev -m "sync: dev -> be (Tuan 5 closed)"` — bulk catch up
+2. `pnpm build` production verify — đảm bảo build pass, đo bundle size /review (predict ~150-180kB First Load do 4 minigame components share framer-motion + lucide-react)
+3. Manual E2E full lap qua 4 modes: login → /review → switch Cloze→MCQ→Typing→Listening, mỗi mode submit 1-2 thẻ → /review/summary → /dashboard streak update
+4. SQL spot check: `SELECT review_type, COUNT(*) FROM review_logs GROUP BY review_type` — phải có 'typing' + 'mcq' + 'listening' rows
+5. Toast verify: F5 trang đã review → second time KHÔNG toast streak (vì `isFirstReviewToday` giờ false). Daily limit toast fire nếu enroll deck mới + ôn đủ N thẻ mới
+6. PR `dev → main` qua GitHub UI, self-review, merge với `--no-ff`, tag `v0.2.0` "Dashboard + Stats + Settings + Minigames"
+
+**Pending cho Tuần 6**:
+
+- Scale content: gen 500-1000 cards (P1 + P2 batches qua Claude desktop)
+- CSV import UI
+- Card editing UI (admin tools cho personal use)
+- Suspend/bury cards
+- Personal notes per card (textarea trong card detail)
+- Mobile responsive QA — minigame layouts cần test trên 375px screen
+- Lighthouse > 90 (perf + a11y)
+- GitHub Actions: cron daily DB backup (`pg_dump` qua scheduled workflow)
+- README.md update
+- Tag `v1.0.0`
+
+**Refactor nợ kỹ thuật**: 3 cards (Cloze/Typing/Listening) share ~70% state machine. Tuần 6 cleanup có thể abstract `<WordTypingArea>` — defer, không urgency.
+
+---
+
+## 2026-05-13 (tối, tiếp theo 2) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 3: Listening mode)
+
+**Mục tiêu session**: Chunk 3 = mode Nghe — auto-phát word qua Web Speech API, user gõ lại theo audio cue (giống dictation). Cùng tốc độ với Chunk 1+2 sáng nay.
+
+**Đã hoàn thành (commit `063abca` trên fe → merge `68bec35` lên dev). Chưa sync xuống `be` (defer đến khi đóng Tuần 5).**
+
+**File mới (1):**
+
+- `src/components/review/listening-card.tsx` (~570 line, client): ListeningCard component
+  - Top section: label "Nghe phát âm", nút tròn 20x20 (Volume2 icon) ở giữa, dưới là kbd hint "Space để phát lại" + pos/cefr badge. Nút có Framer Motion `scale` pulse animation 0.8s loop khi `playing=true`
+  - State `playing: boolean` — set true khi gọi `playWord`, auto-clear sau heuristic `min(2200, max(500, word.length * 250))` ms vì Web Speech `'end'` event không fire reliable trên Firefox/Safari
+  - `playWord` callback gọi `speakWord(word)` + set playing + return cleanup
+  - Auto-play on mount: `useEffect([card.id])` check support → play hoặc setSupported(false) + toast warning
+  - Unlock cũng replay audio (user nghe word kèm reveal panel)
+  - Keyboard handler: trong `phase==='typing'` Space = replay (override default), Esc/?/Backspace/letter giống Typing. Trong `phase==='unlocked'` Space = submit derived grade (giữ behavior Cloze/Typing)
+  - **No-support fallback**: nếu `'speechSynthesis' in window === false` → `setSupported(false)`, `toast.warning("Trình duyệt không hỗ trợ phát âm. Xem chính tả ở dưới rồi gõ lại để luyện.")`, render VolumeX icon disabled + show word trong mono badge `<div className="bg-zinc-100 font-mono">{word}</div>` để card không deadlock
+  - Slots full-hidden qua `fullHiddenMask(word)` (local helper)
+  - Unlock reveal: word + IPA + Volume2 nút (replay), full firstDef (en + vi), 2 examples, mnemonic, 2s countdown bar, 1-4 override grade
+  - Reuse `gradeFromCloze` + `speakWord` + `MaskSlot` từ `cloze-utils.ts`
+
+**Files edit:**
+
+- `src/components/review/mode-picker.tsx`: `{ id: 'listening', enabled: true }` (drop hint "Sắp có"). Tất cả 4 mode giờ live
+- `src/components/review/review-session.tsx`:
+  - Import `<ListeningCard>`
+  - `effectiveMode` rule mở rộng: `(cloze OR typing OR listening) + multi-word → 'multiword-fallback'`
+  - Branch render: thêm nhánh `effectiveMode === 'listening' → <ListeningCard key={listening-${id}}>`
+  - Hint text top: "Space phát lại · gõ từ · ? hint" cho mode listening
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (KHÔNG thêm test mới — Listening reuse 100% logic đã test)
+- `pnpm dev` chưa stop, vẫn live
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                                 |
+| ------ | --------- | ------------------------------------ |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)        |
+| dev    | `68bec35` | Tuần 5 chunk 3 Listening mode merged |
+| be     | `eb6ec8f` | chưa sync (defer đến hết Tuần 5)     |
+| fe     | `063abca` | base Tuần 5 chunk 3                  |
+
+**Manual E2E checklist mới (browser):**
+
+1. `pnpm dev` → login → `/review` (đã có queue)
+2. Click **Nghe** trong picker → ListeningCard render
+3. TTS auto-play ngay → speaker icon pulse trong 1-2s
+4. Bấm Space → replay
+5. Gõ word theo audio cue → mỗi letter đúng → slot fill, sai → shake + mistake counter
+6. Word complete → unlock phase: word + IPA + replay audio, full meaning + examples + mnemonic, auto-submit Good sau 2s
+7. Bấm `?` để hint (hintsUsed++) hoặc Esc để give-up (gaveUp → Again)
+8. Test no-speech: tạm thời disable speechSynthesis trong DevTools (`speechSynthesis = undefined`) hoặc test Firefox với TTS off → toast warning hiện + speaker icon đổi sang VolumeX disabled + word hiện trong mono badge dưới
+9. SQL check: `SELECT review_type, rating FROM review_logs ORDER BY reviewed_at DESC LIMIT 5;` → thấy `review_type='listening'`
+10. Tuần 5 đến đây có **3 minigame** (MCQ, Typing, Listening) + **Cloze** (Tuần 3) — đủ 4 mode trong blueprint Tuần 5
+
+**Refactor nợ kỹ thuật (sau Tuần 5)**:
+3 cards (ClozeCard, TypingCard, ListeningCard) share ~70% state machine + keyboard + unlock panel. Có thể abstract thành `<WordTypingArea>` với props customizable cho prompt area (sentence-blank / definition / audio button). **Defer** — Chunk 4 (polish) hoặc Tuần 6 cleanup. Hiện không urgency vì 3 file ổn định, bug-free trong 1 session.
+
+**Pending cho Chunk 4 — Polish (chunk cuối Tuần 5)**:
+
+- Toast milestones:
+  - Streak +1 khi user complete review đầu tiên trong ngày (kiểm tra `lastActiveDate` qua `getStreak`)
+  - Lesson complete khi tất cả cards trong 1 lesson đạt `state='review'` (mature)
+  - Daily limit reached khi `newLearnedToday >= dailyNewLimit`
+- Skeleton screens: `app/(app)/review/loading.tsx` hiện simple — cải thiện match new layout (mode picker pill + card section)
+- Empty states: `/review` empty state đã có (link `/decks`). `/dashboard` enrolled list có. Có thể add suggested deck link trong `/review` empty state khi user chưa enroll gì
+- Skeleton cho card area khi đổi mode đột ngột (Suspense boundary?)
+
+**Pending cho v0.2.0 release**: vẫn defer đến hết Tuần 5. Khi xong Chunk 4 → tag `v0.2.0` "Dashboard + Stats + Settings + Minigames".
+
+---
+
+## 2026-05-13 (tối, tiếp theo) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 2: Typing-from-definition)
+
+**Mục tiêu session**: Mở Chunk 2 của Tuần 5 ngay sau khi Chunk 1 ship — minigame thứ 2 = gõ word từ definition (khác Cloze: Cloze có sentence với blank, Typing chỉ có meaning_vi làm cue).
+
+**Đã hoàn thành (commit `fe1861a` trên fe → merge `b4e062d` lên dev). Chưa sync xuống `be` (defer đến khi đóng Tuần 5).**
+
+**File mới (1):**
+
+- `src/components/review/typing-card.tsx` (~485 line, client): TypingCard component
+  - Top section: `<div className="text-center">` với "Nghĩa tiếng Việt" label + meaning_vi 2xl semibold + meaning_en italic xs + pos/cefr badge
+  - Slots: `<TypingSlots>` đặt giữa với shake wrapper, full-hidden mask qua `fullHiddenMask(word)` — KHÁC Cloze ở chỗ Cloze A1/A2 cho hint vowels/first-last, Typing thì ép hidden hoàn toàn (vì không có sentence context để "cheat")
+  - State machine giống Cloze: `phase: 'typing' | 'unlocked'`, `input`, `hintsUsed`, `mistakes`, `gaveUp`, `shakeKey`, `mountedAtRef`, `submittedRef`
+  - Doc-level keydown handler giống Cloze (đoạn typing): letter match → advance, mismatch → mistake + shake, `?` hint, Esc give-up, Backspace xóa, auto-fill non-letter chars (apostrophe/hyphen)
+  - Unlock reveal panel: glassmorphism với word + IPA + Volume2 → speakWord, 2 examples, mnemonic, 2s countdown bar, 1-4 override grade
+  - Reuse từ `cloze-utils.ts`: `gradeFromCloze` (heuristic), `speakWord` (TTS), `MaskSlot` (type) — KHÔNG duplicate grade logic
+
+**Files edit:**
+
+- `src/components/review/mode-picker.tsx`: `{ id: 'typing', enabled: true }` (drop hint)
+- `src/components/review/review-session.tsx`:
+  - Import `<TypingCard>`
+  - `effectiveMode` logic: `(cloze OR typing) + multi-word → 'multiword-fallback'` (đổi tên từ `cloze-multiword`)
+  - Branch render: thêm nhánh `effectiveMode === 'typing' → <TypingCard key={typing-${id}}>` (key prefix khác nhau giúp React rebuild khi đổi mode)
+  - Hint text: "gõ từ từ nghĩa · ? hint · Esc bỏ qua" cho mode typing
+- `commitlint.config.cjs`: add `'review'` vào `scope-enum` (Chunk 1 commit warn vì `feat(review):`)
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 72/72 (KHÔNG thêm test mới — TypingCard reuse `gradeFromCloze` đã có 7 tests trong `cloze-utils.test.ts`, không lib mới)
+- `pnpm dev` chưa stop, dev server vẫn live từ session trước
+
+**Trạng thái nhánh:**
+
+| Branch | SHA       | Note                                  |
+| ------ | --------- | ------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)         |
+| dev    | `b4e062d` | Tuần 5 chunk 2 typing-from-def merged |
+| be     | `eb6ec8f` | chưa sync (defer đến hết Tuần 5)      |
+| fe     | `fe1861a` | base Tuần 5 chunk 2                   |
+
+**Manual E2E checklist mới (browser):**
+
+1. `pnpm dev` → login → `/review` (đã có queue)
+2. Click **Gõ nghĩa** trong picker → card đổi sang TypingCard
+3. Top hiện meaning_vi to (vd: "con mèo") + meaning_en italic + pos/cefr badge
+4. Slots `[_ _ _]` ở giữa, hint area dưới
+5. Gõ "cat" — mỗi letter đúng → slot fill, sai → shake + mistake counter
+6. Word complete → unlock phase: word + IPA + Volume2 phát "cat", auto-submit Good sau 2s
+7. Bấm `?` để hint thêm 1 letter (hintsUsed++)
+8. Bấm Esc để give-up → auto rating Again
+9. Test edge: nếu queue có thẻ multi-word (hiếm, P0 không có) → fallback flashcard flip thay vì TypingCard
+10. SQL check: `SELECT review_type, rating FROM review_logs ORDER BY reviewed_at DESC LIMIT 5;` — thấy `review_type='typing'` cho cả Cloze và Typing (cùng enum, khác mode FE)
+
+**Refactor tiềm năng (defer)**:
+TypingCard và ClozeCard share ~70% code (state machine + keyboard + unlock panel). Có thể trừu tượng `<WordTypingArea>` chia sẻ logic, nhưng giờ KHÔNG urgency — chunk 2 ưu tiên ship sản phẩm hơn DRY. Nếu Chunk 3 (Listening) cũng share pattern này thì refactor sẽ rõ ràng hơn.
+
+**Pending cho Chunk 3 (next session) — Listening mode**:
+
+- Top: nút lớn "🔊 Nghe" + small "Bấm phím Space để phát lại"
+- Auto-phát `speakWord(card.word)` on mount + Space replay
+- Hide định nghĩa hoàn toàn (chỉ pos/cefr badge)
+- Input slots như TypingCard (full hidden)
+- Submit → unlock reveal (word + IPA + def + examples)
+- `reviewType: 'listening'` (đã sẵn enum)
+- Enable button trong ModePicker
+- Edge case: browser không có speechSynthesis → toast cảnh báo + fallback show word (degraded UX)
+
+**Pending cho Chunk 4 — Polish**:
+
+- Toast milestones: streak +1, lesson complete, daily limit reached
+- Skeleton screens: cải thiện `review/loading.tsx` match new layout (mode picker + card)
+- Empty states: hiện ổn, nhưng có thể add suggested deck links
+
+**Pending cho v0.2.0 release**: vẫn defer đến hết Tuần 5.
+
+---
+
+## 2026-05-13 (tối) — fe → dev — Claude Opus 4.7 (Tuần 5 chunk 1: Mode Picker + MCQ mode)
+
+**Mục tiêu session**: Mở Tuần 5 với chunk 1 = Mode Picker scaffolding + MCQ mode đầu tiên — đụng đủ chain (BE queue → store → UI component → test) để xác nhận pattern Tuần 5 chạy trước khi scale sang Typing/Listening.
+
+**Đã hoàn thành (commit `2f6186e` trên fe → merge `dc7016a` lên dev). Chưa sync xuống `be` (BE không thay đổi, để sync lúc kết Tuần 5).**
+
+**Files mới (4):**
+
+- `src/components/review/mcq-card.tsx` (~180 line, client): MCQCard component
+  - Layout: word + IPA + POS + CEFR badge + Volume2 phát âm + prompt "Nghĩa nào đúng với từ này?" + 4 ChoiceButton grid (1-col mobile / sm:2-col)
+  - State: `selectedIndex: number | null`, `submittedRef` ngăn double-fire
+  - `assembleMcqChoices(correct, distractorPool)` qua useMemo (key card.id), trả về `{ choices, correctIndex }` shuffled
+  - Keyboard 1-4: pick choice (ignore khi đang focus input)
+  - Click → setState revealed → 900ms `setTimeout` → `onGrade(Rating.Good)` đúng / `onGrade(Rating.Again)` sai (binary grade vì MCQ chỉ có pass/fail signal)
+  - Reveal styling: correct → emerald, selected wrong → red, others → dim opacity-60
+  - Cleanup `speechSynthesis.cancel()` on unmount
+- `src/components/review/mcq-utils.ts` (~85 line, pure): helpers cho MCQ
+  - `shuffle<T>(arr, rng?)`: Fisher-Yates immutable
+  - `pickDistractors(correct, pool, n, rng?)`: case-insensitive dedupe + exclude correct + shuffle + slice n
+  - `assembleMcqChoices(correct, pool, rng?)`: ghép correct + 3 distractor + shuffle vị trí + return `correctIndex`
+  - `createSeededRng(seed)`: Mulberry32 cho test deterministic
+- `src/components/review/mcq-utils.test.ts` (12 tests): shuffle (immutable + deterministic + permutation), pickDistractors (case-insensitive exclude + dedupe + cap + empty pool + skip whitespace), assembleMcqChoices (correct exactly once + 4 distinct choices + shuffle position across 30 seeds + graceful fallback)
+- `src/components/review/mode-picker.tsx`: radiogroup component
+  - 4 buttons: Cloze (Pencil, active) / Trắc nghiệm (ListChecks, active) / Gõ nghĩa (Keyboard, disabled "Sắp có") / Nghe (Headphones, disabled "Sắp có")
+  - Pill style, active state đảo màu (`bg-zinc-900 text-zinc-50`), disabled state mờ + cursor-not-allowed + tooltip
+  - `aria-checked` + `role=radio` + `role=radiogroup` cho accessibility
+
+**Files edit:**
+
+- `src/features/srs/queue.ts`:
+  - `ReviewQueueItem` thêm `distractorPool: string[]`
+  - Sau khi fetch due+new: collect unique `lessonIds`, 1 SELECT bulk `cards WHERE lessonId IN (...)` → group by lessonId
+  - Per-item: `buildDistractorPool(siblings, card.id, selfMeaning, globalPool)` — fallback global pool khi lesson <4 cards
+- `src/features/srs/queue-utils.ts`: thêm 2 pure helpers
+  - `extractMeaningVi(defs)`: trim `definitions[0].meaning_vi`, null-safe (defensive vs jsonb)
+  - `buildDistractorPool(siblings, selfId, selfMeaning, globalPool)`: dedupe siblings (skip self + selfMeaning), top-up từ global khi <3 distinct, cap 8 candidates
+  - `SiblingMeaning = { cardId, meaningVi }` type export
+- `src/features/srs/queue.test.ts`: thêm 11 tests
+  - `extractMeaningVi`: trim, empty array, null, missing field, whitespace-only
+  - `buildDistractorPool`: exclude self card + meaning, dedupe meanings, siblings-only when ≥3, global fallback when <3, cap 8 from fat global, returns [] gracefully when pool exhausts, handles null self meaning
+- `src/stores/review-session.ts`:
+  - `ReviewMode = 'cloze' | 'mcq' | 'typing' | 'listening'` exported
+  - State thêm `mode: ReviewMode` (default 'cloze') + action `setMode(mode)` (reset cardStartedAt + flipped)
+  - `rate()` đọc `currentMode = s.mode`, append vào ReviewResult, truyền `reviewType: modeToReviewType(currentMode)` thay vì hard-code `'typing'`
+  - `modeToReviewType`: cloze/typing → 'typing', mcq → 'mcq', listening → 'listening' (Tuần 5 chunk 2 sẽ split typing-from-definition nếu cần)
+  - `partialize: { results, mode }` — F5 giữ pick
+  - `ReviewResult.mode?` optional cho backward compat (results cũ chưa có field này)
+- `src/components/review/review-session.tsx`:
+  - Render `<ModePicker>` trên đầu
+  - `effectiveMode`: nếu user chọn `cloze` mà thẻ multi-word → fallback `cloze-multiword` (flashcard flip)
+  - Branch render: `mcq` → `<MCQCard>`, `cloze-multiword` → `<MultiWordFallback>`, else → `<ClozeCard>`
+  - Hint text top thay đổi theo mode
+
+**Verify đã chạy:**
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings (next lint flat config)
+- `pnpm test` ✓ 72/72 (49 cũ + 23 mới: 11 queue-utils + 12 mcq-utils)
+- `pnpm dev` ✓ server up (browser verify thuộc về user trước khi mở chunk 2)
+
+**Commitlint note**: scope `review` chưa có trong enum `commitlint.config.cjs` — warning only, commit pass. Lần sau dùng scope `ui` hoặc `srs` (đã có). Chunk 2+ nên cân nhắc add scope `review` vào `commitlint.config.cjs`.
+
+**Trạng thái nhánh (sau cycle):**
+
+| Branch | SHA       | Note                                          |
+| ------ | --------- | --------------------------------------------- |
+| main   | `5fbd1c0` | v0.1.0-foundation (không đổi)                 |
+| dev    | `dc7016a` | Tuần 5 chunk 1 mode picker + MCQ merged       |
+| be     | `eb6ec8f` | chưa sync Tuần 5 ch1 (chỉ FE thay đổi, defer) |
+| fe     | `2f6186e` | base Tuần 5 chunk 1                           |
+
+**Manual E2E checklist cho user (browser, sau pull):**
+
+1. `pnpm dev` → login → `/review` (đảm bảo có queue, nếu hết: enroll deck mới ở `/decks`)
+2. Picker hiện ở top với 4 nút — Cloze active mặc định (pill đen)
+3. Click **Trắc nghiệm** → card đổi sang 4-choice MCQ. Word + IPA hiện trên, 4 nghĩa VN bên dưới
+4. Pick đúng → nút green flash, 900ms sau auto-advance, kiểm tra Supabase SQL: `SELECT review_type, rating, reviewed_at FROM review_logs ORDER BY reviewed_at DESC LIMIT 5;` → thấy `review_type='mcq'`, `rating=3`
+5. Pick sai → nút red, đáp án đúng cũng highlight green, advance với `rating=1` (Again)
+6. Bấm phím `1-4` thay vì click — phải work
+7. Click **Gõ nghĩa** / **Nghe** → disabled, không react, tooltip "Sắp có"
+8. F5 trang → mode đang chọn được giữ (kiểm `localStorage['review-session-results']` có `mode: 'mcq'`)
+9. Quay lại **Cloze** → cloze typing vẫn chạy bình thường, regression-free
+10. `/dashboard` sau session → streak/heatmap recompute đúng
+
+**Bundle impact** (chưa build production trong session này — chỉ dev verify):
+
+- `/review` sẽ tăng nhẹ vì MCQCard + ModePicker (lazy, không lib mới). Đo lúc build chunk cuối Tuần 5.
+
+**Pending cho Chunk 2 (next session)**: Typing-from-definition mode
+
+- Show `definitions[0].meaning_vi` ở top, ô input rỗng → user gõ word
+- Validate: case-insensitive, trim, accept hyphen/apostrophe đúng vị trí
+- Grade: 0 mistake + <5s → Good, 1-2 mistake → Hard, 3+ mistake / give-up → Again (tương tự `gradeFromCloze`)
+- Có thể tái dùng nhiều logic từ `cloze-utils.ts` — refactor ra `typing-utils.ts` chung
+- Enable nút "Gõ nghĩa" trong ModePicker (xóa disabled flag)
+- Quyết định: split `reviewType` thành `'typing'` (cloze) vs `'typing-def'` (mới) hay giữ chung — recommend giữ chung lần đầu, split nếu retention analytics cần
+
+**Pending cho v0.2.0 release** (sẵn từ Tuần 4 nhưng defer đến hết Tuần 5):
+
+- `dev → main` merge + tag `v0.2.0` — defer đến khi Tuần 5 polish xong để release "Minigames + Dashboard" thành 1 bản
+
+---
+
 ## 2026-05-13 (chiều muộn) — fe → dev → be — Claude Opus 4.7 (Tuần 4 chunk 4: /settings page + đóng Tuần 4)
 
 **Mục tiêu session**: build `/settings` form 3 sections để user chỉnh displayName / timezone / daily limits / theme. Đóng Tuần 4 sẵn ship `v0.2.0`.

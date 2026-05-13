@@ -55,8 +55,6 @@ export function assertSupabaseConfigured(context: string): void {
   const srv = typeof window === 'undefined' ? getServerEnv() : null;
   if (srv && !srv.DATABASE_URL) missing.push('DATABASE_URL');
   if (missing.length) {
-    throw new Error(
-      `[${context}] Missing env vars: ${missing.join(', ')}. See docs/API_KEYS.md.`
-    );
+    throw new Error(`[${context}] Missing env vars: ${missing.join(', ')}. See docs/API_KEYS.md.`);
   }
 }
