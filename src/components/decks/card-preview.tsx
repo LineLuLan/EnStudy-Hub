@@ -1,8 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, NotebookPen, PauseCircle } from 'lucide-react';
 import type { Card } from '@/lib/db/schema';
+import type { UserCardMeta } from '@/features/vocab/queries';
 import { cn } from '@/lib/utils/cn';
 
 type Definition = {
@@ -11,14 +12,21 @@ type Definition = {
   examples: Array<{ en: string; vi: string }>;
 };
 
-export function CardPreview({ card }: { card: Card }) {
+export function CardPreview({ card, userMeta }: { card: Card; userMeta?: UserCardMeta }) {
   const [open, setOpen] = useState(false);
 
   const definitions = (card.definitions as Definition[]) ?? [];
   const firstDef = definitions[0];
 
   return (
-    <article className="rounded-lg border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
+    <article
+      className={cn(
+        'rounded-lg border bg-white dark:bg-zinc-950',
+        userMeta?.suspended
+          ? 'border-amber-200 dark:border-amber-900/60'
+          : 'border-zinc-200 dark:border-zinc-800'
+      )}
+    >
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -37,6 +45,24 @@ export function CardPreview({ card }: { card: Card }) {
             {card.cefrLevel && (
               <span className="rounded bg-sky-100 px-1.5 py-0.5 text-[10px] font-medium text-sky-900 dark:bg-sky-950/40 dark:text-sky-200">
                 {card.cefrLevel}
+              </span>
+            )}
+            {userMeta?.hasNote && (
+              <span
+                className="inline-flex items-center gap-1 rounded bg-sky-100 px-1.5 py-0.5 text-[10px] font-medium text-sky-900 dark:bg-sky-900/30 dark:text-sky-200"
+                title="Bạn có ghi chú cho thẻ này"
+              >
+                <NotebookPen className="h-2.5 w-2.5" />
+                Note
+              </span>
+            )}
+            {userMeta?.suspended && (
+              <span
+                className="inline-flex items-center gap-1 rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-medium text-amber-900 dark:bg-amber-900/30 dark:text-amber-200"
+                title="Thẻ đang tạm dừng — bị ẩn khỏi queue ôn tập"
+              >
+                <PauseCircle className="h-2.5 w-2.5" />
+                Tạm dừng
               </span>
             )}
           </div>

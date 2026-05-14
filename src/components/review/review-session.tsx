@@ -31,6 +31,14 @@ const ListeningCard = dynamic(() => import('./listening-card').then((m) => m.Lis
 const FlashcardFlip = dynamic(() => import('./flashcard-flip').then((m) => m.FlashcardFlip), {
   loading: CardLoading,
 });
+// CardActions bundles textarea + lucide icons + server-action stub (~23 kB).
+// Collapsed by default, so lazy-load with a thin placeholder to keep the
+// /review First Load JS lean.
+const CardActions = dynamic(() => import('./card-actions').then((m) => m.CardActions), {
+  loading: () => (
+    <div className="h-9 animate-pulse rounded-md border border-zinc-200 dark:border-zinc-800" />
+  ),
+});
 
 export function ReviewSession({
   initialQueue,
@@ -197,6 +205,13 @@ export function ReviewSession({
           pending={pending}
         />
       )}
+
+      <CardActions
+        key={`actions-${current.userCard.id}`}
+        userCardId={current.userCard.id}
+        initialNote={current.userCard.notes}
+        initialSuspended={current.userCard.suspended}
+      />
     </div>
   );
 }
