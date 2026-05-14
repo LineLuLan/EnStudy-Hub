@@ -238,6 +238,15 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 10 user data export done** (2026-05-15, commit `1d3ace6` trên fe → merge `c62f0e3` lên dev → sync `2828d0f` xuống be):
+  - **Pre-v1.0.0 data portability** — cho user một-click JSON dump của personal data
+  - `features/auth/export-schema.ts`: pure types + `EXPORT_VERSION=1` + `exportFilename(userId, now)` helper. Filename pattern `enstudy-export-{8charPrefix}-{YYYY-MM-DD}.json` (UTC date cho deterministic naming)
+  - `features/auth/export.ts`: server action `exportUserData()` — fetch profile + user_stats + notes (filtered isNotNull + ne('')) + suspended cards (=true) + custom collections (ownerId=userId + isOfficial=false) → topics → lessons → cards. Join through để mỗi entry có slug context (lessonSlug, collectionSlug) — self-describing dump không leak UUIDs
+  - `components/settings/export-button.tsx`: client button calls server action → JSON.stringify pretty (2-space indent) → Blob + `<a download>` → URL.revokeObjectURL cleanup. Toast summary count notes + collections
+  - `/settings` page: section mới "Dữ liệu cá nhân" với description what's included
+  - **Excluded intentionally**: review_logs (huge, technical), user_cards FSRS state (không portable), official content (đã có trong seed). DB-level full dump qua GitHub Actions backup
+  - Tests: 5 mới — EXPORT_VERSION sanity + exportFilename (UTC date, 8-char id, format pattern). Tổng 127 → 132/132 pass
+  - Build: `/settings` **5.87 kB / 123 kB** (+0.6 kB Download icon + button). Khác routes không đổi
 - [x] **Chunk 9 UX polish bundle done** (2026-05-15, commit `c575710` trên fe → merge `d12a230` lên dev → sync `469f13a` xuống be):
   - **CSV template download** (defer chunk 3): `csv-import-form.tsx` nút "Tải CSV mẫu" (lucide Download) cạnh "Dùng mẫu thử". Sinh client-side Blob với header + 3 sample rows (breakfast noun A1, happy adjective A2, run verb A1) → trigger download via in-memory `<a href=blob:>` rồi `URL.revokeObjectURL`. Zero server roundtrip. +0.4 kB cho icon
   - **Toast lesson complete** (defer Tuần 5 ch4): `getReviewQueue` extend `meta.lessonNames: Record<lessonId, name>` (1 extra query trên lessonIds đã dedup). Page pipe xuống ReviewSession. Session track `lessonTotalsRef` (count từ initialQueue) + `lessonRatedRef` + `lessonCompleteToastedRef: Set`. On rate success → increment counter cho lessonId của card vừa rate; nếu reach total → `toast.success('🎉 Hoàn thành bài "X"!')` 5s, dedup qua Set. Multiple lessons trong 1 session fire độc lập
