@@ -238,6 +238,16 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 11 user data import done** (2026-05-16, commit `8f7dd8d` trên fe → merge `688b751` lên dev → sync `b0846ea` xuống be):
+  - **Reverse của chunk 10** — restore JSON dump v1 ngược về account
+  - `features/auth/import-schema.ts`: Zod runtime validation mirror types từ export-schema. `normalizeImportedCard()` re-validate qua `cardContentSchema` (skip malformed thay vì abort). `extractUserShortIdFromSlug()` parse 8-char hex prefix từ `personal-{hex8}` slug cho cross-user safety check
+  - `features/auth/import.ts`: `importUserData(jsonText)` server action — 5 bước (JSON.parse + Zod validate → cross-user reject → main txn upsert collection/topic/lessons/cards + auto-enroll → outside txn apply notes → outside txn apply suspended). Flatten model: tất cả imported lessons → user's `personal-{id}/imported` (mất collection/topic hierarchy gốc, acceptable)
+  - `components/settings/import-button.tsx`: file input `.json` + `window.confirm` warn về overwrite semantics, FileReader, useTransition, toast summary row counts (restored vs skipped)
+  - `/settings` page: Import button cạnh Export, caption mới warn same-account-only + overwrite
+  - **Same-user only**: nếu slug prefix không match current userId → reject "JSON từ tài khoản khác". Cross-user import defer (slug rewriting + many edge cases)
+  - **Profile + stats NOT restored**: tránh clobber current settings + corrupt streak history. DB-level full restore qua GitHub Actions backup
+  - Tests: 14 mới — importDataSchema accept v1/reject v2/exportedAt malformed/empty arrays/empty required, normalizeImportedCard valid/POS-alias-reject/missing-definitions-null, extractUserShortIdFromSlug 4 cases. Tổng 132 → 146/146 pass
+  - Build: `/settings` **6.69 kB / 124 kB** (+0.8 kB Upload icon + ImportButton). Khác routes không đổi
 - [x] **Chunk 10 user data export done** (2026-05-15, commit `1d3ace6` trên fe → merge `c62f0e3` lên dev → sync `2828d0f` xuống be):
   - **Pre-v1.0.0 data portability** — cho user một-click JSON dump của personal data
   - `features/auth/export-schema.ts`: pure types + `EXPORT_VERSION=1` + `exportFilename(userId, now)` helper. Filename pattern `enstudy-export-{8charPrefix}-{YYYY-MM-DD}.json` (UTC date cho deterministic naming)
