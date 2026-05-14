@@ -5,6 +5,84 @@
 
 ---
 
+## 2026-05-14 (tối) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 4 card actions)
+
+**Mục tiêu session**: Mở khóa 2 backlog Tuần 6 (suspend/bury + personal notes) trong 1 chunk. Cả hai cùng dùng cột đã có sẵn trên `user_cards` (`notes`, `suspended`), không cần migration. Suspend đã được `getReviewQueue` filter từ Tuần 3 — chỉ cần surface toggle cho user.
+
+**Đã hoàn thành (commit `fb55d2c` trên fe → merge `35e2f60` lên dev → sync `cbd75ba` xuống be).**
+
+### Files thêm mới (4)
+
+| Path                                      | Vai trò                                                                                                                                |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/features/srs/card-actions-schema.ts` | Pure Zod `updateUserCardSchema` + `MAX_NOTE_LENGTH`. Tách khỏi server file để test không pull DB client (pattern giống csv-schema)     |
+| `src/features/srs/card-actions.ts`        | `'use server'`: `updateUserCard(input)` — patch notes/suspended trên user_cards, ownership filter `(userCardId, userId)`               |
+| `src/features/srs/card-actions.test.ts`   | 8 vitest cases cho schema — both fields optional but ≥1 required, max length, '' clears, UUID validation                               |
+| `src/components/review/card-actions.tsx`  | Client `<CardActions>` — `<details>` collapsible, textarea + Save button, suspend toggle row, sonner toast, reset state per userCardId |
+
+### Files edit (4)
+
+- `src/features/vocab/queries.ts`: thêm `getUserCardMetaByLesson(userId, lessonId) → Map<cardId, {hasNote, suspended}>` + type `UserCardMeta` export
+- `src/components/decks/card-preview.tsx`: thêm optional `userMeta` prop → chip "Note" (sky NotebookPen) + "Tạm dừng" (amber PauseCircle) inline với word badge row, amber border khi suspended
+- `src/components/review/review-session.tsx`: dynamic import `<CardActions>` với placeholder `<div h-9 animate-pulse>`, inject 1 lần dưới active card (key reset per userCardId)
+- `src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx`: fetch `userMetaByCard` chỉ khi `userId && isEnrolled`, pass `userMetaByCard.get(card.id)` xuống mỗi `<CardPreview>`
+
+### Integration approach
+
+Inject `<CardActions>` 1 chỗ trong `<ReviewSession>` orchestrator (line ~195) thay vì sửa từng minigame card (~400-570 LOC mỗi cái). Trade-off: action panel hiện ngay khi card load (kể cả trước reveal) thay vì chỉ sau reveal. Acceptable vì collapsed by default — không distract.
+
+Code split qua `next/dynamic`:
+
+```ts
+const CardActions = dynamic(() => import('./card-actions').then((m) => m.CardActions), {
+  loading: () => <div className="h-9 animate-pulse rounded-md border ..." />,
+});
+```
+
+Lý do: bundle CardActions ~23 kB (textarea + lucide icons + server-action proxy). Collapsed mặc định → đa số user không trigger ngay → defer download. `/review` First Load giữ **126 kB** (= chunk 2 baseline sau Lighthouse audit).
+
+### Pattern reuse
+
+- Form: `useTransition` + sonner toast — match settings-form/csv-import-form
+- Server action shape: `{ok:true, data} | {ok:false, error}` — match enrollLesson/submitReview
+- Pure schema extracted: pattern same as `csv-schema.ts` + `csv-parse.ts` (chunk 3)
+- Ownership filter: `(userId, userCardId)` — match submitReview at `features/srs/actions.ts:87`
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 99/99 (3.83s) — 91 cũ + 8 mới
+- `pnpm build` ✓ — `/review` **4.71 kB / 126 kB** (giữ nguyên chunk 2 baseline). `/decks/[col]/[topic]/[lesson]` **3 kB / 130 kB** (+0.5 kB cho lucide icons). Khác routes không đổi
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                            |
+| ------ | --------- | ------------------------------- |
+| main   | `eb18493` | v0.2.0 (release tag, không đổi) |
+| dev    | `c9e0c36` | Tuần 6 chunk 4 + docs           |
+| be     | `ec13bb7` | sync Tuần 6 chunk 4 + docs      |
+| fe     | `2934a95` | sync Tuần 6 chunk 4 + docs      |
+
+### Bỏ ngoài scope (defer)
+
+- **Card content editing** (word/IPA/definitions/examples) cho cards trong personal collection user owned — defer chunk 5. Hiện chỉ CSV import là entry point thêm card; sau import muốn sửa thì re-upload với slug khác
+- **Bulk suspend/unsuspend** — toggle 1-by-1 trong CardActions. Cần selection UI ở deck level → defer
+- **Note search** — nếu user tích lũy nhiều notes, cần `/notes` page có search. Defer hậu MVP
+- **Note rich-text** (markdown / `<mark>`) — hiện plain text. Defer
+- **Suspend reason / re-activate date** — Anki có "Bury until tomorrow" tự động unsuspend. Hiện chỉ on/off manual
+- **Audit log** notes change history — defer
+- **Manual live test với Supabase real** — code-side mọi thứ pass nhưng chưa thử trên DB thật. User chạy `pnpm dev` → login → review queue → bấm "Hành động thẻ" → add note → suspend → verify next session ẩn thẻ
+
+### Next session — Tuần 6 chunk 5 options
+
+1. **Live test golden path Supabase real** — login, import CSV, review queue, suspend 1 thẻ, verify ẩn khỏi next session, add note, verify badge xuất hiện. Capture screenshots cho README
+2. **Content P1 batch via CSV** — gen 7 lessons × 20 cards offline Claude desktop → format CSV → upload qua `/decks/import` (test end-to-end pipeline mới ship). Sau đó user dùng để study, suspend những thẻ đã thuộc, add notes
+3. **Card editing UI** cho personal collection (mở khóa "fix typo without re-upload")
+4. **README.md update** + chuẩn bị PR `dev → main` cho `v1.0.0`
+
+---
+
 ## 2026-05-14 (chiều) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 3 CSV import UI)
 
 **Mục tiêu session**: Ship `/decks/import` page — user upload CSV → tạo lesson cá nhân + cards + auto-enroll. Mở khóa "Scale content" Tuần 6 mà không phụ thuộc `pnpm seed` + git commit JSON.
