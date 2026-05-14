@@ -5,6 +5,86 @@
 
 ---
 
+## 2026-05-17 (sáng) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 16 dashboard week summary card)
+
+**Mục tiêu session**: Thêm "Tuần này" rollup card vào `/dashboard` cho user feedback nhanh về tiến độ tuần. 3 metrics: reviews, accuracy %, days active. Reuse existing 14-day activity data thay vì thêm DB query mới.
+
+**Đã hoàn thành (commit `ae64d37` trên fe → merge `b1154fb` lên dev → sync `413664b` xuống be).**
+
+### Files thêm mới (3)
+
+| Path                                             | Vai trò                                                             |
+| ------------------------------------------------ | ------------------------------------------------------------------- |
+| `src/features/stats/week-summary-utils.ts`       | Pure `summarizeWeek(activity, now, tz)` + `mondayOfWeek(todayKey)`  |
+| `src/features/stats/week-summary-utils.test.ts`  | 15 vitest cases — mondayOfWeek 5 + summarizeWeek 10                 |
+| `src/components/dashboard/week-summary-card.tsx` | RSC 3-column metric card với VN weekday caption + empty-state nudge |
+
+### Files edit (1)
+
+- `src/app/(app)/dashboard/page.tsx`: thêm `getActivity(userId, 14, now)` vào Promise.all. Pin `now` const cho query consistency. Render card giữa StatCard row + enrolled lessons
+
+### Why reuse getActivity instead of new query
+
+`getActivity` đã filter `review_logs` theo timezone + bucket by day. Slicing trong JS = free CPU vs another DB roundtrip. Pass `days=14` cover worst-case (today=Sunday → cần Mon..Sun = 7 cells + buffer cho DST/tz edges).
+
+### Why ISO 8601 Mon-Sun week
+
+User base Việt Nam quen Mon-Sun. `mondayOfWeek()` shifts back theo `getUTCDay() === 0 ? 6 : dow - 1` — Sun (0) maps to 6 days back.
+
+### Why Hard counts as incorrect
+
+Accuracy = `(good + easy) / total`. FSRS treats Hard as "still struggling". UI-wise, treating Hard as correct sẽ inflate accuracy artificially. Test pin: `{hard:1, good:1}` → 50%, not 100%.
+
+### Why muted accuracy when reviews=0
+
+Show "0%" với 0 reviews implies 0/0 correct → misleading. Muted zinc-400 + empty-state copy nudge user to /review.
+
+### Why pin `now` const in page
+
+Each query taking own `new Date()` creates micro-skew (e.g. streak sees 12:00:00.123, week sees 12:00:00.456). Near midnight produces inconsistent day cells. Pin once at page entry.
+
+### Bundle impact
+
+`/dashboard` **184 B / 109 kB unchanged**. Card RSC + raw HTML — zero client JS.
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 179/179 (12.59s) — +15 mới
+- `pnpm build` ✓ — bundle trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `ee4988f` | Tuần 6 chunk 16 + docs              |
+| be     | `35cfc9b` | sync Tuần 6 chunk 16 + docs         |
+| fe     | `0239ce4` | sync Tuần 6 chunk 16 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **Compare to last week** — delta indicator (↑12% vs last week). Defer
+- **New cards this week** — cần JOIN review_logs check `stateBefore.reps = 0`. Defer
+- **Per-day mini sparkline** trong card — defer
+- **Goal-based UI** — "Mục tiêu 5 ngày/tuần" + progress bar. Defer
+- **Manual live test** — chưa nhìn card thật trên DB user
+
+### Next session — vẫn còn chunk 6 TODOs cho user (v1.0.0 ship)
+
+1-5: như chunk 6 entry (BACKUP_DATABASE_URL secret, manual backup, golden path, screenshots, tag)
+
+Nếu autonomous tiếp ý tưởng (chunk 17):
+
+- **Onboarding tour** — first-login overlay 4-5 step
+- **Per-lesson stats drilldown**
+- **README screenshots**
+- **Empty-state CTAs across routes**
+- **Email notifications** — cần Resend setup
+
+---
+
 ## 2026-05-16 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 15 topbar polish + sign-out wire)
 
 **Mục tiêu session**: Close P0 v1.0.0 blocker — topbar dropdown hardcode 2 TODO `"TODO: hiển thị email"` + `"Đăng xuất (TODO)"`. signOut server action có từ Tuần 1, chỉ chưa wire UI. Nếu ship v1.0.0 với broken logout = embarrassing P0 bug. Fix luôn + thêm Cài đặt link cùng chunk.
