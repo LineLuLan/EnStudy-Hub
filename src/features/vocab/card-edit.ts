@@ -6,19 +6,16 @@ import { db } from '@/lib/db/client';
 import { cards, lessons, topics, collections } from '@/lib/db/schema';
 import { requireUserId } from '@/lib/auth/session';
 import { cardEditInputSchema, type CardEditResult } from './card-edit-schema';
-import { csvRowToCardContent } from './csv-schema';
 
 /**
- * Update a single card in the user's personal collection.
+ * Update a card in the user's personal collection (multi-definition,
+ * multi-example).
  *
  * Ownership chain: card → lesson → topic → collection. Only the collection's
  * `ownerId` matters — if `isOfficial=true` OR `ownerId !== userId`, reject.
  *
  * Preserves user_cards FSRS state (stability/difficulty/reps/lapses/due/...)
  * by only patching the content `cards` row, not the per-user state.
- *
- * Re-validates via Zod (server never trusts client), wraps single-def/example
- * into the canonical `definitions` jsonb shape via `csvRowToCardContent`.
  */
 export async function updateCard(input: unknown): Promise<CardEditResult> {
   const parsed = cardEditInputSchema.safeParse(input);
@@ -33,7 +30,7 @@ export async function updateCard(input: unknown): Promise<CardEditResult> {
     return { ok: false, error: 'Bạn cần đăng nhập trước.' };
   }
 
-  const { cardId, ...rowInput } = parsed.data;
+  const { cardId, ...content } = parsed.data;
 
   // Walk the ownership chain in one query to avoid 3 round-trips.
   const [own] = await db
@@ -56,16 +53,15 @@ export async function updateCard(input: unknown): Promise<CardEditResult> {
     return { ok: false, error: 'Bạn không có quyền sửa thẻ này.' };
   }
 
-  const card = csvRowToCardContent(rowInput);
   await db
     .update(cards)
     .set({
-      word: card.word,
-      ipa: card.ipa,
-      pos: card.pos,
-      cefrLevel: card.cefr,
-      definitions: card.definitions,
-      mnemonicVi: card.mnemonic_vi ?? null,
+      word: content.word,
+      ipa: content.ipa,
+      pos: content.pos,
+      cefrLevel: content.cefr,
+      definitions: content.definitions,
+      mnemonicVi: content.mnemonic_vi ?? null,
     })
     .where(eq(cards.id, cardId));
 
