@@ -88,6 +88,13 @@ export const csvImportInputSchema = z.object({
     .refine((s) => Buffer.byteLength(s, 'utf8') <= MAX_CSV_BYTES, {
       message: `CSV vượt giới hạn ${Math.round(MAX_CSV_BYTES / 1024)} KB`,
     }),
+  /**
+   * When true, re-uploading the same lesson slug overwrites the existing
+   * lesson: delete-replace cards (FSRS state on user_cards is wiped via
+   * cascade — user accepts the trade-off by ticking this). Default false
+   * preserves the original chunk-3 reject-on-conflict behavior.
+   */
+  overwrite: z.preprocess((v) => v === 'true' || v === true, z.boolean()).default(false),
 });
 
 export type CsvImportInput = z.infer<typeof csvImportInputSchema>;
