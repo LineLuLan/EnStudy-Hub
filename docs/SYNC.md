@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
-| ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
-| main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `c62f0e3`               | base                         | 2026-05-15 (`c62f0e3`) | Tuần 6 chunk 10 user data export (JSON portable)          |
-| be     | `2828d0f`               | 2026-05-15 (Tuần 6 ch10)     | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 10                                      |
-| fe     | `1d3ace6`               | 2026-05-15 (Tuần 6 ch9 docs) | 2026-05-15 (`1d3ace6`) | base Tuần 6 chunk 10                                      |
+| Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ----------------------------- | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                             | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `688b751`               | base                          | 2026-05-16 (`688b751`) | Tuần 6 chunk 11 user data import (JSON restore)           |
+| be     | `b0846ea`               | 2026-05-16 (Tuần 6 ch11)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 11                                      |
+| fe     | `8f7dd8d`               | 2026-05-15 (Tuần 6 ch10 docs) | 2026-05-16 (`8f7dd8d`) | base Tuần 6 chunk 11                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -193,3 +193,6 @@ git checkout fe
 | 2026-05-15 | commit | (T6 ch10 FE) → fe    | `1d3ace6` | feat(auth): user data export — JSON dump of personal data                 |
 | 2026-05-15 | merge  | fe → dev             | `c62f0e3` | bring Tuần 6 chunk 10 user data export to dev                             |
 | 2026-05-15 | sync   | dev → be             | `2828d0f` | sync Tuần 6 chunk 10 xuống be                                             |
+| 2026-05-16 | commit | (T6 ch11 FE) → fe    | `8f7dd8d` | feat(auth): import user data — JSON restore from chunk-10 export          |
+| 2026-05-16 | merge  | fe → dev             | `688b751` | bring Tuần 6 chunk 11 JSON import to dev                                  |
+| 2026-05-16 | sync   | dev → be             | `b0846ea` | sync Tuần 6 chunk 11 xuống be                                             |
