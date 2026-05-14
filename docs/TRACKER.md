@@ -238,6 +238,13 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 16 dashboard week summary card done** (2026-05-16, commit `ae64d37` trên fe → merge `b1154fb` lên dev → sync `413664b` xuống be):
+  - "Tuần này" card trên `/dashboard` — 3 metric: reviews count, accuracy %, days-active /7. ISO 8601 week (Mon-Sun)
+  - `features/stats/week-summary-utils.ts`: pure `summarizeWeek(activity, now, tz)` + `mondayOfWeek(todayKey)`. Filter cells qua dayKey string compare (safe vì YYYY-MM-DD lex === chrono). Accuracy = (good+easy)/total rounded; Hard counts as incorrect
+  - `components/dashboard/week-summary-card.tsx`: 3-column metric với VN short weekday caption ("T2 ... → T7 ..."). Empty state nudge `/review`. Accuracy muted khi reviews=0
+  - `/dashboard` page: thêm `getActivity(userId, 14, now)` vào Promise.all (14-day window cover worst-case Sunday-today + tz/DST buffer). Pin `now` const cho consistency across queries. Card render giữa StatCard row + enrolled list
+  - Tests: 15 mới — mondayOfWeek (Mon thru Sun + month boundary), summarizeWeek (empty, slice, accuracy rounding, Hard incorrect, daysActive count, Sunday edge). Tổng 164 → 179/179 pass
+  - Build: `/dashboard` **184 B / 109 kB unchanged** (RSC + raw HTML, zero client JS)
 - [x] **Chunk 15 topbar polish + sign-out wire-up done** (2026-05-16, commit `148fbee` trên fe → merge `3992249` lên dev → sync `0ae3017` xuống be):
   - **P0 v1.0.0 blocker fix**: topbar dropdown trước đây ship 2 TODO hardcoded ("TODO: hiển thị email" + "Đăng xuất (TODO)"). signOut server action có sẵn từ Tuần 1, chỉ chưa wire UI
   - `app/(app)/layout.tsx`: convert async, đọc session qua `getSession()` (fast — no network, decode cookie locally; middleware đã verify auth upstream). Pass `userEmail` xuống Topbar
