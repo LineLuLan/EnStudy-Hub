@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                       | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `1be3ca5`               | base                    | 2026-05-15 (`1be3ca5`) | Tuần 6 chunk 7 multi-def card edit UI                     |
-| be     | `47d79ab`               | 2026-05-15 (Tuần 6 ch7) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 7                                       |
-| fe     | `4d037b1`               | 2026-05-15 (Tuần 6 ch6) | 2026-05-15 (`4d037b1`) | base Tuần 6 chunk 7                                       |
+| dev    | `e91063f`               | base                    | 2026-05-15 (`e91063f`) | Tuần 6 chunk 8 lesson management (rename + delete)        |
+| be     | `036ddc1`               | 2026-05-15 (Tuần 6 ch8) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 8                                       |
+| fe     | `ec3faf4`               | 2026-05-15 (Tuần 6 ch7) | 2026-05-15 (`ec3faf4`) | base Tuần 6 chunk 8                                       |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -184,3 +184,6 @@ git checkout fe
 | 2026-05-15 | commit | (T6 ch7 FE) → fe     | `4d037b1` | feat(vocab): multi-definition + multi-example card edit UI                |
 | 2026-05-15 | merge  | fe → dev             | `1be3ca5` | bring Tuần 6 chunk 7 multi-def card edit to dev                           |
 | 2026-05-15 | sync   | dev → be             | `47d79ab` | sync Tuần 6 chunk 7 xuống be                                              |
+| 2026-05-15 | commit | (T6 ch8 FE) → fe     | `ec3faf4` | feat(vocab): lesson rename + delete + per-card delete                     |
+| 2026-05-15 | merge  | fe → dev             | `e91063f` | bring Tuần 6 chunk 8 lesson management to dev                             |
+| 2026-05-15 | sync   | dev → be             | `036ddc1` | sync Tuần 6 chunk 8 xuống be                                              |

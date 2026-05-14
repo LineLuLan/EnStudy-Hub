@@ -238,6 +238,18 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 8 lesson management done** (2026-05-15, commit `ec3faf4` trên fe → merge `e91063f` lên dev → sync `036ddc1` xuống be):
+  - `features/vocab/lesson-edit.ts`: 3 server actions —
+    - `renameLesson(lessonId, name)`: update `lessons.name`, slug stays unchanged (URL không break). Revalidate collection + lesson + dashboard
+    - `deleteLesson(lessonId)`: cascade via FK wipes cards → user_cards → user_lessons. Topic + per-user collection stay (no GC empty collections pre-MVP). Revalidate `/decks layout` + dashboard + review + stats
+    - `deleteCard(cardId)`: cascade wipes user_cards. `lesson.cardCount` stale (acceptable — chỉ hiển thị hint trong deck list)
+  - Mỗi action: ownership chain check (reject khi `isOfficial=true` OR `ownerId !== userId`), typed Result discriminated union. Helper `getLessonOwnership(lessonId)` / `getCardOwnership(cardId)` 3-join 1-query
+  - `lesson-edit-schema.ts`: 3 pure Zod schemas + types + `MAX_LESSON_NAME=80` constant. Test-isolated từ server module (pattern giống card-actions/csv)
+  - `components/decks/lesson-actions.tsx` (~130 LOC client): header strip với 2 button — "Đổi tên" (Pencil) toggle inline form (Input + Save/Cancel), "Xoá bài học" (Trash, red border) fires `window.confirm` rồi redirect tới collection. Native confirm OK cho MVP — không cần dialog primitive mới
+  - `components/decks/card-edit-form.tsx`: footer refactor `justify-between` — bên trái "Xoá thẻ" (red outline) với `window.confirm`, bên phải Huỷ + Lưu. Split `useTransition` thành `saving + deletingCard` để 2 button spin độc lập
+  - `/decks/[col]/[topic]/[lesson]/page.tsx`: render `<LessonActions>` dưới `<EnrollButton>` khi `isEditable=true`. Reuse ownership flag từ chunk 5
+  - Tests: 12 mới (`lesson-edit-schema.test.ts`) — rename name validation (3 chars min, 80 max, trim, whitespace-only reject, UUID), delete schemas. Tổng 115 → 127/127 pass
+  - Build: `/decks/[col]/[topic]/[lesson]` **5.4 kB / 145 kB** (+1.2 kB / +14 kB cho LessonActions không lazy-load — chấp nhận vì chỉ ảnh hưởng personal collections, không phải critical path)
 - [x] **Chunk 7 multi-def card edit done** (2026-05-15, commit `4d037b1` trên fe → merge `1be3ca5` lên dev → sync `47d79ab` xuống be):
   - `features/vocab/card-edit-schema.ts` refactor: `cardEditInputSchema = cardContentSchema.extend({cardId})` thay vì `csvRowSchema.extend(...)`. Multi-def + multi-example. Hằng `MIN/MAX_DEFINITIONS=1/5`, `MIN/MAX_EXAMPLES_PER_DEF=1/5` (mirror Zod constraints trong `definitionSchema`)
   - `cardToFormState` return arrays lồng nhau, seed 1 empty def + 1 empty ex nếu DB rỗng để form không "below min" lúc mount
