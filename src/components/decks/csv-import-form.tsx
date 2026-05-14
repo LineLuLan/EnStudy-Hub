@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
-import { FileUp, Loader2, Upload } from 'lucide-react';
+import { Download, FileUp, Loader2, Upload } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -16,6 +16,23 @@ const CSV_TEMPLATE_HEADER =
   'word,ipa,pos,cefr,meaning_vi,meaning_en,example_en,example_vi,mnemonic_vi';
 const CSV_TEMPLATE_SAMPLE =
   'breakfast,ˈbrek.fəst,noun,A1,bữa sáng,The first meal of the day,I eat breakfast at 7am.,Tôi ăn sáng lúc 7 giờ.,';
+const CSV_TEMPLATE_DOWNLOAD = `${CSV_TEMPLATE_HEADER}
+breakfast,ˈbrek.fəst,noun,A1,bữa sáng,The first meal of the day,I eat breakfast at 7am.,Tôi ăn sáng lúc 7 giờ.,BREAK + FAST = phá vỡ thời gian nhịn ăn qua đêm
+happy,ˈhæp.i,adjective,A2,vui vẻ,feeling or showing pleasure,She looks happy today.,Hôm nay cô ấy trông vui vẻ.,
+run,rʌn,verb,A1,chạy,move quickly on foot,I run every morning.,Tôi chạy mỗi sáng.,
+`;
+
+function downloadTemplate() {
+  const blob = new Blob([CSV_TEMPLATE_DOWNLOAD], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'enstudy-csv-template.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 
 export function CsvImportForm() {
   const router = useRouter();
@@ -133,6 +150,16 @@ export function CsvImportForm() {
             className="text-xs"
           >
             Hoặc dùng mẫu thử
+          </Button>
+          <Button
+            type="button"
+            variant="ghost"
+            onClick={downloadTemplate}
+            disabled={pending}
+            className="gap-1.5 text-xs"
+          >
+            <Download className="h-3.5 w-3.5" />
+            Tải CSV mẫu
           </Button>
         </div>
 
