@@ -14,10 +14,10 @@ export default async function LessonPage({
   params: Promise<{ col: string; topic: string; lesson: string }>;
 }) {
   const { col, topic, lesson } = await params;
-  const detail = await getLessonByPath(col, topic, lesson);
+  const userId = await getCurrentUserId();
+  const detail = await getLessonByPath(col, topic, lesson, userId);
   if (!detail) notFound();
 
-  const userId = await getCurrentUserId();
   const enrolled = userId ? await getEnrolledLessonIds(userId) : new Set<string>();
   const isEnrolled = enrolled.has(detail.id);
 
