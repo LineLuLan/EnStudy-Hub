@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                             | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `e733de5`               | base                          | 2026-05-16 (`e733de5`) | Tuần 6 chunk 12 CSV overwrite + docs                      |
-| be     | `9077683`               | 2026-05-16 (Tuần 6 ch12 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 12 + docs                               |
-| fe     | `b511068`               | 2026-05-16 (Tuần 6 ch12 docs) | 2026-05-16 (`900737f`) | sync Tuần 6 chunk 12 + docs                               |
+| dev    | `3976889`               | base                          | 2026-05-16 (`3976889`) | Tuần 6 chunk 13 due forecast 7 days                       |
+| be     | `08d7454`               | 2026-05-16 (Tuần 6 ch13)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 13                                      |
+| fe     | `3b01347`               | 2026-05-16 (Tuần 6 ch12 docs) | 2026-05-16 (`3b01347`) | base Tuần 6 chunk 13                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -199,3 +199,6 @@ git checkout fe
 | 2026-05-16 | commit | (T6 ch12 FE) → fe    | `900737f` | feat(vocab): CSV re-upload overwrite mode                                 |
 | 2026-05-16 | merge  | fe → dev             | `4eab9a7` | bring Tuần 6 chunk 12 CSV overwrite to dev                                |
 | 2026-05-16 | sync   | dev → be             | `4ca4225` | sync Tuần 6 chunk 12 xuống be                                             |
+| 2026-05-16 | commit | (T6 ch13 FE) → fe    | `3b01347` | feat(stats): forecast due cards next 7 days                               |
+| 2026-05-16 | merge  | fe → dev             | `3976889` | bring Tuần 6 chunk 13 forecast to dev                                     |
+| 2026-05-16 | sync   | dev → be             | `08d7454` | sync Tuần 6 chunk 13 xuống be                                             |
