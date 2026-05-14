@@ -9,6 +9,7 @@ import {
 import { getCurrentUserId } from '@/lib/auth/session';
 import { CardPreview } from '@/components/decks/card-preview';
 import { EnrollButton } from '@/components/decks/enroll-button';
+import { LessonActions } from '@/components/decks/lesson-actions';
 
 export const dynamic = 'force-dynamic';
 
@@ -58,7 +59,16 @@ export default async function LessonPage({
             )}
           </div>
         </div>
-        <EnrollButton lessonId={detail.id} alreadyEnrolled={isEnrolled} />
+        <div className="flex flex-col items-end gap-2">
+          <EnrollButton lessonId={detail.id} alreadyEnrolled={isEnrolled} />
+          {isEditable && (
+            <LessonActions
+              lessonId={detail.id}
+              currentName={detail.name}
+              cardCount={detail.cards.length}
+            />
+          )}
+        </div>
       </div>
 
       {detail.cards.length === 0 ? (

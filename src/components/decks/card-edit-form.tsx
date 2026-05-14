@@ -1,6 +1,7 @@
 'use client';
 
 import * as React from 'react';
+import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 import { Loader2, Plus, Save, Trash2, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -9,6 +10,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import type { Card } from '@/lib/db/schema';
 import { updateCard } from '@/features/vocab/card-edit';
+import { deleteCard } from '@/features/vocab/lesson-edit';
 import {
   cardToFormState,
   formStateToInput,
@@ -42,9 +44,12 @@ type Props = {
 };
 
 export function CardEditForm({ card, onCancel, onSaved }: Props) {
+  const router = useRouter();
   const initial = React.useMemo(() => cardToFormState(card), [card]);
   const [form, setForm] = React.useState<CardEditFormState>(initial);
-  const [pending, startTransition] = React.useTransition();
+  const [saving, startSave] = React.useTransition();
+  const [deletingCard, startDelete] = React.useTransition();
+  const pending = saving || deletingCard;
 
   function patch<K extends keyof CardEditFormState>(key: K, value: CardEditFormState[K]) {
     setForm((s) => ({ ...s, [key]: value }));
@@ -115,11 +120,26 @@ export function CardEditForm({ card, onCancel, onSaved }: Props) {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    startTransition(async () => {
+    startSave(async () => {
       const result = await updateCard(formStateToInput(form, card.id));
       if (result.ok) {
         toast.success('Đã lưu thay đổi.');
         onSaved();
+      } else {
+        toast.error(result.error);
+      }
+    });
+  }
+
+  function handleDelete() {
+    const ok = window.confirm(`Xoá thẻ "${form.word}"? Hành động này không thể hoàn tác.`);
+    if (!ok) return;
+    startDelete(async () => {
+      const result = await deleteCard({ cardId: card.id });
+      if (result.ok) {
+        toast.success('Đã xoá thẻ.');
+        onSaved();
+        router.refresh();
       } else {
         toast.error(result.error);
       }
@@ -234,26 +254,42 @@ export function CardEditForm({ card, onCancel, onSaved }: Props) {
         />
       </Field>
 
-      <div className="flex items-center justify-end gap-2 border-t border-zinc-100 pt-3 dark:border-zinc-900">
-        <Button
+      <div className="flex flex-wrap items-center justify-between gap-2 border-t border-zinc-100 pt-3 dark:border-zinc-900">
+        <button
           type="button"
-          variant="ghost"
-          size="sm"
-          onClick={onCancel}
+          onClick={handleDelete}
           disabled={pending}
-          className="gap-1.5"
+          className="inline-flex items-center gap-1.5 rounded-md border border-red-200 px-2.5 py-1.5 text-xs font-medium text-red-700 hover:bg-red-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-red-900/60 dark:text-red-400 dark:hover:bg-red-950/30"
         >
-          <X className="h-3.5 w-3.5" />
-          Huỷ
-        </Button>
-        <Button type="submit" size="sm" disabled={pending} className="gap-1.5">
-          {pending ? (
+          {deletingCard ? (
             <Loader2 className="h-3.5 w-3.5 animate-spin" />
           ) : (
-            <Save className="h-3.5 w-3.5" />
+            <Trash2 className="h-3.5 w-3.5" />
           )}
-          {pending ? 'Đang lưu…' : 'Lưu thay đổi'}
-        </Button>
+          {deletingCard ? 'Đang xoá…' : 'Xoá thẻ'}
+        </button>
+
+        <div className="flex items-center gap-2">
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
+            onClick={onCancel}
+            disabled={pending}
+            className="gap-1.5"
+          >
+            <X className="h-3.5 w-3.5" />
+            Huỷ
+          </Button>
+          <Button type="submit" size="sm" disabled={pending} className="gap-1.5">
+            {saving ? (
+              <Loader2 className="h-3.5 w-3.5 animate-spin" />
+            ) : (
+              <Save className="h-3.5 w-3.5" />
+            )}
+            {saving ? 'Đang lưu…' : 'Lưu thay đổi'}
+          </Button>
+        </div>
       </div>
     </form>
   );
