@@ -8,6 +8,7 @@ import { profiles } from '@/lib/db/schema';
 import { ensureProfile } from '@/features/auth/profile';
 import { SettingsForm } from '@/components/settings/settings-form';
 import { ExportButton } from '@/components/settings/export-button';
+import { ImportButton } from '@/components/settings/import-button';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Cài đặt' };
@@ -65,7 +66,14 @@ export default async function SettingsPage() {
             lịch sử ôn tập đầy đủ hay FSRS state (xem GitHub Actions backup cho dump DB toàn diện).
           </p>
         </div>
-        <ExportButton userId={userId} />
+        <div className="flex flex-wrap gap-2">
+          <ExportButton userId={userId} />
+          <ImportButton />
+        </div>
+        <p className="text-[11px] text-zinc-500">
+          Nhập JSON chỉ hỗ trợ file xuất từ chính tài khoản này. Bài học cùng slug sẽ bị ghi đè —
+          backup trước khi nhập nếu cần.
+        </p>
       </section>
     </div>
   );
