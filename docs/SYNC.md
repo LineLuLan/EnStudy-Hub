@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                       | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `1b56bb4`               | base                    | 2026-05-15 (`1b56bb4`) | Tuần 6 chunk 6 v1.0.0 prep (README + LICENSE + backup)    |
-| be     | `444c392`               | 2026-05-15 (Tuần 6 ch6) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 6                                       |
-| fe     | `1a95988`               | 2026-05-15 (Tuần 6 ch6) | 2026-05-14 (`2c25386`) | sync Tuần 6 chunk 6                                       |
+| dev    | `1be3ca5`               | base                    | 2026-05-15 (`1be3ca5`) | Tuần 6 chunk 7 multi-def card edit UI                     |
+| be     | `47d79ab`               | 2026-05-15 (Tuần 6 ch7) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 7                                       |
+| fe     | `4d037b1`               | 2026-05-15 (Tuần 6 ch6) | 2026-05-15 (`4d037b1`) | base Tuần 6 chunk 7                                       |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -181,3 +181,6 @@ git checkout fe
 | 2026-05-15 | commit | (T6 ch6 infra) → dev | `1b56bb4` | chore(infra): chunk 6 v1.0.0 prep — README + LICENSE + backup workflow    |
 | 2026-05-15 | sync   | dev → be             | `444c392` | sync Tuần 6 chunk 6 xuống be                                              |
 | 2026-05-15 | sync   | dev → fe             | `1a95988` | sync Tuần 6 chunk 6 xuống fe                                              |
+| 2026-05-15 | commit | (T6 ch7 FE) → fe     | `4d037b1` | feat(vocab): multi-definition + multi-example card edit UI                |
+| 2026-05-15 | merge  | fe → dev             | `1be3ca5` | bring Tuần 6 chunk 7 multi-def card edit to dev                           |
+| 2026-05-15 | sync   | dev → be             | `47d79ab` | sync Tuần 6 chunk 7 xuống be                                              |
