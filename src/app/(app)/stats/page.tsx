@@ -1,15 +1,17 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
-import { Activity, BarChart3, PieChart, TrendingUp } from 'lucide-react';
+import { Activity, BarChart3, CalendarClock, PieChart, TrendingUp } from 'lucide-react';
 import { getCurrentUserId } from '@/lib/auth/session';
 import { getRetention } from '@/features/stats/retention';
 import { getActivity } from '@/features/stats/activity';
 import { getMaturityCounts } from '@/features/stats/maturity';
 import { getStreak } from '@/features/stats/streak';
+import { getDueForecast } from '@/features/stats/forecast';
 import { RetentionLine } from '@/components/stats/retention-line';
 import { ActivityBar } from '@/components/stats/activity-bar';
 import { MaturityPie } from '@/components/stats/maturity-pie';
+import { DueForecastBar } from '@/components/stats/due-forecast-bar';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Thống kê' };
@@ -18,11 +20,12 @@ export default async function StatsPage() {
   const userId = await getCurrentUserId();
   if (!userId) redirect('/login?next=/stats');
 
-  const [retention, activity, maturity, streak] = await Promise.all([
+  const [retention, activity, maturity, streak, forecast] = await Promise.all([
     getRetention(userId),
     getActivity(userId),
     getMaturityCounts(userId),
     getStreak(userId),
+    getDueForecast(userId),
   ]);
 
   const totalReviews = activity.total;
@@ -116,6 +119,23 @@ export default async function StatsPage() {
         <div className="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
           <MaturityPie data={maturity} />
         </div>
+      </section>
+
+      <section className="space-y-3">
+        <div className="flex items-baseline justify-between">
+          <h2 className="inline-flex items-center gap-2 text-base font-semibold tracking-tight">
+            <CalendarClock className="h-4 w-4 text-amber-500" />
+            Lịch ôn 7 ngày tới
+          </h2>
+          <span className="text-xs text-zinc-500">FSRS forecast</span>
+        </div>
+        <div className="overflow-x-auto rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-950">
+          <DueForecastBar data={forecast} />
+        </div>
+        <p className="text-[11px] leading-relaxed text-zinc-500">
+          Số thẻ đến hạn ôn lại theo lịch FSRS. Thẻ quá hạn từ hôm trước được gộp vào "Hôm nay" để
+          không bỏ sót. Thẻ tạm dừng không tính.
+        </p>
       </section>
 
       <div className="text-xs text-zinc-500">
