@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                     |
-| ------ | ----------------------- | ----------------------- | ---------------------- | --------------------------------------------------------- |
-| main   | `eb18493`               | —                       | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `e91063f`               | base                    | 2026-05-15 (`e91063f`) | Tuần 6 chunk 8 lesson management (rename + delete)        |
-| be     | `036ddc1`               | 2026-05-15 (Tuần 6 ch8) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 8                                       |
-| fe     | `ec3faf4`               | 2026-05-15 (Tuần 6 ch7) | 2026-05-15 (`ec3faf4`) | base Tuần 6 chunk 8                                       |
+| Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `d12a230`               | base                         | 2026-05-15 (`d12a230`) | Tuần 6 chunk 9 UX polish (CSV template + lesson toast)    |
+| be     | `469f13a`               | 2026-05-15 (Tuần 6 ch9)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 9                                       |
+| fe     | `c575710`               | 2026-05-15 (Tuần 6 ch8 docs) | 2026-05-15 (`c575710`) | base Tuần 6 chunk 9                                       |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -187,3 +187,6 @@ git checkout fe
 | 2026-05-15 | commit | (T6 ch8 FE) → fe     | `ec3faf4` | feat(vocab): lesson rename + delete + per-card delete                     |
 | 2026-05-15 | merge  | fe → dev             | `e91063f` | bring Tuần 6 chunk 8 lesson management to dev                             |
 | 2026-05-15 | sync   | dev → be             | `036ddc1` | sync Tuần 6 chunk 8 xuống be                                              |
+| 2026-05-15 | commit | (T6 ch9 FE) → fe     | `c575710` | feat(review,vocab): CSV template download + lesson-complete toast         |
+| 2026-05-15 | merge  | fe → dev             | `d12a230` | bring Tuần 6 chunk 9 UX polish bundle to dev                              |
+| 2026-05-15 | sync   | dev → be             | `469f13a` | sync Tuần 6 chunk 9 xuống be                                              |
