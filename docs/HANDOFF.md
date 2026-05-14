@@ -5,6 +5,109 @@
 
 ---
 
+## 2026-05-16 (sáng sớm) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 10 user data export)
+
+**Mục tiêu session**: Pre-v1.0.0 data portability — cho user 1-click JSON dump personal data. Build trust trước khi ship public. Bổ sung GitHub Actions backup (DB-level) bằng user-controlled export (filtered đến những gì user thực sự own).
+
+**Đã hoàn thành (commit `1d3ace6` trên fe → merge `c62f0e3` lên dev → sync `2828d0f` xuống be).**
+
+### Files thêm mới (4)
+
+| Path                                        | Vai trò                                                                                         |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `src/features/auth/export-schema.ts`        | Pure types + `EXPORT_VERSION=1` + `exportFilename(userId, now)` UTC-date helper                 |
+| `src/features/auth/export.ts`               | `'use server'`: `exportUserData()` — assemble ExportData từ 5 DB sources                        |
+| `src/features/auth/export-schema.test.ts`   | 5 vitest cases — EXPORT_VERSION sanity, exportFilename 8-char-id + UTC date + format regex      |
+| `src/components/settings/export-button.tsx` | Client button — JSON.stringify pretty + Blob + `<a download>` trigger + revokeObjectURL + toast |
+
+### Files edit (1)
+
+- `src/app/(app)/settings/page.tsx`: thêm section "Dữ liệu cá nhân" với description chi tiết về what's included/excluded + `<ExportButton userId={userId} />`
+
+### ExportData shape (v1)
+
+```jsonc
+{
+  "version": 1,
+  "exportedAt": "2026-05-16T01:23:45.000Z",
+  "profile": { "displayName", "timezone", "dailyNewCards", "dailyReviewMax" },
+  "stats": { "currentStreak", "longestStreak", "totalReviews", "totalCardsMature", "lastActiveDate" },
+  "notes": [{ "word", "lessonSlug", "collectionSlug", "note" }],
+  "suspended": [{ "word", "lessonSlug", "collectionSlug" }],
+  "customCollections": [{
+    "slug", "name", "description",
+    "topics": [{ "slug", "name", "lessons": [{ "slug", "name", "cards": [...] }] }]
+  }]
+}
+```
+
+Self-describing: mỗi note/suspended entry có slug context để future re-import có thể locate card.
+
+### Why join through collections for slugs
+
+Notes table cell chỉ có `userCard.notes`. Để export self-describing (không phụ thuộc internal UUIDs), JOIN cards → lessons → topics → collections để lấy `(collectionSlug, lessonSlug, word)` triple. User mở file JSON đọc được ngay "đây là note của từ X trong bài Y bộ Z" không cần lookup database.
+
+### What's excluded (intentional)
+
+| Excluded                   | Why                                                        |
+| -------------------------- | ---------------------------------------------------------- |
+| `review_logs` full history | Huge (every rate logged), technical, not user-actionable   |
+| `user_cards` FSRS state    | Stability/difficulty/due — system-specific, không portable |
+| Official content           | Đã có trong seed (P0 60 cards), không phải data của user   |
+| Auth credentials / email   | Supabase quản lý, không expose qua app export              |
+
+User cần DB-level full dump → GitHub Actions cron backup (chunk 6). User cần personal portable dump → button này.
+
+### Why UTC date in filename
+
+`enstudy-export-{8charPrefix}-{YYYY-MM-DD}.json` dùng `toISOString().slice(0,10)`. Test pin behavior: export 2026-05-15 22:00 UTC (= May 16 sáng VN) vẫn ra `2026-05-15`. Acceptable — UTC consistent cross-timezone, alternative là `formatInTimeZone(userTz)` nhưng phức tạp hơn. Defer.
+
+### Bundle impact
+
+`/settings` 5.29 → **5.87 kB / 123 kB** (+0.6 kB Download icon + button code).
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 132/132 (9.04s) — +5 mới
+- `pnpm build` ✓ — bundle trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `1905668` | Tuần 6 chunk 10 + docs              |
+| be     | `1c468e2` | sync Tuần 6 chunk 10 + docs         |
+| fe     | `005445d` | sync Tuần 6 chunk 10 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **Import từ export JSON** — version=1 đã sẵn sàng cho future v2 importer. Implementation cần: read JSON → recreate custom collections + restore notes by `(collectionSlug, lessonSlug, word)` triple + restore suspended. ~200 LOC. Defer
+- **CSV export per lesson** — chỉ JSON cho toàn bộ. CSV export per lesson cho cards (matching CSV import format) là 1-1 inverse. Defer
+- **Anonymized export** (hash word/note) — share research mà không expose content. Defer
+- **PDF export cho dashboard stats** — defer hậu MVP
+- **Manual live test** — chưa nhấn nút thật. User test golden path → 1 trong các step nên là click "Tải JSON dữ liệu cá nhân"
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Verify backup workflow manual run
+3. **Live golden path test** — giờ include luôn export button click + verify JSON file
+4. Capture screenshots cho README
+5. Tag v1.0.0
+
+Nếu autonomous tiếp ý tưởng (chunk 11):
+
+- **Import JSON back** — reverse của chunk 10, restore notes/suspended/customCollections từ export file
+- **CSV re-upload overwrite** — defer chunk 3
+- **Per-lesson retention chart** — extend `/stats`
+- **Keyboard shortcuts modal** — `?` mở modal
+- **Daily review summary email** — Resend integration
+
+---
+
 ## 2026-05-15 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 9 UX polish bundle)
 
 **Mục tiêu session**: Cleanup 2 defer items nhỏ — CSV template download (defer chunk 3) + toast lesson complete (defer Tuần 5 chunk 4). Cùng category UX polish, bundle vào 1 chunk thay vì 2 chunks tiny riêng.
