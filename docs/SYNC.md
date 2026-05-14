@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                             | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `15010f1`               | base                          | 2026-05-16 (`15010f1`) | Tuần 6 chunk 11 user data import + docs                   |
-| be     | `79db369`               | 2026-05-16 (Tuần 6 ch11 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 11 + docs                               |
-| fe     | `ea127c3`               | 2026-05-16 (Tuần 6 ch11 docs) | 2026-05-16 (`8f7dd8d`) | sync Tuần 6 chunk 11 + docs                               |
+| dev    | `4eab9a7`               | base                          | 2026-05-16 (`4eab9a7`) | Tuần 6 chunk 12 CSV re-upload overwrite                   |
+| be     | `4ca4225`               | 2026-05-16 (Tuần 6 ch12)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 12                                      |
+| fe     | `900737f`               | 2026-05-16 (Tuần 6 ch11 docs) | 2026-05-16 (`900737f`) | base Tuần 6 chunk 12                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -196,3 +196,6 @@ git checkout fe
 | 2026-05-16 | commit | (T6 ch11 FE) → fe    | `8f7dd8d` | feat(auth): import user data — JSON restore from chunk-10 export          |
 | 2026-05-16 | merge  | fe → dev             | `688b751` | bring Tuần 6 chunk 11 JSON import to dev                                  |
 | 2026-05-16 | sync   | dev → be             | `b0846ea` | sync Tuần 6 chunk 11 xuống be                                             |
+| 2026-05-16 | commit | (T6 ch12 FE) → fe    | `900737f` | feat(vocab): CSV re-upload overwrite mode                                 |
+| 2026-05-16 | merge  | fe → dev             | `4eab9a7` | bring Tuần 6 chunk 12 CSV overwrite to dev                                |
+| 2026-05-16 | sync   | dev → be             | `4ca4225` | sync Tuần 6 chunk 12 xuống be                                             |

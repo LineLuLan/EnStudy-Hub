@@ -238,6 +238,15 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 12 CSV re-upload overwrite done** (2026-05-16, commit `900737f` trên fe → merge `4eab9a7` lên dev → sync `4ca4225` xuống be):
+  - Đóng biggest gap từ chunk 3 — re-upload cùng slug trước đây hard reject `SLUG_TAKEN`. Giờ opt-in checkbox "Ghi đè bài học cũ nếu trùng slug" cho user accept FSRS state loss
+  - `csv-schema.ts`: `csvImportInputSchema` thêm field `overwrite: z.boolean().default(false)` với Zod preprocess coerce FormData string `'true'/'false'` → boolean (cho cả direct API call lẫn form)
+  - `csv-import.ts`: `importCsvAsLesson` branch:
+    - `overwrite=true` → `onConflictDoUpdate` lesson (refresh name + cardCount) + `db.delete(cards).where(lessonId)` trước bulk insert. Cascade wipes user_cards → auto-enroll re-creates với FSRS defaults
+    - `overwrite=false` (default) → giữ original `onConflictDoNothing` + `SLUG_TAKEN` throw
+  - `csv-import-form.tsx`: amber callout với checkbox + 2-line copy về FSRS-reset trade-off. State pass qua FormData. Toast variant "Đã ghi đè X thẻ" vs "Đã nhập X thẻ"
+  - Tests: 4 mới — overwrite default false khi omitted, accept boolean true, coerce `'true'/'false'` string → boolean. Tổng 146 → 150/150 pass
+  - Build: `/decks/import` **13.6 kB / 153 kB** (+0.3 kB checkbox markup). Khác routes không đổi
 - [x] **Chunk 11 user data import done** (2026-05-16, commit `8f7dd8d` trên fe → merge `688b751` lên dev → sync `b0846ea` xuống be):
   - **Reverse của chunk 10** — restore JSON dump v1 ngược về account
   - `features/auth/import-schema.ts`: Zod runtime validation mirror types từ export-schema. `normalizeImportedCard()` re-validate qua `cardContentSchema` (skip malformed thay vì abort). `extractUserShortIdFromSlug()` parse 8-char hex prefix từ `personal-{hex8}` slug cho cross-user safety check
