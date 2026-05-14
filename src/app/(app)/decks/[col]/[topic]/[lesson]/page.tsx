@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ChevronLeft, Clock, BookOpen } from 'lucide-react';
-import { getLessonByPath, getEnrolledLessonIds } from '@/features/vocab/queries';
+import {
+  getLessonByPath,
+  getEnrolledLessonIds,
+  getUserCardMetaByLesson,
+} from '@/features/vocab/queries';
 import { getCurrentUserId } from '@/lib/auth/session';
 import { CardPreview } from '@/components/decks/card-preview';
 import { EnrollButton } from '@/components/decks/enroll-button';
@@ -20,6 +24,8 @@ export default async function LessonPage({
 
   const enrolled = userId ? await getEnrolledLessonIds(userId) : new Set<string>();
   const isEnrolled = enrolled.has(detail.id);
+  const userMetaByCard =
+    userId && isEnrolled ? await getUserCardMetaByLesson(userId, detail.id) : new Map();
 
   return (
     <div className="mx-auto max-w-5xl">
@@ -65,7 +71,7 @@ export default async function LessonPage({
         <ul className="mt-6 grid items-start gap-3 lg:grid-cols-2">
           {detail.cards.map((card) => (
             <li key={card.id}>
-              <CardPreview card={card} />
+              <CardPreview card={card} userMeta={userMetaByCard.get(card.id)} />
             </li>
           ))}
         </ul>

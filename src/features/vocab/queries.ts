@@ -196,6 +196,38 @@ export async function getLessonByPath(
   };
 }
 
+export type UserCardMeta = {
+  hasNote: boolean;
+  suspended: boolean;
+};
+
+/**
+ * Return a map of cardId → user state metadata (note presence, suspended flag)
+ * for the lesson the user is enrolled in. Empty map if not enrolled.
+ */
+export async function getUserCardMetaByLesson(
+  userId: string,
+  lessonId: string
+): Promise<Map<string, UserCardMeta>> {
+  const rows = await db
+    .select({
+      cardId: userCards.cardId,
+      notes: userCards.notes,
+      suspended: userCards.suspended,
+    })
+    .from(userCards)
+    .where(and(eq(userCards.userId, userId), eq(userCards.lessonId, lessonId)));
+
+  const map = new Map<string, UserCardMeta>();
+  for (const r of rows) {
+    map.set(r.cardId, {
+      hasNote: r.notes !== null && r.notes.trim().length > 0,
+      suspended: r.suspended,
+    });
+  }
+  return map;
+}
+
 /**
  * Return the set of lessonIds this user has enrolled in.
  * Empty set if not signed in or no enrollments.
