@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `b43f4b6`               | base                         | 2026-05-14 (`14ac3d4`) | Tuần 6 chunk 3 CSV import UI + docs                       |
-| be     | `a9dee33`               | 2026-05-14 (Tuần 6 ch3 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 3 + docs                                |
-| fe     | `3d8706c`               | 2026-05-14 (Tuần 6 ch3 docs) | 2026-05-14 (`8aeb0e4`) | base Tuần 6 chunk 3 + docs                                |
+| dev    | `35e2f60`               | base                         | 2026-05-14 (`35e2f60`) | Tuần 6 chunk 4 card actions (notes + suspend)             |
+| be     | `cbd75ba`               | 2026-05-14 (Tuần 6 ch4)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 4                                       |
+| fe     | `fb55d2c`               | 2026-05-14 (Tuần 6 ch3 docs) | 2026-05-14 (`fb55d2c`) | base Tuần 6 chunk 4                                       |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -172,3 +172,6 @@ git checkout fe
 | 2026-05-14 | commit | (docs T6 ch3) → dev | `b43f4b6` | docs(infra): handoff Tuan 6 chunk 3 CSV import done                       |
 | 2026-05-14 | sync   | dev → be            | `a9dee33` | sync docs Tuần 6 chunk 3 xuống be                                         |
 | 2026-05-14 | sync   | dev → fe            | `3d8706c` | sync docs Tuần 6 chunk 3 xuống fe                                         |
+| 2026-05-14 | commit | (T6 ch4 FE) → fe    | `fb55d2c` | feat(review): card personal notes + suspend toggle                        |
+| 2026-05-14 | merge  | fe → dev            | `35e2f60` | bring Tuần 6 chunk 4 card actions to dev                                  |
+| 2026-05-14 | sync   | dev → be            | `cbd75ba` | sync Tuần 6 chunk 4 xuống be                                              |
