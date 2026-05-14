@@ -6,10 +6,13 @@ import { getCurrentUserId } from '@/lib/auth/session';
 import { getStreak } from '@/features/stats/streak';
 import { getHeatmap } from '@/features/stats/heatmap';
 import { getMaturityCounts } from '@/features/stats/maturity';
+import { getActivity } from '@/features/stats/activity';
+import { summarizeWeek } from '@/features/stats/week-summary-utils';
 import { getReviewQueue } from '@/features/srs/queue';
 import { getEnrolledLessonsWithProgress } from '@/features/vocab/queries';
 import { Button } from '@/components/ui/button';
 import { HeatmapGrid } from '@/components/dashboard/heatmap';
+import { WeekSummaryCard } from '@/components/dashboard/week-summary-card';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Dashboard' };
@@ -18,14 +21,19 @@ export default async function DashboardPage() {
   const userId = await getCurrentUserId();
   if (!userId) redirect('/login?next=/dashboard');
 
-  const [streak, heatmap, maturity, queue, enrolled] = await Promise.all([
-    getStreak(userId),
+  const now = new Date();
+  const [streak, heatmap, maturity, queue, enrolled, activity] = await Promise.all([
+    getStreak(userId, now),
     getHeatmap(userId),
     getMaturityCounts(userId),
-    getReviewQueue(userId),
+    getReviewQueue(userId, now),
     getEnrolledLessonsWithProgress(userId),
+    // 14 days covers the worst-case where today is Sunday and we want Mon..Sun
+    // of this week + a buffer day to be safe across tz/DST edges.
+    getActivity(userId, 14, now),
   ]);
 
+  const weekSummary = summarizeWeek(activity, now, activity.timezone);
   const dueTotal = queue.due.length + queue.newCards.length;
   const hasAnyActivity = streak.daysActive > 0 || enrolled.length > 0 || maturity.total > 0;
 
@@ -96,6 +104,8 @@ export default async function DashboardPage() {
           Khám phá decks →
         </Link>
       </div>
+
+      <WeekSummaryCard data={weekSummary} />
 
       <section className="space-y-3">
         <div className="flex items-baseline justify-between">
