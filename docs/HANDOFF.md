@@ -5,6 +5,100 @@
 
 ---
 
+## 2026-05-16 (tối) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 14 keyboard shortcuts modal)
+
+**Mục tiêu session**: Surface all keyboard shortcuts vào 1 chỗ learnable. Hiện tại user discover piecemeal. `?` modal makes them discoverable, plus small Keyboard icon button trong topbar cho discoverability click-first.
+
+**Đã hoàn thành (commit `b88f7ed` trên fe → merge `7d5ea62` lên dev → sync `71e1fca` xuống be).**
+
+### Files thêm mới (1)
+
+| Path                                        | Vai trò                                                                                       |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `src/components/layout/shortcuts-modal.tsx` | `<ShortcutsTrigger>` client với Keyboard icon button + global `?` keydown + native `<dialog>` |
+
+### Files edit (1)
+
+- `src/components/layout/topbar.tsx`: render `<ShortcutsTrigger/>` giữa search palette button và theme toggle
+
+### Why native `<dialog>` element
+
+- Free focus trap (browser handles)
+- Free backdrop (`::backdrop` pseudo + `backdrop:bg-zinc-950/40` Tailwind)
+- Free Esc-to-close
+- No Radix Dialog primitive cần thiết (avoid bundle bloat)
+
+Trade-off: requires `dialogRef.current?.showModal()` imperative API trong `useEffect` để sync open state. Acceptable.
+
+### Why backdrop-click via target check
+
+```tsx
+function handleDialogClick(e: React.MouseEvent<HTMLDialogElement>) {
+  if (e.target === e.currentTarget) setOpen(false);
+}
+```
+
+Native `<dialog>` clicks bubble từ inner panel lên dialog. Inner panel có own `stopPropagation` → target === currentTarget chỉ true khi click backdrop area.
+
+### Shortcut groups (hardcoded SECTIONS const)
+
+| Section          | Shortcuts                                     |
+| ---------------- | --------------------------------------------- |
+| Toàn cục         | ⌘K · ? · Tab · Shift+Tab · Esc                |
+| Ôn tập (/review) | Space · 1 · 2 · 3 · 4 · ? · Backspace · Enter |
+| Listening mode   | Space (replay audio)                          |
+
+Add new shortcuts = edit array. No magic.
+
+### `?` listener guard
+
+Skip when typing trong INPUT/TEXTAREA/contenteditable để user vẫn gõ "?" trong form được.
+
+### Bundle impact
+
+Trigger + shortcuts data trong shared topbar chunk → routes essentially unchanged. `/dashboard /decks /stats` 184 B / 109 kB, `/review` 5.01 kB / 126 kB (+0.01 kB negligible).
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 164/164 (12.44s) — unchanged (UI integration only)
+- `pnpm build` ✓ — bundle trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `553b0e3` | Tuần 6 chunk 14 + docs              |
+| be     | `e92c373` | sync Tuần 6 chunk 14 + docs         |
+| fe     | `5a0b7d0` | sync Tuần 6 chunk 14 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **Customizable shortcuts** — user-rebindable. Defer
+- **Per-page contextual hints** — show subset by route. Defer
+- **Animation** on open/close — `<dialog>` không animate naturally. Defer
+- **Manual live test** — chưa nhấn nút thật
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Verify backup workflow manual run
+3. Live golden path test
+4. Capture screenshots
+5. Tag v1.0.0
+
+Nếu autonomous tiếp ý tưởng (chunk 15):
+
+- **Sign-out wire-up** — topbar dropdown đang hiện "TODO" 2 chỗ
+- **Onboarding tour** — first-login overlay
+- **Per-lesson stats drilldown**
+- **Dashboard week summary card**
+- **Email notifications** — cần Resend setup
+
+---
+
 ## 2026-05-16 (chiều) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 13 forecast due 7 days)
 
 **Mục tiêu session**: Thêm chart forecast vào `/stats` — FSRS-grounded, helps user plan ahead. Pair tốt với existing maturity donut (snapshot) + retention line (trailing 12 weeks) + activity bar (trailing 30 days). Forecast bổ sung góc nhìn forward-looking.
