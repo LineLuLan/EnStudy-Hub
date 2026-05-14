@@ -5,6 +5,112 @@
 
 ---
 
+## 2026-05-17 (cuối session) — END-OF-MARATHON HANDOFF — Claude Opus 4.7
+
+> **Đọc trước tiên trong session sau.** Tổng kết marathon ngày 2026-05-14 → 2026-05-17 đã ship 14 chunks Tuần 6. App giờ feature-complete cho v1.0.0; còn lại 5 user TODOs (không ai có thể làm thay user) trước khi tag.
+
+**SHA cuối session**: `main = eb18493` · `dev = 6931b1e` · `be = bd149e2` · `fe = b92ae06`
+
+### Đã ship trong marathon (chunks 3 → 16)
+
+| Chunk | Date       | What                                                                                        | Files       | Tests   |
+| ----- | ---------- | ------------------------------------------------------------------------------------------- | ----------- | ------- |
+| 3     | 2026-05-14 | **CSV import** UI `/decks/import` — per-user collection, papaparse, Zod validate            | +9 / edit 5 | 72→91   |
+| 4     | 2026-05-14 | **Card notes + suspend** — `<CardActions>` collapsible, queue filter                        | +4 / edit 4 | 91→99   |
+| 5     | 2026-05-14 | **Card edit UI** (1-def) — inline form trong CardPreview với ownership chain                | +4 / edit 2 | 99→108  |
+| 6     | 2026-05-15 | **v1.0.0 prep**: README rewrite, MIT LICENSE, GitHub Actions backup cron, ENVIRONMENT docs  | +2 / edit 5 | 108     |
+| 7     | 2026-05-15 | **Multi-def card edit** — repeater UI, cardContentSchema swap, MIN/MAX bounds               | edit 4      | 108→115 |
+| 8     | 2026-05-15 | **Lesson rename + delete + card delete** — 3 actions cùng ownership pattern, native confirm | +4 / edit 2 | 115→127 |
+| 9     | 2026-05-15 | **UX polish bundle**: CSV template download + toast lesson complete                         | edit 4      | 127     |
+| 10    | 2026-05-15 | **User data export** — `/settings` JSON dump v1, slug-context self-describing               | +4 / edit 1 | 127→132 |
+| 11    | 2026-05-16 | **User data import** — JSON restore với cross-user reject + flatten                         | +4 / edit 1 | 132→146 |
+| 12    | 2026-05-16 | **CSV overwrite mode** — opt-in checkbox, onConflictDoUpdate + delete-replace               | edit 4      | 146→150 |
+| 13    | 2026-05-16 | **Forecast 7 days** trên `/stats` — SVG bar chart, overdue collapse, FSRS-grounded          | +4 / edit 1 | 150→164 |
+| 14    | 2026-05-16 | **Shortcuts modal** — `?` key + topbar Keyboard icon, native `<dialog>` element             | +1 / edit 1 | 164     |
+| 15    | 2026-05-16 | **Topbar polish + sign-out** — wire real email + signOut + Cài đặt link (P0 fix)            | edit 2      | 164     |
+| 16    | 2026-05-17 | **Dashboard week summary** — "Tuần này" card, reuse activity 14d, pure summarizeWeek        | +3 / edit 1 | 164→179 |
+
+**Tổng**: 35+ files mới, ~5000 LOC, **179/179 tests pass**, all typechecked + linted + built.
+
+### App-level state — feature complete cho v1.0.0
+
+**Content lifecycle 100% cho user-owned collections**:
+
+1. Import (CSV chunk 3 + JSON chunk 11)
+2. Edit 1-def (ch 5) → multi-def (ch 7)
+3. Re-upload overwrite (ch 12) hoặc lesson rename (ch 8)
+4. Card delete + lesson delete (ch 8)
+5. Note + suspend (ch 4)
+6. Export (ch 10) + GitHub Actions backup cron (ch 6)
+
+**UX polish**: ⌘K palette (T1) + `?` shortcuts modal (ch 14) · sign-out wire + email display (ch 15) · toast milestones streak/limit/lesson (ch 4/9) · CSV template download (ch 9).
+
+**Stats & analytics**: heatmap 12w (T4) · retention/activity/maturity charts (T4) · forecast 7 days (ch 13) · week summary card (ch 16).
+
+**Infra & docs**: production README + MIT LICENSE (ch 6) · daily DB backup workflow (ch 6) · 8 ADRs · sync log đầy đủ.
+
+### Routes tổng quan (build output cuối session)
+
+| Route                           | Size / First Load | Notes                                         |
+| ------------------------------- | ----------------- | --------------------------------------------- |
+| `/dashboard`                    | 184 B / 109 kB    | RSC + week summary + heatmap, zero client JS  |
+| `/decks`                        | 184 B / 109 kB    | Official + user-owned collections             |
+| `/decks/[col]`                  | 184 B / 109 kB    | Topics + lessons list                         |
+| `/decks/[col]/[topic]/[lesson]` | 5.4 kB / 145 kB   | Card preview + edit (lazy) + lesson actions   |
+| `/decks/import`                 | 13.6 kB / 153 kB  | CSV form + preview + overwrite                |
+| `/review`                       | 5 kB / 126 kB     | 4 minigame modes (lazy) + card actions (lazy) |
+| `/review/summary`               | 2.6 kB / 122 kB   | Per-rating stats                              |
+| `/settings`                     | 6.69 kB / 124 kB  | Profile + export + import                     |
+| `/stats`                        | 184 B / 109 kB    | 4 charts (RSC + raw SVG)                      |
+| `/login`                        | 3.05 kB / 130 kB  | Magic link + Google OAuth                     |
+
+`/review` First Load **giữ 126 kB** xuyên suốt marathon — critical path không bị bloat dù thêm CardActions + edit form (lazy load patterns).
+
+### Vẫn block v1.0.0 tag — 5 user TODOs (không phải code)
+
+| #   | Task                                                                                                                                                                           | Effort   |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| 1   | Add `BACKUP_DATABASE_URL` GitHub secret (Supabase **Direct** URL 5432, không phải pooler) — xem `docs/ENVIRONMENT.md` mục 7                                                    | ~3 phút  |
+| 2   | Manual run `Backup Supabase DB` workflow lần đầu verify                                                                                                                        | ~5 phút  |
+| 3   | Live golden path test với DB thật: login → import CSV → review (suspend + note) → edit → forecast → week summary → export → import → sign out                                  | ~30 phút |
+| 4   | Capture screenshots cho README — dashboard/review/stats/decks/settings, bỏ vào `docs/screenshots/`                                                                             | ~20 phút |
+| 5   | Merge `dev → main` + tag `v1.0.0`: `git checkout main && git merge dev --no-ff -m "release: v1.0.0"` + `git tag -a v1.0.0` + push --follow-tags + GitHub Release với CHANGELOG | ~5 phút  |
+
+### Pattern reuse highlights (cho session sau)
+
+- **Pure schema + impure action split**: `*-schema.ts` (Zod only) tách `*.ts` (`'use server'`). Vitest không pull DB client → fast tests. Dùng trong chunks 3/4/5/10/11/12
+- **Ownership chain check**: 1 JOIN query qua cards → lessons → topics → collections, check `isOfficial || ownerId !== userId`. Chunks 5/7/8
+- **Cascade delete via FK**: `onDelete: 'cascade'` đầy đủ trong schema. Single `db.delete(lessons)` đủ wipe down chain. Chunks 8/12
+- **Multi-tenant via collection ownership**: `personal-{userId.slice(0,8)}` slug + `isOfficial=false`. Zero schema migration (ADR-008)
+- **Lazy load qua `next/dynamic`**: minigame cards, CardActions, CardEditForm. Keep `/review` lean
+- **Raw SVG cho charts**: zero charting lib, full SSR, accessible `<title>` tooltips
+- **`now` pin trong RSC pages**: pass single `Date` xuống tất cả queries (tránh micro-skew giữa streak/queue/activity gần midnight)
+
+### Recommended chunk 17 options (nếu autonomous tiếp)
+
+1. **Onboarding tour** — first-login overlay 4-5 step (Decks/Review/Stats/Settings)
+2. **Per-lesson stats drilldown** — click lesson trên dashboard → modal mini-charts
+3. **Empty-state CTAs cải thiện** — improve discoverability cho first-time users
+4. **README screenshots placeholders** — ASCII mockups tạm cho tới khi user chụp thật
+5. **Forecast 30 days** với user-selectable window
+6. **Login UX polish** — Google OAuth button visual + magic link copy
+
+### Known footguns documented in DECISIONS.md
+
+- **ADR-008**: Drizzle bypass RLS qua service-role → app enforce ownership trong queries. Footgun nếu thêm public route đọc Supabase REST trực tiếp
+- **Profile + stats không restore từ JSON import** (ch 11) — intentional, tránh clobber settings + corrupt streak history
+- **FSRS state lost on CSV overwrite** (ch 12) — opt-in via checkbox với warn copy
+- **CardEditForm POS no aliases** (ch 7) — UI select đủ canonical; CSV import (ch 3) vẫn alias `adj/adv/...`
+
+### Git workflow recap
+
+- 14 commits `fe`, mỗi cái merge `--no-ff` lên `dev`, sync xuống `be`
+- 0 commits trên `main` (giữ v0.2.0 tag intact)
+- 0 rebases, 0 force-pushes — strict 4-branch model
+- Pattern conflict đã thấy: HANDOFF.md edit hay conflict với lint-staged prettier — workaround: commit code trước, HANDOFF entry trong follow-up commit riêng (chunks 9/10/11/13/14/15/16 đều có pattern này)
+
+---
+
 ## 2026-05-17 (sáng) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 16 dashboard week summary card)
 
 **Mục tiêu session**: Thêm "Tuần này" rollup card vào `/dashboard` cho user feedback nhanh về tiến độ tuần. 3 metrics: reviews, accuracy %, days active. Reuse existing 14-day activity data thay vì thêm DB query mới.
