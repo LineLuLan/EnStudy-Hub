@@ -168,6 +168,45 @@ describe('csvImportInputSchema', () => {
     });
     expect(result.success).toBe(true);
   });
+
+  it('defaults overwrite to false when omitted', () => {
+    const result = csvImportInputSchema.parse({
+      lessonName: 'Daily Words',
+      lessonSlug: 'daily-words',
+      csvText: 'x',
+    });
+    expect(result.overwrite).toBe(false);
+  });
+
+  it('accepts overwrite=true boolean', () => {
+    const result = csvImportInputSchema.parse({
+      lessonName: 'Daily Words',
+      lessonSlug: 'daily-words',
+      csvText: 'x',
+      overwrite: true,
+    });
+    expect(result.overwrite).toBe(true);
+  });
+
+  it("coerces overwrite='true' string (FormData) to true", () => {
+    const result = csvImportInputSchema.parse({
+      lessonName: 'Daily Words',
+      lessonSlug: 'daily-words',
+      csvText: 'x',
+      overwrite: 'true',
+    });
+    expect(result.overwrite).toBe(true);
+  });
+
+  it("coerces overwrite='false' string (FormData) to false", () => {
+    const result = csvImportInputSchema.parse({
+      lessonName: 'Daily Words',
+      lessonSlug: 'daily-words',
+      csvText: 'x',
+      overwrite: 'false',
+    });
+    expect(result.overwrite).toBe(false);
+  });
 });
 
 describe('slugify', () => {

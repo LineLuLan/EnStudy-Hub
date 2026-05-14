@@ -40,6 +40,7 @@ export function CsvImportForm() {
   const [lessonName, setLessonName] = React.useState('');
   const [lessonSlug, setLessonSlug] = React.useState('');
   const [slugTouched, setSlugTouched] = React.useState(false);
+  const [overwrite, setOverwrite] = React.useState(false);
   const [preview, setPreview] = React.useState<PreviewResult | null>(null);
   const [previewing, startPreview] = React.useTransition();
   const [submitting, startSubmit] = React.useTransition();
@@ -95,12 +96,14 @@ export function CsvImportForm() {
     fd.set('lessonName', lessonName.trim());
     fd.set('lessonSlug', lessonSlug.trim());
     fd.set('csvText', csvText);
+    fd.set('overwrite', overwrite ? 'true' : 'false');
     startSubmit(async () => {
       const result = await importCsvAsLesson(fd);
       if (result.ok) {
-        toast.success(`Đã nhập ${result.cardCount} thẻ.`, {
-          description: 'Đang chuyển tới bài học mới…',
-        });
+        toast.success(
+          overwrite ? `Đã ghi đè ${result.cardCount} thẻ.` : `Đã nhập ${result.cardCount} thẻ.`,
+          { description: 'Đang chuyển tới bài học…' }
+        );
         router.push(`/decks/${result.collectionSlug}/${result.topicSlug}/${result.lessonSlug}`);
       } else {
         toast.error(result.error);
@@ -226,6 +229,25 @@ export function CsvImportForm() {
             3-40 ký tự, chỉ a-z, 0-9, dấu gạch ngang. Tự suy ra từ tên nếu chưa sửa.
           </p>
         </div>
+        <label className="flex items-start gap-2 rounded-md border border-amber-200 bg-amber-50/40 p-2.5 text-xs dark:border-amber-900/60 dark:bg-amber-950/20">
+          <input
+            type="checkbox"
+            checked={overwrite}
+            onChange={(e) => setOverwrite(e.target.checked)}
+            disabled={pending}
+            className="mt-0.5 h-3.5 w-3.5 cursor-pointer accent-amber-600"
+            aria-label="Ghi đè bài học cũ nếu trùng slug"
+          />
+          <span className="leading-relaxed">
+            <span className="font-medium text-amber-900 dark:text-amber-100">
+              Ghi đè bài học cũ nếu trùng slug
+            </span>
+            <span className="block text-[11px] text-amber-900/80 dark:text-amber-100/80">
+              Thẻ cũ trong bài đó sẽ bị xoá, FSRS state (stability/due) reset về thẻ mới. Dùng khi
+              muốn fix typo trong CSV và upload lại.
+            </span>
+          </span>
+        </label>
       </FormSection>
 
       <div className="flex flex-col items-start gap-3 border-t border-zinc-200 pt-4 sm:flex-row sm:items-center dark:border-zinc-800">

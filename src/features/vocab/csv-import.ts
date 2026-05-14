@@ -1,6 +1,7 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
+import { eq } from 'drizzle-orm';
 import { db } from '@/lib/db/client';
 import { collections, topics, lessons, cards, userLessons, userCards } from '@/lib/db/schema';
 import { requireUserId } from '@/lib/auth/session';
@@ -61,6 +62,7 @@ export async function importCsvAsLesson(formData: FormData): Promise<ImportResul
     lessonName: formData.get('lessonName'),
     lessonSlug: formData.get('lessonSlug'),
     csvText: formData.get('csvText'),
+    overwrite: formData.get('overwrite') ?? false,
   });
   if (!input.success) {
     return { ok: false, error: input.error.issues[0]?.message ?? 'Dữ liệu không hợp lệ' };
@@ -87,7 +89,7 @@ export async function importCsvAsLesson(formData: FormData): Promise<ImportResul
   }
 
   const collectionSlug = personalCollectionSlug(userId);
-  const { lessonName, lessonSlug } = input.data;
+  const { lessonName, lessonSlug, overwrite } = input.data;
   const cardContents = parseResult.rows;
 
   try {
@@ -126,19 +128,44 @@ export async function importCsvAsLesson(formData: FormData): Promise<ImportResul
       if (!topicRow) throw new Error('TOPIC_FAIL');
       const topicId = topicRow.id;
 
-      const [lessonRow] = await tx
-        .insert(lessons)
-        .values({
-          topicId,
-          slug: lessonSlug,
-          name: lessonName,
-          orderIndex: 0,
-          cardCount: cardContents.length,
-        })
-        .onConflictDoNothing({ target: [lessons.topicId, lessons.slug] })
-        .returning({ id: lessons.id });
+      // With overwrite=true: upsert lesson (update name + cardCount on
+      // conflict) and delete existing cards so the bulk insert below replaces
+      // them. Cascade wipes user_cards on those cards — FSRS state is lost
+      // for this lesson but user explicitly opted in via the checkbox.
+      // With overwrite=false (default): keep the original chunk-3 behavior of
+      // rejecting via SLUG_TAKEN.
+      const [lessonRow] = overwrite
+        ? await tx
+            .insert(lessons)
+            .values({
+              topicId,
+              slug: lessonSlug,
+              name: lessonName,
+              orderIndex: 0,
+              cardCount: cardContents.length,
+            })
+            .onConflictDoUpdate({
+              target: [lessons.topicId, lessons.slug],
+              set: { name: lessonName, cardCount: cardContents.length },
+            })
+            .returning({ id: lessons.id })
+        : await tx
+            .insert(lessons)
+            .values({
+              topicId,
+              slug: lessonSlug,
+              name: lessonName,
+              orderIndex: 0,
+              cardCount: cardContents.length,
+            })
+            .onConflictDoNothing({ target: [lessons.topicId, lessons.slug] })
+            .returning({ id: lessons.id });
       if (!lessonRow) throw new Error('SLUG_TAKEN');
       const lessonId = lessonRow.id;
+
+      if (overwrite) {
+        await tx.delete(cards).where(eq(cards.lessonId, lessonId));
+      }
 
       const insertedCards = await tx
         .insert(cards)
