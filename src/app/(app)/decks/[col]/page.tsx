@@ -8,10 +8,10 @@ export const dynamic = 'force-dynamic';
 
 export default async function CollectionPage({ params }: { params: Promise<{ col: string }> }) {
   const { col } = await params;
-  const collection = await getCollectionBySlug(col);
+  const userId = await getCurrentUserId();
+  const collection = await getCollectionBySlug(col, userId);
   if (!collection) notFound();
 
-  const userId = await getCurrentUserId();
   const enrolled = userId ? await getEnrolledLessonIds(userId) : new Set<string>();
 
   return (

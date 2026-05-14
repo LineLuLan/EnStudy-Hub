@@ -19,15 +19,8 @@ export type CollectionWithCounts = Collection & {
   lessonCount: number;
 };
 
-export async function listOfficialCollections(): Promise<CollectionWithCounts[]> {
-  const cols = await db.query.collections.findMany({
-    where: eq(collections.isOfficial, true),
-    orderBy: [asc(collections.createdAt)],
-  });
+async function withCounts(cols: Collection[]): Promise<CollectionWithCounts[]> {
   if (cols.length === 0) return [];
-
-  // Aggregate topics + lessons in two more round-trips. MVP volume is small;
-  // can collapse to a single SQL with GROUP BY if it ever becomes hot.
   const topicRows = await db
     .select({ id: topics.id, collectionId: topics.collectionId })
     .from(topics)
@@ -68,6 +61,26 @@ export async function listOfficialCollections(): Promise<CollectionWithCounts[]>
   });
 }
 
+export async function listOfficialCollections(): Promise<CollectionWithCounts[]> {
+  const cols = await db.query.collections.findMany({
+    where: eq(collections.isOfficial, true),
+    orderBy: [asc(collections.createdAt)],
+  });
+  return withCounts(cols);
+}
+
+/**
+ * List collections owned by the given user (non-official, personal imports).
+ * Drizzle bypasses RLS via service-role; ownership enforced here in app code.
+ */
+export async function listUserOwnedCollections(userId: string): Promise<CollectionWithCounts[]> {
+  const cols = await db.query.collections.findMany({
+    where: and(eq(collections.ownerId, userId), eq(collections.isOfficial, false)),
+    orderBy: [asc(collections.createdAt)],
+  });
+  return withCounts(cols);
+}
+
 export type TopicWithLessons = Topic & {
   lessons: Array<
     Pick<Lesson, 'id' | 'slug' | 'name' | 'cardCount' | 'estimatedMinutes' | 'orderIndex'>
@@ -78,11 +91,17 @@ export type CollectionDetail = Collection & {
   topics: TopicWithLessons[];
 };
 
-export async function getCollectionBySlug(slug: string): Promise<CollectionDetail | null> {
+export async function getCollectionBySlug(
+  slug: string,
+  userId: string | null
+): Promise<CollectionDetail | null> {
   const collection = await db.query.collections.findFirst({
     where: eq(collections.slug, slug),
   });
   if (!collection) return null;
+  // Ownership gate: official collections are public; user-owned collections
+  // are private. Drizzle bypasses RLS, so enforce here.
+  if (!collection.isOfficial && collection.ownerId !== userId) return null;
 
   const topicRows = await db.query.topics.findMany({
     where: eq(topics.collectionId, collection.id),
@@ -142,7 +161,8 @@ export type LessonDetail = Lesson & {
 export async function getLessonByPath(
   colSlug: string,
   topicSlug: string,
-  lessonSlug: string
+  lessonSlug: string,
+  userId: string | null
 ): Promise<LessonDetail | null> {
   const row = await db
     .select({
@@ -160,6 +180,8 @@ export async function getLessonByPath(
 
   const hit = row[0];
   if (!hit) return null;
+  // Ownership gate (see getCollectionBySlug).
+  if (!hit.collection.isOfficial && hit.collection.ownerId !== userId) return null;
 
   const cardRows = await db.query.cards.findMany({
     where: eq(cards.lessonId, hit.lesson.id),
