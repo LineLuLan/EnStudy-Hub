@@ -5,6 +5,101 @@
 
 ---
 
+## 2026-05-14 (chiều) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 3 CSV import UI)
+
+**Mục tiêu session**: Ship `/decks/import` page — user upload CSV → tạo lesson cá nhân + cards + auto-enroll. Mở khóa "Scale content" Tuần 6 mà không phụ thuộc `pnpm seed` + git commit JSON.
+
+**Đã hoàn thành (commit `8aeb0e4` trên fe → merge `14ac3d4` lên dev → sync `0d22bb4` xuống be).**
+
+### Phương án multi-tenant
+
+Không migration schema. Tận dụng `collections.ownerId` + `isOfficial=false` đã có từ Phase 0. Mỗi user upload → tạo per-user collection `personal-{userId.slice(0,8)}` với 1 topic `imported`; lesson + cards chain ownership qua FK. Xem **ADR-008** trong `docs/DECISIONS.md` cho trade-off đầy đủ (vs. cột `lessons.created_by_user_id` đã loại).
+
+### Files thêm mới (9)
+
+| Path                                         | Vai trò                                                                                             |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `src/features/vocab/csv-schema.ts`           | Zod `csvRowSchema` + `csvImportInputSchema`, POS short→full alias map, `slugify`, `RowError` type   |
+| `src/features/vocab/csv-parse.ts`            | Pure `parseCsvRows(text)` qua papaparse — header check, BOM strip, dedup-in-file, per-row errors    |
+| `src/features/vocab/csv-import.ts`           | `'use server'`: `previewCsv()` no-DB validate, `importCsvAsLesson()` Drizzle transaction            |
+| `src/features/vocab/csv-parse.test.ts`       | 19 vitest cases — happy path, BOM, quoted commas, missing header, dedup, oversize, schemas, slugify |
+| `src/components/ui/textarea.tsx`             | Shadcn-style textarea primitive (mono font, min-h 120px) cho paste CSV                              |
+| `src/components/decks/csv-preview-table.tsx` | Pure client — file-level + row-level error groups, sticky-header table 50 rows visible              |
+| `src/components/decks/csv-import-form.tsx`   | Client form 2-step (upload/paste → preview → submit) với debounced auto-preview 350ms               |
+| `src/app/(app)/decks/import/page.tsx`        | RSC auth gate `getCurrentUserId() → redirect('/login')`, renders form                               |
+| `src/app/(app)/decks/import/loading.tsx`     | Skeleton match form layout                                                                          |
+
+### Files edit (5)
+
+- `src/features/vocab/queries.ts`: thêm `listUserOwnedCollections(userId)`, refactor shared `withCounts(cols)` helper. `getCollectionBySlug` + `getLessonByPath` thêm tham số `userId` để filter `isOfficial OR ownerId=userId` (Drizzle bypass RLS → app enforce trong code, comment ghi rõ footgun cho route public sau này)
+- `src/app/(app)/decks/page.tsx`: thêm "Nhập CSV" CTA top-right + section "Bộ của bạn" trên Section official nếu `owned.length > 0`, refactor `<CollectionGrid>` shared cho 2 variant (`official` badge xanh emerald, `owned` badge sky)
+- `src/app/(app)/decks/[col]/page.tsx` + `[col]/[topic]/[lesson]/page.tsx`: pass `userId` xuống query (ownership gate)
+- `package.json` + `pnpm-lock.yaml`: + `papaparse@5.4.1` (dep) + `@types/papaparse@5.3.15` (devDep), pin exact
+
+### CSV spec
+
+Header **required**, lowercase exact, order-tolerant. 9 cột: `word, ipa, pos, cefr, meaning_vi, meaning_en, example_en, example_vi, mnemonic_vi` (last optional).
+
+- POS chấp nhận full (`noun, verb, adjective, ...`) hoặc short (`n, v, adj, adv, prep, conj, pron, interj, det, aux`) — alias map trong `csv-schema.ts:21-31`
+- CEFR `{A1..C2}` case-insensitive (preprocess uppercase)
+- Word regex `^[a-z][a-z\s'-]{0,79}$`
+- Limits: max 200 rows × 256 KB
+- Per-row Zod parse + dedup `Set<word>` — errors aggregate ở `RowError[]` (row, field, message)
+- UTF-8 BOM auto-strip (line `csv-parse.ts:18`) cho Excel save
+
+### Server flow
+
+```
+importCsvAsLesson FormData → csvImportInputSchema validate
+  → requireUserId + ensureProfile
+  → parseCsvRows re-validate (no trust client)
+  → db.transaction:
+       upsert collection personal-{userId.slice(0,8)}
+       upsert topic 'imported'
+       insert lesson (reject SLUG_TAKEN on (topic_id,slug) unique)
+       bulk insert cards (source='csv-import')
+       insert user_lessons + bulk user_cards (auto-enroll FSRS defaults)
+  → revalidatePath /decks layout + /dashboard + /review
+  → return { collectionSlug, topicSlug, lessonSlug, cardCount }
+```
+
+Client redirect: `router.push('/decks/{collectionSlug}/{topicSlug}/{lessonSlug}')` + sonner toast "Đã nhập N thẻ."
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 91/91 (4.54s) — 72 cũ + 19 mới
+- `pnpm build` ✓ — `/decks/import` **25.5 kB / 152 kB** First Load. Khác routes không đổi
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                            |
+| ------ | --------- | ------------------------------- |
+| main   | `eb18493` | v0.2.0 (release tag, không đổi) |
+| dev    | `14ac3d4` | Tuần 6 chunk 3 CSV import       |
+| be     | `0d22bb4` | sync Tuần 6 chunk 3             |
+| fe     | `8aeb0e4` | base Tuần 6 chunk 3             |
+
+### Bỏ ngoài scope (defer)
+
+- **Live test với real Supabase** — code-side mọi thứ pass, nhưng chưa upload CSV thực tế qua dev server. User chạy `pnpm dev` → login → `/decks/import` → upload sample 5 rows → verify lesson tạo + auto-enroll
+- **JSON paste tab** — alternative cho `lessonContentSchema` (multi-definition + multi-example). Defer chunk 4
+- **Overwrite cùng slug** — hiện reject `SLUG_TAKEN`. UI overwrite/rename modal defer
+- **CSV template download** — nút "Tải mẫu CSV" cho user. Hiện chỉ có "Dùng mẫu thử" load inline 1 row
+- **RLS tightening cho topics/lessons/cards** — current `USING (true)` permissive. Defense-in-depth defer chunk 4. Comment cảnh báo footgun đã có trong `queries.ts`
+- **Drag-drop file input** — hiện native click → file picker đủ MVP
+- **Cross-user E2E test** — yêu cầu 2 account test, defer khi có Playwright setup
+
+### Next session — Tuần 6 chunk 4 options
+
+1. **Live Lighthouse run + iterate** — user chạy `pnpm build && pnpm start` local, Lighthouse Chrome panel, capture score `/decks/import` (route mới, chưa tối ưu)
+2. **Content P1 batch via CSV import** — gen 7 lessons × 20 cards offline Claude desktop free → format CSV → import qua UI mới ship. End-to-end content scale
+3. **Card editing UI + personal notes** — inline edit, `user_cards.notes` đã có cột (schema.ts:176)
+4. **README.md update** + `v1.0.0` prep — sau khi content scale + manual test golden path
+
+---
+
 ## 2026-05-14 (sáng) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 2 Lighthouse audit fixes)
 
 **Mục tiêu session**: Code-side fixes cho Lighthouse audit — perf + a11y + SEO. Không chạy được Lighthouse CLI thực tế (cần dev server + headless Chrome setup), nên focus vào các criteria phổ biến mà Lighthouse check và fix được từ source code.

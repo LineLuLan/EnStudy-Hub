@@ -228,7 +228,16 @@
   - **SEO**: per-page metadata title cho 6 pages — dashboard/review/decks/stats/settings/login. Root layout title template `'%s · EnStudy Hub'` auto-fills tab title. `/review/summary` skip vì client component, defer
   - Build: typecheck OK, lint OK, tests 72/72, build OK
 - [ ] Gen thêm 500-1000 từ
-- [ ] CSV import UI
+- [x] **Chunk 3 CSV import UI done** (2026-05-14, commit `8aeb0e4` trên fe → merge `14ac3d4` lên dev → sync `0d22bb4` xuống be):
+  - `/decks/import` page (RSC + client form) — upload file `.csv` hoặc paste text → debounced preview qua `previewCsv()` server action → submit qua `importCsvAsLesson()` → redirect tới lesson detail
+  - Per-user collection pattern: tạo `personal-{userId.slice(0,8)}` với `isOfficial=false, ownerId=userId`, topic `imported`. Multi-tenant ready không cần migration (xem ADR-008)
+  - CSV format 9 cột (`word,ipa,pos,cefr,meaning_vi,meaning_en,example_en,example_vi,mnemonic_vi`), max 200 thẻ × 256 KB. POS short aliases (`adj/adv/prep/...`) map sang full forms khớp `posSchema`. UTF-8 BOM tolerant. Dedup-in-file
+  - Server-side parse với `papaparse@5.4.1` (pin exact) — không ship vào client bundle. `previewCsv()` no-DB validate, `importCsvAsLesson()` Drizzle transaction: upsert collection + topic, insert lesson (reject `SLUG_TAKEN`), bulk insert cards với `source:'csv-import'`, auto-enroll user_lessons + user_cards FSRS defaults
+  - Ownership filter trong `getCollectionBySlug + getLessonByPath` (extra `userId` param) — Drizzle bypass RLS, app enforce trong code. `listUserOwnedCollections(userId)` mới song song `listOfficialCollections()`
+  - `/decks` page: thêm CTA "Nhập CSV" + section "Bộ của bạn" nếu user có collection riêng
+  - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
+  - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
+  - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
 - [ ] Card editing UI
 - [ ] Suspend/bury cards
 - [ ] Personal notes per card
