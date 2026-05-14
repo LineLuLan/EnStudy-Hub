@@ -238,6 +238,14 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 13 forecast due 7 days done** (2026-05-16, commit `3b01347` trên fe → merge `3976889` lên dev → sync `08d7454` xuống be):
+  - Section mới "Lịch ôn 7 ngày tới" trên `/stats`. Helps user plan ahead — FSRS-grounded forecast theo timezone user
+  - `features/stats/forecast-utils.ts`: pure `bucketizeDueByDay(dueDates, now, tz, days)` — seed N empty buckets, scan due list, overdue → today bucket (with separate `overdue` count), future-beyond-window dropped. `labelForDay()` "Hôm nay" hoặc VN weekday short codes (CN/T2..T7)
+  - `features/stats/forecast.ts`: `getDueForecast(userId, days=7, now)` — read profile.timezone, query user_cards with `state != 'new' + suspended = false + due ≤ windowEnd`. Same filter như `getReviewQueue` → forecast match queue actual
+  - `components/stats/due-forecast-bar.tsx`: raw SVG 7-bar chart match activity-bar style. Amber bar today (overdue collapsed in), sky future. Y axis 0/mid/max. Count labels above bars. `<title>` tooltips include overdue count
+  - `/stats/page.tsx`: section sau maturity donut với caveat copy về overdue collapse + suspended exclusion. Promise.all pickup query mới
+  - Tests: 14 mới — empty seeds, days clamp, tz bucketing, overdue/today/future mix, UTC users, chronological order, isToday flag, weekday labels. Tổng 150 → 164/164 pass
+  - Build: `/stats` **184 B / 109 kB** unchanged (RSC + raw SVG, zero client JS)
 - [x] **Chunk 12 CSV re-upload overwrite done** (2026-05-16, commit `900737f` trên fe → merge `4eab9a7` lên dev → sync `4ca4225` xuống be):
   - Đóng biggest gap từ chunk 3 — re-upload cùng slug trước đây hard reject `SLUG_TAKEN`. Giờ opt-in checkbox "Ghi đè bài học cũ nếu trùng slug" cho user accept FSRS state loss
   - `csv-schema.ts`: `csvImportInputSchema` thêm field `overwrite: z.boolean().default(false)` với Zod preprocess coerce FormData string `'true'/'false'` → boolean (cho cả direct API call lẫn form)
