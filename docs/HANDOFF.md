@@ -5,6 +5,97 @@
 
 ---
 
+## 2026-05-16 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 15 topbar polish + sign-out wire)
+
+**Mục tiêu session**: Close P0 v1.0.0 blocker — topbar dropdown hardcode 2 TODO `"TODO: hiển thị email"` + `"Đăng xuất (TODO)"`. signOut server action có từ Tuần 1, chỉ chưa wire UI. Nếu ship v1.0.0 với broken logout = embarrassing P0 bug. Fix luôn + thêm Cài đặt link cùng chunk.
+
+**Đã hoàn thành (commit `148fbee` trên fe → merge `3992249` lên dev → sync `0ae3017` xuống be).**
+
+### Files edit (2)
+
+| Path                               | Thay đổi                                                                                         |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `src/app/(app)/layout.tsx`         | Convert async, read session qua `getSession()` (fast, no network), pass `userEmail` xuống Topbar |
+| `src/components/layout/topbar.tsx` | Accept `userEmail` prop, dropdown rewrite: email display + Cài đặt link + signOut wire           |
+
+### Why getSession() not getUser()
+
+- `getSession()` decodes session cookie locally — 0 network, ~1ms
+- `getUser()` validates with Supabase server — 150-300ms
+
+Layout runs trên EVERY route trong `(app)/`. Middleware đã verify auth upstream → re-verifying là wasted. Pattern memory'd từ Tuần 4 chunk 4 auth perf hotfix.
+
+### Why catch NEXT_REDIRECT
+
+```ts
+try {
+  await signOut();
+} catch (err) {
+  const message = err instanceof Error ? err.message : '';
+  if (!message.includes('NEXT_REDIRECT')) {
+    toast.error('Không đăng xuất được. Thử lại.');
+  }
+}
+```
+
+`signOut()` ends with `redirect('/login')` → throws `NEXT_REDIRECT` internally cho Next flow control. Throw IS redirect. Without catch, transition surface như "real" error.
+
+### Why onSelect + preventDefault
+
+Radix `DropdownMenuItem onSelect` fires keyboard+mouse. `e.preventDefault()` keeps menu open until async signOut() completes → spinner visible. Without preventDefault, menu auto-closes BEFORE signOut starts → flash dashboard then redirect.
+
+### Why red tone
+
+Sign-out = destructive intent (kills session). Pattern matches suspend toggle (chunk 4) + delete buttons (chunks 8/12) using red-600 text + red-50 focus bg.
+
+### Side effect: /review/summary `○→ƒ`
+
+Parent `(app)/layout.tsx` now async with auth read → child routes inherit dynamic. Correct — auth routes vốn dynamic via middleware, build report giờ explicit. No user-facing change.
+
+### Bundle impact
+
+Routes essentially unchanged. Settings/LogOut/Loader2 icons already trong other components' lucide imports.
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 164/164 (16.62s) — unchanged
+- `pnpm build` ✓
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `07abd52` | Tuần 6 chunk 15 + docs              |
+| be     | `64bf040` | sync Tuần 6 chunk 15 + docs         |
+| fe     | `3efe53e` | sync Tuần 6 chunk 15 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **"Đổi email" / "Đổi mật khẩu"** trong dropdown — Supabase auth UI hỗ trợ riêng
+- **Avatar** thay User icon generic — cần upload UI + storage
+- **Multi-account switcher** — defer hậu MVP
+- **Manual live test** — chưa thực sự nhấn Đăng xuất với session thật
+
+### Next session — vẫn còn chunk 6 TODOs cho user (v1.0.0 ship)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Verify backup workflow manual run
+3. Live golden path test — giờ + signOut + Settings link test
+4. Capture screenshots
+5. Tag v1.0.0
+
+Nếu autonomous tiếp ý tưởng (chunk 16):
+
+- **Dashboard week summary card** — "Tuần này: X reviews, Y new, Z accuracy"
+- **Onboarding tour** — first-login overlay
+- **Per-lesson stats drilldown**
+- **Email notifications** — cần Resend setup từ user
+
+---
+
 ## 2026-05-16 (tối) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 14 keyboard shortcuts modal)
 
 **Mục tiêu session**: Surface all keyboard shortcuts vào 1 chỗ learnable. Hiện tại user discover piecemeal. `?` modal makes them discoverable, plus small Keyboard icon button trong topbar cho discoverability click-first.
