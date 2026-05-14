@@ -84,6 +84,7 @@ export default async function ReviewPage() {
           dailyNewLimit={queue.meta.dailyNewLimit}
           isFirstReviewToday={isFirstReviewToday}
           currentStreak={streak.current}
+          lessonNames={queue.meta.lessonNames}
         />
       </div>
     </div>

@@ -46,12 +46,15 @@ export function ReviewSession({
   dailyNewLimit,
   isFirstReviewToday,
   currentStreak,
+  lessonNames,
 }: {
   initialQueue: ReviewQueueItem[];
   newLearnedToday: number;
   dailyNewLimit: number;
   isFirstReviewToday: boolean;
   currentStreak: number;
+  /** lessonId → lessonName, from getReviewQueue meta. Used for lesson-complete toast. */
+  lessonNames: Record<string, string>;
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
@@ -69,6 +72,23 @@ export function ReviewSession({
   const streakToastedRef = useRef(false);
   const limitToastedRef = useRef(false);
   const newCardsThisSessionRef = useRef(0);
+
+  // Lesson-complete toast: count how many cards from each lesson are in this
+  // session's initial queue, then increment a per-lesson rated counter on
+  // each successful rate. When rated === total for a lesson, fire once.
+  const lessonTotalsRef = useRef<Record<string, number>>({});
+  const lessonRatedRef = useRef<Record<string, number>>({});
+  const lessonCompleteToastedRef = useRef<Set<string>>(new Set());
+  useEffect(() => {
+    const totals: Record<string, number> = {};
+    for (const item of initialQueue) {
+      const id = item.userCard.lessonId;
+      totals[id] = (totals[id] ?? 0) + 1;
+    }
+    lessonTotalsRef.current = totals;
+    lessonRatedRef.current = {};
+    lessonCompleteToastedRef.current = new Set();
+  }, [initialQueue]);
 
   // Bootstrap store from server-fetched queue exactly once per mount.
   useEffect(() => {
@@ -115,6 +135,27 @@ export function ReviewSession({
         description: 'Tiếp tục ôn các thẻ đến hạn — thẻ mới sẽ mở lại ngày mai.',
         duration: 5000,
       });
+    }
+
+    // Milestone 3: lesson complete. Increment per-lesson rated count and fire
+    // once when rated == total for that lesson. Multiple lessons in a queue
+    // can each fire independently.
+    if (cardBefore) {
+      const lessonId = cardBefore.userCard.lessonId;
+      lessonRatedRef.current[lessonId] = (lessonRatedRef.current[lessonId] ?? 0) + 1;
+      const total = lessonTotalsRef.current[lessonId] ?? 0;
+      if (
+        total > 0 &&
+        lessonRatedRef.current[lessonId] === total &&
+        !lessonCompleteToastedRef.current.has(lessonId)
+      ) {
+        lessonCompleteToastedRef.current.add(lessonId);
+        const name = lessonNames[lessonId];
+        toast.success(name ? `🎉 Hoàn thành bài "${name}"!` : `🎉 Hoàn thành 1 bài học!`, {
+          description: `Đã ôn xong ${total} thẻ trong session này.`,
+          duration: 5000,
+        });
+      }
     }
   }
 

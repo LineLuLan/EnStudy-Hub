@@ -1,6 +1,6 @@
 import { and, asc, eq, gte, inArray, lte, ne, sql } from 'drizzle-orm';
 import { db } from '@/lib/db/client';
-import { cards, profiles, userCards, type Card, type UserCard } from '@/lib/db/schema';
+import { cards, lessons, profiles, userCards, type Card, type UserCard } from '@/lib/db/schema';
 import {
   buildDistractorPool,
   computeNewRemaining,
@@ -31,6 +31,13 @@ export type ReviewQueue = {
     newLearnedToday: number;
     dailyNewLimit: number;
     timezone: string;
+    /**
+     * lessonId → lessonName for every lesson referenced by the queue. Used by
+     * the review session orchestrator to fire a "lesson complete" toast when
+     * the user finishes every card from a single lesson in this session.
+     * Empty if queue is empty.
+     */
+    lessonNames: Record<string, string>;
   };
 };
 
@@ -148,6 +155,17 @@ export async function getReviewQueue(userId: string, now: Date = new Date()): Pr
   const due = dueRows.map(attach);
   const newCardsResult = newRows.map(attach);
 
+  // Fetch lesson names for any lesson referenced in this session. Single
+  // round-trip on the same lessonIds set already deduped above.
+  const lessonNames: Record<string, string> = {};
+  if (lessonIds.length > 0) {
+    const rows = await db
+      .select({ id: lessons.id, name: lessons.name })
+      .from(lessons)
+      .where(inArray(lessons.id, lessonIds));
+    for (const r of rows) lessonNames[r.id] = r.name;
+  }
+
   return {
     due,
     newCards: newCardsResult,
@@ -157,6 +175,7 @@ export async function getReviewQueue(userId: string, now: Date = new Date()): Pr
       newLearnedToday,
       dailyNewLimit,
       timezone,
+      lessonNames,
     },
   };
 }
