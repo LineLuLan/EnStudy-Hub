@@ -5,6 +5,99 @@
 
 ---
 
+## 2026-05-16 (sáng) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 11 user data import)
+
+**Mục tiêu session**: Reverse chunk 10 — cho user khôi phục ngược JSON export về account. Đóng vòng portability (export ↔ import). Cùng v1 schema để upgrade path rõ ràng.
+
+**Đã hoàn thành (commit `8f7dd8d` trên fe → merge `688b751` lên dev → sync `b0846ea` xuống be).**
+
+### Files thêm mới (4)
+
+| Path                                        | Vai trò                                                                                                |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `src/features/auth/import-schema.ts`        | Zod runtime mirror types từ export-schema + `normalizeImportedCard` + `extractUserShortIdFromSlug`     |
+| `src/features/auth/import.ts`               | `'use server'`: `importUserData(jsonText)` — validate → cross-user gate → txn upsert → notes/suspended |
+| `src/features/auth/import-schema.test.ts`   | 14 vitest cases — schema accept/reject, normalizeImportedCard 3 cases, extractUserShortIdFromSlug 4    |
+| `src/components/settings/import-button.tsx` | Client file input `.json` + window.confirm overwrite warning + FileReader + toast summary              |
+
+### Files edit (1)
+
+- `src/app/(app)/settings/page.tsx`: Import button cạnh Export trong section "Dữ liệu cá nhân" với caption mới về same-account + overwrite warning
+
+### Flow
+
+1. **JSON.parse + Zod validate** — reject malformed/future-versioned trước khi chạm DB
+2. **Cross-user safety**: extract 8-char hex prefix từ `customCollection.slug`, compare với `currentUserId.slice(0,8)`. Reject nếu khác → "JSON từ tài khoản khác — chỉ hỗ trợ restore cùng tài khoản"
+3. **Main transaction** (single Drizzle txn):
+   - Upsert per-user collection `personal-{shortId}` + topic `imported` (idempotent via onConflictDoUpdate)
+   - Flatten: tất cả lessons từ JSON `customCollections[].topics[].lessons[]` → vào user's single topic
+   - Per lesson: upsert by `(topicId, slug)`, `cards` delete-replace via cascade, bulk insert cards với `source='json-import'`
+   - Auto-enroll: insert `user_lessons` + `user_cards` (FSRS defaults)
+   - Build `restoredCardKeyToId` map `lessonSlug|word → userCardId` để bước 4-5 lookup nhanh
+4. **Apply notes (outside main txn)**: per-row update userCards. Lookup qua map → fallback DB query nếu không có (e.g. note cho official content vẫn restore được). Skip silent nếu lookup fail
+5. **Apply suspended (outside main txn)**: tương tự — set `suspended=true`
+
+### Why notes/suspended outside main txn
+
+Single-txn with potentially hundreds of UPDATEs holds locks unnecessarily long. The `restoredCardKeyToId` map carries the lookup work — small CPU + memory cost, big lock-holding savings. Notes/suspended updates are inherently per-row regardless, không cần atomic across all rows.
+
+### Why flatten
+
+User's content model trong app này là `personal-{id}/imported/{slug}` — single per-user topic. Export keeps the original hierarchy because the JSON could theoretically be processed by other tools, but import re-uses our flat model. Edge case: JSON từ a hypothetical future multi-topic version sẽ collapse all lessons vào 1 topic — acceptable, no data loss.
+
+### Why no profile/stats restore
+
+- **Profile**: user có thể đã đổi timezone/limits sau export — không nên silent clobber. Settings UI đã quản lý.
+- **Stats**: streak/totals là system-generated. Restoring would corrupt streak history (ngày active gốc khác ngày restore). Defer.
+- DB-level full restore qua GitHub Actions backup (chunk 6) cho disaster recovery scenarios.
+
+### Bundle impact
+
+`/settings` 5.87 → **6.69 kB / 124 kB** (+0.8 kB Upload icon + ImportButton). Khác routes không đổi.
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 146/146 (10.74s) — +14 mới
+- `pnpm build` ✓ — bundle trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `15010f1` | Tuần 6 chunk 11 + docs              |
+| be     | `79db369` | sync Tuần 6 chunk 11 + docs         |
+| fe     | `ea127c3` | sync Tuần 6 chunk 11 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **Cross-user JSON import** — slug rewriting + collision handling. Defer
+- **Dry-run preview** — show what'll change trước khi apply (counts, list of overwritten slugs). Defer
+- **Partial restore** — checkbox cho user pick which sections to restore (chỉ notes, chỉ collections, etc.). Defer
+- **JSON schema doc trang riêng** — for users editing JSON tay. Defer
+- **Manual live test** — chưa nhấn nút thật với JSON từ chunk 10 export
+- **v2 schema migration** — when EXPORT_VERSION bumps, cần backward-compat path
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Verify backup workflow manual run
+3. **Live golden path** giờ thêm export → import roundtrip test
+4. Capture screenshots
+5. Tag v1.0.0
+
+Nếu autonomous tiếp ý tưởng (chunk 12):
+
+- **CSV re-upload overwrite** — defer chunk 3, support re-import cùng slug (similar pattern)
+- **Per-lesson retention chart** — extend `/stats`
+- **Keyboard shortcuts modal** — `?` mở modal
+- **Daily review summary email** — Resend integration
+- **Onboarding tour** — first-login overlay với key features
+
+---
+
 ## 2026-05-16 (sáng sớm) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 10 user data export)
 
 **Mục tiêu session**: Pre-v1.0.0 data portability — cho user 1-click JSON dump personal data. Build trust trước khi ship public. Bổ sung GitHub Actions backup (DB-level) bằng user-controlled export (filtered đến những gì user thực sự own).
