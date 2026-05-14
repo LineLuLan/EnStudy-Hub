@@ -130,3 +130,31 @@
 **Lý do**: Pattern (structure) không có bản quyền. Nội dung cụ thể (definitions, examples) có thể có bản quyền tác giả.
 
 **Hậu quả**: Cần dành 1-2h khảo sát thủ công + ghi note. Không có rủi ro pháp lý.
+
+---
+
+## ADR-008 — User-imported lessons dùng per-user collection, KHÔNG migration schema
+
+**Date**: 2026-05-14
+**Status**: Accepted
+
+**Bối cảnh**: Tuần 6 chunk 3 ship CSV import (`/decks/import`). Cần multi-tenant — user A không thấy lesson user B import. Hai lựa chọn cấp schema:
+
+1. Thêm cột `lessons.created_by_user_id` nullable + RLS lessons filter theo cột này.
+2. Tận dụng `collections.owner_id` + `is_official=false` đã có sẵn. Mỗi user có 1 collection `personal-{userIdShort}` riêng; topics + lessons + cards chain ownership qua FK.
+
+**Quyết định**: Phương án 2 — không migration.
+
+**Lý do**:
+
+- `collections.ownerId` + `isOfficial` đã có từ Phase 0 (schema.ts:44-45).
+- Per-user collection namespace tự nhiên isolate slug collision tại `(topic_id, slug)` unique — 2 user trùng slug bài học vẫn an toàn.
+- Migration càng ít càng tốt (Tuần 6 đang trên đường ship v1.0.0).
+- Drizzle bypass RLS qua service-role connection → RLS không enforce tại app server actions. Filter ownership manual trong queries (`isOfficial OR ownerId=userId`) là đủ và explicit hơn RLS magic.
+
+**Hậu quả**:
+
+- `getCollectionBySlug` + `getLessonByPath` thêm tham số `userId` để filter ownership. Breaking API nội bộ — caller pages đã update đồng thời.
+- `listUserOwnedCollections(userId)` thêm mới song song `listOfficialCollections()`.
+- RLS hiện tại (`USING (true)` cho topics/lessons/cards) vẫn permissive — defense-in-depth defer chunk 4. Footgun: nếu sau này thêm public route đọc trực tiếp Supabase REST, sẽ rò rỉ. Document cảnh báo này trong code (comment trong queries.ts).
+- Tương lai: nếu cần share lesson giữa user, thêm `lesson_shares` join table — không phá pattern hiện có.
