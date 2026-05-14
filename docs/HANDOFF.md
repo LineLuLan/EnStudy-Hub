@@ -5,6 +5,77 @@
 
 ---
 
+## 2026-05-15 (sáng) — dev (infra) — Claude Opus 4.7 (Tuần 6 chunk 6 v1.0.0 prep)
+
+**Mục tiêu session**: Chuẩn bị ship v1.0.0 — viết README sản phẩm-quality, thêm LICENSE MIT (chuyển từ "Private" sang public-ready), wire GitHub Actions cron daily DB backup. KHÔNG auto-tag v1.0.0 — phần đó user duyệt cuối qua manual test + secret setup.
+
+**Đã hoàn thành (commit trực tiếp trên dev — infra/docs, không thuộc fe/be).**
+
+### Files thêm mới (2)
+
+| Path                           | Vai trò                                                                                                                               |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `LICENSE`                      | MIT, © 2026 LineLuLan. Mở cho public repo. Wordlist samples lấy public/CC sources (Oxford 3000) — đã document trong CONTENT_PIPELINE  |
+| `.github/workflows/backup.yml` | Daily cron 02:00 UTC (+ workflow_dispatch), install `postgresql-client-15`, pg_dump `--schema=public` → gzip → artifact retention 14d |
+
+### Files edit (5)
+
+- `README.md`: rewrite từ minimal (50 dòng) → production-grade (~150 dòng) — feature matrix 12 hàng (auth/decks/CSV/edit/queue/4 minigame/actions/stats/settings/keyboard/a11y/mobile), stack table, quickstart 3 bước, architecture tree với 5 key patterns (server-first, schema-impure split, multi-tenant ownership, Drizzle RLS bypass, code split), branch model diagram, releases table với planned v1.0.0, full docs index 12 hàng, MIT badge + workflow badge
+- `docs/ENVIRONMENT.md`: thêm section 7 "Daily DB backup (GitHub Actions)" — setup 4 bước (Supabase Direct URL → GitHub secret `BACKUP_DATABASE_URL` → manual run verify), download/restore instructions, lý do dùng Direct (5432) thay vì Pooler (6543), lý do chỉ dump `public` schema. Original section 7 renamed → section 8
+- `docs/TRACKER.md`: chunk 6 entry + tick GitHub Actions backup + README + 3 todos cho user
+- `docs/SYNC.md`: branches table + log
+- `docs/HANDOFF.md`: entry này
+
+### Backup workflow notes
+
+```yaml
+# cron: '0 2 * * *' = 02:00 UTC daily = 09:00 GMT+7 (low-traffic)
+# concurrency.cancel-in-progress: false → daily cron don't queue
+# Direct URL (5432) only — pg_dump full schema introspection breaks on pooler (6543)
+# --schema=public — auth/storage/realtime managed by Supabase, restorable từ dashboard
+# --no-owner --no-privileges — portable across projects
+# gzip -9 → ~80% smaller cho text SQL
+# retention 14d → trade off cost vs disaster window
+```
+
+### Why these choices
+
+- **MIT vs Apache**: solo project, no patent concerns, MIT simpler. README đã document Oxford 3000 attribution riêng
+- **Backup secret tách `BACKUP_DATABASE_URL`** (không reuse `DATABASE_URL`): Supabase có 2 URL khác nhau (Pooler 6543 cho app runtime, Direct 5432 cho backup tools). App đang dùng Pooler nên DATABASE_URL = pooler — backup cần direct
+- **No restore workflow**: restore = manual, rare. Document command trong ENVIRONMENT.md đủ
+- **No S3/R2 upload**: artifact 14 days đủ cho MVP. Sau v1.0 nếu cần long-term, thêm step upload R2 (zero egress) hoặc S3
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors (không đổi source)
+- `pnpm lint` ✓ 0 warnings (không đổi source)
+- `pnpm test` ✓ 108/108 (5.46s) — không đổi tests
+- **KHÔNG** test được `backup.yml` thật vì cần `BACKUP_DATABASE_URL` secret + GitHub Actions runtime. User phải verify lần đầu manual
+
+### TODO cho user (chunk 6 final → v1.0.0)
+
+1. **Setup backup secret** — Supabase Dashboard → Settings → Database → Direct connection URL → copy paste password → GitHub repo Settings → Secrets → Actions → new secret `BACKUP_DATABASE_URL`. Format: `postgresql://postgres.xxxxx:PASS@aws-0-region.compute.amazonaws.com:5432/postgres?sslmode=require`
+2. **Verify backup workflow** — GitHub repo → Actions tab → "Backup Supabase DB" → Run workflow → branch main → wait ~3-5 min → download artifact, gunzip, verify SQL có `CREATE TABLE collections` etc.
+3. **Live golden path test** — `pnpm dev` → login → /decks → "Nhập CSV" → upload sample CSV (gen offline qua Claude desktop hoặc paste 3-5 rows tay) → preview no errors → submit → land lesson page → "Sửa" inline edit 1 thẻ → save → review queue → "Hành động thẻ" add note + suspend → next session verify suspended thẻ ẩn
+4. **Capture screenshots** cho README — login/dashboard/review/stats/import/edit. Add vào `docs/screenshots/` + reference trong README features section
+5. **Tag v1.0.0** — sau khi (1-4) pass:
+   ```bash
+   git checkout main && git pull
+   git merge dev --no-ff -m "release: v1.0.0"
+   git tag -a v1.0.0 -m "v1.0.0 — Content lifecycle complete (CSV import + actions + editing + backup)"
+   git push origin main --follow-tags
+   ```
+   GitHub UI → Releases → Draft new release với CHANGELOG (lấy từ TRACKER chunk 1-6)
+
+### Next session — post v1.0.0
+
+- **Content P1 batch** — gen 7 lessons offline → upload qua `/decks/import` → scale lên ~200 cards
+- **Vercel deploy** — connect GitHub repo, env vars, preview deploys cho dev/fe/be PRs
+- **Multi-def edit UI** — repeater pattern cho cards có >1 definition (defer từ chunk 5)
+- **Lighthouse live audit** — Vercel preview URL + Chrome DevTools Lighthouse, capture score
+
+---
+
 ## 2026-05-14 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 5 card editing)
 
 **Mục tiêu session**: Đóng nốt content lifecycle — sau CSV import (chunk 3) + suspend/notes (chunk 4), giờ cho user sửa thẳng word/IPA/meaning/example của card trong personal collection. Official cards remain immutable từ FE.
