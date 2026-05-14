@@ -239,8 +239,19 @@
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
 - [ ] Card editing UI
-- [ ] Suspend/bury cards
-- [ ] Personal notes per card
+- [x] **Chunk 4 card actions done** (2026-05-14, commit `fb55d2c` trên fe → merge `35e2f60` lên dev → sync `cbd75ba` xuống be):
+  - **Personal notes** (`user_cards.notes`, đã có cột từ Phase 0): textarea max 500 ký tự, '' để xoá → null
+  - **Suspend/bury** (`user_cards.suspended`): toggle ẩn thẻ khỏi `getReviewQueue` (filter đã có sẵn từ Tuần 3)
+  - `features/srs/card-actions.ts`: server action `updateUserCard({ userCardId, notes?, suspended? })`. Refine "phải có ít nhất 1 thay đổi". Ownership filter `(userCardId, userId)`. Revalidate `/review + /dashboard` chỉ khi suspended thay đổi
+  - `features/srs/card-actions-schema.ts`: tách Zod schema + constants ra file riêng (pattern giống `csv-schema`/`csv-import`) để test không pull DB client
+  - `components/review/card-actions.tsx` (~160 LOC, client): `<details>` collapsible với textarea + Save button + suspend toggle row. Sonner toast. `useEffect` reset state khi đổi card (key cycle)
+  - Inject vào `<ReviewSession>` orchestrator dưới active card — work cho cả 4 mode (cloze/typing/listening/mcq) + multiword fallback mà KHÔNG sửa bất kỳ minigame card nào (~570 LOC mỗi card giữ nguyên)
+  - **Code split** qua `next/dynamic` → `/review` First Load giữ **126 kB** (không tăng từ chunk 2 baseline)
+  - `features/vocab/queries.ts`: thêm `getUserCardMetaByLesson(userId, lessonId)` → `Map<cardId, {hasNote, suspended}>` cho deck preview
+  - `components/decks/card-preview.tsx`: chip "Note" (sky) + "Tạm dừng" (amber) inline với word, amber border khi suspended. Optional `userMeta` prop
+  - `/decks/[col]/[topic]/[lesson]/page.tsx`: fetch userMetaByCard chỉ khi user enrolled
+  - Tests: 8 mới cho `updateUserCardSchema` (notes-only/suspended-only/both/empty patch reject/empty string clears/oversize/UUID/bool). Tổng 91 → 99/99 pass
+  - Build: `/review` 4.71 kB / 126 kB (giữ nguyên), `/decks/[col]/[topic]/[lesson]` 3 kB / 130 kB (+0.5 kB cho lucide icons)
 - [ ] Lighthouse > 90 — chunk 2 đã làm code-side fixes; thực đo cần dev server + Chrome DevTools (defer chunk sau hoặc khi deploy)
 - [ ] GitHub Actions cron daily DB backup
 - [ ] Update `README.md`
