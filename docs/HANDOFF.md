@@ -5,6 +5,86 @@
 
 ---
 
+## 2026-05-14 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 5 card editing)
+
+**Mục tiêu session**: Đóng nốt content lifecycle — sau CSV import (chunk 3) + suspend/notes (chunk 4), giờ cho user sửa thẳng word/IPA/meaning/example của card trong personal collection. Official cards remain immutable từ FE.
+
+**Đã hoàn thành (commit `2c25386` trên fe → merge `2e292b6` lên dev → sync `e936434` xuống be).**
+
+### Files thêm mới (4)
+
+| Path                                          | Vai trò                                                                                                                                 |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/features/vocab/card-edit-schema.ts`      | Pure Zod `cardEditInputSchema = csvRowSchema.extend({cardId: uuid})` + `cardToFormState(card)` projection DB → flat form initial values |
+| `src/features/vocab/card-edit.ts`             | `'use server'`: `updateCard(input)` — ownership chain validation, patch cards row, preserve user_cards FSRS state                       |
+| `src/features/vocab/card-edit-schema.test.ts` | 9 vitest cases — schema accepts/rejects + POS alias + CEFR coerce + cardToFormState projection edge cases                               |
+| `src/components/decks/card-edit-form.tsx`     | Client inline form — 9 fields (Input/select/Textarea), useTransition + sonner, Save/Cancel                                              |
+
+### Files edit (2)
+
+- `src/components/decks/card-preview.tsx`: thêm `isEditable` prop (default false). Khi `open && isEditable` → "Sửa" button (Pencil); khi click → toggle sang form (lazy-loaded qua `next/dynamic` để defer ~25 kB bundle). `onSaved` + `onCancel` collapse về view mode
+- `src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx`: derive `isEditable = !detail.collection.isOfficial && detail.collection.ownerId === userId`, pass xuống mỗi `<CardPreview>`
+
+### Ownership chain validation
+
+```ts
+// 1 query, 3 joins — avoid 3 round-trips for chain check
+db.select({ isOfficial, ownerId, slugs... })
+  .from(cards).innerJoin(lessons).innerJoin(topics).innerJoin(collections)
+  .where(eq(cards.id, cardId)).limit(1);
+
+if (own.isOfficial || own.ownerId !== userId) return reject;
+```
+
+### Schema reuse strategy
+
+`cardEditInputSchema` extends `csvRowSchema` từ chunk 3 → POS short aliases (`adj` → `adjective`) + CEFR uppercase coercion (`a2` → `A2`) hoạt động tự động. `csvRowToCardContent` cũng reuse trong server action để wrap flat row vào `definitions` jsonb shape — single source of truth cho "flat card input".
+
+**Trade-off**: multi-definition cards (>1 def hoặc >1 example/def) bị collapse về first-only khi edit. Acceptable cho MVP vì all current cards seed với 1 def + 1-2 examples. Multi-def UI defer post-v1.0 (cần repeater pattern + reorder UX).
+
+### Pattern reuse
+
+- Lazy load form via `next/dynamic` — match CardActions (chunk 4) + CSV import form (chunk 3)
+- Pure schema tách file: match `card-actions-schema.ts` (chunk 4) + `csv-schema.ts` (chunk 3)
+- Server action shape `{ok, error}` — match enrollLesson/submitReview/updateUserCard
+- Form: `useTransition` + sonner — match SettingsForm canonical
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 108/108 (4.55s) — 99 cũ + 9 mới
+- `pnpm build` ✓ — `/decks/[col]/[topic]/[lesson]` **3 → 4.19 kB / 131 kB** (+1.2 kB Pencil icon + dynamic-import stub). `/review` 126 kB giữ nguyên. Khác routes không đổi
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                            |
+| ------ | --------- | ------------------------------- |
+| main   | `eb18493` | v0.2.0 (release tag, không đổi) |
+| dev    | `0c796d8` | Tuần 6 chunk 5 + docs           |
+| be     | `edf381b` | sync Tuần 6 chunk 5 + docs      |
+| fe     | `cf77326` | sync Tuần 6 chunk 5 + docs      |
+
+### Bỏ ngoài scope (defer)
+
+- **Multi-definition / multi-example editing** — form chỉ 1 def + 1 example. User cần repeater UI nếu muốn richer cards. Defer post-v1.0
+- **Edit synonyms/antonyms/collocations/etymology** — bỏ qua các field text[]/optional. CSV import cũng không support. Defer
+- **Bulk edit** — sửa nhiều card cùng lúc. Cần selection UI. Defer
+- **Edit history / audit log** — `content_version` column đã có sẵn nhưng chưa bump. Có thể sau v1.0 dùng cho undo
+- **Optimistic UI** — hiện chờ server response mới collapse form. Acceptable vì update fast
+- **Real-time validation** — input không live-validate (chỉ submit). Zod check ở server đủ cho MVP
+- **Manual live test với Supabase** — chưa thử trên DB thật. User cần: login → import CSV → sửa 1 card → verify reflects trong /review queue
+
+### Next session — Tuần 6 chunk 6 options (v1.0.0 prep)
+
+1. **README.md update** — project tagline, tech stack, local setup (env + db push + rls + seed), screenshots placeholder, architecture diagram. Link blueprint. Branch model + contribution. License (MIT?)
+2. **GitHub Actions cron daily DB backup** — `.github/workflows/backup.yml` chạy 02:00 UTC, pg_dump qua `DATABASE_URL` secret, upload artifact retention 14 days
+3. **Live golden path test** — user chạy `pnpm dev`, đi qua full flow: login → /decks/import → upload CSV mẫu → review queue → suspend 1 → add note → edit content → verify changes persist → screenshot cho README
+4. **Tag v1.0.0** — sau khi (1)+(2)+(3) xong, merge dev → main, tag `v1.0.0` với CHANGELOG entry
+5. **Content P1 batch** — gen 7 lessons offline → upload qua `/decks/import` (test end-to-end với content scale lên ~200 cards)
+
+---
+
 ## 2026-05-14 (tối) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 4 card actions)
 
 **Mục tiêu session**: Mở khóa 2 backlog Tuần 6 (suspend/bury + personal notes) trong 1 chunk. Cả hai cùng dùng cột đã có sẵn trên `user_cards` (`notes`, `suspended`), không cần migration. Suspend đã được `getReviewQueue` filter từ Tuần 3 — chỉ cần surface toggle cho user.
