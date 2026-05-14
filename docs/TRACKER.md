@@ -238,6 +238,15 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 14 keyboard shortcuts modal done** (2026-05-16, commit `b88f7ed` trên fe → merge `7d5ea62` lên dev → sync `71e1fca` xuống be):
+  - Surface all app shortcuts vào 1 chỗ learnable — trước đây user phải discover piecemeal (Space cloze flip, 1-4 rating, ? hint, ⌘K palette, Esc cancel)
+  - `components/layout/shortcuts-modal.tsx`: `<ShortcutsTrigger>` client với Keyboard icon button trong topbar + globally-bound `?` keydown listener. Toggle native `<dialog>` qua `showModal()` — free focus trap + backdrop + Esc-to-close, không cần Radix Dialog primitive
+  - `?` listener skip nếu active element là `INPUT/TEXTAREA/contenteditable` — user vẫn gõ "?" trong form được
+  - Backdrop click qua `target === currentTarget` check, inner panel `stopPropagation`
+  - 3 sections grouped: **Toàn cục** (⌘K/?/Tab/Shift+Tab/Esc), **Ôn tập** (Space/1-4/?/Backspace/Enter), **Listening mode** (Space replay)
+  - Wire vào topbar giữa search palette button + theme toggle — discoverable cạnh sibling chrome
+  - Tests: không (UI integration only, native `<dialog>` browser-tested). 164/164 unchanged
+  - Build: routes essentially unchanged (trigger trong shared topbar chunk) — `/dashboard /decks /stats` 184 B / 109 kB, `/review` 5.01 kB / 126 kB
 - [x] **Chunk 13 forecast due 7 days done** (2026-05-16, commit `3b01347` trên fe → merge `3976889` lên dev → sync `08d7454` xuống be):
   - Section mới "Lịch ôn 7 ngày tới" trên `/stats`. Helps user plan ahead — FSRS-grounded forecast theo timezone user
   - `features/stats/forecast-utils.ts`: pure `bucketizeDueByDay(dueDates, now, tz, days)` — seed N empty buckets, scan due list, overdue → today bucket (with separate `overdue` count), future-beyond-window dropped. `labelForDay()` "Hôm nay" hoặc VN weekday short codes (CN/T2..T7)
