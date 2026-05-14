@@ -238,6 +238,11 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 9 UX polish bundle done** (2026-05-15, commit `c575710` trên fe → merge `d12a230` lên dev → sync `469f13a` xuống be):
+  - **CSV template download** (defer chunk 3): `csv-import-form.tsx` nút "Tải CSV mẫu" (lucide Download) cạnh "Dùng mẫu thử". Sinh client-side Blob với header + 3 sample rows (breakfast noun A1, happy adjective A2, run verb A1) → trigger download via in-memory `<a href=blob:>` rồi `URL.revokeObjectURL`. Zero server roundtrip. +0.4 kB cho icon
+  - **Toast lesson complete** (defer Tuần 5 ch4): `getReviewQueue` extend `meta.lessonNames: Record<lessonId, name>` (1 extra query trên lessonIds đã dedup). Page pipe xuống ReviewSession. Session track `lessonTotalsRef` (count từ initialQueue) + `lessonRatedRef` + `lessonCompleteToastedRef: Set`. On rate success → increment counter cho lessonId của card vừa rate; nếu reach total → `toast.success('🎉 Hoàn thành bài "X"!')` 5s, dedup qua Set. Multiple lessons trong 1 session fire độc lập
+  - Tests: 127/127 unchanged (không có pure helper mới — blob = DOM API, toast = side-effect integration)
+  - Build: `/review` **5 kB / 126 kB** giữ baseline. `/decks/import` 13.3 kB / 153 kB (+0.4 kB Download icon)
 - [x] **Chunk 8 lesson management done** (2026-05-15, commit `ec3faf4` trên fe → merge `e91063f` lên dev → sync `036ddc1` xuống be):
   - `features/vocab/lesson-edit.ts`: 3 server actions —
     - `renameLesson(lessonId, name)`: update `lessons.name`, slug stays unchanged (URL không break). Revalidate collection + lesson + dashboard
