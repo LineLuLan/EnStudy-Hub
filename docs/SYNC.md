@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                             | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `07abd52`               | base                          | 2026-05-16 (`07abd52`) | Tuần 6 chunk 15 topbar polish + sign-out + docs           |
-| be     | `64bf040`               | 2026-05-16 (Tuần 6 ch15 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 15 + docs                               |
-| fe     | `3efe53e`               | 2026-05-16 (Tuần 6 ch15 docs) | 2026-05-16 (`148fbee`) | sync Tuần 6 chunk 15 + docs                               |
+| dev    | `b1154fb`               | base                          | 2026-05-16 (`b1154fb`) | Tuần 6 chunk 16 dashboard week summary card               |
+| be     | `413664b`               | 2026-05-16 (Tuần 6 ch16)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 16                                      |
+| fe     | `ae64d37`               | 2026-05-16 (Tuần 6 ch15 docs) | 2026-05-16 (`ae64d37`) | base Tuần 6 chunk 16                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -208,3 +208,6 @@ git checkout fe
 | 2026-05-16 | commit | (T6 ch15 FE) → fe    | `148fbee` | feat(auth,ui): wire sign-out + show real email in topbar dropdown         |
 | 2026-05-16 | merge  | fe → dev             | `3992249` | bring Tuần 6 chunk 15 topbar polish + sign-out to dev                     |
 | 2026-05-16 | sync   | dev → be             | `0ae3017` | sync Tuần 6 chunk 15 xuống be                                             |
+| 2026-05-16 | commit | (T6 ch16 FE) → fe    | `ae64d37` | feat(stats): dashboard week summary card                                  |
+| 2026-05-16 | merge  | fe → dev             | `b1154fb` | bring Tuần 6 chunk 16 week summary to dev                                 |
+| 2026-05-16 | sync   | dev → be             | `413664b` | sync Tuần 6 chunk 16 xuống be                                             |
