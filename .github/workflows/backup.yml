@@ -1,0 +1,72 @@
+name: Backup Supabase DB
+
+on:
+  schedule:
+    # 02:00 UTC = 09:00 Asia/Ho_Chi_Minh — low-traffic window
+    - cron: '0 2 * * *'
+  # Manual trigger from Actions tab when needed (e.g. before risky migration)
+  workflow_dispatch:
+
+# Single in-flight run is enough; a daily cron does not need queueing.
+concurrency:
+  group: backup-db
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  pg-dump:
+    name: pg_dump → artifact
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Install PostgreSQL client 15
+        run: |
+          sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+          wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq postgresql-client-15
+          pg_dump --version
+
+      - name: Verify secret is set
+        env:
+          BACKUP_URL: ${{ secrets.BACKUP_DATABASE_URL }}
+        run: |
+          if [ -z "$BACKUP_URL" ]; then
+            echo "::error::BACKUP_DATABASE_URL secret is not set."
+            echo "Add the Supabase **direct** connection URL (port 5432, not the pooler)"
+            echo "at Settings → Secrets and variables → Actions → New repository secret."
+            exit 1
+          fi
+          echo "Secret is set."
+
+      - name: Run pg_dump
+        env:
+          BACKUP_URL: ${{ secrets.BACKUP_DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          STAMP=$(date -u +%Y-%m-%d_%H%M)
+          FILE="enstudy-${STAMP}.sql"
+          # Dump only the public schema. auth/storage/realtime are Supabase-managed
+          # and restorable from Supabase dashboard; backing them up adds noise.
+          # --no-owner / --no-privileges keep the dump portable across projects.
+          pg_dump \
+            --no-owner \
+            --no-privileges \
+            --schema=public \
+            --format=plain \
+            --file="$FILE" \
+            "$BACKUP_URL"
+          gzip -9 "$FILE"
+          ls -lh "${FILE}.gz"
+          echo "DUMP_FILE=${FILE}.gz" >> "$GITHUB_ENV"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.DUMP_FILE }}
+          path: ${{ env.DUMP_FILE }}
+          retention-days: 14
+          if-no-files-found: error

@@ -238,6 +238,12 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 6 v1.0.0 prep done** (2026-05-15, commit chuẩn bị trên dev):
+  - **README.md** rewrite production-grade — feature matrix (10 áo bao trùm 6 tuần), stack table, quickstart 3 bước (clone/setup/db/dev), architecture tree với key patterns (server-first, schema-impure split, multi-tenant collection ownership, code split), branch model diagram, releases table với planned v1.0.0, full docs index, MIT badge
+  - **LICENSE** — MIT, © 2026 LineLuLan. Trước đó README ghi "Private" — release public GitHub repo cần explicit MIT
+  - **`.github/workflows/backup.yml`** — daily 02:00 UTC cron (+ workflow_dispatch manual), install `postgresql-client-15`, pg_dump `public` schema → gzip → artifact 14-day retention. Concurrency group `backup-db`. Secret `BACKUP_DATABASE_URL` (direct connection 5432, không pooler 6543)
+  - **`docs/ENVIRONMENT.md`** thêm section 7 "Daily DB backup" — setup steps (Supabase Direct URL → GitHub secret), download/restore instructions, lý do dùng Direct + bỏ `auth/storage/realtime`
+  - **Defer (user phải làm)**: thêm secret `BACKUP_DATABASE_URL` trên GitHub repo settings → manual run workflow lần đầu verify → live golden path test → tag `v1.0.0`
 - [x] **Chunk 5 card editing done** (2026-05-14, commit `2c25386` trên fe → merge `2e292b6` lên dev → sync `e936434` xuống be):
   - `features/vocab/card-edit.ts`: server action `updateCard(input)` — ownership chain walk (card → lesson → topic → collection) trong 1 query. Reject nếu `isOfficial=true` HOẶC `ownerId !== userId`. Patch `cards` row giữ user_cards FSRS state nguyên vẹn
   - `features/vocab/card-edit-schema.ts`: `cardEditInputSchema = csvRowSchema.extend({ cardId: uuid })` — reuse POS alias + CEFR uppercase coercion từ chunk 3. `cardToFormState(card)` projection helper DB → flat form (first def + first example only, multi-def lost on save)
@@ -260,9 +266,11 @@
   - Tests: 8 mới cho `updateUserCardSchema` (notes-only/suspended-only/both/empty patch reject/empty string clears/oversize/UUID/bool). Tổng 91 → 99/99 pass
   - Build: `/review` 4.71 kB / 126 kB (giữ nguyên), `/decks/[col]/[topic]/[lesson]` 3 kB / 130 kB (+0.5 kB cho lucide icons)
 - [ ] Lighthouse > 90 — chunk 2 đã làm code-side fixes; thực đo cần dev server + Chrome DevTools (defer chunk sau hoặc khi deploy)
-- [ ] GitHub Actions cron daily DB backup
-- [ ] Update `README.md`
-- [ ] Tag `v1.0.0` release
+- [x] GitHub Actions cron daily DB backup (chunk 6, 2026-05-15)
+- [x] Update `README.md` (chunk 6, 2026-05-15)
+- [ ] **CHỜ USER**: add `BACKUP_DATABASE_URL` GitHub secret + manual run backup workflow lần đầu verify
+- [ ] **CHỜ USER**: live golden path test (login → import CSV → review → suspend/note/edit → screenshots)
+- [ ] **CHỜ USER**: tag `v1.0.0` release — PR `dev → main`, merge, `git tag v1.0.0` + GitHub release với CHANGELOG
 
 ---
 

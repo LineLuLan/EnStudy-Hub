@@ -126,7 +126,36 @@ pnpm add postgres
 
 ---
 
-## 7. Dev workflow nhanh (cheat sheet)
+## 7. Daily DB backup (GitHub Actions)
+
+`.github/workflows/backup.yml` chạy 02:00 UTC mỗi ngày (09:00 GMT+7), pg_dump
+`public` schema từ Supabase → gzip → upload artifact (retention 14 days).
+
+### Setup 1 lần
+
+1. Vào Supabase Dashboard → Settings → Database → **Direct connection** (port 5432, không phải pooler 6543).
+2. Copy URL, paste password vào chuỗi (Supabase ẩn password mặc định).
+3. GitHub repo → Settings → **Secrets and variables → Actions** → **New repository secret**:
+   - Name: `BACKUP_DATABASE_URL`
+   - Value: `postgresql://postgres.xxxxx:PASSWORD@aws-0-region.compute.amazonaws.com:5432/postgres?sslmode=require`
+4. Run workflow lần đầu manual để verify: Actions tab → **Backup Supabase DB** → Run workflow → branch `main`.
+
+### Download backup
+
+- Actions tab → bất kỳ run nào → cuối trang có Artifacts section → click tên file `enstudy-YYYY-MM-DD_HHMM.sql.gz`.
+- Restore: `gunzip enstudy-...sql.gz && psql "<DEST_DATABASE_URL>" < enstudy-...sql`.
+
+### Lý do dùng Direct (5432) thay vì Pooler (6543)
+
+Pooler có giới hạn transaction-level commands; `pg_dump --schema=public` cần long-running session để introspect — fail trên pooler. Direct connection chậm hơn nhưng đủ cho cron daily.
+
+### Lý do chỉ dump `public`, bỏ `auth/storage/realtime`
+
+Các schema này do Supabase quản lý, restore từ Supabase dashboard. Dump chúng tốn dung lượng + có thể conflict khi restore sang project mới.
+
+---
+
+## 8. Dev workflow nhanh (cheat sheet)
 
 ```bash
 # bắt đầu phiên BE
