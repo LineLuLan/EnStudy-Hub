@@ -7,6 +7,7 @@ import { db } from '@/lib/db/client';
 import { profiles } from '@/lib/db/schema';
 import { ensureProfile } from '@/features/auth/profile';
 import { SettingsForm } from '@/components/settings/settings-form';
+import { ExportButton } from '@/components/settings/export-button';
 
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Cài đặt' };
@@ -54,6 +55,18 @@ export default async function SettingsPage() {
           dailyReviewMax: profile?.dailyReviewMax ?? 200,
         }}
       />
+
+      <section className="space-y-4 rounded-lg border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-950">
+        <div>
+          <h2 className="text-base font-semibold tracking-tight">Dữ liệu cá nhân</h2>
+          <p className="mt-0.5 text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">
+            Tải xuống bản JSON portable bao gồm: thông tin profile, thống kê (streak/total reviews),
+            ghi chú cá nhân, danh sách thẻ tạm dừng, và các bộ học bạn tự nhập qua CSV. Không kèm
+            lịch sử ôn tập đầy đủ hay FSRS state (xem GitHub Actions backup cho dump DB toàn diện).
+          </p>
+        </div>
+        <ExportButton userId={userId} />
+      </section>
     </div>
   );
 }
