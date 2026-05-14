@@ -5,6 +5,103 @@
 
 ---
 
+## 2026-05-16 (trưa) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 12 CSV re-upload overwrite)
+
+**Mục tiêu session**: Cleanup defer item nổi cộm nhất từ chunk 3 — re-upload CSV với cùng slug. Trước đây hard reject `SLUG_TAKEN`, user phải đổi slug rồi xoá bài cũ tay. Giờ opt-in checkbox + delete-replace pattern (giống chunk 11 JSON import).
+
+**Đã hoàn thành (commit `900737f` trên fe → merge `4eab9a7` lên dev → sync `4ca4225` xuống be).**
+
+### Files edit (4)
+
+| Path                                       | Thay đổi                                                                                                              |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `src/features/vocab/csv-schema.ts`         | `csvImportInputSchema` thêm `overwrite: z.boolean().default(false)` với Zod preprocess coerce FormData string→boolean |
+| `src/features/vocab/csv-import.ts`         | `importCsvAsLesson` branch overwrite=true → `onConflictDoUpdate` + delete cards before re-insert                      |
+| `src/components/decks/csv-import-form.tsx` | Amber callout checkbox với 2-line warn copy + state → FormData pass through                                           |
+| `src/features/vocab/csv-parse.test.ts`     | 4 mới — default false, accept boolean, FormData string coerce                                                         |
+
+### Server flow on overwrite=true
+
+```ts
+// Lesson upsert: get id whether row exists or not
+const [lessonRow] = await tx
+  .insert(lessons)
+  .values({ topicId, slug, name, cardCount })
+  .onConflictDoUpdate({
+    target: [lessons.topicId, lessons.slug],
+    set: { name, cardCount },
+  })
+  .returning({ id });
+
+// Wipe old cards (cascade onDelete cascade also wipes user_cards for those cards)
+await tx.delete(cards).where(eq(cards.lessonId, lessonRow.id));
+
+// Bulk insert fresh cards
+// Auto-enroll: user_lessons + user_cards onConflictDoNothing
+// → existing user_lessons row stays, user_cards get FSRS defaults
+```
+
+Pattern reuse: same `onConflictDoUpdate` + `delete-then-insert` flow as `scripts/seed.ts:153-277`.
+
+### FSRS reset trade-off
+
+When user ticks overwrite, FSRS state (stability/difficulty/due/reps/lapses) on the affected lesson's cards is wiped via cascade. User_cards re-enrolled = brand new schedule. Acceptable per opt-in checkbox + 2-line warning copy. Alternative would be to preserve user_cards by matching on `word` instead of cascade — but that's complex (word change in CSV breaks the match) and defers.
+
+### Why Zod preprocess for FormData
+
+`fd.set('overwrite', 'true' | 'false')` sends string. Direct `boolean()` rejects strings. Use:
+
+```ts
+overwrite: z.preprocess((v) => v === 'true' || v === true, z.boolean()).default(false);
+```
+
+Accepts both true booleans (direct API calls) and FormData strings.
+
+### Bundle impact
+
+`/decks/import` 13.3 → **13.6 kB / 153 kB** (+0.3 kB checkbox markup).
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 150/150 (12.40s) — +4 mới
+- `pnpm build` ✓ — bundle trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `e733de5` | Tuần 6 chunk 12 + docs              |
+| be     | `9077683` | sync Tuần 6 chunk 12 + docs         |
+| fe     | `b511068` | sync Tuần 6 chunk 12 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **Preserve FSRS on overwrite** — match cards by `word` thay vì cascade. Complex (word changes break match), defer
+- **Dry-run preview** trước khi ghi đè — show diff old vs new. Defer
+- **Confirm dialog** khi tick overwrite + click submit — checkbox + amber callout đã warn đủ
+- **Manual live test** với DB thật — chưa upload roundtrip
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Verify backup workflow manual run
+3. Live golden path test (export → import roundtrip + CSV overwrite)
+4. Capture screenshots
+5. Tag v1.0.0
+
+Nếu autonomous tiếp ý tưởng (chunk 13):
+
+- **Per-lesson retention chart** trong `/stats`
+- **Keyboard shortcuts modal** — `?` mở modal
+- **Daily review summary email** — Resend integration (cần user setup)
+- **Onboarding tour** — first-login overlay
+- **Stats: forecast due cards next 7 days** — small chart prediction
+
+---
+
 ## 2026-05-16 (sáng) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 11 user data import)
 
 **Mục tiêu session**: Reverse chunk 10 — cho user khôi phục ngược JSON export về account. Đóng vòng portability (export ↔ import). Cùng v1 schema để upgrade path rõ ràng.
