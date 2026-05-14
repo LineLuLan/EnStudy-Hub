@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                             | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `553b0e3`               | base                          | 2026-05-16 (`553b0e3`) | Tuần 6 chunk 14 shortcuts modal + docs                    |
-| be     | `e92c373`               | 2026-05-16 (Tuần 6 ch14 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 14 + docs                               |
-| fe     | `5a0b7d0`               | 2026-05-16 (Tuần 6 ch14 docs) | 2026-05-16 (`b88f7ed`) | sync Tuần 6 chunk 14 + docs                               |
+| dev    | `3992249`               | base                          | 2026-05-16 (`3992249`) | Tuần 6 chunk 15 topbar polish + sign-out wire             |
+| be     | `0ae3017`               | 2026-05-16 (Tuần 6 ch15)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 15                                      |
+| fe     | `148fbee`               | 2026-05-16 (Tuần 6 ch14 docs) | 2026-05-16 (`148fbee`) | base Tuần 6 chunk 15                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -205,3 +205,6 @@ git checkout fe
 | 2026-05-16 | commit | (T6 ch14 FE) → fe    | `b88f7ed` | feat(ui): keyboard shortcuts modal (? key)                                |
 | 2026-05-16 | merge  | fe → dev             | `7d5ea62` | bring Tuần 6 chunk 14 shortcuts modal to dev                              |
 | 2026-05-16 | sync   | dev → be             | `71e1fca` | sync Tuần 6 chunk 14 xuống be                                             |
+| 2026-05-16 | commit | (T6 ch15 FE) → fe    | `148fbee` | feat(auth,ui): wire sign-out + show real email in topbar dropdown         |
+| 2026-05-16 | merge  | fe → dev             | `3992249` | bring Tuần 6 chunk 15 topbar polish + sign-out to dev                     |
+| 2026-05-16 | sync   | dev → be             | `0ae3017` | sync Tuần 6 chunk 15 xuống be                                             |
