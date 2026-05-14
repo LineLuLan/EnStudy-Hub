@@ -5,6 +5,84 @@
 
 ---
 
+## 2026-05-16 (chiều) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 13 forecast due 7 days)
+
+**Mục tiêu session**: Thêm chart forecast vào `/stats` — FSRS-grounded, helps user plan ahead. Pair tốt với existing maturity donut (snapshot) + retention line (trailing 12 weeks) + activity bar (trailing 30 days). Forecast bổ sung góc nhìn forward-looking.
+
+**Đã hoàn thành (commit `3b01347` trên fe → merge `3976889` lên dev → sync `08d7454` xuống be).**
+
+### Files thêm mới (4)
+
+| Path                                        | Vai trò                                                                                      |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `src/features/stats/forecast-utils.ts`      | Pure `bucketizeDueByDay(dueDates, now, tz, days)` + `labelForDay(key, todayKey)` VN weekdays |
+| `src/features/stats/forecast.ts`            | `getDueForecast(userId, days=7, now)` — read profile.tz, query user_cards, delegate to utils |
+| `src/features/stats/forecast-utils.test.ts` | 14 vitest cases — empty/clamp/future/overdue/today/dropped/mixed/UTC/chronological/labels    |
+| `src/components/stats/due-forecast-bar.tsx` | SVG 7-bar chart — amber today (overdue collapsed in), sky future, count labels, tooltips     |
+
+### Files edit (1)
+
+- `src/app/(app)/stats/page.tsx`: import `getDueForecast` + `DueForecastBar` + CalendarClock icon. Add to `Promise.all` (5 queries now). New section "Lịch ôn 7 ngày tới" after maturity donut với caveat copy
+
+### Overdue collapse rationale
+
+Most schedulers (Anki, AnkiDroid) show overdue cards prominently — losing them off-chart would underrepresent "what user needs to do now". Collapse onto today's bucket + display the overdue subcount in the legend keeps the visual simple ("amber bar = do these today") while still surfacing the urgency.
+
+### Same-filter rule
+
+`getDueForecast` reuses the exact filter from `getReviewQueue` chunk 4:
+
+- `state != 'new'` — new cards aren't FSRS-scheduled (drawn from daily quota)
+- `suspended = false` — suspended cards don't appear in review queue
+
+This guarantees the forecast count for "Hôm nay" matches `/review`'s queue size once the user opens it.
+
+### Why raw SVG (again)
+
+Continuing the chunk-2/3/4 pattern: zero charting lib keeps `/stats` First Load at **109 kB** despite 4 chart components now.
+
+### Bundle impact
+
+`/stats` route: **184 B / 109 kB unchanged** (RSC + raw SVG, zero client JS added).
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 164/164 (9.73s) — +14 mới
+- `pnpm build` ✓ — bundle trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `c9e7908` | Tuần 6 chunk 13 + docs              |
+| be     | `60ba997` | sync Tuần 6 chunk 13 + docs         |
+| fe     | `dbe0484` | sync Tuần 6 chunk 13 + docs         |
+
+### Bỏ ngoài scope (defer)
+
+- **Forecast 30 days** — current cap 7. Could parametrize via UI selector. Defer
+- **Separate overdue bar** — currently collapsed onto today. Defer
+- **Forecast per lesson** — breakdown by lesson. Defer
+- **Include new cards available** — confusing (new card draw is user-paced). Defer
+- **Manual live test** — chưa verify với DB thật
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1-5: như chunk 6 entry
+
+Nếu autonomous tiếp ý tưởng (chunk 14):
+
+- **Keyboard shortcuts modal** — `?` mở modal liệt kê shortcuts
+- **Onboarding tour** — first-login overlay
+- **Per-lesson stats card** — drilldown
+- **Dashboard week summary card**
+- **Email notifications** — cần Resend setup
+
+---
+
 ## 2026-05-16 (trưa) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 12 CSV re-upload overwrite)
 
 **Mục tiêu session**: Cleanup defer item nổi cộm nhất từ chunk 3 — re-upload CSV với cùng slug. Trước đây hard reject `SLUG_TAKEN`, user phải đổi slug rồi xoá bài cũ tay. Giờ opt-in checkbox + delete-replace pattern (giống chunk 11 JSON import).
