@@ -1,10 +1,19 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown, NotebookPen, PauseCircle } from 'lucide-react';
+import dynamic from 'next/dynamic';
+import { ChevronDown, NotebookPen, PauseCircle, Pencil } from 'lucide-react';
 import type { Card } from '@/lib/db/schema';
 import type { UserCardMeta } from '@/features/vocab/queries';
 import { cn } from '@/lib/utils/cn';
+
+// CardEditForm bundles Input + Textarea + Button + lucide icons + server-action
+// stub (~25 kB). Only shown after user clicks "Sửa" → defer until then.
+const CardEditForm = dynamic(() => import('./card-edit-form').then((m) => m.CardEditForm), {
+  loading: () => (
+    <div className="h-64 animate-pulse border-t border-zinc-200 dark:border-zinc-800" />
+  ),
+});
 
 type Definition = {
   meaning_en: string;
@@ -12,8 +21,17 @@ type Definition = {
   examples: Array<{ en: string; vi: string }>;
 };
 
-export function CardPreview({ card, userMeta }: { card: Card; userMeta?: UserCardMeta }) {
+export function CardPreview({
+  card,
+  userMeta,
+  isEditable = false,
+}: {
+  card: Card;
+  userMeta?: UserCardMeta;
+  isEditable?: boolean;
+}) {
   const [open, setOpen] = useState(false);
+  const [editing, setEditing] = useState(false);
 
   const definitions = (card.definitions as Definition[]) ?? [];
   const firstDef = definitions[0];
@@ -80,8 +98,28 @@ export function CardPreview({ card, userMeta }: { card: Card; userMeta?: UserCar
         />
       </button>
 
-      {open && (
+      {open && editing && isEditable && (
+        <CardEditForm
+          card={card}
+          onCancel={() => setEditing(false)}
+          onSaved={() => setEditing(false)}
+        />
+      )}
+
+      {open && !editing && (
         <div className="space-y-4 border-t border-zinc-200 px-4 pt-3 pb-4 text-sm dark:border-zinc-800">
+          {isEditable && (
+            <div className="-mt-1 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setEditing(true)}
+                className="inline-flex items-center gap-1 rounded border border-zinc-200 px-2 py-1 text-[11px] font-medium text-zinc-600 hover:bg-zinc-50 hover:text-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-900"
+              >
+                <Pencil className="h-3 w-3" />
+                Sửa
+              </button>
+            </div>
+          )}
           {definitions.map((def, i) => (
             <div key={i}>
               <div className="text-zinc-900 dark:text-zinc-100">{def.meaning_en}</div>
