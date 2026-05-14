@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `acfab70`               | base                         | 2026-05-15 (`d12a230`) | Tuần 6 chunk 9 UX polish (CSV template + lesson toast)    |
-| be     | `aad2bc9`               | 2026-05-15 (Tuần 6 ch9 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 9 + docs                                |
-| fe     | `bc94a9f`               | 2026-05-15 (Tuần 6 ch9 docs) | 2026-05-15 (`c575710`) | sync Tuần 6 chunk 9 + docs                                |
+| dev    | `c62f0e3`               | base                         | 2026-05-15 (`c62f0e3`) | Tuần 6 chunk 10 user data export (JSON portable)          |
+| be     | `2828d0f`               | 2026-05-15 (Tuần 6 ch10)     | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 10                                      |
+| fe     | `1d3ace6`               | 2026-05-15 (Tuần 6 ch9 docs) | 2026-05-15 (`1d3ace6`) | base Tuần 6 chunk 10                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -190,3 +190,6 @@ git checkout fe
 | 2026-05-15 | commit | (T6 ch9 FE) → fe     | `c575710` | feat(review,vocab): CSV template download + lesson-complete toast         |
 | 2026-05-15 | merge  | fe → dev             | `d12a230` | bring Tuần 6 chunk 9 UX polish bundle to dev                              |
 | 2026-05-15 | sync   | dev → be             | `469f13a` | sync Tuần 6 chunk 9 xuống be                                              |
+| 2026-05-15 | commit | (T6 ch10 FE) → fe    | `1d3ace6` | feat(auth): user data export — JSON dump of personal data                 |
+| 2026-05-15 | merge  | fe → dev             | `c62f0e3` | bring Tuần 6 chunk 10 user data export to dev                             |
+| 2026-05-15 | sync   | dev → be             | `2828d0f` | sync Tuần 6 chunk 10 xuống be                                             |
