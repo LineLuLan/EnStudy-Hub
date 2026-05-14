@@ -238,7 +238,14 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
-- [ ] Card editing UI
+- [x] **Chunk 5 card editing done** (2026-05-14, commit `2c25386` trên fe → merge `2e292b6` lên dev → sync `e936434` xuống be):
+  - `features/vocab/card-edit.ts`: server action `updateCard(input)` — ownership chain walk (card → lesson → topic → collection) trong 1 query. Reject nếu `isOfficial=true` HOẶC `ownerId !== userId`. Patch `cards` row giữ user_cards FSRS state nguyên vẹn
+  - `features/vocab/card-edit-schema.ts`: `cardEditInputSchema = csvRowSchema.extend({ cardId: uuid })` — reuse POS alias + CEFR uppercase coercion từ chunk 3. `cardToFormState(card)` projection helper DB → flat form (first def + first example only, multi-def lost on save)
+  - `components/decks/card-edit-form.tsx`: inline form 9 fields (word/IPA mono inputs, POS + CEFR native selects, mnemonic textarea), Save/Cancel buttons với `useTransition` + sonner toast
+  - `components/decks/card-preview.tsx`: thêm `isEditable` prop. Khi true + expanded → nút "Sửa" (Pencil icon) toggle sang `<CardEditForm>`. Form lazy-load qua `next/dynamic` để giữ deck page nhẹ
+  - `/decks/[col]/[topic]/[lesson]/page.tsx`: derive `isEditable = !collection.isOfficial && collection.ownerId === userId` — chỉ user-owned (personal) collections mới edit được. Official content immutable từ FE
+  - Tests: 9 mới (`card-edit-schema.test.ts`) — schema accepts/rejects/aliases + cardToFormState projection (full + null defaults + empty examples). Tổng 99 → 108/108 pass
+  - Build: `/decks/[col]/[topic]/[lesson]` **3 → 4.19 kB** (+1.2 kB cho lucide Pencil + edit form stub), `/review` không đổi 126 kB
 - [x] **Chunk 4 card actions done** (2026-05-14, commit `fb55d2c` trên fe → merge `35e2f60` lên dev → sync `cbd75ba` xuống be):
   - **Personal notes** (`user_cards.notes`, đã có cột từ Phase 0): textarea max 500 ký tự, '' để xoá → null
   - **Suspend/bury** (`user_cards.suspended`): toggle ẩn thẻ khỏi `getReviewQueue` (filter đã có sẵn từ Tuần 3)

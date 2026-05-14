@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `35e2f60`               | base                         | 2026-05-14 (`35e2f60`) | Tuần 6 chunk 4 card actions (notes + suspend)             |
-| be     | `cbd75ba`               | 2026-05-14 (Tuần 6 ch4)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 4                                       |
-| fe     | `fb55d2c`               | 2026-05-14 (Tuần 6 ch3 docs) | 2026-05-14 (`fb55d2c`) | base Tuần 6 chunk 4                                       |
+| dev    | `2e292b6`               | base                         | 2026-05-14 (`2e292b6`) | Tuần 6 chunk 5 card editing UI                            |
+| be     | `e936434`               | 2026-05-14 (Tuần 6 ch5)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 5                                       |
+| fe     | `2c25386`               | 2026-05-14 (Tuần 6 ch4 docs) | 2026-05-14 (`2c25386`) | base Tuần 6 chunk 5                                       |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -175,3 +175,6 @@ git checkout fe
 | 2026-05-14 | commit | (T6 ch4 FE) → fe    | `fb55d2c` | feat(review): card personal notes + suspend toggle                        |
 | 2026-05-14 | merge  | fe → dev            | `35e2f60` | bring Tuần 6 chunk 4 card actions to dev                                  |
 | 2026-05-14 | sync   | dev → be            | `cbd75ba` | sync Tuần 6 chunk 4 xuống be                                              |
+| 2026-05-14 | commit | (T6 ch5 FE) → fe    | `2c25386` | feat(vocab): inline card editing for personal collection                  |
+| 2026-05-14 | merge  | fe → dev            | `2e292b6` | bring Tuần 6 chunk 5 card editing to dev                                  |
+| 2026-05-14 | sync   | dev → be            | `e936434` | sync Tuần 6 chunk 5 xuống be                                              |
