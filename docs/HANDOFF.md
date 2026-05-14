@@ -5,6 +5,98 @@
 
 ---
 
+## 2026-05-15 (tối) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 8 lesson management)
+
+**Mục tiêu session**: Đóng vòng cuối content lifecycle — sau import/edit/multi-def, vẫn còn 3 gap không cho user quản lý lesson: rename lesson, delete lesson, delete card. Ship cả 3 trong 1 chunk vì cùng pattern (ownership chain + cascade via FK).
+
+**Đã hoàn thành (commit `ec3faf4` trên fe → merge `e91063f` lên dev → sync `036ddc1` xuống be).**
+
+### Cascade strategy
+
+Mọi delete dựa vào `onDelete: 'cascade'` đã có sẵn trong Drizzle schema (Phase 0):
+
+- `lessons` delete → `cards.lessonId` cascade → `userCards.cardId` cascade
+- `lessons` delete → `userCards.lessonId` cascade, `userLessons.lessonId` cascade
+- `cards` delete → `userCards.cardId` cascade
+
+Không cần DELETE thủ công per-bảng. Một single `db.delete(lessons).where(...)` đủ cleanup toàn bộ chain.
+
+### Files thêm mới (4)
+
+| Path                                            | Vai trò                                                                                               |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `src/features/vocab/lesson-edit-schema.ts`      | Pure Zod — `renameLessonSchema`, `deleteLessonSchema`, `deleteCardSchema` + types + `MAX_LESSON_NAME` |
+| `src/features/vocab/lesson-edit.ts`             | `'use server'`: `renameLesson` / `deleteLesson` / `deleteCard` + 2 ownership helpers                  |
+| `src/features/vocab/lesson-edit-schema.test.ts` | 12 vitest cases — rename validation (min/max/trim/whitespace/UUID), delete schemas                    |
+| `src/components/decks/lesson-actions.tsx`       | Client header strip — Pencil (toggle inline form) + Trash (window.confirm + redirect)                 |
+
+### Files edit (2)
+
+- `src/components/decks/card-edit-form.tsx`: import `deleteCard` từ lesson-edit, footer refactor `justify-between` — "Xoá thẻ" button (red outline + window.confirm) bên trái, Huỷ + Lưu bên phải. Split `useTransition` thành `saving + deletingCard` cho 2 spinner độc lập. `useRouter.refresh()` sau delete để page revalidate
+- `src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx`: import + render `<LessonActions>` trong cùng column với EnrollButton (`flex-col items-end gap-2`) khi `isEditable=true`
+
+### Why slug unchanged on rename
+
+- Renaming would require: unique check `(topic_id, new_slug)` + 301 redirect old slug → defer
+- User-facing impact: URL không break, bookmarks/share links vẫn work
+- Tradeoff: slug có thể bị stale so với display name (e.g. lesson `daily-words-practice` rename thành "Tuần 1 vocabulary"). Acceptable cho MVP — slug = identifier, không phải display
+
+### Why native window.confirm
+
+- Không có Dialog primitive trong project (chỉ button/input/label/textarea/skeleton/dropdown-menu/separator)
+- Native confirm dùng được, accessibility tốt (browser handles ARIA), không cần Radix Dialog
+- Trade-off: không custom được copy (đã include lesson name trong message). Defer dialog primitive đến khi cần modal cho thứ khác
+
+### Bundle impact
+
+`/decks/[col]/[topic]/[lesson]` 4.18 → **5.4 kB / 145 kB** (+1.2 kB route + 14 kB First Load). LessonActions không lazy-load vì luôn visible khi editable. Có thể lazy-load tương lai nếu cần — defer.
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 127/127 (8.15s) — +12 mới
+- `pnpm build` ✓ — bundle trên + `/decks/import` swap 25.8 → 12.9 kB (build cache split khác — không đổi runtime)
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `d0e22d9` | Tuần 6 chunk 8 + docs               |
+| be     | `822fa51` | sync Tuần 6 chunk 8 + docs          |
+| fe     | `b416108` | sync Tuần 6 chunk 8 + docs          |
+
+### Content lifecycle 100% complete
+
+| Action        | Where                                | Chunk |
+| ------------- | ------------------------------------ | ----- |
+| Import        | `/decks/import` (CSV)                | 3     |
+| Note          | `<CardActions>` in review            | 4     |
+| Suspend       | `<CardActions>` in review            | 4     |
+| Edit content  | `<CardEditForm>` in deck preview     | 5 + 7 |
+| Rename        | `<LessonActions>` in lesson page     | 8     |
+| Delete card   | `<CardEditForm>` footer              | 8     |
+| Delete lesson | `<LessonActions>` in lesson page     | 8     |
+| Backup        | GitHub Actions cron + manual restore | 6     |
+
+### Bỏ ngoài scope (defer)
+
+- **Restore deleted** — undo button after delete? Anki has 30-day trash. Defer
+- **Per-user collection GC** — khi user xoá hết lessons trong personal-{id}, collection vẫn tồn tại empty. Cleanup script (post-MVP)
+- **Bulk delete cards** — selection UI tốn effort, defer
+- **Lesson slug rename** — cần unique check + 301 redirect, defer
+- **Soft delete** với `deleted_at` column — pre-MVP cứ hard delete, không cần audit trail
+- **Dialog primitive** — native confirm OK, defer custom modal
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1-5: như chunk 6 entry (BACKUP_DATABASE_URL secret, manual run, golden path, screenshots, tag v1.0.0)
+
+Nếu autonomous tiếp: **CSV template download** (defer chunk 3, ~50 LOC) hoặc **toast lesson complete** (defer Tuần 5 chunk 4, ~80 LOC).
+
+---
+
 ## 2026-05-15 (chiều) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 7 multi-def card edit)
 
 **Mục tiêu session**: Xử lý deferred từ chunk 5 — card edit form chỉ support 1 definition + 1 example. Refactor lên multi-def với repeater UI. Đóng nốt limitation cuối của content lifecycle trước v1.0.0.
