@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev      | Last merge TO dev      | Notes                                                     |
-| ------ | ----------------------- | ----------------------- | ---------------------- | --------------------------------------------------------- |
-| main   | `eb18493`               | —                       | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `14ac3d4`               | base                    | 2026-05-14 (`14ac3d4`) | Tuần 6 chunk 3 CSV import UI                              |
-| be     | `0d22bb4`               | 2026-05-14 (Tuần 6 ch3) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 3                                       |
-| fe     | `8aeb0e4`               | 2026-05-14 (Tuần 6 ch2) | 2026-05-14 (`8aeb0e4`) | base Tuần 6 chunk 3                                       |
+| Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `b43f4b6`               | base                         | 2026-05-14 (`14ac3d4`) | Tuần 6 chunk 3 CSV import UI + docs                       |
+| be     | `a9dee33`               | 2026-05-14 (Tuần 6 ch3 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 3 + docs                                |
+| fe     | `3d8706c`               | 2026-05-14 (Tuần 6 ch3 docs) | 2026-05-14 (`8aeb0e4`) | base Tuần 6 chunk 3 + docs                                |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -169,3 +169,6 @@ git checkout fe
 | 2026-05-14 | commit | (T6 ch3 FE) → fe    | `8aeb0e4` | feat(vocab): CSV import for personal lessons                              |
 | 2026-05-14 | merge  | fe → dev            | `14ac3d4` | bring Tuần 6 chunk 3 CSV import to dev                                    |
 | 2026-05-14 | sync   | dev → be            | `0d22bb4` | sync Tuần 6 chunk 3 CSV import xuống be                                   |
+| 2026-05-14 | commit | (docs T6 ch3) → dev | `b43f4b6` | docs(infra): handoff Tuan 6 chunk 3 CSV import done                       |
+| 2026-05-14 | sync   | dev → be            | `a9dee33` | sync docs Tuần 6 chunk 3 xuống be                                         |
+| 2026-05-14 | sync   | dev → fe            | `3d8706c` | sync docs Tuần 6 chunk 3 xuống fe                                         |
