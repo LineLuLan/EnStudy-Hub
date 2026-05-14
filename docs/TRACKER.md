@@ -238,6 +238,16 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 15 topbar polish + sign-out wire-up done** (2026-05-16, commit `148fbee` trên fe → merge `3992249` lên dev → sync `0ae3017` xuống be):
+  - **P0 v1.0.0 blocker fix**: topbar dropdown trước đây ship 2 TODO hardcoded ("TODO: hiển thị email" + "Đăng xuất (TODO)"). signOut server action có sẵn từ Tuần 1, chỉ chưa wire UI
+  - `app/(app)/layout.tsx`: convert async, đọc session qua `getSession()` (fast — no network, decode cookie locally; middleware đã verify auth upstream). Pass `userEmail` xuống Topbar
+  - `components/layout/topbar.tsx`: accept `userEmail` prop. Dropdown content rewrite:
+    1. Account header label (giữ nguyên)
+    2. Sub-header "Đăng nhập với" + mono email (truncate)
+    3. "Cài đặt" link tới `/settings` qua `DropdownMenuItem asChild + Link`
+    4. "Đăng xuất" wire `signOut()` qua `useTransition`. Catch `NEXT_REDIRECT` throw (expected từ `redirect('/login')`), toast nếu fail thật. Spinner + "Đang đăng xuất…" pending. Red tone (text-red-600 + focus-bg-red-50) signal destructive intent
+  - Tests: không (UI integration only). signOut() tested manual từ Tuần 1. 164/164 unchanged
+  - Build: routes essentially unchanged. Side effect: `/review/summary` `○→ƒ` (dynamic) vì parent layout giờ async — auth routes vốn dynamic via middleware, build report chỉ thành explicit
 - [x] **Chunk 14 keyboard shortcuts modal done** (2026-05-16, commit `b88f7ed` trên fe → merge `7d5ea62` lên dev → sync `71e1fca` xuống be):
   - Surface all app shortcuts vào 1 chỗ learnable — trước đây user phải discover piecemeal (Space cloze flip, 1-4 rating, ? hint, ⌘K palette, Esc cancel)
   - `components/layout/shortcuts-modal.tsx`: `<ShortcutsTrigger>` client với Keyboard icon button trong topbar + globally-bound `?` keydown listener. Toggle native `<dialog>` qua `showModal()` — free focus trap + backdrop + Esc-to-close, không cần Radix Dialog primitive
