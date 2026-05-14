@@ -13,6 +13,7 @@ import {
   DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu';
 import { MobileNav } from './mobile-nav';
+import { ShortcutsTrigger } from './shortcuts-modal';
 
 export function Topbar() {
   const { resolvedTheme, setTheme } = useTheme();
@@ -37,6 +38,8 @@ export function Topbar() {
           ⌘K
         </kbd>
       </button>
+
+      <ShortcutsTrigger />
 
       <Button
         variant="ghost"
