@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev            | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ----------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                             | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `c9e7908`               | base                          | 2026-05-16 (`c9e7908`) | Tuần 6 chunk 13 forecast + docs                           |
-| be     | `60ba997`               | 2026-05-16 (Tuần 6 ch13 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 13 + docs                               |
-| fe     | `dbe0484`               | 2026-05-16 (Tuần 6 ch13 docs) | 2026-05-16 (`3b01347`) | sync Tuần 6 chunk 13 + docs                               |
+| dev    | `7d5ea62`               | base                          | 2026-05-16 (`7d5ea62`) | Tuần 6 chunk 14 keyboard shortcuts modal                  |
+| be     | `71e1fca`               | 2026-05-16 (Tuần 6 ch14)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 14                                      |
+| fe     | `b88f7ed`               | 2026-05-16 (Tuần 6 ch13 docs) | 2026-05-16 (`b88f7ed`) | base Tuần 6 chunk 14                                      |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -202,3 +202,6 @@ git checkout fe
 | 2026-05-16 | commit | (T6 ch13 FE) → fe    | `3b01347` | feat(stats): forecast due cards next 7 days                               |
 | 2026-05-16 | merge  | fe → dev             | `3976889` | bring Tuần 6 chunk 13 forecast to dev                                     |
 | 2026-05-16 | sync   | dev → be             | `08d7454` | sync Tuần 6 chunk 13 xuống be                                             |
+| 2026-05-16 | commit | (T6 ch14 FE) → fe    | `b88f7ed` | feat(ui): keyboard shortcuts modal (? key)                                |
+| 2026-05-16 | merge  | fe → dev             | `7d5ea62` | bring Tuần 6 chunk 14 shortcuts modal to dev                              |
+| 2026-05-16 | sync   | dev → be             | `71e1fca` | sync Tuần 6 chunk 14 xuống be                                             |
