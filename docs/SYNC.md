@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `d12a230`               | base                         | 2026-05-15 (`d12a230`) | Tuần 6 chunk 9 UX polish (CSV template + lesson toast)    |
-| be     | `469f13a`               | 2026-05-15 (Tuần 6 ch9)      | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 9                                       |
-| fe     | `c575710`               | 2026-05-15 (Tuần 6 ch8 docs) | 2026-05-15 (`c575710`) | base Tuần 6 chunk 9                                       |
+| dev    | `acfab70`               | base                         | 2026-05-15 (`d12a230`) | Tuần 6 chunk 9 UX polish (CSV template + lesson toast)    |
+| be     | `aad2bc9`               | 2026-05-15 (Tuần 6 ch9 docs) | 2026-05-13 (`3627953`) | sync Tuần 6 chunk 9 + docs                                |
+| fe     | `bc94a9f`               | 2026-05-15 (Tuần 6 ch9 docs) | 2026-05-15 (`c575710`) | sync Tuần 6 chunk 9 + docs                                |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 

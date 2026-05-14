@@ -5,6 +5,107 @@
 
 ---
 
+## 2026-05-15 (khuya) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 9 UX polish bundle)
+
+**Mục tiêu session**: Cleanup 2 defer items nhỏ — CSV template download (defer chunk 3) + toast lesson complete (defer Tuần 5 chunk 4). Cùng category UX polish, bundle vào 1 chunk thay vì 2 chunks tiny riêng.
+
+**Đã hoàn thành (commit `c575710` trên fe → merge `d12a230` lên dev → sync `469f13a` xuống be).**
+
+### Files edit (4)
+
+| Path                                       | Thay đổi                                                                                                                                                        |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/components/decks/csv-import-form.tsx` | Nút "Tải CSV mẫu" cạnh "Dùng mẫu thử". Client-side Blob + `<a download>` trigger, revokeObjectURL cleanup. lucide Download                                      |
+| `src/features/srs/queue.ts`                | Extend `ReviewQueue.meta` với `lessonNames: Record<id, name>`. 1 thêm `db.select` trên `lessonIds` đã có sẵn (dedup từ Phase 0)                                 |
+| `src/app/(app)/review/page.tsx`            | Pipe `lessonNames={queue.meta.lessonNames}` vào `<ReviewSession>`                                                                                               |
+| `src/components/review/review-session.tsx` | Thêm prop `lessonNames`, 3 refs (`lessonTotalsRef` từ initialQueue useEffect, `lessonRatedRef`, `lessonCompleteToastedRef Set`), milestone 3 trong `handleRate` |
+
+### CSV template content
+
+```csv
+word,ipa,pos,cefr,meaning_vi,meaning_en,example_en,example_vi,mnemonic_vi
+breakfast,ˈbrek.fəst,noun,A1,bữa sáng,The first meal of the day,I eat breakfast at 7am.,Tôi ăn sáng lúc 7 giờ.,BREAK + FAST = phá vỡ thời gian nhịn ăn qua đêm
+happy,ˈhæp.i,adjective,A2,vui vẻ,feeling or showing pleasure,She looks happy today.,Hôm nay cô ấy trông vui vẻ.,
+run,rʌn,verb,A1,chạy,move quickly on foot,I run every morning.,Tôi chạy mỗi sáng.,
+```
+
+3 rows cover noun/adjective/verb + A1/A2 + 1 row có mnemonic + 2 rows trống (showcase optional column). Filename: `enstudy-csv-template.csv`.
+
+### Lesson-complete toast logic
+
+```ts
+// On queue load:
+const totals = countBy(initialQueue, (item) => item.userCard.lessonId);
+lessonTotalsRef.current = totals;
+lessonRatedRef.current = {};
+lessonCompleteToastedRef.current = new Set();
+
+// On each successful rate (inside handleRate, after streak + limit toasts):
+const lessonId = cardBefore.userCard.lessonId;
+lessonRatedRef.current[lessonId] = (lessonRatedRef.current[lessonId] ?? 0) + 1;
+const total = lessonTotalsRef.current[lessonId] ?? 0;
+if (rated === total && !toasted.has(lessonId)) {
+  toast.success(`🎉 Hoàn thành bài "${lessonNames[lessonId]}"!`, { duration: 5000 });
+  toasted.add(lessonId);
+}
+```
+
+Edge cases handled:
+
+- Multiple lessons trong cùng session → mỗi lesson toast độc lập, không spam
+- F5 mid-session → store init resets refs nên không double-fire (mất history; acceptable)
+- Lesson name missing trong map → fallback `🎉 Hoàn thành 1 bài học!`
+- Rate failure (toast.error) → counter không increment (return sớm trước milestone block)
+
+### Why no new tests
+
+CSV blob download = browser DOM API (`URL.createObjectURL`, `<a>.click()`) — không pure logic để unit test. Integration test cần Playwright + browser. Defer.
+
+Toast logic = side-effect via sonner inside ReviewSession. Pure helper extract khả thi (`shouldFireLessonComplete(lessonId, totals, rated, toasted)`) nhưng giá trị thấp — refs mutate inline, logic ngắn. Defer.
+
+### Bundle impact
+
+- `/decks/import` 12.9 → 13.3 kB / 152 → 153 kB (+0.4 kB Download icon)
+- `/review` 4.76 → 5 kB / 126 kB giữ nguyên (lesson toast là plain JS, no new icons/deps)
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 127/127 (9.38s) — unchanged
+- `pnpm build` ✓ — bundles trên
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `acfab70` | Tuần 6 chunk 9 + docs               |
+| be     | `aad2bc9` | sync Tuần 6 chunk 9 + docs          |
+| fe     | `bc94a9f` | sync Tuần 6 chunk 9 + docs          |
+
+### Bỏ ngoài scope (defer)
+
+- **CSV template với nhiều rows** — chỉ 3 rows. User có thể duplicate trong Excel
+- **Lesson-complete confetti / sound** — toast text-only đủ cho MVP
+- **Lesson-complete persist** — F5 mất history; user re-completes lesson → re-toast. Acceptable
+- **Lesson-complete cho cross-session** — chỉ fire khi finish trong cùng session. Cross-session "finished lesson today" = đã có streak toast
+- **Toast theo lessonId order** — nếu user xen kẽ rate giữa 2 lessons, toast theo thứ tự reach total (correct natural order)
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1-5: như chunk 6 entry (BACKUP_DATABASE_URL secret, manual run backup, golden path test, screenshots, tag v1.0.0)
+
+Nếu autonomous tiếp ý tưởng:
+
+- **CSV import: edit existing lesson** — re-upload cùng slug → overwrite cards thay vì reject (defer chunk 3)
+- **Stats: per-lesson retention chart** — thêm chart breakdown theo lesson trong `/stats`
+- **Daily quote / motivation** — header bar text ngẫu nhiên trên dashboard
+- **Keyboard shortcuts modal** — `?` mở modal liệt kê tất cả shortcuts
+- **Export user data** — JSON dump notes + suspended + custom lessons
+
+---
+
 ## 2026-05-15 (tối) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 8 lesson management)
 
 **Mục tiêu session**: Đóng vòng cuối content lifecycle — sau import/edit/multi-def, vẫn còn 3 gap không cho user quản lý lesson: rename lesson, delete lesson, delete card. Ship cả 3 trong 1 chunk vì cùng pattern (ownership chain + cascade via FK).
