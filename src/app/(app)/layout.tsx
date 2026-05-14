@@ -1,7 +1,16 @@
 import { Sidebar } from '@/components/layout/sidebar';
 import { Topbar } from '@/components/layout/topbar';
+import { createSupabaseServerClient } from '@/lib/supabase/server';
 
-export default function AppLayout({ children }: { children: React.ReactNode }) {
+export default async function AppLayout({ children }: { children: React.ReactNode }) {
+  // Read user email from session cookie (no network round-trip — middleware
+  // already verified auth). Fast path; topbar dropdown uses it.
+  const supabase = await createSupabaseServerClient();
+  const {
+    data: { session },
+  } = await supabase.auth.getSession();
+  const userEmail = session?.user.email ?? null;
+
   return (
     <div className="flex min-h-screen">
       <a
@@ -12,7 +21,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       </a>
       <Sidebar />
       <div className="flex min-w-0 flex-1 flex-col">
-        <Topbar />
+        <Topbar userEmail={userEmail} />
         <main id="main-content" className="flex-1 px-4 py-5 sm:px-6 sm:py-6">
           {children}
         </main>
