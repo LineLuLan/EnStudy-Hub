@@ -238,6 +238,14 @@
   - UI primitive mới: `<Textarea>` shadcn-style cho dán CSV
   - Tests: 19 mới (`csv-parse.test.ts`) — parse happy path, BOM, quoted comma, missing header, dedup, oversize, per-row errors, slug + schema validation. Tổng 72 → 91/91 pass
   - Build: `/decks/import` **25.5 kB / 152 kB** First Load (form + preview table + sonner). Khác routes không đổi
+- [x] **Chunk 7 multi-def card edit done** (2026-05-15, commit `4d037b1` trên fe → merge `1be3ca5` lên dev → sync `47d79ab` xuống be):
+  - `features/vocab/card-edit-schema.ts` refactor: `cardEditInputSchema = cardContentSchema.extend({cardId})` thay vì `csvRowSchema.extend(...)`. Multi-def + multi-example. Hằng `MIN/MAX_DEFINITIONS=1/5`, `MIN/MAX_EXAMPLES_PER_DEF=1/5` (mirror Zod constraints trong `definitionSchema`)
+  - `cardToFormState` return arrays lồng nhau, seed 1 empty def + 1 empty ex nếu DB rỗng để form không "below min" lúc mount
+  - `formStateToInput(form, cardId)`: trim mọi string, drop `mnemonic_vi` nếu rỗng sau trim
+  - `features/vocab/card-edit.ts`: bỏ wrap qua `csvRowToCardContent`. Set `content.definitions` jsonb thẳng. Cùng ownership chain + FSRS state preservation
+  - `components/decks/card-edit-form.tsx` refactor repeater pattern: `<DefinitionBlock>` per-def với meaning_vi/meaning_en + sub-repeater examples (grid `1fr 1fr auto` cho en/vi/trash). Add/remove buttons enforce bounds (disable add khi max, ẩn trash khi min). Counters `N / MAX`
+  - Tests: rewrite `card-edit-schema.test.ts` — 16 cases (5 schema accept/reject, 4 projection, 3 formStateToInput). Cảnh báo: cardEditInputSchema KHÔNG có CSV POS alias mapping (`adj` reject) vì dùng canonical cardContentSchema; UI cung cấp full names. Tổng 108 → 115/115 pass
+  - Build: `/decks/[col]/[topic]/[lesson]` **4.18 kB / 131 kB** unchanged (repeater UI swallowed bởi lazy-load chunk)
 - [x] **Chunk 6 v1.0.0 prep done** (2026-05-15, commit chuẩn bị trên dev):
   - **README.md** rewrite production-grade — feature matrix (10 áo bao trùm 6 tuần), stack table, quickstart 3 bước (clone/setup/db/dev), architecture tree với key patterns (server-first, schema-impure split, multi-tenant collection ownership, code split), branch model diagram, releases table với planned v1.0.0, full docs index, MIT badge
   - **LICENSE** — MIT, © 2026 LineLuLan. Trước đó README ghi "Private" — release public GitHub repo cần explicit MIT

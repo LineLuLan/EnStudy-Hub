@@ -5,6 +5,83 @@
 
 ---
 
+## 2026-05-15 (chiều) — fe → dev — Claude Opus 4.7 (Tuần 6 chunk 7 multi-def card edit)
+
+**Mục tiêu session**: Xử lý deferred từ chunk 5 — card edit form chỉ support 1 definition + 1 example. Refactor lên multi-def với repeater UI. Đóng nốt limitation cuối của content lifecycle trước v1.0.0.
+
+**Đã hoàn thành (commit `4d037b1` trên fe → merge `1be3ca5` lên dev → sync `47d79ab` xuống be).**
+
+### Schema change
+
+`cardEditInputSchema` chuyển từ `csvRowSchema.extend({cardId})` (flat, 1 def) sang `cardContentSchema.extend({cardId})` (canonical multi-def với min/max constraints có sẵn từ Phase 0). Kết quả:
+
+- Cards có 2+ definitions giờ edit được đầy đủ (trước đây mất defs 2..n khi save)
+- Cards có 2+ examples per def giờ giữ được (trước collapse về first only)
+- POS giờ chỉ accept canonical enum (`adjective`), KHÔNG alias `adj` — vì UI cung cấp select đủ. CSV import vẫn dùng `csvRowSchema` riêng với alias mapping → 2 paths không xung đột
+
+### Files edit (4)
+
+| Path                                          | Thay đổi                                                                                                 |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `src/features/vocab/card-edit-schema.ts`      | `cardEditInputSchema` mới, `cardToFormState` return nested arrays với empty seed, new `formStateToInput` |
+| `src/features/vocab/card-edit.ts`             | Server action set `content.definitions` jsonb thẳng, bỏ `csvRowToCardContent` wrap                       |
+| `src/components/decks/card-edit-form.tsx`     | Refactor repeater: `<DefinitionBlock>` + sub-repeater examples, add/remove buttons, counter chips        |
+| `src/features/vocab/card-edit-schema.test.ts` | Rewrite 9 → 16 cases — multi-def boundaries (1/5/0/6), POS alias rejection, projection edge, roundtrip   |
+
+### UI patterns
+
+- `<DefinitionBlock>` wraps trong soft border `bg-zinc-50/40` để nested clearly
+- Per-def header: `Định nghĩa #N` + "Xoá định nghĩa" link (hidden khi count=1)
+- Example grid `1fr 1fr auto`: en input + vi input + trash button (hidden khi count=1)
+- Counter chips `N / MAX` (e.g. `1 / 5`) — match `MAX_NOTE_LENGTH` pattern trong CardActions
+- "Thêm ví dụ" button hidden khi reach MAX (5)
+- "Thêm định nghĩa" button hidden khi reach MAX (5)
+
+### Bundle impact
+
+`/decks/[col]/[topic]/[lesson]` = **4.18 kB / 131 kB** (chunk 5 baseline 4.19 / 131). Repeater UI hoàn toàn bị "swallowed" bởi `next/dynamic` lazy chunk — không impact First Load JS. Form chỉ download khi user click "Sửa".
+
+### Why empty seed
+
+`cardToFormState` seed 1 empty def + 1 empty ex nếu DB rỗng. Lý do: form Zod requires `min(1)` cho cả definitions array lẫn examples array. Nếu render với arrays rỗng → form invalid từ frame 0 → user confused. Empty seed = required fields visible, user biết cần fill.
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 115/115 (6.01s) — net +7 (rewrite 9 → 16 cases)
+- `pnpm build` ✓ — bundle unchanged
+
+### Trạng thái nhánh
+
+| Branch | SHA       | Note                                |
+| ------ | --------- | ----------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — chờ user) |
+| dev    | `1be3ca5` | Tuần 6 chunk 7 multi-def card edit  |
+| be     | `47d79ab` | sync Tuần 6 chunk 7                 |
+| fe     | `4d037b1` | base Tuần 6 chunk 7                 |
+
+### Bỏ ngoài scope (defer)
+
+- **Reorder definitions / examples** — không có up/down arrows. User phải xoá rồi thêm lại đúng vị trí. Defer
+- **Synonyms / antonyms / collocations / etymology** form fields — vẫn không edit được (CSV import không support, content-schema cho phép `default([])`). Defer
+- **Add definition button styling** — hiện outline xám đơn giản. Có thể dressy hơn nếu user muốn nổi bật
+- **Drag-drop reorder** — needs dnd-kit hoặc tương tự, defer
+- **Validation realtime** — vẫn chỉ validate ở server submit. Acceptable
+- **Optimistic update** — vẫn chờ server response. Acceptable
+
+### Next session — vẫn còn chunk 6 TODOs cho user
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (chunk 6)
+2. Verify backup workflow (chunk 6)
+3. Live golden path test — giờ include multi-def edit (chunk 6 expanded)
+4. Capture screenshots (chunk 6)
+5. Tag v1.0.0 (chunk 6)
+
+Nếu autonomous tiếp: **CSV template download** (defer chunk 3) hoặc **toast lesson complete** (defer Tuần 5 chunk 4) là 2 task nhỏ < 80 LOC.
+
+---
+
 ## 2026-05-15 (sáng) — dev (infra) — Claude Opus 4.7 (Tuần 6 chunk 6 v1.0.0 prep)
 
 **Mục tiêu session**: Chuẩn bị ship v1.0.0 — viết README sản phẩm-quality, thêm LICENSE MIT (chuyển từ "Private" sang public-ready), wire GitHub Actions cron daily DB backup. KHÔNG auto-tag v1.0.0 — phần đó user duyệt cuối qua manual test + secret setup.
