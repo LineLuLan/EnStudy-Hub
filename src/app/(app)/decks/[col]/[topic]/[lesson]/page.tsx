@@ -26,6 +26,7 @@ export default async function LessonPage({
   const isEnrolled = enrolled.has(detail.id);
   const userMetaByCard =
     userId && isEnrolled ? await getUserCardMetaByLesson(userId, detail.id) : new Map();
+  const isEditable = !detail.collection.isOfficial && detail.collection.ownerId === userId;
 
   return (
     <div className="mx-auto max-w-5xl">
@@ -71,7 +72,11 @@ export default async function LessonPage({
         <ul className="mt-6 grid items-start gap-3 lg:grid-cols-2">
           {detail.cards.map((card) => (
             <li key={card.id}>
-              <CardPreview card={card} userMeta={userMetaByCard.get(card.id)} />
+              <CardPreview
+                card={card}
+                userMeta={userMetaByCard.get(card.id)}
+                isEditable={isEditable}
+              />
             </li>
           ))}
         </ul>
