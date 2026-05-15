@@ -1,0 +1,601 @@
+{
+  "slug": "numbers-quantities-ext",
+  "name": "Numbers & Quantities (Extended)",
+  "description": "Số đếm, phép tính, lượng — mở rộng cho numbers-quantities (count, amount, plus, minus).",
+  "order_index": 14,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "number",
+      "lemma": "number",
+      "ipa": "/ˈnʌmbə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a word or symbol that represents an amount (1, 2, 3…)",
+          "meaning_vi": "số, con số",
+          "examples": [
+            { "en": "What's your phone number?", "vi": "Số điện thoại bạn là gì?" },
+            {
+              "en": "The number of tourists in Hà Nội keeps growing.",
+              "vi": "Số lượng du khách ở Hà Nội tiếp tục tăng."
+            },
+            { "en": "Pick a number between 1 and 100.", "vi": "Chọn một số từ 1 đến 100." }
+          ]
+        }
+      ],
+      "synonyms": ["figure", "digit"],
+      "antonyms": [],
+      "collocations": [
+        "phone number",
+        "a large number",
+        "a small number",
+        "any number of",
+        "number one"
+      ],
+      "etymology_hint": "From Latin 'numerus' meaning 'quantity'.",
+      "mnemonic_vi": "NUMBER = 'nâm-bờ' — 'năm bồ' (đếm). Phone number = số điện thoại."
+    },
+    {
+      "word": "count",
+      "lemma": "count",
+      "ipa": "/kaʊnt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to say numbers in order; to find the total of things",
+          "meaning_vi": "đếm",
+          "examples": [
+            {
+              "en": "She can count to 100 in English.",
+              "vi": "Cô bé đếm được đến 100 bằng tiếng Anh."
+            },
+            {
+              "en": "Let's count how many people are coming.",
+              "vi": "Hãy đếm xem có bao nhiêu người đến."
+            },
+            {
+              "en": "Don't count on him being on time.",
+              "vi": "Đừng trông mong anh ấy đến đúng giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["calculate", "tally"],
+      "antonyms": [],
+      "collocations": ["count to", "count on", "count up", "lose count", "doesn't count"],
+      "etymology_hint": "From Old French 'conter' — from Latin 'computare' (to calculate).",
+      "mnemonic_vi": "COUNT = 'cao-nt' — 'cọng' (gom số). Count on me = trông cậy vào tôi."
+    },
+    {
+      "word": "amount",
+      "lemma": "amount",
+      "ipa": "/əˈmaʊnt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "how much of something there is",
+          "meaning_vi": "lượng, số lượng (không đếm được)",
+          "examples": [
+            {
+              "en": "I drink a small amount of cà phê every day.",
+              "vi": "Tôi uống một lượng nhỏ cà phê mỗi ngày."
+            },
+            { "en": "The amount of plastic waste is huge.", "vi": "Lượng rác nhựa rất lớn." },
+            {
+              "en": "She spent a large amount of money on books.",
+              "vi": "Cô ấy tiêu một số tiền lớn mua sách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quantity"],
+      "antonyms": [],
+      "collocations": ["small amount", "large amount", "amount of", "huge amount", "any amount"],
+      "etymology_hint": "From Old French 'amonter' meaning 'to mount up, accumulate'.",
+      "mnemonic_vi": "AMOUNT = 'ờ-mao-nt' — 'a, mỏn' (đếm chồng). Amount of money = lượng tiền."
+    },
+    {
+      "word": "total",
+      "lemma": "total",
+      "ipa": "/ˈtəʊtl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the whole amount or number; the complete sum",
+          "meaning_vi": "tổng, tổng số",
+          "examples": [
+            { "en": "The total is 250,000 VND.", "vi": "Tổng cộng là 250,000 VND." },
+            {
+              "en": "In total, 50 students came to the event.",
+              "vi": "Tổng cộng 50 học sinh đến sự kiện."
+            },
+            { "en": "Add up the total carefully.", "vi": "Cộng tổng cẩn thận." }
+          ]
+        }
+      ],
+      "synonyms": ["sum", "whole"],
+      "antonyms": [],
+      "collocations": ["in total", "the total", "grand total", "total amount", "total cost"],
+      "etymology_hint": "From Latin 'totus' meaning 'whole, entire'.",
+      "mnemonic_vi": "TOTAL = 'tâu-tồ' — 'tổ' (tất cả) = tổng. In total = tổng cộng."
+    },
+    {
+      "word": "plus",
+      "lemma": "plus",
+      "ipa": "/plʌs/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "added to (in math); and also",
+          "meaning_vi": "cộng (+); và (thêm vào)",
+          "examples": [
+            { "en": "Two plus three equals five.", "vi": "Hai cộng ba bằng năm." },
+            { "en": "The bill is 200,000 plus tax.", "vi": "Hoá đơn 200,000 cộng thuế." },
+            { "en": "She's smart, plus she's funny.", "vi": "Cô ấy thông minh, lại còn vui tính." }
+          ]
+        }
+      ],
+      "synonyms": ["and", "added to"],
+      "antonyms": ["minus"],
+      "collocations": ["plus tax", "A plus B", "plus sign", "plus or minus", "plus size"],
+      "etymology_hint": "From Latin 'plus' meaning 'more'.",
+      "mnemonic_vi": "PLUS = 'plát' — dấu '+' (cộng). 2 plus 2 = 4. Cũng = 'thêm vào'."
+    },
+    {
+      "word": "minus",
+      "lemma": "minus",
+      "ipa": "/ˈmaɪnəs/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "with the smaller number taken away (in math); less",
+          "meaning_vi": "trừ (-); không có",
+          "examples": [
+            { "en": "Ten minus four is six.", "vi": "Mười trừ bốn bằng sáu." },
+            {
+              "en": "The temperature was minus five last winter.",
+              "vi": "Nhiệt độ là âm năm độ mùa đông năm ngoái."
+            },
+            { "en": "I came back minus one umbrella.", "vi": "Tôi về thiếu mất cây dù." }
+          ]
+        }
+      ],
+      "synonyms": ["less", "subtract"],
+      "antonyms": ["plus"],
+      "collocations": ["minus sign", "A minus B", "minus five", "plus or minus", "minus tax"],
+      "etymology_hint": "From Latin 'minus' meaning 'less'.",
+      "mnemonic_vi": "MINUS = 'mai-nớt' — dấu '-' (trừ). 10 minus 5 = 5."
+    },
+    {
+      "word": "equal",
+      "lemma": "equal",
+      "ipa": "/ˈiːkwəl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the same in amount, number, or size",
+          "meaning_vi": "bằng, ngang nhau",
+          "examples": [
+            {
+              "en": "Cut the cake into equal parts.",
+              "vi": "Cắt cái bánh thành các phần bằng nhau."
+            },
+            {
+              "en": "Men and women should have equal rights.",
+              "vi": "Nam và nữ nên có quyền bình đẳng."
+            },
+            { "en": "Two plus two equals four.", "vi": "Hai cộng hai bằng bốn." }
+          ]
+        }
+      ],
+      "synonyms": ["same", "even"],
+      "antonyms": ["unequal", "different"],
+      "collocations": ["equal rights", "equal to", "equal pay", "equal sign", "all equal"],
+      "etymology_hint": "From Latin 'aequalis' meaning 'level, just'.",
+      "mnemonic_vi": "EQUAL = 'i-quồ' — '=' bằng nhau. Equal rights = bình quyền, equal sign = dấu bằng."
+    },
+    {
+      "word": "zero",
+      "lemma": "zero",
+      "ipa": "/ˈzɪərəʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the number 0; nothing",
+          "meaning_vi": "số không (0)",
+          "examples": [
+            {
+              "en": "The score was zero-zero at halftime.",
+              "vi": "Tỉ số là 0-0 lúc nghỉ giữa hiệp."
+            },
+            {
+              "en": "The temperature dropped below zero in Sa Pa.",
+              "vi": "Nhiệt độ tụt xuống dưới 0 ở Sa Pa."
+            },
+            {
+              "en": "I have zero patience for lies.",
+              "vi": "Tôi không có chút kiên nhẫn nào với sự dối trá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nothing", "nil"],
+      "antonyms": [],
+      "collocations": [
+        "zero degrees",
+        "below zero",
+        "zero tolerance",
+        "from zero",
+        "absolute zero"
+      ],
+      "etymology_hint": "From Arabic 'sifr' meaning 'empty' — also gave us 'cipher'.",
+      "mnemonic_vi": "ZERO = 'zia-râu' — số 0, không có gì. Zero point = không độ."
+    },
+    {
+      "word": "more",
+      "lemma": "more",
+      "ipa": "/mɔː(r)/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a larger amount or number than something else",
+          "meaning_vi": "nhiều hơn, hơn",
+          "examples": [
+            { "en": "Can I have more rice, please?", "vi": "Cho tôi xin thêm cơm được không?" },
+            { "en": "She has more friends than I do.", "vi": "Cô ấy có nhiều bạn hơn tôi." },
+            { "en": "Drink more water in summer.", "vi": "Uống nhiều nước hơn vào mùa hè." }
+          ]
+        }
+      ],
+      "synonyms": ["additional"],
+      "antonyms": ["less"],
+      "collocations": ["more than", "any more", "much more", "even more", "the more"],
+      "etymology_hint": "From Old English 'māra' — comparative of 'much/many'.",
+      "mnemonic_vi": "MORE = 'mo' — 'mở rộng' (thêm). More tea = thêm trà. Đối với LESS."
+    },
+    {
+      "word": "less",
+      "lemma": "less",
+      "ipa": "/les/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a smaller amount than something else",
+          "meaning_vi": "ít hơn",
+          "examples": [
+            {
+              "en": "Eat less sugar — it's better for your health.",
+              "vi": "Ăn ít đường hơn — tốt cho sức khoẻ."
+            },
+            { "en": "He earns less than his sister.", "vi": "Anh ấy kiếm ít hơn chị mình." },
+            { "en": "I have less patience these days.", "vi": "Dạo này tôi ít kiên nhẫn hơn." }
+          ]
+        }
+      ],
+      "synonyms": ["fewer"],
+      "antonyms": ["more"],
+      "collocations": ["less than", "less time", "even less", "less than ever", "less is more"],
+      "etymology_hint": "From Old English 'lǣs' — comparative of 'little'.",
+      "mnemonic_vi": "LESS = 'lét' — 'lít' (ít) hơn. Eat less = ăn ít. Đối với MORE."
+    },
+    {
+      "word": "enough",
+      "lemma": "enough",
+      "ipa": "/ɪˈnʌf/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "as much as you need, no more no less",
+          "meaning_vi": "đủ",
+          "examples": [
+            { "en": "I have enough money for a phở bowl.", "vi": "Tôi có đủ tiền cho một tô phở." },
+            { "en": "That's enough — please stop talking.", "vi": "Đủ rồi — xin hãy ngưng nói." },
+            { "en": "She's tall enough to ride this bike.", "vi": "Cô bé đủ cao để đạp xe này." }
+          ]
+        }
+      ],
+      "synonyms": ["sufficient"],
+      "antonyms": ["not enough"],
+      "collocations": [
+        "enough time",
+        "good enough",
+        "old enough",
+        "more than enough",
+        "had enough"
+      ],
+      "etymology_hint": "From Old English 'genōg' — silent 'gh' once pronounced.",
+      "mnemonic_vi": "ENOUGH = 'i-nắp' — 'i' (vừa) 'nốp' (đủ). Đứng SAU adj: tall enough, big enough."
+    },
+    {
+      "word": "lot",
+      "lemma": "lot",
+      "ipa": "/lɒt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large amount or number (informal)",
+          "meaning_vi": "nhiều (thân mật), 'một đống'",
+          "examples": [
+            {
+              "en": "There are a lot of people at Bến Thành Market.",
+              "vi": "Có rất nhiều người ở chợ Bến Thành."
+            },
+            { "en": "I have a lot of work today.", "vi": "Hôm nay tôi có nhiều việc lắm." },
+            { "en": "Thanks a lot for your help!", "vi": "Cảm ơn nhiều lắm vì sự giúp đỡ!" }
+          ]
+        }
+      ],
+      "synonyms": ["plenty", "much"],
+      "antonyms": ["few"],
+      "collocations": ["a lot of", "a lot", "thanks a lot", "quite a lot", "lots of"],
+      "etymology_hint": "From Old English 'hlot' meaning 'portion, share'.",
+      "mnemonic_vi": "LOT = 'lót' — 'lốt' (đông đầy). A lot of = nhiều. Thanks a lot = cảm ơn nhiều."
+    },
+    {
+      "word": "piece",
+      "lemma": "piece",
+      "ipa": "/piːs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a part of something that is separate from the rest",
+          "meaning_vi": "miếng, mẩu, mảnh",
+          "examples": [
+            {
+              "en": "Can I have a piece of bánh chưng?",
+              "vi": "Cho tôi một miếng bánh chưng được không?"
+            },
+            {
+              "en": "She found a piece of paper on the floor.",
+              "vi": "Cô ấy tìm thấy một mảnh giấy trên sàn."
+            },
+            { "en": "Let me give you a piece of advice.", "vi": "Để tôi cho bạn một lời khuyên." }
+          ]
+        }
+      ],
+      "synonyms": ["bit", "part"],
+      "antonyms": ["whole"],
+      "collocations": [
+        "a piece of",
+        "in one piece",
+        "piece of cake",
+        "piece of advice",
+        "missing piece"
+      ],
+      "etymology_hint": "From Old French 'piece' — possibly Celtic origin.",
+      "mnemonic_vi": "PIECE = 'pi-s' — 'piệt' (miếng). A piece of cake = miếng bánh, cũng = 'dễ ợt'."
+    },
+    {
+      "word": "bit",
+      "lemma": "bit",
+      "ipa": "/bɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small amount; a little piece",
+          "meaning_vi": "một chút, một ít",
+          "examples": [
+            { "en": "Wait a bit — I'm almost ready.", "vi": "Đợi tí — tôi sắp xong." },
+            { "en": "Add a bit of sugar to your tea.", "vi": "Thêm chút đường vào trà." },
+            { "en": "She felt a bit tired after the trip.", "vi": "Cô ấy hơi mệt sau chuyến đi." }
+          ]
+        }
+      ],
+      "synonyms": ["little"],
+      "antonyms": ["lot"],
+      "collocations": ["a bit", "a bit of", "a little bit", "every bit", "bit by bit"],
+      "etymology_hint": "From Old English 'bita' meaning 'a small piece bitten off'.",
+      "mnemonic_vi": "BIT = 'bít' — 'bịt' (cắn một chút). A bit tired = hơi mệt."
+    },
+    {
+      "word": "part",
+      "lemma": "part",
+      "ipa": "/pɑːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one section of something larger",
+          "meaning_vi": "phần, bộ phận",
+          "examples": [
+            {
+              "en": "Áo dài is part of Vietnamese culture.",
+              "vi": "Áo dài là một phần của văn hoá Việt."
+            },
+            {
+              "en": "What part of the city do you live in?",
+              "vi": "Bạn sống ở khu nào của thành phố?"
+            },
+            { "en": "She wants to be part of the team.", "vi": "Cô ấy muốn là thành viên của đội." }
+          ]
+        }
+      ],
+      "synonyms": ["section", "portion"],
+      "antonyms": ["whole"],
+      "collocations": ["part of", "in part", "take part", "for the most part", "part time"],
+      "etymology_hint": "From Latin 'pars, partis' meaning 'piece, share'.",
+      "mnemonic_vi": "PART = 'pát' — 'phất' (mảnh). Part of life = một phần cuộc đời. Take part = tham gia."
+    },
+    {
+      "word": "average",
+      "lemma": "average",
+      "ipa": "/ˈævərɪdʒ/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "typical or normal; the middle value of numbers",
+          "meaning_vi": "trung bình; bình thường",
+          "examples": [
+            {
+              "en": "The average salary in Hà Nội is rising.",
+              "vi": "Lương trung bình ở Hà Nội đang tăng."
+            },
+            { "en": "He is just an average student.", "vi": "Cậu ấy chỉ là học sinh bình thường." },
+            {
+              "en": "Above average score will get a scholarship.",
+              "vi": "Điểm trên trung bình sẽ có học bổng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["typical", "ordinary"],
+      "antonyms": ["exceptional"],
+      "collocations": [
+        "above average",
+        "below average",
+        "on average",
+        "average person",
+        "average price"
+      ],
+      "etymology_hint": "From Old French 'avarie' meaning 'damage at sea' — sailors split loss as 'average'.",
+      "mnemonic_vi": "AVERAGE = 'ép-vợ-rít' — 'ép vừa' (giữa). Average student = học sinh trung bình."
+    },
+    {
+      "word": "billion",
+      "lemma": "billion",
+      "ipa": "/ˈbɪliən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the number 1,000,000,000 (one thousand million)",
+          "meaning_vi": "tỷ (1,000,000,000)",
+          "examples": [
+            {
+              "en": "Vietnam has over 100 million people, not a billion.",
+              "vi": "Việt Nam có hơn 100 triệu dân, chưa tới một tỷ."
+            },
+            { "en": "China has 1.4 billion people.", "vi": "Trung Quốc có 1,4 tỷ dân." },
+            { "en": "The company is worth 5 billion dollars.", "vi": "Công ty trị giá 5 tỷ đô." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "one billion",
+        "billion dollars",
+        "billion people",
+        "billions of",
+        "billion-dollar"
+      ],
+      "etymology_hint": "From French 'billion' — = a thousand millions in modern English usage.",
+      "mnemonic_vi": "BILLION = 'biu-lyần' — 'bù lùng' = tỷ. 1 billion = 10^9. Sau million."
+    },
+    {
+      "word": "decimal",
+      "lemma": "decimal",
+      "ipa": "/ˈdesɪml/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a number with a dot, like 1.5 or 3.14",
+          "meaning_vi": "số thập phân (có dấu chấm/phẩy)",
+          "examples": [
+            {
+              "en": "Write the answer as a decimal: 0.5.",
+              "vi": "Viết đáp án dưới dạng thập phân: 0.5."
+            },
+            {
+              "en": "Pi is approximately 3.14 (a decimal).",
+              "vi": "Số pi xấp xỉ 3.14 (thập phân)."
+            },
+            {
+              "en": "In Vietnam, decimals use a comma: 1,5.",
+              "vi": "Ở Việt Nam, thập phân dùng dấu phẩy: 1,5."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "decimal point",
+        "decimal place",
+        "two decimals",
+        "decimal system",
+        "convert to decimal"
+      ],
+      "etymology_hint": "From Latin 'decimus' meaning 'tenth' — based on tens.",
+      "mnemonic_vi": "DECIMAL = 'đệ-si-mồ' — DEC (mười) → hệ 10, số thập phân. 1.5 là decimal."
+    },
+    {
+      "word": "fraction",
+      "lemma": "fraction",
+      "ipa": "/ˈfrækʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small part of something; a number like 1/2 or 3/4",
+          "meaning_vi": "phân số (1/2, 3/4...); một phần nhỏ",
+          "examples": [
+            { "en": "Half is a simple fraction: 1/2.", "vi": "Một nửa là phân số đơn giản: 1/2." },
+            {
+              "en": "Only a fraction of students passed the test.",
+              "vi": "Chỉ một phần nhỏ học sinh đỗ bài thi."
+            },
+            {
+              "en": "She paid a fraction of the original price.",
+              "vi": "Cô ấy chỉ trả một phần nhỏ giá gốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["part", "portion"],
+      "antonyms": ["whole"],
+      "collocations": [
+        "a fraction of",
+        "simple fraction",
+        "small fraction",
+        "tiny fraction",
+        "fraction of a second"
+      ],
+      "etymology_hint": "From Latin 'fractio' meaning 'a breaking', from 'frangere' (to break).",
+      "mnemonic_vi": "FRACTION = 'phrắc-shần' — 'phá' (chia nhỏ). 1/2 là fraction. A fraction = một phần nhỏ."
+    },
+    {
+      "word": "sum",
+      "lemma": "sum",
+      "ipa": "/sʌm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the total when you add numbers together; an amount of money",
+          "meaning_vi": "tổng (cộng); số tiền",
+          "examples": [
+            { "en": "The sum of 5 and 7 is 12.", "vi": "Tổng của 5 và 7 là 12." },
+            {
+              "en": "She inherited a large sum of money.",
+              "vi": "Cô ấy được thừa kế một khoản tiền lớn."
+            },
+            { "en": "In sum, the trip was wonderful.", "vi": "Tóm lại, chuyến đi tuyệt vời." }
+          ]
+        }
+      ],
+      "synonyms": ["total"],
+      "antonyms": [],
+      "collocations": ["sum of", "total sum", "large sum", "in sum", "lump sum"],
+      "etymology_hint": "From Latin 'summa' meaning 'highest, total' — totals were written at the top of columns.",
+      "mnemonic_vi": "SUM = 'sâm' — 'gom sần' = tổng. Sum of money = số tiền. In sum = tóm lại."
+    }
+  ]
+}

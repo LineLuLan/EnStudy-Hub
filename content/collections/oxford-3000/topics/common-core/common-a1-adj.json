@@ -1,0 +1,580 @@
+{
+  "slug": "common-a1-adj",
+  "name": "Common A1 Adjectives",
+  "description": "20 tính từ A1 mô tả trạng thái cơ thể, tình huống và đặc tính phổ biến.",
+  "order_index": 16,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "afraid",
+      "lemma": "afraid",
+      "ipa": "/əˈfreɪd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling fear; worried that something bad may happen",
+          "meaning_vi": "sợ, e ngại",
+          "examples": [
+            { "en": "She is afraid of dogs.", "vi": "Cô ấy sợ chó." },
+            { "en": "I'm afraid I'll be late.", "vi": "Tôi e là tôi sẽ trễ." },
+            { "en": "Don't be afraid to ask questions.", "vi": "Đừng ngại đặt câu hỏi." }
+          ]
+        }
+      ],
+      "synonyms": ["scared", "worried"],
+      "antonyms": ["brave"],
+      "collocations": ["afraid of", "afraid to", "I'm afraid", "very afraid", "afraid that"],
+      "etymology_hint": "From Anglo-French 'afrayer' meaning 'to disturb, frighten'.",
+      "mnemonic_vi": "AFRAID = 'ờ-phrết' — 'ợ phải' (giật mình sợ). Afraid of dogs = sợ chó."
+    },
+    {
+      "word": "alone",
+      "lemma": "alone",
+      "ipa": "/əˈləʊn/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "without anyone else; on your own",
+          "meaning_vi": "một mình, đơn độc",
+          "examples": [
+            {
+              "en": "I went to the café alone today.",
+              "vi": "Hôm nay tôi đi quán cà phê một mình."
+            },
+            { "en": "She lives alone in District 3.", "vi": "Cô ấy sống một mình ở Quận 3." },
+            { "en": "Leave me alone for a minute, please.", "vi": "Để tôi yên một phút thôi." }
+          ]
+        }
+      ],
+      "synonyms": ["by yourself", "solo"],
+      "antonyms": ["together"],
+      "collocations": ["all alone", "live alone", "leave alone", "alone time", "feel alone"],
+      "etymology_hint": "From 'all' + 'one' — meaning 'wholly one'.",
+      "mnemonic_vi": "ALONE = ALL + ONE → 'tất cả một' = một mình. Live alone = sống một mình."
+    },
+    {
+      "word": "busy",
+      "lemma": "busy",
+      "ipa": "/ˈbɪzi/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a lot to do; full of activity",
+          "meaning_vi": "bận, tấp nập",
+          "examples": [
+            {
+              "en": "I'm too busy to chat right now.",
+              "vi": "Tôi đang bận, không nói chuyện được."
+            },
+            {
+              "en": "Hà Nội is very busy during rush hour.",
+              "vi": "Hà Nội rất tấp nập giờ cao điểm."
+            },
+            { "en": "She has a busy schedule this week.", "vi": "Cô ấy có lịch bận tuần này." }
+          ]
+        }
+      ],
+      "synonyms": ["occupied"],
+      "antonyms": ["free"],
+      "collocations": ["busy with", "very busy", "busy day", "busy street", "keep busy"],
+      "etymology_hint": "From Old English 'bisig' — basic adjective for activity level.",
+      "mnemonic_vi": "BUSY = 'bí-zi' — 'bí' (chật) 'zì zì' tay chân. I'm busy = tôi bận."
+    },
+    {
+      "word": "cheap",
+      "lemma": "cheap",
+      "ipa": "/tʃiːp/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not costing a lot of money",
+          "meaning_vi": "rẻ, giá thấp",
+          "examples": [
+            {
+              "en": "Street food in Sài Gòn is delicious and cheap.",
+              "vi": "Đồ ăn vỉa hè Sài Gòn ngon và rẻ."
+            },
+            {
+              "en": "I bought a cheap phone case at the market.",
+              "vi": "Tôi mua ốp điện thoại rẻ ở chợ."
+            },
+            { "en": "It's cheaper to fly than to take the train.", "vi": "Bay rẻ hơn đi tàu hoả." }
+          ]
+        }
+      ],
+      "synonyms": ["inexpensive", "low-cost"],
+      "antonyms": ["expensive"],
+      "collocations": ["cheap price", "cheap food", "very cheap", "cheap as chips", "dirt cheap"],
+      "etymology_hint": "From Old English 'cēap' meaning 'bargain, market'.",
+      "mnemonic_vi": "CHEAP = 'chíp' — 'chếp' (giảm giá). Cheap food = đồ rẻ. Đối với EXPENSIVE."
+    },
+    {
+      "word": "expensive",
+      "lemma": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "costing a lot of money",
+          "meaning_vi": "đắt, mắc",
+          "examples": [
+            { "en": "iPhone is too expensive for me.", "vi": "iPhone quá đắt với tôi." },
+            { "en": "She wore an expensive áo dài.", "vi": "Cô ấy mặc áo dài đắt tiền." },
+            { "en": "Cà phê in District 1 is more expensive.", "vi": "Cà phê ở Quận 1 mắc hơn." }
+          ]
+        }
+      ],
+      "synonyms": ["costly", "pricey"],
+      "antonyms": ["cheap"],
+      "collocations": [
+        "very expensive",
+        "too expensive",
+        "expensive car",
+        "expensive habit",
+        "more expensive"
+      ],
+      "etymology_hint": "From Latin 'expensum' (paid out) + '-ive' — suggesting 'requires spending'.",
+      "mnemonic_vi": "EXPENSIVE = 'ếch-spen-sìv' — EX (ra) + PENS (trả tiền) = trả ra nhiều = đắt."
+    },
+    {
+      "word": "clean",
+      "lemma": "clean",
+      "ipa": "/kliːn/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "free from dirt; not dirty",
+          "meaning_vi": "sạch, sạch sẽ",
+          "examples": [
+            { "en": "Wash your hands until they are clean.", "vi": "Rửa tay cho đến khi sạch." },
+            { "en": "The new café is bright and clean.", "vi": "Quán cà phê mới sáng và sạch." },
+            { "en": "She likes a clean kitchen.", "vi": "Cô ấy thích bếp sạch." }
+          ]
+        }
+      ],
+      "synonyms": ["spotless"],
+      "antonyms": ["dirty"],
+      "collocations": [
+        "clean clothes",
+        "clean water",
+        "clean room",
+        "spotlessly clean",
+        "clean up"
+      ],
+      "etymology_hint": "From Old English 'clǣne' — basic hygiene adjective.",
+      "mnemonic_vi": "CLEAN = 'klin' — 'kín' (sạch sẽ). Clean water = nước sạch. Đối với DIRTY."
+    },
+    {
+      "word": "dirty",
+      "lemma": "dirty",
+      "ipa": "/ˈdɜːti/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not clean; covered with dirt",
+          "meaning_vi": "bẩn, dơ",
+          "examples": [
+            {
+              "en": "Your shoes are very dirty after the rain.",
+              "vi": "Đôi giày bạn bẩn lắm sau cơn mưa."
+            },
+            { "en": "The river is dirty from plastic waste.", "vi": "Con sông bẩn vì rác nhựa." },
+            { "en": "I need to wash my dirty clothes.", "vi": "Tôi cần giặt mớ đồ bẩn." }
+          ]
+        }
+      ],
+      "synonyms": ["filthy", "messy"],
+      "antonyms": ["clean"],
+      "collocations": ["dirty clothes", "dirty water", "dirty hands", "very dirty", "dirty work"],
+      "etymology_hint": "From 'dirt' (Old Norse 'drit' = excrement) + '-y'.",
+      "mnemonic_vi": "DIRTY = 'đợt-ti' — 'đợ tí' (lấm bẩn). Dirty hands = tay bẩn. Đối với CLEAN."
+    },
+    {
+      "word": "full",
+      "lemma": "full",
+      "ipa": "/fʊl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having no empty space; containing as much as possible",
+          "meaning_vi": "đầy, no",
+          "examples": [
+            {
+              "en": "The bus is full — let's wait for the next one.",
+              "vi": "Xe buýt đầy rồi — đợi chuyến sau đi."
+            },
+            { "en": "I'm full after eating two bowls of phở.", "vi": "Tôi no rồi sau hai tô phở." },
+            { "en": "Her glass is full of nước mía.", "vi": "Cốc của cô ấy đầy nước mía." }
+          ]
+        }
+      ],
+      "synonyms": ["packed"],
+      "antonyms": ["empty"],
+      "collocations": ["full of", "full up", "full moon", "full time", "in full"],
+      "etymology_hint": "From Old English 'full' — basic capacity adjective.",
+      "mnemonic_vi": "FULL = 'phun' — 'phun' đầy. I'm full = tôi no, full moon = trăng tròn."
+    },
+    {
+      "word": "empty",
+      "lemma": "empty",
+      "ipa": "/ˈempti/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having nothing inside",
+          "meaning_vi": "trống, rỗng",
+          "examples": [
+            {
+              "en": "The fridge is empty — let's go shopping.",
+              "vi": "Tủ lạnh trống rỗng — đi chợ đi."
+            },
+            { "en": "The café is empty at 3am.", "vi": "Quán cà phê vắng tanh lúc 3 giờ sáng." },
+            {
+              "en": "She felt empty after he left.",
+              "vi": "Cô ấy cảm thấy trống rỗng sau khi anh ấy đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vacant"],
+      "antonyms": ["full"],
+      "collocations": [
+        "empty space",
+        "empty room",
+        "empty stomach",
+        "completely empty",
+        "empty seat"
+      ],
+      "etymology_hint": "From Old English 'ǣmtig' meaning 'at leisure, unoccupied'.",
+      "mnemonic_vi": "EMPTY = 'em-ti' — 'em ti hí' (rỗng). Empty room = phòng trống."
+    },
+    {
+      "word": "hungry",
+      "lemma": "hungry",
+      "ipa": "/ˈhʌŋɡri/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "wanting food; needing to eat",
+          "meaning_vi": "đói",
+          "examples": [
+            { "en": "I'm hungry — let's go eat phở.", "vi": "Tôi đói — đi ăn phở đi." },
+            { "en": "Babies cry when they are hungry.", "vi": "Em bé khóc khi đói." },
+            { "en": "She works hard when she's hungry.", "vi": "Cô ấy làm việc chăm hơn khi đói." }
+          ]
+        }
+      ],
+      "synonyms": ["starving"],
+      "antonyms": ["full"],
+      "collocations": ["very hungry", "feel hungry", "go hungry", "hungry for", "hungry stomach"],
+      "etymology_hint": "From Old English 'hungrig' — 'hunger' + '-y'.",
+      "mnemonic_vi": "HUNGRY = 'hân-gri' — 'hông gì' (chưa ăn). I'm hungry = tôi đói."
+    },
+    {
+      "word": "thirsty",
+      "lemma": "thirsty",
+      "ipa": "/ˈθɜːsti/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "wanting to drink; needing water",
+          "meaning_vi": "khát (nước)",
+          "examples": [
+            {
+              "en": "I'm so thirsty — I need a glass of water.",
+              "vi": "Tôi khát quá — cần ly nước."
+            },
+            {
+              "en": "Drinking nước mía when you're thirsty is great.",
+              "vi": "Uống nước mía khi khát thì tuyệt."
+            },
+            {
+              "en": "She gets thirsty during her morning run.",
+              "vi": "Cô ấy khát nước khi chạy buổi sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "very thirsty",
+        "get thirsty",
+        "feel thirsty",
+        "thirsty for",
+        "thirsty work"
+      ],
+      "etymology_hint": "From 'thirst' (Old English 'þurst') + '-y'.",
+      "mnemonic_vi": "THIRSTY = 'thớt-ti' — 'thớ' (lưỡi khô) 'tí' = khát. Drink when thirsty = uống khi khát."
+    },
+    {
+      "word": "ready",
+      "lemma": "ready",
+      "ipa": "/ˈredi/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "fully prepared for something",
+          "meaning_vi": "sẵn sàng, đã chuẩn bị xong",
+          "examples": [
+            { "en": "Are you ready to leave?", "vi": "Bạn sẵn sàng đi chưa?" },
+            { "en": "Dinner is ready!", "vi": "Bữa tối sẵn rồi!" },
+            { "en": "She's ready for the IELTS test.", "vi": "Cô ấy đã sẵn sàng cho kỳ thi IELTS." }
+          ]
+        }
+      ],
+      "synonyms": ["prepared"],
+      "antonyms": ["unprepared"],
+      "collocations": ["ready to", "ready for", "get ready", "ready or not", "ready and waiting"],
+      "etymology_hint": "From Old English 'ġerǣde' meaning 'arranged, prepared'.",
+      "mnemonic_vi": "READY = 'rể-đi' — 'rủ đi' khi đã sẵn sàng. Are you ready? = bạn sẵn sàng chưa?"
+    },
+    {
+      "word": "lucky",
+      "lemma": "lucky",
+      "ipa": "/ˈlʌki/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having good things happen by chance",
+          "meaning_vi": "may mắn",
+          "examples": [
+            { "en": "You're lucky to live in Đà Lạt.", "vi": "Bạn may mắn được sống ở Đà Lạt." },
+            { "en": "Wear red for lucky at Tết.", "vi": "Mặc đỏ để may mắn dịp Tết." },
+            {
+              "en": "She felt lucky to find her wallet.",
+              "vi": "Cô ấy thấy may mắn vì tìm lại được ví."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fortunate"],
+      "antonyms": ["unlucky"],
+      "collocations": ["very lucky", "lucky day", "lucky number", "lucky charm", "feel lucky"],
+      "etymology_hint": "From 'luck' (Middle English) + '-y' — origin uncertain.",
+      "mnemonic_vi": "LUCKY = 'lăc-ki' — 'lắc' may mắn. Lucky number = số may, lucky money = lì xì."
+    },
+    {
+      "word": "rich",
+      "lemma": "rich",
+      "ipa": "/rɪtʃ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a lot of money or things",
+          "meaning_vi": "giàu, có tiền",
+          "examples": [
+            { "en": "He became rich from his startup.", "vi": "Anh ấy giàu lên nhờ startup." },
+            {
+              "en": "Vietnam is rich in culture and history.",
+              "vi": "Việt Nam giàu về văn hoá và lịch sử."
+            },
+            { "en": "Bún bò Huế has a rich flavor.", "vi": "Bún bò Huế có hương vị đậm đà." }
+          ]
+        }
+      ],
+      "synonyms": ["wealthy"],
+      "antonyms": ["poor"],
+      "collocations": ["rich man", "rich and famous", "rich in", "filthy rich", "rich taste"],
+      "etymology_hint": "From Old English 'rīce' meaning 'powerful, mighty'.",
+      "mnemonic_vi": "RICH = 'rít-ch' — 'rít chặt' tiền. Đối với POOR. Cũng nghĩa 'đậm đà' (rich flavor)."
+    },
+    {
+      "word": "poor",
+      "lemma": "poor",
+      "ipa": "/pɔː(r)/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having very little money; bad in quality",
+          "meaning_vi": "nghèo; kém",
+          "examples": [
+            {
+              "en": "She grew up in a poor family in Quảng Trị.",
+              "vi": "Cô ấy lớn lên trong một gia đình nghèo ở Quảng Trị."
+            },
+            { "en": "The Wi-Fi signal is poor here.", "vi": "Tín hiệu Wi-Fi ở đây kém." },
+            { "en": "Poor you — that exam was tough!", "vi": "Tội bạn — bài thi đó khó!" }
+          ]
+        }
+      ],
+      "synonyms": ["broke"],
+      "antonyms": ["rich"],
+      "collocations": ["poor people", "poor quality", "poor health", "the poor", "poor thing"],
+      "etymology_hint": "From Old French 'povre' — from Latin 'pauper' meaning 'destitute'.",
+      "mnemonic_vi": "POOR = 'pô' — 'pồ' (thiếu). Đối với RICH. Poor people = người nghèo, poor quality = kém chất lượng."
+    },
+    {
+      "word": "available",
+      "lemma": "available",
+      "ipa": "/əˈveɪləbl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "able to be used or bought; free to meet",
+          "meaning_vi": "có sẵn, có thể dùng; rảnh để gặp",
+          "examples": [
+            {
+              "en": "Free Wi-Fi is available at this café.",
+              "vi": "Wi-Fi miễn phí có sẵn ở quán này."
+            },
+            { "en": "Are you available tomorrow afternoon?", "vi": "Bạn rảnh chiều mai không?" },
+            {
+              "en": "This dress is available in three colors.",
+              "vi": "Cái váy này có ba màu để chọn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accessible", "free"],
+      "antonyms": ["unavailable"],
+      "collocations": [
+        "available now",
+        "available online",
+        "readily available",
+        "be available",
+        "available time"
+      ],
+      "etymology_hint": "From 'avail' (Old French 'avaler' = of value) + '-able'.",
+      "mnemonic_vi": "AVAILABLE = AVAIL (có lợi) + ABLE → có thể dùng. Tools are available = công cụ có sẵn."
+    },
+    {
+      "word": "safe",
+      "lemma": "safe",
+      "ipa": "/seɪf/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not dangerous; protected from harm",
+          "meaning_vi": "an toàn",
+          "examples": [
+            {
+              "en": "Vietnam is generally safe for tourists.",
+              "vi": "Việt Nam nói chung an toàn cho du khách."
+            },
+            { "en": "Drive safe!", "vi": "Lái xe an toàn nhé!" },
+            { "en": "Keep your passport in a safe place.", "vi": "Cất hộ chiếu ở nơi an toàn." }
+          ]
+        }
+      ],
+      "synonyms": ["secure"],
+      "antonyms": ["dangerous"],
+      "collocations": ["safe place", "stay safe", "safe and sound", "safe driver", "feel safe"],
+      "etymology_hint": "From Latin 'salvus' meaning 'uninjured, whole'.",
+      "mnemonic_vi": "SAFE = 'sệp' — 'sạnh' (yên ổn). Stay safe = giữ an toàn."
+    },
+    {
+      "word": "dangerous",
+      "lemma": "dangerous",
+      "ipa": "/ˈdeɪndʒərəs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "likely to cause harm; not safe",
+          "meaning_vi": "nguy hiểm",
+          "examples": [
+            {
+              "en": "Riding without a helmet is dangerous.",
+              "vi": "Đi xe không đội mũ rất nguy hiểm."
+            },
+            {
+              "en": "Some chemicals are dangerous to touch.",
+              "vi": "Một số hoá chất nguy hiểm khi chạm vào."
+            },
+            {
+              "en": "Hà Nội traffic can be dangerous.",
+              "vi": "Giao thông Hà Nội có thể nguy hiểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["risky", "unsafe"],
+      "antonyms": ["safe"],
+      "collocations": [
+        "dangerous game",
+        "dangerous animal",
+        "very dangerous",
+        "dangerous driver",
+        "potentially dangerous"
+      ],
+      "etymology_hint": "From Old French 'dangier' meaning 'power, control' → 'risk of being under power'.",
+      "mnemonic_vi": "DANGEROUS = DANGER + OUS → 'đầy nguy hiểm'. Đối với SAFE."
+    },
+    {
+      "word": "soft",
+      "lemma": "soft",
+      "ipa": "/sɒft/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not hard; pleasant to touch; gentle",
+          "meaning_vi": "mềm; dịu",
+          "examples": [
+            { "en": "The pillow is so soft.", "vi": "Cái gối này mềm quá." },
+            { "en": "She has soft hands.", "vi": "Cô ấy có đôi bàn tay mềm mại." },
+            {
+              "en": "Please speak in a soft voice — baby is sleeping.",
+              "vi": "Vui lòng nói nhỏ — em bé đang ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["smooth", "gentle"],
+      "antonyms": ["hard"],
+      "collocations": ["soft skin", "soft voice", "soft music", "soft drink", "very soft"],
+      "etymology_hint": "From Old English 'sōfte' meaning 'gentle, mild'.",
+      "mnemonic_vi": "SOFT = 'sốp-t' — 'sốp' (mềm). Soft pillow = gối mềm, soft drink = nước ngọt (không cồn)."
+    },
+    {
+      "word": "comfortable",
+      "lemma": "comfortable",
+      "ipa": "/ˈkʌmftəbl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "making you feel relaxed and pleasant; easy to wear or use",
+          "meaning_vi": "thoải mái, dễ chịu",
+          "examples": [
+            { "en": "This chair is very comfortable.", "vi": "Cái ghế này rất thoải mái." },
+            {
+              "en": "I'm comfortable speaking English now.",
+              "vi": "Giờ tôi thoải mái khi nói tiếng Anh."
+            },
+            { "en": "Wear comfortable shoes for walking.", "vi": "Mang giày thoải mái để đi bộ." }
+          ]
+        }
+      ],
+      "synonyms": ["cozy", "relaxed"],
+      "antonyms": ["uncomfortable"],
+      "collocations": [
+        "feel comfortable",
+        "comfortable chair",
+        "comfortable life",
+        "very comfortable",
+        "make yourself comfortable"
+      ],
+      "etymology_hint": "From 'comfort' (Latin 'confortare' = to strengthen) + '-able'.",
+      "mnemonic_vi": "COMFORTABLE = COMFORT + ABLE → 'có thể thoải mái'. Comfortable chair = ghế êm."
+    }
+  ]
+}

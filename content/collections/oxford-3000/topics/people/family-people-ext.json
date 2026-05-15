@@ -1,0 +1,676 @@
+{
+  "slug": "family-people-ext",
+  "name": "People & Society (Extended)",
+  "description": "Từ chỉ người và nhóm người trong xã hội — bổ sung cho family và life-stages.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "person",
+      "lemma": "person",
+      "ipa": "/ˈpɜːsn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a human being, one individual",
+          "meaning_vi": "người, cá nhân",
+          "examples": [
+            { "en": "She is a very kind person.", "vi": "Cô ấy là một người rất tốt bụng." },
+            { "en": "Each person gets one ticket.", "vi": "Mỗi người được một vé." },
+            { "en": "I'd like to meet him in person.", "vi": "Tôi muốn gặp anh ấy trực tiếp." }
+          ]
+        }
+      ],
+      "synonyms": ["individual", "human"],
+      "antonyms": [],
+      "collocations": ["kind person", "young person", "in person", "every person", "old person"],
+      "etymology_hint": "From Latin 'persona' meaning 'mask, character' — originally a theatre mask.",
+      "mnemonic_vi": "PERSON = 'pơ-sần' — 'pờ' (một) 'sần' (cá thể). Plural: people."
+    },
+    {
+      "word": "people",
+      "lemma": "people",
+      "ipa": "/ˈpiːpl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "more than one person; humans",
+          "meaning_vi": "mọi người, người ta (số nhiều của person)",
+          "examples": [
+            {
+              "en": "Many people visit Hội An every year.",
+              "vi": "Nhiều người ghé Hội An mỗi năm."
+            },
+            { "en": "Vietnamese people love phở.", "vi": "Người Việt Nam yêu phở." },
+            { "en": "What do people in your country eat?", "vi": "Người ở nước bạn ăn gì?" }
+          ]
+        }
+      ],
+      "synonyms": ["folks"],
+      "antonyms": [],
+      "collocations": [
+        "many people",
+        "young people",
+        "old people",
+        "people say",
+        "ordinary people"
+      ],
+      "etymology_hint": "From Latin 'populus' meaning 'people, populace'.",
+      "mnemonic_vi": "PEOPLE = 'pi-pồ' — 'pi pồ' (đám đông). Plural của person. People say = người ta nói."
+    },
+    {
+      "word": "kid",
+      "lemma": "kid",
+      "ipa": "/kɪd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a child (informal); a young goat",
+          "meaning_vi": "đứa trẻ (thân mật); dê con",
+          "examples": [
+            { "en": "How many kids do you have?", "vi": "Bạn có mấy đứa con?" },
+            { "en": "The kids are playing in the park.", "vi": "Bọn trẻ đang chơi ở công viên." },
+            { "en": "I'm just a kid at heart.", "vi": "Trong lòng tôi vẫn là một đứa trẻ." }
+          ]
+        }
+      ],
+      "synonyms": ["child"],
+      "antonyms": ["adult"],
+      "collocations": ["my kids", "school kids", "little kid", "kid brother", "kids' menu"],
+      "etymology_hint": "Originally meant 'young goat' — extended informally to 'child' in 16th century.",
+      "mnemonic_vi": "KID = 'kít' — 'kít' (nhóc tì). Kids = bọn nhóc. Thân mật hơn 'child'."
+    },
+    {
+      "word": "friend",
+      "lemma": "friend",
+      "ipa": "/frend/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person you know well and like",
+          "meaning_vi": "bạn, bạn bè",
+          "examples": [
+            {
+              "en": "She's my best friend since high school.",
+              "vi": "Cô ấy là bạn thân nhất từ thời cấp 3."
+            },
+            { "en": "Let's get together with friends.", "vi": "Gặp gỡ bạn bè đi." },
+            { "en": "He has many friends at work.", "vi": "Anh ấy có nhiều bạn ở chỗ làm." }
+          ]
+        }
+      ],
+      "synonyms": ["pal", "buddy"],
+      "antonyms": ["enemy"],
+      "collocations": [
+        "best friend",
+        "close friend",
+        "make friends",
+        "friend of mine",
+        "old friend"
+      ],
+      "etymology_hint": "From Old English 'frēond' — meaning 'one who loves, kinsman'.",
+      "mnemonic_vi": "FRIEND = 'phren-d' — 'phẳng' (chân) 'rền' (tin cậy). Best friend = bạn thân nhất."
+    },
+    {
+      "word": "neighbor",
+      "lemma": "neighbor",
+      "ipa": "/ˈneɪbə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person who lives near you",
+          "meaning_vi": "hàng xóm, người láng giềng",
+          "examples": [
+            { "en": "Our neighbor is very friendly.", "vi": "Hàng xóm chúng tôi rất thân thiện." },
+            { "en": "She borrowed sugar from a neighbor.", "vi": "Cô ấy mượn đường từ hàng xóm." },
+            {
+              "en": "Vietnam and Cambodia are neighbors.",
+              "vi": "Việt Nam và Campuchia là nước láng giềng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "next-door neighbor",
+        "good neighbor",
+        "neighbor country",
+        "neighbor's house",
+        "noisy neighbor"
+      ],
+      "etymology_hint": "From Old English 'nēahgebūr' = 'near-dweller'. UK spelling: 'neighbour'.",
+      "mnemonic_vi": "NEIGHBOR = 'nay-bờ' — 'nay bờ' (kề bờ rào). Next-door neighbor = hàng xóm sát vách."
+    },
+    {
+      "word": "twin",
+      "lemma": "twin",
+      "ipa": "/twɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of two children born at the same time to the same mother",
+          "meaning_vi": "anh/chị/em sinh đôi",
+          "examples": [
+            { "en": "She has twin sisters.", "vi": "Cô ấy có hai chị em sinh đôi." },
+            { "en": "The twins look exactly alike.", "vi": "Hai chị em sinh đôi giống y hệt." },
+            {
+              "en": "Identical twins share the same DNA.",
+              "vi": "Sinh đôi cùng trứng có DNA giống nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["twin brother", "twin sister", "identical twins", "twin beds", "twin city"],
+      "etymology_hint": "From Old English 'twinn' — related to 'two'.",
+      "mnemonic_vi": "TWIN = 'tuyn' — 'tuýn' (hai). TW từ TWO. Twins = sinh đôi."
+    },
+    {
+      "word": "guest",
+      "lemma": "guest",
+      "ipa": "/ɡest/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person you invite to your home or event",
+          "meaning_vi": "khách (mời), khách mời",
+          "examples": [
+            {
+              "en": "We had 200 guests at our wedding.",
+              "vi": "Chúng tôi có 200 khách ở đám cưới."
+            },
+            { "en": "Treat your guests well.", "vi": "Đối xử tốt với khách." },
+            {
+              "en": "She is a guest speaker at the conference.",
+              "vi": "Cô ấy là khách mời phát biểu tại hội nghị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["visitor"],
+      "antonyms": ["host"],
+      "collocations": [
+        "wedding guest",
+        "guest list",
+        "special guest",
+        "guest of honor",
+        "invite as a guest"
+      ],
+      "etymology_hint": "From Old Norse 'gestr' meaning 'guest, stranger'.",
+      "mnemonic_vi": "GUEST = 'ghét-st' — 'gặp' (đến chơi). Khách mời. Đối với HOST."
+    },
+    {
+      "word": "stranger",
+      "lemma": "stranger",
+      "ipa": "/ˈstreɪndʒə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person you do not know",
+          "meaning_vi": "người lạ",
+          "examples": [
+            {
+              "en": "Don't talk to strangers, my parents told me.",
+              "vi": "Đừng nói chuyện với người lạ, bố mẹ tôi dặn vậy."
+            },
+            { "en": "A stranger helped me find my way.", "vi": "Một người lạ giúp tôi tìm đường." },
+            {
+              "en": "She felt like a stranger in the new city.",
+              "vi": "Cô ấy thấy như người xa lạ ở thành phố mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["friend"],
+      "collocations": [
+        "talk to strangers",
+        "complete stranger",
+        "perfect stranger",
+        "kind stranger",
+        "stranger to"
+      ],
+      "etymology_hint": "From Old French 'estrangier' — from Latin 'extraneus' (foreign).",
+      "mnemonic_vi": "STRANGER = STRANGE (lạ) + R (người) → 'người lạ'. Stranger danger = đề phòng người lạ."
+    },
+    {
+      "word": "group",
+      "lemma": "group",
+      "ipa": "/ɡruːp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a number of people or things together",
+          "meaning_vi": "nhóm, tổ",
+          "examples": [
+            {
+              "en": "A group of tourists visited the temple.",
+              "vi": "Một nhóm du khách thăm chùa."
+            },
+            {
+              "en": "We work in small groups at school.",
+              "vi": "Chúng tôi làm việc nhóm nhỏ ở trường."
+            },
+            {
+              "en": "Join our Zalo group for updates.",
+              "vi": "Tham gia nhóm Zalo của chúng tôi để cập nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["team", "crowd"],
+      "antonyms": ["individual"],
+      "collocations": [
+        "small group",
+        "large group",
+        "group of friends",
+        "group chat",
+        "form a group"
+      ],
+      "etymology_hint": "From Italian 'gruppo' — meaning 'cluster, knot'.",
+      "mnemonic_vi": "GROUP = 'grúp' — 'grồm' (gom) lại. Group of friends = nhóm bạn."
+    },
+    {
+      "word": "member",
+      "lemma": "member",
+      "ipa": "/ˈmembə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person belonging to a group, team, or club",
+          "meaning_vi": "thành viên",
+          "examples": [
+            {
+              "en": "She is a member of the running club.",
+              "vi": "Cô ấy là thành viên câu lạc bộ chạy bộ."
+            },
+            {
+              "en": "All family members will come for Tết.",
+              "vi": "Tất cả thành viên gia đình sẽ về Tết."
+            },
+            { "en": "Members get a 10% discount.", "vi": "Thành viên được giảm 10%." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["member of", "family member", "team member", "new member", "active member"],
+      "etymology_hint": "From Latin 'membrum' meaning 'limb, part of body' → 'part of a group'.",
+      "mnemonic_vi": "MEMBER = 'mem-bờ' — 'mem' (gắn vô). Family member = thành viên gia đình."
+    },
+    {
+      "word": "individual",
+      "lemma": "individual",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one single person, especially considered separately",
+          "meaning_vi": "cá nhân (một người riêng lẻ)",
+          "examples": [
+            {
+              "en": "Each individual has different talents.",
+              "vi": "Mỗi cá nhân có tài năng khác nhau."
+            },
+            {
+              "en": "She's a very creative individual.",
+              "vi": "Cô ấy là một cá nhân rất sáng tạo."
+            },
+            {
+              "en": "Privacy is important for every individual.",
+              "vi": "Quyền riêng tư quan trọng với mỗi cá nhân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["person"],
+      "antonyms": ["group"],
+      "collocations": [
+        "each individual",
+        "talented individual",
+        "individual rights",
+        "private individual",
+        "an individual"
+      ],
+      "etymology_hint": "From Latin 'individuus' meaning 'indivisible, single'.",
+      "mnemonic_vi": "INDIVIDUAL = IN (không) + DIVIDUAL (chia) → không thể chia = một cá thể."
+    },
+    {
+      "word": "classmate",
+      "lemma": "classmate",
+      "ipa": "/ˈklɑːsmeɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person in the same class as you at school",
+          "meaning_vi": "bạn cùng lớp",
+          "examples": [
+            {
+              "en": "She still talks to her old classmates.",
+              "vi": "Cô ấy vẫn nói chuyện với bạn cùng lớp cũ."
+            },
+            {
+              "en": "My classmate helped me with the math homework.",
+              "vi": "Bạn cùng lớp giúp tôi làm bài tập toán."
+            },
+            { "en": "All classmates went out after the exam.", "vi": "Cả lớp đi chơi sau bài thi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "former classmate",
+        "old classmate",
+        "all classmates",
+        "fellow classmate",
+        "classmate from"
+      ],
+      "etymology_hint": "Compound 'class' + 'mate' — partner in the same class.",
+      "mnemonic_vi": "CLASSMATE = CLASS + MATE → 'bạn cùng lớp'. Former classmate = bạn cùng lớp cũ."
+    },
+    {
+      "word": "colleague",
+      "lemma": "colleague",
+      "ipa": "/ˈkɒliːɡ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person you work with",
+          "meaning_vi": "đồng nghiệp",
+          "examples": [
+            {
+              "en": "My colleagues at FPT are very supportive.",
+              "vi": "Đồng nghiệp ở FPT của tôi rất hỗ trợ."
+            },
+            {
+              "en": "We had lunch with colleagues at Phở 10.",
+              "vi": "Chúng tôi ăn trưa với đồng nghiệp ở Phở 10."
+            },
+            {
+              "en": "She got the job thanks to a colleague's referral.",
+              "vi": "Cô ấy nhận việc nhờ đồng nghiệp giới thiệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coworker"],
+      "antonyms": [],
+      "collocations": [
+        "former colleague",
+        "close colleague",
+        "fellow colleague",
+        "work colleague",
+        "senior colleague"
+      ],
+      "etymology_hint": "From Latin 'collega' = 'col-' (with) + 'legare' (assign) → 'one assigned with'.",
+      "mnemonic_vi": "COLLEAGUE = 'cô-líg' — 'cô liền' (cùng văn phòng). Work colleague = đồng nghiệp."
+    },
+    {
+      "word": "host",
+      "lemma": "host",
+      "ipa": "/həʊst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who invites guests; a person who runs a show or party",
+          "meaning_vi": "chủ nhà, người đón khách; người dẫn chương trình",
+          "examples": [
+            {
+              "en": "Our Airbnb host gave us a city map.",
+              "vi": "Chủ nhà Airbnb đưa chúng tôi bản đồ thành phố."
+            },
+            {
+              "en": "She is the host of a TV cooking show.",
+              "vi": "Cô ấy là MC chương trình nấu ăn TV."
+            },
+            { "en": "Be a polite host to your guests.", "vi": "Hãy là chủ nhà lịch sự với khách." }
+          ]
+        }
+      ],
+      "synonyms": ["MC", "presenter"],
+      "antonyms": ["guest"],
+      "collocations": ["TV host", "show host", "perfect host", "host a party", "host country"],
+      "etymology_hint": "From Latin 'hospes' meaning 'host, guest' — originally the same word.",
+      "mnemonic_vi": "HOST = 'hâu-st' — 'hôm sờ' (đón). Host a party = tổ chức tiệc. Đối với GUEST."
+    },
+    {
+      "word": "leader",
+      "lemma": "leader",
+      "ipa": "/ˈliːdə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who leads a group, team, or country",
+          "meaning_vi": "người lãnh đạo, thủ lĩnh",
+          "examples": [
+            {
+              "en": "Hồ Chí Minh was a great leader.",
+              "vi": "Hồ Chí Minh là một nhà lãnh đạo vĩ đại."
+            },
+            {
+              "en": "She is the team leader at our office.",
+              "vi": "Cô ấy là trưởng nhóm ở văn phòng tôi."
+            },
+            {
+              "en": "World leaders met at the summit.",
+              "vi": "Các nhà lãnh đạo thế giới gặp ở hội nghị thượng đỉnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chief", "boss"],
+      "antonyms": ["follower"],
+      "collocations": [
+        "team leader",
+        "world leader",
+        "natural leader",
+        "strong leader",
+        "leader of"
+      ],
+      "etymology_hint": "From 'lead' (Old English 'lǣdan' = to guide) + '-er'.",
+      "mnemonic_vi": "LEADER = LEAD (dẫn) + ER (người) → người lãnh đạo. Team leader = trưởng nhóm."
+    },
+    {
+      "word": "public",
+      "lemma": "public",
+      "ipa": "/ˈpʌblɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "all people of a country or community; not private",
+          "meaning_vi": "công chúng, dân chúng; công cộng",
+          "examples": [
+            {
+              "en": "The new park is open to the public.",
+              "vi": "Công viên mới mở cho công chúng."
+            },
+            {
+              "en": "The public reacted strongly to the news.",
+              "vi": "Dân chúng phản ứng mạnh trước tin tức."
+            },
+            {
+              "en": "Public transport in Hà Nội is improving.",
+              "vi": "Giao thông công cộng ở Hà Nội đang cải thiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["private"],
+      "collocations": [
+        "general public",
+        "the public",
+        "in public",
+        "public transport",
+        "public opinion"
+      ],
+      "etymology_hint": "From Latin 'publicus' meaning 'of the people'.",
+      "mnemonic_vi": "PUBLIC = 'pâ-blic' — 'pờ-bích' (chung). Public transport = giao thông công cộng."
+    },
+    {
+      "word": "audience",
+      "lemma": "audience",
+      "ipa": "/ˈɔːdiəns/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "people who watch or listen to a show, talk, or performance",
+          "meaning_vi": "khán giả, thính giả",
+          "examples": [
+            {
+              "en": "The audience clapped loudly after her song.",
+              "vi": "Khán giả vỗ tay lớn sau bài hát của cô ấy."
+            },
+            {
+              "en": "Most of the audience was young people.",
+              "vi": "Hầu hết khán giả là người trẻ."
+            },
+            {
+              "en": "The film attracted a large audience.",
+              "vi": "Bộ phim thu hút lượng khán giả lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["viewers", "listeners"],
+      "antonyms": ["performer"],
+      "collocations": [
+        "large audience",
+        "target audience",
+        "live audience",
+        "audience reaction",
+        "in the audience"
+      ],
+      "etymology_hint": "From Latin 'audire' meaning 'to hear'.",
+      "mnemonic_vi": "AUDIENCE = 'ô-đi-ần' — 'ố' nghe. Large audience = khán giả đông."
+    },
+    {
+      "word": "crowd",
+      "lemma": "crowd",
+      "ipa": "/kraʊd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large number of people gathered in one place",
+          "meaning_vi": "đám đông",
+          "examples": [
+            {
+              "en": "A huge crowd gathered at Hồ Hoàn Kiếm for Tết countdown.",
+              "vi": "Đám đông lớn tụ tập ở Hồ Hoàn Kiếm đón giao thừa."
+            },
+            { "en": "He doesn't like crowds.", "vi": "Anh ấy không thích chỗ đông người." },
+            {
+              "en": "The concert drew a record crowd.",
+              "vi": "Buổi hoà nhạc thu hút lượng khán giả kỷ lục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mass", "throng"],
+      "antonyms": [],
+      "collocations": [
+        "large crowd",
+        "huge crowd",
+        "crowd of people",
+        "in the crowd",
+        "draw a crowd"
+      ],
+      "etymology_hint": "From Old English 'crūdan' meaning 'to press, push'.",
+      "mnemonic_vi": "CROWD = 'krao-d' — 'kray' (kẹt cứng). Huge crowd = đám đông lớn."
+    },
+    {
+      "word": "community",
+      "lemma": "community",
+      "ipa": "/kəˈmjuːnəti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a group of people living in the same area or with shared interests",
+          "meaning_vi": "cộng đồng",
+          "examples": [
+            {
+              "en": "The Vietnamese community in California is large.",
+              "vi": "Cộng đồng người Việt ở California rất lớn."
+            },
+            {
+              "en": "She volunteers in the local community.",
+              "vi": "Cô ấy tình nguyện cho cộng đồng địa phương."
+            },
+            {
+              "en": "Online communities help people connect.",
+              "vi": "Cộng đồng online giúp mọi người kết nối."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "local community",
+        "online community",
+        "Vietnamese community",
+        "community center",
+        "build a community"
+      ],
+      "etymology_hint": "From Latin 'communitas' meaning 'fellowship, sharing'.",
+      "mnemonic_vi": "COMMUNITY = COMMUN (chung) + ITY → cộng đồng. Local community = cộng đồng địa phương."
+    },
+    {
+      "word": "society",
+      "lemma": "society",
+      "ipa": "/səˈsaɪəti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "all people in a country or area as a whole; an organization",
+          "meaning_vi": "xã hội (toàn thể); hội đoàn",
+          "examples": [
+            { "en": "Vietnamese society values family.", "vi": "Xã hội Việt coi trọng gia đình." },
+            {
+              "en": "We need a society that respects all citizens.",
+              "vi": "Chúng ta cần một xã hội tôn trọng mọi công dân."
+            },
+            {
+              "en": "She joined the photography society at school.",
+              "vi": "Cô ấy tham gia hội nhiếp ảnh ở trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["civilization", "community"],
+      "antonyms": [],
+      "collocations": [
+        "modern society",
+        "Vietnamese society",
+        "in society",
+        "society as a whole",
+        "society of"
+      ],
+      "etymology_hint": "From Latin 'societas' meaning 'fellowship, association'.",
+      "mnemonic_vi": "SOCIETY = 'sờ-sai-ờ-ti' — 'sỡ' (chung) sống. Modern society = xã hội hiện đại."
+    }
+  ]
+}
