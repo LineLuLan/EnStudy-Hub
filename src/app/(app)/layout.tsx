@@ -1,5 +1,9 @@
+import { eq } from 'drizzle-orm';
 import { Sidebar } from '@/components/layout/sidebar';
 import { Topbar } from '@/components/layout/topbar';
+import { TourModal } from '@/features/onboarding/tour-modal';
+import { db } from '@/lib/db/client';
+import { profiles } from '@/lib/db/schema';
 import { createSupabaseServerClient } from '@/lib/supabase/server';
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
@@ -10,6 +14,19 @@ export default async function AppLayout({ children }: { children: React.ReactNod
     data: { session },
   } = await supabase.auth.getSession();
   const userEmail = session?.user.email ?? null;
+  const userId = session?.user.id ?? null;
+
+  // Show first-login tour iff `profiles.onboarded_at IS NULL`. Single column
+  // boolean check — cheaper than parsing createdAt + window math, and survives
+  // the user closing+reopening browser before completing the tour.
+  let shouldShowTour = false;
+  if (userId) {
+    const profile = await db.query.profiles.findFirst({
+      where: eq(profiles.id, userId),
+      columns: { onboardedAt: true },
+    });
+    shouldShowTour = profile?.onboardedAt === null;
+  }
 
   return (
     <div className="flex min-h-screen">
@@ -26,6 +43,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           {children}
         </main>
       </div>
+      {shouldShowTour && <TourModal />}
     </div>
   );
 }
