@@ -74,6 +74,7 @@
   - Empty states: 3 routes có empty UI với icon + heading + sub
   - Skeleton: `ui/skeleton.tsx` + 4 loading.tsx files (top-level + 3 segments)
 - [x] **P1 batch DONE** (2026-05-15, 7 lesson / 140 cards + 2 topic meta): `daily-life/clothes-appearance` (20), `daily-life/body-health` (20), `daily-life/daily-routine` (20), `people/personality` (20), `people/emotions` (20), `time-numbers/time-dates` (20), `time-numbers/numbers-quantities` (20) — commit `9a0d112` trên be → merge `84f5979` lên dev → sync `4461ec2` xuống fe. AI gen one-time override of offline-only policy (cost vs quality tradeoff). Schema validated all 9 files; dictionaryapi IPA cross-check skipped per existing P0 precedent
+- [x] **P2 batch DONE** (2026-05-15, 5 lesson / 100 cards + 1 topic meta): `time-numbers/weather-seasons` (20), `places-travel/city-places` (20), `places-travel/transportation` (20), `places-travel/countries-nationalities` (20), `people/greetings-social` (20) + meta `places-travel` — commit `0b2dbb9` trên be → merge `daed553` lên dev → sync `d3dd493` xuống fe. Gates green (typecheck 0 / lint 0 / 179 tests). 1st batch of 3-batch P2→P3→P4 override schedule.
 - [ ] **CHỜ USER**: review `docs/CONTENT_REPORT.md`, quyết định pick IPA style (giữ Oxford hay theo dictionaryapi)
 - [-] CRUD collections/topics/lessons (admin UI) — skip, content gen offline đủ MVP
 - [ ] Card detail modal (FE work) — hiện đang collapsible inline trong CardPreview, modal có thể làm sau nếu cần
