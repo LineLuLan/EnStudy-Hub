@@ -1,0 +1,748 @@
+{
+  "slug": "learning-skills",
+  "name": "Learning Skills",
+  "description": "Kỹ năng học tập và phát triển bản thân.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "learn",
+      "lemma": "learn",
+      "ipa": "/lɜːn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to gain knowledge or skill through study or practice",
+          "meaning_vi": "học, tiếp thu (kiến thức, kỹ năng)",
+          "examples": [
+            {
+              "en": "I want to learn Japanese next year.",
+              "vi": "Năm sau tôi muốn học tiếng Nhật."
+            },
+            {
+              "en": "Children learn fast when they have fun.",
+              "vi": "Trẻ học nhanh khi cảm thấy vui."
+            },
+            {
+              "en": "She learned to cook phở from her grandmother.",
+              "vi": "Cô ấy học nấu phở từ bà ngoại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["study", "acquire"],
+      "antonyms": ["forget", "unlearn"],
+      "collocations": [
+        "learn English",
+        "learn a language",
+        "learn to drive",
+        "learn from mistakes",
+        "learn by heart"
+      ],
+      "etymology_hint": "From Old English 'leornian' meaning 'to get knowledge'.",
+      "mnemonic_vi": "LEARN — 'lờn' → 'lờn' tay (quen tay) việc gì cũng do học = học"
+    },
+    {
+      "word": "study",
+      "lemma": "study",
+      "ipa": "/ˈstʌdi/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to spend time reading or practicing to learn about something",
+          "meaning_vi": "học (chăm chú); nghiên cứu",
+          "examples": [
+            {
+              "en": "She studies English at a center in Sài Gòn.",
+              "vi": "Cô ấy học tiếng Anh ở trung tâm tại Sài Gòn."
+            },
+            {
+              "en": "He studied all night for the test.",
+              "vi": "Cậu ấy thức học cả đêm cho bài thi."
+            },
+            { "en": "I plan to study abroad in Australia.", "vi": "Tôi dự định đi du học ở Úc." }
+          ]
+        }
+      ],
+      "synonyms": ["learn"],
+      "antonyms": [],
+      "collocations": [
+        "study hard",
+        "study for an exam",
+        "study abroad",
+        "study English",
+        "study at university"
+      ],
+      "etymology_hint": "From Latin 'studere' meaning 'to be eager, devoted'.",
+      "mnemonic_vi": "STUDY — 'sờ-tớt-đi' → 'sờ Túi Đi' học sách vở trong cặp = học"
+    },
+    {
+      "word": "review",
+      "lemma": "review",
+      "ipa": "/rɪˈvjuː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to look at or study something again to remember it",
+          "meaning_vi": "ôn lại; xem lại",
+          "examples": [
+            {
+              "en": "Review the vocabulary before the test.",
+              "vi": "Ôn lại từ vựng trước khi thi."
+            },
+            {
+              "en": "Let's review what we learned yesterday.",
+              "vi": "Hãy cùng ôn lại bài hôm qua."
+            },
+            {
+              "en": "She reviews her notes every Sunday.",
+              "vi": "Cô ấy ôn lại ghi chú mỗi Chủ Nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["go over", "revise"],
+      "antonyms": [],
+      "collocations": [
+        "review notes",
+        "review the lesson",
+        "review for an exam",
+        "quick review",
+        "review session"
+      ],
+      "etymology_hint": "From Latin 're-' (again) + 'videre' (to see) → 'to see again'.",
+      "mnemonic_vi": "REVIEW = RE (lại) + VIEW (nhìn) → nhìn lại = ôn lại"
+    },
+    {
+      "word": "revise",
+      "lemma": "revise",
+      "ipa": "/rɪˈvaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to study material again before a test; or to change a piece of writing to improve it",
+          "meaning_vi": "ôn thi; sửa, chỉnh sửa lại (bài viết)",
+          "examples": [
+            {
+              "en": "I'm revising for the IELTS exam this weekend.",
+              "vi": "Cuối tuần này tôi ôn thi IELTS."
+            },
+            {
+              "en": "She revised her essay three times.",
+              "vi": "Cô ấy chỉnh sửa bài luận ba lần."
+            },
+            {
+              "en": "Let's revise chapter 5 before tomorrow.",
+              "vi": "Hãy ôn chương 5 trước ngày mai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["review", "edit"],
+      "antonyms": [],
+      "collocations": [
+        "revise for a test",
+        "revise an essay",
+        "revise the chapter",
+        "revise notes",
+        "revise the draft"
+      ],
+      "etymology_hint": "From Latin 'revisere' meaning 'to look at again'.",
+      "mnemonic_vi": "REVISE = RE (lại) + VISE (nhìn) → coi lại = ôn / sửa lại"
+    },
+    {
+      "word": "memorize",
+      "lemma": "memorize",
+      "ipa": "/ˈmeməraɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to learn something so that you can remember it exactly",
+          "meaning_vi": "học thuộc lòng",
+          "examples": [
+            {
+              "en": "She memorized 50 new words last week.",
+              "vi": "Cô ấy thuộc 50 từ mới tuần trước."
+            },
+            { "en": "I had to memorize the entire poem.", "vi": "Tôi phải thuộc lòng cả bài thơ." },
+            {
+              "en": "Don't just memorize — try to understand.",
+              "vi": "Đừng học thuộc — hãy cố hiểu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["learn by heart"],
+      "antonyms": ["forget"],
+      "collocations": [
+        "memorize vocabulary",
+        "memorize a poem",
+        "memorize a speech",
+        "memorize facts",
+        "easy to memorize"
+      ],
+      "etymology_hint": "From Latin 'memoria' (memory) + '-ize' (verb suffix).",
+      "mnemonic_vi": "MEMORIZE — 'mem-mơ-rai' → 'mem' (nhớ) 'rai' (rai rỉ) ghi vào đầu = học thuộc"
+    },
+    {
+      "word": "understand",
+      "lemma": "understand",
+      "ipa": "/ˌʌndəˈstænd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to know what something means or how it works",
+          "meaning_vi": "hiểu",
+          "examples": [
+            { "en": "I don't understand this math problem.", "vi": "Tôi không hiểu bài toán này." },
+            {
+              "en": "She understands Vietnamese but speaks English at home.",
+              "vi": "Cô ấy hiểu tiếng Việt nhưng nói tiếng Anh ở nhà."
+            },
+            {
+              "en": "Now I understand why he was so angry.",
+              "vi": "Giờ tôi đã hiểu vì sao anh ấy giận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grasp", "comprehend"],
+      "antonyms": ["misunderstand"],
+      "collocations": [
+        "fully understand",
+        "easy to understand",
+        "understand the lesson",
+        "understand each other",
+        "hard to understand"
+      ],
+      "etymology_hint": "From Old English 'understandan' meaning 'to comprehend, grasp the idea of'.",
+      "mnemonic_vi": "UNDERSTAND = UNDER (dưới) + STAND (đứng) → đứng dưới mà nắm bắt = hiểu"
+    },
+    {
+      "word": "explain",
+      "lemma": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make something clear or easy to understand",
+          "meaning_vi": "giải thích",
+          "examples": [
+            {
+              "en": "Can you explain this grammar rule again?",
+              "vi": "Bạn giải thích quy tắc ngữ pháp này lần nữa được không?"
+            },
+            {
+              "en": "She explained the answer step by step.",
+              "vi": "Cô ấy giải thích đáp án từng bước."
+            },
+            {
+              "en": "Let me explain the Tết tradition to you.",
+              "vi": "Để tôi giải thích phong tục Tết cho bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clarify", "describe"],
+      "antonyms": [],
+      "collocations": [
+        "explain clearly",
+        "explain a problem",
+        "explain a rule",
+        "explain the difference",
+        "fully explain"
+      ],
+      "etymology_hint": "From Latin 'explanare' = 'ex-' (out) + 'planus' (flat) → 'to make flat, plain'.",
+      "mnemonic_vi": "EXPLAIN — 'ếch-pờ-lên' → 'ếch' (mở miệng) 'plain' (rõ ràng) = giải thích"
+    },
+    {
+      "word": "practice",
+      "lemma": "practice",
+      "ipa": "/ˈpræktɪs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to do something many times to get better at it",
+          "meaning_vi": "luyện tập, thực hành",
+          "examples": [
+            {
+              "en": "He practices guitar every evening.",
+              "vi": "Cậu ấy luyện đàn guitar mỗi tối."
+            },
+            {
+              "en": "Practice makes perfect.",
+              "vi": "Có công mài sắt có ngày nên kim. (luyện tập tạo nên hoàn hảo)"
+            },
+            {
+              "en": "I practice English with a tutor on Saturdays.",
+              "vi": "Tôi luyện tiếng Anh với gia sư thứ Bảy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rehearse", "train"],
+      "antonyms": [],
+      "collocations": [
+        "practice English",
+        "daily practice",
+        "practice makes perfect",
+        "music practice",
+        "practice speaking"
+      ],
+      "etymology_hint": "From Greek 'praktikē' meaning 'practical action'.",
+      "mnemonic_vi": "PRACTICE — 'pờ-rắc-tít' → 'pờ rắc' (rắc đều) mỗi ngày = luyện tập"
+    },
+    {
+      "word": "mistake",
+      "lemma": "mistake",
+      "ipa": "/mɪˈsteɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "something done wrong; an error",
+          "meaning_vi": "lỗi, sai lầm",
+          "examples": [
+            {
+              "en": "Everyone makes mistakes — that's how we learn.",
+              "vi": "Ai cũng mắc lỗi — đó là cách ta học hỏi."
+            },
+            {
+              "en": "She found three spelling mistakes in his essay.",
+              "vi": "Cô ấy tìm thấy ba lỗi chính tả trong bài luận."
+            },
+            {
+              "en": "Learning from mistakes is important.",
+              "vi": "Học hỏi từ sai lầm là điều quan trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["error", "fault"],
+      "antonyms": [],
+      "collocations": [
+        "make a mistake",
+        "spelling mistake",
+        "common mistake",
+        "honest mistake",
+        "learn from mistakes"
+      ],
+      "etymology_hint": "From Old Norse 'mistaka' meaning 'take in error'.",
+      "mnemonic_vi": "MISTAKE = MIS (sai) + TAKE (lấy) → lấy sai = sai lầm"
+    },
+    {
+      "word": "correct",
+      "lemma": "correct",
+      "ipa": "/kəˈrekt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to change something to make it right; to fix a mistake",
+          "meaning_vi": "sửa, sửa lỗi",
+          "examples": [
+            {
+              "en": "The teacher corrects our essays every Friday.",
+              "vi": "Cô giáo sửa bài luận của chúng tôi mỗi thứ Sáu."
+            },
+            {
+              "en": "Please correct your spelling mistakes.",
+              "vi": "Xin hãy sửa các lỗi chính tả."
+            },
+            {
+              "en": "He corrected himself after he saw the error.",
+              "vi": "Cậu ấy tự sửa khi thấy lỗi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fix", "amend"],
+      "antonyms": [],
+      "collocations": [
+        "correct a mistake",
+        "correct an essay",
+        "correct yourself",
+        "correct the answer",
+        "correct an error"
+      ],
+      "etymology_hint": "From Latin 'corrigere' = 'cor-' (together) + 'regere' (to lead) → 'to lead straight'.",
+      "mnemonic_vi": "CORRECT — 'cờ-rếch' → 'cờ' (gọi đúng) 'rếch' (kéo lại) = sửa cho đúng"
+    },
+    {
+      "word": "improve",
+      "lemma": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make something better, or to become better",
+          "meaning_vi": "cải thiện, tiến bộ",
+          "examples": [
+            {
+              "en": "Her English improved a lot after one year in Australia.",
+              "vi": "Tiếng Anh cô ấy tiến bộ nhiều sau một năm ở Úc."
+            },
+            { "en": "Practice every day to improve.", "vi": "Luyện tập mỗi ngày để tiến bộ." },
+            { "en": "We need to improve our service.", "vi": "Chúng tôi cần cải thiện dịch vụ." }
+          ]
+        }
+      ],
+      "synonyms": ["enhance", "develop"],
+      "antonyms": ["worsen"],
+      "collocations": [
+        "improve skills",
+        "improve quickly",
+        "improve English",
+        "improve the situation",
+        "improve performance"
+      ],
+      "etymology_hint": "From Anglo-French 'emprouwer' meaning 'to make profitable', from 'prou' (profit).",
+      "mnemonic_vi": "IMPROVE — 'im-pruv' → 'im' (lặng) 'prù v' (rèn) mỗi ngày tốt hơn = cải thiện"
+    },
+    {
+      "word": "focus",
+      "lemma": "focus",
+      "ipa": "/ˈfəʊkəs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give all your attention to something",
+          "meaning_vi": "tập trung (vào)",
+          "examples": [
+            {
+              "en": "Please focus on the lesson, not your phone.",
+              "vi": "Hãy tập trung vào bài học, đừng nhìn điện thoại."
+            },
+            {
+              "en": "He focuses better in the morning.",
+              "vi": "Cậu ấy tập trung hơn vào buổi sáng."
+            },
+            {
+              "en": "She focused on improving her speaking.",
+              "vi": "Cô ấy tập trung cải thiện kỹ năng nói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["concentrate", "centre"],
+      "antonyms": ["distract"],
+      "collocations": [
+        "focus on",
+        "lose focus",
+        "stay focused",
+        "main focus",
+        "focus your attention"
+      ],
+      "etymology_hint": "From Latin 'focus' meaning 'hearth, fireplace' — point where light or attention gathers.",
+      "mnemonic_vi": "FOCUS — 'phâu-kợt' → 'phâu' (chăm) 'cợt' (cợt nhả thôi) = tập trung"
+    },
+    {
+      "word": "concentrate",
+      "lemma": "concentrate",
+      "ipa": "/ˈkɒnsntreɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give all your attention or thought to something",
+          "meaning_vi": "tập trung tinh thần; chú ý cao độ",
+          "examples": [
+            {
+              "en": "I can't concentrate when the music is loud.",
+              "vi": "Tôi không tập trung được khi nhạc to."
+            },
+            {
+              "en": "She concentrates better in a quiet library.",
+              "vi": "Cô ấy tập trung tốt hơn ở thư viện yên tĩnh."
+            },
+            { "en": "Please concentrate on the question.", "vi": "Xin hãy tập trung vào câu hỏi." }
+          ]
+        }
+      ],
+      "synonyms": ["focus"],
+      "antonyms": ["distract"],
+      "collocations": [
+        "concentrate on",
+        "concentrate hard",
+        "hard to concentrate",
+        "concentrate fully",
+        "concentrate the mind"
+      ],
+      "etymology_hint": "From Latin 'con-' (together) + 'centrum' (center) → 'gather to the center'.",
+      "mnemonic_vi": "CONCENTRATE = CON (cùng) + CENTRATE (trung tâm) → đem mọi thứ về trung tâm = tập trung"
+    },
+    {
+      "word": "knowledge",
+      "lemma": "knowledge",
+      "ipa": "/ˈnɒlɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the information and understanding a person has from learning or experience",
+          "meaning_vi": "kiến thức, sự hiểu biết",
+          "examples": [
+            {
+              "en": "He has deep knowledge of Vietnamese history.",
+              "vi": "Anh ấy có kiến thức sâu về lịch sử Việt."
+            },
+            { "en": "Knowledge is power.", "vi": "Kiến thức là sức mạnh." },
+            {
+              "en": "Her knowledge of grammar is excellent.",
+              "vi": "Kiến thức ngữ pháp của cô ấy xuất sắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["understanding", "expertise"],
+      "antonyms": ["ignorance"],
+      "collocations": [
+        "gain knowledge",
+        "general knowledge",
+        "deep knowledge",
+        "share knowledge",
+        "knowledge of"
+      ],
+      "etymology_hint": "From Old English 'cnāwan' (to know) + '-ledge' (state of).",
+      "mnemonic_vi": "KNOWLEDGE = KNOW (biết) + LEDGE (mép) → biết đầy đến mép đầu = kiến thức"
+    },
+    {
+      "word": "skill",
+      "lemma": "skill",
+      "ipa": "/skɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the ability to do something well, learned through practice",
+          "meaning_vi": "kỹ năng (học được qua luyện tập)",
+          "examples": [
+            {
+              "en": "Reading and writing are basic skills.",
+              "vi": "Đọc và viết là kỹ năng cơ bản."
+            },
+            {
+              "en": "Listening skill takes time to develop.",
+              "vi": "Kỹ năng nghe cần thời gian để phát triển."
+            },
+            {
+              "en": "He learned new skills at the coding bootcamp.",
+              "vi": "Cậu ấy học kỹ năng mới ở khóa lập trình ngắn hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ability", "competence"],
+      "antonyms": [],
+      "collocations": [
+        "develop a skill",
+        "soft skill",
+        "communication skill",
+        "learn a skill",
+        "improve skills"
+      ],
+      "etymology_hint": "From Old Norse 'skil' meaning 'distinction, knowledge'.",
+      "mnemonic_vi": "SKILL — 'skíu' → 'skíu' (xíu một chút) học từ ít đến nhiều = kỹ năng"
+    },
+    {
+      "word": "talent",
+      "lemma": "talent",
+      "ipa": "/ˈtælənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a natural ability to do something well",
+          "meaning_vi": "tài năng (tự nhiên)",
+          "examples": [
+            {
+              "en": "She has a real talent for singing.",
+              "vi": "Cô ấy có tài năng ca hát thực sự."
+            },
+            {
+              "en": "Vietnamese children show talent in math early.",
+              "vi": "Trẻ em Việt thường thể hiện tài năng toán học sớm."
+            },
+            {
+              "en": "Talent without practice is wasted.",
+              "vi": "Tài năng mà không luyện tập sẽ phí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gift", "ability"],
+      "antonyms": [],
+      "collocations": [
+        "natural talent",
+        "have a talent",
+        "show talent",
+        "raw talent",
+        "talent show"
+      ],
+      "etymology_hint": "Originally a unit of weight/money in ancient Greek; meaning shifted to 'natural ability' via Bible parable.",
+      "mnemonic_vi": "TALENT nghe gần 'ta-lần-tờ' → 'ta lần' lượt giỏi mọi thứ = tài năng"
+    },
+    {
+      "word": "ability",
+      "lemma": "ability",
+      "ipa": "/əˈbɪləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the power or skill to do something",
+          "meaning_vi": "khả năng, năng lực",
+          "examples": [
+            {
+              "en": "She has the ability to lead a team.",
+              "vi": "Cô ấy có khả năng lãnh đạo đội ngũ."
+            },
+            {
+              "en": "His ability to learn languages is amazing.",
+              "vi": "Khả năng học ngôn ngữ của anh ấy thật đáng kinh ngạc."
+            },
+            {
+              "en": "Don't underestimate your ability.",
+              "vi": "Đừng coi nhẹ khả năng của bản thân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["capability", "skill"],
+      "antonyms": ["inability"],
+      "collocations": [
+        "have the ability",
+        "natural ability",
+        "language ability",
+        "leadership ability",
+        "to the best of your ability"
+      ],
+      "etymology_hint": "From Latin 'habilitas' meaning 'aptitude, suitability'.",
+      "mnemonic_vi": "ABILITY = ABLE (có thể) + ITY (tính chất) → khả năng làm được = năng lực"
+    },
+    {
+      "word": "progress",
+      "lemma": "progress",
+      "ipa": "/ˈprəʊɡres/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "improvement or movement forward in study or work",
+          "meaning_vi": "tiến bộ; sự tiến triển",
+          "examples": [
+            {
+              "en": "She made great progress in English this year.",
+              "vi": "Cô ấy tiến bộ nhiều tiếng Anh năm nay."
+            },
+            {
+              "en": "Slow but steady progress is best.",
+              "vi": "Tiến bộ chậm nhưng đều là tốt nhất."
+            },
+            {
+              "en": "The teacher checks our progress every month.",
+              "vi": "Cô giáo kiểm tra tiến bộ chúng tôi mỗi tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["development", "advance"],
+      "antonyms": ["regression"],
+      "collocations": [
+        "make progress",
+        "track progress",
+        "slow progress",
+        "rapid progress",
+        "in progress"
+      ],
+      "etymology_hint": "From Latin 'progressus' = 'pro-' (forward) + 'gradi' (step) → 'a stepping forward'.",
+      "mnemonic_vi": "PROGRESS = PRO (về trước) + GRESS (bước) → bước về phía trước = tiến bộ"
+    },
+    {
+      "word": "fluency",
+      "lemma": "fluency",
+      "ipa": "/ˈfluːənsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the ability to speak or write a language smoothly and easily",
+          "meaning_vi": "sự lưu loát (nói/viết một ngôn ngữ)",
+          "examples": [
+            {
+              "en": "Her English fluency surprised the interviewer.",
+              "vi": "Sự lưu loát tiếng Anh của cô ấy khiến người phỏng vấn ngạc nhiên."
+            },
+            {
+              "en": "Fluency comes from daily speaking practice.",
+              "vi": "Lưu loát đến từ luyện nói mỗi ngày."
+            },
+            {
+              "en": "He has near-native fluency in Japanese.",
+              "vi": "Anh ấy nói tiếng Nhật gần như người bản xứ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["smoothness", "ease"],
+      "antonyms": [],
+      "collocations": [
+        "English fluency",
+        "achieve fluency",
+        "near-native fluency",
+        "fluency test",
+        "improve fluency"
+      ],
+      "etymology_hint": "From Latin 'fluentia' meaning 'a flowing', from 'fluere' (to flow).",
+      "mnemonic_vi": "FLUENCY — 'flu-ần-si' → 'flu' (chảy) như nước = nói lưu loát"
+    },
+    {
+      "word": "mastery",
+      "lemma": "mastery",
+      "ipa": "/ˈmɑːstəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "complete skill or knowledge in something",
+          "meaning_vi": "sự thông thạo; sự làm chủ hoàn toàn",
+          "examples": [
+            {
+              "en": "It takes years to achieve mastery of a language.",
+              "vi": "Phải nhiều năm mới làm chủ được một ngôn ngữ."
+            },
+            {
+              "en": "Her mastery of guitar is amazing.",
+              "vi": "Sự thông thạo guitar của cô ấy đáng kinh ngạc."
+            },
+            {
+              "en": "Mastery requires patience and practice.",
+              "vi": "Sự thông thạo đòi hỏi kiên nhẫn và luyện tập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expertise", "proficiency"],
+      "antonyms": [],
+      "collocations": [
+        "achieve mastery",
+        "complete mastery",
+        "mastery of a subject",
+        "language mastery",
+        "mastery learning"
+      ],
+      "etymology_hint": "From Old French 'maistrie', from 'maistre' (master), from Latin 'magister'.",
+      "mnemonic_vi": "MASTERY = MASTER (bậc thầy) + Y → trạng thái làm chủ = sự thông thạo"
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "slug": "plants-trees",
+  "name": "Plants & Trees",
+  "description": "Cây cối và thực vật phổ biến.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "tree",
+      "lemma": "tree",
+      "ipa": "/triː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a tall plant with a wooden trunk, branches, and leaves",
+          "meaning_vi": "cây (cây cao có thân gỗ)",
+          "examples": [
+            {
+              "en": "There is a big tree in front of my house.",
+              "vi": "Có một cây to trước nhà tôi."
+            },
+            {
+              "en": "Hồ Hoàn Kiếm has many beautiful old trees.",
+              "vi": "Hồ Hoàn Kiếm có nhiều cây cổ thụ đẹp."
+            },
+            { "en": "Birds make nests in the tree.", "vi": "Chim làm tổ trên cây." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["tall tree", "old tree", "fruit tree", "plant a tree", "climb a tree"],
+      "etymology_hint": "From Old English 'trēow'.",
+      "mnemonic_vi": "TREE — 'tri' → 'tri' (đủ ba) thân, cành, lá = cây"
+    },
+    {
+      "word": "flower",
+      "lemma": "flower",
+      "ipa": "/ˈflaʊə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the colourful part of a plant that produces seeds",
+          "meaning_vi": "hoa, bông hoa",
+          "examples": [
+            {
+              "en": "She bought yellow flowers for Tết.",
+              "vi": "Cô ấy mua hoa vàng cho ngày Tết."
+            },
+            { "en": "The flowers in Đà Lạt are stunning.", "vi": "Hoa ở Đà Lạt đẹp tuyệt." },
+            { "en": "He gave her a single rose flower.", "vi": "Anh ấy tặng cô một bông hoa hồng." }
+          ]
+        }
+      ],
+      "synonyms": ["bloom", "blossom"],
+      "antonyms": [],
+      "collocations": [
+        "pick flowers",
+        "wild flowers",
+        "flower shop",
+        "flower garden",
+        "fresh flowers"
+      ],
+      "etymology_hint": "From Old French 'flour', from Latin 'flos, floris'.",
+      "mnemonic_vi": "FLOWER — 'phờ-lao-ờ' → 'phơ' (phơi mở) thơm = hoa"
+    },
+    {
+      "word": "grass",
+      "lemma": "grass",
+      "ipa": "/ɡrɑːs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the common green plant that covers fields and lawns",
+          "meaning_vi": "cỏ",
+          "examples": [
+            { "en": "Cows eat grass in the field.", "vi": "Bò ăn cỏ ngoài đồng." },
+            { "en": "Please don't walk on the grass.", "vi": "Xin đừng đi lên cỏ." },
+            {
+              "en": "The grass in Lăng Bác is always well kept.",
+              "vi": "Cỏ ở Lăng Bác luôn được chăm sóc kỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lawn"],
+      "antonyms": [],
+      "collocations": [
+        "green grass",
+        "cut the grass",
+        "tall grass",
+        "sit on the grass",
+        "grass field"
+      ],
+      "etymology_hint": "From Old English 'græs'.",
+      "mnemonic_vi": "GRASS — 'gờ-rát' → 'gờ' xanh 'rát' chân khi đi = cỏ"
+    },
+    {
+      "word": "leaf",
+      "lemma": "leaf",
+      "ipa": "/liːf/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a flat green part of a plant that grows on its branch or stem",
+          "meaning_vi": "chiếc lá",
+          "examples": [
+            { "en": "The leaves turn yellow in autumn.", "vi": "Lá chuyển vàng vào mùa thu." },
+            { "en": "A leaf fell on her notebook.", "vi": "Một chiếc lá rơi xuống vở cô ấy." },
+            {
+              "en": "Banana leaves are used to wrap bánh chưng.",
+              "vi": "Lá chuối được dùng để gói bánh chưng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["fall leaf", "green leaf", "banana leaf", "leaf shape", "leaf litter"],
+      "etymology_hint": "From Old English 'lēaf'. Plural is 'leaves'.",
+      "mnemonic_vi": "LEAF — 'líp' → 'lít' (mỏng) 'phiu' bay = lá"
+    },
+    {
+      "word": "root",
+      "lemma": "root",
+      "ipa": "/ruːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the part of a plant that grows under the ground",
+          "meaning_vi": "rễ cây",
+          "examples": [
+            { "en": "The tree has deep roots.", "vi": "Cây có rễ sâu." },
+            {
+              "en": "Some roots like carrots are eaten as food.",
+              "vi": "Một số loại rễ như cà rốt được ăn."
+            },
+            { "en": "Roots take water from the soil.", "vi": "Rễ hút nước từ đất." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["branch", "leaf"],
+      "collocations": ["deep root", "tree root", "root system", "take root", "root vegetables"],
+      "etymology_hint": "From Old Norse 'rōt'.",
+      "mnemonic_vi": "ROOT — 'rút' → 'rút' nước lên nuôi cây = rễ"
+    },
+    {
+      "word": "branch",
+      "lemma": "branch",
+      "ipa": "/brɑːntʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a part of a tree that grows out from its trunk",
+          "meaning_vi": "cành cây, nhánh cây",
+          "examples": [
+            { "en": "Birds sit on the branches.", "vi": "Chim đậu trên cành cây." },
+            {
+              "en": "A large branch fell during the storm.",
+              "vi": "Một cành lớn rụng trong cơn bão."
+            },
+            { "en": "He climbed up to the highest branch.", "vi": "Cậu ấy trèo lên cành cao nhất." }
+          ]
+        }
+      ],
+      "synonyms": ["bough", "limb"],
+      "antonyms": [],
+      "collocations": ["tree branch", "thick branch", "high branch", "broken branch", "branch out"],
+      "etymology_hint": "From Old French 'branche', from Latin 'branca' meaning 'paw'.",
+      "mnemonic_vi": "BRANCH — 'brân-ch' → 'brân' (vươn) tách ra = cành"
+    },
+    {
+      "word": "seed",
+      "lemma": "seed",
+      "ipa": "/siːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small hard object from which a new plant can grow",
+          "meaning_vi": "hạt giống",
+          "examples": [
+            { "en": "Plant the seeds in spring.", "vi": "Trồng hạt giống vào mùa xuân." },
+            {
+              "en": "Sunflower seeds are popular snacks during Tết.",
+              "vi": "Hạt hướng dương là món ăn vặt phổ biến dịp Tết."
+            },
+            {
+              "en": "Each apple has many seeds inside.",
+              "vi": "Mỗi quả táo có nhiều hạt bên trong."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pip", "kernel"],
+      "antonyms": [],
+      "collocations": [
+        "plant seeds",
+        "sunflower seeds",
+        "seed packet",
+        "scatter seeds",
+        "seed bank"
+      ],
+      "etymology_hint": "From Old English 'sǣd'.",
+      "mnemonic_vi": "SEED — 'sít' → 'sít' nhỏ, chứa cả tương lai cây = hạt giống"
+    },
+    {
+      "word": "plant",
+      "lemma": "plant",
+      "ipa": "/plɑːnt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a living thing that grows from the ground, like a tree, flower, or vegetable",
+          "meaning_vi": "cây (chung); thực vật",
+          "examples": [
+            { "en": "She waters her plants every morning.", "vi": "Cô ấy tưới cây mỗi sáng." },
+            {
+              "en": "Indoor plants make a room feel fresh.",
+              "vi": "Cây trong nhà làm phòng dễ chịu hơn."
+            },
+            { "en": "Plants need sunlight and water.", "vi": "Cây cần ánh sáng và nước." }
+          ]
+        }
+      ],
+      "synonyms": ["vegetation"],
+      "antonyms": [],
+      "collocations": [
+        "indoor plant",
+        "water the plants",
+        "house plant",
+        "wild plant",
+        "plant pot"
+      ],
+      "etymology_hint": "From Latin 'planta' meaning 'sprout, shoot'.",
+      "mnemonic_vi": "PLANT — 'plên' → 'plên' lên mầm = cây"
+    },
+    {
+      "word": "rose",
+      "lemma": "rose",
+      "ipa": "/rəʊz/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a flower with a sweet smell and a stem with thorns",
+          "meaning_vi": "hoa hồng",
+          "examples": [
+            {
+              "en": "He gave her a red rose on Valentine's Day.",
+              "vi": "Anh ấy tặng cô bông hoa hồng đỏ ngày Valentine."
+            },
+            { "en": "Đà Lạt is famous for its roses.", "vi": "Đà Lạt nổi tiếng với hoa hồng." },
+            { "en": "The rose smells wonderful.", "vi": "Hoa hồng có mùi tuyệt vời." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["red rose", "white rose", "rose garden", "rose petal", "wild rose"],
+      "etymology_hint": "From Latin 'rosa', via Old English.",
+      "mnemonic_vi": "ROSE — 'râu-z' → 'rộ' nở rộ = hoa hồng"
+    },
+    {
+      "word": "lily",
+      "lemma": "lily",
+      "ipa": "/ˈlɪli/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a flower with large white or coloured petals and a strong smell",
+          "meaning_vi": "hoa loa kèn, hoa lily",
+          "examples": [
+            {
+              "en": "White lilies are common at Vietnamese funerals.",
+              "vi": "Hoa loa kèn trắng thường xuất hiện ở tang lễ Việt."
+            },
+            { "en": "The lily has six petals.", "vi": "Hoa lily có sáu cánh." },
+            { "en": "She planted lilies near the pond.", "vi": "Cô ấy trồng lily gần ao." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "white lily",
+        "water lily",
+        "easter lily",
+        "lily of the valley",
+        "tiger lily"
+      ],
+      "etymology_hint": "From Latin 'lilium', possibly from Egyptian 'hrrt' (flower).",
+      "mnemonic_vi": "LILY — 'li-li' → 'li ti' xòe cánh = hoa loa kèn"
+    },
+    {
+      "word": "bamboo",
+      "lemma": "bamboo",
+      "ipa": "/ˌbæmˈbuː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a tall hard tropical grass with hollow stems, used for furniture and food",
+          "meaning_vi": "cây tre",
+          "examples": [
+            {
+              "en": "Vietnamese villages often have bamboo gates.",
+              "vi": "Làng quê Việt thường có cổng tre."
+            },
+            { "en": "Pandas eat bamboo all day.", "vi": "Gấu trúc ăn tre cả ngày." },
+            { "en": "She made a bamboo basket.", "vi": "Cô ấy đan một chiếc rổ tre." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bamboo forest",
+        "bamboo shoot",
+        "bamboo basket",
+        "bamboo stem",
+        "thick bamboo"
+      ],
+      "etymology_hint": "From Malay 'bambu', via Portuguese 'bambu'.",
+      "mnemonic_vi": "BAMBOO — 'bam-bu' → 'bám bù' đâm thẳng đứng = tre"
+    },
+    {
+      "word": "oak",
+      "lemma": "oak",
+      "ipa": "/əʊk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large tree with hard wood, common in Europe and America",
+          "meaning_vi": "cây sồi",
+          "examples": [
+            {
+              "en": "Oak wood is used to make strong furniture.",
+              "vi": "Gỗ sồi được dùng làm đồ nội thất chắc."
+            },
+            { "en": "The oak tree is over 200 years old.", "vi": "Cây sồi này trên 200 tuổi." },
+            { "en": "Acorns come from oak trees.", "vi": "Hạt sồi rơi từ cây sồi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["oak tree", "oak wood", "old oak", "oak forest", "oak furniture"],
+      "etymology_hint": "From Old English 'āc'.",
+      "mnemonic_vi": "OAK — 'âu-k' → 'âu' (vững) 'k' (chắc) thân gỗ chắc = sồi"
+    },
+    {
+      "word": "pine",
+      "lemma": "pine",
+      "ipa": "/paɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a tall evergreen tree with needle-shaped leaves and cones",
+          "meaning_vi": "cây thông",
+          "examples": [
+            {
+              "en": "Đà Lạt is famous for pine forests.",
+              "vi": "Đà Lạt nổi tiếng với rừng thông."
+            },
+            {
+              "en": "Pine trees smell wonderful in winter.",
+              "vi": "Cây thông có mùi tuyệt vời vào mùa đông."
+            },
+            {
+              "en": "She decorated a pine for Christmas.",
+              "vi": "Cô ấy trang trí cây thông Giáng sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["pine tree", "pine forest", "pine cone", "pine needles", "pine wood"],
+      "etymology_hint": "From Latin 'pinus'.",
+      "mnemonic_vi": "PINE — 'pain' → 'pin' kim châm như lá thông = thông"
+    },
+    {
+      "word": "fruit tree",
+      "lemma": "fruit tree",
+      "ipa": "/fruːt triː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a tree that grows fruit such as apples, mangoes, or oranges",
+          "meaning_vi": "cây ăn quả",
+          "examples": [
+            {
+              "en": "My grandparents have many fruit trees in the garden.",
+              "vi": "Ông bà tôi có nhiều cây ăn quả trong vườn."
+            },
+            {
+              "en": "Mango is a popular fruit tree in southern Vietnam.",
+              "vi": "Xoài là cây ăn quả phổ biến ở miền Nam."
+            },
+            { "en": "Fruit trees need lots of sunlight.", "vi": "Cây ăn quả cần nhiều ánh nắng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "plant a fruit tree",
+        "mango fruit tree",
+        "young fruit tree",
+        "fruit tree farm",
+        "fruit tree orchard"
+      ],
+      "etymology_hint": "Compound 'fruit' (Latin 'fructus') + 'tree' (Old English 'trēow').",
+      "mnemonic_vi": "FRUIT TREE = quả + cây → cây ra quả = cây ăn quả"
+    },
+    {
+      "word": "vegetable",
+      "lemma": "vegetable",
+      "ipa": "/ˈvedʒtəbl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a plant grown to be eaten, such as cabbage, carrot, or onion",
+          "meaning_vi": "rau (loại cây trồng để ăn)",
+          "examples": [
+            {
+              "en": "Vietnam's central highlands grow many vegetables.",
+              "vi": "Tây Nguyên trồng nhiều rau."
+            },
+            { "en": "She has a small vegetable garden.", "vi": "Cô ấy có vườn rau nhỏ." },
+            { "en": "Children should eat more vegetables.", "vi": "Trẻ em nên ăn nhiều rau hơn." }
+          ]
+        }
+      ],
+      "synonyms": ["veggie"],
+      "antonyms": [],
+      "collocations": [
+        "fresh vegetables",
+        "vegetable garden",
+        "leafy vegetables",
+        "grow vegetables",
+        "vegetable soup"
+      ],
+      "etymology_hint": "From Latin 'vegetabilis' meaning 'animating, vivifying'.",
+      "mnemonic_vi": "VEGETABLE — 'vét-tà-bồ' → 'vẹt' xanh ngoài đồng = rau"
+    },
+    {
+      "word": "garden",
+      "lemma": "garden",
+      "ipa": "/ˈɡɑːdn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an area of land where flowers, vegetables, or trees are grown",
+          "meaning_vi": "khu vườn",
+          "examples": [
+            {
+              "en": "My grandmother grows herbs in her garden.",
+              "vi": "Bà tôi trồng rau thơm trong vườn."
+            },
+            {
+              "en": "The garden in Vincom Royal City is beautiful.",
+              "vi": "Vườn ở Vincom Royal City rất đẹp."
+            },
+            {
+              "en": "He sits in the garden on weekends.",
+              "vi": "Anh ấy ngồi trong vườn vào cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["yard"],
+      "antonyms": [],
+      "collocations": [
+        "flower garden",
+        "vegetable garden",
+        "garden party",
+        "rooftop garden",
+        "small garden"
+      ],
+      "etymology_hint": "From Old French 'gardin', from Frankish 'gart' (enclosure).",
+      "mnemonic_vi": "GARDEN — 'ga-đần' → 'ga' (chỗ dừng) 'đần' (đẫm hoa) = vườn"
+    },
+    {
+      "word": "forest",
+      "lemma": "forest",
+      "ipa": "/ˈfɒrɪst/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large area covered with many trees",
+          "meaning_vi": "rừng (cây mọc đông)",
+          "examples": [
+            {
+              "en": "The Cúc Phương forest has rare animals.",
+              "vi": "Rừng Cúc Phương có nhiều loài động vật quý hiếm."
+            },
+            { "en": "They got lost in the forest.", "vi": "Họ lạc trong rừng." },
+            {
+              "en": "Vietnam still has tropical forests.",
+              "vi": "Việt Nam vẫn còn rừng nhiệt đới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["woods"],
+      "antonyms": ["desert"],
+      "collocations": [
+        "rain forest",
+        "tropical forest",
+        "deep forest",
+        "forest fire",
+        "forest path"
+      ],
+      "etymology_hint": "From Latin 'foris' meaning 'outside, outdoors'.",
+      "mnemonic_vi": "FOREST — 'fo-rớt' → 'pho' (đồ sộ) 'rớt' lá khắp nơi = rừng"
+    },
+    {
+      "word": "jungle",
+      "lemma": "jungle",
+      "ipa": "/ˈdʒʌŋɡl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a thick tropical forest with many tall plants and animals",
+          "meaning_vi": "rừng rậm nhiệt đới",
+          "examples": [
+            { "en": "Tarzan lived in the jungle.", "vi": "Tarzan sống trong rừng rậm." },
+            { "en": "Wild monkeys live in the jungle.", "vi": "Khỉ rừng sống trong rừng rậm." },
+            {
+              "en": "The jungle in Cát Tiên is full of life.",
+              "vi": "Rừng rậm Cát Tiên đầy sức sống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rainforest"],
+      "antonyms": [],
+      "collocations": [
+        "dense jungle",
+        "tropical jungle",
+        "jungle animals",
+        "jungle path",
+        "deep in the jungle"
+      ],
+      "etymology_hint": "From Hindi/Urdu 'jangal' meaning 'desert, forest, wasteland'.",
+      "mnemonic_vi": "JUNGLE — 'gân-gồ' → 'gan' to mới dám vào 'gồ' rậm = rừng rậm"
+    },
+    {
+      "word": "harvest",
+      "lemma": "harvest",
+      "ipa": "/ˈhɑːvɪst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time when crops are gathered; or the crops themselves",
+          "meaning_vi": "mùa thu hoạch; vụ mùa",
+          "examples": [
+            {
+              "en": "The rice harvest in the Mekong Delta is in autumn.",
+              "vi": "Mùa gặt lúa ở Đồng bằng sông Cửu Long vào mùa thu."
+            },
+            {
+              "en": "This year's coffee harvest was very good.",
+              "vi": "Vụ thu hoạch cà phê năm nay rất tốt."
+            },
+            {
+              "en": "Farmers celebrate after the harvest.",
+              "vi": "Nông dân tổ chức lễ hội sau vụ mùa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["crop", "yield"],
+      "antonyms": [],
+      "collocations": [
+        "good harvest",
+        "rice harvest",
+        "harvest season",
+        "harvest festival",
+        "poor harvest"
+      ],
+      "etymology_hint": "From Old English 'hærfest' meaning 'autumn, the time of gathering crops'.",
+      "mnemonic_vi": "HARVEST — 'hát-vớt' → 'hát' (mừng) 'vớt' (gặt) về = thu hoạch"
+    },
+    {
+      "word": "bloom",
+      "lemma": "bloom",
+      "ipa": "/bluːm/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "(of a flower) to open and become fully grown",
+          "meaning_vi": "nở (hoa)",
+          "examples": [
+            { "en": "Cherry blossoms bloom in spring.", "vi": "Hoa anh đào nở vào mùa xuân." },
+            {
+              "en": "These flowers will bloom next week.",
+              "vi": "Những bông hoa này sẽ nở vào tuần sau."
+            },
+            { "en": "The garden is in full bloom.", "vi": "Cả khu vườn đang nở rộ." }
+          ]
+        }
+      ],
+      "synonyms": ["blossom", "flower"],
+      "antonyms": ["wither"],
+      "collocations": [
+        "fully bloom",
+        "early bloom",
+        "late bloom",
+        "in full bloom",
+        "bloom in spring"
+      ],
+      "etymology_hint": "From Old Norse 'blōm' meaning 'flower, blossom'.",
+      "mnemonic_vi": "BLOOM — 'blum' → 'bùm' nở rộ một cái = nở hoa"
+    }
+  ]
+}

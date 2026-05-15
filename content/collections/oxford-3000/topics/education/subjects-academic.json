@@ -1,0 +1,727 @@
+{
+  "slug": "subjects-academic",
+  "name": "School Subjects",
+  "description": "Các môn học và khái niệm học thuật.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "math",
+      "lemma": "math",
+      "ipa": "/mæθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the study of numbers, shapes, and quantities (short for mathematics)",
+          "meaning_vi": "toán học (cách gọi tắt của 'mathematics')",
+          "examples": [
+            {
+              "en": "Math is my favourite subject in school.",
+              "vi": "Toán là môn học yêu thích nhất của tôi."
+            },
+            {
+              "en": "She is good at math but weak in art.",
+              "vi": "Cô ấy giỏi toán nhưng yếu môn mỹ thuật."
+            },
+            {
+              "en": "We have a math test on Friday.",
+              "vi": "Thứ Sáu chúng tôi có bài kiểm tra toán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["maths", "mathematics"],
+      "antonyms": [],
+      "collocations": ["math class", "math test", "do the math", "math problem", "math teacher"],
+      "etymology_hint": "Shortened from 'mathematics', from Greek 'mathēma' meaning 'knowledge, study'.",
+      "mnemonic_vi": "MATH — 'mát' nghe như 'mát' đầu khi giải xong bài khó = toán"
+    },
+    {
+      "word": "science",
+      "lemma": "science",
+      "ipa": "/ˈsaɪəns/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the study of the natural world through observation and experiments",
+          "meaning_vi": "khoa học; ngành nghiên cứu thế giới tự nhiên",
+          "examples": [
+            {
+              "en": "She loves science, especially space.",
+              "vi": "Cô ấy yêu khoa học, đặc biệt là vũ trụ."
+            },
+            {
+              "en": "Vietnam is investing more in science research.",
+              "vi": "Việt Nam đang đầu tư nhiều hơn vào nghiên cứu khoa học."
+            },
+            {
+              "en": "Our science lab has new microscopes.",
+              "vi": "Phòng thí nghiệm khoa học của trường có kính hiển vi mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["art", "humanities"],
+      "collocations": [
+        "science class",
+        "science lab",
+        "science fiction",
+        "natural science",
+        "science teacher"
+      ],
+      "etymology_hint": "From Latin 'scientia' meaning 'knowledge', from 'scire' (to know).",
+      "mnemonic_vi": "SCIENCE — 'sai-ần-sờ' → 'sai' (thử sai) 'ần sờ' để biết = khoa học"
+    },
+    {
+      "word": "history",
+      "lemma": "history",
+      "ipa": "/ˈhɪstri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the study of past events",
+          "meaning_vi": "lịch sử; ngành học về quá khứ",
+          "examples": [
+            {
+              "en": "We learn about Vietnamese history in class.",
+              "vi": "Chúng tôi học về lịch sử Việt Nam trong lớp."
+            },
+            {
+              "en": "He is interested in the history of Huế.",
+              "vi": "Cậu ấy thích lịch sử của Huế."
+            },
+            { "en": "History repeats itself sometimes.", "vi": "Đôi khi lịch sử lặp lại." }
+          ]
+        }
+      ],
+      "synonyms": ["past"],
+      "antonyms": ["future"],
+      "collocations": [
+        "ancient history",
+        "modern history",
+        "history class",
+        "history book",
+        "history teacher"
+      ],
+      "etymology_hint": "From Greek 'historia' meaning 'inquiry, knowledge from inquiry'.",
+      "mnemonic_vi": "HISTORY = HIS + STORY → câu chuyện của 'ông ấy' (loài người) = lịch sử"
+    },
+    {
+      "word": "geography",
+      "lemma": "geography",
+      "ipa": "/dʒiˈɒɡrəfi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the study of countries, lands, oceans, and where things are on Earth",
+          "meaning_vi": "địa lý; ngành học về Trái Đất và các vùng đất",
+          "examples": [
+            {
+              "en": "In geography, we studied the Mekong Delta.",
+              "vi": "Trong môn địa lý, chúng tôi học về Đồng bằng sông Cửu Long."
+            },
+            {
+              "en": "His geography teacher uses 3D maps.",
+              "vi": "Thầy địa lý của cậu ấy dùng bản đồ 3D."
+            },
+            { "en": "Geography is my best subject.", "vi": "Địa lý là môn tôi giỏi nhất." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "physical geography",
+        "geography lesson",
+        "human geography",
+        "world geography",
+        "geography teacher"
+      ],
+      "etymology_hint": "From Greek 'geōgraphia' = 'geo' (earth) + 'graphia' (writing, describing).",
+      "mnemonic_vi": "GEOGRAPHY = GEO (Trái Đất) + GRAPHY (vẽ) → vẽ Trái Đất = địa lý"
+    },
+    {
+      "word": "literature",
+      "lemma": "literature",
+      "ipa": "/ˈlɪtrətʃə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "books, plays, and poems, especially those of high quality",
+          "meaning_vi": "văn học; tác phẩm văn chương",
+          "examples": [
+            {
+              "en": "She studies Vietnamese literature at university.",
+              "vi": "Cô ấy học văn học Việt Nam ở đại học."
+            },
+            {
+              "en": "Nguyễn Du's Truyện Kiều is a classic of Vietnamese literature.",
+              "vi": "Truyện Kiều của Nguyễn Du là kinh điển của văn học Việt Nam."
+            },
+            {
+              "en": "Literature class teaches us how to feel deeply.",
+              "vi": "Môn văn dạy chúng ta cách cảm nhận sâu sắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["writing", "letters"],
+      "antonyms": [],
+      "collocations": [
+        "Vietnamese literature",
+        "world literature",
+        "modern literature",
+        "study literature",
+        "literature class"
+      ],
+      "etymology_hint": "From Latin 'litteratura' meaning 'writing, learning', from 'littera' (letter).",
+      "mnemonic_vi": "LITERATURE — 'líp-tờ-ra-chờ' → 'lít' (chữ) 'rạ' (rải) trên giấy thành tác phẩm = văn học"
+    },
+    {
+      "word": "biology",
+      "lemma": "biology",
+      "ipa": "/baɪˈɒlədʒi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the study of living things — plants, animals, and humans",
+          "meaning_vi": "sinh học; ngành nghiên cứu sự sống",
+          "examples": [
+            {
+              "en": "Biology is interesting because it studies life.",
+              "vi": "Sinh học thú vị vì nó nghiên cứu sự sống."
+            },
+            {
+              "en": "She wants to study biology at ĐH Y Hà Nội.",
+              "vi": "Cô ấy muốn học sinh học ở ĐH Y Hà Nội."
+            },
+            {
+              "en": "Our biology lab has many plant samples.",
+              "vi": "Phòng thí nghiệm sinh học có nhiều mẫu cây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["life science"],
+      "antonyms": [],
+      "collocations": [
+        "biology class",
+        "biology lab",
+        "marine biology",
+        "study biology",
+        "biology teacher"
+      ],
+      "etymology_hint": "From Greek 'bios' (life) + 'logia' (study of).",
+      "mnemonic_vi": "BIOLOGY = BIO (sự sống) + LOGY (học) → học về sự sống = sinh học"
+    },
+    {
+      "word": "chemistry",
+      "lemma": "chemistry",
+      "ipa": "/ˈkemɪstri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the study of what things are made of and how they react together",
+          "meaning_vi": "hóa học; ngành nghiên cứu chất và phản ứng",
+          "examples": [
+            {
+              "en": "Chemistry experiments can be dangerous.",
+              "vi": "Thí nghiệm hóa học có thể nguy hiểm."
+            },
+            { "en": "He failed chemistry in grade 11.", "vi": "Cậu ấy trượt hóa năm lớp 11." },
+            {
+              "en": "She loves the smell of a chemistry lab.",
+              "vi": "Cô ấy thích mùi phòng thí nghiệm hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "chemistry experiment",
+        "chemistry lab",
+        "organic chemistry",
+        "chemistry class",
+        "chemistry teacher"
+      ],
+      "etymology_hint": "From 'alchemy' (Arabic 'al-kīmiyā'), referring to ancient transformation of matter.",
+      "mnemonic_vi": "CHEMISTRY — 'kê-mít-tri' → 'kêu mít trí' khi trộn hóa chất nổ = hóa học"
+    },
+    {
+      "word": "physics",
+      "lemma": "physics",
+      "ipa": "/ˈfɪzɪks/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the science of energy, motion, and matter",
+          "meaning_vi": "vật lý; ngành nghiên cứu năng lượng, chuyển động và vật chất",
+          "examples": [
+            {
+              "en": "Physics explains why apples fall down.",
+              "vi": "Vật lý giải thích vì sao quả táo rơi xuống."
+            },
+            {
+              "en": "She tutors high school physics at home.",
+              "vi": "Cô ấy dạy thêm vật lý cấp 3 tại nhà."
+            },
+            {
+              "en": "Quantum physics is fascinating but hard.",
+              "vi": "Vật lý lượng tử thú vị nhưng khó."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "physics class",
+        "quantum physics",
+        "physics lab",
+        "physics teacher",
+        "study physics"
+      ],
+      "etymology_hint": "From Greek 'physis' meaning 'nature'.",
+      "mnemonic_vi": "PHYSICS — 'phi-dích' → 'phi' (bay) 'dích' (lực) học về lực bay = vật lý"
+    },
+    {
+      "word": "art",
+      "lemma": "art",
+      "ipa": "/ɑːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the creation of paintings, drawings, or other creative works",
+          "meaning_vi": "mỹ thuật, nghệ thuật; môn vẽ",
+          "examples": [
+            { "en": "Art class is on Friday afternoon.", "vi": "Tiết mỹ thuật vào chiều thứ Sáu." },
+            {
+              "en": "She studies art at the Hanoi Fine Arts University.",
+              "vi": "Cô ấy học mỹ thuật tại Đại học Mỹ thuật Hà Nội."
+            },
+            {
+              "en": "Children love art class because it's fun.",
+              "vi": "Trẻ em thích tiết mỹ thuật vì vui."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["science"],
+      "collocations": ["art class", "fine art", "modern art", "art teacher", "art gallery"],
+      "etymology_hint": "From Latin 'ars, artis' meaning 'skill, craft'.",
+      "mnemonic_vi": "ART — 'át' → kỹ năng át hết các môn khác về sáng tạo = mỹ thuật"
+    },
+    {
+      "word": "music",
+      "lemma": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "sounds that are arranged to be sung or played; also the subject of study",
+          "meaning_vi": "âm nhạc; môn nhạc",
+          "examples": [
+            {
+              "en": "She studies music at the Conservatory.",
+              "vi": "Cô ấy học nhạc tại Nhạc viện."
+            },
+            { "en": "Music class is my favourite.", "vi": "Tiết nhạc là tiết tôi thích nhất." },
+            {
+              "en": "I listen to Vietnamese music on Spotify.",
+              "vi": "Tôi nghe nhạc Việt trên Spotify."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "music class",
+        "music teacher",
+        "classical music",
+        "study music",
+        "music school"
+      ],
+      "etymology_hint": "From Greek 'mousikē' = art of the Muses (goddesses of arts).",
+      "mnemonic_vi": "MUSIC — 'miu-dích' → 'miu' (mèo) 'dích' (hát) = âm nhạc"
+    },
+    {
+      "word": "philosophy",
+      "lemma": "philosophy",
+      "ipa": "/fəˈlɒsəfi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the study of basic ideas about knowledge, truth, and life",
+          "meaning_vi": "triết học; ngành nghiên cứu tri thức và lẽ sống",
+          "examples": [
+            {
+              "en": "Eastern philosophy values harmony with nature.",
+              "vi": "Triết học phương Đông coi trọng sự hòa hợp với thiên nhiên."
+            },
+            {
+              "en": "He reads philosophy books in his free time.",
+              "vi": "Anh ấy đọc sách triết học lúc rảnh."
+            },
+            { "en": "My philosophy is: live simply.", "vi": "Triết lý của tôi là: sống đơn giản." }
+          ]
+        }
+      ],
+      "synonyms": ["thought", "wisdom"],
+      "antonyms": [],
+      "collocations": [
+        "Eastern philosophy",
+        "Western philosophy",
+        "study philosophy",
+        "personal philosophy",
+        "philosophy book"
+      ],
+      "etymology_hint": "From Greek 'philos' (loving) + 'sophia' (wisdom) → 'love of wisdom'.",
+      "mnemonic_vi": "PHILOSOPHY — 'phi-lô-sô-phi' → 'phi-lô' kiểu bếp nấu suy nghĩ = triết học"
+    },
+    {
+      "word": "economics",
+      "lemma": "economics",
+      "ipa": "/iːkəˈnɒmɪks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the study of how money, goods, and services are produced and used",
+          "meaning_vi": "kinh tế học; ngành học về kinh tế",
+          "examples": [
+            {
+              "en": "She studies economics at Foreign Trade University.",
+              "vi": "Cô ấy học kinh tế tại Đại học Ngoại thương."
+            },
+            {
+              "en": "Economics helps us understand Vietnam's growth.",
+              "vi": "Kinh tế học giúp ta hiểu sự tăng trưởng của Việt Nam."
+            },
+            {
+              "en": "He gave up engineering to study economics.",
+              "vi": "Anh ấy bỏ kỹ thuật để học kinh tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "study economics",
+        "macro economics",
+        "micro economics",
+        "economics degree",
+        "behavioral economics"
+      ],
+      "etymology_hint": "From Greek 'oikonomia' = 'oikos' (household) + 'nomos' (manage) → 'household management'.",
+      "mnemonic_vi": "ECONOMICS = ECO (nhà) + NOMIC (quản lý) → quản lý nhà cửa rồi đến cả quốc gia = kinh tế học"
+    },
+    {
+      "word": "sociology",
+      "lemma": "sociology",
+      "ipa": "/ˌsəʊsiˈɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the study of human society and how people live together",
+          "meaning_vi": "xã hội học; ngành nghiên cứu xã hội con người",
+          "examples": [
+            {
+              "en": "Sociology helps us understand modern Vietnamese families.",
+              "vi": "Xã hội học giúp ta hiểu gia đình Việt hiện đại."
+            },
+            {
+              "en": "She wrote a sociology paper on Tết traditions.",
+              "vi": "Cô ấy viết bài xã hội học về truyền thống Tết."
+            },
+            {
+              "en": "Sociology and psychology are related fields.",
+              "vi": "Xã hội học và tâm lý học là hai ngành liên quan."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["social science"],
+      "antonyms": [],
+      "collocations": [
+        "study sociology",
+        "urban sociology",
+        "sociology class",
+        "sociology of religion",
+        "sociology professor"
+      ],
+      "etymology_hint": "From Latin 'socius' (companion) + Greek 'logia' (study of) → 'study of companions/society'.",
+      "mnemonic_vi": "SOCIOLOGY = SOCIO (xã hội) + LOGY (học) → học về xã hội = xã hội học"
+    },
+    {
+      "word": "psychology",
+      "lemma": "psychology",
+      "ipa": "/saɪˈkɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the study of the mind and behavior",
+          "meaning_vi": "tâm lý học; ngành nghiên cứu tâm trí và hành vi",
+          "examples": [
+            {
+              "en": "Psychology is becoming popular in Vietnam.",
+              "vi": "Tâm lý học đang phổ biến hơn ở Việt Nam."
+            },
+            {
+              "en": "She majors in psychology at RMIT.",
+              "vi": "Cô ấy học chuyên ngành tâm lý ở RMIT."
+            },
+            {
+              "en": "Child psychology helps parents understand kids.",
+              "vi": "Tâm lý trẻ em giúp cha mẹ hiểu con."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "study psychology",
+        "child psychology",
+        "clinical psychology",
+        "psychology degree",
+        "popular psychology"
+      ],
+      "etymology_hint": "From Greek 'psyche' (soul, mind) + 'logia' (study of).",
+      "mnemonic_vi": "PSYCHOLOGY = PSYCHO (tâm) + LOGY (học) → học về tâm trí = tâm lý học"
+    },
+    {
+      "word": "linguistics",
+      "lemma": "linguistics",
+      "ipa": "/lɪŋˈɡwɪstɪks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the scientific study of language",
+          "meaning_vi": "ngôn ngữ học",
+          "examples": [
+            {
+              "en": "Linguistics studies how Vietnamese tones work.",
+              "vi": "Ngôn ngữ học nghiên cứu cách thanh điệu tiếng Việt vận hành."
+            },
+            {
+              "en": "He has a master's in linguistics.",
+              "vi": "Anh ấy có bằng thạc sĩ ngôn ngữ học."
+            },
+            {
+              "en": "Linguistics is part of language studies.",
+              "vi": "Ngôn ngữ học là một phần của ngành ngôn ngữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["language study"],
+      "antonyms": [],
+      "collocations": [
+        "applied linguistics",
+        "study linguistics",
+        "linguistics professor",
+        "general linguistics",
+        "historical linguistics"
+      ],
+      "etymology_hint": "From Latin 'lingua' (tongue, language) + '-istics' (science of).",
+      "mnemonic_vi": "LINGUISTICS = LINGUA (lưỡi/tiếng) + STICS (môn) → môn về tiếng nói = ngôn ngữ học"
+    },
+    {
+      "word": "algebra",
+      "lemma": "algebra",
+      "ipa": "/ˈældʒɪbrə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a branch of math using letters and symbols to represent numbers",
+          "meaning_vi": "đại số (toán)",
+          "examples": [
+            { "en": "Algebra was hard for me in grade 8.", "vi": "Đại số khó với tôi năm lớp 8." },
+            {
+              "en": "Solve this algebra problem step by step.",
+              "vi": "Giải bài đại số này từng bước một."
+            },
+            { "en": "Algebra uses letters like x and y.", "vi": "Đại số dùng các chữ như x và y." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "solve algebra",
+        "algebra problem",
+        "linear algebra",
+        "algebra class",
+        "basic algebra"
+      ],
+      "etymology_hint": "From Arabic 'al-jabr' meaning 'reunion of broken parts' (9th-century mathematician al-Khwarizmi).",
+      "mnemonic_vi": "ALGEBRA nghe gần 'an-gie-bra' → 'an' rồi 'gãi' đầu khi giải x, y = đại số"
+    },
+    {
+      "word": "geometry",
+      "lemma": "geometry",
+      "ipa": "/dʒiˈɒmətri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the branch of math that studies shapes, lines, and angles",
+          "meaning_vi": "hình học",
+          "examples": [
+            {
+              "en": "Geometry is my favourite branch of math.",
+              "vi": "Hình học là phần toán tôi thích nhất."
+            },
+            {
+              "en": "Triangles and circles are basic geometry.",
+              "vi": "Tam giác và đường tròn là kiến thức hình học cơ bản."
+            },
+            {
+              "en": "She draws geometry diagrams in pencil.",
+              "vi": "Cô ấy vẽ hình học bằng bút chì."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "geometry class",
+        "plane geometry",
+        "solid geometry",
+        "geometry problem",
+        "study geometry"
+      ],
+      "etymology_hint": "From Greek 'geo' (earth) + 'metron' (measure) → 'measuring the earth'.",
+      "mnemonic_vi": "GEOMETRY = GEO (đất) + METRY (đo) → đo đất, đo hình = hình học"
+    },
+    {
+      "word": "grammar",
+      "lemma": "grammar",
+      "ipa": "/ˈɡræmə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the rules of how words are used in a language",
+          "meaning_vi": "ngữ pháp",
+          "examples": [
+            {
+              "en": "English grammar can be tricky for Vietnamese learners.",
+              "vi": "Ngữ pháp tiếng Anh có thể khó cho người học Việt."
+            },
+            {
+              "en": "She bought a grammar book at Fahasa.",
+              "vi": "Cô ấy mua sách ngữ pháp ở Fahasa."
+            },
+            {
+              "en": "His grammar improved a lot this year.",
+              "vi": "Ngữ pháp của cậu ấy tiến bộ nhiều năm nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["syntax"],
+      "antonyms": [],
+      "collocations": [
+        "English grammar",
+        "grammar book",
+        "grammar rules",
+        "grammar exercise",
+        "grammar mistake"
+      ],
+      "etymology_hint": "From Greek 'grammatikē' meaning 'art of letters', from 'gramma' (letter).",
+      "mnemonic_vi": "GRAMMAR — 'gờ-rem-mờ' → 'gờ rèm mờ' che lỗi khi nói = ngữ pháp"
+    },
+    {
+      "word": "vocabulary",
+      "lemma": "vocabulary",
+      "ipa": "/vəˈkæbjələri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "all the words a person knows in a language",
+          "meaning_vi": "từ vựng",
+          "examples": [
+            {
+              "en": "Vietnamese students often have strong English vocabulary.",
+              "vi": "Học sinh Việt thường có vốn từ tiếng Anh tốt."
+            },
+            {
+              "en": "Reading novels improves your vocabulary fast.",
+              "vi": "Đọc tiểu thuyết giúp tăng từ vựng nhanh."
+            },
+            { "en": "Each lesson adds new vocabulary.", "vi": "Mỗi bài học thêm từ vựng mới." }
+          ]
+        }
+      ],
+      "synonyms": ["lexicon", "word list"],
+      "antonyms": [],
+      "collocations": [
+        "build vocabulary",
+        "active vocabulary",
+        "passive vocabulary",
+        "vocabulary list",
+        "expand vocabulary"
+      ],
+      "etymology_hint": "From Latin 'vocabulum' meaning 'name, word'.",
+      "mnemonic_vi": "VOCABULARY = VOCAB (từ) + ULARY (kho) → kho từ = từ vựng"
+    },
+    {
+      "word": "essay",
+      "lemma": "essay",
+      "ipa": "/ˈeseɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short piece of writing on a particular subject",
+          "meaning_vi": "bài luận; bài viết ngắn về một chủ đề",
+          "examples": [
+            {
+              "en": "She wrote an essay about her grandmother.",
+              "vi": "Cô ấy viết bài luận về bà mình."
+            },
+            {
+              "en": "The IELTS essay must be at least 250 words.",
+              "vi": "Bài luận IELTS phải ít nhất 250 từ."
+            },
+            { "en": "He revised his essay three times.", "vi": "Anh ấy sửa bài luận ba lần." }
+          ]
+        }
+      ],
+      "synonyms": ["composition", "paper"],
+      "antonyms": [],
+      "collocations": [
+        "write an essay",
+        "IELTS essay",
+        "essay topic",
+        "academic essay",
+        "submit an essay"
+      ],
+      "etymology_hint": "From Old French 'essai' meaning 'a trial, attempt', from Latin 'exigere' (to weigh).",
+      "mnemonic_vi": "ESSAY — 'ết-sây' → 'ét' (viết) 'xây' (xây ý) thành bài = bài luận"
+    }
+  ]
+}

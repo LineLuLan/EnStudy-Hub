@@ -1,0 +1,8 @@
+{
+  "slug": "education",
+  "name": "Education",
+  "description": "Trường học, môn học và kỹ năng học tập.",
+  "order_index": 6,
+  "icon": "graduation-cap",
+  "color": "#8b5cf6"
+}

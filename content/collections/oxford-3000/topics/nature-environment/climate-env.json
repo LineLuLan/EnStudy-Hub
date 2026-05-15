@@ -1,0 +1,745 @@
+{
+  "slug": "climate-env",
+  "name": "Climate & Environment",
+  "description": "Khí hậu và môi trường.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "climate",
+      "lemma": "climate",
+      "ipa": "/ˈklaɪmət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the usual weather conditions of an area over a long time",
+          "meaning_vi": "khí hậu",
+          "examples": [
+            { "en": "Vietnam has a tropical climate.", "vi": "Việt Nam có khí hậu nhiệt đới." },
+            {
+              "en": "Climate change is a serious problem.",
+              "vi": "Biến đổi khí hậu là vấn đề nghiêm trọng."
+            },
+            {
+              "en": "The climate in Đà Lạt is cool all year.",
+              "vi": "Khí hậu Đà Lạt mát mẻ quanh năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["weather"],
+      "antonyms": [],
+      "collocations": [
+        "tropical climate",
+        "climate change",
+        "climate crisis",
+        "harsh climate",
+        "climate zone"
+      ],
+      "etymology_hint": "From Greek 'klima' meaning 'inclination, region'.",
+      "mnemonic_vi": "CLIMATE — 'klai-mặt' → 'kliêm' (chiêm) thời tiết qua nhiều năm = khí hậu"
+    },
+    {
+      "word": "pollution",
+      "lemma": "pollution",
+      "ipa": "/pəˈluːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the action of making air, water, or land dirty and harmful",
+          "meaning_vi": "sự ô nhiễm",
+          "examples": [
+            {
+              "en": "Air pollution in Hà Nội gets worse each winter.",
+              "vi": "Ô nhiễm không khí Hà Nội tệ hơn mỗi mùa đông."
+            },
+            { "en": "Plastic causes ocean pollution.", "vi": "Nhựa gây ô nhiễm đại dương." },
+            {
+              "en": "We must reduce pollution in cities.",
+              "vi": "Chúng ta phải giảm ô nhiễm ở các thành phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contamination"],
+      "antonyms": [],
+      "collocations": [
+        "air pollution",
+        "water pollution",
+        "reduce pollution",
+        "noise pollution",
+        "pollution level"
+      ],
+      "etymology_hint": "From Latin 'polluere' meaning 'to defile, soil'.",
+      "mnemonic_vi": "POLLUTION = POLLUTE (làm bẩn) + TION → trạng thái bẩn = ô nhiễm"
+    },
+    {
+      "word": "recycle",
+      "lemma": "recycle",
+      "ipa": "/ˌriːˈsaɪkl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to use materials again after treating them, instead of throwing them away",
+          "meaning_vi": "tái chế",
+          "examples": [
+            { "en": "Please recycle your plastic bottles.", "vi": "Xin hãy tái chế chai nhựa." },
+            {
+              "en": "Vietnam started new recycling programs in 2020.",
+              "vi": "Việt Nam bắt đầu các chương trình tái chế từ 2020."
+            },
+            {
+              "en": "Paper, glass, and metal can be recycled.",
+              "vi": "Giấy, thủy tinh và kim loại có thể tái chế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reuse"],
+      "antonyms": [],
+      "collocations": [
+        "recycle waste",
+        "recycle plastic",
+        "recycle paper",
+        "recycle bin",
+        "recycling centre"
+      ],
+      "etymology_hint": "From 're-' (again) + 'cycle' (from Greek 'kyklos' = circle).",
+      "mnemonic_vi": "RECYCLE = RE (lại) + CYCLE (vòng) → quay vòng lại = tái chế"
+    },
+    {
+      "word": "environment",
+      "lemma": "environment",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the natural world of land, sea, air, plants, and animals",
+          "meaning_vi": "môi trường (tự nhiên)",
+          "examples": [
+            { "en": "We must protect the environment.", "vi": "Chúng ta phải bảo vệ môi trường." },
+            { "en": "Pollution harms the environment.", "vi": "Ô nhiễm gây hại cho môi trường." },
+            {
+              "en": "Vietnam is working hard on environment laws.",
+              "vi": "Việt Nam đang nỗ lực với luật về môi trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nature", "surroundings"],
+      "antonyms": [],
+      "collocations": [
+        "protect the environment",
+        "natural environment",
+        "harm the environment",
+        "environment-friendly",
+        "work environment"
+      ],
+      "etymology_hint": "From French 'environner' meaning 'to surround'.",
+      "mnemonic_vi": "ENVIRONMENT — 'en-vai-rần-mần' → 'in vây' quanh ta = môi trường"
+    },
+    {
+      "word": "ecosystem",
+      "lemma": "ecosystem",
+      "ipa": "/ˈiːkəʊsɪstəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "all the living things and the place they live in, working together",
+          "meaning_vi": "hệ sinh thái",
+          "examples": [
+            {
+              "en": "The Mekong ecosystem is rich and complex.",
+              "vi": "Hệ sinh thái Mê Kông phong phú và phức tạp."
+            },
+            {
+              "en": "Climate change threatens many ecosystems.",
+              "vi": "Biến đổi khí hậu đe doạ nhiều hệ sinh thái."
+            },
+            {
+              "en": "Each forest has its own ecosystem.",
+              "vi": "Mỗi khu rừng có hệ sinh thái riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "forest ecosystem",
+        "marine ecosystem",
+        "fragile ecosystem",
+        "protect the ecosystem",
+        "ecosystem services"
+      ],
+      "etymology_hint": "From 'eco-' (Greek 'oikos' = home) + 'system'.",
+      "mnemonic_vi": "ECOSYSTEM = ECO (nhà sinh thái) + SYSTEM (hệ) → hệ sinh thái"
+    },
+    {
+      "word": "species",
+      "lemma": "species",
+      "ipa": "/ˈspiːʃiːz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a group of animals or plants that are similar and can have young together",
+          "meaning_vi": "loài (sinh vật)",
+          "examples": [
+            {
+              "en": "Cúc Phương is home to many rare species.",
+              "vi": "Cúc Phương là nhà của nhiều loài quý hiếm."
+            },
+            {
+              "en": "Some bird species migrate every year.",
+              "vi": "Một số loài chim di cư mỗi năm."
+            },
+            {
+              "en": "Scientists discovered a new species of frog.",
+              "vi": "Các nhà khoa học phát hiện một loài ếch mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["kind", "type"],
+      "antonyms": [],
+      "collocations": [
+        "rare species",
+        "endangered species",
+        "new species",
+        "plant species",
+        "animal species"
+      ],
+      "etymology_hint": "From Latin 'species' meaning 'appearance, kind'.",
+      "mnemonic_vi": "SPECIES — 'sờ-pi-shi-zờ' → 'sạch' nhóm gần giống nhau = loài"
+    },
+    {
+      "word": "habitat",
+      "lemma": "habitat",
+      "ipa": "/ˈhæbɪtæt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the natural home of a plant or animal",
+          "meaning_vi": "môi trường sống (của một loài)",
+          "examples": [
+            {
+              "en": "The mangrove forest is the habitat of many crabs.",
+              "vi": "Rừng ngập mặn là môi trường sống của nhiều loài cua."
+            },
+            {
+              "en": "Deforestation destroys animal habitats.",
+              "vi": "Phá rừng phá huỷ môi trường sống của động vật."
+            },
+            {
+              "en": "Each species has its own habitat.",
+              "vi": "Mỗi loài có môi trường sống riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["environment"],
+      "antonyms": [],
+      "collocations": [
+        "natural habitat",
+        "destroy a habitat",
+        "protect a habitat",
+        "marine habitat",
+        "forest habitat"
+      ],
+      "etymology_hint": "From Latin 'habitat' meaning 'it inhabits', from 'habitare' (to dwell).",
+      "mnemonic_vi": "HABITAT — 'hép-bi-tét' → 'háp' nhà (nơi) sống của loài = môi trường sống"
+    },
+    {
+      "word": "extinct",
+      "lemma": "extinct",
+      "ipa": "/ɪkˈstɪŋkt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "no longer existing; (of a species) all dead",
+          "meaning_vi": "tuyệt chủng",
+          "examples": [
+            {
+              "en": "Some Vietnamese rhinos are now extinct.",
+              "vi": "Một số loài tê giác Việt Nam đã tuyệt chủng."
+            },
+            {
+              "en": "Dinosaurs went extinct millions of years ago.",
+              "vi": "Khủng long tuyệt chủng cách đây hàng triệu năm."
+            },
+            {
+              "en": "We must save species before they become extinct.",
+              "vi": "Phải cứu các loài trước khi chúng tuyệt chủng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gone", "vanished"],
+      "antonyms": ["living", "extant"],
+      "collocations": [
+        "become extinct",
+        "go extinct",
+        "nearly extinct",
+        "extinct species",
+        "extinct volcano"
+      ],
+      "etymology_hint": "From Latin 'extinctus' meaning 'put out, quenched'.",
+      "mnemonic_vi": "EXTINCT — 'ếch-tịnh' → 'ếch' (hết) 'tịnh' (lặng) = tuyệt chủng"
+    },
+    {
+      "word": "conserve",
+      "lemma": "conserve",
+      "ipa": "/kənˈsɜːv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to protect something from being lost, wasted, or damaged",
+          "meaning_vi": "bảo tồn, giữ gìn",
+          "examples": [
+            {
+              "en": "We need to conserve water during the dry season.",
+              "vi": "Phải tiết kiệm nước trong mùa khô."
+            },
+            {
+              "en": "Vietnam works to conserve wildlife.",
+              "vi": "Việt Nam nỗ lực bảo tồn động vật hoang dã."
+            },
+            {
+              "en": "Use less plastic to conserve the environment.",
+              "vi": "Dùng ít nhựa để bảo vệ môi trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["preserve", "save"],
+      "antonyms": ["waste", "destroy"],
+      "collocations": [
+        "conserve energy",
+        "conserve water",
+        "conserve wildlife",
+        "conserve resources",
+        "conserve nature"
+      ],
+      "etymology_hint": "From Latin 'conservare' meaning 'to keep, protect'.",
+      "mnemonic_vi": "CONSERVE = CON (cùng) + SERVE (giữ) → cùng nhau giữ = bảo tồn"
+    },
+    {
+      "word": "sustainable",
+      "lemma": "sustainable",
+      "ipa": "/səˈsteɪnəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to continue for a long time without damaging the environment",
+          "meaning_vi": "bền vững (về môi trường, kinh tế)",
+          "examples": [
+            {
+              "en": "We need sustainable energy sources.",
+              "vi": "Chúng ta cần nguồn năng lượng bền vững."
+            },
+            {
+              "en": "Vietnam promotes sustainable tourism in Hội An.",
+              "vi": "Việt Nam thúc đẩy du lịch bền vững ở Hội An."
+            },
+            {
+              "en": "Sustainable farming protects the land.",
+              "vi": "Nông nghiệp bền vững bảo vệ đất đai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lasting", "viable"],
+      "antonyms": ["unsustainable"],
+      "collocations": [
+        "sustainable development",
+        "sustainable energy",
+        "sustainable farming",
+        "sustainable tourism",
+        "sustainable lifestyle"
+      ],
+      "etymology_hint": "From 'sustain' (Latin 'sustinere' = to hold up) + '-able'.",
+      "mnemonic_vi": "SUSTAINABLE = SUSTAIN (giữ vững) + ABLE → có thể giữ vững = bền vững"
+    },
+    {
+      "word": "renewable",
+      "lemma": "renewable",
+      "ipa": "/rɪˈnjuːəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of energy) able to be made again naturally, such as solar or wind",
+          "meaning_vi": "(năng lượng) tái tạo được",
+          "examples": [
+            {
+              "en": "Solar power is a renewable energy.",
+              "vi": "Năng lượng mặt trời là năng lượng tái tạo."
+            },
+            {
+              "en": "Wind farms in Bạc Liêu use renewable energy.",
+              "vi": "Các trang trại điện gió ở Bạc Liêu dùng năng lượng tái tạo."
+            },
+            {
+              "en": "Renewable resources help fight climate change.",
+              "vi": "Tài nguyên tái tạo giúp chống biến đổi khí hậu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["non-renewable"],
+      "collocations": [
+        "renewable energy",
+        "renewable resources",
+        "renewable source",
+        "renewable power",
+        "renewable electricity"
+      ],
+      "etymology_hint": "From 'renew' (re- + new) + '-able'.",
+      "mnemonic_vi": "RENEWABLE = RE (lại) + NEW (mới) + ABLE → có thể làm mới lại = tái tạo"
+    },
+    {
+      "word": "fossil fuel",
+      "lemma": "fossil fuel",
+      "ipa": "/ˈfɒsl fjuːəl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a fuel like coal, oil, or gas made from ancient plants and animals underground",
+          "meaning_vi": "nhiên liệu hóa thạch (than, dầu, khí)",
+          "examples": [
+            {
+              "en": "Burning fossil fuels causes air pollution.",
+              "vi": "Đốt nhiên liệu hóa thạch gây ô nhiễm không khí."
+            },
+            {
+              "en": "The world wants to reduce fossil fuel use.",
+              "vi": "Thế giới muốn giảm dùng nhiên liệu hóa thạch."
+            },
+            {
+              "en": "Coal is the dirtiest fossil fuel.",
+              "vi": "Than đá là nhiên liệu hóa thạch bẩn nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["renewable energy"],
+      "collocations": [
+        "burn fossil fuel",
+        "reduce fossil fuel",
+        "fossil fuel industry",
+        "fossil fuel emissions",
+        "depend on fossil fuel"
+      ],
+      "etymology_hint": "Compound 'fossil' (Latin 'fossilis' = dug up) + 'fuel'.",
+      "mnemonic_vi": "FOSSIL FUEL = FOSSIL (hóa thạch) + FUEL (nhiên liệu) → nhiên liệu hóa thạch"
+    },
+    {
+      "word": "greenhouse",
+      "lemma": "greenhouse",
+      "ipa": "/ˈɡriːnhaʊs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a glass building for growing plants; or (figurative) the effect of trapped gases warming the Earth",
+          "meaning_vi": "nhà kính (trồng cây) — cũng dùng cho 'hiệu ứng nhà kính' nóng lên toàn cầu",
+          "examples": [
+            {
+              "en": "Đà Lạt farmers grow strawberries in greenhouses.",
+              "vi": "Nông dân Đà Lạt trồng dâu trong nhà kính."
+            },
+            {
+              "en": "Greenhouse gases warm the planet.",
+              "vi": "Khí nhà kính làm Trái Đất nóng lên."
+            },
+            { "en": "CO2 is a major greenhouse gas.", "vi": "CO2 là khí nhà kính chính." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "greenhouse effect",
+        "greenhouse gas",
+        "greenhouse farm",
+        "tropical greenhouse",
+        "build a greenhouse"
+      ],
+      "etymology_hint": "Compound 'green' + 'house' — a house for green plants.",
+      "mnemonic_vi": "GREENHOUSE = GREEN (xanh) + HOUSE (nhà) → nhà cho cây xanh = nhà kính"
+    },
+    {
+      "word": "deforestation",
+      "lemma": "deforestation",
+      "ipa": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cutting down of large numbers of trees, especially in forests",
+          "meaning_vi": "nạn phá rừng",
+          "examples": [
+            {
+              "en": "Deforestation causes flooding in central Vietnam.",
+              "vi": "Nạn phá rừng gây lũ lụt ở miền Trung Việt Nam."
+            },
+            {
+              "en": "Many animals lose homes due to deforestation.",
+              "vi": "Nhiều động vật mất nhà do nạn phá rừng."
+            },
+            {
+              "en": "Stopping deforestation helps fight climate change.",
+              "vi": "Ngừng phá rừng giúp chống biến đổi khí hậu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["reforestation"],
+      "collocations": [
+        "stop deforestation",
+        "tropical deforestation",
+        "fight deforestation",
+        "deforestation rate",
+        "illegal deforestation"
+      ],
+      "etymology_hint": "From 'de-' (removal) + 'forest' + '-ation' (action of).",
+      "mnemonic_vi": "DEFORESTATION = DE (bỏ) + FOREST (rừng) → bỏ rừng = phá rừng"
+    },
+    {
+      "word": "biodiversity",
+      "lemma": "biodiversity",
+      "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the variety of plant and animal life in a place",
+          "meaning_vi": "đa dạng sinh học",
+          "examples": [
+            { "en": "Vietnam is rich in biodiversity.", "vi": "Việt Nam giàu đa dạng sinh học." },
+            {
+              "en": "Biodiversity is falling worldwide.",
+              "vi": "Đa dạng sinh học đang giảm trên toàn thế giới."
+            },
+            {
+              "en": "National parks protect biodiversity.",
+              "vi": "Các vườn quốc gia bảo vệ đa dạng sinh học."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "rich biodiversity",
+        "protect biodiversity",
+        "marine biodiversity",
+        "lose biodiversity",
+        "biodiversity hotspot"
+      ],
+      "etymology_hint": "From 'bio-' (Greek 'bios' = life) + 'diversity' (Latin 'diversitas').",
+      "mnemonic_vi": "BIODIVERSITY = BIO (sinh) + DIVERSITY (đa dạng) → đa dạng sinh học"
+    },
+    {
+      "word": "glacier",
+      "lemma": "glacier",
+      "ipa": "/ˈɡlæsiə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large mass of ice that moves slowly over land",
+          "meaning_vi": "sông băng",
+          "examples": [
+            {
+              "en": "Glaciers are melting because of climate change.",
+              "vi": "Các sông băng đang tan vì biến đổi khí hậu."
+            },
+            { "en": "Vietnam doesn't have glaciers.", "vi": "Việt Nam không có sông băng." },
+            {
+              "en": "Some glaciers are thousands of years old.",
+              "vi": "Có những sông băng hàng nghìn năm tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ice sheet"],
+      "antonyms": [],
+      "collocations": [
+        "melt a glacier",
+        "ancient glacier",
+        "glacier retreat",
+        "Arctic glacier",
+        "glacier ice"
+      ],
+      "etymology_hint": "From French 'glacier', from 'glace' (ice) → 'ice river'.",
+      "mnemonic_vi": "GLACIER — 'glây-shà' → 'gồ' (đông) 'lạnh xa' = sông băng"
+    },
+    {
+      "word": "ozone",
+      "lemma": "ozone",
+      "ipa": "/ˈəʊzəʊn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a gas in the upper atmosphere that protects Earth from harmful sunlight",
+          "meaning_vi": "khí ozone (lớp bảo vệ Trái Đất)",
+          "examples": [
+            {
+              "en": "The ozone layer protects us from UV rays.",
+              "vi": "Tầng ozone bảo vệ chúng ta khỏi tia UV."
+            },
+            {
+              "en": "Old fridges damaged the ozone layer.",
+              "vi": "Tủ lạnh cũ làm hỏng tầng ozone."
+            },
+            {
+              "en": "Scientists found a hole in the ozone.",
+              "vi": "Các nhà khoa học tìm thấy lỗ thủng tầng ozone."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "ozone layer",
+        "ozone hole",
+        "protect the ozone",
+        "ozone depletion",
+        "ground-level ozone"
+      ],
+      "etymology_hint": "From Greek 'ozein' meaning 'to smell' — ozone has a sharp smell.",
+      "mnemonic_vi": "OZONE — 'âu-zôn' → 'ô-zôn' bảo vệ trái đất = ozone"
+    },
+    {
+      "word": "emission",
+      "lemma": "emission",
+      "ipa": "/iˈmɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "gas or other substances sent out into the air",
+          "meaning_vi": "khí thải; sự phát thải",
+          "examples": [
+            {
+              "en": "Car emissions cause air pollution.",
+              "vi": "Khí thải xe gây ô nhiễm không khí."
+            },
+            {
+              "en": "Vietnam aims to cut emissions by 2050.",
+              "vi": "Việt Nam đặt mục tiêu giảm khí thải vào năm 2050."
+            },
+            {
+              "en": "Factories must control their emissions.",
+              "vi": "Nhà máy phải kiểm soát khí thải."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["discharge", "release"],
+      "antonyms": [],
+      "collocations": [
+        "carbon emissions",
+        "reduce emissions",
+        "vehicle emissions",
+        "greenhouse emissions",
+        "emissions target"
+      ],
+      "etymology_hint": "From Latin 'emissio' meaning 'a sending out', from 'emittere'.",
+      "mnemonic_vi": "EMISSION = EMIT (phát ra) + ION → việc phát ra = khí thải"
+    },
+    {
+      "word": "carbon",
+      "lemma": "carbon",
+      "ipa": "/ˈkɑːbən/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a chemical element found in all living things and many fuels; key driver of climate change",
+          "meaning_vi": "carbon; nguyên tố hóa học chính trong sự sống và nhiên liệu",
+          "examples": [
+            {
+              "en": "Burning fuel releases carbon into the air.",
+              "vi": "Đốt nhiên liệu thải carbon vào không khí."
+            },
+            {
+              "en": "Carbon footprint measures your impact on climate.",
+              "vi": "Dấu chân carbon đo tác động của bạn lên khí hậu."
+            },
+            {
+              "en": "Vietnam joined the global carbon market in 2023.",
+              "vi": "Việt Nam tham gia thị trường carbon toàn cầu từ 2023."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "carbon footprint",
+        "carbon emissions",
+        "carbon dioxide",
+        "low carbon",
+        "carbon neutral"
+      ],
+      "etymology_hint": "From Latin 'carbo' meaning 'coal'.",
+      "mnemonic_vi": "CARBON — 'cá-bần' → 'cá' (chất) sinh ra mọi sự sống = carbon"
+    },
+    {
+      "word": "eco-friendly",
+      "lemma": "eco-friendly",
+      "ipa": "/ˌiːkəʊ ˈfrendli/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "not harmful to the environment",
+          "meaning_vi": "thân thiện với môi trường",
+          "examples": [
+            {
+              "en": "These bags are made of eco-friendly material.",
+              "vi": "Những chiếc túi này làm từ vật liệu thân thiện môi trường."
+            },
+            {
+              "en": "She buys eco-friendly cosmetics.",
+              "vi": "Cô ấy mua mỹ phẩm thân thiện môi trường."
+            },
+            {
+              "en": "Vietnam encourages eco-friendly tourism.",
+              "vi": "Việt Nam khuyến khích du lịch thân thiện môi trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["environmentally friendly", "green"],
+      "antonyms": [],
+      "collocations": [
+        "eco-friendly product",
+        "eco-friendly tourism",
+        "eco-friendly packaging",
+        "eco-friendly lifestyle",
+        "eco-friendly material"
+      ],
+      "etymology_hint": "Compound 'eco-' (Greek 'oikos' = home, environment) + 'friendly'.",
+      "mnemonic_vi": "ECO-FRIENDLY = ECO (môi trường) + FRIENDLY (thân thiện) → thân thiện môi trường"
+    }
+  ]
+}

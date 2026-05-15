@@ -1,0 +1,682 @@
+{
+  "slug": "sports-games",
+  "name": "Sports & Games",
+  "description": "Các môn thể thao và trò chơi.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "sport",
+      "lemma": "sport",
+      "ipa": "/spɔːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a physical activity or game played for fun or competition",
+          "meaning_vi": "thể thao; môn thể thao",
+          "examples": [
+            {
+              "en": "Football is the most popular sport in Vietnam.",
+              "vi": "Bóng đá là môn thể thao phổ biến nhất ở Việt Nam."
+            },
+            { "en": "He plays sports every weekend.", "vi": "Anh ấy chơi thể thao mỗi cuối tuần." },
+            { "en": "Sport is good for your health.", "vi": "Thể thao tốt cho sức khoẻ." }
+          ]
+        }
+      ],
+      "synonyms": ["athletics"],
+      "antonyms": [],
+      "collocations": [
+        "play a sport",
+        "team sport",
+        "favourite sport",
+        "winter sport",
+        "sports day"
+      ],
+      "etymology_hint": "Shortened from Old French 'desporter' meaning 'to amuse oneself'.",
+      "mnemonic_vi": "SPORT — 'sờ-pót' → 'sờ pót' (vục dậy) khoẻ mạnh = thể thao"
+    },
+    {
+      "word": "football",
+      "lemma": "football",
+      "ipa": "/ˈfʊtbɔːl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a game played by two teams of 11 players kicking a ball into a goal",
+          "meaning_vi": "bóng đá",
+          "examples": [
+            {
+              "en": "The Vietnamese football team beat Thailand 1-0.",
+              "vi": "Đội bóng đá Việt Nam thắng Thái Lan 1-0."
+            },
+            {
+              "en": "He plays football in the local park.",
+              "vi": "Cậu ấy chơi bóng đá ở công viên gần nhà."
+            },
+            {
+              "en": "Mỹ Đình Stadium hosts football matches.",
+              "vi": "Sân Mỹ Đình tổ chức các trận bóng đá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["soccer"],
+      "antonyms": [],
+      "collocations": [
+        "play football",
+        "football team",
+        "football match",
+        "football fan",
+        "football stadium"
+      ],
+      "etymology_hint": "Compound 'foot' + 'ball'.",
+      "mnemonic_vi": "FOOTBALL = FOOT (chân) + BALL (banh) → đá bóng bằng chân = bóng đá"
+    },
+    {
+      "word": "basketball",
+      "lemma": "basketball",
+      "ipa": "/ˈbɑːskɪtbɔːl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a game played by two teams of five who throw a ball into a high basket",
+          "meaning_vi": "bóng rổ",
+          "examples": [
+            {
+              "en": "Basketball is popular at Vietnamese universities.",
+              "vi": "Bóng rổ phổ biến ở các trường đại học Việt Nam."
+            },
+            {
+              "en": "He's very tall, so he plays basketball well.",
+              "vi": "Cậu ấy cao nên chơi bóng rổ giỏi."
+            },
+            {
+              "en": "The basketball court is behind the school.",
+              "vi": "Sân bóng rổ ở phía sau trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play basketball",
+        "basketball team",
+        "basketball court",
+        "basketball coach",
+        "professional basketball"
+      ],
+      "etymology_hint": "Compound 'basket' + 'ball' — named for the original peach baskets used as goals.",
+      "mnemonic_vi": "BASKETBALL = BASKET (rổ) + BALL (banh) → bóng rổ"
+    },
+    {
+      "word": "tennis",
+      "lemma": "tennis",
+      "ipa": "/ˈtenɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a sport in which two or four players hit a ball over a net using rackets",
+          "meaning_vi": "quần vợt",
+          "examples": [
+            {
+              "en": "She plays tennis on Sunday mornings.",
+              "vi": "Cô ấy chơi quần vợt sáng Chủ nhật."
+            },
+            {
+              "en": "Lý Hoàng Nam is a famous Vietnamese tennis player.",
+              "vi": "Lý Hoàng Nam là tay vợt nổi tiếng của Việt Nam."
+            },
+            { "en": "Tennis requires a good racket.", "vi": "Chơi quần vợt cần cây vợt tốt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play tennis",
+        "tennis court",
+        "tennis racket",
+        "tennis match",
+        "tennis player"
+      ],
+      "etymology_hint": "From Old French 'tenez!' meaning 'take it!' — what the server said before hitting.",
+      "mnemonic_vi": "TENNIS — 'ten-nít' → 'ten' (đè) 'nít' (đập) bóng qua lưới = quần vợt"
+    },
+    {
+      "word": "badminton",
+      "lemma": "badminton",
+      "ipa": "/ˈbædmɪntən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a sport in which players hit a shuttlecock over a net using light rackets",
+          "meaning_vi": "cầu lông",
+          "examples": [
+            {
+              "en": "Badminton is very popular in Vietnam.",
+              "vi": "Cầu lông rất phổ biến ở Việt Nam."
+            },
+            {
+              "en": "Tiến Minh is Vietnam's most famous badminton player.",
+              "vi": "Tiến Minh là tay vợt cầu lông nổi tiếng nhất Việt Nam."
+            },
+            {
+              "en": "We play badminton in the park after school.",
+              "vi": "Chúng tôi chơi cầu lông ở công viên sau giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play badminton",
+        "badminton racket",
+        "badminton court",
+        "badminton shuttle",
+        "badminton tournament"
+      ],
+      "etymology_hint": "Named after Badminton House in England, where the modern game was developed.",
+      "mnemonic_vi": "BADMINTON — 'bát-mìn-tần' → 'bắt' rồi 'mìn' (đập) cầu = cầu lông"
+    },
+    {
+      "word": "swimming",
+      "lemma": "swimming",
+      "ipa": "/ˈswɪmɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the activity or sport of moving through water using your body",
+          "meaning_vi": "bơi lội",
+          "examples": [
+            { "en": "Swimming is good for the whole body.", "vi": "Bơi lội tốt cho toàn cơ thể." },
+            { "en": "She goes swimming every Saturday.", "vi": "Cô ấy đi bơi mỗi thứ Bảy." },
+            { "en": "The swimming pool opens at 6am.", "vi": "Bể bơi mở cửa lúc 6 giờ sáng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go swimming",
+        "swimming pool",
+        "swimming lesson",
+        "competitive swimming",
+        "swimming costume"
+      ],
+      "etymology_hint": "From Old English 'swimman' meaning 'to swim'.",
+      "mnemonic_vi": "SWIMMING — 'sờ-vim-ming' → 'sờ' nước 'vịm' chân = bơi"
+    },
+    {
+      "word": "running",
+      "lemma": "running",
+      "ipa": "/ˈrʌnɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the activity of moving fast on your feet",
+          "meaning_vi": "chạy bộ",
+          "examples": [
+            {
+              "en": "Running is my favourite exercise.",
+              "vi": "Chạy bộ là bài tập tôi thích nhất."
+            },
+            {
+              "en": "She does running around West Lake every morning.",
+              "vi": "Cô ấy chạy quanh Hồ Tây mỗi sáng."
+            },
+            {
+              "en": "VnExpress Marathon attracts thousands of runners.",
+              "vi": "Giải VnExpress Marathon thu hút hàng nghìn người chạy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["jogging"],
+      "antonyms": ["walking"],
+      "collocations": [
+        "go running",
+        "running shoes",
+        "running track",
+        "long-distance running",
+        "morning running"
+      ],
+      "etymology_hint": "From 'run' + '-ing'.",
+      "mnemonic_vi": "RUNNING = RUN (chạy) + ING → đang chạy = chạy bộ"
+    },
+    {
+      "word": "cycling",
+      "lemma": "cycling",
+      "ipa": "/ˈsaɪklɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the sport or activity of riding a bicycle",
+          "meaning_vi": "đạp xe; môn xe đạp",
+          "examples": [
+            { "en": "Cycling around Hội An is fun.", "vi": "Đạp xe quanh Hội An rất vui." },
+            { "en": "He goes cycling on weekends.", "vi": "Anh ấy đạp xe vào cuối tuần." },
+            {
+              "en": "Vietnam hosts an annual cycling race.",
+              "vi": "Việt Nam tổ chức cuộc đua xe đạp hàng năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["biking"],
+      "antonyms": [],
+      "collocations": [
+        "go cycling",
+        "cycling race",
+        "mountain cycling",
+        "cycling tour",
+        "cycling shorts"
+      ],
+      "etymology_hint": "From 'cycle' (Greek 'kyklos' = circle) + '-ing'.",
+      "mnemonic_vi": "CYCLING = CYCLE (xe đạp) + ING → đang chạy xe đạp = đạp xe"
+    },
+    {
+      "word": "yoga",
+      "lemma": "yoga",
+      "ipa": "/ˈjəʊɡə/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a set of exercises that mix stretching, breathing, and meditation",
+          "meaning_vi": "yoga; bộ môn yoga",
+          "examples": [
+            {
+              "en": "She does yoga every morning at California Fitness.",
+              "vi": "Cô ấy tập yoga mỗi sáng ở California Fitness."
+            },
+            { "en": "Yoga helps reduce stress.", "vi": "Yoga giúp giảm căng thẳng." },
+            { "en": "Many Vietnamese women love yoga.", "vi": "Nhiều phụ nữ Việt yêu yoga." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["do yoga", "yoga class", "yoga mat", "yoga instructor", "hot yoga"],
+      "etymology_hint": "From Sanskrit 'yoga' meaning 'union, joining'.",
+      "mnemonic_vi": "YOGA — 'gô-gờ' → 'gô' (gò) cơ thể 'gờ' (chuyển) = yoga"
+    },
+    {
+      "word": "gym",
+      "lemma": "gym",
+      "ipa": "/dʒɪm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where people exercise with machines and weights",
+          "meaning_vi": "phòng tập gym; phòng thể hình",
+          "examples": [
+            {
+              "en": "He goes to the gym three times a week.",
+              "vi": "Anh ấy đến phòng gym ba lần một tuần."
+            },
+            {
+              "en": "California Fitness gym opens 24 hours.",
+              "vi": "Phòng gym California Fitness mở 24 giờ."
+            },
+            { "en": "She made friends at the gym.", "vi": "Cô ấy kết bạn ở phòng gym." }
+          ]
+        }
+      ],
+      "synonyms": ["fitness center"],
+      "antonyms": [],
+      "collocations": ["go to the gym", "join a gym", "gym workout", "gym class", "local gym"],
+      "etymology_hint": "Shortened from 'gymnasium', from Greek 'gymnasion' (place for exercise).",
+      "mnemonic_vi": "GYM — 'dim' → 'gim' (rèn) cơ bắp = phòng gym"
+    },
+    {
+      "word": "match",
+      "lemma": "match",
+      "ipa": "/mætʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a sports competition between two teams or players",
+          "meaning_vi": "trận đấu",
+          "examples": [
+            {
+              "en": "The football match starts at 7pm.",
+              "vi": "Trận bóng đá bắt đầu lúc 7 giờ tối."
+            },
+            { "en": "Vietnam won the match 2-1.", "vi": "Việt Nam thắng trận 2-1." },
+            {
+              "en": "We watched the tennis match on TV.",
+              "vi": "Chúng tôi xem trận tennis trên TV."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["game", "contest"],
+      "antonyms": [],
+      "collocations": [
+        "football match",
+        "win a match",
+        "play a match",
+        "exciting match",
+        "friendly match"
+      ],
+      "etymology_hint": "From Old English 'gemæcca' meaning 'mate, equal'.",
+      "mnemonic_vi": "MATCH — 'mét-ch' → 'mệt' khi đối đầu = trận đấu"
+    },
+    {
+      "word": "score",
+      "lemma": "score",
+      "ipa": "/skɔː(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the points each team or player has in a game",
+          "meaning_vi": "tỉ số (trong trận đấu)",
+          "examples": [
+            { "en": "The final score was 3-2.", "vi": "Tỉ số chung cuộc là 3-2." },
+            { "en": "What's the score now?", "vi": "Tỉ số giờ là bao nhiêu?" },
+            {
+              "en": "Vietnam led the score until the last minute.",
+              "vi": "Việt Nam dẫn tỉ số đến phút cuối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["result"],
+      "antonyms": [],
+      "collocations": ["final score", "keep score", "even score", "high score", "score a goal"],
+      "etymology_hint": "From Old Norse 'skor' meaning 'notch, tally'.",
+      "mnemonic_vi": "SCORE — 'sờ-coa' → 'sờ' bảng 'coa' (đếm) = tỉ số"
+    },
+    {
+      "word": "team",
+      "lemma": "team",
+      "ipa": "/tiːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a group of people who play or work together",
+          "meaning_vi": "đội (thể thao); nhóm làm việc",
+          "examples": [
+            { "en": "Our team won the championship.", "vi": "Đội chúng tôi giành chức vô địch." },
+            {
+              "en": "She is the captain of the volleyball team.",
+              "vi": "Cô ấy là đội trưởng đội bóng chuyền."
+            },
+            {
+              "en": "Teamwork makes the dream work.",
+              "vi": "Làm việc nhóm giúp giấc mơ thành hiện thực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["squad", "side"],
+      "antonyms": [],
+      "collocations": [
+        "football team",
+        "team captain",
+        "team work",
+        "join a team",
+        "national team"
+      ],
+      "etymology_hint": "From Old English 'tēam' meaning 'set of draft animals yoked together'.",
+      "mnemonic_vi": "TEAM — 'tim' → 'tim' chung nhịp đập = đội"
+    },
+    {
+      "word": "player",
+      "lemma": "player",
+      "ipa": "/ˈpleɪə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person who plays a sport or game",
+          "meaning_vi": "người chơi; vận động viên",
+          "examples": [
+            {
+              "en": "Công Phượng is a famous Vietnamese player.",
+              "vi": "Công Phượng là cầu thủ Việt Nam nổi tiếng."
+            },
+            {
+              "en": "Each player wears a number on their shirt.",
+              "vi": "Mỗi cầu thủ đeo một số áo."
+            },
+            {
+              "en": "She's the best player on the team.",
+              "vi": "Cô ấy là người chơi giỏi nhất đội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["athlete"],
+      "antonyms": [],
+      "collocations": [
+        "football player",
+        "tennis player",
+        "professional player",
+        "team player",
+        "best player"
+      ],
+      "etymology_hint": "From 'play' (Old English 'plegian') + '-er'.",
+      "mnemonic_vi": "PLAYER = PLAY (chơi) + ER (người) → người chơi"
+    },
+    {
+      "word": "coach",
+      "lemma": "coach",
+      "ipa": "/kəʊtʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who trains players or a sports team",
+          "meaning_vi": "huấn luyện viên",
+          "examples": [
+            {
+              "en": "Park Hang-seo was the coach of Vietnam's football team.",
+              "vi": "Park Hang-seo từng là HLV đội tuyển bóng đá Việt Nam."
+            },
+            {
+              "en": "Our coach is strict but fair.",
+              "vi": "HLV của chúng tôi nghiêm khắc nhưng công bằng."
+            },
+            { "en": "She works with a private fitness coach.", "vi": "Cô ấy tập với HLV cá nhân." }
+          ]
+        }
+      ],
+      "synonyms": ["trainer", "instructor"],
+      "antonyms": [],
+      "collocations": [
+        "football coach",
+        "head coach",
+        "fitness coach",
+        "team coach",
+        "personal coach"
+      ],
+      "etymology_hint": "From Hungarian 'kocsi' (carriage from Kocs) — meaning 'a vehicle that carries you to your goal'.",
+      "mnemonic_vi": "COACH — 'cô-ch' → 'cọ' (rèn) đội = HLV"
+    },
+    {
+      "word": "win",
+      "lemma": "win",
+      "ipa": "/wɪn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to come first or get the best result in a competition",
+          "meaning_vi": "thắng, chiến thắng",
+          "examples": [
+            {
+              "en": "Vietnam won the SEA Games gold medal.",
+              "vi": "Việt Nam thắng huy chương vàng SEA Games."
+            },
+            { "en": "Our team always wants to win.", "vi": "Đội chúng tôi luôn muốn chiến thắng." },
+            {
+              "en": "She won first place in the math contest.",
+              "vi": "Cô ấy giành giải nhất kỳ thi toán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beat", "triumph"],
+      "antonyms": ["lose"],
+      "collocations": [
+        "win a match",
+        "win a medal",
+        "win a prize",
+        "win easily",
+        "win the championship"
+      ],
+      "etymology_hint": "From Old English 'winnan' meaning 'to work, fight'.",
+      "mnemonic_vi": "WIN — 'win' → giơ cao tay WIN → thắng"
+    },
+    {
+      "word": "lose",
+      "lemma": "lose",
+      "ipa": "/luːz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to not win a game or competition",
+          "meaning_vi": "thua (cuộc); thất bại",
+          "examples": [
+            {
+              "en": "We lost the match by one goal.",
+              "vi": "Chúng tôi thua trận đấu cách biệt một bàn."
+            },
+            { "en": "Nobody likes to lose.", "vi": "Không ai thích thua." },
+            {
+              "en": "She lost the tennis final yesterday.",
+              "vi": "Cô ấy thua trận chung kết tennis hôm qua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fail"],
+      "antonyms": ["win"],
+      "collocations": ["lose a match", "lose a game", "lose badly", "lose the final", "lose to"],
+      "etymology_hint": "From Old English 'losian' meaning 'to perish, be lost'.",
+      "mnemonic_vi": "LOSE — 'luz' → 'lụt' xuống = thua"
+    },
+    {
+      "word": "draw",
+      "lemma": "draw",
+      "ipa": "/drɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a game that ends with the same score for both sides",
+          "meaning_vi": "trận hoà; tỉ số hoà",
+          "examples": [
+            {
+              "en": "The match ended in a 1-1 draw.",
+              "vi": "Trận đấu kết thúc với tỉ số hoà 1-1."
+            },
+            { "en": "A draw is better than a loss.", "vi": "Hoà còn tốt hơn thua." },
+            { "en": "Vietnam played to a draw with Thailand.", "vi": "Việt Nam hoà với Thái Lan." }
+          ]
+        }
+      ],
+      "synonyms": ["tie"],
+      "antonyms": ["win", "loss"],
+      "collocations": [
+        "end in a draw",
+        "play to a draw",
+        "scoreless draw",
+        "1-1 draw",
+        "match draw"
+      ],
+      "etymology_hint": "From Old English 'dragan' meaning 'to drag, pull'.",
+      "mnemonic_vi": "DRAW — 'đrô' → 'đều' cả hai bên = hoà"
+    },
+    {
+      "word": "championship",
+      "lemma": "championship",
+      "ipa": "/ˈtʃæmpiənʃɪp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an important competition to find the best team or player",
+          "meaning_vi": "chức vô địch; giải vô địch",
+          "examples": [
+            {
+              "en": "Vietnam won the AFF Championship in 2018.",
+              "vi": "Việt Nam vô địch giải AFF 2018."
+            },
+            {
+              "en": "She trained hard for the championship.",
+              "vi": "Cô ấy tập luyện chăm chỉ cho giải vô địch."
+            },
+            {
+              "en": "The world championship is held every four years.",
+              "vi": "Giải vô địch thế giới tổ chức bốn năm một lần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["title"],
+      "antonyms": [],
+      "collocations": [
+        "win the championship",
+        "world championship",
+        "national championship",
+        "championship title",
+        "defend the championship"
+      ],
+      "etymology_hint": "From 'champion' (Latin 'campio' = fighter) + '-ship' (state).",
+      "mnemonic_vi": "CHAMPIONSHIP = CHAMPION (nhà vô địch) + SHIP → trạng thái vô địch = giải vô địch"
+    },
+    {
+      "word": "tournament",
+      "lemma": "tournament",
+      "ipa": "/ˈtʊənəmənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a series of matches where many players or teams compete",
+          "meaning_vi": "giải đấu (nhiều vòng)",
+          "examples": [
+            {
+              "en": "There's a school chess tournament next week.",
+              "vi": "Tuần sau có giải cờ vua ở trường."
+            },
+            {
+              "en": "He won three tournaments this year.",
+              "vi": "Anh ấy giành ba giải đấu năm nay."
+            },
+            { "en": "The tournament has 16 teams.", "vi": "Giải đấu có 16 đội." }
+          ]
+        }
+      ],
+      "synonyms": ["competition"],
+      "antonyms": [],
+      "collocations": [
+        "win a tournament",
+        "tennis tournament",
+        "chess tournament",
+        "join a tournament",
+        "knockout tournament"
+      ],
+      "etymology_hint": "From Old French 'torneiement' (medieval contest), from 'torner' (to turn).",
+      "mnemonic_vi": "TOURNAMENT — 'tua-nờ-mần' → 'tua' (vòng) liên tục = giải đấu"
+    }
+  ]
+}

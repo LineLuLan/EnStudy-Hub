@@ -1,0 +1,8 @@
+{
+  "slug": "entertainment",
+  "name": "Entertainment",
+  "description": "Thể thao, âm nhạc, phim ảnh và sở thích.",
+  "order_index": 8,
+  "icon": "film",
+  "color": "#f43f5e"
+}

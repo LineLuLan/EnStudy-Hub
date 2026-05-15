@@ -1,0 +1,703 @@
+{
+  "slug": "exams-results",
+  "name": "Exams & Results",
+  "description": "Kỳ thi, điểm số và bằng cấp.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "exam",
+      "lemma": "exam",
+      "ipa": "/ɪɡˈzæm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an important test of knowledge or skill, often written",
+          "meaning_vi": "kỳ thi; bài thi quan trọng",
+          "examples": [
+            { "en": "She passed the IELTS exam with band 7.5.", "vi": "Cô ấy thi IELTS đạt 7.5." },
+            {
+              "en": "High school exams in Vietnam are in June.",
+              "vi": "Kỳ thi tốt nghiệp ở Việt Nam diễn ra vào tháng Sáu."
+            },
+            { "en": "I have an English exam tomorrow.", "vi": "Mai tôi có thi tiếng Anh." }
+          ]
+        }
+      ],
+      "synonyms": ["examination", "test"],
+      "antonyms": [],
+      "collocations": [
+        "take an exam",
+        "pass an exam",
+        "fail an exam",
+        "final exam",
+        "entrance exam"
+      ],
+      "etymology_hint": "Shortened from 'examination', from Latin 'examinare' (to weigh, test).",
+      "mnemonic_vi": "EXAM — 'ếch-zam' → 'ếch' (run) 'gãi' đầu khi thi = kỳ thi"
+    },
+    {
+      "word": "test",
+      "lemma": "test",
+      "ipa": "/test/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a set of questions or tasks to check what someone knows",
+          "meaning_vi": "bài kiểm tra; bài thi nhỏ",
+          "examples": [
+            {
+              "en": "We have a vocabulary test every Friday.",
+              "vi": "Thứ Sáu nào chúng tôi cũng có kiểm tra từ vựng."
+            },
+            {
+              "en": "She got 10 on her math test.",
+              "vi": "Cô ấy được 10 trong bài kiểm tra toán."
+            },
+            { "en": "The test is only 15 minutes long.", "vi": "Bài kiểm tra chỉ dài 15 phút." }
+          ]
+        }
+      ],
+      "synonyms": ["quiz", "exam"],
+      "antonyms": [],
+      "collocations": ["take a test", "pass a test", "fail a test", "test paper", "driving test"],
+      "etymology_hint": "From Old French 'test' meaning 'small pot used to assay metals', from Latin 'testum'.",
+      "mnemonic_vi": "TEST — 'tét' → 'tét đầu' suy nghĩ khi làm bài = bài kiểm tra"
+    },
+    {
+      "word": "quiz",
+      "lemma": "quiz",
+      "ipa": "/kwɪz/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short test or game with questions",
+          "meaning_vi": "câu đố; bài kiểm tra ngắn",
+          "examples": [
+            {
+              "en": "The teacher gave us a surprise quiz today.",
+              "vi": "Hôm nay cô bất ngờ cho làm quiz."
+            },
+            {
+              "en": "There's a fun quiz on Kahoot tonight.",
+              "vi": "Tối nay có quiz vui trên Kahoot."
+            },
+            {
+              "en": "Our class won the trivia quiz at school.",
+              "vi": "Lớp tôi thắng cuộc thi đố vui ở trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["test"],
+      "antonyms": [],
+      "collocations": ["take a quiz", "pop quiz", "quiz show", "online quiz", "trivia quiz"],
+      "etymology_hint": "Origin uncertain; possibly from Latin 'qui es?' (who are you?).",
+      "mnemonic_vi": "QUIZ — 'cuýt-zờ' → 'quýt' (vắt óc) khi gặp câu đố = quiz"
+    },
+    {
+      "word": "score",
+      "lemma": "score",
+      "ipa": "/skɔː(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the number of points a person gets in a test or game",
+          "meaning_vi": "điểm số; số điểm đạt được",
+          "examples": [
+            { "en": "His IELTS score is 6.5.", "vi": "Điểm IELTS của cậu ấy là 6.5." },
+            {
+              "en": "What was your math score last week?",
+              "vi": "Tuần trước bạn được mấy điểm toán?"
+            },
+            { "en": "She is happy with her TOEIC score.", "vi": "Cô ấy hài lòng với điểm TOEIC." }
+          ]
+        }
+      ],
+      "synonyms": ["mark", "result", "grade"],
+      "antonyms": [],
+      "collocations": ["high score", "low score", "IELTS score", "test score", "perfect score"],
+      "etymology_hint": "From Old Norse 'skor' meaning 'notch, tally', because tallies were cut into wood.",
+      "mnemonic_vi": "SCORE — 'sờ-coa' → 'sờ' đến 'coa' (tay cao) khi ra điểm = điểm số"
+    },
+    {
+      "word": "grade",
+      "lemma": "grade",
+      "ipa": "/ɡreɪd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a letter or number that shows the quality of work",
+          "meaning_vi": "điểm số (chữ hoặc loại); bậc, hạng",
+          "examples": [
+            {
+              "en": "She always gets top grades in English.",
+              "vi": "Cô ấy luôn đạt loại giỏi môn tiếng Anh."
+            },
+            {
+              "en": "His grade dropped after he started gaming.",
+              "vi": "Điểm của cậu ấy tụt sau khi chơi game."
+            },
+            {
+              "en": "Vietnamese schools use grades from 1 to 10.",
+              "vi": "Trường Việt Nam dùng thang điểm 1-10."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mark", "score"],
+      "antonyms": [],
+      "collocations": ["good grade", "bad grade", "get a grade", "pass grade", "grade point"],
+      "etymology_hint": "From Latin 'gradus' meaning 'step, degree'.",
+      "mnemonic_vi": "GRADE — 'gờ-rết' → 'gấp rất' kết quả ra loại = điểm số/hạng"
+    },
+    {
+      "word": "pass",
+      "lemma": "pass",
+      "ipa": "/pɑːs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be successful in a test or exam",
+          "meaning_vi": "đỗ, qua (bài thi)",
+          "examples": [
+            {
+              "en": "She passed the driving test on the first try.",
+              "vi": "Cô ấy đỗ thi bằng lái ngay lần đầu."
+            },
+            {
+              "en": "Half the class passed the math exam.",
+              "vi": "Nửa lớp qua được bài thi toán."
+            },
+            {
+              "en": "He studied hard and finally passed.",
+              "vi": "Anh ấy học chăm và cuối cùng cũng đỗ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["succeed"],
+      "antonyms": ["fail"],
+      "collocations": [
+        "pass an exam",
+        "pass with flying colors",
+        "pass the test",
+        "pass a course",
+        "pass a class"
+      ],
+      "etymology_hint": "From Latin 'passus' (step), via Old French 'passer'.",
+      "mnemonic_vi": "PASS — 'pát' → đi qua ải = đỗ"
+    },
+    {
+      "word": "fail",
+      "lemma": "fail",
+      "ipa": "/feɪl/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to not pass an exam or test",
+          "meaning_vi": "trượt, rớt (kỳ thi)",
+          "examples": [
+            {
+              "en": "He failed the chemistry exam in grade 11.",
+              "vi": "Cậu ấy trượt thi hóa năm lớp 11."
+            },
+            { "en": "I'm afraid I will fail this test.", "vi": "Tôi sợ sẽ rớt bài kiểm tra này." },
+            { "en": "She failed her driving test twice.", "vi": "Cô ấy rớt thi bằng lái hai lần." }
+          ]
+        }
+      ],
+      "synonyms": ["flunk"],
+      "antonyms": ["pass", "succeed"],
+      "collocations": [
+        "fail an exam",
+        "fail a test",
+        "fail a course",
+        "fail a subject",
+        "fail miserably"
+      ],
+      "etymology_hint": "From Old French 'faillir' meaning 'be wanting, miss', from Latin 'fallere' (deceive).",
+      "mnemonic_vi": "FAIL — 'phay' → 'phai' đi như màu áo cũ → trượt"
+    },
+    {
+      "word": "deadline",
+      "lemma": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the latest time by which a paper, essay, or project must be finished",
+          "meaning_vi": "hạn chót (nộp bài, luận văn); deadline học thuật",
+          "examples": [
+            {
+              "en": "The essay deadline is Friday at 5pm.",
+              "vi": "Hạn chót nộp bài luận là 5 giờ chiều thứ Sáu."
+            },
+            {
+              "en": "Don't miss the scholarship application deadline.",
+              "vi": "Đừng bỏ lỡ hạn chót đăng ký học bổng."
+            },
+            {
+              "en": "I pulled an all-nighter to meet the thesis deadline.",
+              "vi": "Tôi thức trắng đêm để kịp deadline luận văn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["due date", "cut-off"],
+      "antonyms": [],
+      "collocations": [
+        "meet a deadline",
+        "miss the deadline",
+        "extend the deadline",
+        "submission deadline",
+        "essay deadline"
+      ],
+      "etymology_hint": "Originally a 'dead line' was a line around a prison; anyone crossing it was shot. Now metaphorical.",
+      "mnemonic_vi": "DEADLINE = DEAD (chết) + LINE (đường) → qua đường này thì 'chết' bài = hạn chót"
+    },
+    {
+      "word": "certificate",
+      "lemma": "certificate",
+      "ipa": "/səˈtɪfɪkət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official paper that proves you completed a course or training",
+          "meaning_vi": "chứng chỉ, giấy chứng nhận",
+          "examples": [
+            { "en": "She has an IELTS certificate band 7.", "vi": "Cô ấy có chứng chỉ IELTS 7.0." },
+            {
+              "en": "The course gives you a Microsoft certificate.",
+              "vi": "Khóa học cấp chứng chỉ Microsoft."
+            },
+            {
+              "en": "He framed his graduation certificate.",
+              "vi": "Anh ấy đóng khung giấy chứng nhận tốt nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["diploma"],
+      "antonyms": [],
+      "collocations": [
+        "IELTS certificate",
+        "training certificate",
+        "get a certificate",
+        "graduation certificate",
+        "professional certificate"
+      ],
+      "etymology_hint": "From Latin 'certificatum', from 'certificare' (to make certain).",
+      "mnemonic_vi": "CERTIFICATE = CERT (chắc) + IFICATE → giấy làm bằng chứng chắc chắn = chứng chỉ"
+    },
+    {
+      "word": "diploma",
+      "lemma": "diploma",
+      "ipa": "/dɪˈpləʊmə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official paper showing you finished a study program",
+          "meaning_vi": "bằng tốt nghiệp; văn bằng",
+          "examples": [
+            {
+              "en": "She earned a diploma in early childhood education.",
+              "vi": "Cô ấy có bằng giáo dục mầm non."
+            },
+            {
+              "en": "His diploma hangs in the living room.",
+              "vi": "Bằng tốt nghiệp của anh ấy treo phòng khách."
+            },
+            {
+              "en": "Some employers ask for a college diploma.",
+              "vi": "Một số nhà tuyển dụng yêu cầu bằng cao đẳng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["certificate"],
+      "antonyms": [],
+      "collocations": [
+        "earn a diploma",
+        "high school diploma",
+        "college diploma",
+        "diploma in nursing",
+        "framed diploma"
+      ],
+      "etymology_hint": "From Greek 'diploma' meaning 'folded paper', from 'diplous' (double).",
+      "mnemonic_vi": "DIPLOMA — 'đi-pờ-lô-mơ' → 'đi' (đi học xong) 'pờ-lô-mơ' (lò mơ) ra bằng = bằng tốt nghiệp"
+    },
+    {
+      "word": "degree",
+      "lemma": "degree",
+      "ipa": "/dɪˈɡriː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a qualification given by a university after completing a program",
+          "meaning_vi": "bằng đại học (cử nhân, thạc sĩ, tiến sĩ)",
+          "examples": [
+            {
+              "en": "He has a degree in computer science from ĐH Bách Khoa.",
+              "vi": "Anh ấy có bằng đại học CNTT từ ĐH Bách Khoa."
+            },
+            {
+              "en": "She is studying for a master's degree in the UK.",
+              "vi": "Cô ấy đang học thạc sĩ ở Anh."
+            },
+            {
+              "en": "A PhD is the highest academic degree.",
+              "vi": "Tiến sĩ là bằng cấp học thuật cao nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["qualification"],
+      "antonyms": [],
+      "collocations": [
+        "bachelor's degree",
+        "master's degree",
+        "PhD degree",
+        "earn a degree",
+        "honors degree"
+      ],
+      "etymology_hint": "From Old French 'degré', from Latin 'gradus' (step) — a degree is a step up.",
+      "mnemonic_vi": "DEGREE — 'đi-gờ-ri' → 'đi grí' (grow) lên = bằng cấp"
+    },
+    {
+      "word": "gpa",
+      "lemma": "gpa",
+      "ipa": "/ˌdʒiː piː ˈeɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Grade Point Average — the average of a student's grades on a 4.0 scale",
+          "meaning_vi": "điểm trung bình hệ 4 (GPA)",
+          "examples": [
+            { "en": "Her GPA is 3.8 out of 4.0.", "vi": "GPA của cô ấy là 3.8/4.0." },
+            {
+              "en": "American universities care a lot about GPA.",
+              "vi": "Đại học Mỹ rất quan tâm đến GPA."
+            },
+            {
+              "en": "I need a 3.5 GPA for the scholarship.",
+              "vi": "Tôi cần GPA 3.5 để xin học bổng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grade average"],
+      "antonyms": [],
+      "collocations": ["high GPA", "low GPA", "GPA scale", "cumulative GPA", "minimum GPA"],
+      "etymology_hint": "Acronym for 'Grade Point Average', used in US-style education.",
+      "mnemonic_vi": "GPA = Grade Point Average → điểm trung bình tính theo 'grade'"
+    },
+    {
+      "word": "scholarship",
+      "lemma": "scholarship",
+      "ipa": "/ˈskɒləʃɪp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money given to a good student to help pay for studying",
+          "meaning_vi": "học bổng",
+          "examples": [
+            {
+              "en": "She won a full scholarship to Harvard.",
+              "vi": "Cô ấy giành học bổng toàn phần Harvard."
+            },
+            {
+              "en": "VinUni offers many scholarships to top students.",
+              "vi": "VinUni cấp nhiều học bổng cho học sinh giỏi."
+            },
+            {
+              "en": "His parents can't afford college without a scholarship.",
+              "vi": "Bố mẹ cậu ấy không đủ tiền cho học đại học nếu không có học bổng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grant", "fellowship"],
+      "antonyms": [],
+      "collocations": [
+        "win a scholarship",
+        "full scholarship",
+        "apply for a scholarship",
+        "merit scholarship",
+        "scholarship program"
+      ],
+      "etymology_hint": "From 'scholar' (Latin 'scholaris' = of a school) + '-ship' (state of being).",
+      "mnemonic_vi": "SCHOLARSHIP = SCHOLAR (học giả) + SHIP (con tàu) → tàu chở học giả đi học = học bổng"
+    },
+    {
+      "word": "assignment",
+      "lemma": "assignment",
+      "ipa": "/əˈsaɪnmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of work given to a student as part of a course",
+          "meaning_vi": "bài tập lớn; bài giao về làm",
+          "examples": [
+            {
+              "en": "I have three assignments due this week.",
+              "vi": "Tôi có ba bài tập lớn phải nộp tuần này."
+            },
+            { "en": "Hand in your assignment by Friday.", "vi": "Nộp bài tập trước thứ Sáu." },
+            {
+              "en": "Her assignment was about Vietnamese economy.",
+              "vi": "Bài tập của cô ấy về kinh tế Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["task", "homework"],
+      "antonyms": [],
+      "collocations": [
+        "submit an assignment",
+        "writing assignment",
+        "group assignment",
+        "complete an assignment",
+        "assignment deadline"
+      ],
+      "etymology_hint": "From Old French 'assignement', from Latin 'assignare' (to mark out).",
+      "mnemonic_vi": "ASSIGNMENT = ASSIGN (giao) + MENT (việc) → việc được giao = bài tập"
+    },
+    {
+      "word": "project",
+      "lemma": "project",
+      "ipa": "/ˈprɒdʒekt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of planned work or study lasting over time, usually with multiple parts",
+          "meaning_vi": "dự án (học tập, công việc)",
+          "examples": [
+            {
+              "en": "We do a group project every term.",
+              "vi": "Mỗi kỳ chúng tôi làm một dự án nhóm."
+            },
+            {
+              "en": "Her final project is on solar panels in Hà Nội.",
+              "vi": "Dự án cuối khóa của cô ấy về tấm pin mặt trời tại Hà Nội."
+            },
+            {
+              "en": "The school project taught us to work in teams.",
+              "vi": "Dự án ở trường dạy chúng tôi làm việc nhóm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assignment", "task"],
+      "antonyms": [],
+      "collocations": [
+        "group project",
+        "school project",
+        "final project",
+        "research project",
+        "complete a project"
+      ],
+      "etymology_hint": "From Latin 'proiectum', meaning 'a thing thrown forward' (pro- 'forward' + iacere 'throw').",
+      "mnemonic_vi": "PROJECT = PRO (về phía trước) + JECT (ném) → ném ý tưởng về phía trước = dự án"
+    },
+    {
+      "word": "presentation",
+      "lemma": "presentation",
+      "ipa": "/ˌprezənˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a talk that someone gives in class or at a meeting, often with slides",
+          "meaning_vi": "bài thuyết trình",
+          "examples": [
+            {
+              "en": "She gave a great presentation on climate change.",
+              "vi": "Cô ấy có bài thuyết trình hay về biến đổi khí hậu."
+            },
+            {
+              "en": "His PowerPoint presentation had 20 slides.",
+              "vi": "Bài PowerPoint của cậu ấy có 20 slide."
+            },
+            {
+              "en": "I'm nervous about my English presentation tomorrow.",
+              "vi": "Tôi lo lắng cho bài thuyết trình tiếng Anh ngày mai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talk", "speech"],
+      "antonyms": [],
+      "collocations": [
+        "give a presentation",
+        "PowerPoint presentation",
+        "class presentation",
+        "prepare a presentation",
+        "oral presentation"
+      ],
+      "etymology_hint": "From Latin 'praesentatio', from 'praesentare' (to place before).",
+      "mnemonic_vi": "PRESENTATION = PRESENT (trình bày) + ATION (việc) → việc trình bày = bài thuyết trình"
+    },
+    {
+      "word": "research",
+      "lemma": "research",
+      "ipa": "/ˈriːsɜːtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "careful study to discover new facts about a subject",
+          "meaning_vi": "nghiên cứu",
+          "examples": [
+            {
+              "en": "She does research on rice farming in the Mekong Delta.",
+              "vi": "Cô ấy nghiên cứu trồng lúa ở Đồng bằng sông Cửu Long."
+            },
+            {
+              "en": "His research won an international award.",
+              "vi": "Nghiên cứu của anh ấy đoạt giải quốc tế."
+            },
+            {
+              "en": "Good research starts with a clear question.",
+              "vi": "Nghiên cứu tốt bắt đầu bằng câu hỏi rõ ràng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["study", "investigation"],
+      "antonyms": [],
+      "collocations": [
+        "do research",
+        "research paper",
+        "scientific research",
+        "research project",
+        "market research"
+      ],
+      "etymology_hint": "From Old French 'recerche' (a search), from 're-' (again) + 'cercher' (search).",
+      "mnemonic_vi": "RESEARCH = RE (lại) + SEARCH (tìm) → tìm đi tìm lại = nghiên cứu"
+    },
+    {
+      "word": "thesis",
+      "lemma": "thesis",
+      "ipa": "/ˈθiːsɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long written piece of research, usually for a university degree",
+          "meaning_vi": "luận văn, luận án",
+          "examples": [
+            {
+              "en": "His thesis is about Vietnamese folk music.",
+              "vi": "Luận văn của anh ấy về nhạc dân gian Việt."
+            },
+            {
+              "en": "She defended her PhD thesis last month.",
+              "vi": "Cô ấy bảo vệ luận án tiến sĩ tháng trước."
+            },
+            { "en": "Writing a thesis takes a year.", "vi": "Viết một luận văn mất cả năm." }
+          ]
+        }
+      ],
+      "synonyms": ["dissertation"],
+      "antonyms": [],
+      "collocations": [
+        "write a thesis",
+        "defend a thesis",
+        "master's thesis",
+        "PhD thesis",
+        "thesis topic"
+      ],
+      "etymology_hint": "From Greek 'thesis' meaning 'a setting down, a position'.",
+      "mnemonic_vi": "THESIS — 'thi-sít' → 'thi sạch' (hoàn hảo) thì bảo vệ luận văn = luận văn"
+    },
+    {
+      "word": "plagiarism",
+      "lemma": "plagiarism",
+      "ipa": "/ˈpleɪdʒərɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "copying someone else's writing or ideas and saying they are yours",
+          "meaning_vi": "đạo văn",
+          "examples": [
+            {
+              "en": "Plagiarism can get you expelled from university.",
+              "vi": "Đạo văn có thể khiến bạn bị đuổi học."
+            },
+            {
+              "en": "The software detects plagiarism in essays.",
+              "vi": "Phần mềm phát hiện đạo văn trong bài luận."
+            },
+            {
+              "en": "Always cite your sources to avoid plagiarism.",
+              "vi": "Luôn trích nguồn để tránh đạo văn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["copying"],
+      "antonyms": [],
+      "collocations": [
+        "commit plagiarism",
+        "plagiarism check",
+        "avoid plagiarism",
+        "plagiarism detector",
+        "academic plagiarism"
+      ],
+      "etymology_hint": "From Latin 'plagiarius' meaning 'kidnapper, thief of words'.",
+      "mnemonic_vi": "PLAGIARISM — 'plây-gia-ri-zần' → 'play' (chôm) 'rì' (đem) chữ người khác = đạo văn"
+    },
+    {
+      "word": "academic",
+      "lemma": "academic",
+      "ipa": "/ˌækəˈdemɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "connected with schools, colleges, and universities or with studying",
+          "meaning_vi": "thuộc về học thuật; mang tính học thuật",
+          "examples": [
+            { "en": "She has strong academic skills.", "vi": "Cô ấy có kỹ năng học thuật mạnh." },
+            {
+              "en": "Academic writing is different from casual writing.",
+              "vi": "Viết học thuật khác với viết thường ngày."
+            },
+            {
+              "en": "He has an academic career in linguistics.",
+              "vi": "Anh ấy theo nghề học thuật về ngôn ngữ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["scholarly", "educational"],
+      "antonyms": ["non-academic"],
+      "collocations": [
+        "academic year",
+        "academic writing",
+        "academic performance",
+        "academic skills",
+        "academic career"
+      ],
+      "etymology_hint": "From Greek 'akadēmeia', the grove where Plato taught philosophy.",
+      "mnemonic_vi": "ACADEMIC nghe gần 'a-ca-đem-ích' → 'a' (à) 'cào đem' kiến thức = học thuật"
+    }
+  ]
+}

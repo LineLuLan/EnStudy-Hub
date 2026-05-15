@@ -1,0 +1,667 @@
+{
+  "slug": "music-arts",
+  "name": "Music & Arts",
+  "description": "Âm nhạc và nghệ thuật.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "music",
+      "lemma": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "sounds that are arranged to be sung or played by instruments for pleasure",
+          "meaning_vi": "âm nhạc",
+          "examples": [
+            { "en": "I listen to music while studying.", "vi": "Tôi nghe nhạc khi học bài." },
+            { "en": "Vietnamese folk music is beautiful.", "vi": "Nhạc dân ca Việt Nam rất hay." },
+            { "en": "Music makes me happy.", "vi": "Âm nhạc khiến tôi vui." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "listen to music",
+        "play music",
+        "pop music",
+        "folk music",
+        "music festival"
+      ],
+      "etymology_hint": "From Greek 'mousikē' meaning 'art of the Muses'.",
+      "mnemonic_vi": "MUSIC — 'miu-dích' → 'miu' (mèo) 'dích' (hát) = âm nhạc"
+    },
+    {
+      "word": "song",
+      "lemma": "song",
+      "ipa": "/sɒŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short piece of music with words that you can sing",
+          "meaning_vi": "bài hát",
+          "examples": [
+            {
+              "en": "Sơn Tùng's new song became a hit.",
+              "vi": "Bài hát mới của Sơn Tùng nổi đình đám."
+            },
+            { "en": "She sang a lullaby to her child.", "vi": "Cô ấy hát ru cho con." },
+            { "en": "What's your favourite song?", "vi": "Bài hát bạn thích nhất là gì?" }
+          ]
+        }
+      ],
+      "synonyms": ["tune", "track"],
+      "antonyms": [],
+      "collocations": ["sing a song", "favourite song", "love song", "folk song", "song lyrics"],
+      "etymology_hint": "From Old English 'sang', from 'singan' (to sing).",
+      "mnemonic_vi": "SONG — 'sòng' → 'sòng' phẳng tâm hồn = bài hát"
+    },
+    {
+      "word": "singer",
+      "lemma": "singer",
+      "ipa": "/ˈsɪŋə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who sings, especially as a profession",
+          "meaning_vi": "ca sĩ",
+          "examples": [
+            {
+              "en": "Mỹ Tâm is a famous Vietnamese singer.",
+              "vi": "Mỹ Tâm là ca sĩ nổi tiếng Việt Nam."
+            },
+            {
+              "en": "He wants to be a singer when he grows up.",
+              "vi": "Cậu ấy muốn trở thành ca sĩ khi lớn."
+            },
+            { "en": "The singer performed beautifully.", "vi": "Ca sĩ biểu diễn rất hay." }
+          ]
+        }
+      ],
+      "synonyms": ["vocalist"],
+      "antonyms": [],
+      "collocations": [
+        "pop singer",
+        "famous singer",
+        "lead singer",
+        "talented singer",
+        "professional singer"
+      ],
+      "etymology_hint": "From 'sing' + '-er'.",
+      "mnemonic_vi": "SINGER = SING (hát) + ER (người) → người hát = ca sĩ"
+    },
+    {
+      "word": "band",
+      "lemma": "band",
+      "ipa": "/bænd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a group of musicians who play together",
+          "meaning_vi": "ban nhạc",
+          "examples": [
+            {
+              "en": "My brother plays guitar in a rock band.",
+              "vi": "Anh tôi chơi guitar trong một ban nhạc rock."
+            },
+            {
+              "en": "The band performs at Hà Nội Rock Festival.",
+              "vi": "Ban nhạc trình diễn tại Hà Nội Rock Festival."
+            },
+            { "en": "BTS is a famous K-pop band.", "vi": "BTS là một ban nhạc K-pop nổi tiếng." }
+          ]
+        }
+      ],
+      "synonyms": ["group"],
+      "antonyms": [],
+      "collocations": ["rock band", "music band", "join a band", "lead the band", "school band"],
+      "etymology_hint": "From Old Norse 'band' meaning 'tie, bond' — a group bound together.",
+      "mnemonic_vi": "BAND — 'bén' → 'bàn' nhạc bên nhau = ban nhạc"
+    },
+    {
+      "word": "concert",
+      "lemma": "concert",
+      "ipa": "/ˈkɒnsət/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a live music performance for an audience",
+          "meaning_vi": "buổi hoà nhạc; concert",
+          "examples": [
+            {
+              "en": "We went to a Sơn Tùng concert at Mỹ Đình.",
+              "vi": "Chúng tôi đi xem concert Sơn Tùng ở Mỹ Đình."
+            },
+            { "en": "The concert tickets sold out fast.", "vi": "Vé concert bán hết rất nhanh." },
+            {
+              "en": "She gave a free concert in the park.",
+              "vi": "Cô ấy biểu diễn miễn phí ở công viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gig", "performance"],
+      "antonyms": [],
+      "collocations": [
+        "live concert",
+        "rock concert",
+        "go to a concert",
+        "concert ticket",
+        "concert hall"
+      ],
+      "etymology_hint": "From Italian 'concerto', from Latin 'concertare' (to compete, harmonize).",
+      "mnemonic_vi": "CONCERT — 'kòn-sờt' → 'kèn xáo' hoà cùng = hoà nhạc"
+    },
+    {
+      "word": "instrument",
+      "lemma": "instrument",
+      "ipa": "/ˈɪnstrəmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an object used to make music, such as a guitar or piano",
+          "meaning_vi": "nhạc cụ",
+          "examples": [
+            { "en": "The piano is a beautiful instrument.", "vi": "Đàn piano là một nhạc cụ đẹp." },
+            {
+              "en": "Can you play any musical instruments?",
+              "vi": "Bạn chơi được nhạc cụ nào không?"
+            },
+            {
+              "en": "Đàn tranh is a traditional Vietnamese instrument.",
+              "vi": "Đàn tranh là nhạc cụ truyền thống Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play an instrument",
+        "musical instrument",
+        "traditional instrument",
+        "string instrument",
+        "wind instrument"
+      ],
+      "etymology_hint": "From Latin 'instrumentum' meaning 'tool, equipment'.",
+      "mnemonic_vi": "INSTRUMENT — 'in-strù-mần' → 'in' (đem) 'strù' (chỉnh) ra âm thanh = nhạc cụ"
+    },
+    {
+      "word": "guitar",
+      "lemma": "guitar",
+      "ipa": "/ɡɪˈtɑː(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a musical instrument with six strings that you play with your fingers",
+          "meaning_vi": "đàn guitar",
+          "examples": [
+            {
+              "en": "He plays guitar at parties.",
+              "vi": "Cậu ấy chơi guitar trong các buổi tiệc."
+            },
+            {
+              "en": "She got a new guitar for her birthday.",
+              "vi": "Cô ấy nhận được cây guitar mới vào sinh nhật."
+            },
+            { "en": "Acoustic guitar sounds peaceful.", "vi": "Guitar acoustic nghe yên bình." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play guitar",
+        "electric guitar",
+        "acoustic guitar",
+        "guitar strings",
+        "guitar lesson"
+      ],
+      "etymology_hint": "From Spanish 'guitarra', from Greek 'kithara'.",
+      "mnemonic_vi": "GUITAR — 'gi-ta' → 'ghi' (gảy) 'ta' (tay) = đàn guitar"
+    },
+    {
+      "word": "piano",
+      "lemma": "piano",
+      "ipa": "/piˈænəʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large musical instrument with black and white keys",
+          "meaning_vi": "đàn piano",
+          "examples": [
+            { "en": "She has played piano since age 5.", "vi": "Cô ấy chơi piano từ 5 tuổi." },
+            { "en": "The piano is in the corner of the room.", "vi": "Cây đàn piano ở góc phòng." },
+            { "en": "Piano lessons can be expensive.", "vi": "Học piano có thể đắt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["play piano", "grand piano", "piano lesson", "piano teacher", "piano keys"],
+      "etymology_hint": "Shortened from Italian 'pianoforte' meaning 'soft-loud'.",
+      "mnemonic_vi": "PIANO — 'pi-a-nô' → 'pi' (lông) 'a-nô' (lùa phím) = đàn piano"
+    },
+    {
+      "word": "violin",
+      "lemma": "violin",
+      "ipa": "/ˌvaɪəˈlɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small wooden musical instrument with four strings, played with a bow",
+          "meaning_vi": "đàn violin; đàn vĩ cầm",
+          "examples": [
+            {
+              "en": "She plays violin in the school orchestra.",
+              "vi": "Cô ấy chơi violin trong dàn nhạc trường."
+            },
+            {
+              "en": "Vietnamese violinist Bùi Công Duy is world-class.",
+              "vi": "Nghệ sĩ violin Bùi Công Duy đẳng cấp thế giới."
+            },
+            { "en": "Violin is hard to learn.", "vi": "Violin khó học." }
+          ]
+        }
+      ],
+      "synonyms": ["fiddle"],
+      "antonyms": [],
+      "collocations": [
+        "play violin",
+        "violin lesson",
+        "violin player",
+        "first violin",
+        "violin solo"
+      ],
+      "etymology_hint": "From Italian 'violino', diminutive of 'viola'.",
+      "mnemonic_vi": "VIOLIN — 'vai-ờ-lin' → 'vai' (vác) 'lin' (kéo cung) = đàn violin"
+    },
+    {
+      "word": "drum",
+      "lemma": "drum",
+      "ipa": "/drʌm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a round musical instrument that you hit with your hands or sticks",
+          "meaning_vi": "trống",
+          "examples": [
+            {
+              "en": "He plays drums in a rock band.",
+              "vi": "Cậu ấy chơi trống trong ban nhạc rock."
+            },
+            {
+              "en": "The school marching band has many drums.",
+              "vi": "Đội kèn trống của trường có nhiều trống."
+            },
+            { "en": "Drums set the rhythm of a song.", "vi": "Trống tạo nhịp cho bài hát." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["play drums", "drum kit", "drum beat", "bass drum", "snare drum"],
+      "etymology_hint": "From Middle Dutch 'tromme', possibly imitating the sound.",
+      "mnemonic_vi": "DRUM — 'đrầm' → 'rầm rầm' khi đánh = trống"
+    },
+    {
+      "word": "art",
+      "lemma": "art",
+      "ipa": "/ɑːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "creative works such as paintings, drawings, or sculptures",
+          "meaning_vi": "nghệ thuật; tác phẩm nghệ thuật",
+          "examples": [
+            {
+              "en": "Hội An has many shops selling Vietnamese art.",
+              "vi": "Hội An có nhiều cửa hàng bán tranh nghệ thuật Việt."
+            },
+            {
+              "en": "She studies modern art in London.",
+              "vi": "Cô ấy học nghệ thuật hiện đại ở London."
+            },
+            { "en": "Art makes life beautiful.", "vi": "Nghệ thuật làm cuộc sống đẹp hơn." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["modern art", "Vietnamese art", "fine art", "art exhibition", "art gallery"],
+      "etymology_hint": "From Latin 'ars, artis' meaning 'skill, craft'.",
+      "mnemonic_vi": "ART — 'át' → tài 'át' tất cả = nghệ thuật"
+    },
+    {
+      "word": "painting",
+      "lemma": "painting",
+      "ipa": "/ˈpeɪntɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a picture made using paint",
+          "meaning_vi": "bức tranh (sơn); hội hoạ",
+          "examples": [
+            {
+              "en": "She bought a painting of the Saigon River.",
+              "vi": "Cô ấy mua một bức tranh sông Sài Gòn."
+            },
+            { "en": "His painting won first prize.", "vi": "Bức tranh của anh ấy đoạt giải nhất." },
+            {
+              "en": "Oil painting is harder than watercolour.",
+              "vi": "Tranh sơn dầu khó hơn tranh màu nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["picture"],
+      "antonyms": [],
+      "collocations": [
+        "oil painting",
+        "wall painting",
+        "famous painting",
+        "buy a painting",
+        "abstract painting"
+      ],
+      "etymology_hint": "From 'paint' (Latin 'pingere' = to paint) + '-ing'.",
+      "mnemonic_vi": "PAINTING = PAINT (vẽ) + ING → đang vẽ = bức tranh"
+    },
+    {
+      "word": "sculpture",
+      "lemma": "sculpture",
+      "ipa": "/ˈskʌlptʃə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of art made from stone, wood, metal, or clay",
+          "meaning_vi": "tác phẩm điêu khắc",
+          "examples": [
+            {
+              "en": "The marble sculpture of Lady Triệu is famous.",
+              "vi": "Bức điêu khắc bằng cẩm thạch về Bà Triệu rất nổi tiếng."
+            },
+            {
+              "en": "She studied sculpture at art school.",
+              "vi": "Cô ấy học điêu khắc ở trường mỹ thuật."
+            },
+            { "en": "Bronze sculptures fill the museum.", "vi": "Tượng đồng đầy bảo tàng." }
+          ]
+        }
+      ],
+      "synonyms": ["statue", "carving"],
+      "antonyms": [],
+      "collocations": [
+        "marble sculpture",
+        "modern sculpture",
+        "outdoor sculpture",
+        "famous sculpture",
+        "bronze sculpture"
+      ],
+      "etymology_hint": "From Latin 'sculptura', from 'sculpere' (to carve).",
+      "mnemonic_vi": "SCULPTURE — 'skân-pờ-chờ' → 'sờ cắp' (đục) chạm = điêu khắc"
+    },
+    {
+      "word": "exhibition",
+      "lemma": "exhibition",
+      "ipa": "/ˌeksɪˈbɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a public show of art, objects, or photographs",
+          "meaning_vi": "triển lãm",
+          "examples": [
+            {
+              "en": "There's a Picasso exhibition in Hà Nội.",
+              "vi": "Có triển lãm Picasso ở Hà Nội."
+            },
+            { "en": "The exhibition opens this Friday.", "vi": "Triển lãm khai mạc thứ Sáu này." },
+            {
+              "en": "Her photos are in a small exhibition.",
+              "vi": "Ảnh của cô ấy được trưng bày trong một triển lãm nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["show", "display"],
+      "antonyms": [],
+      "collocations": [
+        "art exhibition",
+        "open an exhibition",
+        "visit an exhibition",
+        "photo exhibition",
+        "exhibition hall"
+      ],
+      "etymology_hint": "From Latin 'exhibitio', from 'exhibere' (to hold forth).",
+      "mnemonic_vi": "EXHIBITION = EX (ra) + HIBITION (trưng) → đưa ra trưng = triển lãm"
+    },
+    {
+      "word": "artist",
+      "lemma": "artist",
+      "ipa": "/ˈɑːtɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who creates art such as paintings, music, or sculpture",
+          "meaning_vi": "nghệ sĩ (vẽ tranh, âm nhạc, điêu khắc...)",
+          "examples": [
+            {
+              "en": "Bùi Xuân Phái is a famous Vietnamese artist.",
+              "vi": "Bùi Xuân Phái là một nghệ sĩ Việt nổi tiếng."
+            },
+            {
+              "en": "She wants to be a graphic artist.",
+              "vi": "Cô ấy muốn trở thành nghệ sĩ đồ hoạ."
+            },
+            {
+              "en": "The artist held a charity exhibition.",
+              "vi": "Nghệ sĩ tổ chức triển lãm từ thiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["creator"],
+      "antonyms": [],
+      "collocations": [
+        "famous artist",
+        "young artist",
+        "visual artist",
+        "street artist",
+        "artist studio"
+      ],
+      "etymology_hint": "From Medieval Latin 'artista', from 'ars' (skill, art).",
+      "mnemonic_vi": "ARTIST = ART (nghệ thuật) + IST (người) → người làm nghệ thuật = nghệ sĩ"
+    },
+    {
+      "word": "gallery",
+      "lemma": "gallery",
+      "ipa": "/ˈɡæləri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place where paintings and other art are shown to the public",
+          "meaning_vi": "phòng tranh; phòng trưng bày nghệ thuật",
+          "examples": [
+            {
+              "en": "We visited the Fine Arts Gallery in Hà Nội.",
+              "vi": "Chúng tôi đến Bảo tàng Mỹ thuật ở Hà Nội."
+            },
+            {
+              "en": "The gallery shows local artists' work.",
+              "vi": "Phòng tranh trưng bày tác phẩm của nghệ sĩ địa phương."
+            },
+            {
+              "en": "Entry to the gallery is free on Sundays.",
+              "vi": "Vào phòng tranh miễn phí vào Chủ nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["museum"],
+      "antonyms": [],
+      "collocations": [
+        "art gallery",
+        "visit a gallery",
+        "gallery owner",
+        "national gallery",
+        "modern art gallery"
+      ],
+      "etymology_hint": "From Old Italian 'galleria' meaning 'covered walkway'.",
+      "mnemonic_vi": "GALLERY — 'ga-lờ-ri' → 'ga' (chỗ) 'lờ-rì' (treo tranh) = phòng tranh"
+    },
+    {
+      "word": "theatre",
+      "lemma": "theatre",
+      "ipa": "/ˈθɪətə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a building where plays and shows are performed",
+          "meaning_vi": "nhà hát; rạp hát",
+          "examples": [
+            {
+              "en": "Hà Nội Opera Theatre is over 100 years old.",
+              "vi": "Nhà hát lớn Hà Nội đã hơn 100 tuổi."
+            },
+            {
+              "en": "We watched a Vietnamese folk play at the theatre.",
+              "vi": "Chúng tôi xem một vở chèo ở nhà hát."
+            },
+            {
+              "en": "She loves the theatre more than cinema.",
+              "vi": "Cô ấy yêu nhà hát hơn rạp chiếu phim."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["playhouse"],
+      "antonyms": [],
+      "collocations": [
+        "go to the theatre",
+        "musical theatre",
+        "open-air theatre",
+        "national theatre",
+        "theatre stage"
+      ],
+      "etymology_hint": "From Greek 'theatron' meaning 'place for viewing', from 'theaomai' (to behold).",
+      "mnemonic_vi": "THEATRE — 'thi-ờ-tờ' → 'thì' (sân khấu) 'ờ-tờ' (à to) = nhà hát"
+    },
+    {
+      "word": "dance",
+      "lemma": "dance",
+      "ipa": "/dɑːns/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to move your body in time with music",
+          "meaning_vi": "nhảy múa",
+          "examples": [
+            { "en": "She dances ballet beautifully.", "vi": "Cô ấy nhảy ballet rất đẹp." },
+            {
+              "en": "They danced together at the Tết party.",
+              "vi": "Họ nhảy cùng nhau ở tiệc Tết."
+            },
+            { "en": "He can't dance at all.", "vi": "Cậu ấy không biết nhảy chút nào." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "dance music",
+        "learn to dance",
+        "dance floor",
+        "ballet dance",
+        "dance class"
+      ],
+      "etymology_hint": "From Old French 'danser', possibly Frankish 'dintjan' (to move).",
+      "mnemonic_vi": "DANCE — 'đan-sờ' → 'đan' chân bước = nhảy"
+    },
+    {
+      "word": "opera",
+      "lemma": "opera",
+      "ipa": "/ˈɒprə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a play in which the words are sung to music",
+          "meaning_vi": "vở opera; nhạc kịch",
+          "examples": [
+            {
+              "en": "Hà Nội Opera House hosts famous operas.",
+              "vi": "Nhà hát lớn Hà Nội tổ chức nhiều vở opera nổi tiếng."
+            },
+            { "en": "She loves Italian opera.", "vi": "Cô ấy yêu opera Ý." },
+            { "en": "Operas can last several hours.", "vi": "Một vở opera có thể kéo dài vài giờ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "opera house",
+        "Italian opera",
+        "watch an opera",
+        "opera singer",
+        "soap opera"
+      ],
+      "etymology_hint": "From Italian 'opera' meaning 'work, composition'.",
+      "mnemonic_vi": "OPERA — 'óp-pờ-rà' → 'óp' (hét) 'pờ-rà' (kéo dài) = opera"
+    },
+    {
+      "word": "melody",
+      "lemma": "melody",
+      "ipa": "/ˈmelədi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the main tune of a piece of music",
+          "meaning_vi": "giai điệu",
+          "examples": [
+            {
+              "en": "The melody of this song is unforgettable.",
+              "vi": "Giai điệu bài hát này khó quên."
+            },
+            { "en": "She hummed a sweet melody.", "vi": "Cô ấy ngân nga một giai điệu ngọt ngào." },
+            {
+              "en": "Vietnamese folk melodies are gentle.",
+              "vi": "Giai điệu nhạc dân ca Việt nhẹ nhàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tune", "air"],
+      "antonyms": [],
+      "collocations": [
+        "sweet melody",
+        "main melody",
+        "catchy melody",
+        "play a melody",
+        "simple melody"
+      ],
+      "etymology_hint": "From Greek 'melōidia' = 'melos' (song) + 'aoidē' (singing).",
+      "mnemonic_vi": "MELODY — 'me-lờ-đi' → 'mê li' 'đi' theo nhịp = giai điệu"
+    }
+  ]
+}
