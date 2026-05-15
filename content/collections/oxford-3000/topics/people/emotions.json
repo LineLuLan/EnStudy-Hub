@@ -1,0 +1,718 @@
+{
+  "slug": "emotions",
+  "name": "Emotions & Feelings",
+  "description": "Cảm xúc và trạng thái tinh thần.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "happy",
+      "lemma": "happy",
+      "ipa": "/ˈhæp.i/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling or showing pleasure and joy",
+          "meaning_vi": "vui vẻ, hạnh phúc; cảm thấy hoặc thể hiện niềm vui",
+          "examples": [
+            {
+              "en": "I'm so happy to see you again after such a long time.",
+              "vi": "Tôi rất vui khi gặp lại bạn sau bao lâu."
+            },
+            {
+              "en": "She looked happy on her wedding day.",
+              "vi": "Cô ấy trông hạnh phúc trong ngày cưới."
+            },
+            {
+              "en": "Happy Tet to you and your family!",
+              "vi": "Chúc bạn và gia đình một cái Tết vui vẻ!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["joyful", "cheerful", "glad", "delighted"],
+      "antonyms": ["sad", "unhappy", "miserable"],
+      "collocations": ["very happy", "happy birthday", "feel happy", "happy ending", "happy life"],
+      "etymology_hint": "From Old Norse 'happ' meaning 'good luck, fortune'",
+      "mnemonic_vi": "HAPPY đọc 'háp-pi' — vui đến nỗi 'HẤP HẤP' (hít sâu) thở phào hạnh phúc"
+    },
+    {
+      "word": "sad",
+      "lemma": "sad",
+      "ipa": "/sæd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling unhappy, especially because something bad has happened",
+          "meaning_vi": "buồn, buồn bã; cảm thấy không vui, đặc biệt khi có chuyện không may",
+          "examples": [
+            {
+              "en": "She was sad when her cat ran away.",
+              "vi": "Cô ấy buồn khi con mèo của mình bỏ đi."
+            },
+            {
+              "en": "The film had a sad ending that made me cry.",
+              "vi": "Bộ phim có cái kết buồn khiến tôi khóc."
+            },
+            { "en": "I feel sad whenever I'm far from home.", "vi": "Tôi buồn mỗi khi xa nhà." }
+          ]
+        }
+      ],
+      "synonyms": ["unhappy", "sorrowful", "down", "blue"],
+      "antonyms": ["happy", "joyful", "cheerful"],
+      "collocations": ["feel sad", "very sad", "sad face", "sad news", "sad story"],
+      "etymology_hint": "From Old English 'sæd' originally meaning 'sated, weary' — sense shifted to 'mournful'",
+      "mnemonic_vi": "SAD đọc 'sét' — buồn quá thì như bị 'SÉT' đánh đứng hình"
+    },
+    {
+      "word": "angry",
+      "lemma": "angry",
+      "ipa": "/ˈæŋ.ɡri/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling strong displeasure about something or someone",
+          "meaning_vi": "tức giận, giận dữ; cảm thấy bực bội mạnh mẽ",
+          "examples": [
+            {
+              "en": "She was angry because he was late again.",
+              "vi": "Cô ấy tức giận vì anh ta lại đến muộn."
+            },
+            {
+              "en": "Don't be angry — it was just a small mistake.",
+              "vi": "Đừng giận — chỉ là lỗi nhỏ thôi mà."
+            },
+            {
+              "en": "He gave me an angry look when I interrupted him.",
+              "vi": "Anh ấy nhìn tôi giận dữ khi tôi cắt lời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mad", "furious", "annoyed", "cross"],
+      "antonyms": ["happy", "calm", "pleased"],
+      "collocations": ["very angry", "get angry", "angry face", "angry voice", "angry with"],
+      "etymology_hint": "From 'anger' (Old Norse 'angr' meaning 'grief, sorrow') + '-y'",
+      "mnemonic_vi": "ANGRY chứa 'GR' — gầm 'GỪ GỪ' như sư tử giận dữ"
+    },
+    {
+      "word": "tired",
+      "lemma": "tired",
+      "ipa": "/ˈtaɪəd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "needing to rest or sleep because you have worked hard",
+          "meaning_vi": "mệt, mệt mỏi; cần nghỉ ngơi sau khi làm việc nhiều",
+          "examples": [
+            {
+              "en": "I'm so tired after running a half marathon.",
+              "vi": "Tôi mệt quá sau khi chạy bán marathon."
+            },
+            {
+              "en": "She looks tired — she should go home early.",
+              "vi": "Cô ấy trông mệt — cô ấy nên về sớm."
+            },
+            {
+              "en": "The children were tired after the school trip to Cuc Phuong.",
+              "vi": "Bọn trẻ mệt sau chuyến đi học ở Cúc Phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exhausted", "worn out", "sleepy", "fatigued"],
+      "antonyms": ["energetic", "refreshed", "awake"],
+      "collocations": ["feel tired", "look tired", "very tired", "tired out", "tired of"],
+      "etymology_hint": "From Old English 'tēorian' meaning 'to fail, become weary'",
+      "mnemonic_vi": "TIRED đọc 'tai-ợt' — mệt quá là 'TAI' nghe gì cũng 'ỢT' không nổi"
+    },
+    {
+      "word": "bored",
+      "lemma": "bored",
+      "ipa": "/bɔːd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling unhappy because something is not interesting or you have nothing to do",
+          "meaning_vi": "chán, buồn chán; cảm thấy không vui vì không có gì thú vị",
+          "examples": [
+            {
+              "en": "I'm bored — let's go for a coffee.",
+              "vi": "Tôi chán quá — đi uống cà phê đi."
+            },
+            {
+              "en": "The students looked bored during the long lecture.",
+              "vi": "Học sinh trông chán nản trong bài giảng dài."
+            },
+            {
+              "en": "He gets bored quickly if there's no internet.",
+              "vi": "Anh ấy chán rất nhanh nếu không có internet."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["uninterested", "weary", "fed up"],
+      "antonyms": ["interested", "excited", "entertained"],
+      "collocations": ["feel bored", "get bored", "bored to death", "bored with", "easily bored"],
+      "etymology_hint": "Past participle of 'bore' (verb) — origin uncertain, possibly from French 'bourrer' (stuff)",
+      "mnemonic_vi": "BORED đọc 'bo-rợt' — chán đến mức 'BÓ' tay 'RỢT' ngồi yên"
+    },
+    {
+      "word": "excited",
+      "lemma": "excited",
+      "ipa": "/ɪkˈsaɪ.tɪd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling very happy and enthusiastic about something good",
+          "meaning_vi": "phấn khích, háo hức; rất vui và mong chờ điều gì đó",
+          "examples": [
+            {
+              "en": "The kids are excited about the trip to Vung Tau.",
+              "vi": "Bọn trẻ háo hức chuyến đi Vũng Tàu."
+            },
+            {
+              "en": "I'm so excited to start my new job tomorrow.",
+              "vi": "Tôi rất phấn khích bắt đầu công việc mới vào ngày mai."
+            },
+            {
+              "en": "She gets excited every time her favourite team plays.",
+              "vi": "Cô ấy phấn khích mỗi khi đội bóng yêu thích thi đấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thrilled", "enthusiastic", "eager"],
+      "antonyms": ["bored", "calm", "indifferent"],
+      "collocations": [
+        "really excited",
+        "excited about",
+        "feel excited",
+        "get excited",
+        "excited voice"
+      ],
+      "etymology_hint": "From Latin 'excitare' = 'ex-' (out) + 'citare' (rouse, set in motion)",
+      "mnemonic_vi": "EXCITED đọc 'éc-sai-tịt' — phấn khích đến 'ÉC' kêu lên vì sướng"
+    },
+    {
+      "word": "worried",
+      "lemma": "worried",
+      "ipa": "/ˈwʌr.id/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling nervous or unhappy because you think something bad might happen",
+          "meaning_vi": "lo lắng, lo âu; cảm thấy bồn chồn vì sợ điều xấu xảy ra",
+          "examples": [
+            {
+              "en": "She was worried about her mother's health.",
+              "vi": "Cô ấy lo lắng về sức khoẻ của mẹ."
+            },
+            {
+              "en": "Don't be worried — everything will be fine.",
+              "vi": "Đừng lo — mọi chuyện sẽ ổn thôi."
+            },
+            {
+              "en": "I'm worried because he hasn't called me for two days.",
+              "vi": "Tôi lo vì hai ngày rồi anh ấy không gọi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anxious", "concerned", "uneasy"],
+      "antonyms": ["relaxed", "calm", "carefree"],
+      "collocations": [
+        "worried about",
+        "very worried",
+        "feel worried",
+        "worried look",
+        "deeply worried"
+      ],
+      "etymology_hint": "Past participle of 'worry' (Old English 'wyrgan' meaning 'to strangle' — later 'harass mentally')",
+      "mnemonic_vi": "WORRIED chứa 'WORRY' — lo lắng đến mức 'WO-RY' bứt rứt"
+    },
+    {
+      "word": "nervous",
+      "lemma": "nervous",
+      "ipa": "/ˈnɜː.vəs/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling worried or afraid about something that is going to happen",
+          "meaning_vi": "hồi hộp, căng thẳng; lo lắng về điều sắp xảy ra",
+          "examples": [
+            {
+              "en": "I'm always nervous before a job interview.",
+              "vi": "Tôi luôn hồi hộp trước buổi phỏng vấn xin việc."
+            },
+            {
+              "en": "She felt nervous on her first day at the new school.",
+              "vi": "Cô ấy hồi hộp trong ngày đầu ở trường mới."
+            },
+            {
+              "en": "He gave a nervous laugh when he met his future in-laws.",
+              "vi": "Anh ấy cười gượng khi gặp gia đình bạn gái tương lai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anxious", "tense", "edgy", "jittery"],
+      "antonyms": ["calm", "relaxed", "confident"],
+      "collocations": [
+        "feel nervous",
+        "very nervous",
+        "nervous about",
+        "nervous smile",
+        "nervous breakdown"
+      ],
+      "etymology_hint": "From Latin 'nervosus' meaning 'sinewy, vigorous' — sense shifted to 'easily agitated'",
+      "mnemonic_vi": "NERVOUS chứa 'NERVE' (dây thần kinh) — dây thần kinh căng = NERVOUS"
+    },
+    {
+      "word": "surprised",
+      "lemma": "surprised",
+      "ipa": "/səˈpraɪzd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling shock or wonder because something unexpected has happened",
+          "meaning_vi": "ngạc nhiên, bất ngờ; cảm thấy sốc vì điều không lường trước",
+          "examples": [
+            {
+              "en": "I was surprised to see my old friend at the airport.",
+              "vi": "Tôi ngạc nhiên khi thấy người bạn cũ ở sân bay."
+            },
+            {
+              "en": "She gave a surprised gasp when she opened the gift.",
+              "vi": "Cô ấy thốt lên ngạc nhiên khi mở quà."
+            },
+            {
+              "en": "He looked surprised by the question.",
+              "vi": "Anh ấy có vẻ ngạc nhiên trước câu hỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["amazed", "astonished", "shocked", "stunned"],
+      "antonyms": ["unsurprised", "expected"],
+      "collocations": [
+        "pleasantly surprised",
+        "very surprised",
+        "surprised look",
+        "feel surprised",
+        "surprised by"
+      ],
+      "etymology_hint": "From Old French 'surprendre' = 'sur-' (over) + 'prendre' (take) — 'taken over' by an event",
+      "mnemonic_vi": "SURPRISED chứa 'PRIZE' (giải) — như được tặng giải bất ngờ"
+    },
+    {
+      "word": "scared",
+      "lemma": "scared",
+      "ipa": "/skeəd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling fear or being afraid of something",
+          "meaning_vi": "sợ, sợ hãi; cảm thấy lo sợ điều gì đó",
+          "examples": [
+            {
+              "en": "I'm scared of spiders — they're so creepy.",
+              "vi": "Tôi sợ nhện — chúng đáng sợ lắm."
+            },
+            { "en": "The little boy was scared of the dark.", "vi": "Cậu bé sợ bóng tối." },
+            {
+              "en": "Don't be scared — I'll walk you home.",
+              "vi": "Đừng sợ — tôi sẽ đưa bạn về nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["frightened", "afraid", "terrified"],
+      "antonyms": ["brave", "fearless", "calm"],
+      "collocations": [
+        "scared of",
+        "really scared",
+        "scared stiff",
+        "feel scared",
+        "easily scared"
+      ],
+      "etymology_hint": "Past participle of 'scare' — from Old Norse 'skirra' meaning 'to frighten'",
+      "mnemonic_vi": "SCARED đọc 'sờ-két' — sợ đến mức 'SỜ KÉT' sắt giấu tiền cũng run tay"
+    },
+    {
+      "word": "proud",
+      "lemma": "proud",
+      "ipa": "/praʊd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling pleased and satisfied about something you or someone close to you has done",
+          "meaning_vi": "tự hào, hãnh diện; vui và thoả mãn về thành tích của mình hoặc người thân",
+          "examples": [
+            {
+              "en": "My parents are proud of me for graduating with honours.",
+              "vi": "Bố mẹ tự hào về tôi vì tốt nghiệp loại giỏi."
+            },
+            {
+              "en": "Vietnamese people are proud of their long history.",
+              "vi": "Người Việt Nam tự hào về lịch sử lâu đời của mình."
+            },
+            {
+              "en": "She is proud to wear her grandmother's áo dài.",
+              "vi": "Cô ấy tự hào khi được mặc áo dài của bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pleased", "satisfied", "honoured"],
+      "antonyms": ["ashamed", "humble"],
+      "collocations": ["proud of", "very proud", "proud parents", "proud moment", "proudly stand"],
+      "etymology_hint": "From Old French 'prud' meaning 'brave, gallant'",
+      "mnemonic_vi": "PROUD đọc 'prao' — tự hào thì ngẩng đầu cao 'PRAO' về phía trước"
+    },
+    {
+      "word": "embarrassed",
+      "lemma": "embarrassed",
+      "ipa": "/ɪmˈbær.əst/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling shy, ashamed or uncomfortable in a social situation",
+          "meaning_vi": "ngượng, xấu hổ; cảm thấy không thoải mái trong tình huống xã giao",
+          "examples": [
+            {
+              "en": "I felt embarrassed when I forgot her name at the party.",
+              "vi": "Tôi ngượng khi quên tên cô ấy ở bữa tiệc."
+            },
+            {
+              "en": "He was embarrassed because his stomach growled in the meeting.",
+              "vi": "Anh ấy xấu hổ vì bụng kêu ọc ọc trong cuộc họp."
+            },
+            { "en": "She gave an embarrassed smile.", "vi": "Cô ấy nở nụ cười ngượng nghịu." }
+          ]
+        }
+      ],
+      "synonyms": ["ashamed", "uncomfortable", "self-conscious"],
+      "antonyms": ["proud", "confident", "comfortable"],
+      "collocations": [
+        "feel embarrassed",
+        "deeply embarrassed",
+        "embarrassed silence",
+        "embarrassed laugh",
+        "embarrassed about"
+      ],
+      "etymology_hint": "From French 'embarrasser' meaning 'to block, obstruct' — sense shifted to 'cause discomfort'",
+      "mnemonic_vi": "EMBARRASSED chứa 'BAR' — bị cản 'BAR' tại bàn tiệc làm xấu hổ"
+    },
+    {
+      "word": "jealous",
+      "lemma": "jealous",
+      "ipa": "/ˈdʒel.əs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling upset or angry because someone has something or someone you want",
+          "meaning_vi": "ghen tị, đố kỵ; bực vì người khác có thứ mình muốn",
+          "examples": [
+            {
+              "en": "She was jealous of her friend's new motorbike.",
+              "vi": "Cô ấy ghen tị với chiếc xe máy mới của bạn."
+            },
+            {
+              "en": "Don't be jealous — work hard and you'll have one too.",
+              "vi": "Đừng ghen tị — chăm chỉ rồi bạn cũng có thôi."
+            },
+            {
+              "en": "He gets jealous whenever his girlfriend talks to other men.",
+              "vi": "Anh ấy hay ghen mỗi khi bạn gái nói chuyện với đàn ông khác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["envious", "covetous", "possessive"],
+      "antonyms": ["content", "satisfied", "indifferent"],
+      "collocations": [
+        "jealous of",
+        "feel jealous",
+        "get jealous",
+        "jealous lover",
+        "jealous look"
+      ],
+      "etymology_hint": "From Old French 'gelos', from Latin 'zelosus' = 'full of zeal' — shares root with 'zealous'",
+      "mnemonic_vi": "JEALOUS đọc 'gie-lợt' — 'GIÊ' (giết) bằng ánh mắt vì ghen tị"
+    },
+    {
+      "word": "lonely",
+      "lemma": "lonely",
+      "ipa": "/ˈləʊn.li/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling sad because you are alone or have no friends to talk to",
+          "meaning_vi": "cô đơn, lẻ loi; buồn vì ở một mình hoặc không có bạn để trò chuyện",
+          "examples": [
+            {
+              "en": "She felt lonely after moving to Saigon for work.",
+              "vi": "Cô ấy thấy cô đơn sau khi chuyển vào Sài Gòn làm việc."
+            },
+            {
+              "en": "Old people often get lonely if their children live far away.",
+              "vi": "Người già thường cô đơn nếu con cái ở xa."
+            },
+            {
+              "en": "Even in a crowd, he sometimes feels lonely.",
+              "vi": "Ngay cả trong đám đông, đôi khi anh ấy vẫn thấy cô đơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alone", "isolated", "solitary"],
+      "antonyms": ["accompanied", "sociable", "surrounded"],
+      "collocations": ["feel lonely", "lonely heart", "lonely place", "very lonely", "lonely life"],
+      "etymology_hint": "From 'lone' (a shortening of 'alone') + '-ly' suffix",
+      "mnemonic_vi": "LONELY chứa 'ONE' (một) — chỉ có 'MỘT' mình = cô đơn"
+    },
+    {
+      "word": "grateful",
+      "lemma": "grateful",
+      "ipa": "/ˈɡreɪt.fəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling thankful because someone has helped you or given you something good",
+          "meaning_vi": "biết ơn, cảm kích; cảm thấy biết ơn vì được giúp đỡ",
+          "examples": [
+            {
+              "en": "I'm so grateful for everything my parents have done for me.",
+              "vi": "Tôi vô cùng biết ơn tất cả những gì bố mẹ đã làm cho tôi."
+            },
+            {
+              "en": "She was grateful to her teacher for the extra help.",
+              "vi": "Cô ấy biết ơn thầy giáo đã giúp đỡ thêm."
+            },
+            {
+              "en": "We are grateful for your generous donation.",
+              "vi": "Chúng tôi biết ơn về khoản đóng góp hào phóng của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thankful", "appreciative", "indebted"],
+      "antonyms": ["ungrateful", "unthankful"],
+      "collocations": [
+        "deeply grateful",
+        "grateful for",
+        "grateful to",
+        "feel grateful",
+        "eternally grateful"
+      ],
+      "etymology_hint": "From Latin 'gratus' meaning 'pleasing, thankful' + '-ful'",
+      "mnemonic_vi": "GRATEFUL chứa 'GREAT' — cảm thấy điều 'GREAT' (tuyệt vời) ai đó dành cho mình = biết ơn"
+    },
+    {
+      "word": "frustrated",
+      "lemma": "frustrated",
+      "ipa": "/frʌˈstreɪ.tɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling annoyed or impatient because you cannot do or change something",
+          "meaning_vi": "thất vọng, bực bội; bực vì không thể làm hoặc thay đổi điều gì đó",
+          "examples": [
+            {
+              "en": "I'm frustrated because the Wi-Fi keeps disconnecting.",
+              "vi": "Tôi bực vì Wi-Fi cứ rớt mạng liên tục."
+            },
+            {
+              "en": "She felt frustrated by the slow service at the bank.",
+              "vi": "Cô ấy thất vọng vì dịch vụ chậm ở ngân hàng."
+            },
+            {
+              "en": "He gets frustrated when he can't solve the puzzle.",
+              "vi": "Anh ấy bực bội khi không giải được câu đố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["annoyed", "irritated", "exasperated"],
+      "antonyms": ["satisfied", "content", "fulfilled"],
+      "collocations": [
+        "feel frustrated",
+        "frustrated with",
+        "frustrated by",
+        "deeply frustrated",
+        "increasingly frustrated"
+      ],
+      "etymology_hint": "From Latin 'frustratus' meaning 'disappointed, in vain' — past participle of 'frustrari'",
+      "mnemonic_vi": "FRUSTRATED chứa 'TRẦY TRẬT' — làm 'TRẦY TRẬT' không xong là bực"
+    },
+    {
+      "word": "relaxed",
+      "lemma": "relaxed",
+      "ipa": "/rɪˈlækst/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling calm and free from worry or tension",
+          "meaning_vi": "thư giãn, thoải mái; bình tĩnh và không lo lắng",
+          "examples": [
+            {
+              "en": "I feel relaxed after a hot bath and a cup of tea.",
+              "vi": "Tôi thấy thư giãn sau khi tắm nước nóng và uống trà."
+            },
+            {
+              "en": "She has a relaxed attitude about her work.",
+              "vi": "Cô ấy có thái độ thoải mái với công việc."
+            },
+            {
+              "en": "The atmosphere at the homestay was very relaxed.",
+              "vi": "Không khí ở homestay rất thoải mái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["calm", "easy-going", "laid-back"],
+      "antonyms": ["tense", "stressed", "anxious"],
+      "collocations": [
+        "feel relaxed",
+        "relaxed mood",
+        "relaxed atmosphere",
+        "completely relaxed",
+        "very relaxed"
+      ],
+      "etymology_hint": "Past participle of 'relax' — from Latin 'relaxare' = 're-' (back) + 'laxare' (loosen)",
+      "mnemonic_vi": "RELAXED đọc 'ri-lắc-t' — nằm võng đong đưa 'LẮC' qua 'LẮC' lại = relaxed"
+    },
+    {
+      "word": "confused",
+      "lemma": "confused",
+      "ipa": "/kənˈfjuːzd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "unable to think clearly or understand what is happening",
+          "meaning_vi": "bối rối, lúng túng; không thể suy nghĩ rõ ràng hoặc hiểu được",
+          "examples": [
+            {
+              "en": "I'm confused — can you explain that again?",
+              "vi": "Tôi đang bối rối — bạn giải thích lại được không?"
+            },
+            {
+              "en": "She looked confused by the complicated map.",
+              "vi": "Cô ấy có vẻ bối rối với tấm bản đồ phức tạp."
+            },
+            {
+              "en": "Foreign tourists often get confused by Hanoi street names.",
+              "vi": "Du khách nước ngoài thường bối rối với tên đường ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["puzzled", "perplexed", "baffled"],
+      "antonyms": ["clear", "certain", "sure"],
+      "collocations": [
+        "feel confused",
+        "confused about",
+        "totally confused",
+        "confused look",
+        "easily confused"
+      ],
+      "etymology_hint": "Past participle of 'confuse' — from Latin 'confundere' = 'con-' (together) + 'fundere' (pour)",
+      "mnemonic_vi": "CONFUSED chứa 'FUSE' (cầu chì) — như cầu chì bị 'FUSE' (nổ) trong đầu = rối loạn"
+    },
+    {
+      "word": "ashamed",
+      "lemma": "ashamed",
+      "ipa": "/əˈʃeɪmd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling guilty or embarrassed about something you have done",
+          "meaning_vi": "xấu hổ, hổ thẹn; cảm thấy có lỗi vì điều gì đó mình đã làm",
+          "examples": [
+            {
+              "en": "He was ashamed of lying to his parents.",
+              "vi": "Anh ấy xấu hổ vì đã nói dối bố mẹ."
+            },
+            {
+              "en": "She felt ashamed when she failed the simple test.",
+              "vi": "Cô ấy xấu hổ khi rớt bài kiểm tra dễ."
+            },
+            {
+              "en": "You have nothing to be ashamed of — you did your best.",
+              "vi": "Bạn không có gì phải xấu hổ — bạn đã cố hết sức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["embarrassed", "guilty", "humiliated"],
+      "antonyms": ["proud", "unashamed"],
+      "collocations": [
+        "ashamed of",
+        "feel ashamed",
+        "deeply ashamed",
+        "ashamed to admit",
+        "ashamed of yourself"
+      ],
+      "etymology_hint": "From Old English 'āscamian' = 'ā-' (intensifier) + 'sceamian' (to feel shame)",
+      "mnemonic_vi": "ASHAMED chứa 'SHAME' (sự xấu hổ) — đầy SHAME = ashamed"
+    },
+    {
+      "word": "hopeful",
+      "lemma": "hopeful",
+      "ipa": "/ˈhəʊp.fəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling that something you want will happen",
+          "meaning_vi": "đầy hy vọng, lạc quan; tin rằng điều mong muốn sẽ thành hiện thực",
+          "examples": [
+            {
+              "en": "I'm hopeful that the weather will be sunny tomorrow.",
+              "vi": "Tôi hy vọng ngày mai trời sẽ nắng."
+            },
+            {
+              "en": "She remained hopeful even after many job rejections.",
+              "vi": "Cô ấy vẫn lạc quan dù bị từ chối nhiều lần xin việc."
+            },
+            {
+              "en": "Doctors are hopeful that the new medicine will help.",
+              "vi": "Các bác sĩ hy vọng loại thuốc mới sẽ có tác dụng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["optimistic", "positive", "expectant"],
+      "antonyms": ["hopeless", "pessimistic", "discouraged"],
+      "collocations": [
+        "hopeful about",
+        "hopeful that",
+        "feel hopeful",
+        "remain hopeful",
+        "hopeful sign"
+      ],
+      "etymology_hint": "From 'hope' (Old English 'hopa') + '-ful' meaning 'full of'",
+      "mnemonic_vi": "HOPEFUL = HOPE + FUL: 'đầy hy vọng' = lạc quan"
+    }
+  ]
+}

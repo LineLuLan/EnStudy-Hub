@@ -1,0 +1,673 @@
+{
+  "slug": "body-health",
+  "name": "Body & Health",
+  "description": "Các bộ phận cơ thể và từ vựng sức khỏe cơ bản.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "head",
+      "lemma": "head",
+      "ipa": "/hed/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the body above the neck containing the brain, eyes, ears, mouth and nose",
+          "meaning_vi": "đầu; bộ phận cơ thể chứa não, mắt, tai, mũi và miệng",
+          "examples": [
+            {
+              "en": "I hit my head on the low door of the old house.",
+              "vi": "Tôi đập đầu vào cái cửa thấp của căn nhà cũ."
+            },
+            {
+              "en": "She nodded her head to agree with the plan.",
+              "vi": "Cô ấy gật đầu đồng ý với kế hoạch."
+            },
+            {
+              "en": "Wear a helmet to protect your head when riding a motorbike.",
+              "vi": "Đội mũ bảo hiểm để bảo vệ đầu khi đi xe máy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["skull", "noggin"],
+      "antonyms": ["foot"],
+      "collocations": ["nod head", "shake head", "hit head", "head injury", "from head to toe"],
+      "etymology_hint": "From Old English 'hēafod', cognate with Latin 'caput'",
+      "mnemonic_vi": "HEAD đọc 'hét' — đau đầu thì 'HÉT' lên cho bớt"
+    },
+    {
+      "word": "face",
+      "lemma": "face",
+      "ipa": "/feɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the front part of the head, where the eyes, nose, and mouth are",
+          "meaning_vi": "mặt; phần phía trước của đầu nơi có mắt, mũi, miệng",
+          "examples": [
+            {
+              "en": "She washed her face with cool water after coming home.",
+              "vi": "Cô ấy rửa mặt với nước mát sau khi về đến nhà."
+            },
+            {
+              "en": "His face turned red when he heard her name.",
+              "vi": "Mặt anh ấy đỏ lên khi nghe tên cô ấy."
+            },
+            {
+              "en": "I'll never forget her kind face.",
+              "vi": "Tôi sẽ không bao giờ quên gương mặt hiền hậu của cô ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["visage", "countenance"],
+      "antonyms": [],
+      "collocations": ["wash face", "round face", "happy face", "face to face", "lose face"],
+      "etymology_hint": "From Old French 'face', from Latin 'facies' meaning 'appearance, form'",
+      "mnemonic_vi": "FACE đọc 'phây' — chụp ảnh 'FACE' xinh để đăng FACEbook cho cả thế giới ngắm"
+    },
+    {
+      "word": "eye",
+      "lemma": "eye",
+      "ipa": "/aɪ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the two organs in the face that you see with",
+          "meaning_vi": "mắt; cơ quan dùng để nhìn",
+          "examples": [
+            {
+              "en": "Her eyes are dark brown, just like her mother's.",
+              "vi": "Mắt cô ấy nâu sẫm, y hệt mẹ cô."
+            },
+            {
+              "en": "Close your eyes and make a wish on your birthday.",
+              "vi": "Nhắm mắt lại và ước một điều vào ngày sinh nhật."
+            },
+            {
+              "en": "I got something in my eye — can you help me?",
+              "vi": "Mắt tôi bị bụi rồi — bạn giúp tôi với?"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["close eyes", "open eyes", "blue eyes", "eye contact", "keep an eye on"],
+      "etymology_hint": "From Old English 'ēage', from Proto-Germanic '*augo'",
+      "mnemonic_vi": "EYE đọc 'ai' — nhìn vào mắt là biết 'AI' đứng trước mặt mình"
+    },
+    {
+      "word": "ear",
+      "lemma": "ear",
+      "ipa": "/ɪə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the two organs on the sides of the head that you hear with",
+          "meaning_vi": "tai; cơ quan dùng để nghe",
+          "examples": [
+            {
+              "en": "She whispered the secret in my ear.",
+              "vi": "Cô ấy thì thầm bí mật vào tai tôi."
+            },
+            {
+              "en": "Rabbits have long ears that can move around.",
+              "vi": "Thỏ có đôi tai dài có thể cử động."
+            },
+            {
+              "en": "Cover your ears — the firecrackers at Tet are very loud.",
+              "vi": "Bịt tai lại — pháo Tết kêu to lắm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "listen with ears",
+        "whisper in ear",
+        "ear infection",
+        "ear plug",
+        "play by ear"
+      ],
+      "etymology_hint": "From Old English 'ēare', from Proto-Germanic '*auzon'",
+      "mnemonic_vi": "EAR đọc 'i-ờ' — tai nghe tiếng 'I' rồi tiếng 'Ờ' đáp lại của bạn bè"
+    },
+    {
+      "word": "nose",
+      "lemma": "nose",
+      "ipa": "/nəʊz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the face above the mouth that you use for smelling and breathing",
+          "meaning_vi": "mũi; bộ phận trên mặt dùng để ngửi và thở",
+          "examples": [
+            {
+              "en": "My nose itches whenever I'm near a cat.",
+              "vi": "Mũi tôi ngứa mỗi khi ở gần mèo."
+            },
+            { "en": "She blew her nose into a tissue.", "vi": "Cô ấy hỉ mũi vào tờ khăn giấy." },
+            {
+              "en": "The smell of fresh phở filled my nose.",
+              "vi": "Mùi phở nóng tràn vào mũi tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["blow nose", "runny nose", "nose ring", "tip of the nose", "stuffy nose"],
+      "etymology_hint": "From Old English 'nosu', cognate with Latin 'nasus'",
+      "mnemonic_vi": "NOSE đọc 'nâu' — chiếc mũi 'NẶNG' (heavy NOSE = pun) trên mặt mỗi người"
+    },
+    {
+      "word": "mouth",
+      "lemma": "mouth",
+      "ipa": "/maʊθ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the opening in the face used for eating and speaking",
+          "meaning_vi": "miệng, mồm; bộ phận dùng để ăn và nói",
+          "examples": [
+            {
+              "en": "Don't talk with your mouth full of food.",
+              "vi": "Đừng nói khi miệng đầy thức ăn."
+            },
+            {
+              "en": "She opened her mouth wide for the dentist.",
+              "vi": "Cô ấy há miệng rộng cho nha sĩ khám."
+            },
+            {
+              "en": "He put a piece of bánh mì in his mouth and smiled.",
+              "vi": "Anh ấy bỏ một miếng bánh mì vào miệng rồi cười."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["open mouth", "close mouth", "big mouth", "by mouth", "word of mouth"],
+      "etymology_hint": "From Old English 'mūþ', cognate with German 'Mund'",
+      "mnemonic_vi": "MOUTH đọc 'mao-th' — 'MAO' khẽ hé mở miệng nhai cơm"
+    },
+    {
+      "word": "hand",
+      "lemma": "hand",
+      "ipa": "/hænd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the body at the end of the arm, including the fingers",
+          "meaning_vi": "bàn tay; phần cuối của cánh tay gồm các ngón",
+          "examples": [
+            { "en": "Wash your hands before eating.", "vi": "Rửa tay trước khi ăn." },
+            {
+              "en": "He took my hand as we crossed the busy street.",
+              "vi": "Anh ấy nắm tay tôi khi qua đường đông xe."
+            },
+            {
+              "en": "She has small hands and long fingers — perfect for piano.",
+              "vi": "Cô ấy có bàn tay nhỏ và ngón dài — rất hợp chơi piano."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["palm"],
+      "antonyms": [],
+      "collocations": ["wash hands", "hold hands", "right hand", "shake hands", "hand in hand"],
+      "etymology_hint": "From Old English 'hand', cognate with German 'Hand'",
+      "mnemonic_vi": "HAND đọc 'hen' — đưa tay 'HEN' (hứa hẹn) bằng cách giơ tay phải lên"
+    },
+    {
+      "word": "arm",
+      "lemma": "arm",
+      "ipa": "/ɑːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the long part of the body between the shoulder and the hand",
+          "meaning_vi": "cánh tay; phần cơ thể nối từ vai đến bàn tay",
+          "examples": [
+            {
+              "en": "He broke his arm after falling off the motorbike.",
+              "vi": "Anh ấy gãy tay sau khi ngã xe máy."
+            },
+            {
+              "en": "She put her arm around her little sister's shoulder.",
+              "vi": "Cô ấy quàng tay qua vai em gái nhỏ."
+            },
+            {
+              "en": "Stretch your arms before doing yoga.",
+              "vi": "Duỗi cánh tay trước khi tập yoga."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["limb"],
+      "antonyms": ["leg"],
+      "collocations": [
+        "raise arms",
+        "fold arms",
+        "break an arm",
+        "in someone's arms",
+        "arm in arm"
+      ],
+      "etymology_hint": "From Old English 'earm', from Proto-Indo-European root '*ar-' meaning 'to fit, join'",
+      "mnemonic_vi": "ARM đọc 'am' — 'ÔM' bằng cánh tay đầy yêu thương"
+    },
+    {
+      "word": "leg",
+      "lemma": "leg",
+      "ipa": "/leɡ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the two long parts of the body used for walking and standing",
+          "meaning_vi": "chân; phần dài của cơ thể dùng để đi và đứng",
+          "examples": [
+            {
+              "en": "My legs ached after climbing Fansipan all day.",
+              "vi": "Chân tôi đau nhức sau khi leo Fansipan cả ngày."
+            },
+            {
+              "en": "The baby is learning to use her legs to walk.",
+              "vi": "Em bé đang tập dùng chân để đi."
+            },
+            {
+              "en": "Cross your legs while sitting on the floor.",
+              "vi": "Khoanh chân lại khi ngồi dưới sàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["limb"],
+      "antonyms": ["arm"],
+      "collocations": [
+        "long legs",
+        "cross legs",
+        "stretch legs",
+        "break a leg",
+        "leg of the table"
+      ],
+      "etymology_hint": "From Old Norse 'leggr' meaning 'leg, bone of the leg'",
+      "mnemonic_vi": "LEG đọc 'léc' — chân 'LÉC PHÉC' chạy nhảy khắp nơi"
+    },
+    {
+      "word": "foot",
+      "lemma": "foot",
+      "ipa": "/fʊt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the leg below the ankle that you stand on",
+          "meaning_vi": "bàn chân; phần cuối của chân dùng để đứng",
+          "examples": [
+            {
+              "en": "My foot is cold — I forgot to wear socks.",
+              "vi": "Chân tôi lạnh — tôi quên đi tất rồi."
+            },
+            {
+              "en": "He stepped on my foot in the crowded market.",
+              "vi": "Anh ta giẫm lên chân tôi trong chợ đông người."
+            },
+            {
+              "en": "She walks to school on foot every morning.",
+              "vi": "Cô ấy đi bộ đến trường mỗi sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["head"],
+      "collocations": ["on foot", "step on foot", "left foot", "right foot", "foot massage"],
+      "etymology_hint": "From Old English 'fōt', cognate with Latin 'pes' and Greek 'pous'",
+      "mnemonic_vi": "FOOT đọc 'phút' — đi bộ 5 'PHÚT' tới quán phở, dùng FOOT chứ không cần xe"
+    },
+    {
+      "word": "hair",
+      "lemma": "hair",
+      "ipa": "/heə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the thin thread-like things that grow on a person's head, body, or an animal",
+          "meaning_vi": "tóc; lông; sợi mỏng mọc trên đầu hoặc da",
+          "examples": [
+            {
+              "en": "She has long black hair that reaches her waist.",
+              "vi": "Cô ấy có mái tóc đen dài chấm eo."
+            },
+            {
+              "en": "I need to get my hair cut before the wedding.",
+              "vi": "Tôi cần cắt tóc trước đám cưới."
+            },
+            { "en": "His hair turned grey at a young age.", "vi": "Tóc anh ấy bạc sớm." }
+          ]
+        }
+      ],
+      "synonyms": ["locks", "tresses"],
+      "antonyms": [],
+      "collocations": ["long hair", "cut hair", "brush hair", "grey hair", "hair salon"],
+      "etymology_hint": "From Old English 'hǣr', cognate with German 'Haar'",
+      "mnemonic_vi": "HAIR đọc 'he-ờ' — cứ 'HỀ HỀ' cười là tóc rung rinh"
+    },
+    {
+      "word": "tooth",
+      "lemma": "tooth",
+      "ipa": "/tuːθ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the hard white objects in the mouth used for biting and chewing food",
+          "meaning_vi": "răng; vật cứng màu trắng trong miệng dùng để cắn và nhai",
+          "examples": [
+            {
+              "en": "Brush your teeth twice a day to keep them healthy.",
+              "vi": "Đánh răng hai lần mỗi ngày để răng khỏe."
+            },
+            {
+              "en": "My little brother just lost his first tooth.",
+              "vi": "Em trai tôi vừa rụng cái răng đầu tiên."
+            },
+            {
+              "en": "I broke a tooth while eating crab claws.",
+              "vi": "Tôi gãy một cái răng khi ăn càng cua."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["brush teeth", "lose a tooth", "wisdom tooth", "front tooth", "toothbrush"],
+      "etymology_hint": "From Old English 'tōþ', cognate with Latin 'dens'",
+      "mnemonic_vi": "TOOTH đọc 'tu-th' — 'TUỲ' cái răng còn tốt không mà có dám cắn xương"
+    },
+    {
+      "word": "skin",
+      "lemma": "skin",
+      "ipa": "/skɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the natural outer covering of a person's or animal's body",
+          "meaning_vi": "da; lớp ngoài cùng bao bọc cơ thể",
+          "examples": [
+            {
+              "en": "Use sunscreen to protect your skin at the beach.",
+              "vi": "Dùng kem chống nắng để bảo vệ da khi ra biển."
+            },
+            { "en": "Babies have very soft skin.", "vi": "Em bé có làn da rất mềm." },
+            {
+              "en": "Vietnamese women often use rice water to clean their skin.",
+              "vi": "Phụ nữ Việt thường dùng nước vo gạo để rửa mặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complexion", "hide"],
+      "antonyms": [],
+      "collocations": ["soft skin", "dry skin", "skin care", "fair skin", "skin colour"],
+      "etymology_hint": "From Old Norse 'skinn', cognate with Old English 'scinn'",
+      "mnemonic_vi": "SKIN đọc 'sờ-kin' — 'SỜ' vào làn da bạn 'KỊN' mịn như em bé"
+    },
+    {
+      "word": "heart",
+      "lemma": "heart",
+      "ipa": "/hɑːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the organ in the chest that pumps blood through the body",
+          "meaning_vi": "tim; cơ quan trong ngực bơm máu đi khắp cơ thể",
+          "examples": [
+            {
+              "en": "My heart beats faster when I'm nervous.",
+              "vi": "Tim tôi đập nhanh hơn khi tôi lo lắng."
+            },
+            { "en": "Doing exercise is good for the heart.", "vi": "Tập thể dục tốt cho tim." },
+            {
+              "en": "She has a kind heart and helps everyone.",
+              "vi": "Cô ấy có tấm lòng tốt và giúp đỡ mọi người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["core", "soul"],
+      "antonyms": [],
+      "collocations": ["heart beat", "heart attack", "kind heart", "heart disease", "by heart"],
+      "etymology_hint": "From Old English 'heorte', cognate with Latin 'cor' and Greek 'kardia'",
+      "mnemonic_vi": "HEART chứa 'EAR' và 'ART' — tim 'TAI' (nghe) và 'ART' (nghệ thuật) là 2 thứ nuôi tâm hồn"
+    },
+    {
+      "word": "stomach",
+      "lemma": "stomach",
+      "ipa": "/ˈstʌm.ək/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the part of the body where food goes after you eat it",
+          "meaning_vi": "dạ dày, bụng; nơi chứa thức ăn sau khi ăn",
+          "examples": [
+            {
+              "en": "My stomach hurts after eating too much bún chả.",
+              "vi": "Bụng tôi đau sau khi ăn quá nhiều bún chả."
+            },
+            {
+              "en": "Don't drink coffee on an empty stomach.",
+              "vi": "Đừng uống cà phê khi bụng đói."
+            },
+            {
+              "en": "The doctor pressed gently on his stomach.",
+              "vi": "Bác sĩ ấn nhẹ vào bụng anh ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["belly", "tummy"],
+      "antonyms": [],
+      "collocations": [
+        "upset stomach",
+        "empty stomach",
+        "stomach ache",
+        "full stomach",
+        "stomach pain"
+      ],
+      "etymology_hint": "From Greek 'stomachos' meaning 'throat, gullet', from 'stoma' (mouth)",
+      "mnemonic_vi": "STOMACH đọc 'sờ-tâm-mặc' — 'TÂM' đặt ở dạ dày — bụng đói thì khó nghĩ chuyện gì"
+    },
+    {
+      "word": "doctor",
+      "lemma": "doctor",
+      "ipa": "/ˈdɒk.tə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has been trained in medical science and treats sick people",
+          "meaning_vi": "bác sĩ; người được đào tạo để khám và chữa bệnh",
+          "examples": [
+            {
+              "en": "My uncle is a doctor at Bach Mai Hospital.",
+              "vi": "Chú tôi là bác sĩ ở bệnh viện Bạch Mai."
+            },
+            {
+              "en": "You should see a doctor if the cough doesn't stop.",
+              "vi": "Bạn nên đi khám bác sĩ nếu cơn ho không dứt."
+            },
+            {
+              "en": "The doctor gave me medicine for my fever.",
+              "vi": "Bác sĩ kê thuốc cho tôi vì sốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["physician", "medic"],
+      "antonyms": ["patient"],
+      "collocations": [
+        "see a doctor",
+        "family doctor",
+        "young doctor",
+        "call a doctor",
+        "doctor's appointment"
+      ],
+      "etymology_hint": "From Latin 'doctor' meaning 'teacher', from 'docere' (to teach)",
+      "mnemonic_vi": "DOCTOR đọc 'đốc-tờ' — bệnh nhân run 'ĐỐC' (đánh) tay khi nhận TỜ kê thuốc"
+    },
+    {
+      "word": "medicine",
+      "lemma": "medicine",
+      "ipa": "/ˈmed.sən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance, often a liquid or pill, that you take to treat an illness",
+          "meaning_vi": "thuốc; chất uống hoặc viên nén để chữa bệnh",
+          "examples": [
+            {
+              "en": "Take this medicine three times a day after meals.",
+              "vi": "Uống thuốc này ba lần một ngày sau bữa ăn."
+            },
+            {
+              "en": "The medicine tastes bitter but it works fast.",
+              "vi": "Thuốc đắng nhưng có tác dụng nhanh."
+            },
+            {
+              "en": "Vietnamese traditional medicine often uses herbs.",
+              "vi": "Đông y Việt Nam thường dùng thảo dược."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["drug", "remedy", "treatment"],
+      "antonyms": [],
+      "collocations": [
+        "take medicine",
+        "prescribe medicine",
+        "cough medicine",
+        "traditional medicine",
+        "strong medicine"
+      ],
+      "etymology_hint": "From Latin 'medicina' meaning 'the healing art', from 'medicus' (doctor)",
+      "mnemonic_vi": "MEDICINE đọc 'mét-xin' — 'MÉT' bố mẹ là 'XIN' đi mua thuốc cho ốm"
+    },
+    {
+      "word": "pain",
+      "lemma": "pain",
+      "ipa": "/peɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an unpleasant feeling in the body caused by illness or injury",
+          "meaning_vi": "cơn đau; cảm giác khó chịu do bệnh hoặc chấn thương",
+          "examples": [
+            {
+              "en": "I feel a sharp pain in my back when I bend down.",
+              "vi": "Tôi cảm thấy đau nhói ở lưng khi cúi xuống."
+            },
+            { "en": "The medicine helps to reduce the pain.", "vi": "Thuốc giúp giảm cơn đau." },
+            {
+              "en": "She cried out in pain when she twisted her ankle.",
+              "vi": "Cô ấy kêu lên vì đau khi trẹo cổ chân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ache", "hurt", "discomfort"],
+      "antonyms": ["pleasure", "comfort"],
+      "collocations": ["sharp pain", "feel pain", "back pain", "in pain", "pain killer"],
+      "etymology_hint": "From Old French 'peine', from Latin 'poena' meaning 'punishment, penalty'",
+      "mnemonic_vi": "PAIN đọc 'pen' — đau quá thì cầm 'PEN' (bút) ký giấy nhập viện"
+    },
+    {
+      "word": "healthy",
+      "lemma": "healthy",
+      "ipa": "/ˈhel.θi/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in good physical condition; not ill",
+          "meaning_vi": "khỏe mạnh; không bị bệnh, có thể trạng tốt",
+          "examples": [
+            {
+              "en": "Eating vegetables every day keeps you healthy.",
+              "vi": "Ăn rau mỗi ngày giúp bạn khỏe mạnh."
+            },
+            {
+              "en": "She looks healthy after a month of doing yoga.",
+              "vi": "Cô ấy trông khỏe mạnh sau một tháng tập yoga."
+            },
+            {
+              "en": "A healthy lifestyle includes enough sleep and exercise.",
+              "vi": "Một lối sống lành mạnh gồm ngủ đủ và tập thể dục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fit", "well", "strong"],
+      "antonyms": ["sick", "unhealthy", "ill"],
+      "collocations": [
+        "healthy food",
+        "healthy lifestyle",
+        "stay healthy",
+        "healthy diet",
+        "look healthy"
+      ],
+      "etymology_hint": "From Old English 'hǣlþ' (wholeness) + '-y' adjective suffix",
+      "mnemonic_vi": "HEALTHY chứa 'HEAL' (chữa lành) — chữa lành cơ thể = HEALTHY"
+    },
+    {
+      "word": "sick",
+      "lemma": "sick",
+      "ipa": "/sɪk/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling ill in your body or having a disease",
+          "meaning_vi": "ốm, bệnh; có triệu chứng đau yếu trong người",
+          "examples": [
+            {
+              "en": "I felt sick after the long bus ride to Sa Pa.",
+              "vi": "Tôi cảm thấy say xe sau chuyến xe khách dài lên Sa Pa."
+            },
+            {
+              "en": "My grandfather has been sick for two weeks.",
+              "vi": "Ông tôi ốm đã hai tuần rồi."
+            },
+            {
+              "en": "She stayed home from school because she was sick.",
+              "vi": "Cô ấy nghỉ học ở nhà vì bị ốm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ill", "unwell"],
+      "antonyms": ["healthy", "well", "fit"],
+      "collocations": ["feel sick", "get sick", "sick leave", "sick child", "homesick"],
+      "etymology_hint": "From Old English 'sēoc' meaning 'ill, weak', cognate with German 'siech'",
+      "mnemonic_vi": "SICK đọc 'xích' — bị ốm thì phải bị 'XÍCH' vào giường nghỉ ngơi"
+    }
+  ]
+}

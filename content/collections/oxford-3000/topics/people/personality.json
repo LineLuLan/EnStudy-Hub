@@ -1,0 +1,727 @@
+{
+  "slug": "personality",
+  "name": "Personality Traits",
+  "description": "Tính cách và đặc điểm bản chất của một người.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "kind",
+      "lemma": "kind",
+      "ipa": "/kaɪnd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "caring about others and willing to help them; gentle and friendly",
+          "meaning_vi": "tốt bụng, tử tế; quan tâm và sẵn sàng giúp đỡ người khác",
+          "examples": [
+            {
+              "en": "She is very kind to all the stray dogs in the neighbourhood.",
+              "vi": "Cô ấy rất tốt bụng với tất cả những chú chó hoang trong khu phố."
+            },
+            {
+              "en": "It was kind of you to help my mother carry the rice.",
+              "vi": "Bạn thật tử tế khi giúp mẹ tôi xách gạo."
+            },
+            {
+              "en": "He has a kind heart even though he looks tough.",
+              "vi": "Anh ấy có tấm lòng nhân hậu dù trông có vẻ ngầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nice", "caring", "thoughtful", "gentle"],
+      "antonyms": ["cruel", "unkind", "mean"],
+      "collocations": ["kind person", "kind heart", "be kind to", "kind enough", "kind words"],
+      "etymology_hint": "From Old English 'gecynde' meaning 'natural, innate' — originally 'in line with one's nature'",
+      "mnemonic_vi": "KIND đọc 'cài-nờ' — người tốt 'CÀI' niềm tin vào lòng người khác"
+    },
+    {
+      "word": "friendly",
+      "lemma": "friendly",
+      "ipa": "/ˈfrend.li/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "behaving in a pleasant way that shows you like someone",
+          "meaning_vi": "thân thiện; cư xử dễ chịu khiến người khác thấy mình quý mến",
+          "examples": [
+            {
+              "en": "The staff at the homestay in Hoi An are very friendly.",
+              "vi": "Nhân viên homestay ở Hội An rất thân thiện."
+            },
+            {
+              "en": "She gave me a friendly smile when I arrived.",
+              "vi": "Cô ấy cười thân thiện khi tôi đến."
+            },
+            {
+              "en": "Our new neighbours are friendly and helpful.",
+              "vi": "Hàng xóm mới của chúng tôi vừa thân thiện vừa hay giúp đỡ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["warm", "sociable", "amiable"],
+      "antonyms": ["unfriendly", "cold", "hostile"],
+      "collocations": [
+        "friendly smile",
+        "friendly people",
+        "user-friendly",
+        "friendly atmosphere",
+        "friendly match"
+      ],
+      "etymology_hint": "From 'friend' (Old English 'frēond') + '-ly' = 'in a friend-like manner'",
+      "mnemonic_vi": "FRIENDLY = FRIEND + LY: cư xử 'KIỂU BẠN' = thân thiện"
+    },
+    {
+      "word": "shy",
+      "lemma": "shy",
+      "ipa": "/ʃaɪ/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "nervous and uncomfortable around other people, especially strangers",
+          "meaning_vi": "nhút nhát, ngại ngùng; lo lắng và bối rối khi ở gần người lạ",
+          "examples": [
+            {
+              "en": "My little sister is too shy to speak in front of the class.",
+              "vi": "Em gái tôi quá nhút nhát để phát biểu trước lớp."
+            },
+            {
+              "en": "Don't be shy — come and join us for dinner.",
+              "vi": "Đừng ngại — vào ăn tối với chúng tôi nào."
+            },
+            {
+              "en": "He was shy on the first date, but later he opened up.",
+              "vi": "Anh ấy ngại ngùng trong buổi hẹn đầu, nhưng sau đó cởi mở hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["timid", "bashful", "reserved"],
+      "antonyms": ["confident", "outgoing", "bold"],
+      "collocations": ["shy child", "shy smile", "shy person", "be shy", "camera-shy"],
+      "etymology_hint": "From Old English 'scēoh' meaning 'easily frightened'",
+      "mnemonic_vi": "SHY đọc 'sai' — sợ làm 'SAI' nên không dám mở miệng = SHY"
+    },
+    {
+      "word": "polite",
+      "lemma": "polite",
+      "ipa": "/pəˈlaɪt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "showing good manners and respect for other people",
+          "meaning_vi": "lịch sự, lễ phép; có cách cư xử tôn trọng người khác",
+          "examples": [
+            {
+              "en": "Vietnamese children are taught to be polite to elders.",
+              "vi": "Trẻ em Việt Nam được dạy phải lễ phép với người lớn tuổi."
+            },
+            {
+              "en": "It's polite to say 'thank you' when someone helps you.",
+              "vi": "Nói 'cảm ơn' khi được giúp là cách cư xử lịch sự."
+            },
+            {
+              "en": "His polite manner impressed the job interviewers.",
+              "vi": "Phong thái lịch sự của anh ấy gây ấn tượng với người phỏng vấn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["courteous", "respectful", "well-mannered"],
+      "antonyms": ["rude", "impolite", "disrespectful"],
+      "collocations": [
+        "polite manner",
+        "polite to",
+        "polite request",
+        "polite smile",
+        "polite conversation"
+      ],
+      "etymology_hint": "From Latin 'politus' meaning 'polished, refined' — past participle of 'polire' (to polish)",
+      "mnemonic_vi": "POLITE chứa 'LITE' — 'nhẹ nhàng' trong lời nói = lịch sự"
+    },
+    {
+      "word": "honest",
+      "lemma": "honest",
+      "ipa": "/ˈɒn.ɪst/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "telling the truth and not deceiving people",
+          "meaning_vi": "trung thực, thật thà; nói thật và không lừa gạt người khác",
+          "examples": [
+            {
+              "en": "I'll be honest — that bowl of bún chả was the best I've ever had.",
+              "vi": "Nói thật — tô bún chả đó ngon nhất tôi từng ăn."
+            },
+            {
+              "en": "She is an honest person who never lies.",
+              "vi": "Cô ấy là người thật thà, không bao giờ nói dối."
+            },
+            {
+              "en": "Honest people often have more friends in the long run.",
+              "vi": "Người trung thực thường có nhiều bạn về lâu dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["truthful", "sincere", "trustworthy"],
+      "antonyms": ["dishonest", "lying", "deceitful"],
+      "collocations": [
+        "honest person",
+        "to be honest",
+        "honest answer",
+        "honest opinion",
+        "honest mistake"
+      ],
+      "etymology_hint": "From Latin 'honestus' meaning 'honourable, respected' (the 'h' is silent in modern English)",
+      "mnemonic_vi": "HONEST âm câm chữ H — 'ON-ÉT' — người thật thà 'ON' (bật) sự thật 'ÉT' (out) cho mọi người"
+    },
+    {
+      "word": "brave",
+      "lemma": "brave",
+      "ipa": "/breɪv/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "ready to face danger or difficulty without showing fear",
+          "meaning_vi": "dũng cảm, gan dạ; sẵn sàng đối mặt với nguy hiểm hoặc khó khăn",
+          "examples": [
+            {
+              "en": "The brave firefighter rescued the cat from the tree.",
+              "vi": "Người lính cứu hoả dũng cảm đã cứu con mèo trên cây."
+            },
+            {
+              "en": "She was brave enough to start her own business at 22.",
+              "vi": "Cô ấy đủ dũng cảm để khởi nghiệp ở tuổi 22."
+            },
+            {
+              "en": "It takes a brave heart to admit a mistake.",
+              "vi": "Phải có lòng dũng cảm mới dám thừa nhận sai lầm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["courageous", "bold", "fearless", "daring"],
+      "antonyms": ["cowardly", "scared", "afraid"],
+      "collocations": ["brave soldier", "brave decision", "be brave", "brave enough", "brave face"],
+      "etymology_hint": "From Italian 'bravo' meaning 'bold, fine' — once also meant 'wild, savage'",
+      "mnemonic_vi": "BRAVE đọc 'brép' — vỗ tay 'BRÁP BRÁP' khen người dũng cảm"
+    },
+    {
+      "word": "lazy",
+      "lemma": "lazy",
+      "ipa": "/ˈleɪ.zi/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not willing to work or do anything that takes effort",
+          "meaning_vi": "lười biếng; không muốn làm việc hay cố gắng",
+          "examples": [
+            {
+              "en": "Don't be lazy — finish your homework before dinner.",
+              "vi": "Đừng lười — làm xong bài tập trước khi ăn tối."
+            },
+            {
+              "en": "He's too lazy to wash his own dishes.",
+              "vi": "Anh ấy lười đến mức không rửa bát của chính mình."
+            },
+            {
+              "en": "I had a lazy Sunday watching films all day.",
+              "vi": "Tôi có một ngày Chủ nhật lười biếng xem phim cả ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["idle", "slothful", "indolent"],
+      "antonyms": ["hardworking", "diligent", "active"],
+      "collocations": ["lazy person", "lazy day", "too lazy", "feel lazy", "lazy bones"],
+      "etymology_hint": "Origin uncertain — possibly from Middle Low German 'lasich' meaning 'feeble, weak'",
+      "mnemonic_vi": "LAZY đọc 'lây-zi' — nằm 'LẾT' (lây) khắp nhà không thèm dậy = LAZY"
+    },
+    {
+      "word": "smart",
+      "lemma": "smart",
+      "ipa": "/smɑːt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "intelligent and able to learn or understand things quickly",
+          "meaning_vi": "thông minh, lanh lợi; học và hiểu nhanh",
+          "examples": [
+            {
+              "en": "She is so smart that she finished the puzzle in five minutes.",
+              "vi": "Cô ấy thông minh đến mức giải xong câu đố trong năm phút."
+            },
+            {
+              "en": "It was smart of him to save money for emergencies.",
+              "vi": "Anh ấy khôn ngoan khi để dành tiền phòng khi khẩn cấp."
+            },
+            {
+              "en": "Smart students often ask many questions in class.",
+              "vi": "Học sinh thông minh thường hỏi nhiều câu trong lớp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intelligent", "clever", "bright"],
+      "antonyms": ["stupid", "dumb", "slow"],
+      "collocations": ["smart kid", "smart idea", "smart phone", "smart move", "smart enough"],
+      "etymology_hint": "From Old English 'smeart' meaning 'sharp, severe' — meaning shifted to 'sharp-minded'",
+      "mnemonic_vi": "SMART đọc 'sờ-mát' — đầu óc 'MÁT' lạnh khi giải bài khó = thông minh"
+    },
+    {
+      "word": "funny",
+      "lemma": "funny",
+      "ipa": "/ˈfʌn.i/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "making you laugh or smile",
+          "meaning_vi": "hài hước, vui tính; khiến người khác cười",
+          "examples": [
+            {
+              "en": "He tells the funniest jokes at every family party.",
+              "vi": "Anh ấy kể chuyện cười hay nhất trong mọi buổi tiệc gia đình."
+            },
+            {
+              "en": "That cat video on TikTok was really funny.",
+              "vi": "Cái video con mèo trên TikTok đó vui ghê."
+            },
+            {
+              "en": "She has a funny way of saying 'hello' in three languages.",
+              "vi": "Cô ấy có cách chào 'hello' bằng ba thứ tiếng rất buồn cười."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["amusing", "humorous", "comical"],
+      "antonyms": ["serious", "boring"],
+      "collocations": ["funny joke", "funny story", "really funny", "funny video", "funny face"],
+      "etymology_hint": "From 'fun' (mid-17th century, possibly from 'fond' = foolish) + '-y'",
+      "mnemonic_vi": "FUNNY chứa 'FUN' (vui) — vui đến mức trở thành buồn cười = FUNNY"
+    },
+    {
+      "word": "serious",
+      "lemma": "serious",
+      "ipa": "/ˈsɪə.ri.əs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "thinking and behaving carefully and not joking; important and requiring thought",
+          "meaning_vi": "nghiêm túc, nghiêm trọng; suy nghĩ kỹ lưỡng, không đùa giỡn",
+          "examples": [
+            {
+              "en": "She has a serious look when she's solving math problems.",
+              "vi": "Cô ấy có vẻ mặt nghiêm túc khi giải toán."
+            },
+            {
+              "en": "Please be serious — this is an important meeting.",
+              "vi": "Vui lòng nghiêm túc — đây là cuộc họp quan trọng."
+            },
+            {
+              "en": "Air pollution in Hanoi is a serious problem.",
+              "vi": "Ô nhiễm không khí ở Hà Nội là một vấn đề nghiêm trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grave", "earnest", "solemn"],
+      "antonyms": ["funny", "playful", "joking"],
+      "collocations": [
+        "serious person",
+        "serious problem",
+        "be serious",
+        "serious face",
+        "serious illness"
+      ],
+      "etymology_hint": "From Latin 'serius' meaning 'weighty, grave'",
+      "mnemonic_vi": "SERIOUS đọc 'sia-ri-ợt' — 'SIA' (đến) gặp 'RIÊNG' chuyện quan trọng nghiêm túc"
+    },
+    {
+      "word": "generous",
+      "lemma": "generous",
+      "ipa": "/ˈdʒen.ər.əs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "willing to give money, time, or help without expecting anything in return",
+          "meaning_vi": "hào phóng, rộng lượng; sẵn lòng cho mà không mong nhận lại",
+          "examples": [
+            {
+              "en": "My grandmother was generous — she gave lì xì to every child at Tet.",
+              "vi": "Bà tôi rất hào phóng — bà mừng tuổi mọi đứa trẻ vào Tết."
+            },
+            {
+              "en": "It's generous of you to share your lunch with me.",
+              "vi": "Bạn thật rộng lượng khi chia phần cơm cho tôi."
+            },
+            {
+              "en": "He gave a generous donation to the flood victims.",
+              "vi": "Anh ấy quyên một khoản hào phóng cho nạn nhân lũ lụt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["giving", "open-handed", "big-hearted"],
+      "antonyms": ["stingy", "selfish", "mean"],
+      "collocations": [
+        "generous gift",
+        "generous person",
+        "generous donation",
+        "very generous",
+        "generous portion"
+      ],
+      "etymology_hint": "From Latin 'generosus' meaning 'of noble birth' — nobility was associated with generosity",
+      "mnemonic_vi": "GENEROUS chứa 'GEN' (gốc) — người có 'GEN' tốt sẵn sàng cho đi"
+    },
+    {
+      "word": "patient",
+      "lemma": "patient",
+      "ipa": "/ˈpeɪ.ʃənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to wait calmly without getting angry or frustrated",
+          "meaning_vi": "kiên nhẫn, nhẫn nại; có thể chờ đợi mà không nổi giận",
+          "examples": [
+            {
+              "en": "Teachers need to be patient with young children.",
+              "vi": "Giáo viên cần kiên nhẫn với trẻ nhỏ."
+            },
+            {
+              "en": "Be patient — the bus will come in a few minutes.",
+              "vi": "Kiên nhẫn nào — xe khách sẽ đến trong vài phút."
+            },
+            {
+              "en": "He's very patient when teaching his grandmother to use a phone.",
+              "vi": "Anh ấy rất kiên nhẫn khi dạy bà mình dùng điện thoại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["calm", "tolerant", "long-suffering"],
+      "antonyms": ["impatient", "restless"],
+      "collocations": [
+        "patient person",
+        "be patient with",
+        "patient teacher",
+        "infinitely patient",
+        "patient enough"
+      ],
+      "etymology_hint": "From Latin 'patiens' meaning 'enduring, suffering' — same root as 'passion'",
+      "mnemonic_vi": "PATIENT cũng nghĩa là 'bệnh nhân' — bệnh nhân thì phải nằm chờ → kiên nhẫn"
+    },
+    {
+      "word": "confident",
+      "lemma": "confident",
+      "ipa": "/ˈkɒn.fɪ.dənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling sure about your own abilities and ideas",
+          "meaning_vi": "tự tin; chắc chắn về khả năng và ý kiến của bản thân",
+          "examples": [
+            {
+              "en": "After months of practice, I feel confident speaking English.",
+              "vi": "Sau nhiều tháng luyện tập, tôi tự tin khi nói tiếng Anh."
+            },
+            {
+              "en": "She gave a confident answer in the job interview.",
+              "vi": "Cô ấy trả lời tự tin trong buổi phỏng vấn xin việc."
+            },
+            {
+              "en": "He is confident that he will pass the exam.",
+              "vi": "Anh ấy tự tin rằng mình sẽ đỗ kỳ thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-assured", "sure", "certain"],
+      "antonyms": ["unsure", "shy", "doubtful"],
+      "collocations": [
+        "self-confident",
+        "confident smile",
+        "feel confident",
+        "confident speaker",
+        "very confident"
+      ],
+      "etymology_hint": "From Latin 'confidens', present participle of 'confidere' = 'con-' (with) + 'fidere' (trust)",
+      "mnemonic_vi": "CONFIDENT chứa 'CON' + 'FIDE' (tin) — tin con đường mình chọn = tự tin"
+    },
+    {
+      "word": "quiet",
+      "lemma": "quiet",
+      "ipa": "/ˈkwaɪ.ət/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "making little or no sound; not speaking much",
+          "meaning_vi": "yên tĩnh, ít nói; không gây ồn ào, không nói nhiều",
+          "examples": [
+            {
+              "en": "Please be quiet — the baby is sleeping.",
+              "vi": "Im lặng nào — em bé đang ngủ."
+            },
+            {
+              "en": "He is a quiet boy who prefers reading to talking.",
+              "vi": "Cậu ấy là một cậu bé ít nói, thích đọc sách hơn trò chuyện."
+            },
+            {
+              "en": "The countryside near Ninh Binh is quiet and peaceful.",
+              "vi": "Vùng quê gần Ninh Bình yên tĩnh và bình yên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["silent", "reserved", "calm"],
+      "antonyms": ["loud", "noisy", "talkative"],
+      "collocations": [
+        "quiet person",
+        "keep quiet",
+        "quiet street",
+        "quiet voice",
+        "nice and quiet"
+      ],
+      "etymology_hint": "From Latin 'quietus' meaning 'at rest, calm'",
+      "mnemonic_vi": "QUIET đọc 'quai-ợt' — 'QUAI' (đeo) khẩu trang là im 'ỢT' luôn"
+    },
+    {
+      "word": "talkative",
+      "lemma": "talkative",
+      "ipa": "/ˈtɔː.kə.tɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "talking a lot, often more than other people",
+          "meaning_vi": "hay nói, lắm lời; nói nhiều, thích trò chuyện",
+          "examples": [
+            {
+              "en": "My sister is talkative — she can chat for hours.",
+              "vi": "Chị tôi hay nói — chị có thể tám hàng giờ."
+            },
+            {
+              "en": "He's usually quiet, but talkative with close friends.",
+              "vi": "Anh ấy thường ít nói, nhưng hay chuyện với bạn thân."
+            },
+            {
+              "en": "Vietnamese taxi drivers are often very talkative.",
+              "vi": "Tài xế taxi Việt Nam thường rất hay nói chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chatty", "communicative", "loquacious"],
+      "antonyms": ["quiet", "silent", "reserved"],
+      "collocations": [
+        "talkative person",
+        "very talkative",
+        "talkative child",
+        "less talkative",
+        "naturally talkative"
+      ],
+      "etymology_hint": "From 'talk' + '-ative' suffix meaning 'tending to'",
+      "mnemonic_vi": "TALKATIVE = TALK + ATIVE: 'có xu hướng nói' = nói nhiều"
+    },
+    {
+      "word": "careful",
+      "lemma": "careful",
+      "ipa": "/ˈkeə.fəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "giving attention to what you are doing so that you don't make mistakes or cause harm",
+          "meaning_vi": "cẩn thận, thận trọng; chú ý để không mắc lỗi hoặc gây hại",
+          "examples": [
+            {
+              "en": "Be careful when crossing the busy street in Saigon.",
+              "vi": "Cẩn thận khi qua đường đông xe ở Sài Gòn."
+            },
+            {
+              "en": "She is a careful driver — never gets a ticket.",
+              "vi": "Cô ấy là tài xế cẩn thận — chưa bao giờ bị phạt."
+            },
+            {
+              "en": "Be careful with that vase — it's very old.",
+              "vi": "Cẩn thận với cái bình đó — nó rất cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cautious", "attentive", "thorough"],
+      "antonyms": ["careless", "reckless", "negligent"],
+      "collocations": [
+        "be careful",
+        "careful with",
+        "careful driver",
+        "careful planning",
+        "extra careful"
+      ],
+      "etymology_hint": "From 'care' (Old English 'caru' = sorrow, anxiety) + '-ful' meaning 'full of'",
+      "mnemonic_vi": "CAREFUL = CARE + FUL: 'đầy quan tâm' = cẩn thận"
+    },
+    {
+      "word": "careless",
+      "lemma": "careless",
+      "ipa": "/ˈkeə.ləs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not paying enough attention so that you make mistakes or cause harm",
+          "meaning_vi": "cẩu thả, bất cẩn; không chú ý nên mắc lỗi hoặc gây hại",
+          "examples": [
+            {
+              "en": "His careless writing made the report hard to read.",
+              "vi": "Cách viết cẩu thả của anh ấy khiến báo cáo khó đọc."
+            },
+            {
+              "en": "Don't be careless with money — save some each month.",
+              "vi": "Đừng tiêu tiền cẩu thả — hãy để dành mỗi tháng."
+            },
+            {
+              "en": "A careless mistake cost him the championship.",
+              "vi": "Một lỗi bất cẩn khiến anh ấy mất chức vô địch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sloppy", "negligent", "reckless"],
+      "antonyms": ["careful", "cautious", "attentive"],
+      "collocations": [
+        "careless mistake",
+        "careless driver",
+        "careless attitude",
+        "careless with",
+        "rather careless"
+      ],
+      "etymology_hint": "From 'care' + '-less' meaning 'without'",
+      "mnemonic_vi": "CARELESS = CARE + LESS: 'thiếu quan tâm' = cẩu thả"
+    },
+    {
+      "word": "selfish",
+      "lemma": "selfish",
+      "ipa": "/ˈsel.fɪʃ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "thinking only of yourself and not caring about other people",
+          "meaning_vi": "ích kỷ; chỉ nghĩ đến bản thân, không quan tâm người khác",
+          "examples": [
+            {
+              "en": "Don't be selfish — share the last spring roll with your brother.",
+              "vi": "Đừng ích kỷ — chia miếng nem cuối cho em trai đi."
+            },
+            {
+              "en": "His selfish behaviour drove away his friends.",
+              "vi": "Hành xử ích kỷ của anh ấy khiến bạn bè rời xa."
+            },
+            {
+              "en": "It's selfish to think only of your own happiness.",
+              "vi": "Thật ích kỷ khi chỉ nghĩ đến hạnh phúc của riêng mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-centred", "greedy", "egoistic"],
+      "antonyms": ["selfless", "generous", "considerate"],
+      "collocations": [
+        "selfish person",
+        "selfish behaviour",
+        "selfish reason",
+        "purely selfish",
+        "selfish act"
+      ],
+      "etymology_hint": "From 'self' + '-ish' meaning 'having the nature of' — coined in the 1640s",
+      "mnemonic_vi": "SELFISH = SELF + ISH: 'có tính tự kỷ' = ích kỷ"
+    },
+    {
+      "word": "calm",
+      "lemma": "calm",
+      "ipa": "/kɑːm/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not angry, excited or nervous; peaceful and quiet",
+          "meaning_vi": "bình tĩnh, điềm đạm; không nóng giận hay lo lắng",
+          "examples": [
+            {
+              "en": "Stay calm — the doctor will arrive soon.",
+              "vi": "Giữ bình tĩnh — bác sĩ sẽ đến ngay."
+            },
+            {
+              "en": "She has a calm voice that makes people trust her.",
+              "vi": "Cô ấy có giọng nói điềm đạm khiến người ta tin tưởng."
+            },
+            {
+              "en": "The sea was calm during our boat trip in Ha Long Bay.",
+              "vi": "Biển êm trong chuyến du thuyền vịnh Hạ Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["peaceful", "tranquil", "composed"],
+      "antonyms": ["angry", "anxious", "rough"],
+      "collocations": ["stay calm", "keep calm", "remain calm", "calm voice", "calm down"],
+      "etymology_hint": "From Old French 'calme', from Latin 'cauma' meaning 'heat of midday' (when nature rests)",
+      "mnemonic_vi": "CALM đọc 'cam' — uống cốc nước 'CAM' mát lạnh là bình tĩnh ngay"
+    },
+    {
+      "word": "rude",
+      "lemma": "rude",
+      "ipa": "/ruːd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "speaking or behaving in a way that is not polite or shows no respect",
+          "meaning_vi": "thô lỗ, hỗn xược; ăn nói hoặc cư xử không lịch sự",
+          "examples": [
+            {
+              "en": "It's rude to talk on the phone during dinner.",
+              "vi": "Nói chuyện điện thoại trong bữa ăn là thô lỗ."
+            },
+            {
+              "en": "He was rude to the waiter and we all felt embarrassed.",
+              "vi": "Anh ta thô lỗ với người phục vụ và cả bọn đều thấy xấu hổ."
+            },
+            {
+              "en": "Pointing at someone is considered rude in Vietnam.",
+              "vi": "Chỉ tay vào người khác bị coi là thô lỗ ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["impolite", "disrespectful", "ill-mannered"],
+      "antonyms": ["polite", "respectful", "courteous"],
+      "collocations": [
+        "rude person",
+        "rude remark",
+        "be rude to",
+        "rude behaviour",
+        "extremely rude"
+      ],
+      "etymology_hint": "From Latin 'rudis' meaning 'rough, unwrought' — like uncarved stone",
+      "mnemonic_vi": "RUDE đọc 'rút' — thấy người thô lỗ là 'RÚT' lui không tiếp"
+    }
+  ]
+}
