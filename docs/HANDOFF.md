@@ -5,6 +5,84 @@
 
 ---
 
+## 2026-05-15 — P1 batch content ship (7 lessons / 140 cards + 2 topic metas) — Claude Opus 4.7
+
+**Mục tiêu session**: gen + integrate P1 batch theo `docs/CONTENT_BRIEF_P1.md`. User đảo policy `feedback_content_gen` (offline-only) cho batch này — cân nhắc cost vs quality, chấp nhận đốt API credit Opus 1M để gen nguyên một mạch với context đầy đủ thay vì free-tier desktop.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                          |
+| ------ | --------- | --------------------------------------------- |
+| main   | `eb18493` | v0.2.0 — vẫn pending v1.0.0 tag               |
+| dev    | `84f5979` | merge be → dev P1 batch                       |
+| be     | `9a0d112` | feat(content): P1 batch — 7 lessons + 2 metas |
+| fe     | `4461ec2` | sync dev → fe (gates xanh)                    |
+
+### Đã ship (commit `9a0d112` trên `be`)
+
+**7 lessons (140 cards) — Oxford 3000, A1-B1 mix, Vietnam-context:**
+
+| #   | Topic        | Lesson             | Cards | CEFR mix             | Path                                                                          |
+| --- | ------------ | ------------------ | ----- | -------------------- | ----------------------------------------------------------------------------- |
+| 1   | daily-life   | clothes-appearance | 20    | A1 (10) + A2 (10)    | `content/collections/oxford-3000/topics/daily-life/clothes-appearance.json`   |
+| 2   | daily-life   | body-health        | 20    | A1 (12) + A2 (8)     | `content/collections/oxford-3000/topics/daily-life/body-health.json`          |
+| 3   | daily-life   | daily-routine      | 20    | A1 (10) + A2 (10)    | `content/collections/oxford-3000/topics/daily-life/daily-routine.json`        |
+| 4   | people       | personality        | 20    | A2 (10) + B1 (10)    | `content/collections/oxford-3000/topics/people/personality.json`              |
+| 5   | people       | emotions           | 20    | A1 (8)+A2 (8)+B1 (4) | `content/collections/oxford-3000/topics/people/emotions.json`                 |
+| 6   | time-numbers | time-dates         | 20    | A1 (15) + A2 (5)     | `content/collections/oxford-3000/topics/time-numbers/time-dates.json`         |
+| 7   | time-numbers | numbers-quantities | 20    | A1 (12) + A2 (8)     | `content/collections/oxford-3000/topics/time-numbers/numbers-quantities.json` |
+
+**2 topic metas:**
+
+- `content/collections/oxford-3000/topics/people/meta.json` — order_index 2, icon users, color `#ec4899`
+- `content/collections/oxford-3000/topics/time-numbers/meta.json` — order_index 4, icon clock, color `#f59e0b`
+
+### Quality conventions (theo style sample `family.json`)
+
+- **IPA**: British style Oxford convention (slash-wrapped `/…/`). Drift vs dictionaryapi.dev đã accepted ở P0
+- **Examples**: 3 câu mỗi definition, đậm Vietnam-context (Hanoi, Saigon, Đà Lạt, Huế, Sa Pa, phở, bánh mì, áo dài, Tết, lì xì, Vincom, AEON Mall, ...)
+- **POS**: dùng đúng 10 enum schema. `wake up` = verb (phrasal, có space). `dress` = noun ở `clothes-appearance` / verb ở `daily-routine`. `second` = noun đơn vị giây ở `time-dates` / adjective ordinal ở `numbers-quantities`. `morning/evening` xuất hiện ở cả `daily-routine` và `time-dates` với góc nhìn khác
+- **Synonyms / antonyms**: 2-4 mỗi card khi có (đôi khi `[]` cho noun cụ thể như `eye`)
+- **Collocations**: 4-5 cụm phổ biến nhất
+- **Etymology**: 1-2 câu nguồn gốc (Old English / Latin / Greek / Old French / Old Norse / Middle English / Italian / Old Frisian / ...)
+- **Mnemonic VI**: wordplay vibe-y theo âm Việt (vd "FACE đọc 'phây' — chụp ảnh FACE xinh đăng FACEbook"), so sánh hình ảnh, hoặc giải nghĩa parts (vd "GRANDFATHER = GRAND + FATHER: 'cha lớn' = ông")
+
+### Decisions
+
+1. **Override policy `feedback_content_gen` lần này** → user explicit OK sau khi so sánh: gen offline desktop ~45-60min/free + risk free-tier cap, vs Opus API ~few$ trong 30-40s. Memory rule giữ nguyên cho future batches (default vẫn offline gen)
+2. **Batch commit duy nhất** thay vì 1 commit/lesson → giảm 9 commit messages noise, lịch sử git gọn hơn. P0 trước cũng commit từng cái nhưng đó là khi gen tay rất rời rạc — batch này gen nguyên 1 mạch nên 1 commit hợp lý hơn
+3. **dictionaryapi.dev cross-check SKIP** → đã biết Oxford IPA vs dict drift = stylistic (P0 family.json 5/5 IPA mismatch là expected). Schema check via Zod đủ confidence. Throttle 800ms × 140 = ~2 phút lý thuyết nhưng dict API có thể timeout dài hơn. TRACKER line 77 vẫn còn "CHỜ USER: review IPA style" — pending user quyết định
+4. **Schema-only validate inline** thay vì chỉnh `validate-content.ts` add `--skip-dict` flag → tránh feature creep, quick local script viết-rồi-xoá đủ dùng
+
+### Verify đã chạy trên fe (sau merge dev → fe)
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179 unchanged
+- `pnpm lint` ✓ 0 warnings
+- `pnpm build` → không chạy (content-only, không touch code/route)
+
+### USER TODOs sau P1
+
+1. **`pnpm seed`** trên `.env.local` có DATABASE_URL → upsert P1 batch vào Supabase (file content lúc này nằm trong git; cần seed thì DB user mới thấy lesson mới khi vào `/decks/oxford-3000`)
+2. (tùy chọn) Review tay 2-3 card random mỗi lesson → check IPA, mnemonic chất, định nghĩa tự nhiên
+3. Decide v1.0.0 tag: P0 + P1 đã đủ 10 lesson cho 3 topic / 200 cards — sàn MVP đủ ship public, có thể tag v1.0.0 sau khi clear 5 todos cũ (BACKUP_DATABASE_URL secret + backup workflow verify + live golden path + Lighthouse + RLS smoke test)
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit (mobile + desktop)
+5. Supabase RLS smoke test (foreign user → user_cards/user_lessons block)
+
+### Notes cho next session
+
+- TRACKER line 76 đã tick `[x]` cho P1 batch — line 77 "review IPA style" vẫn `[ ]` chờ user
+- `docs/CONTENT_BRIEF_P1.md` (commit `c53c605`) đã hoàn thành sứ mệnh — có thể giữ để reference workflow gen cho P2-P4 batches, hoặc xoá nếu muốn dọn dẹp
+- P2 batch theo `docs/CONTENT_PLAN.md` Phần 4 là phase tiếp theo (places/, food-drink/) — sẽ cần user quyết tiếp tục gen AI hay quay về offline policy
+
+---
+
 ## 2026-05-17 (tối) — chunk 17 onboarding tour ship — Claude Opus 4.7
 
 **Mục tiêu session**: ship first option từ end-of-marathon "Recommended chunk 17 options" — onboarding tour first-login overlay 4 step giới thiệu Decks/Review/Stats/Settings cho user mới. Plus content gen P1 batch ngay sau (7 lesson / 140 cards).
