@@ -62,6 +62,7 @@ drizzle/meta/_journal.lock
 
 # Content reports (regenerated each run)
 docs/CONTENT_REPORT.md
+docs/COVERAGE_REPORT.md
 
 # Misc local files
 scratch/
