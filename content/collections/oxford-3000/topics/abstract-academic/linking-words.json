@@ -1,0 +1,748 @@
+{
+  "slug": "linking-words",
+  "name": "Linking Words",
+  "description": "Từ nối và liên kết trong văn viết học thuật.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "however",
+      "lemma": "however",
+      "ipa": "/haʊˈevə(r)/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a contrast or surprising point",
+          "meaning_vi": "tuy nhiên; tuy thế",
+          "examples": [
+            {
+              "en": "I worked hard. However, the result was poor.",
+              "vi": "Tôi làm việc chăm chỉ. Tuy nhiên, kết quả kém."
+            },
+            {
+              "en": "It rained; however, we still went out.",
+              "vi": "Trời mưa; tuy thế, chúng tôi vẫn đi ra ngoài."
+            },
+            { "en": "However, there is one problem.", "vi": "Tuy nhiên, có một vấn đề." }
+          ]
+        }
+      ],
+      "synonyms": ["nevertheless", "yet"],
+      "antonyms": [],
+      "collocations": [
+        "however small",
+        "however much",
+        "however that may be",
+        "however hard",
+        "however slightly"
+      ],
+      "etymology_hint": "Compound 'how' + 'ever'.",
+      "mnemonic_vi": "HOWEVER = HOW + EVER → 'dù sao đi nữa' = tuy nhiên"
+    },
+    {
+      "word": "although",
+      "lemma": "although",
+      "ipa": "/ɔːlˈðəʊ/",
+      "pos": "conjunction",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "in spite of the fact that; even though",
+          "meaning_vi": "mặc dù",
+          "examples": [
+            {
+              "en": "Although it rained, we enjoyed the trip.",
+              "vi": "Mặc dù trời mưa, chúng tôi vẫn vui chuyến đi."
+            },
+            { "en": "She came, although she was very tired.", "vi": "Cô ấy đến, mặc dù rất mệt." },
+            {
+              "en": "Although Vietnamese is hard, I love learning it.",
+              "vi": "Mặc dù tiếng Việt khó, tôi yêu học nó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["though", "even though"],
+      "antonyms": [],
+      "collocations": [
+        "even although (rare)",
+        "although it is",
+        "although she",
+        "although they",
+        "although somewhat"
+      ],
+      "etymology_hint": "Compound 'all' + 'though' — emphatic form.",
+      "mnemonic_vi": "ALTHOUGH = AL + THOUGH → tuy thế = mặc dù"
+    },
+    {
+      "word": "despite",
+      "lemma": "despite",
+      "ipa": "/dɪˈspaɪt/",
+      "pos": "preposition",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "without being prevented by; in spite of",
+          "meaning_vi": "bất chấp; dù có",
+          "examples": [
+            {
+              "en": "Despite the rain, the festival went on.",
+              "vi": "Bất chấp mưa, lễ hội vẫn diễn ra."
+            },
+            {
+              "en": "She passed despite many difficulties.",
+              "vi": "Cô ấy đỗ dù gặp nhiều khó khăn."
+            },
+            {
+              "en": "Despite his age, he runs marathons.",
+              "vi": "Bất chấp tuổi tác, ông ấy vẫn chạy marathon."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in spite of"],
+      "antonyms": ["because of"],
+      "collocations": [
+        "despite the fact",
+        "despite this",
+        "despite everything",
+        "despite his",
+        "despite efforts"
+      ],
+      "etymology_hint": "From Old French 'despit' meaning 'contempt', from Latin 'despectus'.",
+      "mnemonic_vi": "DESPITE — 'đi-spai-tờ' → 'đè bệt' (chèn ép) vẫn vượt = bất chấp"
+    },
+    {
+      "word": "moreover",
+      "lemma": "moreover",
+      "ipa": "/mɔːrˈəʊvə(r)/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "in addition to what has already been said; also",
+          "meaning_vi": "hơn nữa; ngoài ra",
+          "examples": [
+            {
+              "en": "The plan is risky. Moreover, it costs a lot.",
+              "vi": "Kế hoạch rủi ro. Hơn nữa, tốn nhiều tiền."
+            },
+            {
+              "en": "She is smart; moreover, she is kind.",
+              "vi": "Cô ấy thông minh; hơn nữa, tốt bụng."
+            },
+            {
+              "en": "The food is good. Moreover, the price is fair.",
+              "vi": "Đồ ăn ngon. Hơn nữa, giá phải chăng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["furthermore", "in addition"],
+      "antonyms": [],
+      "collocations": [
+        "moreover, the",
+        "moreover it",
+        "moreover they",
+        "moreover we",
+        "and moreover"
+      ],
+      "etymology_hint": "Compound 'more' + 'over' — 'over and above'.",
+      "mnemonic_vi": "MOREOVER = MORE (thêm) + OVER (trên) → trên cả thế = hơn nữa"
+    },
+    {
+      "word": "furthermore",
+      "lemma": "furthermore",
+      "ipa": "/ˌfɜːðəˈmɔː(r)/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "in addition; besides what has been said",
+          "meaning_vi": "hơn nữa; bên cạnh đó",
+          "examples": [
+            {
+              "en": "The product is cheap; furthermore, it is durable.",
+              "vi": "Sản phẩm rẻ; hơn nữa, lại bền."
+            },
+            {
+              "en": "Furthermore, the company has won many awards.",
+              "vi": "Hơn nữa, công ty đã giành nhiều giải thưởng."
+            },
+            {
+              "en": "The hotel is clean. Furthermore, the staff is friendly.",
+              "vi": "Khách sạn sạch. Bên cạnh đó, nhân viên thân thiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["moreover", "additionally"],
+      "antonyms": [],
+      "collocations": [
+        "furthermore, the",
+        "furthermore we",
+        "furthermore there",
+        "and furthermore",
+        "furthermore it"
+      ],
+      "etymology_hint": "Compound 'further' + 'more' — 'in addition further'.",
+      "mnemonic_vi": "FURTHERMORE = FURTHER (xa hơn) + MORE (thêm) → thêm xa hơn = hơn nữa"
+    },
+    {
+      "word": "nevertheless",
+      "lemma": "nevertheless",
+      "ipa": "/ˌnevəðəˈles/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "in spite of what has just been said; even so",
+          "meaning_vi": "tuy vậy; tuy nhiên",
+          "examples": [
+            {
+              "en": "He was tired; nevertheless, he kept working.",
+              "vi": "Anh ấy mệt; tuy vậy, vẫn tiếp tục làm việc."
+            },
+            {
+              "en": "The room is small. Nevertheless, it feels cozy.",
+              "vi": "Phòng nhỏ. Tuy vậy, nó ấm cúng."
+            },
+            {
+              "en": "Nevertheless, she finished on time.",
+              "vi": "Dù vậy, cô ấy hoàn thành đúng hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["however", "nonetheless"],
+      "antonyms": [],
+      "collocations": [
+        "nevertheless, the",
+        "and nevertheless",
+        "nevertheless I",
+        "nevertheless we",
+        "nevertheless it"
+      ],
+      "etymology_hint": "Compound 'never' + 'the' + 'less' — 'not the less for that'.",
+      "mnemonic_vi": "NEVERTHELESS = NEVER + THE + LESS → 'không vì thế mà ít đi' = tuy vậy"
+    },
+    {
+      "word": "in contrast",
+      "lemma": "in contrast",
+      "ipa": "/ɪn ˈkɒntrɑːst/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "compared to something different; on the opposite side",
+          "meaning_vi": "ngược lại; trái lại",
+          "examples": [
+            {
+              "en": "Hà Nội has four seasons. In contrast, Sài Gòn has two.",
+              "vi": "Hà Nội có bốn mùa. Ngược lại, Sài Gòn có hai mùa."
+            },
+            {
+              "en": "In contrast, his brother is very quiet.",
+              "vi": "Ngược lại, em trai anh ấy rất ít nói."
+            },
+            {
+              "en": "Their plans look different in contrast.",
+              "vi": "Các kế hoạch của họ nhìn ra khác hẳn khi so sánh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["on the other hand", "conversely"],
+      "antonyms": ["similarly"],
+      "collocations": [
+        "in contrast to",
+        "in stark contrast",
+        "in sharp contrast",
+        "by contrast",
+        "in contrast with"
+      ],
+      "etymology_hint": "From Latin 'contra' (against) + 'stare' (to stand).",
+      "mnemonic_vi": "IN CONTRAST = IN + CONTRAST (tương phản) → đặt trong tương phản = ngược lại"
+    },
+    {
+      "word": "on the other hand",
+      "lemma": "on the other hand",
+      "ipa": "/ɒn ði ˈʌðə(r) hænd/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to give a second, different opinion or fact",
+          "meaning_vi": "mặt khác; tuy nhiên",
+          "examples": [
+            {
+              "en": "The trip is fun. On the other hand, it's expensive.",
+              "vi": "Chuyến đi vui. Mặt khác, nó đắt."
+            },
+            {
+              "en": "On the other hand, working from home saves time.",
+              "vi": "Mặt khác, làm việc tại nhà tiết kiệm thời gian."
+            },
+            {
+              "en": "She likes coffee; on the other hand, he prefers tea.",
+              "vi": "Cô ấy thích cà phê; mặt khác, anh ấy chuộng trà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in contrast", "however"],
+      "antonyms": [],
+      "collocations": [
+        "but on the other hand",
+        "on the other hand, the",
+        "on the other hand it",
+        "on the other hand we",
+        "consider on the other hand"
+      ],
+      "etymology_hint": "Idiomatic — imagining weighing options in two hands.",
+      "mnemonic_vi": "ON THE OTHER HAND = bên tay kia → ý đối ngược = mặt khác"
+    },
+    {
+      "word": "similarly",
+      "lemma": "similarly",
+      "ipa": "/ˈsɪmələli/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "in a way that is alike; in the same way",
+          "meaning_vi": "tương tự",
+          "examples": [
+            {
+              "en": "Vietnam celebrates Tết. Similarly, China celebrates Lunar New Year.",
+              "vi": "Việt Nam đón Tết. Tương tự, Trung Quốc đón Tết Nguyên Đán."
+            },
+            {
+              "en": "She studies hard. Similarly, her brother does too.",
+              "vi": "Cô ấy học chăm. Tương tự, em trai cô ấy cũng vậy."
+            },
+            {
+              "en": "Similarly, this product works for sensitive skin.",
+              "vi": "Tương tự, sản phẩm này phù hợp với da nhạy cảm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["likewise"],
+      "antonyms": ["differently"],
+      "collocations": [
+        "similarly, the",
+        "similarly, we",
+        "similarly, in",
+        "very similarly",
+        "similarly placed"
+      ],
+      "etymology_hint": "From 'similar' (Latin 'similis' = like) + '-ly'.",
+      "mnemonic_vi": "SIMILARLY = SIMILAR (giống) + LY (cách) → cùng kiểu = tương tự"
+    },
+    {
+      "word": "likewise",
+      "lemma": "likewise",
+      "ipa": "/ˈlaɪkwaɪz/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "in the same way; also",
+          "meaning_vi": "tương tự, cũng vậy",
+          "examples": [
+            {
+              "en": "I enjoyed the meal. Likewise, my friend did too.",
+              "vi": "Tôi thích bữa ăn. Bạn tôi cũng vậy."
+            },
+            { "en": "Likewise, students need rest.", "vi": "Tương tự, học sinh cần nghỉ ngơi." },
+            {
+              "en": "He was kind to me; I tried to do likewise.",
+              "vi": "Anh ấy tốt với tôi; tôi cố gắng làm tương tự."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["similarly", "in the same way"],
+      "antonyms": [],
+      "collocations": [
+        "and likewise",
+        "do likewise",
+        "likewise the",
+        "likewise we",
+        "behave likewise"
+      ],
+      "etymology_hint": "Compound 'like' + 'wise' (manner) — 'in the same manner'.",
+      "mnemonic_vi": "LIKEWISE = LIKE (giống) + WISE (cách) → cùng cách = cũng vậy"
+    },
+    {
+      "word": "in conclusion",
+      "lemma": "in conclusion",
+      "ipa": "/ɪn kənˈkluːʒn/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce the final part of a speech or essay",
+          "meaning_vi": "tóm lại; để kết luận",
+          "examples": [
+            {
+              "en": "In conclusion, recycling helps the environment.",
+              "vi": "Tóm lại, tái chế giúp môi trường."
+            },
+            {
+              "en": "In conclusion, the study supports the theory.",
+              "vi": "Để kết luận, nghiên cứu ủng hộ giả thuyết."
+            },
+            {
+              "en": "In conclusion, we should change our habits.",
+              "vi": "Tóm lại, chúng ta nên thay đổi thói quen."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["to sum up", "in summary"],
+      "antonyms": [],
+      "collocations": [
+        "in conclusion, the",
+        "in conclusion, we",
+        "in conclusion, I",
+        "in conclusion, this",
+        "in conclusion, it"
+      ],
+      "etymology_hint": "From Latin 'conclusio' meaning 'a closing'.",
+      "mnemonic_vi": "IN CONCLUSION = IN (trong) + CONCLUSION (kết luận) → trong kết luận = tóm lại"
+    },
+    {
+      "word": "for instance",
+      "lemma": "for instance",
+      "ipa": "/fɔː(r) ˈɪnstəns/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to give an example",
+          "meaning_vi": "ví dụ như; chẳng hạn",
+          "examples": [
+            {
+              "en": "Many cities have parks. Hà Nội, for instance, has Lenin Park.",
+              "vi": "Nhiều thành phố có công viên. Hà Nội, chẳng hạn, có Công viên Lê-nin."
+            },
+            {
+              "en": "For instance, you can use Grab to get around.",
+              "vi": "Ví dụ, bạn có thể dùng Grab để đi lại."
+            },
+            {
+              "en": "Vietnamese dishes vary. Phở, for instance, has many versions.",
+              "vi": "Món Việt rất đa dạng. Phở chẳng hạn, có nhiều phiên bản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["for example", "such as"],
+      "antonyms": [],
+      "collocations": [
+        "for instance, the",
+        "for instance, when",
+        "take for instance",
+        "for instance, in",
+        "consider for instance"
+      ],
+      "etymology_hint": "From Latin 'instantia' meaning 'a case, example'.",
+      "mnemonic_vi": "FOR INSTANCE = FOR (cho) + INSTANCE (trường hợp) → đưa ra trường hợp = ví dụ"
+    },
+    {
+      "word": "in addition",
+      "lemma": "in addition",
+      "ipa": "/ɪn əˈdɪʃn/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "as well; also",
+          "meaning_vi": "thêm vào đó; ngoài ra",
+          "examples": [
+            {
+              "en": "She speaks English. In addition, she speaks Korean.",
+              "vi": "Cô ấy nói tiếng Anh. Ngoài ra, còn nói tiếng Hàn."
+            },
+            { "en": "In addition to phở, try bún chả.", "vi": "Ngoài phở, hãy thử bún chả." },
+            {
+              "en": "The hotel has a pool. In addition, it has a gym.",
+              "vi": "Khách sạn có bể bơi. Thêm vào đó, có phòng gym."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["moreover", "also"],
+      "antonyms": [],
+      "collocations": [
+        "in addition to",
+        "in addition, the",
+        "in addition, we",
+        "in addition, it",
+        "in addition, there"
+      ],
+      "etymology_hint": "From Latin 'additio' meaning 'an adding to'.",
+      "mnemonic_vi": "IN ADDITION = IN + ADDITION (thêm) → thêm vào = ngoài ra"
+    },
+    {
+      "word": "in fact",
+      "lemma": "in fact",
+      "ipa": "/ɪn fækt/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to emphasize something is true, often surprising",
+          "meaning_vi": "thực ra; thực tế là",
+          "examples": [
+            {
+              "en": "He said he was busy. In fact, he was sleeping.",
+              "vi": "Anh ấy nói bận. Thực ra, anh ấy đang ngủ."
+            },
+            {
+              "en": "In fact, Vietnam has 54 ethnic groups.",
+              "vi": "Thực tế là Việt Nam có 54 dân tộc."
+            },
+            {
+              "en": "She is, in fact, the youngest in the team.",
+              "vi": "Thực ra, cô ấy là người trẻ nhất trong đội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["actually", "indeed"],
+      "antonyms": [],
+      "collocations": [
+        "in fact, the",
+        "in fact, it",
+        "but in fact",
+        "in fact, we",
+        "as a matter of fact"
+      ],
+      "etymology_hint": "From Latin 'in facto' meaning 'in deed'.",
+      "mnemonic_vi": "IN FACT = IN + FACT (sự thật) → trong sự thật = thực ra"
+    },
+    {
+      "word": "indeed",
+      "lemma": "indeed",
+      "ipa": "/ɪnˈdiːd/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to emphasize a statement; really; truly",
+          "meaning_vi": "thực vậy; quả thực",
+          "examples": [
+            {
+              "en": "Vietnamese coffee is very strong indeed.",
+              "vi": "Cà phê Việt thực sự rất đậm."
+            },
+            {
+              "en": "Indeed, she is the best singer here.",
+              "vi": "Thực vậy, cô ấy là ca sĩ giỏi nhất ở đây."
+            },
+            {
+              "en": "Thank you indeed for your help.",
+              "vi": "Cảm ơn rất nhiều vì sự giúp đỡ của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["truly", "really"],
+      "antonyms": [],
+      "collocations": [
+        "indeed it is",
+        "very much indeed",
+        "yes indeed",
+        "indeed, the",
+        "and indeed"
+      ],
+      "etymology_hint": "Originally 'in dede' meaning 'in deed, in fact'.",
+      "mnemonic_vi": "INDEED = IN + DEED (việc làm) → trong sự thật = quả thực"
+    },
+    {
+      "word": "regarding",
+      "lemma": "regarding",
+      "ipa": "/rɪˈɡɑːdɪŋ/",
+      "pos": "preposition",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "about; concerning",
+          "meaning_vi": "liên quan đến; về (vấn đề)",
+          "examples": [
+            {
+              "en": "Regarding your email, I will reply soon.",
+              "vi": "Về email của bạn, tôi sẽ trả lời sớm."
+            },
+            {
+              "en": "She has questions regarding the new policy.",
+              "vi": "Cô ấy có câu hỏi về chính sách mới."
+            },
+            {
+              "en": "Please send updates regarding the project.",
+              "vi": "Vui lòng gửi cập nhật về dự án."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["concerning", "about"],
+      "antonyms": [],
+      "collocations": [
+        "regarding your",
+        "regarding the",
+        "questions regarding",
+        "regarding this matter",
+        "regarding our"
+      ],
+      "etymology_hint": "From 'regard' (Old French 'regarder' = to watch) + '-ing'.",
+      "mnemonic_vi": "REGARDING = RE + GARD (nhìn) + ING → nhìn vào việc đó = về"
+    },
+    {
+      "word": "with respect to",
+      "lemma": "with respect to",
+      "ipa": "/wɪð rɪˈspekt tuː/",
+      "pos": "preposition",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "with reference to; concerning (formal)",
+          "meaning_vi": "đối với; liên quan đến (trang trọng)",
+          "examples": [
+            {
+              "en": "With respect to the budget, we need to cut costs.",
+              "vi": "Liên quan đến ngân sách, chúng ta cần cắt giảm chi phí."
+            },
+            {
+              "en": "With respect to your question, here is my answer.",
+              "vi": "Liên quan đến câu hỏi của bạn, đây là câu trả lời."
+            },
+            {
+              "en": "Policies vary with respect to location.",
+              "vi": "Chính sách khác nhau tuỳ theo địa điểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["regarding", "concerning"],
+      "antonyms": [],
+      "collocations": [
+        "with respect to the",
+        "with respect to your",
+        "vary with respect to",
+        "differ with respect to",
+        "rules with respect to"
+      ],
+      "etymology_hint": "From Latin 'respectus' meaning 'a looking back, regard'.",
+      "mnemonic_vi": "WITH RESPECT TO → trong sự xem xét đến = đối với"
+    },
+    {
+      "word": "in other words",
+      "lemma": "in other words",
+      "ipa": "/ɪn ˈʌðə(r) wɜːdz/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a simpler or clearer way of saying something",
+          "meaning_vi": "nói cách khác",
+          "examples": [
+            {
+              "en": "He's frugal — in other words, careful with money.",
+              "vi": "Anh ấy tiết kiệm — nói cách khác, cẩn thận với tiền."
+            },
+            {
+              "en": "In other words, we need a new plan.",
+              "vi": "Nói cách khác, chúng ta cần kế hoạch mới."
+            },
+            {
+              "en": "She's lazy. In other words, she avoids work.",
+              "vi": "Cô ấy lười. Nói cách khác, tránh việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["that is", "i.e."],
+      "antonyms": [],
+      "collocations": [
+        "in other words, the",
+        "in other words, we",
+        "in other words, it",
+        "in other words, you",
+        "or in other words"
+      ],
+      "etymology_hint": "Idiomatic — 'using different words to say the same thing'.",
+      "mnemonic_vi": "IN OTHER WORDS = bằng những lời khác = nói cách khác"
+    },
+    {
+      "word": "namely",
+      "lemma": "namely",
+      "ipa": "/ˈneɪmli/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce specific examples or details",
+          "meaning_vi": "cụ thể là; tức là",
+          "examples": [
+            {
+              "en": "There are three big cities — namely, Hà Nội, Đà Nẵng, and Sài Gòn.",
+              "vi": "Có ba thành phố lớn — cụ thể là Hà Nội, Đà Nẵng và Sài Gòn."
+            },
+            {
+              "en": "She has one weakness, namely shyness.",
+              "vi": "Cô ấy có một điểm yếu, cụ thể là tính nhút nhát."
+            },
+            {
+              "en": "Two students passed, namely An and Bình.",
+              "vi": "Hai học sinh đỗ, tức là An và Bình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["specifically", "that is"],
+      "antonyms": [],
+      "collocations": ["namely the", "namely that", "namely a", "namely those", "namely his"],
+      "etymology_hint": "From Old English 'namlīce' meaning 'by name'.",
+      "mnemonic_vi": "NAMELY = NAME (tên) + LY (cách) → gọi tên ra = cụ thể là"
+    },
+    {
+      "word": "overall",
+      "lemma": "overall",
+      "ipa": "/ˌəʊvərˈɔːl/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "considering everything; in general",
+          "meaning_vi": "nhìn chung; tổng thể",
+          "examples": [
+            { "en": "Overall, the project was a success.", "vi": "Nhìn chung, dự án thành công." },
+            {
+              "en": "Overall, the food was good but the service was slow.",
+              "vi": "Nhìn chung, đồ ăn ngon nhưng dịch vụ chậm."
+            },
+            {
+              "en": "Overall, Vietnamese students perform well in math.",
+              "vi": "Nhìn chung, học sinh Việt giỏi toán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in general", "as a whole"],
+      "antonyms": ["specifically"],
+      "collocations": [
+        "overall, the",
+        "overall result",
+        "overall, we",
+        "overall, it",
+        "overall, this"
+      ],
+      "etymology_hint": "Compound 'over' + 'all' — 'over all things'.",
+      "mnemonic_vi": "OVERALL = OVER (trên) + ALL (tất cả) → trên tất cả = tổng thể"
+    }
+  ]
+}
