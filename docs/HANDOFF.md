@@ -5,6 +5,69 @@
 
 ---
 
+## 2026-05-16 (sau MVP, batch 2) — P5b Common Core verbs/adj/adv — P5 CLOSED (10/200) — Claude Opus 4.7
+
+**Mục tiêu session**: Đóng P5 (Common Core) đầy đủ bằng batch P5b — 5 lessons verbs/adj/adv. Seed lên Supabase live (940 → 1040 cards).
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                  |
+| ------ | --------- | ----------------------------------------------------- |
+| main   | `eb18493` | v0.2.0 (không đổi)                                    |
+| dev    | `67cc293` | merge be → dev (P5b — P5 CLOSED)                      |
+| be     | `1775ac5` | feat(content) common-core P5b — 5 lessons / 100 cards |
+| fe     | `1247b0d` | sync dev → fe (P5b) — gates green                     |
+
+### Đã ship session này
+
+**P5b common-core verbs/adj/adv** (commit `1775ac5` trên `be`):
+
+- `core-be-do-have` (A1×20) — be/am/is/are/was/were/been + have/has/had + do/does/did + will/would/can/could/should/may/might. Shared lemma cho be forms và have/do forms.
+- `core-action-verbs` (A1×20) — make, take, get, go, come, give, put, find, see, look, want, like, love, work, play, eat, drink, sleep, walk, run.
+- `core-mental-verbs` (A1×10 + A2×10) — know, feel, say, tell, ask, hope, mean, hear, listen, guess + suppose, wonder, expect, agree, decide, suggest, mention, discuss, speak, talk. Tránh trùng learning-skills (learn, understand) và thinking-knowledge (think, believe).
+- `core-adjectives` (A1×15 + A2×5) — good, bad, big, small, new, old, easy, hard, nice, beautiful, ugly, important, fast, slow, free + terrible, wonderful, perfect, awful, lovely.
+- `core-adverbs` (A1×15 + A2×5) — very, really, always, never, often, sometimes, usually, now, here, there, also, too, only, well, just + rarely, recently, currently, immediately, instantly.
+
+**Seed Supabase**: 1 collection / 11 topics / **52 lessons / 1040 cards**.
+
+### Quality bar đã thực hành
+
+- POS `auxiliary` cho will/would/can/could/should/may/might; `verb` cho be/have/do forms (đa năng aux + main).
+- Lemma chia sẻ: am/is/are/was/were/been → lemma `be`; has/had → lemma `have`; does/did → lemma `do`.
+- Hear vs Listen: hear = thụ động, listen = chủ động.
+- Speak vs Talk: speak = ngôn ngữ (skill), talk = trò chuyện (chat).
+- Adverb position notes: ALSO giữa câu, TOO cuối câu, JUST đa nghĩa (vừa/chỉ/đúng).
+- Adjective comparison hints: good→better→best, bad→worse→worst.
+
+### Verify đã chạy trên fe
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179
+- `pnpm lint` ✓ 0 warnings
+- `pnpm seed` ✓ idempotent — 1040 cards live trên Supabase
+
+### Decisions
+
+1. **POS cho be/do/have**: dùng `verb` (mặc dù chúng có chức năng auxiliary trong perfect/progressive). Lý do: chúng là main verb đầy đủ trong nhiều câu (I am happy, I have a dog, I do yoga). Modals (will/would/can…) dùng `auxiliary` vì chúng không bao giờ là main verb.
+2. **Conjugated forms làm card riêng**: am/is/are/was/were/been mỗi cái 1 card. Lý do: học sinh A1 cần học từng form riêng. Lemma chia sẻ giúp DB query sau.
+
+### USER TODOs sau session này
+
+1. **Tiếp P6 A1 fillers** (next session) — 15 lessons / 300 cards: colors-shapes, body-health-ext, food-cooking, common A1 verbs/adj missing, etc.
+2. Re-run coverage script để xem % Oxford 3000 sau khi thêm 200 cards.
+3. Live UI test với 1040 cards seeded — xem display lessons mới ở `/decks/oxford-3000/common-core/`.
+4. Tag `v0.3.0-content-mvp` (đóng MVP P0-P4) hoặc `v0.4.0-common-core` (đóng P5).
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit
+5. Supabase RLS smoke test
+
+---
+
 ## 2026-05-16 (sau MVP) — P5a Common Core 5 lessons / 100 cards + full plan post-MVP — Claude Opus 4.7
 
 **Mục tiêu session**: Phân tích coverage Oxford 3000 (chỉ 14.4%), lập plan full coverage `docs/CONTENT_PLAN_FULL.md` (P5-P12, ~150 lessons / ~3000 cards), seed MVP lên Supabase live (840 → 940 cards), bắt đầu gen P5a function words.
