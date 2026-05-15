@@ -1,0 +1,682 @@
+{
+  "slug": "landscape-geography",
+  "name": "Landscape & Geography",
+  "description": "Địa hình và cảnh quan thiên nhiên.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "mountain",
+      "lemma": "mountain",
+      "ipa": "/ˈmaʊntən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a very high area of land with steep sides",
+          "meaning_vi": "núi (cao)",
+          "examples": [
+            {
+              "en": "Fansipan is the highest mountain in Vietnam.",
+              "vi": "Fansipan là ngọn núi cao nhất Việt Nam."
+            },
+            { "en": "They climbed the mountain at sunrise.", "vi": "Họ leo núi lúc bình minh." },
+            { "en": "The mountains in Sa Pa are beautiful.", "vi": "Núi non Sa Pa rất đẹp." }
+          ]
+        }
+      ],
+      "synonyms": ["peak", "summit"],
+      "antonyms": ["valley"],
+      "collocations": [
+        "climb a mountain",
+        "tall mountain",
+        "mountain range",
+        "mountain peak",
+        "mountain village"
+      ],
+      "etymology_hint": "From Latin 'mons, montis' meaning 'mountain'.",
+      "mnemonic_vi": "MOUNTAIN — 'mao-tần' → 'mau' leo 'tận' đỉnh = núi"
+    },
+    {
+      "word": "hill",
+      "lemma": "hill",
+      "ipa": "/hɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an area of land that is higher than the land around it but smaller than a mountain",
+          "meaning_vi": "đồi",
+          "examples": [
+            {
+              "en": "There is a small hill behind my school.",
+              "vi": "Có một quả đồi nhỏ sau trường tôi."
+            },
+            {
+              "en": "Children love rolling down the hill.",
+              "vi": "Trẻ con thích lăn từ đồi xuống."
+            },
+            { "en": "Đà Lạt has many green hills.", "vi": "Đà Lạt có nhiều đồi xanh." }
+          ]
+        }
+      ],
+      "synonyms": ["mound", "knoll"],
+      "antonyms": ["valley"],
+      "collocations": [
+        "green hill",
+        "rolling hills",
+        "top of the hill",
+        "hill station",
+        "climb a hill"
+      ],
+      "etymology_hint": "From Old English 'hyll'.",
+      "mnemonic_vi": "HILL — 'hiu' → 'hiu hiu' gió đồi = đồi"
+    },
+    {
+      "word": "valley",
+      "lemma": "valley",
+      "ipa": "/ˈvæli/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a low area of land between mountains, often with a river",
+          "meaning_vi": "thung lũng",
+          "examples": [
+            {
+              "en": "We drove through Mai Châu valley.",
+              "vi": "Chúng tôi đi qua thung lũng Mai Châu."
+            },
+            {
+              "en": "The valley is full of green rice fields.",
+              "vi": "Thung lũng đầy ruộng lúa xanh."
+            },
+            { "en": "A river runs through the valley.", "vi": "Một con sông chảy qua thung lũng." }
+          ]
+        }
+      ],
+      "synonyms": ["dale", "glen"],
+      "antonyms": ["mountain", "hill"],
+      "collocations": [
+        "green valley",
+        "deep valley",
+        "river valley",
+        "Silicon Valley",
+        "valley floor"
+      ],
+      "etymology_hint": "From Latin 'vallis' meaning 'valley'.",
+      "mnemonic_vi": "VALLEY — 'va-li' → 'va' (vô) chỗ thấp 'li' (li ti) giữa núi = thung lũng"
+    },
+    {
+      "word": "river",
+      "lemma": "river",
+      "ipa": "/ˈrɪvə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long natural flow of water that goes into the sea or a lake",
+          "meaning_vi": "con sông",
+          "examples": [
+            { "en": "The Hồng River flows through Hà Nội.", "vi": "Sông Hồng chảy qua Hà Nội." },
+            { "en": "Children swim in the river in summer.", "vi": "Trẻ con bơi sông vào mùa hè." },
+            {
+              "en": "Mekong is one of the world's longest rivers.",
+              "vi": "Mê Kông là một trong những con sông dài nhất thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stream"],
+      "antonyms": [],
+      "collocations": ["long river", "cross the river", "river bank", "river boat", "river mouth"],
+      "etymology_hint": "From Latin 'riparius' meaning 'of a riverbank'.",
+      "mnemonic_vi": "RIVER — 'rí-vờ' → 'rì' (chảy) 'vờ' (vô bờ) = sông"
+    },
+    {
+      "word": "lake",
+      "lemma": "lake",
+      "ipa": "/leɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large area of water surrounded by land",
+          "meaning_vi": "hồ",
+          "examples": [
+            {
+              "en": "Hồ Tây is the largest lake in Hà Nội.",
+              "vi": "Hồ Tây là hồ lớn nhất Hà Nội."
+            },
+            { "en": "We rented a boat on the lake.", "vi": "Chúng tôi thuê thuyền trên hồ." },
+            {
+              "en": "The lake reflects the sunset beautifully.",
+              "vi": "Hồ phản chiếu hoàng hôn đẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pond"],
+      "antonyms": [],
+      "collocations": ["big lake", "lake shore", "by the lake", "frozen lake", "lake view"],
+      "etymology_hint": "From Latin 'lacus' meaning 'pond, lake'.",
+      "mnemonic_vi": "LAKE — 'lếch' → 'lềnh' nước phẳng = hồ"
+    },
+    {
+      "word": "sea",
+      "lemma": "sea",
+      "ipa": "/siː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large area of salty water, smaller than an ocean",
+          "meaning_vi": "biển",
+          "examples": [
+            { "en": "We swam in the sea at Nha Trang.", "vi": "Chúng tôi tắm biển ở Nha Trang." },
+            {
+              "en": "Vietnam has a long coastline on the East Sea.",
+              "vi": "Việt Nam có đường bờ biển dài trên Biển Đông."
+            },
+            { "en": "The sea is calm today.", "vi": "Biển hôm nay lặng sóng." }
+          ]
+        }
+      ],
+      "synonyms": ["ocean"],
+      "antonyms": ["land"],
+      "collocations": ["by the sea", "swim in the sea", "sea level", "deep sea", "sea breeze"],
+      "etymology_hint": "From Old English 'sǣ'.",
+      "mnemonic_vi": "SEA — 'si' → 'sì' (xanh thẫm) mênh mông = biển"
+    },
+    {
+      "word": "ocean",
+      "lemma": "ocean",
+      "ipa": "/ˈəʊʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of the very large areas of salt water that covers most of the Earth",
+          "meaning_vi": "đại dương",
+          "examples": [
+            {
+              "en": "The Pacific is the biggest ocean.",
+              "vi": "Thái Bình Dương là đại dương lớn nhất."
+            },
+            { "en": "Vietnam borders the Pacific Ocean.", "vi": "Việt Nam giáp Thái Bình Dương." },
+            {
+              "en": "Many fish live deep in the ocean.",
+              "vi": "Nhiều loài cá sống sâu dưới đại dương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sea"],
+      "antonyms": ["land"],
+      "collocations": ["Pacific Ocean", "Atlantic Ocean", "deep ocean", "ocean wave", "ocean view"],
+      "etymology_hint": "From Greek 'okeanos', the great river encircling the Earth in ancient cosmology.",
+      "mnemonic_vi": "OCEAN — 'âu-sần' → 'âu' (rộng) 'sần' (sóng) = đại dương"
+    },
+    {
+      "word": "island",
+      "lemma": "island",
+      "ipa": "/ˈaɪlənd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of land surrounded by water",
+          "meaning_vi": "hòn đảo",
+          "examples": [
+            { "en": "Phú Quốc is a beautiful island.", "vi": "Phú Quốc là một hòn đảo đẹp." },
+            { "en": "They took a boat to the island.", "vi": "Họ đi thuyền ra đảo." },
+            {
+              "en": "Many islands sit in Hạ Long Bay.",
+              "vi": "Nhiều hòn đảo nằm trong Vịnh Hạ Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["isle"],
+      "antonyms": ["mainland"],
+      "collocations": [
+        "small island",
+        "tropical island",
+        "remote island",
+        "island life",
+        "desert island"
+      ],
+      "etymology_hint": "From Old English 'īegland', literally 'water-land'.",
+      "mnemonic_vi": "ISLAND — 'ai-lần' → 'ai' (cô đơn) 'lăn' (lẻ) giữa biển = đảo"
+    },
+    {
+      "word": "beach",
+      "lemma": "beach",
+      "ipa": "/biːtʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an area of sand or stones beside the sea",
+          "meaning_vi": "bãi biển",
+          "examples": [
+            {
+              "en": "Mỹ Khê is one of the most beautiful beaches in Đà Nẵng.",
+              "vi": "Mỹ Khê là một trong những bãi biển đẹp nhất Đà Nẵng."
+            },
+            {
+              "en": "Children love playing on the beach.",
+              "vi": "Trẻ em thích chơi trên bãi biển."
+            },
+            { "en": "We had a picnic on the beach.", "vi": "Chúng tôi dã ngoại trên bãi biển." }
+          ]
+        }
+      ],
+      "synonyms": ["shore", "coast"],
+      "antonyms": [],
+      "collocations": [
+        "sandy beach",
+        "beach holiday",
+        "go to the beach",
+        "private beach",
+        "rocky beach"
+      ],
+      "etymology_hint": "Origin unclear, possibly from Old English 'bæce' (stream).",
+      "mnemonic_vi": "BEACH — 'bích' → 'bịch' cát trải dài = bãi biển"
+    },
+    {
+      "word": "desert",
+      "lemma": "desert",
+      "ipa": "/ˈdezət/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large area of land with very little water and few plants",
+          "meaning_vi": "sa mạc",
+          "examples": [
+            {
+              "en": "Vietnam doesn't have real deserts.",
+              "vi": "Việt Nam không có sa mạc thực sự."
+            },
+            {
+              "en": "The Sahara is the world's largest desert.",
+              "vi": "Sahara là sa mạc lớn nhất thế giới."
+            },
+            {
+              "en": "Some animals can live in the desert.",
+              "vi": "Một số động vật sống được ở sa mạc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wasteland"],
+      "antonyms": ["forest", "oasis"],
+      "collocations": [
+        "sand desert",
+        "vast desert",
+        "desert sand",
+        "cross the desert",
+        "desert animal"
+      ],
+      "etymology_hint": "From Latin 'desertum' meaning 'abandoned, left behind'.",
+      "mnemonic_vi": "DESERT — 'đê-dớt' → 'đê' (đào) 'dớt' khô = sa mạc"
+    },
+    {
+      "word": "forest",
+      "lemma": "forest",
+      "ipa": "/ˈfɒrɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a very large area covered with trees and wild plants, important for the ecosystem",
+          "meaning_vi": "rừng (xét trong địa lý/sinh thái)",
+          "examples": [
+            {
+              "en": "Vietnam is losing tropical forests every year.",
+              "vi": "Việt Nam mất rừng nhiệt đới mỗi năm."
+            },
+            { "en": "Forests help regulate climate.", "vi": "Rừng giúp điều hoà khí hậu." },
+            {
+              "en": "The U Minh forest is famous for its biodiversity.",
+              "vi": "Rừng U Minh nổi tiếng nhờ đa dạng sinh học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["woods", "woodland"],
+      "antonyms": ["desert"],
+      "collocations": [
+        "tropical forest",
+        "forest cover",
+        "primary forest",
+        "lose a forest",
+        "forest ecosystem"
+      ],
+      "etymology_hint": "From Latin 'foris' meaning 'outside, outdoors'.",
+      "mnemonic_vi": "FOREST — 'pho-rớt' → 'pho' (đồ sộ) rớt nhiều lá = rừng"
+    },
+    {
+      "word": "jungle",
+      "lemma": "jungle",
+      "ipa": "/ˈdʒʌŋɡl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a thick tropical forest in a hot, humid area, hard to walk through",
+          "meaning_vi": "rừng rậm nhiệt đới (rậm rạp khó đi)",
+          "examples": [
+            {
+              "en": "Soldiers fought in the jungle during the war.",
+              "vi": "Bộ đội chiến đấu trong rừng rậm thời chiến."
+            },
+            {
+              "en": "Phong Nha–Kẻ Bàng has dense jungle.",
+              "vi": "Phong Nha – Kẻ Bàng có rừng rậm dày."
+            },
+            {
+              "en": "It was hard to walk through the jungle.",
+              "vi": "Đi qua rừng rậm rất khó khăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rainforest"],
+      "antonyms": [],
+      "collocations": [
+        "dense jungle",
+        "deep jungle",
+        "Amazon jungle",
+        "tropical jungle",
+        "concrete jungle"
+      ],
+      "etymology_hint": "From Hindi/Urdu 'jangal' meaning 'desert, forest, wasteland'.",
+      "mnemonic_vi": "JUNGLE — 'gân-gồ' → 'gân' to mới đi nổi 'gồ' rậm = rừng rậm"
+    },
+    {
+      "word": "cave",
+      "lemma": "cave",
+      "ipa": "/keɪv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large hole in the side of a mountain or under the ground",
+          "meaning_vi": "hang, hang động",
+          "examples": [
+            {
+              "en": "Sơn Đoòng is the largest cave in the world.",
+              "vi": "Sơn Đoòng là hang động lớn nhất thế giới."
+            },
+            { "en": "Bats live deep inside the cave.", "vi": "Dơi sống sâu trong hang." },
+            {
+              "en": "Tourists explore caves in Hạ Long Bay.",
+              "vi": "Du khách khám phá hang trong Vịnh Hạ Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cavern", "grotto"],
+      "antonyms": [],
+      "collocations": [
+        "deep cave",
+        "explore a cave",
+        "underwater cave",
+        "cave entrance",
+        "ancient cave"
+      ],
+      "etymology_hint": "From Latin 'cavus' meaning 'hollow'.",
+      "mnemonic_vi": "CAVE — 'kâyv' → 'cây' (vỏ) rỗng trong núi = hang"
+    },
+    {
+      "word": "waterfall",
+      "lemma": "waterfall",
+      "ipa": "/ˈwɔːtəfɔːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "water that falls down from a high place, often in a river",
+          "meaning_vi": "thác nước",
+          "examples": [
+            {
+              "en": "Bản Giốc is the biggest waterfall in Vietnam.",
+              "vi": "Bản Giốc là thác lớn nhất Việt Nam."
+            },
+            { "en": "We took photos near the waterfall.", "vi": "Chúng tôi chụp ảnh gần thác." },
+            {
+              "en": "The sound of the waterfall is relaxing.",
+              "vi": "Âm thanh của thác rất thư giãn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cascade", "falls"],
+      "antonyms": [],
+      "collocations": [
+        "beautiful waterfall",
+        "small waterfall",
+        "tall waterfall",
+        "tropical waterfall",
+        "frozen waterfall"
+      ],
+      "etymology_hint": "Compound 'water' + 'fall' — literally 'falling water'.",
+      "mnemonic_vi": "WATERFALL = WATER (nước) + FALL (rơi) → nước rơi = thác"
+    },
+    {
+      "word": "coast",
+      "lemma": "coast",
+      "ipa": "/kəʊst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the area of land beside the sea",
+          "meaning_vi": "bờ biển; vùng ven biển",
+          "examples": [
+            {
+              "en": "Vietnam has a long coast from Móng Cái to Hà Tiên.",
+              "vi": "Việt Nam có bờ biển dài từ Móng Cái đến Hà Tiên."
+            },
+            {
+              "en": "Many resorts open along the coast.",
+              "vi": "Nhiều khu nghỉ dưỡng mở dọc bờ biển."
+            },
+            {
+              "en": "The east coast is famous for seafood.",
+              "vi": "Vùng bờ biển miền Trung nổi tiếng về hải sản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shore", "seaside"],
+      "antonyms": ["inland"],
+      "collocations": [
+        "east coast",
+        "rocky coast",
+        "along the coast",
+        "coastal area",
+        "coastal city"
+      ],
+      "etymology_hint": "From Latin 'costa' meaning 'rib, side'.",
+      "mnemonic_vi": "COAST — 'cô-sờ' → 'cô' biển 'sờ' tay vô bờ = bờ biển"
+    },
+    {
+      "word": "cliff",
+      "lemma": "cliff",
+      "ipa": "/klɪf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a high steep rock surface, often by the sea",
+          "meaning_vi": "vách đá, vách núi dựng đứng",
+          "examples": [
+            {
+              "en": "The cliffs in Phú Yên are stunning at sunset.",
+              "vi": "Vách đá ở Phú Yên đẹp tuyệt khi hoàng hôn."
+            },
+            {
+              "en": "Don't stand too close to the cliff edge.",
+              "vi": "Đừng đứng quá gần mép vách đá."
+            },
+            { "en": "Birds nest on the cliff face.", "vi": "Chim làm tổ trên vách đá." }
+          ]
+        }
+      ],
+      "synonyms": ["bluff"],
+      "antonyms": [],
+      "collocations": [
+        "steep cliff",
+        "cliff edge",
+        "white cliff",
+        "cliff face",
+        "fall off a cliff"
+      ],
+      "etymology_hint": "From Old English 'clif'.",
+      "mnemonic_vi": "CLIFF — 'klíp' → 'kíp' chân kẻo lăn xuống = vách đá"
+    },
+    {
+      "word": "volcano",
+      "lemma": "volcano",
+      "ipa": "/vɒlˈkeɪnəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a mountain that can shoot out hot melted rock, ash, and gas",
+          "meaning_vi": "núi lửa",
+          "examples": [
+            {
+              "en": "There are no active volcanoes in Vietnam now.",
+              "vi": "Việt Nam không có núi lửa hoạt động hiện tại."
+            },
+            {
+              "en": "The volcano erupted in Indonesia last year.",
+              "vi": "Núi lửa phun trào ở Indonesia năm ngoái."
+            },
+            {
+              "en": "Mount Fuji is a famous volcano.",
+              "vi": "Núi Phú Sĩ là một núi lửa nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "active volcano",
+        "volcano erupts",
+        "extinct volcano",
+        "volcano ash",
+        "volcanic eruption"
+      ],
+      "etymology_hint": "From 'Vulcan', the Roman god of fire; via Italian 'volcano'.",
+      "mnemonic_vi": "VOLCANO — 'vôn-kê-nô' → 'vôn' (rền) 'kê' (lửa) 'nô' (nổ) = núi lửa"
+    },
+    {
+      "word": "plain",
+      "lemma": "plain",
+      "ipa": "/pleɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large area of flat land",
+          "meaning_vi": "đồng bằng",
+          "examples": [
+            {
+              "en": "The Red River Plain is the main rice region of the north.",
+              "vi": "Đồng bằng sông Hồng là vùng trồng lúa chính miền Bắc."
+            },
+            {
+              "en": "Farmers work on the plain all year.",
+              "vi": "Nông dân làm việc trên đồng bằng quanh năm."
+            },
+            {
+              "en": "The plain stretches for hundreds of kilometres.",
+              "vi": "Đồng bằng trải dài hàng trăm cây số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flatland"],
+      "antonyms": ["mountain"],
+      "collocations": ["flat plain", "coastal plain", "river plain", "vast plain", "fertile plain"],
+      "etymology_hint": "From Latin 'planus' meaning 'flat, level'.",
+      "mnemonic_vi": "PLAIN — 'plên' → 'phẳng lì' đến hết tầm mắt = đồng bằng"
+    },
+    {
+      "word": "peninsula",
+      "lemma": "peninsula",
+      "ipa": "/pəˈnɪnsjələ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long piece of land that sticks out into the sea, attached to a larger area",
+          "meaning_vi": "bán đảo",
+          "examples": [
+            {
+              "en": "Sơn Trà peninsula is famous for its monkeys.",
+              "vi": "Bán đảo Sơn Trà nổi tiếng về khỉ."
+            },
+            {
+              "en": "The Korean peninsula has two countries.",
+              "vi": "Bán đảo Triều Tiên có hai quốc gia."
+            },
+            {
+              "en": "Tourists love the views from the peninsula.",
+              "vi": "Du khách yêu cảnh nhìn từ bán đảo."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["island"],
+      "collocations": [
+        "small peninsula",
+        "long peninsula",
+        "Sơn Trà peninsula",
+        "Iberian peninsula",
+        "Korean peninsula"
+      ],
+      "etymology_hint": "From Latin 'paene' (almost) + 'insula' (island) → 'almost an island'.",
+      "mnemonic_vi": "PENINSULA = PEN (gần) + INSULA (đảo) → gần như đảo = bán đảo"
+    },
+    {
+      "word": "continent",
+      "lemma": "continent",
+      "ipa": "/ˈkɒntɪnənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one of the seven large land areas on Earth, such as Asia or Africa",
+          "meaning_vi": "châu lục",
+          "examples": [
+            { "en": "Vietnam is in the continent of Asia.", "vi": "Việt Nam thuộc châu Á." },
+            {
+              "en": "Africa is the second largest continent.",
+              "vi": "Châu Phi là châu lục lớn thứ hai."
+            },
+            { "en": "She has travelled to four continents.", "vi": "Cô ấy đã đến bốn châu lục." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "African continent",
+        "European continent",
+        "the seven continents",
+        "across the continent",
+        "continent of Asia"
+      ],
+      "etymology_hint": "From Latin 'continens' meaning 'continuous (land)'.",
+      "mnemonic_vi": "CONTINENT — 'cón-tì-nần' → 'còn' to 'tì' đè 'nần' lên = châu lục"
+    }
+  ]
+}
