@@ -5,6 +5,95 @@
 
 ---
 
+## 2026-05-16 — P4 CLOSED — MVP CONTENT 42/42 COMPLETE — Claude Opus 4.7
+
+**Mục tiêu session**: User explicit override policy `feedback_content_gen` lần 3 — cho AI tự gen 2 topic P4 còn lại (society-culture + abstract-academic). Đóng phase P4, hoàn thành 100% MVP content target.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                         |
+| ------ | --------- | ------------------------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                                           |
+| dev    | `37df1a2` | merge be → dev (P4 closed — MVP complete)                    |
+| be     | `98eb9d7` | 2 commits feat(content) (society-culture, abstract-academic) |
+| fe     | `f45a7cf` | sync dev → fe (P4 closed) — gates green                      |
+
+### Đã ship (2 commits trên `be`)
+
+**6 lessons (120 cards) — Oxford 3000, A2-B2 mix:**
+
+| #   | Topic             | Lesson               | Cards | CEFR mix          |
+| --- | ----------------- | -------------------- | ----- | ----------------- |
+| 1   | society-culture   | government-law       | 20    | B1 (8) + B2 (12)  |
+| 2   | society-culture   | traditions-festivals | 20    | A2 (8) + B1 (12)  |
+| 3   | society-culture   | news-media           | 20    | B1 (10) + B2 (10) |
+| 4   | abstract-academic | thinking-knowledge   | 20    | B1 (8) + B2 (12)  |
+| 5   | abstract-academic | cause-effect         | 20    | B1 (10) + B2 (10) |
+| 6   | abstract-academic | linking-words        | 20    | B2 (20)           |
+
+**2 topic metas**: `society-culture` (order_index 9, landmark, #0ea5e9), `abstract-academic` (10, lightbulb, #a855f7).
+
+### Linking-words đặc biệt
+
+`linking-words` chứa multi-word phrases lưu với space: `in contrast, on the other hand, in conclusion, for instance, in addition, in fact, with respect to, in other words`. `cause-effect` cũng có `due to, owing to, lead to`. POS phân loại: adverb (cụm trạng ngữ liên kết), preposition (regarding, despite, due to, owing to, with respect to), conjunction (although, because, since).
+
+### Conventions giữ nguyên P0-P3
+
+IPA British, 3 examples/def, VN context (Đại học Luật Hà Nội, Nhà thờ Đức Bà, Chùa Một Cột, Tết Trung Thu, lì xì, áo dài, VTV1, VnExpress, Tuổi Trẻ, Quốc hội VN, etc.), mnemonic_vi wordplay, 4-5 collocations, etymology 1-2 câu, schema Zod validated.
+
+### Collision handling
+
+- `evidence` (thinking-knowledge) ≠ government-law — academic angle vs legal angle
+- `conclude` (thinking-knowledge) ≠ work-business/meetings-comms — academic
+- `knowledge` (thinking-knowledge) ≠ learning-skills — overlap intentional, B1 cả hai
+- `lawyer` (government-law) ≠ jobs-occupations — law angle B2
+- `channel` (news-media) ≠ movies-tv — formal media angle B2
+- `comment` (news-media) — social media angle B1
+
+### Verify đã chạy trên fe
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179
+- `pnpm lint` ✓ 0 warnings
+- Schema validate (Zod inline) ✓ 6 lesson + 2 meta pass
+
+### Decisions
+
+1. **Override policy lần 3** → user explicit OK. Pattern xác lập: default offline, override dễ khi user explicit. Memory rule giữ default offline.
+2. **2 commit per topic** → clean git history per topic.
+
+### Progress tổng MVP — 🎉 100% COMPLETE
+
+- **MVP target**: 42 lessons / 840 cards across 10 topics ✅
+- **All 10 topics shipped**:
+  - daily-life (6 / 120) ✅
+  - people (5 / 100) ✅
+  - places-travel (5 / 100) ✅
+  - time-numbers (3 / 60) ✅
+  - work-business (5 / 100) ✅
+  - education (4 / 80) ✅
+  - nature-environment (4 / 80) ✅
+  - entertainment (4 / 80) ✅
+  - society-culture (3 / 60) ✅
+  - abstract-academic (3 / 60) ✅
+
+### USER TODOs sau session này
+
+1. **`pnpm seed`** lên Supabase live (env DATABASE_URL) → upsert 840 cards / 42 lessons / 10 topic metas / 1 collection.
+2. **Tag `v0.3.0-content-mvp`** trên main nếu muốn release marker cho việc đóng content phase.
+3. **Live golden path test** trên seed mới — kiểm tra deck list / lesson detail / enrollment / review flow với content scale lên 840 thẻ.
+4. Cân nhắc kế hoạch P5+ (IELTS vocab, academic vocab nâng cao, etc.) nếu mở rộng beyond MVP.
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit (mobile + desktop)
+5. Supabase RLS smoke test
+
+---
+
 ## 2026-05-15 (khuya) — P3 CLOSED — AI gen 3 topic còn lại (12 lessons / 240 cards + 3 metas) — Claude Opus 4.7
 
 **Mục tiêu session**: User explicit override policy `feedback_content_gen` (offline-only) lần 2 — cho AI tự gen 3 topic P3 còn lại (education + nature-environment + entertainment). Đóng phase P3. Còn P4 (society-culture + abstract-academic) cho session sau.
