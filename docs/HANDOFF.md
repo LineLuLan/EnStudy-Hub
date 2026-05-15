@@ -5,6 +5,124 @@
 
 ---
 
+## 2026-05-16 (mega session — 5 batches: P5a/P5b/P6a/P6b/P6c) — P5 + P6 CLOSED — 25 lessons / 500 cards — Claude Opus 4.7
+
+**Mục tiêu mega session**: Sau khi đóng MVP P0-P4 (42 lessons / 840 cards), tiếp tục Post-MVP với plan `docs/CONTENT_PLAN_FULL.md` để cover full Oxford 3000. Trong session này đóng đủ P5 Common Core (10 lessons) + P6 A1 fillers (15 lessons) = +25 lessons / +500 cards. Seed lên Supabase live. Mở dev server cho user test UI trước khi tiếp P7.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                  |
+| ------ | --------- | ----------------------------------------------------- |
+| main   | `eb18493` | v0.2.0 (không đổi)                                    |
+| dev    | `da7216c` | merge be → dev (P6 closed)                            |
+| be     | `0fee06d` | feat(content) P6c — đóng P6 đủ 15 lessons / 300 cards |
+| fe     | `16d8c8b` | sync dev → fe (P6c) — gates green                     |
+
+### Đã ship session này — TỔNG 25 lessons / 500 cards (5 batches)
+
+**P5a Common Core function words** (`15fa814`, 5 lessons / 100 cards):
+
+- common-core: articles-determiners, pronouns-basic, prepositions-place, prepositions-time-other, conjunctions-basic
+- Topic meta `common-core` (order 11, blocks, #64748b)
+
+**P5b Common Core verbs/adj/adv** (`1775ac5`, 5 lessons / 100 cards — P5 CLOSED):
+
+- common-core: core-be-do-have, core-action-verbs, core-mental-verbs, core-adjectives, core-adverbs
+- Lemma share for be/have/do forms; POS=auxiliary for modals
+
+**P6a A1 fillers** (`dfe0a97`, 5 lessons / 100 cards):
+
+- common-core: colors-basic, shapes-sizes, common-a1-verbs-1
+- daily-life: body-parts-ext, food-cooking
+
+**P6b A1 fillers** (`a7da661`, 5 lessons / 100 cards):
+
+- common-core: numbers-quantities-ext, common-a1-verbs-2, common-a1-adj
+- time-numbers: weather-seasons-ext
+- people: family-people-ext
+
+**P6c A1 fillers** (`0fee06d`, 5 lessons / 100 cards — P6 CLOSED):
+
+- daily-life: clothes-accessories-ext
+- places-travel: transport-vehicles-ext
+- common-core: common-a1-adv, common-a1-nouns
+- time-numbers: time-words-ext
+
+**Seed Supabase live**: 1 collection / 11 topics / **67 lessons / 1340 cards**.
+
+### Progress tổng tới giờ
+
+| Phase          | Lessons | Cards    | Status           |
+| -------------- | ------- | -------- | ---------------- |
+| P0-P4 MVP      | 42      | 840      | ✅               |
+| P5 Common Core | 10      | 200      | ✅               |
+| P6 A1 fillers  | 15      | 300      | ✅               |
+| **Total ship** | **67**  | **1340** | ~35% Oxford 3000 |
+| **Còn lại**    | ~133    | ~2660    | P7-P12           |
+
+### Verify đã chạy trên fe
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179
+- `pnpm lint` ✓ 0 warnings
+- `pnpm seed` ✓ 1340 cards live trên Supabase
+- `pnpm dev` ✓ mở server cho user test UI
+
+### Quality bar đã áp dụng (`CONTENT_PLAN_FULL.md` §3)
+
+- IPA British strict `/.../`, slash-wrapped, multi-word kèm space
+- VN context dày khắp (Hà Nội, Sài Gòn, Đà Lạt, Hội An, Sa Pa, Phú Quốc, Vincom, Vietcombank, FPT, Tết, áo dài, phở, bánh mì, Hồ Tây, Bến Thành, etc.)
+- Mnemonic vibe-y wordplay (vd "NEVER = NE + EVER → 'không bao giờ'")
+- Etymology narrative cho mỗi card (Old English / Latin / Greek / Old French)
+- 4-5 collocations natural
+- POS chuẩn 10 enum schema
+- Collision intentional với rõ angle (`light` color vs `light` weight, `back` body vs `back` direction, `since` prep vs conjunction, etc.)
+
+### Decisions session này
+
+1. **Tách P5 và P6 thành 5 batches** (P5a, P5b, P6a, P6b, P6c) mỗi batch 5 lessons / 100 cards — giữ chất lượng, tránh context window quá tải.
+2. **POS auxiliary** dành cho 7 modals (will/would/can/could/should/may/might). Be/have/do dùng `verb` (đa năng aux + main).
+3. **Lemma share**: am/is/are/was/were/been → lemma `be`; has/had → `have`; does/did → `do`.
+4. **New topic common-core** (order 11) gom function words + core vocab — 18 lessons / 360 cards (10 P5 + 8 P6).
+5. **GREP duplicate check** trước mỗi lesson mở rộng — quy ước cross-topic OK nếu rõ angle.
+
+### USER TODOs sau session này (cho session tiếp theo)
+
+1. **TEST UI với 1340 cards mới** trên `pnpm dev` (port 3000) — verify:
+   - `/decks/oxford-3000/common-core/` — 18 lessons hiển thị đúng
+   - `/decks/oxford-3000/daily-life/` — 8 lessons (6 cũ + 2 mới body-parts-ext, food-cooking, clothes-accessories-ext)
+   - `/decks/oxford-3000/time-numbers/` — 5 lessons (3 cũ + 2 mới weather-seasons-ext, time-words-ext)
+   - `/decks/oxford-3000/places-travel/` — 6 lessons (5 cũ + transport-vehicles-ext)
+   - `/decks/oxford-3000/people/` — 6 lessons (5 cũ + family-people-ext)
+   - Lesson detail render → enrollment → review flow
+2. **Tiếp P7 A2 expansion** (20 lessons / 400 cards) theo `docs/CONTENT_PLAN_FULL.md`:
+   - daily-life/shopping-money, transport-traffic-ext, hobbies-leisure-ext
+   - people/feelings-extended
+   - work-business/email-communication, customer-service
+   - education/study-techniques, online-learning
+   - - 12 more A2 lessons (~240 cards)
+3. **Cân nhắc tag** `v0.3.0-content-1340` (đóng MVP + Common Core + A1 fillers).
+4. **Re-run coverage check** với full 1340 cards để xem chính xác % Oxford 3000.
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit
+5. Supabase RLS smoke test
+
+### Notes for next AI session pickup
+
+- **User explicit override** policy `feedback_content_gen` từ session 2026-05-15 đến nay (5 sessions liên tục) → AI tự gen ổn định.
+- **Pattern**: 5 lessons / batch để giữ quality. Mỗi batch ~30-45 min thực thi.
+- **Mỗi lesson** 20 cards × ~30 dòng JSON với 3 examples/def, mnemonic, etymology, 4-5 collocations.
+- **Workflow chuẩn** mỗi batch: gen → validate Zod inline → commit `feat(content): add ... ` trên be → merge --no-ff be→dev→fe → `pnpm typecheck/test/lint/seed` → update TRACKER+SYNC+HANDOFF docs → sync 4-branch lần 2.
+- **GREP duplicate** existing files trước mỗi lesson mở rộng (esp. khi mở rộng topic). Cross-topic duplicate OK với explicit angle.
+- **CONTENT_PLAN_FULL.md** là master plan post-MVP, 12 phases tổng. Currently at end of P6.
+
+---
+
 ## 2026-05-16 (sau MVP, batch 2) — P5b Common Core verbs/adj/adv — P5 CLOSED (10/200) — Claude Opus 4.7
 
 **Mục tiêu session**: Đóng P5 (Common Core) đầy đủ bằng batch P5b — 5 lessons verbs/adj/adv. Seed lên Supabase live (940 → 1040 cards).
