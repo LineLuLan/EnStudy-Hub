@@ -1,0 +1,8 @@
+{
+  "slug": "common-core",
+  "name": "Common Core",
+  "description": "Function words và từ vựng cốt lõi: mạo từ, đại từ, giới từ, liên từ, động từ và tính từ phổ biến nhất.",
+  "order_index": 11,
+  "icon": "blocks",
+  "color": "#64748b"
+}

@@ -1,0 +1,652 @@
+{
+  "slug": "conjunctions-basic",
+  "name": "Conjunctions Basic",
+  "description": "Liên từ cơ bản — nối câu, mệnh đề và ý tưởng. Bộ keo ngữ pháp tiếng Anh.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "and",
+      "lemma": "and",
+      "ipa": "/ænd/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to join two words, phrases, or ideas of equal importance",
+          "meaning_vi": "và, cùng với",
+          "examples": [
+            {
+              "en": "I had bánh mì and cà phê for breakfast.",
+              "vi": "Tôi ăn bánh mì và cà phê sáng nay."
+            },
+            {
+              "en": "She works in Hà Nội and lives in Long Biên.",
+              "vi": "Cô ấy làm việc ở Hà Nội và sống ở Long Biên."
+            },
+            { "en": "It's hot and humid in Sài Gòn.", "vi": "Sài Gòn nóng và ẩm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["or"],
+      "collocations": ["and so", "and then", "and also", "and yet", "boys and girls"],
+      "etymology_hint": "From Old English 'and' — basic coordinating conjunction unchanged for over 1000 years.",
+      "mnemonic_vi": "AND = 'en-d' — 'và' đơn giản. Nối 2 thứ cùng cấp: phở and bún, sáng and tối."
+    },
+    {
+      "word": "but",
+      "lemma": "but",
+      "ipa": "/bʌt/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a contrast or exception",
+          "meaning_vi": "nhưng, mà",
+          "examples": [
+            {
+              "en": "I like phở, but I don't like cilantro.",
+              "vi": "Tôi thích phở, nhưng không thích ngò."
+            },
+            { "en": "She is small but very strong.", "vi": "Cô ấy nhỏ con nhưng rất khoẻ." },
+            {
+              "en": "I called him, but he didn't answer.",
+              "vi": "Tôi gọi anh ấy, nhưng anh ấy không nghe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["yet", "however"],
+      "antonyms": ["and"],
+      "collocations": ["but also", "not… but…", "but then", "yes, but", "but still"],
+      "etymology_hint": "From Old English 'būtan' meaning 'except, outside'.",
+      "mnemonic_vi": "BUT = 'bắt' — như cú 'bẻ ngoặt' đảo ý. I want, but I can't = tôi muốn, nhưng không thể."
+    },
+    {
+      "word": "or",
+      "lemma": "or",
+      "ipa": "/ɔː(r)/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to present alternatives or choices",
+          "meaning_vi": "hoặc, hay",
+          "examples": [
+            { "en": "Tea or coffee?", "vi": "Trà hay cà phê?" },
+            { "en": "You can pay in cash or by card.", "vi": "Bạn có thể trả tiền mặt hoặc thẻ." },
+            {
+              "en": "Is your birthday in May or June?",
+              "vi": "Sinh nhật bạn tháng Năm hay tháng Sáu?"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["and"],
+      "collocations": ["either… or…", "or else", "or so", "or rather", "yes or no"],
+      "etymology_hint": "From Old English 'oþþe' — coordinator presenting two options.",
+      "mnemonic_vi": "OR = 'o' — 'hoặc' chọn 1. A or B = A hay B. Đối với AND (cả hai)."
+    },
+    {
+      "word": "so",
+      "lemma": "so",
+      "ipa": "/səʊ/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "as a result; therefore (joining cause and effect)",
+          "meaning_vi": "vì thế, cho nên (chỉ kết quả)",
+          "examples": [
+            {
+              "en": "It was raining, so we stayed inside.",
+              "vi": "Trời mưa, nên chúng tôi ở trong nhà."
+            },
+            {
+              "en": "She studied hard, so she passed the exam.",
+              "vi": "Cô ấy học chăm, cho nên đỗ kỳ thi."
+            },
+            {
+              "en": "I was hungry, so I bought a bánh mì.",
+              "vi": "Tôi đói, vì thế tôi mua một ổ bánh mì."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["therefore", "thus"],
+      "antonyms": [],
+      "collocations": ["so that", "and so", "so what", "so far", "so much"],
+      "etymology_hint": "From Old English 'swā' meaning 'in this way, thus'.",
+      "mnemonic_vi": "SO = 'sâu' — 'sâu' (sau đó) suy ra. Nguyên nhân, so kết quả. It rained, so I stayed = mưa, nên ở nhà."
+    },
+    {
+      "word": "if",
+      "lemma": "if",
+      "ipa": "/ɪf/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a condition",
+          "meaning_vi": "nếu, giả sử (giới thiệu điều kiện)",
+          "examples": [
+            {
+              "en": "If it rains tomorrow, we'll stay home.",
+              "vi": "Nếu mai trời mưa, chúng tôi ở nhà."
+            },
+            { "en": "Call me if you need help.", "vi": "Gọi tôi nếu bạn cần giúp." },
+            {
+              "en": "If I had more time, I would visit Sa Pa.",
+              "vi": "Nếu có thêm thời gian, tôi sẽ đi Sa Pa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["whether"],
+      "antonyms": [],
+      "collocations": ["if not", "if so", "if only", "as if", "what if"],
+      "etymology_hint": "From Old English 'gif' meaning 'supposing that'.",
+      "mnemonic_vi": "IF = 'íp' — 'iếp' (giả sử). If it rains = nếu trời mưa. Mọi câu điều kiện đều bắt đầu IF."
+    },
+    {
+      "word": "when",
+      "lemma": "when",
+      "ipa": "/wen/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "at the time that; whenever",
+          "meaning_vi": "khi, lúc (chỉ thời điểm)",
+          "examples": [
+            {
+              "en": "Call me when you arrive at the airport.",
+              "vi": "Gọi tôi khi bạn đến sân bay."
+            },
+            {
+              "en": "I was reading when the rain started.",
+              "vi": "Tôi đang đọc sách khi cơn mưa bắt đầu."
+            },
+            {
+              "en": "When I was a child, we had no smartphones.",
+              "vi": "Khi tôi còn nhỏ, chưa có điện thoại thông minh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["as", "while"],
+      "antonyms": [],
+      "collocations": ["when ever", "when possible", "when you can", "since when", "when in doubt"],
+      "etymology_hint": "From Old English 'hwænne' — interrogative and relative for time.",
+      "mnemonic_vi": "WHEN = 'guen' — 'quê' (lúc) nào. When I come = khi tôi đến. Vừa là conjunction vừa là question word."
+    },
+    {
+      "word": "then",
+      "lemma": "then",
+      "ipa": "/ðen/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "after that; at that time; in that case",
+          "meaning_vi": "rồi, sau đó; lúc đó; vậy thì",
+          "examples": [
+            {
+              "en": "First we ate bún bò, then we walked along Hương River.",
+              "vi": "Đầu tiên ăn bún bò, rồi đi dạo dọc sông Hương."
+            },
+            {
+              "en": "Back then, I was still in college.",
+              "vi": "Hồi ấy, tôi còn đang học đại học."
+            },
+            {
+              "en": "If it rains, then we'll watch a movie at home.",
+              "vi": "Nếu mưa, vậy thì xem phim ở nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["next", "afterwards"],
+      "antonyms": ["now"],
+      "collocations": ["and then", "back then", "since then", "even then", "by then"],
+      "etymology_hint": "From Old English 'þenne' — adverb of time meaning 'at that time'.",
+      "mnemonic_vi": "THEN = 'đen' — 'đến' lúc sau. First A, then B = đầu A, rồi B. Now ↔ then = bây giờ ↔ lúc đó."
+    },
+    {
+      "word": "while",
+      "lemma": "while",
+      "ipa": "/waɪl/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "during the time that; whereas (contrast)",
+          "meaning_vi": "trong khi (cùng lúc); trong khi đó (tương phản)",
+          "examples": [
+            {
+              "en": "I read a book while waiting for the bus.",
+              "vi": "Tôi đọc sách trong khi đợi xe buýt."
+            },
+            {
+              "en": "She cooks while her husband cleans.",
+              "vi": "Cô ấy nấu ăn trong khi chồng dọn dẹp."
+            },
+            {
+              "en": "Hà Nội has four seasons, while Sài Gòn has two.",
+              "vi": "Hà Nội có bốn mùa, trong khi Sài Gòn có hai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["whereas", "as"],
+      "antonyms": [],
+      "collocations": [
+        "while you wait",
+        "for a while",
+        "in a while",
+        "while I'm at it",
+        "after a while"
+      ],
+      "etymology_hint": "From Old English 'hwīl' meaning 'a period of time'.",
+      "mnemonic_vi": "WHILE = 'guai-l' — 'ngoài' lúc đó song song. While I read, she cooks = trong khi tôi đọc, cô ấy nấu."
+    },
+    {
+      "word": "that",
+      "lemma": "that",
+      "ipa": "/ðæt/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a clause that explains, reports, or describes",
+          "meaning_vi": "rằng, là (giới thiệu mệnh đề tường thuật hoặc giải thích)",
+          "examples": [
+            { "en": "She said that she was tired.", "vi": "Cô ấy nói rằng cô ấy mệt." },
+            { "en": "I know that you love phở.", "vi": "Tôi biết là bạn thích phở." },
+            {
+              "en": "The fact that he came surprised everyone.",
+              "vi": "Việc anh ấy đến khiến mọi người ngạc nhiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["say that", "think that", "know that", "the fact that", "so that"],
+      "etymology_hint": "Conjunction use of demonstrative 'that' — original sense 'the thing being mentioned'.",
+      "mnemonic_vi": "THAT (conjunction) = 'đát' — 'là, rằng'. Khác THAT (kia). I think that he's right = tôi nghĩ rằng anh ấy đúng."
+    },
+    {
+      "word": "as",
+      "lemma": "as",
+      "ipa": "/æz/",
+      "pos": "conjunction",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "while; because; in the way that",
+          "meaning_vi": "khi, vì, như (đa nghĩa)",
+          "examples": [
+            {
+              "en": "I saw her as she walked into the café.",
+              "vi": "Tôi thấy cô ấy khi cô bước vào quán."
+            },
+            {
+              "en": "As it was raining, we cancelled the picnic.",
+              "vi": "Vì trời mưa, chúng tôi huỷ buổi dã ngoại."
+            },
+            {
+              "en": "Do as I say, not as I do.",
+              "vi": "Hãy làm như tôi bảo, đừng làm như tôi làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["while", "because", "like"],
+      "antonyms": [],
+      "collocations": ["as soon as", "as long as", "as well as", "as if", "such as"],
+      "etymology_hint": "From Old English 'ealswā' meaning 'just so, in like manner'.",
+      "mnemonic_vi": "AS = 'ét' — vừa 'khi' vừa 'vì' vừa 'như'. As I read = khi/vì tôi đọc; do as I say = làm như tôi nói."
+    },
+    {
+      "word": "unless",
+      "lemma": "unless",
+      "ipa": "/ənˈles/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "except if; if not",
+          "meaning_vi": "trừ khi, nếu không thì",
+          "examples": [
+            {
+              "en": "I won't go unless you come with me.",
+              "vi": "Tôi sẽ không đi trừ khi bạn đi cùng."
+            },
+            {
+              "en": "Unless it rains, we'll have the picnic outside.",
+              "vi": "Trừ khi trời mưa, chúng tôi sẽ dã ngoại ngoài trời."
+            },
+            { "en": "You won't pass unless you study.", "vi": "Bạn sẽ không đỗ nếu không học." }
+          ]
+        }
+      ],
+      "synonyms": ["if not", "except if"],
+      "antonyms": [],
+      "collocations": [
+        "unless otherwise",
+        "unless you",
+        "unless I",
+        "unless someone",
+        "unless there is"
+      ],
+      "etymology_hint": "Compound 'on' + 'less' — meaning 'on a smaller condition'.",
+      "mnemonic_vi": "UNLESS = UN + LESS → 'không có thì'. = if NOT. Unless you study = trừ khi bạn học."
+    },
+    {
+      "word": "whether",
+      "lemma": "whether",
+      "ipa": "/ˈweðə(r)/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "used to express doubt or choice between alternatives",
+          "meaning_vi": "liệu (có hay không); có… hay không",
+          "examples": [
+            {
+              "en": "I don't know whether she will come.",
+              "vi": "Tôi không biết liệu cô ấy có đến không."
+            },
+            {
+              "en": "We can't decide whether to fly or take the train.",
+              "vi": "Chúng tôi không quyết được nên bay hay đi tàu."
+            },
+            {
+              "en": "Whether you like it or not, we have to go.",
+              "vi": "Dù bạn thích hay không, chúng ta phải đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["if"],
+      "antonyms": [],
+      "collocations": [
+        "whether or not",
+        "whether to",
+        "wonder whether",
+        "depend on whether",
+        "regardless of whether"
+      ],
+      "etymology_hint": "From Old English 'hwæþer' meaning 'which of two'.",
+      "mnemonic_vi": "WHETHER = 'wét-đờ' — 'wét' xem 'đường' nào (chọn). Whether A or B = liệu A hay B."
+    },
+    {
+      "word": "once",
+      "lemma": "once",
+      "ipa": "/wʌns/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "as soon as; from the moment that",
+          "meaning_vi": "một khi, ngay khi",
+          "examples": [
+            {
+              "en": "Once you start, you can't stop.",
+              "vi": "Một khi bạn bắt đầu thì khó dừng lại."
+            },
+            {
+              "en": "Call me once you arrive at the hotel.",
+              "vi": "Gọi tôi ngay khi bạn đến khách sạn."
+            },
+            {
+              "en": "Once the rain stops, we'll head out.",
+              "vi": "Ngay khi tạnh mưa, chúng ta sẽ đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["as soon as", "the moment"],
+      "antonyms": [],
+      "collocations": ["once you", "once it", "once she", "once we", "once everything"],
+      "etymology_hint": "From Old English 'ānes' (one time) — meaning extended to 'as soon as one X happens'.",
+      "mnemonic_vi": "ONCE (conjunction) = 'oan-sờ' — 'một khi' nó xảy ra. Once you start = một khi bạn bắt đầu."
+    },
+    {
+      "word": "in case",
+      "lemma": "in case",
+      "ipa": "/ɪn keɪs/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to prepare for the possibility that something might happen",
+          "meaning_vi": "phòng khi, phòng trường hợp",
+          "examples": [
+            { "en": "Take an umbrella in case it rains.", "vi": "Mang dù phòng khi trời mưa." },
+            {
+              "en": "Save the receipt in case you need to return the item.",
+              "vi": "Giữ hoá đơn phòng khi cần đổi trả."
+            },
+            {
+              "en": "I left early in case there was traffic.",
+              "vi": "Tôi đi sớm phòng khi tắc đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lest"],
+      "antonyms": [],
+      "collocations": ["in case of", "just in case", "in case you", "in case it", "in case she"],
+      "etymology_hint": "Phrase from 'case' meaning 'situation' — 'in the case that X happens'.",
+      "mnemonic_vi": "IN CASE = trong trường hợp → 'phòng khi'. Bring an umbrella in case = mang dù phòng khi (mưa)."
+    },
+    {
+      "word": "so that",
+      "lemma": "so that",
+      "ipa": "/səʊ ðət/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in order that; with the result that",
+          "meaning_vi": "để cho, để mà (mục đích)",
+          "examples": [
+            {
+              "en": "Speak louder so that everyone can hear.",
+              "vi": "Nói to lên để mọi người nghe được."
+            },
+            {
+              "en": "She studies hard so that she can get a scholarship.",
+              "vi": "Cô ấy học chăm để có thể giành học bổng."
+            },
+            {
+              "en": "I wrote it down so that I wouldn't forget.",
+              "vi": "Tôi viết nó ra để khỏi quên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in order that", "to"],
+      "antonyms": [],
+      "collocations": ["so that I", "so that you", "so that we", "so that she", "so that everyone"],
+      "etymology_hint": "Phrase combining 'so' (thus) + 'that' (clause introducer) — meaning 'in such a way that'.",
+      "mnemonic_vi": "SO THAT = 'để cho' (mục đích). Speak loudly SO THAT they hear = nói to ĐỂ họ nghe."
+    },
+    {
+      "word": "as if",
+      "lemma": "as if",
+      "ipa": "/æz ɪf/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in a way that suggests; like",
+          "meaning_vi": "như thể, như là",
+          "examples": [
+            {
+              "en": "He looks as if he hasn't slept for days.",
+              "vi": "Anh ấy trông như mấy ngày không ngủ."
+            },
+            {
+              "en": "She talks as if she knows everything.",
+              "vi": "Cô ấy nói cứ như biết hết mọi thứ."
+            },
+            {
+              "en": "It feels as if winter has arrived early.",
+              "vi": "Cảm giác như mùa đông đến sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["as though", "like"],
+      "antonyms": [],
+      "collocations": ["look as if", "feel as if", "seem as if", "sound as if", "act as if"],
+      "etymology_hint": "Phrase 'as' + 'if' — meaning 'in the manner that would happen if X were true'.",
+      "mnemonic_vi": "AS IF = 'như thể'. He runs as if he were flying = anh ấy chạy như thể đang bay."
+    },
+    {
+      "word": "as long as",
+      "lemma": "as long as",
+      "ipa": "/æz lɒŋ æz/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "on the condition that; provided that",
+          "meaning_vi": "miễn là, chỉ cần",
+          "examples": [
+            { "en": "You can stay as long as you want.", "vi": "Bạn cứ ở chừng nào bạn muốn." },
+            {
+              "en": "I'll help you as long as you're honest with me.",
+              "vi": "Tôi giúp bạn miễn là bạn thành thật với tôi."
+            },
+            {
+              "en": "As long as it doesn't rain, we'll go to the beach.",
+              "vi": "Miễn là không mưa, chúng tôi sẽ đi biển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["provided", "if only"],
+      "antonyms": [],
+      "collocations": [
+        "as long as you",
+        "as long as we",
+        "as long as I",
+        "stay as long as",
+        "for as long as"
+      ],
+      "etymology_hint": "Phrase 'as long as' — originally about time duration, extended to conditional 'provided that'.",
+      "mnemonic_vi": "AS LONG AS = 'miễn là'. As long as you're happy = miễn là bạn vui. Cũng có nghĩa 'chừng nào còn'."
+    },
+    {
+      "word": "even if",
+      "lemma": "even if",
+      "ipa": "/ˈiːvn ɪf/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "despite the possibility that",
+          "meaning_vi": "ngay cả khi, dù cho",
+          "examples": [
+            { "en": "I'll go even if it rains.", "vi": "Tôi sẽ đi ngay cả khi trời mưa." },
+            {
+              "en": "Even if she apologises, I won't forgive her.",
+              "vi": "Ngay cả khi cô ấy xin lỗi, tôi cũng không tha thứ."
+            },
+            {
+              "en": "Even if you don't agree, please listen.",
+              "vi": "Dù bạn không đồng ý, hãy nghe đã."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["even though"],
+      "antonyms": [],
+      "collocations": ["even if I", "even if you", "even if she", "even if there", "even if it"],
+      "etymology_hint": "Compound 'even' (intensifier) + 'if' — emphasising the hypothetical.",
+      "mnemonic_vi": "EVEN IF = 'ngay cả khi'. Even if it rains = ngay cả khi mưa, tôi vẫn đi."
+    },
+    {
+      "word": "provided",
+      "lemma": "provided",
+      "ipa": "/prəˈvaɪdɪd/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "on condition that; only if",
+          "meaning_vi": "với điều kiện là, miễn là (trang trọng)",
+          "examples": [
+            {
+              "en": "You can borrow my car provided you fill the tank.",
+              "vi": "Bạn mượn xe tôi được, với điều kiện đổ đầy bình."
+            },
+            {
+              "en": "She'll attend the meeting provided it ends by 5pm.",
+              "vi": "Cô ấy sẽ dự họp miễn là kết thúc trước 5h."
+            },
+            {
+              "en": "The job is yours provided you pass the interview.",
+              "vi": "Bạn nhận việc, với điều kiện đỗ phỏng vấn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["if", "as long as"],
+      "antonyms": [],
+      "collocations": [
+        "provided that",
+        "provided you",
+        "provided it",
+        "provided they",
+        "provided everything"
+      ],
+      "etymology_hint": "Past participle of 'provide' (Latin 'providere' = foresee) — formal conditional marker.",
+      "mnemonic_vi": "PROVIDED = 'phải có điều kiện'. Provided you pay = miễn là bạn trả. Formal hơn 'if'."
+    },
+    {
+      "word": "supposing",
+      "lemma": "supposing",
+      "ipa": "/səˈpəʊzɪŋ/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "what if; assuming that (used to introduce hypothetical situations)",
+          "meaning_vi": "giả sử, nhỡ đâu (đặt giả thuyết)",
+          "examples": [
+            {
+              "en": "Supposing it rains tomorrow, what will we do?",
+              "vi": "Giả sử mai mưa, chúng ta sẽ làm gì?"
+            },
+            {
+              "en": "Supposing you win the lottery, will you quit your job?",
+              "vi": "Giả sử bạn trúng số, bạn sẽ bỏ việc chứ?"
+            },
+            {
+              "en": "Supposing he doesn't come, we should still start.",
+              "vi": "Nhỡ anh ấy không đến, chúng ta vẫn nên bắt đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["if", "what if"],
+      "antonyms": [],
+      "collocations": [
+        "supposing that",
+        "supposing you",
+        "supposing it",
+        "supposing they",
+        "just supposing"
+      ],
+      "etymology_hint": "From 'suppose' (Latin 'supponere' = put under) — present participle used as conjunction.",
+      "mnemonic_vi": "SUPPOSING = SUPPOSE (giả định) + ING → 'giả sử'. Đầu câu hypothetical: supposing she's late…"
+    }
+  ]
+}

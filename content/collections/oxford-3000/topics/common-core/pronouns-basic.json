@@ -1,0 +1,595 @@
+{
+  "slug": "pronouns-basic",
+  "name": "Pronouns Basic",
+  "description": "Đại từ cơ bản — chủ ngữ, tân ngữ, sở hữu và phản thân.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "I",
+      "lemma": "I",
+      "ipa": "/aɪ/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the speaker as the subject of a sentence",
+          "meaning_vi": "tôi (đại từ chủ ngữ ngôi 1 số ít)",
+          "examples": [
+            {
+              "en": "I work at a startup in Hà Nội.",
+              "vi": "Tôi làm việc cho một startup ở Hà Nội."
+            },
+            { "en": "I am learning English every day.", "vi": "Tôi đang học tiếng Anh mỗi ngày." },
+            {
+              "en": "I think Đà Lạt is the best place to retire.",
+              "vi": "Tôi nghĩ Đà Lạt là nơi tốt nhất để về hưu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["you"],
+      "collocations": ["I think", "I want", "I am", "I have", "I will"],
+      "etymology_hint": "From Old English 'ic' — always capitalized in English to avoid confusion with other words.",
+      "mnemonic_vi": "I (chữ hoa) đọc 'ai' → 'ai' chính là 'tôi'. Luôn viết HOA dù ở giữa câu."
+    },
+    {
+      "word": "you",
+      "lemma": "you",
+      "ipa": "/juː/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the person or people being spoken to",
+          "meaning_vi": "bạn, anh, chị, các bạn… (ngôi 2 số ít hoặc số nhiều)",
+          "examples": [
+            {
+              "en": "You should try bánh mì Phượng in Hội An.",
+              "vi": "Bạn nên thử bánh mì Phượng ở Hội An."
+            },
+            {
+              "en": "Are you coming to the wedding on Saturday?",
+              "vi": "Cậu có đi đám cưới thứ Bảy không?"
+            },
+            { "en": "You guys did a great job!", "vi": "Mấy bạn làm tốt lắm!" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["I", "me"],
+      "collocations": ["you are", "thank you", "you know", "you guys", "if you"],
+      "etymology_hint": "From Old English 'ēow' (object form) — used for both singular and plural since Middle English.",
+      "mnemonic_vi": "YOU = 'diu' — 'dìu' (đỡ) người kia. Cùng một từ cho ngôi 2 dù 1 người hay nhiều người."
+    },
+    {
+      "word": "he",
+      "lemma": "he",
+      "ipa": "/hiː/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a male person mentioned, used as the subject",
+          "meaning_vi": "anh ấy, cậu ấy, ông ấy (ngôi 3 nam — chủ ngữ)",
+          "examples": [
+            {
+              "en": "He works at FPT Software in Đà Nẵng.",
+              "vi": "Anh ấy làm ở FPT Software Đà Nẵng."
+            },
+            {
+              "en": "He doesn't like coffee in the evening.",
+              "vi": "Anh ấy không thích cà phê buổi tối."
+            },
+            { "en": "He is the tallest in our class.", "vi": "Cậu ấy cao nhất lớp tôi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["she"],
+      "collocations": ["he is", "he has", "he says", "he wants", "he can"],
+      "etymology_hint": "From Old English 'hē' — masculine third-person pronoun.",
+      "mnemonic_vi": "HE = 'hi' — như 'hí' (cười) của con trai. Đối với SHE (cô ấy)."
+    },
+    {
+      "word": "she",
+      "lemma": "she",
+      "ipa": "/ʃiː/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a female person mentioned, used as the subject",
+          "meaning_vi": "cô ấy, chị ấy, bà ấy (ngôi 3 nữ — chủ ngữ)",
+          "examples": [
+            {
+              "en": "She teaches Vietnamese to foreigners at RMIT.",
+              "vi": "Cô ấy dạy tiếng Việt cho người nước ngoài ở RMIT."
+            },
+            {
+              "en": "She always wears an áo dài on Mondays.",
+              "vi": "Cô ấy luôn mặc áo dài vào thứ Hai."
+            },
+            {
+              "en": "She just got promoted last week.",
+              "vi": "Tuần trước cô ấy vừa được thăng chức."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["he"],
+      "collocations": ["she is", "she has", "she says", "she can", "she will"],
+      "etymology_hint": "From Old English 'sēo' or 'hēo' — feminine third-person pronoun, shifted spelling to 'she' in 12th century.",
+      "mnemonic_vi": "SHE = 'sì' — như 'sì' (xinh) của con gái. Đối với HE."
+    },
+    {
+      "word": "it",
+      "lemma": "it",
+      "ipa": "/ɪt/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a thing, animal, or abstract idea already mentioned, used as the subject or object",
+          "meaning_vi": "nó (đại từ ngôi 3 cho vật, con vật, hoặc ý trừu tượng)",
+          "examples": [
+            { "en": "I lost my umbrella; it was new!", "vi": "Tôi mất cây dù; nó còn mới mà!" },
+            {
+              "en": "It is raining heavily in Sài Gòn today.",
+              "vi": "Hôm nay Sài Gòn mưa to lắm."
+            },
+            {
+              "en": "She bought a kitten and named it Mèo Mun.",
+              "vi": "Cô ấy mua một con mèo con và đặt tên nó là Mèo Mun."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["it is", "it has", "it was", "is it", "it seems"],
+      "etymology_hint": "From Old English 'hit' — neutral third-person pronoun; lost the 'h' over time.",
+      "mnemonic_vi": "IT = 'ít' — chỉ vật, con vật, hoặc cả 'thời tiết, thời gian' (it's raining, it's 7pm)."
+    },
+    {
+      "word": "we",
+      "lemma": "we",
+      "ipa": "/wiː/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the speaker and at least one other person, used as the subject",
+          "meaning_vi": "chúng tôi, chúng ta (ngôi 1 số nhiều — chủ ngữ)",
+          "examples": [
+            {
+              "en": "We are planning a trip to Phú Quốc this summer.",
+              "vi": "Chúng tôi đang lên kế hoạch đi Phú Quốc hè này."
+            },
+            {
+              "en": "We met at Highlands Coffee yesterday.",
+              "vi": "Chúng tôi gặp nhau ở Highlands Coffee hôm qua."
+            },
+            {
+              "en": "We Vietnamese love family gatherings during Tết.",
+              "vi": "Người Việt chúng ta yêu sum họp gia đình ngày Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["us"],
+      "antonyms": ["they"],
+      "collocations": ["we are", "we have", "we can", "we should", "we all"],
+      "etymology_hint": "From Old English 'wē' — first-person plural pronoun, unchanged for centuries.",
+      "mnemonic_vi": "WE = 'wi' — 'vi' (mình + người khác) → chúng ta. Đối với THEY (họ)."
+    },
+    {
+      "word": "they",
+      "lemma": "they",
+      "ipa": "/ðeɪ/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "two or more people or things already mentioned, used as the subject",
+          "meaning_vi": "họ, chúng (ngôi 3 số nhiều — chủ ngữ)",
+          "examples": [
+            {
+              "en": "They live in a small village near Sa Pa.",
+              "vi": "Họ sống ở một làng nhỏ gần Sa Pa."
+            },
+            {
+              "en": "My parents called; they want to visit next week.",
+              "vi": "Bố mẹ tôi gọi; ông bà muốn ghé thăm tuần sau."
+            },
+            {
+              "en": "These flowers are beautiful — they smell wonderful.",
+              "vi": "Mấy bông hoa này đẹp — chúng thơm tuyệt vời."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["we"],
+      "collocations": ["they are", "they have", "they say", "they can", "they were"],
+      "etymology_hint": "Borrowed from Old Norse 'þeir' during Viking era — replaced native 'hīe'.",
+      "mnemonic_vi": "THEY = 'đây' — chỉ một nhóm 'đây này'. Họ, chúng nó."
+    },
+    {
+      "word": "me",
+      "lemma": "me",
+      "ipa": "/miː/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the speaker as the object of a verb or preposition",
+          "meaning_vi": "tôi (đại từ tân ngữ ngôi 1)",
+          "examples": [
+            {
+              "en": "Please send me the file by tonight.",
+              "vi": "Vui lòng gửi tôi file đó trước tối nay."
+            },
+            {
+              "en": "Can you give me a ride to Bến Thành?",
+              "vi": "Cho tôi đi nhờ tới Bến Thành được không?"
+            },
+            {
+              "en": "This bánh chưng is for me — my favourite.",
+              "vi": "Bánh chưng này dành cho tôi — món tủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["I"],
+      "collocations": ["give me", "tell me", "for me", "with me", "let me"],
+      "etymology_hint": "From Old English 'mē' — object form of 'I', unchanged.",
+      "mnemonic_vi": "ME = 'mi' — 'mi' (tôi). Khi tôi là 'người nhận' của hành động: 'give me, help me'."
+    },
+    {
+      "word": "him",
+      "lemma": "him",
+      "ipa": "/hɪm/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the male person already mentioned, used as the object",
+          "meaning_vi": "anh ấy, cậu ấy, ông ấy (đại từ tân ngữ — đực)",
+          "examples": [
+            { "en": "I haven't seen him since Tết.", "vi": "Từ Tết tới giờ tôi chưa gặp anh ấy." },
+            { "en": "Tell him to call me back, please.", "vi": "Nói anh ấy gọi lại cho tôi nhé." },
+            {
+              "en": "She married him at Nhà Thờ Đức Bà.",
+              "vi": "Cô ấy cưới anh ấy ở Nhà thờ Đức Bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["her"],
+      "collocations": ["tell him", "see him", "for him", "with him", "to him"],
+      "etymology_hint": "From Old English 'him' — dative form of 'he'.",
+      "mnemonic_vi": "HIM = HE + M (tân ngữ). Cùng nguồn 'h'. 'I saw him' = tôi thấy anh ấy."
+    },
+    {
+      "word": "her",
+      "lemma": "her",
+      "ipa": "/hɜː(r)/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the female person already mentioned, used as the object; or a possessive form",
+          "meaning_vi": "cô ấy, chị ấy (tân ngữ); của cô ấy (sở hữu)",
+          "examples": [
+            {
+              "en": "I met her at a wedding in Đà Lạt.",
+              "vi": "Tôi gặp cô ấy ở một đám cưới ở Đà Lạt."
+            },
+            { "en": "Give her some time to think.", "vi": "Cho cô ấy ít thời gian suy nghĩ." },
+            { "en": "Her phone is on the table.", "vi": "Điện thoại của cô ấy ở trên bàn." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["him"],
+      "collocations": ["tell her", "see her", "for her", "with her", "her name"],
+      "etymology_hint": "From Old English 'hire' — both dative form and possessive of 'she'.",
+      "mnemonic_vi": "HER = SHE + R → tân ngữ HOẶC sở hữu của cô ấy. 'I see her' / 'her bag'."
+    },
+    {
+      "word": "us",
+      "lemma": "us",
+      "ipa": "/ʌs/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the speaker and others, used as the object",
+          "meaning_vi": "chúng tôi, chúng ta (đại từ tân ngữ ngôi 1 số nhiều)",
+          "examples": [
+            {
+              "en": "Please join us for dinner this Sunday.",
+              "vi": "Hãy ăn tối với chúng tôi Chủ nhật này."
+            },
+            {
+              "en": "The teacher gave us new homework.",
+              "vi": "Cô giáo cho chúng tôi bài tập mới."
+            },
+            {
+              "en": "Between us, the surprise party was awkward.",
+              "vi": "Nói riêng giữa chúng ta, bữa tiệc bất ngờ hơi ngại."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["them"],
+      "collocations": ["tell us", "help us", "for us", "with us", "between us"],
+      "etymology_hint": "From Old English 'ūs' — object form of 'we'.",
+      "mnemonic_vi": "US = 'ớt' — WE + S → tân ngữ của 'we'. 'Help us' = giúp chúng tôi."
+    },
+    {
+      "word": "them",
+      "lemma": "them",
+      "ipa": "/ðem/",
+      "pos": "pronoun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "people or things already mentioned, used as the object",
+          "meaning_vi": "họ, chúng (đại từ tân ngữ ngôi 3 số nhiều)",
+          "examples": [
+            {
+              "en": "I gave them my old textbooks.",
+              "vi": "Tôi đưa họ sách giáo khoa cũ của tôi."
+            },
+            { "en": "Don't forget to invite them to Tết.", "vi": "Đừng quên mời họ đến Tết." },
+            {
+              "en": "These mangoes are sweet — I'll buy all of them.",
+              "vi": "Mấy quả xoài này ngọt — tôi mua hết."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["us"],
+      "collocations": ["tell them", "help them", "for them", "with them", "all of them"],
+      "etymology_hint": "Borrowed from Old Norse 'þeim' — replaced native 'him' (plural).",
+      "mnemonic_vi": "THEM = THEY + M → tân ngữ của 'they'. 'I saw them' = tôi thấy họ."
+    },
+    {
+      "word": "my",
+      "lemma": "my",
+      "ipa": "/maɪ/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "belonging to the speaker; possessive form of 'I'",
+          "meaning_vi": "của tôi (đứng trước danh từ)",
+          "examples": [
+            { "en": "My family lives in District 1.", "vi": "Gia đình tôi sống ở Quận 1." },
+            { "en": "I left my keys at the office.", "vi": "Tôi để quên chìa khoá ở văn phòng." },
+            { "en": "My favourite dish is bún chả.", "vi": "Món tôi thích nhất là bún chả." }
+          ]
+        }
+      ],
+      "synonyms": ["mine"],
+      "antonyms": ["your"],
+      "collocations": ["my friend", "my family", "my home", "my work", "my favourite"],
+      "etymology_hint": "Reduced from Old English 'mīn' (mine) before consonants — kept full form 'mine' for noun use.",
+      "mnemonic_vi": "MY = 'mai' — viết tắt của MINE → 'của tôi' khi đứng trước danh từ: my book, my phone."
+    },
+    {
+      "word": "your",
+      "lemma": "your",
+      "ipa": "/jɔː(r)/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "belonging to the person being spoken to; possessive form of 'you'",
+          "meaning_vi": "của bạn, của các bạn (đứng trước danh từ)",
+          "examples": [
+            { "en": "Is this your motorbike?", "vi": "Đây là xe máy của bạn à?" },
+            { "en": "Your Vietnamese is amazing!", "vi": "Tiếng Việt của bạn tuyệt quá!" },
+            { "en": "Please send me your address.", "vi": "Vui lòng gửi tôi địa chỉ của bạn." }
+          ]
+        }
+      ],
+      "synonyms": ["yours"],
+      "antonyms": ["my"],
+      "collocations": ["your name", "your phone", "your turn", "your help", "your idea"],
+      "etymology_hint": "From Old English 'ēower' — possessive form of 'you', shortened over time.",
+      "mnemonic_vi": "YOUR = YOU + R → 'của bạn'. 'Your bag' = cái túi của bạn."
+    },
+    {
+      "word": "his",
+      "lemma": "his",
+      "ipa": "/hɪz/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "belonging to a male person already mentioned; possessive form of 'he'",
+          "meaning_vi": "của anh ấy, cậu ấy, ông ấy",
+          "examples": [
+            { "en": "His office is on the 12th floor.", "vi": "Văn phòng của anh ấy ở tầng 12." },
+            {
+              "en": "I borrowed his laptop yesterday.",
+              "vi": "Hôm qua tôi mượn máy tính của cậu ấy."
+            },
+            {
+              "en": "His Vietnamese accent is from Huế.",
+              "vi": "Giọng tiếng Việt của ông ấy là người Huế."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["her"],
+      "collocations": ["his name", "his job", "his idea", "his family", "his car"],
+      "etymology_hint": "From Old English 'his' — also used as object form before 'him' developed.",
+      "mnemonic_vi": "HIS = HE + S → của anh ấy. Cùng dùng làm determiner ('his bag') VÀ pronoun ('the bag is his')."
+    },
+    {
+      "word": "hers",
+      "lemma": "hers",
+      "ipa": "/hɜːz/",
+      "pos": "pronoun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the one belonging to her; possessive pronoun (no noun follows)",
+          "meaning_vi": "(cái/đồ vật) của cô ấy (không có danh từ theo sau)",
+          "examples": [
+            {
+              "en": "This pen is hers, not mine.",
+              "vi": "Cây bút này là của cô ấy, không phải của tôi."
+            },
+            { "en": "The blue umbrella is hers.", "vi": "Cây dù xanh là của chị ấy." },
+            {
+              "en": "These ideas are hers; I just helped.",
+              "vi": "Mấy ý tưởng này là của cô ấy; tôi chỉ phụ thôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["his"],
+      "collocations": ["is hers", "a friend of hers", "this is hers", "are hers", "these are hers"],
+      "etymology_hint": "Formed by adding -s to 'her', following Middle English pattern of possessive pronouns.",
+      "mnemonic_vi": "HERS = HER + S → 'của cô ấy' đứng MỘT MÌNH. 'This is hers' (không cần thêm bag, pen…)."
+    },
+    {
+      "word": "ours",
+      "lemma": "ours",
+      "ipa": "/ˈaʊəz/",
+      "pos": "pronoun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the one(s) belonging to us; possessive pronoun (no noun follows)",
+          "meaning_vi": "(cái/đồ vật) của chúng tôi/chúng ta",
+          "examples": [
+            {
+              "en": "This table is theirs; that one is ours.",
+              "vi": "Cái bàn kia là của họ; cái này là của chúng tôi."
+            },
+            {
+              "en": "The motorbike at the door is ours.",
+              "vi": "Chiếc xe máy ngoài cửa là của chúng tôi."
+            },
+            {
+              "en": "Vietnam is ours to protect.",
+              "vi": "Việt Nam là của chúng ta — phải gìn giữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["theirs"],
+      "collocations": ["is ours", "are ours", "this is ours", "a friend of ours", "yours and ours"],
+      "etymology_hint": "Formed by adding -s to 'our', parallel to 'hers, his, theirs'.",
+      "mnemonic_vi": "OURS = OUR + S → 'của chúng tôi' đứng MỘT MÌNH. 'The win is ours' = chiến thắng là của chúng ta."
+    },
+    {
+      "word": "theirs",
+      "lemma": "theirs",
+      "ipa": "/ðeəz/",
+      "pos": "pronoun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the one(s) belonging to them; possessive pronoun (no noun follows)",
+          "meaning_vi": "(cái/đồ vật) của họ",
+          "examples": [
+            {
+              "en": "The big house on the corner is theirs.",
+              "vi": "Căn nhà to ở góc đường là của họ."
+            },
+            {
+              "en": "Our team won; the trophy is ours, not theirs.",
+              "vi": "Đội chúng tôi thắng; cúp là của chúng tôi, không phải họ."
+            },
+            { "en": "These tickets aren't theirs.", "vi": "Mấy vé này không phải của họ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["ours"],
+      "collocations": [
+        "is theirs",
+        "are theirs",
+        "a friend of theirs",
+        "ours and theirs",
+        "must be theirs"
+      ],
+      "etymology_hint": "Formed by adding -s to 'their', parallel to 'ours, hers'.",
+      "mnemonic_vi": "THEIRS = THEIR + S → 'của họ' đứng MỘT MÌNH. 'The house is theirs' = nhà là của họ."
+    },
+    {
+      "word": "myself",
+      "lemma": "myself",
+      "ipa": "/maɪˈself/",
+      "pos": "pronoun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the speaker as the object of a verb when the subject is also the speaker; used for emphasis",
+          "meaning_vi": "chính tôi, bản thân tôi (đại từ phản thân ngôi 1)",
+          "examples": [
+            { "en": "I made this bánh chưng myself.", "vi": "Bánh chưng này tôi tự gói." },
+            {
+              "en": "I taught myself Korean from YouTube.",
+              "vi": "Tôi tự học tiếng Hàn qua YouTube."
+            },
+            {
+              "en": "I had to remind myself to stay calm.",
+              "vi": "Tôi phải tự nhắc bản thân bình tĩnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["by myself", "for myself", "to myself", "teach myself", "remind myself"],
+      "etymology_hint": "Compound 'my' + 'self' — Middle English innovation to emphasise the same person.",
+      "mnemonic_vi": "MYSELF = MY + SELF → 'bản thân tôi'. Dùng khi chủ ngữ = tân ngữ: 'I see myself' (tự thấy mình)."
+    },
+    {
+      "word": "yourself",
+      "lemma": "yourself",
+      "ipa": "/jɔːˈself/",
+      "pos": "pronoun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the person being spoken to as the object of a verb when the subject is the same; used for emphasis",
+          "meaning_vi": "chính bạn, bản thân bạn (đại từ phản thân ngôi 2)",
+          "examples": [
+            { "en": "Did you cook this phở yourself?", "vi": "Tô phở này bạn tự nấu à?" },
+            { "en": "Be honest with yourself.", "vi": "Hãy thành thật với bản thân." },
+            { "en": "Help yourself to some bánh xèo.", "vi": "Cứ tự nhiên dùng bánh xèo nhé." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "by yourself",
+        "for yourself",
+        "help yourself",
+        "be yourself",
+        "all by yourself"
+      ],
+      "etymology_hint": "Compound 'your' + 'self' — same pattern as 'myself, himself'.",
+      "mnemonic_vi": "YOURSELF = YOUR + SELF → 'bản thân bạn'. 'Help yourself' = tự nhiên (cứ phục vụ bản thân)."
+    }
+  ]
+}

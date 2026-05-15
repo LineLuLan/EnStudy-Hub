@@ -1,0 +1,625 @@
+{
+  "slug": "prepositions-time-other",
+  "name": "Prepositions of Time & Other Senses",
+  "description": "Giới từ chỉ thời gian, mục đích, sự đi kèm và các quan hệ khác — bộ ghép câu thường gặp nhất.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "for",
+      "lemma": "for",
+      "ipa": "/fɔː(r)/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "intended for someone or something; over a length of time; in support of",
+          "meaning_vi": "cho, dành cho; trong (khoảng thời gian); vì",
+          "examples": [
+            { "en": "This bánh mì is for you.", "vi": "Cái bánh mì này dành cho bạn." },
+            {
+              "en": "I've lived in Sài Gòn for three years.",
+              "vi": "Tôi sống ở Sài Gòn được ba năm."
+            },
+            { "en": "She works for a Korean company.", "vi": "Cô ấy làm cho một công ty Hàn Quốc." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["against"],
+      "collocations": ["for me", "for now", "for a long time", "work for", "wait for"],
+      "etymology_hint": "From Old English 'for' — preposition expressing purpose, exchange, or direction.",
+      "mnemonic_vi": "FOR = 'pho' — 'cho' người này, 'pho' (vì) lý do kia. For me, for years."
+    },
+    {
+      "word": "with",
+      "lemma": "with",
+      "ipa": "/wɪð/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "together with someone; using something; having a feature",
+          "meaning_vi": "với, cùng với; bằng (công cụ); có (đặc điểm)",
+          "examples": [
+            { "en": "I went to Đà Lạt with my family.", "vi": "Tôi đi Đà Lạt cùng gia đình." },
+            {
+              "en": "She opened the door with her key.",
+              "vi": "Cô ấy mở cửa bằng chìa khoá của mình."
+            },
+            {
+              "en": "He's the guy with the green áo dài.",
+              "vi": "Anh ấy là người mặc áo dài xanh đó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alongside"],
+      "antonyms": ["without"],
+      "collocations": ["with me", "with you", "agree with", "happy with", "go with"],
+      "etymology_hint": "From Old English 'wið' meaning 'against, opposite' — meaning later softened to 'together with'.",
+      "mnemonic_vi": "WITH = 'guít' — 'với' đi cùng. With you = với bạn, with a pen = bằng cây bút."
+    },
+    {
+      "word": "of",
+      "lemma": "of",
+      "ipa": "/ɒv/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "belonging to, made of, or relating to",
+          "meaning_vi": "của, thuộc về; bằng (chất liệu); liên quan đến",
+          "examples": [
+            { "en": "She is the mother of three children.", "vi": "Bà ấy là mẹ của ba đứa trẻ." },
+            { "en": "A cup of cà phê sữa, please.", "vi": "Cho tôi một ly cà phê sữa." },
+            { "en": "He is afraid of dogs.", "vi": "Anh ấy sợ chó." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["a cup of", "afraid of", "kind of", "out of", "because of"],
+      "etymology_hint": "From Old English 'of' — originally meaning 'away from' (related to 'off'), later 'belonging to'.",
+      "mnemonic_vi": "OF = 'óp' — 'óp' (gắn vào) chỉ sở hữu. Cup of coffee, friend of mine = ly cà phê, bạn của tôi."
+    },
+    {
+      "word": "about",
+      "lemma": "about",
+      "ipa": "/əˈbaʊt/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "concerning; on the subject of; approximately",
+          "meaning_vi": "về (chủ đề); khoảng (số lượng xấp xỉ)",
+          "examples": [
+            {
+              "en": "We talked about the trip to Phú Quốc.",
+              "vi": "Chúng tôi nói về chuyến đi Phú Quốc."
+            },
+            {
+              "en": "The book is about Vietnamese history.",
+              "vi": "Cuốn sách viết về lịch sử Việt Nam."
+            },
+            { "en": "It costs about 100,000 VND.", "vi": "Giá khoảng 100,000 VNĐ." }
+          ]
+        }
+      ],
+      "synonyms": ["concerning", "approximately"],
+      "antonyms": [],
+      "collocations": ["talk about", "think about", "worry about", "about to", "all about"],
+      "etymology_hint": "Compound 'a-' (on) + 'bout' (Old English 'būtan' = outside) → 'around, concerning'.",
+      "mnemonic_vi": "ABOUT = 'ờ-bao-t' — 'a, bao' quanh chủ đề. Talk about Tết = nói về Tết. About 5pm = khoảng 5h."
+    },
+    {
+      "word": "before",
+      "lemma": "before",
+      "ipa": "/bɪˈfɔː(r)/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "earlier than; in front of in time or order",
+          "meaning_vi": "trước (về thời gian hoặc thứ tự)",
+          "examples": [
+            { "en": "Please arrive before 9am.", "vi": "Vui lòng đến trước 9 giờ sáng." },
+            { "en": "I had bánh mì before the meeting.", "vi": "Tôi ăn bánh mì trước buổi họp." },
+            {
+              "en": "We have a long road before us.",
+              "vi": "Chúng ta còn cả chặng đường dài phía trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["earlier than", "prior to"],
+      "antonyms": ["after"],
+      "collocations": [
+        "before Tết",
+        "right before",
+        "the day before",
+        "before long",
+        "before then"
+      ],
+      "etymology_hint": "Compound 'be-' (by) + 'fore' (Old English 'foran' = front) → 'in front of'.",
+      "mnemonic_vi": "BEFORE = BE + FORE (trước) → 'trước'. Before lunch = trước bữa trưa, before me = trước tôi."
+    },
+    {
+      "word": "after",
+      "lemma": "after",
+      "ipa": "/ˈɑːftə(r)/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "later than; following in time or order",
+          "meaning_vi": "sau (về thời gian hoặc thứ tự)",
+          "examples": [
+            { "en": "Let's grab cà phê after work.", "vi": "Đi cà phê sau giờ làm đi." },
+            { "en": "She came home after midnight.", "vi": "Cô ấy về nhà sau nửa đêm." },
+            { "en": "After Tết, the streets feel quiet.", "vi": "Sau Tết, phố xá thấy yên ả hơn." }
+          ]
+        }
+      ],
+      "synonyms": ["following", "later than"],
+      "antonyms": ["before"],
+      "collocations": ["after work", "after that", "shortly after", "right after", "after all"],
+      "etymology_hint": "From Old English 'æfter' meaning 'behind, later'.",
+      "mnemonic_vi": "AFTER = 'áp-tờ' — 'áp' (theo sau) 'tớ'. After lunch = sau bữa trưa. Đối với BEFORE."
+    },
+    {
+      "word": "during",
+      "lemma": "during",
+      "ipa": "/ˈdjʊərɪŋ/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "throughout the course of an event or period of time",
+          "meaning_vi": "trong (suốt) một khoảng/sự kiện",
+          "examples": [
+            {
+              "en": "Please switch off your phone during the meeting.",
+              "vi": "Vui lòng tắt điện thoại trong cuộc họp."
+            },
+            { "en": "It rained heavily during the trip.", "vi": "Trời mưa to suốt chuyến đi." },
+            {
+              "en": "During Tết, families gather for big meals.",
+              "vi": "Trong dịp Tết, các gia đình quây quần ăn lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["throughout"],
+      "antonyms": [],
+      "collocations": [
+        "during the day",
+        "during summer",
+        "during class",
+        "during the trip",
+        "during Tết"
+      ],
+      "etymology_hint": "From Latin 'durare' (to last) — present participle 'during' became preposition meaning 'while X lasts'.",
+      "mnemonic_vi": "DURING = 'diu-ring' — 'dài' suốt cả 'ring' (vòng). During the meeting = trong cả cuộc họp."
+    },
+    {
+      "word": "until",
+      "lemma": "until",
+      "ipa": "/ənˈtɪl/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "up to a point in time",
+          "meaning_vi": "đến (tận); cho đến khi (thời điểm kết thúc)",
+          "examples": [
+            { "en": "The shop is open until 10pm.", "vi": "Cửa hàng mở đến 10 giờ tối." },
+            { "en": "Wait here until I come back.", "vi": "Đợi ở đây tới khi tôi quay lại." },
+            {
+              "en": "We stayed at the party until midnight.",
+              "vi": "Chúng tôi ở tiệc tới nửa đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["till", "up to"],
+      "antonyms": [],
+      "collocations": ["until now", "until then", "wait until", "stay until", "until midnight"],
+      "etymology_hint": "Compound 'un-' (Old Norse 'und' = up to) + 'til' (till) — meaning 'as far as'.",
+      "mnemonic_vi": "UNTIL = UN + TIL → 'tới chừng nào'. Until 5pm = đến 5h. Until = TILL (cùng nghĩa, formal hơn)."
+    },
+    {
+      "word": "since",
+      "lemma": "since",
+      "ipa": "/sɪns/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from a particular point in the past until now",
+          "meaning_vi": "từ (mốc thời gian quá khứ đến hiện tại)",
+          "examples": [
+            { "en": "I have lived here since 2020.", "vi": "Tôi sống ở đây từ năm 2020." },
+            {
+              "en": "She hasn't seen him since Tết.",
+              "vi": "Từ Tết tới giờ cô ấy chưa gặp anh ấy."
+            },
+            { "en": "It has been raining since Monday.", "vi": "Trời mưa từ thứ Hai đến giờ." }
+          ]
+        }
+      ],
+      "synonyms": ["from"],
+      "antonyms": [],
+      "collocations": ["since then", "ever since", "since 2020", "since last", "since when"],
+      "etymology_hint": "From Old English 'siððan' meaning 'after, from a past time'.",
+      "mnemonic_vi": "SINCE (giới từ) = 'sin-sờ' — 'từ' một mốc trong quá khứ. Since 2020 = từ 2020 đến nay."
+    },
+    {
+      "word": "around",
+      "lemma": "around",
+      "ipa": "/əˈraʊnd/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a circle surrounding something; approximately",
+          "meaning_vi": "xung quanh; khoảng (chừng)",
+          "examples": [
+            {
+              "en": "We walked around Hồ Hoàn Kiếm at sunset.",
+              "vi": "Chúng tôi đi dạo quanh Hồ Hoàn Kiếm lúc hoàng hôn."
+            },
+            {
+              "en": "Around 50 people came to the wedding.",
+              "vi": "Khoảng 50 người đến đám cưới."
+            },
+            {
+              "en": "Her family lives around District 7.",
+              "vi": "Gia đình cô ấy sống quanh Quận 7."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["round", "approximately"],
+      "antonyms": [],
+      "collocations": ["around here", "around the world", "all around", "around 10", "look around"],
+      "etymology_hint": "Compound 'a-' (on) + 'round' → 'in a circle'.",
+      "mnemonic_vi": "AROUND = 'ờ-rao-nd' — 'a, round' (vòng tròn) quanh. Around the table = quanh bàn, around 5pm = khoảng 5h."
+    },
+    {
+      "word": "through",
+      "lemma": "through",
+      "ipa": "/θruː/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "from one end or side of something to the other; by means of",
+          "meaning_vi": "xuyên qua, qua (suốt); thông qua, nhờ",
+          "examples": [
+            { "en": "We walked through the park.", "vi": "Chúng tôi đi xuyên qua công viên." },
+            { "en": "I learned Korean through K-dramas.", "vi": "Tôi học tiếng Hàn qua phim Hàn." },
+            {
+              "en": "The train goes through three tunnels.",
+              "vi": "Đoàn tàu chạy qua ba đường hầm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["via", "by way of"],
+      "antonyms": [],
+      "collocations": [
+        "go through",
+        "look through",
+        "through the door",
+        "all through",
+        "right through"
+      ],
+      "etymology_hint": "From Old English 'þurh' — preposition of passing from one side to the other.",
+      "mnemonic_vi": "THROUGH = 'thru' — 'thâu' xuyên qua. Through the tunnel = qua hầm. Đừng nhầm với 'though' (mặc dù)."
+    },
+    {
+      "word": "without",
+      "lemma": "without",
+      "ipa": "/wɪˈðaʊt/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not having; not being with",
+          "meaning_vi": "không có, thiếu",
+          "examples": [
+            {
+              "en": "I can't start the day without cà phê.",
+              "vi": "Tôi không thể bắt đầu ngày mà không có cà phê."
+            },
+            { "en": "She left without saying goodbye.", "vi": "Cô ấy đi mà không chào." },
+            {
+              "en": "We finished the trip without any problem.",
+              "vi": "Chúng tôi hoàn thành chuyến đi không gặp trục trặc gì."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lacking"],
+      "antonyms": ["with"],
+      "collocations": [
+        "without me",
+        "without doubt",
+        "do without",
+        "without thinking",
+        "go without"
+      ],
+      "etymology_hint": "Compound 'with' (originally 'against') + 'out' → 'on the outside of, lacking'.",
+      "mnemonic_vi": "WITHOUT = WITH + OUT → 'không có' (đối với WITH). Without sugar = không đường, without you = không có bạn."
+    },
+    {
+      "word": "against",
+      "lemma": "against",
+      "ipa": "/əˈɡenst/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in opposition to; touching for support",
+          "meaning_vi": "chống lại, đối lại; tựa vào, sát",
+          "examples": [
+            {
+              "en": "Vietnam played against Thailand in the final.",
+              "vi": "Việt Nam đấu với Thái Lan ở trận chung kết."
+            },
+            {
+              "en": "He leaned against the wall, exhausted.",
+              "vi": "Anh ấy dựa vào tường, mệt lả."
+            },
+            {
+              "en": "Most students are against the new rule.",
+              "vi": "Đa số học sinh phản đối quy định mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["versus", "opposed to"],
+      "antonyms": ["for"],
+      "collocations": [
+        "against the wall",
+        "against the law",
+        "against me",
+        "play against",
+        "vote against"
+      ],
+      "etymology_hint": "From Old English 'ongean' meaning 'opposite, facing'.",
+      "mnemonic_vi": "AGAINST = 'ờ-ghen-sờt' — 'a, gắn' đối đầu. Against you = chống lại bạn. Lean against = dựa vào."
+    },
+    {
+      "word": "towards",
+      "lemma": "towards",
+      "ipa": "/təˈwɔːdz/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in the direction of; with respect to",
+          "meaning_vi": "về phía, hướng đến; đối với (thái độ)",
+          "examples": [
+            { "en": "He walked towards the bus stop.", "vi": "Anh ấy đi về phía trạm xe buýt." },
+            {
+              "en": "Her attitude towards work is very positive.",
+              "vi": "Thái độ của cô ấy đối với công việc rất tích cực."
+            },
+            {
+              "en": "We're saving money towards a trip to Japan.",
+              "vi": "Chúng tôi để dành tiền cho chuyến đi Nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["toward", "to"],
+      "antonyms": ["away from"],
+      "collocations": [
+        "walk towards",
+        "attitude towards",
+        "head towards",
+        "go towards",
+        "step towards"
+      ],
+      "etymology_hint": "Compound 'to' + '-ward' (toward) + '-s' (adverbial suffix) — meaning 'in the direction of'.",
+      "mnemonic_vi": "TOWARDS = TO + WARDS (hướng) → 'về hướng'. Walk towards the door = đi về phía cửa."
+    },
+    {
+      "word": "except",
+      "lemma": "except",
+      "ipa": "/ɪkˈsept/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not including; apart from",
+          "meaning_vi": "trừ, ngoại trừ",
+          "examples": [
+            { "en": "Everyone came except John.", "vi": "Mọi người đều đến trừ John." },
+            {
+              "en": "The shop is open every day except Sunday.",
+              "vi": "Cửa hàng mở mọi ngày trừ Chủ nhật."
+            },
+            {
+              "en": "I like all noodles except instant noodles.",
+              "vi": "Tôi thích các loại mì trừ mì ăn liền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["apart from", "besides"],
+      "antonyms": ["including"],
+      "collocations": ["except for", "except me", "every… except", "all except", "except that"],
+      "etymology_hint": "From Latin 'excipere' = 'ex-' (out) + 'capere' (take) → 'to take out'.",
+      "mnemonic_vi": "EXCEPT = EX (loại ra) + CEPT (lấy) → 'lấy ra ngoài' = trừ ra. All except me = tất cả trừ tôi."
+    },
+    {
+      "word": "besides",
+      "lemma": "besides",
+      "ipa": "/bɪˈsaɪdz/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in addition to; as well as",
+          "meaning_vi": "ngoài (ra còn); bên cạnh đó",
+          "examples": [
+            {
+              "en": "Besides phở, she also makes great bún bò.",
+              "vi": "Ngoài phở, cô ấy còn nấu bún bò rất ngon."
+            },
+            {
+              "en": "Besides English, he speaks French.",
+              "vi": "Ngoài tiếng Anh, anh ấy còn nói tiếng Pháp."
+            },
+            { "en": "It's too late; besides, I'm tired.", "vi": "Muộn rồi; vả lại, tôi mệt." }
+          ]
+        }
+      ],
+      "synonyms": ["in addition to", "as well as"],
+      "antonyms": [],
+      "collocations": [
+        "besides me",
+        "besides that",
+        "besides which",
+        "besides being",
+        "besides the fact"
+      ],
+      "etymology_hint": "From 'beside' + adverbial '-s' — meaning shifted from 'next to' to 'in addition to'.",
+      "mnemonic_vi": "BESIDES = BESIDE + S → 'ngoài ra còn'. Đừng nhầm BESIDE (cạnh) — BESIDES có S = ngoài ra."
+    },
+    {
+      "word": "throughout",
+      "lemma": "throughout",
+      "ipa": "/θruːˈaʊt/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in every part of; during the whole time of",
+          "meaning_vi": "khắp (không gian); suốt (thời gian)",
+          "examples": [
+            { "en": "Phở is loved throughout Vietnam.", "vi": "Phở được yêu thích khắp Việt Nam." },
+            {
+              "en": "She smiled throughout the whole movie.",
+              "vi": "Cô ấy mỉm cười suốt cả bộ phim."
+            },
+            { "en": "Lights stayed on throughout the night.", "vi": "Đèn vẫn sáng suốt cả đêm." }
+          ]
+        }
+      ],
+      "synonyms": ["all through", "across"],
+      "antonyms": [],
+      "collocations": [
+        "throughout the year",
+        "throughout history",
+        "throughout the world",
+        "throughout the night",
+        "throughout life"
+      ],
+      "etymology_hint": "Compound 'through' + 'out' — emphasising total coverage.",
+      "mnemonic_vi": "THROUGHOUT = THROUGH + OUT → 'từ đầu chí cuối', 'khắp nơi'. Throughout the day = suốt ngày."
+    },
+    {
+      "word": "via",
+      "lemma": "via",
+      "ipa": "/ˈvaɪə/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "by way of (a place or means)",
+          "meaning_vi": "qua, theo đường (nơi/phương tiện)",
+          "examples": [
+            {
+              "en": "We flew to Tokyo via Hong Kong.",
+              "vi": "Chúng tôi bay đến Tokyo qua Hong Kong."
+            },
+            { "en": "She paid for the goods via Momo.", "vi": "Cô ấy thanh toán hàng qua Momo." },
+            { "en": "Please contact me via email.", "vi": "Vui lòng liên hệ tôi qua email." }
+          ]
+        }
+      ],
+      "synonyms": ["through", "by way of"],
+      "antonyms": [],
+      "collocations": ["via email", "via Zoom", "via Hong Kong", "via Grab", "send via"],
+      "etymology_hint": "From Latin 'via' meaning 'road, way'.",
+      "mnemonic_vi": "VIA = 'vai-a' — như 'đường' (via Latin = road). Pay via Momo = trả qua Momo, fly via Singapore."
+    },
+    {
+      "word": "including",
+      "lemma": "including",
+      "ipa": "/ɪnˈkluːdɪŋ/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "having as part of a group or amount",
+          "meaning_vi": "bao gồm cả, kể cả",
+          "examples": [
+            {
+              "en": "The tour costs 5 million VND, including meals.",
+              "vi": "Tour 5 triệu đồng, đã bao gồm bữa ăn."
+            },
+            {
+              "en": "Everyone, including the kids, came to Tết.",
+              "vi": "Tất cả, kể cả lũ trẻ, đều về Tết."
+            },
+            {
+              "en": "The price includes tax and tip.",
+              "vi": "Giá đã bao gồm thuế và tiền phục vụ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["with", "as well as"],
+      "antonyms": ["except", "excluding"],
+      "collocations": [
+        "including tax",
+        "including breakfast",
+        "including me",
+        "not including",
+        "including everything"
+      ],
+      "etymology_hint": "From 'include' (Latin 'includere' = shut in) + '-ing'.",
+      "mnemonic_vi": "INCLUDING = INCLUDE + ING → 'có cả'. Đối với EXCLUDING. Price including tax = giá đã gồm thuế."
+    },
+    {
+      "word": "amid",
+      "lemma": "amid",
+      "ipa": "/əˈmɪd/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in the middle of; surrounded by (often used for events or feelings)",
+          "meaning_vi": "giữa (sự kiện, đám đông, cảm xúc) — trang trọng hơn AMONG",
+          "examples": [
+            {
+              "en": "She kept calm amid the crowd at Bến Thành.",
+              "vi": "Cô ấy giữ bình tĩnh giữa đám đông ở Bến Thành."
+            },
+            {
+              "en": "Amid the noise, I couldn't hear him.",
+              "vi": "Giữa tiếng ồn, tôi không nghe rõ anh ấy nói gì."
+            },
+            { "en": "Sales rose amid strong demand.", "vi": "Doanh số tăng giữa lúc nhu cầu mạnh." }
+          ]
+        }
+      ],
+      "synonyms": ["among", "in the middle of"],
+      "antonyms": [],
+      "collocations": [
+        "amid the crowd",
+        "amid the chaos",
+        "amid concerns",
+        "amid speculation",
+        "amid pressure"
+      ],
+      "etymology_hint": "Compound 'a-' (on) + 'mid' (middle) → 'in the middle of'.",
+      "mnemonic_vi": "AMID = A + MID (giữa) → 'ở giữa'. Trang trọng hơn AMONG, hay dùng cho sự kiện: amid the war."
+    }
+  ]
+}
