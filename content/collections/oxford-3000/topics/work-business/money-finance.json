@@ -1,0 +1,682 @@
+{
+  "slug": "money-finance",
+  "name": "Money & Finance",
+  "description": "Tiền bạc, ngân hàng và tài chính cá nhân.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "money",
+      "lemma": "money",
+      "ipa": "/ˈmʌn.i/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "coins or paper that people use to buy things",
+          "meaning_vi": "tiền; tiền xu hoặc tiền giấy dùng để mua hàng",
+          "examples": [
+            { "en": "Money can't buy happiness.", "vi": "Tiền không mua được hạnh phúc." },
+            {
+              "en": "I don't have enough money for a new phone.",
+              "vi": "Tôi không đủ tiền mua điện thoại mới."
+            },
+            {
+              "en": "She earns good money as a software engineer.",
+              "vi": "Cô ấy kiếm tiền khá từ nghề kỹ sư phần mềm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cash", "currency", "funds"],
+      "antonyms": [],
+      "collocations": ["earn money", "spend money", "save money", "make money", "lose money"],
+      "etymology_hint": "From Latin 'moneta' meaning 'mint, coinage' — from temple of Juno Moneta where Roman coins were made",
+      "mnemonic_vi": "MONEY đọc 'mân-ny' — 'MUNG' (mong) nhiều = MUỐN tiền"
+    },
+    {
+      "word": "salary",
+      "lemma": "salary",
+      "ipa": "/ˈsæl.ər.i/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the regular money paid for a job, usually monthly",
+          "meaning_vi": "lương; tiền trả thường xuyên cho công việc, thường theo tháng",
+          "examples": [
+            {
+              "en": "Her salary increased by 20% last year.",
+              "vi": "Lương cô ấy tăng 20% năm ngoái."
+            },
+            {
+              "en": "The salary is paid on the 25th of each month.",
+              "vi": "Lương được trả vào ngày 25 hàng tháng."
+            },
+            {
+              "en": "Engineers in Vietnam have rising salaries.",
+              "vi": "Kỹ sư ở Việt Nam có lương tăng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pay", "wages", "income"],
+      "antonyms": [],
+      "collocations": [
+        "monthly salary",
+        "annual salary",
+        "high salary",
+        "salary increase",
+        "starting salary"
+      ],
+      "etymology_hint": "From Latin 'salarium' meaning 'salt money' — Roman soldiers were paid in salt",
+      "mnemonic_vi": "SALARY chứa 'SAL' (muối) — ngày xưa lính được trả bằng MUỐI = lương"
+    },
+    {
+      "word": "bonus",
+      "lemma": "bonus",
+      "ipa": "/ˈbəʊ.nəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "extra money given to an employee, usually for good work",
+          "meaning_vi": "tiền thưởng; số tiền bổ sung trả cho nhân viên vì làm tốt",
+          "examples": [
+            {
+              "en": "We get a Tet bonus equal to one month's salary.",
+              "vi": "Chúng tôi được thưởng Tết bằng một tháng lương."
+            },
+            {
+              "en": "She earned a big bonus for hitting sales targets.",
+              "vi": "Cô ấy nhận thưởng lớn vì đạt chỉ tiêu doanh số."
+            },
+            {
+              "en": "Year-end bonuses are common in many companies.",
+              "vi": "Thưởng cuối năm phổ biến ở nhiều công ty."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reward", "incentive"],
+      "antonyms": [],
+      "collocations": [
+        "Tet bonus",
+        "year-end bonus",
+        "performance bonus",
+        "sign-on bonus",
+        "get a bonus"
+      ],
+      "etymology_hint": "From Latin 'bonus' meaning 'good'",
+      "mnemonic_vi": "BONUS đọc 'bô-nớt' — 'BỐN ÚT' (bốn út) khoản thưởng = tiền thưởng"
+    },
+    {
+      "word": "tax",
+      "lemma": "tax",
+      "ipa": "/tæks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money you must pay to the government from what you earn or spend",
+          "meaning_vi": "thuế; tiền phải trả cho chính phủ từ thu nhập hoặc chi tiêu",
+          "examples": [
+            { "en": "Everyone has to pay income tax.", "vi": "Ai cũng phải đóng thuế thu nhập." },
+            { "en": "The price includes 10% tax.", "vi": "Giá đã bao gồm 10% thuế." },
+            { "en": "She filed her tax return online.", "vi": "Cô ấy khai thuế online." }
+          ]
+        }
+      ],
+      "synonyms": ["duty", "levy"],
+      "antonyms": [],
+      "collocations": ["pay tax", "income tax", "tax return", "tax-free", "tax rate"],
+      "etymology_hint": "From Latin 'taxare' meaning 'to estimate, assess'",
+      "mnemonic_vi": "TAX đọc 'tắc' — 'TẮC' (đánh tắc) tiền vào ví chính phủ = thuế"
+    },
+    {
+      "word": "budget",
+      "lemma": "budget",
+      "ipa": "/ˈbʌdʒ.ɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a plan of how much money you have and how you will spend it",
+          "meaning_vi": "ngân sách; kế hoạch về số tiền có và cách chi tiêu",
+          "examples": [
+            {
+              "en": "Our monthly budget is 15 million đồng.",
+              "vi": "Ngân sách hàng tháng của chúng tôi là 15 triệu đồng."
+            },
+            { "en": "The project went over budget.", "vi": "Dự án vượt ngân sách." },
+            {
+              "en": "Stick to your budget to save money.",
+              "vi": "Theo sát ngân sách để tiết kiệm tiền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plan", "allowance"],
+      "antonyms": [],
+      "collocations": [
+        "monthly budget",
+        "over budget",
+        "under budget",
+        "stick to budget",
+        "tight budget"
+      ],
+      "etymology_hint": "From Old French 'bougette' meaning 'small leather bag'",
+      "mnemonic_vi": "BUDGET đọc 'bát-jịt' — 'BẮT' (bắt buộc) 'GỊT' (giữ) chặt tiền = ngân sách"
+    },
+    {
+      "word": "profit",
+      "lemma": "profit",
+      "ipa": "/ˈprɒf.ɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the money you make after paying all costs",
+          "meaning_vi": "lợi nhuận; tiền lãi sau khi trừ chi phí",
+          "examples": [
+            {
+              "en": "The company made a profit of 100 million đồng.",
+              "vi": "Công ty lãi 100 triệu đồng."
+            },
+            {
+              "en": "Small businesses often have small profits.",
+              "vi": "Doanh nghiệp nhỏ thường lợi nhuận nhỏ."
+            },
+            {
+              "en": "Profit margins are tight in this industry.",
+              "vi": "Biên lợi nhuận trong ngành này hẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["earnings", "gain", "return"],
+      "antonyms": ["loss"],
+      "collocations": [
+        "make a profit",
+        "net profit",
+        "profit margin",
+        "annual profit",
+        "profit growth"
+      ],
+      "etymology_hint": "From Latin 'profectus' meaning 'progress, advance', from 'proficere' (make progress)",
+      "mnemonic_vi": "PROFIT chứa 'FIT' — buôn 'FIT' (vừa khít) thị trường = sinh lợi"
+    },
+    {
+      "word": "loss",
+      "lemma": "loss",
+      "ipa": "/lɒs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of losing money or not making any profit",
+          "meaning_vi": "thua lỗ, mất; tình trạng mất tiền hoặc không có lãi",
+          "examples": [
+            {
+              "en": "The shop closed after years of losses.",
+              "vi": "Cửa hàng đóng cửa sau nhiều năm thua lỗ."
+            },
+            { "en": "We sold the stock at a loss.", "vi": "Chúng tôi bán cổ phiếu lỗ." },
+            { "en": "Heavy rain caused crop losses.", "vi": "Mưa lớn gây mất mùa." }
+          ]
+        }
+      ],
+      "synonyms": ["deficit"],
+      "antonyms": ["profit", "gain"],
+      "collocations": ["heavy loss", "at a loss", "total loss", "financial loss", "weight loss"],
+      "etymology_hint": "From Old English 'los' meaning 'destruction'",
+      "mnemonic_vi": "LOSS đọc 'lốs' — 'LỖ' nặng = LOSS"
+    },
+    {
+      "word": "save",
+      "lemma": "save",
+      "ipa": "/seɪv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to keep money instead of spending it",
+          "meaning_vi": "tiết kiệm; giữ tiền thay vì tiêu",
+          "examples": [
+            {
+              "en": "I save 20% of my salary every month.",
+              "vi": "Tôi để dành 20% lương mỗi tháng."
+            },
+            { "en": "She's saving up for a trip to Japan.", "vi": "Cô ấy để dành tiền đi Nhật." },
+            {
+              "en": "Vietnamese parents teach their kids to save from a young age.",
+              "vi": "Phụ huynh Việt dạy con tiết kiệm từ bé."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["set aside", "store", "keep"],
+      "antonyms": ["spend", "waste"],
+      "collocations": ["save money", "save up", "save for", "save energy", "save time"],
+      "etymology_hint": "From Old French 'sauver', from Latin 'salvare' meaning 'to keep safe'",
+      "mnemonic_vi": "SAVE đọc 'séo' — 'SẾP' (chất) tiền vào két = tiết kiệm"
+    },
+    {
+      "word": "spend",
+      "lemma": "spend",
+      "ipa": "/spend/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to pay money for something or use time on something",
+          "meaning_vi": "tiêu, dành; trả tiền hoặc dành thời gian cho việc gì",
+          "examples": [
+            {
+              "en": "I spent 500,000 đồng on groceries this week.",
+              "vi": "Tôi tiêu 500.000 đồng cho đồ chợ tuần này."
+            },
+            { "en": "She spends too much on clothes.", "vi": "Cô ấy tiêu quá nhiều vào quần áo." },
+            {
+              "en": "We spent the weekend in Vung Tau.",
+              "vi": "Chúng tôi dành cuối tuần ở Vũng Tàu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pay", "use", "expend"],
+      "antonyms": ["save"],
+      "collocations": ["spend money", "spend time", "spend wisely", "overspend", "spend on"],
+      "etymology_hint": "From Old English 'spendan', from Latin 'expendere' (pay out)",
+      "mnemonic_vi": "SPEND đọc 'sờ-pen' — 'SỜ' ví và 'PHÉN' (phẹt) tiền ra = tiêu"
+    },
+    {
+      "word": "invest",
+      "lemma": "invest",
+      "ipa": "/ɪnˈvest/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to put money into something hoping to make a profit",
+          "meaning_vi": "đầu tư; bỏ tiền vào để hy vọng có lãi",
+          "examples": [
+            {
+              "en": "Many people invest in real estate in Vietnam.",
+              "vi": "Nhiều người đầu tư bất động sản ở Việt Nam."
+            },
+            {
+              "en": "She invested her bonus in stocks.",
+              "vi": "Cô ấy đầu tư tiền thưởng vào cổ phiếu."
+            },
+            {
+              "en": "We should invest in our employees' training.",
+              "vi": "Chúng ta nên đầu tư đào tạo nhân viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["put in", "back", "fund"],
+      "antonyms": ["divest", "withdraw"],
+      "collocations": [
+        "invest in",
+        "invest heavily",
+        "invest money",
+        "invest time",
+        "wisely invest"
+      ],
+      "etymology_hint": "From Latin 'investire' meaning 'to clothe', extended to 'put resources into'",
+      "mnemonic_vi": "INVEST chứa 'VEST' (áo) — 'mặc VEST' tiền lên thứ gì đó = đầu tư"
+    },
+    {
+      "word": "loan",
+      "lemma": "loan",
+      "ipa": "/ləʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money you borrow that you have to pay back, usually with interest",
+          "meaning_vi": "khoản vay; tiền vay phải trả lại, thường có lãi",
+          "examples": [
+            {
+              "en": "She took out a loan to buy her first house.",
+              "vi": "Cô ấy vay tiền để mua căn nhà đầu tiên."
+            },
+            {
+              "en": "Student loans take many years to pay back.",
+              "vi": "Vay sinh viên mất nhiều năm để trả."
+            },
+            {
+              "en": "The bank approved his loan quickly.",
+              "vi": "Ngân hàng duyệt khoản vay nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["credit", "borrowing"],
+      "antonyms": ["repayment"],
+      "collocations": [
+        "take out a loan",
+        "bank loan",
+        "student loan",
+        "loan application",
+        "repay a loan"
+      ],
+      "etymology_hint": "From Old Norse 'lán' meaning 'lending', cognate with English 'lend'",
+      "mnemonic_vi": "LOAN đọc 'lôn' — 'LOAN' tin vay nợ khắp nơi"
+    },
+    {
+      "word": "interest",
+      "lemma": "interest",
+      "ipa": "/ˈɪn.trəst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "extra money paid for borrowing or earned for saving",
+          "meaning_vi": "tiền lãi; tiền phải trả thêm khi vay hoặc nhận thêm khi gửi tiết kiệm",
+          "examples": [
+            {
+              "en": "The bank pays 5% interest on savings.",
+              "vi": "Ngân hàng trả lãi 5% cho tiền gửi tiết kiệm."
+            },
+            {
+              "en": "Credit card interest can be very high.",
+              "vi": "Lãi thẻ tín dụng có thể rất cao."
+            },
+            {
+              "en": "She paid off the loan plus interest in 5 years.",
+              "vi": "Cô ấy trả hết khoản vay cộng lãi trong 5 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "earn interest",
+        "pay interest",
+        "interest rate",
+        "compound interest",
+        "high interest"
+      ],
+      "etymology_hint": "From Latin 'interesse' = 'inter-' (between) + 'esse' (be) — 'be between' (a stake)",
+      "mnemonic_vi": "INTEREST nghĩa khác là 'hứng thú' — ở đây là 'hứng thú' tài chính = lãi"
+    },
+    {
+      "word": "bank",
+      "lemma": "bank",
+      "ipa": "/bæŋk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where people keep money or borrow money",
+          "meaning_vi": "ngân hàng; nơi gửi và vay tiền",
+          "examples": [
+            {
+              "en": "I went to the bank to open a savings account.",
+              "vi": "Tôi đến ngân hàng để mở sổ tiết kiệm."
+            },
+            {
+              "en": "Vietcombank has branches all over the country.",
+              "vi": "Vietcombank có chi nhánh khắp cả nước."
+            },
+            {
+              "en": "She transferred money through the bank app.",
+              "vi": "Cô ấy chuyển tiền qua app ngân hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["financial institution"],
+      "antonyms": [],
+      "collocations": ["go to the bank", "bank account", "central bank", "bank loan", "bank card"],
+      "etymology_hint": "From Italian 'banca' meaning 'bench' — early bankers worked at benches",
+      "mnemonic_vi": "BANK đọc 'beng' — 'BÊNG' (bưng) tiền vào BANK gửi"
+    },
+    {
+      "word": "account",
+      "lemma": "account",
+      "ipa": "/əˈkaʊnt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an arrangement with a bank where you can keep money",
+          "meaning_vi": "tài khoản; thoả thuận với ngân hàng để giữ tiền",
+          "examples": [
+            {
+              "en": "Please transfer the money to my account.",
+              "vi": "Vui lòng chuyển tiền vào tài khoản của tôi."
+            },
+            {
+              "en": "She has a savings account at MB Bank.",
+              "vi": "Cô ấy có sổ tiết kiệm tại MB Bank."
+            },
+            {
+              "en": "Open a new account online in 5 minutes.",
+              "vi": "Mở tài khoản mới online trong 5 phút."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bank account"],
+      "antonyms": [],
+      "collocations": [
+        "bank account",
+        "savings account",
+        "open an account",
+        "account number",
+        "checking account"
+      ],
+      "etymology_hint": "From Old French 'aconter' = 'a-' (to) + 'conter' (count, tell)",
+      "mnemonic_vi": "ACCOUNT chứa 'COUNT' (đếm) — chỗ ngân hàng 'COUNT' tiền của bạn = tài khoản"
+    },
+    {
+      "word": "credit",
+      "lemma": "credit",
+      "ipa": "/ˈkred.ɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the ability to borrow money or buy now and pay later",
+          "meaning_vi": "tín dụng, khả năng vay; khả năng mua trước trả sau",
+          "examples": [
+            {
+              "en": "She has good credit and got the loan easily.",
+              "vi": "Cô ấy có tín dụng tốt nên vay được dễ dàng."
+            },
+            {
+              "en": "Many young people use credit cards to shop online.",
+              "vi": "Nhiều người trẻ dùng thẻ tín dụng mua sắm online."
+            },
+            {
+              "en": "Bad credit can stop you from getting a loan.",
+              "vi": "Tín dụng xấu có thể khiến bạn không vay được."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["debit", "debt"],
+      "collocations": ["credit card", "good credit", "bad credit", "credit score", "give credit"],
+      "etymology_hint": "From Latin 'creditum' meaning 'trust, loan'",
+      "mnemonic_vi": "CREDIT đọc 'crép-đít' — 'CƠ' (ngân hàng) 'ĐẬM' (đặm) tin = tín dụng"
+    },
+    {
+      "word": "debit",
+      "lemma": "debit",
+      "ipa": "/ˈdeb.ɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money taken out of a bank account; a debit card lets you spend money you already have",
+          "meaning_vi": "ghi nợ, thẻ ghi nợ; tiền trừ trực tiếp từ tài khoản",
+          "examples": [
+            {
+              "en": "I prefer a debit card to a credit card.",
+              "vi": "Tôi thích thẻ ghi nợ hơn thẻ tín dụng."
+            },
+            {
+              "en": "The shop accepts both credit and debit.",
+              "vi": "Cửa hàng nhận cả thẻ tín dụng và ghi nợ."
+            },
+            {
+              "en": "My debit card was declined at the supermarket.",
+              "vi": "Thẻ ghi nợ của tôi bị từ chối ở siêu thị."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["credit"],
+      "collocations": ["debit card", "debit account", "direct debit", "debit balance", "by debit"],
+      "etymology_hint": "From Latin 'debitum' meaning 'something owed'",
+      "mnemonic_vi": "DEBIT đọc 'đép-bít' — 'ĐỐP' tiền 'BÍT' trừ liền = ghi nợ"
+    },
+    {
+      "word": "currency",
+      "lemma": "currency",
+      "ipa": "/ˈkʌr.ən.si/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the system of money used in a country",
+          "meaning_vi": "tiền tệ; hệ thống tiền dùng ở một quốc gia",
+          "examples": [
+            { "en": "The currency of Vietnam is the dong.", "vi": "Tiền tệ của Việt Nam là đồng." },
+            {
+              "en": "She exchanged dollars for the local currency.",
+              "vi": "Cô ấy đổi đô la lấy tiền địa phương."
+            },
+            { "en": "Bitcoin is a digital currency.", "vi": "Bitcoin là tiền tệ kỹ thuật số." }
+          ]
+        }
+      ],
+      "synonyms": ["money", "legal tender"],
+      "antonyms": [],
+      "collocations": [
+        "foreign currency",
+        "local currency",
+        "exchange currency",
+        "digital currency",
+        "strong currency"
+      ],
+      "etymology_hint": "From Latin 'currens' meaning 'running, current', from 'currere' (run)",
+      "mnemonic_vi": "CURRENCY chứa 'CURRENT' (đang chảy) — tiền 'CHẢY' lưu thông = tiền tệ"
+    },
+    {
+      "word": "exchange-rate",
+      "lemma": "exchange rate",
+      "ipa": "/ɪksˈtʃeɪndʒ reɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the value of one currency compared to another",
+          "meaning_vi": "tỷ giá hối đoái; giá trị một đồng tiền so với đồng khác",
+          "examples": [
+            {
+              "en": "The exchange rate is 24,000 đồng for 1 USD.",
+              "vi": "Tỷ giá là 24.000 đồng đổi 1 USD."
+            },
+            {
+              "en": "Check the exchange rate before exchanging money.",
+              "vi": "Kiểm tra tỷ giá trước khi đổi tiền."
+            },
+            { "en": "The exchange rate changes daily.", "vi": "Tỷ giá thay đổi mỗi ngày." }
+          ]
+        }
+      ],
+      "synonyms": ["forex rate", "conversion rate"],
+      "antonyms": [],
+      "collocations": [
+        "check the exchange rate",
+        "fixed exchange rate",
+        "today's exchange rate",
+        "favorable exchange rate",
+        "exchange rate fluctuation"
+      ],
+      "etymology_hint": "Compound: 'exchange' (Old French 'eschangier') + 'rate' (Latin 'rata pars' = fixed amount)",
+      "mnemonic_vi": "EXCHANGE RATE = 'đổi' + 'tỷ lệ' = tỷ giá hối đoái"
+    },
+    {
+      "word": "debt",
+      "lemma": "debt",
+      "ipa": "/det/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money that you owe to someone",
+          "meaning_vi": "nợ, khoản nợ; tiền bạn nợ ai",
+          "examples": [
+            {
+              "en": "He's in debt because of his gambling habit.",
+              "vi": "Anh ấy mắc nợ vì thói cờ bạc."
+            },
+            {
+              "en": "Many students graduate with student debt.",
+              "vi": "Nhiều sinh viên ra trường với nợ học phí."
+            },
+            { "en": "She finally paid off all her debts.", "vi": "Cuối cùng cô ấy đã trả hết nợ." }
+          ]
+        }
+      ],
+      "synonyms": ["liability", "owing"],
+      "antonyms": ["credit", "asset"],
+      "collocations": [
+        "in debt",
+        "pay off debt",
+        "national debt",
+        "credit card debt",
+        "debt collector"
+      ],
+      "etymology_hint": "From Latin 'debitum' meaning 'something owed' — silent 'b' added by scholars",
+      "mnemonic_vi": "DEBT âm câm 'B' — đọc 'đét' — 'ĐẾT' (cuối) ngày phải trả nợ"
+    },
+    {
+      "word": "wealth",
+      "lemma": "wealth",
+      "ipa": "/welθ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large amount of money, property, or valuable possessions",
+          "meaning_vi": "sự giàu có, của cải; lượng lớn tiền, tài sản hoặc đồ giá trị",
+          "examples": [
+            {
+              "en": "He inherited great wealth from his grandfather.",
+              "vi": "Anh ấy thừa kế tài sản lớn từ ông."
+            },
+            {
+              "en": "True wealth is about health, not money.",
+              "vi": "Giàu có thật sự là sức khoẻ, không phải tiền."
+            },
+            {
+              "en": "The wealth gap is widening in Vietnam.",
+              "vi": "Khoảng cách giàu nghèo đang nới rộng ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["riches", "fortune", "prosperity"],
+      "antonyms": ["poverty"],
+      "collocations": [
+        "great wealth",
+        "create wealth",
+        "wealth gap",
+        "personal wealth",
+        "national wealth"
+      ],
+      "etymology_hint": "From Middle English 'welthe', from 'wele' (well-being) — same root as 'well' and 'weal'",
+      "mnemonic_vi": "WEALTH chứa 'WELL' — sống 'WELL' tốt = WEALTH giàu có"
+    }
+  ]
+}

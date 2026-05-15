@@ -1,0 +1,733 @@
+{
+  "slug": "relationships",
+  "name": "Relationships",
+  "description": "Tình yêu, hôn nhân và các mối quan hệ thân thiết.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "love",
+      "lemma": "love",
+      "ipa": "/lʌv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to feel deep affection or strong liking for someone or something",
+          "meaning_vi": "yêu, thương; có tình cảm sâu đậm hoặc rất thích ai/cái gì",
+          "examples": [
+            {
+              "en": "I love my family more than anything.",
+              "vi": "Tôi yêu gia đình mình hơn tất cả."
+            },
+            {
+              "en": "She loves Vietnamese coffee with condensed milk.",
+              "vi": "Cô ấy mê cà phê Việt với sữa đặc."
+            },
+            {
+              "en": "They have loved each other since high school.",
+              "vi": "Họ đã yêu nhau từ thời cấp ba."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["adore", "cherish", "care for"],
+      "antonyms": ["hate", "dislike"],
+      "collocations": ["fall in love", "love deeply", "love someone", "true love", "first love"],
+      "etymology_hint": "From Old English 'lufu', cognate with Latin 'libet' (it pleases)",
+      "mnemonic_vi": "LOVE đọc 'lớp' — 'LỚP' tình yêu phủ kín trái tim"
+    },
+    {
+      "word": "marry",
+      "lemma": "marry",
+      "ipa": "/ˈmær.i/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to become someone's husband or wife in a formal ceremony",
+          "meaning_vi": "cưới, kết hôn; trở thành vợ chồng qua lễ cưới",
+          "examples": [
+            {
+              "en": "They married after dating for five years.",
+              "vi": "Họ kết hôn sau năm năm hẹn hò."
+            },
+            { "en": "Will you marry me?", "vi": "Em đồng ý lấy anh nhé?" },
+            {
+              "en": "My cousin married a foreigner last year.",
+              "vi": "Anh họ tôi cưới người nước ngoài năm ngoái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wed", "tie the knot", "get hitched"],
+      "antonyms": ["divorce"],
+      "collocations": [
+        "marry someone",
+        "get married",
+        "marry young",
+        "marry into",
+        "marriage proposal"
+      ],
+      "etymology_hint": "From Latin 'maritare', from 'maritus' (husband)",
+      "mnemonic_vi": "MARRY chứa 'MARY' — Mary cưới Joseph là chuyện kinh điển — kết hôn"
+    },
+    {
+      "word": "divorce",
+      "lemma": "divorce",
+      "ipa": "/dɪˈvɔːs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to officially end a marriage by law",
+          "meaning_vi": "ly hôn, ly dị; chính thức chấm dứt hôn nhân theo pháp luật",
+          "examples": [
+            {
+              "en": "They decided to divorce after years of arguments.",
+              "vi": "Họ quyết định ly hôn sau nhiều năm cãi vã."
+            },
+            {
+              "en": "Divorce rates have increased in big cities.",
+              "vi": "Tỷ lệ ly hôn tăng ở các thành phố lớn."
+            },
+            {
+              "en": "She divorced her husband and moved to Da Lat.",
+              "vi": "Cô ấy ly hôn chồng và chuyển đến Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["separate", "split up"],
+      "antonyms": ["marry", "wed"],
+      "collocations": [
+        "get divorced",
+        "divorce rate",
+        "divorce papers",
+        "divorce settlement",
+        "messy divorce"
+      ],
+      "etymology_hint": "From Latin 'divortium' meaning 'separation', from 'divertere' (turn aside)",
+      "mnemonic_vi": "DIVORCE chứa 'DI' (xa) + 'VORCE' (đi) — đi xa nhau = ly hôn"
+    },
+    {
+      "word": "partner",
+      "lemma": "partner",
+      "ipa": "/ˈpɑːt.nə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the person you are married to or in a romantic relationship with; also a business associate",
+          "meaning_vi": "bạn đời, người yêu; cũng có nghĩa đối tác trong công việc",
+          "examples": [
+            {
+              "en": "She and her partner have been together for ten years.",
+              "vi": "Cô ấy và bạn đời đã ở bên nhau mười năm."
+            },
+            {
+              "en": "He's my business partner — we opened a café together.",
+              "vi": "Anh ấy là đối tác kinh doanh — chúng tôi mở quán cà phê chung."
+            },
+            {
+              "en": "Choose a dance partner for the next song.",
+              "vi": "Chọn bạn nhảy cho bài tiếp theo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spouse", "companion", "associate"],
+      "antonyms": [],
+      "collocations": [
+        "business partner",
+        "life partner",
+        "dance partner",
+        "partner up",
+        "junior partner"
+      ],
+      "etymology_hint": "From Old French 'parçonier', from Latin 'partitio' (division, share)",
+      "mnemonic_vi": "PARTNER chứa 'PART' (phần) — chia 'PART' (phần) đời với ai = bạn đời"
+    },
+    {
+      "word": "boyfriend",
+      "lemma": "boyfriend",
+      "ipa": "/ˈbɔɪ.frend/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a male partner in a romantic relationship",
+          "meaning_vi": "bạn trai; người yêu nam",
+          "examples": [
+            {
+              "en": "Her boyfriend bought her a bouquet on Valentine's Day.",
+              "vi": "Bạn trai cô ấy tặng bó hoa vào ngày lễ Tình nhân."
+            },
+            { "en": "Do you have a boyfriend?", "vi": "Bạn có người yêu không?" },
+            {
+              "en": "My ex-boyfriend lives in Saigon now.",
+              "vi": "Bạn trai cũ của tôi giờ sống ở Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["partner", "lover"],
+      "antonyms": ["girlfriend", "ex-boyfriend"],
+      "collocations": [
+        "new boyfriend",
+        "ex-boyfriend",
+        "long-distance boyfriend",
+        "best boyfriend",
+        "boyfriend material"
+      ],
+      "etymology_hint": "Compound: 'boy' + 'friend' — coined in late 19th century English",
+      "mnemonic_vi": "BOYFRIEND = BOY + FRIEND: 'bạn trai' đặc biệt = người yêu"
+    },
+    {
+      "word": "girlfriend",
+      "lemma": "girlfriend",
+      "ipa": "/ˈɡɜːl.frend/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a female partner in a romantic relationship",
+          "meaning_vi": "bạn gái; người yêu nữ",
+          "examples": [
+            {
+              "en": "He introduced his new girlfriend to his parents.",
+              "vi": "Anh ấy giới thiệu bạn gái mới với bố mẹ."
+            },
+            { "en": "My girlfriend loves Korean dramas.", "vi": "Bạn gái tôi mê phim Hàn." },
+            {
+              "en": "She is his girlfriend, not his sister.",
+              "vi": "Cô ấy là bạn gái của anh, không phải em gái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["partner", "lover"],
+      "antonyms": ["boyfriend", "ex-girlfriend"],
+      "collocations": [
+        "new girlfriend",
+        "ex-girlfriend",
+        "long-distance girlfriend",
+        "best girlfriend",
+        "girlfriend goals"
+      ],
+      "etymology_hint": "Compound: 'girl' + 'friend' — coined in late 19th century",
+      "mnemonic_vi": "GIRLFRIEND = GIRL + FRIEND: 'bạn gái' đặc biệt = người yêu"
+    },
+    {
+      "word": "fiancé",
+      "lemma": "fiancé",
+      "ipa": "/fiˈɒn.seɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the man that a woman is engaged to marry",
+          "meaning_vi": "vị hôn phu; người đàn ông đã đính hôn",
+          "examples": [
+            {
+              "en": "She introduced her fiancé to her parents at Tet.",
+              "vi": "Cô ấy giới thiệu vị hôn phu với bố mẹ dịp Tết."
+            },
+            {
+              "en": "Her fiancé proposed during a trip to Phu Quoc.",
+              "vi": "Vị hôn phu của cô đã cầu hôn trong chuyến đi Phú Quốc."
+            },
+            {
+              "en": "His fiancé works as a doctor in Hanoi.",
+              "vi": "Vị hôn phu của anh ấy làm bác sĩ ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["husband-to-be", "betrothed"],
+      "antonyms": ["fiancée"],
+      "collocations": [
+        "meet the fiancé",
+        "future fiancé",
+        "her fiancé",
+        "engaged to fiancé",
+        "introduce fiancé"
+      ],
+      "etymology_hint": "From French 'fiancer' meaning 'to promise', from Latin 'fidare' (trust)",
+      "mnemonic_vi": "FIANCÉ chứa 'FIAN' — 'PHIÊN' (lần) đầu được gọi là vị hôn phu khi đính hôn"
+    },
+    {
+      "word": "couple",
+      "lemma": "couple",
+      "ipa": "/ˈkʌp.əl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "two people who are married or in a romantic relationship",
+          "meaning_vi": "cặp đôi, đôi vợ chồng; hai người yêu nhau hoặc đã cưới",
+          "examples": [
+            {
+              "en": "They make a lovely couple — everyone says so.",
+              "vi": "Họ là một cặp đôi đáng yêu — ai cũng bảo thế."
+            },
+            {
+              "en": "The young couple just bought a house in District 2.",
+              "vi": "Cặp vợ chồng trẻ vừa mua nhà ở Quận 2."
+            },
+            {
+              "en": "Many couples have wedding photos at Notre Dame.",
+              "vi": "Nhiều cặp đôi chụp ảnh cưới ở nhà thờ Đức Bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pair", "duo", "twosome"],
+      "antonyms": ["single"],
+      "collocations": [
+        "young couple",
+        "married couple",
+        "lovely couple",
+        "couple of",
+        "couple's therapy"
+      ],
+      "etymology_hint": "From Old French 'couple', from Latin 'copula' meaning 'bond, tie'",
+      "mnemonic_vi": "COUPLE chứa 'CUP' (ly) — 2 LY uống cùng = một CẶP đôi"
+    },
+    {
+      "word": "single",
+      "lemma": "single",
+      "ipa": "/ˈsɪŋ.ɡəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not married and not in a romantic relationship",
+          "meaning_vi": "độc thân; chưa kết hôn và không hẹn hò",
+          "examples": [
+            {
+              "en": "She's still single and happy that way.",
+              "vi": "Cô ấy vẫn độc thân và thấy vui với điều đó."
+            },
+            {
+              "en": "Many singles celebrate Singles' Day on November 11.",
+              "vi": "Nhiều người độc thân ăn mừng Ngày Độc Thân vào 11/11."
+            },
+            { "en": "Are you single or in a relationship?", "vi": "Bạn độc thân hay đang yêu?" }
+          ]
+        }
+      ],
+      "synonyms": ["unmarried", "unattached"],
+      "antonyms": ["married", "attached"],
+      "collocations": [
+        "stay single",
+        "happily single",
+        "single mother",
+        "single life",
+        "Singles' Day"
+      ],
+      "etymology_hint": "From Latin 'singulus' meaning 'one only' — same root as 'singular'",
+      "mnemonic_vi": "SINGLE chứa 'SIN' (riêng) — sống 'RIÊNG' một mình = độc thân"
+    },
+    {
+      "word": "engaged",
+      "lemma": "engaged",
+      "ipa": "/ɪnˈɡeɪdʒd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having formally agreed to marry someone",
+          "meaning_vi": "đã đính hôn; đã hứa hôn chính thức",
+          "examples": [
+            {
+              "en": "They got engaged last weekend at the beach.",
+              "vi": "Họ đính hôn cuối tuần trước ở bãi biển."
+            },
+            {
+              "en": "She announced she was engaged on Facebook.",
+              "vi": "Cô ấy thông báo đã đính hôn trên Facebook."
+            },
+            {
+              "en": "Engaged couples often plan weddings for months.",
+              "vi": "Các cặp đính hôn thường lên kế hoạch cưới hàng tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["betrothed", "promised"],
+      "antonyms": ["single", "unattached"],
+      "collocations": [
+        "get engaged",
+        "newly engaged",
+        "engaged couple",
+        "engaged to",
+        "engagement ring"
+      ],
+      "etymology_hint": "Past participle of 'engage' (Old French 'engagier' = pledge oneself)",
+      "mnemonic_vi": "ENGAGED chứa 'AGE' — đến 'AGE' (tuổi) đính hôn rồi đó"
+    },
+    {
+      "word": "wedding",
+      "lemma": "wedding",
+      "ipa": "/ˈwed.ɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a ceremony where two people get married",
+          "meaning_vi": "đám cưới, lễ cưới; lễ tổ chức khi hai người kết hôn",
+          "examples": [
+            {
+              "en": "My sister's wedding will be held next month in Hue.",
+              "vi": "Đám cưới chị tôi sẽ tổ chức tháng sau ở Huế."
+            },
+            {
+              "en": "Vietnamese weddings often have hundreds of guests.",
+              "vi": "Đám cưới Việt thường có hàng trăm khách."
+            },
+            {
+              "en": "She wore a beautiful red dress to the wedding.",
+              "vi": "Cô ấy mặc bộ váy đỏ đẹp đến đám cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["marriage ceremony", "nuptials"],
+      "antonyms": ["divorce"],
+      "collocations": [
+        "wedding day",
+        "wedding dress",
+        "wedding ring",
+        "attend a wedding",
+        "big wedding"
+      ],
+      "etymology_hint": "From Old English 'weddung', from 'wedd' meaning 'pledge'",
+      "mnemonic_vi": "WEDDING chứa 'WED' (cưới) — 'WED' rồi tiệc tùng = WEDDING"
+    },
+    {
+      "word": "anniversary",
+      "lemma": "anniversary",
+      "ipa": "/ˌæn.ɪˈvɜː.sər.i/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the day on which an important event happened in a previous year, especially a wedding day",
+          "meaning_vi": "ngày kỷ niệm; ngày một sự kiện quan trọng từng diễn ra trong các năm trước",
+          "examples": [
+            {
+              "en": "We celebrate our anniversary at the same restaurant every year.",
+              "vi": "Chúng tôi ăn mừng ngày kỷ niệm ở cùng nhà hàng mỗi năm."
+            },
+            {
+              "en": "Today is our 10th wedding anniversary.",
+              "vi": "Hôm nay là kỷ niệm 10 năm ngày cưới của chúng tôi."
+            },
+            {
+              "en": "He forgot the anniversary and slept on the sofa.",
+              "vi": "Anh ấy quên ngày kỷ niệm và phải ngủ ngoài sofa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["commemoration", "remembrance"],
+      "antonyms": [],
+      "collocations": [
+        "wedding anniversary",
+        "happy anniversary",
+        "anniversary gift",
+        "celebrate an anniversary",
+        "annual anniversary"
+      ],
+      "etymology_hint": "From Latin 'annus' (year) + 'vertere' (turn) — 'year returning'",
+      "mnemonic_vi": "ANNIVERSARY chứa 'ANNI' (năm, Latin) — mỗi NĂM quay lại = kỷ niệm"
+    },
+    {
+      "word": "trust",
+      "lemma": "trust",
+      "ipa": "/trʌst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to believe that someone is honest and will not harm you",
+          "meaning_vi": "tin tưởng; tin rằng ai đó thật thà và không hại mình",
+          "examples": [
+            {
+              "en": "I trust my best friend with all my secrets.",
+              "vi": "Tôi tin tưởng bạn thân với mọi bí mật của mình."
+            },
+            {
+              "en": "Trust is the foundation of any relationship.",
+              "vi": "Niềm tin là nền tảng của mọi mối quan hệ."
+            },
+            { "en": "She doesn't trust strangers easily.", "vi": "Cô ấy không dễ tin người lạ." }
+          ]
+        }
+      ],
+      "synonyms": ["believe in", "rely on", "have faith in"],
+      "antonyms": ["distrust", "doubt"],
+      "collocations": [
+        "trust someone",
+        "blind trust",
+        "lose trust",
+        "trust completely",
+        "build trust"
+      ],
+      "etymology_hint": "From Old Norse 'traust' meaning 'confidence, firmness'",
+      "mnemonic_vi": "TRUST đọc 'trật' — không 'TRẬT' (lệch) lời hứa = tin tưởng"
+    },
+    {
+      "word": "respect",
+      "lemma": "respect",
+      "ipa": "/rɪˈspekt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to admire someone or accept their feelings, wishes, or rights",
+          "meaning_vi": "tôn trọng; ngưỡng mộ hoặc chấp nhận cảm xúc, quyền của người khác",
+          "examples": [
+            {
+              "en": "Vietnamese culture teaches us to respect our elders.",
+              "vi": "Văn hoá Việt dạy chúng ta tôn trọng người lớn tuổi."
+            },
+            {
+              "en": "I respect her decision to study abroad.",
+              "vi": "Tôi tôn trọng quyết định du học của cô ấy."
+            },
+            {
+              "en": "Please respect the rules of the temple.",
+              "vi": "Vui lòng tôn trọng quy định của ngôi đền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["honour", "admire", "esteem"],
+      "antonyms": ["disrespect", "scorn"],
+      "collocations": [
+        "respect someone",
+        "earn respect",
+        "mutual respect",
+        "deeply respect",
+        "respect privacy"
+      ],
+      "etymology_hint": "From Latin 'respectus' = 're-' (back) + 'specere' (look) — 'look back at, regard'",
+      "mnemonic_vi": "RESPECT chứa 'SPECT' (nhìn) — 'NHÌN LẠI' giá trị người khác = tôn trọng"
+    },
+    {
+      "word": "support",
+      "lemma": "support",
+      "ipa": "/səˈpɔːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to help someone by being there for them or giving them what they need",
+          "meaning_vi": "ủng hộ, hỗ trợ; giúp đỡ bằng cách có mặt hoặc đưa cho thứ cần",
+          "examples": [
+            {
+              "en": "My parents have always supported my dreams.",
+              "vi": "Bố mẹ luôn ủng hộ ước mơ của tôi."
+            },
+            {
+              "en": "She supported him during the difficult years.",
+              "vi": "Cô ấy đã ủng hộ anh trong những năm khó khăn."
+            },
+            {
+              "en": "Friends are supposed to support each other.",
+              "vi": "Bạn bè là phải hỗ trợ nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["back", "help", "encourage"],
+      "antonyms": ["abandon", "oppose"],
+      "collocations": [
+        "support someone",
+        "give support",
+        "moral support",
+        "support a family",
+        "fully support"
+      ],
+      "etymology_hint": "From Latin 'supportare' = 'sub-' (up from below) + 'portare' (carry)",
+      "mnemonic_vi": "SUPPORT chứa 'PORT' (mang) — 'MANG' giúp gánh nặng = ủng hộ"
+    },
+    {
+      "word": "care",
+      "lemma": "care",
+      "ipa": "/keə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to feel concerned about someone or something; to look after",
+          "meaning_vi": "quan tâm, chăm sóc; cảm thấy lo lắng hoặc trông nom",
+          "examples": [
+            {
+              "en": "She cares deeply about her younger brother.",
+              "vi": "Cô ấy rất quan tâm đến em trai."
+            },
+            {
+              "en": "Take care when crossing the busy street.",
+              "vi": "Cẩn thận khi qua đường đông xe."
+            },
+            {
+              "en": "Who will care for the cat while you're away?",
+              "vi": "Ai sẽ chăm con mèo khi bạn đi vắng?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["concern oneself", "look after", "tend to"],
+      "antonyms": ["neglect", "ignore"],
+      "collocations": ["care about", "care for", "take care", "I don't care", "care deeply"],
+      "etymology_hint": "From Old English 'caru' originally meaning 'sorrow, anxiety' — sense shifted to 'concern'",
+      "mnemonic_vi": "CARE đọc 'ke' — 'KÈ KÈ' bên ai đó là quan tâm chăm sóc"
+    },
+    {
+      "word": "share",
+      "lemma": "share",
+      "ipa": "/ʃeə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give part of what you have to someone else; to do something together",
+          "meaning_vi": "chia sẻ; chia phần mình có cho người khác hoặc cùng làm chung",
+          "examples": [
+            {
+              "en": "Vietnamese families often share meals together.",
+              "vi": "Gia đình Việt thường ăn cơm chung."
+            },
+            {
+              "en": "She shares her happiness with everyone.",
+              "vi": "Cô ấy chia sẻ niềm vui với mọi người."
+            },
+            {
+              "en": "Let's share a taxi to the airport.",
+              "vi": "Mình đi chung tắc xi ra sân bay đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["divide", "split", "give"],
+      "antonyms": ["keep", "withhold"],
+      "collocations": [
+        "share with",
+        "share a meal",
+        "share feelings",
+        "fair share",
+        "share the cost"
+      ],
+      "etymology_hint": "From Old English 'scearu' meaning 'a cutting, division'",
+      "mnemonic_vi": "SHARE đọc 'she-ơ' — 'XẺ' miếng bánh ra cho mọi người = chia sẻ"
+    },
+    {
+      "word": "miss",
+      "lemma": "miss",
+      "ipa": "/mɪs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to feel sad because you are away from someone you love",
+          "meaning_vi": "nhớ, nhớ nhung; cảm thấy buồn vì xa người mình yêu",
+          "examples": [
+            {
+              "en": "I miss my hometown when I'm in the city.",
+              "vi": "Tôi nhớ quê khi ở thành phố."
+            },
+            { "en": "She misses her mum's cooking the most.", "vi": "Cô ấy nhớ nhất món mẹ nấu." },
+            {
+              "en": "Long-distance couples miss each other every day.",
+              "vi": "Các cặp yêu xa nhớ nhau mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["long for", "yearn for", "pine for"],
+      "antonyms": [],
+      "collocations": ["miss someone", "miss home", "really miss", "miss terribly", "miss you"],
+      "etymology_hint": "From Old English 'missan' meaning 'to fail to hit or reach'",
+      "mnemonic_vi": "MISS đọc 'mít' — 'MÍT' (mít ướt) khóc vì nhớ"
+    },
+    {
+      "word": "argue",
+      "lemma": "argue",
+      "ipa": "/ˈɑː.ɡjuː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to speak angrily with someone because you disagree",
+          "meaning_vi": "tranh cãi, cãi vã; nói gay gắt vì bất đồng",
+          "examples": [
+            {
+              "en": "They argue about money more than anything else.",
+              "vi": "Họ cãi nhau chuyện tiền nhiều hơn bất cứ chuyện gì."
+            },
+            {
+              "en": "Don't argue with your parents — talk calmly.",
+              "vi": "Đừng cãi bố mẹ — nói chuyện bình tĩnh đi."
+            },
+            {
+              "en": "The couple argued loudly in the restaurant.",
+              "vi": "Cặp đôi cãi nhau lớn tiếng trong nhà hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quarrel", "fight", "dispute"],
+      "antonyms": ["agree", "make up"],
+      "collocations": [
+        "argue with",
+        "argue about",
+        "argue loudly",
+        "argue endlessly",
+        "argue back"
+      ],
+      "etymology_hint": "From Latin 'arguere' meaning 'to make clear, prove'",
+      "mnemonic_vi": "ARGUE đọc 'a-giu' — 'A GIU' nhau ra cãi không ai nhường ai"
+    },
+    {
+      "word": "break-up",
+      "lemma": "break up",
+      "ipa": "/ˌbreɪk ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to end a romantic relationship",
+          "meaning_vi": "chia tay, chấm dứt mối quan hệ tình cảm",
+          "examples": [
+            {
+              "en": "They broke up after three years of dating.",
+              "vi": "Họ chia tay sau ba năm hẹn hò."
+            },
+            {
+              "en": "She broke up with him over text message.",
+              "vi": "Cô ấy chia tay anh ấy qua tin nhắn."
+            },
+            {
+              "en": "After the break-up, he travelled to Da Lat alone.",
+              "vi": "Sau chia tay, anh ấy đi Đà Lạt một mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["split up", "separate", "part ways"],
+      "antonyms": ["get together", "reconcile"],
+      "collocations": [
+        "break up with",
+        "messy break-up",
+        "after the break-up",
+        "sudden break-up",
+        "break-up letter"
+      ],
+      "etymology_hint": "Phrasal verb: 'break' (Old English 'brecan') + 'up' (completely, apart)",
+      "mnemonic_vi": "BREAK UP đọc 'brếch áp' — 'BẺ' đôi 'ÁP' lực = chia tay"
+    }
+  ]
+}

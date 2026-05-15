@@ -1,0 +1,8 @@
+{
+  "slug": "work-business",
+  "name": "Work & Business",
+  "description": "Công việc, văn phòng, tài chính và sự nghiệp.",
+  "order_index": 5,
+  "icon": "briefcase",
+  "color": "#6366f1"
+}

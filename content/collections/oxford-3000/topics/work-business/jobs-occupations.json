@@ -1,0 +1,745 @@
+{
+  "slug": "jobs-occupations",
+  "name": "Jobs & Occupations",
+  "description": "Các nghề nghiệp phổ biến.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "doctor",
+      "lemma": "doctor",
+      "ipa": "/ˈdɒk.tə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person trained in medical science who treats people who are ill",
+          "meaning_vi": "bác sĩ; người được đào tạo y khoa chữa bệnh cho người ốm",
+          "examples": [
+            {
+              "en": "My mother is a doctor at Cho Ray Hospital.",
+              "vi": "Mẹ tôi là bác sĩ ở bệnh viện Chợ Rẫy."
+            },
+            {
+              "en": "The doctor said I need to rest for a week.",
+              "vi": "Bác sĩ bảo tôi cần nghỉ một tuần."
+            },
+            {
+              "en": "Becoming a doctor takes many years of study.",
+              "vi": "Trở thành bác sĩ mất nhiều năm học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["physician", "medic", "GP"],
+      "antonyms": ["patient"],
+      "collocations": [
+        "see a doctor",
+        "family doctor",
+        "young doctor",
+        "skilled doctor",
+        "doctor's office"
+      ],
+      "etymology_hint": "From Latin 'doctor' meaning 'teacher', from 'docere' (to teach)",
+      "mnemonic_vi": "DOCTOR đọc 'đốc-tờ' — 'ĐỐC' (đôi mắt) sáng + 'TỜ' đơn thuốc = bác sĩ"
+    },
+    {
+      "word": "teacher",
+      "lemma": "teacher",
+      "ipa": "/ˈtiː.tʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to teach in a school or college",
+          "meaning_vi": "giáo viên; người làm nghề dạy học ở trường",
+          "examples": [
+            {
+              "en": "My English teacher is from Australia.",
+              "vi": "Giáo viên tiếng Anh của tôi đến từ Úc."
+            },
+            {
+              "en": "Teachers in Vietnam are highly respected.",
+              "vi": "Giáo viên ở Việt Nam được tôn trọng cao."
+            },
+            {
+              "en": "She has been a teacher for twenty years.",
+              "vi": "Cô ấy làm giáo viên đã hai mươi năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instructor", "educator", "tutor"],
+      "antonyms": ["student"],
+      "collocations": [
+        "good teacher",
+        "math teacher",
+        "English teacher",
+        "primary school teacher",
+        "teacher's lounge"
+      ],
+      "etymology_hint": "From 'teach' (Old English 'tǣcan' = show, instruct) + '-er'",
+      "mnemonic_vi": "TEACHER chứa 'TEACH' (dạy) — người dạy = TEACHER"
+    },
+    {
+      "word": "engineer",
+      "lemma": "engineer",
+      "ipa": "/ˌen.dʒɪˈnɪə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who designs, builds, or maintains machines, buildings, or systems",
+          "meaning_vi": "kỹ sư; người thiết kế, xây dựng hoặc bảo trì máy móc, công trình",
+          "examples": [
+            {
+              "en": "My brother is a software engineer at FPT.",
+              "vi": "Anh trai tôi là kỹ sư phần mềm tại FPT."
+            },
+            {
+              "en": "Engineers built the Long Bien Bridge over 100 years ago.",
+              "vi": "Các kỹ sư đã xây cầu Long Biên hơn 100 năm trước."
+            },
+            {
+              "en": "She studied to become a civil engineer.",
+              "vi": "Cô ấy học để thành kỹ sư xây dựng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "software engineer",
+        "civil engineer",
+        "chemical engineer",
+        "qualified engineer",
+        "engineering team"
+      ],
+      "etymology_hint": "From Latin 'ingenium' meaning 'cleverness, talent' — same root as 'genius'",
+      "mnemonic_vi": "ENGINEER chứa 'ENGINE' (động cơ) — người chế 'ENGINE' = kỹ sư"
+    },
+    {
+      "word": "lawyer",
+      "lemma": "lawyer",
+      "ipa": "/ˈlɔɪ.ə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to advise people about the law and represent them in court",
+          "meaning_vi": "luật sư; người tư vấn pháp luật và bào chữa tại toà",
+          "examples": [
+            {
+              "en": "Hire a good lawyer if you have a legal problem.",
+              "vi": "Thuê luật sư giỏi nếu bạn gặp vấn đề pháp lý."
+            },
+            {
+              "en": "The lawyer represented her in the divorce case.",
+              "vi": "Luật sư đại diện cô ấy trong vụ ly hôn."
+            },
+            {
+              "en": "He works as a lawyer for a big firm in Hanoi.",
+              "vi": "Anh ấy làm luật sư cho một công ty lớn ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["attorney", "solicitor", "barrister"],
+      "antonyms": [],
+      "collocations": [
+        "hire a lawyer",
+        "criminal lawyer",
+        "corporate lawyer",
+        "human rights lawyer",
+        "lawyer's fees"
+      ],
+      "etymology_hint": "From 'law' + '-yer' suffix denoting profession",
+      "mnemonic_vi": "LAWYER chứa 'LAW' (luật) — người làm 'LAW' = luật sư"
+    },
+    {
+      "word": "nurse",
+      "lemma": "nurse",
+      "ipa": "/nɜːs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person trained to care for sick people, especially in a hospital",
+          "meaning_vi": "y tá; người được đào tạo chăm sóc người ốm ở bệnh viện",
+          "examples": [
+            {
+              "en": "The nurse changed my bandage gently.",
+              "vi": "Y tá thay băng cho tôi nhẹ nhàng."
+            },
+            { "en": "Nurses work long shifts in hospitals.", "vi": "Y tá làm ca dài ở bệnh viện." },
+            {
+              "en": "She wants to be a nurse like her mother.",
+              "vi": "Cô ấy muốn làm y tá như mẹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["caregiver"],
+      "antonyms": [],
+      "collocations": [
+        "registered nurse",
+        "head nurse",
+        "school nurse",
+        "nurse practitioner",
+        "night-shift nurse"
+      ],
+      "etymology_hint": "From Old French 'norrice', from Latin 'nutrix' meaning 'wet nurse, foster mother'",
+      "mnemonic_vi": "NURSE đọc 'nớs' — 'NỜ' (nhẹ nhàng) ơi 'SỜ' tay chăm bệnh = y tá"
+    },
+    {
+      "word": "farmer",
+      "lemma": "farmer",
+      "ipa": "/ˈfɑː.mə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who works on or owns a farm, growing crops or raising animals",
+          "meaning_vi": "nông dân; người trồng trọt hoặc chăn nuôi trên trang trại",
+          "examples": [
+            {
+              "en": "Most farmers in the Mekong Delta grow rice.",
+              "vi": "Hầu hết nông dân Đồng bằng sông Cửu Long trồng lúa."
+            },
+            {
+              "en": "The farmer woke up at dawn to feed the cows.",
+              "vi": "Người nông dân dậy lúc bình minh cho bò ăn."
+            },
+            {
+              "en": "Farmers depend on the weather for a good harvest.",
+              "vi": "Nông dân phụ thuộc thời tiết cho mùa màng tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agriculturist", "grower"],
+      "antonyms": [],
+      "collocations": [
+        "rice farmer",
+        "dairy farmer",
+        "small farmer",
+        "local farmer",
+        "farmer's market"
+      ],
+      "etymology_hint": "From 'farm' (Old French 'ferme' = lease, rental) + '-er'",
+      "mnemonic_vi": "FARMER chứa 'FARM' (nông trại) — người làm FARM = nông dân"
+    },
+    {
+      "word": "chef",
+      "lemma": "chef",
+      "ipa": "/ʃef/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a skilled cook, usually the main one in a restaurant",
+          "meaning_vi": "đầu bếp; người nấu chính trong nhà hàng",
+          "examples": [
+            { "en": "She trained as a chef in France.", "vi": "Cô ấy học làm đầu bếp ở Pháp." },
+            {
+              "en": "The chef created a new pho recipe.",
+              "vi": "Đầu bếp sáng tạo công thức phở mới."
+            },
+            {
+              "en": "Chefs work in hot, busy kitchens.",
+              "vi": "Đầu bếp làm việc trong bếp nóng và bận rộn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cook"],
+      "antonyms": [],
+      "collocations": ["head chef", "pastry chef", "celebrity chef", "sous chef", "executive chef"],
+      "etymology_hint": "From French 'chef' meaning 'head, chief'",
+      "mnemonic_vi": "CHEF đọc 'sép' — 'SẾP' của bếp = đầu bếp"
+    },
+    {
+      "word": "accountant",
+      "lemma": "accountant",
+      "ipa": "/əˈkaʊn.tənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to keep records of money and prepare tax returns",
+          "meaning_vi": "kế toán; người ghi sổ tiền bạc và làm khai thuế",
+          "examples": [
+            {
+              "en": "Our accountant helps with tax filing every March.",
+              "vi": "Kế toán của chúng tôi giúp khai thuế mỗi tháng Ba."
+            },
+            {
+              "en": "She works as an accountant at a multinational firm.",
+              "vi": "Cô ấy làm kế toán tại công ty đa quốc gia."
+            },
+            {
+              "en": "Accountants need to be careful with numbers.",
+              "vi": "Kế toán cần cẩn thận với con số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bookkeeper"],
+      "antonyms": [],
+      "collocations": [
+        "chartered accountant",
+        "company accountant",
+        "tax accountant",
+        "junior accountant",
+        "qualified accountant"
+      ],
+      "etymology_hint": "From 'account' (Old French 'aconter' = reckon) + '-ant' (one who)",
+      "mnemonic_vi": "ACCOUNTANT chứa 'COUNT' (đếm) — người 'COUNT' tiền = kế toán"
+    },
+    {
+      "word": "designer",
+      "lemma": "designer",
+      "ipa": "/dɪˈzaɪ.nə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to design clothes, products, websites, or interiors",
+          "meaning_vi": "nhà thiết kế; người thiết kế quần áo, sản phẩm, website hoặc nội thất",
+          "examples": [
+            {
+              "en": "She's a freelance graphic designer in Saigon.",
+              "vi": "Cô ấy là nhà thiết kế đồ hoạ tự do ở Sài Gòn."
+            },
+            {
+              "en": "The fashion designer showed her new collection at Tokyo Fashion Week.",
+              "vi": "Nhà thiết kế thời trang trình diễn bộ sưu tập mới tại Tokyo Fashion Week."
+            },
+            {
+              "en": "Many designers use Figma for UI work.",
+              "vi": "Nhiều nhà thiết kế dùng Figma cho công việc UI."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stylist", "creator"],
+      "antonyms": [],
+      "collocations": [
+        "fashion designer",
+        "graphic designer",
+        "UI designer",
+        "interior designer",
+        "famous designer"
+      ],
+      "etymology_hint": "From 'design' (Latin 'designare' = mark out) + '-er'",
+      "mnemonic_vi": "DESIGNER chứa 'DESIGN' (thiết kế) — người DESIGN = nhà thiết kế"
+    },
+    {
+      "word": "artist",
+      "lemma": "artist",
+      "ipa": "/ˈɑː.tɪst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who creates paintings, sculptures, music, or other works of art",
+          "meaning_vi": "nghệ sĩ; người sáng tạo tranh, điêu khắc, âm nhạc hoặc tác phẩm nghệ thuật khác",
+          "examples": [
+            {
+              "en": "She's a young Vietnamese artist getting international attention.",
+              "vi": "Cô ấy là nghệ sĩ Việt trẻ đang nhận chú ý quốc tế."
+            },
+            {
+              "en": "The artist sold all his paintings at the exhibition.",
+              "vi": "Người nghệ sĩ bán hết tranh tại triển lãm."
+            },
+            {
+              "en": "Many street artists perform around Hoan Kiem Lake.",
+              "vi": "Nhiều nghệ sĩ đường phố biểu diễn quanh hồ Hoàn Kiếm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["painter", "performer", "creator"],
+      "antonyms": [],
+      "collocations": [
+        "famous artist",
+        "young artist",
+        "street artist",
+        "fine artist",
+        "tattoo artist"
+      ],
+      "etymology_hint": "From 'art' (Latin 'ars' = skill, craft) + '-ist'",
+      "mnemonic_vi": "ARTIST chứa 'ART' (nghệ thuật) — người làm ART = nghệ sĩ"
+    },
+    {
+      "word": "scientist",
+      "lemma": "scientist",
+      "ipa": "/ˈsaɪ.ən.tɪst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who studies or works in science",
+          "meaning_vi": "nhà khoa học; người nghiên cứu hoặc làm việc trong khoa học",
+          "examples": [
+            {
+              "en": "She's a scientist studying tropical diseases.",
+              "vi": "Cô ấy là nhà khoa học nghiên cứu bệnh nhiệt đới."
+            },
+            {
+              "en": "Vietnamese scientists made important discoveries during COVID-19.",
+              "vi": "Các nhà khoa học Việt có những khám phá quan trọng trong dịch COVID-19."
+            },
+            {
+              "en": "He dreams of becoming a scientist at NASA.",
+              "vi": "Anh ấy mơ làm nhà khoa học tại NASA."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["researcher"],
+      "antonyms": [],
+      "collocations": [
+        "data scientist",
+        "research scientist",
+        "young scientist",
+        "nuclear scientist",
+        "team of scientists"
+      ],
+      "etymology_hint": "From 'science' (Latin 'scientia' = knowledge) + '-ist'",
+      "mnemonic_vi": "SCIENTIST chứa 'SCIENCE' (khoa học) — người làm SCIENCE = nhà khoa học"
+    },
+    {
+      "word": "mechanic",
+      "lemma": "mechanic",
+      "ipa": "/məˈkæn.ɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to repair vehicles or machines",
+          "meaning_vi": "thợ sửa máy, thợ sửa xe; người sửa xe hoặc máy móc",
+          "examples": [
+            {
+              "en": "The mechanic fixed my motorbike in an hour.",
+              "vi": "Anh thợ sửa xe máy cho tôi trong một giờ."
+            },
+            { "en": "Take the car to a good mechanic.", "vi": "Mang xe đến thợ sửa giỏi." },
+            {
+              "en": "He's training to be an aircraft mechanic.",
+              "vi": "Anh ấy đang học làm thợ máy bay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["technician", "repairer"],
+      "antonyms": [],
+      "collocations": [
+        "car mechanic",
+        "aircraft mechanic",
+        "skilled mechanic",
+        "see a mechanic",
+        "qualified mechanic"
+      ],
+      "etymology_hint": "From Greek 'mēkhanikos' meaning 'inventive, skilled with machines'",
+      "mnemonic_vi": "MECHANIC chứa 'MECH' (máy móc) — người sửa 'MECH' = thợ máy"
+    },
+    {
+      "word": "secretary",
+      "lemma": "secretary",
+      "ipa": "/ˈsek.rə.tər.i/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who works in an office, doing tasks like typing, scheduling, and answering phones",
+          "meaning_vi": "thư ký; người làm văn phòng, đánh máy, lên lịch và nghe điện thoại",
+          "examples": [
+            {
+              "en": "My secretary will book the meeting for you.",
+              "vi": "Thư ký của tôi sẽ đặt cuộc họp giúp bạn."
+            },
+            {
+              "en": "The secretary works closely with the manager.",
+              "vi": "Thư ký làm việc sát với quản lý."
+            },
+            {
+              "en": "She was promoted from secretary to office manager.",
+              "vi": "Cô ấy được thăng từ thư ký lên trưởng văn phòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["personal assistant", "PA"],
+      "antonyms": [],
+      "collocations": [
+        "personal secretary",
+        "company secretary",
+        "executive secretary",
+        "honorary secretary",
+        "press secretary"
+      ],
+      "etymology_hint": "From Latin 'secretarius' meaning 'one entrusted with secrets'",
+      "mnemonic_vi": "SECRETARY chứa 'SECRET' (bí mật) — giữ 'SECRET' công việc = thư ký"
+    },
+    {
+      "word": "salesperson",
+      "lemma": "salesperson",
+      "ipa": "/ˈseɪlz.pɜː.sən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to sell products or services",
+          "meaning_vi": "nhân viên bán hàng; người làm nghề bán sản phẩm hoặc dịch vụ",
+          "examples": [
+            {
+              "en": "The salesperson at the shop was very friendly.",
+              "vi": "Nhân viên bán hàng ở cửa tiệm rất thân thiện."
+            },
+            {
+              "en": "She works as a salesperson at a tech company.",
+              "vi": "Cô ấy làm nhân viên bán hàng tại công ty công nghệ."
+            },
+            {
+              "en": "Good salespeople always listen to customers.",
+              "vi": "Nhân viên bán hàng giỏi luôn lắng nghe khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["salesclerk", "shop assistant", "salesman", "saleswoman"],
+      "antonyms": ["customer"],
+      "collocations": [
+        "car salesperson",
+        "experienced salesperson",
+        "top salesperson",
+        "online salesperson",
+        "salesperson commission"
+      ],
+      "etymology_hint": "Compound: 'sales' (selling) + 'person'",
+      "mnemonic_vi": "SALESPERSON = SALES + PERSON: 'người bán SALES' = nhân viên bán hàng"
+    },
+    {
+      "word": "manager",
+      "lemma": "manager",
+      "ipa": "/ˈmæn.ɪ.dʒə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who controls a business or team of people at work",
+          "meaning_vi": "quản lý; người điều hành doanh nghiệp hoặc nhóm làm việc",
+          "examples": [
+            {
+              "en": "Please speak to the manager about your complaint.",
+              "vi": "Vui lòng nói với quản lý về phàn nàn của bạn."
+            },
+            {
+              "en": "She was promoted to general manager last year.",
+              "vi": "Cô ấy được thăng làm tổng quản lý năm ngoái."
+            },
+            {
+              "en": "The hotel manager apologized for the noise.",
+              "vi": "Quản lý khách sạn xin lỗi vì tiếng ồn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supervisor", "director"],
+      "antonyms": ["employee", "subordinate"],
+      "collocations": [
+        "general manager",
+        "project manager",
+        "hotel manager",
+        "store manager",
+        "team manager"
+      ],
+      "etymology_hint": "From Italian 'maneggiare' meaning 'to handle, especially a horse'",
+      "mnemonic_vi": "MANAGER chứa 'MAN' + 'AGE' — người 'MẠNH' tay 'AGE' (điều khiển) = quản lý"
+    },
+    {
+      "word": "CEO",
+      "lemma": "CEO",
+      "ipa": "/ˌsiː.iːˈəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Chief Executive Officer; the highest-ranking person in a company",
+          "meaning_vi": "tổng giám đốc, giám đốc điều hành; người cao nhất trong công ty",
+          "examples": [
+            {
+              "en": "The CEO announced new policies at the meeting.",
+              "vi": "CEO công bố chính sách mới tại cuộc họp."
+            },
+            {
+              "en": "She became CEO of her company at age 35.",
+              "vi": "Cô ấy trở thành CEO công ty mình ở tuổi 35."
+            },
+            {
+              "en": "Many CEOs work over 60 hours a week.",
+              "vi": "Nhiều CEO làm hơn 60 tiếng một tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chief executive", "managing director"],
+      "antonyms": [],
+      "collocations": ["new CEO", "former CEO", "CEO's office", "appoint a CEO", "interim CEO"],
+      "etymology_hint": "Acronym: Chief Executive Officer — coined in mid-20th century corporate America",
+      "mnemonic_vi": "CEO viết tắt 3 chữ — đọc 'XI-I-OU' — quen rồi cứ đọc CEO = sếp tổng"
+    },
+    {
+      "word": "employee",
+      "lemma": "employee",
+      "ipa": "/ɪmˈplɔɪ.iː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who is paid to work for a company or person",
+          "meaning_vi": "nhân viên; người được trả lương để làm việc cho công ty hoặc cá nhân",
+          "examples": [
+            {
+              "en": "The company has 500 employees in Vietnam.",
+              "vi": "Công ty có 500 nhân viên ở Việt Nam."
+            },
+            {
+              "en": "Happy employees work harder.",
+              "vi": "Nhân viên vui vẻ thì làm việc chăm hơn."
+            },
+            { "en": "All employees get a Tet bonus.", "vi": "Tất cả nhân viên được thưởng Tết." }
+          ]
+        }
+      ],
+      "synonyms": ["worker", "staff member"],
+      "antonyms": ["employer"],
+      "collocations": [
+        "full-time employee",
+        "part-time employee",
+        "loyal employee",
+        "employee benefits",
+        "former employee"
+      ],
+      "etymology_hint": "From 'employ' (Old French 'emploier' = use, apply) + '-ee' (one receiving action)",
+      "mnemonic_vi": "EMPLOYEE chứa 'EMPLOY' (thuê) — người được 'THUÊ' = nhân viên"
+    },
+    {
+      "word": "employer",
+      "lemma": "employer",
+      "ipa": "/ɪmˈplɔɪ.ə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person or company that pays people to work for them",
+          "meaning_vi": "người sử dụng lao động, chủ; người hoặc công ty trả lương cho người làm",
+          "examples": [
+            {
+              "en": "Samsung is one of the largest employers in Vietnam.",
+              "vi": "Samsung là một trong những nhà tuyển dụng lớn nhất ở Việt Nam."
+            },
+            {
+              "en": "Good employers care about employee health.",
+              "vi": "Chủ tốt quan tâm sức khoẻ nhân viên."
+            },
+            {
+              "en": "She had three different employers in the past five years.",
+              "vi": "Cô ấy đã làm cho ba chủ khác nhau trong năm năm qua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["boss", "company"],
+      "antonyms": ["employee"],
+      "collocations": [
+        "current employer",
+        "former employer",
+        "largest employer",
+        "good employer",
+        "employer's responsibility"
+      ],
+      "etymology_hint": "From 'employ' + '-er' (one performing action)",
+      "mnemonic_vi": "EMPLOYER = EMPLOY + ER: 'người THUÊ' = chủ"
+    },
+    {
+      "word": "freelancer",
+      "lemma": "freelancer",
+      "ipa": "/ˈfriː.lɑːn.sə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who works for themselves and offers services to different clients",
+          "meaning_vi": "người làm tự do; làm cho nhiều khách hàng khác nhau, không thuộc một công ty cố định",
+          "examples": [
+            {
+              "en": "She works as a freelancer doing graphic design.",
+              "vi": "Cô ấy làm tự do thiết kế đồ hoạ."
+            },
+            {
+              "en": "Freelancers have flexible schedules but no guaranteed pay.",
+              "vi": "Người làm tự do có lịch linh hoạt nhưng không có lương cố định."
+            },
+            {
+              "en": "Many freelancers work from coffee shops in Saigon.",
+              "vi": "Nhiều freelancer làm việc ở quán cà phê Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["independent contractor", "self-employed person"],
+      "antonyms": ["employee"],
+      "collocations": [
+        "full-time freelancer",
+        "experienced freelancer",
+        "online freelancer",
+        "freelance writer",
+        "freelance work"
+      ],
+      "etymology_hint": "From 'free lance' meaning 'medieval mercenary soldier' — sense extended to independent workers",
+      "mnemonic_vi": "FREELANCER = FREE + LANCE + ER: 'cây giáo TỰ DO' = làm tự do"
+    },
+    {
+      "word": "intern",
+      "lemma": "intern",
+      "ipa": "/ˈɪn.tɜːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a student or new graduate who works at a company to gain experience",
+          "meaning_vi": "thực tập sinh; sinh viên hoặc người mới ra trường làm để lấy kinh nghiệm",
+          "examples": [
+            {
+              "en": "I worked as an intern at a tech startup last summer.",
+              "vi": "Tôi thực tập tại một startup công nghệ hè năm ngoái."
+            },
+            {
+              "en": "The company hires 20 interns each year.",
+              "vi": "Công ty thuê 20 thực tập sinh mỗi năm."
+            },
+            {
+              "en": "Many interns become full-time employees.",
+              "vi": "Nhiều thực tập sinh trở thành nhân viên chính thức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trainee", "apprentice"],
+      "antonyms": [],
+      "collocations": [
+        "summer intern",
+        "marketing intern",
+        "paid intern",
+        "unpaid intern",
+        "intern program"
+      ],
+      "etymology_hint": "From Latin 'internus' meaning 'inside' — originally hospital doctors-in-training",
+      "mnemonic_vi": "INTERN chứa 'IN' — vào 'TRONG' (in) công ty học việc = thực tập"
+    }
+  ]
+}

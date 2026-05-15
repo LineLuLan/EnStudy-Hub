@@ -1,0 +1,745 @@
+{
+  "slug": "airport-flight",
+  "name": "Airport & Flight",
+  "description": "Từ vựng đi máy bay và làm thủ tục sân bay.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "airport",
+      "lemma": "airport",
+      "ipa": "/ˈeə.pɔːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where planes land and take off, with buildings for passengers",
+          "meaning_vi": "sân bay; nơi máy bay hạ và cất cánh, có toà nhà cho hành khách",
+          "examples": [
+            {
+              "en": "Noi Bai Airport is in the north of Hanoi.",
+              "vi": "Sân bay Nội Bài ở phía Bắc Hà Nội."
+            },
+            {
+              "en": "We need to be at the airport two hours early.",
+              "vi": "Mình cần có mặt ở sân bay trước hai tiếng."
+            },
+            {
+              "en": "Tan Son Nhat Airport is one of the busiest in Vietnam.",
+              "vi": "Tân Sơn Nhất là một trong những sân bay đông nhất Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["airfield", "aerodrome"],
+      "antonyms": [],
+      "collocations": [
+        "international airport",
+        "domestic airport",
+        "go to the airport",
+        "airport security",
+        "airport terminal"
+      ],
+      "etymology_hint": "Compound: 'air' + 'port' (harbour) — coined in early 20th century",
+      "mnemonic_vi": "AIRPORT = AIR + PORT: 'cảng không khí' = sân bay"
+    },
+    {
+      "word": "flight",
+      "lemma": "flight",
+      "ipa": "/flaɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a journey made by plane",
+          "meaning_vi": "chuyến bay; hành trình bằng máy bay",
+          "examples": [
+            {
+              "en": "My flight to Tokyo leaves at midnight.",
+              "vi": "Chuyến bay đi Tokyo của tôi cất cánh lúc nửa đêm."
+            },
+            {
+              "en": "Direct flights are more expensive but faster.",
+              "vi": "Bay thẳng đắt hơn nhưng nhanh hơn."
+            },
+            {
+              "en": "The flight from Hanoi to Saigon takes two hours.",
+              "vi": "Chuyến bay Hà Nội — Sài Gòn mất hai tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["journey", "trip"],
+      "antonyms": [],
+      "collocations": [
+        "direct flight",
+        "long flight",
+        "domestic flight",
+        "flight number",
+        "book a flight"
+      ],
+      "etymology_hint": "From Old English 'flyht' meaning 'act of flying'",
+      "mnemonic_vi": "FLIGHT chứa 'LIGHT' (nhẹ) — bay 'NHẸ' lên trời = chuyến bay"
+    },
+    {
+      "word": "gate",
+      "lemma": "gate",
+      "ipa": "/ɡeɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the place at an airport where passengers get on a plane",
+          "meaning_vi": "cửa lên máy bay; nơi ở sân bay khách lên tàu bay",
+          "examples": [
+            {
+              "en": "Boarding for flight VN123 starts at gate 5.",
+              "vi": "Lên máy bay chuyến VN123 bắt đầu ở cửa số 5."
+            },
+            {
+              "en": "Hurry — the gate closes in ten minutes.",
+              "vi": "Nhanh lên — cửa đóng sau mười phút nữa."
+            },
+            { "en": "The gate has been changed to B12.", "vi": "Cửa đã đổi sang B12." }
+          ]
+        }
+      ],
+      "synonyms": ["boarding gate"],
+      "antonyms": [],
+      "collocations": [
+        "boarding gate",
+        "gate number",
+        "departure gate",
+        "gate change",
+        "at the gate"
+      ],
+      "etymology_hint": "From Old English 'geat' meaning 'opening, entrance'",
+      "mnemonic_vi": "GATE đọc 'gết' — 'GẶT' (gặp) cửa số xác định để lên máy bay"
+    },
+    {
+      "word": "terminal",
+      "lemma": "terminal",
+      "ipa": "/ˈtɜː.mɪ.nəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large building at an airport where passengers arrive and leave",
+          "meaning_vi": "nhà ga (sân bay); toà nhà lớn nơi khách đến và đi",
+          "examples": [
+            {
+              "en": "International flights leave from Terminal 2.",
+              "vi": "Các chuyến quốc tế đi từ nhà ga T2."
+            },
+            {
+              "en": "Take the shuttle bus between terminals.",
+              "vi": "Đi xe buýt đưa đón giữa các nhà ga."
+            },
+            {
+              "en": "The new terminal has many shops and cafés.",
+              "vi": "Nhà ga mới có nhiều cửa hàng và quán cà phê."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "airport terminal",
+        "domestic terminal",
+        "international terminal",
+        "Terminal 1",
+        "shuttle between terminals"
+      ],
+      "etymology_hint": "From Latin 'terminalis' meaning 'final, at the end', from 'terminus' (end)",
+      "mnemonic_vi": "TERMINAL chứa 'TERM' (kỳ hạn) — 'TERM' cuối hành trình mặt đất = nhà ga"
+    },
+    {
+      "word": "passport",
+      "lemma": "passport",
+      "ipa": "/ˈpɑːs.pɔːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an official document that proves who you are and allows you to travel between countries",
+          "meaning_vi": "hộ chiếu; giấy tờ chính thức để đi giữa các nước",
+          "examples": [
+            {
+              "en": "Don't forget your passport when going abroad.",
+              "vi": "Đừng quên hộ chiếu khi đi nước ngoài."
+            },
+            { "en": "My passport expires next year.", "vi": "Hộ chiếu của tôi hết hạn năm sau." },
+            {
+              "en": "Show your passport at the immigration counter.",
+              "vi": "Trình hộ chiếu ở quầy nhập cảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "valid passport",
+        "renew passport",
+        "lose passport",
+        "passport control",
+        "passport photo"
+      ],
+      "etymology_hint": "Compound: 'pass' + 'port' — original sense 'permission to pass through ports'",
+      "mnemonic_vi": "PASSPORT = PASS + PORT: 'đi qua cửa khẩu' = hộ chiếu"
+    },
+    {
+      "word": "visa",
+      "lemma": "visa",
+      "ipa": "/ˈviː.zə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official mark in your passport that allows you to enter a country",
+          "meaning_vi": "thị thực; dấu chính thức trong hộ chiếu cho phép vào một quốc gia",
+          "examples": [
+            {
+              "en": "Vietnamese citizens need a visa to enter the USA.",
+              "vi": "Công dân Việt Nam cần visa để vào Mỹ."
+            },
+            {
+              "en": "I applied for a tourist visa to Japan.",
+              "vi": "Tôi xin visa du lịch Nhật Bản."
+            },
+            {
+              "en": "Some countries offer visa on arrival.",
+              "vi": "Một số nước cho phép xin visa khi đến nơi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["entry permit"],
+      "antonyms": [],
+      "collocations": [
+        "tourist visa",
+        "work visa",
+        "apply for a visa",
+        "visa requirements",
+        "visa on arrival"
+      ],
+      "etymology_hint": "From Latin 'visa' (things seen), past participle of 'videre' (see)",
+      "mnemonic_vi": "VISA đọc 'vi-za' — 'VI' (chứng) thấy = chứng nhận được phép vào"
+    },
+    {
+      "word": "luggage",
+      "lemma": "luggage",
+      "ipa": "/ˈlʌɡ.ɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "all the bags and suitcases that you take when you travel",
+          "meaning_vi": "hành lý; tất cả túi và vali khi đi du lịch",
+          "examples": [
+            {
+              "en": "My luggage was lost at the airport.",
+              "vi": "Hành lý của tôi bị thất lạc ở sân bay."
+            },
+            {
+              "en": "Check your luggage in at the counter.",
+              "vi": "Gửi hành lý ở quầy làm thủ tục."
+            },
+            {
+              "en": "I only brought hand luggage for the short trip.",
+              "vi": "Tôi chỉ mang hành lý xách tay cho chuyến đi ngắn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["baggage", "bags"],
+      "antonyms": [],
+      "collocations": [
+        "hand luggage",
+        "check-in luggage",
+        "luggage allowance",
+        "lost luggage",
+        "carry luggage"
+      ],
+      "etymology_hint": "From 'lug' (to drag heavily) + '-age' suffix",
+      "mnemonic_vi": "LUGGAGE chứa 'LUG' (kéo lê) — kéo vali lê đi = hành lý"
+    },
+    {
+      "word": "boarding-pass",
+      "lemma": "boarding pass",
+      "ipa": "/ˈbɔː.dɪŋ ˌpɑːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of paper or digital ticket that you show to get on a plane",
+          "meaning_vi": "thẻ lên máy bay; mảnh giấy hoặc vé điện tử cho phép lên tàu bay",
+          "examples": [
+            {
+              "en": "Keep your boarding pass — they check it at the gate.",
+              "vi": "Giữ thẻ lên máy bay — họ kiểm ở cửa."
+            },
+            {
+              "en": "You can save your boarding pass on your phone.",
+              "vi": "Bạn có thể lưu thẻ lên máy bay trên điện thoại."
+            },
+            {
+              "en": "My boarding pass shows seat 14A.",
+              "vi": "Thẻ lên máy bay của tôi ghi ghế 14A."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "print boarding pass",
+        "mobile boarding pass",
+        "check boarding pass",
+        "boarding pass info",
+        "lose boarding pass"
+      ],
+      "etymology_hint": "Compound: 'boarding' (act of getting on) + 'pass' (permit)",
+      "mnemonic_vi": "BOARDING PASS = 'lên máy bay' + 'thẻ' = thẻ lên máy bay"
+    },
+    {
+      "word": "customs",
+      "lemma": "customs",
+      "ipa": "/ˈkʌs.təmz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the place at an airport or border where officials check your bags for illegal items",
+          "meaning_vi": "hải quan; nơi kiểm tra hành lý ở sân bay hoặc biên giới",
+          "examples": [
+            {
+              "en": "We had to declare our gifts at customs.",
+              "vi": "Chúng tôi phải khai báo quà ở hải quan."
+            },
+            { "en": "Going through customs took 30 minutes.", "vi": "Qua hải quan mất 30 phút." },
+            {
+              "en": "Vietnam customs limit on cash is 5,000 USD.",
+              "vi": "Hải quan Việt Nam giới hạn tiền mặt là 5.000 USD."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go through customs",
+        "customs declaration",
+        "customs officer",
+        "customs check",
+        "clear customs"
+      ],
+      "etymology_hint": "Plural of 'custom' — duties collected by tradition/custom on imported goods",
+      "mnemonic_vi": "CUSTOMS chứa 'CUSTOM' (tục lệ) — 'TỤC' lệ kiểm tra hàng hoá = hải quan"
+    },
+    {
+      "word": "delay",
+      "lemma": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a situation where something happens later than expected",
+          "meaning_vi": "sự chậm trễ, hoãn; điều xảy ra muộn hơn dự kiến",
+          "examples": [
+            {
+              "en": "There's a two-hour delay on flight VN888.",
+              "vi": "Chuyến bay VN888 bị hoãn hai tiếng."
+            },
+            {
+              "en": "Bad weather caused many delays at the airport.",
+              "vi": "Thời tiết xấu gây nhiều chậm trễ ở sân bay."
+            },
+            {
+              "en": "I apologize for the delay in replying to your email.",
+              "vi": "Tôi xin lỗi vì trả lời email chậm trễ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["postponement", "holdup"],
+      "antonyms": ["on-time"],
+      "collocations": [
+        "long delay",
+        "without delay",
+        "flight delay",
+        "cause a delay",
+        "expect a delay"
+      ],
+      "etymology_hint": "From Old French 'delaier' = 'de-' (away) + 'laier' (leave)",
+      "mnemonic_vi": "DELAY đọc 'di-lê' — 'DI' (đi) 'LÊ THÊ' = trì hoãn lê thê"
+    },
+    {
+      "word": "takeoff",
+      "lemma": "takeoff",
+      "ipa": "/ˈteɪk.ɒf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the moment when a plane leaves the ground and goes up into the air",
+          "meaning_vi": "sự cất cánh; thời điểm máy bay rời mặt đất bay lên",
+          "examples": [
+            {
+              "en": "Please fasten your seatbelt during takeoff.",
+              "vi": "Vui lòng thắt dây an toàn khi cất cánh."
+            },
+            {
+              "en": "Takeoff was smooth despite the strong wind.",
+              "vi": "Cất cánh êm dù có gió mạnh."
+            },
+            {
+              "en": "Phones must be in airplane mode for takeoff.",
+              "vi": "Điện thoại phải ở chế độ máy bay khi cất cánh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["departure", "liftoff"],
+      "antonyms": ["landing"],
+      "collocations": [
+        "smooth takeoff",
+        "takeoff time",
+        "during takeoff",
+        "ready for takeoff",
+        "abort takeoff"
+      ],
+      "etymology_hint": "Phrasal compound: 'take' + 'off' (leaving the ground)",
+      "mnemonic_vi": "TAKEOFF = TAKE + OFF: 'lấy' + 'rời': bay 'lên trời rời' đất = cất cánh"
+    },
+    {
+      "word": "landing",
+      "lemma": "landing",
+      "ipa": "/ˈlæn.dɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of bringing a plane down onto the ground",
+          "meaning_vi": "sự hạ cánh; việc đưa máy bay xuống mặt đất",
+          "examples": [
+            {
+              "en": "The pilot announced a smooth landing.",
+              "vi": "Phi công thông báo hạ cánh êm."
+            },
+            { "en": "Landing was delayed because of rain.", "vi": "Hạ cánh bị trễ vì mưa." },
+            {
+              "en": "After a long flight, the landing felt great.",
+              "vi": "Sau chuyến bay dài, hạ cánh cảm thấy thật tuyệt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["touchdown", "arrival"],
+      "antonyms": ["takeoff"],
+      "collocations": [
+        "safe landing",
+        "smooth landing",
+        "emergency landing",
+        "after landing",
+        "landing gear"
+      ],
+      "etymology_hint": "From 'land' (Old English 'land' = solid ground) + '-ing'",
+      "mnemonic_vi": "LANDING chứa 'LAND' (đất) — về 'LAND' = hạ cánh"
+    },
+    {
+      "word": "layover",
+      "lemma": "layover",
+      "ipa": "/ˈleɪ.əʊ.və(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short stop at an airport between two flights",
+          "meaning_vi": "thời gian chờ nối chuyến, transit; chặng dừng ngắn giữa hai chuyến bay",
+          "examples": [
+            {
+              "en": "We have a four-hour layover in Singapore.",
+              "vi": "Chúng tôi có bốn tiếng chờ nối chuyến ở Singapore."
+            },
+            {
+              "en": "A short layover gives you no time to leave the airport.",
+              "vi": "Layover ngắn không đủ thời gian rời sân bay."
+            },
+            {
+              "en": "She used the long layover to shop duty-free.",
+              "vi": "Cô ấy tận dụng layover dài để mua sắm miễn thuế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stopover", "transit"],
+      "antonyms": ["direct flight"],
+      "collocations": [
+        "long layover",
+        "short layover",
+        "stopover layover",
+        "during layover",
+        "layover in"
+      ],
+      "etymology_hint": "Compound: 'lay' (rest) + 'over' — pause in journey",
+      "mnemonic_vi": "LAYOVER = LAY + OVER: 'nằm chờ' + 'qua' = nghỉ chờ chuyến bay khác"
+    },
+    {
+      "word": "departure",
+      "lemma": "departure",
+      "ipa": "/dɪˈpɑː.tʃə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of leaving a place, especially to start a journey",
+          "meaning_vi": "sự khởi hành, ra đi; rời một nơi để bắt đầu chuyến đi",
+          "examples": [
+            {
+              "en": "The departure of flight VN123 is at 8 PM.",
+              "vi": "Chuyến VN123 khởi hành lúc 8 giờ tối."
+            },
+            {
+              "en": "Check the departure board for gate information.",
+              "vi": "Xem bảng khởi hành để biết thông tin cửa."
+            },
+            {
+              "en": "After her departure, the house felt empty.",
+              "vi": "Sau khi cô ấy đi, căn nhà cảm thấy trống vắng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leaving", "exit"],
+      "antonyms": ["arrival"],
+      "collocations": [
+        "departure time",
+        "departure gate",
+        "before departure",
+        "departure lounge",
+        "departure board"
+      ],
+      "etymology_hint": "From 'depart' (Old French 'departir' = divide, leave) + '-ure'",
+      "mnemonic_vi": "DEPARTURE chứa 'DEPART' (rời đi) — DEPART + URE = sự rời đi"
+    },
+    {
+      "word": "arrival",
+      "lemma": "arrival",
+      "ipa": "/əˈraɪ.vəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of reaching a place, especially at the end of a journey",
+          "meaning_vi": "sự đến nơi; việc tới một nơi, đặc biệt khi kết thúc chuyến đi",
+          "examples": [
+            { "en": "Estimated arrival time is 10:30 PM.", "vi": "Giờ đến dự kiến là 10:30 tối." },
+            { "en": "Family waited at the arrival hall.", "vi": "Người nhà đợi ở sảnh đến." },
+            {
+              "en": "Her arrival in Vietnam surprised everyone.",
+              "vi": "Sự xuất hiện của cô ấy ở Việt Nam khiến mọi người bất ngờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coming", "landing"],
+      "antonyms": ["departure"],
+      "collocations": [
+        "arrival time",
+        "arrival hall",
+        "on arrival",
+        "estimated arrival",
+        "new arrival"
+      ],
+      "etymology_hint": "From 'arrive' (Old French 'ariver' = come to shore) + '-al'",
+      "mnemonic_vi": "ARRIVAL chứa 'ARRIVE' (đến) — ARRIVE + AL = sự đến"
+    },
+    {
+      "word": "jet-lag",
+      "lemma": "jet lag",
+      "ipa": "/ˈdʒet læɡ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the tired feeling you get after a long flight across different time zones",
+          "meaning_vi": "lệch múi giờ; cảm giác mệt mỏi sau chuyến bay dài qua nhiều múi giờ",
+          "examples": [
+            {
+              "en": "I had bad jet lag for three days after flying to America.",
+              "vi": "Tôi bị lệch múi giờ nặng ba ngày sau khi bay sang Mỹ."
+            },
+            {
+              "en": "Drinking lots of water helps with jet lag.",
+              "vi": "Uống nhiều nước giúp giảm jet lag."
+            },
+            {
+              "en": "Jet lag is worse when flying east.",
+              "vi": "Lệch múi giờ tệ hơn khi bay về phía đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["time-zone fatigue"],
+      "antonyms": [],
+      "collocations": [
+        "have jet lag",
+        "bad jet lag",
+        "recover from jet lag",
+        "fight jet lag",
+        "severe jet lag"
+      ],
+      "etymology_hint": "Compound: 'jet' (fast plane) + 'lag' (delay) — coined in 1960s",
+      "mnemonic_vi": "JET LAG = JET (máy bay) + LAG (trễ): 'trễ múi giờ' do bay JET nhanh"
+    },
+    {
+      "word": "duty-free",
+      "lemma": "duty-free",
+      "ipa": "/ˌdjuː.tiˈfriː/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "without paying tax, usually at airports or borders",
+          "meaning_vi": "miễn thuế; không phải trả thuế, thường ở sân bay hoặc cửa khẩu",
+          "examples": [
+            {
+              "en": "I bought perfume at the duty-free shop.",
+              "vi": "Tôi mua nước hoa ở cửa hàng miễn thuế."
+            },
+            { "en": "Duty-free items are usually cheaper.", "vi": "Hàng miễn thuế thường rẻ hơn." },
+            {
+              "en": "There's a duty-free allowance for each passenger.",
+              "vi": "Có định mức miễn thuế cho mỗi hành khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tax-free"],
+      "antonyms": ["taxed"],
+      "collocations": [
+        "duty-free shop",
+        "duty-free items",
+        "duty-free allowance",
+        "duty-free goods",
+        "duty-free purchase"
+      ],
+      "etymology_hint": "Compound: 'duty' (tax) + 'free' (without)",
+      "mnemonic_vi": "DUTY FREE = DUTY (thuế) + FREE (miễn): 'miễn thuế'"
+    },
+    {
+      "word": "cabin",
+      "lemma": "cabin",
+      "ipa": "/ˈkæb.ɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the inside section of a plane where passengers sit",
+          "meaning_vi": "khoang máy bay; phần trong máy bay nơi khách ngồi",
+          "examples": [
+            {
+              "en": "The cabin lights were dimmed for the night flight.",
+              "vi": "Đèn khoang giảm tối cho chuyến bay đêm."
+            },
+            {
+              "en": "Cabin crew began serving meals an hour after takeoff.",
+              "vi": "Tiếp viên phục vụ bữa ăn sau khi cất cánh một tiếng."
+            },
+            {
+              "en": "Keep your bag in the overhead cabin bin.",
+              "vi": "Để hành lý trong ngăn trên khoang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compartment"],
+      "antonyms": [],
+      "collocations": [
+        "cabin crew",
+        "cabin bag",
+        "cabin pressure",
+        "first-class cabin",
+        "cabin attendant"
+      ],
+      "etymology_hint": "From Old French 'cabane' meaning 'small hut'",
+      "mnemonic_vi": "CABIN đọc 'cá-bin' — 'CÁ' (như cá) trong 'BÌN' (bình) khoang chật = cabin máy bay"
+    },
+    {
+      "word": "aisle",
+      "lemma": "aisle",
+      "ipa": "/aɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a narrow passage between rows of seats in a plane or supermarket",
+          "meaning_vi": "lối đi giữa các hàng ghế; lối đi nhỏ giữa các kệ siêu thị",
+          "examples": [
+            {
+              "en": "I prefer an aisle seat for easy access to the toilet.",
+              "vi": "Tôi thích ghế lối đi để dễ ra nhà vệ sinh."
+            },
+            {
+              "en": "Please don't block the aisle with your luggage.",
+              "vi": "Đừng chặn lối đi bằng hành lý."
+            },
+            {
+              "en": "The rice aisle is at the back of the supermarket.",
+              "vi": "Lối hàng gạo ở phía sau siêu thị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["passage", "walkway"],
+      "antonyms": [],
+      "collocations": [
+        "aisle seat",
+        "in the aisle",
+        "block the aisle",
+        "down the aisle",
+        "walk the aisle"
+      ],
+      "etymology_hint": "From Old French 'ele' meaning 'wing', from Latin 'ala' — silent 's' added by error",
+      "mnemonic_vi": "AISLE âm câm 'S' — đọc 'AI-ơ' — 'AI' đi lối đó giữa hai hàng ghế"
+    },
+    {
+      "word": "window-seat",
+      "lemma": "window seat",
+      "ipa": "/ˈwɪn.dəʊ siːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a seat next to a window, especially on a plane or train",
+          "meaning_vi": "ghế cạnh cửa sổ; ghế bên cửa sổ trên máy bay hoặc tàu",
+          "examples": [
+            {
+              "en": "I always book a window seat to see the view.",
+              "vi": "Tôi luôn đặt ghế cửa sổ để ngắm cảnh."
+            },
+            { "en": "The window seat is great for sleeping.", "vi": "Ghế cửa sổ tuyệt để ngủ." },
+            {
+              "en": "She got a window seat with a view of the mountains.",
+              "vi": "Cô ấy có ghế cửa sổ ngắm dãy núi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["aisle seat"],
+      "collocations": [
+        "book a window seat",
+        "next to the window seat",
+        "prefer window seat",
+        "window seat view",
+        "request window seat"
+      ],
+      "etymology_hint": "Compound: 'window' + 'seat'",
+      "mnemonic_vi": "WINDOW SEAT = ghế cửa sổ — nguyên ý tiếng Anh, dễ nhớ"
+    }
+  ]
+}

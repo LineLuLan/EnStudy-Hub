@@ -1,0 +1,751 @@
+{
+  "slug": "meetings-comms",
+  "name": "Meetings & Communication",
+  "description": "Họp hành và giao tiếp công việc.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "meeting",
+      "lemma": "meeting",
+      "ipa": "/ˈmiː.tɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an event where people come together to discuss something",
+          "meaning_vi": "cuộc họp; buổi gặp mặt để bàn việc",
+          "examples": [
+            {
+              "en": "The meeting starts at 9 AM sharp.",
+              "vi": "Cuộc họp bắt đầu đúng 9 giờ sáng."
+            },
+            { "en": "I have three meetings today.", "vi": "Hôm nay tôi có ba cuộc họp." },
+            {
+              "en": "She presented her ideas at the team meeting.",
+              "vi": "Cô ấy trình bày ý tưởng tại buổi họp nhóm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gathering", "conference"],
+      "antonyms": [],
+      "collocations": [
+        "attend a meeting",
+        "hold a meeting",
+        "team meeting",
+        "meeting room",
+        "morning meeting"
+      ],
+      "etymology_hint": "From 'meet' (Old English 'mētan' = encounter) + '-ing'",
+      "mnemonic_vi": "MEETING chứa 'MEET' (gặp) — buổi 'MEET' = cuộc họp"
+    },
+    {
+      "word": "agenda",
+      "lemma": "agenda",
+      "ipa": "/əˈdʒen.də/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a list of items to be discussed in a meeting",
+          "meaning_vi": "chương trình họp; danh sách nội dung cần bàn trong cuộc họp",
+          "examples": [
+            {
+              "en": "What's on the agenda for today's meeting?",
+              "vi": "Chương trình họp hôm nay có gì?"
+            },
+            {
+              "en": "Please send me the agenda in advance.",
+              "vi": "Vui lòng gửi tôi chương trình trước."
+            },
+            {
+              "en": "The first item on the agenda is the Q3 budget.",
+              "vi": "Mục đầu tiên là ngân sách quý 3."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["schedule", "programme"],
+      "antonyms": [],
+      "collocations": [
+        "meeting agenda",
+        "set the agenda",
+        "agenda item",
+        "hidden agenda",
+        "on the agenda"
+      ],
+      "etymology_hint": "From Latin 'agenda' meaning 'things to be done'",
+      "mnemonic_vi": "AGENDA chứa 'AGEN' — 'A GHEN' (canh me) lịch trình cuộc họp = chương trình"
+    },
+    {
+      "word": "discuss",
+      "lemma": "discuss",
+      "ipa": "/dɪˈskʌs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to talk about something with other people, sharing different opinions",
+          "meaning_vi": "thảo luận, bàn bạc; nói về điều gì đó cùng người khác, chia sẻ ý kiến",
+          "examples": [
+            {
+              "en": "Let's discuss the new project after lunch.",
+              "vi": "Mình bàn dự án mới sau bữa trưa nhé."
+            },
+            {
+              "en": "We discussed the issue for over an hour.",
+              "vi": "Chúng tôi thảo luận vấn đề hơn một tiếng."
+            },
+            {
+              "en": "She doesn't like to discuss her personal life at work.",
+              "vi": "Cô ấy không thích bàn chuyện riêng ở chỗ làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talk about", "debate", "deliberate"],
+      "antonyms": [],
+      "collocations": [
+        "discuss with",
+        "discuss in detail",
+        "openly discuss",
+        "discuss matters",
+        "discuss further"
+      ],
+      "etymology_hint": "From Latin 'discutere' = 'dis-' (apart) + 'quatere' (shake) — 'shake apart, examine'",
+      "mnemonic_vi": "DISCUSS đọc 'đít-kất' — 'ĐẶT' câu hỏi rồi 'KẨT' (cất) tiếng = thảo luận"
+    },
+    {
+      "word": "present",
+      "lemma": "present",
+      "ipa": "/prɪˈzent/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show, explain, or give something formally to others",
+          "meaning_vi": "trình bày, giới thiệu; thể hiện, giải thích hoặc trao chính thức",
+          "examples": [
+            {
+              "en": "She presented her project to the whole team.",
+              "vi": "Cô ấy trình bày dự án trước cả nhóm."
+            },
+            {
+              "en": "I'll present the report at the meeting tomorrow.",
+              "vi": "Tôi sẽ trình bày báo cáo tại cuộc họp ngày mai."
+            },
+            {
+              "en": "The CEO presented an award to the top salesperson.",
+              "vi": "CEO trao giải thưởng cho nhân viên bán hàng xuất sắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["show", "introduce", "deliver"],
+      "antonyms": [],
+      "collocations": [
+        "present a plan",
+        "present findings",
+        "present an award",
+        "present clearly",
+        "present to"
+      ],
+      "etymology_hint": "From Latin 'praesentare' meaning 'to show, exhibit'",
+      "mnemonic_vi": "PRESENT chứa 'PRESEN' — 'PHIÊN' đầu 'SẲN' (sẵn sàng) trình bày = trình bày"
+    },
+    {
+      "word": "propose",
+      "lemma": "propose",
+      "ipa": "/prəˈpəʊz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to suggest a plan or idea for others to consider",
+          "meaning_vi": "đề xuất, đề nghị; gợi ý kế hoạch hoặc ý tưởng để xem xét",
+          "examples": [
+            {
+              "en": "I propose we change the meeting time to 10 AM.",
+              "vi": "Tôi đề xuất đổi giờ họp sang 10 giờ sáng."
+            },
+            {
+              "en": "She proposed a new marketing strategy.",
+              "vi": "Cô ấy đề xuất chiến lược marketing mới."
+            },
+            {
+              "en": "He proposed to his girlfriend at the beach.",
+              "vi": "Anh ấy cầu hôn bạn gái ở bãi biển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suggest", "recommend", "put forward"],
+      "antonyms": ["reject", "oppose"],
+      "collocations": [
+        "propose a plan",
+        "propose a solution",
+        "formally propose",
+        "propose marriage",
+        "propose to"
+      ],
+      "etymology_hint": "From Latin 'proponere' = 'pro-' (forward) + 'ponere' (place)",
+      "mnemonic_vi": "PROPOSE chứa 'POSE' (đặt) — 'ĐẶT' ý tưởng ra trước = đề xuất"
+    },
+    {
+      "word": "decide",
+      "lemma": "decide",
+      "ipa": "/dɪˈsaɪd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to choose what to do after thinking about it",
+          "meaning_vi": "quyết định; chọn việc gì làm sau khi suy nghĩ",
+          "examples": [
+            {
+              "en": "I can't decide which restaurant to go to.",
+              "vi": "Tôi không quyết được đi nhà hàng nào."
+            },
+            {
+              "en": "The team decided to launch next month.",
+              "vi": "Nhóm đã quyết định ra mắt vào tháng sau."
+            },
+            {
+              "en": "She decided to quit her job and travel.",
+              "vi": "Cô ấy quyết định nghỉ việc đi du lịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["choose", "determine", "settle"],
+      "antonyms": ["hesitate"],
+      "collocations": [
+        "decide to",
+        "decide on",
+        "decide quickly",
+        "hard to decide",
+        "decide together"
+      ],
+      "etymology_hint": "From Latin 'decidere' = 'de-' (off) + 'caedere' (cut) — 'cut off debate'",
+      "mnemonic_vi": "DECIDE chứa 'CIDE' (chặt) — 'CHẶT' đứt suy nghĩ = quyết định"
+    },
+    {
+      "word": "agree",
+      "lemma": "agree",
+      "ipa": "/əˈɡriː/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to have the same opinion or to say yes to something",
+          "meaning_vi": "đồng ý, nhất trí; có cùng ý kiến hoặc chấp nhận",
+          "examples": [
+            {
+              "en": "I agree with your idea completely.",
+              "vi": "Tôi hoàn toàn đồng ý với ý của bạn."
+            },
+            {
+              "en": "The board agreed to the new policy.",
+              "vi": "Hội đồng đồng ý chính sách mới."
+            },
+            { "en": "We finally agreed on a price.", "vi": "Cuối cùng chúng tôi cũng đồng ý giá." }
+          ]
+        }
+      ],
+      "synonyms": ["consent", "concur", "accept"],
+      "antonyms": ["disagree", "refuse"],
+      "collocations": ["agree with", "agree to", "agree on", "fully agree", "agree in principle"],
+      "etymology_hint": "From Old French 'agreer' = 'a-' (to) + 'gré' (pleasure, will)",
+      "mnemonic_vi": "AGREE chứa 'GREE' — 'GHÊ' (rất) thấy đúng = đồng ý"
+    },
+    {
+      "word": "conclude",
+      "lemma": "conclude",
+      "ipa": "/kənˈkluːd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to finish or end something, especially a meeting or speech",
+          "meaning_vi": "kết luận, kết thúc; chấm dứt cuộc họp hoặc bài nói",
+          "examples": [
+            {
+              "en": "Let me conclude by thanking everyone.",
+              "vi": "Cho phép tôi kết luận bằng lời cảm ơn tất cả."
+            },
+            { "en": "The meeting concluded at 4 PM.", "vi": "Cuộc họp kết thúc lúc 4 giờ chiều." },
+            {
+              "en": "We can conclude that the project was successful.",
+              "vi": "Có thể kết luận rằng dự án đã thành công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finish", "end", "wrap up"],
+      "antonyms": ["start", "begin"],
+      "collocations": [
+        "conclude a meeting",
+        "conclude with",
+        "conclude that",
+        "successfully conclude",
+        "in conclusion"
+      ],
+      "etymology_hint": "From Latin 'concludere' = 'com-' (together) + 'claudere' (close)",
+      "mnemonic_vi": "CONCLUDE chứa 'CLUDE' (đóng) — 'ĐÓNG' lại cuộc thảo luận = kết luận"
+    },
+    {
+      "word": "minutes",
+      "lemma": "minutes",
+      "ipa": "/ˈmɪn.ɪts/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official written record of what was said and decided at a meeting",
+          "meaning_vi": "biên bản cuộc họp; ghi chép chính thức về những gì được nói và quyết định",
+          "examples": [
+            {
+              "en": "Please send the minutes to all attendees.",
+              "vi": "Vui lòng gửi biên bản cho tất cả người dự."
+            },
+            { "en": "Take the minutes during the meeting.", "vi": "Ghi biên bản trong cuộc họp." },
+            {
+              "en": "The minutes show that we agreed to the budget.",
+              "vi": "Biên bản cho thấy chúng tôi đã đồng ý ngân sách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meeting record", "log"],
+      "antonyms": [],
+      "collocations": [
+        "take minutes",
+        "meeting minutes",
+        "send minutes",
+        "approve minutes",
+        "official minutes"
+      ],
+      "etymology_hint": "From Latin 'minutus' meaning 'small' — 'minute' notes (small details)",
+      "mnemonic_vi": "MINUTES nghĩa khác là 'phút' — nhưng đây là biên bản 'phút từng' chi tiết"
+    },
+    {
+      "word": "schedule",
+      "lemma": "schedule",
+      "ipa": "/ˈʃed.juːl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to plan when an event or activity will happen",
+          "meaning_vi": "lên lịch, sắp xếp; lên kế hoạch thời điểm sự kiện hoặc hoạt động",
+          "examples": [
+            {
+              "en": "We scheduled the meeting for Friday at 2 PM.",
+              "vi": "Chúng tôi đã sắp lịch họp vào thứ Sáu lúc 2 giờ chiều."
+            },
+            {
+              "en": "Can you schedule a call with the client?",
+              "vi": "Bạn sắp lịch gọi với khách được không?"
+            },
+            {
+              "en": "The flight is scheduled to leave at 10.",
+              "vi": "Chuyến bay được lên lịch khởi hành lúc 10 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plan", "arrange", "book"],
+      "antonyms": ["cancel"],
+      "collocations": [
+        "schedule a meeting",
+        "schedule a call",
+        "schedule in advance",
+        "tightly scheduled",
+        "reschedule"
+      ],
+      "etymology_hint": "From Latin 'schedula' meaning 'small slip of paper'",
+      "mnemonic_vi": "SCHEDULE — Anh: 'shed-yul', Mỹ: 'sked-juồl' — lịch trình lên 'PHẦN' (paper)"
+    },
+    {
+      "word": "conference",
+      "lemma": "conference",
+      "ipa": "/ˈkɒn.fər.əns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large meeting where people discuss work or research topics",
+          "meaning_vi": "hội nghị; cuộc họp lớn về công việc hoặc nghiên cứu",
+          "examples": [
+            {
+              "en": "She attended a tech conference in Singapore.",
+              "vi": "Cô ấy dự hội nghị công nghệ ở Singapore."
+            },
+            {
+              "en": "The annual conference is next month.",
+              "vi": "Hội nghị thường niên là tháng sau."
+            },
+            {
+              "en": "We have a video conference with the Tokyo office.",
+              "vi": "Chúng tôi có hội nghị truyền hình với văn phòng Tokyo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["convention", "summit"],
+      "antonyms": [],
+      "collocations": [
+        "attend a conference",
+        "video conference",
+        "press conference",
+        "annual conference",
+        "conference room"
+      ],
+      "etymology_hint": "From Latin 'conferre' = 'com-' (together) + 'ferre' (bring)",
+      "mnemonic_vi": "CONFERENCE chứa 'CON' (cùng) + 'FER' (mang) — cùng mang ý kiến đến = hội nghị"
+    },
+    {
+      "word": "deadline",
+      "lemma": "deadline",
+      "ipa": "/ˈded.laɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the latest time or date by which something must be done",
+          "meaning_vi": "hạn chót; thời điểm muộn nhất phải hoàn thành",
+          "examples": [
+            {
+              "en": "The deadline for the report is Friday at 5 PM.",
+              "vi": "Hạn chót báo cáo là thứ Sáu 5 giờ chiều."
+            },
+            {
+              "en": "I work better under pressure of a tight deadline.",
+              "vi": "Tôi làm tốt hơn dưới áp lực hạn chót."
+            },
+            {
+              "en": "Missing the deadline can have serious consequences.",
+              "vi": "Lỡ hạn chót có thể gây hậu quả nghiêm trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["due date", "cutoff"],
+      "antonyms": [],
+      "collocations": [
+        "meet a deadline",
+        "miss a deadline",
+        "tight deadline",
+        "extend a deadline",
+        "strict deadline"
+      ],
+      "etymology_hint": "Compound: 'dead' (final) + 'line' — originally a line in prison beyond which prisoners would be shot",
+      "mnemonic_vi": "DEADLINE = DEAD + LINE: 'đường giới hạn chết' — qua là tiêu = hạn chót"
+    },
+    {
+      "word": "brainstorm",
+      "lemma": "brainstorm",
+      "ipa": "/ˈbreɪn.stɔːm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to think of many new ideas quickly with a group",
+          "meaning_vi": "động não; cùng nhóm nghĩ ra nhiều ý tưởng mới nhanh chóng",
+          "examples": [
+            {
+              "en": "Let's brainstorm new product ideas tomorrow.",
+              "vi": "Mình động não ý tưởng sản phẩm mới ngày mai."
+            },
+            {
+              "en": "The team brainstormed for an hour and came up with 30 ideas.",
+              "vi": "Nhóm động não một tiếng và nghĩ ra 30 ý."
+            },
+            {
+              "en": "Brainstorming works best in small groups.",
+              "vi": "Động não hiệu quả nhất trong nhóm nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["think up", "ideate"],
+      "antonyms": [],
+      "collocations": [
+        "brainstorm ideas",
+        "brainstorm together",
+        "brainstorm session",
+        "brainstorm with",
+        "quickly brainstorm"
+      ],
+      "etymology_hint": "Compound: 'brain' + 'storm' — coined by Alex Osborn in 1939",
+      "mnemonic_vi": "BRAINSTORM = BRAIN + STORM: 'não bão' = bão não động ra ý tưởng"
+    },
+    {
+      "word": "feedback",
+      "lemma": "feedback",
+      "ipa": "/ˈfiːd.bæk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "comments or advice about how well someone is doing",
+          "meaning_vi": "phản hồi, góp ý; nhận xét hoặc lời khuyên về cách làm",
+          "examples": [
+            {
+              "en": "I appreciate your feedback on my presentation.",
+              "vi": "Tôi cảm ơn góp ý của bạn về bài thuyết trình."
+            },
+            {
+              "en": "She gave constructive feedback to her team.",
+              "vi": "Cô ấy cho phản hồi tích cực cho nhóm."
+            },
+            {
+              "en": "Customer feedback helps us improve.",
+              "vi": "Phản hồi khách hàng giúp chúng tôi cải thiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["comments", "input", "response"],
+      "antonyms": [],
+      "collocations": [
+        "give feedback",
+        "receive feedback",
+        "positive feedback",
+        "constructive feedback",
+        "honest feedback"
+      ],
+      "etymology_hint": "Compound: 'feed' + 'back' — originally from electronics (signal returned)",
+      "mnemonic_vi": "FEEDBACK = FEED + BACK: 'cho ăn ngược' = trả lời lại = phản hồi"
+    },
+    {
+      "word": "follow-up",
+      "lemma": "follow up",
+      "ipa": "/ˈfɒl.əʊ ʌp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an action taken to continue or check on something that was started before",
+          "meaning_vi": "sự theo dõi, theo sát; hành động tiếp nối hoặc kiểm tra việc đã làm trước",
+          "examples": [
+            {
+              "en": "I'll send a follow-up email after the meeting.",
+              "vi": "Tôi sẽ gửi email theo dõi sau buổi họp."
+            },
+            {
+              "en": "The doctor scheduled a follow-up visit next week.",
+              "vi": "Bác sĩ hẹn tái khám tuần sau."
+            },
+            {
+              "en": "Follow-up is important to close deals.",
+              "vi": "Theo dõi sát rất quan trọng để chốt giao dịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["continuation", "check-in"],
+      "antonyms": [],
+      "collocations": [
+        "follow-up email",
+        "follow-up call",
+        "follow-up meeting",
+        "send a follow-up",
+        "follow-up visit"
+      ],
+      "etymology_hint": "Phrasal compound: 'follow' (Old English 'folgian' = accompany) + 'up'",
+      "mnemonic_vi": "FOLLOW UP = FOLLOW + UP: 'đi theo lên' = theo dõi tiếp"
+    },
+    {
+      "word": "action-item",
+      "lemma": "action item",
+      "ipa": "/ˈæk.ʃən ˌaɪ.təm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a specific task that someone has to do after a meeting",
+          "meaning_vi": "đầu việc; nhiệm vụ cụ thể ai đó phải làm sau cuộc họp",
+          "examples": [
+            {
+              "en": "Each meeting should end with clear action items.",
+              "vi": "Mỗi cuộc họp nên kết thúc với đầu việc rõ ràng."
+            },
+            {
+              "en": "She added three action items to my list.",
+              "vi": "Cô ấy thêm ba đầu việc vào danh sách của tôi."
+            },
+            {
+              "en": "Track all action items in the project tool.",
+              "vi": "Theo dõi mọi đầu việc trong công cụ quản lý dự án."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["task", "to-do"],
+      "antonyms": [],
+      "collocations": [
+        "clear action item",
+        "action item list",
+        "assign action items",
+        "track action items",
+        "complete action items"
+      ],
+      "etymology_hint": "Compound: 'action' (Latin 'actio') + 'item' (Latin 'item' = also, likewise)",
+      "mnemonic_vi": "ACTION ITEM = ACTION (hành động) + ITEM (mục): 'mục hành động' = đầu việc"
+    },
+    {
+      "word": "stakeholder",
+      "lemma": "stakeholder",
+      "ipa": "/ˈsteɪk.həʊl.də(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person or group with an interest in a project, business, or decision",
+          "meaning_vi": "bên liên quan; người hoặc nhóm có liên quan đến một dự án, doanh nghiệp",
+          "examples": [
+            {
+              "en": "We need to consult all stakeholders before deciding.",
+              "vi": "Chúng ta cần hỏi ý kiến mọi bên liên quan trước khi quyết."
+            },
+            {
+              "en": "Stakeholders include investors, employees, and customers.",
+              "vi": "Các bên liên quan gồm nhà đầu tư, nhân viên và khách hàng."
+            },
+            {
+              "en": "The stakeholder meeting is on Tuesday.",
+              "vi": "Cuộc họp các bên liên quan là vào thứ Ba."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["interested party", "investor"],
+      "antonyms": [],
+      "collocations": [
+        "key stakeholder",
+        "major stakeholder",
+        "stakeholder meeting",
+        "engage stakeholders",
+        "stakeholder feedback"
+      ],
+      "etymology_hint": "Compound: 'stake' (interest, share) + 'holder' (person who holds)",
+      "mnemonic_vi": "STAKEHOLDER = STAKE + HOLDER: 'người giữ cọc/cổ phần' = bên liên quan"
+    },
+    {
+      "word": "update",
+      "lemma": "update",
+      "ipa": "/ˈʌp.deɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the latest information about something",
+          "meaning_vi": "tin cập nhật, thông tin mới nhất",
+          "examples": [
+            {
+              "en": "Can you give me a project update?",
+              "vi": "Bạn cho tôi cập nhật dự án được không?"
+            },
+            {
+              "en": "Weekly updates help everyone stay informed.",
+              "vi": "Cập nhật hàng tuần giúp mọi người nắm thông tin."
+            },
+            {
+              "en": "The software update fixed many bugs.",
+              "vi": "Cập nhật phần mềm đã sửa nhiều lỗi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["latest info", "report"],
+      "antonyms": [],
+      "collocations": [
+        "status update",
+        "weekly update",
+        "software update",
+        "give an update",
+        "quick update"
+      ],
+      "etymology_hint": "Compound: 'up' (upward) + 'date' — 'bring to a current date'",
+      "mnemonic_vi": "UPDATE = UP + DATE: 'lên ngày' = cập nhật mới"
+    },
+    {
+      "word": "briefing",
+      "lemma": "briefing",
+      "ipa": "/ˈbriː.fɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a short meeting where people are given information or instructions",
+          "meaning_vi": "buổi báo cáo ngắn, briefing; cuộc họp ngắn cung cấp thông tin hoặc chỉ dẫn",
+          "examples": [
+            {
+              "en": "We have a briefing every Monday morning.",
+              "vi": "Chúng tôi có buổi briefing mỗi sáng thứ Hai."
+            },
+            {
+              "en": "The press briefing lasted only 20 minutes.",
+              "vi": "Buổi họp báo chỉ kéo dài 20 phút."
+            },
+            {
+              "en": "Attend the safety briefing before entering the lab.",
+              "vi": "Dự buổi briefing an toàn trước khi vào phòng lab."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["update", "briefing session"],
+      "antonyms": [],
+      "collocations": [
+        "press briefing",
+        "morning briefing",
+        "safety briefing",
+        "team briefing",
+        "attend a briefing"
+      ],
+      "etymology_hint": "From 'brief' (Latin 'brevis' = short) + '-ing'",
+      "mnemonic_vi": "BRIEFING chứa 'BRIEF' (ngắn) — họp 'BRIEF' = briefing ngắn gọn"
+    },
+    {
+      "word": "summary",
+      "lemma": "summary",
+      "ipa": "/ˈsʌm.ər.i/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short version of something that gives the main points",
+          "meaning_vi": "tóm tắt; bản ngắn nêu ý chính",
+          "examples": [
+            {
+              "en": "Give me a quick summary of the meeting.",
+              "vi": "Tóm tắt nhanh nội dung cuộc họp giúp tôi."
+            },
+            {
+              "en": "The article includes a 100-word summary.",
+              "vi": "Bài báo có phần tóm tắt 100 chữ."
+            },
+            {
+              "en": "In summary, the project is on track.",
+              "vi": "Tóm lại, dự án đang đúng tiến độ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overview", "synopsis", "recap"],
+      "antonyms": ["detail"],
+      "collocations": [
+        "brief summary",
+        "executive summary",
+        "in summary",
+        "summary report",
+        "summary statement"
+      ],
+      "etymology_hint": "From Latin 'summa' meaning 'sum, total'",
+      "mnemonic_vi": "SUMMARY chứa 'SUM' (tổng) — 'TỔNG' lại ý chính = tóm tắt"
+    }
+  ]
+}
