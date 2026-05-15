@@ -1,0 +1,8 @@
+{
+  "slug": "time-numbers",
+  "name": "Time & Numbers",
+  "description": "Thời gian, ngày tháng, số đếm và đơn vị đo lường cơ bản.",
+  "order_index": 4,
+  "icon": "clock",
+  "color": "#f59e0b"
+}

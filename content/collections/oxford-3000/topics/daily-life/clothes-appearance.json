@@ -1,0 +1,727 @@
+{
+  "slug": "clothes-appearance",
+  "name": "Clothes & Appearance",
+  "description": "Quần áo và phụ kiện thường ngày.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "clothes",
+      "lemma": "clothes",
+      "ipa": "/kləʊðz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "things that you wear to cover your body, such as shirts and trousers",
+          "meaning_vi": "quần áo, đồ mặc; những thứ mặc trên người",
+          "examples": [
+            {
+              "en": "I bought some new clothes at Vincom shopping mall yesterday.",
+              "vi": "Hôm qua tôi mua vài bộ quần áo mới ở trung tâm thương mại Vincom."
+            },
+            {
+              "en": "She always wears warm clothes when she visits Sa Pa in winter.",
+              "vi": "Cô ấy luôn mặc đồ ấm khi lên Sa Pa vào mùa đông."
+            },
+            {
+              "en": "Don't forget to hang your clothes to dry after washing.",
+              "vi": "Đừng quên phơi quần áo sau khi giặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clothing", "garments", "outfit", "attire"],
+      "antonyms": [],
+      "collocations": [
+        "wear clothes",
+        "wash clothes",
+        "change clothes",
+        "warm clothes",
+        "casual clothes"
+      ],
+      "etymology_hint": "Plural of Old English 'clāth' meaning 'cloth, garment'",
+      "mnemonic_vi": "CLOTH (vải) + ES: gom nhiều miếng VẢI lại thành 'CLOTHES' = quần áo"
+    },
+    {
+      "word": "shirt",
+      "lemma": "shirt",
+      "ipa": "/ʃɜːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing for the upper body, usually with buttons and a collar",
+          "meaning_vi": "áo sơ mi; áo khoác phần thân trên có cúc và cổ",
+          "examples": [
+            {
+              "en": "He wears a white shirt and tie to the office every day.",
+              "vi": "Anh ấy mặc áo sơ mi trắng và đeo cà vạt đi làm mỗi ngày."
+            },
+            {
+              "en": "My favourite shirt has small flowers on the sleeves.",
+              "vi": "Chiếc áo sơ mi tôi thích nhất có hoa nhỏ trên tay áo."
+            },
+            {
+              "en": "Please iron my shirt before the wedding tomorrow.",
+              "vi": "Hãy là giúp tôi cái áo sơ mi trước đám cưới ngày mai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["blouse", "top"],
+      "antonyms": [],
+      "collocations": [
+        "white shirt",
+        "iron a shirt",
+        "T-shirt",
+        "polo shirt",
+        "long-sleeved shirt"
+      ],
+      "etymology_hint": "From Old English 'scyrte' meaning 'short garment'",
+      "mnemonic_vi": "SHIRT đọc gần 'SỜ' — sờ tay áo SỜ MI cảm nhận chất vải mịn"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "ipa": "/dres/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of women's clothing that covers the body and part of the legs",
+          "meaning_vi": "váy liền, đầm; bộ quần áo nguyên mảnh cho nữ",
+          "examples": [
+            {
+              "en": "She wore a red dress to her sister's wedding in Hue.",
+              "vi": "Cô ấy mặc một chiếc đầm đỏ đến đám cưới chị gái ở Huế."
+            },
+            {
+              "en": "This dress fits you perfectly — you should buy it.",
+              "vi": "Chiếc đầm này vừa với bạn lắm — bạn nên mua đi."
+            },
+            {
+              "en": "My mother sewed my áo dài and a summer dress for Tet.",
+              "vi": "Mẹ tôi may áo dài và một chiếc đầm mùa hè cho dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gown", "frock"],
+      "antonyms": [],
+      "collocations": [
+        "wedding dress",
+        "summer dress",
+        "evening dress",
+        "long dress",
+        "fit a dress"
+      ],
+      "etymology_hint": "From Old French 'dresser' meaning 'to arrange, prepare'",
+      "mnemonic_vi": "DRESS đọc 'đrét' — cô gái khoác đầm xinh, đi DUYÊN DÁNG như công chúa"
+    },
+    {
+      "word": "skirt",
+      "lemma": "skirt",
+      "ipa": "/skɜːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing for women or girls that hangs from the waist",
+          "meaning_vi": "chân váy; váy ngắn xoè từ thắt lưng xuống",
+          "examples": [
+            {
+              "en": "Lan wore a long skirt and a white blouse to work today.",
+              "vi": "Lan mặc chân váy dài và áo cánh trắng đi làm hôm nay."
+            },
+            {
+              "en": "Short skirts are not allowed at our school.",
+              "vi": "Trường tôi không cho phép mặc váy ngắn."
+            },
+            {
+              "en": "She matched a denim skirt with a simple T-shirt.",
+              "vi": "Cô ấy phối chân váy jean với áo phông đơn giản."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["long skirt", "short skirt", "mini skirt", "pleated skirt", "denim skirt"],
+      "etymology_hint": "From Old Norse 'skyrta' meaning 'shirt' — originally any garment around the lower body",
+      "mnemonic_vi": "SKIRT đọc 'sờ-cợt' — chân váy SỜ vào CỘT cờ vì xoè ra quá rộng"
+    },
+    {
+      "word": "shoe",
+      "lemma": "shoe",
+      "ipa": "/ʃuː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a covering for the foot, usually made of leather or strong cloth",
+          "meaning_vi": "giày; vật để xỏ vào chân khi đi lại",
+          "examples": [
+            {
+              "en": "I need a new pair of shoes for running in the park.",
+              "vi": "Tôi cần một đôi giày mới để chạy bộ trong công viên."
+            },
+            {
+              "en": "Please take off your shoes before entering the house.",
+              "vi": "Vui lòng cởi giày trước khi vào nhà."
+            },
+            {
+              "en": "These shoes are too tight — I'll exchange them tomorrow.",
+              "vi": "Đôi giày này chật quá — mai tôi sẽ đi đổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["footwear"],
+      "antonyms": [],
+      "collocations": [
+        "pair of shoes",
+        "running shoes",
+        "leather shoes",
+        "take off shoes",
+        "tie shoes"
+      ],
+      "etymology_hint": "From Old English 'scōh', cognate with German 'Schuh'",
+      "mnemonic_vi": "SHOE đọc 'su' — đi chợ phải 'SỬ' dụng đôi SHOE để xuống xuồng cho khỏi ướt chân"
+    },
+    {
+      "word": "hat",
+      "lemma": "hat",
+      "ipa": "/hæt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing worn on the head",
+          "meaning_vi": "mũ, nón; vật đội đầu để che nắng hoặc trang trí",
+          "examples": [
+            {
+              "en": "Wear a hat — the sun in Nha Trang is really strong.",
+              "vi": "Đội mũ vào — nắng Nha Trang gắt lắm đấy."
+            },
+            {
+              "en": "My grandmother knitted a wool hat for my birthday.",
+              "vi": "Bà tôi đan một chiếc mũ len cho sinh nhật tôi."
+            },
+            {
+              "en": "The cowboy hat looked funny on his small head.",
+              "vi": "Chiếc mũ cao bồi trông buồn cười trên cái đầu nhỏ của anh ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cap", "headgear"],
+      "antonyms": [],
+      "collocations": ["wear a hat", "straw hat", "wool hat", "take off a hat", "cowboy hat"],
+      "etymology_hint": "From Old English 'hætt', from Proto-Germanic '*hattuz' meaning 'hood'",
+      "mnemonic_vi": "HAT đọc 'hét' — đội mũ rồi mà bạn vẫn HÉT lên 'nắng quá!'"
+    },
+    {
+      "word": "coat",
+      "lemma": "coat",
+      "ipa": "/kəʊt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing with long sleeves that you wear over other clothes, especially when it is cold",
+          "meaning_vi": "áo khoác dài; áo mặc ngoài giữ ấm",
+          "examples": [
+            {
+              "en": "She put on her coat before going out into the cold Hanoi air.",
+              "vi": "Cô ấy mặc áo khoác trước khi ra ngoài cái lạnh Hà Nội."
+            },
+            {
+              "en": "This long coat keeps me warm during winter trips to Da Lat.",
+              "vi": "Cái áo khoác dài này giữ ấm tôi trong các chuyến đi Đà Lạt mùa đông."
+            },
+            {
+              "en": "Hang your coat on the rack near the door, please.",
+              "vi": "Treo áo khoác lên giá gần cửa giúp tôi nhé."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overcoat", "jacket"],
+      "antonyms": [],
+      "collocations": ["winter coat", "long coat", "fur coat", "put on a coat", "raincoat"],
+      "etymology_hint": "From Old French 'cote' meaning 'tunic'",
+      "mnemonic_vi": "COAT đọc 'cốt' — áo khoác là 'CỐT' lõi mùa đông, không có là rét xanh mặt"
+    },
+    {
+      "word": "sock",
+      "lemma": "sock",
+      "ipa": "/sɒk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing that covers the foot and lower leg, worn inside shoes",
+          "meaning_vi": "tất, vớ; thứ mang ở chân bên trong giày",
+          "examples": [
+            {
+              "en": "Mum always buys me new socks for the cold season.",
+              "vi": "Mẹ luôn mua tất mới cho tôi vào mùa lạnh."
+            },
+            {
+              "en": "One of my socks is missing again after the laundry.",
+              "vi": "Lại mất một chiếc tất sau khi giặt rồi."
+            },
+            {
+              "en": "Children love socks with cartoon characters on them.",
+              "vi": "Trẻ con thích những đôi tất có hình nhân vật hoạt hình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stocking"],
+      "antonyms": [],
+      "collocations": ["pair of socks", "wool socks", "ankle socks", "wear socks", "put on socks"],
+      "etymology_hint": "From Old English 'socc' meaning 'light slipper'",
+      "mnemonic_vi": "SOCK đọc 'sốc' — chân lạnh quá thì 'SỐC' đến mức phải đi tất ngay"
+    },
+    {
+      "word": "jeans",
+      "lemma": "jeans",
+      "ipa": "/dʒiːnz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "trousers made of strong cotton cloth called denim",
+          "meaning_vi": "quần bò, quần jean; quần bằng vải denim chắc",
+          "examples": [
+            {
+              "en": "I wear jeans almost every day because they're comfortable.",
+              "vi": "Tôi mặc quần jean gần như mỗi ngày vì rất thoải mái."
+            },
+            {
+              "en": "Her blue jeans go well with that white shirt.",
+              "vi": "Quần jean xanh của cô ấy hợp với cái áo sơ mi trắng đó."
+            },
+            {
+              "en": "Skinny jeans are popular among young people in Saigon.",
+              "vi": "Quần jean ôm rất được giới trẻ Sài Gòn ưa chuộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["denims"],
+      "antonyms": [],
+      "collocations": [
+        "blue jeans",
+        "skinny jeans",
+        "ripped jeans",
+        "pair of jeans",
+        "denim jeans"
+      ],
+      "etymology_hint": "From 'Genoa' — Italian city where the strong cotton cloth was first made",
+      "mnemonic_vi": "JEANS đọc 'gin' — uống một ly GIN xong nhảy nhót thoải mái trong cái quần JEANS"
+    },
+    {
+      "word": "size",
+      "lemma": "size",
+      "ipa": "/saɪz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "how big or small something is; a measurement used for clothes and shoes",
+          "meaning_vi": "kích cỡ; số đo dùng cho quần áo, giày dép",
+          "examples": [
+            {
+              "en": "What size shirt do you wear — M or L?",
+              "vi": "Bạn mặc áo sơ mi cỡ nào — M hay L?"
+            },
+            {
+              "en": "This shoe size is too small for my foot.",
+              "vi": "Cỡ giày này nhỏ quá so với chân tôi."
+            },
+            {
+              "en": "The size of the room is just right for two people.",
+              "vi": "Kích thước căn phòng này vừa đủ cho hai người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["measurement", "dimension"],
+      "antonyms": [],
+      "collocations": ["shoe size", "wrong size", "right size", "small size", "the same size"],
+      "etymology_hint": "From Old French 'sise', short for 'assise' meaning 'a setting, fixing'",
+      "mnemonic_vi": "SIZE đọc 'sai' — chọn SIZE 'SAI' là về phải đi đổi liền"
+    },
+    {
+      "word": "trousers",
+      "lemma": "trousers",
+      "ipa": "/ˈtraʊ.zəz/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing that covers the legs and the lower part of the body, with separate parts for each leg",
+          "meaning_vi": "quần dài; quần che hai chân, kiểu dài thẳng",
+          "examples": [
+            {
+              "en": "He always wears black trousers to the office.",
+              "vi": "Anh ấy luôn mặc quần đen đi làm."
+            },
+            {
+              "en": "These trousers are too long — I need to shorten them.",
+              "vi": "Quần này dài quá — tôi cần lên lai."
+            },
+            {
+              "en": "I bought a pair of grey trousers at the tailor on Hàng Bông Street.",
+              "vi": "Tôi may một chiếc quần xám ở tiệm may trên phố Hàng Bông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pants", "slacks"],
+      "antonyms": [],
+      "collocations": [
+        "pair of trousers",
+        "black trousers",
+        "long trousers",
+        "wear trousers",
+        "school trousers"
+      ],
+      "etymology_hint": "From Irish 'triús' meaning 'close-fitting shorts', via 'trouse'",
+      "mnemonic_vi": "TROU (trau) + SERS: 'TRAU' chuốt cẩn thận chiếc quần dài trước khi đi phỏng vấn"
+    },
+    {
+      "word": "jacket",
+      "lemma": "jacket",
+      "ipa": "/ˈdʒæk.ɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short coat with sleeves that ends at the waist or hips",
+          "meaning_vi": "áo khoác ngắn; áo mặc ngoài kiểu ngắn đến eo hoặc hông",
+          "examples": [
+            {
+              "en": "He zipped up his jacket because the wind was cold.",
+              "vi": "Anh ấy kéo khoá áo khoác lại vì gió lạnh."
+            },
+            {
+              "en": "My leather jacket was a gift from my older brother.",
+              "vi": "Cái áo khoác da của tôi là quà của anh trai."
+            },
+            {
+              "en": "Bring a jacket — Da Lat gets chilly at night.",
+              "vi": "Mang áo khoác đi — Đà Lạt đêm lạnh đấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["blazer", "coat"],
+      "antonyms": [],
+      "collocations": [
+        "leather jacket",
+        "denim jacket",
+        "zip up a jacket",
+        "winter jacket",
+        "life jacket"
+      ],
+      "etymology_hint": "From Old French 'jaquette', diminutive of 'jaque' (a tunic)",
+      "mnemonic_vi": "JACKET đọc 'giấc-két' — 'GIẤC' nồng trong áo khoác ấm như đang ngủ trong KÉT sắt an toàn"
+    },
+    {
+      "word": "belt",
+      "lemma": "belt",
+      "ipa": "/belt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long thin piece of leather or cloth that you wear around your waist",
+          "meaning_vi": "thắt lưng, dây nịt; dải dài đeo quanh eo",
+          "examples": [
+            {
+              "en": "My father gave me a leather belt for my birthday.",
+              "vi": "Bố tặng tôi một chiếc thắt lưng da nhân sinh nhật."
+            },
+            {
+              "en": "Please fasten your seat belt before the bus moves.",
+              "vi": "Vui lòng cài dây an toàn trước khi xe khách chạy."
+            },
+            {
+              "en": "This belt is too tight after Tet feasting.",
+              "vi": "Cái thắt lưng này chật quá sau mấy ngày ăn Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sash", "girdle"],
+      "antonyms": [],
+      "collocations": [
+        "leather belt",
+        "seat belt",
+        "tighten a belt",
+        "loosen a belt",
+        "fasten a belt"
+      ],
+      "etymology_hint": "From Old English 'belt', from Latin 'balteus' meaning 'sword belt'",
+      "mnemonic_vi": "BELT đọc 'beo' — siết BELT chặt như BEO ôm con mồi"
+    },
+    {
+      "word": "shorts",
+      "lemma": "shorts",
+      "ipa": "/ʃɔːts/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "short trousers that end above the knee",
+          "meaning_vi": "quần đùi, quần soóc; quần ngắn trên đầu gối",
+          "examples": [
+            {
+              "en": "In summer, most boys wear shorts to school.",
+              "vi": "Vào mùa hè, hầu hết các bạn nam mặc quần soóc đi học."
+            },
+            {
+              "en": "He plays football in old shorts and a worn T-shirt.",
+              "vi": "Anh ấy đá bóng với cái quần đùi cũ và áo phông sờn."
+            },
+            {
+              "en": "These swimming shorts are perfect for the beach in Da Nang.",
+              "vi": "Đôi quần bơi này hoàn hảo cho biển Đà Nẵng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["short pants"],
+      "antonyms": ["trousers"],
+      "collocations": [
+        "pair of shorts",
+        "swimming shorts",
+        "running shorts",
+        "denim shorts",
+        "wear shorts"
+      ],
+      "etymology_hint": "Plural of 'short' — clipping of 'short trousers'",
+      "mnemonic_vi": "SHORTS đọc 'soóc' — y chang tiếng Việt vay từ Pháp 'short' = 'SOÓC' luôn"
+    },
+    {
+      "word": "suit",
+      "lemma": "suit",
+      "ipa": "/suːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a set of clothes made from the same material, usually a jacket with trousers or a skirt",
+          "meaning_vi": "bộ vest; bộ đồ cùng vải gồm áo khoác và quần (hoặc váy)",
+          "examples": [
+            {
+              "en": "He bought a dark blue suit for the job interview.",
+              "vi": "Anh ấy mua một bộ vest xanh đậm cho buổi phỏng vấn."
+            },
+            {
+              "en": "The groom wore a black suit at the wedding.",
+              "vi": "Chú rể mặc bộ vest đen tại đám cưới."
+            },
+            {
+              "en": "This suit needs to be dry-cleaned before Monday.",
+              "vi": "Bộ vest này cần được giặt khô trước thứ Hai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outfit", "ensemble"],
+      "antonyms": [],
+      "collocations": [
+        "business suit",
+        "wear a suit",
+        "tailored suit",
+        "swimsuit",
+        "three-piece suit"
+      ],
+      "etymology_hint": "From Old French 'siute' meaning 'a following', later 'a set of matching items'",
+      "mnemonic_vi": "SUIT đọc 'sút' — diện bộ vest đẹp đến mức bị thị trường tuyển dụng 'SÚT' đối thủ ra ngoài"
+    },
+    {
+      "word": "scarf",
+      "lemma": "scarf",
+      "ipa": "/skɑːf/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of cloth worn around the neck, head or shoulders for warmth or decoration",
+          "meaning_vi": "khăn quàng, khăn choàng; vải quàng cổ, đầu hoặc vai",
+          "examples": [
+            {
+              "en": "She wrapped a warm scarf around her neck before going out.",
+              "vi": "Cô ấy quàng chiếc khăn ấm quanh cổ trước khi ra ngoài."
+            },
+            {
+              "en": "My grandmother gave me a silk scarf from Van Phuc village.",
+              "vi": "Bà tôi tặng tôi một chiếc khăn lụa từ làng Vạn Phúc."
+            },
+            {
+              "en": "He matched a red scarf with his grey coat.",
+              "vi": "Anh ấy phối khăn quàng đỏ với áo khoác xám."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shawl", "wrap"],
+      "antonyms": [],
+      "collocations": ["silk scarf", "wool scarf", "wrap a scarf", "winter scarf", "wear a scarf"],
+      "etymology_hint": "From Old Northern French 'escarpe' meaning 'sash, sling'",
+      "mnemonic_vi": "SCARF đọc 'sờ-cáp' — 'SỜ' chiếc khăn 'CÁP' chặt vào cổ cho ấm"
+    },
+    {
+      "word": "glove",
+      "lemma": "glove",
+      "ipa": "/ɡlʌv/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of clothing that covers the hand and each finger separately",
+          "meaning_vi": "găng tay; vật bọc tay có ngăn cho từng ngón",
+          "examples": [
+            {
+              "en": "Don't forget your gloves — Hanoi mornings are freezing.",
+              "vi": "Đừng quên găng tay — sáng Hà Nội rét lắm."
+            },
+            {
+              "en": "The doctor put on a pair of rubber gloves before the exam.",
+              "vi": "Bác sĩ đeo găng tay cao su trước khi khám."
+            },
+            {
+              "en": "These leather gloves were a gift from my cousin.",
+              "vi": "Đôi găng tay da này là quà của em họ tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mitten"],
+      "antonyms": [],
+      "collocations": [
+        "pair of gloves",
+        "leather gloves",
+        "rubber gloves",
+        "boxing gloves",
+        "wear gloves"
+      ],
+      "etymology_hint": "From Old English 'glōf', cognate with Old Norse 'glōfi'",
+      "mnemonic_vi": "GLOVE đọc 'gờ-lốp' — đeo GLOVE vào tay rồi 'LỐP BỐP' vỗ tay cho ấm"
+    },
+    {
+      "word": "uniform",
+      "lemma": "uniform",
+      "ipa": "/ˈjuː.nɪ.fɔːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a special set of clothes that all members of a group wear, such as students or soldiers",
+          "meaning_vi": "đồng phục; bộ quần áo giống nhau của một nhóm",
+          "examples": [
+            {
+              "en": "All Vietnamese students wear a white uniform on Mondays.",
+              "vi": "Tất cả học sinh Việt Nam mặc đồng phục trắng vào thứ Hai."
+            },
+            {
+              "en": "The nurses' uniforms are blue at this hospital.",
+              "vi": "Đồng phục y tá ở bệnh viện này màu xanh."
+            },
+            {
+              "en": "He proudly wore his military uniform at the parade.",
+              "vi": "Anh ấy tự hào mặc quân phục trong lễ duyệt binh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outfit", "kit"],
+      "antonyms": ["casual wear"],
+      "collocations": [
+        "school uniform",
+        "military uniform",
+        "wear a uniform",
+        "nurses' uniform",
+        "in uniform"
+      ],
+      "etymology_hint": "From Latin 'uniformis' = 'uni' (one) + 'forma' (form, shape)",
+      "mnemonic_vi": "UNI (một) + FORM (kiểu): 'một kiểu' giống nhau = đồng phục"
+    },
+    {
+      "word": "fashion",
+      "lemma": "fashion",
+      "ipa": "/ˈfæʃ.ən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a popular way of dressing or behaving at a particular time",
+          "meaning_vi": "thời trang; phong cách ăn mặc thịnh hành",
+          "examples": [
+            {
+              "en": "She follows the latest fashion from Korea.",
+              "vi": "Cô ấy theo dõi xu hướng thời trang mới nhất từ Hàn Quốc."
+            },
+            {
+              "en": "Bell-bottom trousers came back into fashion last year.",
+              "vi": "Quần ống loe đã quay lại thành mốt năm ngoái."
+            },
+            {
+              "en": "Vietnamese áo dài is timeless fashion.",
+              "vi": "Áo dài Việt Nam là thời trang không bao giờ lỗi mốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["style", "trend", "vogue"],
+      "antonyms": ["unfashionable"],
+      "collocations": [
+        "latest fashion",
+        "in fashion",
+        "out of fashion",
+        "fashion show",
+        "fashion designer"
+      ],
+      "etymology_hint": "From Old French 'fachon' meaning 'a making, shape, way'",
+      "mnemonic_vi": "FASHION đọc 'phe-shần' — 'PHE' người trẻ thì thường chạy theo FASHION mỗi mùa"
+    },
+    {
+      "word": "style",
+      "lemma": "style",
+      "ipa": "/staɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a particular way of dressing, doing something, or designing something",
+          "meaning_vi": "phong cách, kiểu dáng; cách thể hiện riêng",
+          "examples": [
+            {
+              "en": "Her style is simple but elegant.",
+              "vi": "Phong cách của cô ấy đơn giản nhưng thanh lịch."
+            },
+            {
+              "en": "I love the style of this old French villa in Hanoi.",
+              "vi": "Tôi thích kiểu dáng của ngôi biệt thự Pháp cổ này ở Hà Nội."
+            },
+            {
+              "en": "He writes in a very personal style.",
+              "vi": "Anh ấy viết theo một phong cách rất riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["manner", "fashion", "way"],
+      "antonyms": [],
+      "collocations": ["personal style", "in style", "lifestyle", "hairstyle", "out of style"],
+      "etymology_hint": "From Latin 'stilus' meaning 'pointed writing tool' — later 'manner of writing'",
+      "mnemonic_vi": "STYLE đọc 'sờ-tai' — STYLE mới khiến ai cũng 'SỜ' và khen 'TÀI' của bạn"
+    }
+  ]
+}

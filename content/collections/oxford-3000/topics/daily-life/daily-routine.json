@@ -1,0 +1,694 @@
+{
+  "slug": "daily-routine",
+  "name": "Daily Routine",
+  "description": "Các hoạt động và thời điểm trong sinh hoạt hằng ngày.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "wake up",
+      "lemma": "wake up",
+      "ipa": "/ˌweɪk ˈʌp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to stop sleeping and become conscious again",
+          "meaning_vi": "thức dậy, tỉnh giấc; ngừng ngủ và mở mắt ra",
+          "examples": [
+            {
+              "en": "I wake up at six o'clock every morning.",
+              "vi": "Tôi thức dậy lúc sáu giờ mỗi sáng."
+            },
+            {
+              "en": "The alarm clock woke me up at five.",
+              "vi": "Đồng hồ báo thức đánh thức tôi lúc năm giờ."
+            },
+            {
+              "en": "Don't wake up the baby — she just fell asleep.",
+              "vi": "Đừng đánh thức em bé — bé vừa ngủ thiếp đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["get up", "rise", "awaken"],
+      "antonyms": ["fall asleep", "go to sleep"],
+      "collocations": [
+        "wake up early",
+        "wake up late",
+        "wake up refreshed",
+        "wake somebody up",
+        "wake up to (a sound)"
+      ],
+      "etymology_hint": "Phrasal verb: 'wake' (Old English 'wacian' = be awake) + 'up' (upward, ending the state of sleep)",
+      "mnemonic_vi": "WAKE UP đọc 'guệch áp' — sáng dậy thì mặt 'GUỆCH' ra và 'ÁP' tay lên đồng hồ tắt báo thức"
+    },
+    {
+      "word": "sleep",
+      "lemma": "sleep",
+      "ipa": "/sliːp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to rest with your eyes closed and your mind unconscious",
+          "meaning_vi": "ngủ; nằm nhắm mắt nghỉ ngơi không nhận thức",
+          "examples": [
+            {
+              "en": "I usually sleep eight hours a night.",
+              "vi": "Tôi thường ngủ tám tiếng mỗi đêm."
+            },
+            {
+              "en": "The cat is sleeping on my homework again.",
+              "vi": "Con mèo lại đang ngủ trên bài tập của tôi."
+            },
+            {
+              "en": "He slept badly because of the noisy neighbours.",
+              "vi": "Anh ấy ngủ không ngon vì hàng xóm ồn ào."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nap", "rest", "doze"],
+      "antonyms": ["wake up", "stay awake"],
+      "collocations": ["sleep well", "sleep tight", "go to sleep", "deep sleep", "sleep over"],
+      "etymology_hint": "From Old English 'slǣpan', cognate with German 'schlafen'",
+      "mnemonic_vi": "SLEEP đọc 'sờ-líp' — chui vào 'LÍP' (slip) chăn ấm rồi SLEEP ngon lành"
+    },
+    {
+      "word": "eat",
+      "lemma": "eat",
+      "ipa": "/iːt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to put food in your mouth, chew and swallow it",
+          "meaning_vi": "ăn; đưa thức ăn vào miệng, nhai và nuốt",
+          "examples": [
+            {
+              "en": "We eat phở for breakfast almost every Sunday.",
+              "vi": "Chúng tôi gần như Chủ nhật nào cũng ăn phở sáng."
+            },
+            {
+              "en": "Don't eat too much sugar — it's bad for your teeth.",
+              "vi": "Đừng ăn quá nhiều đường — hại răng đấy."
+            },
+            {
+              "en": "She ate the last piece of bánh mì.",
+              "vi": "Cô ấy ăn miếng bánh mì cuối cùng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consume", "have", "devour"],
+      "antonyms": ["fast", "starve"],
+      "collocations": ["eat breakfast", "eat out", "eat up", "something to eat", "eat healthy"],
+      "etymology_hint": "From Old English 'etan', cognate with Latin 'edere' and Greek 'edein'",
+      "mnemonic_vi": "EAT đọc 'ít' — ăn 'ÍT' lại thì giảm cân, ăn nhiều thì lên cân"
+    },
+    {
+      "word": "drink",
+      "lemma": "drink",
+      "ipa": "/drɪŋk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to take liquid into your mouth and swallow it",
+          "meaning_vi": "uống; đưa chất lỏng vào miệng và nuốt",
+          "examples": [
+            {
+              "en": "You should drink at least two litres of water a day.",
+              "vi": "Bạn nên uống ít nhất hai lít nước mỗi ngày."
+            },
+            {
+              "en": "He drinks black coffee every morning.",
+              "vi": "Anh ấy uống cà phê đen mỗi sáng."
+            },
+            {
+              "en": "Don't drink and drive — it's dangerous.",
+              "vi": "Đừng uống rượu rồi lái xe — nguy hiểm lắm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sip", "gulp", "swallow"],
+      "antonyms": [],
+      "collocations": ["drink water", "drink coffee", "drink up", "have a drink", "drink alcohol"],
+      "etymology_hint": "From Old English 'drincan', cognate with German 'trinken'",
+      "mnemonic_vi": "DRINK đọc 'đờ-rinh' — uống 'ĐỜ' mặt vì say, tay 'RINH' theo tiếng nhạc"
+    },
+    {
+      "word": "brush",
+      "lemma": "brush",
+      "ipa": "/brʌʃ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to clean or tidy something using a brush",
+          "meaning_vi": "chải, đánh; làm sạch bằng bàn chải",
+          "examples": [
+            { "en": "Brush your teeth before going to bed.", "vi": "Đánh răng trước khi đi ngủ." },
+            {
+              "en": "She brushes her long hair every morning.",
+              "vi": "Cô ấy chải tóc dài mỗi sáng."
+            },
+            {
+              "en": "He brushed the dust off his old jacket.",
+              "vi": "Anh ấy phủi bụi khỏi cái áo khoác cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["comb", "sweep"],
+      "antonyms": [],
+      "collocations": ["brush teeth", "brush hair", "brush off", "brush aside", "hairbrush"],
+      "etymology_hint": "From Old French 'broisse', possibly from 'broce' meaning 'brushwood, thicket'",
+      "mnemonic_vi": "BRUSH đọc 'bờ-rật' — kéo 'BƠ' rồi 'RẬT' tay cầm bàn chải lên xuống = chải"
+    },
+    {
+      "word": "leave",
+      "lemma": "leave",
+      "ipa": "/liːv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to go away from a place or person",
+          "meaning_vi": "rời đi, rời khỏi; đi khỏi một nơi hoặc một người",
+          "examples": [
+            {
+              "en": "I leave home at seven every weekday.",
+              "vi": "Tôi rời nhà lúc bảy giờ vào các ngày trong tuần."
+            },
+            {
+              "en": "What time does the bus leave for Hai Phong?",
+              "vi": "Xe khách rời đi Hải Phòng lúc mấy giờ?"
+            },
+            { "en": "She left her umbrella at the café.", "vi": "Cô ấy để quên ô ở quán cà phê." }
+          ]
+        }
+      ],
+      "synonyms": ["depart", "go", "exit"],
+      "antonyms": ["arrive", "stay", "return"],
+      "collocations": ["leave home", "leave work", "leave behind", "leave for", "leave a message"],
+      "etymology_hint": "From Old English 'lǣfan' meaning 'to allow to remain, leave behind'",
+      "mnemonic_vi": "LEAVE đọc 'líp' — ai cũng có một 'LÍP' (lip = môi) chào tạm biệt trước khi LEAVE"
+    },
+    {
+      "word": "morning",
+      "lemma": "morning",
+      "ipa": "/ˈmɔː.nɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the early part of the day, from when the sun rises until midday",
+          "meaning_vi": "buổi sáng; thời gian từ khi mặt trời mọc đến trưa",
+          "examples": [
+            {
+              "en": "Good morning! How did you sleep?",
+              "vi": "Chào buổi sáng! Bạn ngủ ngon không?"
+            },
+            {
+              "en": "I drink hot tea every morning before work.",
+              "vi": "Tôi uống trà nóng mỗi sáng trước khi đi làm."
+            },
+            {
+              "en": "The morning market in Hanoi is busiest at six.",
+              "vi": "Chợ sáng Hà Nội đông nhất vào lúc sáu giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dawn", "AM"],
+      "antonyms": ["night", "evening"],
+      "collocations": [
+        "good morning",
+        "early morning",
+        "in the morning",
+        "morning coffee",
+        "tomorrow morning"
+      ],
+      "etymology_hint": "From Middle English 'morwening', from 'morwen' (Old English 'morgen' = morning) + '-ing'",
+      "mnemonic_vi": "MORNING đọc 'mo-ninh' — sáng sớm 'MO' (mở) cửa rồi 'NINH' nước nấu cháo"
+    },
+    {
+      "word": "afternoon",
+      "lemma": "afternoon",
+      "ipa": "/ˌɑːf.təˈnuːn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the day between midday and evening",
+          "meaning_vi": "buổi chiều; thời gian từ trưa đến tối",
+          "examples": [
+            {
+              "en": "Let's meet at three in the afternoon.",
+              "vi": "Mình hẹn gặp lúc ba giờ chiều nhé."
+            },
+            {
+              "en": "It often rains in the afternoon in Saigon.",
+              "vi": "Sài Gòn thường mưa vào buổi chiều."
+            },
+            {
+              "en": "She has a class on Tuesday afternoon.",
+              "vi": "Cô ấy có lớp học vào chiều thứ Ba."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["PM"],
+      "antonyms": ["morning"],
+      "collocations": [
+        "in the afternoon",
+        "good afternoon",
+        "late afternoon",
+        "yesterday afternoon",
+        "Sunday afternoon"
+      ],
+      "etymology_hint": "Compound: 'after' + 'noon' — the time after midday",
+      "mnemonic_vi": "AFTERNOON = AFTER (sau) + NOON (trưa): 'SAU TRƯA' = buổi chiều"
+    },
+    {
+      "word": "evening",
+      "lemma": "evening",
+      "ipa": "/ˈiːv.nɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the day between the afternoon and the time you go to bed",
+          "meaning_vi": "buổi tối, chiều tối; thời gian từ chiều muộn đến khi đi ngủ",
+          "examples": [
+            {
+              "en": "We eat dinner together every evening.",
+              "vi": "Chúng tôi ăn tối cùng nhau mỗi buổi tối."
+            },
+            {
+              "en": "Good evening! Welcome to our home.",
+              "vi": "Chào buổi tối! Chào mừng bạn đến nhà chúng tôi."
+            },
+            {
+              "en": "She studies English in the evening after work.",
+              "vi": "Cô ấy học tiếng Anh vào buổi tối sau giờ làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dusk", "twilight"],
+      "antonyms": ["morning"],
+      "collocations": [
+        "good evening",
+        "in the evening",
+        "evening class",
+        "tomorrow evening",
+        "Saturday evening"
+      ],
+      "etymology_hint": "From Old English 'ǣfnung', from 'ǣfen' (evening) + '-ung' suffix",
+      "mnemonic_vi": "EVENING đọc 'íp-ninh' — chiều tối thì 'ÍP' (ép) mình 'NINH' nồi cháo cho cả nhà"
+    },
+    {
+      "word": "weekend",
+      "lemma": "weekend",
+      "ipa": "/ˌwiːkˈend/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "Saturday and Sunday, the two days when most people do not work",
+          "meaning_vi": "cuối tuần; thứ Bảy và Chủ nhật, hai ngày nghỉ làm",
+          "examples": [
+            { "en": "What are you doing this weekend?", "vi": "Cuối tuần này bạn làm gì?" },
+            {
+              "en": "We always visit my grandparents on the weekend.",
+              "vi": "Chúng tôi luôn về thăm ông bà vào cuối tuần."
+            },
+            { "en": "Have a nice weekend!", "vi": "Chúc bạn cuối tuần vui vẻ!" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["weekday"],
+      "collocations": [
+        "this weekend",
+        "long weekend",
+        "weekend trip",
+        "on the weekend",
+        "every weekend"
+      ],
+      "etymology_hint": "Compound: 'week' + 'end' — coined in the 19th century as factory workers got Saturday-Sunday off",
+      "mnemonic_vi": "WEEKEND = WEEK (tuần) + END (cuối): cuối tuần là 'END' của tuần làm việc"
+    },
+    {
+      "word": "wash",
+      "lemma": "wash",
+      "ipa": "/wɒʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to clean something with water and usually soap",
+          "meaning_vi": "rửa, giặt; làm sạch bằng nước và xà phòng",
+          "examples": [
+            {
+              "en": "Wash your hands before sitting down to eat.",
+              "vi": "Rửa tay trước khi ngồi vào ăn."
+            },
+            {
+              "en": "I need to wash my clothes this evening.",
+              "vi": "Tối nay tôi cần giặt quần áo."
+            },
+            {
+              "en": "She washes the dishes after every meal.",
+              "vi": "Cô ấy rửa bát sau mỗi bữa ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clean", "rinse", "scrub"],
+      "antonyms": ["dirty"],
+      "collocations": ["wash hands", "wash clothes", "wash up", "washing machine", "wash dishes"],
+      "etymology_hint": "From Old English 'wascan', cognate with German 'waschen'",
+      "mnemonic_vi": "WASH đọc 'goắt' — 'QUẮT' chiếc khăn ra ngoài rồi vò xà phòng, đó là WASH"
+    },
+    {
+      "word": "shower",
+      "lemma": "shower",
+      "ipa": "/ˈʃaʊ.ə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an act of washing your body while standing under a flow of water; a piece of equipment for this",
+          "meaning_vi": "vòi sen; lần tắm vòi sen; sự tắm dưới dòng nước chảy",
+          "examples": [
+            {
+              "en": "I take a shower every morning before work.",
+              "vi": "Tôi tắm vòi sen mỗi sáng trước khi đi làm."
+            },
+            {
+              "en": "Our new shower has both hot and cold water.",
+              "vi": "Vòi sen mới của nhà tôi có cả nước nóng và nước lạnh."
+            },
+            {
+              "en": "A quick shower wakes me up better than coffee.",
+              "vi": "Tắm nhanh giúp tôi tỉnh hơn cả uống cà phê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bath", "wash"],
+      "antonyms": [],
+      "collocations": [
+        "take a shower",
+        "have a shower",
+        "hot shower",
+        "cold shower",
+        "shower curtain"
+      ],
+      "etymology_hint": "From Old English 'scūr' meaning 'a brief rain', extended to mean 'spray of water'",
+      "mnemonic_vi": "SHOWER đọc 'sao-ờ' — đứng dưới SHOWER 'SAO Ờ' nước chảy như mưa rào"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "ipa": "/dres/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to put clothes on yourself or someone else",
+          "meaning_vi": "mặc quần áo; mặc đồ cho mình hoặc người khác",
+          "examples": [
+            {
+              "en": "She dresses smartly for work every day.",
+              "vi": "Cô ấy ăn mặc lịch sự đi làm mỗi ngày."
+            },
+            {
+              "en": "He dressed his son before taking him to school.",
+              "vi": "Anh ấy mặc đồ cho con trước khi đưa đi học."
+            },
+            {
+              "en": "Dress warmly — Hanoi is cold tonight.",
+              "vi": "Mặc ấm vào — Hà Nội tối nay lạnh đấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wear", "clothe", "put on"],
+      "antonyms": ["undress"],
+      "collocations": ["get dressed", "dress up", "dress warmly", "well-dressed", "dress code"],
+      "etymology_hint": "From Old French 'dresser' meaning 'to arrange, prepare'",
+      "mnemonic_vi": "DRESS đọc 'đrét' — buổi sáng 'ĐỜ' mắt cũng phải DRESS đẹp đi làm"
+    },
+    {
+      "word": "return",
+      "lemma": "return",
+      "ipa": "/rɪˈtɜːn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to come or go back to a place where you were before",
+          "meaning_vi": "quay về, trở về; trở lại nơi mình đã ở trước đó",
+          "examples": [
+            { "en": "I will return home after the meeting.", "vi": "Tôi sẽ về nhà sau buổi họp." },
+            {
+              "en": "She returned the book to the library yesterday.",
+              "vi": "Cô ấy trả sách cho thư viện hôm qua."
+            },
+            {
+              "en": "When will you return from your business trip?",
+              "vi": "Bao giờ bạn trở về từ chuyến công tác?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["come back", "go back", "give back"],
+      "antonyms": ["leave", "depart"],
+      "collocations": [
+        "return home",
+        "return to work",
+        "in return",
+        "return ticket",
+        "return a call"
+      ],
+      "etymology_hint": "From Old French 'retorner' = 're-' (back) + 'torner' (turn)",
+      "mnemonic_vi": "RETURN = RE (lại) + TURN (xoay): xoay người TRỞ LẠI = về"
+    },
+    {
+      "word": "rest",
+      "lemma": "rest",
+      "ipa": "/rest/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to stop doing something and relax for a while",
+          "meaning_vi": "nghỉ ngơi; tạm ngừng hoạt động để thư giãn",
+          "examples": [
+            {
+              "en": "Let's rest for ten minutes before climbing again.",
+              "vi": "Mình nghỉ mười phút rồi leo tiếp nhé."
+            },
+            {
+              "en": "She is resting at home after the long trip.",
+              "vi": "Cô ấy đang nghỉ ở nhà sau chuyến đi dài."
+            },
+            {
+              "en": "Doctors say we should rest when we feel sick.",
+              "vi": "Bác sĩ nói nên nghỉ ngơi khi cảm thấy ốm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relax", "pause", "take a break"],
+      "antonyms": ["work", "exert"],
+      "collocations": ["rest at home", "have a rest", "rest in bed", "rest area", "rest day"],
+      "etymology_hint": "From Old English 'ræst' meaning 'rest, sleep'",
+      "mnemonic_vi": "REST đọc 'rét' — nằm 'RỤT' chăn lại nghỉ ngơi cho ấm"
+    },
+    {
+      "word": "relax",
+      "lemma": "relax",
+      "ipa": "/rɪˈlæks/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to stop feeling worried or tense and become calm",
+          "meaning_vi": "thư giãn; ngừng lo lắng và cảm thấy thoải mái",
+          "examples": [
+            {
+              "en": "I relax by listening to music after work.",
+              "vi": "Tôi thư giãn bằng cách nghe nhạc sau giờ làm."
+            },
+            {
+              "en": "Take a deep breath and try to relax.",
+              "vi": "Hít thở sâu và cố gắng thư giãn."
+            },
+            {
+              "en": "We went to a homestay in Mai Chau to relax.",
+              "vi": "Chúng tôi đến homestay ở Mai Châu để thư giãn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unwind", "chill", "calm down"],
+      "antonyms": ["worry", "tense up"],
+      "collocations": [
+        "relax at home",
+        "completely relax",
+        "relax with friends",
+        "help you relax",
+        "just relax"
+      ],
+      "etymology_hint": "From Latin 'relaxare' = 're-' (back) + 'laxare' (loosen)",
+      "mnemonic_vi": "RELAX đọc 'ri-lắc' — nằm 'LẮC' võng đong đưa = RELAX kiểu Việt"
+    },
+    {
+      "word": "exercise",
+      "lemma": "exercise",
+      "ipa": "/ˈek.sə.saɪz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to do physical activities to make your body strong and healthy",
+          "meaning_vi": "tập thể dục; vận động cơ thể để khỏe mạnh",
+          "examples": [
+            {
+              "en": "She exercises at Hoan Kiem Lake every morning.",
+              "vi": "Cô ấy tập thể dục ở Hồ Hoàn Kiếm mỗi sáng."
+            },
+            {
+              "en": "Doctors say we should exercise three times a week.",
+              "vi": "Bác sĩ nói nên tập thể dục ba lần một tuần."
+            },
+            {
+              "en": "He exercises with his children at the park.",
+              "vi": "Anh ấy tập thể dục cùng con ở công viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["work out", "train"],
+      "antonyms": ["rest"],
+      "collocations": [
+        "exercise regularly",
+        "physical exercise",
+        "exercise the body",
+        "exercise at the gym",
+        "morning exercise"
+      ],
+      "etymology_hint": "From Latin 'exercere' meaning 'to keep busy, practise'",
+      "mnemonic_vi": "EXERCISE đọc 'éc-sờ-sai' — tập đến mức 'ÉC SỜ' kêu lên vì 'SAI' tư thế"
+    },
+    {
+      "word": "cook",
+      "lemma": "cook",
+      "ipa": "/kʊk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to prepare food by heating it",
+          "meaning_vi": "nấu, nấu ăn; chế biến thức ăn bằng nhiệt",
+          "examples": [
+            {
+              "en": "My mother cooks the best phở in our neighbourhood.",
+              "vi": "Mẹ tôi nấu phở ngon nhất xóm."
+            },
+            { "en": "He learned to cook from his grandmother.", "vi": "Anh ấy học nấu ăn từ bà." },
+            {
+              "en": "Cook the rice for about twenty minutes.",
+              "vi": "Nấu cơm khoảng hai mươi phút."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prepare", "make"],
+      "antonyms": [],
+      "collocations": ["cook dinner", "cook well", "home-cooked", "cook for someone", "cookbook"],
+      "etymology_hint": "From Latin 'coquus' (a cook), 'coquere' meaning 'to cook'",
+      "mnemonic_vi": "COOK đọc 'cúc' — 'CÚC' chiếc áo lại rồi vào bếp COOK món ngon"
+    },
+    {
+      "word": "clean",
+      "lemma": "clean",
+      "ipa": "/kliːn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to remove dirt from something",
+          "meaning_vi": "lau dọn, làm sạch; loại bỏ bụi bẩn khỏi thứ gì đó",
+          "examples": [
+            { "en": "I clean my room every Saturday.", "vi": "Tôi dọn phòng vào mỗi thứ Bảy." },
+            {
+              "en": "She cleaned the kitchen after cooking.",
+              "vi": "Cô ấy lau dọn bếp sau khi nấu ăn."
+            },
+            {
+              "en": "Please clean your shoes before coming inside.",
+              "vi": "Vui lòng làm sạch giày trước khi vào trong."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wash", "tidy", "wipe"],
+      "antonyms": ["dirty", "soil"],
+      "collocations": [
+        "clean up",
+        "clean house",
+        "clean dishes",
+        "spring clean",
+        "clean the floor"
+      ],
+      "etymology_hint": "From Old English 'clǣne' meaning 'pure, free from dirt'",
+      "mnemonic_vi": "CLEAN đọc 'kờ-lin' — lau cho 'LINH' (lung linh) sàn nhà sáng bóng"
+    },
+    {
+      "word": "shopping",
+      "lemma": "shopping",
+      "ipa": "/ˈʃɒp.ɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the activity of buying things from shops",
+          "meaning_vi": "việc đi mua sắm; hành động mua đồ ở cửa hàng",
+          "examples": [
+            {
+              "en": "We do our shopping every Sunday at the local market.",
+              "vi": "Chúng tôi đi mua sắm mỗi Chủ nhật ở chợ gần nhà."
+            },
+            {
+              "en": "She loves shopping at AEON Mall on weekends.",
+              "vi": "Cô ấy thích đi mua sắm ở AEON Mall vào cuối tuần."
+            },
+            {
+              "en": "Online shopping is very popular in Vietnam now.",
+              "vi": "Mua sắm online giờ rất phổ biến ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["purchasing", "buying"],
+      "antonyms": [],
+      "collocations": [
+        "go shopping",
+        "do shopping",
+        "shopping mall",
+        "online shopping",
+        "shopping bag"
+      ],
+      "etymology_hint": "From 'shop' (Old English 'sceoppa' = booth) + '-ing' suffix",
+      "mnemonic_vi": "SHOPPING đọc 'sốp-ping' — cứ vào 'SỐP' (shop) là 'PING' báo tài khoản trừ tiền"
+    }
+  ]
+}

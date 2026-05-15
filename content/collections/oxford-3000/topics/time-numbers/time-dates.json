@@ -1,0 +1,655 @@
+{
+  "slug": "time-dates",
+  "name": "Time & Dates",
+  "description": "Đơn vị thời gian và ngày tháng.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "time",
+      "lemma": "time",
+      "ipa": "/taɪm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the thing that is measured in minutes, hours, days, etc.; a particular point in the day",
+          "meaning_vi": "thời gian; thời điểm; thứ được đo bằng giờ, phút, ngày",
+          "examples": [
+            { "en": "What time is it now?", "vi": "Bây giờ mấy giờ rồi?" },
+            {
+              "en": "I don't have time to cook dinner tonight.",
+              "vi": "Tối nay tôi không có thời gian nấu cơm."
+            },
+            {
+              "en": "Time flies when you are with good friends.",
+              "vi": "Thời gian trôi nhanh khi ở bên bạn bè tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["period", "moment", "duration"],
+      "antonyms": [],
+      "collocations": ["spend time", "on time", "in time", "free time", "waste time"],
+      "etymology_hint": "From Old English 'tīma', related to 'tide' — originally a measure of life or season",
+      "mnemonic_vi": "TIME đọc 'tai-mờ' — có 'TAI MỜ' đeo đồng hồ để xem TIME"
+    },
+    {
+      "word": "day",
+      "lemma": "day",
+      "ipa": "/deɪ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of 24 hours; the time between sunrise and sunset",
+          "meaning_vi": "ngày; khoảng 24 giờ; thời gian từ khi mặt trời mọc đến lặn",
+          "examples": [
+            { "en": "Have a nice day!", "vi": "Chúc một ngày tốt lành!" },
+            {
+              "en": "Every day, I walk to school with my friends.",
+              "vi": "Mỗi ngày, tôi đi bộ đến trường cùng bạn bè."
+            },
+            { "en": "It rained all day in Hue yesterday.", "vi": "Hôm qua trời mưa cả ngày ở Huế." }
+          ]
+        }
+      ],
+      "synonyms": ["date", "daytime"],
+      "antonyms": ["night"],
+      "collocations": ["every day", "all day", "the next day", "day off", "good day"],
+      "etymology_hint": "From Old English 'dæg', cognate with German 'Tag'",
+      "mnemonic_vi": "DAY đọc 'đây' — mỗi ngày đều ở 'ĐÂY' với gia đình"
+    },
+    {
+      "word": "week",
+      "lemma": "week",
+      "ipa": "/wiːk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of seven days, especially from Monday to Sunday",
+          "meaning_vi": "tuần; bảy ngày, đặc biệt từ thứ Hai đến Chủ nhật",
+          "examples": [
+            { "en": "I'll see you next week.", "vi": "Tuần sau gặp lại nhé." },
+            {
+              "en": "She visits her grandmother once a week.",
+              "vi": "Cô ấy thăm bà mỗi tuần một lần."
+            },
+            {
+              "en": "This week has been busy with exams.",
+              "vi": "Tuần này bận rộn với các kỳ thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["last week", "next week", "this week", "every week", "a week ago"],
+      "etymology_hint": "From Old English 'wicu', cognate with German 'Woche'",
+      "mnemonic_vi": "WEEK đọc 'uých' — 7 ngày 'UÝCH' qua rất nhanh"
+    },
+    {
+      "word": "month",
+      "lemma": "month",
+      "ipa": "/mʌnθ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "any of the twelve named periods that a year is divided into",
+          "meaning_vi": "tháng; một trong mười hai khoảng thời gian chia trong năm",
+          "examples": [
+            {
+              "en": "February is the shortest month of the year.",
+              "vi": "Tháng Hai là tháng ngắn nhất trong năm."
+            },
+            { "en": "My birthday is next month.", "vi": "Sinh nhật tôi vào tháng sau." },
+            {
+              "en": "He worked in Da Nang for six months.",
+              "vi": "Anh ấy làm việc ở Đà Nẵng sáu tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["last month", "next month", "every month", "a month ago", "this month"],
+      "etymology_hint": "From Old English 'mōnaþ', related to 'moon' — months were originally moon cycles",
+      "mnemonic_vi": "MONTH chứa 'MOON' (trăng) — tháng tính theo chu kỳ trăng"
+    },
+    {
+      "word": "year",
+      "lemma": "year",
+      "ipa": "/jɪə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of 365 days, from January 1 to December 31",
+          "meaning_vi": "năm; khoảng 365 ngày, từ 1 tháng 1 đến 31 tháng 12",
+          "examples": [
+            { "en": "Happy New Year!", "vi": "Chúc mừng năm mới!" },
+            { "en": "She studied in Australia for two years.", "vi": "Cô ấy học ở Úc hai năm." },
+            { "en": "This year has been full of surprises.", "vi": "Năm nay đầy bất ngờ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["last year", "next year", "this year", "every year", "all year round"],
+      "etymology_hint": "From Old English 'gēar', cognate with German 'Jahr'",
+      "mnemonic_vi": "YEAR đọc 'i-ơ' — 'I ƠI' năm mới đã đến rồi!"
+    },
+    {
+      "word": "today",
+      "lemma": "today",
+      "ipa": "/təˈdeɪ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "this day; on this day",
+          "meaning_vi": "hôm nay; ngày hôm nay",
+          "examples": [
+            { "en": "Today is my birthday.", "vi": "Hôm nay là sinh nhật tôi." },
+            { "en": "What's the weather like today?", "vi": "Hôm nay thời tiết thế nào?" },
+            {
+              "en": "I have an exam today, so wish me luck.",
+              "vi": "Hôm nay tôi có bài thi, chúc tôi may mắn nhé."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["this day", "now"],
+      "antonyms": ["yesterday", "tomorrow"],
+      "collocations": [
+        "today's date",
+        "until today",
+        "starting today",
+        "today's news",
+        "from today"
+      ],
+      "etymology_hint": "Old English 'tō dæg' — literally 'on this day'",
+      "mnemonic_vi": "TODAY = TO + DAY: 'tới NGÀY' này = hôm nay"
+    },
+    {
+      "word": "yesterday",
+      "lemma": "yesterday",
+      "ipa": "/ˈjes.tə.deɪ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the day before today",
+          "meaning_vi": "hôm qua; ngày trước hôm nay",
+          "examples": [
+            { "en": "I met her at the market yesterday.", "vi": "Tôi gặp cô ấy ở chợ hôm qua." },
+            {
+              "en": "Yesterday was much hotter than today.",
+              "vi": "Hôm qua nóng hơn hôm nay nhiều."
+            },
+            { "en": "He didn't call me yesterday.", "vi": "Anh ấy không gọi cho tôi hôm qua." }
+          ]
+        }
+      ],
+      "synonyms": ["the day before"],
+      "antonyms": ["tomorrow", "today"],
+      "collocations": [
+        "yesterday morning",
+        "yesterday afternoon",
+        "yesterday evening",
+        "the day before yesterday",
+        "as of yesterday"
+      ],
+      "etymology_hint": "Old English 'geostran dæg' = 'yester' (the day past) + 'day'",
+      "mnemonic_vi": "YESTERDAY chứa 'YES' — 'YES' tôi nhớ hôm qua trời mưa to"
+    },
+    {
+      "word": "tomorrow",
+      "lemma": "tomorrow",
+      "ipa": "/təˈmɒr.əʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the day after today",
+          "meaning_vi": "ngày mai; ngày sau hôm nay",
+          "examples": [
+            { "en": "See you tomorrow at the office.", "vi": "Mai gặp ở văn phòng nhé." },
+            { "en": "Tomorrow is the first day of school.", "vi": "Ngày mai là ngày khai giảng." },
+            {
+              "en": "Don't put off until tomorrow what you can do today.",
+              "vi": "Đừng để đến mai việc mà hôm nay có thể làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["the next day"],
+      "antonyms": ["yesterday", "today"],
+      "collocations": [
+        "tomorrow morning",
+        "the day after tomorrow",
+        "starting tomorrow",
+        "until tomorrow",
+        "tomorrow's news"
+      ],
+      "etymology_hint": "Old English 'tō morgenne' = 'to morning' — originally 'on the morning to come'",
+      "mnemonic_vi": "TOMORROW chứa 'MORROW' (ngày sau) — 'TO MORROW' = đến ngày kế tiếp"
+    },
+    {
+      "word": "hour",
+      "lemma": "hour",
+      "ipa": "/aʊə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of 60 minutes",
+          "meaning_vi": "giờ; khoảng thời gian 60 phút",
+          "examples": [
+            {
+              "en": "The bus takes about three hours to reach Hai Phong.",
+              "vi": "Xe khách mất khoảng ba giờ để đến Hải Phòng."
+            },
+            {
+              "en": "I wait for half an hour at the doctor's.",
+              "vi": "Tôi đợi nửa tiếng ở chỗ bác sĩ."
+            },
+            { "en": "Office hours are from 8 to 5.", "vi": "Giờ làm việc từ 8 giờ đến 5 giờ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["an hour ago", "half an hour", "working hours", "rush hour", "per hour"],
+      "etymology_hint": "From Greek 'hōra' meaning 'season, time of day' — the 'h' is silent",
+      "mnemonic_vi": "HOUR câm 'H' — đọc 'AO' như 'AO' cá đong đầy giờ phút"
+    },
+    {
+      "word": "minute",
+      "lemma": "minute",
+      "ipa": "/ˈmɪn.ɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of 60 seconds; one of the 60 equal parts of an hour",
+          "meaning_vi": "phút; khoảng 60 giây; một phần 60 của một giờ",
+          "examples": [
+            {
+              "en": "Wait a minute — I need to find my keys.",
+              "vi": "Đợi một chút — tôi cần tìm chìa khoá."
+            },
+            { "en": "The cake takes 30 minutes to bake.", "vi": "Cái bánh cần 30 phút để nướng." },
+            {
+              "en": "He arrived just a few minutes ago.",
+              "vi": "Anh ấy vừa đến cách đây vài phút."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["moment", "instant"],
+      "antonyms": [],
+      "collocations": [
+        "in a minute",
+        "wait a minute",
+        "a few minutes",
+        "any minute now",
+        "last minute"
+      ],
+      "etymology_hint": "From Latin 'minutus' meaning 'small' — 'minute' meant 'small division of time'",
+      "mnemonic_vi": "MINUTE chứa 'MINI' — 'MINI' part of an hour = phút (đơn vị nhỏ trong giờ)"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "ipa": "/ˈsek.ənd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of time equal to one sixtieth of a minute",
+          "meaning_vi": "giây; đơn vị thời gian, bằng 1/60 phút",
+          "examples": [
+            {
+              "en": "It only takes a few seconds to make instant noodles.",
+              "vi": "Chỉ mất vài giây để pha mì gói."
+            },
+            {
+              "en": "Hold on a second — I'll be right back.",
+              "vi": "Đợi một giây — tôi quay lại ngay."
+            },
+            {
+              "en": "The runner finished in 9.58 seconds — a new record.",
+              "vi": "Vận động viên về đích trong 9.58 giây — kỷ lục mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["moment", "instant"],
+      "antonyms": [],
+      "collocations": [
+        "in a second",
+        "every second",
+        "a split second",
+        "hold on a second",
+        "for a few seconds"
+      ],
+      "etymology_hint": "From Latin 'secunda' meaning 'second part' — 'second division' of an hour after minutes",
+      "mnemonic_vi": "SECOND đọc 'séc-cừn' — 'SẮC' nhanh như tia chớp, chỉ vài giây"
+    },
+    {
+      "word": "morning",
+      "lemma": "morning",
+      "ipa": "/ˈmɔː.nɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the early part of the day, from when the sun rises until midday",
+          "meaning_vi": "buổi sáng; thời gian từ khi mặt trời mọc đến trưa",
+          "examples": [
+            {
+              "en": "It's still early morning — the sun has just risen.",
+              "vi": "Vẫn còn sáng sớm — mặt trời vừa mọc."
+            },
+            {
+              "en": "I love the cool morning air in Da Lat.",
+              "vi": "Tôi thích không khí buổi sáng mát mẻ ở Đà Lạt."
+            },
+            {
+              "en": "She runs three kilometres every morning.",
+              "vi": "Cô ấy chạy ba cây số mỗi sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dawn", "AM"],
+      "antonyms": ["evening", "night"],
+      "collocations": [
+        "early morning",
+        "in the morning",
+        "morning air",
+        "morning routine",
+        "from morning till night"
+      ],
+      "etymology_hint": "From Middle English 'morwening', from 'morwen' (Old English 'morgen' = morning)",
+      "mnemonic_vi": "MORNING đọc 'mo-ninh' — 'MO' (mở) mắt là buổi sáng đến rồi"
+    },
+    {
+      "word": "evening",
+      "lemma": "evening",
+      "ipa": "/ˈiːv.nɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of the day between the afternoon and the time you go to bed",
+          "meaning_vi": "buổi tối, chiều tối; thời gian từ chiều muộn đến khi đi ngủ",
+          "examples": [
+            {
+              "en": "The sky in the evening is full of colours.",
+              "vi": "Bầu trời buổi tối đầy màu sắc."
+            },
+            {
+              "en": "We watch the news together every evening.",
+              "vi": "Chúng tôi xem tin tức cùng nhau mỗi buổi tối."
+            },
+            {
+              "en": "Saigon comes alive in the evening with street food.",
+              "vi": "Sài Gòn về tối nhộn nhịp với hàng quán đường phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dusk", "twilight"],
+      "antonyms": ["morning"],
+      "collocations": [
+        "in the evening",
+        "evening sky",
+        "evening news",
+        "every evening",
+        "yesterday evening"
+      ],
+      "etymology_hint": "From Old English 'ǣfnung', from 'ǣfen' meaning 'the time near sunset'",
+      "mnemonic_vi": "EVENING chứa 'EVEN' (bằng phẳng) — chiều tối lúc trời 'EVEN' (mờ đều)"
+    },
+    {
+      "word": "night",
+      "lemma": "night",
+      "ipa": "/naɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the time when it is dark, between evening and morning, when most people sleep",
+          "meaning_vi": "đêm, ban đêm; thời gian trời tối từ tối đến sáng",
+          "examples": [
+            {
+              "en": "I couldn't sleep last night because of the heat.",
+              "vi": "Đêm qua tôi không ngủ được vì nóng."
+            },
+            { "en": "Good night — sweet dreams!", "vi": "Chúc ngủ ngon — mơ đẹp nhé!" },
+            {
+              "en": "Hanoi looks beautiful at night with all the lights.",
+              "vi": "Hà Nội về đêm rất đẹp với đầy ánh đèn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nighttime", "darkness"],
+      "antonyms": ["day", "morning"],
+      "collocations": ["last night", "at night", "all night", "good night", "night out"],
+      "etymology_hint": "From Old English 'niht', cognate with German 'Nacht' and Latin 'nox'",
+      "mnemonic_vi": "NIGHT đọc 'nai-t' — đêm tối có 'NAI' đi lang thang trong rừng"
+    },
+    {
+      "word": "midnight",
+      "lemma": "midnight",
+      "ipa": "/ˈmɪd.naɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "12 o'clock at night",
+          "meaning_vi": "nửa đêm; 12 giờ đêm",
+          "examples": [
+            { "en": "The party lasted until midnight.", "vi": "Bữa tiệc kéo dài đến nửa đêm." },
+            {
+              "en": "On New Year's Eve, we count down to midnight.",
+              "vi": "Đêm giao thừa, chúng tôi đếm ngược đến nửa đêm."
+            },
+            {
+              "en": "She studied past midnight to finish her essay.",
+              "vi": "Cô ấy học quá nửa đêm để xong bài luận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["twelve o'clock", "midnight hour"],
+      "antonyms": ["noon", "midday"],
+      "collocations": [
+        "at midnight",
+        "past midnight",
+        "midnight snack",
+        "until midnight",
+        "around midnight"
+      ],
+      "etymology_hint": "Compound: 'mid' (middle) + 'night' — middle of the night",
+      "mnemonic_vi": "MIDNIGHT = MID (giữa) + NIGHT (đêm): 'giữa đêm' = nửa đêm"
+    },
+    {
+      "word": "calendar",
+      "lemma": "calendar",
+      "ipa": "/ˈkæl.ɪn.də(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a chart or series of pages that shows the days, weeks and months of a particular year",
+          "meaning_vi": "lịch; bảng hoặc tập giấy ghi các ngày, tuần, tháng trong năm",
+          "examples": [
+            {
+              "en": "I marked the holiday on my calendar.",
+              "vi": "Tôi đánh dấu ngày lễ trên lịch."
+            },
+            {
+              "en": "The lunar calendar is important for Tet celebrations.",
+              "vi": "Âm lịch quan trọng cho dịp Tết."
+            },
+            {
+              "en": "Let me check my calendar before I confirm.",
+              "vi": "Để tôi xem lịch trước khi xác nhận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["schedule", "almanac"],
+      "antonyms": [],
+      "collocations": [
+        "lunar calendar",
+        "wall calendar",
+        "check the calendar",
+        "calendar year",
+        "school calendar"
+      ],
+      "etymology_hint": "From Latin 'kalendarium' meaning 'account book' — kept from the kalends (first day of month)",
+      "mnemonic_vi": "CALENDAR chứa 'CALL' — 'GỌI' tên các ngày trong tháng"
+    },
+    {
+      "word": "date",
+      "lemma": "date",
+      "ipa": "/deɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a particular day of the month, often shown by a number",
+          "meaning_vi": "ngày tháng; ngày cụ thể trong tháng, thường được ghi bằng số",
+          "examples": [
+            { "en": "What's the date today?", "vi": "Hôm nay ngày bao nhiêu?" },
+            {
+              "en": "The wedding date is set for September 9.",
+              "vi": "Ngày cưới được ấn định vào 9 tháng 9."
+            },
+            {
+              "en": "Please write the date at the top of the page.",
+              "vi": "Vui lòng viết ngày tháng ở đầu trang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["day", "time"],
+      "antonyms": [],
+      "collocations": ["today's date", "due date", "out of date", "up to date", "date of birth"],
+      "etymology_hint": "From Latin 'datus' (given) — letters used to mark the date 'data Romae' (given at Rome)",
+      "mnemonic_vi": "DATE đọc 'đết' — viết DATE lên 'ĐẾT' (đậu) trên giấy ở góc trên"
+    },
+    {
+      "word": "century",
+      "lemma": "century",
+      "ipa": "/ˈsen.tʃər.i/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a period of 100 years",
+          "meaning_vi": "thế kỷ; khoảng thời gian 100 năm",
+          "examples": [
+            { "en": "We are living in the 21st century.", "vi": "Chúng ta đang sống ở thế kỷ 21." },
+            {
+              "en": "This old temple was built in the 11th century.",
+              "vi": "Ngôi đền cổ này được xây vào thế kỷ 11."
+            },
+            {
+              "en": "Vietnam has changed a lot in the past century.",
+              "vi": "Việt Nam đã thay đổi rất nhiều trong thế kỷ qua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hundred years"],
+      "antonyms": [],
+      "collocations": [
+        "the 21st century",
+        "for centuries",
+        "century-old",
+        "half a century",
+        "next century"
+      ],
+      "etymology_hint": "From Latin 'centum' (one hundred) + '-uria' — originally meant a group of 100 soldiers",
+      "mnemonic_vi": "CENTURY chứa 'CENT' (trăm) — 'CENT' = 100, century = 100 năm"
+    },
+    {
+      "word": "decade",
+      "lemma": "decade",
+      "ipa": "/ˈdek.eɪd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a period of ten years",
+          "meaning_vi": "thập kỷ; khoảng thời gian 10 năm",
+          "examples": [
+            {
+              "en": "Hanoi has grown rapidly in the last decade.",
+              "vi": "Hà Nội đã phát triển nhanh chóng trong thập kỷ qua."
+            },
+            {
+              "en": "She has worked at this company for over a decade.",
+              "vi": "Cô ấy đã làm ở công ty này hơn một thập kỷ."
+            },
+            {
+              "en": "Music from the 80s is making a comeback this decade.",
+              "vi": "Nhạc thập niên 80 đang quay trở lại trong thập kỷ này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ten years"],
+      "antonyms": [],
+      "collocations": [
+        "last decade",
+        "next decade",
+        "for decades",
+        "a decade ago",
+        "over a decade"
+      ],
+      "etymology_hint": "From Greek 'dekas' meaning 'group of ten'",
+      "mnemonic_vi": "DECADE chứa 'DEC' — 'DEC' = 10 (như DECember tháng 10 La Mã cổ), decade = 10 năm"
+    },
+    {
+      "word": "season",
+      "lemma": "season",
+      "ipa": "/ˈsiː.zən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of the four periods of the year — spring, summer, autumn, winter",
+          "meaning_vi": "mùa; một trong bốn mùa trong năm — xuân, hạ, thu, đông",
+          "examples": [
+            {
+              "en": "Autumn is my favourite season in Hanoi.",
+              "vi": "Mùa thu là mùa tôi yêu thích nhất ở Hà Nội."
+            },
+            {
+              "en": "Saigon only has two seasons — dry and rainy.",
+              "vi": "Sài Gòn chỉ có hai mùa — mùa khô và mùa mưa."
+            },
+            {
+              "en": "Mangoes are sweetest in the hot season.",
+              "vi": "Xoài ngọt nhất vào mùa nóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["period", "time of year"],
+      "antonyms": [],
+      "collocations": ["dry season", "rainy season", "four seasons", "in season", "out of season"],
+      "etymology_hint": "From Old French 'seson', from Latin 'satio' meaning 'sowing time' — originally agricultural",
+      "mnemonic_vi": "SEASON đọc 'sí-zần' — 'SÍ' (xíu) ngồi nghĩ về 'ZẦN' (lần) đổi mùa"
+    }
+  ]
+}
