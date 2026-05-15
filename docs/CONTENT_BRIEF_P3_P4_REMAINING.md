@@ -417,16 +417,16 @@ AI sẽ:
 
 ## 7. Tổng kết scope còn lại
 
-| Topic              | Lessons | Cards   | Phase | Done?                |
-| ------------------ | ------- | ------- | ----- | -------------------- |
-| education          | 4       | 80      | P3    | [x] 2026-05-15 (AI)  |
-| nature-environment | 4       | 80      | P3    | [x] 2026-05-15 (AI)  |
-| entertainment      | 4       | 80      | P3    | [x] 2026-05-15 (AI)  |
-| society-culture    | 3       | 60      | P4    | [ ]                  |
-| abstract-academic  | 3       | 60      | P4    | [ ]                  |
-| **TOTAL**          | **18**  | **360** |       | **12/18 done (67%)** |
+| Topic              | Lessons | Cards   | Phase | Done?               |
+| ------------------ | ------- | ------- | ----- | ------------------- |
+| education          | 4       | 80      | P3    | [x] 2026-05-15 (AI) |
+| nature-environment | 4       | 80      | P3    | [x] 2026-05-15 (AI) |
+| entertainment      | 4       | 80      | P3    | [x] 2026-05-15 (AI) |
+| society-culture    | 3       | 60      | P4    | [x] 2026-05-16 (AI) |
+| abstract-academic  | 3       | 60      | P4    | [x] 2026-05-16 (AI) |
+| **TOTAL**          | **18**  | **360** |       | **18/18 done ✅**   |
 
-**Tổng MVP target**: 42 lessons / 840 cards. Đã có 36 lessons / 720 cards. Còn 6 lessons / 120 cards (P4).
+**Tổng MVP target**: 42 lessons / 840 cards. **MVP COMPLETE 2026-05-16: 42/42 lessons / 840/840 cards = 100%.**
 
 ## 8. Tips Vietnamese pedagogy (review JSON Claude trả)
 
