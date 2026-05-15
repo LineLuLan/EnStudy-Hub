@@ -5,6 +5,113 @@
 
 ---
 
+## 2026-05-16 (cuối session) — UI Revamp /decks + TODO CardPreview polish + theme accent — Claude Opus 4.7
+
+### Đã ship session này (FE work)
+
+**1. DB migration applied** — `pnpm db:migrate` chạy `0001_magenta_umar.sql` → thêm column `profiles.onboarded_at` lên Supabase live. Fix lỗi `column "onboarded_at" does not exist` user gặp khi mở `/decks`.
+
+**2. `/decks/[col]` redesign — Topic grid 3×N** (file `src/app/(app)/decks/[col]/page.tsx`):
+
+- Mỗi topic = 1 card trong grid responsive (1/2/3 cột theo viewport).
+- Card hiển thị: icon từ `topic.icon` (đã map 11 lucide icons trong `src/components/decks/topic-icon.tsx`) + tên + mô tả (line-clamp 2) + lesson count + total cards + "Đang học X/Y" badge nếu enrolled.
+- **Priority indicator**: số thứ tự `1, 2, 3...` góc phải; 3 topic đầu thêm badge ✨ "Khuyến nghị bắt đầu".
+- Hover: nâng `-translate-y-0.5` + shadow + border đậm.
+
+**3. New page `/decks/[col]/[topic]`** (`src/app/(app)/decks/[col]/[topic]/page.tsx` + `loading.tsx`):
+
+- Topic header với icon to (h-14 w-14) + tên + mô tả + tổng bài/từ.
+- Lesson list numbered (`01`, `02`, ...) hover → navigate to lesson detail.
+- Breadcrumb back về collection.
+
+**4. CardPreview focus effect** (`src/components/decks/card-preview.tsx`):
+
+- Thêm `useRef<HTMLElement>` + `useEffect` khi `open` change → `scrollIntoView({ behavior: 'smooth', block: 'center' })` (requestAnimationFrame để wait expand render xong).
+- Open state: `scale-[1.015] border-amber-300 shadow-xl ring-2 ring-amber-300` + dark variant.
+- Transition `duration-300` mượt.
+
+**5. Query helper mới** (`src/features/vocab/queries.ts`):
+
+- `getTopicBySlug(colSlug, topicSlug, userId)` → trả về `TopicDetail` (topic + collection lite + lessons[]). Ownership gate giống `getCollectionBySlug`.
+
+### SHA cuối session
+
+| Branch | SHA                   | Note |
+| ------ | --------------------- | ---- |
+| be     | TBD (sau commit dưới) |      |
+| dev    | TBD                   |      |
+| fe     | TBD                   |      |
+
+### TODO ngày mai — CardPreview polish round 2 + theme accent
+
+Plan chi tiết: `C:\Users\admin\.claude\plans\kie-m-tra-v-gen-gentle-sketch.md` (10 items A + 1 B + 4 C-defer).
+
+**User feedback (sau khi xem `/decks/oxford-3000/work-business/jobs-occupations`):**
+
+1. **Typography contrast**: EN/VI cùng tone → block đặc. Dim VN (italic + `text-zinc-500`), keep EN sáng (`text-zinc-900 dark:text-zinc-50`).
+2. **Bold target word** trong EN examples: regex `\b(card.word|card.lemma)\b` gi → wrap `<strong class="text-[var(--accent)] font-semibold">`. Escape regex special chars (phrasal verbs `lead to`).
+3. **Badge glassmorphism** (POS, CEFR, Note, Tạm dừng): `backdrop-blur-sm bg-white/60 dark:bg-black/30 ring-1 ring-zinc-200/60`.
+4. **Section dividers** giữa def / examples / syn-ant-col / mnemonic / etymology: `<div className="h-px bg-zinc-100 dark:bg-zinc-900" />` hoặc `divide-y`.
+5. **Mnemonic restyle** — blockquote "terminal note":
+   ```tsx
+   <div className="relative rounded-lg border border-dashed border-[var(--highlight)]/60 bg-gradient-to-br from-[var(--highlight)]/10 to-[var(--accent-soft)]/30 px-3 py-2 text-xs">
+     <div className="absolute -top-2 left-3 bg-white px-1.5 text-[10px] font-semibold text-[var(--accent)] dark:bg-zinc-950">
+       💡 Mẹo nhớ
+     </div>
+     <div className="mt-1 text-zinc-700 dark:text-zinc-300">{card.mnemonicVi}</div>
+   </div>
+   ```
+6. **Audio TTS button** cạnh IPA — `Volume2` icon, click → `speechSynthesis.speak(SpeechSynthesisUtterance(card.word))` với `lang='en-GB' rate=0.9`. `e.stopPropagation()` để không trigger toggle.
+7. **Hover lift** closed cards: `!open && 'hover:-translate-y-0.5 hover:shadow-sm'`.
+8. **Open state soft glow** (thay ring solid amber hiện tại): `border-[var(--accent)]/40 shadow-lg shadow-[var(--accent)]/10 ring-2 ring-[var(--accent)]/30`.
+9. **Theme accent tokens** — `src/app/globals.css`:
+   - **QUAN TRỌNG**: chuyển `@media (prefers-color-scheme: dark)` → `.dark` selector (project dùng next-themes class-based, hiện CSS vars không react theo toggle).
+   - Light tokens (study4.com inspired — blue/white/yellow): `--accent: oklch(0.55 0.18 257)` (blue-600), `--accent-soft: oklch(0.94 0.04 257)` (blue-50), `--highlight: oklch(0.87 0.18 95)` (yellow-300).
+   - Dark tokens (KHÔNG neon — modern soft, mắt thoải mái, user yêu cầu rõ): `--accent: oklch(0.72 0.11 155)` (soft sage, chroma thấp 0.11), `--accent-soft: oklch(0.24 0.04 155)`, `--highlight: oklch(0.88 0.06 85)` (cream/soft gold).
+   - Apply qua Tailwind arbitrary: `bg-[var(--accent)]`, `text-[var(--accent)]`, `ring-[var(--accent)]`.
+10. **"Đánh dấu đã thuộc"** — reuse suspend action sẵn có. Đổi label hiển thị (badge "Tạm dừng" → "Đã thuộc" hoặc button text). Check `src/components/decks/lesson-actions.tsx` để tìm trigger.
+
+**OUT OF SCOPE** (defer cho session khác, đã document trong plan):
+
+- "Lưu từ" bookmark — cần DB migration `user_cards.bookmarked` boolean.
+- "Báo lỗi" — cần feature mới (form + table report).
+- Full app theme overhaul vào dashboard/stats/topbar.
+- Card height masonry balance.
+- Conjugation matching (vd `accountant` vs `accountants`).
+
+**Files cần sửa ngày mai**:
+
+- `src/app/globals.css` — theme tokens + `.dark` selector swap.
+- `src/components/decks/card-preview.tsx` — major restyle (typography, badges, dividers, mnemonic, audio, hover, glow).
+
+**Verification ngày mai sau khi xong**:
+
+- `pnpm typecheck && pnpm test && pnpm lint` green.
+- Manual: `/settings` toggle Light ↔ Dark → accent đổi (blue → soft sage). Click audio icon → speech synthesis phát âm. Hover thẻ đóng → nâng nhẹ. Mở thẻ → soft glow accent. VN examples dim italic. EN bold + target word highlighted.
+
+**Risks** (đã ghi trong plan):
+
+- Theme switch fragility: nếu `.dark` class chưa apply lên `:root` đúng lúc → accent flash. Test toggle.
+- Web Speech API: Firefox đôi khi thiếu voice en-GB → fallback `en-US`. Catch silent fail.
+- Regex special chars: `card.word` có space (phrasal `lead to`) → escape regex.
+
+### USER TODOs cũ (chưa close v1.0.0)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit
+5. Supabase RLS smoke test
+
+### Notes for next AI session pickup
+
+- Plan đầy đủ ở `C:\Users\admin\.claude\plans\kie-m-tra-v-gen-gentle-sketch.md` (đã exit plan mode, file saved).
+- User mong muốn: **modern, low-saturation, eye-friendly** colors cho dark theme — KHÔNG neon kiểu 100b.studio dù lúc đầu user reference site đó. User clarify rõ "không cần là neon đâu màu hiện đại giúp mắt tập trung không bị khó chịu cho đa số người dùng".
+- Light theme inspired by study4.com (blue + white + yellow) → chroma 0.18 (blue) chấp nhận được nếu chỉ dùng cho accent nhỏ; nền chính giữ white/zinc-50.
+- Dev server đang chạy nền (background task `b1e4q98fy`) — có thể đã chết hoặc còn sống. Restart `pnpm dev` khi pickup.
+
+---
+
 ## 2026-05-16 (mega session — 5 batches: P5a/P5b/P6a/P6b/P6c) — P5 + P6 CLOSED — 25 lessons / 500 cards — Claude Opus 4.7
 
 **Mục tiêu mega session**: Sau khi đóng MVP P0-P4 (42 lessons / 840 cards), tiếp tục Post-MVP với plan `docs/CONTENT_PLAN_FULL.md` để cover full Oxford 3000. Trong session này đóng đủ P5 Common Core (10 lessons) + P6 A1 fillers (15 lessons) = +25 lessons / +500 cards. Seed lên Supabase live. Mở dev server cho user test UI trước khi tiếp P7.

@@ -152,6 +152,55 @@ export async function getCollectionBySlug(
   };
 }
 
+export type TopicDetail = Topic & {
+  collection: Pick<Collection, 'id' | 'slug' | 'name' | 'isOfficial' | 'ownerId'>;
+  lessons: Array<
+    Pick<Lesson, 'id' | 'slug' | 'name' | 'cardCount' | 'estimatedMinutes' | 'orderIndex'>
+  >;
+};
+
+export async function getTopicBySlug(
+  colSlug: string,
+  topicSlug: string,
+  userId: string | null
+): Promise<TopicDetail | null> {
+  const row = await db
+    .select({ topic: topics, collection: collections })
+    .from(topics)
+    .innerJoin(collections, eq(collections.id, topics.collectionId))
+    .where(and(eq(collections.slug, colSlug), eq(topics.slug, topicSlug)))
+    .limit(1);
+
+  const hit = row[0];
+  if (!hit) return null;
+  if (!hit.collection.isOfficial && hit.collection.ownerId !== userId) return null;
+
+  const lessonRows = await db.query.lessons.findMany({
+    where: eq(lessons.topicId, hit.topic.id),
+    orderBy: [asc(lessons.orderIndex), asc(lessons.name)],
+    columns: {
+      id: true,
+      slug: true,
+      name: true,
+      cardCount: true,
+      estimatedMinutes: true,
+      orderIndex: true,
+    },
+  });
+
+  return {
+    ...hit.topic,
+    collection: {
+      id: hit.collection.id,
+      slug: hit.collection.slug,
+      name: hit.collection.name,
+      isOfficial: hit.collection.isOfficial,
+      ownerId: hit.collection.ownerId,
+    },
+    lessons: lessonRows,
+  };
+}
+
 export type LessonDetail = Lesson & {
   cards: Card[];
   topic: Topic;
