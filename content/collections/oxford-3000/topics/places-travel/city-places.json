@@ -1,0 +1,724 @@
+{
+  "slug": "city-places",
+  "name": "City Places",
+  "description": "Các địa điểm phổ biến trong thành phố.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "city",
+      "lemma": "city",
+      "ipa": "/ˈsɪt.i/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large important town where many people live and work",
+          "meaning_vi": "thành phố; nơi đông dân và quan trọng",
+          "examples": [
+            {
+              "en": "Saigon is the largest city in Vietnam.",
+              "vi": "Sài Gòn là thành phố lớn nhất Việt Nam."
+            },
+            {
+              "en": "The city is very busy during rush hour.",
+              "vi": "Thành phố rất đông vào giờ cao điểm."
+            },
+            {
+              "en": "She moved to the city for university.",
+              "vi": "Cô ấy chuyển lên thành phố để học đại học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["metropolis", "town"],
+      "antonyms": ["village", "countryside"],
+      "collocations": ["big city", "capital city", "in the city", "city centre", "city life"],
+      "etymology_hint": "From Old French 'cité', from Latin 'civitas' meaning 'citizenship, community'",
+      "mnemonic_vi": "CITY đọc 'sí-ti' — 'SI' tình với 'TI' (tỷ) ánh đèn rực rỡ giữa thành phố"
+    },
+    {
+      "word": "town",
+      "lemma": "town",
+      "ipa": "/taʊn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a place with houses, shops and roads, smaller than a city but larger than a village",
+          "meaning_vi": "thị trấn; khu dân cư nhỏ hơn thành phố nhưng lớn hơn làng",
+          "examples": [
+            {
+              "en": "I grew up in a small town near Hue.",
+              "vi": "Tôi lớn lên ở một thị trấn nhỏ gần Huế."
+            },
+            { "en": "Let's go to town to do some shopping.", "vi": "Mình ra thị trấn mua sắm đi." },
+            {
+              "en": "The old town has many traditional houses.",
+              "vi": "Phố cổ có nhiều ngôi nhà truyền thống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["township"],
+      "antonyms": ["village", "city"],
+      "collocations": ["small town", "old town", "town centre", "go to town", "home town"],
+      "etymology_hint": "From Old English 'tūn' meaning 'enclosed land, settlement'",
+      "mnemonic_vi": "TOWN đọc 'tao-ơn' — 'TAO' (mình) sống ở thị trấn nhỏ này"
+    },
+    {
+      "word": "village",
+      "lemma": "village",
+      "ipa": "/ˈvɪl.ɪdʒ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small group of houses and other buildings in the countryside",
+          "meaning_vi": "làng, thôn; nhóm nhà nhỏ ở vùng nông thôn",
+          "examples": [
+            {
+              "en": "My grandparents live in a small village in the north.",
+              "vi": "Ông bà tôi sống ở một ngôi làng nhỏ phía Bắc."
+            },
+            {
+              "en": "The village has only one school and one shop.",
+              "vi": "Làng chỉ có một trường học và một cửa hàng."
+            },
+            {
+              "en": "Many young people leave the village for the city.",
+              "vi": "Nhiều người trẻ rời làng lên thành phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hamlet"],
+      "antonyms": ["city", "metropolis"],
+      "collocations": [
+        "small village",
+        "fishing village",
+        "village life",
+        "near the village",
+        "village elders"
+      ],
+      "etymology_hint": "From Old French 'village', from Latin 'villa' (country house)",
+      "mnemonic_vi": "VILLAGE chứa 'VILLA' — nhưng VILLAGE là làng quê, nhiều VILLA nhỏ mộc mạc"
+    },
+    {
+      "word": "country",
+      "lemma": "country",
+      "ipa": "/ˈkʌn.tri/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a nation with its own government and people; or areas outside cities",
+          "meaning_vi": "đất nước, quốc gia; hoặc vùng nông thôn ngoài thành phố",
+          "examples": [
+            {
+              "en": "Vietnam is a country in Southeast Asia.",
+              "vi": "Việt Nam là một quốc gia ở Đông Nam Á."
+            },
+            {
+              "en": "She loves living in the country away from noise.",
+              "vi": "Cô ấy thích sống ở nông thôn xa ồn ào."
+            },
+            { "en": "How many countries have you visited?", "vi": "Bạn đã đi bao nhiêu quốc gia?" }
+          ]
+        }
+      ],
+      "synonyms": ["nation", "land", "countryside"],
+      "antonyms": ["city"],
+      "collocations": [
+        "my country",
+        "in the country",
+        "developing country",
+        "country music",
+        "across the country"
+      ],
+      "etymology_hint": "From Old French 'contree', from Latin 'contrata' meaning 'land lying opposite'",
+      "mnemonic_vi": "COUNTRY chứa 'COUNT' (đếm) — đếm số đất nước mình đã thăm"
+    },
+    {
+      "word": "street",
+      "lemma": "street",
+      "ipa": "/striːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a public road in a town or city with buildings on both sides",
+          "meaning_vi": "phố, đường phố; đường công cộng trong thành phố có nhà hai bên",
+          "examples": [
+            {
+              "en": "Hang Bong Street is famous for its silk shops.",
+              "vi": "Phố Hàng Bông nổi tiếng với các tiệm vải lụa."
+            },
+            {
+              "en": "Be careful when crossing the street in Hanoi.",
+              "vi": "Cẩn thận khi qua đường ở Hà Nội."
+            },
+            {
+              "en": "The street is full of food stalls in the evening.",
+              "vi": "Phố đầy hàng ăn vặt vào buổi tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["road", "avenue", "lane"],
+      "antonyms": [],
+      "collocations": [
+        "main street",
+        "side street",
+        "cross the street",
+        "street food",
+        "street name"
+      ],
+      "etymology_hint": "From Old English 'strǣt', from Latin 'strata' meaning 'paved road'",
+      "mnemonic_vi": "STREET đọc 'sờ-trít' — đi 'TRÍT' (lẹt) đôi giày xuống mặt đường"
+    },
+    {
+      "word": "road",
+      "lemma": "road",
+      "ipa": "/rəʊd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a hard surface that cars and other vehicles can travel on",
+          "meaning_vi": "đường, lộ; bề mặt cứng cho xe cộ đi lại",
+          "examples": [
+            {
+              "en": "The road to Sa Pa is winding and steep.",
+              "vi": "Đường lên Sa Pa quanh co và dốc."
+            },
+            {
+              "en": "Don't play in the road — it's dangerous.",
+              "vi": "Đừng chơi ngoài đường — nguy hiểm lắm."
+            },
+            {
+              "en": "They built a new road from Hanoi to Hai Phong.",
+              "vi": "Họ xây con đường mới từ Hà Nội đi Hải Phòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["highway", "route", "way"],
+      "antonyms": [],
+      "collocations": ["main road", "country road", "on the road", "road sign", "road map"],
+      "etymology_hint": "From Old English 'rād' meaning 'a journey, riding' — related to 'ride'",
+      "mnemonic_vi": "ROAD đọc 'rốt' — đi đến 'NỐT' (cuối) con đường mới về nhà"
+    },
+    {
+      "word": "building",
+      "lemma": "building",
+      "ipa": "/ˈbɪl.dɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a structure with walls and a roof such as a house or office",
+          "meaning_vi": "toà nhà, công trình; vật có tường và mái như nhà hoặc văn phòng",
+          "examples": [
+            {
+              "en": "Landmark 81 is the tallest building in Vietnam.",
+              "vi": "Landmark 81 là toà nhà cao nhất Việt Nam."
+            },
+            {
+              "en": "My office is in the white building on the corner.",
+              "vi": "Văn phòng tôi ở toà nhà trắng góc đường."
+            },
+            {
+              "en": "They are constructing a new apartment building.",
+              "vi": "Họ đang xây toà chung cư mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["structure", "construction", "edifice"],
+      "antonyms": [],
+      "collocations": [
+        "tall building",
+        "office building",
+        "old building",
+        "new building",
+        "modern building"
+      ],
+      "etymology_hint": "From 'build' (Old English 'byldan' = construct) + '-ing'",
+      "mnemonic_vi": "BUILDING chứa 'BUILD' (xây) — đang BUILD = đang BUILDING"
+    },
+    {
+      "word": "school",
+      "lemma": "school",
+      "ipa": "/skuːl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a place where children go to learn",
+          "meaning_vi": "trường học; nơi trẻ em đến học",
+          "examples": [
+            {
+              "en": "Children in Vietnam start school at age six.",
+              "vi": "Trẻ em Việt Nam đi học từ năm sáu tuổi."
+            },
+            {
+              "en": "My school is just five minutes from home.",
+              "vi": "Trường tôi cách nhà chỉ năm phút."
+            },
+            {
+              "en": "She teaches English at a primary school.",
+              "vi": "Cô ấy dạy tiếng Anh ở một trường tiểu học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["academy", "institute"],
+      "antonyms": [],
+      "collocations": [
+        "go to school",
+        "primary school",
+        "high school",
+        "school year",
+        "private school"
+      ],
+      "etymology_hint": "From Greek 'skholē' meaning 'leisure, study'",
+      "mnemonic_vi": "SCHOOL đọc 'sờ-cu' — 'CỦ' (kỷ) luật ở SCHOOL phải nghiêm"
+    },
+    {
+      "word": "park",
+      "lemma": "park",
+      "ipa": "/pɑːk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large area of grass and trees in a town where people can relax",
+          "meaning_vi": "công viên; khu đất rộng có cây cỏ trong thành phố để thư giãn",
+          "examples": [
+            {
+              "en": "We walk around Hoan Kiem Park every Sunday morning.",
+              "vi": "Chúng tôi đi dạo công viên Hoàn Kiếm mỗi sáng Chủ nhật."
+            },
+            {
+              "en": "There is a new park near my house.",
+              "vi": "Có một công viên mới gần nhà tôi."
+            },
+            {
+              "en": "Children love to play in the park after school.",
+              "vi": "Trẻ em thích chơi trong công viên sau giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["garden", "green space"],
+      "antonyms": [],
+      "collocations": [
+        "in the park",
+        "walk in the park",
+        "central park",
+        "national park",
+        "amusement park"
+      ],
+      "etymology_hint": "From Old French 'parc' meaning 'enclosed wood for game'",
+      "mnemonic_vi": "PARK đọc 'pát' — 'PHÁT' (tỏa) ra không gian xanh giữa thành phố"
+    },
+    {
+      "word": "shop",
+      "lemma": "shop",
+      "ipa": "/ʃɒp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small place where you can buy things",
+          "meaning_vi": "cửa hàng; nơi nhỏ để mua đồ",
+          "examples": [
+            {
+              "en": "There's a phở shop on every street in Hanoi.",
+              "vi": "Có một quán phở ở mỗi phố Hà Nội."
+            },
+            {
+              "en": "The flower shop is open on weekends only.",
+              "vi": "Tiệm hoa chỉ mở vào cuối tuần."
+            },
+            {
+              "en": "I bought this shirt at a small shop.",
+              "vi": "Tôi mua cái áo này ở một cửa hàng nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["store", "boutique"],
+      "antonyms": [],
+      "collocations": ["small shop", "coffee shop", "flower shop", "shop window", "shop assistant"],
+      "etymology_hint": "From Old English 'sceoppa' meaning 'booth, stall'",
+      "mnemonic_vi": "SHOP đọc 'sốp' — vào 'XỐP' (xộp) tay vào ví trả tiền ở SHOP"
+    },
+    {
+      "word": "hospital",
+      "lemma": "hospital",
+      "ipa": "/ˈhɒs.pɪ.təl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where sick or injured people are treated by doctors",
+          "meaning_vi": "bệnh viện; nơi bác sĩ chữa cho người ốm hoặc bị thương",
+          "examples": [
+            {
+              "en": "Bach Mai is a big hospital in Hanoi.",
+              "vi": "Bạch Mai là bệnh viện lớn ở Hà Nội."
+            },
+            {
+              "en": "He was taken to the hospital after the accident.",
+              "vi": "Anh ấy được đưa vào bệnh viện sau tai nạn."
+            },
+            {
+              "en": "The new hospital has modern equipment.",
+              "vi": "Bệnh viện mới có thiết bị hiện đại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clinic", "medical centre"],
+      "antonyms": [],
+      "collocations": [
+        "go to hospital",
+        "private hospital",
+        "hospital room",
+        "hospital staff",
+        "in hospital"
+      ],
+      "etymology_hint": "From Latin 'hospitalis' meaning 'of a guest' — same root as 'hotel' and 'hospitality'",
+      "mnemonic_vi": "HOSPITAL chứa 'HOST' — bệnh viện 'HOST' (tiếp đón) bệnh nhân"
+    },
+    {
+      "word": "bank",
+      "lemma": "bank",
+      "ipa": "/bæŋk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where people keep their money or borrow money",
+          "meaning_vi": "ngân hàng; nơi giữ tiền hoặc cho vay",
+          "examples": [
+            {
+              "en": "I need to go to the bank to transfer some money.",
+              "vi": "Tôi cần đi ngân hàng để chuyển khoản."
+            },
+            {
+              "en": "She works as a teller at Vietcombank.",
+              "vi": "Cô ấy làm giao dịch viên tại Vietcombank."
+            },
+            {
+              "en": "The bank opens at 8 AM on weekdays.",
+              "vi": "Ngân hàng mở cửa lúc 8 giờ sáng các ngày trong tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["financial institution"],
+      "antonyms": [],
+      "collocations": ["go to the bank", "bank account", "bank loan", "central bank", "bank card"],
+      "etymology_hint": "From Italian 'banca' meaning 'bench' — early bankers worked at benches in markets",
+      "mnemonic_vi": "BANK đọc 'beng' — 'BÊNG' (bưng) tiền vào BANK gửi"
+    },
+    {
+      "word": "restaurant",
+      "lemma": "restaurant",
+      "ipa": "/ˈres.tər.ɒnt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where people pay to sit and eat meals",
+          "meaning_vi": "nhà hàng; nơi trả tiền để ngồi ăn",
+          "examples": [
+            {
+              "en": "Let's go to a Vietnamese restaurant for lunch.",
+              "vi": "Mình đi ăn trưa ở một nhà hàng Việt đi."
+            },
+            {
+              "en": "The restaurant on the corner serves the best bún chả.",
+              "vi": "Nhà hàng góc phố phục vụ bún chả ngon nhất."
+            },
+            {
+              "en": "She booked a table at a fancy restaurant.",
+              "vi": "Cô ấy đặt bàn ở một nhà hàng sang trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["eatery", "diner", "bistro"],
+      "antonyms": [],
+      "collocations": [
+        "go to a restaurant",
+        "fancy restaurant",
+        "Italian restaurant",
+        "restaurant menu",
+        "open a restaurant"
+      ],
+      "etymology_hint": "From French 'restaurer' meaning 'to restore' — places that 'restore' you with food",
+      "mnemonic_vi": "RESTAURANT chứa 'REST' (nghỉ) — ngồi REST và ăn ngon = RESTAURANT"
+    },
+    {
+      "word": "hotel",
+      "lemma": "hotel",
+      "ipa": "/həʊˈtel/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building where people pay to sleep when they are away from home",
+          "meaning_vi": "khách sạn; toà nhà nơi trả tiền để ngủ khi đi xa",
+          "examples": [
+            {
+              "en": "We stayed at a hotel near the beach in Nha Trang.",
+              "vi": "Chúng tôi ở khách sạn gần biển Nha Trang."
+            },
+            {
+              "en": "The hotel has a swimming pool on the roof.",
+              "vi": "Khách sạn có hồ bơi trên tầng thượng."
+            },
+            {
+              "en": "She works as a receptionist at a five-star hotel.",
+              "vi": "Cô ấy làm lễ tân ở khách sạn năm sao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["inn", "lodge", "motel"],
+      "antonyms": [],
+      "collocations": [
+        "stay at a hotel",
+        "five-star hotel",
+        "luxury hotel",
+        "hotel room",
+        "book a hotel"
+      ],
+      "etymology_hint": "From French 'hôtel' (large house), same root as 'hospital' (Latin 'hospitalis')",
+      "mnemonic_vi": "HOTEL đọc 'hâu-teo' — 'HÀO' (hảo) phòng 'TEO' (teo lại) — đắt tiền"
+    },
+    {
+      "word": "station",
+      "lemma": "station",
+      "ipa": "/ˈsteɪ.ʃən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building or place where buses, trains, or other vehicles stop",
+          "meaning_vi": "trạm, bến, ga; nơi xe buýt, tàu hoặc xe khác dừng lại",
+          "examples": [
+            {
+              "en": "Hanoi train station is in the city centre.",
+              "vi": "Ga Hà Nội nằm ở trung tâm thành phố."
+            },
+            { "en": "There's a bus station near the market.", "vi": "Có một bến xe buýt gần chợ." },
+            { "en": "The police station is open 24 hours.", "vi": "Đồn cảnh sát mở cửa 24 giờ." }
+          ]
+        }
+      ],
+      "synonyms": ["terminal", "depot"],
+      "antonyms": [],
+      "collocations": [
+        "bus station",
+        "train station",
+        "petrol station",
+        "police station",
+        "TV station"
+      ],
+      "etymology_hint": "From Latin 'statio' meaning 'a standing, place where one stands'",
+      "mnemonic_vi": "STATION chứa 'STATE' (đứng) — chỗ xe 'ĐỨNG' chờ = trạm dừng"
+    },
+    {
+      "word": "library",
+      "lemma": "library",
+      "ipa": "/ˈlaɪ.brər.i/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where you can read and borrow books",
+          "meaning_vi": "thư viện; nơi đọc và mượn sách",
+          "examples": [
+            {
+              "en": "The university library is open until midnight.",
+              "vi": "Thư viện trường đại học mở đến nửa đêm."
+            },
+            {
+              "en": "She borrowed five books from the library.",
+              "vi": "Cô ấy mượn năm cuốn sách từ thư viện."
+            },
+            { "en": "Please be quiet in the library.", "vi": "Giữ yên lặng trong thư viện." }
+          ]
+        }
+      ],
+      "synonyms": ["reading room"],
+      "antonyms": [],
+      "collocations": [
+        "public library",
+        "school library",
+        "library card",
+        "in the library",
+        "library book"
+      ],
+      "etymology_hint": "From Latin 'librarium' meaning 'bookcase', from 'liber' (book)",
+      "mnemonic_vi": "LIBRARY đọc 'lai-brâ-ri' — 'LAI' (lại) tìm sách 'BƠ' rồi đọc 'RI' (rì rào)"
+    },
+    {
+      "word": "museum",
+      "lemma": "museum",
+      "ipa": "/mjuˈziː.əm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building where interesting old or important objects are kept and shown to the public",
+          "meaning_vi": "bảo tàng; nơi trưng bày các vật quý, cổ, hoặc quan trọng",
+          "examples": [
+            {
+              "en": "The Ho Chi Minh Museum is a must-see for tourists.",
+              "vi": "Bảo tàng Hồ Chí Minh là điểm phải đến của du khách."
+            },
+            {
+              "en": "We spent the whole afternoon at the war museum.",
+              "vi": "Chúng tôi dành cả buổi chiều ở bảo tàng chiến tranh."
+            },
+            {
+              "en": "Children get free entry to the museum on Sundays.",
+              "vi": "Trẻ em được vào bảo tàng miễn phí Chủ nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gallery", "exhibition"],
+      "antonyms": [],
+      "collocations": [
+        "art museum",
+        "history museum",
+        "visit a museum",
+        "museum exhibit",
+        "national museum"
+      ],
+      "etymology_hint": "From Greek 'mouseion' meaning 'seat of the Muses' (goddesses of arts and sciences)",
+      "mnemonic_vi": "MUSEUM đọc 'miu-zi-âm' — 'MIU' (mèo) ngồi 'YÊN' (zi-âm) ngắm tranh trong bảo tàng"
+    },
+    {
+      "word": "supermarket",
+      "lemma": "supermarket",
+      "ipa": "/ˈsuː.pəˌmɑː.kɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large shop that sells food and other things for the home",
+          "meaning_vi": "siêu thị; cửa hàng lớn bán thực phẩm và đồ gia dụng",
+          "examples": [
+            {
+              "en": "Vinmart is a popular supermarket in Vietnam.",
+              "vi": "Vinmart là siêu thị phổ biến ở Việt Nam."
+            },
+            {
+              "en": "I do my grocery shopping at the supermarket every weekend.",
+              "vi": "Tôi đi chợ ở siêu thị mỗi cuối tuần."
+            },
+            {
+              "en": "The supermarket has a sale on rice this week.",
+              "vi": "Siêu thị đang giảm giá gạo tuần này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grocery store", "hypermarket"],
+      "antonyms": ["corner shop"],
+      "collocations": [
+        "go to the supermarket",
+        "supermarket chain",
+        "local supermarket",
+        "supermarket trolley",
+        "supermarket shelf"
+      ],
+      "etymology_hint": "Compound: 'super' (above, large) + 'market' — coined in 1930s American English",
+      "mnemonic_vi": "SUPERMARKET = SUPER + MARKET: 'siêu chợ' = siêu thị"
+    },
+    {
+      "word": "market",
+      "lemma": "market",
+      "ipa": "/ˈmɑː.kɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where people buy and sell food or other goods, often outdoors",
+          "meaning_vi": "chợ; nơi mua bán đồ ăn hoặc hàng hoá, thường ngoài trời",
+          "examples": [
+            {
+              "en": "Dong Xuan Market is the biggest market in Hanoi.",
+              "vi": "Chợ Đồng Xuân là chợ lớn nhất Hà Nội."
+            },
+            {
+              "en": "Mum goes to the market every morning for fresh vegetables.",
+              "vi": "Mẹ đi chợ mỗi sáng để mua rau tươi."
+            },
+            {
+              "en": "The night market sells street food and souvenirs.",
+              "vi": "Chợ đêm bán đồ ăn vặt và quà lưu niệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bazaar", "marketplace"],
+      "antonyms": [],
+      "collocations": [
+        "go to the market",
+        "open market",
+        "fish market",
+        "night market",
+        "farmers' market"
+      ],
+      "etymology_hint": "From Latin 'mercatus' meaning 'trade, marketplace', from 'mercari' (to trade)",
+      "mnemonic_vi": "MARKET đọc 'mác-kịt' — vào 'MÁC' (mặc cả) ở MARKET là chuyện thường"
+    },
+    {
+      "word": "church",
+      "lemma": "church",
+      "ipa": "/tʃɜːtʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building where Christians go to pray",
+          "meaning_vi": "nhà thờ; nơi người Cơ đốc giáo đến cầu nguyện",
+          "examples": [
+            {
+              "en": "The Notre Dame Cathedral is a famous church in Saigon.",
+              "vi": "Nhà thờ Đức Bà là nhà thờ nổi tiếng ở Sài Gòn."
+            },
+            {
+              "en": "She goes to church every Sunday morning.",
+              "vi": "Cô ấy đi nhà thờ mỗi sáng Chủ nhật."
+            },
+            {
+              "en": "The wedding was held at a small church.",
+              "vi": "Đám cưới được tổ chức tại một nhà thờ nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cathedral", "chapel"],
+      "antonyms": [],
+      "collocations": [
+        "go to church",
+        "old church",
+        "church bell",
+        "church service",
+        "stone church"
+      ],
+      "etymology_hint": "From Old English 'cirice', from Greek 'kyriakon' meaning 'the Lord's house'",
+      "mnemonic_vi": "CHURCH đọc 'chớt-chờ' — 'CHỚT' chuông nhà thờ 'CHỜ' đến giờ lễ"
+    }
+  ]
+}

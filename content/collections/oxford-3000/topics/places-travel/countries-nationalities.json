@@ -1,0 +1,688 @@
+{
+  "slug": "countries-nationalities",
+  "name": "Countries & Nationalities",
+  "description": "Tên quốc gia và quốc tịch phổ biến.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "Vietnam",
+      "lemma": "Vietnam",
+      "ipa": "/ˌvjet.nɑːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a country in Southeast Asia, between Laos, Cambodia, and the South China Sea",
+          "meaning_vi": "Việt Nam; quốc gia ở Đông Nam Á",
+          "examples": [
+            {
+              "en": "Vietnam is famous for its beautiful beaches and street food.",
+              "vi": "Việt Nam nổi tiếng với những bãi biển đẹp và đồ ăn đường phố."
+            },
+            {
+              "en": "She visited Vietnam last summer.",
+              "vi": "Cô ấy đến thăm Việt Nam mùa hè năm ngoái."
+            },
+            { "en": "Vietnam has 54 ethnic groups.", "vi": "Việt Nam có 54 dân tộc." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in Vietnam",
+        "from Vietnam",
+        "Vietnam War",
+        "North Vietnam",
+        "South Vietnam"
+      ],
+      "etymology_hint": "From 'Việt' (the ethnic Vietnamese people) + 'Nam' (south) — 'land of the southern Việt'",
+      "mnemonic_vi": "VIETNAM giữ nguyên tiếng Việt 'Việt Nam' — chỉ thêm dấu nhấn lên VIỆT NAM"
+    },
+    {
+      "word": "Vietnamese",
+      "lemma": "Vietnamese",
+      "ipa": "/ˌvjet.nəˈmiːz/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from Vietnam, or relating to its people and language",
+          "meaning_vi": "thuộc Việt Nam; người Việt Nam; tiếng Việt",
+          "examples": [
+            {
+              "en": "I'm Vietnamese — I was born in Hue.",
+              "vi": "Tôi là người Việt — tôi sinh ra ở Huế."
+            },
+            {
+              "en": "Vietnamese food is healthy and delicious.",
+              "vi": "Đồ ăn Việt vừa lành mạnh vừa ngon."
+            },
+            { "en": "She speaks Vietnamese fluently.", "vi": "Cô ấy nói tiếng Việt trôi chảy." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Vietnamese food",
+        "Vietnamese people",
+        "Vietnamese language",
+        "speak Vietnamese",
+        "Vietnamese culture"
+      ],
+      "etymology_hint": "From 'Vietnam' + '-ese' suffix (denotes nationality/language, from Italian/Romance)",
+      "mnemonic_vi": "VIETNAMESE = VIETNAM + ESE: 'thuộc Việt Nam' = người Việt"
+    },
+    {
+      "word": "America",
+      "lemma": "America",
+      "ipa": "/əˈmer.ɪ.kə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the United States, a large country in North America",
+          "meaning_vi": "Mỹ, Hoa Kỳ; quốc gia lớn ở Bắc Mỹ",
+          "examples": [
+            { "en": "My cousin lives in America now.", "vi": "Anh họ tôi giờ sống ở Mỹ." },
+            { "en": "America has 50 states.", "vi": "Mỹ có 50 bang." },
+            { "en": "She dreams of studying in America.", "vi": "Cô ấy mơ ước được học ở Mỹ." }
+          ]
+        }
+      ],
+      "synonyms": ["USA", "United States", "the States"],
+      "antonyms": [],
+      "collocations": [
+        "in America",
+        "from America",
+        "North America",
+        "South America",
+        "Central America"
+      ],
+      "etymology_hint": "Named after Italian explorer Amerigo Vespucci (Latinized as 'Americus')",
+      "mnemonic_vi": "AMERICA chứa 'AME' — bay đến 'AME' (xa) AMERICA thật xa"
+    },
+    {
+      "word": "American",
+      "lemma": "American",
+      "ipa": "/əˈmer.ɪ.kən/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from the United States, or relating to its people",
+          "meaning_vi": "thuộc Mỹ; người Mỹ",
+          "examples": [
+            {
+              "en": "He is American but speaks Vietnamese well.",
+              "vi": "Anh ấy là người Mỹ nhưng nói tiếng Việt giỏi."
+            },
+            {
+              "en": "American films are popular worldwide.",
+              "vi": "Phim Mỹ phổ biến trên toàn thế giới."
+            },
+            {
+              "en": "My English teacher has an American accent.",
+              "vi": "Cô giáo tiếng Anh của tôi có giọng Mỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "American people",
+        "American culture",
+        "American English",
+        "Native American",
+        "African American"
+      ],
+      "etymology_hint": "From 'America' + '-an' suffix denoting relation",
+      "mnemonic_vi": "AMERICAN = AMERICA + N: 'người AMERICA' = người Mỹ"
+    },
+    {
+      "word": "Britain",
+      "lemma": "Britain",
+      "ipa": "/ˈbrɪt.ən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the island that includes England, Scotland and Wales; often used to mean the United Kingdom",
+          "meaning_vi": "Anh quốc, Vương quốc Anh; đảo gồm Anh, Scotland và xứ Wales",
+          "examples": [
+            {
+              "en": "Britain has a long royal history.",
+              "vi": "Anh quốc có lịch sử hoàng gia lâu đời."
+            },
+            { "en": "My brother studies in Britain.", "vi": "Anh trai tôi học ở Anh." },
+            {
+              "en": "Britain is famous for its tea culture.",
+              "vi": "Anh quốc nổi tiếng với văn hoá uống trà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["UK", "United Kingdom", "Great Britain"],
+      "antonyms": [],
+      "collocations": [
+        "in Britain",
+        "from Britain",
+        "Great Britain",
+        "Battle of Britain",
+        "Britain's history"
+      ],
+      "etymology_hint": "From Latin 'Britannia', from a Celtic name for the island",
+      "mnemonic_vi": "BRITAIN đọc 'brít-tân' — 'BRIT' đầu chữ vang lên kiêu hãnh"
+    },
+    {
+      "word": "British",
+      "lemma": "British",
+      "ipa": "/ˈbrɪt.ɪʃ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from Britain, or relating to its people",
+          "meaning_vi": "thuộc Anh; người Anh",
+          "examples": [
+            { "en": "She has a strong British accent.", "vi": "Cô ấy có giọng Anh rõ rệt." },
+            { "en": "British people love queuing.", "vi": "Người Anh thích xếp hàng." },
+            {
+              "en": "British humour is famous for being dry.",
+              "vi": "Hài Anh nổi tiếng kiểu hài lạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["English"],
+      "antonyms": [],
+      "collocations": [
+        "British people",
+        "British accent",
+        "British English",
+        "British history",
+        "British culture"
+      ],
+      "etymology_hint": "From 'Britain' + '-ish' suffix",
+      "mnemonic_vi": "BRITISH = BRIT + ISH: 'kiểu BRIT' = người Anh"
+    },
+    {
+      "word": "France",
+      "lemma": "France",
+      "ipa": "/frɑːns/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a country in Western Europe, famous for its food, fashion, and Eiffel Tower",
+          "meaning_vi": "Pháp; quốc gia Tây Âu, nổi tiếng với ẩm thực, thời trang và tháp Eiffel",
+          "examples": [
+            {
+              "en": "France has beautiful vineyards and old castles.",
+              "vi": "Pháp có nhiều vườn nho đẹp và lâu đài cổ."
+            },
+            { "en": "I want to visit France someday.", "vi": "Tôi muốn đến Pháp một ngày nào đó." },
+            {
+              "en": "France ruled Vietnam for almost a century.",
+              "vi": "Pháp đã đô hộ Việt Nam gần một thế kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in France",
+        "from France",
+        "Tour de France",
+        "South of France",
+        "Bank of France"
+      ],
+      "etymology_hint": "From Latin 'Francia' meaning 'land of the Franks' (a Germanic tribe)",
+      "mnemonic_vi": "FRANCE đọc 'phờ-răn' — 'PHƠ' (ngẩn) trước vẻ đẹp 'RĂN' (răng) của tháp Eiffel"
+    },
+    {
+      "word": "French",
+      "lemma": "French",
+      "ipa": "/frentʃ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from France, or relating to its people and language",
+          "meaning_vi": "thuộc Pháp; người Pháp; tiếng Pháp",
+          "examples": [
+            {
+              "en": "French bread is sold in many bakeries in Saigon.",
+              "vi": "Bánh mì kiểu Pháp được bán ở nhiều tiệm bánh tại Sài Gòn."
+            },
+            {
+              "en": "She studied French in high school.",
+              "vi": "Cô ấy học tiếng Pháp ở trường cấp ba."
+            },
+            {
+              "en": "My grandfather speaks fluent French.",
+              "vi": "Ông tôi nói tiếng Pháp trôi chảy."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "French food",
+        "French language",
+        "speak French",
+        "French fries",
+        "French wine"
+      ],
+      "etymology_hint": "From Old English 'Frencisc' meaning 'Frankish'",
+      "mnemonic_vi": "FRENCH chứa 'FREN' — bạn 'FREN' (friend) người Pháp có gu thời trang sang chảnh"
+    },
+    {
+      "word": "Japan",
+      "lemma": "Japan",
+      "ipa": "/dʒəˈpæn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an island country in East Asia, famous for its technology and culture",
+          "meaning_vi": "Nhật Bản; quốc gia đảo ở Đông Á, nổi tiếng về công nghệ và văn hoá",
+          "examples": [
+            {
+              "en": "Japan is famous for sushi and cherry blossoms.",
+              "vi": "Nhật Bản nổi tiếng với sushi và hoa anh đào."
+            },
+            {
+              "en": "He works for a Japanese company in Japan.",
+              "vi": "Anh ấy làm cho công ty Nhật ở Nhật Bản."
+            },
+            {
+              "en": "Japan and Vietnam have strong trade relations.",
+              "vi": "Nhật và Việt Nam có quan hệ thương mại mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["in Japan", "from Japan", "Japan trade", "Made in Japan", "Japan tour"],
+      "etymology_hint": "From Mandarin Chinese 'Rìběn' (sun-origin) via Malay 'Jepang' — 'land of the rising sun'",
+      "mnemonic_vi": "JAPAN đọc 'gie-pen' — đất nước 'GIÊ' (rất) 'PHẲN' (phẳng) đầu sáng kiến"
+    },
+    {
+      "word": "Japanese",
+      "lemma": "Japanese",
+      "ipa": "/ˌdʒæp.əˈniːz/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from Japan, or relating to its people and language",
+          "meaning_vi": "thuộc Nhật; người Nhật; tiếng Nhật",
+          "examples": [
+            {
+              "en": "My boss is Japanese and very polite.",
+              "vi": "Sếp tôi là người Nhật và rất lịch sự."
+            },
+            { "en": "I love watching Japanese anime.", "vi": "Tôi thích xem anime Nhật." },
+            { "en": "Japanese cars are known for being reliable.", "vi": "Xe Nhật nổi tiếng bền." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Japanese food",
+        "Japanese language",
+        "Japanese anime",
+        "Japanese car",
+        "Japanese culture"
+      ],
+      "etymology_hint": "From 'Japan' + '-ese' nationality suffix",
+      "mnemonic_vi": "JAPANESE = JAPAN + ESE: 'kiểu Nhật' = người Nhật"
+    },
+    {
+      "word": "China",
+      "lemma": "China",
+      "ipa": "/ˈtʃaɪ.nə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large country in East Asia, the most populated country in the world",
+          "meaning_vi": "Trung Quốc; quốc gia lớn ở Đông Á, đông dân nhất thế giới",
+          "examples": [
+            {
+              "en": "China shares a border with Vietnam in the north.",
+              "vi": "Trung Quốc giáp biên giới Việt Nam ở phía Bắc."
+            },
+            {
+              "en": "The Great Wall is the most famous landmark in China.",
+              "vi": "Vạn Lý Trường Thành là điểm tham quan nổi tiếng nhất Trung Quốc."
+            },
+            {
+              "en": "Many products are made in China.",
+              "vi": "Nhiều sản phẩm được sản xuất tại Trung Quốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["in China", "from China", "Made in China", "ancient China", "modern China"],
+      "etymology_hint": "From Sanskrit 'Cīna', possibly from the Qin dynasty (秦) of ancient China",
+      "mnemonic_vi": "CHINA đọc 'chai-nờ' — 'CHAI' lọ sứ làm tại CHINA truyền thống"
+    },
+    {
+      "word": "Chinese",
+      "lemma": "Chinese",
+      "ipa": "/ˌtʃaɪˈniːz/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from China, or relating to its people and language",
+          "meaning_vi": "thuộc Trung Quốc; người Trung Quốc; tiếng Trung",
+          "examples": [
+            {
+              "en": "Chinese is the most spoken language in the world.",
+              "vi": "Tiếng Trung là ngôn ngữ được nói nhiều nhất thế giới."
+            },
+            {
+              "en": "Vietnamese Tet shares many customs with Chinese New Year.",
+              "vi": "Tết Việt có nhiều phong tục giống Tết Trung Quốc."
+            },
+            { "en": "She studies Chinese at university.", "vi": "Cô ấy học tiếng Trung ở đại học." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Chinese food",
+        "Chinese language",
+        "Chinese New Year",
+        "Chinese culture",
+        "Chinese medicine"
+      ],
+      "etymology_hint": "From 'China' + '-ese' suffix",
+      "mnemonic_vi": "CHINESE = CHINA + ESE: 'thuộc CHINA' = người Trung"
+    },
+    {
+      "word": "Korea",
+      "lemma": "Korea",
+      "ipa": "/kəˈriː.ə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a country in East Asia, divided into North Korea and South Korea",
+          "meaning_vi": "Hàn Quốc, Triều Tiên; quốc gia Đông Á chia làm Bắc và Nam",
+          "examples": [
+            {
+              "en": "Korea is famous for K-pop and kimchi.",
+              "vi": "Hàn Quốc nổi tiếng với nhạc K-pop và kim chi."
+            },
+            {
+              "en": "She works in Korea as a translator.",
+              "vi": "Cô ấy làm phiên dịch ở Hàn Quốc."
+            },
+            { "en": "Korea has four distinct seasons.", "vi": "Hàn Quốc có bốn mùa rõ rệt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["in Korea", "from Korea", "South Korea", "North Korea", "Korea tour"],
+      "etymology_hint": "From the Goryeo dynasty (高麗) which ruled the Korean peninsula AD 918–1392",
+      "mnemonic_vi": "KOREA đọc 'cô-ri-ờ' — 'CÔ' RI ÒA (Hari Won?) — biểu tượng nhạc Hàn"
+    },
+    {
+      "word": "Korean",
+      "lemma": "Korean",
+      "ipa": "/kəˈriː.ən/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "from Korea, or relating to its people and language",
+          "meaning_vi": "thuộc Hàn Quốc; người Hàn; tiếng Hàn",
+          "examples": [
+            {
+              "en": "Korean dramas are very popular in Vietnam.",
+              "vi": "Phim Hàn rất được yêu thích ở Việt Nam."
+            },
+            {
+              "en": "She is learning Korean to watch K-dramas without subtitles.",
+              "vi": "Cô ấy học tiếng Hàn để xem phim Hàn không cần phụ đề."
+            },
+            { "en": "Korean BBQ is delicious.", "vi": "BBQ Hàn Quốc rất ngon." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Korean food",
+        "Korean drama",
+        "Korean language",
+        "Korean BBQ",
+        "Korean culture"
+      ],
+      "etymology_hint": "From 'Korea' + '-an' suffix",
+      "mnemonic_vi": "KOREAN = KOREA + N: 'người KOREA' = người Hàn"
+    },
+    {
+      "word": "Germany",
+      "lemma": "Germany",
+      "ipa": "/ˈdʒɜː.mə.ni/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a country in Central Europe, famous for its cars and beer",
+          "meaning_vi": "Đức; quốc gia Trung Âu, nổi tiếng về ô tô và bia",
+          "examples": [
+            {
+              "en": "Germany makes some of the best cars in the world.",
+              "vi": "Đức sản xuất một số xe hơi tốt nhất thế giới."
+            },
+            { "en": "Berlin is the capital of Germany.", "vi": "Berlin là thủ đô của Đức." },
+            {
+              "en": "My uncle did his master's degree in Germany.",
+              "vi": "Chú tôi học thạc sĩ ở Đức."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in Germany",
+        "from Germany",
+        "West Germany",
+        "East Germany",
+        "Made in Germany"
+      ],
+      "etymology_hint": "From Latin 'Germania', referring to ancient Germanic tribes",
+      "mnemonic_vi": "GERMANY chứa 'GERM' — Đức nổi tiếng kỹ thuật chính xác như diệt 'GERM' (vi khuẩn)"
+    },
+    {
+      "word": "German",
+      "lemma": "German",
+      "ipa": "/ˈdʒɜː.mən/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "from Germany, or relating to its people and language",
+          "meaning_vi": "thuộc Đức; người Đức; tiếng Đức",
+          "examples": [
+            {
+              "en": "German engineering is admired around the world.",
+              "vi": "Kỹ thuật Đức được ngưỡng mộ khắp thế giới."
+            },
+            { "en": "He speaks fluent German.", "vi": "Anh ấy nói tiếng Đức trôi chảy." },
+            { "en": "German beer is famous worldwide.", "vi": "Bia Đức nổi tiếng toàn cầu." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "German car",
+        "German language",
+        "speak German",
+        "German beer",
+        "German culture"
+      ],
+      "etymology_hint": "From Latin 'Germanus' meaning 'a German person'",
+      "mnemonic_vi": "GERMAN = GERMANY (- Y): cùng gốc, chỉ rút bớt = thuộc Đức"
+    },
+    {
+      "word": "language",
+      "lemma": "language",
+      "ipa": "/ˈlæŋ.ɡwɪdʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the words people use to speak or write to each other in a country or community",
+          "meaning_vi": "ngôn ngữ; tiếng nói chung của một dân tộc hoặc cộng đồng",
+          "examples": [
+            {
+              "en": "English is the most widely studied language in Vietnam.",
+              "vi": "Tiếng Anh là ngôn ngữ được học nhiều nhất ở Việt Nam."
+            },
+            {
+              "en": "She can speak three languages fluently.",
+              "vi": "Cô ấy nói trôi chảy ba thứ tiếng."
+            },
+            {
+              "en": "Body language is also a form of communication.",
+              "vi": "Ngôn ngữ cơ thể cũng là một dạng giao tiếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tongue", "speech", "dialect"],
+      "antonyms": [],
+      "collocations": [
+        "foreign language",
+        "native language",
+        "body language",
+        "learn a language",
+        "sign language"
+      ],
+      "etymology_hint": "From Old French 'langage', from Latin 'lingua' meaning 'tongue'",
+      "mnemonic_vi": "LANGUAGE chứa 'LANG' — 'LÀNG' nào cũng có một ngôn ngữ riêng = LANGUAGE"
+    },
+    {
+      "word": "foreign",
+      "lemma": "foreign",
+      "ipa": "/ˈfɒr.ən/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "from or about another country, not your own",
+          "meaning_vi": "ngoại quốc, ngoại; từ nước khác, không phải nước mình",
+          "examples": [
+            {
+              "en": "Many foreign tourists visit Hoi An every year.",
+              "vi": "Nhiều du khách nước ngoài đến thăm Hội An mỗi năm."
+            },
+            {
+              "en": "Studying a foreign language opens many doors.",
+              "vi": "Học một ngoại ngữ mở ra nhiều cánh cửa."
+            },
+            {
+              "en": "The customs officer checked our foreign passports.",
+              "vi": "Cán bộ hải quan kiểm tra hộ chiếu nước ngoài của chúng tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overseas", "alien", "international"],
+      "antonyms": ["domestic", "native", "local"],
+      "collocations": [
+        "foreign language",
+        "foreign tourist",
+        "foreign country",
+        "foreign currency",
+        "foreign affairs"
+      ],
+      "etymology_hint": "From Old French 'forain' meaning 'on the outside', from Latin 'foras' (outside)",
+      "mnemonic_vi": "FOREIGN âm câm chữ G — đọc 'fo-rần' — 'PHO' (ngoài) 'RẦN' (xa) = nước ngoài"
+    },
+    {
+      "word": "native",
+      "lemma": "native",
+      "ipa": "/ˈneɪ.tɪv/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "born in a particular place, or belonging to it naturally",
+          "meaning_vi": "bản xứ, bản địa; sinh ra hoặc thuộc về một nơi nhất định",
+          "examples": [
+            {
+              "en": "She is a native speaker of Vietnamese.",
+              "vi": "Cô ấy là người bản xứ Việt Nam."
+            },
+            {
+              "en": "Coconut trees are native to tropical countries.",
+              "vi": "Cây dừa là cây bản địa của các nước nhiệt đới."
+            },
+            {
+              "en": "He returned to his native village after 20 years.",
+              "vi": "Anh ấy về quê hương sau 20 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["indigenous", "local", "original"],
+      "antonyms": ["foreign", "non-native", "imported"],
+      "collocations": [
+        "native speaker",
+        "native language",
+        "native country",
+        "native plant",
+        "Native American"
+      ],
+      "etymology_hint": "From Latin 'nativus' meaning 'innate, born', from 'nasci' (be born)",
+      "mnemonic_vi": "NATIVE chứa 'NAT' (sinh) — 'sinh ra ở đó' = bản địa"
+    },
+    {
+      "word": "abroad",
+      "lemma": "abroad",
+      "ipa": "/əˈbrɔːd/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in or to a foreign country",
+          "meaning_vi": "ở/đi nước ngoài; ngoại quốc",
+          "examples": [
+            { "en": "My sister studies abroad in Australia.", "vi": "Chị tôi du học ở Úc." },
+            { "en": "Have you ever travelled abroad?", "vi": "Bạn đã đi nước ngoài bao giờ chưa?" },
+            {
+              "en": "He works abroad and sends money home every month.",
+              "vi": "Anh ấy làm việc ở nước ngoài và gửi tiền về nhà mỗi tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overseas", "internationally"],
+      "antonyms": ["at home", "domestically"],
+      "collocations": ["travel abroad", "study abroad", "work abroad", "go abroad", "from abroad"],
+      "etymology_hint": "Old English 'on brad' meaning 'on the broad' (open space) — extended to 'far from home'",
+      "mnemonic_vi": "ABROAD chứa 'BROAD' (rộng) — 'BROAD' (rộng) hơn biên giới = nước ngoài"
+    }
+  ]
+}
