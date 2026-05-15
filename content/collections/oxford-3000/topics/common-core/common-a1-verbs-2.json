@@ -1,0 +1,577 @@
+{
+  "slug": "common-a1-verbs-2",
+  "name": "Common A1 Verbs (Set 2)",
+  "description": "Bộ 20 động từ A1 tần suất cao — answer, begin, bring, call và các verb cốt lõi khác.",
+  "order_index": 15,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "answer",
+      "lemma": "answer",
+      "ipa": "/ˈɑːnsə(r)/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to say or write something in reply to a question",
+          "meaning_vi": "trả lời",
+          "examples": [
+            {
+              "en": "Please answer the phone — it's ringing.",
+              "vi": "Nhấc máy giùm — điện thoại đang reo."
+            },
+            {
+              "en": "She answered all the questions correctly.",
+              "vi": "Cô ấy trả lời đúng tất cả các câu hỏi."
+            },
+            {
+              "en": "I'll answer your email tonight.",
+              "vi": "Tối nay tôi sẽ trả lời email của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reply", "respond"],
+      "antonyms": ["ask", "question"],
+      "collocations": [
+        "answer the phone",
+        "answer a question",
+        "answer back",
+        "answer correctly",
+        "short answer"
+      ],
+      "etymology_hint": "From Old English 'andswaru' = 'and-' (against) + 'swerian' (swear) → 'sworn statement against'.",
+      "mnemonic_vi": "ANSWER = 'an-sờ' — 'ấn sự' (đáp lại). Answer the phone = bắt máy."
+    },
+    {
+      "word": "begin",
+      "lemma": "begin",
+      "ipa": "/bɪˈɡɪn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to start something",
+          "meaning_vi": "bắt đầu",
+          "examples": [
+            { "en": "Let's begin the meeting now.", "vi": "Bắt đầu cuộc họp thôi." },
+            {
+              "en": "Tết begins on a different date each year.",
+              "vi": "Tết bắt đầu vào một ngày khác mỗi năm."
+            },
+            {
+              "en": "She began learning English at age 8.",
+              "vi": "Cô ấy bắt đầu học tiếng Anh năm 8 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["start", "commence"],
+      "antonyms": ["end", "finish"],
+      "collocations": ["begin to", "begin with", "to begin with", "the beginning", "began doing"],
+      "etymology_hint": "From Old English 'beginnan' — basic verb of starting.",
+      "mnemonic_vi": "BEGIN = 'bi-gin' — 'bí gì' (mở đầu). Past: began, begun. Đồng nghĩa với START."
+    },
+    {
+      "word": "bring",
+      "lemma": "bring",
+      "ipa": "/brɪŋ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to come somewhere carrying something or someone",
+          "meaning_vi": "mang theo, đem đến",
+          "examples": [
+            { "en": "Don't forget to bring your ID card.", "vi": "Đừng quên mang theo CMND." },
+            { "en": "She brought bánh mì for everyone.", "vi": "Cô ấy mang bánh mì cho cả nhóm." },
+            { "en": "Bring your friends to the party.", "vi": "Mang theo bạn bè đến tiệc." }
+          ]
+        }
+      ],
+      "synonyms": ["carry", "take"],
+      "antonyms": [],
+      "collocations": [
+        "bring along",
+        "bring back",
+        "bring up",
+        "bring together",
+        "bring an end to"
+      ],
+      "etymology_hint": "From Old English 'bringan' — basic verb of carrying.",
+      "mnemonic_vi": "BRING = 'brinh' — 'bí ring' (kè kè mang theo). Past: brought. Bring me coffee = mang cà phê."
+    },
+    {
+      "word": "call",
+      "lemma": "call",
+      "ipa": "/kɔːl/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to phone someone; to give someone a name",
+          "meaning_vi": "gọi (điện thoại); đặt tên",
+          "examples": [
+            { "en": "Call me when you arrive.", "vi": "Gọi tôi khi bạn đến nhé." },
+            { "en": "They called their daughter Mai.", "vi": "Họ đặt tên con gái là Mai." },
+            { "en": "She called for help.", "vi": "Cô ấy kêu cứu." }
+          ]
+        }
+      ],
+      "synonyms": ["phone", "name"],
+      "antonyms": [],
+      "collocations": ["call me", "call back", "call for", "be called", "phone call"],
+      "etymology_hint": "From Old Norse 'kalla' meaning 'to cry out'.",
+      "mnemonic_vi": "CALL = 'cô' — 'kêu' (gọi). Call me = gọi tôi, his name is called Minh = tên cậu ấy là Minh."
+    },
+    {
+      "word": "carry",
+      "lemma": "carry",
+      "ipa": "/ˈkæri/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to hold something and move it from one place to another",
+          "meaning_vi": "mang, vác, xách",
+          "examples": [
+            { "en": "She carries her laptop everywhere.", "vi": "Cô ấy xách laptop khắp nơi." },
+            {
+              "en": "He carried the heavy box up the stairs.",
+              "vi": "Anh ấy khiêng cái thùng nặng lên cầu thang."
+            },
+            {
+              "en": "Mothers in the countryside carry babies on their backs.",
+              "vi": "Các bà mẹ ở quê địu con sau lưng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bear", "hold"],
+      "antonyms": [],
+      "collocations": ["carry on", "carry out", "carry away", "carry with", "carry weight"],
+      "etymology_hint": "From Old French 'carier' — from Latin 'carrus' (cart).",
+      "mnemonic_vi": "CARRY = 'ke-ri' — 'kề rì' (đeo vào). Carry on = tiếp tục. Carry out = thực hiện."
+    },
+    {
+      "word": "draw",
+      "lemma": "draw",
+      "ipa": "/drɔː/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to make a picture using a pen, pencil, or crayon",
+          "meaning_vi": "vẽ (bằng bút, chì)",
+          "examples": [
+            { "en": "She loves to draw flowers.", "vi": "Cô bé thích vẽ hoa." },
+            { "en": "Can you draw me a map?", "vi": "Bạn vẽ giúp tôi cái bản đồ được không?" },
+            {
+              "en": "The artist drew Hội An lanterns beautifully.",
+              "vi": "Nghệ sĩ vẽ đèn lồng Hội An rất đẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sketch"],
+      "antonyms": [],
+      "collocations": ["draw a picture", "draw a line", "draw attention", "draw near", "draw up"],
+      "etymology_hint": "From Old English 'dragan' meaning 'to pull, drag'.",
+      "mnemonic_vi": "DRAW = 'đrô' — 'rờ' (lướt bút). Past: drew, drawn. Draw a picture = vẽ bức tranh."
+    },
+    {
+      "word": "drive",
+      "lemma": "drive",
+      "ipa": "/draɪv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to operate a vehicle and make it move",
+          "meaning_vi": "lái xe (ô tô)",
+          "examples": [
+            { "en": "She learned to drive at age 19.", "vi": "Cô ấy học lái xe năm 19 tuổi." },
+            { "en": "Don't drive after drinking.", "vi": "Đừng lái xe sau khi uống rượu." },
+            { "en": "He drives a small Toyota.", "vi": "Anh ấy lái một chiếc Toyota nhỏ." }
+          ]
+        }
+      ],
+      "synonyms": ["operate"],
+      "antonyms": [],
+      "collocations": [
+        "drive a car",
+        "learn to drive",
+        "drive home",
+        "driving licence",
+        "drive away"
+      ],
+      "etymology_hint": "From Old English 'drīfan' meaning 'to push, urge on'.",
+      "mnemonic_vi": "DRIVE = 'drai-v' — 'rai' (lăn bánh). Past: drove, driven. Drive a car = lái ô tô."
+    },
+    {
+      "word": "fall",
+      "lemma": "fall",
+      "ipa": "/fɔːl/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to drop or go down quickly toward the ground",
+          "meaning_vi": "rơi, ngã",
+          "examples": [
+            {
+              "en": "Be careful — you might fall on the wet floor.",
+              "vi": "Cẩn thận — có thể ngã trên sàn ướt."
+            },
+            { "en": "Leaves fall from the trees in autumn.", "vi": "Lá rụng từ cây vào mùa thu." },
+            {
+              "en": "She fell in love with Hội An on her first trip.",
+              "vi": "Cô ấy phải lòng Hội An ngay lần đầu đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["drop", "tumble"],
+      "antonyms": ["rise"],
+      "collocations": ["fall down", "fall asleep", "fall in love", "fall behind", "fall off"],
+      "etymology_hint": "From Old English 'feallan' — basic verb of downward motion.",
+      "mnemonic_vi": "FALL = 'phôn' — 'phọn' xuống. Past: fell, fallen. Fall in love = phải lòng."
+    },
+    {
+      "word": "hold",
+      "lemma": "hold",
+      "ipa": "/həʊld/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to have something in your hand; to keep something",
+          "meaning_vi": "cầm, giữ",
+          "examples": [
+            { "en": "Hold my hand crossing the street.", "vi": "Nắm tay tôi khi qua đường." },
+            { "en": "She held the baby gently.", "vi": "Cô ấy bế em bé nhẹ nhàng." },
+            { "en": "Please hold the line, sir.", "vi": "Xin vui lòng giữ máy, thưa anh." }
+          ]
+        }
+      ],
+      "synonyms": ["grasp", "carry"],
+      "antonyms": ["release", "let go"],
+      "collocations": ["hold hands", "hold on", "hold back", "hold tight", "hold the line"],
+      "etymology_hint": "From Old English 'healdan' meaning 'to keep, possess'.",
+      "mnemonic_vi": "HOLD = 'hâu-ld' — 'hốp' (nắm chặt). Past: held. Hold my hand = nắm tay tôi."
+    },
+    {
+      "word": "jump",
+      "lemma": "jump",
+      "ipa": "/dʒʌmp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to push yourself up off the ground with your legs",
+          "meaning_vi": "nhảy",
+          "examples": [
+            { "en": "The cat jumped onto the table.", "vi": "Con mèo nhảy lên bàn." },
+            { "en": "Kids jump on the bed for fun.", "vi": "Trẻ con nhảy trên giường cho vui." },
+            {
+              "en": "She jumped in surprise when the door slammed.",
+              "vi": "Cô ấy giật mình khi cửa đóng sầm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leap", "hop"],
+      "antonyms": [],
+      "collocations": ["jump up", "jump in", "jump out", "jump rope", "high jump"],
+      "etymology_hint": "Origin uncertain, possibly imitating the sound of landing.",
+      "mnemonic_vi": "JUMP = 'dắm' — 'dồn' chân đẩy. Jump high = nhảy cao, jump in = nhảy vào."
+    },
+    {
+      "word": "live",
+      "lemma": "live",
+      "ipa": "/lɪv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to have your home in a place; to be alive",
+          "meaning_vi": "sống, ở (nơi nào)",
+          "examples": [
+            { "en": "I live in District 1 in Sài Gòn.", "vi": "Tôi sống ở Quận 1, Sài Gòn." },
+            {
+              "en": "She has lived in Hà Nội for 10 years.",
+              "vi": "Cô ấy sống ở Hà Nội 10 năm rồi."
+            },
+            {
+              "en": "We live in interesting times.",
+              "vi": "Chúng ta đang sống trong thời đại thú vị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reside", "exist"],
+      "antonyms": ["die"],
+      "collocations": ["live in", "live with", "live up to", "live on", "live well"],
+      "etymology_hint": "From Old English 'libban' — basic verb of existence.",
+      "mnemonic_vi": "LIVE = 'líp' — 'lìp' (đang sống). Live in Hà Nội = sống ở HN. Cũng = trực tiếp (live show)."
+    },
+    {
+      "word": "meet",
+      "lemma": "meet",
+      "ipa": "/miːt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to come together with someone; to know someone for the first time",
+          "meaning_vi": "gặp gỡ; lần đầu quen biết",
+          "examples": [
+            { "en": "Let's meet at Highlands at 5pm.", "vi": "Gặp ở Highlands lúc 5h chiều nhé." },
+            { "en": "Nice to meet you!", "vi": "Rất vui được gặp bạn!" },
+            { "en": "She met her husband in college.", "vi": "Cô ấy gặp chồng mình ở đại học." }
+          ]
+        }
+      ],
+      "synonyms": ["encounter"],
+      "antonyms": ["part"],
+      "collocations": [
+        "meet you",
+        "meet up",
+        "nice to meet you",
+        "meet a deadline",
+        "meeting place"
+      ],
+      "etymology_hint": "From Old English 'mētan' meaning 'to come upon, find'.",
+      "mnemonic_vi": "MEET = 'mít' — 'mí' (giáp mặt). Past: met. Meet you = gặp bạn. Đa nghĩa: gặp + đáp ứng (meet a need)."
+    },
+    {
+      "word": "move",
+      "lemma": "move",
+      "ipa": "/muːv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to change position; to relocate to a new place",
+          "meaning_vi": "di chuyển; chuyển nhà",
+          "examples": [
+            {
+              "en": "Please move your motorbike — it's blocking the way.",
+              "vi": "Vui lòng di chuyển xe máy — đang chắn lối."
+            },
+            {
+              "en": "She moved to Sài Gòn last year.",
+              "vi": "Năm ngoái cô ấy chuyển vào Sài Gòn."
+            },
+            { "en": "The story moved her to tears.", "vi": "Câu chuyện làm cô ấy rơi nước mắt." }
+          ]
+        }
+      ],
+      "synonyms": ["shift", "relocate"],
+      "antonyms": ["stay"],
+      "collocations": ["move on", "move in", "move out", "move forward", "move house"],
+      "etymology_hint": "From Latin 'movere' meaning 'to set in motion'.",
+      "mnemonic_vi": "MOVE = 'muv' — 'mủy' (di chuyển). Move on = đi tiếp, move house = chuyển nhà."
+    },
+    {
+      "word": "pay",
+      "lemma": "pay",
+      "ipa": "/peɪ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to give money for something",
+          "meaning_vi": "trả tiền, thanh toán",
+          "examples": [
+            { "en": "I'll pay for dinner tonight.", "vi": "Tối nay tôi trả tiền ăn." },
+            { "en": "Can I pay by card?", "vi": "Tôi thanh toán bằng thẻ được không?" },
+            { "en": "Pay attention to the lecture.", "vi": "Chú ý vào bài giảng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["receive"],
+      "collocations": ["pay for", "pay attention", "pay back", "pay off", "pay a bill"],
+      "etymology_hint": "From Latin 'pacare' meaning 'to appease, satisfy'.",
+      "mnemonic_vi": "PAY = 'pây' — 'phây' (móc ví). Past: paid. Pay attention = chú ý. Pay by card = trả thẻ."
+    },
+    {
+      "word": "read",
+      "lemma": "read",
+      "ipa": "/riːd/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to look at words and understand them",
+          "meaning_vi": "đọc",
+          "examples": [
+            {
+              "en": "I read a Vietnamese novel before bed.",
+              "vi": "Tôi đọc tiểu thuyết Việt trước khi ngủ."
+            },
+            { "en": "Children should learn to read at 6.", "vi": "Trẻ em nên học đọc lúc 6 tuổi." },
+            { "en": "Read the menu carefully.", "vi": "Đọc kỹ thực đơn nhé." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["write"],
+      "collocations": [
+        "read a book",
+        "read a sign",
+        "read aloud",
+        "read about",
+        "read between the lines"
+      ],
+      "etymology_hint": "From Old English 'rǣdan' meaning 'to advise, interpret'.",
+      "mnemonic_vi": "READ = 'rít' — 'rít' (lướt mắt). Past: read /red/ (phát âm khác hiện tại). Read a book = đọc sách."
+    },
+    {
+      "word": "sit",
+      "lemma": "sit",
+      "ipa": "/sɪt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to rest your body on a chair or seat",
+          "meaning_vi": "ngồi",
+          "examples": [
+            {
+              "en": "Please sit down — the meeting is starting.",
+              "vi": "Mời ngồi — cuộc họp sắp bắt đầu."
+            },
+            {
+              "en": "She sat on the floor to play with her cat.",
+              "vi": "Cô ấy ngồi trên sàn chơi với mèo."
+            },
+            { "en": "We sat on the grass at Lăng Bác.", "vi": "Chúng tôi ngồi trên cỏ ở Lăng Bác." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["stand"],
+      "collocations": ["sit down", "sit up", "sit still", "sit on", "sit next to"],
+      "etymology_hint": "From Old English 'sittan' — basic posture verb.",
+      "mnemonic_vi": "SIT = 'sít' — 'sì' (cúi xuống). Past: sat. Sit down = ngồi xuống. Đối với STAND."
+    },
+    {
+      "word": "smile",
+      "lemma": "smile",
+      "ipa": "/smaɪl/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to make a happy expression with your mouth",
+          "meaning_vi": "mỉm cười, cười",
+          "examples": [
+            {
+              "en": "She smiled when she saw her grandmother.",
+              "vi": "Cô bé mỉm cười khi gặp bà."
+            },
+            { "en": "Please smile for the camera!", "vi": "Cười lên cho cái máy ảnh nào!" },
+            { "en": "He smiles at everyone he meets.", "vi": "Anh ấy mỉm cười với ai cũng gặp." }
+          ]
+        }
+      ],
+      "synonyms": ["grin"],
+      "antonyms": ["frown"],
+      "collocations": ["smile at", "warm smile", "bright smile", "force a smile", "smile back"],
+      "etymology_hint": "From Middle English 'smilen' — possibly Scandinavian.",
+      "mnemonic_vi": "SMILE = 'smai-l' — 'smai' (môi cong). Smile at me = cười với tôi."
+    },
+    {
+      "word": "stand",
+      "lemma": "stand",
+      "ipa": "/stænd/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to be on your feet, not sitting or lying",
+          "meaning_vi": "đứng",
+          "examples": [
+            { "en": "Please stand for the national anthem.", "vi": "Vui lòng đứng cho quốc ca." },
+            {
+              "en": "She stood on the balcony watching the rain.",
+              "vi": "Cô ấy đứng trên ban công ngắm mưa."
+            },
+            { "en": "I can't stand spicy food.", "vi": "Tôi không chịu nổi đồ cay." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["sit"],
+      "collocations": ["stand up", "stand still", "stand for", "stand by", "I can't stand"],
+      "etymology_hint": "From Old English 'standan' — basic posture verb.",
+      "mnemonic_vi": "STAND = 'sten-d' — 'sờ tên' (đứng thẳng). Past: stood. Stand up = đứng dậy. I can't stand = chịu không nổi."
+    },
+    {
+      "word": "write",
+      "lemma": "write",
+      "ipa": "/raɪt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to make letters or words on paper or a screen",
+          "meaning_vi": "viết",
+          "examples": [
+            { "en": "Please write your name on the paper.", "vi": "Vui lòng viết tên lên giấy." },
+            {
+              "en": "She wrote a long letter to her grandma.",
+              "vi": "Cô ấy viết một bức thư dài cho bà."
+            },
+            {
+              "en": "He writes for a newspaper in Hà Nội.",
+              "vi": "Anh ấy viết cho một tờ báo ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["read"],
+      "collocations": ["write a letter", "write down", "write about", "write to", "in writing"],
+      "etymology_hint": "From Old English 'wrītan' meaning 'to scratch, draw'.",
+      "mnemonic_vi": "WRITE = 'rai-t' — silent W. 'Ri' (kẻ chữ). Past: wrote, written. Write a letter = viết thư."
+    },
+    {
+      "word": "visit",
+      "lemma": "visit",
+      "ipa": "/ˈvɪzɪt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to go to see someone or a place",
+          "meaning_vi": "thăm, ghé thăm",
+          "examples": [
+            {
+              "en": "We visit our grandparents every Tết.",
+              "vi": "Mỗi Tết chúng tôi về thăm ông bà."
+            },
+            { "en": "Have you visited Sapa?", "vi": "Bạn đã đến Sapa chưa?" },
+            {
+              "en": "The president visited Vietnam last week.",
+              "vi": "Tổng thống thăm Việt Nam tuần trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["call on", "stop by"],
+      "antonyms": [],
+      "collocations": [
+        "visit a friend",
+        "visit a place",
+        "pay a visit",
+        "visit hours",
+        "visit often"
+      ],
+      "etymology_hint": "From Latin 'visitare' meaning 'to go to see'.",
+      "mnemonic_vi": "VISIT = 'vi-zít' — 'vô zịt' (ghé qua). Visit grandma = thăm bà."
+    }
+  ]
+}
