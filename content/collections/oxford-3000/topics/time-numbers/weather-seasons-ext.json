@@ -1,0 +1,673 @@
+{
+  "slug": "weather-seasons-ext",
+  "name": "Weather & Seasons (Extended)",
+  "description": "Trạng thái thời tiết, hiện tượng tự nhiên — mở rộng cho weather-seasons.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "sunny",
+      "lemma": "sunny",
+      "ipa": "/ˈsʌni/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a lot of sunshine; bright",
+          "meaning_vi": "nắng, có nắng",
+          "examples": [
+            { "en": "It's a sunny day in Đà Lạt.", "vi": "Hôm nay Đà Lạt nắng đẹp." },
+            { "en": "Take sunglasses — it'll be sunny.", "vi": "Mang kính râm — trời sẽ nắng." },
+            {
+              "en": "Vietnam has many sunny beaches.",
+              "vi": "Việt Nam có nhiều bãi biển đầy nắng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bright"],
+      "antonyms": ["cloudy"],
+      "collocations": ["sunny day", "sunny weather", "sunny beach", "very sunny", "sunny side"],
+      "etymology_hint": "From 'sun' (Old English 'sunne') + '-y' (full of).",
+      "mnemonic_vi": "SUNNY = SUN + NY → 'có nắng'. Sunny day = ngày nắng."
+    },
+    {
+      "word": "rainy",
+      "lemma": "rainy",
+      "ipa": "/ˈreɪni/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a lot of rain",
+          "meaning_vi": "mưa, có mưa",
+          "examples": [
+            {
+              "en": "Don't forget your umbrella on rainy days.",
+              "vi": "Đừng quên dù vào ngày mưa."
+            },
+            { "en": "Sài Gòn has a long rainy season.", "vi": "Sài Gòn có mùa mưa kéo dài." },
+            { "en": "I love reading on rainy afternoons.", "vi": "Tôi thích đọc sách chiều mưa." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["sunny"],
+      "collocations": [
+        "rainy day",
+        "rainy season",
+        "rainy weather",
+        "very rainy",
+        "save for a rainy day"
+      ],
+      "etymology_hint": "From 'rain' (Old English 'regn') + '-y'.",
+      "mnemonic_vi": "RAINY = RAIN + Y → 'có mưa'. Rainy season = mùa mưa."
+    },
+    {
+      "word": "windy",
+      "lemma": "windy",
+      "ipa": "/ˈwɪndi/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a lot of wind",
+          "meaning_vi": "có gió, gió mạnh",
+          "examples": [
+            { "en": "It's windy at the top of Fansipan.", "vi": "Trên đỉnh Fansipan có gió mạnh." },
+            { "en": "The beach was very windy today.", "vi": "Bãi biển gió mạnh hôm nay." },
+            { "en": "Tie your hair on windy days.", "vi": "Buộc tóc lại vào ngày có gió." }
+          ]
+        }
+      ],
+      "synonyms": ["breezy", "blustery"],
+      "antonyms": [],
+      "collocations": ["windy day", "windy weather", "very windy", "windy spot", "cold and windy"],
+      "etymology_hint": "From 'wind' (Old English 'wind') + '-y'.",
+      "mnemonic_vi": "WINDY = WIND + Y → 'có gió'. Windy day = ngày gió."
+    },
+    {
+      "word": "cloudy",
+      "lemma": "cloudy",
+      "ipa": "/ˈklaʊdi/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "covered with clouds; not sunny",
+          "meaning_vi": "có mây, u ám",
+          "examples": [
+            {
+              "en": "It's cloudy this morning, might rain later.",
+              "vi": "Sáng nay u ám, có thể mưa."
+            },
+            { "en": "The sky was cloudy all weekend.", "vi": "Bầu trời u ám cả cuối tuần." },
+            {
+              "en": "Cloudy weather is common in Hà Nội winter.",
+              "vi": "Thời tiết u ám phổ biến ở Hà Nội mùa đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overcast"],
+      "antonyms": ["sunny", "clear"],
+      "collocations": [
+        "cloudy day",
+        "cloudy sky",
+        "very cloudy",
+        "cloudy weather",
+        "partly cloudy"
+      ],
+      "etymology_hint": "From 'cloud' (Old English 'clūd' = rock, mass) + '-y'.",
+      "mnemonic_vi": "CLOUDY = CLOUD + Y → 'có mây'. Cloudy sky = trời u ám."
+    },
+    {
+      "word": "snowy",
+      "lemma": "snowy",
+      "ipa": "/ˈsnəʊi/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "covered with snow; having lots of snow",
+          "meaning_vi": "có tuyết, phủ tuyết",
+          "examples": [
+            {
+              "en": "Sa Pa is snowy in some winters.",
+              "vi": "Sa Pa có tuyết vào một số mùa đông."
+            },
+            { "en": "She dreams of a snowy Christmas.", "vi": "Cô ấy mơ về Giáng sinh tuyết." },
+            {
+              "en": "The snowy mountain looked magical.",
+              "vi": "Ngọn núi phủ tuyết trông như cổ tích."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "snowy day",
+        "snowy mountain",
+        "snowy weather",
+        "snowy road",
+        "snowy Christmas"
+      ],
+      "etymology_hint": "From 'snow' (Old English 'snāw') + '-y'.",
+      "mnemonic_vi": "SNOWY = SNOW + Y → 'có tuyết'. Snowy mountain = núi tuyết."
+    },
+    {
+      "word": "breeze",
+      "lemma": "breeze",
+      "ipa": "/briːz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a light, gentle wind",
+          "meaning_vi": "làn gió nhẹ, cơn gió",
+          "examples": [
+            {
+              "en": "I enjoyed the sea breeze in Nha Trang.",
+              "vi": "Tôi thích làn gió biển ở Nha Trang."
+            },
+            {
+              "en": "A cool breeze blew through the open window.",
+              "vi": "Một cơn gió mát thổi qua cửa sổ mở."
+            },
+            { "en": "That math test was a breeze.", "vi": "Bài thi toán đó dễ ợt." }
+          ]
+        }
+      ],
+      "synonyms": ["wind"],
+      "antonyms": ["gust"],
+      "collocations": [
+        "cool breeze",
+        "gentle breeze",
+        "sea breeze",
+        "a light breeze",
+        "breeze through"
+      ],
+      "etymology_hint": "From Old Spanish 'briza' meaning 'cold northeast wind'.",
+      "mnemonic_vi": "BREEZE = 'brí-z' — 'bay zì' (nhẹ). Sea breeze = gió biển. Cũng = 'dễ ợt' (a breeze)."
+    },
+    {
+      "word": "temperature",
+      "lemma": "temperature",
+      "ipa": "/ˈtemprətʃə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "how hot or cold something is",
+          "meaning_vi": "nhiệt độ",
+          "examples": [
+            { "en": "The temperature is 30 degrees today.", "vi": "Nhiệt độ hôm nay 30 độ." },
+            {
+              "en": "Take her temperature — she might have a fever.",
+              "vi": "Đo nhiệt độ cô bé — có thể bị sốt."
+            },
+            { "en": "Room temperature is around 25°C.", "vi": "Nhiệt độ phòng khoảng 25°C." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "high temperature",
+        "low temperature",
+        "body temperature",
+        "room temperature",
+        "rising temperature"
+      ],
+      "etymology_hint": "From Latin 'temperatura' meaning 'a proper mixing'.",
+      "mnemonic_vi": "TEMPERATURE = 'tem-prờ-chờ' — 'tem' (nóng) 'prớ-chờ' (đo). Body temperature = nhiệt độ cơ thể."
+    },
+    {
+      "word": "degree",
+      "lemma": "degree",
+      "ipa": "/dɪˈɡriː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring temperature; an academic title",
+          "meaning_vi": "độ (nhiệt độ); bằng (đại học — đã có trong exams-results)",
+          "examples": [
+            { "en": "It's 32 degrees in Sài Gòn today.", "vi": "Hôm nay Sài Gòn 32 độ." },
+            { "en": "Water boils at 100 degrees Celsius.", "vi": "Nước sôi ở 100 độ C." },
+            {
+              "en": "The temperature dropped 5 degrees overnight.",
+              "vi": "Nhiệt độ giảm 5 độ qua đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "30 degrees",
+        "degrees Celsius",
+        "degree of",
+        "to some degree",
+        "to what degree"
+      ],
+      "etymology_hint": "From Latin 'gradus' (step) — same root as 'grade'.",
+      "mnemonic_vi": "DEGREE = 'đi-grí' — 'đi' lên 'gri' (vòng). 30 degrees = 30 độ."
+    },
+    {
+      "word": "ice",
+      "lemma": "ice",
+      "ipa": "/aɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "frozen water; very cold solid water",
+          "meaning_vi": "băng, đá lạnh",
+          "examples": [
+            { "en": "Can I have ice in my cà phê đá?", "vi": "Cho tôi đá vào cà phê đá nhé?" },
+            {
+              "en": "Ice forms on the road in cold mountains.",
+              "vi": "Băng đóng trên đường ở núi lạnh."
+            },
+            { "en": "She slipped on the ice.", "vi": "Cô ấy trượt trên băng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["block of ice", "ice cube", "ice cream", "ice tea", "break the ice"],
+      "etymology_hint": "From Old English 'īs' — basic word for frozen water.",
+      "mnemonic_vi": "ICE = 'ai-s' — 'ai' lạnh quá. Ice cream = kem, cà phê đá = iced coffee."
+    },
+    {
+      "word": "mild",
+      "lemma": "mild",
+      "ipa": "/maɪld/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not strong, hot, or extreme; gentle",
+          "meaning_vi": "ôn hoà, dịu (thời tiết); nhẹ",
+          "examples": [
+            {
+              "en": "Đà Lạt has a mild climate all year.",
+              "vi": "Đà Lạt có khí hậu ôn hoà quanh năm."
+            },
+            {
+              "en": "She likes mild curry, not spicy.",
+              "vi": "Cô ấy thích cà ri ít cay, không cay."
+            },
+            { "en": "His tone was mild and polite.", "vi": "Giọng anh ấy dịu và lịch sự." }
+          ]
+        }
+      ],
+      "synonyms": ["gentle", "moderate"],
+      "antonyms": ["harsh", "severe"],
+      "collocations": [
+        "mild climate",
+        "mild weather",
+        "mild winter",
+        "mild flavor",
+        "mild headache"
+      ],
+      "etymology_hint": "From Old English 'milde' meaning 'gentle, kind'.",
+      "mnemonic_vi": "MILD = 'mai-ld' — 'mài' (dịu xuống). Mild climate = khí hậu dịu."
+    },
+    {
+      "word": "frost",
+      "lemma": "frost",
+      "ipa": "/frɒst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a thin layer of ice on cold ground or plants",
+          "meaning_vi": "sương giá",
+          "examples": [
+            {
+              "en": "Frost covered the plants this morning.",
+              "vi": "Sương giá phủ trên cây sáng nay."
+            },
+            {
+              "en": "Sa Pa sometimes has frost in January.",
+              "vi": "Sa Pa đôi khi có sương giá vào tháng Một."
+            },
+            { "en": "Wipe the frost off the car window.", "vi": "Lau lớp sương giá trên kính xe." }
+          ]
+        }
+      ],
+      "synonyms": ["ice"],
+      "antonyms": [],
+      "collocations": ["morning frost", "heavy frost", "frost on", "first frost", "frost-bitten"],
+      "etymology_hint": "From Old English 'forst' — related to 'freeze'.",
+      "mnemonic_vi": "FROST = 'frốt' — 'phớt' (lớp băng mỏng). Morning frost = sương giá sáng."
+    },
+    {
+      "word": "melt",
+      "lemma": "melt",
+      "ipa": "/melt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to change from solid to liquid (because of heat)",
+          "meaning_vi": "tan chảy, tan ra",
+          "examples": [
+            {
+              "en": "The ice cream is melting fast in the sun.",
+              "vi": "Kem đang tan chảy nhanh dưới nắng."
+            },
+            {
+              "en": "Glaciers melt because of climate change.",
+              "vi": "Sông băng tan vì biến đổi khí hậu."
+            },
+            {
+              "en": "Her heart melted at the puppy's eyes.",
+              "vi": "Trái tim cô ấy tan chảy trước đôi mắt cún."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dissolve"],
+      "antonyms": ["freeze"],
+      "collocations": ["melt away", "melt down", "ice melts", "snow melts", "melt in your mouth"],
+      "etymology_hint": "From Old English 'meltan' meaning 'to become liquid'.",
+      "mnemonic_vi": "MELT = 'melt' — 'mệt' chảy. Ice melts = đá tan. Đối với FREEZE."
+    },
+    {
+      "word": "freezing",
+      "lemma": "freezing",
+      "ipa": "/ˈfriːzɪŋ/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "extremely cold, often below 0°C",
+          "meaning_vi": "lạnh cóng, lạnh thấu xương",
+          "examples": [
+            { "en": "It's freezing in Sa Pa this morning.", "vi": "Sáng nay Sa Pa lạnh cóng." },
+            {
+              "en": "My hands are freezing — I need gloves.",
+              "vi": "Tay tôi lạnh cóng — cần găng tay."
+            },
+            {
+              "en": "The freezing temperature killed many plants.",
+              "vi": "Nhiệt độ lạnh giá làm chết nhiều cây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ice-cold"],
+      "antonyms": ["boiling"],
+      "collocations": [
+        "freezing cold",
+        "freezing temperature",
+        "absolutely freezing",
+        "freezing point",
+        "freezing rain"
+      ],
+      "etymology_hint": "From 'freeze' (Old English 'frēosan') + '-ing'.",
+      "mnemonic_vi": "FREEZING = FREEZE + ING → 'đang đông lại'. Freezing cold = lạnh cóng."
+    },
+    {
+      "word": "drizzle",
+      "lemma": "drizzle",
+      "ipa": "/ˈdrɪzl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very light rain in small drops",
+          "meaning_vi": "mưa phùn",
+          "examples": [
+            {
+              "en": "Hà Nội has lots of drizzle in spring.",
+              "vi": "Hà Nội có nhiều mưa phùn vào mùa xuân."
+            },
+            { "en": "The drizzle made everything wet.", "vi": "Mưa phùn làm mọi thứ ẩm ướt." },
+            { "en": "We walked home in the drizzle.", "vi": "Chúng tôi đi bộ về trong mưa phùn." }
+          ]
+        }
+      ],
+      "synonyms": ["light rain"],
+      "antonyms": ["downpour"],
+      "collocations": [
+        "light drizzle",
+        "morning drizzle",
+        "in the drizzle",
+        "drizzle on",
+        "constant drizzle"
+      ],
+      "etymology_hint": "Possibly from Old English 'drēosan' meaning 'to fall'.",
+      "mnemonic_vi": "DRIZZLE = 'đri-zồ' — 'rì rà' rơi (lưa thưa) = mưa phùn."
+    },
+    {
+      "word": "downpour",
+      "lemma": "downpour",
+      "ipa": "/ˈdaʊnpɔː(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a heavy fall of rain in a short time",
+          "meaning_vi": "trận mưa lớn, mưa như trút",
+          "examples": [
+            {
+              "en": "We got caught in a downpour without umbrellas.",
+              "vi": "Chúng tôi bị kẹt trong mưa lớn mà không có dù."
+            },
+            {
+              "en": "Sài Gòn often has sudden downpours in summer.",
+              "vi": "Sài Gòn thường có mưa lớn bất ngờ vào mùa hè."
+            },
+            { "en": "The downpour flooded the streets.", "vi": "Cơn mưa lớn ngập đường phố." }
+          ]
+        }
+      ],
+      "synonyms": ["heavy rain", "deluge"],
+      "antonyms": ["drizzle"],
+      "collocations": [
+        "heavy downpour",
+        "sudden downpour",
+        "tropical downpour",
+        "in the downpour",
+        "after the downpour"
+      ],
+      "etymology_hint": "Compound 'down' + 'pour' — 'pouring down'.",
+      "mnemonic_vi": "DOWNPOUR = DOWN + POUR → 'đổ xuống' = mưa như trút. Đối với DRIZZLE."
+    },
+    {
+      "word": "hurricane",
+      "lemma": "hurricane",
+      "ipa": "/ˈhʌrɪkən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a very strong tropical storm with heavy rain and wind",
+          "meaning_vi": "bão lớn, cuồng phong",
+          "examples": [
+            {
+              "en": "A hurricane hit Florida last summer.",
+              "vi": "Một cơn bão lớn đánh vào Florida hè năm ngoái."
+            },
+            {
+              "en": "Hurricanes are common in the Atlantic Ocean.",
+              "vi": "Bão thường xảy ra ở Đại Tây Dương."
+            },
+            {
+              "en": "She kept calm during the hurricane.",
+              "vi": "Cô ấy giữ bình tĩnh trong cơn bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cyclone", "storm"],
+      "antonyms": [],
+      "collocations": [
+        "hit by a hurricane",
+        "Category 5 hurricane",
+        "hurricane season",
+        "tropical hurricane",
+        "hurricane warning"
+      ],
+      "etymology_hint": "From Spanish 'huracán', originally from Taíno (Caribbean) word for a storm god.",
+      "mnemonic_vi": "HURRICANE = 'hâ-ri-cần' — 'hú ri can' (tiếng gió). Bão lớn Atlantic. Ở VN gọi typhoon."
+    },
+    {
+      "word": "typhoon",
+      "lemma": "typhoon",
+      "ipa": "/taɪˈfuːn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a violent tropical storm in the Pacific, especially Asia",
+          "meaning_vi": "bão nhiệt đới (Thái Bình Dương, châu Á)",
+          "examples": [
+            {
+              "en": "Vietnam faces several typhoons each year.",
+              "vi": "Việt Nam đối mặt với nhiều cơn bão mỗi năm."
+            },
+            {
+              "en": "The typhoon caused major flooding in central Vietnam.",
+              "vi": "Cơn bão gây lũ lụt lớn ở miền Trung Việt Nam."
+            },
+            {
+              "en": "Typhoon season runs from August to October.",
+              "vi": "Mùa bão từ tháng 8 đến tháng 10."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hurricane", "cyclone"],
+      "antonyms": [],
+      "collocations": [
+        "typhoon season",
+        "typhoon hits",
+        "tropical typhoon",
+        "powerful typhoon",
+        "typhoon warning"
+      ],
+      "etymology_hint": "From Chinese 'tai feng' (大風) meaning 'great wind', via Cantonese.",
+      "mnemonic_vi": "TYPHOON = 'tai-phun' — gốc 'đại phong' (gió lớn) tiếng Hoa. Việt Nam = typhoon, không hurricane."
+    },
+    {
+      "word": "drought",
+      "lemma": "drought",
+      "ipa": "/draʊt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long period without rain, causing water shortage",
+          "meaning_vi": "hạn hán",
+          "examples": [
+            {
+              "en": "The Mekong Delta is facing a serious drought.",
+              "vi": "Đồng bằng sông Cửu Long đang đối mặt hạn hán nghiêm trọng."
+            },
+            {
+              "en": "Drought affects rice farming the most.",
+              "vi": "Hạn hán ảnh hưởng nhiều nhất đến trồng lúa."
+            },
+            {
+              "en": "After three months of drought, finally rain came.",
+              "vi": "Sau ba tháng hạn, cuối cùng mưa cũng đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dry spell"],
+      "antonyms": ["flood"],
+      "collocations": [
+        "severe drought",
+        "long drought",
+        "drought conditions",
+        "during a drought",
+        "end of drought"
+      ],
+      "etymology_hint": "From Old English 'drūgath' meaning 'dryness'.",
+      "mnemonic_vi": "DROUGHT = 'drao-t' — silent 'gh'. 'Khô rốc' (đất khô). Đối với FLOOD."
+    },
+    {
+      "word": "flood",
+      "lemma": "flood",
+      "ipa": "/flʌd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large amount of water covering land that is usually dry",
+          "meaning_vi": "lũ lụt, ngập lụt",
+          "examples": [
+            {
+              "en": "Hà Nội streets flood after heavy rain.",
+              "vi": "Đường Hà Nội ngập sau mưa lớn."
+            },
+            {
+              "en": "The flood destroyed many homes in Quảng Bình.",
+              "vi": "Trận lũ phá huỷ nhiều nhà ở Quảng Bình."
+            },
+            {
+              "en": "Climate change is causing more floods.",
+              "vi": "Biến đổi khí hậu gây nhiều lũ hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["inundation"],
+      "antonyms": ["drought"],
+      "collocations": [
+        "heavy flood",
+        "flash flood",
+        "flood damage",
+        "flood waters",
+        "flood warning"
+      ],
+      "etymology_hint": "From Old English 'flōd' — basic word for water overflow.",
+      "mnemonic_vi": "FLOOD = 'phlắt' — 'phớt' (tràn ngập). Flash flood = lũ chớp nhoáng."
+    },
+    {
+      "word": "heat",
+      "lemma": "heat",
+      "ipa": "/hiːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "high temperature; the quality of being hot",
+          "meaning_vi": "sức nóng, nhiệt",
+          "examples": [
+            {
+              "en": "I can't stand the heat in May.",
+              "vi": "Tôi chịu không nổi cái nóng tháng Năm."
+            },
+            {
+              "en": "The heat from the kitchen is overwhelming.",
+              "vi": "Hơi nóng từ bếp toả ra rất lớn."
+            },
+            {
+              "en": "Stay inside during the heat of the day.",
+              "vi": "Ở trong nhà lúc nóng đỉnh điểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["warmth", "hotness"],
+      "antonyms": ["cold"],
+      "collocations": [
+        "intense heat",
+        "summer heat",
+        "heat wave",
+        "in the heat of",
+        "feel the heat"
+      ],
+      "etymology_hint": "From Old English 'hǣtu' — basic temperature word.",
+      "mnemonic_vi": "HEAT = 'hít' — 'hấp' (nóng). Heat wave = đợt nóng. Cũng là verb: to heat = đun nóng."
+    }
+  ]
+}
