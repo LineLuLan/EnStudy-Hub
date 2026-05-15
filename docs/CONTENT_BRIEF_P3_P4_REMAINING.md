@@ -1,8 +1,8 @@
-# Content Brief — P3-P4 Remaining (12 lessons / 240 cards + 5 topic metas)
+# Content Brief — P3-P4 Remaining (18 lessons / 360 cards + 5 topic metas)
 
-> **Mục tiêu**: gen offline 12 lesson JSON còn lại để hoàn thành MVP Oxford 3000 (42 lessons / 840 cards) theo `docs/CONTENT_PLAN.md`. Sau khi user gen xong, AI sẽ validate + commit theo workflow chuẩn.
+> **Mục tiêu**: gen offline 18 lesson JSON còn lại để hoàn thành MVP Oxford 3000 (42 lessons / 840 cards) theo `docs/CONTENT_PLAN.md`. Sau khi user gen xong, AI sẽ validate + commit theo workflow chuẩn.
 >
-> **Tình trạng** (2026-05-15): đã ship 24 lessons / 480 cards + 5 topic metas (daily-life, people, time-numbers, places-travel, work-business). 12 lessons / 240 cards + 5 metas còn lại thuộc 5 topic: education, nature-environment, entertainment, society-culture, abstract-academic.
+> **Tình trạng** (2026-05-15): đã ship 24 lessons / 480 cards + 5 topic metas (daily-life, people, time-numbers, places-travel, work-business). 18 lessons / 360 cards + 5 metas còn lại thuộc 5 topic: education (4), nature-environment (4), entertainment (4), society-culture (3), abstract-academic (3).
 
 ---
 
@@ -112,7 +112,7 @@ CẤM: copy nguyên văn Oxford/Cambridge/Merriam/Longman, dịch máy stiff, tr
 Output: chỉ JSON object, không markdown fence, không text trước/sau.
 ```
 
-## 4. 12 lesson briefs
+## 4. 18 lesson briefs
 
 ### Topic: `education` (4 lessons) — P3
 
@@ -425,8 +425,6 @@ AI sẽ:
 | society-culture    | 3       | 60      | P4    | [ ]   |
 | abstract-academic  | 3       | 60      | P4    | [ ]   |
 | **TOTAL**          | **18**  | **360** |       |       |
-
-Wait — đếm lại: 4+4+4+3+3 = 18 lessons × 20 = 360 cards. Plus 5 topic metas.
 
 **Tổng MVP target**: 42 lessons / 840 cards. Đã có 24 lessons / 480 cards. Còn 18 lessons / 360 cards.
 
