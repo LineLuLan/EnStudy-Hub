@@ -1,0 +1,721 @@
+{
+  "slug": "office-workplace",
+  "name": "Office & Workplace",
+  "description": "Văn phòng và môi trường làm việc.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "office",
+      "lemma": "office",
+      "ipa": "/ˈɒf.ɪs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a room or building where people work, usually at desks",
+          "meaning_vi": "văn phòng; phòng hoặc toà nhà nơi mọi người làm việc tại bàn",
+          "examples": [
+            {
+              "en": "My office is on the 15th floor of Vincom Tower.",
+              "vi": "Văn phòng tôi ở tầng 15 toà Vincom."
+            },
+            {
+              "en": "She works in a small office near her home.",
+              "vi": "Cô ấy làm việc ở văn phòng nhỏ gần nhà."
+            },
+            { "en": "The office is closed on weekends.", "vi": "Văn phòng đóng cửa cuối tuần." }
+          ]
+        }
+      ],
+      "synonyms": ["workplace", "headquarters"],
+      "antonyms": ["home"],
+      "collocations": [
+        "go to the office",
+        "office building",
+        "office hours",
+        "main office",
+        "head office"
+      ],
+      "etymology_hint": "From Latin 'officium' meaning 'service, duty'",
+      "mnemonic_vi": "OFFICE đọc 'ốp-phít' — 'ÔM' phít làm việc ở văn phòng = OFFICE"
+    },
+    {
+      "word": "desk",
+      "lemma": "desk",
+      "ipa": "/desk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a table where you sit to work, often with drawers",
+          "meaning_vi": "bàn làm việc; bàn để ngồi làm việc, thường có ngăn kéo",
+          "examples": [
+            {
+              "en": "My desk is always messy with papers.",
+              "vi": "Bàn làm việc của tôi luôn bừa bộn giấy tờ."
+            },
+            {
+              "en": "She has a standing desk to avoid back pain.",
+              "vi": "Cô ấy có bàn đứng để tránh đau lưng."
+            },
+            { "en": "The receptionist sits at the front desk.", "vi": "Lễ tân ngồi ở bàn trước." }
+          ]
+        }
+      ],
+      "synonyms": ["table", "workstation"],
+      "antonyms": [],
+      "collocations": [
+        "work at a desk",
+        "front desk",
+        "office desk",
+        "messy desk",
+        "standing desk"
+      ],
+      "etymology_hint": "From Medieval Latin 'desca', from Latin 'discus' (disc, table)",
+      "mnemonic_vi": "DESK đọc 'đét-cờ' — 'ĐẶT' mọi thứ lên bàn = desk"
+    },
+    {
+      "word": "computer",
+      "lemma": "computer",
+      "ipa": "/kəmˈpjuː.tə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an electronic machine that stores information and can do calculations",
+          "meaning_vi": "máy tính; thiết bị điện tử lưu thông tin và tính toán",
+          "examples": [
+            {
+              "en": "I use my computer for both work and gaming.",
+              "vi": "Tôi dùng máy tính cho cả công việc và chơi game."
+            },
+            {
+              "en": "The computer crashed and lost all my files.",
+              "vi": "Máy tính bị treo và mất hết file của tôi."
+            },
+            {
+              "en": "Most jobs today require computer skills.",
+              "vi": "Hầu hết công việc ngày nay yêu cầu kỹ năng tin học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["PC", "machine"],
+      "antonyms": [],
+      "collocations": [
+        "use a computer",
+        "computer screen",
+        "personal computer",
+        "computer skills",
+        "computer virus"
+      ],
+      "etymology_hint": "From Latin 'computare' = 'com-' (together) + 'putare' (reckon)",
+      "mnemonic_vi": "COMPUTER chứa 'COMPUTE' (tính) — máy COMPUTE = máy tính"
+    },
+    {
+      "word": "email",
+      "lemma": "email",
+      "ipa": "/ˈiː.meɪl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a message sent from one computer to another over the internet",
+          "meaning_vi": "thư điện tử; tin nhắn gửi từ máy tính này đến máy tính khác qua internet",
+          "examples": [
+            {
+              "en": "I'll send you an email with the details.",
+              "vi": "Tôi sẽ gửi email cho bạn với thông tin chi tiết."
+            },
+            {
+              "en": "Check your email — I sent the report this morning.",
+              "vi": "Kiểm tra email — tôi đã gửi báo cáo sáng nay."
+            },
+            {
+              "en": "Her email inbox has 500 unread messages.",
+              "vi": "Hộp thư email của cô ấy có 500 tin chưa đọc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["message", "electronic mail"],
+      "antonyms": [],
+      "collocations": [
+        "send an email",
+        "reply to email",
+        "email address",
+        "email inbox",
+        "work email"
+      ],
+      "etymology_hint": "Compound: 'electronic' + 'mail' — coined in 1970s",
+      "mnemonic_vi": "EMAIL = E + MAIL: 'mail điện tử' = thư điện tử"
+    },
+    {
+      "word": "phone",
+      "lemma": "phone",
+      "ipa": "/fəʊn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a device used to speak with people far away; also a smartphone",
+          "meaning_vi": "điện thoại; thiết bị nói chuyện với người ở xa; cũng là smartphone",
+          "examples": [
+            {
+              "en": "Can I borrow your phone for a minute?",
+              "vi": "Cho mượn điện thoại một chút được không?"
+            },
+            { "en": "My phone battery is almost dead.", "vi": "Pin điện thoại tôi gần hết rồi." },
+            { "en": "She always answers her phone quickly.", "vi": "Cô ấy luôn bắt máy nhanh." }
+          ]
+        }
+      ],
+      "synonyms": ["telephone", "mobile", "cellphone"],
+      "antonyms": [],
+      "collocations": [
+        "answer the phone",
+        "phone call",
+        "smartphone",
+        "on the phone",
+        "phone number"
+      ],
+      "etymology_hint": "Short for 'telephone', from Greek 'tele-' (far) + 'phone' (voice)",
+      "mnemonic_vi": "PHONE đọc 'phâu' — 'PHÔN' Việt nhập = điện thoại"
+    },
+    {
+      "word": "document",
+      "lemma": "document",
+      "ipa": "/ˈdɒk.jə.mənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of paper or computer file with official information",
+          "meaning_vi": "tài liệu, văn bản; mảnh giấy hoặc file máy tính có thông tin chính thức",
+          "examples": [
+            {
+              "en": "Please sign all the documents before leaving.",
+              "vi": "Vui lòng ký tất cả tài liệu trước khi đi."
+            },
+            {
+              "en": "She saved the document in two places.",
+              "vi": "Cô ấy lưu tài liệu ở hai nơi."
+            },
+            {
+              "en": "The lawyer prepared all the legal documents.",
+              "vi": "Luật sư chuẩn bị tất cả văn bản pháp lý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["paper", "file", "record"],
+      "antonyms": [],
+      "collocations": [
+        "sign a document",
+        "official document",
+        "legal document",
+        "save a document",
+        "Word document"
+      ],
+      "etymology_hint": "From Latin 'documentum' meaning 'lesson, example, proof'",
+      "mnemonic_vi": "DOCUMENT chứa 'DOC' — 'ĐỐC' (chứa đựng) thông tin = tài liệu"
+    },
+    {
+      "word": "file",
+      "lemma": "file",
+      "ipa": "/faɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a collection of information stored on a computer; or a folder with papers",
+          "meaning_vi": "tập tin (máy tính) hoặc tập hồ sơ; tài liệu lưu trữ",
+          "examples": [
+            {
+              "en": "Please attach the file to your email.",
+              "vi": "Vui lòng đính kèm file vào email."
+            },
+            {
+              "en": "I can't open this file — the format is wrong.",
+              "vi": "Tôi không mở được file này — định dạng sai."
+            },
+            {
+              "en": "She keeps her tax files in a metal cabinet.",
+              "vi": "Cô ấy giữ hồ sơ thuế trong tủ kim loại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["document", "folder", "record"],
+      "antonyms": [],
+      "collocations": [
+        "open a file",
+        "save a file",
+        "attach a file",
+        "file format",
+        "computer file"
+      ],
+      "etymology_hint": "From Latin 'filum' meaning 'thread' — papers threaded on a string",
+      "mnemonic_vi": "FILE đọc 'phai' — 'PHAI' (phai mờ) màu file giấy cũ"
+    },
+    {
+      "word": "folder",
+      "lemma": "folder",
+      "ipa": "/ˈfəʊl.də(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a cover that holds papers; or a place on a computer to organize files",
+          "meaning_vi": "thư mục, bìa hồ sơ; vật giữ giấy tờ hoặc nơi tổ chức file trên máy tính",
+          "examples": [
+            { "en": "Put the contract in the blue folder.", "vi": "Để hợp đồng vào bìa xanh." },
+            {
+              "en": "I organize my files in different folders by year.",
+              "vi": "Tôi sắp xếp file vào các thư mục theo năm."
+            },
+            {
+              "en": "The folder is on the desktop of my computer.",
+              "vi": "Thư mục ở trên màn hình máy tính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["directory", "binder"],
+      "antonyms": [],
+      "collocations": [
+        "open the folder",
+        "blue folder",
+        "new folder",
+        "shared folder",
+        "create a folder"
+      ],
+      "etymology_hint": "From 'fold' (Old English 'fealdan' = bend over) + '-er'",
+      "mnemonic_vi": "FOLDER chứa 'FOLD' (gấp) — vật 'FOLD' giấy lại = bìa hồ sơ"
+    },
+    {
+      "word": "printer",
+      "lemma": "printer",
+      "ipa": "/ˈprɪn.tə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a machine that prints text and images onto paper from a computer",
+          "meaning_vi": "máy in; máy in chữ và hình từ máy tính lên giấy",
+          "examples": [
+            { "en": "The printer is out of ink again.", "vi": "Máy in lại hết mực rồi." },
+            {
+              "en": "She bought a new printer for her home office.",
+              "vi": "Cô ấy mua máy in mới cho văn phòng tại nhà."
+            },
+            {
+              "en": "The printer is shared by everyone in the office.",
+              "vi": "Cả văn phòng dùng chung máy in."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "laser printer",
+        "inkjet printer",
+        "shared printer",
+        "color printer",
+        "wireless printer"
+      ],
+      "etymology_hint": "From 'print' (Old French 'preinte' = imprint) + '-er'",
+      "mnemonic_vi": "PRINTER chứa 'PRINT' (in) — máy 'PRINT' = máy in"
+    },
+    {
+      "word": "meeting-room",
+      "lemma": "meeting room",
+      "ipa": "/ˈmiː.tɪŋ ruːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a room where people meet to talk about business",
+          "meaning_vi": "phòng họp; phòng nơi mọi người gặp để bàn việc",
+          "examples": [
+            {
+              "en": "Let's book the meeting room for 2 PM.",
+              "vi": "Đặt phòng họp lúc 2 giờ chiều nhé."
+            },
+            {
+              "en": "The meeting room has a big screen for presentations.",
+              "vi": "Phòng họp có màn hình lớn để thuyết trình."
+            },
+            {
+              "en": "All meeting rooms are full this morning.",
+              "vi": "Tất cả phòng họp đều kín sáng nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conference room", "boardroom"],
+      "antonyms": [],
+      "collocations": [
+        "book a meeting room",
+        "small meeting room",
+        "main meeting room",
+        "in the meeting room",
+        "meeting room schedule"
+      ],
+      "etymology_hint": "Compound: 'meeting' + 'room'",
+      "mnemonic_vi": "MEETING ROOM = MEETING + ROOM: 'phòng gặp gỡ' = phòng họp"
+    },
+    {
+      "word": "colleague",
+      "lemma": "colleague",
+      "ipa": "/ˈkɒl.iːɡ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person you work with",
+          "meaning_vi": "đồng nghiệp; người làm việc cùng",
+          "examples": [
+            {
+              "en": "My colleagues invited me to lunch on my birthday.",
+              "vi": "Đồng nghiệp mời tôi ăn trưa vào sinh nhật."
+            },
+            {
+              "en": "She gets along well with all her colleagues.",
+              "vi": "Cô ấy hoà thuận với tất cả đồng nghiệp."
+            },
+            {
+              "en": "I'll discuss this with my colleagues tomorrow.",
+              "vi": "Tôi sẽ bàn việc này với đồng nghiệp ngày mai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coworker", "associate"],
+      "antonyms": [],
+      "collocations": [
+        "work colleague",
+        "former colleague",
+        "senior colleague",
+        "fellow colleague",
+        "trusted colleague"
+      ],
+      "etymology_hint": "From Latin 'collega' meaning 'partner in office', from 'com-' (with) + 'legare' (depute)",
+      "mnemonic_vi": "COLLEAGUE chứa 'LEAG' (liên minh) — 'liên minh' với nhau ở văn phòng = đồng nghiệp"
+    },
+    {
+      "word": "boss",
+      "lemma": "boss",
+      "ipa": "/bɒs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the person who is in charge of you at work",
+          "meaning_vi": "sếp; người quản lý mình ở nơi làm việc",
+          "examples": [
+            { "en": "My boss is strict but fair.", "vi": "Sếp tôi nghiêm nhưng công bằng." },
+            { "en": "I'm meeting my boss this afternoon.", "vi": "Chiều nay tôi gặp sếp." },
+            {
+              "en": "She quit her job because of a bad boss.",
+              "vi": "Cô ấy nghỉ việc vì gặp sếp tồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supervisor", "manager", "chief"],
+      "antonyms": ["employee", "subordinate"],
+      "collocations": ["new boss", "good boss", "bad boss", "the big boss", "boss's office"],
+      "etymology_hint": "From Dutch 'baas' meaning 'master, lord' — entered English via American Dutch",
+      "mnemonic_vi": "BOSS đọc 'bốt' — 'BỘT' (bột) trắng dấu chấm = sếp đeo cà vạt"
+    },
+    {
+      "word": "HR",
+      "lemma": "HR",
+      "ipa": "/ˌeɪtʃˈɑː(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Human Resources; the department that manages employees in a company",
+          "meaning_vi": "phòng nhân sự; bộ phận quản lý nhân viên trong công ty",
+          "examples": [
+            {
+              "en": "Contact HR if you have any concerns.",
+              "vi": "Liên hệ HR nếu bạn có thắc mắc."
+            },
+            {
+              "en": "She works in HR at a big company.",
+              "vi": "Cô ấy làm phòng nhân sự ở công ty lớn."
+            },
+            {
+              "en": "HR organized a team-building trip last weekend.",
+              "vi": "HR tổ chức team-building cuối tuần trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["Human Resources", "personnel"],
+      "antonyms": [],
+      "collocations": ["HR department", "HR manager", "contact HR", "HR policy", "HR specialist"],
+      "etymology_hint": "Acronym: Human Resources",
+      "mnemonic_vi": "HR viết tắt — đọc 'ếch-ar' — Human Resources = phòng nhân sự"
+    },
+    {
+      "word": "department",
+      "lemma": "department",
+      "ipa": "/dɪˈpɑːt.mənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a section of a company, school, or organization",
+          "meaning_vi": "phòng ban; một bộ phận trong công ty, trường học hoặc tổ chức",
+          "examples": [
+            { "en": "She works in the marketing department.", "vi": "Cô ấy làm phòng marketing." },
+            { "en": "Our company has 10 departments.", "vi": "Công ty chúng tôi có 10 phòng ban." },
+            {
+              "en": "The IT department fixed my laptop quickly.",
+              "vi": "Phòng IT sửa laptop cho tôi nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["division", "section", "unit"],
+      "antonyms": [],
+      "collocations": [
+        "marketing department",
+        "sales department",
+        "IT department",
+        "head of department",
+        "different departments"
+      ],
+      "etymology_hint": "From French 'département' meaning 'separation, division'",
+      "mnemonic_vi": "DEPARTMENT chứa 'PART' (phần) — một 'PART' của công ty = phòng ban"
+    },
+    {
+      "word": "headquarters",
+      "lemma": "headquarters",
+      "ipa": "/ˌhedˈkwɔː.təz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the main office of a company or organization",
+          "meaning_vi": "trụ sở chính; văn phòng chính của một công ty",
+          "examples": [
+            {
+              "en": "Their headquarters is in Singapore.",
+              "vi": "Trụ sở chính của họ ở Singapore."
+            },
+            {
+              "en": "She was promoted and moved to the headquarters.",
+              "vi": "Cô ấy được thăng và chuyển về trụ sở chính."
+            },
+            {
+              "en": "Vingroup's headquarters is in Hanoi.",
+              "vi": "Trụ sở chính của Vingroup ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["HQ", "main office", "head office"],
+      "antonyms": ["branch"],
+      "collocations": [
+        "company headquarters",
+        "global headquarters",
+        "regional headquarters",
+        "headquarters building",
+        "move headquarters"
+      ],
+      "etymology_hint": "Compound: 'head' (main) + 'quarters' (lodging) — originally military term",
+      "mnemonic_vi": "HEADQUARTERS = HEAD + QUARTERS: 'đầu' + 'nơi ở' = nơi đầu não = trụ sở chính"
+    },
+    {
+      "word": "branch",
+      "lemma": "branch",
+      "ipa": "/brɑːntʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a local office of a company that has many locations",
+          "meaning_vi": "chi nhánh; văn phòng địa phương của công ty có nhiều địa điểm",
+          "examples": [
+            {
+              "en": "There is a Vietcombank branch on every main street.",
+              "vi": "Có một chi nhánh Vietcombank trên mỗi con phố chính."
+            },
+            {
+              "en": "She manages a branch in District 3.",
+              "vi": "Cô ấy quản lý chi nhánh ở Quận 3."
+            },
+            {
+              "en": "The company opened a new branch in Da Nang.",
+              "vi": "Công ty mở chi nhánh mới ở Đà Nẵng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["office", "outlet"],
+      "antonyms": ["headquarters"],
+      "collocations": [
+        "local branch",
+        "branch office",
+        "branch manager",
+        "open a branch",
+        "branch network"
+      ],
+      "etymology_hint": "From Old French 'branche', from Latin 'branca' (paw, claw) — sense extended to tree branches and divisions",
+      "mnemonic_vi": "BRANCH như nhánh cây — nhánh nhỏ của thân chính = chi nhánh"
+    },
+    {
+      "word": "cubicle",
+      "lemma": "cubicle",
+      "ipa": "/ˈkjuː.bɪ.kəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small space in an office, separated by low walls",
+          "meaning_vi": "khoang làm việc, ô làm việc; không gian nhỏ trong văn phòng ngăn bằng vách",
+          "examples": [
+            {
+              "en": "Each employee has their own cubicle.",
+              "vi": "Mỗi nhân viên có khoang làm việc riêng."
+            },
+            {
+              "en": "I prefer open offices to cubicles.",
+              "vi": "Tôi thích văn phòng mở hơn cubicle."
+            },
+            {
+              "en": "She decorated her cubicle with plants.",
+              "vi": "Cô ấy trang trí cubicle với cây cảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["workspace", "compartment"],
+      "antonyms": ["open office"],
+      "collocations": [
+        "office cubicle",
+        "small cubicle",
+        "in a cubicle",
+        "cubicle wall",
+        "cubicle farm"
+      ],
+      "etymology_hint": "From Latin 'cubiculum' meaning 'small bedroom', from 'cubare' (lie down)",
+      "mnemonic_vi": "CUBICLE chứa 'CUBE' (hình hộp) — ô vuông nhỏ = cubicle"
+    },
+    {
+      "word": "reception",
+      "lemma": "reception",
+      "ipa": "/rɪˈsep.ʃən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the area near the entrance of a building where visitors are greeted",
+          "meaning_vi": "lễ tân, quầy tiếp tân; khu vực gần lối vào nơi đón khách",
+          "examples": [
+            { "en": "Please check in at reception.", "vi": "Vui lòng làm thủ tục ở quầy lễ tân." },
+            { "en": "The reception is on the ground floor.", "vi": "Lễ tân ở tầng trệt." },
+            {
+              "en": "She works at reception for a five-star hotel.",
+              "vi": "Cô ấy làm lễ tân cho khách sạn năm sao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["front desk", "lobby"],
+      "antonyms": [],
+      "collocations": [
+        "at reception",
+        "hotel reception",
+        "reception desk",
+        "reception area",
+        "reception staff"
+      ],
+      "etymology_hint": "From Latin 'receptio' meaning 'a receiving', from 'recipere' (receive)",
+      "mnemonic_vi": "RECEPTION chứa 'RECEIVE' (nhận) — nơi 'NHẬN' khách = lễ tân"
+    },
+    {
+      "word": "coffee-break",
+      "lemma": "coffee break",
+      "ipa": "/ˈkɒf.i breɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short rest from work to drink coffee or tea",
+          "meaning_vi": "giờ giải lao uống cà phê; nghỉ ngắn để uống cà phê hoặc trà",
+          "examples": [
+            {
+              "en": "Let's take a coffee break — I need caffeine.",
+              "vi": "Mình giải lao uống cà phê đi — tôi cần caffeine."
+            },
+            {
+              "en": "We have a 15-minute coffee break at 10 AM.",
+              "vi": "Chúng tôi có 15 phút giải lao cà phê lúc 10 giờ."
+            },
+            {
+              "en": "The coffee break is a good time to chat with colleagues.",
+              "vi": "Giờ giải lao là lúc tốt để trò chuyện với đồng nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tea break"],
+      "antonyms": [],
+      "collocations": [
+        "take a coffee break",
+        "short coffee break",
+        "morning coffee break",
+        "during the coffee break",
+        "after coffee break"
+      ],
+      "etymology_hint": "Compound: 'coffee' + 'break' (pause)",
+      "mnemonic_vi": "COFFEE BREAK = 'cà phê' + 'nghỉ' = nghỉ uống cà phê"
+    },
+    {
+      "word": "overtime",
+      "lemma": "overtime",
+      "ipa": "/ˈəʊ.və.taɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "time worked beyond regular hours, usually paid extra",
+          "meaning_vi": "tăng ca, làm thêm giờ; thời gian làm vượt giờ chính thức, thường được trả thêm",
+          "examples": [
+            {
+              "en": "I worked overtime to finish the project.",
+              "vi": "Tôi tăng ca để xong dự án."
+            },
+            {
+              "en": "Overtime is paid at 1.5 times the normal rate.",
+              "vi": "Làm thêm giờ được trả 1.5 lần lương bình thường."
+            },
+            {
+              "en": "Too much overtime can affect your health.",
+              "vi": "Tăng ca quá nhiều có thể ảnh hưởng sức khoẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extra hours"],
+      "antonyms": [],
+      "collocations": [
+        "work overtime",
+        "paid overtime",
+        "unpaid overtime",
+        "overtime pay",
+        "lots of overtime"
+      ],
+      "etymology_hint": "Compound: 'over' (beyond) + 'time'",
+      "mnemonic_vi": "OVERTIME = OVER + TIME: 'vượt thời gian' = tăng ca"
+    }
+  ]
+}
