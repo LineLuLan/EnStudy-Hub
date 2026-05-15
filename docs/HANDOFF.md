@@ -5,6 +5,74 @@
 
 ---
 
+## 2026-05-17 (tối) — chunk 17 onboarding tour ship — Claude Opus 4.7
+
+**Mục tiêu session**: ship first option từ end-of-marathon "Recommended chunk 17 options" — onboarding tour first-login overlay 4 step giới thiệu Decks/Review/Stats/Settings cho user mới. Plus content gen P1 batch ngay sau (7 lesson / 140 cards).
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                          |
+| ------ | --------- | --------------------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0 — vẫn chờ user TODOs) |
+| dev    | `b18ecdc` | Tuần 6 chunk 17 onboarding tour merged        |
+| be     | `081700a` | sync chunk 17                                 |
+| fe     | `4e693d8` | chunk 17 tour modal                           |
+
+### Đã ship chunk 17 (BE + FE)
+
+**Schema migration** (`be` SHA `ddd55bf`):
+
+- `src/lib/db/schema.ts`: `profiles` thêm `onboardedAt: timestamp('onboarded_at', { withTimezone: true })` — nullable, không default. NULL = chưa xem tour
+- `src/lib/db/migrations/0001_magenta_umar.sql`: `ALTER TABLE profiles ADD COLUMN onboarded_at timestamptz` (sinh ra qua `pnpm db:gen`)
+- RLS không touch — profiles policy đã owner-scoped
+
+**Server action + UI** (`fe` SHA `4e693d8`):
+
+- `src/features/onboarding/actions.ts`: `completeOnboardingTour()` server action — `requireUserId` → `ensureProfile` → set onboarded_at → revalidate `/dashboard`. Pattern mirror `updateProfile` (chunk 5/8)
+- `src/features/onboarding/tour-modal.tsx` (~180 LOC client): 4-step native `<dialog>` element, reuse exact pattern từ `shortcuts-modal.tsx` (chunk 14) — zero Radix dep, free focus trap + Esc + backdrop. Steps Decks/Review/Stats/Settings với icon (BookOpen/PlayCircle/BarChart3/Settings) + body + hint. Progress dots 4. Footer: Bỏ qua (left) + Trước/Tiếp/Bắt đầu học (right). `useRouter().push('/decks')` khi xong
+- `src/app/(app)/layout.tsx`: thêm 1 Drizzle query `db.query.profiles.findFirst({ where: eq(profiles.id, userId), columns: { onboardedAt: true } })`, conditional `{shouldShowTour && <TourModal />}` sau Topbar
+- `dismissedRef` guard chống call action 2 lần khi user click Bỏ qua rồi Esc trong cùng burst
+
+### Decisions chunk 17
+
+1. **DB column vs localStorage** → DB column. Multi-tenant ready, cross-device sync. User Plan-approved.
+2. **Modal 4-step vs spotlight coachmark** → modal centered. Zero DOM coupling. Robust mobile.
+3. **Null check vs createdAt window math** → null check. Simpler, queryable, không phải parse date. Cost: dev/test users phải xem 1 lần
+4. **Dismiss on Esc/backdrop = onboarded** → yes. Tránh annoying re-trigger. Reset SQL `UPDATE profiles SET onboarded_at = NULL` nếu muốn xem lại
+5. **Skip tests** → UI integration only, no pure logic worth unit testing. Pattern shortcuts-modal ch14 + topbar ch15 cũng skip
+
+### Verify đã chạy trên fe
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 179/179 unchanged
+- `pnpm build` ✓ tất cả route bundle unchanged (TourModal in shared chunk)
+
+### USER TODOs mới sau chunk 17 (block tour work)
+
+1. **`pnpm db:push`** trên `.env.local` có DATABASE_URL → apply 0001_magenta_umar.sql lên Supabase live
+2. Verify tour bằng cách login fresh account hoặc reset `UPDATE profiles SET onboarded_at = NULL WHERE id = '<user-uuid>'` trên Supabase SQL editor → reload `/dashboard` → modal phải hiện
+
+### 5 USER TODOs cũ (v1.0.0 tag) vẫn chưa close
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Capture README screenshots
+5. `git checkout main && git merge dev --no-ff -m "release: v1.0.0"` + tag + GitHub Release
+
+### Next chunk (content gen P1 batch)
+
+Sau khi tour ship, gen 7 lesson JSON P1 batch theo `docs/CONTENT_PLAN.md` Phần 5: clothes-appearance, body-health, daily-routine, personality, emotions, time-dates, numbers-quantities — mỗi 20 cards, 140 total. Tạo thêm 2 topic meta.json (people, time-numbers). Commit trên `be`, scope `content`.
+
+### Pattern reuse highlights mới
+
+- **Native `<dialog>` + dismissedRef guard**: pattern an toàn cho modal có server action, tránh double-fire khi user trigger 2 dismiss path consecutive
+- **Layout-level conditional render**: thay vì page-level, đảm bảo trigger từ bất kỳ entry route (login → /decks via command palette cũng show)
+- **Drizzle bypass RLS pattern**: profile fetch trong layout — chỉ select column cần thiết (`columns: { onboardedAt: true }`) cho perf
+
+---
+
 ## 2026-05-17 (cuối session) — END-OF-MARATHON HANDOFF — Claude Opus 4.7
 
 > **Đọc trước tiên trong session sau.** Tổng kết marathon ngày 2026-05-14 → 2026-05-17 đã ship 14 chunks Tuần 6. App giờ feature-complete cho v1.0.0; còn lại 5 user TODOs (không ai có thể làm thay user) trước khi tag.

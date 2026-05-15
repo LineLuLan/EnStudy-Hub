@@ -208,6 +208,16 @@
 
 ## Tuần 6 — Scale content + Ship
 
+- [x] **Chunk 17 first-login onboarding tour done** (2026-05-17, BE commit `ddd55bf` trên be + FE commit `4e693d8` trên fe → merge `b18ecdc` lên dev → sync `081700a` xuống be):
+  - **BE**: `src/lib/db/schema.ts` thêm `onboardedAt: timestamp('onboarded_at', { withTimezone: true })` (nullable, không default) vào `profiles` table. `pnpm db:gen` sinh `0001_magenta_umar.sql` với 1 dòng `ALTER TABLE profiles ADD COLUMN onboarded_at timestamptz`. RLS policy không cần update — `profiles` đã owner-scoped `auth.uid() = id`
+  - **FE action** `src/features/onboarding/actions.ts`: `completeOnboardingTour()` server action — `requireUserId` → `ensureProfile` → `db.update(profiles).set({ onboardedAt: new Date() })` → `revalidatePath('/dashboard')`. Pattern mirror `updateProfile`
+  - **FE modal** `src/features/onboarding/tour-modal.tsx` (~180 LOC client): 4-step native `<dialog>` reuse pattern `shortcuts-modal.tsx` (zero Radix dep). Steps Decks/Review/Stats/Settings với icon + body + hint. Progress dots 4 dot. Footer Trước/Tiếp/Bắt đầu học + Bỏ qua. Mọi dismiss path (button click / Esc / backdrop / onClose) → call action 1 lần qua `dismissedRef` guard
+  - **Layout** `src/app/(app)/layout.tsx`: thêm `db.query.profiles.findFirst` đọc `onboardedAt`, conditional `{shouldShowTour && <TourModal />}` render khi `onboarded_at IS NULL`. Chỉ run khi `session?.user.id` tồn tại (middleware đã auth)
+  - **Why null check vs date math**: single column boolean, queryable, không phải parse createdAt + window. Cost: existing dev/test users xem tour 1 lần
+  - **Why dismiss on Esc/backdrop**: thấy = đã onboarded. Tránh annoying re-trigger. User có thể edit `profiles.onboarded_at = NULL` SQL nếu muốn xem lại
+  - **Migration**: cần `pnpm db:push` trên DB live (user TODO mới) trước khi feature work
+  - Tests: 179/179 unchanged (UI integration only, pattern shortcuts-modal ch14 + topbar ch15 cũng skip tests)
+  - Build: tất cả route bundle unchanged (`/dashboard /decks /stats` 184 B / 109 kB, `/review` 5.01 kB / 126 kB, `/settings` 6.69 kB / 124 kB) — TourModal trong shared chunk
 - [x] **Chunk 1 mobile responsive QA done** (2026-05-13, commit `22c79d7` trên fe → merge `c932e9b` lên dev → sync `691bab1` xuống be):
   - `components/layout/nav-items.ts` (new): extract `NAV_ITEMS` array dùng chung sidebar + mobile-nav
   - `components/layout/mobile-nav.tsx` (new, ~100 line, client): hamburger button `md:hidden` trong topbar → mở dialog overlay backdrop-blur + slide-in panel với 5 nav links + close button (X). Esc đóng. `document.body.style.overflow = 'hidden'` lock scroll khi open. Auto-close khi pathname đổi.
