@@ -1,0 +1,682 @@
+{
+  "slug": "numbers-quantities",
+  "name": "Numbers & Quantities",
+  "description": "Số đếm, thứ tự và đơn vị đo lượng.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "one",
+      "lemma": "one",
+      "ipa": "/wʌn/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the number 1; a single thing or person",
+          "meaning_vi": "một; số 1; một thứ hoặc một người",
+          "examples": [
+            { "en": "I'd like one bowl of phở, please.", "vi": "Cho tôi một tô phở." },
+            {
+              "en": "Only one student got a perfect score.",
+              "vi": "Chỉ có một học sinh được điểm tuyệt đối."
+            },
+            {
+              "en": "One of my friends is moving to Singapore.",
+              "vi": "Một trong những người bạn của tôi sắp chuyển đến Singapore."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["single", "a", "an"],
+      "antonyms": ["many", "several"],
+      "collocations": ["one of", "one another", "one by one", "one day", "one more"],
+      "etymology_hint": "From Old English 'ān', cognate with Latin 'unus'",
+      "mnemonic_vi": "ONE đọc 'guân' — chỉ có 'GUẦN' (gần) 1 người ở đây"
+    },
+    {
+      "word": "hundred",
+      "lemma": "hundred",
+      "ipa": "/ˈhʌn.drəd/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the number 100",
+          "meaning_vi": "trăm; số 100",
+          "examples": [
+            {
+              "en": "There were about a hundred people at the market.",
+              "vi": "Có khoảng một trăm người ở chợ."
+            },
+            {
+              "en": "She paid two hundred thousand đồng for the dress.",
+              "vi": "Cô ấy trả hai trăm nghìn đồng cho cái váy."
+            },
+            {
+              "en": "He has a hundred reasons not to come.",
+              "vi": "Anh ấy có hàng trăm lý do để không đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["100", "a century"],
+      "antonyms": [],
+      "collocations": [
+        "a hundred",
+        "hundreds of",
+        "one hundred percent",
+        "two hundred",
+        "a hundred years"
+      ],
+      "etymology_hint": "From Old English 'hund' (hundred) + 'rǣd' (number, account)",
+      "mnemonic_vi": "HUNDRED đọc 'hân-đrờ' — 'HÂN' hoan cả 'TRĂM' người đến dự đám cưới"
+    },
+    {
+      "word": "thousand",
+      "lemma": "thousand",
+      "ipa": "/ˈθaʊ.zənd/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the number 1,000",
+          "meaning_vi": "nghìn, ngàn; số 1.000",
+          "examples": [
+            {
+              "en": "This phone costs five thousand dollars.",
+              "vi": "Chiếc điện thoại này giá năm nghìn đô la."
+            },
+            {
+              "en": "Thousands of tourists visit Ha Long Bay every year.",
+              "vi": "Hàng nghìn du khách thăm vịnh Hạ Long mỗi năm."
+            },
+            {
+              "en": "A thousand thanks for your kindness.",
+              "vi": "Cảm ơn ngàn lần vì lòng tốt của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["1,000", "1k"],
+      "antonyms": [],
+      "collocations": [
+        "a thousand",
+        "thousands of",
+        "one thousand",
+        "ten thousand",
+        "a thousand times"
+      ],
+      "etymology_hint": "From Old English 'þūsend', literally 'a large hundred' (þūs + hund)",
+      "mnemonic_vi": "THOUSAND chứa 'THAU' — cả 'THAU' tiền nghìn đếm không hết"
+    },
+    {
+      "word": "million",
+      "lemma": "million",
+      "ipa": "/ˈmɪl.jən/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the number 1,000,000",
+          "meaning_vi": "triệu; số 1.000.000",
+          "examples": [
+            {
+              "en": "Hanoi has a population of about eight million people.",
+              "vi": "Hà Nội có dân số khoảng tám triệu người."
+            },
+            {
+              "en": "The lottery prize is two million đồng.",
+              "vi": "Giải thưởng xổ số là hai triệu đồng."
+            },
+            {
+              "en": "I've told you a million times to lock the door.",
+              "vi": "Tôi đã nói cả triệu lần là phải khoá cửa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["1,000,000", "1M"],
+      "antonyms": [],
+      "collocations": ["a million", "millions of", "one million", "a million times", "ten million"],
+      "etymology_hint": "From Italian 'milione' meaning 'great thousand' — augmentative of 'mille' (thousand)",
+      "mnemonic_vi": "MILLION chứa 'MILL' (xay) — 'XAY' đến cả triệu hạt gạo"
+    },
+    {
+      "word": "first",
+      "lemma": "first",
+      "ipa": "/fɜːst/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "coming before all others in time, order, or importance",
+          "meaning_vi": "đầu tiên, thứ nhất; đến trước tất cả các thứ khác về thời gian hoặc thứ tự",
+          "examples": [
+            {
+              "en": "She came first in the swimming competition.",
+              "vi": "Cô ấy về nhất trong cuộc thi bơi."
+            },
+            {
+              "en": "January is the first month of the year.",
+              "vi": "Tháng Một là tháng đầu tiên trong năm."
+            },
+            {
+              "en": "I'll never forget my first trip to Da Lat.",
+              "vi": "Tôi sẽ không bao giờ quên chuyến đi Đà Lạt đầu tiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["initial", "earliest", "primary"],
+      "antonyms": ["last", "final"],
+      "collocations": ["at first", "first of all", "first time", "first place", "from the first"],
+      "etymology_hint": "From Old English 'fyrst' — superlative of 'fore' meaning 'before'",
+      "mnemonic_vi": "FIRST đọc 'phớt' — vận động viên về 'PHỚT' (phất) cờ chiến thắng đầu tiên"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "ipa": "/ˈsek.ənd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "coming after the first in time, order, or position",
+          "meaning_vi": "thứ hai; đến sau cái đầu tiên về thời gian hoặc thứ tự",
+          "examples": [
+            {
+              "en": "He finished second in the marathon.",
+              "vi": "Anh ấy về nhì trong cuộc thi marathon."
+            },
+            {
+              "en": "This is the second time she has visited Vietnam.",
+              "vi": "Đây là lần thứ hai cô ấy đến Việt Nam."
+            },
+            {
+              "en": "Take the second left after the traffic light.",
+              "vi": "Rẽ trái lần thứ hai sau đèn giao thông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["next", "following"],
+      "antonyms": ["first", "last"],
+      "collocations": [
+        "second place",
+        "second chance",
+        "second time",
+        "second-hand",
+        "every second"
+      ],
+      "etymology_hint": "From Latin 'secundus' meaning 'following, second in order'",
+      "mnemonic_vi": "SECOND nghĩa khác là 'giây' (đơn vị thời gian) — nhưng ở đây là 'thứ HAI', đến sau số 1"
+    },
+    {
+      "word": "third",
+      "lemma": "third",
+      "ipa": "/θɜːd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "coming after the second in time, order, or position",
+          "meaning_vi": "thứ ba; đến sau cái thứ hai về thứ tự",
+          "examples": [
+            {
+              "en": "March is the third month of the year.",
+              "vi": "Tháng Ba là tháng thứ ba trong năm."
+            },
+            {
+              "en": "She won the third prize in the singing contest.",
+              "vi": "Cô ấy giành giải ba trong cuộc thi hát."
+            },
+            { "en": "The classroom is on the third floor.", "vi": "Lớp học ở tầng ba." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["third place", "third time", "third party", "a third", "the Third World"],
+      "etymology_hint": "From Old English 'þridda', cognate with German 'dritte'",
+      "mnemonic_vi": "THIRD đọc 'thớt' — đứng vị trí 'THỚT' thứ ba khi xếp hàng nhận thưởng"
+    },
+    {
+      "word": "last",
+      "lemma": "last",
+      "ipa": "/lɑːst/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "coming after all others in time or order; final",
+          "meaning_vi": "cuối cùng, sau cùng; đến sau tất cả các thứ khác",
+          "examples": [
+            {
+              "en": "December is the last month of the year.",
+              "vi": "Tháng Mười Hai là tháng cuối cùng trong năm."
+            },
+            { "en": "She ate the last piece of cake.", "vi": "Cô ấy ăn miếng bánh cuối cùng." },
+            {
+              "en": "I caught the last bus home.",
+              "vi": "Tôi bắt được chuyến xe cuối cùng về nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["final", "ultimate", "concluding"],
+      "antonyms": ["first", "initial"],
+      "collocations": ["at last", "last time", "last week", "last night", "the last one"],
+      "etymology_hint": "From Old English 'latost', superlative of 'late'",
+      "mnemonic_vi": "LAST đọc 'lát' — chỉ còn 'LÁT' nữa thôi là người cuối cùng đến"
+    },
+    {
+      "word": "few",
+      "lemma": "few",
+      "ipa": "/fjuː/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small number of people or things",
+          "meaning_vi": "một vài, ít; số lượng nhỏ người hoặc vật",
+          "examples": [
+            {
+              "en": "Only a few students came to the morning class.",
+              "vi": "Chỉ có vài học sinh đến lớp sáng."
+            },
+            { "en": "I'll be back in a few minutes.", "vi": "Tôi sẽ quay lại trong vài phút." },
+            {
+              "en": "Few people know about this hidden beach.",
+              "vi": "Ít người biết đến bãi biển kín này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["a couple", "several", "some"],
+      "antonyms": ["many", "lots"],
+      "collocations": ["a few", "few people", "a few times", "few things", "in a few minutes"],
+      "etymology_hint": "From Old English 'fēawe' meaning 'few, of small number'",
+      "mnemonic_vi": "FEW đọc 'phiu' — 'PHIU' nhẹ vài người, ít người = FEW"
+    },
+    {
+      "word": "many",
+      "lemma": "many",
+      "ipa": "/ˈmen.i/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large number of people or things",
+          "meaning_vi": "nhiều; số lượng lớn người hoặc vật",
+          "examples": [
+            {
+              "en": "Many people prefer phở for breakfast.",
+              "vi": "Nhiều người thích ăn phở vào bữa sáng."
+            },
+            { "en": "How many brothers and sisters do you have?", "vi": "Bạn có mấy anh chị em?" },
+            {
+              "en": "There aren't many tourists here in the rainy season.",
+              "vi": "Không có nhiều du khách ở đây vào mùa mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["numerous", "lots of", "plenty of"],
+      "antonyms": ["few", "little"],
+      "collocations": ["how many", "many times", "many people", "too many", "so many"],
+      "etymology_hint": "From Old English 'manig' meaning 'many, much', cognate with German 'manch'",
+      "mnemonic_vi": "MANY đọc 'me-ni' — đông như cái 'NI' (vại lớn) đầy người"
+    },
+    {
+      "word": "several",
+      "lemma": "several",
+      "ipa": "/ˈsev.ər.əl/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "more than two but not very many",
+          "meaning_vi": "một vài, một số; nhiều hơn hai nhưng không quá nhiều",
+          "examples": [
+            { "en": "I have visited Hue several times.", "vi": "Tôi đã đến Huế vài lần." },
+            {
+              "en": "Several students stayed late to help clean the classroom.",
+              "vi": "Một vài học sinh ở lại muộn để giúp dọn lớp."
+            },
+            { "en": "She has lived in several countries.", "vi": "Cô ấy đã sống ở vài quốc gia." }
+          ]
+        }
+      ],
+      "synonyms": ["a few", "some", "various"],
+      "antonyms": ["one", "few"],
+      "collocations": [
+        "several times",
+        "several years",
+        "several people",
+        "several days",
+        "several reasons"
+      ],
+      "etymology_hint": "From Latin 'separalis' meaning 'separate, distinct' — originally 'separately considered'",
+      "mnemonic_vi": "SEVERAL chứa 'SEVEN' — khoảng '7' = không ít không nhiều = một vài"
+    },
+    {
+      "word": "half",
+      "lemma": "half",
+      "ipa": "/hɑːf/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of two equal parts of something",
+          "meaning_vi": "một nửa; một trong hai phần bằng nhau",
+          "examples": [
+            {
+              "en": "Cut the cake in half and share it.",
+              "vi": "Cắt cái bánh làm đôi rồi chia nhau."
+            },
+            {
+              "en": "It takes half an hour to walk to school.",
+              "vi": "Mất nửa tiếng đi bộ đến trường."
+            },
+            {
+              "en": "I've only finished half of my homework.",
+              "vi": "Tôi mới làm xong nửa bài tập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fifty percent", "50%"],
+      "antonyms": ["whole", "full"],
+      "collocations": ["half an hour", "half price", "in half", "half of", "better half"],
+      "etymology_hint": "From Old English 'healf' meaning 'side, half'",
+      "mnemonic_vi": "HALF đọc 'háp' — chỉ ăn được 'HẤP' nửa cái bánh thôi"
+    },
+    {
+      "word": "whole",
+      "lemma": "whole",
+      "ipa": "/həʊl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "complete; including every part",
+          "meaning_vi": "toàn bộ, nguyên vẹn; bao gồm tất cả các phần",
+          "examples": [
+            {
+              "en": "He ate the whole pizza by himself.",
+              "vi": "Anh ấy ăn hết cả cái pizza một mình."
+            },
+            { "en": "The whole family came to the wedding.", "vi": "Cả gia đình đến đám cưới." },
+            {
+              "en": "I spent the whole day reading at the library.",
+              "vi": "Tôi dành cả ngày đọc sách ở thư viện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["entire", "complete", "full"],
+      "antonyms": ["half", "partial"],
+      "collocations": [
+        "the whole day",
+        "as a whole",
+        "whole family",
+        "whole truth",
+        "on the whole"
+      ],
+      "etymology_hint": "From Old English 'hāl' meaning 'healthy, complete' — also gave us 'heal' and 'hale'",
+      "mnemonic_vi": "WHOLE đọc 'hôn' — 'HÔN' tròn nguyên cái bánh không sót miếng nào"
+    },
+    {
+      "word": "double",
+      "lemma": "double",
+      "ipa": "/ˈdʌb.əl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "twice as much, twice as many, or having two parts",
+          "meaning_vi": "gấp đôi; gồm hai phần; nhiều gấp hai lần",
+          "examples": [
+            {
+              "en": "I'd like a double room at the hotel, please.",
+              "vi": "Cho tôi một phòng đôi ở khách sạn."
+            },
+            { "en": "She earns double what I earn.", "vi": "Cô ấy kiếm gấp đôi tôi." },
+            {
+              "en": "Make sure to double-check your answers before submitting.",
+              "vi": "Nhớ kiểm tra lại đáp án trước khi nộp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["twice", "twofold", "dual"],
+      "antonyms": ["single", "half"],
+      "collocations": [
+        "double room",
+        "double check",
+        "double the amount",
+        "double meaning",
+        "double bed"
+      ],
+      "etymology_hint": "From Latin 'duplus' meaning 'twofold' = 'du-' (two) + 'plus' (fold)",
+      "mnemonic_vi": "DOUBLE chứa 'DOU' (đôi) — như tiếng Việt 'ĐÔI' = hai phần = gấp đôi"
+    },
+    {
+      "word": "triple",
+      "lemma": "triple",
+      "ipa": "/ˈtrɪp.əl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "three times as much, as many, or having three parts",
+          "meaning_vi": "gấp ba; gồm ba phần",
+          "examples": [
+            {
+              "en": "She ordered a triple shot of coffee to stay awake.",
+              "vi": "Cô ấy gọi cà phê ba shot để tỉnh táo."
+            },
+            {
+              "en": "Sales tripled after the new promotion.",
+              "vi": "Doanh thu tăng gấp ba sau chương trình khuyến mãi."
+            },
+            {
+              "en": "We booked a triple room for the three friends.",
+              "vi": "Chúng tôi đặt phòng ba người cho ba bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["threefold", "treble"],
+      "antonyms": ["single", "half"],
+      "collocations": [
+        "triple room",
+        "triple jump",
+        "triple the amount",
+        "triple play",
+        "triple threat"
+      ],
+      "etymology_hint": "From Latin 'triplus' = 'tri-' (three) + 'plus' (fold)",
+      "mnemonic_vi": "TRIPLE chứa 'TRI' (ba) — như tiếng Việt 'BA' (TRI = three) = gấp ba"
+    },
+    {
+      "word": "dozen",
+      "lemma": "dozen",
+      "ipa": "/ˈdʌz.ən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a group or set of twelve",
+          "meaning_vi": "tá; nhóm 12 cái",
+          "examples": [
+            {
+              "en": "She bought a dozen eggs at the market.",
+              "vi": "Cô ấy mua một tá trứng ở chợ."
+            },
+            {
+              "en": "There were dozens of people waiting in line.",
+              "vi": "Có hàng tá người xếp hàng chờ."
+            },
+            {
+              "en": "I've baked two dozen cupcakes for the party.",
+              "vi": "Tôi đã nướng hai tá cupcake cho bữa tiệc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["twelve", "12"],
+      "antonyms": [],
+      "collocations": ["a dozen", "half a dozen", "dozens of", "two dozen", "by the dozen"],
+      "etymology_hint": "From Old French 'dozaine', from Latin 'duodecim' (twelve)",
+      "mnemonic_vi": "DOZEN đọc 'đâ-zần' — 'ĐÂ' (đã) đếm 'DẦN' đến 12 = một tá"
+    },
+    {
+      "word": "percent",
+      "lemma": "percent",
+      "ipa": "/pəˈsent/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one part in every hundred; the symbol is %",
+          "meaning_vi": "phần trăm; một phần trong một trăm; ký hiệu là %",
+          "examples": [
+            {
+              "en": "The shop is offering a 30 percent discount.",
+              "vi": "Cửa hàng đang giảm giá 30 phần trăm."
+            },
+            {
+              "en": "About 80 percent of the class passed the exam.",
+              "vi": "Khoảng 80 phần trăm cả lớp đỗ kỳ thi."
+            },
+            {
+              "en": "I'm a hundred percent sure she's coming.",
+              "vi": "Tôi chắc chắn 100 phần trăm là cô ấy đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["%", "per cent"],
+      "antonyms": [],
+      "collocations": [
+        "a hundred percent",
+        "fifty percent",
+        "percent off",
+        "percent discount",
+        "percent increase"
+      ],
+      "etymology_hint": "From Latin 'per centum' meaning 'by the hundred'",
+      "mnemonic_vi": "PERCENT = PER + CENT: 'mỗi 100' (CENT = trăm) = phần trăm"
+    },
+    {
+      "word": "quarter",
+      "lemma": "quarter",
+      "ipa": "/ˈkwɔː.tə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of four equal parts of something",
+          "meaning_vi": "một phần tư; một trong bốn phần bằng nhau",
+          "examples": [
+            { "en": "Cut the apple into quarters.", "vi": "Cắt quả táo thành bốn phần." },
+            {
+              "en": "It's a quarter past nine — let's go.",
+              "vi": "Chín giờ mười lăm rồi — đi thôi."
+            },
+            {
+              "en": "A quarter of the students study abroad after school.",
+              "vi": "Một phần tư học sinh đi du học sau cấp ba."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fourth", "25%"],
+      "antonyms": [],
+      "collocations": [
+        "a quarter of",
+        "quarter past",
+        "quarter to",
+        "three-quarters",
+        "first quarter"
+      ],
+      "etymology_hint": "From Latin 'quartarius' meaning 'fourth part', from 'quartus' (fourth)",
+      "mnemonic_vi": "QUARTER chứa 'QUAR' — 'BỐN' (quattro tiếng Ý) — một phần của bốn = 1/4"
+    },
+    {
+      "word": "single",
+      "lemma": "single",
+      "ipa": "/ˈsɪŋ.ɡəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "only one; not double or multiple",
+          "meaning_vi": "đơn, một; chỉ một, không nhiều, không đôi",
+          "examples": [
+            {
+              "en": "She lives alone in a single room.",
+              "vi": "Cô ấy sống một mình trong phòng đơn."
+            },
+            {
+              "en": "Not a single person came to the meeting.",
+              "vi": "Không một ai đến cuộc họp."
+            },
+            {
+              "en": "He is still single and not looking for a relationship.",
+              "vi": "Anh ấy vẫn độc thân và không tìm kiếm mối quan hệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one", "sole", "individual"],
+      "antonyms": ["double", "multiple", "married"],
+      "collocations": [
+        "single room",
+        "single mother",
+        "every single",
+        "single ticket",
+        "single file"
+      ],
+      "etymology_hint": "From Latin 'singulus' meaning 'one only', diminutive of 'simplus' (simple)",
+      "mnemonic_vi": "SINGLE chứa 'SIN' — như 'XÌN' (in tiếng lóng) một mình = SINGLE"
+    },
+    {
+      "word": "pair",
+      "lemma": "pair",
+      "ipa": "/peə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "two things of the same kind that are used together",
+          "meaning_vi": "đôi, cặp; hai vật cùng loại dùng chung",
+          "examples": [
+            {
+              "en": "I bought a new pair of shoes at the mall.",
+              "vi": "Tôi mua một đôi giày mới ở trung tâm thương mại."
+            },
+            { "en": "Where is the other pair of chopsticks?", "vi": "Đôi đũa kia đâu rồi?" },
+            {
+              "en": "They make a lovely pair at the dance.",
+              "vi": "Họ là một cặp đáng yêu trên sàn nhảy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["couple", "duo", "set"],
+      "antonyms": ["single"],
+      "collocations": [
+        "a pair of",
+        "pair of shoes",
+        "pair of glasses",
+        "pair of jeans",
+        "pair off"
+      ],
+      "etymology_hint": "From Old French 'paire', from Latin 'paria' (equal things)",
+      "mnemonic_vi": "PAIR đọc 'pe' — đi 'PE' (vỗ) tay cùng nhau là một đôi"
+    }
+  ]
+}
