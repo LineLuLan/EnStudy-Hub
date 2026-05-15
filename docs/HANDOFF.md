@@ -5,6 +5,76 @@
 
 ---
 
+## 2026-05-15 (chiều) — P2 batch content ship (5 lessons / 100 cards + 1 topic meta) — Claude Opus 4.7
+
+**Mục tiêu session**: gen batch P2 theo `docs/CONTENT_PLAN.md` Phần 5 — 1st batch của 3-batch schedule P2 → P3 → P4 (user chốt phương án "Tách 3 batch" thay vì all-at-once, sau khi cân quality control vs cost).
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                     |
+| ------ | --------- | -------------------------------------------------------- |
+| main   | `eb18493` | v0.2.0 (chưa tag v1.0.0)                                 |
+| dev    | `daed553` | merge be → dev P2 batch                                  |
+| be     | `0b2dbb9` | feat(content): P2 batch — 5 lessons + meta places-travel |
+| fe     | `d3dd493` | sync dev → fe                                            |
+
+### Đã ship (commit `0b2dbb9` trên `be`)
+
+**5 lessons (100 cards) — Oxford 3000, A1-B1 mix:**
+
+| #   | Topic         | Lesson                  | Cards | CEFR mix                                                    |
+| --- | ------------- | ----------------------- | ----- | ----------------------------------------------------------- |
+| 1   | time-numbers  | weather-seasons         | 20    | A1 (10) + A2 (10)                                           |
+| 2   | places-travel | city-places             | 20    | A1 (8) + A2 (12)                                            |
+| 3   | places-travel | transportation          | 20    | A1 (10) + A2 (7) + B1 (3: depart, transfer, schedule, fare) |
+| 4   | places-travel | countries-nationalities | 20    | A1 (16) + A2 (4)                                            |
+| 5   | people        | greetings-social        | 20    | A1 (10) + A2 (10)                                           |
+
+**Topic meta:** `places-travel` (order_index 3, icon `map-pin`, color `#10b981`).
+
+### Conventions giữ nguyên P1
+
+- IPA British style /…/
+- 3 examples/definition, Vietnam-context (Sa Pa, Đà Lạt, Huế, Hội An, Hạ Long, AEON, Vinmart, Grab, Notre Dame, Hàng Bông, K-pop, anime, Vietcombank, Bach Mai…)
+- 4-5 collocations, etymology hint 1-2 câu, mnemonic_vi vibe-y wordplay tiếng Việt
+- POS đúng 10 enum schema
+- Schema validated all 6 files via Zod inline check (script tạm `_validate-schema-only.ts` xoá sau khi xong)
+
+### Decisions
+
+1. **Override policy P2 + P3 + P4** → user OK đốt API credit cho 3 batches. Memory rule `feedback_content_gen` giữ pinned cho default future (P5+ nếu có hoặc batches khác)
+2. **Tách 3 batch thay vì all-at-once** → user pick "P2 → review → P3 → P4" để kiểm soát quality, không đốt $15-20 / 30-45 phút trong 1 session
+3. **Batch commit duy nhất / batch** → user confirm pattern P1 (1 commit cho cả batch)
+4. **Topic meta places-travel ngay trong P2** → vì có 3 lesson places-travel trong batch. P3 sẽ thêm meta: work-business, education, nature-environment, entertainment. P4 thêm: society-culture, abstract-academic
+
+### Verify đã chạy trên fe (sau merge dev → fe)
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179 unchanged
+- `pnpm lint` ✓ 0 warnings
+
+### Progress tổng
+
+- **Đã có**: P0 (3 lesson / 60) + P1 (7 lesson / 140) + P2 (5 lesson / 100) = **15 lessons / 300 cards** trên 4 topic (daily-life, people, time-numbers, places-travel)
+- **Còn lại theo MVP plan**: P3 (~17 lesson / ~340 cards: people leftover relationships+life-stages, places-travel leftover hotel-restaurant+airport-flight, work-business 5, education 4, nature-environment 4, entertainment 4) + P4 (6 lesson / 120 cards: society-culture 3, abstract-academic 3)
+- **Tổng MVP target**: 42 lessons / 840 cards. Còn **27 lessons / ~460 cards** (P3 + P4)
+
+### USER TODOs sau P2
+
+1. **`pnpm seed`** trên `.env.local` có DATABASE_URL → upsert 100 cards P2 vào Supabase live
+2. (tùy chọn) Spot-check 2-3 card random mỗi lesson P2
+3. Confirm "next: P3 batch" để tôi tiếp tục, hoặc pause để review trước
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit (mobile + desktop)
+5. Supabase RLS smoke test
+
+---
+
 ## 2026-05-15 — P1 batch content ship (7 lessons / 140 cards + 2 topic metas) — Claude Opus 4.7
 
 **Mục tiêu session**: gen + integrate P1 batch theo `docs/CONTENT_BRIEF_P1.md`. User đảo policy `feedback_content_gen` (offline-only) cho batch này — cân nhắc cost vs quality, chấp nhận đốt API credit Opus 1M để gen nguyên một mạch với context đầy đủ thay vì free-tier desktop.
