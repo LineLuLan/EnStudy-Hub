@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `cf36359`               | base                   | 2026-05-15 (`cf36359`) | P3 CLOSED — 12 lessons / 240 cards + 3 metas              |
-| be     | `3744fcd`               | 2026-05-15 (`3744fcd`) | 2026-05-15 (`3744fcd`) | P3 closed content (3 commits, 3 topics)                   |
-| fe     | `6044eb6`               | 2026-05-15 (`6044eb6`) | 2026-05-15 (`6044eb6`) | sync P3 closed — typecheck/lint/test all green (179)      |
+| dev    | `ec0c4e3`               | base                   | 2026-05-15 (`ec0c4e3`) | P3 CLOSED + docs — 12 lessons / 240 cards + 3 metas       |
+| be     | `7bf4861`               | 2026-05-15 (`7bf4861`) | 2026-05-15 (`7bf4861`) | P3 closed content (3 commits) + docs commit               |
+| fe     | `f81c85e`               | 2026-05-15 (`f81c85e`) | 2026-05-15 (`f81c85e`) | sync P3 closed + docs — gates green (179 tests)           |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
