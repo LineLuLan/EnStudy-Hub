@@ -1,0 +1,673 @@
+{
+  "slug": "weather-seasons",
+  "name": "Weather & Seasons",
+  "description": "Thời tiết và bốn mùa trong năm.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "weather",
+      "lemma": "weather",
+      "ipa": "/ˈweð.ə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the state of the air outside, such as how hot or cold, wet or dry it is",
+          "meaning_vi": "thời tiết; trạng thái không khí ngoài trời (nóng, lạnh, mưa, nắng)",
+          "examples": [
+            {
+              "en": "The weather in Hanoi changes a lot between seasons.",
+              "vi": "Thời tiết Hà Nội thay đổi nhiều giữa các mùa."
+            },
+            { "en": "What's the weather like today?", "vi": "Hôm nay thời tiết thế nào?" },
+            {
+              "en": "Bad weather delayed our flight to Da Nang.",
+              "vi": "Thời tiết xấu khiến chuyến bay đi Đà Nẵng bị hoãn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["climate", "conditions"],
+      "antonyms": [],
+      "collocations": [
+        "good weather",
+        "bad weather",
+        "weather forecast",
+        "cold weather",
+        "weather report"
+      ],
+      "etymology_hint": "From Old English 'weder', cognate with German 'Wetter'",
+      "mnemonic_vi": "WEATHER chứa 'EAT' và 'HER' — 'thời tiết' ảnh hưởng cả việc 'EAT' (ăn) và 'HER' (cô ấy ra đường)"
+    },
+    {
+      "word": "hot",
+      "lemma": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a high temperature; very warm",
+          "meaning_vi": "nóng; có nhiệt độ cao",
+          "examples": [
+            { "en": "Saigon is hot all year round.", "vi": "Sài Gòn nóng quanh năm." },
+            { "en": "Be careful — the soup is very hot.", "vi": "Cẩn thận — canh nóng lắm." },
+            {
+              "en": "It's too hot to play football outside today.",
+              "vi": "Hôm nay nóng quá không đá bóng ngoài trời được."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["warm", "boiling", "scorching"],
+      "antonyms": ["cold", "cool"],
+      "collocations": ["very hot", "hot weather", "hot day", "red hot", "hot summer"],
+      "etymology_hint": "From Old English 'hāt', cognate with German 'heiß'",
+      "mnemonic_vi": "HOT đọc 'hót' — nóng đến mức 'HÓT' (hớt) tóc ngắn cho mát"
+    },
+    {
+      "word": "cold",
+      "lemma": "cold",
+      "ipa": "/kəʊld/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a low temperature; not warm",
+          "meaning_vi": "lạnh; có nhiệt độ thấp",
+          "examples": [
+            {
+              "en": "The water in the well is cold even in summer.",
+              "vi": "Nước giếng lạnh ngay cả vào mùa hè."
+            },
+            {
+              "en": "Wear a coat — it's cold outside.",
+              "vi": "Mặc áo khoác vào — ngoài trời lạnh đấy."
+            },
+            {
+              "en": "I caught a cold after walking in the rain.",
+              "vi": "Tôi bị cảm sau khi đi bộ dưới mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chilly", "freezing", "icy"],
+      "antonyms": ["hot", "warm"],
+      "collocations": ["very cold", "cold weather", "catch a cold", "cold winter", "ice cold"],
+      "etymology_hint": "From Old English 'cald', cognate with Latin 'gelidus'",
+      "mnemonic_vi": "COLD đọc 'côuld' — 'CÔ' đứng lạnh cóng 'ÚU' (úm) tay lại"
+    },
+    {
+      "word": "warm",
+      "lemma": "warm",
+      "ipa": "/wɔːm/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "fairly hot but not too hot; pleasantly heated",
+          "meaning_vi": "ấm áp; hơi nóng nhưng dễ chịu",
+          "examples": [
+            {
+              "en": "A warm cup of tea is perfect on cold mornings.",
+              "vi": "Một tách trà ấm thật tuyệt vào buổi sáng lạnh."
+            },
+            {
+              "en": "The blanket from my grandmother keeps me warm.",
+              "vi": "Chiếc chăn từ bà giữ tôi ấm áp."
+            },
+            {
+              "en": "She gave us a warm welcome at the door.",
+              "vi": "Cô ấy đón chúng tôi nồng nhiệt ngay cửa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mild", "cosy", "snug"],
+      "antonyms": ["cold", "cool"],
+      "collocations": ["warm clothes", "warm welcome", "keep warm", "warm bath", "warm heart"],
+      "etymology_hint": "From Old English 'wearm', cognate with German 'warm'",
+      "mnemonic_vi": "WARM đọc 'oóm' — 'ÔM' nhau khi trời lạnh là cảm thấy WARM"
+    },
+    {
+      "word": "cool",
+      "lemma": "cool",
+      "ipa": "/kuːl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "fairly cold but not very cold; pleasantly low in temperature",
+          "meaning_vi": "mát mẻ; hơi lạnh nhưng dễ chịu",
+          "examples": [
+            {
+              "en": "Da Lat has cool weather even in summer.",
+              "vi": "Đà Lạt mát mẻ ngay cả mùa hè."
+            },
+            {
+              "en": "The evening breeze is cool and pleasant.",
+              "vi": "Gió đêm mát mẻ và dễ chịu."
+            },
+            {
+              "en": "Drink something cool when you're thirsty.",
+              "vi": "Uống gì đó mát khi bạn khát nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chilly", "fresh", "refreshing"],
+      "antonyms": ["hot", "warm"],
+      "collocations": ["cool breeze", "keep cool", "cool drink", "stay cool", "cool weather"],
+      "etymology_hint": "From Old English 'cōl', cognate with German 'kühl'",
+      "mnemonic_vi": "COOL đọc 'cu-ờ' — uống nước đá 'CỦU' (cứu) khỏi nóng = mát mẻ"
+    },
+    {
+      "word": "rain",
+      "lemma": "rain",
+      "ipa": "/reɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "water that falls from the sky in drops",
+          "meaning_vi": "mưa; nước rơi từ trên trời xuống thành giọt",
+          "examples": [
+            {
+              "en": "The rain in Hue can last for weeks.",
+              "vi": "Mưa ở Huế có thể kéo dài hàng tuần."
+            },
+            {
+              "en": "Don't forget your umbrella — there will be rain this afternoon.",
+              "vi": "Đừng quên ô — chiều nay sẽ có mưa."
+            },
+            {
+              "en": "Farmers welcome the rain after a long dry period.",
+              "vi": "Nông dân chào đón mưa sau thời gian dài khô hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shower", "downpour", "rainfall"],
+      "antonyms": [],
+      "collocations": ["heavy rain", "light rain", "rain stops", "in the rain", "acid rain"],
+      "etymology_hint": "From Old English 'regn', cognate with German 'Regen'",
+      "mnemonic_vi": "RAIN đọc 'rên' — trời mưa thì người ta 'RÊN' vì ướt và lạnh"
+    },
+    {
+      "word": "snow",
+      "lemma": "snow",
+      "ipa": "/snəʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "soft white flakes of frozen water that fall from the sky in cold weather",
+          "meaning_vi": "tuyết; những bông trắng mềm rơi từ trời khi trời lạnh",
+          "examples": [
+            {
+              "en": "I saw snow for the first time when I visited Sa Pa.",
+              "vi": "Tôi thấy tuyết lần đầu khi lên Sa Pa."
+            },
+            { "en": "Children love to play in the snow.", "vi": "Trẻ con thích chơi trong tuyết." },
+            {
+              "en": "The mountain is covered with snow in January.",
+              "vi": "Núi phủ tuyết vào tháng Một."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["snowfall", "flurry"],
+      "antonyms": [],
+      "collocations": ["heavy snow", "snow falls", "deep snow", "snow storm", "fresh snow"],
+      "etymology_hint": "From Old English 'snāw', cognate with German 'Schnee' and Latin 'nix'",
+      "mnemonic_vi": "SNOW đọc 'snâu' — 'SẦU' vì lạnh mà tuyết rơi đẹp như tranh"
+    },
+    {
+      "word": "wind",
+      "lemma": "wind",
+      "ipa": "/wɪnd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "air that moves quickly outdoors",
+          "meaning_vi": "gió; không khí chuyển động ngoài trời",
+          "examples": [
+            {
+              "en": "Strong wind broke the branches of the old tree.",
+              "vi": "Gió lớn làm gãy cành của cây cổ thụ."
+            },
+            {
+              "en": "The wind from the sea feels nice in summer.",
+              "vi": "Gió biển dễ chịu vào mùa hè."
+            },
+            {
+              "en": "Hold your hat — the wind is strong today.",
+              "vi": "Giữ mũ — gió hôm nay mạnh đấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["breeze", "gust", "gale"],
+      "antonyms": ["calm"],
+      "collocations": ["strong wind", "light wind", "cold wind", "wind blows", "north wind"],
+      "etymology_hint": "From Old English 'wind', cognate with Latin 'ventus'",
+      "mnemonic_vi": "WIND đọc 'guynd' — gió thổi 'GUÝNH' (đánh) vào mặt lạnh buốt"
+    },
+    {
+      "word": "sun",
+      "lemma": "sun",
+      "ipa": "/sʌn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the bright star that gives light and heat to the Earth during the day",
+          "meaning_vi": "mặt trời; ngôi sao chiếu sáng và sưởi ấm trái đất ban ngày",
+          "examples": [
+            { "en": "The sun rises early in summer.", "vi": "Mặt trời mọc sớm vào mùa hè." },
+            {
+              "en": "We sat in the sun at the beach all afternoon.",
+              "vi": "Chúng tôi ngồi tắm nắng ở biển cả buổi chiều."
+            },
+            {
+              "en": "Wear a hat to protect yourself from the sun.",
+              "vi": "Đội mũ để bảo vệ khỏi nắng mặt trời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sunshine", "sunlight"],
+      "antonyms": ["moon"],
+      "collocations": ["the sun rises", "the sun sets", "in the sun", "bright sun", "sun cream"],
+      "etymology_hint": "From Old English 'sunne', cognate with Latin 'sol'",
+      "mnemonic_vi": "SUN đọc 'sân' — mặt trời chiếu xuống 'SÂN' nhà nóng rực"
+    },
+    {
+      "word": "cloud",
+      "lemma": "cloud",
+      "ipa": "/klaʊd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a white or grey mass in the sky made of water drops",
+          "meaning_vi": "mây; khối trắng hoặc xám trên trời do giọt nước tạo nên",
+          "examples": [
+            {
+              "en": "Look at that cloud — it looks like a dragon.",
+              "vi": "Nhìn đám mây kia kìa — trông giống con rồng."
+            },
+            {
+              "en": "Dark clouds usually mean rain is coming.",
+              "vi": "Mây đen thường báo hiệu trời sắp mưa."
+            },
+            { "en": "The plane flew above the clouds.", "vi": "Máy bay bay trên những đám mây." }
+          ]
+        }
+      ],
+      "synonyms": ["mist", "vapour"],
+      "antonyms": [],
+      "collocations": ["dark cloud", "white cloud", "rain cloud", "cloud cover", "on cloud nine"],
+      "etymology_hint": "From Old English 'clūd' originally meaning 'rock, hill' — extended to 'mass in sky'",
+      "mnemonic_vi": "CLOUD đọc 'cờ-lao' — đám mây 'LAO' (bay) trên trời cao"
+    },
+    {
+      "word": "storm",
+      "lemma": "storm",
+      "ipa": "/stɔːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very bad weather with strong winds, heavy rain, and often thunder",
+          "meaning_vi": "bão, cơn bão; thời tiết rất xấu với gió mạnh, mưa to và sấm",
+          "examples": [
+            {
+              "en": "The storm broke many trees in our village last night.",
+              "vi": "Cơn bão làm gãy nhiều cây trong làng tôi đêm qua."
+            },
+            {
+              "en": "Schools closed because of the typhoon storm.",
+              "vi": "Các trường đóng cửa vì cơn bão."
+            },
+            {
+              "en": "We stayed home and watched the storm from the window.",
+              "vi": "Chúng tôi ở nhà và xem cơn bão qua cửa sổ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tempest", "hurricane", "typhoon"],
+      "antonyms": ["calm"],
+      "collocations": [
+        "heavy storm",
+        "storm hits",
+        "thunder storm",
+        "tropical storm",
+        "snow storm"
+      ],
+      "etymology_hint": "From Old English 'storm', cognate with German 'Sturm' — same root as 'stir'",
+      "mnemonic_vi": "STORM đọc 'sờ-tom' — gió 'TÔM' (tóm) đổ cây cối = bão"
+    },
+    {
+      "word": "thunder",
+      "lemma": "thunder",
+      "ipa": "/ˈθʌn.də(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the loud noise in the sky during a storm, after lightning",
+          "meaning_vi": "sấm; tiếng vang lớn trên trời khi có bão, sau khi có chớp",
+          "examples": [
+            {
+              "en": "The thunder was so loud that the baby cried.",
+              "vi": "Sấm to đến nỗi em bé khóc."
+            },
+            {
+              "en": "I love listening to thunder during a storm at night.",
+              "vi": "Tôi thích nghe tiếng sấm khi có bão về đêm."
+            },
+            {
+              "en": "The dog hides under the bed when there is thunder.",
+              "vi": "Con chó trốn dưới gầm giường khi có sấm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rumble", "clap"],
+      "antonyms": [],
+      "collocations": [
+        "loud thunder",
+        "thunder rolls",
+        "thunder clap",
+        "thunder storm",
+        "distant thunder"
+      ],
+      "etymology_hint": "From Old English 'þunor', cognate with Latin 'tonare' (to thunder)",
+      "mnemonic_vi": "THUNDER đọc 'thân-đờ' — sấm đánh 'THẦN' đứng dậy mới 'ĐỜ' người"
+    },
+    {
+      "word": "lightning",
+      "lemma": "lightning",
+      "ipa": "/ˈlaɪt.nɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a flash of bright light in the sky during a storm",
+          "meaning_vi": "tia chớp, sét; ánh sáng loé trên trời khi có bão",
+          "examples": [
+            {
+              "en": "Lightning lit up the whole sky for a second.",
+              "vi": "Tia chớp soi sáng cả bầu trời trong một giây."
+            },
+            {
+              "en": "Never stand under a tree during lightning.",
+              "vi": "Đừng bao giờ đứng dưới cây khi có sét."
+            },
+            {
+              "en": "The lightning was followed by loud thunder.",
+              "vi": "Sau tia chớp là tiếng sấm vang lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flash", "bolt"],
+      "antonyms": [],
+      "collocations": [
+        "flash of lightning",
+        "lightning strike",
+        "lightning bolt",
+        "lightning rod",
+        "lightning fast"
+      ],
+      "etymology_hint": "From Middle English 'lightening', from 'lighten' (to flash light)",
+      "mnemonic_vi": "LIGHTNING chứa 'LIGHT' (ánh sáng) — ánh sáng cực mạnh trong giây = tia chớp"
+    },
+    {
+      "word": "foggy",
+      "lemma": "foggy",
+      "ipa": "/ˈfɒɡ.i/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "with thick cloud near the ground that makes it hard to see",
+          "meaning_vi": "có sương mù; trời mờ mịt khó nhìn vì sương",
+          "examples": [
+            {
+              "en": "It's foggy this morning — drive carefully on the highway.",
+              "vi": "Sáng nay có sương mù — lái xe cẩn thận trên cao tốc."
+            },
+            {
+              "en": "Sa Pa is often foggy in winter.",
+              "vi": "Sa Pa hay có sương mù vào mùa đông."
+            },
+            {
+              "en": "The foggy weather delayed many flights.",
+              "vi": "Thời tiết sương mù làm nhiều chuyến bay bị hoãn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["misty", "hazy"],
+      "antonyms": ["clear"],
+      "collocations": ["foggy morning", "foggy weather", "thick fog", "foggy day", "foggy road"],
+      "etymology_hint": "From 'fog' (origin uncertain, possibly Scandinavian) + '-y'",
+      "mnemonic_vi": "FOGGY đọc 'phóc-gi' — 'PHỐC' phải đi chậm vì sương mù che hết tầm nhìn"
+    },
+    {
+      "word": "humid",
+      "lemma": "humid",
+      "ipa": "/ˈhjuː.mɪd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "containing a lot of water in the air; damp",
+          "meaning_vi": "ẩm, ẩm thấp; không khí chứa nhiều hơi nước",
+          "examples": [
+            {
+              "en": "Saigon is hot and humid in the rainy season.",
+              "vi": "Sài Gòn nóng và ẩm vào mùa mưa."
+            },
+            {
+              "en": "Humid weather makes my hair frizzy.",
+              "vi": "Thời tiết ẩm làm tóc tôi xoăn rối."
+            },
+            {
+              "en": "The clothes dry slowly in humid weather.",
+              "vi": "Quần áo khô chậm khi trời ẩm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["damp", "muggy", "moist"],
+      "antonyms": ["dry", "arid"],
+      "collocations": [
+        "humid weather",
+        "hot and humid",
+        "humid climate",
+        "very humid",
+        "humid day"
+      ],
+      "etymology_hint": "From Latin 'humidus' meaning 'moist', from 'humere' (to be moist)",
+      "mnemonic_vi": "HUMID đọc 'hiu-mít' — 'HIU' hắt vào trời 'MÍT' ướt = ẩm thấp"
+    },
+    {
+      "word": "dry",
+      "lemma": "dry",
+      "ipa": "/draɪ/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "without water or any other liquid; not wet",
+          "meaning_vi": "khô; không có nước hoặc chất lỏng",
+          "examples": [
+            {
+              "en": "The towel is dry now — you can use it.",
+              "vi": "Cái khăn khô rồi — bạn dùng được."
+            },
+            {
+              "en": "Bring water — the desert is very dry.",
+              "vi": "Mang theo nước — sa mạc khô lắm."
+            },
+            {
+              "en": "The dry season in Saigon lasts from November to April.",
+              "vi": "Mùa khô ở Sài Gòn kéo dài từ tháng 11 đến tháng 4."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["arid", "parched"],
+      "antonyms": ["wet", "humid", "damp"],
+      "collocations": ["dry skin", "dry weather", "dry season", "bone dry", "keep dry"],
+      "etymology_hint": "From Old English 'drȳge', cognate with German 'trocken'",
+      "mnemonic_vi": "DRY đọc 'đrai' — 'ĐAI' lưng phơi khô dưới nắng = DRY"
+    },
+    {
+      "word": "spring",
+      "lemma": "spring",
+      "ipa": "/sprɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the season between winter and summer when plants begin to grow",
+          "meaning_vi": "mùa xuân; mùa giữa đông và hè khi cây cối bắt đầu nảy lộc",
+          "examples": [
+            {
+              "en": "Spring is the most beautiful season in Hanoi.",
+              "vi": "Mùa xuân là mùa đẹp nhất ở Hà Nội."
+            },
+            {
+              "en": "The peach blossoms bloom in early spring during Tet.",
+              "vi": "Hoa đào nở vào đầu xuân dịp Tết."
+            },
+            {
+              "en": "We have a lot of festivals in spring.",
+              "vi": "Chúng tôi có nhiều lễ hội vào mùa xuân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["springtime"],
+      "antonyms": ["autumn", "fall"],
+      "collocations": [
+        "early spring",
+        "late spring",
+        "in spring",
+        "spring flowers",
+        "spring break"
+      ],
+      "etymology_hint": "From Old English 'spring' meaning 'a leap, rising' — sense of plants 'springing up'",
+      "mnemonic_vi": "SPRING đọc 'sờ-pring' — hoa đào 'BƯNG' (nở bung) ra báo xuân về"
+    },
+    {
+      "word": "summer",
+      "lemma": "summer",
+      "ipa": "/ˈsʌm.ə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the warmest season of the year, between spring and autumn",
+          "meaning_vi": "mùa hè; mùa nóng nhất trong năm, giữa xuân và thu",
+          "examples": [
+            {
+              "en": "We usually go to the beach in summer.",
+              "vi": "Chúng tôi thường ra biển vào mùa hè."
+            },
+            {
+              "en": "Vietnamese summers are hot and humid.",
+              "vi": "Mùa hè ở Việt Nam nóng và ẩm."
+            },
+            {
+              "en": "School starts after the summer holiday.",
+              "vi": "Trường khai giảng sau kỳ nghỉ hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["summertime"],
+      "antonyms": ["winter"],
+      "collocations": ["hot summer", "summer holiday", "summer break", "in summer", "summer camp"],
+      "etymology_hint": "From Old English 'sumor', cognate with German 'Sommer'",
+      "mnemonic_vi": "SUMMER đọc 'sâm-mờ' — 'SÂM' (tắm) biển dưới nắng hè"
+    },
+    {
+      "word": "autumn",
+      "lemma": "autumn",
+      "ipa": "/ˈɔː.təm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the season between summer and winter when leaves change colour and fall",
+          "meaning_vi": "mùa thu; mùa giữa hè và đông, lá cây đổi màu và rụng",
+          "examples": [
+            {
+              "en": "Autumn in Hanoi has cool weather and yellow leaves.",
+              "vi": "Mùa thu Hà Nội có thời tiết mát và lá vàng."
+            },
+            {
+              "en": "I love eating moon cake during the autumn festival.",
+              "vi": "Tôi thích ăn bánh trung thu vào dịp Tết Trung Thu (lễ hội mùa thu)."
+            },
+            {
+              "en": "Autumn is the best season for outdoor weddings.",
+              "vi": "Mùa thu là mùa đẹp nhất cho đám cưới ngoài trời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fall"],
+      "antonyms": ["spring"],
+      "collocations": [
+        "in autumn",
+        "autumn leaves",
+        "autumn breeze",
+        "early autumn",
+        "autumn festival"
+      ],
+      "etymology_hint": "From Latin 'autumnus' meaning 'the season of harvest'",
+      "mnemonic_vi": "AUTUMN câm chữ N cuối — đọc 'o-tâm' — 'Ô' chiếc lá vàng rơi đầy 'TÂM' hồn"
+    },
+    {
+      "word": "winter",
+      "lemma": "winter",
+      "ipa": "/ˈwɪn.tə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the coldest season of the year, between autumn and spring",
+          "meaning_vi": "mùa đông; mùa lạnh nhất trong năm, giữa thu và xuân",
+          "examples": [
+            {
+              "en": "Winter in Hanoi can get really cold at night.",
+              "vi": "Mùa đông Hà Nội đêm rất lạnh."
+            },
+            {
+              "en": "We wear thick coats and scarves in winter.",
+              "vi": "Chúng tôi mặc áo khoác dày và quàng khăn vào mùa đông."
+            },
+            {
+              "en": "Some animals sleep all through winter.",
+              "vi": "Một số loài vật ngủ suốt cả mùa đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wintertime"],
+      "antonyms": ["summer"],
+      "collocations": ["cold winter", "in winter", "winter coat", "winter holiday", "harsh winter"],
+      "etymology_hint": "From Old English 'winter', possibly from a root meaning 'wet season'",
+      "mnemonic_vi": "WINTER đọc 'guyn-tờ' — 'GUYN' chăn 'TỜ' (tựa) lò sưởi vì WINTER lạnh"
+    }
+  ]
+}
