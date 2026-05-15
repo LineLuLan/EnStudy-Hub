@@ -1,0 +1,649 @@
+{
+  "slug": "clothes-accessories-ext",
+  "name": "Clothes & Accessories (Extended)",
+  "description": "Phụ kiện và chi tiết quần áo — bổ sung cho clothes-appearance.",
+  "order_index": 9,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "button",
+      "lemma": "button",
+      "ipa": "/ˈbʌtn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small round object used to fasten clothes; a key on a machine",
+          "meaning_vi": "cái khuy, nút áo; nút bấm (máy)",
+          "examples": [
+            { "en": "A button fell off my shirt.", "vi": "Cái khuy áo tôi bị rơi mất." },
+            {
+              "en": "Press the red button to call the elevator.",
+              "vi": "Bấm nút đỏ để gọi thang máy."
+            },
+            {
+              "en": "She sewed a new button on the coat.",
+              "vi": "Cô ấy khâu lại khuy mới cho áo khoác."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sew a button",
+        "press the button",
+        "button up",
+        "shirt button",
+        "lost a button"
+      ],
+      "etymology_hint": "From Old French 'bouton' meaning 'a bud, knob'.",
+      "mnemonic_vi": "BUTTON = 'bắt-tần' — 'bắt' (cài) chặt. Press the button = bấm nút."
+    },
+    {
+      "word": "pocket",
+      "lemma": "pocket",
+      "ipa": "/ˈpɒkɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small bag sewn into clothes to hold things",
+          "meaning_vi": "túi (áo, quần)",
+          "examples": [
+            { "en": "I put my phone in my back pocket.", "vi": "Tôi để điện thoại vào túi sau." },
+            {
+              "en": "Her áo dài doesn't have any pockets.",
+              "vi": "Áo dài cô ấy không có túi nào."
+            },
+            { "en": "He pulled a coin from his pocket.", "vi": "Anh ấy lấy đồng xu từ trong túi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in your pocket",
+        "back pocket",
+        "pocket money",
+        "pick someone's pocket",
+        "deep pockets"
+      ],
+      "etymology_hint": "From Old French 'pochette' meaning 'little bag'.",
+      "mnemonic_vi": "POCKET = 'pót-kít' — 'phọc' (đút vô) cái 'kít'. In my pocket = trong túi tôi."
+    },
+    {
+      "word": "sleeve",
+      "lemma": "sleeve",
+      "ipa": "/sliːv/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of a piece of clothing that covers the arm",
+          "meaning_vi": "tay áo",
+          "examples": [
+            {
+              "en": "Roll up your sleeves before washing dishes.",
+              "vi": "Xắn tay áo lên trước khi rửa bát."
+            },
+            { "en": "Áo dài has long, flowing sleeves.", "vi": "Áo dài có tay áo dài, thướt tha." },
+            { "en": "She has a tattoo on her sleeve.", "vi": "Cô ấy có hình xăm ở tay áo." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "long sleeve",
+        "short sleeve",
+        "roll up sleeves",
+        "sleeve length",
+        "up one's sleeve"
+      ],
+      "etymology_hint": "From Old English 'slīefe' — basic clothing word.",
+      "mnemonic_vi": "SLEEVE = 'slív' — 'sờ líp' (phủ tay). Long sleeve = tay dài, short sleeve = tay ngắn."
+    },
+    {
+      "word": "collar",
+      "lemma": "collar",
+      "ipa": "/ˈkɒlə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of a shirt or coat that goes around your neck",
+          "meaning_vi": "cổ áo",
+          "examples": [
+            { "en": "His shirt collar is crooked.", "vi": "Cổ áo anh ấy bị lệch." },
+            {
+              "en": "She straightened his collar before the photo.",
+              "vi": "Cô ấy chỉnh lại cổ áo cho anh ấy trước khi chụp."
+            },
+            { "en": "The dog wore a red collar.", "vi": "Con chó đeo vòng cổ đỏ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "shirt collar",
+        "white collar",
+        "blue collar",
+        "fix your collar",
+        "dog collar"
+      ],
+      "etymology_hint": "From Latin 'collum' meaning 'neck'.",
+      "mnemonic_vi": "COLLAR = 'cô-lờ' — 'cổ lảo' (quanh cổ). White collar = nhân viên văn phòng, blue collar = công nhân."
+    },
+    {
+      "word": "zip",
+      "lemma": "zip",
+      "ipa": "/zɪp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a fastener used on clothes, bags, with two rows of teeth",
+          "meaning_vi": "khoá kéo, dây kéo",
+          "examples": [
+            { "en": "Pull up the zip on your jacket.", "vi": "Kéo khoá áo khoác lên." },
+            { "en": "My backpack zip is broken.", "vi": "Khoá kéo ba lô của tôi bị hỏng." },
+            { "en": "The dress has a zip on the side.", "vi": "Cái váy có khoá kéo bên hông." }
+          ]
+        }
+      ],
+      "synonyms": ["zipper"],
+      "antonyms": [],
+      "collocations": ["zip up", "zip closed", "broken zip", "pull the zip", "side zip"],
+      "etymology_hint": "Imitates the sound of zipping; originally a US trade name 'Zipper' (1925).",
+      "mnemonic_vi": "ZIP = 'zíp' — âm thanh 'zíp' khi kéo. Zip up your jacket = kéo khoá áo."
+    },
+    {
+      "word": "sweater",
+      "lemma": "sweater",
+      "ipa": "/ˈswetə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a warm piece of clothing worn over a shirt",
+          "meaning_vi": "áo len",
+          "examples": [
+            {
+              "en": "Wear a sweater — it's cold outside.",
+              "vi": "Mặc áo len vào — bên ngoài lạnh."
+            },
+            { "en": "Grandma knitted a sweater for me.", "vi": "Bà tôi đan áo len cho tôi." },
+            { "en": "I bought a thick sweater for Sa Pa.", "vi": "Tôi mua áo len dày đi Sa Pa." }
+          ]
+        }
+      ],
+      "synonyms": ["jumper", "pullover"],
+      "antonyms": [],
+      "collocations": [
+        "warm sweater",
+        "wool sweater",
+        "wear a sweater",
+        "thick sweater",
+        "ugly Christmas sweater"
+      ],
+      "etymology_hint": "From 'sweat' + '-er' — originally worn to induce sweating during exercise.",
+      "mnemonic_vi": "SWEATER = SWEAT (mồ hôi) + ER → 'làm đổ mồ hôi' (giữ ấm). Sweater = áo len."
+    },
+    {
+      "word": "sandals",
+      "lemma": "sandals",
+      "ipa": "/ˈsændlz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "open shoes held to the foot by straps",
+          "meaning_vi": "dép xăng-đan, dép quai",
+          "examples": [
+            { "en": "I wear sandals in summer.", "vi": "Mùa hè tôi đi xăng-đan." },
+            { "en": "She bought leather sandals in Hội An.", "vi": "Cô ấy mua dép da ở Hội An." },
+            {
+              "en": "Tourists love wearing sandals on the beach.",
+              "vi": "Du khách thích đi xăng-đan trên bãi biển."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "leather sandals",
+        "summer sandals",
+        "wear sandals",
+        "beach sandals",
+        "pair of sandals"
+      ],
+      "etymology_hint": "From Greek 'sandalion' — basic footwear word.",
+      "mnemonic_vi": "SANDALS = 'sen-đồ' — 'xăng đan' tiếng Việt cũng mượn từ này. Always plural."
+    },
+    {
+      "word": "boot",
+      "lemma": "boot",
+      "ipa": "/buːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a strong shoe that covers the foot and part of the leg",
+          "meaning_vi": "đôi bốt, giày cao cổ",
+          "examples": [
+            { "en": "She wore boots in the rain.", "vi": "Cô ấy đi bốt trong cơn mưa." },
+            { "en": "His new boots are made of leather.", "vi": "Đôi bốt mới của anh ấy bằng da." },
+            { "en": "Rain boots are useful in Hà Nội.", "vi": "Bốt đi mưa rất hữu dụng ở Hà Nội." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "rain boots",
+        "leather boots",
+        "winter boots",
+        "high boots",
+        "pair of boots"
+      ],
+      "etymology_hint": "From Old French 'bote' — basic footwear word.",
+      "mnemonic_vi": "BOOT = 'bút' — 'bốt' tiếng Việt mượn. Rain boots = bốt đi mưa."
+    },
+    {
+      "word": "slippers",
+      "lemma": "slippers",
+      "ipa": "/ˈslɪpəz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "soft, light shoes worn inside the house",
+          "meaning_vi": "dép đi trong nhà",
+          "examples": [
+            {
+              "en": "Please put on slippers when you come in.",
+              "vi": "Vui lòng đi dép khi vào nhà."
+            },
+            {
+              "en": "Vietnamese homes have slippers at the door.",
+              "vi": "Nhà người Việt thường có dép ở cửa."
+            },
+            {
+              "en": "My slippers are too small now.",
+              "vi": "Đôi dép trong nhà của tôi giờ chật rồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "house slippers",
+        "wear slippers",
+        "soft slippers",
+        "pair of slippers",
+        "warm slippers"
+      ],
+      "etymology_hint": "From 'slip' (Old English 'slipan' = glide) + '-er' — easy to slip on.",
+      "mnemonic_vi": "SLIPPERS = SLIP (xỏ vào) + PERS → 'dép xỏ vô'. Đi trong nhà."
+    },
+    {
+      "word": "bag",
+      "lemma": "bag",
+      "ipa": "/bæɡ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a container made of soft material for carrying things",
+          "meaning_vi": "túi, cặp",
+          "examples": [
+            { "en": "I forgot my bag at the café.", "vi": "Tôi để quên túi ở quán cà phê." },
+            { "en": "She carries a big bag to work.", "vi": "Cô ấy mang túi lớn đi làm." },
+            { "en": "Use a cloth bag, not plastic.", "vi": "Dùng túi vải thay vì túi nilon." }
+          ]
+        }
+      ],
+      "synonyms": ["sack", "pouch"],
+      "antonyms": [],
+      "collocations": ["shopping bag", "school bag", "carry a bag", "plastic bag", "handbag"],
+      "etymology_hint": "From Old Norse 'baggi' meaning 'bundle'.",
+      "mnemonic_vi": "BAG = 'béc' — 'bao' (đựng đồ). Shopping bag = túi mua sắm."
+    },
+    {
+      "word": "wallet",
+      "lemma": "wallet",
+      "ipa": "/ˈwɒlɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small flat case for keeping money and cards",
+          "meaning_vi": "cái ví (nam)",
+          "examples": [
+            { "en": "I lost my wallet at Bến Thành Market.", "vi": "Tôi mất ví ở chợ Bến Thành." },
+            {
+              "en": "His wallet has Vietnamese đồng and Korean won.",
+              "vi": "Ví anh ấy có cả đồng Việt và won Hàn."
+            },
+            {
+              "en": "Don't keep too much cash in your wallet.",
+              "vi": "Đừng để quá nhiều tiền mặt trong ví."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["billfold"],
+      "antonyms": [],
+      "collocations": [
+        "leather wallet",
+        "in my wallet",
+        "lose your wallet",
+        "open your wallet",
+        "thick wallet"
+      ],
+      "etymology_hint": "From Old French 'walet' meaning 'small bag'.",
+      "mnemonic_vi": "WALLET = 'guo-lét' — 'ví lét' (mỏng nhỏ). Lose your wallet = mất ví."
+    },
+    {
+      "word": "purse",
+      "lemma": "purse",
+      "ipa": "/pɜːs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small bag for money (UK) or a woman's handbag (US)",
+          "meaning_vi": "ví nữ; túi xách nhỏ",
+          "examples": [
+            { "en": "She keeps coins in her purse.", "vi": "Cô ấy giữ tiền xu trong ví." },
+            { "en": "Mom carries a leather purse.", "vi": "Mẹ tôi xách túi da." },
+            {
+              "en": "His granddaughter gave him a purse for Tết.",
+              "vi": "Cháu gái cho ông ấy ví nhân dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["handbag"],
+      "antonyms": [],
+      "collocations": [
+        "leather purse",
+        "small purse",
+        "coin purse",
+        "in her purse",
+        "lose a purse"
+      ],
+      "etymology_hint": "From Latin 'bursa' meaning 'leather pouch'.",
+      "mnemonic_vi": "PURSE = 'pớt' — 'phớt' (mỏng). Khác WALLET (nam), PURSE thường dành nữ."
+    },
+    {
+      "word": "watch",
+      "lemma": "watch",
+      "ipa": "/wɒtʃ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small clock that you wear on your wrist",
+          "meaning_vi": "đồng hồ đeo tay",
+          "examples": [
+            { "en": "My watch says 3pm.", "vi": "Đồng hồ tôi chỉ 3 giờ chiều." },
+            { "en": "He got a Casio watch as a gift.", "vi": "Anh ấy được tặng đồng hồ Casio." },
+            { "en": "Smart watches are popular now.", "vi": "Đồng hồ thông minh đang phổ biến." }
+          ]
+        }
+      ],
+      "synonyms": ["timepiece"],
+      "antonyms": [],
+      "collocations": [
+        "wrist watch",
+        "smart watch",
+        "wear a watch",
+        "wind a watch",
+        "expensive watch"
+      ],
+      "etymology_hint": "From Old English 'wæcce' meaning 'wakefulness, vigilance' — early watches helped guards stay awake.",
+      "mnemonic_vi": "WATCH = 'oót-ch' — 'oách' (đeo). Đa nghĩa: đồng hồ + xem (verb): watch a movie."
+    },
+    {
+      "word": "ring",
+      "lemma": "ring",
+      "ipa": "/rɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a circle of metal worn on a finger",
+          "meaning_vi": "chiếc nhẫn",
+          "examples": [
+            { "en": "She wears a gold ring on her finger.", "vi": "Cô ấy đeo nhẫn vàng trên tay." },
+            {
+              "en": "He proposed with a diamond ring.",
+              "vi": "Anh ấy cầu hôn bằng nhẫn kim cương."
+            },
+            {
+              "en": "Wedding rings are exchanged at the ceremony.",
+              "vi": "Nhẫn cưới được trao trong buổi lễ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["wedding ring", "gold ring", "diamond ring", "wear a ring", "ring finger"],
+      "etymology_hint": "From Old English 'hring' meaning 'circle, ring'.",
+      "mnemonic_vi": "RING = 'rinh' — 'rinh' (đeo cưới). Wedding ring = nhẫn cưới. Cũng = chuông reo."
+    },
+    {
+      "word": "necklace",
+      "lemma": "necklace",
+      "ipa": "/ˈnekləs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of jewelry worn around the neck",
+          "meaning_vi": "dây chuyền, vòng cổ",
+          "examples": [
+            {
+              "en": "Her gold necklace was a wedding gift.",
+              "vi": "Dây chuyền vàng của cô ấy là quà cưới."
+            },
+            {
+              "en": "I bought a silver necklace at Hàng Bạc.",
+              "vi": "Tôi mua dây chuyền bạc ở phố Hàng Bạc."
+            },
+            {
+              "en": "She wore a pearl necklace to the event.",
+              "vi": "Cô ấy đeo dây chuyền ngọc trai đến sự kiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "gold necklace",
+        "pearl necklace",
+        "diamond necklace",
+        "wear a necklace",
+        "long necklace"
+      ],
+      "etymology_hint": "Compound 'neck' + 'lace' (cord) — 'cord around the neck'.",
+      "mnemonic_vi": "NECKLACE = NECK + LACE → 'dây quanh cổ' = dây chuyền."
+    },
+    {
+      "word": "sunglasses",
+      "lemma": "sunglasses",
+      "ipa": "/ˈsʌnɡlɑːsɪz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "dark glasses that protect your eyes from the sun",
+          "meaning_vi": "kính râm, kính mát",
+          "examples": [
+            {
+              "en": "Don't forget sunglasses for the beach.",
+              "vi": "Đừng quên kính mát khi đi biển."
+            },
+            { "en": "She bought sunglasses at AEON.", "vi": "Cô ấy mua kính mát ở AEON." },
+            {
+              "en": "He looks cool in those black sunglasses.",
+              "vi": "Anh ấy nhìn ngầu với cặp kính mát đen đó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shades"],
+      "antonyms": [],
+      "collocations": [
+        "wear sunglasses",
+        "dark sunglasses",
+        "pair of sunglasses",
+        "designer sunglasses",
+        "sport sunglasses"
+      ],
+      "etymology_hint": "Compound 'sun' + 'glasses' — glasses against the sun.",
+      "mnemonic_vi": "SUNGLASSES = SUN + GLASSES → 'kính chống nắng' = kính râm. Plural."
+    },
+    {
+      "word": "umbrella",
+      "lemma": "umbrella",
+      "ipa": "/ʌmˈbrelə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a thing you hold over your head to keep dry in the rain",
+          "meaning_vi": "cái ô, cây dù",
+          "examples": [
+            { "en": "Take an umbrella — it might rain.", "vi": "Mang ô đi — biết đâu mưa." },
+            { "en": "I left my umbrella on the bus.", "vi": "Tôi để quên ô trên xe buýt." },
+            {
+              "en": "Sài Gòn umbrellas can be both for sun and rain.",
+              "vi": "Ô ở Sài Gòn dùng được cả nắng lẫn mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take an umbrella",
+        "open an umbrella",
+        "under an umbrella",
+        "umbrella stand",
+        "broken umbrella"
+      ],
+      "etymology_hint": "From Italian 'ombrella' = 'little shade', from Latin 'umbra' (shade).",
+      "mnemonic_vi": "UMBRELLA = 'âm-brê-lờ' — 'ầm' che 'rộng' lờ. Open an umbrella = mở ô."
+    },
+    {
+      "word": "towel",
+      "lemma": "towel",
+      "ipa": "/ˈtaʊəl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of cloth used to dry your body after washing",
+          "meaning_vi": "cái khăn (lau khô)",
+          "examples": [
+            { "en": "Please give me a clean towel.", "vi": "Vui lòng cho tôi cái khăn sạch." },
+            {
+              "en": "After the shower, I wrap up in a towel.",
+              "vi": "Sau khi tắm, tôi quấn khăn."
+            },
+            {
+              "en": "Hotels in Đà Nẵng provide soft towels.",
+              "vi": "Khách sạn Đà Nẵng cấp khăn mềm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["bath towel", "beach towel", "hand towel", "soft towel", "wet towel"],
+      "etymology_hint": "From Old French 'toaille' meaning 'cloth for wiping'.",
+      "mnemonic_vi": "TOWEL = 'tao-ồ' — 'tau' (lau) khô. Beach towel = khăn tắm biển."
+    },
+    {
+      "word": "blanket",
+      "lemma": "blanket",
+      "ipa": "/ˈblæŋkɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a thick warm cover used on a bed",
+          "meaning_vi": "tấm chăn, mền",
+          "examples": [
+            {
+              "en": "She covered the baby with a soft blanket.",
+              "vi": "Cô ấy đắp chăn mềm cho em bé."
+            },
+            {
+              "en": "Vietnamese homes use thin blankets in summer.",
+              "vi": "Nhà Việt dùng chăn mỏng vào mùa hè."
+            },
+            {
+              "en": "Wool blankets are warm in Sa Pa winter.",
+              "vi": "Chăn len ấm trong mùa đông Sa Pa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cover"],
+      "antonyms": [],
+      "collocations": [
+        "warm blanket",
+        "thick blanket",
+        "wool blanket",
+        "under a blanket",
+        "baby blanket"
+      ],
+      "etymology_hint": "From Old French 'blanchet' meaning 'white wool' — early blankets were white.",
+      "mnemonic_vi": "BLANKET = 'blen-kít' — 'blanc' (trắng) + KET → 'chăn trắng'. Warm blanket = chăn ấm."
+    },
+    {
+      "word": "glasses",
+      "lemma": "glasses",
+      "ipa": "/ˈɡlɑːsɪz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "two small pieces of special glass in a frame that you wear to help you see",
+          "meaning_vi": "cặp kính (mắt)",
+          "examples": [
+            {
+              "en": "I can't read without my glasses.",
+              "vi": "Tôi không đọc được khi không có kính."
+            },
+            {
+              "en": "She bought new glasses at the optician.",
+              "vi": "Cô ấy mua kính mới ở tiệm kính."
+            },
+            { "en": "His glasses fogged up in the rain.", "vi": "Kính anh ấy mờ vì mưa." }
+          ]
+        }
+      ],
+      "synonyms": ["spectacles"],
+      "antonyms": [],
+      "collocations": [
+        "wear glasses",
+        "reading glasses",
+        "pair of glasses",
+        "thick glasses",
+        "broken glasses"
+      ],
+      "etymology_hint": "Plural of 'glass' — two glass lenses on each side.",
+      "mnemonic_vi": "GLASSES = 'glát-siz' — 'kính' (kính mắt). Always plural. Reading glasses = kính đọc."
+    }
+  ]
+}

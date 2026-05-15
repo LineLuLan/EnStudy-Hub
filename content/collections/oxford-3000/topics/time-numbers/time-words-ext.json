@@ -1,0 +1,601 @@
+{
+  "slug": "time-words-ext",
+  "name": "Time Words (Extended)",
+  "description": "Từ chỉ thời gian mở rộng — buổi, mốc, tương lai/quá khứ, độ dài thời gian.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "noon",
+      "lemma": "noon",
+      "ipa": "/nuːn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "twelve o'clock in the middle of the day",
+          "meaning_vi": "buổi trưa, 12 giờ trưa",
+          "examples": [
+            { "en": "Lunch is served at noon.", "vi": "Bữa trưa được dọn lúc 12 giờ." },
+            { "en": "Vietnamese take a nap after noon.", "vi": "Người Việt ngủ trưa sau 12 giờ." },
+            { "en": "The meeting starts at noon.", "vi": "Cuộc họp bắt đầu lúc 12 giờ trưa." }
+          ]
+        }
+      ],
+      "synonyms": ["midday"],
+      "antonyms": ["midnight"],
+      "collocations": ["at noon", "12 noon", "noon hour", "high noon", "before noon"],
+      "etymology_hint": "From Latin 'nona hora' = 'ninth hour' (originally 3pm), shifted earlier in medieval times.",
+      "mnemonic_vi": "NOON = 'nun' — 'nung' nóng (giữa trưa). At noon = lúc trưa."
+    },
+    {
+      "word": "sunrise",
+      "lemma": "sunrise",
+      "ipa": "/ˈsʌnraɪz/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the time when the sun appears in the morning",
+          "meaning_vi": "bình minh, lúc mặt trời mọc",
+          "examples": [
+            {
+              "en": "We watched the sunrise from Bana Hills.",
+              "vi": "Chúng tôi ngắm bình minh từ Bana Hills."
+            },
+            { "en": "Fishermen leave at sunrise.", "vi": "Ngư dân ra khơi lúc bình minh." },
+            {
+              "en": "The sunrise over Hạ Long Bay is breathtaking.",
+              "vi": "Bình minh trên Vịnh Hạ Long ngoạn mục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dawn"],
+      "antonyms": ["sunset"],
+      "collocations": [
+        "at sunrise",
+        "watch the sunrise",
+        "early sunrise",
+        "sunrise hike",
+        "sunrise photo"
+      ],
+      "etymology_hint": "Compound 'sun' + 'rise' — 'the sun rises'.",
+      "mnemonic_vi": "SUNRISE = SUN + RISE → 'mặt trời lên' = bình minh."
+    },
+    {
+      "word": "sunset",
+      "lemma": "sunset",
+      "ipa": "/ˈsʌnset/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the time when the sun disappears in the evening",
+          "meaning_vi": "hoàng hôn, lúc mặt trời lặn",
+          "examples": [
+            { "en": "Hồ Tây has beautiful sunsets.", "vi": "Hồ Tây có những hoàng hôn đẹp." },
+            { "en": "Let's watch the sunset together.", "vi": "Cùng ngắm hoàng hôn nhé." },
+            { "en": "The sunset turned the sky orange.", "vi": "Hoàng hôn nhuộm trời cam." }
+          ]
+        }
+      ],
+      "synonyms": ["dusk"],
+      "antonyms": ["sunrise"],
+      "collocations": [
+        "at sunset",
+        "watch the sunset",
+        "beautiful sunset",
+        "sunset photo",
+        "before sunset"
+      ],
+      "etymology_hint": "Compound 'sun' + 'set' — 'the sun sets'.",
+      "mnemonic_vi": "SUNSET = SUN + SET → 'mặt trời lặn' = hoàng hôn. Đối với SUNRISE."
+    },
+    {
+      "word": "dawn",
+      "lemma": "dawn",
+      "ipa": "/dɔːn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the early morning when light first appears",
+          "meaning_vi": "rạng đông, lúc trời hửng sáng",
+          "examples": [
+            { "en": "Birds sing at dawn.", "vi": "Chim hót lúc rạng đông." },
+            {
+              "en": "She woke up before dawn for the trip.",
+              "vi": "Cô ấy thức dậy trước rạng đông cho chuyến đi."
+            },
+            {
+              "en": "At the dawn of a new era, Vietnam is changing.",
+              "vi": "Vào buổi bình minh của thời đại mới, Việt Nam đang đổi thay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sunrise", "daybreak"],
+      "antonyms": ["dusk"],
+      "collocations": ["at dawn", "before dawn", "dawn breaks", "from dawn to dusk", "new dawn"],
+      "etymology_hint": "From Old English 'dagung' meaning 'becoming day'.",
+      "mnemonic_vi": "DAWN = 'đôn' — 'đông' bắt đầu sáng. Khác SUNRISE: dawn = lúc trời hửng, sunrise = lúc mặt trời ló."
+    },
+    {
+      "word": "soon",
+      "lemma": "soon",
+      "ipa": "/suːn/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a short time from now",
+          "meaning_vi": "sớm, sắp",
+          "examples": [
+            { "en": "She'll be here soon.", "vi": "Cô ấy sắp đến rồi." },
+            { "en": "Get well soon!", "vi": "Mau khoẻ nhé!" },
+            { "en": "See you soon!", "vi": "Hẹn gặp lại sớm!" }
+          ]
+        }
+      ],
+      "synonyms": ["shortly"],
+      "antonyms": ["later"],
+      "collocations": ["see you soon", "as soon as", "very soon", "too soon", "sooner or later"],
+      "etymology_hint": "From Old English 'sōna' meaning 'at once, immediately'.",
+      "mnemonic_vi": "SOON = 'sun' — 'sốt' (sớm). See you soon = hẹn gặp sớm."
+    },
+    {
+      "word": "late",
+      "lemma": "late",
+      "ipa": "/leɪt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "after the expected time; near the end of a period",
+          "meaning_vi": "muộn, trễ",
+          "examples": [
+            { "en": "Sorry, I'm late!", "vi": "Xin lỗi, tôi đến muộn!" },
+            { "en": "The bus is running late today.", "vi": "Xe buýt hôm nay trễ." },
+            { "en": "It's late — we should go home.", "vi": "Muộn rồi — chúng ta nên về." }
+          ]
+        }
+      ],
+      "synonyms": ["delayed", "tardy"],
+      "antonyms": ["early"],
+      "collocations": [
+        "too late",
+        "running late",
+        "late at night",
+        "stay up late",
+        "better late than never"
+      ],
+      "etymology_hint": "From Old English 'læt' meaning 'slow, sluggish'.",
+      "mnemonic_vi": "LATE = 'lệt' — 'lết' đến muộn. Sorry, I'm late = xin lỗi tôi trễ. Đối với EARLY."
+    },
+    {
+      "word": "early",
+      "lemma": "early",
+      "ipa": "/ˈɜːli/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "before the expected time; near the beginning of a period",
+          "meaning_vi": "sớm",
+          "examples": [
+            { "en": "She arrived early at the station.", "vi": "Cô ấy đến nhà ga sớm." },
+            { "en": "Wake up early to see the sunrise.", "vi": "Dậy sớm để ngắm bình minh." },
+            {
+              "en": "I leave for work early in the morning.",
+              "vi": "Tôi đi làm sớm vào buổi sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["late"],
+      "collocations": ["very early", "early morning", "early bird", "wake up early", "leave early"],
+      "etymology_hint": "From Old English 'ǣr' (before) + 'līk' (-ly).",
+      "mnemonic_vi": "EARLY = 'ợ-li' — 'ơ' (đến trước) 'lì'. Early morning = sáng sớm. Đối với LATE."
+    },
+    {
+      "word": "tonight",
+      "lemma": "tonight",
+      "ipa": "/təˈnaɪt/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "on the night of this day",
+          "meaning_vi": "tối nay, đêm nay",
+          "examples": [
+            { "en": "Let's eat phở tonight.", "vi": "Tối nay ăn phở đi." },
+            {
+              "en": "There's a concert tonight at Mỹ Đình.",
+              "vi": "Tối nay có buổi hoà nhạc ở Mỹ Đình."
+            },
+            { "en": "What are you doing tonight?", "vi": "Tối nay bạn làm gì?" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["last night"],
+      "collocations": [
+        "tonight at",
+        "later tonight",
+        "tonight's",
+        "tonight's show",
+        "see you tonight"
+      ],
+      "etymology_hint": "Compound 'to' (this) + 'night' → 'this night'.",
+      "mnemonic_vi": "TONIGHT = TO + NIGHT → 'tới đêm nay'. Tonight's dinner = bữa tối nay."
+    },
+    {
+      "word": "moment",
+      "lemma": "moment",
+      "ipa": "/ˈməʊmənt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a very short period of time; a particular point in time",
+          "meaning_vi": "khoảnh khắc, lúc",
+          "examples": [
+            { "en": "Wait a moment, please.", "vi": "Vui lòng đợi một chút." },
+            { "en": "That was a beautiful moment.", "vi": "Đó là một khoảnh khắc đẹp." },
+            { "en": "At this moment, I'm at the airport.", "vi": "Lúc này tôi đang ở sân bay." }
+          ]
+        }
+      ],
+      "synonyms": ["instant"],
+      "antonyms": [],
+      "collocations": ["a moment", "at the moment", "in a moment", "for a moment", "this moment"],
+      "etymology_hint": "From Latin 'momentum' meaning 'movement, instant'.",
+      "mnemonic_vi": "MOMENT = 'mâu-mần' — 'mau mần' (chốc lát). Wait a moment = chờ một chút."
+    },
+    {
+      "word": "daytime",
+      "lemma": "daytime",
+      "ipa": "/ˈdeɪtaɪm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the time of day when it is light, not night",
+          "meaning_vi": "ban ngày",
+          "examples": [
+            { "en": "Cats sleep in the daytime.", "vi": "Mèo ngủ ban ngày." },
+            {
+              "en": "Bến Thành Market is busy in the daytime.",
+              "vi": "Chợ Bến Thành tấp nập ban ngày."
+            },
+            { "en": "I prefer daytime flights.", "vi": "Tôi thích chuyến bay ban ngày." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["nighttime"],
+      "collocations": [
+        "in the daytime",
+        "daytime TV",
+        "daytime flight",
+        "daytime job",
+        "during daytime"
+      ],
+      "etymology_hint": "Compound 'day' + 'time' — 'the time of day'.",
+      "mnemonic_vi": "DAYTIME = DAY + TIME → 'thời gian ban ngày'. Đối với NIGHTTIME."
+    },
+    {
+      "word": "future",
+      "lemma": "future",
+      "ipa": "/ˈfjuːtʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time that is going to come",
+          "meaning_vi": "tương lai",
+          "examples": [
+            {
+              "en": "In the future, I want to live in Đà Lạt.",
+              "vi": "Trong tương lai, tôi muốn sống ở Đà Lạt."
+            },
+            { "en": "Vietnam has a bright future.", "vi": "Việt Nam có tương lai sáng lạn." },
+            {
+              "en": "What are your plans for the future?",
+              "vi": "Kế hoạch tương lai của bạn là gì?"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["past"],
+      "collocations": [
+        "in the future",
+        "near future",
+        "bright future",
+        "plan for the future",
+        "future tense"
+      ],
+      "etymology_hint": "From Latin 'futurus' meaning 'about to be'.",
+      "mnemonic_vi": "FUTURE = 'phiu-chờ' — 'phiêu chờ' (sắp tới). Bright future = tương lai sáng."
+    },
+    {
+      "word": "past",
+      "lemma": "past",
+      "ipa": "/pɑːst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time before now; what has happened already",
+          "meaning_vi": "quá khứ",
+          "examples": [
+            { "en": "Don't dwell on the past.", "vi": "Đừng đắm chìm trong quá khứ." },
+            { "en": "Vietnam has a rich past.", "vi": "Việt Nam có quá khứ phong phú." },
+            {
+              "en": "In the past, this area was rice fields.",
+              "vi": "Trước đây, khu này là đồng ruộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["future"],
+      "collocations": ["in the past", "past life", "rich past", "past tense", "live in the past"],
+      "etymology_hint": "Past participle of 'pass' — 'time that has passed'.",
+      "mnemonic_vi": "PAST = 'pát' — 'pát' (đã qua). In the past = trong quá khứ."
+    },
+    {
+      "word": "present",
+      "lemma": "present",
+      "ipa": "/ˈpreznt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time now; also a gift",
+          "meaning_vi": "hiện tại; món quà",
+          "examples": [
+            {
+              "en": "Live in the present, not the past.",
+              "vi": "Sống ở hiện tại, không phải quá khứ."
+            },
+            {
+              "en": "She gave me a beautiful birthday present.",
+              "vi": "Cô ấy tặng tôi một món quà sinh nhật đẹp."
+            },
+            { "en": "At present, I work in Sài Gòn.", "vi": "Hiện tại tôi làm việc ở Sài Gòn." }
+          ]
+        }
+      ],
+      "synonyms": ["gift"],
+      "antonyms": ["past", "future"],
+      "collocations": [
+        "at present",
+        "in the present",
+        "birthday present",
+        "present tense",
+        "open a present"
+      ],
+      "etymology_hint": "From Latin 'praesens' meaning 'being at hand'.",
+      "mnemonic_vi": "PRESENT = 'pre-zần' — 'tướng hiện tại'. Đa nghĩa: hiện tại + quà tặng (present)."
+    },
+    {
+      "word": "ago",
+      "lemma": "ago",
+      "ipa": "/əˈɡəʊ/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "before now; in the past",
+          "meaning_vi": "trước đây, cách đây",
+          "examples": [
+            {
+              "en": "I moved to Hà Nội three years ago.",
+              "vi": "Tôi chuyển ra Hà Nội cách đây ba năm."
+            },
+            { "en": "She called me an hour ago.", "vi": "Cô ấy gọi tôi cách đây một giờ." },
+            {
+              "en": "A long time ago, this was a forest.",
+              "vi": "Cách đây rất lâu, nơi này là rừng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["before"],
+      "antonyms": [],
+      "collocations": ["years ago", "long ago", "a few minutes ago", "not long ago", "ages ago"],
+      "etymology_hint": "From Old English 'agan' meaning 'gone, past'.",
+      "mnemonic_vi": "AGO = 'ờ-gâu' — 'a, gốc' (đã qua). 3 years ago = 3 năm trước."
+    },
+    {
+      "word": "lately",
+      "lemma": "lately",
+      "ipa": "/ˈleɪtli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "recently; not long ago",
+          "meaning_vi": "gần đây, dạo này",
+          "examples": [
+            { "en": "Have you seen her lately?", "vi": "Dạo này bạn có gặp cô ấy không?" },
+            { "en": "I've been very tired lately.", "vi": "Dạo này tôi rất mệt." },
+            {
+              "en": "Sài Gòn weather has been hot lately.",
+              "vi": "Thời tiết Sài Gòn dạo này nóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recently"],
+      "antonyms": [],
+      "collocations": ["lately I", "lately, the", "until lately", "have lately", "not lately"],
+      "etymology_hint": "From 'late' + '-ly' — 'in the recent past'.",
+      "mnemonic_vi": "LATELY = LATE + LY → 'gần đây'. Đồng nghĩa với RECENTLY (đã có ở P5b)."
+    },
+    {
+      "word": "nowadays",
+      "lemma": "nowadays",
+      "ipa": "/ˈnaʊədeɪz/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "at the present time, especially compared with the past",
+          "meaning_vi": "ngày nay, hiện nay",
+          "examples": [
+            {
+              "en": "Nowadays, everyone has a smartphone.",
+              "vi": "Ngày nay ai cũng có điện thoại thông minh."
+            },
+            { "en": "People shop online nowadays.", "vi": "Hiện nay người ta mua sắm online." },
+            {
+              "en": "Vietnamese youth nowadays speak English well.",
+              "vi": "Giới trẻ Việt ngày nay nói tiếng Anh giỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["these days"],
+      "antonyms": [],
+      "collocations": [
+        "nowadays, people",
+        "nowadays, the",
+        "nowadays, we",
+        "even nowadays",
+        "nowadays it"
+      ],
+      "etymology_hint": "Compound 'now' + 'a' + 'days' — 'in the days of now'.",
+      "mnemonic_vi": "NOWADAYS = NOW + A + DAYS → 'những ngày nay'."
+    },
+    {
+      "word": "dusk",
+      "lemma": "dusk",
+      "ipa": "/dʌsk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time of day when the sun has just set; twilight",
+          "meaning_vi": "lúc chạng vạng, hoàng hôn (lúc mặt trời vừa lặn)",
+          "examples": [
+            {
+              "en": "At dusk, bats fly out of caves.",
+              "vi": "Lúc chạng vạng, dơi bay ra khỏi hang."
+            },
+            { "en": "We came home at dusk.", "vi": "Chúng tôi về nhà lúc chạng vạng." },
+            {
+              "en": "Dusk falls quickly in the tropics.",
+              "vi": "Chạng vạng đến nhanh ở vùng nhiệt đới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["twilight", "sunset"],
+      "antonyms": ["dawn"],
+      "collocations": ["at dusk", "from dawn to dusk", "after dusk", "dusk falls", "before dusk"],
+      "etymology_hint": "From Old English 'dox' meaning 'dark-coloured'.",
+      "mnemonic_vi": "DUSK = 'dắc' — 'đặc' (tối dần). Lúc chạng vạng. Đối với DAWN."
+    },
+    {
+      "word": "forever",
+      "lemma": "forever",
+      "ipa": "/fərˈevə(r)/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "for all time; always",
+          "meaning_vi": "mãi mãi",
+          "examples": [
+            { "en": "Diamonds are forever.", "vi": "Kim cương là vĩnh cửu." },
+            { "en": "I will love Vietnam forever.", "vi": "Tôi sẽ yêu Việt Nam mãi mãi." },
+            { "en": "Don't wait forever — make a choice.", "vi": "Đừng đợi mãi — hãy quyết đi." }
+          ]
+        }
+      ],
+      "synonyms": ["always", "eternally"],
+      "antonyms": [],
+      "collocations": [
+        "forever and ever",
+        "forever after",
+        "love forever",
+        "wait forever",
+        "stay forever"
+      ],
+      "etymology_hint": "Compound 'for' + 'ever' → 'for all of ever'.",
+      "mnemonic_vi": "FOREVER = FOR + EVER → 'mãi mãi'. Forever young = mãi mãi tuổi trẻ."
+    },
+    {
+      "word": "eternal",
+      "lemma": "eternal",
+      "ipa": "/ɪˈtɜːnl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "lasting forever; without end",
+          "meaning_vi": "vĩnh cửu, vĩnh hằng",
+          "examples": [
+            { "en": "Their friendship feels eternal.", "vi": "Tình bạn của họ như vĩnh cửu." },
+            { "en": "The temple has an eternal flame.", "vi": "Ngôi chùa có ngọn lửa vĩnh cửu." },
+            {
+              "en": "Love is eternal in some stories.",
+              "vi": "Tình yêu là vĩnh cửu trong một số câu chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["everlasting"],
+      "antonyms": ["temporary"],
+      "collocations": [
+        "eternal love",
+        "eternal flame",
+        "eternal life",
+        "eternal beauty",
+        "eternal peace"
+      ],
+      "etymology_hint": "From Latin 'aeternus' meaning 'lasting an age'.",
+      "mnemonic_vi": "ETERNAL = 'i-tớ-nồ' — 'i' (ý) 'tốn' (lâu). Eternal love = tình yêu vĩnh cửu."
+    },
+    {
+      "word": "duration",
+      "lemma": "duration",
+      "ipa": "/djuˈreɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the length of time something lasts",
+          "meaning_vi": "thời lượng, khoảng thời gian kéo dài",
+          "examples": [
+            {
+              "en": "The duration of the flight is 12 hours.",
+              "vi": "Thời lượng chuyến bay là 12 tiếng."
+            },
+            {
+              "en": "For the duration of the test, no talking.",
+              "vi": "Trong suốt thời gian thi, không nói chuyện."
+            },
+            { "en": "What's the duration of the lecture?", "vi": "Bài giảng kéo dài bao lâu?" }
+          ]
+        }
+      ],
+      "synonyms": ["length"],
+      "antonyms": [],
+      "collocations": [
+        "for the duration",
+        "long duration",
+        "short duration",
+        "duration of",
+        "average duration"
+      ],
+      "etymology_hint": "From Latin 'durare' meaning 'to last' — same root as 'durable'.",
+      "mnemonic_vi": "DURATION = 'diu-rếch-shần' — 'dài rất' bao lâu = thời lượng."
+    }
+  ]
+}

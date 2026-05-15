@@ -1,0 +1,604 @@
+{
+  "slug": "common-a1-nouns",
+  "name": "Common A1 Nouns",
+  "description": "Danh từ A1 trừu tượng phổ biến — thing, way, idea, problem và 16 từ khác.",
+  "order_index": 18,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "thing",
+      "lemma": "thing",
+      "ipa": "/θɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an object or fact (not specifying what)",
+          "meaning_vi": "vật, điều, cái",
+          "examples": [
+            { "en": "What's that thing on the table?", "vi": "Cái thứ trên bàn là gì vậy?" },
+            {
+              "en": "I have many things to do today.",
+              "vi": "Tôi có nhiều việc phải làm hôm nay."
+            },
+            {
+              "en": "The best thing about Đà Lạt is the weather.",
+              "vi": "Điều tuyệt nhất ở Đà Lạt là thời tiết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["object", "item"],
+      "antonyms": [],
+      "collocations": [
+        "one thing",
+        "the thing is",
+        "first thing",
+        "many things",
+        "all kinds of things"
+      ],
+      "etymology_hint": "From Old English 'þing' meaning 'meeting, assembly' — meaning extended to 'matter, object'.",
+      "mnemonic_vi": "THING = 'thinh' — 'thì' nó là cái gì đó. Đa năng nhất tiếng Anh."
+    },
+    {
+      "word": "way",
+      "lemma": "way",
+      "ipa": "/weɪ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a method of doing something; a road or direction",
+          "meaning_vi": "cách (làm); con đường, hướng đi",
+          "examples": [
+            {
+              "en": "What's the best way to learn Vietnamese?",
+              "vi": "Cách tốt nhất để học tiếng Việt là gì?"
+            },
+            { "en": "This is the way to Hồ Tây.", "vi": "Đây là đường đến Hồ Tây." },
+            { "en": "There must be a way to fix this.", "vi": "Phải có cách sửa cái này." }
+          ]
+        }
+      ],
+      "synonyms": ["method", "path"],
+      "antonyms": [],
+      "collocations": ["this way", "by the way", "in the way", "on the way", "no way"],
+      "etymology_hint": "From Old English 'weg' meaning 'road, path'.",
+      "mnemonic_vi": "WAY = 'wây' — 'lối, way' (cách). By the way = à nhân tiện. No way = không đời nào."
+    },
+    {
+      "word": "idea",
+      "lemma": "idea",
+      "ipa": "/aɪˈdɪə/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a thought, plan, or suggestion in your mind",
+          "meaning_vi": "ý tưởng, ý nghĩ",
+          "examples": [
+            { "en": "Let's eat phở — great idea!", "vi": "Ăn phở đi — ý hay đó!" },
+            {
+              "en": "I have no idea what to wear tonight.",
+              "vi": "Tôi không biết tối nay mặc gì."
+            },
+            { "en": "Her startup idea is brilliant.", "vi": "Ý tưởng startup của cô ấy rất tuyệt." }
+          ]
+        }
+      ],
+      "synonyms": ["thought", "suggestion"],
+      "antonyms": [],
+      "collocations": ["good idea", "bad idea", "no idea", "give an idea", "great idea"],
+      "etymology_hint": "From Greek 'idea' meaning 'form, pattern', from 'idein' (to see).",
+      "mnemonic_vi": "IDEA = 'ai-đia' — 'ai đùa' (chợt ra). Good idea = ý hay. No idea = không hiểu."
+    },
+    {
+      "word": "problem",
+      "lemma": "problem",
+      "ipa": "/ˈprɒbləm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "something difficult or bad that you need to deal with",
+          "meaning_vi": "vấn đề, rắc rối",
+          "examples": [
+            { "en": "We have a problem with the Wi-Fi.", "vi": "Chúng tôi gặp vấn đề với Wi-Fi." },
+            { "en": "No problem — I can help.", "vi": "Không có vấn đề — tôi giúp được." },
+            { "en": "Hà Nội traffic is a big problem.", "vi": "Tắc đường Hà Nội là vấn đề lớn." }
+          ]
+        }
+      ],
+      "synonyms": ["issue", "trouble"],
+      "antonyms": ["solution"],
+      "collocations": [
+        "solve a problem",
+        "have a problem",
+        "no problem",
+        "big problem",
+        "problem with"
+      ],
+      "etymology_hint": "From Greek 'problēma' meaning 'thing put forward, obstacle'.",
+      "mnemonic_vi": "PROBLEM = 'prốp-blầm' — 'phở lằm' (rắc rối). No problem = không sao."
+    },
+    {
+      "word": "question",
+      "lemma": "question",
+      "ipa": "/ˈkwestʃən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a sentence that asks for information",
+          "meaning_vi": "câu hỏi",
+          "examples": [
+            { "en": "Can I ask you a question?", "vi": "Tôi hỏi bạn một câu được không?" },
+            {
+              "en": "Her question caught me off guard.",
+              "vi": "Câu hỏi của cô ấy làm tôi bất ngờ."
+            },
+            { "en": "There's no question about it.", "vi": "Không nghi ngờ gì về việc đó." }
+          ]
+        }
+      ],
+      "synonyms": ["query"],
+      "antonyms": ["answer"],
+      "collocations": [
+        "ask a question",
+        "answer a question",
+        "good question",
+        "no question",
+        "in question"
+      ],
+      "etymology_hint": "From Latin 'quaestio' meaning 'inquiry, investigation'.",
+      "mnemonic_vi": "QUESTION = 'quét-shần' — 'quẹt' (gãi) đầu hỏi. Ask a question = đặt câu hỏi."
+    },
+    {
+      "word": "example",
+      "lemma": "example",
+      "ipa": "/ɪɡˈzɑːmpl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one thing that shows what others are like; a sample",
+          "meaning_vi": "ví dụ, mẫu",
+          "examples": [
+            {
+              "en": "For example, phở is a Vietnamese dish.",
+              "vi": "Ví dụ, phở là một món Việt Nam."
+            },
+            { "en": "Can you give me an example?", "vi": "Bạn cho tôi một ví dụ được không?" },
+            {
+              "en": "She sets a good example for her younger sister.",
+              "vi": "Cô ấy làm gương tốt cho em gái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sample", "instance"],
+      "antonyms": [],
+      "collocations": [
+        "for example",
+        "give an example",
+        "set an example",
+        "good example",
+        "perfect example"
+      ],
+      "etymology_hint": "From Latin 'exemplum' meaning 'a sample, a model'.",
+      "mnemonic_vi": "EXAMPLE = 'ếch-zem-pồ' — 'ếch' (lôi ra) mẫu = ví dụ. For example = ví dụ."
+    },
+    {
+      "word": "place",
+      "lemma": "place",
+      "ipa": "/pleɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a particular point, area, or position",
+          "meaning_vi": "nơi, chỗ",
+          "examples": [
+            {
+              "en": "This café is my favourite place.",
+              "vi": "Quán cà phê này là chỗ yêu thích của tôi."
+            },
+            { "en": "Take your place at the table.", "vi": "Ngồi vào chỗ của mình ở bàn." },
+            {
+              "en": "Vietnam is a beautiful place to visit.",
+              "vi": "Việt Nam là nơi đẹp để ghé thăm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["location", "spot"],
+      "antonyms": [],
+      "collocations": [
+        "take place",
+        "in the first place",
+        "out of place",
+        "favorite place",
+        "right place"
+      ],
+      "etymology_hint": "From Latin 'platea' meaning 'broad street, open space'.",
+      "mnemonic_vi": "PLACE = 'plết' — 'phớt' (đặt). Favorite place = chỗ yêu thích. Take place = diễn ra."
+    },
+    {
+      "word": "side",
+      "lemma": "side",
+      "ipa": "/saɪd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the surfaces or parts of something; a position in an argument",
+          "meaning_vi": "bên, mặt; phía (trong tranh luận)",
+          "examples": [
+            { "en": "Whose side are you on?", "vi": "Bạn về phe nào?" },
+            { "en": "Sit on my left side.", "vi": "Ngồi bên trái tôi." },
+            { "en": "There are two sides to every story.", "vi": "Mỗi câu chuyện có hai mặt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["this side", "other side", "side by side", "on my side", "side dish"],
+      "etymology_hint": "From Old English 'sīde' meaning 'flank, edge'.",
+      "mnemonic_vi": "SIDE = 'sai-d' — 'sai phía' nào. Đa nghĩa: cạnh, mặt, phe."
+    },
+    {
+      "word": "case",
+      "lemma": "case",
+      "ipa": "/keɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a particular situation; a container for something",
+          "meaning_vi": "trường hợp; cái hộp/vỏ đựng",
+          "examples": [
+            { "en": "In that case, I'll stay home.", "vi": "Trường hợp đó, tôi ở nhà." },
+            { "en": "I bought a phone case at AEON.", "vi": "Tôi mua ốp điện thoại ở AEON." },
+            { "en": "It depends on the case.", "vi": "Tuỳ trường hợp." }
+          ]
+        }
+      ],
+      "synonyms": ["situation", "container"],
+      "antonyms": [],
+      "collocations": ["in case", "in that case", "in any case", "phone case", "court case"],
+      "etymology_hint": "From Latin 'casus' meaning 'a falling, an event' — and 'capsa' meaning 'box'.",
+      "mnemonic_vi": "CASE = 'kệs' — đa nghĩa: trường hợp + cái hộp. In case = phòng khi."
+    },
+    {
+      "word": "item",
+      "lemma": "item",
+      "ipa": "/ˈaɪtəm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a single object or article in a list",
+          "meaning_vi": "món đồ, mục, hạng mục",
+          "examples": [
+            {
+              "en": "Add this item to your cart on Shopee.",
+              "vi": "Thêm món hàng này vào giỏ Shopee."
+            },
+            { "en": "The shopping list has 10 items.", "vi": "Danh sách mua sắm có 10 món." },
+            { "en": "Each item is priced clearly.", "vi": "Mỗi món được niêm yết giá rõ ràng." }
+          ]
+        }
+      ],
+      "synonyms": ["object", "article"],
+      "antonyms": [],
+      "collocations": ["each item", "item on the list", "luxury item", "missing item", "add item"],
+      "etymology_hint": "From Latin 'item' meaning 'also, likewise' — used in lists.",
+      "mnemonic_vi": "ITEM = 'ai-tầm' — 'ai tầm' món gì. Item on the list = món trên danh sách."
+    },
+    {
+      "word": "choice",
+      "lemma": "choice",
+      "ipa": "/tʃɔɪs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the act of choosing; the option chosen",
+          "meaning_vi": "sự lựa chọn",
+          "examples": [
+            { "en": "Make a good choice.", "vi": "Hãy chọn cho khôn." },
+            {
+              "en": "There's a wide choice of phở at this place.",
+              "vi": "Quán này có nhiều loại phở để chọn."
+            },
+            {
+              "en": "I had no choice but to leave.",
+              "vi": "Tôi không còn lựa chọn nào ngoài việc rời đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["option"],
+      "antonyms": [],
+      "collocations": ["good choice", "make a choice", "no choice", "wide choice", "choice of"],
+      "etymology_hint": "From Old French 'chois' — noun from 'choisir' (to choose).",
+      "mnemonic_vi": "CHOICE = 'choi-s' — 'chọi' (chọn). Make a choice = chọn đi."
+    },
+    {
+      "word": "plan",
+      "lemma": "plan",
+      "ipa": "/plæn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "something you intend to do or arrange",
+          "meaning_vi": "kế hoạch, dự định",
+          "examples": [
+            {
+              "en": "What's your plan for this weekend?",
+              "vi": "Cuối tuần này bạn có dự định gì?"
+            },
+            {
+              "en": "We need a plan to save money.",
+              "vi": "Chúng ta cần kế hoạch tiết kiệm tiền."
+            },
+            { "en": "The trip went according to plan.", "vi": "Chuyến đi diễn ra đúng kế hoạch." }
+          ]
+        }
+      ],
+      "synonyms": ["scheme"],
+      "antonyms": [],
+      "collocations": [
+        "make a plan",
+        "have a plan",
+        "according to plan",
+        "business plan",
+        "plan B"
+      ],
+      "etymology_hint": "From Latin 'planus' (flat) — originally a flat drawing of a layout.",
+      "mnemonic_vi": "PLAN = 'plên' — 'phẳng' tờ kế hoạch. Make a plan = lập kế hoạch."
+    },
+    {
+      "word": "chance",
+      "lemma": "chance",
+      "ipa": "/tʃɑːns/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the possibility that something will happen; an opportunity",
+          "meaning_vi": "cơ hội; khả năng",
+          "examples": [
+            { "en": "Give me a chance to explain.", "vi": "Cho tôi cơ hội giải thích." },
+            { "en": "There's a chance of rain tomorrow.", "vi": "Có khả năng mai trời mưa." },
+            { "en": "She took a chance and quit her job.", "vi": "Cô ấy liều bỏ việc." }
+          ]
+        }
+      ],
+      "synonyms": ["opportunity"],
+      "antonyms": [],
+      "collocations": ["give a chance", "take a chance", "by chance", "second chance", "chance of"],
+      "etymology_hint": "From Latin 'cadere' meaning 'to fall' — chance as 'how the dice fall'.",
+      "mnemonic_vi": "CHANCE = 'chên-s' — 'chỗ' đến cho ta. Give me a chance = cho tôi cơ hội."
+    },
+    {
+      "word": "type",
+      "lemma": "type",
+      "ipa": "/taɪp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a group of things sharing characteristics; a kind",
+          "meaning_vi": "loại, kiểu",
+          "examples": [
+            { "en": "What type of coffee do you like?", "vi": "Bạn thích loại cà phê nào?" },
+            { "en": "This is a new type of phone.", "vi": "Đây là một loại điện thoại mới." },
+            { "en": "She's not my type.", "vi": "Cô ấy không phải gu của tôi." }
+          ]
+        }
+      ],
+      "synonyms": ["kind", "sort"],
+      "antonyms": [],
+      "collocations": ["type of", "different type", "blood type", "my type", "this type"],
+      "etymology_hint": "From Greek 'typos' meaning 'a blow, impression, mold'.",
+      "mnemonic_vi": "TYPE = 'tai-p' — 'tip' (kiểu). What type? = loại gì? My type = gu của tôi."
+    },
+    {
+      "word": "detail",
+      "lemma": "detail",
+      "ipa": "/ˈdiːteɪl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small piece of information about something",
+          "meaning_vi": "chi tiết",
+          "examples": [
+            { "en": "Tell me the details of your trip.", "vi": "Kể chi tiết chuyến đi của bạn." },
+            { "en": "She pays attention to every detail.", "vi": "Cô ấy chú ý đến từng chi tiết." },
+            { "en": "I'll explain in detail later.", "vi": "Tôi sẽ giải thích chi tiết sau." }
+          ]
+        }
+      ],
+      "synonyms": ["specifics"],
+      "antonyms": [],
+      "collocations": ["in detail", "small detail", "every detail", "detail of", "give details"],
+      "etymology_hint": "From Old French 'detail' meaning 'small piece, cutting in pieces'.",
+      "mnemonic_vi": "DETAIL = 'đi-tệu' — 'để tay' xem chi tiết. In detail = chi tiết."
+    },
+    {
+      "word": "deal",
+      "lemma": "deal",
+      "ipa": "/diːl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an agreement, especially in business; a good price",
+          "meaning_vi": "thoả thuận; món hời",
+          "examples": [
+            {
+              "en": "We made a deal with the supplier.",
+              "vi": "Chúng tôi thoả thuận với nhà cung cấp."
+            },
+            {
+              "en": "Shopee Black Friday has great deals.",
+              "vi": "Shopee Black Friday có nhiều món hời."
+            },
+            { "en": "It's no big deal.", "vi": "Không có gì to tát đâu." }
+          ]
+        }
+      ],
+      "synonyms": ["agreement", "bargain"],
+      "antonyms": [],
+      "collocations": ["good deal", "make a deal", "big deal", "deal with", "business deal"],
+      "etymology_hint": "From Old English 'dǣlan' meaning 'to divide, share'.",
+      "mnemonic_vi": "DEAL = 'đíu' — 'đầu' (chia). Good deal = món hời. Đa nghĩa: deal with = đối phó với."
+    },
+    {
+      "word": "situation",
+      "lemma": "situation",
+      "ipa": "/ˌsɪtʃuˈeɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "what is happening at a particular time and place; circumstances",
+          "meaning_vi": "tình huống, tình hình",
+          "examples": [
+            { "en": "The situation is getting better.", "vi": "Tình hình đang tốt lên." },
+            {
+              "en": "She handled the difficult situation well.",
+              "vi": "Cô ấy xử lý tình huống khó tốt."
+            },
+            {
+              "en": "In a situation like this, stay calm.",
+              "vi": "Trong tình huống thế này, hãy bình tĩnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["circumstance"],
+      "antonyms": [],
+      "collocations": [
+        "current situation",
+        "difficult situation",
+        "handle a situation",
+        "in this situation",
+        "situation report"
+      ],
+      "etymology_hint": "From Latin 'situatio' meaning 'a placing' — same root as 'site'.",
+      "mnemonic_vi": "SITUATION = 'si-chu-ếch-shần' — 'sì chỗ ấy' = tình huống ở đó."
+    },
+    {
+      "word": "opportunity",
+      "lemma": "opportunity",
+      "ipa": "/ˌɒpəˈtjuːnəti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a chance to do something good or important",
+          "meaning_vi": "cơ hội (lớn, quan trọng)",
+          "examples": [
+            {
+              "en": "She got the opportunity to study in Australia.",
+              "vi": "Cô ấy nhận được cơ hội du học Úc."
+            },
+            { "en": "Don't miss this golden opportunity.", "vi": "Đừng bỏ lỡ cơ hội vàng này." },
+            {
+              "en": "Vietnam offers many opportunities for startups.",
+              "vi": "Việt Nam cho nhiều cơ hội cho startup."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chance"],
+      "antonyms": [],
+      "collocations": [
+        "golden opportunity",
+        "great opportunity",
+        "miss an opportunity",
+        "take an opportunity",
+        "opportunity to"
+      ],
+      "etymology_hint": "From Latin 'opportunitas' meaning 'right time, occasion'.",
+      "mnemonic_vi": "OPPORTUNITY = 'óp-pờ-tu-nờ-ti' — 'opp portunity' (mở rộng cơ hội). Mạnh hơn CHANCE."
+    },
+    {
+      "word": "experience",
+      "lemma": "experience",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "knowledge or skill gained from doing something; an event you live through",
+          "meaning_vi": "kinh nghiệm; trải nghiệm",
+          "examples": [
+            {
+              "en": "She has 5 years of work experience.",
+              "vi": "Cô ấy có 5 năm kinh nghiệm làm việc."
+            },
+            {
+              "en": "Eating phở on the street is a great experience.",
+              "vi": "Ăn phở vỉa hè là trải nghiệm tuyệt vời."
+            },
+            {
+              "en": "Travel is the best teacher of experience.",
+              "vi": "Du lịch là người thầy tốt nhất về trải nghiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "work experience",
+        "life experience",
+        "great experience",
+        "get experience",
+        "based on experience"
+      ],
+      "etymology_hint": "From Latin 'experientia' meaning 'a trial, knowledge from experience'.",
+      "mnemonic_vi": "EXPERIENCE = 'ếch-spia-ri-ần' — 'ếch xpe' (đi qua) đời = kinh nghiệm/trải nghiệm."
+    },
+    {
+      "word": "effort",
+      "lemma": "effort",
+      "ipa": "/ˈefət/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "energy and time spent to do something",
+          "meaning_vi": "nỗ lực, công sức",
+          "examples": [
+            {
+              "en": "She made a great effort to learn Vietnamese.",
+              "vi": "Cô ấy nỗ lực rất nhiều để học tiếng Việt."
+            },
+            {
+              "en": "Without effort, you can't succeed.",
+              "vi": "Không có nỗ lực, bạn không thể thành công."
+            },
+            { "en": "Thanks for your effort!", "vi": "Cảm ơn vì sự nỗ lực của bạn!" }
+          ]
+        }
+      ],
+      "synonyms": ["attempt"],
+      "antonyms": [],
+      "collocations": [
+        "make an effort",
+        "great effort",
+        "team effort",
+        "without effort",
+        "effort to"
+      ],
+      "etymology_hint": "From Old French 'esforz' — from Latin 'fortis' (strong).",
+      "mnemonic_vi": "EFFORT = 'ép-phớt' — 'ép' phải 'phớt' (cố). Make an effort = nỗ lực."
+    }
+  ]
+}
