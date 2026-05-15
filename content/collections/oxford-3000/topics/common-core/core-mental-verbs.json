@@ -1,0 +1,604 @@
+{
+  "slug": "core-mental-verbs",
+  "name": "Core: Mental & Communication Verbs",
+  "description": "Động từ tinh thần và giao tiếp cơ bản — biết, cảm thấy, nói, nghe và quyết định.",
+  "order_index": 8,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "know",
+      "lemma": "know",
+      "ipa": "/nəʊ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to have information about something or be familiar with it",
+          "meaning_vi": "biết, hiểu rõ",
+          "examples": [
+            {
+              "en": "I know a great phở place in District 5.",
+              "vi": "Tôi biết một quán phở ngon ở Quận 5."
+            },
+            { "en": "Do you know what time it is?", "vi": "Bạn biết mấy giờ rồi không?" },
+            {
+              "en": "She knows three languages fluently.",
+              "vi": "Cô ấy biết ba ngôn ngữ trôi chảy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["understand", "be aware of"],
+      "antonyms": [],
+      "collocations": ["I know", "you know", "know how", "know about", "let me know"],
+      "etymology_hint": "From Old English 'cnāwan' — silent 'k' once pronounced, related to Latin 'gnoscere'.",
+      "mnemonic_vi": "KNOW = 'nâu' — silent K → 'nâu' (não) chứa thông tin = biết. I know = tôi biết."
+    },
+    {
+      "word": "feel",
+      "lemma": "feel",
+      "ipa": "/fiːl/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to experience an emotion or physical sensation; to touch",
+          "meaning_vi": "cảm thấy (cảm xúc, cảm giác); chạm để cảm",
+          "examples": [
+            {
+              "en": "I feel tired after a long day at work.",
+              "vi": "Tôi thấy mệt sau ngày làm việc dài."
+            },
+            { "en": "Feel this fabric — it's so soft.", "vi": "Sờ thử vải này xem — mềm thật." },
+            {
+              "en": "She feels happy when she sees her family.",
+              "vi": "Cô ấy thấy vui khi gặp gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sense", "experience"],
+      "antonyms": [],
+      "collocations": ["feel like", "feel good", "feel bad", "feel about", "feel free"],
+      "etymology_hint": "From Old English 'fēlan' meaning 'to perceive by touch'.",
+      "mnemonic_vi": "FEEL = 'phíu' — 'phiêu' theo cảm xúc. Feel happy, feel cold = cảm thấy vui, lạnh."
+    },
+    {
+      "word": "say",
+      "lemma": "say",
+      "ipa": "/seɪ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to speak words; to express in speech or writing",
+          "meaning_vi": "nói, phát ngôn",
+          "examples": [
+            { "en": "She said hello in Vietnamese.", "vi": "Cô ấy chào bằng tiếng Việt." },
+            {
+              "en": "What did the doctor say about your knee?",
+              "vi": "Bác sĩ nói gì về đầu gối bạn?"
+            },
+            { "en": "I have nothing more to say.", "vi": "Tôi không còn gì để nói thêm." }
+          ]
+        }
+      ],
+      "synonyms": ["state", "speak"],
+      "antonyms": [],
+      "collocations": ["say no", "say yes", "say sorry", "as I said", "say that"],
+      "etymology_hint": "From Old English 'secgan' meaning 'to express in words'.",
+      "mnemonic_vi": "SAY = 'sây' — 'sây' lời ra. He said = anh ấy nói. Past: said /sed/."
+    },
+    {
+      "word": "tell",
+      "lemma": "tell",
+      "ipa": "/tel/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to give information to someone by speaking",
+          "meaning_vi": "kể, nói cho ai biết",
+          "examples": [
+            {
+              "en": "Tell me about your trip to Sa Pa.",
+              "vi": "Kể cho tôi nghe về chuyến Sa Pa đi."
+            },
+            { "en": "She told her mom the truth.", "vi": "Cô ấy nói sự thật với mẹ." },
+            { "en": "He always tells funny jokes.", "vi": "Anh ấy luôn kể chuyện cười hay." }
+          ]
+        }
+      ],
+      "synonyms": ["inform", "narrate"],
+      "antonyms": [],
+      "collocations": ["tell me", "tell a story", "tell the truth", "tell a lie", "tell someone"],
+      "etymology_hint": "From Old English 'tellan' meaning 'to count, narrate'.",
+      "mnemonic_vi": "TELL = 'ten' — 'tể tế' (rỉ tai) kể cho ai. Khác SAY (nói chung), TELL cần người nhận: tell me, tell him."
+    },
+    {
+      "word": "ask",
+      "lemma": "ask",
+      "ipa": "/ɑːsk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to put a question to someone; to request something",
+          "meaning_vi": "hỏi, yêu cầu",
+          "examples": [
+            {
+              "en": "Ask your teacher if you don't understand.",
+              "vi": "Hỏi cô giáo nếu bạn không hiểu."
+            },
+            { "en": "She asked for an extra bowl of rice.", "vi": "Cô ấy xin thêm một bát cơm." },
+            { "en": "Can I ask you a question?", "vi": "Cho tôi hỏi một câu được không?" }
+          ]
+        }
+      ],
+      "synonyms": ["question", "request"],
+      "antonyms": ["answer"],
+      "collocations": ["ask a question", "ask for", "ask someone", "may I ask", "ask permission"],
+      "etymology_hint": "From Old English 'āscian' — basic verb of inquiry.",
+      "mnemonic_vi": "ASK = 'ásk' — 'á, sờ' (chạm) gợi câu hỏi. Ask me = hỏi tôi, ask for help = xin giúp."
+    },
+    {
+      "word": "hope",
+      "lemma": "hope",
+      "ipa": "/həʊp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to wish that something will happen",
+          "meaning_vi": "hy vọng, mong",
+          "examples": [
+            { "en": "I hope you have a great Tết!", "vi": "Chúc bạn Tết vui vẻ!" },
+            {
+              "en": "She hopes to study abroad next year.",
+              "vi": "Cô ấy hy vọng đi du học năm tới."
+            },
+            { "en": "We hope the weather stays nice.", "vi": "Chúng tôi mong trời tiếp tục đẹp." }
+          ]
+        }
+      ],
+      "synonyms": ["wish", "expect"],
+      "antonyms": ["despair"],
+      "collocations": ["hope to", "hope for", "hope so", "I hope", "give up hope"],
+      "etymology_hint": "From Old English 'hopian' — verb expressing positive expectation.",
+      "mnemonic_vi": "HOPE = 'hốp' — 'hốp' lòng (mong). I hope = tôi mong. Cũng là danh từ: lose hope."
+    },
+    {
+      "word": "mean",
+      "lemma": "mean",
+      "ipa": "/miːn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to express or convey a meaning; to intend",
+          "meaning_vi": "có nghĩa là; ý muốn",
+          "examples": [
+            {
+              "en": "What does 'phở' mean in English?",
+              "vi": "Từ 'phở' có nghĩa tiếng Anh là gì?"
+            },
+            { "en": "I didn't mean to upset you.", "vi": "Tôi không có ý làm bạn buồn." },
+            {
+              "en": "She means well, even if her words sound harsh.",
+              "vi": "Cô ấy có ý tốt, dù lời nói nghe khắt khe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intend", "imply"],
+      "antonyms": [],
+      "collocations": ["I mean", "you mean", "mean to", "mean a lot", "mean well"],
+      "etymology_hint": "From Old English 'mǣnan' meaning 'to intend, signify'.",
+      "mnemonic_vi": "MEAN = 'min' — 'minh' (làm rõ) nghĩa. What do you mean? = ý bạn là sao? Past: meant."
+    },
+    {
+      "word": "hear",
+      "lemma": "hear",
+      "ipa": "/hɪə(r)/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to perceive sound through your ears (often passive/automatic)",
+          "meaning_vi": "nghe thấy (tự nhiên, thụ động)",
+          "examples": [
+            {
+              "en": "I can hear the rain on the roof.",
+              "vi": "Tôi nghe thấy tiếng mưa trên mái nhà."
+            },
+            {
+              "en": "Did you hear the news about Việt Nam winning?",
+              "vi": "Bạn nghe tin Việt Nam thắng chưa?"
+            },
+            { "en": "I'm sorry, I couldn't hear you.", "vi": "Xin lỗi, tôi không nghe rõ bạn." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["hear about", "hear from", "I hear", "hear of", "did you hear"],
+      "etymology_hint": "From Old English 'hīeran' meaning 'to perceive by ear'.",
+      "mnemonic_vi": "HEAR = 'hia' — 'hỉa' (tai) bắt âm. Khác LISTEN (nghe chủ động). Hear vs listen: hear = tự nghe được."
+    },
+    {
+      "word": "listen",
+      "lemma": "listen",
+      "ipa": "/ˈlɪsn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to pay attention to a sound or what someone says",
+          "meaning_vi": "lắng nghe (chủ động, có chú ý)",
+          "examples": [
+            { "en": "Please listen to me carefully.", "vi": "Xin hãy lắng nghe tôi cẩn thận." },
+            {
+              "en": "I listen to Vietnamese podcasts during my commute.",
+              "vi": "Tôi nghe podcast tiếng Việt trên đường đi làm."
+            },
+            {
+              "en": "She listens to her grandma's stories every night.",
+              "vi": "Tối nào cô ấy cũng nghe bà kể chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["attend to", "pay attention"],
+      "antonyms": ["ignore"],
+      "collocations": [
+        "listen to",
+        "listen carefully",
+        "listen up",
+        "listen out for",
+        "listen well"
+      ],
+      "etymology_hint": "From Old English 'hlysnan' meaning 'to pay attention to sound'.",
+      "mnemonic_vi": "LISTEN = 'líss-n' — 'lít sờn' (lóng tai). Chủ động. Khác HEAR (tự nghe được)."
+    },
+    {
+      "word": "guess",
+      "lemma": "guess",
+      "ipa": "/ɡes/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to give an answer without being sure",
+          "meaning_vi": "đoán, đoán mò",
+          "examples": [
+            { "en": "Guess how old I am!", "vi": "Đoán xem tôi bao nhiêu tuổi!" },
+            { "en": "I guess she's about 25.", "vi": "Tôi đoán cô ấy khoảng 25." },
+            { "en": "Don't guess — check the answer.", "vi": "Đừng đoán — hãy kiểm tra đáp án." }
+          ]
+        }
+      ],
+      "synonyms": ["estimate", "suppose"],
+      "antonyms": [],
+      "collocations": ["I guess", "guess what", "guess right", "best guess", "guess so"],
+      "etymology_hint": "From Middle English 'gessen' — origin uncertain, related to Norse 'geta'.",
+      "mnemonic_vi": "GUESS = 'gát' — 'guắc' (đoán mò). Guess what = đoán xem nào!"
+    },
+    {
+      "word": "suppose",
+      "lemma": "suppose",
+      "ipa": "/səˈpəʊz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to think something is probably true; to assume",
+          "meaning_vi": "cho rằng, giả định",
+          "examples": [
+            {
+              "en": "I suppose she's busy with work.",
+              "vi": "Tôi cho rằng cô ấy bận với công việc."
+            },
+            {
+              "en": "Suppose it rains — what's our backup plan?",
+              "vi": "Giả sử trời mưa — kế hoạch dự phòng là gì?"
+            },
+            {
+              "en": "You're supposed to be at the meeting now.",
+              "vi": "Bạn lẽ ra phải có mặt ở cuộc họp lúc này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assume", "guess"],
+      "antonyms": [],
+      "collocations": ["I suppose", "suppose so", "suppose not", "supposed to", "suppose that"],
+      "etymology_hint": "From Latin 'supponere' = 'sub-' (under) + 'ponere' (place) → 'to place under as a premise'.",
+      "mnemonic_vi": "SUPPOSE = 'sờ-pâu-z' — 'sờ' đoán mà 'pôs' (đặt giả thuyết). I suppose = tôi đoán."
+    },
+    {
+      "word": "wonder",
+      "lemma": "wonder",
+      "ipa": "/ˈwʌndə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to think about something curiously; to want to know",
+          "meaning_vi": "tự hỏi, băn khoăn",
+          "examples": [
+            { "en": "I wonder where she is right now.", "vi": "Tôi tự hỏi giờ cô ấy đang ở đâu." },
+            {
+              "en": "She wondered if her gift would arrive in time.",
+              "vi": "Cô ấy tự hỏi liệu món quà có đến kịp không."
+            },
+            {
+              "en": "I wonder why he didn't reply.",
+              "vi": "Tôi không hiểu sao anh ấy không trả lời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["question", "ponder"],
+      "antonyms": [],
+      "collocations": ["I wonder", "wonder if", "wonder why", "wonder how", "no wonder"],
+      "etymology_hint": "From Old English 'wundrian' meaning 'to marvel at' — kept sense of curious thinking.",
+      "mnemonic_vi": "WONDER = 'oan-đờ' — 'oan, đỡ' (băn khoăn). I wonder = tôi tự hỏi. No wonder = chẳng lạ gì."
+    },
+    {
+      "word": "expect",
+      "lemma": "expect",
+      "ipa": "/ɪkˈspekt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to believe that something will happen; to wait for",
+          "meaning_vi": "kỳ vọng, mong đợi (sẽ xảy ra)",
+          "examples": [
+            {
+              "en": "I expect she'll arrive at 7pm.",
+              "vi": "Tôi kỳ vọng cô ấy đến lúc 7 giờ tối."
+            },
+            { "en": "Don't expect the bus to be on time.", "vi": "Đừng kỳ vọng xe buýt đúng giờ." },
+            {
+              "en": "She's expecting her first baby in June.",
+              "vi": "Cô ấy mang thai đứa đầu, sinh tháng 6."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anticipate", "await"],
+      "antonyms": [],
+      "collocations": ["expect to", "expect a baby", "expect more", "I expect", "as expected"],
+      "etymology_hint": "From Latin 'exspectare' = 'ex-' (out) + 'spectare' (look) → 'to look out for'.",
+      "mnemonic_vi": "EXPECT = EX + PECT (nhìn) → 'nhìn ra' (đợi). Expect a baby = chờ em bé."
+    },
+    {
+      "word": "agree",
+      "lemma": "agree",
+      "ipa": "/əˈɡriː/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to have the same opinion; to accept a plan or idea",
+          "meaning_vi": "đồng ý, tán thành",
+          "examples": [
+            { "en": "I agree with your idea.", "vi": "Tôi đồng ý với ý tưởng của bạn." },
+            { "en": "We agreed to meet at 7pm.", "vi": "Chúng tôi thống nhất gặp lúc 7 giờ tối." },
+            {
+              "en": "She didn't agree with the new policy.",
+              "vi": "Cô ấy không tán thành chính sách mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accept", "consent"],
+      "antonyms": ["disagree", "refuse"],
+      "collocations": ["agree with", "agree to", "agree on", "fully agree", "agree that"],
+      "etymology_hint": "From Old French 'agreer' meaning 'to please, accept' — from Latin 'ad-' + 'gratus' (pleasing).",
+      "mnemonic_vi": "AGREE = 'ơ-grí' — 'ơ, ghi' (gật đầu). Agree with you = đồng ý với bạn."
+    },
+    {
+      "word": "decide",
+      "lemma": "decide",
+      "ipa": "/dɪˈsaɪd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make a choice after thinking",
+          "meaning_vi": "quyết định",
+          "examples": [
+            { "en": "She decided to study in Sài Gòn.", "vi": "Cô ấy quyết định học ở Sài Gòn." },
+            {
+              "en": "We haven't decided where to go for vacation.",
+              "vi": "Chúng tôi chưa quyết định đi đâu nghỉ phép."
+            },
+            {
+              "en": "It's hard to decide between phở and bún bò.",
+              "vi": "Khó quyết giữa phở và bún bò."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["choose", "determine"],
+      "antonyms": ["hesitate"],
+      "collocations": ["decide to", "decide on", "decide between", "decide who", "hard to decide"],
+      "etymology_hint": "From Latin 'decidere' = 'de-' (off) + 'caedere' (cut) → 'to cut off (other options)'.",
+      "mnemonic_vi": "DECIDE = 'đi-sai-d' — 'đi sai' đường nào? → quyết định. Cut off other options."
+    },
+    {
+      "word": "suggest",
+      "lemma": "suggest",
+      "ipa": "/səˈdʒest/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to give an idea for someone to consider",
+          "meaning_vi": "gợi ý, đề nghị",
+          "examples": [
+            {
+              "en": "I suggest trying the bánh xèo here.",
+              "vi": "Tôi gợi ý thử món bánh xèo ở đây."
+            },
+            {
+              "en": "She suggested a new restaurant in Đà Nẵng.",
+              "vi": "Cô ấy đề nghị một nhà hàng mới ở Đà Nẵng."
+            },
+            {
+              "en": "Can I suggest an alternative plan?",
+              "vi": "Tôi có thể đề xuất phương án khác được không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["propose", "recommend"],
+      "antonyms": [],
+      "collocations": [
+        "suggest that",
+        "suggest to",
+        "suggest a way",
+        "may I suggest",
+        "strongly suggest"
+      ],
+      "etymology_hint": "From Latin 'suggerere' = 'sub-' (under) + 'gerere' (carry) → 'to bring up to'.",
+      "mnemonic_vi": "SUGGEST = 'sờ-gjét' — 'sủ' (bày) 'gừng' (ý) → gợi ý. I suggest = tôi đề nghị."
+    },
+    {
+      "word": "mention",
+      "lemma": "mention",
+      "ipa": "/ˈmenʃn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to talk briefly about something or someone",
+          "meaning_vi": "đề cập, nhắc đến",
+          "examples": [
+            {
+              "en": "She mentioned your name at the meeting.",
+              "vi": "Cô ấy nhắc tên bạn ở cuộc họp."
+            },
+            { "en": "Don't mention this to my mom.", "vi": "Đừng nhắc chuyện này với mẹ tôi nhé." },
+            {
+              "en": "He mentioned a new café in Đà Lạt.",
+              "vi": "Anh ấy nhắc đến một quán cà phê mới ở Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refer to", "bring up"],
+      "antonyms": [],
+      "collocations": [
+        "mention something",
+        "don't mention it",
+        "as mentioned",
+        "mention it to",
+        "worth mentioning"
+      ],
+      "etymology_hint": "From Latin 'mentio' meaning 'a calling to mind, a remark'.",
+      "mnemonic_vi": "MENTION = 'men-shần' — 'mê' (nhớ) 'tỳ' (đến). Mention his name = nhắc tên anh ấy."
+    },
+    {
+      "word": "discuss",
+      "lemma": "discuss",
+      "ipa": "/dɪˈskʌs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to talk about a subject in detail with others",
+          "meaning_vi": "thảo luận, bàn bạc",
+          "examples": [
+            {
+              "en": "We discussed the project for two hours.",
+              "vi": "Chúng tôi thảo luận dự án hai tiếng đồng hồ."
+            },
+            {
+              "en": "Let's discuss this over a cup of cà phê.",
+              "vi": "Bàn chuyện này khi uống cà phê đi."
+            },
+            {
+              "en": "The team discussed the new feature on Monday.",
+              "vi": "Đội đã thảo luận tính năng mới vào thứ Hai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["debate", "talk over"],
+      "antonyms": [],
+      "collocations": [
+        "discuss with",
+        "discuss a topic",
+        "discuss a plan",
+        "discuss in detail",
+        "openly discuss"
+      ],
+      "etymology_hint": "From Latin 'discutere' = 'dis-' (apart) + 'quatere' (shake) → 'to examine, shake apart'.",
+      "mnemonic_vi": "DISCUSS = 'đis-cát' — 'đi tách' vấn đề ra để bàn. Discuss with = thảo luận với."
+    },
+    {
+      "word": "speak",
+      "lemma": "speak",
+      "ipa": "/spiːk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to use spoken language; to know a language",
+          "meaning_vi": "nói (ngôn ngữ); biết nói (1 ngôn ngữ)",
+          "examples": [
+            {
+              "en": "Do you speak Vietnamese fluently?",
+              "vi": "Bạn có nói tiếng Việt trôi chảy không?"
+            },
+            { "en": "She speaks four languages.", "vi": "Cô ấy biết bốn ngôn ngữ." },
+            {
+              "en": "Please speak more slowly — I'm learning.",
+              "vi": "Vui lòng nói chậm hơn — tôi đang học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talk", "communicate"],
+      "antonyms": [],
+      "collocations": ["speak English", "speak up", "speak to", "speak well", "speak softly"],
+      "etymology_hint": "From Old English 'sprecan' — the 'r' was dropped over time.",
+      "mnemonic_vi": "SPEAK = 'sờ-pích' — 'sờ-bích' (mở miệng). Khác TALK (trò chuyện), SPEAK = 'biết ngôn ngữ': speak Vietnamese."
+    },
+    {
+      "word": "talk",
+      "lemma": "talk",
+      "ipa": "/tɔːk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to have a conversation with someone",
+          "meaning_vi": "nói chuyện, trò chuyện",
+          "examples": [
+            {
+              "en": "We talked for hours at the café.",
+              "vi": "Chúng tôi trò chuyện hàng giờ ở quán."
+            },
+            {
+              "en": "I need to talk to you about something important.",
+              "vi": "Tôi cần nói chuyện với bạn về điều quan trọng."
+            },
+            {
+              "en": "Stop talking and start working.",
+              "vi": "Ngừng nói chuyện và bắt đầu làm việc đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chat", "converse"],
+      "antonyms": ["listen"],
+      "collocations": ["talk to", "talk about", "talk over", "small talk", "talk nonsense"],
+      "etymology_hint": "From Middle English 'talken' — related to 'tale' (story).",
+      "mnemonic_vi": "TALK = 'tốc' — 'tốc' lưỡi trò chuyện. Khác SPEAK (kỹ năng), TALK = chat: talk to me = nói chuyện với tôi."
+    }
+  ]
+}

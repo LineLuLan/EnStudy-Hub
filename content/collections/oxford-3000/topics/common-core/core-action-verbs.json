@@ -1,0 +1,529 @@
+{
+  "slug": "core-action-verbs",
+  "name": "Core: Action Verbs",
+  "description": "Động từ hành động cốt lõi — bộ 20 verbs tần suất cao nhất tiếng Anh.",
+  "order_index": 7,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "make",
+      "lemma": "make",
+      "ipa": "/meɪk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to create, build, or produce something",
+          "meaning_vi": "làm, tạo ra, chế tạo",
+          "examples": [
+            {
+              "en": "My grandmother makes the best bánh chưng.",
+              "vi": "Bà tôi làm bánh chưng ngon nhất."
+            },
+            { "en": "Let's make a plan for the weekend.", "vi": "Lập kế hoạch cuối tuần đi." },
+            {
+              "en": "He made a mistake on the contract.",
+              "vi": "Anh ấy đã sai sót trong hợp đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["create", "produce", "build"],
+      "antonyms": ["destroy"],
+      "collocations": ["make a decision", "make money", "make sense", "make sure", "make friends"],
+      "etymology_hint": "From Old English 'macian' meaning 'to make, prepare, build'.",
+      "mnemonic_vi": "MAKE = 'mếch' — 'mếch' (tạo) cái gì đó. Make phở = nấu phở, make a plan = lập kế hoạch."
+    },
+    {
+      "word": "take",
+      "lemma": "take",
+      "ipa": "/teɪk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to grab something with your hand; to bring or carry; to accept",
+          "meaning_vi": "cầm, lấy, mang theo; nhận, đảm nhận",
+          "examples": [
+            { "en": "Take an umbrella — it might rain.", "vi": "Cầm theo dù — biết đâu mưa." },
+            { "en": "She took the Grab to the airport.", "vi": "Cô ấy đi Grab ra sân bay." },
+            { "en": "It takes 30 minutes to get there.", "vi": "Mất 30 phút để đến đó." }
+          ]
+        }
+      ],
+      "synonyms": ["grab", "carry"],
+      "antonyms": ["give", "leave"],
+      "collocations": ["take a break", "take time", "take care", "take a photo", "take notes"],
+      "etymology_hint": "From Old Norse 'taka' meaning 'to grasp, seize'.",
+      "mnemonic_vi": "TAKE = 'têch' — 'tách' (lấy) ra. Take a photo = chụp ảnh, take a break = nghỉ giải lao."
+    },
+    {
+      "word": "get",
+      "lemma": "get",
+      "ipa": "/ɡet/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to obtain, receive, or become",
+          "meaning_vi": "có được, nhận, trở nên",
+          "examples": [
+            { "en": "I got a new phone last week.", "vi": "Tuần trước tôi mua điện thoại mới." },
+            { "en": "It gets cold in Sa Pa during winter.", "vi": "Mùa đông Sa Pa trở nên lạnh." },
+            { "en": "How do I get to Hồ Tây from here?", "vi": "Đi từ đây tới Hồ Tây như thế nào?" }
+          ]
+        }
+      ],
+      "synonyms": ["obtain", "receive", "become"],
+      "antonyms": ["give", "lose"],
+      "collocations": ["get up", "get home", "get ready", "get along", "get used to"],
+      "etymology_hint": "From Old Norse 'geta' meaning 'to obtain, beget'.",
+      "mnemonic_vi": "GET = 'ghét' — 'gặt' (lấy về). Đa năng cực: get a job, get tired, get home, get up."
+    },
+    {
+      "word": "go",
+      "lemma": "go",
+      "ipa": "/ɡəʊ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to move or travel from one place to another",
+          "meaning_vi": "đi, di chuyển",
+          "examples": [
+            { "en": "Let's go to Phố Cổ for dinner.", "vi": "Đi Phố Cổ ăn tối đi." },
+            { "en": "She goes to work by motorbike.", "vi": "Cô ấy đi làm bằng xe máy." },
+            { "en": "The party went really well.", "vi": "Bữa tiệc diễn ra rất ổn." }
+          ]
+        }
+      ],
+      "synonyms": ["travel", "move"],
+      "antonyms": ["stay", "come"],
+      "collocations": ["go to", "go home", "go out", "go shopping", "go away"],
+      "etymology_hint": "From Old English 'gān' meaning 'to move, walk'.",
+      "mnemonic_vi": "GO = 'gâu' — bước 'gô' đi. Go to Vietnam = đi Việt Nam, let's go = đi thôi."
+    },
+    {
+      "word": "come",
+      "lemma": "come",
+      "ipa": "/kʌm/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to move toward the speaker or arrive at a place",
+          "meaning_vi": "đến, tới (chuyển động về phía người nói)",
+          "examples": [
+            {
+              "en": "Come here, I have something to show you.",
+              "vi": "Đến đây, tôi có cái này cho xem."
+            },
+            {
+              "en": "Many tourists come to Hội An every year.",
+              "vi": "Nhiều du khách đến Hội An mỗi năm."
+            },
+            { "en": "Where do you come from?", "vi": "Bạn đến từ đâu?" }
+          ]
+        }
+      ],
+      "synonyms": ["arrive", "approach"],
+      "antonyms": ["go", "leave"],
+      "collocations": ["come back", "come in", "come from", "come along", "come true"],
+      "etymology_hint": "From Old English 'cuman' meaning 'to arrive, approach'.",
+      "mnemonic_vi": "COME = 'câm' — 'tới' chỗ tôi. Đối với GO (đi đâu đó). Come here = đến đây."
+    },
+    {
+      "word": "give",
+      "lemma": "give",
+      "ipa": "/ɡɪv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to hand something to someone; to provide",
+          "meaning_vi": "đưa, cho, tặng",
+          "examples": [
+            { "en": "Give me a minute to think.", "vi": "Cho tôi một phút suy nghĩ." },
+            { "en": "She gave him lì xì at Tết.", "vi": "Cô ấy lì xì cho cậu ấy ngày Tết." },
+            {
+              "en": "The teacher gave us extra homework.",
+              "vi": "Cô giáo cho chúng tôi thêm bài tập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hand", "provide", "offer"],
+      "antonyms": ["take", "receive"],
+      "collocations": ["give up", "give away", "give back", "give it a try", "give birth"],
+      "etymology_hint": "From Old English 'giefan' — Norse 'gefa' influenced modern spelling.",
+      "mnemonic_vi": "GIVE = 'gíp' — 'gíp' (trao tay). Give me = đưa tôi. Đối với TAKE (lấy)."
+    },
+    {
+      "word": "put",
+      "lemma": "put",
+      "ipa": "/pʊt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to place something in a specific position",
+          "meaning_vi": "đặt, để (vào vị trí)",
+          "examples": [
+            { "en": "Put your phone on the table.", "vi": "Đặt điện thoại lên bàn." },
+            { "en": "I put my keys in my bag.", "vi": "Tôi để chìa khoá trong túi." },
+            { "en": "She put a flower in her hair.", "vi": "Cô ấy cài một bông hoa lên tóc." }
+          ]
+        }
+      ],
+      "synonyms": ["place", "set"],
+      "antonyms": ["remove"],
+      "collocations": ["put on", "put off", "put down", "put up", "put together"],
+      "etymology_hint": "From Old English 'putian' — meaning 'to push, thrust'.",
+      "mnemonic_vi": "PUT = 'pút' — 'phụt' (đặt) vào chỗ. Put your bag here = để túi đây."
+    },
+    {
+      "word": "find",
+      "lemma": "find",
+      "ipa": "/faɪnd/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to discover or locate something or someone",
+          "meaning_vi": "tìm thấy, phát hiện",
+          "examples": [
+            { "en": "I can't find my wallet anywhere.", "vi": "Tôi không tìm thấy ví đâu cả." },
+            {
+              "en": "She found a great bánh mì place in District 1.",
+              "vi": "Cô ấy tìm được quán bánh mì ngon ở Quận 1."
+            },
+            { "en": "Did you find what you were looking for?", "vi": "Bạn tìm được thứ cần chưa?" }
+          ]
+        }
+      ],
+      "synonyms": ["discover", "locate"],
+      "antonyms": ["lose"],
+      "collocations": ["find out", "find a way", "find time", "find work", "find someone"],
+      "etymology_hint": "From Old English 'findan' meaning 'to come upon, discover'.",
+      "mnemonic_vi": "FIND = 'phai-nd' — 'phình' ra (rõ) = tìm thấy. Find a job = tìm việc."
+    },
+    {
+      "word": "see",
+      "lemma": "see",
+      "ipa": "/siː/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to use your eyes; to understand; to meet",
+          "meaning_vi": "nhìn thấy; hiểu; gặp",
+          "examples": [
+            {
+              "en": "I can see the moon from my balcony.",
+              "vi": "Tôi có thể nhìn thấy mặt trăng từ ban công."
+            },
+            { "en": "I see what you mean.", "vi": "Tôi hiểu ý bạn." },
+            { "en": "Let's see Mom this weekend.", "vi": "Cuối tuần này về gặp mẹ đi." }
+          ]
+        }
+      ],
+      "synonyms": ["look at", "view", "understand"],
+      "antonyms": [],
+      "collocations": ["see you", "see if", "see what", "see through", "see eye to eye"],
+      "etymology_hint": "From Old English 'sēon' — also gained sense of 'understand' in Middle English.",
+      "mnemonic_vi": "SEE = 'si' — 'sỳ' (nhìn). Đa nghĩa: thấy, hiểu, gặp. I see = tôi hiểu rồi."
+    },
+    {
+      "word": "look",
+      "lemma": "look",
+      "ipa": "/lʊk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to turn your eyes in a direction; to seem or appear",
+          "meaning_vi": "nhìn (chủ động); trông có vẻ",
+          "examples": [
+            { "en": "Look at the sunset over Hồ Tây.", "vi": "Nhìn hoàng hôn trên Hồ Tây kìa." },
+            { "en": "You look tired today.", "vi": "Hôm nay bạn trông mệt mỏi." },
+            { "en": "I'm looking for a new motorbike.", "vi": "Tôi đang tìm xe máy mới." }
+          ]
+        }
+      ],
+      "synonyms": ["watch", "appear"],
+      "antonyms": [],
+      "collocations": ["look at", "look for", "look like", "look after", "look forward to"],
+      "etymology_hint": "From Old English 'lōcian' meaning 'to see, behold'.",
+      "mnemonic_vi": "LOOK = 'lúc' — 'lúc' nhìn (chủ động hướng mắt). SEE = thấy (tự nhiên). LOOK = hành động nhìn."
+    },
+    {
+      "word": "want",
+      "lemma": "want",
+      "ipa": "/wɒnt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to wish for something; to desire",
+          "meaning_vi": "muốn, mong",
+          "examples": [
+            { "en": "I want a cup of cà phê sữa, please.", "vi": "Cho tôi một ly cà phê sữa nhé." },
+            {
+              "en": "She wants to travel to Japan next year.",
+              "vi": "Năm sau cô ấy muốn đi du lịch Nhật."
+            },
+            { "en": "Do you want to come with us?", "vi": "Bạn có muốn đi với chúng tôi không?" }
+          ]
+        }
+      ],
+      "synonyms": ["wish", "desire"],
+      "antonyms": [],
+      "collocations": ["want to", "want a", "if you want", "want more", "what you want"],
+      "etymology_hint": "From Old Norse 'vanta' meaning 'to lack' — meaning shifted from 'lack' to 'desire'.",
+      "mnemonic_vi": "WANT = 'oan-t' — 'oan' (thiếu) → 'muốn có'. I want = tôi muốn."
+    },
+    {
+      "word": "like",
+      "lemma": "like",
+      "ipa": "/laɪk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to find something pleasant or enjoyable",
+          "meaning_vi": "thích",
+          "examples": [
+            { "en": "I like bún bò Huế more than phở.", "vi": "Tôi thích bún bò Huế hơn phở." },
+            { "en": "She likes hiking in Đà Lạt.", "vi": "Cô ấy thích đi bộ leo núi ở Đà Lạt." },
+            { "en": "Do you like my new áo dài?", "vi": "Bạn thích áo dài mới của tôi không?" }
+          ]
+        }
+      ],
+      "synonyms": ["enjoy", "love"],
+      "antonyms": ["dislike", "hate"],
+      "collocations": ["I like", "would like", "like a lot", "like that", "feel like"],
+      "etymology_hint": "From Old English 'līcian' meaning 'to please' — meaning flipped from passive to active.",
+      "mnemonic_vi": "LIKE = 'lai-k' — 'lai' (thuận tay) → thích. I like coffee = tôi thích cà phê."
+    },
+    {
+      "word": "love",
+      "lemma": "love",
+      "ipa": "/lʌv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to feel deep affection for; to enjoy strongly",
+          "meaning_vi": "yêu; rất thích",
+          "examples": [
+            { "en": "I love my family more than anything.", "vi": "Tôi yêu gia đình hơn tất cả." },
+            { "en": "She loves running every morning.", "vi": "Cô ấy rất thích chạy bộ mỗi sáng." },
+            {
+              "en": "I'd love a glass of nước mía right now.",
+              "vi": "Tôi rất muốn ly nước mía ngay bây giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["adore", "enjoy"],
+      "antonyms": ["hate"],
+      "collocations": ["love you", "love it", "I'd love to", "fall in love", "love each other"],
+      "etymology_hint": "From Old English 'lufu' — meaning 'love, affection, dearness'.",
+      "mnemonic_vi": "LOVE = 'lấp' — 'lóp lóp' tim đập. Yêu hoặc rất thích. I love coffee = tôi cuồng cà phê."
+    },
+    {
+      "word": "work",
+      "lemma": "work",
+      "ipa": "/wɜːk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to do a job for money; to function properly",
+          "meaning_vi": "làm việc; hoạt động (máy móc)",
+          "examples": [
+            {
+              "en": "She works at a startup in Sài Gòn.",
+              "vi": "Cô ấy làm việc cho một startup ở Sài Gòn."
+            },
+            {
+              "en": "My laptop doesn't work after the update.",
+              "vi": "Laptop tôi không chạy sau khi cập nhật."
+            },
+            { "en": "He works late every Friday.", "vi": "Anh ấy làm muộn mỗi tối thứ Sáu." }
+          ]
+        }
+      ],
+      "synonyms": ["function", "operate"],
+      "antonyms": ["rest"],
+      "collocations": ["work hard", "work out", "work for", "work at", "work together"],
+      "etymology_hint": "From Old English 'weorc' (noun) and 'wyrcan' (verb) — labour, effort.",
+      "mnemonic_vi": "WORK = 'guợc' — 'việc' phải làm. Work for FPT = làm cho FPT. Cũng nghĩa 'chạy được' (máy)."
+    },
+    {
+      "word": "play",
+      "lemma": "play",
+      "ipa": "/pleɪ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to take part in a game or have fun; to perform music",
+          "meaning_vi": "chơi (trò chơi); chơi (nhạc cụ); diễn",
+          "examples": [
+            { "en": "The kids are playing in the park.", "vi": "Bọn trẻ đang chơi ở công viên." },
+            {
+              "en": "She plays guitar at the café on weekends.",
+              "vi": "Cuối tuần cô ấy chơi guitar ở quán."
+            },
+            {
+              "en": "Vietnam played Thailand in the final.",
+              "vi": "Việt Nam đấu với Thái Lan ở chung kết."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["work"],
+      "collocations": ["play football", "play a game", "play music", "play a role", "play with"],
+      "etymology_hint": "From Old English 'plegian' meaning 'to exercise, frolic'.",
+      "mnemonic_vi": "PLAY = 'plây' — 'plây' (vui vẻ) chơi. Play football = đá bóng, play piano = chơi piano."
+    },
+    {
+      "word": "eat",
+      "lemma": "eat",
+      "ipa": "/iːt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to put food in your mouth, chew, and swallow",
+          "meaning_vi": "ăn",
+          "examples": [
+            { "en": "Let's eat at the new bún chả place.", "vi": "Đi ăn ở quán bún chả mới đi." },
+            { "en": "I usually eat breakfast at 7am.", "vi": "Tôi thường ăn sáng lúc 7 giờ." },
+            { "en": "Have you eaten lunch yet?", "vi": "Bạn ăn trưa chưa?" }
+          ]
+        }
+      ],
+      "synonyms": ["consume"],
+      "antonyms": [],
+      "collocations": ["eat out", "eat up", "eat breakfast", "eat lunch", "eat well"],
+      "etymology_hint": "From Old English 'etan' — verb of consuming food, unchanged for over 1000 years.",
+      "mnemonic_vi": "EAT = 'ít' — 'ít' (chút) bỏ miệng = ăn. Eat phở, eat rice. Past: ate, eaten."
+    },
+    {
+      "word": "drink",
+      "lemma": "drink",
+      "ipa": "/drɪŋk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to take liquid into your mouth and swallow",
+          "meaning_vi": "uống",
+          "examples": [
+            { "en": "I drink coffee every morning.", "vi": "Tôi uống cà phê mỗi sáng." },
+            { "en": "Please drink lots of water in summer.", "vi": "Mùa hè nhớ uống nhiều nước." },
+            { "en": "He doesn't drink alcohol.", "vi": "Anh ấy không uống rượu bia." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["drink water", "drink coffee", "drink beer", "drink up", "have a drink"],
+      "etymology_hint": "From Old English 'drincan' — same verb across all Germanic languages.",
+      "mnemonic_vi": "DRINK = 'rinh-k' — 'rinh' nước vô. Drink tea = uống trà. Past: drank, drunk."
+    },
+    {
+      "word": "sleep",
+      "lemma": "sleep",
+      "ipa": "/sliːp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to rest with your eyes closed in an unconscious state",
+          "meaning_vi": "ngủ",
+          "examples": [
+            { "en": "I usually sleep at 11pm.", "vi": "Tôi thường ngủ lúc 11 giờ." },
+            {
+              "en": "She slept on the bus to Đà Nẵng.",
+              "vi": "Cô ấy ngủ trên xe buýt đến Đà Nẵng."
+            },
+            {
+              "en": "The baby is sleeping — please be quiet.",
+              "vi": "Em bé đang ngủ — xin giữ yên lặng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rest"],
+      "antonyms": ["wake"],
+      "collocations": ["sleep well", "go to sleep", "sleep tight", "sleep over", "sleeping bag"],
+      "etymology_hint": "From Old English 'slǣpan' — basic verb for nighttime rest.",
+      "mnemonic_vi": "SLEEP = 'slíp' — 'líp' đi (như đèn tắt) → ngủ. Past: slept."
+    },
+    {
+      "word": "walk",
+      "lemma": "walk",
+      "ipa": "/wɔːk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to move forward by putting one foot in front of the other",
+          "meaning_vi": "đi bộ",
+          "examples": [
+            { "en": "I walk to school every day.", "vi": "Tôi đi bộ đến trường mỗi ngày." },
+            {
+              "en": "Let's walk around Hồ Hoàn Kiếm after dinner.",
+              "vi": "Sau bữa tối đi dạo quanh Hồ Hoàn Kiếm đi."
+            },
+            { "en": "He walks his dog every evening.", "vi": "Mỗi tối anh ấy dắt chó đi dạo." }
+          ]
+        }
+      ],
+      "synonyms": ["stroll"],
+      "antonyms": ["run"],
+      "collocations": ["walk to", "walk around", "go for a walk", "walk the dog", "walk home"],
+      "etymology_hint": "From Old English 'wealcan' meaning 'to roll, toss' — meaning shifted to walking.",
+      "mnemonic_vi": "WALK = 'guốc' — 'guốc' bước (đi bộ chậm rãi). Walk to school = đi bộ tới trường."
+    },
+    {
+      "word": "run",
+      "lemma": "run",
+      "ipa": "/rʌn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to move quickly on your feet; to operate or manage something",
+          "meaning_vi": "chạy; vận hành, điều hành (kinh doanh, máy)",
+          "examples": [
+            {
+              "en": "She runs around West Lake every morning.",
+              "vi": "Cô ấy chạy quanh Hồ Tây mỗi sáng."
+            },
+            {
+              "en": "He runs a small café in District 3.",
+              "vi": "Anh ấy mở một quán cà phê nhỏ ở Quận 3."
+            },
+            { "en": "I'm late — I have to run!", "vi": "Tôi trễ rồi — phải chạy đây!" }
+          ]
+        }
+      ],
+      "synonyms": ["sprint", "operate"],
+      "antonyms": ["walk", "stop"],
+      "collocations": [
+        "run away",
+        "run out",
+        "run a business",
+        "run a marathon",
+        "in the long run"
+      ],
+      "etymology_hint": "From Old English 'rinnan' — basic verb for fast movement.",
+      "mnemonic_vi": "RUN = 'rần' — 'rần rần' nhanh chân. Run = chạy (chân) hoặc 'điều hành' (run a shop)."
+    }
+  ]
+}
