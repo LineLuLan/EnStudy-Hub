@@ -1,0 +1,613 @@
+{
+  "slug": "shapes-sizes",
+  "name": "Shapes & Sizes",
+  "description": "Hình dạng cơ bản và từ chỉ kích thước, chiều dài, độ sâu.",
+  "order_index": 12,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "shape",
+      "lemma": "shape",
+      "ipa": "/ʃeɪp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the outer form of something",
+          "meaning_vi": "hình dạng, hình dáng",
+          "examples": [
+            { "en": "Bánh chưng has a square shape.", "vi": "Bánh chưng có hình vuông." },
+            { "en": "What shape is the moon tonight?", "vi": "Tối nay mặt trăng hình gì?" },
+            {
+              "en": "She stays in shape by doing yoga.",
+              "vi": "Cô ấy giữ dáng bằng cách tập yoga."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["form"],
+      "antonyms": [],
+      "collocations": ["in shape", "out of shape", "different shape", "shape of", "take shape"],
+      "etymology_hint": "From Old English 'sceap' meaning 'created form'.",
+      "mnemonic_vi": "SHAPE = 'sệp' — 'sếp' (định hình) hình. Đa nghĩa: hình dạng + giữ dáng (in shape)."
+    },
+    {
+      "word": "circle",
+      "lemma": "circle",
+      "ipa": "/ˈsɜːkl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a perfectly round flat shape",
+          "meaning_vi": "hình tròn",
+          "examples": [
+            {
+              "en": "Draw a circle around the correct answer.",
+              "vi": "Vẽ một vòng tròn quanh đáp án đúng."
+            },
+            {
+              "en": "We sat in a circle to share food.",
+              "vi": "Chúng tôi ngồi thành vòng tròn cùng chia sẻ đồ ăn."
+            },
+            { "en": "The pizza is a perfect circle.", "vi": "Cái pizza tròn xoe." }
+          ]
+        }
+      ],
+      "synonyms": ["ring"],
+      "antonyms": [],
+      "collocations": [
+        "draw a circle",
+        "sit in a circle",
+        "social circle",
+        "full circle",
+        "inner circle"
+      ],
+      "etymology_hint": "From Latin 'circulus' = 'little ring', diminutive of 'circus' (ring).",
+      "mnemonic_vi": "CIRCLE = 'sớ-cồ' — 'sớ' tròn. Sit in a circle = ngồi vòng tròn. Pizza is a circle."
+    },
+    {
+      "word": "square",
+      "lemma": "square",
+      "ipa": "/skweə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a shape with four equal straight sides; a public open area",
+          "meaning_vi": "hình vuông; quảng trường",
+          "examples": [
+            {
+              "en": "Bánh chưng is wrapped in a square shape.",
+              "vi": "Bánh chưng được gói hình vuông."
+            },
+            {
+              "en": "We met at Đông Kinh Nghĩa Thục Square.",
+              "vi": "Chúng tôi gặp ở Quảng trường Đông Kinh Nghĩa Thục."
+            },
+            {
+              "en": "Cut the cake into small squares.",
+              "vi": "Cắt cái bánh thành các miếng vuông nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "square shape",
+        "town square",
+        "city square",
+        "perfect square",
+        "four-square"
+      ],
+      "etymology_hint": "From Old French 'esquarre' — from Latin 'quadra' (square).",
+      "mnemonic_vi": "SQUARE = 'sờ-quê' — 'sờ que' (4 cạnh bằng) vuông. Town square = quảng trường."
+    },
+    {
+      "word": "triangle",
+      "lemma": "triangle",
+      "ipa": "/ˈtraɪæŋɡl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a shape with three straight sides",
+          "meaning_vi": "hình tam giác",
+          "examples": [
+            { "en": "The roof of the temple is a triangle.", "vi": "Mái chùa là hình tam giác." },
+            {
+              "en": "Cut the sandwich into two triangles.",
+              "vi": "Cắt cái bánh mì kẹp thành hai miếng tam giác."
+            },
+            { "en": "A triangle has three corners.", "vi": "Hình tam giác có ba góc." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "right triangle",
+        "love triangle",
+        "triangle shape",
+        "draw a triangle",
+        "equal triangle"
+      ],
+      "etymology_hint": "From Latin 'tri-' (three) + 'angulus' (angle) → 'three angles'.",
+      "mnemonic_vi": "TRIANGLE = TRI (3) + ANGLE (góc) → 'ba góc' = tam giác. Hình tam giác có 3 góc."
+    },
+    {
+      "word": "round",
+      "lemma": "round",
+      "ipa": "/raʊnd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "shaped like a circle or a ball",
+          "meaning_vi": "tròn (hình tròn hoặc khối cầu)",
+          "examples": [
+            { "en": "The table is round, not square.", "vi": "Cái bàn này tròn, không vuông." },
+            { "en": "Trái cam is round and orange.", "vi": "Quả cam tròn và màu cam." },
+            { "en": "She has a round face.", "vi": "Cô ấy có khuôn mặt tròn." }
+          ]
+        }
+      ],
+      "synonyms": ["circular", "spherical"],
+      "antonyms": ["square"],
+      "collocations": ["round face", "round table", "round trip", "year round", "all round"],
+      "etymology_hint": "From Latin 'rotundus' = 'wheel-shaped', via Old French.",
+      "mnemonic_vi": "ROUND = 'rao-nd' — 'rộng' (tròn). Round table = bàn tròn, round face = mặt tròn."
+    },
+    {
+      "word": "flat",
+      "lemma": "flat",
+      "ipa": "/flæt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "smooth and even, without bumps; level",
+          "meaning_vi": "phẳng (không gồ ghề)",
+          "examples": [
+            { "en": "The roof of our house is flat.", "vi": "Mái nhà tôi phẳng." },
+            { "en": "Find a flat surface to write on.", "vi": "Tìm mặt phẳng để viết lên." },
+            {
+              "en": "The Mekong Delta is flat farmland.",
+              "vi": "Đồng bằng sông Cửu Long là đồng ruộng phẳng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["level", "smooth"],
+      "antonyms": ["bumpy", "rough"],
+      "collocations": ["flat surface", "flat tire", "flat roof", "flat land", "fall flat"],
+      "etymology_hint": "From Old Norse 'flatr' meaning 'level, plain'.",
+      "mnemonic_vi": "FLAT = 'flét' — 'phẳng lì'. Flat tire = lốp xẹp, flat road = đường bằng phẳng."
+    },
+    {
+      "word": "line",
+      "lemma": "line",
+      "ipa": "/laɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a long thin mark; a row of people or things",
+          "meaning_vi": "đường kẻ, dòng; hàng (xếp hàng)",
+          "examples": [
+            {
+              "en": "Draw a straight line under the answer.",
+              "vi": "Kẻ một đường thẳng dưới câu trả lời."
+            },
+            {
+              "en": "There's a long line for bánh mì at lunch.",
+              "vi": "Có hàng dài chờ mua bánh mì trưa."
+            },
+            { "en": "Stand in line, please.", "vi": "Xin xếp hàng nhé." }
+          ]
+        }
+      ],
+      "synonyms": ["row", "queue"],
+      "antonyms": [],
+      "collocations": ["straight line", "stand in line", "line up", "drop a line", "front line"],
+      "etymology_hint": "From Latin 'linea' meaning 'linen thread, line'.",
+      "mnemonic_vi": "LINE = 'lai-n' — 'lai' (kẻ) đường. Đa nghĩa: đường kẻ, hàng người, dòng chữ."
+    },
+    {
+      "word": "point",
+      "lemma": "point",
+      "ipa": "/pɔɪnt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a sharp end; a particular moment or place; a score or main idea",
+          "meaning_vi": "điểm; mũi nhọn; ý chính; điểm số",
+          "examples": [
+            {
+              "en": "There's a point at the end of the pencil.",
+              "vi": "Có đầu nhọn ở cuối cây bút chì."
+            },
+            {
+              "en": "Vietnam scored 3 points in the match.",
+              "vi": "Việt Nam ghi 3 điểm trong trận đấu."
+            },
+            { "en": "What's the point of arguing?", "vi": "Tranh cãi có ích gì?" }
+          ]
+        }
+      ],
+      "synonyms": ["dot", "score", "idea"],
+      "antonyms": [],
+      "collocations": [
+        "main point",
+        "point of view",
+        "starting point",
+        "good point",
+        "to the point"
+      ],
+      "etymology_hint": "From Latin 'punctum' meaning 'dot, prick' — extended to many meanings.",
+      "mnemonic_vi": "POINT = 'po-i-nt' — đa nghĩa: chấm, mũi nhọn, ý chính, điểm số. Get to the point = vào thẳng vấn đề."
+    },
+    {
+      "word": "short",
+      "lemma": "short",
+      "ipa": "/ʃɔːt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not long in length, height, or time",
+          "meaning_vi": "ngắn (chiều dài, thời gian); thấp (chiều cao)",
+          "examples": [
+            { "en": "She has short hair.", "vi": "Cô ấy tóc ngắn." },
+            {
+              "en": "It's a short walk from here to the café.",
+              "vi": "Đi bộ từ đây đến quán cà phê ngắn thôi."
+            },
+            { "en": "I took a short nap after lunch.", "vi": "Tôi chợp mắt một chút sau bữa trưa." }
+          ]
+        }
+      ],
+      "synonyms": ["brief", "small"],
+      "antonyms": ["long", "tall"],
+      "collocations": ["short hair", "short time", "short story", "in short", "short break"],
+      "etymology_hint": "From Old English 'sceort' — basic adjective for limited length.",
+      "mnemonic_vi": "SHORT = 'sót' — 'sót' (cụt). Short hair = tóc ngắn, short story = truyện ngắn."
+    },
+    {
+      "word": "long",
+      "lemma": "long",
+      "ipa": "/lɒŋ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "measuring a large length or duration",
+          "meaning_vi": "dài (chiều dài, thời gian)",
+          "examples": [
+            {
+              "en": "The Mekong is a very long river.",
+              "vi": "Sông Mekong là một con sông rất dài."
+            },
+            {
+              "en": "We had a long discussion at dinner.",
+              "vi": "Bữa tối chúng tôi bàn chuyện dài lê thê."
+            },
+            {
+              "en": "It's a long way to Sa Pa from Hà Nội.",
+              "vi": "Đường từ Hà Nội đến Sa Pa rất dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extended"],
+      "antonyms": ["short"],
+      "collocations": ["long time", "long way", "long story", "long hair", "long walk"],
+      "etymology_hint": "From Old English 'lang' — basic adjective for great length.",
+      "mnemonic_vi": "LONG = 'long' — 'lông' dài. Long hair = tóc dài, long time = thời gian dài."
+    },
+    {
+      "word": "wide",
+      "lemma": "wide",
+      "ipa": "/waɪd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "measuring much from side to side",
+          "meaning_vi": "rộng (chiều ngang)",
+          "examples": [
+            {
+              "en": "The road in front of our house is very wide.",
+              "vi": "Con đường trước nhà tôi rất rộng."
+            },
+            {
+              "en": "She opened her eyes wide in surprise.",
+              "vi": "Cô ấy mở to mắt vì ngạc nhiên."
+            },
+            { "en": "The river is two kilometres wide here.", "vi": "Sông ở đây rộng hai cây số." }
+          ]
+        }
+      ],
+      "synonyms": ["broad"],
+      "antonyms": ["narrow"],
+      "collocations": ["wide road", "wide range", "wide open", "wide eyes", "world wide"],
+      "etymology_hint": "From Old English 'wīd' — meaning 'spacious, far'.",
+      "mnemonic_vi": "WIDE = 'oai-d' — 'oai' (mở rộng). Wide road = đường rộng. Đối với NARROW."
+    },
+    {
+      "word": "narrow",
+      "lemma": "narrow",
+      "ipa": "/ˈnærəʊ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "small in width; not wide",
+          "meaning_vi": "hẹp",
+          "examples": [
+            {
+              "en": "The alleys in Phố Cổ are very narrow.",
+              "vi": "Các ngõ trong Phố Cổ rất hẹp."
+            },
+            { "en": "She squeezed through the narrow door.", "vi": "Cô ấy lách qua cánh cửa hẹp." },
+            { "en": "This shirt is too narrow at the shoulders.", "vi": "Áo này hẹp ở vai." }
+          ]
+        }
+      ],
+      "synonyms": ["thin", "tight"],
+      "antonyms": ["wide", "broad"],
+      "collocations": [
+        "narrow road",
+        "narrow alley",
+        "narrow view",
+        "narrow escape",
+        "very narrow"
+      ],
+      "etymology_hint": "From Old English 'nearu' — meaning 'tight, restricted'.",
+      "mnemonic_vi": "NARROW = 'na-râu' — 'né' (lách) qua chỗ hẹp. Narrow alley = ngõ hẹp."
+    },
+    {
+      "word": "tall",
+      "lemma": "tall",
+      "ipa": "/tɔːl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a great height (people, buildings, trees)",
+          "meaning_vi": "cao (người, toà nhà, cây)",
+          "examples": [
+            {
+              "en": "Landmark 81 is the tallest building in Vietnam.",
+              "vi": "Landmark 81 là toà nhà cao nhất Việt Nam."
+            },
+            { "en": "He's tall — over 1m85.", "vi": "Anh ấy cao — trên 1m85." },
+            { "en": "We sat under a tall coconut tree.", "vi": "Chúng tôi ngồi dưới cây dừa cao." }
+          ]
+        }
+      ],
+      "synonyms": ["high"],
+      "antonyms": ["short"],
+      "collocations": ["tall building", "very tall", "tall tree", "stand tall", "tall person"],
+      "etymology_hint": "From Old English 'getæl' meaning 'swift, well-shaped' — meaning narrowed to 'high'.",
+      "mnemonic_vi": "TALL = 'tôn' — 'tôn cao' lên. Tall building = toà cao. Đối với SHORT (thấp)."
+    },
+    {
+      "word": "deep",
+      "lemma": "deep",
+      "ipa": "/diːp/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "going far down from the top or surface",
+          "meaning_vi": "sâu (xuống dưới)",
+          "examples": [
+            { "en": "The lake at Đà Lạt is very deep.", "vi": "Hồ ở Đà Lạt rất sâu." },
+            { "en": "She has a deep voice.", "vi": "Cô ấy có giọng trầm." },
+            { "en": "He fell into a deep sleep.", "vi": "Anh ấy chìm vào giấc ngủ sâu." }
+          ]
+        }
+      ],
+      "synonyms": ["profound"],
+      "antonyms": ["shallow"],
+      "collocations": ["deep sleep", "deep water", "deep voice", "deep feeling", "in deep"],
+      "etymology_hint": "From Old English 'dēop' — basic adjective for depth.",
+      "mnemonic_vi": "DEEP = 'đíp' — 'đíp' (chìm) sâu. Deep water = nước sâu, deep voice = giọng trầm."
+    },
+    {
+      "word": "shallow",
+      "lemma": "shallow",
+      "ipa": "/ˈʃæləʊ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not deep; only going a little way down",
+          "meaning_vi": "nông, không sâu",
+          "examples": [
+            {
+              "en": "Kids play in the shallow part of the pool.",
+              "vi": "Trẻ con chơi ở phần nông của bể bơi."
+            },
+            {
+              "en": "The river is shallow here — you can walk across.",
+              "vi": "Sông ở đây nông — có thể lội qua."
+            },
+            {
+              "en": "She took a shallow breath and started to sing.",
+              "vi": "Cô ấy hít một hơi nhẹ rồi bắt đầu hát."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["deep"],
+      "collocations": [
+        "shallow water",
+        "shallow river",
+        "shallow end",
+        "shallow breath",
+        "very shallow"
+      ],
+      "etymology_hint": "From Middle English 'schalowe' — 'not deep, near the surface'.",
+      "mnemonic_vi": "SHALLOW = 'sha-lâu' — 'sa' (cạn) 'lầu' (ít). Đối với DEEP. Shallow water = nước cạn."
+    },
+    {
+      "word": "rectangle",
+      "lemma": "rectangle",
+      "ipa": "/ˈrektæŋɡl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a shape with four straight sides and four right angles",
+          "meaning_vi": "hình chữ nhật",
+          "examples": [
+            {
+              "en": "A textbook is usually a rectangle.",
+              "vi": "Cuốn sách giáo khoa thường là hình chữ nhật."
+            },
+            {
+              "en": "Draw a rectangle around the title.",
+              "vi": "Vẽ một hình chữ nhật quanh tiêu đề."
+            },
+            {
+              "en": "The phone screen is a tall rectangle.",
+              "vi": "Màn hình điện thoại là hình chữ nhật dọc."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "draw a rectangle",
+        "rectangle shape",
+        "perfect rectangle",
+        "long rectangle",
+        "rectangle area"
+      ],
+      "etymology_hint": "From Latin 'rectus' (straight) + 'angulus' (angle) → 'right angles'.",
+      "mnemonic_vi": "RECTANGLE = RECT (thẳng) + ANGLE (góc) → 'góc vuông' = hình chữ nhật."
+    },
+    {
+      "word": "oval",
+      "lemma": "oval",
+      "ipa": "/ˈəʊvl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "shaped like an egg or a stretched circle",
+          "meaning_vi": "hình bầu dục, hình ô van",
+          "examples": [
+            { "en": "Her face is oval, not round.", "vi": "Khuôn mặt cô ấy bầu dục, không tròn." },
+            { "en": "The dining table at home is oval.", "vi": "Cái bàn ăn ở nhà hình bầu dục." },
+            { "en": "Eggs have an oval shape.", "vi": "Quả trứng có hình bầu dục." }
+          ]
+        }
+      ],
+      "synonyms": ["egg-shaped"],
+      "antonyms": [],
+      "collocations": ["oval shape", "oval face", "oval table", "oval office", "perfect oval"],
+      "etymology_hint": "From Latin 'ovum' meaning 'egg' — anything egg-shaped is 'oval'.",
+      "mnemonic_vi": "OVAL = 'âu-vồ' — 'ô' (giống) trứng. Eggs are oval = trứng hình ô van."
+    },
+    {
+      "word": "sharp",
+      "lemma": "sharp",
+      "ipa": "/ʃɑːp/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "having a thin, fine edge that can cut; quick and clear",
+          "meaning_vi": "sắc, nhọn; rõ, tinh anh",
+          "examples": [
+            { "en": "Be careful — this knife is very sharp.", "vi": "Cẩn thận — dao này rất sắc." },
+            {
+              "en": "She has a sharp mind for business.",
+              "vi": "Cô ấy có đầu óc nhạy bén về kinh doanh."
+            },
+            { "en": "Meet me at 8 o'clock sharp.", "vi": "Gặp tôi đúng 8 giờ nhé." }
+          ]
+        }
+      ],
+      "synonyms": ["pointed", "keen"],
+      "antonyms": ["blunt", "dull"],
+      "collocations": ["sharp knife", "sharp mind", "sharp pain", "sharp eye", "8 o'clock sharp"],
+      "etymology_hint": "From Old English 'scearp' — basic adjective for cutting edge.",
+      "mnemonic_vi": "SHARP = 'shắp' — 'sắc' (đâm sắt). Sharp knife = dao bén, sharp mind = đầu óc sắc."
+    },
+    {
+      "word": "smooth",
+      "lemma": "smooth",
+      "ipa": "/smuːð/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "even and flat on the surface, not rough; without problems",
+          "meaning_vi": "trơn, mượt; suôn sẻ",
+          "examples": [
+            {
+              "en": "The road to Đà Lạt is now very smooth.",
+              "vi": "Đường lên Đà Lạt giờ rất mượt."
+            },
+            { "en": "Her skin is smooth as silk.", "vi": "Da cô ấy mượt như lụa." },
+            { "en": "The meeting went smooth.", "vi": "Cuộc họp diễn ra suôn sẻ." }
+          ]
+        }
+      ],
+      "synonyms": ["even", "soft"],
+      "antonyms": ["rough", "bumpy"],
+      "collocations": [
+        "smooth surface",
+        "smooth skin",
+        "smooth ride",
+        "go smooth",
+        "as smooth as silk"
+      ],
+      "etymology_hint": "From Old English 'smōth' — meaning 'free from roughness'.",
+      "mnemonic_vi": "SMOOTH = 'smúz' — 'sờ mượt'. Smooth skin = da mượt, smooth road = đường êm."
+    },
+    {
+      "word": "curved",
+      "lemma": "curved",
+      "ipa": "/kɜːvd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "having a smooth bending shape, not straight",
+          "meaning_vi": "cong, uốn cong",
+          "examples": [
+            {
+              "en": "The bridge has a beautiful curved shape.",
+              "vi": "Cây cầu có hình dáng cong đẹp."
+            },
+            {
+              "en": "She drew a curved line on the page.",
+              "vi": "Cô ấy vẽ một đường cong trên giấy."
+            },
+            { "en": "The sword has a curved blade.", "vi": "Thanh kiếm có lưỡi cong." }
+          ]
+        }
+      ],
+      "synonyms": ["bent", "rounded"],
+      "antonyms": ["straight"],
+      "collocations": [
+        "curved line",
+        "curved shape",
+        "gently curved",
+        "curved blade",
+        "curved roof"
+      ],
+      "etymology_hint": "Past participle of 'curve' (Latin 'curvare' = to bend).",
+      "mnemonic_vi": "CURVED = 'kơ-vd' — 'cờ vênh' (cong). Curved line = đường cong. Đối với STRAIGHT."
+    }
+  ]
+}

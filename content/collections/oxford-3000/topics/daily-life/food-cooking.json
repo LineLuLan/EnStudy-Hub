@@ -1,0 +1,604 @@
+{
+  "slug": "food-cooking",
+  "name": "Food & Cooking",
+  "description": "Nấu ăn, hương vị và đồ dùng nhà bếp — bộ từ mở rộng cho food-meals.",
+  "order_index": 8,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "cook",
+      "lemma": "cook",
+      "ipa": "/kʊk/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to prepare food using heat",
+          "meaning_vi": "nấu ăn, nấu",
+          "examples": [
+            {
+              "en": "My mom cooks bún chả every Sunday.",
+              "vi": "Mẹ tôi nấu bún chả mỗi Chủ nhật."
+            },
+            {
+              "en": "He can't cook, but he can order Grab Food.",
+              "vi": "Anh ấy không biết nấu, nhưng biết gọi Grab Food."
+            },
+            { "en": "Let me cook dinner for you tonight.", "vi": "Để tôi nấu bữa tối cho bạn nhé." }
+          ]
+        }
+      ],
+      "synonyms": ["prepare"],
+      "antonyms": [],
+      "collocations": ["cook a meal", "cook dinner", "learn to cook", "cook well", "home-cooked"],
+      "etymology_hint": "From Old English 'cōc' — verb derived from 'cook' (the person who cooks).",
+      "mnemonic_vi": "COOK = 'cúc' — 'cụp' (úp nồi). Cook dinner = nấu tối. Cũng là danh từ: a cook = đầu bếp."
+    },
+    {
+      "word": "taste",
+      "lemma": "taste",
+      "ipa": "/teɪst/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to try food or drink with your mouth; to have a flavor",
+          "meaning_vi": "nếm; có vị",
+          "examples": [
+            {
+              "en": "Taste the phở before adding more salt.",
+              "vi": "Nếm phở trước khi thêm muối."
+            },
+            { "en": "This bánh xèo tastes amazing.", "vi": "Bánh xèo này ngon tuyệt." },
+            { "en": "She has good taste in food.", "vi": "Cô ấy có khẩu vị tốt." }
+          ]
+        }
+      ],
+      "synonyms": ["try", "sample"],
+      "antonyms": [],
+      "collocations": ["taste good", "taste bad", "have a taste", "taste like", "in good taste"],
+      "etymology_hint": "From Old French 'taster' — meaning 'to touch, test'.",
+      "mnemonic_vi": "TASTE = 'tệst' — 'tét' lưỡi nếm. Tastes good = vị ngon. Cũng là danh từ: a taste of phở."
+    },
+    {
+      "word": "smell",
+      "lemma": "smell",
+      "ipa": "/smel/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to notice or recognize a scent; to have a particular odor",
+          "meaning_vi": "ngửi; có mùi",
+          "examples": [
+            {
+              "en": "I smell something delicious coming from the kitchen.",
+              "vi": "Tôi ngửi thấy mùi gì ngon từ bếp bay ra."
+            },
+            { "en": "Durian smells very strong.", "vi": "Sầu riêng có mùi rất nồng." },
+            { "en": "The flowers smell wonderful.", "vi": "Hoa thơm tuyệt vời." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["smell good", "smell bad", "smell of", "strong smell", "sense of smell"],
+      "etymology_hint": "From Middle English 'smellen' — origin uncertain.",
+      "mnemonic_vi": "SMELL = 'smel' — 'sờ-mền' (mũi cảm). Smell good = thơm. Smells fishy = có gì đó kỳ lạ."
+    },
+    {
+      "word": "sweet",
+      "lemma": "sweet",
+      "ipa": "/swiːt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a sugary taste; pleasant or kind",
+          "meaning_vi": "ngọt (vị); dễ thương (tính cách)",
+          "examples": [
+            {
+              "en": "This cà phê sữa is too sweet for me.",
+              "vi": "Cà phê sữa này ngọt quá với tôi."
+            },
+            { "en": "Mangoes from Cát Chu are very sweet.", "vi": "Xoài cát Chu rất ngọt." },
+            { "en": "She is such a sweet person.", "vi": "Cô ấy là người dễ thương thật sự." }
+          ]
+        }
+      ],
+      "synonyms": ["sugary"],
+      "antonyms": ["sour", "bitter"],
+      "collocations": ["sweet taste", "sweet smile", "too sweet", "sweet dreams", "sweet potato"],
+      "etymology_hint": "From Old English 'swēte' — basic taste adjective + figurative 'pleasant'.",
+      "mnemonic_vi": "SWEET = 'sờ-uít' — 'sướng vị'. Sweet mango = xoài ngọt. Sweet person = người dễ thương."
+    },
+    {
+      "word": "sour",
+      "lemma": "sour",
+      "ipa": "/ˈsaʊə(r)/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a sharp taste like lemon or vinegar",
+          "meaning_vi": "chua",
+          "examples": [
+            { "en": "Lemons taste very sour.", "vi": "Quả chanh có vị rất chua." },
+            {
+              "en": "Vietnamese canh chua is a sour soup.",
+              "vi": "Canh chua Việt Nam là món canh có vị chua."
+            },
+            { "en": "The milk has gone sour.", "vi": "Sữa đã bị chua." }
+          ]
+        }
+      ],
+      "synonyms": ["tart"],
+      "antonyms": ["sweet"],
+      "collocations": ["sour taste", "go sour", "sweet and sour", "sour milk", "sour cream"],
+      "etymology_hint": "From Old English 'sūr' — basic taste word.",
+      "mnemonic_vi": "SOUR = 'sao-ờ' — 'chua' nhăn mặt. Sweet and sour pork = thịt chua ngọt."
+    },
+    {
+      "word": "salty",
+      "lemma": "salty",
+      "ipa": "/ˈsɔːlti/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "containing salt; tasting of salt",
+          "meaning_vi": "mặn",
+          "examples": [
+            { "en": "This soup is too salty.", "vi": "Canh này mặn quá." },
+            { "en": "Nước mắm is very salty.", "vi": "Nước mắm có vị mặn." },
+            { "en": "Don't eat too much salty food.", "vi": "Đừng ăn quá nhiều đồ mặn." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["bland"],
+      "collocations": ["too salty", "salty taste", "salty food", "salty snacks", "salty water"],
+      "etymology_hint": "From 'salt' (Old English 'sealt') + '-y' (full of) → 'having salt'.",
+      "mnemonic_vi": "SALTY = SALT + Y → 'có muối' = mặn. Salty food = đồ mặn."
+    },
+    {
+      "word": "bitter",
+      "lemma": "bitter",
+      "ipa": "/ˈbɪtə(r)/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a sharp, unpleasant taste like strong coffee",
+          "meaning_vi": "đắng",
+          "examples": [
+            { "en": "Black coffee can be very bitter.", "vi": "Cà phê đen có thể rất đắng." },
+            { "en": "Mướp đắng has a bitter taste.", "vi": "Mướp đắng có vị đắng." },
+            {
+              "en": "She remembers his bitter words.",
+              "vi": "Cô ấy nhớ những lời cay đắng của anh ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["sweet"],
+      "collocations": [
+        "bitter taste",
+        "bitter coffee",
+        "bitter memory",
+        "bitter cold",
+        "sweet and bitter"
+      ],
+      "etymology_hint": "From Old English 'biter' — meaning 'sharp, painful' — both physical and emotional.",
+      "mnemonic_vi": "BITTER = 'bí-tờ' — 'bị tệ' đắng miệng. Bitter coffee = cà phê đắng. Cũng nghĩa cay đắng tinh thần."
+    },
+    {
+      "word": "fresh",
+      "lemma": "fresh",
+      "ipa": "/freʃ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "newly made, picked, or arrived; not old or spoiled",
+          "meaning_vi": "tươi (mới); trong lành",
+          "examples": [
+            { "en": "I want to buy some fresh bánh mì.", "vi": "Tôi muốn mua bánh mì mới ra lò." },
+            { "en": "The seafood at the market is very fresh.", "vi": "Hải sản ở chợ rất tươi." },
+            {
+              "en": "Let's get some fresh air outside.",
+              "vi": "Ra ngoài hít thở không khí trong lành đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["new"],
+      "antonyms": ["stale", "old"],
+      "collocations": ["fresh fruit", "fresh air", "fresh bread", "stay fresh", "fresh from"],
+      "etymology_hint": "From Old French 'fres' — meaning 'cool, recently made'.",
+      "mnemonic_vi": "FRESH = 'phờ-rếch' — 'phơi đỏ' (mới). Fresh bread = bánh mì mới, fresh air = không khí tươi."
+    },
+    {
+      "word": "dish",
+      "lemma": "dish",
+      "ipa": "/dɪʃ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a particular type of food prepared in a meal; a shallow container for food",
+          "meaning_vi": "món ăn; cái đĩa (đựng đồ ăn)",
+          "examples": [
+            {
+              "en": "Phở is a traditional Vietnamese dish.",
+              "vi": "Phở là một món ăn truyền thống Việt Nam."
+            },
+            {
+              "en": "Please wash the dishes after dinner.",
+              "vi": "Vui lòng rửa chén sau bữa tối."
+            },
+            {
+              "en": "She tried five new dishes at the buffet.",
+              "vi": "Cô ấy thử năm món mới ở tiệc buffet."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meal", "plate"],
+      "antonyms": [],
+      "collocations": [
+        "main dish",
+        "side dish",
+        "wash the dishes",
+        "favourite dish",
+        "signature dish"
+      ],
+      "etymology_hint": "From Latin 'discus' — same root as 'desk' and 'disc'.",
+      "mnemonic_vi": "DISH = 'đít-sh' — 'đít sờ' (đĩa). Đa nghĩa: món ăn (favourite dish) + cái đĩa (wash dishes)."
+    },
+    {
+      "word": "plate",
+      "lemma": "plate",
+      "ipa": "/pleɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a flat round dish for eating food",
+          "meaning_vi": "cái đĩa (dẹt, tròn)",
+          "examples": [
+            { "en": "Put the rice on a clean plate.", "vi": "Cho cơm lên đĩa sạch." },
+            { "en": "She broke a plate while washing up.", "vi": "Cô ấy làm vỡ đĩa khi rửa chén." },
+            {
+              "en": "License plate numbers in Việt Nam follow a pattern.",
+              "vi": "Biển số xe ở Việt Nam có quy tắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dish"],
+      "antonyms": [],
+      "collocations": [
+        "clean plate",
+        "license plate",
+        "paper plate",
+        "plate of food",
+        "empty plate"
+      ],
+      "etymology_hint": "From Old French 'plate' meaning 'flat thin piece'.",
+      "mnemonic_vi": "PLATE = 'plết' — 'phẳng lét'. A plate of rice = đĩa cơm. License plate = biển số."
+    },
+    {
+      "word": "bowl",
+      "lemma": "bowl",
+      "ipa": "/bəʊl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a deep round dish for soup, rice, or noodles",
+          "meaning_vi": "cái bát, tô",
+          "examples": [
+            {
+              "en": "I had a big bowl of phở this morning.",
+              "vi": "Sáng nay tôi ăn một tô phở to."
+            },
+            {
+              "en": "Each person gets a small bowl of rice.",
+              "vi": "Mỗi người được một bát cơm nhỏ."
+            },
+            { "en": "She washed the bowl after dinner.", "vi": "Cô ấy rửa cái bát sau bữa tối." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["bowl of rice", "bowl of soup", "small bowl", "big bowl", "rice bowl"],
+      "etymology_hint": "From Old English 'bolla' — basic deep dish word.",
+      "mnemonic_vi": "BOWL = 'bâu-l' — 'bồ' (sâu, cong). Khác PLATE (dẹt), BOWL = sâu. A bowl of phở = tô phở."
+    },
+    {
+      "word": "fork",
+      "lemma": "fork",
+      "ipa": "/fɔːk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small tool with prongs for picking up food",
+          "meaning_vi": "cái nĩa",
+          "examples": [
+            { "en": "Use a fork to eat the spaghetti.", "vi": "Dùng nĩa ăn mì Ý." },
+            {
+              "en": "May I have a fork and knife, please?",
+              "vi": "Cho tôi nĩa và dao được không?"
+            },
+            {
+              "en": "Vietnamese people use chopsticks more than forks.",
+              "vi": "Người Việt dùng đũa nhiều hơn nĩa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use a fork",
+        "fork and knife",
+        "salad fork",
+        "dinner fork",
+        "fork in the road"
+      ],
+      "etymology_hint": "From Latin 'furca' meaning 'pitchfork' — extended to dining utensil.",
+      "mnemonic_vi": "FORK = 'phoóc' — 'phọc' (xiên) thức ăn. Fork and knife = nĩa và dao."
+    },
+    {
+      "word": "spoon",
+      "lemma": "spoon",
+      "ipa": "/spuːn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small tool with a round end for eating soup or stirring",
+          "meaning_vi": "cái thìa, muỗng",
+          "examples": [
+            { "en": "Eat phở with a spoon and chopsticks.", "vi": "Ăn phở bằng thìa và đũa." },
+            { "en": "Add a spoon of sugar to your tea.", "vi": "Thêm một thìa đường vào trà." },
+            { "en": "She stirred her coffee with a spoon.", "vi": "Cô ấy khuấy cà phê bằng thìa." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["use a spoon", "soup spoon", "tea spoon", "wooden spoon", "spoon of sugar"],
+      "etymology_hint": "From Old Norse 'spánn' meaning 'chip, shaving' — original spoons were carved chips of wood.",
+      "mnemonic_vi": "SPOON = 'spún' — 'súp' (múc súp). Soup spoon = thìa canh, teaspoon = thìa trà."
+    },
+    {
+      "word": "knife",
+      "lemma": "knife",
+      "ipa": "/naɪf/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a tool with a sharp blade for cutting",
+          "meaning_vi": "con dao",
+          "examples": [
+            { "en": "Cut the mango with a sharp knife.", "vi": "Cắt xoài bằng dao sắc." },
+            {
+              "en": "She bought a knife set for her new kitchen.",
+              "vi": "Cô ấy mua bộ dao cho căn bếp mới."
+            },
+            { "en": "Be careful — that knife is very sharp.", "vi": "Cẩn thận — dao đó rất sắc." }
+          ]
+        }
+      ],
+      "synonyms": ["blade"],
+      "antonyms": [],
+      "collocations": [
+        "sharp knife",
+        "kitchen knife",
+        "knife and fork",
+        "cut with a knife",
+        "pocket knife"
+      ],
+      "etymology_hint": "From Old Norse 'knīfr' — silent 'k' once pronounced.",
+      "mnemonic_vi": "KNIFE = 'nai-f' — silent K. 'Nài' (cứa) thức ăn. Plural: knives."
+    },
+    {
+      "word": "chopsticks",
+      "lemma": "chopsticks",
+      "ipa": "/ˈtʃɒpstɪks/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "two thin sticks used to pick up food, common in Asian cultures",
+          "meaning_vi": "đôi đũa",
+          "examples": [
+            { "en": "Vietnamese people eat with chopsticks.", "vi": "Người Việt ăn bằng đũa." },
+            {
+              "en": "I'm learning to use chopsticks properly.",
+              "vi": "Tôi đang học cách dùng đũa cho đúng."
+            },
+            { "en": "She bought wooden chopsticks at the market.", "vi": "Cô ấy mua đũa gỗ ở chợ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use chopsticks",
+        "pair of chopsticks",
+        "wooden chopsticks",
+        "hold chopsticks",
+        "with chopsticks"
+      ],
+      "etymology_hint": "Compound 'chop' (pidgin English for 'quick') + 'stick' — borrowed from Chinese-English trade.",
+      "mnemonic_vi": "CHOPSTICKS = CHOP (cắt nhanh) + STICKS (que) → 'que ăn nhanh' = đũa. Luôn dùng số nhiều."
+    },
+    {
+      "word": "fry",
+      "lemma": "fry",
+      "ipa": "/fraɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to cook in hot oil or fat",
+          "meaning_vi": "chiên, rán",
+          "examples": [
+            {
+              "en": "She fries eggs every morning for breakfast.",
+              "vi": "Cô ấy chiên trứng cho bữa sáng mỗi ngày."
+            },
+            {
+              "en": "Vietnamese spring rolls are fried until crispy.",
+              "vi": "Chả giò Việt Nam được chiên giòn."
+            },
+            {
+              "en": "Don't fry food in oil that's too hot.",
+              "vi": "Đừng chiên đồ ăn trong dầu quá nóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["fry eggs", "deep fry", "stir fry", "fried rice", "fried chicken"],
+      "etymology_hint": "From Latin 'frigere' meaning 'to roast'.",
+      "mnemonic_vi": "FRY = 'phrai' — 'phơi' trong dầu. Fried rice = cơm chiên, fried chicken = gà rán."
+    },
+    {
+      "word": "boil",
+      "lemma": "boil",
+      "ipa": "/bɔɪl/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to heat liquid until bubbles form; to cook in hot water",
+          "meaning_vi": "đun sôi; luộc",
+          "examples": [
+            { "en": "Boil the water before drinking.", "vi": "Đun sôi nước trước khi uống." },
+            { "en": "She boiled the eggs for 10 minutes.", "vi": "Cô ấy luộc trứng 10 phút." },
+            {
+              "en": "Vietnamese family meals often include boiled vegetables.",
+              "vi": "Bữa cơm gia đình Việt thường có rau luộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["boil water", "boil eggs", "bring to a boil", "hard boiled", "boiling hot"],
+      "etymology_hint": "From Latin 'bullire' meaning 'to bubble'.",
+      "mnemonic_vi": "BOIL = 'boi-l' — 'bồi-l' (sôi sủi bọt). Boil eggs = luộc trứng, boiling water = nước sôi."
+    },
+    {
+      "word": "bake",
+      "lemma": "bake",
+      "ipa": "/beɪk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to cook food in an oven using dry heat",
+          "meaning_vi": "nướng (trong lò)",
+          "examples": [
+            {
+              "en": "She baked a birthday cake for her son.",
+              "vi": "Cô ấy nướng bánh sinh nhật cho con trai."
+            },
+            {
+              "en": "Bánh mì is baked fresh every morning.",
+              "vi": "Bánh mì được nướng mới mỗi sáng."
+            },
+            { "en": "I love the smell of baked bread.", "vi": "Tôi thích mùi bánh mì mới nướng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["bake a cake", "bake bread", "freshly baked", "baked goods", "bake at"],
+      "etymology_hint": "From Old English 'bacan' — basic verb for oven cooking.",
+      "mnemonic_vi": "BAKE = 'bệch' — 'bếch' (đặt lò). Baked bread = bánh mì nướng. Khác FRY (chiên dầu)."
+    },
+    {
+      "word": "recipe",
+      "lemma": "recipe",
+      "ipa": "/ˈresəpi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "instructions for cooking a dish",
+          "meaning_vi": "công thức nấu ăn",
+          "examples": [
+            {
+              "en": "My grandmother's phở recipe is a family secret.",
+              "vi": "Công thức phở của bà tôi là bí mật gia đình."
+            },
+            {
+              "en": "I found a good bún bò recipe on YouTube.",
+              "vi": "Tôi tìm được công thức bún bò ngon trên YouTube."
+            },
+            { "en": "Follow the recipe carefully.", "vi": "Làm theo công thức cẩn thận." }
+          ]
+        }
+      ],
+      "synonyms": ["formula"],
+      "antonyms": [],
+      "collocations": [
+        "follow a recipe",
+        "family recipe",
+        "secret recipe",
+        "cooking recipe",
+        "recipe book"
+      ],
+      "etymology_hint": "From Latin 'recipe' meaning 'take' — originally written on doctors' prescriptions.",
+      "mnemonic_vi": "RECIPE = 'rép-sờ-pi' — 'rếp xi pi' (RXP) như đơn thuốc. Recipe book = sách công thức."
+    },
+    {
+      "word": "ingredient",
+      "lemma": "ingredient",
+      "ipa": "/ɪnˈɡriːdiənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of the foods or substances used to make a dish",
+          "meaning_vi": "nguyên liệu, thành phần",
+          "examples": [
+            {
+              "en": "Phở needs many ingredients: bones, spices, herbs.",
+              "vi": "Phở cần nhiều nguyên liệu: xương, gia vị, rau thơm."
+            },
+            {
+              "en": "Fresh ingredients make the best food.",
+              "vi": "Nguyên liệu tươi làm nên đồ ăn ngon nhất."
+            },
+            {
+              "en": "She listed all the ingredients on the bag.",
+              "vi": "Cô ấy liệt kê tất cả nguyên liệu trên bao bì."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["component"],
+      "antonyms": [],
+      "collocations": [
+        "fresh ingredient",
+        "main ingredient",
+        "list of ingredients",
+        "secret ingredient",
+        "natural ingredients"
+      ],
+      "etymology_hint": "From Latin 'ingrediens' meaning 'entering' — what 'enters into' a recipe.",
+      "mnemonic_vi": "INGREDIENT = 'in-gri-đần' — 'in vô' (đi vào) món ăn. Main ingredient = nguyên liệu chính."
+    }
+  ]
+}

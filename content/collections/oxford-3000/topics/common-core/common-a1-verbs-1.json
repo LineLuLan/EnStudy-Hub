@@ -1,0 +1,571 @@
+{
+  "slug": "common-a1-verbs-1",
+  "name": "Common A1 Verbs (Set 1)",
+  "description": "Bộ 20 động từ A1 phổ biến nhưng chưa được phủ — accept, allow, buy, change và 16 từ khác.",
+  "order_index": 13,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "accept",
+      "lemma": "accept",
+      "ipa": "/əkˈsept/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to take something offered; to say yes to an invitation",
+          "meaning_vi": "chấp nhận, nhận",
+          "examples": [
+            { "en": "She accepted the job at FPT.", "vi": "Cô ấy nhận lời làm ở FPT." },
+            { "en": "I accept your apology.", "vi": "Tôi chấp nhận lời xin lỗi của bạn." },
+            {
+              "en": "Most shops accept credit cards.",
+              "vi": "Hầu hết cửa hàng chấp nhận thẻ tín dụng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agree to", "receive"],
+      "antonyms": ["refuse", "reject"],
+      "collocations": [
+        "accept an offer",
+        "accept the truth",
+        "accept payment",
+        "accept an invitation",
+        "accept responsibility"
+      ],
+      "etymology_hint": "From Latin 'acceptare' = 'ad-' (to) + 'capere' (take) → 'take towards oneself'.",
+      "mnemonic_vi": "ACCEPT = 'ặc-sép' — 'ặc' (ừ) nhận. Đối với REFUSE. Accept the offer = nhận lời mời."
+    },
+    {
+      "word": "allow",
+      "lemma": "allow",
+      "ipa": "/əˈlaʊ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to let someone do something; to give permission",
+          "meaning_vi": "cho phép",
+          "examples": [
+            {
+              "en": "Smoking is not allowed in the café.",
+              "vi": "Không được hút thuốc trong quán cà phê."
+            },
+            {
+              "en": "My parents allow me to study abroad.",
+              "vi": "Bố mẹ tôi cho phép tôi đi du học."
+            },
+            { "en": "Please allow me to introduce myself.", "vi": "Cho phép tôi tự giới thiệu." }
+          ]
+        }
+      ],
+      "synonyms": ["permit", "let"],
+      "antonyms": ["forbid", "prevent"],
+      "collocations": ["allow to", "not allowed", "allow access", "allow time", "be allowed"],
+      "etymology_hint": "From Old French 'aloer' — meaning 'to assign, grant'.",
+      "mnemonic_vi": "ALLOW = 'ờ-lao' — 'à, lào' (ừ rồi). Allow you to leave = cho bạn đi. Not allowed = không được phép."
+    },
+    {
+      "word": "buy",
+      "lemma": "buy",
+      "ipa": "/baɪ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to get something by paying money for it",
+          "meaning_vi": "mua",
+          "examples": [
+            { "en": "I want to buy a new motorbike.", "vi": "Tôi muốn mua xe máy mới." },
+            { "en": "She bought bánh mì for everyone.", "vi": "Cô ấy mua bánh mì cho mọi người." },
+            { "en": "Where did you buy these shoes?", "vi": "Bạn mua đôi giày này ở đâu?" }
+          ]
+        }
+      ],
+      "synonyms": ["purchase"],
+      "antonyms": ["sell"],
+      "collocations": ["buy a", "buy online", "buy and sell", "buy in bulk", "buy a gift"],
+      "etymology_hint": "From Old English 'bycgan' — basic commerce verb.",
+      "mnemonic_vi": "BUY = 'bai' — 'bải' (móc ví trả tiền). Past: bought. Đối với SELL (bán)."
+    },
+    {
+      "word": "change",
+      "lemma": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to become or make different; to replace one thing with another",
+          "meaning_vi": "thay đổi, đổi",
+          "examples": [
+            {
+              "en": "Vietnam has changed a lot in 20 years.",
+              "vi": "Việt Nam đã thay đổi nhiều trong 20 năm."
+            },
+            { "en": "She changed her job last month.", "vi": "Tháng trước cô ấy đổi việc." },
+            {
+              "en": "I need to change clothes before dinner.",
+              "vi": "Tôi cần thay đồ trước bữa tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alter", "modify"],
+      "antonyms": ["stay", "remain"],
+      "collocations": [
+        "change clothes",
+        "change your mind",
+        "change jobs",
+        "for a change",
+        "change of plan"
+      ],
+      "etymology_hint": "From Old French 'changer' — from Latin 'cambiare' (to exchange).",
+      "mnemonic_vi": "CHANGE = 'chên-dờ' — 'chuyển'. Change clothes = thay đồ, change mind = đổi ý."
+    },
+    {
+      "word": "choose",
+      "lemma": "choose",
+      "ipa": "/tʃuːz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to pick one from several options",
+          "meaning_vi": "chọn, lựa chọn",
+          "examples": [
+            {
+              "en": "Choose any dish from the menu.",
+              "vi": "Chọn món nào cũng được trên thực đơn."
+            },
+            { "en": "She chose to study in Đà Nẵng.", "vi": "Cô ấy chọn học ở Đà Nẵng." },
+            {
+              "en": "It's hard to choose between phở and bún bò.",
+              "vi": "Khó chọn giữa phở và bún bò."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pick", "select"],
+      "antonyms": [],
+      "collocations": [
+        "choose to",
+        "choose between",
+        "choose wisely",
+        "choose carefully",
+        "free to choose"
+      ],
+      "etymology_hint": "From Old English 'cēosan' — basic verb of selection.",
+      "mnemonic_vi": "CHOOSE = 'chu-z' — 'chú' (chỉ tay chọn). Past: chose, chosen. Choose wisely!"
+    },
+    {
+      "word": "close",
+      "lemma": "close",
+      "ipa": "/kləʊz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to shut something; to make a door/window not open",
+          "meaning_vi": "đóng (cửa, sách); kết thúc",
+          "examples": [
+            { "en": "Please close the door behind you.", "vi": "Xin đóng cửa sau khi vào." },
+            { "en": "The bank closes at 4pm.", "vi": "Ngân hàng đóng cửa lúc 4 giờ chiều." },
+            { "en": "She closed her eyes and made a wish.", "vi": "Cô ấy nhắm mắt và ước." }
+          ]
+        }
+      ],
+      "synonyms": ["shut"],
+      "antonyms": ["open"],
+      "collocations": [
+        "close the door",
+        "close your eyes",
+        "close a deal",
+        "close a shop",
+        "close down"
+      ],
+      "etymology_hint": "From Latin 'claudere' meaning 'to shut'.",
+      "mnemonic_vi": "CLOSE = 'clâu-z' — 'cùm' (đậy lại). Close the door = đóng cửa. Đối với OPEN."
+    },
+    {
+      "word": "end",
+      "lemma": "end",
+      "ipa": "/end/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to finish; to stop happening",
+          "meaning_vi": "kết thúc, chấm dứt",
+          "examples": [
+            { "en": "The movie ends at 10pm.", "vi": "Bộ phim kết thúc lúc 10 giờ tối." },
+            {
+              "en": "Their friendship ended after a fight.",
+              "vi": "Tình bạn họ kết thúc sau một trận cãi nhau."
+            },
+            {
+              "en": "The meeting ended with a handshake.",
+              "vi": "Cuộc họp kết thúc bằng cái bắt tay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finish", "conclude"],
+      "antonyms": ["begin", "start"],
+      "collocations": ["end up", "the end", "end in", "happy ending", "at the end"],
+      "etymology_hint": "From Old English 'endian' — basic verb of finishing.",
+      "mnemonic_vi": "END = 'en-d' — 'ấn-d' (chốt cuối). The end = kết thúc. Also danh từ: the end of the road."
+    },
+    {
+      "word": "help",
+      "lemma": "help",
+      "ipa": "/help/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to do something to make things easier for someone",
+          "meaning_vi": "giúp, giúp đỡ",
+          "examples": [
+            {
+              "en": "Can you help me carry these bags?",
+              "vi": "Bạn giúp tôi xách mấy túi này được không?"
+            },
+            { "en": "She helped her grandmother cook lunch.", "vi": "Cô ấy giúp bà nấu bữa trưa." },
+            {
+              "en": "This app helps me learn Vietnamese.",
+              "vi": "Ứng dụng này giúp tôi học tiếng Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assist", "aid"],
+      "antonyms": [],
+      "collocations": ["help with", "help out", "help yourself", "ask for help", "need help"],
+      "etymology_hint": "From Old English 'helpan' — basic verb of assistance.",
+      "mnemonic_vi": "HELP = 'help' — 'hếp' (đỡ tay). Help me = giúp tôi. Help yourself = tự nhiên."
+    },
+    {
+      "word": "keep",
+      "lemma": "keep",
+      "ipa": "/kiːp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to have or hold something; to continue doing",
+          "meaning_vi": "giữ; tiếp tục",
+          "examples": [
+            {
+              "en": "Please keep this gift — it's for you.",
+              "vi": "Hãy giữ món quà này — dành cho bạn."
+            },
+            { "en": "Keep going! You're almost there.", "vi": "Cứ tiếp tục đi! Sắp đến rồi." },
+            { "en": "I keep all my old notebooks.", "vi": "Tôi giữ tất cả vở cũ." }
+          ]
+        }
+      ],
+      "synonyms": ["hold", "retain"],
+      "antonyms": ["lose", "give away"],
+      "collocations": ["keep going", "keep quiet", "keep in mind", "keep up", "keep an eye on"],
+      "etymology_hint": "From Old English 'cēpan' — basic verb of retaining.",
+      "mnemonic_vi": "KEEP = 'kíp' — 'kíp' (giữ chặt). Past: kept. Keep going = cứ tiếp tục."
+    },
+    {
+      "word": "leave",
+      "lemma": "leave",
+      "ipa": "/liːv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to go away from a place; to let something stay where it is",
+          "meaning_vi": "rời đi; để lại",
+          "examples": [
+            {
+              "en": "I leave home at 7am every day.",
+              "vi": "Tôi rời nhà lúc 7 giờ sáng mỗi ngày."
+            },
+            {
+              "en": "She left her keys at the office.",
+              "vi": "Cô ấy bỏ quên chìa khoá ở văn phòng."
+            },
+            { "en": "Don't leave me alone here.", "vi": "Đừng bỏ tôi lại một mình ở đây." }
+          ]
+        }
+      ],
+      "synonyms": ["depart", "abandon"],
+      "antonyms": ["arrive", "stay"],
+      "collocations": ["leave home", "leave a message", "leave behind", "leave alone", "on leave"],
+      "etymology_hint": "From Old English 'lǣfan' meaning 'to allow to remain'.",
+      "mnemonic_vi": "LEAVE = 'líp' — 'lìu' (rời đi). Past: left. Leave home = rời nhà. Leave a message = để lại lời nhắn."
+    },
+    {
+      "word": "lose",
+      "lemma": "lose",
+      "ipa": "/luːz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to no longer have something; to fail to win",
+          "meaning_vi": "mất; thua",
+          "examples": [
+            { "en": "I lost my wallet on the bus.", "vi": "Tôi mất ví trên xe buýt." },
+            {
+              "en": "Vietnam lost the match by one goal.",
+              "vi": "Việt Nam thua trận cách biệt một bàn."
+            },
+            {
+              "en": "She lost weight from running daily.",
+              "vi": "Cô ấy giảm cân nhờ chạy bộ mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["misplace"],
+      "antonyms": ["find", "win"],
+      "collocations": ["lose weight", "lose time", "lose money", "lose your way", "lose touch"],
+      "etymology_hint": "From Old English 'losian' meaning 'to perish, be lost'.",
+      "mnemonic_vi": "LOSE = 'luz' — 'lụt' (mất). Past: lost. Đa nghĩa: mất đồ, thua, giảm (lose weight)."
+    },
+    {
+      "word": "open",
+      "lemma": "open",
+      "ipa": "/ˈəʊpən/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to move something so it is no longer closed; to start",
+          "meaning_vi": "mở; khai trương",
+          "examples": [
+            { "en": "Please open the window — it's hot.", "vi": "Xin mở cửa sổ — nóng quá." },
+            { "en": "The new café opens tomorrow.", "vi": "Quán cà phê mới khai trương ngày mai." },
+            { "en": "She opened the gift carefully.", "vi": "Cô ấy mở gói quà cẩn thận." }
+          ]
+        }
+      ],
+      "synonyms": ["unlock"],
+      "antonyms": ["close", "shut"],
+      "collocations": ["open the door", "open up", "wide open", "open hours", "open a shop"],
+      "etymology_hint": "From Old English 'open' — both adjective and verb form.",
+      "mnemonic_vi": "OPEN = 'âu-pần' — 'ô' (mở ra). Open the door = mở cửa. Opening day = ngày khai trương."
+    },
+    {
+      "word": "send",
+      "lemma": "send",
+      "ipa": "/send/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to cause something to go from one place to another",
+          "meaning_vi": "gửi",
+          "examples": [
+            {
+              "en": "I'll send you the document by email.",
+              "vi": "Tôi sẽ gửi tài liệu cho bạn qua email."
+            },
+            {
+              "en": "She sent flowers to her mother for Tết.",
+              "vi": "Cô ấy gửi hoa cho mẹ vào Tết."
+            },
+            {
+              "en": "Please send my regards to your family.",
+              "vi": "Xin gửi lời chào đến gia đình bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mail", "dispatch"],
+      "antonyms": ["receive"],
+      "collocations": [
+        "send a message",
+        "send an email",
+        "send a gift",
+        "send love",
+        "send regards"
+      ],
+      "etymology_hint": "From Old English 'sendan' — basic verb of dispatching.",
+      "mnemonic_vi": "SEND = 'sen-d' — 'sền' (gửi đi). Past: sent. Send an email = gửi email."
+    },
+    {
+      "word": "show",
+      "lemma": "show",
+      "ipa": "/ʃəʊ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to let someone see something; to demonstrate",
+          "meaning_vi": "cho thấy, chỉ cho",
+          "examples": [
+            { "en": "Show me your new motorbike!", "vi": "Cho tôi xem xe máy mới của bạn đi!" },
+            {
+              "en": "She showed me how to make bánh xèo.",
+              "vi": "Cô ấy chỉ cho tôi cách làm bánh xèo."
+            },
+            { "en": "His face showed surprise.", "vi": "Vẻ mặt anh ấy lộ vẻ ngạc nhiên." }
+          ]
+        }
+      ],
+      "synonyms": ["display", "demonstrate"],
+      "antonyms": ["hide"],
+      "collocations": ["show off", "show up", "show how", "show me", "TV show"],
+      "etymology_hint": "From Old English 'scēawian' meaning 'to look at, observe'.",
+      "mnemonic_vi": "SHOW = 'sâu' — 'sờ' (chỉ vào). Past: showed, shown. Show me = chỉ cho tôi."
+    },
+    {
+      "word": "start",
+      "lemma": "start",
+      "ipa": "/stɑːt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to begin doing something; to begin to happen",
+          "meaning_vi": "bắt đầu",
+          "examples": [
+            { "en": "Class starts at 8am sharp.", "vi": "Lớp bắt đầu đúng 8 giờ sáng." },
+            {
+              "en": "She started a new business in 2023.",
+              "vi": "Cô ấy mở doanh nghiệp mới năm 2023."
+            },
+            { "en": "It started raining suddenly.", "vi": "Trời đột nhiên bắt đầu mưa." }
+          ]
+        }
+      ],
+      "synonyms": ["begin", "commence"],
+      "antonyms": ["end", "finish"],
+      "collocations": [
+        "start a business",
+        "start over",
+        "start with",
+        "start work",
+        "from the start"
+      ],
+      "etymology_hint": "From Old English 'styrtan' meaning 'to jump up, leap'.",
+      "mnemonic_vi": "START = 'stát' — 'sờ tát' (bắt đầu). Đối với END. Start a car = nổ máy xe."
+    },
+    {
+      "word": "stop",
+      "lemma": "stop",
+      "ipa": "/stɒp/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to no longer move or happen; to make something halt",
+          "meaning_vi": "dừng lại, ngừng",
+          "examples": [
+            { "en": "Stop! The light is red.", "vi": "Dừng lại! Đèn đỏ kìa." },
+            { "en": "The rain stopped after an hour.", "vi": "Mưa tạnh sau một tiếng." },
+            { "en": "She stopped smoking last year.", "vi": "Cô ấy bỏ thuốc năm ngoái." }
+          ]
+        }
+      ],
+      "synonyms": ["halt", "cease"],
+      "antonyms": ["start", "continue"],
+      "collocations": ["stop doing", "bus stop", "non-stop", "stop short", "come to a stop"],
+      "etymology_hint": "From Latin 'stuppare' meaning 'to plug with tow' — block, halt.",
+      "mnemonic_vi": "STOP = 'stóp' — 'sờ tốp' (dừng). Bus stop = trạm xe buýt. Stop sign = biển dừng."
+    },
+    {
+      "word": "try",
+      "lemma": "try",
+      "ipa": "/traɪ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to attempt to do something; to test or sample",
+          "meaning_vi": "cố gắng; thử",
+          "examples": [
+            { "en": "Try this bánh mì — it's amazing!", "vi": "Thử bánh mì này đi — ngon tuyệt!" },
+            { "en": "She tried to fix the bike herself.", "vi": "Cô ấy cố tự sửa xe đạp." },
+            { "en": "Just try your best.", "vi": "Cứ làm hết sức của mình." }
+          ]
+        }
+      ],
+      "synonyms": ["attempt"],
+      "antonyms": ["give up"],
+      "collocations": ["try to", "try out", "try on", "try your best", "give it a try"],
+      "etymology_hint": "From Old French 'trier' meaning 'to pick out, sort'.",
+      "mnemonic_vi": "TRY = 'trai' — 'trải' (thử qua). Try phở = thử phở. Try your best = cố hết sức."
+    },
+    {
+      "word": "use",
+      "lemma": "use",
+      "ipa": "/juːz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to do something with a tool, object, or method",
+          "meaning_vi": "dùng, sử dụng",
+          "examples": [
+            {
+              "en": "I use Grab to get around the city.",
+              "vi": "Tôi dùng Grab để đi quanh thành phố."
+            },
+            { "en": "She uses chopsticks every day.", "vi": "Cô ấy dùng đũa mỗi ngày." },
+            { "en": "Use a pen, not a pencil.", "vi": "Dùng bút mực, đừng dùng bút chì." }
+          ]
+        }
+      ],
+      "synonyms": ["utilize"],
+      "antonyms": [],
+      "collocations": ["use a", "use up", "in use", "use to", "no use"],
+      "etymology_hint": "From Latin 'usare' meaning 'to make use of'.",
+      "mnemonic_vi": "USE = 'iu-z' — 'dụng'. Use a phone = dùng điện thoại. Used to = từng (quá khứ)."
+    },
+    {
+      "word": "wait",
+      "lemma": "wait",
+      "ipa": "/weɪt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to stay in one place until something happens",
+          "meaning_vi": "đợi, chờ",
+          "examples": [
+            { "en": "Wait for me at Highlands Coffee.", "vi": "Đợi tôi ở Highlands Coffee nhé." },
+            { "en": "I waited an hour for the bus.", "vi": "Tôi đợi xe buýt một tiếng." },
+            { "en": "Can't wait to see you again!", "vi": "Nóng lòng được gặp bạn lần nữa!" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["wait for", "wait a minute", "can't wait", "wait until", "wait in line"],
+      "etymology_hint": "From Old French 'gaitier' meaning 'to watch'.",
+      "mnemonic_vi": "WAIT = 'wết' — 'guết' (ngóng). Wait for me = đợi tôi. Can't wait = nóng lòng!"
+    },
+    {
+      "word": "wash",
+      "lemma": "wash",
+      "ipa": "/wɒʃ/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to clean something with water",
+          "meaning_vi": "rửa, giặt",
+          "examples": [
+            { "en": "Wash your hands before eating.", "vi": "Rửa tay trước khi ăn." },
+            { "en": "She washes her clothes on Sundays.", "vi": "Cô ấy giặt đồ vào Chủ nhật." },
+            { "en": "Please wash the dishes after dinner.", "vi": "Vui lòng rửa chén sau bữa tối." }
+          ]
+        }
+      ],
+      "synonyms": ["clean", "rinse"],
+      "antonyms": [],
+      "collocations": ["wash hands", "wash clothes", "wash dishes", "wash up", "wash away"],
+      "etymology_hint": "From Old English 'wascan' — basic cleaning verb.",
+      "mnemonic_vi": "WASH = 'oót-sh' — 'oát' (vòi nước). Wash hands = rửa tay, washing machine = máy giặt."
+    }
+  ]
+}
