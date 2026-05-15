@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { ChevronDown, NotebookPen, PauseCircle, Pencil } from 'lucide-react';
 import type { Card } from '@/lib/db/schema';
@@ -32,17 +32,32 @@ export function CardPreview({
 }) {
   const [open, setOpen] = useState(false);
   const [editing, setEditing] = useState(false);
+  const articleRef = useRef<HTMLElement>(null);
+
+  // Smooth scroll + focus the article into view when it opens. Wait one frame so
+  // the expanded content has rendered before scrolling, otherwise we scroll to
+  // the closed (small) position.
+  useEffect(() => {
+    if (!open) return;
+    const id = requestAnimationFrame(() => {
+      articleRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+    return () => cancelAnimationFrame(id);
+  }, [open]);
 
   const definitions = (card.definitions as Definition[]) ?? [];
   const firstDef = definitions[0];
 
   return (
     <article
+      ref={articleRef}
       className={cn(
-        'rounded-lg border bg-white dark:bg-zinc-950',
+        'rounded-lg border bg-white transition-all duration-300 dark:bg-zinc-950',
         userMeta?.suspended
           ? 'border-amber-200 dark:border-amber-900/60'
-          : 'border-zinc-200 dark:border-zinc-800'
+          : 'border-zinc-200 dark:border-zinc-800',
+        open &&
+          'scale-[1.015] border-amber-300 shadow-xl ring-2 ring-amber-300 dark:border-amber-700 dark:ring-amber-700/60'
       )}
     >
       <button
