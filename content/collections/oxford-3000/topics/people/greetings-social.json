@@ -1,0 +1,691 @@
+{
+  "slug": "greetings-social",
+  "name": "Greetings & Social",
+  "description": "Lời chào, phép lịch sự và giao tiếp xã hội cơ bản.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "hello",
+      "lemma": "hello",
+      "ipa": "/həˈləʊ/",
+      "pos": "interjection",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a word used when meeting someone or starting a phone call",
+          "meaning_vi": "xin chào; lời chào khi gặp ai hoặc bắt đầu cuộc gọi",
+          "examples": [
+            { "en": "Hello! How are you today?", "vi": "Xin chào! Hôm nay bạn khoẻ không?" },
+            {
+              "en": "She said hello to everyone at the meeting.",
+              "vi": "Cô ấy chào mọi người trong cuộc họp."
+            },
+            { "en": "Hello — is anyone home?", "vi": "Xin chào — có ai ở nhà không?" }
+          ]
+        }
+      ],
+      "synonyms": ["hi", "hey", "greetings"],
+      "antonyms": ["goodbye", "bye"],
+      "collocations": ["say hello", "hello there", "wave hello", "hello everyone", "big hello"],
+      "etymology_hint": "From 'hollo', a 14th-century shout to attract attention — popularized by Edison for telephone use",
+      "mnemonic_vi": "HELLO đọc 'hâ-lâu' — 'HƠ' miệng cười 'LÂU' chào nhau"
+    },
+    {
+      "word": "goodbye",
+      "lemma": "goodbye",
+      "ipa": "/ˌɡʊdˈbaɪ/",
+      "pos": "interjection",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a word used when leaving someone or ending a conversation",
+          "meaning_vi": "tạm biệt; lời chào khi chia tay hoặc kết thúc cuộc nói chuyện",
+          "examples": [
+            { "en": "Goodbye! See you next week.", "vi": "Tạm biệt! Hẹn gặp lại tuần sau." },
+            {
+              "en": "She waved goodbye from the train window.",
+              "vi": "Cô ấy vẫy tay tạm biệt qua cửa sổ tàu."
+            },
+            {
+              "en": "It's hard to say goodbye to old friends.",
+              "vi": "Khó nói lời tạm biệt với những người bạn cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bye", "farewell", "see you"],
+      "antonyms": ["hello", "hi"],
+      "collocations": [
+        "say goodbye",
+        "wave goodbye",
+        "kiss goodbye",
+        "final goodbye",
+        "say a sad goodbye"
+      ],
+      "etymology_hint": "Contraction of 'God be with ye' — religious blessing shortened over centuries",
+      "mnemonic_vi": "GOODBYE = GOOD + BYE: 'BÁI' (bye) với câu chúc 'GOOD'"
+    },
+    {
+      "word": "please",
+      "lemma": "please",
+      "ipa": "/pliːz/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a polite word used when asking for something",
+          "meaning_vi": "làm ơn, vui lòng; lời lịch sự khi yêu cầu gì đó",
+          "examples": [
+            { "en": "Pass the salt, please.", "vi": "Làm ơn đưa giúp lọ muối." },
+            {
+              "en": "Please be quiet — the baby is sleeping.",
+              "vi": "Vui lòng giữ yên — em bé đang ngủ."
+            },
+            { "en": "Can you help me, please?", "vi": "Bạn giúp tôi được không?" }
+          ]
+        }
+      ],
+      "synonyms": ["kindly", "if you would"],
+      "antonyms": [],
+      "collocations": ["please help", "yes please", "if you please", "please come in", "please do"],
+      "etymology_hint": "From 'if it please you' — Latin 'placere' (to be pleasing)",
+      "mnemonic_vi": "PLEASE đọc 'plít' — 'PLẾT' giọng xuống năn nỉ = lịch sự"
+    },
+    {
+      "word": "thanks",
+      "lemma": "thanks",
+      "ipa": "/θæŋks/",
+      "pos": "interjection",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a short way to say 'thank you'",
+          "meaning_vi": "cảm ơn; cách nói ngắn của 'thank you'",
+          "examples": [
+            {
+              "en": "Thanks for the coffee — it's delicious.",
+              "vi": "Cảm ơn vì ly cà phê — ngon quá."
+            },
+            { "en": "Thanks a lot for your help.", "vi": "Cảm ơn nhiều vì sự giúp đỡ của bạn." },
+            {
+              "en": "She gave thanks to her teacher before leaving.",
+              "vi": "Cô ấy cảm ơn thầy giáo trước khi rời đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thank you", "gratitude", "appreciation"],
+      "antonyms": [],
+      "collocations": ["thanks a lot", "thanks for", "many thanks", "thanks to", "give thanks"],
+      "etymology_hint": "Plural of 'thank' — from Old English 'þanc' meaning 'thought, gratitude'",
+      "mnemonic_vi": "THANKS đọc 'thanh-xờ' — 'THANH' lịch khi nói THANKS"
+    },
+    {
+      "word": "sorry",
+      "lemma": "sorry",
+      "ipa": "/ˈsɒr.i/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "feeling sad or guilty about something you did or about a bad situation",
+          "meaning_vi": "xin lỗi; cảm thấy hối tiếc về điều mình làm hoặc tình huống xấu",
+          "examples": [
+            { "en": "I'm sorry I forgot your birthday.", "vi": "Xin lỗi tôi quên sinh nhật bạn." },
+            {
+              "en": "Sorry, I didn't hear you — can you repeat?",
+              "vi": "Xin lỗi, tôi chưa nghe rõ — bạn nhắc lại được không?"
+            },
+            {
+              "en": "She felt sorry for the lost puppy.",
+              "vi": "Cô ấy thấy thương cho chú chó con bị lạc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["apologetic", "regretful"],
+      "antonyms": [],
+      "collocations": ["say sorry", "feel sorry for", "I'm sorry", "sorry about", "sorry to hear"],
+      "etymology_hint": "From Old English 'sārig' meaning 'painful, sad', from 'sār' (sore)",
+      "mnemonic_vi": "SORRY đọc 'so-ri' — 'SỚT' (kéo) đi vì cảm thấy lỗi"
+    },
+    {
+      "word": "welcome",
+      "lemma": "welcome",
+      "ipa": "/ˈwel.kəm/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to greet someone in a friendly way when they arrive",
+          "meaning_vi": "chào đón, hoan nghênh; đón tiếp ai đó vui vẻ khi họ đến",
+          "examples": [
+            { "en": "Welcome to Vietnam!", "vi": "Chào mừng đến với Việt Nam!" },
+            {
+              "en": "They welcomed us with smiles and tea.",
+              "vi": "Họ chào đón chúng tôi bằng nụ cười và trà."
+            },
+            {
+              "en": "You're welcome to stay as long as you want.",
+              "vi": "Bạn cứ thoải mái ở lại bao lâu cũng được."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["greet", "receive", "embrace"],
+      "antonyms": ["reject", "refuse"],
+      "collocations": [
+        "welcome someone",
+        "warm welcome",
+        "you're welcome",
+        "welcome home",
+        "welcome back"
+      ],
+      "etymology_hint": "From Old English 'wilcuma' = 'wil' (desire) + 'cuma' (guest) — 'desired guest'",
+      "mnemonic_vi": "WELCOME = WELL + COME: 'tốt + đến' = chào đón người đến"
+    },
+    {
+      "word": "meet",
+      "lemma": "meet",
+      "ipa": "/miːt/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to come together with someone at a particular time and place",
+          "meaning_vi": "gặp gỡ; cùng có mặt với ai đó ở một nơi và thời điểm",
+          "examples": [
+            {
+              "en": "Let's meet at the coffee shop at 3 PM.",
+              "vi": "Mình gặp ở quán cà phê lúc 3 giờ chiều nhé."
+            },
+            { "en": "Nice to meet you!", "vi": "Rất vui được gặp bạn!" },
+            {
+              "en": "I met my best friend in primary school.",
+              "vi": "Tôi gặp người bạn thân nhất ở trường tiểu học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["see", "encounter", "gather"],
+      "antonyms": ["miss", "part"],
+      "collocations": [
+        "meet someone",
+        "meet up",
+        "nice to meet you",
+        "meet for coffee",
+        "meet again"
+      ],
+      "etymology_hint": "From Old English 'mētan' meaning 'to come upon', cognate with 'moot'",
+      "mnemonic_vi": "MEET đọc 'mít' — 'MÍT' (ăn mít) cùng bạn ở quán = gặp gỡ"
+    },
+    {
+      "word": "introduce",
+      "lemma": "introduce",
+      "ipa": "/ˌɪn.trəˈdjuːs/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to tell people the name of someone they have not met before",
+          "meaning_vi": "giới thiệu; nói tên ai đó cho người chưa quen",
+          "examples": [
+            {
+              "en": "Let me introduce my new friend to you.",
+              "vi": "Để tôi giới thiệu người bạn mới với bạn."
+            },
+            {
+              "en": "She introduced herself to the class.",
+              "vi": "Cô ấy tự giới thiệu trước lớp."
+            },
+            {
+              "en": "He introduced me to his parents at Tet.",
+              "vi": "Anh ấy giới thiệu tôi với bố mẹ vào dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["present", "acquaint"],
+      "antonyms": [],
+      "collocations": [
+        "introduce someone",
+        "introduce yourself",
+        "introduce to",
+        "let me introduce",
+        "formally introduce"
+      ],
+      "etymology_hint": "From Latin 'introducere' = 'intro-' (in) + 'ducere' (lead)",
+      "mnemonic_vi": "INTRODUCE chứa 'INTRO' — như INTRO của bài hát, mở đầu giới thiệu"
+    },
+    {
+      "word": "friend",
+      "lemma": "friend",
+      "ipa": "/frend/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person you know well and like, who is not in your family",
+          "meaning_vi": "bạn, bạn bè; người mình quen và quý, không phải họ hàng",
+          "examples": [
+            {
+              "en": "She has many friends from her old high school.",
+              "vi": "Cô ấy có nhiều bạn từ trường cấp ba cũ."
+            },
+            { "en": "A true friend is hard to find.", "vi": "Một người bạn thật sự thì khó tìm." },
+            {
+              "en": "We've been best friends since childhood.",
+              "vi": "Chúng tôi là bạn thân từ thuở nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["buddy", "pal", "companion"],
+      "antonyms": ["enemy", "stranger"],
+      "collocations": [
+        "best friend",
+        "close friend",
+        "old friend",
+        "make friends",
+        "friend in need"
+      ],
+      "etymology_hint": "From Old English 'frēond', present participle of 'frēogan' (to love)",
+      "mnemonic_vi": "FRIEND chứa 'END' — 'END' (đến cuối) cuộc đời vẫn còn bên = FRIEND thân"
+    },
+    {
+      "word": "neighbour",
+      "lemma": "neighbour",
+      "ipa": "/ˈneɪ.bə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person who lives near you or next to you",
+          "meaning_vi": "hàng xóm, láng giềng; người sống gần hoặc kế bên",
+          "examples": [
+            {
+              "en": "My neighbour brings me fresh vegetables from her garden.",
+              "vi": "Hàng xóm tôi mang rau tươi từ vườn cho."
+            },
+            {
+              "en": "We have very friendly neighbours.",
+              "vi": "Hàng xóm của chúng tôi rất thân thiện."
+            },
+            {
+              "en": "The new neighbour just moved in last week.",
+              "vi": "Người hàng xóm mới vừa chuyển đến tuần trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["neighbor"],
+      "antonyms": ["stranger"],
+      "collocations": [
+        "next-door neighbour",
+        "friendly neighbour",
+        "neighbour's house",
+        "noisy neighbour",
+        "good neighbour"
+      ],
+      "etymology_hint": "Old English 'nēahgebūr' = 'nēah' (near) + 'gebūr' (dweller)",
+      "mnemonic_vi": "NEIGHBOUR chứa 'NEIGH' (ngựa hí) — đôi khi hàng xóm ồn như 'HÍ' của ngựa"
+    },
+    {
+      "word": "stranger",
+      "lemma": "stranger",
+      "ipa": "/ˈstreɪn.dʒə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person you do not know",
+          "meaning_vi": "người lạ; người mà mình không biết",
+          "examples": [
+            {
+              "en": "Don't talk to strangers, mum told me.",
+              "vi": "Mẹ dặn tôi đừng nói chuyện với người lạ."
+            },
+            {
+              "en": "A stranger helped me find my way back to the hotel.",
+              "vi": "Một người lạ đã giúp tôi tìm đường về khách sạn."
+            },
+            {
+              "en": "He's no stranger to hard work.",
+              "vi": "Anh ấy không xa lạ gì với việc vất vả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unknown person", "outsider"],
+      "antonyms": ["friend", "acquaintance"],
+      "collocations": [
+        "complete stranger",
+        "perfect stranger",
+        "talk to a stranger",
+        "stranger danger",
+        "kind stranger"
+      ],
+      "etymology_hint": "From Old French 'estrangier' meaning 'foreign person', from Latin 'extraneus' (outside)",
+      "mnemonic_vi": "STRANGER chứa 'STRANGE' (lạ) — người LẠ = STRANGER"
+    },
+    {
+      "word": "guest",
+      "lemma": "guest",
+      "ipa": "/ɡest/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person you have invited to your home or to an event",
+          "meaning_vi": "khách; người được mời đến nhà hoặc sự kiện",
+          "examples": [
+            {
+              "en": "We had ten guests for dinner last Sunday.",
+              "vi": "Chúng tôi có mười người khách ăn tối Chủ nhật trước."
+            },
+            {
+              "en": "Vietnamese hosts always offer tea to guests.",
+              "vi": "Chủ nhà người Việt luôn mời trà khách."
+            },
+            {
+              "en": "The hotel can accommodate 200 guests.",
+              "vi": "Khách sạn có thể chứa 200 khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["visitor", "company"],
+      "antonyms": ["host"],
+      "collocations": [
+        "invite a guest",
+        "special guest",
+        "guest of honour",
+        "hotel guest",
+        "uninvited guest"
+      ],
+      "etymology_hint": "From Old Norse 'gestr', cognate with German 'Gast'",
+      "mnemonic_vi": "GUEST đọc 'gết' — 'GẶT' (gặp) khách quý vào nhà = GUEST"
+    },
+    {
+      "word": "host",
+      "lemma": "host",
+      "ipa": "/həʊst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who invites guests and provides food, drink and a place to stay",
+          "meaning_vi": "chủ nhà, người đứng ra mời; người mời khách và chuẩn bị đồ ăn, chỗ ở",
+          "examples": [
+            {
+              "en": "She was a perfect host at the party.",
+              "vi": "Cô ấy là chủ nhà hoàn hảo trong bữa tiệc."
+            },
+            {
+              "en": "Vietnam will be the host country for the next summit.",
+              "vi": "Việt Nam sẽ là nước chủ nhà cho hội nghị tới."
+            },
+            {
+              "en": "The host welcomed everyone with a warm smile.",
+              "vi": "Chủ nhà chào đón mọi người bằng nụ cười ấm áp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organizer", "anchor"],
+      "antonyms": ["guest", "visitor"],
+      "collocations": ["good host", "host a party", "host country", "TV host", "play host"],
+      "etymology_hint": "From Latin 'hospes' meaning 'guest, host' — same root as 'hospital' and 'hotel'",
+      "mnemonic_vi": "HOST đọc 'hâu' — 'HẦU' (phục vụ) khách như chủ nhà = HOST"
+    },
+    {
+      "word": "party",
+      "lemma": "party",
+      "ipa": "/ˈpɑː.ti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a social event where people meet to eat, drink, dance, or enjoy themselves",
+          "meaning_vi": "bữa tiệc, buổi liên hoan; sự kiện xã hội để ăn uống, nhảy múa hoặc vui chơi",
+          "examples": [
+            {
+              "en": "We're having a birthday party for my mum.",
+              "vi": "Chúng tôi tổ chức tiệc sinh nhật cho mẹ tôi."
+            },
+            {
+              "en": "The Tet party went on until midnight.",
+              "vi": "Tiệc Tết kéo dài đến tận nửa đêm."
+            },
+            {
+              "en": "She invited 30 friends to her wedding party.",
+              "vi": "Cô ấy mời 30 bạn đến tiệc cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["celebration", "gathering", "bash"],
+      "antonyms": [],
+      "collocations": [
+        "birthday party",
+        "throw a party",
+        "go to a party",
+        "party time",
+        "house party"
+      ],
+      "etymology_hint": "From Old French 'partie' meaning 'a part', later 'a group sharing a purpose'",
+      "mnemonic_vi": "PARTY đọc 'pa-ti' — 'PA' (cha) 'TI' (ti tỉ) đông người = PARTY"
+    },
+    {
+      "word": "invite",
+      "lemma": "invite",
+      "ipa": "/ɪnˈvaɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to ask someone politely to go somewhere or do something",
+          "meaning_vi": "mời; ngỏ lời mời ai đó đến đâu hoặc làm gì",
+          "examples": [
+            {
+              "en": "I invited my colleagues to my house for dinner.",
+              "vi": "Tôi mời đồng nghiệp đến nhà ăn tối."
+            },
+            {
+              "en": "Did you get invited to the wedding?",
+              "vi": "Bạn có được mời đám cưới không?"
+            },
+            {
+              "en": "She invited me to her birthday party.",
+              "vi": "Cô ấy mời tôi đến tiệc sinh nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ask", "request", "summon"],
+      "antonyms": ["refuse", "uninvite"],
+      "collocations": [
+        "invite someone",
+        "invite to",
+        "formally invite",
+        "kindly invite",
+        "send an invite"
+      ],
+      "etymology_hint": "From Latin 'invitare' meaning 'to entertain, encourage' — root sense 'to make pleasant'",
+      "mnemonic_vi": "INVITE chứa 'IN' — 'kéo vào IN' = mời vào"
+    },
+    {
+      "word": "accept",
+      "lemma": "accept",
+      "ipa": "/əkˈsept/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to agree to take something that someone offers you",
+          "meaning_vi": "chấp nhận, đồng ý nhận; đồng ý nhận điều gì đó",
+          "examples": [
+            { "en": "She accepted the gift with a smile.", "vi": "Cô ấy nhận quà với nụ cười." },
+            { "en": "Do you accept credit cards?", "vi": "Bạn có nhận thẻ tín dụng không?" },
+            {
+              "en": "He accepted the job offer in Singapore.",
+              "vi": "Anh ấy nhận lời mời làm việc ở Singapore."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["receive", "take", "agree to"],
+      "antonyms": ["refuse", "reject", "decline"],
+      "collocations": [
+        "accept an offer",
+        "accept an invitation",
+        "accept gladly",
+        "fully accept",
+        "accept responsibility"
+      ],
+      "etymology_hint": "From Latin 'acceptare' = 'ad-' (to) + 'capere' (take)",
+      "mnemonic_vi": "ACCEPT đọc 'éc-xép' — 'ÉC' kêu vui mừng vì 'XẾP' đặt được vào nhà = nhận lời"
+    },
+    {
+      "word": "refuse",
+      "lemma": "refuse",
+      "ipa": "/rɪˈfjuːz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to say that you will not do something or accept something",
+          "meaning_vi": "từ chối; nói rằng mình không làm hoặc không nhận",
+          "examples": [
+            {
+              "en": "She refused to lend him money again.",
+              "vi": "Cô ấy từ chối cho anh ta mượn tiền lần nữa."
+            },
+            {
+              "en": "The hotel refused our booking because it was full.",
+              "vi": "Khách sạn từ chối đặt phòng vì đã kín chỗ."
+            },
+            { "en": "He refused the offer politely.", "vi": "Anh ấy lịch sự từ chối lời đề nghị." }
+          ]
+        }
+      ],
+      "synonyms": ["decline", "reject", "turn down"],
+      "antonyms": ["accept", "agree"],
+      "collocations": [
+        "refuse to",
+        "politely refuse",
+        "refuse an offer",
+        "refuse permission",
+        "flatly refuse"
+      ],
+      "etymology_hint": "From Old French 'refuser', from Latin 'refundere' (pour back) — sense shift to 'reject'",
+      "mnemonic_vi": "REFUSE chứa 'FUSE' (cầu chì) — đáp 'không' như cầu chì FUSE đứt = từ chối"
+    },
+    {
+      "word": "agree",
+      "lemma": "agree",
+      "ipa": "/əˈɡriː/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to have the same opinion as someone else; to say yes to a plan",
+          "meaning_vi": "đồng ý, nhất trí; có cùng ý kiến hoặc nói có với một kế hoạch",
+          "examples": [
+            {
+              "en": "I agree with your idea about the project.",
+              "vi": "Tôi đồng ý với ý tưởng của bạn về dự án."
+            },
+            { "en": "We all agreed to meet at noon.", "vi": "Chúng tôi đều đồng ý gặp lúc trưa." },
+            {
+              "en": "She doesn't agree with eating meat.",
+              "vi": "Cô ấy không đồng tình với việc ăn thịt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consent", "approve", "accept"],
+      "antonyms": ["disagree", "refuse", "object"],
+      "collocations": ["agree with", "agree to", "completely agree", "agree on", "I agree"],
+      "etymology_hint": "From Old French 'agreer' = 'a-' (to) + 'gré' (pleasure, will)",
+      "mnemonic_vi": "AGREE chứa 'GREE' — 'GRÊ' (gật) đầu đồng ý"
+    },
+    {
+      "word": "disagree",
+      "lemma": "disagree",
+      "ipa": "/ˌdɪs.əˈɡriː/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to have a different opinion from someone else",
+          "meaning_vi": "không đồng ý, bất đồng; có ý kiến khác với người khác",
+          "examples": [
+            {
+              "en": "I disagree with her opinion on the matter.",
+              "vi": "Tôi không đồng ý với quan điểm của cô ấy về vấn đề đó."
+            },
+            {
+              "en": "The two managers disagreed about the budget.",
+              "vi": "Hai quản lý bất đồng về ngân sách."
+            },
+            {
+              "en": "Spicy food disagrees with my stomach.",
+              "vi": "Đồ cay không hợp với bụng tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["differ", "dispute", "object"],
+      "antonyms": ["agree", "concur"],
+      "collocations": [
+        "disagree with",
+        "disagree about",
+        "strongly disagree",
+        "respectfully disagree",
+        "agree to disagree"
+      ],
+      "etymology_hint": "Prefix 'dis-' (not) + 'agree'",
+      "mnemonic_vi": "DISAGREE = DIS + AGREE: 'phản' + 'đồng ý' = không đồng ý"
+    },
+    {
+      "word": "apologize",
+      "lemma": "apologize",
+      "ipa": "/əˈpɒl.ə.dʒaɪz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to say that you are sorry for doing something wrong",
+          "meaning_vi": "xin lỗi; nói rằng mình tiếc về lỗi đã làm",
+          "examples": [
+            {
+              "en": "I want to apologize for being late this morning.",
+              "vi": "Tôi muốn xin lỗi vì đến muộn sáng nay."
+            },
+            {
+              "en": "She apologized to her teacher for forgetting her homework.",
+              "vi": "Cô ấy xin lỗi thầy giáo vì quên bài tập."
+            },
+            {
+              "en": "He never apologizes, even when he's clearly wrong.",
+              "vi": "Anh ta không bao giờ xin lỗi, dù rõ ràng sai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["say sorry", "express regret"],
+      "antonyms": [],
+      "collocations": [
+        "apologize to",
+        "apologize for",
+        "publicly apologize",
+        "sincerely apologize",
+        "apologize in writing"
+      ],
+      "etymology_hint": "From Greek 'apologia' meaning 'a speech in defence'",
+      "mnemonic_vi": "APOLOGIZE chứa 'APOL' — 'A POL' (A pô-li) lịch sự xin lỗi"
+    }
+  ]
+}

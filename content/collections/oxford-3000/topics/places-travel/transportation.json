@@ -1,0 +1,673 @@
+{
+  "slug": "transportation",
+  "name": "Transportation",
+  "description": "Phương tiện di chuyển và từ vựng liên quan.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "car",
+      "lemma": "car",
+      "ipa": "/kɑː(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a road vehicle with four wheels that is powered by an engine",
+          "meaning_vi": "xe hơi, ô tô; phương tiện đường bộ bốn bánh chạy bằng động cơ",
+          "examples": [
+            {
+              "en": "My father bought a new car last month.",
+              "vi": "Bố tôi mua một chiếc ô tô mới tháng trước."
+            },
+            {
+              "en": "Traffic in Hanoi is full of cars and motorbikes.",
+              "vi": "Giao thông Hà Nội đầy ô tô và xe máy."
+            },
+            {
+              "en": "We rented a car for our trip to Da Lat.",
+              "vi": "Chúng tôi thuê ô tô cho chuyến đi Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["automobile", "vehicle"],
+      "antonyms": [],
+      "collocations": ["drive a car", "park a car", "car park", "new car", "car accident"],
+      "etymology_hint": "From Old French 'carre', from Latin 'carrus' meaning 'wheeled vehicle'",
+      "mnemonic_vi": "CAR đọc 'ca' — nghe nhạc 'CA' trong CAR khi đi đường dài"
+    },
+    {
+      "word": "bus",
+      "lemma": "bus",
+      "ipa": "/bʌs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large road vehicle that carries many passengers",
+          "meaning_vi": "xe buýt, xe khách; phương tiện lớn chở nhiều hành khách",
+          "examples": [
+            {
+              "en": "I take the bus to school every day.",
+              "vi": "Tôi đi xe buýt đến trường mỗi ngày."
+            },
+            {
+              "en": "The bus to Hai Phong leaves at six.",
+              "vi": "Xe khách đi Hải Phòng khởi hành lúc sáu giờ."
+            },
+            {
+              "en": "Buses in Saigon are usually crowded at rush hour.",
+              "vi": "Xe buýt Sài Gòn thường đông vào giờ cao điểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coach"],
+      "antonyms": [],
+      "collocations": ["take the bus", "by bus", "bus stop", "school bus", "miss the bus"],
+      "etymology_hint": "Short for Latin 'omnibus' meaning 'for all' — public transport for everyone",
+      "mnemonic_vi": "BUS đọc 'bât' — 'BẤT' (bật) cười khi xe buýt chen lấn đông đúc"
+    },
+    {
+      "word": "train",
+      "lemma": "train",
+      "ipa": "/treɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a set of vehicles that travel on rails and are pulled by an engine",
+          "meaning_vi": "tàu hoả, tàu lửa; chuỗi toa di chuyển trên đường ray",
+          "examples": [
+            {
+              "en": "The night train from Hanoi to Sapa is comfortable.",
+              "vi": "Chuyến tàu đêm Hà Nội — Sapa khá thoải mái."
+            },
+            {
+              "en": "We caught the last train at midnight.",
+              "vi": "Chúng tôi bắt chuyến tàu cuối lúc nửa đêm."
+            },
+            {
+              "en": "Trains are slower but cheaper than planes.",
+              "vi": "Tàu hoả chậm nhưng rẻ hơn máy bay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["railway", "locomotive"],
+      "antonyms": [],
+      "collocations": [
+        "take the train",
+        "by train",
+        "train station",
+        "high-speed train",
+        "miss the train"
+      ],
+      "etymology_hint": "From Old French 'trahiner' meaning 'to drag' — referred to carriages dragged in line",
+      "mnemonic_vi": "TRAIN đọc 'trên' — TRAIN chạy 'TRÊN' đường ray dài"
+    },
+    {
+      "word": "plane",
+      "lemma": "plane",
+      "ipa": "/pleɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a vehicle with wings and engines that can fly",
+          "meaning_vi": "máy bay; phương tiện có cánh và động cơ bay được",
+          "examples": [
+            {
+              "en": "The plane to Ho Chi Minh City takes two hours.",
+              "vi": "Chuyến bay vào TP Hồ Chí Minh mất hai giờ."
+            },
+            { "en": "I'm afraid of flying on planes.", "vi": "Tôi sợ đi máy bay." },
+            {
+              "en": "Our plane was delayed because of bad weather.",
+              "vi": "Máy bay chúng tôi bị hoãn vì thời tiết xấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aeroplane", "airplane", "aircraft"],
+      "antonyms": [],
+      "collocations": ["by plane", "catch a plane", "plane ticket", "plane crash", "private plane"],
+      "etymology_hint": "Short for 'aeroplane', from Greek 'aero' (air) + 'planos' (wandering)",
+      "mnemonic_vi": "PLANE đọc 'plên' — bay 'LÊN' trời cao"
+    },
+    {
+      "word": "ship",
+      "lemma": "ship",
+      "ipa": "/ʃɪp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large boat that travels on the sea",
+          "meaning_vi": "tàu thuỷ; thuyền lớn đi trên biển",
+          "examples": [
+            {
+              "en": "The ship arrived at Hai Phong port this morning.",
+              "vi": "Con tàu cập cảng Hải Phòng sáng nay."
+            },
+            {
+              "en": "We took a ship tour around Ha Long Bay.",
+              "vi": "Chúng tôi đi tour tàu quanh vịnh Hạ Long."
+            },
+            {
+              "en": "The cargo ship carries goods between countries.",
+              "vi": "Tàu hàng chở hàng giữa các nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vessel", "boat"],
+      "antonyms": [],
+      "collocations": ["sail a ship", "cargo ship", "cruise ship", "by ship", "abandon ship"],
+      "etymology_hint": "From Old English 'scip', cognate with German 'Schiff'",
+      "mnemonic_vi": "SHIP đọc 'síp' — 'XÍP' (chiếp) lên tàu thuỷ ra khơi"
+    },
+    {
+      "word": "bike",
+      "lemma": "bike",
+      "ipa": "/baɪk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a vehicle with two wheels that you ride by pushing pedals with your feet",
+          "meaning_vi": "xe đạp; phương tiện hai bánh đạp bằng chân",
+          "examples": [
+            {
+              "en": "I ride my bike to the park on weekends.",
+              "vi": "Tôi đạp xe ra công viên vào cuối tuần."
+            },
+            {
+              "en": "Vietnamese students often go to school by bike.",
+              "vi": "Học sinh Việt Nam thường đi học bằng xe đạp."
+            },
+            { "en": "My bike has a flat tyre.", "vi": "Xe đạp tôi bị xẹp lốp." }
+          ]
+        }
+      ],
+      "synonyms": ["bicycle", "cycle"],
+      "antonyms": [],
+      "collocations": ["ride a bike", "bike ride", "mountain bike", "bike path", "by bike"],
+      "etymology_hint": "Short for 'bicycle' = Greek 'bi' (two) + 'cycle' (wheel)",
+      "mnemonic_vi": "BIKE đọc 'bai-cờ' — leo lên 'BÁI' chiếc xe rồi đạp đi"
+    },
+    {
+      "word": "motorcycle",
+      "lemma": "motorcycle",
+      "ipa": "/ˈməʊ.tə.saɪ.kəl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a vehicle with two wheels and an engine",
+          "meaning_vi": "xe máy, mô-tô; phương tiện hai bánh có động cơ",
+          "examples": [
+            {
+              "en": "Most people in Vietnam ride a motorcycle to work.",
+              "vi": "Hầu hết người Việt đi làm bằng xe máy."
+            },
+            {
+              "en": "He cleans his motorcycle every Sunday.",
+              "vi": "Anh ấy rửa xe máy mỗi Chủ nhật."
+            },
+            {
+              "en": "Wear a helmet when you ride a motorcycle.",
+              "vi": "Đội mũ bảo hiểm khi đi xe máy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motorbike", "bike"],
+      "antonyms": [],
+      "collocations": [
+        "ride a motorcycle",
+        "motorcycle helmet",
+        "motorcycle licence",
+        "motorcycle racing",
+        "old motorcycle"
+      ],
+      "etymology_hint": "Compound: 'motor' (Latin 'movere' = move) + 'cycle' (Greek 'kyklos' = wheel)",
+      "mnemonic_vi": "MOTORCYCLE = MOTOR + CYCLE: 'động cơ + bánh xe' = xe máy"
+    },
+    {
+      "word": "taxi",
+      "lemma": "taxi",
+      "ipa": "/ˈtæk.si/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a car with a driver that you pay to take you somewhere",
+          "meaning_vi": "tắc xi; ô tô có tài xế, trả tiền để được chở đi",
+          "examples": [
+            { "en": "Let's take a taxi to the airport.", "vi": "Mình đi tắc xi ra sân bay nhé." },
+            {
+              "en": "I called a Grab taxi instead of a regular one.",
+              "vi": "Tôi gọi Grab thay vì tắc xi thường."
+            },
+            {
+              "en": "The taxi driver knew all the shortcuts.",
+              "vi": "Tài xế tắc xi biết hết các đường tắt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cab"],
+      "antonyms": [],
+      "collocations": ["take a taxi", "call a taxi", "taxi driver", "taxi rank", "by taxi"],
+      "etymology_hint": "Short for 'taximeter cab' — Greek 'taxis' (charge) + 'metron' (measure)",
+      "mnemonic_vi": "TAXI đọc 'tắc-xi' — y chang tiếng Việt 'TẮC XI'"
+    },
+    {
+      "word": "subway",
+      "lemma": "subway",
+      "ipa": "/ˈsʌb.weɪ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an underground railway system in a city",
+          "meaning_vi": "tàu điện ngầm; hệ thống đường sắt ngầm dưới lòng đất trong thành phố",
+          "examples": [
+            {
+              "en": "Saigon is building its first subway line.",
+              "vi": "Sài Gòn đang xây tuyến tàu điện ngầm đầu tiên."
+            },
+            {
+              "en": "The subway in Tokyo is very efficient.",
+              "vi": "Tàu điện ngầm ở Tokyo rất hiệu quả."
+            },
+            {
+              "en": "I take the subway to work to avoid traffic.",
+              "vi": "Tôi đi tàu điện ngầm đi làm để tránh tắc đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["metro", "underground"],
+      "antonyms": [],
+      "collocations": [
+        "take the subway",
+        "subway station",
+        "subway map",
+        "subway line",
+        "by subway"
+      ],
+      "etymology_hint": "Compound: 'sub' (under) + 'way' (path) — 'under-path'",
+      "mnemonic_vi": "SUBWAY = SUB (dưới) + WAY (đường): 'đường dưới' = tàu điện ngầm"
+    },
+    {
+      "word": "ticket",
+      "lemma": "ticket",
+      "ipa": "/ˈtɪk.ɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small piece of paper that shows you have paid for a journey or event",
+          "meaning_vi": "vé; mảnh giấy nhỏ chứng tỏ đã trả tiền cho chuyến đi hoặc sự kiện",
+          "examples": [
+            {
+              "en": "I bought two tickets for the movie tonight.",
+              "vi": "Tôi mua hai vé phim tối nay."
+            },
+            { "en": "Don't lose your train ticket.", "vi": "Đừng làm mất vé tàu." },
+            {
+              "en": "Tickets to the concert sold out in one hour.",
+              "vi": "Vé concert bán hết trong một giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pass", "voucher"],
+      "antonyms": [],
+      "collocations": [
+        "buy a ticket",
+        "train ticket",
+        "plane ticket",
+        "ticket office",
+        "return ticket"
+      ],
+      "etymology_hint": "From French 'étiquette' meaning 'label' — originally a written note",
+      "mnemonic_vi": "TICKET đọc 'tích-kệt' — 'TÍCH' (đánh dấu) vào TICKET khi vào cổng"
+    },
+    {
+      "word": "driver",
+      "lemma": "driver",
+      "ipa": "/ˈdraɪ.və(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who drives a vehicle",
+          "meaning_vi": "tài xế, người lái xe; người điều khiển phương tiện",
+          "examples": [
+            { "en": "The Grab driver was very friendly.", "vi": "Anh tài xế Grab rất thân thiện." },
+            {
+              "en": "She has been a bus driver for ten years.",
+              "vi": "Cô ấy đã làm tài xế xe buýt mười năm."
+            },
+            {
+              "en": "Good drivers always check their mirrors.",
+              "vi": "Tài xế giỏi luôn kiểm tra gương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motorist", "chauffeur"],
+      "antonyms": ["passenger"],
+      "collocations": [
+        "taxi driver",
+        "bus driver",
+        "good driver",
+        "drunk driver",
+        "driver's licence"
+      ],
+      "etymology_hint": "From 'drive' (Old English 'drīfan') + '-er' suffix",
+      "mnemonic_vi": "DRIVER chứa 'DRIVE' (lái) — người DRIVE chính là DRIVER"
+    },
+    {
+      "word": "passenger",
+      "lemma": "passenger",
+      "ipa": "/ˈpæs.ɪn.dʒə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who travels in a vehicle but does not drive it",
+          "meaning_vi": "hành khách; người đi xe nhưng không lái",
+          "examples": [
+            { "en": "The bus can carry 50 passengers.", "vi": "Xe buýt chở được 50 hành khách." },
+            {
+              "en": "Passengers should stay seated during takeoff.",
+              "vi": "Hành khách phải ngồi yên khi cất cánh."
+            },
+            {
+              "en": "Only one passenger was injured in the accident.",
+              "vi": "Chỉ một hành khách bị thương trong tai nạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["traveller", "commuter"],
+      "antonyms": ["driver"],
+      "collocations": [
+        "bus passenger",
+        "passenger seat",
+        "fellow passenger",
+        "carry passengers",
+        "passenger train"
+      ],
+      "etymology_hint": "From Old French 'passager' meaning 'one who passes through', from 'passage'",
+      "mnemonic_vi": "PASSENGER chứa 'PASS' (đi qua) — người 'ĐI QUA' nhiều chỗ = hành khách"
+    },
+    {
+      "word": "fuel",
+      "lemma": "fuel",
+      "ipa": "/fjʊəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "any material that is burned to produce energy, especially for engines",
+          "meaning_vi": "nhiên liệu, xăng dầu; chất đốt cho động cơ",
+          "examples": [
+            {
+              "en": "We need to stop at a gas station for fuel.",
+              "vi": "Mình cần ghé cây xăng để đổ nhiên liệu."
+            },
+            { "en": "Fuel prices have gone up recently.", "vi": "Giá xăng dầu tăng gần đây." },
+            {
+              "en": "Electric cars don't need traditional fuel.",
+              "vi": "Xe điện không cần nhiên liệu truyền thống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gas", "petrol", "diesel"],
+      "antonyms": [],
+      "collocations": [
+        "fuel tank",
+        "fuel efficient",
+        "fossil fuel",
+        "fuel consumption",
+        "run out of fuel"
+      ],
+      "etymology_hint": "From Old French 'fouaille' meaning 'firewood', from Latin 'focus' (hearth)",
+      "mnemonic_vi": "FUEL đọc 'phiu-ơ' — đổ FUEL vào xe rồi 'PHIU' chạy đi"
+    },
+    {
+      "word": "traffic",
+      "lemma": "traffic",
+      "ipa": "/ˈtræf.ɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the movement of vehicles on roads",
+          "meaning_vi": "giao thông, xe cộ trên đường",
+          "examples": [
+            {
+              "en": "Hanoi traffic is heavy from 7 to 9 AM.",
+              "vi": "Giao thông Hà Nội đông từ 7 đến 9 giờ sáng."
+            },
+            { "en": "We were stuck in traffic for an hour.", "vi": "Chúng tôi kẹt xe một tiếng." },
+            {
+              "en": "Traffic lights help control intersections.",
+              "vi": "Đèn giao thông giúp điều khiển ngã tư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["congestion", "vehicles"],
+      "antonyms": [],
+      "collocations": [
+        "heavy traffic",
+        "traffic jam",
+        "traffic light",
+        "stuck in traffic",
+        "rush-hour traffic"
+      ],
+      "etymology_hint": "From Italian 'traffico' meaning 'trade', originally referring to movement of goods",
+      "mnemonic_vi": "TRAFFIC đọc 'trép-phích' — 'TRẬP' (kẹt) trong TRAFFIC kêu 'phích' khói xe"
+    },
+    {
+      "word": "journey",
+      "lemma": "journey",
+      "ipa": "/ˈdʒɜː.ni/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an act of travelling from one place to another, especially far",
+          "meaning_vi": "chuyến đi, hành trình; quá trình di chuyển từ nơi này đến nơi khác",
+          "examples": [
+            {
+              "en": "The journey from Hanoi to Saigon by train takes 30 hours.",
+              "vi": "Hành trình Hà Nội — Sài Gòn bằng tàu mất 30 giờ."
+            },
+            { "en": "Have a safe journey!", "vi": "Chúc đi đường bình an!" },
+            {
+              "en": "Learning a language is a long journey.",
+              "vi": "Học một ngôn ngữ là một hành trình dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trip", "voyage", "travel"],
+      "antonyms": [],
+      "collocations": [
+        "long journey",
+        "safe journey",
+        "by journey",
+        "start a journey",
+        "end of journey"
+      ],
+      "etymology_hint": "From Old French 'jornee' meaning 'day's work or travel', from 'jor' (day)",
+      "mnemonic_vi": "JOURNEY chứa 'JOUR' (Pháp = ngày) — đi cả NGÀY = một JOURNEY"
+    },
+    {
+      "word": "arrive",
+      "lemma": "arrive",
+      "ipa": "/əˈraɪv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to reach the place that you have been travelling to",
+          "meaning_vi": "đến nơi; tới điểm đến của chuyến đi",
+          "examples": [
+            { "en": "The train will arrive at 8 PM.", "vi": "Tàu sẽ đến lúc 8 giờ tối." },
+            { "en": "We arrived in Da Nang last night.", "vi": "Chúng tôi đến Đà Nẵng tối qua." },
+            { "en": "She arrived late to the meeting again.", "vi": "Cô ấy lại đến trễ cuộc họp." }
+          ]
+        }
+      ],
+      "synonyms": ["reach", "get to", "come"],
+      "antonyms": ["leave", "depart"],
+      "collocations": ["arrive on time", "arrive at", "arrive in", "arrive late", "arrive home"],
+      "etymology_hint": "From Old French 'ariver' meaning 'to come to shore', from Latin 'ad ripam' (to the shore)",
+      "mnemonic_vi": "ARRIVE chứa 'RIVE' (bờ) — đến BỜ là ARRIVE"
+    },
+    {
+      "word": "depart",
+      "lemma": "depart",
+      "ipa": "/dɪˈpɑːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to leave a place, especially to start a journey",
+          "meaning_vi": "rời đi, khởi hành; ra đi để bắt đầu chuyến đi",
+          "examples": [
+            {
+              "en": "The flight will depart at 10 AM sharp.",
+              "vi": "Chuyến bay sẽ khởi hành đúng 10 giờ sáng."
+            },
+            {
+              "en": "He departed for Singapore yesterday.",
+              "vi": "Anh ấy đi Singapore ngày hôm qua."
+            },
+            { "en": "Trains depart from platform 3.", "vi": "Tàu khởi hành từ sân ga số 3." }
+          ]
+        }
+      ],
+      "synonyms": ["leave", "go", "set off"],
+      "antonyms": ["arrive", "stay"],
+      "collocations": [
+        "depart from",
+        "depart for",
+        "depart on time",
+        "about to depart",
+        "departure time"
+      ],
+      "etymology_hint": "From Old French 'departir' = 'de-' (away) + 'partir' (divide, part)",
+      "mnemonic_vi": "DEPART chứa 'PART' (rời khỏi) — 'DE-PART' = rời đi"
+    },
+    {
+      "word": "transfer",
+      "lemma": "transfer",
+      "ipa": "/ˈtræns.fɜː(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to move from one vehicle, place, or system to another",
+          "meaning_vi": "chuyển, đổi; chuyển từ xe này sang xe khác, từ nơi này sang nơi khác",
+          "examples": [
+            {
+              "en": "You need to transfer to another bus at the next stop.",
+              "vi": "Bạn cần đổi sang xe khác ở trạm tiếp theo."
+            },
+            {
+              "en": "She transferred money to my account this morning.",
+              "vi": "Cô ấy chuyển tiền vào tài khoản tôi sáng nay."
+            },
+            {
+              "en": "He was transferred to the Hanoi office.",
+              "vi": "Anh ấy được chuyển công tác ra văn phòng Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["move", "shift", "switch"],
+      "antonyms": ["keep", "retain"],
+      "collocations": [
+        "transfer money",
+        "transfer flight",
+        "transfer to",
+        "bank transfer",
+        "transfer station"
+      ],
+      "etymology_hint": "From Latin 'transferre' = 'trans-' (across) + 'ferre' (carry)",
+      "mnemonic_vi": "TRANSFER = TRANS (qua) + FER (mang): 'mang qua' = chuyển"
+    },
+    {
+      "word": "schedule",
+      "lemma": "schedule",
+      "ipa": "/ˈʃed.juːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a plan that lists the times when activities or transport will happen",
+          "meaning_vi": "lịch trình, thời gian biểu; kế hoạch ghi thời điểm các hoạt động",
+          "examples": [
+            {
+              "en": "Check the bus schedule before you leave.",
+              "vi": "Xem lịch xe buýt trước khi đi."
+            },
+            {
+              "en": "Her schedule is very busy this week.",
+              "vi": "Lịch của cô ấy rất bận tuần này."
+            },
+            { "en": "The train is running ahead of schedule.", "vi": "Tàu đang chạy sớm hơn lịch." }
+          ]
+        }
+      ],
+      "synonyms": ["timetable", "plan", "agenda"],
+      "antonyms": [],
+      "collocations": [
+        "busy schedule",
+        "on schedule",
+        "behind schedule",
+        "ahead of schedule",
+        "tight schedule"
+      ],
+      "etymology_hint": "From Latin 'schedula' meaning 'small slip of paper'",
+      "mnemonic_vi": "SCHEDULE đọc 'sét-juồl' (Mỹ) hoặc 'shed-yul' (Anh) — 'SẾT' đặt thời gian biểu cho 'JOEL' (mỗi việc)"
+    },
+    {
+      "word": "fare",
+      "lemma": "fare",
+      "ipa": "/feə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the money you pay to travel by bus, train, taxi, etc.",
+          "meaning_vi": "giá vé, cước phí; số tiền trả để đi xe buýt, tàu, tắc xi",
+          "examples": [
+            {
+              "en": "The taxi fare from the airport is around 250,000 đồng.",
+              "vi": "Giá tắc xi từ sân bay khoảng 250.000 đồng."
+            },
+            { "en": "Bus fares went up this month.", "vi": "Giá vé xe buýt tăng tháng này." },
+            { "en": "Children pay half the fare.", "vi": "Trẻ em trả nửa giá vé." }
+          ]
+        }
+      ],
+      "synonyms": ["price", "fee", "charge"],
+      "antonyms": [],
+      "collocations": ["taxi fare", "bus fare", "train fare", "single fare", "return fare"],
+      "etymology_hint": "From Old English 'faru' meaning 'journey, expedition' — related to 'farewell'",
+      "mnemonic_vi": "FARE đọc 'phe' — 'PHẢI' trả FARE thì mới được lên xe"
+    }
+  ]
+}

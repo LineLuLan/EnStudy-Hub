@@ -1,0 +1,8 @@
+{
+  "slug": "places-travel",
+  "name": "Places & Travel",
+  "description": "Địa điểm trong thành phố, phương tiện di chuyển và các quốc gia.",
+  "order_index": 3,
+  "icon": "map-pin",
+  "color": "#10b981"
+}
