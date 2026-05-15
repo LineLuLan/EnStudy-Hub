@@ -1,0 +1,688 @@
+{
+  "slug": "transport-vehicles-ext",
+  "name": "Transport & Vehicles (Extended)",
+  "description": "Phương tiện và phụ kiện giao thông — mở rộng cho transportation.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "vehicle",
+      "lemma": "vehicle",
+      "ipa": "/ˈviːəkl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a machine like a car, bus, or motorbike that moves people or things",
+          "meaning_vi": "phương tiện giao thông",
+          "examples": [
+            {
+              "en": "Vietnam has millions of motorbike vehicles.",
+              "vi": "Việt Nam có hàng triệu phương tiện xe máy."
+            },
+            { "en": "Park your vehicle here, please.", "vi": "Vui lòng đỗ xe ở đây." },
+            { "en": "Electric vehicles are getting popular.", "vi": "Xe điện ngày càng phổ biến." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "motor vehicle",
+        "electric vehicle",
+        "park a vehicle",
+        "drive a vehicle",
+        "vehicle owner"
+      ],
+      "etymology_hint": "From Latin 'vehiculum' meaning 'transport, conveyance'.",
+      "mnemonic_vi": "VEHICLE = 'vi-ơ-cồ' — 'vi' (mang) cờ chở. Electric vehicle = xe điện. Phương tiện."
+    },
+    {
+      "word": "parking",
+      "lemma": "parking",
+      "ipa": "/ˈpɑːkɪŋ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the act or space of leaving a vehicle somewhere for a time",
+          "meaning_vi": "việc đỗ xe; chỗ đỗ xe",
+          "examples": [
+            {
+              "en": "Is there free parking at this mall?",
+              "vi": "Trung tâm này có chỗ đỗ xe miễn phí không?"
+            },
+            {
+              "en": "I can't find parking near Phố Cổ.",
+              "vi": "Tôi không tìm được chỗ đỗ xe gần Phố Cổ."
+            },
+            { "en": "Parking is 5,000 VND per hour.", "vi": "Phí đỗ 5,000 VND mỗi giờ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["parking lot", "free parking", "no parking", "parking space", "parking fee"],
+      "etymology_hint": "From 'park' (Old French 'parc' = enclosed grounds) + '-ing'.",
+      "mnemonic_vi": "PARKING = PARK + ING → 'đang đậu'. No parking = cấm đỗ xe."
+    },
+    {
+      "word": "road",
+      "lemma": "road",
+      "ipa": "/rəʊd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a wide hard surface for cars and other vehicles",
+          "meaning_vi": "đường (cho xe chạy)",
+          "examples": [
+            {
+              "en": "This road leads to Hồ Chí Minh City.",
+              "vi": "Con đường này dẫn đến TP Hồ Chí Minh."
+            },
+            { "en": "Be careful crossing the road.", "vi": "Cẩn thận khi qua đường." },
+            { "en": "The road to Sa Pa is curvy.", "vi": "Đường lên Sa Pa rất quanh co." }
+          ]
+        }
+      ],
+      "synonyms": ["street", "highway"],
+      "antonyms": [],
+      "collocations": [
+        "main road",
+        "country road",
+        "cross the road",
+        "on the road",
+        "side of the road"
+      ],
+      "etymology_hint": "From Old English 'rād' meaning 'a journey on horseback'.",
+      "mnemonic_vi": "ROAD = 'râu-d' — 'rộng' (đường). On the road = trên đường."
+    },
+    {
+      "word": "bridge",
+      "lemma": "bridge",
+      "ipa": "/brɪdʒ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a structure built over a river or road for crossing",
+          "meaning_vi": "cây cầu",
+          "examples": [
+            {
+              "en": "We crossed the Long Biên Bridge by foot.",
+              "vi": "Chúng tôi đi bộ qua cầu Long Biên."
+            },
+            {
+              "en": "The Golden Bridge in Đà Nẵng is famous.",
+              "vi": "Cầu Vàng ở Đà Nẵng nổi tiếng."
+            },
+            {
+              "en": "She watched the sunset from the bridge.",
+              "vi": "Cô ấy ngắm hoàng hôn từ trên cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "cross a bridge",
+        "long bridge",
+        "famous bridge",
+        "under the bridge",
+        "build a bridge"
+      ],
+      "etymology_hint": "From Old English 'brycg' — basic word for crossing structure.",
+      "mnemonic_vi": "BRIDGE = 'brít-d' — 'bắc' (xây) qua sông = cầu. Cross a bridge = qua cầu."
+    },
+    {
+      "word": "station",
+      "lemma": "station",
+      "ipa": "/ˈsteɪʃn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a place where trains or buses stop for people to get on or off",
+          "meaning_vi": "nhà ga, trạm",
+          "examples": [
+            { "en": "Take a taxi to Hà Nội Train Station.", "vi": "Bắt taxi đến ga Hà Nội." },
+            {
+              "en": "The bus station is crowded on weekends.",
+              "vi": "Bến xe đông đúc vào cuối tuần."
+            },
+            { "en": "Metro stations in Sài Gòn are new.", "vi": "Các ga metro Sài Gòn còn mới." }
+          ]
+        }
+      ],
+      "synonyms": ["stop", "terminal"],
+      "antonyms": [],
+      "collocations": [
+        "train station",
+        "bus station",
+        "metro station",
+        "police station",
+        "gas station"
+      ],
+      "etymology_hint": "From Latin 'statio' meaning 'standing, stopping place'.",
+      "mnemonic_vi": "STATION = 'stây-shần' — 'sờ tê' (đứng đợi). Train station = ga tàu."
+    },
+    {
+      "word": "helmet",
+      "lemma": "helmet",
+      "ipa": "/ˈhelmɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a hard hat worn to protect your head",
+          "meaning_vi": "mũ bảo hiểm",
+          "examples": [
+            {
+              "en": "Always wear a helmet when riding a motorbike.",
+              "vi": "Luôn đội mũ bảo hiểm khi đi xe máy."
+            },
+            {
+              "en": "Vietnamese police check helmet use strictly.",
+              "vi": "Cảnh sát Việt Nam kiểm tra mũ bảo hiểm rất nghiêm."
+            },
+            { "en": "My helmet is in the storage box.", "vi": "Mũ bảo hiểm của tôi ở cốp xe." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wear a helmet",
+        "bike helmet",
+        "safety helmet",
+        "motorcycle helmet",
+        "construction helmet"
+      ],
+      "etymology_hint": "From Old French 'helme' meaning 'protective head covering'.",
+      "mnemonic_vi": "HELMET = 'hen-mít' — 'hân' (đầu) 'mít' (cứng) = mũ bảo hiểm."
+    },
+    {
+      "word": "license",
+      "lemma": "license",
+      "ipa": "/ˈlaɪsns/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an official permission to do something, especially to drive",
+          "meaning_vi": "giấy phép (đặc biệt là lái xe); bằng",
+          "examples": [
+            {
+              "en": "She got her driving license at 18.",
+              "vi": "Cô ấy lấy bằng lái xe năm 18 tuổi."
+            },
+            {
+              "en": "Show your license to the police officer.",
+              "vi": "Trình bằng lái cho cảnh sát."
+            },
+            {
+              "en": "Vietnam requires a motorbike license over 50cc.",
+              "vi": "Việt Nam yêu cầu bằng lái xe máy trên 50cc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["permit"],
+      "antonyms": [],
+      "collocations": [
+        "driving license",
+        "license plate",
+        "get a license",
+        "renew a license",
+        "fishing license"
+      ],
+      "etymology_hint": "From Latin 'licentia' meaning 'permission, freedom'. UK: 'licence'.",
+      "mnemonic_vi": "LICENSE = 'lai-sần' — 'lái cần' giấy phép. Driving license = bằng lái."
+    },
+    {
+      "word": "ferry",
+      "lemma": "ferry",
+      "ipa": "/ˈferi/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a boat that carries people and vehicles across water",
+          "meaning_vi": "phà",
+          "examples": [
+            {
+              "en": "Take the ferry from Hà Tiên to Phú Quốc.",
+              "vi": "Đi phà từ Hà Tiên ra Phú Quốc."
+            },
+            { "en": "The ferry leaves every hour.", "vi": "Phà chạy mỗi giờ một chuyến." },
+            {
+              "en": "Ferries cross the Saigon River day and night.",
+              "vi": "Phà sang sông Sài Gòn cả ngày đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take the ferry",
+        "ferry ride",
+        "ferry terminal",
+        "passenger ferry",
+        "ferry boat"
+      ],
+      "etymology_hint": "From Old English 'ferian' meaning 'to carry, transport'.",
+      "mnemonic_vi": "FERRY = 'phe-ri' — 'phà ri' (qua sông). Take the ferry = đi phà."
+    },
+    {
+      "word": "boat",
+      "lemma": "boat",
+      "ipa": "/bəʊt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small vessel for traveling on water",
+          "meaning_vi": "thuyền, ghe, tàu nhỏ",
+          "examples": [
+            {
+              "en": "We rode a boat in Hạ Long Bay.",
+              "vi": "Chúng tôi đi thuyền trong Vịnh Hạ Long."
+            },
+            { "en": "Fishing boats line up at the harbor.", "vi": "Tàu cá xếp hàng ở cảng." },
+            {
+              "en": "Wooden boats are common in the Mekong Delta.",
+              "vi": "Thuyền gỗ phổ biến ở Đồng bằng sông Cửu Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vessel"],
+      "antonyms": [],
+      "collocations": [
+        "small boat",
+        "fishing boat",
+        "ride a boat",
+        "wooden boat",
+        "in the same boat"
+      ],
+      "etymology_hint": "From Old English 'bāt' — basic water vessel word.",
+      "mnemonic_vi": "BOAT = 'bâu-t' — 'bộp' (lướt nước). Fishing boat = thuyền câu cá."
+    },
+    {
+      "word": "scooter",
+      "lemma": "scooter",
+      "ipa": "/ˈskuːtə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small motorbike with a step-through frame; or a child's small ride",
+          "meaning_vi": "xe tay ga; xe scooter trẻ em",
+          "examples": [
+            {
+              "en": "She rides a Honda Vision scooter to work.",
+              "vi": "Cô ấy đi xe tay ga Honda Vision đi làm."
+            },
+            {
+              "en": "Kids love scooters in the park.",
+              "vi": "Trẻ em thích xe scooter ở công viên."
+            },
+            {
+              "en": "Electric scooters are everywhere in Sài Gòn.",
+              "vi": "Xe điện scooter có khắp nơi ở Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motor scooter"],
+      "antonyms": [],
+      "collocations": [
+        "ride a scooter",
+        "electric scooter",
+        "Vespa scooter",
+        "kids' scooter",
+        "rent a scooter"
+      ],
+      "etymology_hint": "From 'scoot' (to dart away) + '-er' — basic transport word.",
+      "mnemonic_vi": "SCOOTER = 'scu-tờ' — 'scu' (lướt) đi. Honda scooter = Honda tay ga."
+    },
+    {
+      "word": "truck",
+      "lemma": "truck",
+      "ipa": "/trʌk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large heavy vehicle for carrying goods",
+          "meaning_vi": "xe tải",
+          "examples": [
+            {
+              "en": "Trucks deliver goods to Vietnamese markets daily.",
+              "vi": "Xe tải giao hàng đến các chợ Việt mỗi ngày."
+            },
+            { "en": "Don't drive close to a truck.", "vi": "Đừng đi xe sát xe tải." },
+            {
+              "en": "Food trucks are popular in Sài Gòn at night.",
+              "vi": "Xe đồ ăn đường phố phổ biến ở Sài Gòn buổi tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lorry"],
+      "antonyms": [],
+      "collocations": [
+        "delivery truck",
+        "food truck",
+        "drive a truck",
+        "pickup truck",
+        "truck driver"
+      ],
+      "etymology_hint": "From Latin 'trochus' meaning 'wheel'.",
+      "mnemonic_vi": "TRUCK = 'trắc' — 'trắc' to lớn chở đồ. Food truck = xe bán đồ ăn."
+    },
+    {
+      "word": "van",
+      "lemma": "van",
+      "ipa": "/væn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a medium-sized box-shaped vehicle for carrying people or goods",
+          "meaning_vi": "xe van, xe tải nhỏ",
+          "examples": [
+            {
+              "en": "We rented a van for the family trip.",
+              "vi": "Chúng tôi thuê xe van cho chuyến đi gia đình."
+            },
+            {
+              "en": "The delivery van arrived this morning.",
+              "vi": "Xe van giao hàng đến sáng nay."
+            },
+            {
+              "en": "Tour vans pick up tourists in District 1.",
+              "vi": "Xe tour van đón du khách ở Quận 1."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["delivery van", "tour van", "rented van", "white van", "van driver"],
+      "etymology_hint": "Shortened from 'caravan' — meaning 'covered wagon'.",
+      "mnemonic_vi": "VAN = 'ven' — 'ven' (hộp) chở đồ. Family van = xe gia đình."
+    },
+    {
+      "word": "ambulance",
+      "lemma": "ambulance",
+      "ipa": "/ˈæmbjələns/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a special vehicle for taking sick people to the hospital",
+          "meaning_vi": "xe cứu thương",
+          "examples": [
+            {
+              "en": "Call an ambulance — he's hurt!",
+              "vi": "Gọi xe cứu thương — anh ấy bị thương!"
+            },
+            {
+              "en": "The ambulance arrived in 10 minutes.",
+              "vi": "Xe cứu thương đến trong 10 phút."
+            },
+            { "en": "Make way for the ambulance!", "vi": "Nhường đường cho xe cứu thương!" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "call an ambulance",
+        "ambulance driver",
+        "by ambulance",
+        "ambulance siren",
+        "private ambulance"
+      ],
+      "etymology_hint": "From French 'hôpital ambulant' meaning 'walking hospital'.",
+      "mnemonic_vi": "AMBULANCE = 'em-biu-lần' — 'âm' (kêu) 'lần' (chạy nhanh) = xe cứu thương."
+    },
+    {
+      "word": "port",
+      "lemma": "port",
+      "ipa": "/pɔːt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a town with a harbor where ships load and unload",
+          "meaning_vi": "cảng, bến cảng",
+          "examples": [
+            {
+              "en": "Hải Phòng is Vietnam's biggest northern port.",
+              "vi": "Hải Phòng là cảng lớn nhất miền Bắc Việt Nam."
+            },
+            { "en": "Cruise ships dock at this port.", "vi": "Tàu du lịch cập cảng này." },
+            { "en": "The port is busy with container ships.", "vi": "Cảng tấp nập tàu container." }
+          ]
+        }
+      ],
+      "synonyms": ["harbor"],
+      "antonyms": [],
+      "collocations": [
+        "sea port",
+        "deep-water port",
+        "container port",
+        "port city",
+        "leave the port"
+      ],
+      "etymology_hint": "From Latin 'portus' meaning 'harbor, gate'.",
+      "mnemonic_vi": "PORT = 'pót' — 'pót' (cập). Sea port = cảng biển. Cũng = cổng máy tính: USB port."
+    },
+    {
+      "word": "wheel",
+      "lemma": "wheel",
+      "ipa": "/wiːl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a round object that turns to help vehicles move",
+          "meaning_vi": "bánh xe",
+          "examples": [
+            { "en": "A bicycle has two wheels.", "vi": "Xe đạp có hai bánh." },
+            {
+              "en": "The front wheel of my motorbike is flat.",
+              "vi": "Bánh trước xe máy tôi bị xẹp."
+            },
+            {
+              "en": "She loves being behind the wheel of her new car.",
+              "vi": "Cô ấy thích cảm giác cầm lái chiếc xe mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "front wheel",
+        "back wheel",
+        "steering wheel",
+        "behind the wheel",
+        "spare wheel"
+      ],
+      "etymology_hint": "From Old English 'hwēol' — basic word for circular rolling object.",
+      "mnemonic_vi": "WHEEL = 'guíl' — 'quay' (xoay tròn). Steering wheel = vô lăng."
+    },
+    {
+      "word": "tunnel",
+      "lemma": "tunnel",
+      "ipa": "/ˈtʌnl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long underground passage for cars, trains, or people",
+          "meaning_vi": "đường hầm",
+          "examples": [
+            {
+              "en": "The Hải Vân Tunnel is the longest in Southeast Asia.",
+              "vi": "Hầm Hải Vân là dài nhất Đông Nam Á."
+            },
+            {
+              "en": "We drove through a long tunnel.",
+              "vi": "Chúng tôi lái qua một đường hầm dài."
+            },
+            {
+              "en": "Củ Chi Tunnels were used during the war.",
+              "vi": "Địa đạo Củ Chi được dùng trong chiến tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["passage"],
+      "antonyms": [],
+      "collocations": [
+        "long tunnel",
+        "underground tunnel",
+        "drive through a tunnel",
+        "tunnel entrance",
+        "light at the end of the tunnel"
+      ],
+      "etymology_hint": "From Old French 'tonnelle' meaning 'cask, barrel'.",
+      "mnemonic_vi": "TUNNEL = 'tâ-nồ' — 'tốn nâu' (đất). Hải Vân tunnel = hầm Hải Vân."
+    },
+    {
+      "word": "route",
+      "lemma": "route",
+      "ipa": "/ruːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the way you go from one place to another",
+          "meaning_vi": "lộ trình, tuyến đường",
+          "examples": [
+            {
+              "en": "Grab suggested a faster route to the airport.",
+              "vi": "Grab gợi ý lộ trình nhanh hơn đến sân bay."
+            },
+            {
+              "en": "The scenic route is longer but prettier.",
+              "vi": "Đường đẹp hơn nhưng dài hơn."
+            },
+            { "en": "Bus route 9 stops at Hồ Tây.", "vi": "Tuyến xe buýt số 9 dừng ở Hồ Tây." }
+          ]
+        }
+      ],
+      "synonyms": ["path", "way"],
+      "antonyms": [],
+      "collocations": [
+        "bus route",
+        "scenic route",
+        "fastest route",
+        "route map",
+        "alternative route"
+      ],
+      "etymology_hint": "From Old French 'rute' meaning 'road', via Latin 'rupta via' (broken way).",
+      "mnemonic_vi": "ROUTE = 'rút' — 'rút' (đi đường) ngắn. Bus route = tuyến xe buýt."
+    },
+    {
+      "word": "sail",
+      "lemma": "sail",
+      "ipa": "/seɪl/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to travel on water in a boat or ship",
+          "meaning_vi": "đi thuyền, đi tàu thuỷ",
+          "examples": [
+            {
+              "en": "We sailed around Hạ Long Bay.",
+              "vi": "Chúng tôi đi thuyền quanh Vịnh Hạ Long."
+            },
+            {
+              "en": "The cruise ship sails to Singapore tomorrow.",
+              "vi": "Du thuyền sẽ ra khơi đến Singapore ngày mai."
+            },
+            {
+              "en": "He learned to sail when he was 10.",
+              "vi": "Anh ấy học đi thuyền buồm năm 10 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cruise"],
+      "antonyms": [],
+      "collocations": ["sail away", "set sail", "smooth sailing", "sail across", "sail boat"],
+      "etymology_hint": "From Old English 'seglian' — basic verb for water travel.",
+      "mnemonic_vi": "SAIL = 'sệu' — 'sờ ếu' (lướt nước). Set sail = nhổ neo, lên đường."
+    },
+    {
+      "word": "brake",
+      "lemma": "brake",
+      "ipa": "/breɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the part of a vehicle used to slow or stop it",
+          "meaning_vi": "phanh xe (thắng)",
+          "examples": [
+            { "en": "Hit the brakes — there's a child!", "vi": "Đạp phanh — có em bé kìa!" },
+            { "en": "My motorbike brakes need fixing.", "vi": "Phanh xe máy tôi cần sửa." },
+            { "en": "Press the brake gently in the rain.", "vi": "Bấm phanh nhẹ khi trời mưa." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["accelerator"],
+      "collocations": [
+        "hit the brakes",
+        "step on the brake",
+        "brake pedal",
+        "brake hard",
+        "emergency brake"
+      ],
+      "etymology_hint": "From Old English 'bracu' meaning 'thicket, hindrance'.",
+      "mnemonic_vi": "BRAKE = 'brệch' — 'phách' (cản). Hit the brakes = đạp phanh."
+    },
+    {
+      "word": "engine",
+      "lemma": "engine",
+      "ipa": "/ˈendʒɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the part of a vehicle that produces power to make it move",
+          "meaning_vi": "động cơ, máy",
+          "examples": [
+            {
+              "en": "My motorbike engine is making a strange noise.",
+              "vi": "Động cơ xe máy tôi kêu lạ."
+            },
+            { "en": "Honda makes great engines.", "vi": "Honda làm động cơ rất tốt." },
+            { "en": "Turn off the engine when you park.", "vi": "Tắt máy khi đỗ xe." }
+          ]
+        }
+      ],
+      "synonyms": ["motor"],
+      "antonyms": [],
+      "collocations": [
+        "car engine",
+        "engine trouble",
+        "start the engine",
+        "turn off the engine",
+        "diesel engine"
+      ],
+      "etymology_hint": "From Old French 'engin' meaning 'skill, cleverness, machine'.",
+      "mnemonic_vi": "ENGINE = 'en-dgin' — 'en' (đẩy) 'din' (máy). Car engine = động cơ ô tô."
+    }
+  ]
+}

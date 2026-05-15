@@ -1,0 +1,628 @@
+{
+  "slug": "common-a1-adv",
+  "name": "Common A1 Adverbs",
+  "description": "Trạng từ A1 phổ biến — cách thức, mức độ, khả năng, nơi chốn.",
+  "order_index": 17,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "carefully",
+      "lemma": "carefully",
+      "ipa": "/ˈkeəfəli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "with care; paying attention to avoid mistakes or danger",
+          "meaning_vi": "cẩn thận",
+          "examples": [
+            { "en": "Drive carefully on the highway.", "vi": "Lái xe cẩn thận trên cao tốc." },
+            { "en": "She carefully wrapped the gift.", "vi": "Cô ấy cẩn thận gói món quà." },
+            {
+              "en": "Read the contract carefully before signing.",
+              "vi": "Đọc kỹ hợp đồng trước khi ký."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cautiously"],
+      "antonyms": ["carelessly"],
+      "collocations": [
+        "drive carefully",
+        "listen carefully",
+        "think carefully",
+        "very carefully",
+        "read carefully"
+      ],
+      "etymology_hint": "From 'careful' (care + ful) + '-ly'.",
+      "mnemonic_vi": "CAREFULLY = CARE + FULLY → 'đầy lo lắng' = cẩn thận."
+    },
+    {
+      "word": "quickly",
+      "lemma": "quickly",
+      "ipa": "/ˈkwɪkli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a fast way; without delay",
+          "meaning_vi": "nhanh chóng",
+          "examples": [
+            {
+              "en": "She quickly finished her homework.",
+              "vi": "Cô ấy nhanh chóng làm xong bài tập."
+            },
+            { "en": "Eat quickly — we're late!", "vi": "Ăn nhanh — chúng ta trễ rồi!" },
+            { "en": "News spreads quickly on Facebook.", "vi": "Tin tức lan nhanh trên Facebook." }
+          ]
+        }
+      ],
+      "synonyms": ["fast", "rapidly"],
+      "antonyms": ["slowly"],
+      "collocations": [
+        "very quickly",
+        "move quickly",
+        "act quickly",
+        "spread quickly",
+        "as quickly as possible"
+      ],
+      "etymology_hint": "From 'quick' (Old English 'cwic' = alive, swift) + '-ly'.",
+      "mnemonic_vi": "QUICKLY = QUICK + LY → 'nhanh chóng'. Run quickly = chạy nhanh."
+    },
+    {
+      "word": "slowly",
+      "lemma": "slowly",
+      "ipa": "/ˈsləʊli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a slow way; not fast",
+          "meaning_vi": "chậm rãi",
+          "examples": [
+            {
+              "en": "Please speak slowly — I'm still learning.",
+              "vi": "Vui lòng nói chậm — tôi đang học."
+            },
+            {
+              "en": "The traffic moved slowly in rush hour.",
+              "vi": "Xe cộ di chuyển chậm giờ cao điểm."
+            },
+            { "en": "Eat slowly to enjoy the food.", "vi": "Ăn chậm để thưởng thức món ăn." }
+          ]
+        }
+      ],
+      "synonyms": ["gradually"],
+      "antonyms": ["quickly", "fast"],
+      "collocations": ["very slowly", "speak slowly", "move slowly", "walk slowly", "drive slowly"],
+      "etymology_hint": "From 'slow' (Old English 'slāw') + '-ly'.",
+      "mnemonic_vi": "SLOWLY = SLOW + LY → 'chậm rãi'. Đối với QUICKLY."
+    },
+    {
+      "word": "easily",
+      "lemma": "easily",
+      "ipa": "/ˈiːzəli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "without difficulty; in a simple way",
+          "meaning_vi": "dễ dàng",
+          "examples": [
+            { "en": "She easily passed the test.", "vi": "Cô ấy dễ dàng đỗ bài thi." },
+            {
+              "en": "You can easily find phở on every street.",
+              "vi": "Bạn dễ dàng tìm phở ở mọi con phố."
+            },
+            {
+              "en": "I can't easily forget her smile.",
+              "vi": "Tôi không dễ quên nụ cười của cô ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["effortlessly"],
+      "antonyms": ["hardly"],
+      "collocations": [
+        "very easily",
+        "easily understood",
+        "easily done",
+        "easily upset",
+        "could easily"
+      ],
+      "etymology_hint": "From 'easy' (Old French 'aisié') + '-ly'.",
+      "mnemonic_vi": "EASILY = EASY + LY → 'cách dễ dàng'."
+    },
+    {
+      "word": "suddenly",
+      "lemma": "suddenly",
+      "ipa": "/ˈsʌdənli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "happening quickly without warning",
+          "meaning_vi": "đột nhiên, bất ngờ",
+          "examples": [
+            { "en": "Suddenly, it started raining.", "vi": "Đột nhiên trời bắt đầu mưa." },
+            {
+              "en": "He suddenly remembered the meeting.",
+              "vi": "Anh ấy đột nhiên nhớ ra cuộc họp."
+            },
+            {
+              "en": "The price went up suddenly last month.",
+              "vi": "Giá tăng đột ngột tháng trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unexpectedly", "abruptly"],
+      "antonyms": ["gradually"],
+      "collocations": [
+        "suddenly remember",
+        "suddenly appear",
+        "all of a sudden",
+        "suddenly change",
+        "quite suddenly"
+      ],
+      "etymology_hint": "From Latin 'subitus' meaning 'unexpected, sudden'.",
+      "mnemonic_vi": "SUDDENLY = SUDDEN + LY → 'cách bất ngờ'. Suddenly it rained = đột nhiên trời mưa."
+    },
+    {
+      "word": "almost",
+      "lemma": "almost",
+      "ipa": "/ˈɔːlməʊst/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "very nearly, but not completely",
+          "meaning_vi": "gần như, hầu như",
+          "examples": [
+            { "en": "I'm almost done with my homework.", "vi": "Tôi gần xong bài tập rồi." },
+            { "en": "Almost everyone loves bánh mì.", "vi": "Hầu như ai cũng yêu bánh mì." },
+            { "en": "It's almost 5pm — let's leave.", "vi": "Gần 5h chiều rồi — đi thôi." }
+          ]
+        }
+      ],
+      "synonyms": ["nearly"],
+      "antonyms": [],
+      "collocations": [
+        "almost always",
+        "almost done",
+        "almost everyone",
+        "almost certainly",
+        "almost there"
+      ],
+      "etymology_hint": "Compound 'all' + 'most' — meaning 'most of the way'.",
+      "mnemonic_vi": "ALMOST = ALL + MOST → 'gần hết'. Almost done = gần xong."
+    },
+    {
+      "word": "exactly",
+      "lemma": "exactly",
+      "ipa": "/ɪɡˈzæktli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a precise way; with no difference",
+          "meaning_vi": "chính xác; đúng",
+          "examples": [
+            {
+              "en": "Tell me exactly what happened.",
+              "vi": "Hãy kể chính xác chuyện gì đã xảy ra."
+            },
+            { "en": "It cost exactly 100,000 VND.", "vi": "Giá đúng 100,000 VND." },
+            { "en": "Exactly! That's what I mean.", "vi": "Chính xác! Đó là ý tôi." }
+          ]
+        }
+      ],
+      "synonyms": ["precisely"],
+      "antonyms": ["approximately"],
+      "collocations": [
+        "exactly the same",
+        "tell me exactly",
+        "exactly when",
+        "not exactly",
+        "exactly right"
+      ],
+      "etymology_hint": "From Latin 'exactus' meaning 'precise, weighed out'.",
+      "mnemonic_vi": "EXACTLY = EXACT (chính xác) + LY → 'cách chính xác'."
+    },
+    {
+      "word": "perhaps",
+      "lemma": "perhaps",
+      "ipa": "/pəˈhæps/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "possibly; maybe",
+          "meaning_vi": "có lẽ, có thể",
+          "examples": [
+            { "en": "Perhaps it will rain later.", "vi": "Có lẽ chiều sẽ mưa." },
+            { "en": "Perhaps you're right.", "vi": "Có thể bạn đúng." },
+            { "en": "Perhaps we should leave now.", "vi": "Có lẽ chúng ta nên đi ngay." }
+          ]
+        }
+      ],
+      "synonyms": ["maybe", "possibly"],
+      "antonyms": ["definitely"],
+      "collocations": [
+        "perhaps later",
+        "perhaps not",
+        "perhaps so",
+        "perhaps tomorrow",
+        "or perhaps"
+      ],
+      "etymology_hint": "Compound 'per' (Latin = by) + 'haps' (chance) — 'by chance'.",
+      "mnemonic_vi": "PERHAPS = 'pờ-hép' — 'phải' (có khi) 'hợp' (đúng). Đồng nghĩa MAYBE."
+    },
+    {
+      "word": "maybe",
+      "lemma": "maybe",
+      "ipa": "/ˈmeɪbi/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "possibly; perhaps (informal)",
+          "meaning_vi": "có lẽ, có thể (thân mật)",
+          "examples": [
+            { "en": "Maybe she's at the café.", "vi": "Có lẽ cô ấy ở quán cà phê." },
+            { "en": "Maybe yes, maybe no.", "vi": "Có khi có, có khi không." },
+            { "en": "Maybe we can meet on Saturday.", "vi": "Có thể chúng ta gặp hôm thứ Bảy." }
+          ]
+        }
+      ],
+      "synonyms": ["perhaps", "possibly"],
+      "antonyms": ["definitely"],
+      "collocations": ["maybe later", "maybe so", "maybe tomorrow", "maybe not", "or maybe"],
+      "etymology_hint": "Compound 'may' + 'be' → 'it may be'.",
+      "mnemonic_vi": "MAYBE = MAY + BE → 'có thể là'. Thân mật hơn PERHAPS."
+    },
+    {
+      "word": "anyway",
+      "lemma": "anyway",
+      "ipa": "/ˈeniweɪ/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in any case; despite something",
+          "meaning_vi": "dù sao; thôi thì",
+          "examples": [
+            { "en": "It's raining, but let's go anyway.", "vi": "Trời mưa, nhưng cứ đi thôi." },
+            { "en": "Anyway, what were you saying?", "vi": "Thôi, bạn đang nói gì vậy?" },
+            {
+              "en": "She doesn't like phở, but she ate it anyway.",
+              "vi": "Cô ấy không thích phở, nhưng vẫn ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nevertheless"],
+      "antonyms": [],
+      "collocations": ["go anyway", "thanks anyway", "anyway, the", "but anyway", "anyway, I"],
+      "etymology_hint": "Compound 'any' + 'way' → 'in any case'.",
+      "mnemonic_vi": "ANYWAY = ANY + WAY → 'cách nào cũng được'. Anyway, let's go = thôi đi thôi."
+    },
+    {
+      "word": "definitely",
+      "lemma": "definitely",
+      "ipa": "/ˈdefɪnətli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "without doubt; for sure",
+          "meaning_vi": "chắc chắn",
+          "examples": [
+            {
+              "en": "I'm definitely coming to your wedding.",
+              "vi": "Tôi chắc chắn sẽ đến đám cưới của bạn."
+            },
+            {
+              "en": "That movie is definitely worth watching.",
+              "vi": "Phim đó chắc chắn đáng xem."
+            },
+            {
+              "en": "She's definitely the best singer.",
+              "vi": "Cô ấy chắc chắn là ca sĩ hay nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["certainly", "surely"],
+      "antonyms": ["possibly"],
+      "collocations": [
+        "definitely yes",
+        "definitely not",
+        "definitely worth",
+        "I definitely",
+        "definitely going"
+      ],
+      "etymology_hint": "From 'definite' (Latin 'definitus' = bounded) + '-ly'.",
+      "mnemonic_vi": "DEFINITELY = DEFINITE + LY → 'một cách chắc chắn'. Definitely yes = chắc chắn rồi."
+    },
+    {
+      "word": "probably",
+      "lemma": "probably",
+      "ipa": "/ˈprɒbəbli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "very likely; almost certainly",
+          "meaning_vi": "có lẽ, hầu chắc",
+          "examples": [
+            { "en": "She's probably stuck in traffic.", "vi": "Có lẽ cô ấy kẹt xe." },
+            { "en": "It will probably rain tomorrow.", "vi": "Mai có lẽ trời mưa." },
+            {
+              "en": "He's probably the smartest in class.",
+              "vi": "Cậu ấy hầu chắc là người giỏi nhất lớp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["likely"],
+      "antonyms": ["unlikely"],
+      "collocations": [
+        "probably not",
+        "most probably",
+        "probably true",
+        "probably right",
+        "probably the best"
+      ],
+      "etymology_hint": "From Latin 'probabilis' meaning 'plausible'.",
+      "mnemonic_vi": "PROBABLY = PROBABLE + LY → 'có khả năng'. Probably yes = chắc là có."
+    },
+    {
+      "word": "certainly",
+      "lemma": "certainly",
+      "ipa": "/ˈsɜːtnli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "without doubt; absolutely",
+          "meaning_vi": "chắc chắn, dĩ nhiên",
+          "examples": [
+            { "en": "I'll certainly help you.", "vi": "Tôi chắc chắn sẽ giúp bạn." },
+            {
+              "en": "Certainly, that's not my fault.",
+              "vi": "Dĩ nhiên đó không phải lỗi của tôi."
+            },
+            {
+              "en": "She is certainly the right person for the job.",
+              "vi": "Cô ấy chắc chắn là người phù hợp cho công việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["definitely", "surely"],
+      "antonyms": [],
+      "collocations": [
+        "most certainly",
+        "almost certainly",
+        "certainly not",
+        "yes, certainly",
+        "I certainly"
+      ],
+      "etymology_hint": "From 'certain' (Latin 'certus' = settled) + '-ly'.",
+      "mnemonic_vi": "CERTAINLY = CERTAIN + LY → 'một cách chắc chắn'. Yes, certainly = vâng, chắc chắn."
+    },
+    {
+      "word": "away",
+      "lemma": "away",
+      "ipa": "/əˈweɪ/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to or at a different place; not here",
+          "meaning_vi": "đi xa, ra xa; vắng mặt",
+          "examples": [
+            { "en": "Please go away — I need quiet.", "vi": "Xin đi đi — tôi cần yên tĩnh." },
+            { "en": "She is away on holiday.", "vi": "Cô ấy đi nghỉ phép, vắng mặt." },
+            { "en": "We threw the broken cup away.", "vi": "Chúng tôi vứt cái cốc vỡ đi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["here"],
+      "collocations": ["go away", "far away", "throw away", "right away", "miles away"],
+      "etymology_hint": "Compound 'a-' (on) + 'way' → 'on the way away'.",
+      "mnemonic_vi": "AWAY = A + WAY → 'đi đường' xa. Go away = đi đi. Right away = ngay lập tức."
+    },
+    {
+      "word": "ahead",
+      "lemma": "ahead",
+      "ipa": "/əˈhed/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in front; in the future; further forward",
+          "meaning_vi": "phía trước, đi trước",
+          "examples": [
+            { "en": "There's a phở stall just ahead.", "vi": "Có quán phở ngay phía trước." },
+            {
+              "en": "Vietnam is moving ahead in technology.",
+              "vi": "Việt Nam đang tiến lên về công nghệ."
+            },
+            { "en": "Go ahead — I'll catch up.", "vi": "Cứ đi trước — tôi sẽ đuổi kịp." }
+          ]
+        }
+      ],
+      "synonyms": ["forward"],
+      "antonyms": ["behind"],
+      "collocations": ["go ahead", "look ahead", "ahead of time", "straight ahead", "plan ahead"],
+      "etymology_hint": "Compound 'a-' (on) + 'head' → 'on the front/head'.",
+      "mnemonic_vi": "AHEAD = A + HEAD → 'phía đầu'. Go ahead = cứ đi trước."
+    },
+    {
+      "word": "completely",
+      "lemma": "completely",
+      "ipa": "/kəmˈpliːtli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "totally; in every way",
+          "meaning_vi": "hoàn toàn",
+          "examples": [
+            {
+              "en": "I completely forgot about the meeting.",
+              "vi": "Tôi hoàn toàn quên về cuộc họp."
+            },
+            {
+              "en": "She completely changed her hairstyle.",
+              "vi": "Cô ấy hoàn toàn thay đổi kiểu tóc."
+            },
+            {
+              "en": "He's completely right about this.",
+              "vi": "Anh ấy hoàn toàn đúng về việc này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["totally", "fully"],
+      "antonyms": ["partially"],
+      "collocations": [
+        "completely different",
+        "completely forgot",
+        "completely sure",
+        "completely changed",
+        "almost completely"
+      ],
+      "etymology_hint": "From 'complete' (Latin 'completus' = filled) + '-ly'.",
+      "mnemonic_vi": "COMPLETELY = COMPLETE + LY → 'hoàn toàn'. Completely different = hoàn toàn khác."
+    },
+    {
+      "word": "abroad",
+      "lemma": "abroad",
+      "ipa": "/əˈbrɔːd/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in or to a foreign country",
+          "meaning_vi": "ở nước ngoài, ra nước ngoài",
+          "examples": [
+            { "en": "She studies abroad in Australia.", "vi": "Cô ấy du học ở Úc." },
+            {
+              "en": "Many Vietnamese work abroad to send money home.",
+              "vi": "Nhiều người Việt làm việc ở nước ngoài để gửi tiền về."
+            },
+            { "en": "He hasn't been abroad before.", "vi": "Anh ấy chưa ra nước ngoài bao giờ." }
+          ]
+        }
+      ],
+      "synonyms": ["overseas"],
+      "antonyms": ["home"],
+      "collocations": ["live abroad", "study abroad", "work abroad", "go abroad", "travel abroad"],
+      "etymology_hint": "Compound 'a-' (on) + 'broad' → 'on the wide world'.",
+      "mnemonic_vi": "ABROAD = A + BROAD (rộng) → 'ra rộng' = ra nước ngoài. Study abroad = du học."
+    },
+    {
+      "word": "anywhere",
+      "lemma": "anywhere",
+      "ipa": "/ˈeniweə(r)/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in or to any place",
+          "meaning_vi": "bất cứ đâu, bất kỳ nơi nào",
+          "examples": [
+            {
+              "en": "I can find phở anywhere in Hà Nội.",
+              "vi": "Tôi tìm được phở ở bất cứ đâu Hà Nội."
+            },
+            {
+              "en": "Have you seen my keys anywhere?",
+              "vi": "Bạn thấy chìa khoá tôi ở đâu không?"
+            },
+            { "en": "I can't find it anywhere.", "vi": "Tôi không tìm thấy nó ở đâu cả." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "anywhere else",
+        "anywhere near",
+        "go anywhere",
+        "live anywhere",
+        "not anywhere"
+      ],
+      "etymology_hint": "Compound 'any' + 'where' → 'in any place'.",
+      "mnemonic_vi": "ANYWHERE = ANY + WHERE → 'bất kỳ đâu'."
+    },
+    {
+      "word": "somewhere",
+      "lemma": "somewhere",
+      "ipa": "/ˈsʌmweə(r)/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in or to some place; an unspecified place",
+          "meaning_vi": "ở đâu đó, một nơi nào đó",
+          "examples": [
+            {
+              "en": "I left my phone somewhere in the house.",
+              "vi": "Tôi để điện thoại đâu đó trong nhà."
+            },
+            { "en": "Let's eat somewhere nice tonight.", "vi": "Tối nay đi ăn ở đâu đó ngon đi." },
+            { "en": "She lives somewhere in District 3.", "vi": "Cô ấy sống đâu đó Quận 3." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["nowhere"],
+      "collocations": [
+        "somewhere else",
+        "somewhere nice",
+        "somewhere around",
+        "go somewhere",
+        "live somewhere"
+      ],
+      "etymology_hint": "Compound 'some' + 'where' → 'in some place'.",
+      "mnemonic_vi": "SOMEWHERE = SOME + WHERE → 'đâu đó'."
+    },
+    {
+      "word": "nowhere",
+      "lemma": "nowhere",
+      "ipa": "/ˈnəʊweə(r)/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not in any place; not anywhere",
+          "meaning_vi": "không ở đâu cả; chẳng ở đâu",
+          "examples": [
+            { "en": "My keys are nowhere to be found.", "vi": "Chìa khoá tôi chẳng thấy ở đâu." },
+            { "en": "We have nowhere to go for Tết.", "vi": "Chúng tôi không có chỗ nào đi Tết." },
+            {
+              "en": "This conversation is going nowhere.",
+              "vi": "Cuộc trò chuyện này chẳng đi đến đâu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["somewhere", "everywhere"],
+      "collocations": [
+        "nowhere to go",
+        "nowhere else",
+        "nowhere to be found",
+        "out of nowhere",
+        "going nowhere"
+      ],
+      "etymology_hint": "Compound 'no' + 'where' → 'not in any place'.",
+      "mnemonic_vi": "NOWHERE = NO + WHERE → 'không có nơi nào'. Out of nowhere = từ đâu rớt xuống."
+    }
+  ]
+}
