@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev           | Last merge TO dev      | Notes                                                        |
-| ------ | ----------------------- | ---------------------------- | ---------------------- | ------------------------------------------------------------ |
-| main   | `eb18493`               | —                            | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames    |
-| dev    | `33f1b3b`               | base                         | 2026-05-17 (`33f1b3b`) | END-OF-MARATHON handoff (chunks 3-16 shipped, v1.0.0 staged) |
-| be     | `1d5d783`               | 2026-05-17 (end-of-marathon) | 2026-05-13 (`3627953`) | sync end-of-marathon handoff                                 |
-| fe     | `e4b30c0`               | 2026-05-17 (end-of-marathon) | 2026-05-16 (`ae64d37`) | sync end-of-marathon handoff                                 |
+| Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `b18ecdc`               | base                   | 2026-05-17 (`b18ecdc`) | Tuần 6 chunk 17 onboarding tour (BE + FE merged)          |
+| be     | `081700a`               | 2026-05-17 (`081700a`) | 2026-05-17 (`ddd55bf`) | sync chunk 17 onboarding tour FE                          |
+| fe     | `4e693d8`               | 2026-05-17 (`b47c37f`) | 2026-05-17 (`4e693d8`) | chunk 17 tour modal + layout                              |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
