@@ -83,7 +83,10 @@
 
 - [x] **P5a Common Core function words** (2026-05-16, 5 lessons / 100 cards + topic meta common-core): `articles-determiners, pronouns-basic, prepositions-place, prepositions-time-other, conjunctions-basic` — commit `15fa814` trên be → dev `6728b06` → fe `884d527`. Gates green. Live seed: 1 collection / 11 topics / 47 lessons / **940 cards**.
 - [x] **P5b Common Core verbs/adj/adv — P5 CLOSED** (2026-05-16, 5 lessons / 100 cards): `core-be-do-have, core-action-verbs, core-mental-verbs, core-adjectives, core-adverbs` — commit `1775ac5` trên be → dev `67cc293` → fe `1247b0d`. Gates green. Live seed: **1 collection / 11 topics / 52 lessons / 1040 cards**. **P5 Common Core đóng đủ 10 lessons / 200 cards.**
-- [ ] **P6-P12**: A1 fillers, A2 expansion, B1 part 1, B1 part 2, B2 expansion, phrasal & compound, final fill — chi tiết tại `docs/CONTENT_PLAN_FULL.md`.
+- [x] **P6a A1 fillers** (2026-05-16, 5 lessons / 100 cards): `common-core/{colors-basic, shapes-sizes, common-a1-verbs-1}` + `daily-life/{body-parts-ext, food-cooking}` — commit `dfe0a97` trên be → dev `1cf9e1a` → fe `d0b57d7`. Gates green. Live seed: **1 collection / 11 topics / 57 lessons / 1140 cards**.
+- [ ] **P6b A1 fillers batch 2/3** (next): numbers-quantities-ext, common-a1-verbs-2, common-a1-adj, weather-seasons-ext, family-people-ext — 5 lessons / 100 cards.
+- [ ] **P6c A1 fillers batch 3/3** (after b): 5 more lessons / 100 cards.
+- [ ] **P7-P12**: A2 expansion, B1, B2, phrasal & compound, final fill — `docs/CONTENT_PLAN_FULL.md`.
 - [ ] **CHỜ USER**: review `docs/CONTENT_REPORT.md`, quyết định pick IPA style (giữ Oxford hay theo dictionaryapi)
 - [-] CRUD collections/topics/lessons (admin UI) — skip, content gen offline đủ MVP
 - [ ] Card detail modal (FE work) — hiện đang collapsible inline trong CardPreview, modal có thể làm sau nếu cần
