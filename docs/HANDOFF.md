@@ -61,9 +61,27 @@
 4. Capture README screenshots
 5. `git checkout main && git merge dev --no-ff -m "release: v1.0.0"` + tag + GitHub Release
 
-### Next chunk (content gen P1 batch)
+### Content gen P1 batch — HOLD, đợi user gen offline
 
-Sau khi tour ship, gen 7 lesson JSON P1 batch theo `docs/CONTENT_PLAN.md` Phần 5: clothes-appearance, body-health, daily-routine, personality, emotions, time-dates, numbers-quantities — mỗi 20 cards, 140 total. Tạo thêm 2 topic meta.json (people, time-numbers). Commit trên `be`, scope `content`.
+**Cập nhật 2026-05-17**: user pin xuống policy mới: **AI Claude Code KHÔNG tự gen lesson content JSON**. Lý do — content gen offline qua Claude desktop free tier (zero cost), AI Claude Code chỉ chuẩn bị prompt + wordlists + schema. Memory pin: `feedback_content_gen.md`.
+
+Brief đầy đủ đã viết ra trong **`docs/CONTENT_BRIEF_P1.md`** (commit cùng session này). Brief gồm:
+
+- Quy trình 5 bước
+- Schema reference đầy đủ
+- Prompt template paste-ready
+- 7 lesson briefs với wordlist + CEFR mix + path đích
+- 2 topic meta.json templates (people + time-numbers)
+- Tổng kết bảng
+
+**User next steps**:
+
+1. Mở `docs/CONTENT_BRIEF_P1.md`.
+2. Mở Claude desktop free tier.
+3. Per lesson: paste prompt template + wordlist → save JSON output.
+4. Đưa JSON về Claude Code session tiếp theo → AI validate + commit trên `be` + merge `dev` → sync `fe` → tick TRACKER.
+
+Tổng scope: 2 topic meta + 7 lesson = 9 file mới, 140 cards.
 
 ### Pattern reuse highlights mới
 
