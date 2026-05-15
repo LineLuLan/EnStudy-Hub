@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `67cc293`               | base                   | 2026-05-16 (`67cc293`) | P5 CLOSED — 10 lessons / 200 cards — 1040 total seeded    |
-| be     | `1775ac5`               | 2026-05-16 (`1775ac5`) | 2026-05-16 (`1775ac5`) | P5b common-core verbs/adj/adv (1 commit)                  |
-| fe     | `1247b0d`               | 2026-05-16 (`1247b0d`) | 2026-05-16 (`1247b0d`) | sync P5b — gates green (typecheck/lint/179 tests)         |
+| dev    | `1cf9e1a`               | base                   | 2026-05-16 (`1cf9e1a`) | P6a A1 fillers — 5 lessons / 100 cards — 1140 seeded      |
+| be     | `dfe0a97`               | 2026-05-16 (`dfe0a97`) | 2026-05-16 (`dfe0a97`) | P6a A1 fillers (1 commit, 5 lessons)                      |
+| fe     | `d0b57d7`               | 2026-05-16 (`d0b57d7`) | 2026-05-16 (`d0b57d7`) | sync P6a — gates green (typecheck/lint/179 tests)         |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
