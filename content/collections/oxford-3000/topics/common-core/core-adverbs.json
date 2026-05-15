@@ -1,0 +1,577 @@
+{
+  "slug": "core-adverbs",
+  "name": "Core: Basic Adverbs",
+  "description": "Trạng từ cốt lõi — chỉ mức độ, tần suất, thời gian và nơi chốn cơ bản.",
+  "order_index": 10,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "very",
+      "lemma": "very",
+      "ipa": "/ˈveri/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to a high degree; extremely (intensifies adjectives and adverbs)",
+          "meaning_vi": "rất, lắm (nhấn mạnh tính/trạng từ)",
+          "examples": [
+            { "en": "It's very hot in Sài Gòn today.", "vi": "Sài Gòn hôm nay rất nóng." },
+            { "en": "She speaks Vietnamese very well.", "vi": "Cô ấy nói tiếng Việt rất giỏi." },
+            {
+              "en": "Thank you very much for your help.",
+              "vi": "Cảm ơn bạn rất nhiều vì sự giúp đỡ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extremely", "really"],
+      "antonyms": ["slightly"],
+      "collocations": ["very much", "very well", "very good", "very nice", "very hot"],
+      "etymology_hint": "From Old French 'verai' meaning 'true' — meaning shifted from 'truly' to 'extremely'.",
+      "mnemonic_vi": "VERY = 'vé-ri' — 'rất' (cường điệu). Very hot = rất nóng. Đặt trước adj/adv: very + good."
+    },
+    {
+      "word": "really",
+      "lemma": "really",
+      "ipa": "/ˈrɪəli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in fact; truly; very (informal intensifier)",
+          "meaning_vi": "thật sự, thực sự; rất (thân mật)",
+          "examples": [
+            { "en": "I really love bún bò Huế.", "vi": "Tôi thật sự yêu bún bò Huế." },
+            {
+              "en": "Are you really leaving for Japan tomorrow?",
+              "vi": "Bạn thật sự sẽ đi Nhật ngày mai sao?"
+            },
+            { "en": "It's really cold this morning.", "vi": "Sáng nay lạnh thật sự." }
+          ]
+        }
+      ],
+      "synonyms": ["truly", "actually", "very"],
+      "antonyms": [],
+      "collocations": ["really good", "really nice", "really like", "not really", "really?"],
+      "etymology_hint": "From 'real' (Latin 'realis') + '-ly' — adverb form of 'real'.",
+      "mnemonic_vi": "REALLY = 'ri-ợ-li' — 'real' (thật) + LY. Really nice = đẹp thật sự. 'Really?' = 'thật á?'"
+    },
+    {
+      "word": "always",
+      "lemma": "always",
+      "ipa": "/ˈɔːlweɪz/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "at all times; on every occasion",
+          "meaning_vi": "luôn luôn, lúc nào cũng",
+          "examples": [
+            {
+              "en": "I always drink cà phê in the morning.",
+              "vi": "Tôi luôn uống cà phê buổi sáng."
+            },
+            { "en": "She is always smiling.", "vi": "Cô ấy lúc nào cũng tươi cười." },
+            {
+              "en": "We always go to Đà Lạt for Tết.",
+              "vi": "Năm nào Tết chúng tôi cũng đi Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["constantly", "forever"],
+      "antonyms": ["never"],
+      "collocations": ["always be", "always do", "almost always", "always there", "always wanted"],
+      "etymology_hint": "Compound 'all' + 'ways' — meaning 'in all ways, at all times'.",
+      "mnemonic_vi": "ALWAYS = ALL + WAYS → 'mọi hướng' = luôn luôn. I always smile = tôi luôn cười."
+    },
+    {
+      "word": "never",
+      "lemma": "never",
+      "ipa": "/ˈnevə(r)/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "at no time; not ever",
+          "meaning_vi": "không bao giờ, chưa bao giờ",
+          "examples": [
+            { "en": "I have never been to Phú Quốc.", "vi": "Tôi chưa bao giờ đến Phú Quốc." },
+            {
+              "en": "She never eats meat — she's vegetarian.",
+              "vi": "Cô ấy không bao giờ ăn thịt — cô ấy ăn chay."
+            },
+            { "en": "Never give up on your dreams!", "vi": "Đừng bao giờ từ bỏ ước mơ!" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["always"],
+      "collocations": ["never have", "never been", "never give up", "never mind", "never ever"],
+      "etymology_hint": "Compound 'ne' (not) + 'ever' → 'not ever'.",
+      "mnemonic_vi": "NEVER = NE (không) + EVER (bao giờ) → 'không bao giờ'. Never say never = đừng bao giờ nói không bao giờ."
+    },
+    {
+      "word": "often",
+      "lemma": "often",
+      "ipa": "/ˈɒfn/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "many times; frequently",
+          "meaning_vi": "thường xuyên, hay (làm)",
+          "examples": [
+            {
+              "en": "I often go to Hồ Tây at sunset.",
+              "vi": "Tôi thường ra Hồ Tây lúc hoàng hôn."
+            },
+            {
+              "en": "She often calls her mom on Sundays.",
+              "vi": "Cô ấy hay gọi cho mẹ vào Chủ nhật."
+            },
+            { "en": "How often do you exercise?", "vi": "Bạn tập thể dục bao lâu một lần?" }
+          ]
+        }
+      ],
+      "synonyms": ["frequently", "regularly"],
+      "antonyms": ["rarely"],
+      "collocations": ["how often", "very often", "more often", "not often", "quite often"],
+      "etymology_hint": "From Old English 'oft' — adverb of frequency, gained extra '-en' in Middle English.",
+      "mnemonic_vi": "OFTEN = 'óp-phần' — 'óp' (đè) phần lớn thời gian. How often = bao lâu một lần?"
+    },
+    {
+      "word": "sometimes",
+      "lemma": "sometimes",
+      "ipa": "/ˈsʌmtaɪmz/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "now and then; occasionally",
+          "meaning_vi": "thỉnh thoảng, đôi khi",
+          "examples": [
+            {
+              "en": "I sometimes work from home on Fridays.",
+              "vi": "Đôi khi tôi làm tại nhà vào thứ Sáu."
+            },
+            { "en": "Sometimes life surprises us.", "vi": "Đôi khi cuộc sống làm ta bất ngờ." },
+            {
+              "en": "She sometimes takes the bus to save money.",
+              "vi": "Đôi khi cô ấy đi xe buýt để tiết kiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["occasionally", "now and then"],
+      "antonyms": ["always", "never"],
+      "collocations": [
+        "sometimes I",
+        "sometimes we",
+        "but sometimes",
+        "only sometimes",
+        "sometimes you"
+      ],
+      "etymology_hint": "Compound 'some' + 'times' — meaning 'on some occasions'.",
+      "mnemonic_vi": "SOMETIMES = SOME + TIMES → 'một số lần' = thỉnh thoảng. Sometimes I cry = đôi khi tôi khóc."
+    },
+    {
+      "word": "usually",
+      "lemma": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "most of the time; normally",
+          "meaning_vi": "thường, thường thì (mặc định)",
+          "examples": [
+            { "en": "I usually wake up at 6am.", "vi": "Tôi thường thức dậy lúc 6 giờ sáng." },
+            { "en": "She usually orders cà phê đen.", "vi": "Cô ấy thường gọi cà phê đen." },
+            { "en": "It's usually quiet at this café.", "vi": "Quán cà phê này thường yên tĩnh." }
+          ]
+        }
+      ],
+      "synonyms": ["normally", "generally"],
+      "antonyms": ["rarely"],
+      "collocations": ["usually do", "usually go", "as usual", "usually have", "usually take"],
+      "etymology_hint": "From 'usual' (Latin 'usualis') + '-ly' — adverb form of 'usual'.",
+      "mnemonic_vi": "USUALLY = USUAL + LY → 'theo thông lệ'. I usually = tôi thường. Mạnh hơn 'often', nhẹ hơn 'always'."
+    },
+    {
+      "word": "now",
+      "lemma": "now",
+      "ipa": "/naʊ/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "at the present time; immediately",
+          "meaning_vi": "bây giờ, ngay bây giờ",
+          "examples": [
+            {
+              "en": "I'm at work now — I'll call you back.",
+              "vi": "Giờ tôi đang ở chỗ làm — gọi lại sau nhé."
+            },
+            {
+              "en": "It's raining now, but it will stop soon.",
+              "vi": "Giờ trời đang mưa, nhưng sẽ tạnh sớm."
+            },
+            { "en": "We need to leave right now.", "vi": "Chúng ta phải đi ngay bây giờ." }
+          ]
+        }
+      ],
+      "synonyms": ["currently", "presently"],
+      "antonyms": ["then", "later"],
+      "collocations": ["right now", "from now on", "by now", "for now", "just now"],
+      "etymology_hint": "From Old English 'nū' meaning 'at present' — unchanged for over 1000 years.",
+      "mnemonic_vi": "NOW = 'nao' — 'nào' (lúc này). Right now = ngay bây giờ. Đối với THEN (lúc đó)."
+    },
+    {
+      "word": "here",
+      "lemma": "here",
+      "ipa": "/hɪə(r)/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in or at this place",
+          "meaning_vi": "ở đây, tại đây",
+          "examples": [
+            { "en": "Come here, I need your help.", "vi": "Lại đây, tôi cần bạn giúp." },
+            { "en": "I'll wait for you here.", "vi": "Tôi đợi bạn ở đây." },
+            {
+              "en": "Here is your bánh mì — be careful, it's hot.",
+              "vi": "Bánh mì của bạn đây — cẩn thận nóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["there"],
+      "collocations": ["here is", "here we are", "right here", "over here", "come here"],
+      "etymology_hint": "From Old English 'hēr' — adverb of 'this place'.",
+      "mnemonic_vi": "HERE = 'hia' — 'hia' (gần) chỗ tôi đứng = ở đây. Đối với THERE."
+    },
+    {
+      "word": "there",
+      "lemma": "there",
+      "ipa": "/ðeə(r)/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in, at, or to that place; used to start sentences with 'is/are'",
+          "meaning_vi": "ở đó, đằng kia; dùng mở đầu câu 'there is/are'",
+          "examples": [
+            {
+              "en": "Put your shoes there by the door.",
+              "vi": "Để giày của bạn đằng kia cạnh cửa."
+            },
+            {
+              "en": "There is a new café on Nguyễn Huệ Street.",
+              "vi": "Có một quán cà phê mới ở phố Nguyễn Huệ."
+            },
+            { "en": "I've been there twice already.", "vi": "Tôi đã đến đó hai lần rồi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["here"],
+      "collocations": ["over there", "there is", "there are", "right there", "out there"],
+      "etymology_hint": "From Old English 'þǣr' — adverb pointing to a far place; also dummy subject in 'there is'.",
+      "mnemonic_vi": "THERE = 'đe' — 'đó kia' (xa). There is a book = có cuốn sách (chỗ đó). Đối với HERE."
+    },
+    {
+      "word": "also",
+      "lemma": "also",
+      "ipa": "/ˈɔːlsəʊ/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in addition; as well",
+          "meaning_vi": "cũng, cũng vậy",
+          "examples": [
+            {
+              "en": "She speaks English and also Korean.",
+              "vi": "Cô ấy nói tiếng Anh và cả tiếng Hàn."
+            },
+            { "en": "I'd also like to try the bún chả.", "vi": "Tôi cũng muốn thử bún chả." },
+            {
+              "en": "We have phở, and we also have bún bò.",
+              "vi": "Chúng tôi có phở, và cũng có cả bún bò."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["too", "as well"],
+      "antonyms": [],
+      "collocations": ["and also", "also have", "but also", "also like", "not only… but also"],
+      "etymology_hint": "Compound 'all' + 'so' → 'in like manner, in addition'.",
+      "mnemonic_vi": "ALSO = ALL + SO → 'thêm cả'. I also = tôi cũng. Đứng giữa câu, khác TOO (cuối câu)."
+    },
+    {
+      "word": "too",
+      "lemma": "too",
+      "ipa": "/tuː/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "also; more than enough (with adjective)",
+          "meaning_vi": "cũng (cuối câu); quá (với tính từ)",
+          "examples": [
+            { "en": "I love phở too!", "vi": "Tôi cũng yêu phở!" },
+            { "en": "This coffee is too sweet for me.", "vi": "Cà phê này quá ngọt với tôi." },
+            { "en": "It's too hot to walk outside.", "vi": "Trời nóng quá không đi bộ được." }
+          ]
+        }
+      ],
+      "synonyms": ["also", "very"],
+      "antonyms": [],
+      "collocations": ["me too", "too much", "too many", "too late", "too bad"],
+      "etymology_hint": "Originally a stressed form of 'to' — meaning 'in addition, excessively'.",
+      "mnemonic_vi": "TOO = 'tu' — đa nghĩa: 'cũng' (cuối câu: me too) và 'quá' (too hot = quá nóng)."
+    },
+    {
+      "word": "only",
+      "lemma": "only",
+      "ipa": "/ˈəʊnli/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "no more than; nothing else; just",
+          "meaning_vi": "chỉ, chỉ có",
+          "examples": [
+            { "en": "I only have 50,000 VND on me.", "vi": "Tôi chỉ có 50,000 VND trong người." },
+            {
+              "en": "Only one student got full marks.",
+              "vi": "Chỉ một học sinh được điểm tối đa."
+            },
+            {
+              "en": "She's the only daughter in the family.",
+              "vi": "Cô ấy là con gái duy nhất trong nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["just", "merely"],
+      "antonyms": [],
+      "collocations": ["only one", "only if", "not only", "if only", "the only"],
+      "etymology_hint": "From Old English 'ānlīc' = 'one-like, unique'.",
+      "mnemonic_vi": "ONLY = 'âu-li' — 'one-ly' (chỉ một). Only you = chỉ mình bạn. Not only... but also..."
+    },
+    {
+      "word": "well",
+      "lemma": "well",
+      "ipa": "/wel/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a good or skillful way; thoroughly",
+          "meaning_vi": "tốt, giỏi (về cách làm); kỹ",
+          "examples": [
+            { "en": "She sings really well.", "vi": "Cô ấy hát rất hay." },
+            { "en": "He speaks Vietnamese very well.", "vi": "Anh ấy nói tiếng Việt rất giỏi." },
+            { "en": "Cook the rice well before serving.", "vi": "Nấu cơm chín kỹ trước khi dọn." }
+          ]
+        }
+      ],
+      "synonyms": ["nicely", "skillfully"],
+      "antonyms": ["badly"],
+      "collocations": ["very well", "as well", "well done", "well known", "do well"],
+      "etymology_hint": "From Old English 'wel' — adverb form of 'good' (irregular: good → well).",
+      "mnemonic_vi": "WELL = 'guel' — 'guay' (tốt). Speak well = nói giỏi. Adverb của good (good → well: well-done = chín kỹ)."
+    },
+    {
+      "word": "just",
+      "lemma": "just",
+      "ipa": "/dʒʌst/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "exactly; very recently; only (informal)",
+          "meaning_vi": "đúng; vừa mới; chỉ là (thân mật)",
+          "examples": [
+            { "en": "I just finished my homework.", "vi": "Tôi vừa làm xong bài tập." },
+            { "en": "Just a moment, please.", "vi": "Vui lòng đợi một chút." },
+            { "en": "This is just what I wanted.", "vi": "Đây đúng là cái tôi muốn." }
+          ]
+        }
+      ],
+      "synonyms": ["exactly", "only", "merely"],
+      "antonyms": [],
+      "collocations": ["just now", "just a moment", "just like", "just in time", "just about"],
+      "etymology_hint": "From Latin 'justus' meaning 'fair, exact' — adverb sense 'exactly' came later.",
+      "mnemonic_vi": "JUST = 'dắt' — 'đúng' / 'vừa mới' / 'chỉ là'. Just now = vừa nãy. I just want = tôi chỉ muốn."
+    },
+    {
+      "word": "rarely",
+      "lemma": "rarely",
+      "ipa": "/ˈreəli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not often; almost never",
+          "meaning_vi": "hiếm khi, ít khi",
+          "examples": [
+            { "en": "I rarely eat fast food.", "vi": "Tôi hiếm khi ăn đồ ăn nhanh." },
+            { "en": "It rarely snows in Vietnam.", "vi": "Việt Nam hiếm khi có tuyết." },
+            { "en": "She rarely goes out on weekends.", "vi": "Cuối tuần cô ấy ít khi ra ngoài." }
+          ]
+        }
+      ],
+      "synonyms": ["seldom", "hardly ever"],
+      "antonyms": ["often", "frequently"],
+      "collocations": ["rarely do", "rarely go", "rarely happen", "rarely seen", "very rarely"],
+      "etymology_hint": "From 'rare' (Latin 'rarus' = scarce) + '-ly' — adverb of low frequency.",
+      "mnemonic_vi": "RARELY = RARE + LY → 'hiếm khi'. I rarely cry = tôi hiếm khi khóc."
+    },
+    {
+      "word": "recently",
+      "lemma": "recently",
+      "ipa": "/ˈriːsntli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short time ago; not long ago",
+          "meaning_vi": "gần đây, mới đây",
+          "examples": [
+            { "en": "I recently moved to Hà Nội.", "vi": "Tôi mới chuyển ra Hà Nội gần đây." },
+            {
+              "en": "She has been busy at work recently.",
+              "vi": "Gần đây cô ấy bận với công việc."
+            },
+            { "en": "Has anything new happened recently?", "vi": "Gần đây có chuyện gì mới không?" }
+          ]
+        }
+      ],
+      "synonyms": ["lately"],
+      "antonyms": [],
+      "collocations": [
+        "recently moved",
+        "recently bought",
+        "until recently",
+        "only recently",
+        "more recently"
+      ],
+      "etymology_hint": "From 'recent' (Latin 'recens' = fresh, new) + '-ly'.",
+      "mnemonic_vi": "RECENTLY = RECENT + LY → 'gần đây'. Recently bought = mới mua gần đây."
+    },
+    {
+      "word": "currently",
+      "lemma": "currently",
+      "ipa": "/ˈkʌrəntli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "at the present time; now",
+          "meaning_vi": "hiện tại, hiện đang",
+          "examples": [
+            {
+              "en": "She is currently working from Đà Nẵng.",
+              "vi": "Cô ấy hiện đang làm việc từ Đà Nẵng."
+            },
+            {
+              "en": "We are currently looking for a new home.",
+              "vi": "Chúng tôi hiện đang tìm nhà mới."
+            },
+            { "en": "He is currently the head of the team.", "vi": "Anh ấy hiện là trưởng nhóm." }
+          ]
+        }
+      ],
+      "synonyms": ["presently", "now"],
+      "antonyms": ["previously"],
+      "collocations": [
+        "currently working",
+        "currently living",
+        "currently available",
+        "currently studying",
+        "currently busy"
+      ],
+      "etymology_hint": "From 'current' (Latin 'currere' = to run) + '-ly' — sense 'at the running time, now'.",
+      "mnemonic_vi": "CURRENTLY = CURRENT + LY → 'thời điểm hiện tại'. Trang trọng hơn NOW. Currently = đang."
+    },
+    {
+      "word": "immediately",
+      "lemma": "immediately",
+      "ipa": "/ɪˈmiːdiətli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "without delay; at once",
+          "meaning_vi": "ngay lập tức, không chậm trễ",
+          "examples": [
+            {
+              "en": "Please reply immediately when you get this.",
+              "vi": "Vui lòng trả lời ngay khi nhận được tin này."
+            },
+            {
+              "en": "She left immediately after the meeting.",
+              "vi": "Cô ấy rời đi ngay sau cuộc họp."
+            },
+            {
+              "en": "The doctor saw the patient immediately.",
+              "vi": "Bác sĩ tiếp bệnh nhân ngay lập tức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instantly", "right away"],
+      "antonyms": ["later"],
+      "collocations": [
+        "immediately after",
+        "act immediately",
+        "respond immediately",
+        "almost immediately",
+        "immediately following"
+      ],
+      "etymology_hint": "From Latin 'immediatus' = 'in-' (not) + 'medius' (middle) → 'nothing in between, instant'.",
+      "mnemonic_vi": "IMMEDIATELY = IM (không) + MEDIATE (giữa) → 'không có khoảng giữa' = ngay lập tức."
+    },
+    {
+      "word": "instantly",
+      "lemma": "instantly",
+      "ipa": "/ˈɪnstəntli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in an instant; very quickly and immediately",
+          "meaning_vi": "ngay lập tức, tức thì",
+          "examples": [
+            {
+              "en": "I instantly recognized her áo dài.",
+              "vi": "Tôi nhận ra áo dài của cô ấy ngay tức thì."
+            },
+            { "en": "The message was sent instantly.", "vi": "Tin nhắn được gửi ngay tức thì." },
+            {
+              "en": "She instantly fell in love with Hội An.",
+              "vi": "Cô ấy yêu Hội An ngay từ phút đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["immediately", "right away"],
+      "antonyms": ["slowly", "later"],
+      "collocations": [
+        "instantly recognize",
+        "instantly become",
+        "almost instantly",
+        "instantly available",
+        "instantly killed"
+      ],
+      "etymology_hint": "From 'instant' (Latin 'instans' = present, urgent) + '-ly'.",
+      "mnemonic_vi": "INSTANTLY = INSTANT + LY → 'trong khoảnh khắc'. Like instant noodles = mì ăn liền (ngay)."
+    }
+  ]
+}

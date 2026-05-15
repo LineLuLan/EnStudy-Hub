@@ -1,0 +1,532 @@
+{
+  "slug": "core-be-do-have",
+  "name": "Core: Be, Do, Have & Modals",
+  "description": "Động từ cốt lõi nhất tiếng Anh — be/do/have và các trợ động từ tình thái.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "be",
+      "lemma": "be",
+      "ipa": "/biː/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to exist; to have a certain state or identity (base form)",
+          "meaning_vi": "thì, là, ở (dạng nguyên thể của động từ to be)",
+          "examples": [
+            { "en": "She wants to be a doctor.", "vi": "Cô ấy muốn trở thành bác sĩ." },
+            {
+              "en": "Please be quiet during the meeting.",
+              "vi": "Hãy giữ yên lặng trong cuộc họp."
+            },
+            {
+              "en": "To be honest, I don't like coffee.",
+              "vi": "Nói thật thì tôi không thích cà phê."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["to be", "let it be", "be quiet", "be careful", "be honest"],
+      "etymology_hint": "From Old English 'bēon' meaning 'to exist, become' — most irregular verb in English.",
+      "mnemonic_vi": "BE = 'bi' — 'bí' (động từ cốt lõi nhất). Là gốc của am, is, are, was, were, been, being."
+    },
+    {
+      "word": "am",
+      "lemma": "be",
+      "ipa": "/æm/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "first-person singular present form of 'be'",
+          "meaning_vi": "thì, là, ở (đi với chủ ngữ I — hiện tại)",
+          "examples": [
+            { "en": "I am a teacher at ĐH Bách Khoa.", "vi": "Tôi là giáo viên ở ĐH Bách Khoa." },
+            { "en": "I am hungry — let's eat phở.", "vi": "Tôi đói — đi ăn phở thôi." },
+            { "en": "I'm not feeling well today.", "vi": "Hôm nay tôi không khỏe lắm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["I am", "I'm sure", "I am here", "I am ready", "I am from"],
+      "etymology_hint": "From Old English 'eom' — only form of 'be' used with 'I'.",
+      "mnemonic_vi": "AM = 'em' — đi 'em' với 'I' (chỉ duy nhất). I am happy = tôi vui."
+    },
+    {
+      "word": "is",
+      "lemma": "be",
+      "ipa": "/ɪz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "third-person singular present form of 'be'",
+          "meaning_vi": "thì, là, ở (đi với he, she, it hoặc danh từ số ít — hiện tại)",
+          "examples": [
+            { "en": "Hà Nội is the capital of Vietnam.", "vi": "Hà Nội là thủ đô của Việt Nam." },
+            { "en": "She is a designer at FPT.", "vi": "Cô ấy là nhà thiết kế tại FPT." },
+            { "en": "It is raining outside right now.", "vi": "Trời đang mưa ngoài kia." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["he is", "she is", "it is", "is there", "this is"],
+      "etymology_hint": "From Old English 'is' — third-person singular present.",
+      "mnemonic_vi": "IS = 'íz' — đi 'iz' với he/she/it (số ít). She is happy = cô ấy vui."
+    },
+    {
+      "word": "are",
+      "lemma": "be",
+      "ipa": "/ɑː(r)/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "present form of 'be' used with you, we, they, and plural nouns",
+          "meaning_vi": "thì, là, ở (đi với you, we, they hoặc danh từ số nhiều — hiện tại)",
+          "examples": [
+            { "en": "You are my best friend.", "vi": "Bạn là người bạn tốt nhất của tôi." },
+            { "en": "We are going to Đà Nẵng tomorrow.", "vi": "Mai chúng tôi đi Đà Nẵng." },
+            { "en": "These bánh mì are amazing.", "vi": "Mấy ổ bánh mì này tuyệt vời." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["you are", "we are", "they are", "there are", "are you"],
+      "etymology_hint": "From Old English 'aron' (plural form) — adopted for you/we/they.",
+      "mnemonic_vi": "ARE = 'a' — đi 'a' với you, we, they, danh từ số nhiều. They are happy = họ vui."
+    },
+    {
+      "word": "was",
+      "lemma": "be",
+      "ipa": "/wɒz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past form of 'be' used with I, he, she, it, and singular nouns",
+          "meaning_vi": "đã thì, đã là, đã ở (đi với I, he, she, it — quá khứ)",
+          "examples": [
+            {
+              "en": "I was at Highlands when you called.",
+              "vi": "Tôi đang ở Highlands lúc bạn gọi."
+            },
+            { "en": "She was tired after the long flight.", "vi": "Cô ấy mệt sau chuyến bay dài." },
+            {
+              "en": "The weather was perfect for a picnic.",
+              "vi": "Thời tiết hoàn hảo để dã ngoại."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["I was", "he was", "she was", "it was", "there was"],
+      "etymology_hint": "From Old English 'wæs' — past singular of 'be'.",
+      "mnemonic_vi": "WAS = 'goặt' — 'quá khứ' của am/is. I was happy = tôi đã vui."
+    },
+    {
+      "word": "were",
+      "lemma": "be",
+      "ipa": "/wɜː(r)/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past form of 'be' used with you, we, they, and plural nouns",
+          "meaning_vi": "đã thì, đã là, đã ở (đi với you, we, they hoặc danh từ số nhiều — quá khứ)",
+          "examples": [
+            {
+              "en": "We were at the airport waiting for her.",
+              "vi": "Chúng tôi ở sân bay đợi cô ấy."
+            },
+            { "en": "They were happy with the wedding.", "vi": "Họ rất vui với đám cưới." },
+            {
+              "en": "The kids were really tired after the trip.",
+              "vi": "Bọn trẻ mệt thật sự sau chuyến đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["you were", "we were", "they were", "there were", "if I were"],
+      "etymology_hint": "From Old English 'wǣron' — past plural of 'be'.",
+      "mnemonic_vi": "WERE = 'guờ' — quá khứ của are. They were happy = họ đã vui."
+    },
+    {
+      "word": "been",
+      "lemma": "be",
+      "ipa": "/biːn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past participle of 'be'; used after have/has/had to form perfect tenses",
+          "meaning_vi": "đã từng là/ở (phân từ quá khứ của be — dùng với have/has/had)",
+          "examples": [
+            { "en": "I have been to Phú Quốc three times.", "vi": "Tôi đã đến Phú Quốc ba lần." },
+            {
+              "en": "She has been a teacher for ten years.",
+              "vi": "Cô ấy đã là giáo viên được mười năm."
+            },
+            { "en": "Where have you been all day?", "vi": "Cả ngày bạn ở đâu vậy?" }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["have been", "has been", "had been", "been to", "been there"],
+      "etymology_hint": "Past participle from Middle English 'ben' — completes perfect tenses.",
+      "mnemonic_vi": "BEEN = 'bin' — 'đã đi qua' (đã từng). Have been = đã từng. I have been there = tôi đã đến đó."
+    },
+    {
+      "word": "have",
+      "lemma": "have",
+      "ipa": "/hæv/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to own, possess, or experience (base form); also used as auxiliary for perfect tenses",
+          "meaning_vi": "có, sở hữu, trải qua (nguyên thể); cũng làm trợ động từ cho thì hoàn thành",
+          "examples": [
+            {
+              "en": "I have two siblings — a brother and a sister.",
+              "vi": "Tôi có hai anh chị em — một anh và một chị."
+            },
+            { "en": "We have a meeting at 3pm.", "vi": "Chúng tôi có cuộc họp lúc 3 giờ chiều." },
+            { "en": "Have you finished your homework?", "vi": "Bạn làm xong bài tập chưa?" }
+          ]
+        }
+      ],
+      "synonyms": ["own", "possess"],
+      "antonyms": ["lack"],
+      "collocations": ["have a", "have to", "have time", "have fun", "have lunch"],
+      "etymology_hint": "From Old English 'habban' meaning 'to hold, possess'.",
+      "mnemonic_vi": "HAVE = 'háp' — 'háp' (giữ) trong tay = có. Đa năng: có (own) + trợ động từ (have done)."
+    },
+    {
+      "word": "has",
+      "lemma": "have",
+      "ipa": "/hæz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "third-person singular present form of 'have'",
+          "meaning_vi": "có, sở hữu (đi với he, she, it hoặc danh từ số ít — hiện tại)",
+          "examples": [
+            {
+              "en": "She has a beautiful áo dài for Tết.",
+              "vi": "Cô ấy có một bộ áo dài đẹp cho Tết."
+            },
+            {
+              "en": "He has lived in Sài Gòn since 2018.",
+              "vi": "Anh ấy sống ở Sài Gòn từ năm 2018."
+            },
+            {
+              "en": "The café has free Wi-Fi for customers.",
+              "vi": "Quán có Wi-Fi miễn phí cho khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["he has", "she has", "it has", "has been", "has got"],
+      "etymology_hint": "Third-person singular form of 'have' — only used with he/she/it.",
+      "mnemonic_vi": "HAS = 'hét' — 'have' với he/she/it (số ít). She has time = cô ấy có thời gian."
+    },
+    {
+      "word": "had",
+      "lemma": "have",
+      "ipa": "/hæd/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past form of 'have'; also used as auxiliary for past perfect",
+          "meaning_vi": "đã có, đã trải qua (quá khứ của have); cũng dùng cho thì quá khứ hoàn thành",
+          "examples": [
+            {
+              "en": "I had bánh xèo for lunch yesterday.",
+              "vi": "Hôm qua tôi ăn bánh xèo cho bữa trưa."
+            },
+            {
+              "en": "She had finished the report before the meeting.",
+              "vi": "Cô ấy đã hoàn thành báo cáo trước cuộc họp."
+            },
+            {
+              "en": "We had a wonderful trip to Sa Pa.",
+              "vi": "Chúng tôi có chuyến đi Sa Pa tuyệt vời."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["had to", "had been", "had a", "had time", "had done"],
+      "etymology_hint": "Past form of 'have' — common across all persons (I had, she had, they had).",
+      "mnemonic_vi": "HAD = 'hét' — quá khứ của have. I had breakfast = tôi đã ăn sáng."
+    },
+    {
+      "word": "do",
+      "lemma": "do",
+      "ipa": "/duː/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to perform an action; also used to form questions and negatives",
+          "meaning_vi": "làm; cũng dùng để tạo câu hỏi và phủ định",
+          "examples": [
+            { "en": "What do you do for a living?", "vi": "Bạn làm nghề gì?" },
+            { "en": "I don't drink coffee at night.", "vi": "Tôi không uống cà phê buổi tối." },
+            {
+              "en": "Please do your homework before dinner.",
+              "vi": "Hãy làm bài tập trước bữa tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["perform", "carry out"],
+      "antonyms": [],
+      "collocations": ["do homework", "do well", "do business", "do you", "do not"],
+      "etymology_hint": "From Old English 'dōn' meaning 'to make, perform' — among the oldest English verbs.",
+      "mnemonic_vi": "DO = 'du' — 'dù' (làm dù bất cứ gì). Cả động từ chính (do homework) lẫn trợ động từ (Do you...?)."
+    },
+    {
+      "word": "does",
+      "lemma": "do",
+      "ipa": "/dʌz/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "third-person singular present form of 'do'",
+          "meaning_vi": "làm (đi với he, she, it — hiện tại)",
+          "examples": [
+            { "en": "She does yoga every morning.", "vi": "Cô ấy tập yoga mỗi sáng." },
+            { "en": "Does he speak Vietnamese?", "vi": "Anh ấy có nói được tiếng Việt không?" },
+            {
+              "en": "The new café does great cà phê sữa.",
+              "vi": "Quán cà phê mới làm cà phê sữa rất ngon."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["does she", "does he", "does it", "does not", "what does"],
+      "etymology_hint": "Third-person singular form of 'do' — only used with he/she/it.",
+      "mnemonic_vi": "DOES = 'đắt' — do với he/she/it. Does she swim? = cô ấy có bơi không?"
+    },
+    {
+      "word": "did",
+      "lemma": "do",
+      "ipa": "/dɪd/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past form of 'do'; also used to form past questions and negatives",
+          "meaning_vi": "đã làm (quá khứ của do); cũng dùng tạo câu hỏi/phủ định quá khứ",
+          "examples": [
+            { "en": "What did you do last weekend?", "vi": "Cuối tuần qua bạn làm gì?" },
+            { "en": "I didn't see her at the party.", "vi": "Tôi không thấy cô ấy ở tiệc." },
+            {
+              "en": "She did her best at the competition.",
+              "vi": "Cô ấy đã cố hết sức ở cuộc thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["did you", "didn't", "did well", "did her best", "did it"],
+      "etymology_hint": "Past form of 'do' — common across all persons.",
+      "mnemonic_vi": "DID = 'đít' — quá khứ của do. Did you eat? = bạn đã ăn chưa?"
+    },
+    {
+      "word": "will",
+      "lemma": "will",
+      "ipa": "/wɪl/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to talk about future actions or willingness",
+          "meaning_vi": "sẽ (chỉ thì tương lai); sẵn lòng",
+          "examples": [
+            { "en": "I will visit Đà Lạt next month.", "vi": "Tháng sau tôi sẽ đi Đà Lạt." },
+            { "en": "Don't worry, she'll be fine.", "vi": "Đừng lo, cô ấy sẽ ổn thôi." },
+            { "en": "Will you help me with this?", "vi": "Bạn có thể giúp tôi việc này không?" }
+          ]
+        }
+      ],
+      "synonyms": ["shall"],
+      "antonyms": [],
+      "collocations": ["I will", "will you", "will be", "will not", "will do"],
+      "etymology_hint": "From Old English 'willan' meaning 'to wish, desire' — became future-tense marker.",
+      "mnemonic_vi": "WILL = 'guịl' — 'sẽ' (tương lai). I will go = tôi sẽ đi. Cũng = 'sẵn lòng' (willingness)."
+    },
+    {
+      "word": "would",
+      "lemma": "would",
+      "ipa": "/wʊd/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past form of 'will'; used for polite requests and hypothetical situations",
+          "meaning_vi": "sẽ (quá khứ); dùng cho yêu cầu lịch sự và giả định",
+          "examples": [
+            { "en": "I would love a cup of cà phê sữa.", "vi": "Tôi rất muốn một ly cà phê sữa." },
+            {
+              "en": "If I were rich, I would travel everywhere.",
+              "vi": "Nếu tôi giàu, tôi sẽ đi khắp nơi."
+            },
+            {
+              "en": "Would you mind closing the door?",
+              "vi": "Bạn có thể đóng cửa giúp được không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["would you", "would like", "would be", "I would", "would have"],
+      "etymology_hint": "Past form of 'will' — also used as polite or conditional marker.",
+      "mnemonic_vi": "WOULD = 'guút' — phiên bản 'lịch sự'/'giả định' của will. Would you like = bạn có muốn (lịch sự)."
+    },
+    {
+      "word": "can",
+      "lemma": "can",
+      "ipa": "/kæn/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to be able to; to have permission to",
+          "meaning_vi": "có thể (khả năng); được phép",
+          "examples": [
+            { "en": "I can speak three languages.", "vi": "Tôi có thể nói ba ngôn ngữ." },
+            { "en": "Can you pass the salt, please?", "vi": "Bạn lấy giúp lọ muối được không?" },
+            { "en": "You can park your motorbike here.", "vi": "Bạn có thể đỗ xe máy ở đây." }
+          ]
+        }
+      ],
+      "synonyms": ["be able to"],
+      "antonyms": ["cannot"],
+      "collocations": ["can do", "can you", "can be", "can have", "I can"],
+      "etymology_hint": "From Old English 'cunnan' meaning 'to know how' — modal of ability.",
+      "mnemonic_vi": "CAN = 'ken' — 'kèn' (khả năng) làm được. I can swim = tôi có thể bơi."
+    },
+    {
+      "word": "could",
+      "lemma": "could",
+      "ipa": "/kʊd/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "past form of 'can'; used for polite requests and hypothetical situations",
+          "meaning_vi": "có thể (quá khứ); dùng cho yêu cầu lịch sự và giả định",
+          "examples": [
+            { "en": "She could swim when she was three.", "vi": "Cô ấy biết bơi từ năm 3 tuổi." },
+            {
+              "en": "Could you help me carry this?",
+              "vi": "Bạn có thể giúp tôi xách cái này không?"
+            },
+            { "en": "I could go to the gym after work.", "vi": "Tôi có thể đi gym sau giờ làm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["couldn't"],
+      "collocations": ["could you", "could be", "could have", "I could", "could not"],
+      "etymology_hint": "Past form of 'can' — added 'l' under influence of 'should/would' in late Middle English.",
+      "mnemonic_vi": "COULD = 'kút' — quá khứ/lịch sự của can. Could you help? = bạn có thể giúp không (lịch sự)."
+    },
+    {
+      "word": "should",
+      "lemma": "should",
+      "ipa": "/ʃʊd/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to give advice or express expectation",
+          "meaning_vi": "nên (lời khuyên); chắc là (kỳ vọng)",
+          "examples": [
+            { "en": "You should try bún chả Hà Nội.", "vi": "Bạn nên thử bún chả Hà Nội." },
+            {
+              "en": "We should leave soon to avoid traffic.",
+              "vi": "Chúng ta nên đi sớm tránh tắc đường."
+            },
+            { "en": "She should be home by now.", "vi": "Bây giờ chắc cô ấy đã về nhà." }
+          ]
+        }
+      ],
+      "synonyms": ["ought to"],
+      "antonyms": ["shouldn't"],
+      "collocations": ["should be", "should have", "I should", "you should", "should not"],
+      "etymology_hint": "Past form of 'shall' — became modal of obligation/advice.",
+      "mnemonic_vi": "SHOULD = 'sút' — 'nên' (khuyên). You should sleep = bạn nên ngủ."
+    },
+    {
+      "word": "may",
+      "lemma": "may",
+      "ipa": "/meɪ/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to express possibility or to ask/give permission",
+          "meaning_vi": "có thể (xác suất); xin/cho phép (lịch sự)",
+          "examples": [
+            { "en": "It may rain later today.", "vi": "Chiều nay có thể mưa." },
+            { "en": "May I come in?", "vi": "Tôi vào được không ạ?" },
+            { "en": "She may not come to the party.", "vi": "Cô ấy có thể sẽ không đến tiệc." }
+          ]
+        }
+      ],
+      "synonyms": ["might"],
+      "antonyms": [],
+      "collocations": ["may be", "may have", "may not", "may I", "you may"],
+      "etymology_hint": "From Old English 'magan' meaning 'to be able' — split sense into 'may' (possibility/permission).",
+      "mnemonic_vi": "MAY = 'mây' — 'mây' bay (không chắc) = có thể, có lẽ. It may rain = có thể trời mưa."
+    },
+    {
+      "word": "might",
+      "lemma": "might",
+      "ipa": "/maɪt/",
+      "pos": "auxiliary",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to express weaker possibility than 'may'",
+          "meaning_vi": "có lẽ, biết đâu (xác suất thấp hơn may)",
+          "examples": [
+            { "en": "I might go to the cinema tonight.", "vi": "Tối nay có thể tôi đi xem phim." },
+            { "en": "She might not finish on time.", "vi": "Cô ấy biết đâu sẽ không kịp giờ." },
+            { "en": "It might be too late to call.", "vi": "Có thể đã quá muộn để gọi." }
+          ]
+        }
+      ],
+      "synonyms": ["may", "could"],
+      "antonyms": [],
+      "collocations": ["might be", "might have", "might not", "I might", "you might"],
+      "etymology_hint": "Past form of 'may' — used for hypothetical or weaker possibility.",
+      "mnemonic_vi": "MIGHT = 'mai-t' — phiên bản 'không chắc lắm' của may. I might go = biết đâu tôi đi."
+    }
+  ]
+}

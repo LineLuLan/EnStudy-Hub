@@ -1,0 +1,595 @@
+{
+  "slug": "core-adjectives",
+  "name": "Core: Basic Adjectives",
+  "description": "Tính từ cốt lõi nhất — đánh giá, kích thước, tốc độ và cảm xúc cơ bản.",
+  "order_index": 9,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "good",
+      "lemma": "good",
+      "ipa": "/ɡʊd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "of a high quality or standard; pleasant or desirable",
+          "meaning_vi": "tốt, hay, giỏi",
+          "examples": [
+            { "en": "This bánh mì is really good!", "vi": "Bánh mì này ngon thật!" },
+            { "en": "She is good at math.", "vi": "Cô ấy giỏi toán." },
+            { "en": "Have a good day at work!", "vi": "Chúc một ngày làm việc tốt lành!" }
+          ]
+        }
+      ],
+      "synonyms": ["fine", "great", "nice"],
+      "antonyms": ["bad"],
+      "collocations": ["good at", "good for", "good job", "feel good", "good idea"],
+      "etymology_hint": "From Old English 'gōd' — basic positive evaluation word, Germanic origin.",
+      "mnemonic_vi": "GOOD = 'gút' — 'gút mắt' (ưng ý). It's good = nó tốt. So sánh: good → better → best."
+    },
+    {
+      "word": "bad",
+      "lemma": "bad",
+      "ipa": "/bæd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "of poor quality; unpleasant or harmful",
+          "meaning_vi": "xấu, tệ, dở",
+          "examples": [
+            {
+              "en": "The traffic was really bad this morning.",
+              "vi": "Tắc đường tệ thật sáng nay."
+            },
+            { "en": "Don't eat that — it smells bad.", "vi": "Đừng ăn cái đó — có mùi tệ." },
+            { "en": "She had a bad headache yesterday.", "vi": "Hôm qua cô ấy đau đầu nặng." }
+          ]
+        }
+      ],
+      "synonyms": ["poor", "terrible"],
+      "antonyms": ["good"],
+      "collocations": ["bad luck", "bad weather", "bad mood", "feel bad", "not bad"],
+      "etymology_hint": "From Middle English 'bad' — origin uncertain, may derive from Old English 'bæddel'.",
+      "mnemonic_vi": "BAD = 'bét' — 'bét' (kém) chất lượng. So sánh: bad → worse → worst."
+    },
+    {
+      "word": "big",
+      "lemma": "big",
+      "ipa": "/bɪɡ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "of large size or amount",
+          "meaning_vi": "to, lớn",
+          "examples": [
+            {
+              "en": "Hà Nội is a big city in the north.",
+              "vi": "Hà Nội là một thành phố lớn ở miền Bắc."
+            },
+            {
+              "en": "He has a big family with five brothers.",
+              "vi": "Anh ấy có gia đình lớn, năm anh em trai."
+            },
+            {
+              "en": "We made a big mistake on the contract.",
+              "vi": "Chúng tôi mắc sai lầm lớn trong hợp đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["large", "huge"],
+      "antonyms": ["small"],
+      "collocations": ["big city", "big house", "big deal", "a big fan", "big difference"],
+      "etymology_hint": "From Middle English 'big' — possibly Scandinavian origin meaning 'powerful, important'.",
+      "mnemonic_vi": "BIG = 'bíc' — như cái 'bít' to chắn lối. Big house = nhà to."
+    },
+    {
+      "word": "small",
+      "lemma": "small",
+      "ipa": "/smɔːl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "of little size or amount",
+          "meaning_vi": "nhỏ, bé",
+          "examples": [
+            {
+              "en": "She lives in a small apartment in District 1.",
+              "vi": "Cô ấy sống trong căn hộ nhỏ ở Quận 1."
+            },
+            {
+              "en": "Can I have a small cup of cà phê đen?",
+              "vi": "Cho tôi một ly cà phê đen nhỏ được không?"
+            },
+            { "en": "Even a small kindness matters.", "vi": "Một sự tử tế nhỏ cũng có ý nghĩa." }
+          ]
+        }
+      ],
+      "synonyms": ["little", "tiny"],
+      "antonyms": ["big", "large"],
+      "collocations": ["small size", "small business", "small child", "small change", "small talk"],
+      "etymology_hint": "From Old English 'smæl' — meaning 'slender, narrow'.",
+      "mnemonic_vi": "SMALL = 'sờ-môn' — 'son' bé. Small phở = phở nhỏ (size ít)."
+    },
+    {
+      "word": "new",
+      "lemma": "new",
+      "ipa": "/njuː/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "made or bought recently; not old or known before",
+          "meaning_vi": "mới (chế tạo gần đây, chưa từng có)",
+          "examples": [
+            { "en": "I bought a new motorbike last week.", "vi": "Tuần trước tôi mua xe máy mới." },
+            { "en": "She is the new manager.", "vi": "Cô ấy là quản lý mới." },
+            { "en": "Happy New Year! Chúc mừng năm mới!", "vi": "Chúc mừng năm mới!" }
+          ]
+        }
+      ],
+      "synonyms": ["fresh", "recent"],
+      "antonyms": ["old"],
+      "collocations": ["brand new", "new year", "new job", "new friend", "what's new"],
+      "etymology_hint": "From Old English 'nīwe' — basic adjective for recency.",
+      "mnemonic_vi": "NEW = 'niu' — 'nưu' (mới ra). Brand new = mới cứng, new shoes = giày mới."
+    },
+    {
+      "word": "old",
+      "lemma": "old",
+      "ipa": "/əʊld/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having existed for a long time; aged",
+          "meaning_vi": "cũ, già, lâu năm",
+          "examples": [
+            { "en": "My grandfather is 85 years old.", "vi": "Ông tôi 85 tuổi." },
+            { "en": "Hội An's Old Town is so charming.", "vi": "Phố Cổ Hội An quyến rũ thật." },
+            {
+              "en": "I found my old photos from childhood.",
+              "vi": "Tôi tìm thấy ảnh cũ thời thơ ấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aged", "ancient"],
+      "antonyms": ["new", "young"],
+      "collocations": ["old age", "old town", "old friend", "years old", "good old"],
+      "etymology_hint": "From Old English 'eald' — basic adjective for age and time.",
+      "mnemonic_vi": "OLD = 'âu-ld' — 'âu' (lâu rồi). Old man = ông già, old house = nhà cũ."
+    },
+    {
+      "word": "easy",
+      "lemma": "easy",
+      "ipa": "/ˈiːzi/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not difficult; requiring little effort",
+          "meaning_vi": "dễ, dễ dàng",
+          "examples": [
+            {
+              "en": "Vietnamese pronunciation is easy for me.",
+              "vi": "Phát âm tiếng Việt dễ với tôi."
+            },
+            {
+              "en": "It's easy to find a bánh mì shop in Sài Gòn.",
+              "vi": "Tìm tiệm bánh mì ở Sài Gòn rất dễ."
+            },
+            { "en": "Take it easy — you'll be fine.", "vi": "Cứ thoải mái — bạn sẽ ổn thôi." }
+          ]
+        }
+      ],
+      "synonyms": ["simple", "effortless"],
+      "antonyms": ["hard", "difficult"],
+      "collocations": ["easy to", "take it easy", "easy way", "easy job", "easy peasy"],
+      "etymology_hint": "From Old French 'aisié' meaning 'comfortable, at ease'.",
+      "mnemonic_vi": "EASY = 'i-zi' — 'i' (nhẹ) 'zi' (nhàn). Easy job = việc nhẹ. Take it easy = thư giãn."
+    },
+    {
+      "word": "hard",
+      "lemma": "hard",
+      "ipa": "/hɑːd/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "difficult; not easy. Or solid and firm to touch",
+          "meaning_vi": "khó (làm); cứng (chạm)",
+          "examples": [
+            {
+              "en": "Learning a new language is hard but rewarding.",
+              "vi": "Học ngôn ngữ mới khó nhưng đáng giá."
+            },
+            { "en": "The bread is too hard to eat.", "vi": "Bánh mì cứng quá không ăn được." },
+            { "en": "She works hard every day.", "vi": "Cô ấy làm việc chăm chỉ mỗi ngày." }
+          ]
+        }
+      ],
+      "synonyms": ["difficult", "tough", "firm"],
+      "antonyms": ["easy", "soft"],
+      "collocations": ["hard work", "hard to", "hard time", "hard drive", "work hard"],
+      "etymology_hint": "From Old English 'heard' meaning 'firm, severe'.",
+      "mnemonic_vi": "HARD = 'hác' — 'hắc' (khó nuốt) hoặc 'cứng'. Hard work = chăm chỉ, hard test = thi khó."
+    },
+    {
+      "word": "nice",
+      "lemma": "nice",
+      "ipa": "/naɪs/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "pleasant, friendly, or attractive",
+          "meaning_vi": "tốt, đẹp, dễ chịu (thường về thái độ/cảm giác)",
+          "examples": [
+            { "en": "It's nice to meet you!", "vi": "Rất vui được gặp bạn!" },
+            { "en": "What a nice view from the balcony!", "vi": "Tầm nhìn từ ban công đẹp quá!" },
+            { "en": "She has a really nice smile.", "vi": "Cô ấy có nụ cười rất đẹp." }
+          ]
+        }
+      ],
+      "synonyms": ["pleasant", "kind", "lovely"],
+      "antonyms": ["unpleasant"],
+      "collocations": [
+        "nice day",
+        "nice to meet you",
+        "very nice",
+        "nice and easy",
+        "nice weather"
+      ],
+      "etymology_hint": "From Old French 'nice' meaning 'silly, foolish' — meaning evolved into 'pleasant' over centuries.",
+      "mnemonic_vi": "NICE = 'nai-s' — 'nai' (xinh đẹp) đáng yêu. Nice day = ngày đẹp."
+    },
+    {
+      "word": "beautiful",
+      "lemma": "beautiful",
+      "ipa": "/ˈbjuːtɪfl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "very pleasing to look at or hear; lovely",
+          "meaning_vi": "đẹp, xinh đẹp (nhấn mạnh hơn nice)",
+          "examples": [
+            { "en": "Hạ Long Bay is a beautiful place.", "vi": "Vịnh Hạ Long là nơi rất đẹp." },
+            {
+              "en": "She wore a beautiful áo dài at the wedding.",
+              "vi": "Cô ấy mặc bộ áo dài đẹp trong đám cưới."
+            },
+            { "en": "What a beautiful sunset!", "vi": "Hoàng hôn đẹp quá!" }
+          ]
+        }
+      ],
+      "synonyms": ["lovely", "pretty", "gorgeous"],
+      "antonyms": ["ugly"],
+      "collocations": [
+        "beautiful day",
+        "beautiful woman",
+        "beautiful place",
+        "absolutely beautiful",
+        "beautiful view"
+      ],
+      "etymology_hint": "From 'beauty' (Old French 'biauté') + '-ful' (full of).",
+      "mnemonic_vi": "BEAUTIFUL = BEAUTY + FUL → 'đầy vẻ đẹp'. Beautiful view = cảnh đẹp ngẩn ngơ."
+    },
+    {
+      "word": "ugly",
+      "lemma": "ugly",
+      "ipa": "/ˈʌɡli/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "unpleasant to look at",
+          "meaning_vi": "xấu xí, khó nhìn",
+          "examples": [
+            { "en": "That building is really ugly.", "vi": "Toà nhà đó xấu thật." },
+            {
+              "en": "I bought an ugly sweater on sale.",
+              "vi": "Tôi mua chiếc áo len xấu vì có giảm giá."
+            },
+            {
+              "en": "Don't judge a book by its ugly cover.",
+              "vi": "Đừng đánh giá sách qua bìa xấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unattractive", "hideous"],
+      "antonyms": ["beautiful", "pretty"],
+      "collocations": ["ugly face", "ugly building", "ugly truth", "ugly duckling", "look ugly"],
+      "etymology_hint": "From Old Norse 'uggligr' meaning 'dreadful, fearful' — meaning narrowed to 'unattractive'.",
+      "mnemonic_vi": "UGLY = 'ấc-li' — 'ặc lị' (khó nhìn). Đối với BEAUTIFUL."
+    },
+    {
+      "word": "important",
+      "lemma": "important",
+      "ipa": "/ɪmˈpɔːtnt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a big effect or value",
+          "meaning_vi": "quan trọng",
+          "examples": [
+            {
+              "en": "Family is the most important thing to me.",
+              "vi": "Gia đình là điều quan trọng nhất với tôi."
+            },
+            {
+              "en": "He has an important meeting at 9am.",
+              "vi": "Anh ấy có cuộc họp quan trọng lúc 9 giờ."
+            },
+            {
+              "en": "It's important to drink enough water.",
+              "vi": "Uống đủ nước là điều quan trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["significant", "essential"],
+      "antonyms": ["unimportant"],
+      "collocations": [
+        "very important",
+        "important meeting",
+        "important to me",
+        "most important",
+        "vitally important"
+      ],
+      "etymology_hint": "From Latin 'importare' meaning 'to bring in, carry weight'.",
+      "mnemonic_vi": "IMPORTANT = IM (vô) + PORT (mang) + ANT (cảnh) → 'mang vào quan trọng'. Important meeting = họp quan trọng."
+    },
+    {
+      "word": "fast",
+      "lemma": "fast",
+      "ipa": "/fɑːst/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "moving or able to move quickly",
+          "meaning_vi": "nhanh",
+          "examples": [
+            {
+              "en": "Vietnamese trains are getting faster.",
+              "vi": "Tàu hoả Việt Nam ngày càng nhanh hơn."
+            },
+            { "en": "He's a fast learner.", "vi": "Anh ấy học nhanh." },
+            { "en": "My Wi-Fi is really fast today.", "vi": "Wi-Fi của tôi hôm nay rất nhanh." }
+          ]
+        }
+      ],
+      "synonyms": ["quick", "rapid"],
+      "antonyms": ["slow"],
+      "collocations": ["fast food", "fast car", "fast learner", "very fast", "really fast"],
+      "etymology_hint": "From Old English 'fæst' meaning 'firm, strong' — sense shifted to 'quick'.",
+      "mnemonic_vi": "FAST = 'pháct' — 'phất' (vù) nhanh. Fast car = xe nhanh. Đối với SLOW."
+    },
+    {
+      "word": "slow",
+      "lemma": "slow",
+      "ipa": "/sləʊ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not moving quickly; taking a long time",
+          "meaning_vi": "chậm",
+          "examples": [
+            { "en": "The internet is really slow today.", "vi": "Hôm nay mạng rất chậm." },
+            { "en": "Sa Pa has a slow pace of life.", "vi": "Sa Pa có nhịp sống chậm." },
+            { "en": "He's a slow eater compared to me.", "vi": "Anh ấy ăn chậm hơn tôi nhiều." }
+          ]
+        }
+      ],
+      "synonyms": ["sluggish"],
+      "antonyms": ["fast"],
+      "collocations": ["slow down", "slow pace", "slow internet", "really slow", "slow cooker"],
+      "etymology_hint": "From Old English 'slāw' meaning 'inactive, sluggish'.",
+      "mnemonic_vi": "SLOW = 'sờ-lâu' — 'sờ' 'lâu' (chậm). Slow car = xe chậm."
+    },
+    {
+      "word": "free",
+      "lemma": "free",
+      "ipa": "/friː/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "without cost; not busy; not restricted",
+          "meaning_vi": "miễn phí; rảnh; tự do",
+          "examples": [
+            { "en": "Wi-Fi is free at this café.", "vi": "Wi-Fi ở quán này miễn phí." },
+            { "en": "Are you free this Saturday?", "vi": "Thứ Bảy này bạn rảnh không?" },
+            {
+              "en": "Vietnam celebrated freedom on September 2.",
+              "vi": "Việt Nam mừng ngày độc lập 2/9."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complimentary", "available"],
+      "antonyms": ["busy", "captive"],
+      "collocations": ["free time", "for free", "free of charge", "feel free", "free Wi-Fi"],
+      "etymology_hint": "From Old English 'frēo' meaning 'not in bondage, liberal'.",
+      "mnemonic_vi": "FREE = 'phờ-ri' — 'phỉ' (thả thoải mái). Đa nghĩa: miễn phí (free Wi-Fi), rảnh (I'm free), tự do."
+    },
+    {
+      "word": "terrible",
+      "lemma": "terrible",
+      "ipa": "/ˈterəbl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very bad; causing great fear or distress",
+          "meaning_vi": "tệ hại, khủng khiếp",
+          "examples": [
+            {
+              "en": "The traffic in Sài Gòn was terrible this morning.",
+              "vi": "Sáng nay tắc đường ở Sài Gòn khủng khiếp."
+            },
+            {
+              "en": "I had a terrible headache all night.",
+              "vi": "Tôi đau đầu khủng khiếp cả đêm."
+            },
+            {
+              "en": "It was a terrible idea to go out in the rain.",
+              "vi": "Ra ngoài lúc mưa là ý tưởng tệ hại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["awful", "horrible"],
+      "antonyms": ["wonderful", "great"],
+      "collocations": [
+        "terrible idea",
+        "terrible weather",
+        "terrible accident",
+        "absolutely terrible",
+        "look terrible"
+      ],
+      "etymology_hint": "From Latin 'terribilis' meaning 'frightful', from 'terrere' (to frighten).",
+      "mnemonic_vi": "TERRIBLE = 'te-rì-bồ' — 'tê liệt' (sợ tê). Tệ ghê. Terrible day = ngày tệ hại."
+    },
+    {
+      "word": "wonderful",
+      "lemma": "wonderful",
+      "ipa": "/ˈwʌndəfl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "extremely good; making someone feel pleasure",
+          "meaning_vi": "tuyệt vời, kỳ diệu",
+          "examples": [
+            {
+              "en": "We had a wonderful time at Phú Quốc.",
+              "vi": "Chúng tôi có khoảng thời gian tuyệt vời ở Phú Quốc."
+            },
+            {
+              "en": "Her wedding áo dài looked wonderful.",
+              "vi": "Áo dài cưới của cô ấy nhìn tuyệt vời."
+            },
+            { "en": "What a wonderful surprise!", "vi": "Một bất ngờ tuyệt vời!" }
+          ]
+        }
+      ],
+      "synonyms": ["amazing", "fantastic", "great"],
+      "antonyms": ["terrible", "awful"],
+      "collocations": [
+        "wonderful time",
+        "wonderful day",
+        "wonderful person",
+        "absolutely wonderful",
+        "wonderful news"
+      ],
+      "etymology_hint": "From 'wonder' (Old English 'wundor') + '-ful' (full of) → 'full of wonder'.",
+      "mnemonic_vi": "WONDERFUL = WONDER + FUL → 'đầy điều kỳ diệu'. Wonderful trip = chuyến đi tuyệt."
+    },
+    {
+      "word": "perfect",
+      "lemma": "perfect",
+      "ipa": "/ˈpɜːfɪkt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "without any fault; exactly right",
+          "meaning_vi": "hoàn hảo, hoàn toàn đúng",
+          "examples": [
+            {
+              "en": "The weather was perfect for a picnic.",
+              "vi": "Thời tiết hoàn hảo để dã ngoại."
+            },
+            { "en": "She speaks perfect English.", "vi": "Cô ấy nói tiếng Anh hoàn hảo." },
+            { "en": "Nobody is perfect.", "vi": "Không ai hoàn hảo cả." }
+          ]
+        }
+      ],
+      "synonyms": ["flawless", "ideal"],
+      "antonyms": ["imperfect"],
+      "collocations": [
+        "perfect day",
+        "perfect timing",
+        "perfect English",
+        "absolutely perfect",
+        "perfect for"
+      ],
+      "etymology_hint": "From Latin 'perfectus' = 'per-' (through) + 'facere' (do) → 'thoroughly done'.",
+      "mnemonic_vi": "PERFECT = 'pơ-phếct' — 'pờ-phếch' (đỉnh). Perfect = không tì vết. Practice makes perfect."
+    },
+    {
+      "word": "awful",
+      "lemma": "awful",
+      "ipa": "/ˈɔːfl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very bad or unpleasant",
+          "meaning_vi": "kinh khủng, tồi tệ",
+          "examples": [
+            {
+              "en": "The food tasted awful — I couldn't finish it.",
+              "vi": "Đồ ăn dở kinh khủng — tôi không ăn nổi."
+            },
+            {
+              "en": "She had an awful day at work.",
+              "vi": "Cô ấy có một ngày làm việc tệ kinh khủng."
+            },
+            {
+              "en": "Don't say awful things to your sister.",
+              "vi": "Đừng nói những lời kinh khủng với em gái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["terrible", "horrible"],
+      "antonyms": ["wonderful", "lovely"],
+      "collocations": ["awful day", "awful weather", "awful taste", "look awful", "feel awful"],
+      "etymology_hint": "Originally 'awe-full' = 'full of awe (fear)' — meaning shifted to plainly 'bad'.",
+      "mnemonic_vi": "AWFUL = AWE + FUL → 'đầy sợ hãi' = tệ kinh khủng. Awful = tệ hơn bad."
+    },
+    {
+      "word": "lovely",
+      "lemma": "lovely",
+      "ipa": "/ˈlʌvli/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very pleasant; beautiful in a delicate way",
+          "meaning_vi": "dễ thương, đáng yêu, đẹp dịu dàng",
+          "examples": [
+            { "en": "What a lovely garden you have!", "vi": "Vườn nhà bạn dễ thương quá!" },
+            { "en": "She is such a lovely person.", "vi": "Cô ấy là người dễ thương thật sự." },
+            {
+              "en": "We had a lovely dinner at the hotel.",
+              "vi": "Chúng tôi có bữa tối tuyệt vời ở khách sạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beautiful", "delightful", "nice"],
+      "antonyms": ["awful"],
+      "collocations": [
+        "lovely day",
+        "lovely person",
+        "lovely view",
+        "lovely weather",
+        "absolutely lovely"
+      ],
+      "etymology_hint": "From 'love' + '-ly' — meaning 'worthy of love' → 'pleasant, attractive'.",
+      "mnemonic_vi": "LOVELY = LOVE + LY → 'đáng yêu, dễ thương'. Common từ người Anh: 'lovely day!' = ngày đẹp."
+    }
+  ]
+}
