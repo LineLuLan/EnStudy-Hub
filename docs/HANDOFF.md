@@ -5,6 +5,93 @@
 
 ---
 
+## 2026-05-15 (tối) — P3 partial content ship (9 lessons / 180 cards + meta work-business) + brief handoff — Claude Opus 4.7
+
+**Mục tiêu session**: gen P3 batch (21 lessons). User truncate sau khi xong work-business (9/21 lessons) → AI handoff phần còn lại (12 P3 + 6 P4 = 18 lessons / 360 cards + 5 metas) qua `docs/CONTENT_BRIEF_P3_P4_REMAINING.md` cho user gen offline. Lý do truncate (user gọi): tiết kiệm context window + API cost + để user kiểm soát chất lượng.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                       |
+| ------ | --------- | ---------------------------------------------------------- |
+| main   | `eb18493` | v0.2.0                                                     |
+| dev    | `42f5660` | merge be → dev P3 partial                                  |
+| be     | `717d886` | feat(content): P3 partial — 9 lessons + meta work-business |
+| fe     | `4d4c0be` | sync dev → fe                                              |
+
+### Đã ship (commit `717d886` trên `be`)
+
+**9 lessons (180 cards) — Oxford 3000, A2-B2 mix:**
+
+| #   | Topic         | Lesson           | Cards | CEFR mix                  |
+| --- | ------------- | ---------------- | ----- | ------------------------- |
+| 1   | people        | relationships    | 20    | A2 (5) + B1 (15)          |
+| 2   | people        | life-stages      | 20    | A2 (4) + B1 (13) + B2 (3) |
+| 3   | places-travel | hotel-restaurant | 20    | A2 (6) + B1 (14)          |
+| 4   | places-travel | airport-flight   | 20    | A2 (3) + B1 (17)          |
+| 5   | work-business | jobs-occupations | 20    | A2 (10) + B1 (10)         |
+| 6   | work-business | office-workplace | 20    | A1 (2) + A2 (10) + B1 (8) |
+| 7   | work-business | meetings-comms   | 20    | A2 (3) + B1 (15) + B2 (2) |
+| 8   | work-business | money-finance    | 20    | A2 (4) + B1 (13) + B2 (3) |
+| 9   | work-business | career           | 20    | A2 (5) + B1 (13) + B2 (2) |
+
+**Topic meta**: `work-business` (order_index 5, icon `briefcase`, color `#6366f1`).
+
+### Đã handoff cho user (file `docs/CONTENT_BRIEF_P3_P4_REMAINING.md`)
+
+**18 lessons + 5 metas còn lại**:
+
+- `education` (4 lessons): school-classroom, subjects-academic, exams-results, learning-skills
+- `nature-environment` (4 lessons): animals-pets, plants-trees, landscape-geography, climate-env
+- `entertainment` (4 lessons): sports-games, music-arts, movies-tv, hobbies-leisure
+- `society-culture` (3 lessons): government-law, traditions-festivals, news-media
+- `abstract-academic` (3 lessons): thinking-knowledge, cause-effect, linking-words
+- 5 topic metas: education, nature-environment, entertainment, society-culture, abstract-academic (JSON ngắn, template trong brief Phần 5)
+
+Brief đầy đủ: prompt template (paste vào Claude desktop), wordlist mỗi lesson, path lưu, CEFR mix, collision notes (deadline trùng meetings-comms, vegetable trùng food-meals, lawyer trùng jobs-occupations, etc.).
+
+### Conventions giữ nguyên P1/P2
+
+- IPA British style /…/
+- 3 examples/definition, Vietnam context (Vincom Tower, Vietcombank, MB Bank, Samsung, Vingroup, FPT, Phú Quốc, Đồng bằng sông Cửu Long, Long Biên Bridge, Bach Mai, Cho Ray Hospital, Tết bonus, Hàng Bông, áo dài, Hoàn Kiếm…)
+- 4-5 collocations, etymology 1-2 câu, mnemonic_vi vibe-y wordplay
+- POS đúng 10 enum schema
+- Schema validated all 10 files via Zod inline check (script `_validate-schema-only.ts` tạm — xoá sau)
+
+### Decisions
+
+1. **Truncate P3 ở work-business** → user pin xuống lý do tiết kiệm context + cost + quality control. Memory rule `feedback_content_gen` (gen offline) giữ pinned cho phần còn lại
+2. **Brief P3-P4 trong 1 file** → `docs/CONTENT_BRIEF_P3_P4_REMAINING.md` thay vì 2 file riêng P3 vs P4. Lý do: user có thể gen liền mạch hoặc theo topic, không bị fragment
+3. **Topic meta cho 5 topic còn lại trong brief, không tạo trước** → để user tự quyết order_index/icon/color hoặc dùng template trong brief
+
+### Verify đã chạy trên fe (sau merge dev → fe)
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179
+- `pnpm lint` ✓ 0 warnings
+
+### Progress tổng MVP
+
+- **Đã có (24 lessons / 480 cards)**: P0 (3/60) + P1 (7/140) + P2 (5/100) + P3 partial (9/180) trên 5 topic: daily-life, people, time-numbers, places-travel, work-business
+- **Còn lại (18 lessons / 360 cards)**: P3 remaining (12 lessons trên 3 topic: education, nature-environment, entertainment) + P4 (6 lessons trên 2 topic: society-culture, abstract-academic) + 5 topic metas
+- **MVP target**: 42 lessons / 840 cards. Hiện **57% done**.
+
+### USER TODOs sau session này
+
+1. **`pnpm seed`** trên `.env.local` có DATABASE_URL → upsert 180 cards P3-partial vào Supabase live (cộng 100 cards P2 nếu chưa seed)
+2. **Gen offline 18 lessons còn lại** theo `docs/CONTENT_BRIEF_P3_P4_REMAINING.md` qua Claude desktop free tier (recommended) hoặc Sonnet 4.6 cũng đủ chất A2-B2
+3. **Tạo 5 topic metas mới** (JSON ngắn, template Phần 5 trong brief)
+4. Sau khi gen từng file/topic → đưa lại Claude Code session: "Đây JSON lesson `<slug>`. Validate + commit." AI sẽ batch commit qua workflow chuẩn
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit (mobile + desktop)
+5. Supabase RLS smoke test
+
+---
+
 ## 2026-05-15 (chiều) — P2 batch content ship (5 lessons / 100 cards + 1 topic meta) — Claude Opus 4.7
 
 **Mục tiêu session**: gen batch P2 theo `docs/CONTENT_PLAN.md` Phần 5 — 1st batch của 3-batch schedule P2 → P3 → P4 (user chốt phương án "Tách 3 batch" thay vì all-at-once, sau khi cân quality control vs cost).
