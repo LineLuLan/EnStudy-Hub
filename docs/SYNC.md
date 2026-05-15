@@ -5,12 +5,12 @@
 
 ## Trạng thái hiện tại
 
-| Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                       |
-| ------ | ----------------------- | ---------------------- | ---------------------- | ----------------------------------------------------------- |
-| main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames   |
-| dev    | `daed553`               | base                   | 2026-05-15 (`daed553`) | P2 batch — 5 lessons / 100 cards + topic meta places-travel |
-| be     | `0b2dbb9`               | 2026-05-15 (`0b2dbb9`) | 2026-05-15 (`0b2dbb9`) | P2 batch content commit                                     |
-| fe     | `d3dd493`               | 2026-05-15 (`d3dd493`) | 2026-05-17 (`4e693d8`) | sync P2 batch — typecheck/lint/test all green               |
+| Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
+| ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
+| main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
+| dev    | `42f5660`               | base                   | 2026-05-15 (`42f5660`) | P3 partial — 9 lessons / 180 cards + meta work-business   |
+| be     | `717d886`               | 2026-05-15 (`717d886`) | 2026-05-15 (`717d886`) | P3 partial content commit                                 |
+| fe     | `4d4c0be`               | 2026-05-15 (`4d4c0be`) | 2026-05-17 (`4e693d8`) | sync P3 partial — typecheck/lint/test all green           |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -217,3 +217,6 @@ git checkout fe
 | 2026-05-15 | commit | (P2 content) → be    | `0b2dbb9` | feat(content): add P2 batch — 5 lessons (100 cards) + meta places-travel  |
 | 2026-05-15 | merge  | be → dev             | `daed553` | bring P2 batch (5 lessons + 1 meta) to dev — Tuần 3 P2 done               |
 | 2026-05-15 | sync   | dev → fe             | `d3dd493` | sync P2 batch xuống fe — gates green                                      |
+| 2026-05-15 | commit | (P3 partial) → be    | `717d886` | feat(content): P3 partial — 9 lessons (180 cards) + meta work-business    |
+| 2026-05-15 | merge  | be → dev             | `42f5660` | bring P3 partial to dev — user truncate P3 at work-business done          |
+| 2026-05-15 | sync   | dev → fe             | `4d4c0be` | sync P3 partial xuống fe — gates green (179/179 tests, lint 0)            |
