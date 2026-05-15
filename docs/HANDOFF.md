@@ -5,6 +5,73 @@
 
 ---
 
+## 2026-05-16 (sau MVP) — P5a Common Core 5 lessons / 100 cards + full plan post-MVP — Claude Opus 4.7
+
+**Mục tiêu session**: Phân tích coverage Oxford 3000 (chỉ 14.4%), lập plan full coverage `docs/CONTENT_PLAN_FULL.md` (P5-P12, ~150 lessons / ~3000 cards), seed MVP lên Supabase live (840 → 940 cards), bắt đầu gen P5a function words.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                         |
+| ------ | --------- | ------------------------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                                           |
+| dev    | `6728b06` | merge be → dev (P5a common-core)                             |
+| be     | `15fa814` | feat(content) common-core P5a — 5 lessons / 100 cards + meta |
+| fe     | `884d527` | sync dev → fe (P5a) — gates green                            |
+
+### Đã ship session này
+
+**Seed Supabase live**: 1 collection / 11 topics / **47 lessons / 940 cards** (P0-P4 MVP + P5a).
+
+**P5a common-core** (commit `15fa814` trên `be`):
+
+- `articles-determiners` (A1×15 + A2×5)
+- `pronouns-basic` (A1×15 + A2×5)
+- `prepositions-place` (A1×15 + A2×5)
+- `prepositions-time-other` (A1×10 + A2×10)
+- `conjunctions-basic` (A1×10 + A2×10)
+
+Topic meta: `common-core` (order_index 11, icon blocks, color #64748b).
+
+**Plan post-MVP**: `docs/CONTENT_PLAN_FULL.md` mới — chi tiết 8 phases P5-P12 / ~150 lessons / ~3000 cards để cover 100% Oxford 3000 (3846 unique entries). DB capacity check: content tables ~22 MB tổng (4% free tier) — không lo. User_cards × N users là điểm scale (1k users × 3840 cards × ~200B = 800MB → upgrade Pro).
+
+### Quality bar mới (BẮT BUỘC từ P5+)
+
+`docs/CONTENT_PLAN_FULL.md` mục 3 — 8 quy chuẩn cho mỗi card:
+
+1. Word selection — high-frequency first, thematically related, tránh trùng existing
+2. IPA — British strict, slash-wrapped, multi-word kèm space
+3. Definitions — không copy Oxford/Cambridge, Việt mượt
+4. Examples 3/def — VN context đậm, 3 ngữ cảnh khác
+5. Mnemonic — vibe-y wordplay tiếng Việt
+6. Etymology — 1-2 câu narrative
+7. Collocations — 4-5 cụm natural
+8. POS — chuẩn schema enum
+
+### Decisions
+
+1. **Plan post-MVP**: 8 phases P5-P12. Mỗi phase 10-25 lessons. Pace: 1-2 phase / session.
+2. **Tách P5 thành 2 batch** → P5a (function words 5 lessons) + P5b (verbs/adj/adv 5 lessons) → giữ chất lượng.
+3. **POS labels**: `determiner` cho a/an/the/this/that/some/any/many/much/every/all/no/each/another/other/both/either/neither/my/your/his, `pronoun` cho I/you/he/she/we/they/me/him/us/them/hers/ours/theirs/myself/yourself/it.
+4. **Multi-word phrases lưu space-separated** (in case, so that, as if, as long as, even if, with respect to, ...) — POS theo nghĩa chính.
+5. **Collision allowed với explicit angle**: that/this (det) ≠ that/this (conj/pronoun), since (prep) ≠ since (conj). Note rõ trong commit message.
+
+### USER TODOs sau session này
+
+1. **Tiếp P5b common-core verbs/adj/adv** — 5 lessons (be-do-have, action-verbs, mental-verbs, adjectives, adverbs) / 100 cards.
+2. **Sau P5b**: P6 A1 fillers (15 lessons / 300 cards).
+3. Live UI test với 940 cards seeded.
+4. Cân nhắc tag `v0.3.0-content-mvp` (đóng MVP P0-P4) trước khi tiếp tục P5+.
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit
+5. Supabase RLS smoke test
+
+---
+
 ## 2026-05-16 — P4 CLOSED — MVP CONTENT 42/42 COMPLETE — Claude Opus 4.7
 
 **Mục tiêu session**: User explicit override policy `feedback_content_gen` lần 3 — cho AI tự gen 2 topic P4 còn lại (society-culture + abstract-academic). Đóng phase P4, hoàn thành 100% MVP content target.
