@@ -1,0 +1,676 @@
+{
+  "slug": "hobbies-leisure",
+  "name": "Hobbies & Leisure",
+  "description": "Sở thích và giải trí.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "hobby",
+      "lemma": "hobby",
+      "ipa": "/ˈhɒbi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "something you enjoy doing in your free time",
+          "meaning_vi": "sở thích (làm khi rảnh)",
+          "examples": [
+            {
+              "en": "My hobby is collecting coffee mugs.",
+              "vi": "Sở thích của tôi là sưu tập cốc cà phê."
+            },
+            { "en": "What hobbies do you have?", "vi": "Bạn có những sở thích nào?" },
+            { "en": "Reading is her main hobby.", "vi": "Đọc sách là sở thích chính của cô ấy." }
+          ]
+        }
+      ],
+      "synonyms": ["pastime", "interest"],
+      "antonyms": [],
+      "collocations": [
+        "have a hobby",
+        "favourite hobby",
+        "outdoor hobby",
+        "expensive hobby",
+        "share a hobby"
+      ],
+      "etymology_hint": "From 'hobbyhorse' (a small horse for play), via Medieval English 'hobyn'.",
+      "mnemonic_vi": "HOBBY — 'hốp-bi' → 'hớp' (mê) 'bi' (lý do) làm = sở thích"
+    },
+    {
+      "word": "leisure",
+      "lemma": "leisure",
+      "ipa": "/ˈleʒə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "free time when you can do what you want",
+          "meaning_vi": "thời gian rảnh; sự nhàn rỗi",
+          "examples": [
+            {
+              "en": "He spends his leisure time playing chess.",
+              "vi": "Anh ấy dành thời gian rảnh để chơi cờ."
+            },
+            {
+              "en": "Vietnam has a growing leisure industry.",
+              "vi": "Việt Nam có ngành dịch vụ giải trí đang phát triển."
+            },
+            {
+              "en": "Reading is a leisure activity for many.",
+              "vi": "Đọc sách là hoạt động giải trí của nhiều người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["free time"],
+      "antonyms": ["work"],
+      "collocations": [
+        "leisure time",
+        "leisure activity",
+        "leisure centre",
+        "at leisure",
+        "leisure industry"
+      ],
+      "etymology_hint": "From Old French 'leisir' meaning 'be permitted', from Latin 'licere'.",
+      "mnemonic_vi": "LEISURE — 'le-zhờ' → 'lè' (thư) 'sờ' (giãn) = nhàn rỗi"
+    },
+    {
+      "word": "fun",
+      "lemma": "fun",
+      "ipa": "/fʌn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "enjoyment; the feeling of having a good time",
+          "meaning_vi": "niềm vui, sự thích thú",
+          "examples": [
+            {
+              "en": "We had a lot of fun at Đà Nẵng beach.",
+              "vi": "Chúng tôi đã rất vui ở biển Đà Nẵng."
+            },
+            { "en": "Tết is a fun time for kids.", "vi": "Tết là thời điểm vui cho trẻ con." },
+            { "en": "Playing with friends is fun.", "vi": "Chơi với bạn bè rất vui." }
+          ]
+        }
+      ],
+      "synonyms": ["enjoyment", "amusement"],
+      "antonyms": ["boredom"],
+      "collocations": ["have fun", "for fun", "lots of fun", "great fun", "fun activity"],
+      "etymology_hint": "From Middle English 'fon' meaning 'fool, trick'.",
+      "mnemonic_vi": "FUN — 'phân' → 'phấn' khích = vui"
+    },
+    {
+      "word": "enjoy",
+      "lemma": "enjoy",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to like doing something or being somewhere",
+          "meaning_vi": "thích thú, tận hưởng",
+          "examples": [
+            {
+              "en": "I enjoy walking by Hồ Tây at sunset.",
+              "vi": "Tôi thích đi dạo quanh Hồ Tây lúc hoàng hôn."
+            },
+            { "en": "She enjoys cooking on weekends.", "vi": "Cô ấy thích nấu ăn cuối tuần." },
+            { "en": "Did you enjoy the concert?", "vi": "Bạn có thích buổi hoà nhạc không?" }
+          ]
+        }
+      ],
+      "synonyms": ["like", "love"],
+      "antonyms": ["dislike", "hate"],
+      "collocations": [
+        "enjoy yourself",
+        "enjoy a meal",
+        "really enjoy",
+        "enjoy life",
+        "enjoy doing"
+      ],
+      "etymology_hint": "From Old French 'enjoier' meaning 'to give joy', from 'joie'.",
+      "mnemonic_vi": "ENJOY — 'in-rồi' → 'in' nỗi vui 'rồi' = tận hưởng"
+    },
+    {
+      "word": "relax",
+      "lemma": "relax",
+      "ipa": "/rɪˈlæks/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to rest and let your mind and body become calm, especially after work or study",
+          "meaning_vi": "thư giãn, nghỉ ngơi",
+          "examples": [
+            {
+              "en": "I love to relax in Đà Lạt's cool weather.",
+              "vi": "Tôi thích thư giãn trong khí hậu mát của Đà Lạt."
+            },
+            {
+              "en": "She relaxes by listening to music.",
+              "vi": "Cô ấy thư giãn bằng cách nghe nhạc."
+            },
+            { "en": "Take a deep breath and relax.", "vi": "Hít sâu một hơi và thư giãn." }
+          ]
+        }
+      ],
+      "synonyms": ["unwind", "rest"],
+      "antonyms": ["stress"],
+      "collocations": [
+        "relax at home",
+        "fully relax",
+        "help me relax",
+        "relax in the bath",
+        "sit and relax"
+      ],
+      "etymology_hint": "From Latin 'relaxare' = 're-' (back) + 'laxare' (loosen).",
+      "mnemonic_vi": "RELAX — 'ri-léch' → 'ri' (rủ) 'lá' (xõa) = thư giãn"
+    },
+    {
+      "word": "vacation",
+      "lemma": "vacation",
+      "ipa": "/vəˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a holiday away from work or school",
+          "meaning_vi": "kỳ nghỉ; kỳ nghỉ phép",
+          "examples": [
+            { "en": "We spent our vacation in Phú Quốc.", "vi": "Chúng tôi nghỉ phép ở Phú Quốc." },
+            { "en": "She took a long vacation in summer.", "vi": "Cô ấy nghỉ dài vào mùa hè." },
+            {
+              "en": "Tết vacation lasts about a week.",
+              "vi": "Kỳ nghỉ Tết kéo dài khoảng một tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["holiday", "break"],
+      "antonyms": ["work"],
+      "collocations": [
+        "summer vacation",
+        "take a vacation",
+        "family vacation",
+        "vacation plans",
+        "long vacation"
+      ],
+      "etymology_hint": "From Latin 'vacatio' meaning 'freedom from duty'.",
+      "mnemonic_vi": "VACATION — 'vây-cây-sần' → 'vắc cây' nghỉ ngơi = kỳ nghỉ"
+    },
+    {
+      "word": "picnic",
+      "lemma": "picnic",
+      "ipa": "/ˈpɪknɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an outdoor meal, usually in the countryside or a park",
+          "meaning_vi": "dã ngoại (ăn ngoài trời)",
+          "examples": [
+            {
+              "en": "We had a picnic in Bảo tàng Hà Nội garden.",
+              "vi": "Chúng tôi đi dã ngoại trong sân Bảo tàng Hà Nội."
+            },
+            {
+              "en": "Bring sandwiches for the picnic.",
+              "vi": "Mang bánh mì kẹp cho buổi dã ngoại."
+            },
+            { "en": "The picnic was cancelled due to rain.", "vi": "Buổi dã ngoại bị hoãn vì mưa." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go on a picnic",
+        "family picnic",
+        "picnic basket",
+        "have a picnic",
+        "picnic spot"
+      ],
+      "etymology_hint": "From French 'pique-nique' — a fashionable outdoor meal in 17th century.",
+      "mnemonic_vi": "PICNIC — 'pích-níc' → 'pích' (gói) 'ních' (chứa) đồ ăn = dã ngoại"
+    },
+    {
+      "word": "camping",
+      "lemma": "camping",
+      "ipa": "/ˈkæmpɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the activity of sleeping outdoors in a tent",
+          "meaning_vi": "cắm trại (ngủ trong lều ngoài trời)",
+          "examples": [
+            {
+              "en": "Camping in Sa Pa is a great experience.",
+              "vi": "Cắm trại ở Sa Pa là trải nghiệm tuyệt vời."
+            },
+            { "en": "We went camping by the lake.", "vi": "Chúng tôi đi cắm trại bên hồ." },
+            {
+              "en": "Camping is popular with young Vietnamese.",
+              "vi": "Cắm trại được giới trẻ Việt yêu thích."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go camping",
+        "camping trip",
+        "camping tent",
+        "camping gear",
+        "wild camping"
+      ],
+      "etymology_hint": "From Latin 'campus' meaning 'open field', via 'camp' + '-ing'.",
+      "mnemonic_vi": "CAMPING = CAMP (trại) + ING → đang dựng trại = cắm trại"
+    },
+    {
+      "word": "fishing",
+      "lemma": "fishing",
+      "ipa": "/ˈfɪʃɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the activity of catching fish",
+          "meaning_vi": "câu cá; đánh bắt cá",
+          "examples": [
+            {
+              "en": "My uncle goes fishing every Sunday.",
+              "vi": "Bác tôi đi câu cá mỗi Chủ nhật."
+            },
+            { "en": "Fishing is relaxing.", "vi": "Câu cá thư giãn lắm." },
+            {
+              "en": "Mekong Delta is famous for fishing.",
+              "vi": "Đồng bằng sông Cửu Long nổi tiếng về đánh bắt cá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["angling"],
+      "antonyms": [],
+      "collocations": ["go fishing", "fishing rod", "fishing boat", "fly fishing", "fishing trip"],
+      "etymology_hint": "From 'fish' + '-ing'.",
+      "mnemonic_vi": "FISHING = FISH (cá) + ING → đang bắt cá = câu cá"
+    },
+    {
+      "word": "gardening",
+      "lemma": "gardening",
+      "ipa": "/ˈɡɑːdnɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the activity of planting and caring for a garden",
+          "meaning_vi": "làm vườn",
+          "examples": [
+            { "en": "My grandmother loves gardening.", "vi": "Bà tôi yêu công việc làm vườn." },
+            { "en": "Gardening is good exercise.", "vi": "Làm vườn là bài tập thể dục tốt." },
+            { "en": "She does gardening on her rooftop.", "vi": "Cô ấy làm vườn trên sân thượng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "do gardening",
+        "gardening tools",
+        "indoor gardening",
+        "vegetable gardening",
+        "rooftop gardening"
+      ],
+      "etymology_hint": "From 'garden' + '-ing'.",
+      "mnemonic_vi": "GARDENING = GARDEN (vườn) + ING → đang làm vườn = làm vườn"
+    },
+    {
+      "word": "photography",
+      "lemma": "photography",
+      "ipa": "/fəˈtɒɡrəfi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the art or activity of taking photos",
+          "meaning_vi": "nhiếp ảnh; chụp ảnh",
+          "examples": [
+            {
+              "en": "He studies photography at FPT Arena.",
+              "vi": "Cậu ấy học nhiếp ảnh ở FPT Arena."
+            },
+            { "en": "Hội An is great for photography.", "vi": "Hội An rất hợp cho nhiếp ảnh." },
+            { "en": "Her wedding photography is famous.", "vi": "Ảnh cưới của cô ấy nổi tiếng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wedding photography",
+        "studio photography",
+        "street photography",
+        "photography lesson",
+        "photography studio"
+      ],
+      "etymology_hint": "From Greek 'photo' (light) + 'graphein' (to draw) → 'drawing with light'.",
+      "mnemonic_vi": "PHOTOGRAPHY = PHOTO (ảnh) + GRAPHY (vẽ) → vẽ bằng ánh sáng = nhiếp ảnh"
+    },
+    {
+      "word": "collecting",
+      "lemma": "collecting",
+      "ipa": "/kəˈlektɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the hobby of gathering objects that you like, such as stamps or coins",
+          "meaning_vi": "sưu tập (tem, tiền, đồ)",
+          "examples": [
+            {
+              "en": "Stamp collecting was his childhood hobby.",
+              "vi": "Sưu tập tem là sở thích thời thơ ấu của anh ấy."
+            },
+            { "en": "She enjoys collecting old coins.", "vi": "Cô ấy thích sưu tập tiền xu cũ." },
+            { "en": "Collecting figurines can be expensive.", "vi": "Sưu tập mô hình có thể đắt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "stamp collecting",
+        "coin collecting",
+        "art collecting",
+        "card collecting",
+        "collecting hobby"
+      ],
+      "etymology_hint": "From 'collect' (Latin 'colligere' = gather together) + '-ing'.",
+      "mnemonic_vi": "COLLECTING = COLLECT (gom) + ING → đang gom = sưu tập"
+    },
+    {
+      "word": "board game",
+      "lemma": "board game",
+      "ipa": "/ˈbɔːd ɡeɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a game played on a flat board, like chess or Monopoly",
+          "meaning_vi": "trò chơi bàn cờ; board game",
+          "examples": [
+            {
+              "en": "We play board games every Sunday evening.",
+              "vi": "Tối Chủ nhật nào chúng tôi cũng chơi board game."
+            },
+            {
+              "en": "Cờ tỷ phú is a popular board game.",
+              "vi": "Cờ tỷ phú là một board game phổ biến."
+            },
+            {
+              "en": "Board games are great for family time.",
+              "vi": "Board game rất hay cho thời gian gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play a board game",
+        "classic board game",
+        "strategy board game",
+        "family board game",
+        "board game night"
+      ],
+      "etymology_hint": "Compound 'board' (Old English 'bord' = plank) + 'game'.",
+      "mnemonic_vi": "BOARD GAME = BOARD (bàn) + GAME (trò) → trò chơi trên bàn"
+    },
+    {
+      "word": "video game",
+      "lemma": "video game",
+      "ipa": "/ˈvɪdiəʊ ɡeɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a game played on a computer, console, or phone",
+          "meaning_vi": "trò chơi điện tử; game",
+          "examples": [
+            {
+              "en": "Liên Quân is a popular video game in Vietnam.",
+              "vi": "Liên Quân là game điện tử nổi tiếng ở Việt Nam."
+            },
+            {
+              "en": "He plays video games every weekend.",
+              "vi": "Cậu ấy chơi game mỗi cuối tuần."
+            },
+            { "en": "Video games can be addictive.", "vi": "Game điện tử có thể gây nghiện." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play a video game",
+        "online video game",
+        "video game console",
+        "addictive video game",
+        "mobile video game"
+      ],
+      "etymology_hint": "Compound 'video' (Latin 'videre' = to see) + 'game'.",
+      "mnemonic_vi": "VIDEO GAME = VIDEO (hình ảnh) + GAME (trò) → trò có hình ảnh = game"
+    },
+    {
+      "word": "puzzle",
+      "lemma": "puzzle",
+      "ipa": "/ˈpʌzl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a game that needs thinking to solve, like a crossword or jigsaw",
+          "meaning_vi": "trò chơi giải đố; trò xếp hình",
+          "examples": [
+            {
+              "en": "She does crossword puzzles every morning.",
+              "vi": "Cô ấy giải ô chữ mỗi sáng."
+            },
+            { "en": "The jigsaw puzzle has 1000 pieces.", "vi": "Bộ xếp hình có 1000 mảnh." },
+            { "en": "He loves logic puzzles.", "vi": "Anh ấy yêu các trò đố logic." }
+          ]
+        }
+      ],
+      "synonyms": ["riddle"],
+      "antonyms": [],
+      "collocations": [
+        "crossword puzzle",
+        "jigsaw puzzle",
+        "solve a puzzle",
+        "logic puzzle",
+        "puzzle piece"
+      ],
+      "etymology_hint": "Origin unclear, possibly from Old English 'poselen' (to confuse).",
+      "mnemonic_vi": "PUZZLE — 'pâ-zồ' → 'phá' (đầu) 'zộ' (nghĩ) = trò đố"
+    },
+    {
+      "word": "reading",
+      "lemma": "reading",
+      "ipa": "/ˈriːdɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the activity of looking at and understanding written words",
+          "meaning_vi": "đọc sách; hoạt động đọc",
+          "examples": [
+            {
+              "en": "Reading is my favourite hobby.",
+              "vi": "Đọc sách là sở thích yêu thích của tôi."
+            },
+            { "en": "She does reading before bed.", "vi": "Cô ấy đọc sách trước khi ngủ." },
+            { "en": "Reading improves vocabulary.", "vi": "Đọc sách giúp tăng từ vựng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "love reading",
+        "reading habit",
+        "extensive reading",
+        "bedtime reading",
+        "speed reading"
+      ],
+      "etymology_hint": "From 'read' + '-ing'.",
+      "mnemonic_vi": "READING = READ (đọc) + ING → đang đọc = việc đọc sách"
+    },
+    {
+      "word": "drawing",
+      "lemma": "drawing",
+      "ipa": "/ˈdrɔːɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the art of making pictures with a pen or pencil",
+          "meaning_vi": "vẽ (bằng bút/chì); bức vẽ",
+          "examples": [
+            {
+              "en": "Her drawing of Hội An is amazing.",
+              "vi": "Bức vẽ Hội An của cô ấy thật tuyệt."
+            },
+            {
+              "en": "He does drawing in his sketchbook.",
+              "vi": "Cậu ấy vẽ trong cuốn sổ phác thảo."
+            },
+            { "en": "Children love drawing.", "vi": "Trẻ em thích vẽ." }
+          ]
+        }
+      ],
+      "synonyms": ["sketch"],
+      "antonyms": [],
+      "collocations": [
+        "pencil drawing",
+        "do drawing",
+        "drawing class",
+        "free drawing",
+        "technical drawing"
+      ],
+      "etymology_hint": "From 'draw' (Old English 'dragan' = to pull) + '-ing'.",
+      "mnemonic_vi": "DRAWING = DRAW (vẽ) + ING → đang vẽ = vẽ"
+    },
+    {
+      "word": "knitting",
+      "lemma": "knitting",
+      "ipa": "/ˈnɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the activity of making clothes by joining wool with needles",
+          "meaning_vi": "đan (len)",
+          "examples": [
+            {
+              "en": "My grandmother loves knitting sweaters in winter.",
+              "vi": "Bà tôi yêu đan áo len vào mùa đông."
+            },
+            { "en": "Knitting is relaxing.", "vi": "Đan len thư giãn lắm." },
+            {
+              "en": "She is learning knitting from YouTube.",
+              "vi": "Cô ấy đang học đan từ YouTube."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "knitting needle",
+        "knitting pattern",
+        "do knitting",
+        "knitting wool",
+        "hand knitting"
+      ],
+      "etymology_hint": "From Old English 'cnyttan' meaning 'to tie a knot'.",
+      "mnemonic_vi": "KNITTING — 'nít-tinh' → 'nịt' (xếp) sợi len = đan"
+    },
+    {
+      "word": "traveling",
+      "lemma": "traveling",
+      "ipa": "/ˈtrævəlɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the activity of going from one place to another, especially for fun",
+          "meaning_vi": "du lịch; đi đó đây",
+          "examples": [
+            {
+              "en": "Traveling around Vietnam is affordable.",
+              "vi": "Du lịch quanh Việt Nam có giá phải chăng."
+            },
+            {
+              "en": "She loves traveling more than shopping.",
+              "vi": "Cô ấy yêu du lịch hơn mua sắm."
+            },
+            { "en": "Traveling opens your mind.", "vi": "Du lịch mở mang đầu óc." }
+          ]
+        }
+      ],
+      "synonyms": ["travelling", "touring"],
+      "antonyms": [],
+      "collocations": [
+        "love traveling",
+        "traveling abroad",
+        "solo traveling",
+        "budget traveling",
+        "traveling bag"
+      ],
+      "etymology_hint": "From 'travel' (Old French 'travailler' = to labour) + '-ing'.",
+      "mnemonic_vi": "TRAVELING = TRAVEL (du lịch) + ING → đang đi du lịch"
+    },
+    {
+      "word": "sightseeing",
+      "lemma": "sightseeing",
+      "ipa": "/ˈsaɪtsiːɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "visiting interesting places, especially as a tourist",
+          "meaning_vi": "tham quan, ngắm cảnh (khi đi du lịch)",
+          "examples": [
+            {
+              "en": "We did sightseeing around Huế citadel.",
+              "vi": "Chúng tôi đi tham quan quanh Đại Nội Huế."
+            },
+            {
+              "en": "Sightseeing in Hội An is best on foot.",
+              "vi": "Tham quan Hội An tốt nhất là đi bộ."
+            },
+            {
+              "en": "She loves sightseeing on her holidays.",
+              "vi": "Cô ấy thích tham quan trong kỳ nghỉ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["touring"],
+      "antonyms": [],
+      "collocations": [
+        "go sightseeing",
+        "sightseeing tour",
+        "sightseeing bus",
+        "city sightseeing",
+        "do sightseeing"
+      ],
+      "etymology_hint": "Compound 'sight' (Old English 'siht' = view) + 'seeing'.",
+      "mnemonic_vi": "SIGHTSEEING = SIGHT (cảnh) + SEEING (xem) → xem cảnh = tham quan"
+    }
+  ]
+}
