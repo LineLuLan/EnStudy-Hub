@@ -1,0 +1,613 @@
+{
+  "slug": "body-parts-ext",
+  "name": "Body Parts (Extended)",
+  "description": "Các bộ phận cơ thể chi tiết hơn — ngón tay, vai, cổ, da và xương.",
+  "order_index": 7,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "finger",
+      "lemma": "finger",
+      "ipa": "/ˈfɪŋɡə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the five long thin parts at the end of your hand",
+          "meaning_vi": "ngón tay",
+          "examples": [
+            {
+              "en": "She wears a ring on her left finger.",
+              "vi": "Cô ấy đeo nhẫn ở ngón tay trái."
+            },
+            {
+              "en": "I cut my finger while chopping vegetables.",
+              "vi": "Tôi đứt tay khi cắt rau."
+            },
+            { "en": "Kids count on their fingers.", "vi": "Bọn trẻ đếm bằng ngón tay." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "index finger",
+        "middle finger",
+        "ring finger",
+        "point a finger",
+        "cross your fingers"
+      ],
+      "etymology_hint": "From Old English 'finger' — basic body part word, unchanged for centuries.",
+      "mnemonic_vi": "FINGER = 'phin-gờ' — 'phỉn' (chỉ ra). 10 fingers, ring finger = ngón đeo nhẫn."
+    },
+    {
+      "word": "toe",
+      "lemma": "toe",
+      "ipa": "/təʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "one of the five parts at the end of your foot",
+          "meaning_vi": "ngón chân",
+          "examples": [
+            {
+              "en": "I stepped on a stone and hurt my toe.",
+              "vi": "Tôi giẫm phải hòn đá và đau ngón chân."
+            },
+            {
+              "en": "Babies love to suck their toes.",
+              "vi": "Em bé thích mút ngón chân của mình."
+            },
+            { "en": "Wiggle your toes to keep warm.", "vi": "Ngọ nguậy ngón chân cho ấm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["big toe", "stub your toe", "tip toe", "from head to toe", "10 toes"],
+      "etymology_hint": "From Old English 'tā' — short word for foot extremities.",
+      "mnemonic_vi": "TOE = 'tôu' — 'tô' (chỗm chân). Big toe = ngón chân cái. Foot có 5 toes."
+    },
+    {
+      "word": "knee",
+      "lemma": "knee",
+      "ipa": "/niː/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the joint in the middle of your leg",
+          "meaning_vi": "đầu gối",
+          "examples": [
+            { "en": "I fell and hurt my knee.", "vi": "Tôi ngã và đau đầu gối." },
+            {
+              "en": "She wore a long dress that covers her knees.",
+              "vi": "Cô ấy mặc váy dài che đầu gối."
+            },
+            {
+              "en": "Grandfather has knee pain from old age.",
+              "vi": "Ông tôi đau đầu gối vì tuổi tác."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["knee pain", "bend the knee", "on your knees", "knee deep", "knee cap"],
+      "etymology_hint": "From Old English 'cnēow' — silent 'k' once pronounced.",
+      "mnemonic_vi": "KNEE = 'ni' — silent K → 'ni' (vị trí gập). Bend the knee = quỳ gối."
+    },
+    {
+      "word": "elbow",
+      "lemma": "elbow",
+      "ipa": "/ˈelbəʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the joint between your upper arm and lower arm",
+          "meaning_vi": "khuỷu tay",
+          "examples": [
+            { "en": "She rested her elbow on the table.", "vi": "Cô ấy chống khuỷu tay lên bàn." },
+            { "en": "He banged his elbow on the door.", "vi": "Anh ấy đập khuỷu tay vào cửa." },
+            {
+              "en": "Don't put your elbows on the dining table.",
+              "vi": "Đừng chống khuỷu tay lên bàn ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "elbow pain",
+        "elbow joint",
+        "bend your elbow",
+        "elbow room",
+        "tennis elbow"
+      ],
+      "etymology_hint": "Compound 'el' (forearm length) + 'bow' (bend) — 'the bend of the forearm'.",
+      "mnemonic_vi": "ELBOW = 'el-bâu' — 'ell' (cánh tay) 'bồ' (gấp). Elbow joint = khớp khuỷu tay."
+    },
+    {
+      "word": "neck",
+      "lemma": "neck",
+      "ipa": "/nek/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of your body between your head and shoulders",
+          "meaning_vi": "cổ",
+          "examples": [
+            {
+              "en": "She wears a gold chain around her neck.",
+              "vi": "Cô ấy đeo dây chuyền vàng quanh cổ."
+            },
+            {
+              "en": "I have a stiff neck from sleeping wrong.",
+              "vi": "Tôi bị cứng cổ vì ngủ sai tư thế."
+            },
+            { "en": "Giraffes have very long necks.", "vi": "Hươu cao cổ có cổ rất dài." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["neck pain", "stiff neck", "neck chain", "break your neck", "neck and neck"],
+      "etymology_hint": "From Old English 'hnecca' — narrow part connecting head and body.",
+      "mnemonic_vi": "NECK = 'nét' — 'nét' (đoạn nối) đầu với thân. Neck pain = đau cổ."
+    },
+    {
+      "word": "back",
+      "lemma": "back",
+      "ipa": "/bæk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the rear part of your body, from neck to waist",
+          "meaning_vi": "lưng",
+          "examples": [
+            {
+              "en": "My back hurts after sitting all day.",
+              "vi": "Lưng tôi đau sau khi ngồi cả ngày."
+            },
+            { "en": "She lay on her back to watch the stars.", "vi": "Cô ấy nằm ngửa ngắm sao." },
+            { "en": "Carry the bag on your back.", "vi": "Đeo cặp sau lưng đi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["front"],
+      "collocations": [
+        "back pain",
+        "lower back",
+        "back home",
+        "behind your back",
+        "turn your back"
+      ],
+      "etymology_hint": "From Old English 'bæc' — basic word for the rear of body or object.",
+      "mnemonic_vi": "BACK = 'bắc' — 'bắc' (sau lưng). Back pain = đau lưng. Đa nghĩa: lưng, phía sau, trở lại."
+    },
+    {
+      "word": "shoulder",
+      "lemma": "shoulder",
+      "ipa": "/ˈʃəʊldə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the joint between your neck and your arm",
+          "meaning_vi": "vai",
+          "examples": [
+            { "en": "She put her hand on my shoulder.", "vi": "Cô ấy đặt tay lên vai tôi." },
+            { "en": "He has broad shoulders.", "vi": "Anh ấy có bờ vai rộng." },
+            {
+              "en": "Áo dài shows off the wearer's shoulders.",
+              "vi": "Áo dài tôn lên đôi vai người mặc."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "broad shoulders",
+        "shoulder pain",
+        "shrug your shoulders",
+        "carry on your shoulders",
+        "tap on the shoulder"
+      ],
+      "etymology_hint": "From Old English 'sculdor' — basic body part word.",
+      "mnemonic_vi": "SHOULDER = 'sâu-đờ' — 'sâu đỡ' (gánh vác). Broad shoulders = vai rộng."
+    },
+    {
+      "word": "chest",
+      "lemma": "chest",
+      "ipa": "/tʃest/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the front part of your body between your neck and stomach",
+          "meaning_vi": "ngực, lồng ngực",
+          "examples": [
+            { "en": "He felt a sharp pain in his chest.", "vi": "Anh ấy thấy đau nhói ở ngực." },
+            { "en": "She hugged the baby to her chest.", "vi": "Cô ấy ôm em bé vào ngực." },
+            { "en": "Take a deep breath into your chest.", "vi": "Hít sâu vào lồng ngực." }
+          ]
+        }
+      ],
+      "synonyms": ["breast"],
+      "antonyms": [],
+      "collocations": ["chest pain", "deep chest", "chest hair", "broad chest", "off your chest"],
+      "etymology_hint": "From Old English 'cest' meaning 'box, container' — extended to ribcage.",
+      "mnemonic_vi": "CHEST = 'chét' — 'chếch' (chứa tim phổi). Chest pain = đau ngực."
+    },
+    {
+      "word": "body",
+      "lemma": "body",
+      "ipa": "/ˈbɒdi/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the whole physical structure of a person or animal",
+          "meaning_vi": "cơ thể, thân thể",
+          "examples": [
+            {
+              "en": "Drink water to keep your body healthy.",
+              "vi": "Uống nước để cơ thể khoẻ mạnh."
+            },
+            { "en": "Yoga is good for your whole body.", "vi": "Yoga tốt cho toàn cơ thể." },
+            {
+              "en": "She has a strong body from years of swimming.",
+              "vi": "Cô ấy có cơ thể khoẻ nhờ nhiều năm bơi lội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["physique"],
+      "antonyms": ["mind", "soul"],
+      "collocations": ["human body", "body parts", "body shape", "strong body", "body language"],
+      "etymology_hint": "From Old English 'bodig' — basic word for physical form.",
+      "mnemonic_vi": "BODY = 'bo-đi' — 'bồ đi' (cả thân đi cùng). Body language = ngôn ngữ cơ thể."
+    },
+    {
+      "word": "lip",
+      "lemma": "lip",
+      "ipa": "/lɪp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "either of the two soft edges of your mouth",
+          "meaning_vi": "môi",
+          "examples": [
+            { "en": "She put on red lipstick.", "vi": "Cô ấy thoa son đỏ lên môi." },
+            { "en": "My lips are dry in winter.", "vi": "Môi tôi khô vào mùa đông." },
+            { "en": "He bit his lip nervously.", "vi": "Anh ấy cắn môi vì hồi hộp." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["upper lip", "lower lip", "red lips", "bite your lip", "lip balm"],
+      "etymology_hint": "From Old English 'lippa' — basic word for mouth edges.",
+      "mnemonic_vi": "LIP = 'líp' — 'lúp' (hình môi). Lipstick = son môi (lip + stick)."
+    },
+    {
+      "word": "chin",
+      "lemma": "chin",
+      "ipa": "/tʃɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of your face below your mouth",
+          "meaning_vi": "cằm",
+          "examples": [
+            { "en": "He has a small scar on his chin.", "vi": "Anh ấy có vết sẹo nhỏ trên cằm." },
+            {
+              "en": "Keep your chin up — things will get better.",
+              "vi": "Ngẩng cao đầu lên — mọi chuyện sẽ tốt hơn."
+            },
+            {
+              "en": "She rests her chin on her hand when thinking.",
+              "vi": "Cô ấy chống cằm khi suy nghĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["double chin", "chin up", "pointed chin", "small chin", "stroke your chin"],
+      "etymology_hint": "From Old English 'cinn' — basic body word.",
+      "mnemonic_vi": "CHIN = 'chin' — 'chỉn' (cuối) khuôn mặt. Chin up! = ngẩng đầu lên!"
+    },
+    {
+      "word": "cheek",
+      "lemma": "cheek",
+      "ipa": "/tʃiːk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the soft part on each side of your face below your eye",
+          "meaning_vi": "má",
+          "examples": [
+            { "en": "Her cheeks turned red from the cold.", "vi": "Hai má cô ấy ửng đỏ vì lạnh." },
+            { "en": "Grandma kissed her on the cheek.", "vi": "Bà hôn lên má cô bé." },
+            { "en": "The baby has round, soft cheeks.", "vi": "Em bé có đôi má tròn mềm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "rosy cheeks",
+        "kiss on the cheek",
+        "soft cheek",
+        "cheek to cheek",
+        "round cheeks"
+      ],
+      "etymology_hint": "From Old English 'cēace' — basic facial feature.",
+      "mnemonic_vi": "CHEEK = 'chích' — 'chìu' (mềm) má. Rosy cheeks = má hồng. Hôn lên cheek."
+    },
+    {
+      "word": "forehead",
+      "lemma": "forehead",
+      "ipa": "/ˈfɔːhed/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of your face above your eyes and below your hair",
+          "meaning_vi": "trán",
+          "examples": [
+            {
+              "en": "Mom touched my forehead to check for fever.",
+              "vi": "Mẹ chạm trán tôi để kiểm tra sốt."
+            },
+            { "en": "He wiped sweat from his forehead.", "vi": "Anh ấy lau mồ hôi trên trán." },
+            { "en": "She has a high forehead.", "vi": "Cô ấy có vầng trán cao." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "high forehead",
+        "kiss on the forehead",
+        "wide forehead",
+        "wrinkled forehead",
+        "wipe your forehead"
+      ],
+      "etymology_hint": "Compound 'fore' (front) + 'head' → 'front of the head'.",
+      "mnemonic_vi": "FOREHEAD = FORE + HEAD → 'phía trước đầu' = trán."
+    },
+    {
+      "word": "throat",
+      "lemma": "throat",
+      "ipa": "/θrəʊt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the inside of your neck, where food and air pass",
+          "meaning_vi": "họng, cổ họng",
+          "examples": [
+            {
+              "en": "I have a sore throat — I need warm tea.",
+              "vi": "Tôi đau họng — cần uống trà ấm."
+            },
+            {
+              "en": "She cleared her throat before speaking.",
+              "vi": "Cô ấy hắng giọng trước khi nói."
+            },
+            { "en": "Drink water for a dry throat.", "vi": "Uống nước cho cổ họng khô." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sore throat",
+        "dry throat",
+        "clear your throat",
+        "down your throat",
+        "lump in throat"
+      ],
+      "etymology_hint": "From Old English 'þrote' — basic word for inner neck passage.",
+      "mnemonic_vi": "THROAT = 'thrâu-t' — 'thâu' đồ ăn xuống. Sore throat = đau họng."
+    },
+    {
+      "word": "wrist",
+      "lemma": "wrist",
+      "ipa": "/rɪst/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the joint between your hand and your arm",
+          "meaning_vi": "cổ tay",
+          "examples": [
+            {
+              "en": "She wears her watch on her left wrist.",
+              "vi": "Cô ấy đeo đồng hồ ở cổ tay trái."
+            },
+            {
+              "en": "He hurt his wrist playing badminton.",
+              "vi": "Anh ấy đau cổ tay khi chơi cầu lông."
+            },
+            { "en": "I have a thin wrist.", "vi": "Tôi có cổ tay nhỏ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wrist watch",
+        "wrist pain",
+        "left wrist",
+        "right wrist",
+        "twist your wrist"
+      ],
+      "etymology_hint": "From Old English 'wrist' — basic joint word; silent 'w' originally pronounced.",
+      "mnemonic_vi": "WRIST = 'ris-t' — silent W. 'Rít' (đeo) đồng hồ. Wristwatch = đồng hồ đeo tay."
+    },
+    {
+      "word": "ankle",
+      "lemma": "ankle",
+      "ipa": "/ˈæŋkl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the joint between your foot and your leg",
+          "meaning_vi": "mắt cá chân",
+          "examples": [
+            {
+              "en": "She twisted her ankle running yesterday.",
+              "vi": "Hôm qua cô ấy bong gân mắt cá chân khi chạy."
+            },
+            {
+              "en": "Áo dài usually reaches the ankle.",
+              "vi": "Áo dài thường dài đến mắt cá chân."
+            },
+            {
+              "en": "I felt cold water at my ankles.",
+              "vi": "Tôi thấy nước lạnh chạm mắt cá chân."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sprained ankle",
+        "twist your ankle",
+        "weak ankle",
+        "ankle joint",
+        "ankle boots"
+      ],
+      "etymology_hint": "From Old English 'ancleow' — basic joint word.",
+      "mnemonic_vi": "ANKLE = 'eng-kồ' — 'ăn cua' (chỗ uốn). Twist your ankle = trẹo mắt cá."
+    },
+    {
+      "word": "hip",
+      "lemma": "hip",
+      "ipa": "/hɪp/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the part of your body on each side, where your leg meets your waist",
+          "meaning_vi": "hông",
+          "examples": [
+            { "en": "She put her hands on her hips.", "vi": "Cô ấy chống tay lên hông." },
+            { "en": "Grandma has hip pain.", "vi": "Bà tôi đau hông." },
+            {
+              "en": "Salsa dancing uses a lot of hip movement.",
+              "vi": "Khiêu vũ salsa dùng nhiều chuyển động hông."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["hip pain", "hip joint", "hands on hips", "hip hop", "hip replacement"],
+      "etymology_hint": "From Old English 'hype' — basic word for body side.",
+      "mnemonic_vi": "HIP = 'híp' — 'híp' (lắc hông). Hip-hop = nhạc nhịp hông."
+    },
+    {
+      "word": "bone",
+      "lemma": "bone",
+      "ipa": "/bəʊn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the hard white parts inside a body that form the skeleton",
+          "meaning_vi": "xương",
+          "examples": [
+            {
+              "en": "He broke his arm bone in the accident.",
+              "vi": "Anh ấy gãy xương tay trong vụ tai nạn."
+            },
+            { "en": "Drink milk for strong bones.", "vi": "Uống sữa để xương chắc khoẻ." },
+            {
+              "en": "The dog buried a bone in the garden.",
+              "vi": "Con chó chôn cục xương trong vườn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["broken bone", "strong bones", "skin and bones", "bone marrow", "fish bone"],
+      "etymology_hint": "From Old English 'bān' — basic skeletal word.",
+      "mnemonic_vi": "BONE = 'bâu-n' — 'bồ-on' (chắc). Strong bones = xương khoẻ. Skin and bones = da bọc xương."
+    },
+    {
+      "word": "blood",
+      "lemma": "blood",
+      "ipa": "/blʌd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the red liquid that flows through your body",
+          "meaning_vi": "máu",
+          "examples": [
+            {
+              "en": "He gave blood at the Red Cross last week.",
+              "vi": "Anh ấy hiến máu ở Hội Chữ thập đỏ tuần trước."
+            },
+            { "en": "She faints at the sight of blood.", "vi": "Cô ấy ngất khi thấy máu." },
+            { "en": "My blood type is O.", "vi": "Nhóm máu của tôi là O." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["blood type", "blood pressure", "give blood", "blood test", "in cold blood"],
+      "etymology_hint": "From Old English 'blōd' — basic body fluid word.",
+      "mnemonic_vi": "BLOOD = 'blắt' — 'bứt' đỏ. Blood type = nhóm máu, blood pressure = huyết áp."
+    },
+    {
+      "word": "muscle",
+      "lemma": "muscle",
+      "ipa": "/ˈmʌsl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the parts under your skin that help your body move",
+          "meaning_vi": "cơ bắp",
+          "examples": [
+            { "en": "He works out to build muscle.", "vi": "Anh ấy tập gym để có cơ bắp." },
+            {
+              "en": "My muscles ache after a long run.",
+              "vi": "Cơ bắp tôi đau sau khi chạy đường dài."
+            },
+            { "en": "Heart is a strong muscle.", "vi": "Tim là một cơ bắp khoẻ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "build muscle",
+        "strong muscle",
+        "muscle pain",
+        "leg muscles",
+        "use your muscles"
+      ],
+      "etymology_hint": "From Latin 'musculus' meaning 'little mouse' — muscles look like running mice.",
+      "mnemonic_vi": "MUSCLE = 'má-sồ' — 'mạ-sô' (rắn chắc). Silent 'c'. Build muscle = tập cơ bắp."
+    }
+  ]
+}

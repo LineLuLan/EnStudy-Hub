@@ -1,0 +1,625 @@
+{
+  "slug": "colors-basic",
+  "name": "Colors Basic",
+  "description": "Màu sắc cơ bản và các từ liên quan đến độ sáng tối.",
+  "order_index": 11,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "color",
+      "lemma": "color",
+      "ipa": "/ˈkʌlə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the quality such as red, blue, or green that we see in light",
+          "meaning_vi": "màu, màu sắc",
+          "examples": [
+            { "en": "What's your favourite color?", "vi": "Màu yêu thích của bạn là gì?" },
+            {
+              "en": "The flowers in Đà Lạt have so many colors.",
+              "vi": "Hoa ở Đà Lạt có rất nhiều màu."
+            },
+            {
+              "en": "Áo dài comes in every color imaginable.",
+              "vi": "Áo dài có đủ mọi màu sắc bạn có thể nghĩ đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["colour", "shade", "hue"],
+      "antonyms": [],
+      "collocations": ["favourite color", "bright color", "color photo", "in color", "color of"],
+      "etymology_hint": "From Latin 'color' meaning 'hue, tint' — UK spelling 'colour' kept the French 'u'.",
+      "mnemonic_vi": "COLOR = 'cá-lờ' — 'cờ-lờ' nhiều sắc thái. UK: 'colour'. Color photo = ảnh màu."
+    },
+    {
+      "word": "red",
+      "lemma": "red",
+      "ipa": "/red/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of blood, fire, or a ripe tomato",
+          "meaning_vi": "màu đỏ",
+          "examples": [
+            { "en": "Lì xì envelopes are usually red.", "vi": "Phong bao lì xì thường màu đỏ." },
+            {
+              "en": "The Vietnamese flag has a red background.",
+              "vi": "Cờ Việt Nam có nền màu đỏ."
+            },
+            { "en": "Stop at the red light!", "vi": "Dừng lại khi đèn đỏ!" }
+          ]
+        }
+      ],
+      "synonyms": ["crimson", "scarlet"],
+      "antonyms": [],
+      "collocations": ["red light", "red wine", "bright red", "red dress", "red flag"],
+      "etymology_hint": "From Old English 'rēad' — one of the oldest color words across Indo-European languages.",
+      "mnemonic_vi": "RED = 'rét' — 'rực rỡ' đỏ rực. Red light = đèn đỏ, lì xì đỏ = red envelope."
+    },
+    {
+      "word": "blue",
+      "lemma": "blue",
+      "ipa": "/bluː/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of the sky or sea on a clear day",
+          "meaning_vi": "màu xanh dương, xanh nước biển",
+          "examples": [
+            { "en": "The sea at Phú Quốc is so blue.", "vi": "Biển Phú Quốc xanh quá." },
+            {
+              "en": "She wore a blue áo dài for the wedding.",
+              "vi": "Cô ấy mặc áo dài xanh dương trong đám cưới."
+            },
+            { "en": "I'm feeling a bit blue today.", "vi": "Hôm nay tôi hơi buồn." }
+          ]
+        }
+      ],
+      "synonyms": ["azure", "navy"],
+      "antonyms": [],
+      "collocations": ["dark blue", "light blue", "blue sky", "blue sea", "navy blue"],
+      "etymology_hint": "From Old French 'bleu' — from Germanic 'blǣwaz'.",
+      "mnemonic_vi": "BLUE = 'blu' — 'blồ' biển xanh. Cũng có nghĩa 'buồn': feel blue = thấy buồn."
+    },
+    {
+      "word": "green",
+      "lemma": "green",
+      "ipa": "/ɡriːn/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of grass or leaves",
+          "meaning_vi": "màu xanh lá",
+          "examples": [
+            {
+              "en": "The rice fields in Mai Châu are bright green.",
+              "vi": "Cánh đồng lúa ở Mai Châu xanh mướt."
+            },
+            { "en": "Wait for the green light to cross.", "vi": "Đợi đèn xanh để qua đường." },
+            {
+              "en": "She loves green tea every afternoon.",
+              "vi": "Cô ấy thích trà xanh mỗi chiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["emerald"],
+      "antonyms": [],
+      "collocations": ["green tea", "green light", "dark green", "bright green", "green grass"],
+      "etymology_hint": "From Old English 'grēne' — related to 'grow' (cây cối).",
+      "mnemonic_vi": "GREEN = 'grin' — 'gờ-rin' (cỏ xanh). Green tea = trà xanh, green light = đèn xanh."
+    },
+    {
+      "word": "yellow",
+      "lemma": "yellow",
+      "ipa": "/ˈjeləʊ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of the sun, gold, or a banana",
+          "meaning_vi": "màu vàng",
+          "examples": [
+            {
+              "en": "Mai vàng is a yellow flower for Tết in the south.",
+              "vi": "Mai vàng là loài hoa Tết của miền Nam."
+            },
+            {
+              "en": "She painted her bedroom wall yellow.",
+              "vi": "Cô ấy sơn tường phòng ngủ màu vàng."
+            },
+            {
+              "en": "The yellow taxi stopped at the corner.",
+              "vi": "Chiếc taxi vàng dừng ở góc đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["golden"],
+      "antonyms": [],
+      "collocations": [
+        "bright yellow",
+        "pale yellow",
+        "yellow flower",
+        "yellow taxi",
+        "egg yolk yellow"
+      ],
+      "etymology_hint": "From Old English 'geolu' — related to 'gold'.",
+      "mnemonic_vi": "YELLOW = 'eo-lâu' — 'iầu lâu' (vàng lâu năm). Mai vàng = yellow apricot flower."
+    },
+    {
+      "word": "white",
+      "lemma": "white",
+      "ipa": "/waɪt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of fresh snow, milk, or paper",
+          "meaning_vi": "màu trắng",
+          "examples": [
+            {
+              "en": "Vietnamese students often wear white áo dài.",
+              "vi": "Học sinh Việt thường mặc áo dài trắng."
+            },
+            {
+              "en": "I prefer my coffee black, not with white milk.",
+              "vi": "Tôi thích cà phê đen, không thêm sữa trắng."
+            },
+            {
+              "en": "White flowers are traditional at funerals here.",
+              "vi": "Hoa trắng là truyền thống ở đám tang ở đây."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["black"],
+      "collocations": ["white wine", "white house", "snow white", "white lie", "pure white"],
+      "etymology_hint": "From Old English 'hwīt' — basic color word.",
+      "mnemonic_vi": "WHITE = 'oai-t' — 'oai' (sạch) như tuyết. White áo dài = áo dài trắng học sinh."
+    },
+    {
+      "word": "black",
+      "lemma": "black",
+      "ipa": "/blæk/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the darkest color, like night with no light",
+          "meaning_vi": "màu đen",
+          "examples": [
+            {
+              "en": "I order cà phê đen every morning.",
+              "vi": "Sáng nào tôi cũng gọi cà phê đen."
+            },
+            { "en": "She has long black hair.", "vi": "Cô ấy có mái tóc đen dài." },
+            {
+              "en": "Black clothes are common at funerals worldwide.",
+              "vi": "Quần áo đen phổ biến ở tang lễ trên thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dark"],
+      "antonyms": ["white"],
+      "collocations": [
+        "jet black",
+        "black coffee",
+        "black hair",
+        "black market",
+        "black and white"
+      ],
+      "etymology_hint": "From Old English 'blæc' — color of charcoal, night.",
+      "mnemonic_vi": "BLACK = 'blắc' — 'blác' đen sì. Black coffee = cà phê đen, jet black = đen tuyền."
+    },
+    {
+      "word": "orange",
+      "lemma": "orange",
+      "ipa": "/ˈɒrɪndʒ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color between red and yellow, like a ripe orange fruit",
+          "meaning_vi": "màu cam",
+          "examples": [
+            {
+              "en": "The sunset over Hồ Tây turned the sky orange.",
+              "vi": "Hoàng hôn trên Hồ Tây nhuộm trời màu cam."
+            },
+            {
+              "en": "She loves wearing orange dresses in summer.",
+              "vi": "Cô ấy thích mặc váy cam mùa hè."
+            },
+            { "en": "Pumpkins are bright orange.", "vi": "Quả bí ngô có màu cam rực." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bright orange",
+        "orange juice",
+        "orange color",
+        "deep orange",
+        "orange flower"
+      ],
+      "etymology_hint": "Named after the fruit — from Sanskrit 'nāraṅga', via Arabic 'nāranj'.",
+      "mnemonic_vi": "ORANGE = 'o-rin-d' — màu của quả cam (orange = quả cam). Vừa là quả, vừa là màu."
+    },
+    {
+      "word": "pink",
+      "lemma": "pink",
+      "ipa": "/pɪŋk/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a pale red color, like a cherry blossom",
+          "meaning_vi": "màu hồng",
+          "examples": [
+            {
+              "en": "Cherry blossoms turn pink in spring.",
+              "vi": "Hoa anh đào nở màu hồng vào mùa xuân."
+            },
+            {
+              "en": "She has a pink backpack from Hello Kitty.",
+              "vi": "Cô bé có chiếc cặp hồng Hello Kitty."
+            },
+            { "en": "The baby's room is painted soft pink.", "vi": "Phòng em bé sơn hồng nhạt." }
+          ]
+        }
+      ],
+      "synonyms": ["rose"],
+      "antonyms": [],
+      "collocations": ["pale pink", "hot pink", "pink flower", "in pink", "pink ribbon"],
+      "etymology_hint": "From the flower 'pink' (Dianthus) — named for its frilled edge, then color named after it.",
+      "mnemonic_vi": "PINK = 'pinh-k' — 'pình' (đỏ nhạt). Hello Kitty pink = hồng nhạt dễ thương."
+    },
+    {
+      "word": "purple",
+      "lemma": "purple",
+      "ipa": "/ˈpɜːpl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of a mix between red and blue, like grapes or lavender",
+          "meaning_vi": "màu tím",
+          "examples": [
+            {
+              "en": "Sim flowers turn the hills of Phú Quốc purple.",
+              "vi": "Hoa sim phủ tím đồi ở Phú Quốc."
+            },
+            {
+              "en": "She wore a purple áo dài at the show.",
+              "vi": "Cô ấy mặc áo dài tím ở buổi diễn."
+            },
+            { "en": "The eggplant is dark purple.", "vi": "Quả cà tím có màu tím đậm." }
+          ]
+        }
+      ],
+      "synonyms": ["violet"],
+      "antonyms": [],
+      "collocations": [
+        "dark purple",
+        "deep purple",
+        "royal purple",
+        "light purple",
+        "purple flower"
+      ],
+      "etymology_hint": "From Latin 'purpura' — a shellfish dye, originally worn by Roman emperors.",
+      "mnemonic_vi": "PURPLE = 'pơ-pồ' — 'pờ' hoàng tộc 'pồ'. Royal purple = tím hoàng gia."
+    },
+    {
+      "word": "brown",
+      "lemma": "brown",
+      "ipa": "/braʊn/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of wood, chocolate, or coffee",
+          "meaning_vi": "màu nâu",
+          "examples": [
+            { "en": "She has beautiful brown eyes.", "vi": "Cô ấy có đôi mắt nâu đẹp." },
+            {
+              "en": "Brown rice is healthier than white rice.",
+              "vi": "Gạo lứt tốt cho sức khoẻ hơn gạo trắng."
+            },
+            {
+              "en": "His brown leather shoes look classy.",
+              "vi": "Đôi giày da nâu của anh ấy nhìn sang trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tan"],
+      "antonyms": [],
+      "collocations": ["dark brown", "brown hair", "brown eyes", "light brown", "brown sugar"],
+      "etymology_hint": "From Old English 'brūn' — basic earthy color.",
+      "mnemonic_vi": "BROWN = 'brao-n' — 'bùn' (đất). Brown rice = gạo lứt, brown eyes = mắt nâu."
+    },
+    {
+      "word": "gray",
+      "lemma": "gray",
+      "ipa": "/ɡreɪ/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color between black and white, like clouds or stones",
+          "meaning_vi": "màu xám",
+          "examples": [
+            {
+              "en": "The sky was gray all morning in Hà Nội.",
+              "vi": "Trời Hà Nội xám xịt cả sáng."
+            },
+            {
+              "en": "Grandpa's hair has turned completely gray.",
+              "vi": "Tóc ông tôi đã bạc trắng hoàn toàn."
+            },
+            { "en": "The walls are painted a light gray.", "vi": "Tường được sơn xám nhạt." }
+          ]
+        }
+      ],
+      "synonyms": ["grey"],
+      "antonyms": [],
+      "collocations": ["dark gray", "light gray", "gray hair", "gray clouds", "gray suit"],
+      "etymology_hint": "From Old English 'grǣg' — UK spelling 'grey', US spelling 'gray', same meaning.",
+      "mnemonic_vi": "GRAY = 'grây' — 'grầy' (lưng chừng đen-trắng). UK: 'grey'. Gray hair = tóc bạc."
+    },
+    {
+      "word": "gold",
+      "lemma": "gold",
+      "ipa": "/ɡəʊld/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of the metal gold; bright yellow with a shine",
+          "meaning_vi": "màu vàng kim, vàng ánh kim",
+          "examples": [
+            {
+              "en": "She wore a gold ring for the wedding.",
+              "vi": "Cô ấy đeo nhẫn vàng cho đám cưới."
+            },
+            {
+              "en": "The temple roof shines gold in the sun.",
+              "vi": "Mái chùa lấp lánh ánh vàng dưới nắng."
+            },
+            {
+              "en": "Vietnam won a gold medal at SEA Games.",
+              "vi": "Việt Nam giành huy chương vàng SEA Games."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["golden"],
+      "antonyms": [],
+      "collocations": ["gold medal", "gold ring", "pure gold", "gold color", "gold price"],
+      "etymology_hint": "From Old English 'gold' — name of the precious metal, then used for its color.",
+      "mnemonic_vi": "GOLD = 'gâu-ld' — như 'vàng'. Gold ring = nhẫn vàng, gold medal = huy chương vàng."
+    },
+    {
+      "word": "silver",
+      "lemma": "silver",
+      "ipa": "/ˈsɪlvə(r)/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the color of the metal silver; a shiny gray with white",
+          "meaning_vi": "màu bạc, ánh bạc",
+          "examples": [
+            {
+              "en": "She bought silver earrings at Hàng Bạc Street.",
+              "vi": "Cô ấy mua đôi bông tai bạc ở phố Hàng Bạc."
+            },
+            { "en": "His new motorbike is silver.", "vi": "Chiếc xe máy mới của anh ấy màu bạc." },
+            {
+              "en": "Vietnam won silver in the badminton final.",
+              "vi": "Việt Nam giành huy chương bạc ở chung kết cầu lông."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "silver medal",
+        "silver ring",
+        "pure silver",
+        "silver hair",
+        "silver lining"
+      ],
+      "etymology_hint": "From Old English 'seolfor' — name of the precious metal.",
+      "mnemonic_vi": "SILVER = 'sil-vờ' — 'si bơ' bạc. Silver medal = huy chương bạc, ranking 2."
+    },
+    {
+      "word": "bright",
+      "lemma": "bright",
+      "ipa": "/braɪt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "full of light; vivid in color",
+          "meaning_vi": "sáng, rực rỡ, tươi (màu)",
+          "examples": [
+            { "en": "The sun is so bright this afternoon.", "vi": "Mặt trời chiều nay sáng quá." },
+            { "en": "She has a bright smile.", "vi": "Cô ấy có nụ cười rạng rỡ." },
+            { "en": "Children love bright colors.", "vi": "Trẻ em yêu màu sắc tươi sáng." }
+          ]
+        }
+      ],
+      "synonyms": ["vivid", "shiny"],
+      "antonyms": ["dark", "dim"],
+      "collocations": [
+        "bright color",
+        "bright light",
+        "bright sun",
+        "bright smile",
+        "bright future"
+      ],
+      "etymology_hint": "From Old English 'beorht' — meaning 'shining, light'.",
+      "mnemonic_vi": "BRIGHT = 'brai-t' — 'bay' lên rực. Bright color = màu tươi, bright future = tương lai sáng."
+    },
+    {
+      "word": "dark",
+      "lemma": "dark",
+      "ipa": "/dɑːk/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "with little or no light; deep in color",
+          "meaning_vi": "tối; đậm (màu)",
+          "examples": [
+            {
+              "en": "It's dark outside — turn on the light.",
+              "vi": "Ngoài trời tối — bật đèn lên đi."
+            },
+            {
+              "en": "She prefers dark chocolate over milk chocolate.",
+              "vi": "Cô ấy thích sô-cô-la đậm hơn sô-cô-la sữa."
+            },
+            { "en": "He wears dark clothes most days.", "vi": "Anh ấy hay mặc đồ tối màu." }
+          ]
+        }
+      ],
+      "synonyms": ["dim", "deep"],
+      "antonyms": ["bright", "light"],
+      "collocations": ["dark color", "dark night", "dark chocolate", "pitch dark", "in the dark"],
+      "etymology_hint": "From Old English 'deorc' — basic word for absence of light.",
+      "mnemonic_vi": "DARK = 'đắc' — 'đặc' (đậm tối). Dark chocolate = chocolate đậm, dark room = phòng tối."
+    },
+    {
+      "word": "light",
+      "lemma": "light",
+      "ipa": "/laɪt/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having a lot of natural light; pale (in color); not heavy",
+          "meaning_vi": "sáng (ánh sáng); nhạt (màu); nhẹ (trọng lượng)",
+          "examples": [
+            { "en": "The living room is bright and light.", "vi": "Phòng khách sáng sủa." },
+            {
+              "en": "She likes light pink for her phone case.",
+              "vi": "Cô ấy thích hồng nhạt cho ốp điện thoại."
+            },
+            { "en": "This backpack is so light.", "vi": "Chiếc ba-lô này nhẹ thật." }
+          ]
+        }
+      ],
+      "synonyms": ["pale", "soft"],
+      "antonyms": ["dark", "heavy"],
+      "collocations": ["light color", "light blue", "light bulb", "light meal", "light wind"],
+      "etymology_hint": "From Old English 'lēoht' — meaning both 'brightness' and 'not heavy'.",
+      "mnemonic_vi": "LIGHT = 'lai-t' — đa nghĩa: sáng / nhạt / nhẹ. Light pink = hồng nhạt, light bag = túi nhẹ."
+    },
+    {
+      "word": "colorful",
+      "lemma": "colorful",
+      "ipa": "/ˈkʌləfl/",
+      "pos": "adjective",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "having many bright colors; vivid",
+          "meaning_vi": "nhiều màu, sặc sỡ",
+          "examples": [
+            {
+              "en": "Hội An lanterns are very colorful at night.",
+              "vi": "Đèn lồng Hội An rất sặc sỡ vào ban đêm."
+            },
+            {
+              "en": "She painted a colorful picture of her garden.",
+              "vi": "Cô bé vẽ bức tranh nhiều màu về vườn nhà."
+            },
+            {
+              "en": "Vietnam has colorful traditional costumes.",
+              "vi": "Việt Nam có nhiều trang phục truyền thống sặc sỡ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vivid", "bright"],
+      "antonyms": ["dull"],
+      "collocations": [
+        "colorful flower",
+        "colorful dress",
+        "colorful design",
+        "very colorful",
+        "bright and colorful"
+      ],
+      "etymology_hint": "Compound 'color' + '-ful' — meaning 'full of color'.",
+      "mnemonic_vi": "COLORFUL = COLOR + FUL → 'đầy màu' = sặc sỡ. Hội An lanterns = đèn lồng sặc sỡ."
+    },
+    {
+      "word": "rainbow",
+      "lemma": "rainbow",
+      "ipa": "/ˈreɪnbəʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an arc of colors in the sky after rain",
+          "meaning_vi": "cầu vồng",
+          "examples": [
+            {
+              "en": "After the rain, a rainbow appeared over Hồ Tây.",
+              "vi": "Sau cơn mưa, cầu vồng hiện trên Hồ Tây."
+            },
+            { "en": "A rainbow has seven colors.", "vi": "Cầu vồng có bảy màu." },
+            { "en": "Children love drawing rainbows.", "vi": "Trẻ em thích vẽ cầu vồng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "see a rainbow",
+        "rainbow colors",
+        "rainbow flag",
+        "double rainbow",
+        "over the rainbow"
+      ],
+      "etymology_hint": "Compound 'rain' + 'bow' — a 'bow' (arc) appearing after 'rain'.",
+      "mnemonic_vi": "RAINBOW = RAIN + BOW → 'cung mưa' = cầu vồng. Sau mưa có rainbow."
+    },
+    {
+      "word": "shade",
+      "lemma": "shade",
+      "ipa": "/ʃeɪd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a slight variation of a color; an area not directly in the sun",
+          "meaning_vi": "sắc thái màu; bóng râm",
+          "examples": [
+            { "en": "I like this shade of blue.", "vi": "Tôi thích sắc xanh này." },
+            { "en": "Let's sit in the shade of the bamboo tree.", "vi": "Ngồi dưới bóng tre đi." },
+            { "en": "She tried five shades of red lipstick.", "vi": "Cô ấy thử năm sắc son đỏ." }
+          ]
+        }
+      ],
+      "synonyms": ["tone", "tint"],
+      "antonyms": ["sunlight"],
+      "collocations": ["in the shade", "shade of", "deep shade", "light shade", "different shades"],
+      "etymology_hint": "From Old English 'sceadu' — both 'shadow' and 'shelter from sun'.",
+      "mnemonic_vi": "SHADE = 'sệt' — vừa 'sắc thái' (shade of red) vừa 'bóng râm' (sit in the shade)."
+    }
+  ]
+}
