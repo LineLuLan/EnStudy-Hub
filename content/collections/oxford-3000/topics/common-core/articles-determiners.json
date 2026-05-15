@@ -1,0 +1,613 @@
+{
+  "slug": "articles-determiners",
+  "name": "Articles & Determiners",
+  "description": "Mạo từ và từ hạn định: nhóm từ nhỏ nhưng đứng trước danh từ trong mọi câu.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "a",
+      "lemma": "a",
+      "ipa": "/ə/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used before a noun starting with a consonant sound to mean one of something general",
+          "meaning_vi": "một (đứng trước danh từ bắt đầu phụ âm); một cái/người/con… không xác định",
+          "examples": [
+            {
+              "en": "I bought a phở at a street stall in Hà Nội.",
+              "vi": "Tôi mua một tô phở ở quán vỉa hè Hà Nội."
+            },
+            { "en": "She wants a job near her home.", "vi": "Cô ấy muốn một công việc gần nhà." },
+            {
+              "en": "He saw a dog crossing the street.",
+              "vi": "Anh ấy thấy một con chó qua đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one"],
+      "antonyms": [],
+      "collocations": ["a man", "a job", "a long time", "a few", "a lot"],
+      "etymology_hint": "Weakened form of Old English 'ān' meaning 'one'.",
+      "mnemonic_vi": "A đọc nhẹ như 'ờ' — chỉ 'một' chung chung, đặt trước phụ âm như 'a boy, a phở'."
+    },
+    {
+      "word": "an",
+      "lemma": "an",
+      "ipa": "/ən/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used before a noun starting with a vowel sound to mean one of something general",
+          "meaning_vi": "một (đứng trước danh từ bắt đầu nguyên âm)",
+          "examples": [
+            { "en": "She ate an apple for breakfast.", "vi": "Cô ấy ăn một quả táo bữa sáng." },
+            { "en": "He is an engineer at FPT.", "vi": "Anh ấy là kỹ sư tại FPT." },
+            {
+              "en": "I waited for an hour at the bus stop.",
+              "vi": "Tôi đợi một tiếng ở trạm xe buýt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["a", "one"],
+      "antonyms": [],
+      "collocations": ["an apple", "an hour", "an idea", "an engineer", "an honest man"],
+      "etymology_hint": "Old form 'an' = 'one'; kept full form before vowels for easier flow.",
+      "mnemonic_vi": "AN dùng khi từ sau bắt đầu bằng tiếng 'ờ-a-i-o-u' (nguyên âm): 'an apple, an hour'. A thêm N để 'trượt' qua nguyên âm."
+    },
+    {
+      "word": "the",
+      "lemma": "the",
+      "ipa": "/ðə/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used before a noun that the speaker and listener both know about",
+          "meaning_vi": "(mạo từ xác định) cái/con/người… đã biết hoặc duy nhất",
+          "examples": [
+            {
+              "en": "The coffee at this Highlands is amazing.",
+              "vi": "Cà phê ở Highlands này tuyệt vời."
+            },
+            { "en": "Close the door, please — it's cold.", "vi": "Đóng cửa giúp đi — lạnh quá." },
+            {
+              "en": "The Hồng River flows through Hà Nội.",
+              "vi": "Sông Hồng chảy qua giữa lòng Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["a", "an"],
+      "collocations": ["the sun", "the world", "the moment", "the only", "all the"],
+      "etymology_hint": "From Old English 'þe' (that, the) — weakened demonstrative kept across centuries.",
+      "mnemonic_vi": "THE đọc 'đờ' — như 'đó' chỉ vào vật cụ thể đã biết: 'the door, the river' = cái cửa đó, con sông đó."
+    },
+    {
+      "word": "this",
+      "lemma": "this",
+      "ipa": "/ðɪs/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to point at something near you in space or time (singular)",
+          "meaning_vi": "này (chỉ vật/người gần — số ít); này (thời điểm hiện tại)",
+          "examples": [
+            {
+              "en": "This phone is faster than my old one.",
+              "vi": "Điện thoại này nhanh hơn cái cũ."
+            },
+            {
+              "en": "I will finish this report today.",
+              "vi": "Tôi sẽ làm xong báo cáo này hôm nay."
+            },
+            {
+              "en": "This Tết we are going back to Đà Lạt.",
+              "vi": "Tết này nhà tôi về Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["that"],
+      "collocations": ["this morning", "this week", "this time", "this way", "this one"],
+      "etymology_hint": "From Old English 'þes' — strong demonstrative meaning 'right here'.",
+      "mnemonic_vi": "THIS = 'đít' (gần đít — gần mình) → cái 'này' ngay đây. Đối với 'that' (kia, xa)."
+    },
+    {
+      "word": "that",
+      "lemma": "that",
+      "ipa": "/ðæt/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to point at something farther from you in space or time (singular)",
+          "meaning_vi": "kia, đó (chỉ vật/người xa — số ít)",
+          "examples": [
+            {
+              "en": "That motorbike across the street is mine.",
+              "vi": "Chiếc xe máy bên kia đường là của tôi."
+            },
+            {
+              "en": "Do you remember that night in Hội An?",
+              "vi": "Cậu còn nhớ đêm đó ở Hội An không?"
+            },
+            {
+              "en": "That building used to be a school.",
+              "vi": "Toà nhà kia trước kia là một trường học."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["this"],
+      "collocations": ["that time", "that day", "that man", "that way", "that one"],
+      "etymology_hint": "From Old English 'þæt' — neuter form of 'the/that' showing distance.",
+      "mnemonic_vi": "THAT = 'đát' (xa hơn 'này') → chỉ vật ở xa: 'cái kia, hôm đó, lần ấy'."
+    },
+    {
+      "word": "these",
+      "lemma": "these",
+      "ipa": "/ðiːz/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "plural form of 'this'; used to point at things near you",
+          "meaning_vi": "những… này (số nhiều của this)",
+          "examples": [
+            { "en": "These shoes are too small for me.", "vi": "Đôi giày này nhỏ quá với tôi." },
+            {
+              "en": "These days, everyone shops on Shopee.",
+              "vi": "Dạo này, ai cũng mua trên Shopee."
+            },
+            {
+              "en": "I'll keep these notes for the test.",
+              "vi": "Tôi sẽ giữ những ghi chú này cho bài thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["those"],
+      "collocations": ["these days", "these things", "all these", "these people", "these years"],
+      "etymology_hint": "From Old English 'þās' — plural of demonstrative 'this'.",
+      "mnemonic_vi": "THESE = 'điz' (thêm 's' đuôi nhiều) → cái 'này' nhiều cái — 'these books, these shoes'."
+    },
+    {
+      "word": "those",
+      "lemma": "those",
+      "ipa": "/ðəʊz/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "plural form of 'that'; used to point at things farther from you",
+          "meaning_vi": "những… kia (số nhiều của that)",
+          "examples": [
+            { "en": "Those mangoes look really sweet.", "vi": "Mấy quả xoài kia trông ngọt thật." },
+            {
+              "en": "Back in those days, people wrote letters.",
+              "vi": "Hồi đó, người ta viết thư tay."
+            },
+            {
+              "en": "Those are the best bánh mì in town.",
+              "vi": "Đó là những ổ bánh mì ngon nhất phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["these"],
+      "collocations": ["those days", "those years", "those people", "all those", "those who"],
+      "etymology_hint": "From Old English 'þā' — plural demonstrative, paired form of 'these'.",
+      "mnemonic_vi": "THOSE = 'đâu-z' (xa, có 's' nhiều) → mấy cái 'kia kìa' — 'those mountains, those people'."
+    },
+    {
+      "word": "some",
+      "lemma": "some",
+      "ipa": "/sʌm/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an unknown or unspecified amount or number; a few",
+          "meaning_vi": "một vài; một ít; nào đó",
+          "examples": [
+            {
+              "en": "I bought some bread at the corner shop.",
+              "vi": "Tôi mua ít bánh mì ở tiệm gần đây."
+            },
+            {
+              "en": "Some people prefer coffee, others tea.",
+              "vi": "Có người thích cà phê, có người thích trà."
+            },
+            {
+              "en": "Can I have some water, please?",
+              "vi": "Cho tôi xin chút nước được không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["a few", "a bit of"],
+      "antonyms": ["none", "no"],
+      "collocations": ["some people", "some time", "some water", "some money", "for some reason"],
+      "etymology_hint": "From Old English 'sum' — meaning 'a certain one, an indefinite amount'.",
+      "mnemonic_vi": "SOME = 'sâm' — như 'sâm sẩm' (chút chút) → một ít, một vài. 'Some bread = ít bánh mì'."
+    },
+    {
+      "word": "any",
+      "lemma": "any",
+      "ipa": "/ˈeni/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used in questions and negatives to mean an unspecified amount or one",
+          "meaning_vi": "(trong câu hỏi/phủ định) bất kỳ; nào",
+          "examples": [
+            {
+              "en": "Do you have any change for the parking?",
+              "vi": "Bạn có tiền lẻ trả gửi xe không?"
+            },
+            {
+              "en": "There isn't any milk left in the fridge.",
+              "vi": "Trong tủ lạnh không còn sữa nào nữa."
+            },
+            {
+              "en": "You can ask any student in the class.",
+              "vi": "Bạn có thể hỏi bất kỳ học sinh nào trong lớp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["whichever"],
+      "antonyms": [],
+      "collocations": ["any time", "any way", "any more", "any longer", "any one"],
+      "etymology_hint": "From Old English 'ǣnig', based on 'ān' (one) + 'ig' (suffix forming adjectives).",
+      "mnemonic_vi": "ANY = 'e-ni' — 'eni' (anything) bất kỳ. Dùng trong câu hỏi/phủ định: 'any money? not any time'."
+    },
+    {
+      "word": "much",
+      "lemma": "much",
+      "ipa": "/mʌtʃ/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large amount of something uncountable",
+          "meaning_vi": "nhiều (dùng với danh từ không đếm được)",
+          "examples": [
+            {
+              "en": "I don't have much time before the meeting.",
+              "vi": "Tôi không có nhiều thời gian trước cuộc họp."
+            },
+            { "en": "How much rice do you eat a day?", "vi": "Một ngày bạn ăn bao nhiêu cơm?" },
+            { "en": "Thanks so much for the help!", "vi": "Cảm ơn rất nhiều vì đã giúp đỡ!" }
+          ]
+        }
+      ],
+      "synonyms": ["a lot of"],
+      "antonyms": ["little"],
+      "collocations": ["how much", "too much", "much better", "as much as", "much of"],
+      "etymology_hint": "From Middle English 'muchel' = 'great, large', shortened over time.",
+      "mnemonic_vi": "MUCH = 'mắch' (nhiều quá đến 'mệch'). Dùng cho 'không đếm được': much water, much time, much rice."
+    },
+    {
+      "word": "many",
+      "lemma": "many",
+      "ipa": "/ˈmeni/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large number of something countable",
+          "meaning_vi": "nhiều (dùng với danh từ đếm được)",
+          "examples": [
+            {
+              "en": "Many Vietnamese students study in Australia.",
+              "vi": "Nhiều học sinh Việt du học ở Úc."
+            },
+            { "en": "How many siblings do you have?", "vi": "Bạn có mấy anh chị em?" },
+            { "en": "She has too many shoes already.", "vi": "Cô ấy có quá nhiều giày rồi." }
+          ]
+        }
+      ],
+      "synonyms": ["a lot of"],
+      "antonyms": ["few"],
+      "collocations": ["how many", "too many", "many of", "many people", "many years"],
+      "etymology_hint": "From Old English 'manig' meaning 'numerous, various'.",
+      "mnemonic_vi": "MANY = 'mê-ni' — đếm được nhiều: many books, many people. (Đối với 'much' không đếm.)"
+    },
+    {
+      "word": "every",
+      "lemma": "every",
+      "ipa": "/ˈevri/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "all members of a group, considered one by one",
+          "meaning_vi": "mọi, mỗi (xét từng cái một trong nhóm)",
+          "examples": [
+            {
+              "en": "I drink coffee every morning at 7.",
+              "vi": "Tôi uống cà phê mỗi sáng lúc 7 giờ."
+            },
+            {
+              "en": "Every student must wear a uniform.",
+              "vi": "Mỗi học sinh phải mặc đồng phục."
+            },
+            {
+              "en": "She visits her grandmother every Sunday.",
+              "vi": "Cô ấy về thăm bà mỗi Chủ nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["each", "all"],
+      "antonyms": ["no"],
+      "collocations": ["every day", "every time", "every year", "every one", "every other"],
+      "etymology_hint": "From Old English 'ǣfre' (ever) + 'ǣlc' (each) → 'ever each' = 'each one'.",
+      "mnemonic_vi": "EVERY = EVER (luôn luôn) + Y → 'mọi, mỗi'. Every day = mỗi ngày, every Tết = mỗi dịp Tết."
+    },
+    {
+      "word": "all",
+      "lemma": "all",
+      "ipa": "/ɔːl/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the whole amount, quantity, or extent of something",
+          "meaning_vi": "tất cả, toàn bộ",
+          "examples": [
+            {
+              "en": "All my friends went to Sa Pa last weekend.",
+              "vi": "Tất cả bạn tôi đi Sa Pa cuối tuần trước."
+            },
+            {
+              "en": "I worked all night to finish the project.",
+              "vi": "Tôi làm cả đêm để xong dự án."
+            },
+            {
+              "en": "She knows all the streets in Hà Nội.",
+              "vi": "Cô ấy thuộc hết các con phố Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["every", "whole"],
+      "antonyms": ["none"],
+      "collocations": ["all day", "all year", "all of", "after all", "at all"],
+      "etymology_hint": "From Old English 'eall' meaning 'whole, entire'.",
+      "mnemonic_vi": "ALL = 'oo-l' — như 'ôi luôn' (tất cả luôn). All day = cả ngày, all of us = tất cả chúng ta."
+    },
+    {
+      "word": "no",
+      "lemma": "no",
+      "ipa": "/nəʊ/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "not any; not one; zero of something",
+          "meaning_vi": "không có (gì); không một…",
+          "examples": [
+            { "en": "There is no Wi-Fi in this café.", "vi": "Quán này không có Wi-Fi." },
+            { "en": "I have no idea what he means.", "vi": "Tôi không hiểu anh ấy nói gì." },
+            {
+              "en": "No student is allowed in the staff room.",
+              "vi": "Không học sinh nào được vào phòng giáo viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["not any", "zero"],
+      "antonyms": ["some", "any"],
+      "collocations": ["no idea", "no way", "no time", "no doubt", "no one"],
+      "etymology_hint": "From Old English 'nā' = 'never', short form of 'ne' (not) + 'ā' (ever).",
+      "mnemonic_vi": "NO = 'nâu' — 'nâu' (không) như cái lắc đầu. No money = không có tiền, no time = không có thời gian."
+    },
+    {
+      "word": "each",
+      "lemma": "each",
+      "ipa": "/iːtʃ/",
+      "pos": "determiner",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "every individual member of a group, looked at separately",
+          "meaning_vi": "mỗi (xét riêng từng cái)",
+          "examples": [
+            {
+              "en": "Each student gets a free notebook today.",
+              "vi": "Mỗi học sinh được tặng một quyển vở miễn phí hôm nay."
+            },
+            {
+              "en": "Each year, we visit my hometown for Tết.",
+              "vi": "Mỗi năm chúng tôi về quê đón Tết."
+            },
+            {
+              "en": "We have two cups of phở each.",
+              "vi": "Mỗi người chúng tôi ăn hai tô phở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["every"],
+      "antonyms": [],
+      "collocations": ["each other", "each one", "each time", "each year", "each of"],
+      "etymology_hint": "From Old English 'ǣlc', earlier 'ā-ge-līc' = 'ever-alike' → 'every one alike'.",
+      "mnemonic_vi": "EACH = 'ích' — 'ích' (mỗi cái có ích riêng) — xét RIÊNG TỪNG cái. Each apple, each person."
+    },
+    {
+      "word": "another",
+      "lemma": "another",
+      "ipa": "/əˈnʌðə(r)/",
+      "pos": "determiner",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one more of the same thing; a different one",
+          "meaning_vi": "một (cái) khác nữa; thêm một",
+          "examples": [
+            {
+              "en": "Can I have another cup of cà phê sữa, please?",
+              "vi": "Cho tôi thêm một ly cà phê sữa nữa nhé?"
+            },
+            {
+              "en": "Let's try another restaurant tonight.",
+              "vi": "Tối nay thử một quán khác đi."
+            },
+            {
+              "en": "She moved to another country after graduation.",
+              "vi": "Cô ấy chuyển sang nước khác sau khi tốt nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one more", "different"],
+      "antonyms": ["same"],
+      "collocations": ["another one", "another time", "another way", "one another", "yet another"],
+      "etymology_hint": "Compound of 'an' + 'other' — written as one word since Middle English.",
+      "mnemonic_vi": "ANOTHER = AN + OTHER → 'thêm một cái khác' — another coffee, another day, another chance."
+    },
+    {
+      "word": "other",
+      "lemma": "other",
+      "ipa": "/ˈʌðə(r)/",
+      "pos": "determiner",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "different from the one already mentioned; remaining ones",
+          "meaning_vi": "khác (so với cái đã nói); còn lại",
+          "examples": [
+            {
+              "en": "My other shoes are in the closet.",
+              "vi": "Đôi giày kia của tôi nằm trong tủ."
+            },
+            {
+              "en": "Some students like math; other students hate it.",
+              "vi": "Một số học sinh thích toán; số khác thì ghét."
+            },
+            {
+              "en": "On the other side of the road is a phở stall.",
+              "vi": "Bên kia đường có một hàng phở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["different", "remaining"],
+      "antonyms": ["same"],
+      "collocations": [
+        "the other",
+        "other people",
+        "other than",
+        "on the other hand",
+        "every other"
+      ],
+      "etymology_hint": "From Old English 'ōþer' meaning 'second, the other of two'.",
+      "mnemonic_vi": "OTHER = 'ấđờ' — 'cái nữa khác'. 'My other shoe' = chiếc giày còn lại. 'Other people' = người khác."
+    },
+    {
+      "word": "both",
+      "lemma": "both",
+      "ipa": "/bəʊθ/",
+      "pos": "determiner",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the two of something together; one and the other",
+          "meaning_vi": "cả hai",
+          "examples": [
+            { "en": "Both my parents are teachers.", "vi": "Cả bố và mẹ tôi đều là giáo viên." },
+            { "en": "I love both phở and bún bò Huế.", "vi": "Tôi yêu cả phở lẫn bún bò Huế." },
+            {
+              "en": "She speaks both English and Korean well.",
+              "vi": "Cô ấy nói cả tiếng Anh và Hàn đều giỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["the two"],
+      "antonyms": ["neither"],
+      "collocations": ["both of", "both… and…", "both sides", "both ways", "both parents"],
+      "etymology_hint": "From Old Norse 'báðir' meaning 'both' — borrowed during Viking era.",
+      "mnemonic_vi": "BOTH = 'bốt' — như 'bộ đôi' (gồm hai cái). Both legs = cả hai chân, both of us = cả hai chúng ta."
+    },
+    {
+      "word": "either",
+      "lemma": "either",
+      "ipa": "/ˈaɪðə(r)/",
+      "pos": "determiner",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of two; one or the other of two choices",
+          "meaning_vi": "(một) trong hai; hoặc cái này hoặc cái kia",
+          "examples": [
+            {
+              "en": "You can pay in either cash or by card.",
+              "vi": "Bạn có thể trả bằng tiền mặt hoặc thẻ."
+            },
+            {
+              "en": "Either choice will be fine for me.",
+              "vi": "Lựa chọn nào trong hai cũng được với tôi."
+            },
+            {
+              "en": "There's a coffee shop on either side of the street.",
+              "vi": "Hai bên đường đều có quán cà phê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one or the other"],
+      "antonyms": ["neither"],
+      "collocations": ["either way", "either side", "either…or…", "on either", "not either"],
+      "etymology_hint": "From Old English 'ǣgther' meaning 'each of two' — kept the 'two-choice' sense.",
+      "mnemonic_vi": "EITHER = 'ai-đờ' — cho 'ai cũng được' (1 trong 2). Either A or B = A hoặc B."
+    },
+    {
+      "word": "neither",
+      "lemma": "neither",
+      "ipa": "/ˈnaɪðə(r)/",
+      "pos": "determiner",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not one and not the other of two things",
+          "meaning_vi": "không (cái nào) trong hai; chẳng cái nào",
+          "examples": [
+            {
+              "en": "Neither answer is correct.",
+              "vi": "Không câu trả lời nào trong hai là đúng."
+            },
+            {
+              "en": "Neither of us likes spicy food.",
+              "vi": "Cả hai chúng tôi đều không thích cay."
+            },
+            {
+              "en": "She speaks neither French nor German.",
+              "vi": "Cô ấy không nói tiếng Pháp lẫn tiếng Đức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["not either"],
+      "antonyms": ["both", "either"],
+      "collocations": ["neither…nor…", "neither of", "neither side", "neither one", "neither do I"],
+      "etymology_hint": "Negative form 'ne' + 'either' → 'not either'.",
+      "mnemonic_vi": "NEITHER = NE (không) + EITHER (hoặc) → 'không cái nào hai cái'. Neither A nor B = không A, không B."
+    }
+  ]
+}

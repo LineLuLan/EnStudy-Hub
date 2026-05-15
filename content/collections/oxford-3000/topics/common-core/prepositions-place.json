@@ -1,0 +1,589 @@
+{
+  "slug": "prepositions-place",
+  "name": "Prepositions of Place",
+  "description": "Giới từ chỉ vị trí và hướng — xác định nơi chốn, hướng di chuyển trong không gian.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "in",
+      "lemma": "in",
+      "ipa": "/ɪn/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "inside an enclosed area or container; within boundaries",
+          "meaning_vi": "ở trong, bên trong (không gian có ranh giới)",
+          "examples": [
+            { "en": "My keys are in the drawer.", "vi": "Chìa khoá của tôi ở trong ngăn kéo." },
+            {
+              "en": "She lives in Hà Nội with her parents.",
+              "vi": "Cô ấy sống ở Hà Nội cùng bố mẹ."
+            },
+            { "en": "There's milk in the fridge.", "vi": "Có sữa trong tủ lạnh." }
+          ]
+        }
+      ],
+      "synonyms": ["inside", "within"],
+      "antonyms": ["out", "outside"],
+      "collocations": ["in the box", "in Hà Nội", "in the room", "in a hurry", "in the morning"],
+      "etymology_hint": "From Old English 'in' — same form for over 1000 years.",
+      "mnemonic_vi": "IN = 'ìn' — như cái dấu chấm tròn 'in' trong ngoặc. Dùng cho không gian KÍN: in the box, in Việt Nam."
+    },
+    {
+      "word": "on",
+      "lemma": "on",
+      "ipa": "/ɒn/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "touching the top or surface of something",
+          "meaning_vi": "ở trên (chạm mặt phẳng)",
+          "examples": [
+            { "en": "Your phone is on the table.", "vi": "Điện thoại bạn ở trên bàn." },
+            { "en": "There's a fly on the wall.", "vi": "Có con ruồi đậu trên tường." },
+            { "en": "She wrote her name on the paper.", "vi": "Cô ấy viết tên lên tờ giấy." }
+          ]
+        }
+      ],
+      "synonyms": ["upon"],
+      "antonyms": ["under", "off"],
+      "collocations": ["on the table", "on the wall", "on the floor", "on the bus", "on TV"],
+      "etymology_hint": "From Old English 'on' — preposition of contact with a surface.",
+      "mnemonic_vi": "ON = 'ồn' — đặt 'ồm' lên mặt phẳng. Trên bàn, trên sàn, trên tường: on the table, on the floor."
+    },
+    {
+      "word": "at",
+      "lemma": "at",
+      "ipa": "/æt/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "located at a specific point or place",
+          "meaning_vi": "ở (một điểm cụ thể, một địa chỉ)",
+          "examples": [
+            { "en": "Meet me at the cinema at 7pm.", "vi": "Gặp tôi ở rạp lúc 7 giờ tối." },
+            { "en": "She is at work right now.", "vi": "Cô ấy đang ở chỗ làm." },
+            {
+              "en": "We had dinner at a small phở stall.",
+              "vi": "Chúng tôi ăn tối ở một quán phở nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["at home", "at school", "at work", "at the airport", "at night"],
+      "etymology_hint": "From Old English 'æt' — preposition pinpointing exact location.",
+      "mnemonic_vi": "AT = 'ét' — như cái 'chấm' xác định 1 điểm. At a place (1 điểm), in a place (cả vùng). At Bến Thành, in Sài Gòn."
+    },
+    {
+      "word": "by",
+      "lemma": "by",
+      "ipa": "/baɪ/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "close to; next to or beside (place)",
+          "meaning_vi": "cạnh, bên cạnh, gần (chỉ nơi chốn)",
+          "examples": [
+            { "en": "My house is by the river.", "vi": "Nhà tôi ở cạnh con sông." },
+            {
+              "en": "Sit by me — I'll explain everything.",
+              "vi": "Ngồi cạnh tôi đi — tôi giải thích cho."
+            },
+            {
+              "en": "The café is right by the park entrance.",
+              "vi": "Quán cà phê ngay sát cổng công viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beside", "next to"],
+      "antonyms": ["far from"],
+      "collocations": ["by the door", "by the window", "by my side", "by the road", "right by"],
+      "etymology_hint": "From Old English 'bī' — preposition meaning 'near, alongside'.",
+      "mnemonic_vi": "BY (nơi chốn) = 'bai' — kế bên, gần kề. By the door = cạnh cửa, by the river = bên sông."
+    },
+    {
+      "word": "to",
+      "lemma": "to",
+      "ipa": "/tuː/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "showing direction toward a place or destination",
+          "meaning_vi": "đến, tới, về phía (chỉ hướng/đích đến)",
+          "examples": [
+            { "en": "We're flying to Đà Nẵng tomorrow.", "vi": "Mai chúng tôi bay đến Đà Nẵng." },
+            {
+              "en": "She walks to school every morning.",
+              "vi": "Cô bé đi bộ đến trường mỗi sáng."
+            },
+            {
+              "en": "Send the letter to me at this address.",
+              "vi": "Gửi thư đến địa chỉ này cho tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["toward"],
+      "antonyms": ["from"],
+      "collocations": ["go to", "come to", "send to", "from… to…", "next to"],
+      "etymology_hint": "From Old English 'tō' — preposition of motion or direction toward.",
+      "mnemonic_vi": "TO = 'tu' — mũi tên 'tới' đích. Go to school, fly to Hà Nội = đến trường, bay đến HN."
+    },
+    {
+      "word": "from",
+      "lemma": "from",
+      "ipa": "/frɒm/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "showing the place or point where something starts",
+          "meaning_vi": "từ, xuất phát từ (nơi/điểm bắt đầu)",
+          "examples": [
+            { "en": "I'm from Quảng Ngãi.", "vi": "Tôi đến từ Quảng Ngãi." },
+            {
+              "en": "The bus from Mỹ Đình leaves at 6am.",
+              "vi": "Xe buýt từ Mỹ Đình khởi hành lúc 6 giờ."
+            },
+            {
+              "en": "She moved from Hà Nội to Sài Gòn last year.",
+              "vi": "Năm ngoái cô ấy chuyển từ Hà Nội vào Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["to"],
+      "collocations": ["come from", "from… to…", "far from", "from now on", "away from"],
+      "etymology_hint": "From Old English 'fram' — meaning 'forward, away from'.",
+      "mnemonic_vi": "FROM = 'frầm' — 'phâng' (đi khỏi). From a place = xuất phát từ. From Hà Nội to Sài Gòn."
+    },
+    {
+      "word": "into",
+      "lemma": "into",
+      "ipa": "/ˈɪntuː/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "moving from outside to inside something",
+          "meaning_vi": "vào trong (chỉ chuyển động vào không gian kín)",
+          "examples": [
+            { "en": "He walked into the meeting late.", "vi": "Anh ấy đi vào cuộc họp trễ." },
+            { "en": "The cat jumped into the box.", "vi": "Con mèo nhảy vào trong hộp." },
+            { "en": "Pour the milk into the cup.", "vi": "Đổ sữa vào cốc." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["out of"],
+      "collocations": ["walk into", "jump into", "go into", "look into", "turn into"],
+      "etymology_hint": "Compound 'in' + 'to' — combining the inside meaning with directional motion.",
+      "mnemonic_vi": "INTO = IN + TO → 'đi vào trong'. Khác IN (đã ở trong), INTO = di chuyển vào: 'walk into the room'."
+    },
+    {
+      "word": "out",
+      "lemma": "out",
+      "ipa": "/aʊt/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "moving away from inside; leaving an enclosed space",
+          "meaning_vi": "ra, ra ngoài (chuyển động ra khỏi không gian)",
+          "examples": [
+            {
+              "en": "She walked out of the office at 6pm.",
+              "vi": "6 giờ chiều cô ấy bước ra khỏi văn phòng."
+            },
+            {
+              "en": "Please take the trash out before bed.",
+              "vi": "Đem rác ra ngoài trước khi ngủ nhé."
+            },
+            {
+              "en": "He pulled a note out of his pocket.",
+              "vi": "Anh ấy rút một tờ giấy ra khỏi túi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outside"],
+      "antonyms": ["in", "into"],
+      "collocations": ["go out", "come out", "take out", "out of", "look out"],
+      "etymology_hint": "From Old English 'ūt' — adverb/preposition meaning 'outside, away'.",
+      "mnemonic_vi": "OUT = 'ao-t' — 'ào' đi ra ngoài. Take out = đem ra, walk out = bước ra. Đối với IN."
+    },
+    {
+      "word": "up",
+      "lemma": "up",
+      "ipa": "/ʌp/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in or to a higher position; toward a higher place",
+          "meaning_vi": "lên, ở trên (hướng đi lên cao)",
+          "examples": [
+            {
+              "en": "We climbed up Fansipan last summer.",
+              "vi": "Hè năm ngoái chúng tôi leo lên Fansipan."
+            },
+            { "en": "Hang the picture up on the wall.", "vi": "Treo bức tranh lên tường." },
+            { "en": "He looked up at the stars.", "vi": "Anh ấy nhìn lên các vì sao." }
+          ]
+        }
+      ],
+      "synonyms": ["upward"],
+      "antonyms": ["down"],
+      "collocations": ["look up", "go up", "stand up", "up the stairs", "up to"],
+      "etymology_hint": "From Old English 'up' — directional adverb of upward motion.",
+      "mnemonic_vi": "UP = 'ấp' — hướng 'ạp ạp' bay lên. Stand up = đứng lên, go up = đi lên. Đối với DOWN."
+    },
+    {
+      "word": "down",
+      "lemma": "down",
+      "ipa": "/daʊn/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in or to a lower position; toward a lower place",
+          "meaning_vi": "xuống, ở dưới (hướng đi xuống thấp)",
+          "examples": [
+            {
+              "en": "Please sit down — the show is starting.",
+              "vi": "Mời ngồi xuống — buổi diễn bắt đầu rồi."
+            },
+            {
+              "en": "She ran down the stairs to greet us.",
+              "vi": "Cô ấy chạy xuống cầu thang chào chúng tôi."
+            },
+            {
+              "en": "The rain came down hard this afternoon.",
+              "vi": "Chiều nay mưa rơi rất nặng hạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["downward"],
+      "antonyms": ["up"],
+      "collocations": ["sit down", "go down", "look down", "down the stairs", "down to"],
+      "etymology_hint": "Shortened from Old English 'adūn' = 'from the hill' (off the hill).",
+      "mnemonic_vi": "DOWN = 'đao-n' — rớt 'đùng' xuống. Sit down = ngồi xuống, go down = đi xuống."
+    },
+    {
+      "word": "near",
+      "lemma": "near",
+      "ipa": "/nɪə(r)/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "close to in space",
+          "meaning_vi": "gần (về vị trí)",
+          "examples": [
+            { "en": "My office is near Hồ Hoàn Kiếm.", "vi": "Văn phòng tôi gần Hồ Hoàn Kiếm." },
+            { "en": "Is there a parking lot near here?", "vi": "Gần đây có bãi xe không?" },
+            { "en": "She lives near the new metro station.", "vi": "Cô ấy sống gần ga metro mới." }
+          ]
+        }
+      ],
+      "synonyms": ["close to", "by"],
+      "antonyms": ["far from"],
+      "collocations": ["near here", "near the door", "near home", "very near", "draw near"],
+      "etymology_hint": "From Old Norse 'nær' meaning 'nearer' — comparative form became standalone in English.",
+      "mnemonic_vi": "NEAR = 'nia' — 'kề' gần kề. Near my house, near the school = gần nhà, gần trường."
+    },
+    {
+      "word": "between",
+      "lemma": "between",
+      "ipa": "/bɪˈtwiːn/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in the space separating two things, places, or people",
+          "meaning_vi": "ở giữa (hai cái cụ thể)",
+          "examples": [
+            {
+              "en": "The café is between the bank and the post office.",
+              "vi": "Quán cà phê nằm giữa ngân hàng và bưu điện."
+            },
+            {
+              "en": "Sit between us — there's room.",
+              "vi": "Ngồi giữa hai chúng tôi đi — còn chỗ mà."
+            },
+            {
+              "en": "Between Hà Nội and Sài Gòn, I prefer Đà Nẵng.",
+              "vi": "Giữa Hà Nội và Sài Gòn, tôi thích Đà Nẵng hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "between us",
+        "between A and B",
+        "in between",
+        "right between",
+        "between two"
+      ],
+      "etymology_hint": "From Old English 'betweonum' = 'by two each' — emphasising the two-item separation.",
+      "mnemonic_vi": "BETWEEN = BE + TWEEN (twin: hai) → giữa HAI cái. Between A and B. Đối với AMONG (giữa nhiều cái)."
+    },
+    {
+      "word": "behind",
+      "lemma": "behind",
+      "ipa": "/bɪˈhaɪnd/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "at the back of something or someone",
+          "meaning_vi": "ở sau, đằng sau",
+          "examples": [
+            { "en": "The garage is behind the house.", "vi": "Nhà xe nằm sau nhà." },
+            { "en": "Hide behind the door!", "vi": "Trốn sau cánh cửa đi!" },
+            { "en": "I sat behind her on the bus.", "vi": "Tôi ngồi sau cô ấy trên xe buýt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["in front of"],
+      "collocations": [
+        "behind me",
+        "behind the door",
+        "behind the house",
+        "right behind",
+        "fall behind"
+      ],
+      "etymology_hint": "Compound 'be' (by) + 'hind' (back, hind) → 'by the back side'.",
+      "mnemonic_vi": "BEHIND = BE + HIND (đuôi, hậu) → 'phía sau'. Behind the door = sau cánh cửa."
+    },
+    {
+      "word": "above",
+      "lemma": "above",
+      "ipa": "/əˈbʌv/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a higher position than something else, without touching",
+          "meaning_vi": "ở trên (cao hơn, không chạm)",
+          "examples": [
+            { "en": "There's a clock above the door.", "vi": "Có chiếc đồng hồ phía trên cửa." },
+            { "en": "Birds flew above the trees.", "vi": "Đàn chim bay trên ngọn cây." },
+            { "en": "The price is above my budget.", "vi": "Giá đó vượt ngân sách tôi." }
+          ]
+        }
+      ],
+      "synonyms": ["over"],
+      "antonyms": ["below"],
+      "collocations": ["above all", "above average", "above the clouds", "above zero", "above me"],
+      "etymology_hint": "Compound 'a-' (on) + 'bove' (Old English 'bufan' = up) → 'on top, higher'.",
+      "mnemonic_vi": "ABOVE = 'ờ-báp' — 'a, bay' lên trên cao. Khác ON (chạm), ABOVE = trên cao không chạm."
+    },
+    {
+      "word": "below",
+      "lemma": "below",
+      "ipa": "/bɪˈləʊ/",
+      "pos": "preposition",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "in a lower position than something else, without touching",
+          "meaning_vi": "ở dưới (thấp hơn, không chạm)",
+          "examples": [
+            { "en": "Sign your name below the line.", "vi": "Ký tên ở dưới dòng kẻ." },
+            {
+              "en": "The clouds were below us when the plane took off.",
+              "vi": "Mây ở dưới chúng tôi khi máy bay cất cánh."
+            },
+            {
+              "en": "The temperature dropped below zero in Sa Pa.",
+              "vi": "Nhiệt độ rơi xuống dưới 0 độ ở Sa Pa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["under"],
+      "antonyms": ["above"],
+      "collocations": ["below average", "below zero", "below the line", "below me", "see below"],
+      "etymology_hint": "Compound 'be-' (by) + 'low' → 'down low'.",
+      "mnemonic_vi": "BELOW = BE + LOW → 'ở thấp dưới'. Đối với ABOVE. Below zero = dưới 0 độ."
+    },
+    {
+      "word": "among",
+      "lemma": "among",
+      "ipa": "/əˈmʌŋ/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in the middle of three or more things or people",
+          "meaning_vi": "ở giữa (nhiều thứ, từ 3 trở lên)",
+          "examples": [
+            { "en": "She felt safe among her friends.", "vi": "Cô ấy thấy an toàn giữa đám bạn." },
+            {
+              "en": "Phở is popular among foreigners visiting Hà Nội.",
+              "vi": "Phở được người nước ngoài đến Hà Nội yêu thích."
+            },
+            {
+              "en": "He stood out among the crowd of students.",
+              "vi": "Anh ấy nổi bật giữa đám đông học sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["amid", "in the middle of"],
+      "antonyms": [],
+      "collocations": [
+        "among friends",
+        "among them",
+        "among others",
+        "popular among",
+        "among the crowd"
+      ],
+      "etymology_hint": "From Old English 'on gemang' meaning 'in the crowd'.",
+      "mnemonic_vi": "AMONG = 'ờ-mâng' — 'a, mâng' (đám đông). Giữa NHIỀU. Đối với BETWEEN (giữa HAI)."
+    },
+    {
+      "word": "beside",
+      "lemma": "beside",
+      "ipa": "/bɪˈsaɪd/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "next to; at the side of",
+          "meaning_vi": "bên cạnh, kề bên",
+          "examples": [
+            {
+              "en": "She sat beside her father at the wedding.",
+              "vi": "Cô ấy ngồi bên cạnh bố trong lễ cưới."
+            },
+            { "en": "The lamp is beside the bed.", "vi": "Cái đèn ở bên cạnh giường." },
+            { "en": "Park your car beside mine.", "vi": "Đỗ xe cạnh xe tôi đi." }
+          ]
+        }
+      ],
+      "synonyms": ["by", "next to"],
+      "antonyms": [],
+      "collocations": [
+        "beside me",
+        "beside the road",
+        "beside the river",
+        "right beside",
+        "sit beside"
+      ],
+      "etymology_hint": "Compound 'be-' (by) + 'side' → 'by the side of'.",
+      "mnemonic_vi": "BESIDE = BE + SIDE → 'bên cạnh'. Đừng nhầm với BESIDES (ngoài ra)."
+    },
+    {
+      "word": "inside",
+      "lemma": "inside",
+      "ipa": "/ɪnˈsaɪd/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in the inner part of something; within",
+          "meaning_vi": "bên trong (nhấn mạnh hơn IN)",
+          "examples": [
+            {
+              "en": "Wait inside the café — it's raining.",
+              "vi": "Đợi bên trong quán đi — đang mưa kìa."
+            },
+            {
+              "en": "Inside the box, there were three gifts.",
+              "vi": "Bên trong hộp có ba món quà."
+            },
+            {
+              "en": "She felt warm inside the áo dài.",
+              "vi": "Cô ấy cảm thấy ấm áp khi mặc áo dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in", "within"],
+      "antonyms": ["outside"],
+      "collocations": [
+        "inside the house",
+        "inside the box",
+        "deep inside",
+        "step inside",
+        "inside out"
+      ],
+      "etymology_hint": "Compound 'in' + 'side' → 'on the inside'.",
+      "mnemonic_vi": "INSIDE = IN + SIDE → 'phía bên trong'. Nhấn mạnh hơn IN. Inside the room = ở trong phòng (nhấn trong)."
+    },
+    {
+      "word": "outside",
+      "lemma": "outside",
+      "ipa": "/ˌaʊtˈsaɪd/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "on the outer side of; not inside",
+          "meaning_vi": "bên ngoài",
+          "examples": [
+            { "en": "Wait for me outside the cinema.", "vi": "Đợi tôi bên ngoài rạp nhé." },
+            { "en": "It's freezing outside today.", "vi": "Hôm nay bên ngoài lạnh buốt." },
+            {
+              "en": "There's a Grab waiting outside the gate.",
+              "vi": "Có xe Grab đang đợi ngoài cổng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["out of"],
+      "antonyms": ["inside"],
+      "collocations": [
+        "outside the door",
+        "outside the city",
+        "right outside",
+        "go outside",
+        "outside hours"
+      ],
+      "etymology_hint": "Compound 'out' + 'side' → 'on the outer side'.",
+      "mnemonic_vi": "OUTSIDE = OUT + SIDE → 'phía bên ngoài'. Outside the gate = ngoài cổng."
+    },
+    {
+      "word": "beyond",
+      "lemma": "beyond",
+      "ipa": "/bɪˈjɒnd/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "on the far side of; further than",
+          "meaning_vi": "bên kia, xa hơn, vượt qua (về không gian hoặc giới hạn)",
+          "examples": [
+            { "en": "The mountains lie beyond the river.", "vi": "Dãy núi nằm bên kia con sông." },
+            {
+              "en": "The view from the balcony stretches beyond the city.",
+              "vi": "Tầm nhìn từ ban công trải dài vượt qua cả thành phố."
+            },
+            { "en": "This task is beyond my ability.", "vi": "Việc này vượt quá khả năng của tôi." }
+          ]
+        }
+      ],
+      "synonyms": ["past", "further than"],
+      "antonyms": [],
+      "collocations": ["beyond reach", "beyond doubt", "beyond me", "beyond belief", "go beyond"],
+      "etymology_hint": "Compound 'be-' (by) + 'yond' (Old English 'geond' = far) → 'on the far side'.",
+      "mnemonic_vi": "BEYOND = BE + YOND (xa) → 'bên kia, vượt khỏi'. Beyond the river = bên kia sông."
+    }
+  ]
+}
