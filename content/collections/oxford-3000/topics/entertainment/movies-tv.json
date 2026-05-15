@@ -1,0 +1,697 @@
+{
+  "slug": "movies-tv",
+  "name": "Movies & TV",
+  "description": "Phim ảnh và truyền hình.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "movie",
+      "lemma": "movie",
+      "ipa": "/ˈmuːvi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a story shown in pictures, usually watched at a cinema or on TV",
+          "meaning_vi": "phim (chiếu rạp, xem trên TV/điện thoại)",
+          "examples": [
+            {
+              "en": "We watched a Vietnamese movie last night.",
+              "vi": "Tối qua chúng tôi xem một bộ phim Việt."
+            },
+            { "en": "She loves animated movies.", "vi": "Cô ấy thích phim hoạt hình." },
+            { "en": "The new movie comes out next Friday.", "vi": "Phim mới ra mắt thứ Sáu tới." }
+          ]
+        }
+      ],
+      "synonyms": ["film"],
+      "antonyms": [],
+      "collocations": [
+        "watch a movie",
+        "action movie",
+        "movie star",
+        "movie ticket",
+        "favourite movie"
+      ],
+      "etymology_hint": "Shortened from 'moving picture'.",
+      "mnemonic_vi": "MOVIE — 'mu-vi' → 'mu' (mục) 'vi' (vô) coi phim = phim"
+    },
+    {
+      "word": "film",
+      "lemma": "film",
+      "ipa": "/fɪlm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a story shown in pictures (especially used in British English)",
+          "meaning_vi": "phim (cách gọi của Anh-Anh)",
+          "examples": [
+            { "en": "She studies film at university.", "vi": "Cô ấy học điện ảnh ở đại học." },
+            { "en": "The film won the Cannes award.", "vi": "Bộ phim đoạt giải Cannes." },
+            {
+              "en": "Vietnamese film 'Cô Ba Sài Gòn' is famous.",
+              "vi": "Phim Việt 'Cô Ba Sài Gòn' nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["movie"],
+      "antonyms": [],
+      "collocations": [
+        "watch a film",
+        "film festival",
+        "documentary film",
+        "feature film",
+        "horror film"
+      ],
+      "etymology_hint": "From Old English 'filmen' meaning 'thin layer, skin' — originally referred to photo film.",
+      "mnemonic_vi": "FILM — 'phim' → đúng âm Việt 'phim' = phim"
+    },
+    {
+      "word": "cinema",
+      "lemma": "cinema",
+      "ipa": "/ˈsɪnəmə/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building where you go to watch films",
+          "meaning_vi": "rạp chiếu phim",
+          "examples": [
+            {
+              "en": "CGV cinema is in every big mall.",
+              "vi": "Rạp CGV có ở mọi trung tâm thương mại lớn."
+            },
+            {
+              "en": "We met at the cinema on Saturday.",
+              "vi": "Chúng tôi gặp nhau ở rạp phim thứ Bảy."
+            },
+            { "en": "The cinema sells popcorn and drinks.", "vi": "Rạp bán bắp rang và nước." }
+          ]
+        }
+      ],
+      "synonyms": ["movie theater"],
+      "antonyms": [],
+      "collocations": [
+        "go to the cinema",
+        "cinema ticket",
+        "cinema chain",
+        "outdoor cinema",
+        "local cinema"
+      ],
+      "etymology_hint": "From French 'cinéma', shortened from 'cinematograph'.",
+      "mnemonic_vi": "CINEMA — 'sin-nê-mơ' → 'xi nê' (chiếu) ma quái = rạp phim"
+    },
+    {
+      "word": "actor",
+      "lemma": "actor",
+      "ipa": "/ˈæktə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a man who acts in films, plays, or TV",
+          "meaning_vi": "diễn viên (nam)",
+          "examples": [
+            {
+              "en": "He's a famous Vietnamese actor.",
+              "vi": "Anh ấy là diễn viên Việt nổi tiếng."
+            },
+            {
+              "en": "The actor played a villain in the film.",
+              "vi": "Diễn viên đóng vai phản diện trong phim."
+            },
+            {
+              "en": "Many young Vietnamese actors come from Sài Gòn.",
+              "vi": "Nhiều diễn viên trẻ Việt đến từ Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["performer"],
+      "antonyms": [],
+      "collocations": [
+        "famous actor",
+        "lead actor",
+        "supporting actor",
+        "Hollywood actor",
+        "young actor"
+      ],
+      "etymology_hint": "From Latin 'actor' meaning 'doer, performer', from 'agere' (to do, act).",
+      "mnemonic_vi": "ACTOR = ACT (diễn) + OR (người) → người diễn = diễn viên"
+    },
+    {
+      "word": "actress",
+      "lemma": "actress",
+      "ipa": "/ˈæktrəs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a woman who acts in films, plays, or TV",
+          "meaning_vi": "diễn viên nữ",
+          "examples": [
+            {
+              "en": "Ninh Dương Lan Ngọc is a popular Vietnamese actress.",
+              "vi": "Ninh Dương Lan Ngọc là diễn viên Việt nổi tiếng."
+            },
+            {
+              "en": "The young actress won best newcomer.",
+              "vi": "Nữ diễn viên trẻ giành giải gương mặt mới."
+            },
+            { "en": "She wants to become an actress.", "vi": "Cô ấy muốn trở thành diễn viên." }
+          ]
+        }
+      ],
+      "synonyms": ["performer"],
+      "antonyms": [],
+      "collocations": [
+        "famous actress",
+        "lead actress",
+        "supporting actress",
+        "talented actress",
+        "young actress"
+      ],
+      "etymology_hint": "From 'actor' + '-ess' (female suffix).",
+      "mnemonic_vi": "ACTRESS = ACT (diễn) + ESS (nữ) → nữ diễn viên"
+    },
+    {
+      "word": "director",
+      "lemma": "director",
+      "ipa": "/dəˈrektə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the person in charge of making a film or play",
+          "meaning_vi": "đạo diễn",
+          "examples": [
+            {
+              "en": "The director won an award in Cannes.",
+              "vi": "Đạo diễn giành giải tại Cannes."
+            },
+            {
+              "en": "Trần Anh Hùng is a famous Vietnamese director.",
+              "vi": "Trần Anh Hùng là đạo diễn Việt nổi tiếng."
+            },
+            {
+              "en": "The director chose every scene carefully.",
+              "vi": "Đạo diễn chọn từng cảnh kỹ lưỡng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "film director",
+        "famous director",
+        "young director",
+        "director's cut",
+        "art director"
+      ],
+      "etymology_hint": "From Latin 'director', from 'dirigere' (to direct).",
+      "mnemonic_vi": "DIRECTOR = DIRECT (chỉ đạo) + OR (người) → người chỉ đạo = đạo diễn"
+    },
+    {
+      "word": "scene",
+      "lemma": "scene",
+      "ipa": "/siːn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a part of a film or play that happens in one place",
+          "meaning_vi": "cảnh phim; phân đoạn",
+          "examples": [
+            { "en": "The final scene was very emotional.", "vi": "Cảnh cuối rất xúc động." },
+            {
+              "en": "The fight scene was filmed in Hà Giang.",
+              "vi": "Cảnh đánh nhau được quay ở Hà Giang."
+            },
+            { "en": "She rehearsed the scene many times.", "vi": "Cô ấy tập cảnh đó nhiều lần." }
+          ]
+        }
+      ],
+      "synonyms": ["sequence"],
+      "antonyms": [],
+      "collocations": [
+        "love scene",
+        "fight scene",
+        "opening scene",
+        "behind the scenes",
+        "final scene"
+      ],
+      "etymology_hint": "From Latin 'scena', from Greek 'skēnē' meaning 'tent, stage'.",
+      "mnemonic_vi": "SCENE — 'sin' → 'sín' (xen vào) một đoạn = cảnh"
+    },
+    {
+      "word": "plot",
+      "lemma": "plot",
+      "ipa": "/plɒt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the main story of a film, novel, or play",
+          "meaning_vi": "cốt truyện",
+          "examples": [
+            { "en": "The plot was hard to follow.", "vi": "Cốt truyện khó theo dõi." },
+            {
+              "en": "Vietnamese movies often have simple plots.",
+              "vi": "Phim Việt thường có cốt truyện đơn giản."
+            },
+            {
+              "en": "She loved the plot of the new series.",
+              "vi": "Cô ấy thích cốt truyện của bộ phim mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["storyline"],
+      "antonyms": [],
+      "collocations": ["plot twist", "main plot", "follow the plot", "simple plot", "complex plot"],
+      "etymology_hint": "From Old English 'plot' meaning 'small piece of ground', later extended to story outline.",
+      "mnemonic_vi": "PLOT — 'plót' → 'plót' (vẽ ra) đường dây truyện = cốt truyện"
+    },
+    {
+      "word": "genre",
+      "lemma": "genre",
+      "ipa": "/ˈʒɒnrə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a type of film, book, or music with a particular style",
+          "meaning_vi": "thể loại (phim, sách, nhạc)",
+          "examples": [
+            {
+              "en": "Horror is my favourite genre.",
+              "vi": "Kinh dị là thể loại yêu thích của tôi."
+            },
+            {
+              "en": "Vietnamese audiences love romance genres.",
+              "vi": "Khán giả Việt yêu thể loại lãng mạn."
+            },
+            { "en": "She writes in many genres.", "vi": "Cô ấy viết ở nhiều thể loại." }
+          ]
+        }
+      ],
+      "synonyms": ["type", "category"],
+      "antonyms": [],
+      "collocations": [
+        "movie genre",
+        "music genre",
+        "favourite genre",
+        "popular genre",
+        "literary genre"
+      ],
+      "etymology_hint": "From French 'genre' meaning 'kind, type', from Latin 'genus'.",
+      "mnemonic_vi": "GENRE — 'gxon-rờ' → 'giòng' (loại) riêng = thể loại"
+    },
+    {
+      "word": "comedy",
+      "lemma": "comedy",
+      "ipa": "/ˈkɒmədi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a funny film, play, or TV show",
+          "meaning_vi": "phim hài; thể loại hài",
+          "examples": [
+            {
+              "en": "I love watching Vietnamese comedy on Tết.",
+              "vi": "Tôi thích xem hài Việt vào dịp Tết."
+            },
+            {
+              "en": "Hoài Linh is a famous comedy actor.",
+              "vi": "Hoài Linh là diễn viên hài nổi tiếng."
+            },
+            { "en": "The new comedy is hilarious.", "vi": "Phim hài mới buồn cười lắm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["tragedy"],
+      "collocations": [
+        "romantic comedy",
+        "stand-up comedy",
+        "comedy show",
+        "dark comedy",
+        "comedy film"
+      ],
+      "etymology_hint": "From Greek 'kōmōidia' = 'kōmos' (revel) + 'aoidē' (singing).",
+      "mnemonic_vi": "COMEDY — 'kom-mi-đi' → 'kèm' câu cười 'đi' = hài"
+    },
+    {
+      "word": "drama",
+      "lemma": "drama",
+      "ipa": "/ˈdrɑːmə/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a serious film, play, or TV show, often about real life",
+          "meaning_vi": "phim chính kịch; phim drama",
+          "examples": [
+            {
+              "en": "Korean dramas are popular in Vietnam.",
+              "vi": "Phim Hàn Quốc rất phổ biến ở Việt Nam."
+            },
+            { "en": "She studies drama at university.", "vi": "Cô ấy học kịch ở đại học." },
+            {
+              "en": "The drama was based on a true story.",
+              "vi": "Bộ phim dựa trên câu chuyện có thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["play"],
+      "antonyms": ["comedy"],
+      "collocations": [
+        "Korean drama",
+        "TV drama",
+        "drama series",
+        "historical drama",
+        "school drama"
+      ],
+      "etymology_hint": "From Greek 'drama' meaning 'action, deed'.",
+      "mnemonic_vi": "DRAMA — 'đrá-mơ' → 'dã (sâu sắc) mơ' chuyện đời = phim chính kịch"
+    },
+    {
+      "word": "horror",
+      "lemma": "horror",
+      "ipa": "/ˈhɒrə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a story or film designed to make people feel scared",
+          "meaning_vi": "thể loại kinh dị",
+          "examples": [
+            {
+              "en": "I don't watch horror movies alone.",
+              "vi": "Tôi không xem phim kinh dị một mình."
+            },
+            {
+              "en": "Vietnamese horror often uses ghost stories.",
+              "vi": "Phim kinh dị Việt thường kể chuyện ma."
+            },
+            { "en": "The horror film scared everyone.", "vi": "Phim kinh dị làm mọi người sợ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "horror film",
+        "horror movie",
+        "horror story",
+        "horror genre",
+        "psychological horror"
+      ],
+      "etymology_hint": "From Latin 'horror' meaning 'shaking, trembling'.",
+      "mnemonic_vi": "HORROR — 'họ-rờ' → 'hú họ' rồi 'rờn rợn' = kinh dị"
+    },
+    {
+      "word": "action",
+      "lemma": "action",
+      "ipa": "/ˈækʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a type of film full of fast events like fighting or chasing",
+          "meaning_vi": "phim hành động; thể loại hành động",
+          "examples": [
+            {
+              "en": "He loves action movies with explosions.",
+              "vi": "Anh ấy thích phim hành động có cháy nổ."
+            },
+            {
+              "en": "The action scenes were filmed in Bangkok.",
+              "vi": "Các cảnh hành động được quay ở Bangkok."
+            },
+            {
+              "en": "Action is the most popular genre with teens.",
+              "vi": "Hành động là thể loại phổ biến nhất với thanh thiếu niên."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["action movie", "action film", "action scene", "action hero", "fast action"],
+      "etymology_hint": "From Latin 'actio' meaning 'a doing', from 'agere' (to do).",
+      "mnemonic_vi": "ACTION = ACT (hành động) + ION → hành động liên tục = phim hành động"
+    },
+    {
+      "word": "romance",
+      "lemma": "romance",
+      "ipa": "/rəʊˈmæns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a love story; a film or book about love",
+          "meaning_vi": "phim lãng mạn; thể loại tình cảm",
+          "examples": [
+            {
+              "en": "Vietnamese audiences love romance films.",
+              "vi": "Khán giả Việt yêu phim tình cảm."
+            },
+            {
+              "en": "The romance between them lasted ten years.",
+              "vi": "Chuyện tình lãng mạn của họ kéo dài mười năm."
+            },
+            { "en": "She reads only romance novels.", "vi": "Cô ấy chỉ đọc tiểu thuyết lãng mạn." }
+          ]
+        }
+      ],
+      "synonyms": ["love story"],
+      "antonyms": [],
+      "collocations": [
+        "romance film",
+        "romance novel",
+        "summer romance",
+        "romantic comedy",
+        "true romance"
+      ],
+      "etymology_hint": "From Old French 'romanz' meaning 'verse narrative', originally written in Romance languages.",
+      "mnemonic_vi": "ROMANCE — 'rô-mặn-sờ' → 'romăng' (mộng mơ) tình yêu = lãng mạn"
+    },
+    {
+      "word": "series",
+      "lemma": "series",
+      "ipa": "/ˈsɪəriːz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of TV shows with the same characters and story across many episodes",
+          "meaning_vi": "phim bộ; series truyền hình",
+          "examples": [
+            {
+              "en": "The series 'Người phán xử' was a hit in 2017.",
+              "vi": "Series 'Người phán xử' rất nổi 2017."
+            },
+            {
+              "en": "Netflix releases a new series every month.",
+              "vi": "Netflix ra series mới mỗi tháng."
+            },
+            {
+              "en": "She binged the whole series in a weekend.",
+              "vi": "Cô ấy cày hết series trong một cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["show"],
+      "antonyms": [],
+      "collocations": [
+        "TV series",
+        "Netflix series",
+        "watch a series",
+        "popular series",
+        "drama series"
+      ],
+      "etymology_hint": "From Latin 'series' meaning 'row, chain', from 'serere' (to join).",
+      "mnemonic_vi": "SERIES — 'sì-rịt' → 'xếp ria' đầy đủ = phim bộ"
+    },
+    {
+      "word": "episode",
+      "lemma": "episode",
+      "ipa": "/ˈepɪsəʊd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one part of a TV series, shown at one time",
+          "meaning_vi": "tập (phim/series)",
+          "examples": [
+            { "en": "I just finished episode 5.", "vi": "Tôi vừa xem xong tập 5." },
+            { "en": "Each episode is 45 minutes long.", "vi": "Mỗi tập dài 45 phút." },
+            { "en": "The final episode broke records.", "vi": "Tập cuối phá kỷ lục lượt xem." }
+          ]
+        }
+      ],
+      "synonyms": ["instalment"],
+      "antonyms": [],
+      "collocations": [
+        "final episode",
+        "first episode",
+        "watch an episode",
+        "new episode",
+        "season finale episode"
+      ],
+      "etymology_hint": "From Greek 'epeisodion' meaning 'addition to a story'.",
+      "mnemonic_vi": "EPISODE — 'ép-pi-sốt' → 'ép' phim vô từng 'sốt' = tập"
+    },
+    {
+      "word": "channel",
+      "lemma": "channel",
+      "ipa": "/ˈtʃænl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a TV station; or a YouTube account that posts videos",
+          "meaning_vi": "kênh truyền hình; kênh YouTube",
+          "examples": [
+            {
+              "en": "VTV is the main channel in Vietnam.",
+              "vi": "VTV là kênh chính của Việt Nam."
+            },
+            {
+              "en": "Her YouTube channel has 1 million subscribers.",
+              "vi": "Kênh YouTube của cô ấy có 1 triệu người đăng ký."
+            },
+            {
+              "en": "What channel is the football match on?",
+              "vi": "Trận bóng đá phát trên kênh nào?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["station"],
+      "antonyms": [],
+      "collocations": [
+        "TV channel",
+        "YouTube channel",
+        "news channel",
+        "sports channel",
+        "channel surfing"
+      ],
+      "etymology_hint": "From Old French 'chanel', from Latin 'canalis' (pipe).",
+      "mnemonic_vi": "CHANNEL — 'chen-nờ' → 'chèn' nhiều phim chảy qua = kênh"
+    },
+    {
+      "word": "subtitle",
+      "lemma": "subtitle",
+      "ipa": "/ˈsʌbtaɪtl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "words at the bottom of a screen that translate what people say",
+          "meaning_vi": "phụ đề (dịch lời nhân vật)",
+          "examples": [
+            {
+              "en": "I watch English movies with Vietnamese subtitles.",
+              "vi": "Tôi xem phim Anh có phụ đề tiếng Việt."
+            },
+            { "en": "Turn on the subtitles, please.", "vi": "Bật phụ đề lên giúp tôi." },
+            { "en": "The subtitle was full of typos.", "vi": "Phụ đề đầy lỗi chính tả." }
+          ]
+        }
+      ],
+      "synonyms": ["caption"],
+      "antonyms": [],
+      "collocations": [
+        "turn on subtitles",
+        "English subtitles",
+        "subtitle file",
+        "watch with subtitles",
+        "Vietnamese subtitle"
+      ],
+      "etymology_hint": "From 'sub-' (under) + 'title' — text 'under the title'.",
+      "mnemonic_vi": "SUBTITLE = SUB (dưới) + TITLE (tiêu đề) → chữ ở dưới phim = phụ đề"
+    },
+    {
+      "word": "premiere",
+      "lemma": "premiere",
+      "ipa": "/ˈpremieə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the first public showing of a film, play, or TV programme",
+          "meaning_vi": "buổi công chiếu đầu tiên",
+          "examples": [
+            {
+              "en": "The movie premiere was held at CGV Vincom.",
+              "vi": "Buổi công chiếu phim tổ chức ở CGV Vincom."
+            },
+            {
+              "en": "Many stars attended the premiere.",
+              "vi": "Nhiều ngôi sao đến dự buổi công chiếu."
+            },
+            {
+              "en": "Tickets to the premiere sold out instantly.",
+              "vi": "Vé buổi công chiếu bán hết ngay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["opening"],
+      "antonyms": [],
+      "collocations": [
+        "world premiere",
+        "movie premiere",
+        "premiere night",
+        "TV premiere",
+        "attend a premiere"
+      ],
+      "etymology_hint": "From French 'première', feminine of 'premier' meaning 'first'.",
+      "mnemonic_vi": "PREMIERE — 'pờ-rê-mi-e' → 'prờ-rê' (đầu tiên) 'mi-e' (em ơi) = công chiếu lần đầu"
+    },
+    {
+      "word": "review",
+      "lemma": "review",
+      "ipa": "/rɪˈvjuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a written opinion that judges a film, book, or product",
+          "meaning_vi": "bài đánh giá; review (phim, sách, sản phẩm)",
+          "examples": [
+            {
+              "en": "The film got great reviews on IMDB.",
+              "vi": "Phim được đánh giá cao trên IMDB."
+            },
+            {
+              "en": "She writes movie reviews on her blog.",
+              "vi": "Cô ấy viết review phim trên blog."
+            },
+            { "en": "Read reviews before buying online.", "vi": "Đọc review trước khi mua online." }
+          ]
+        }
+      ],
+      "synonyms": ["critique"],
+      "antonyms": [],
+      "collocations": [
+        "movie review",
+        "book review",
+        "good review",
+        "negative review",
+        "write a review"
+      ],
+      "etymology_hint": "From Latin 're-' (again) + 'videre' (to see) → 'to see again, examine'.",
+      "mnemonic_vi": "REVIEW = RE (lại) + VIEW (nhìn) → nhìn lại = bài đánh giá"
+    }
+  ]
+}

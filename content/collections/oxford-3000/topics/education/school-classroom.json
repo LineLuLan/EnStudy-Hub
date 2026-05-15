@@ -1,0 +1,688 @@
+{
+  "slug": "school-classroom",
+  "name": "School & Classroom",
+  "description": "Đồ vật và con người trong lớp học.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "school",
+      "lemma": "school",
+      "ipa": "/skuːl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a place where children go to learn",
+          "meaning_vi": "trường học; nơi trẻ em đến học",
+          "examples": [
+            {
+              "en": "My little sister goes to school in Hà Nội.",
+              "vi": "Em gái tôi đi học ở Hà Nội."
+            },
+            {
+              "en": "The school near Hồ Tây is very famous.",
+              "vi": "Trường gần Hồ Tây rất nổi tiếng."
+            },
+            { "en": "He walks to school every morning.", "vi": "Cậu ấy đi bộ đến trường mỗi sáng." }
+          ]
+        }
+      ],
+      "synonyms": ["academy", "institute"],
+      "antonyms": [],
+      "collocations": [
+        "go to school",
+        "primary school",
+        "high school",
+        "after school",
+        "school year"
+      ],
+      "etymology_hint": "From Greek 'skholē' meaning 'leisure for learning', via Latin 'schola'.",
+      "mnemonic_vi": "SCHOOL đọc 'sờ-cu-lờ' — 'Sờ Cu Lê' bé đi đến nơi tập đọc tập viết = trường"
+    },
+    {
+      "word": "classroom",
+      "lemma": "classroom",
+      "ipa": "/ˈklɑːsruːm/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a room in a school where lessons happen",
+          "meaning_vi": "lớp học; phòng học trong trường",
+          "examples": [
+            {
+              "en": "Our classroom has a big window.",
+              "vi": "Lớp học của chúng tôi có cửa sổ lớn."
+            },
+            {
+              "en": "There are 40 students in the classroom.",
+              "vi": "Có 40 học sinh trong lớp học."
+            },
+            { "en": "She decorated the classroom for Tết.", "vi": "Cô trang trí lớp học cho Tết." }
+          ]
+        }
+      ],
+      "synonyms": ["lecture room", "schoolroom"],
+      "antonyms": [],
+      "collocations": [
+        "enter the classroom",
+        "leave the classroom",
+        "in the classroom",
+        "classroom rules",
+        "classroom activity"
+      ],
+      "etymology_hint": "Compound of 'class' (Latin 'classis' = group) + 'room' (Old English 'rūm').",
+      "mnemonic_vi": "CLASSROOM = CLASS (lớp) + ROOM (phòng) → phòng cho 1 lớp = lớp học"
+    },
+    {
+      "word": "student",
+      "lemma": "student",
+      "ipa": "/ˈstjuːdnt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "someone who studies at a school or university",
+          "meaning_vi": "học sinh, sinh viên; người đang đi học",
+          "examples": [
+            {
+              "en": "She is a student at ĐH Bách Khoa.",
+              "vi": "Cô ấy là sinh viên Đại học Bách Khoa."
+            },
+            {
+              "en": "Every student must wear áo dài on Monday.",
+              "vi": "Mỗi học sinh phải mặc áo dài vào thứ Hai."
+            },
+            {
+              "en": "The teacher knows every student by name.",
+              "vi": "Cô giáo biết tên từng học sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pupil", "learner"],
+      "antonyms": ["teacher"],
+      "collocations": [
+        "high school student",
+        "university student",
+        "good student",
+        "exchange student",
+        "student card"
+      ],
+      "etymology_hint": "From Latin 'studens' (present participle of 'studēre' = to be eager, study).",
+      "mnemonic_vi": "STUDENT — 'sờ-tu-đần' → 'STUDY' (học) đến ngu (đần) cũng phải hiểu = học sinh"
+    },
+    {
+      "word": "teacher",
+      "lemma": "teacher",
+      "ipa": "/ˈtiːtʃə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a person who teaches at a school",
+          "meaning_vi": "giáo viên, thầy/cô giáo",
+          "examples": [
+            {
+              "en": "My English teacher is from Hà Nội.",
+              "vi": "Cô giáo tiếng Anh của tôi đến từ Hà Nội."
+            },
+            {
+              "en": "The teacher gave us extra homework.",
+              "vi": "Thầy giao cho chúng tôi thêm bài tập."
+            },
+            {
+              "en": "He wants to be a teacher when he grows up.",
+              "vi": "Cậu ấy muốn làm giáo viên khi lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instructor", "educator", "tutor"],
+      "antonyms": ["student", "pupil"],
+      "collocations": [
+        "English teacher",
+        "math teacher",
+        "head teacher",
+        "teacher training",
+        "favourite teacher"
+      ],
+      "etymology_hint": "From Old English 'tǣcan' meaning 'to show, instruct'.",
+      "mnemonic_vi": "TEACHER = TEACH (dạy) + ER (người) → người dạy = giáo viên"
+    },
+    {
+      "word": "lesson",
+      "lemma": "lesson",
+      "ipa": "/ˈlesn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a period of teaching about a subject",
+          "meaning_vi": "bài học; tiết học",
+          "examples": [
+            {
+              "en": "Today's lesson is about Vietnamese history.",
+              "vi": "Bài học hôm nay về lịch sử Việt Nam."
+            },
+            { "en": "The lesson lasts 45 minutes.", "vi": "Tiết học kéo dài 45 phút." },
+            { "en": "She missed yesterday's math lesson.", "vi": "Cô ấy bỏ lỡ tiết toán hôm qua." }
+          ]
+        }
+      ],
+      "synonyms": ["class", "period"],
+      "antonyms": [],
+      "collocations": [
+        "English lesson",
+        "give a lesson",
+        "take a lesson",
+        "learn a lesson",
+        "private lesson"
+      ],
+      "etymology_hint": "From Old French 'leçon', from Latin 'lectio' meaning 'a reading'.",
+      "mnemonic_vi": "LESSON — 'lét-sần' → 'lét' (lê đi) 'sần' (sần sần) học từ đầu đến cuối = bài học"
+    },
+    {
+      "word": "homework",
+      "lemma": "homework",
+      "ipa": "/ˈhəʊmwɜːk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "school work to do at home",
+          "meaning_vi": "bài tập về nhà",
+          "examples": [
+            {
+              "en": "I have a lot of homework tonight.",
+              "vi": "Tối nay tôi có rất nhiều bài tập về nhà."
+            },
+            {
+              "en": "She finished her homework before dinner.",
+              "vi": "Cô bé làm xong bài tập trước bữa tối."
+            },
+            {
+              "en": "Don't forget to bring your homework tomorrow.",
+              "vi": "Đừng quên mang bài tập ngày mai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assignment"],
+      "antonyms": [],
+      "collocations": [
+        "do homework",
+        "finish homework",
+        "math homework",
+        "homework diary",
+        "give homework"
+      ],
+      "etymology_hint": "Compound of 'home' (Old English 'hām') + 'work' (Old English 'weorc').",
+      "mnemonic_vi": "HOMEWORK = HOME (nhà) + WORK (việc) → việc làm ở nhà = bài tập về nhà"
+    },
+    {
+      "word": "textbook",
+      "lemma": "textbook",
+      "ipa": "/ˈtekstbʊk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a book that students use to study a subject",
+          "meaning_vi": "sách giáo khoa",
+          "examples": [
+            { "en": "Open your textbook to page 50.", "vi": "Mở sách giáo khoa trang 50." },
+            {
+              "en": "I bought a new English textbook at Fahasa.",
+              "vi": "Tôi mua sách giáo khoa tiếng Anh mới ở Fahasa."
+            },
+            {
+              "en": "The textbook explains grammar clearly.",
+              "vi": "Sách giáo khoa giải thích ngữ pháp rõ ràng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coursebook", "schoolbook"],
+      "antonyms": [],
+      "collocations": [
+        "open the textbook",
+        "buy a textbook",
+        "math textbook",
+        "textbook page",
+        "follow the textbook"
+      ],
+      "etymology_hint": "Compound 'text' (Latin 'textus' = woven) + 'book'.",
+      "mnemonic_vi": "TEXTBOOK = TEXT (văn bản) + BOOK (sách) → sách chứa văn bản học = sách giáo khoa"
+    },
+    {
+      "word": "notebook",
+      "lemma": "notebook",
+      "ipa": "/ˈnəʊtbʊk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a book of empty pages for writing notes",
+          "meaning_vi": "vở, sổ tay; quyển vở để ghi chép",
+          "examples": [
+            {
+              "en": "I write English notes in my blue notebook.",
+              "vi": "Tôi ghi ghi chú tiếng Anh trong vở xanh."
+            },
+            {
+              "en": "She lost her math notebook on the bus.",
+              "vi": "Cô ấy đánh rơi vở toán trên xe buýt."
+            },
+            {
+              "en": "Each student needs a new notebook for the term.",
+              "vi": "Mỗi học sinh cần một quyển vở mới cho học kỳ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exercise book", "jotter"],
+      "antonyms": [],
+      "collocations": [
+        "open the notebook",
+        "write in a notebook",
+        "small notebook",
+        "notebook page",
+        "lose a notebook"
+      ],
+      "etymology_hint": "Compound 'note' (Latin 'nota' = mark) + 'book'.",
+      "mnemonic_vi": "NOTEBOOK = NOTE (ghi chú) + BOOK (sách) → sách để ghi chú = vở"
+    },
+    {
+      "word": "pen",
+      "lemma": "pen",
+      "ipa": "/pen/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a thin tool used for writing with ink",
+          "meaning_vi": "bút mực, bút bi; dụng cụ viết bằng mực",
+          "examples": [
+            { "en": "Can I borrow your pen?", "vi": "Cho tôi mượn bút được không?" },
+            { "en": "She signs her name with a blue pen.", "vi": "Cô ấy ký tên bằng bút xanh." },
+            { "en": "The new pen writes very smoothly.", "vi": "Cây bút mới viết rất trơn." }
+          ]
+        }
+      ],
+      "synonyms": ["ballpoint", "biro"],
+      "antonyms": [],
+      "collocations": ["blue pen", "borrow a pen", "click a pen", "pen and paper", "ink pen"],
+      "etymology_hint": "From Latin 'penna' meaning 'feather' — old pens were made of bird feathers.",
+      "mnemonic_vi": "PEN — 'pen' nghe như 'Pần' bé cầm bút viết chữ Pần ra giấy = bút"
+    },
+    {
+      "word": "pencil",
+      "lemma": "pencil",
+      "ipa": "/ˈpensl/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a thin tool for writing or drawing, with a wooden body and grey core",
+          "meaning_vi": "bút chì",
+          "examples": [
+            { "en": "Children draw with colored pencils.", "vi": "Trẻ em vẽ bằng bút chì màu." },
+            {
+              "en": "He sharpened his pencil before the test.",
+              "vi": "Cậu ấy gọt bút chì trước khi thi."
+            },
+            {
+              "en": "I prefer pencil for math because I can erase.",
+              "vi": "Tôi thích bút chì cho toán vì có thể tẩy được."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sharp pencil",
+        "color pencil",
+        "sharpen a pencil",
+        "pencil case",
+        "pencil drawing"
+      ],
+      "etymology_hint": "From Latin 'penicillus' meaning 'little tail' — originally a small brush.",
+      "mnemonic_vi": "PENCIL = PEN (bút) + CIL (giống 'chì') → bút chì"
+    },
+    {
+      "word": "blackboard",
+      "lemma": "blackboard",
+      "ipa": "/ˈblækbɔːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large dark board on a classroom wall for writing on with chalk",
+          "meaning_vi": "bảng đen; bảng phấn trong lớp học",
+          "examples": [
+            {
+              "en": "The teacher wrote the date on the blackboard.",
+              "vi": "Cô giáo viết ngày lên bảng đen."
+            },
+            {
+              "en": "Look at the blackboard, not your phone!",
+              "vi": "Nhìn lên bảng đen, đừng nhìn điện thoại!"
+            },
+            {
+              "en": "He cleaned the blackboard after the lesson.",
+              "vi": "Cậu ấy lau bảng sau giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chalkboard", "board"],
+      "antonyms": ["whiteboard"],
+      "collocations": [
+        "write on the blackboard",
+        "clean the blackboard",
+        "look at the blackboard",
+        "blackboard duster",
+        "old blackboard"
+      ],
+      "etymology_hint": "Compound 'black' + 'board' — literally 'a black board' for chalk writing.",
+      "mnemonic_vi": "BLACKBOARD = BLACK (đen) + BOARD (bảng) → bảng đen"
+    },
+    {
+      "word": "chalk",
+      "lemma": "chalk",
+      "ipa": "/tʃɔːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a soft white stick used for writing on a blackboard",
+          "meaning_vi": "phấn (viết bảng); thanh phấn trắng",
+          "examples": [
+            { "en": "We need more chalk in this room.", "vi": "Phòng này cần thêm phấn." },
+            {
+              "en": "She picked up a piece of chalk and wrote her name.",
+              "vi": "Cô ấy nhặt một viên phấn và viết tên."
+            },
+            { "en": "Chalk dust makes me sneeze.", "vi": "Bụi phấn làm tôi hắt hơi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "a piece of chalk",
+        "white chalk",
+        "chalk dust",
+        "use chalk",
+        "colored chalk"
+      ],
+      "etymology_hint": "From Old English 'cealc' meaning 'lime, plaster'.",
+      "mnemonic_vi": "CHALK — 'chốc' → mảnh trắng viết một 'chốc' lên bảng đen rồi rơi bụi = phấn"
+    },
+    {
+      "word": "desk",
+      "lemma": "desk",
+      "ipa": "/desk/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a table for writing, reading, or studying",
+          "meaning_vi": "bàn (học, làm việc); bàn cá nhân",
+          "examples": [
+            { "en": "My desk is by the window.", "vi": "Bàn học của tôi cạnh cửa sổ." },
+            { "en": "Please sit at your own desk.", "vi": "Xin hãy ngồi ở bàn của mình." },
+            { "en": "She keeps her desk very tidy.", "vi": "Cô ấy giữ bàn rất gọn gàng." }
+          ]
+        }
+      ],
+      "synonyms": ["table", "workstation"],
+      "antonyms": [],
+      "collocations": ["sit at a desk", "tidy desk", "school desk", "writing desk", "front desk"],
+      "etymology_hint": "From Medieval Latin 'desca', from Latin 'discus' meaning 'disk, dish'.",
+      "mnemonic_vi": "DESK — 'đe-sờ-cờ' → 'để sách' lên bàn = bàn học"
+    },
+    {
+      "word": "ruler",
+      "lemma": "ruler",
+      "ipa": "/ˈruːlə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long flat tool used to measure things or draw straight lines",
+          "meaning_vi": "thước kẻ; thanh dài để đo hoặc kẻ thẳng",
+          "examples": [
+            {
+              "en": "Use a ruler to draw a straight line.",
+              "vi": "Dùng thước để kẻ một đường thẳng."
+            },
+            { "en": "Her ruler is 30 centimeters long.", "vi": "Thước của cô ấy dài 30 cm." },
+            { "en": "I forgot my ruler at home today.", "vi": "Hôm nay tôi quên thước ở nhà." }
+          ]
+        }
+      ],
+      "synonyms": ["measure"],
+      "antonyms": [],
+      "collocations": [
+        "use a ruler",
+        "30-centimeter ruler",
+        "wooden ruler",
+        "plastic ruler",
+        "draw with a ruler"
+      ],
+      "etymology_hint": "From 'rule' (Latin 'regula' = straight bar) + '-er' suffix.",
+      "mnemonic_vi": "RULER — 'ru-lờ' → 'ru' (đều) 'lờ' (dài) cây dài đều để kẻ = thước"
+    },
+    {
+      "word": "eraser",
+      "lemma": "eraser",
+      "ipa": "/ɪˈreɪzə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small piece of rubber for removing pencil marks",
+          "meaning_vi": "tẩy, gôm tẩy; cục tẩy bút chì",
+          "examples": [
+            { "en": "Can I borrow your eraser?", "vi": "Cho tôi mượn tẩy được không?" },
+            { "en": "My eraser smells like strawberry.", "vi": "Tẩy của tôi có mùi dâu." },
+            { "en": "She used an eraser to fix her mistake.", "vi": "Cô bé dùng tẩy để sửa lỗi." }
+          ]
+        }
+      ],
+      "synonyms": ["rubber"],
+      "antonyms": [],
+      "collocations": [
+        "use an eraser",
+        "pink eraser",
+        "borrow an eraser",
+        "eraser dust",
+        "soft eraser"
+      ],
+      "etymology_hint": "From Latin 'eradere' meaning 'to scrape out' (e- 'out' + radere 'scrape').",
+      "mnemonic_vi": "ERASER — 'i-rây-sờ' → 'ê, rây sờ' viết sai thì tẩy = cục tẩy"
+    },
+    {
+      "word": "calculator",
+      "lemma": "calculator",
+      "ipa": "/ˈkælkjuleɪtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small electronic machine for doing math",
+          "meaning_vi": "máy tính (cầm tay); máy tính bỏ túi",
+          "examples": [
+            {
+              "en": "Students use a Casio calculator in math exams.",
+              "vi": "Học sinh dùng máy tính Casio trong thi toán."
+            },
+            {
+              "en": "The shop owner counts money with a calculator.",
+              "vi": "Chủ shop tính tiền bằng máy tính bỏ túi."
+            },
+            { "en": "My calculator runs out of battery.", "vi": "Máy tính của tôi hết pin." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use a calculator",
+        "pocket calculator",
+        "scientific calculator",
+        "calculator app",
+        "Casio calculator"
+      ],
+      "etymology_hint": "From Latin 'calculare' (to count) + '-tor' (one who does). 'Calculus' = pebble used to count.",
+      "mnemonic_vi": "CALCULATOR = CALCULATE (tính toán) + OR (máy) → máy tính"
+    },
+    {
+      "word": "dictionary",
+      "lemma": "dictionary",
+      "ipa": "/ˈdɪkʃənri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a book or app that lists words and their meanings",
+          "meaning_vi": "từ điển",
+          "examples": [
+            { "en": "Look up the word in the dictionary.", "vi": "Tra từ trong từ điển." },
+            {
+              "en": "Oxford dictionary is popular among Vietnamese students.",
+              "vi": "Từ điển Oxford phổ biến với học sinh Việt."
+            },
+            {
+              "en": "She bought an electronic dictionary at Vincom.",
+              "vi": "Cô ấy mua từ điển điện tử ở Vincom."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lexicon"],
+      "antonyms": [],
+      "collocations": [
+        "look up in a dictionary",
+        "Oxford dictionary",
+        "English-Vietnamese dictionary",
+        "pocket dictionary",
+        "online dictionary"
+      ],
+      "etymology_hint": "From Medieval Latin 'dictionarium', from 'dictio' (saying, word).",
+      "mnemonic_vi": "DICTIONARY — 'đích-sần-ri' → 'đích' (mục tiêu) tra ra nghĩa = từ điển"
+    },
+    {
+      "word": "library",
+      "lemma": "library",
+      "ipa": "/ˈlaɪbrəri/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a place with many books that people can read or borrow",
+          "meaning_vi": "thư viện",
+          "examples": [
+            {
+              "en": "Thư viện Quốc gia in Hà Nội has a huge library.",
+              "vi": "Thư viện Quốc gia ở Hà Nội có thư viện rất lớn."
+            },
+            { "en": "Please be quiet in the library.", "vi": "Xin giữ yên lặng trong thư viện." },
+            {
+              "en": "I borrowed three novels from the library.",
+              "vi": "Tôi mượn ba quyển tiểu thuyết từ thư viện."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go to the library",
+        "school library",
+        "public library",
+        "library card",
+        "borrow from the library"
+      ],
+      "etymology_hint": "From Latin 'librarium' meaning 'bookcase', from 'liber' (book).",
+      "mnemonic_vi": "LIBRARY — 'lai-bra-ri' → 'lay' sách 'ra' đọc thoải mái = thư viện"
+    },
+    {
+      "word": "principal",
+      "lemma": "principal",
+      "ipa": "/ˈprɪnsəpl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the head of a school",
+          "meaning_vi": "hiệu trưởng",
+          "examples": [
+            {
+              "en": "The principal welcomed new students at the assembly.",
+              "vi": "Hiệu trưởng chào đón học sinh mới trong buổi chào cờ."
+            },
+            {
+              "en": "She was sent to the principal's office.",
+              "vi": "Cô bé bị gọi lên văn phòng hiệu trưởng."
+            },
+            {
+              "en": "Our principal used to teach physics.",
+              "vi": "Hiệu trưởng từng dạy môn vật lý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["headmaster", "headteacher"],
+      "antonyms": [],
+      "collocations": [
+        "school principal",
+        "principal's office",
+        "deputy principal",
+        "new principal",
+        "meet the principal"
+      ],
+      "etymology_hint": "From Latin 'principalis' (first in rank), from 'princeps' (chief, first).",
+      "mnemonic_vi": "PRINCIPAL nghe gần 'prince + pal' — 'hoàng tử' của trường = hiệu trưởng"
+    },
+    {
+      "word": "schoolbag",
+      "lemma": "schoolbag",
+      "ipa": "/ˈskuːlbæɡ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a bag students use to carry books to school",
+          "meaning_vi": "cặp sách (đi học); ba lô đi học",
+          "examples": [
+            {
+              "en": "Her pink schoolbag is full of textbooks.",
+              "vi": "Cặp hồng của cô bé đầy sách giáo khoa."
+            },
+            { "en": "Don't forget your schoolbag tomorrow.", "vi": "Đừng quên cặp sách ngày mai." },
+            {
+              "en": "Mom bought a new schoolbag at AEON Long Biên.",
+              "vi": "Mẹ mua cặp mới ở AEON Long Biên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["backpack", "satchel"],
+      "antonyms": [],
+      "collocations": [
+        "pack a schoolbag",
+        "carry a schoolbag",
+        "open the schoolbag",
+        "heavy schoolbag",
+        "new schoolbag"
+      ],
+      "etymology_hint": "Compound 'school' + 'bag' (Old Norse 'baggi' = bundle).",
+      "mnemonic_vi": "SCHOOLBAG = SCHOOL (trường) + BAG (túi) → túi đi học = cặp"
+    }
+  ]
+}

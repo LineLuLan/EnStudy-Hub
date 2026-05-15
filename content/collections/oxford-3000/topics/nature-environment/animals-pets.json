@@ -1,0 +1,616 @@
+{
+  "slug": "animals-pets",
+  "name": "Animals & Pets",
+  "description": "Vật nuôi trong nhà và động vật hoang dã.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "dog",
+      "lemma": "dog",
+      "ipa": "/dɒɡ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a common pet animal that barks and is often kept for company or guarding",
+          "meaning_vi": "con chó",
+          "examples": [
+            {
+              "en": "My family has a black dog called Đốm.",
+              "vi": "Nhà tôi có một con chó đen tên Đốm."
+            },
+            {
+              "en": "The dog ran around the park in Đà Lạt.",
+              "vi": "Con chó chạy quanh công viên ở Đà Lạt."
+            },
+            { "en": "Dogs are loyal to their owners.", "vi": "Chó trung thành với chủ." }
+          ]
+        }
+      ],
+      "synonyms": ["puppy", "canine"],
+      "antonyms": [],
+      "collocations": ["pet dog", "walk the dog", "guard dog", "stray dog", "dog food"],
+      "etymology_hint": "From Old English 'docga' — origin unclear.",
+      "mnemonic_vi": "DOG nghe gần 'gốc' đảo ngược → bạn 'gốc' của con người = chó"
+    },
+    {
+      "word": "cat",
+      "lemma": "cat",
+      "ipa": "/kæt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small furry animal often kept as a pet that catches mice",
+          "meaning_vi": "con mèo",
+          "examples": [
+            {
+              "en": "My cat sleeps on my pillow at night.",
+              "vi": "Mèo của tôi ngủ trên gối vào ban đêm."
+            },
+            {
+              "en": "The cat caught a mouse in the kitchen.",
+              "vi": "Con mèo bắt được chuột trong bếp."
+            },
+            {
+              "en": "She rescued a stray cat from the alley.",
+              "vi": "Cô ấy cứu một con mèo hoang ngoài hẻm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["kitten", "feline"],
+      "antonyms": [],
+      "collocations": ["black cat", "stray cat", "pet cat", "cat food", "cat litter"],
+      "etymology_hint": "From Latin 'cattus', reaching Old English as 'catt'.",
+      "mnemonic_vi": "CAT — 'két' → nghe 'két két' tiếng mèo gãi = mèo"
+    },
+    {
+      "word": "bird",
+      "lemma": "bird",
+      "ipa": "/bɜːd/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an animal with feathers and wings that can usually fly",
+          "meaning_vi": "con chim",
+          "examples": [
+            {
+              "en": "I hear birds singing every morning.",
+              "vi": "Sáng nào tôi cũng nghe chim hót."
+            },
+            { "en": "The bird made a nest in the tree.", "vi": "Con chim làm tổ trên cây." },
+            {
+              "en": "Many birds fly south for the winter.",
+              "vi": "Nhiều loài chim bay về phương nam vào mùa đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["bird song", "bird nest", "wild bird", "small bird", "bird watching"],
+      "etymology_hint": "From Old English 'bridd' meaning 'young bird'.",
+      "mnemonic_vi": "BIRD — 'bớt' → 'bót' bay bay = chim"
+    },
+    {
+      "word": "fish",
+      "lemma": "fish",
+      "ipa": "/fɪʃ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "an animal that lives in water and has fins for swimming",
+          "meaning_vi": "con cá",
+          "examples": [
+            {
+              "en": "We caught fish at the lake near Hồ Tây.",
+              "vi": "Chúng tôi câu cá ở hồ gần Hồ Tây."
+            },
+            {
+              "en": "He keeps tropical fish in a tank.",
+              "vi": "Cậu ấy nuôi cá nhiệt đới trong bể."
+            },
+            { "en": "Fish swim in the river all year.", "vi": "Cá bơi trong sông quanh năm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["fish tank", "catch a fish", "fresh fish", "tropical fish", "go fishing"],
+      "etymology_hint": "From Old English 'fisc'.",
+      "mnemonic_vi": "FISH — 'phít' → 'phít phít' đuôi quẫy nước = cá"
+    },
+    {
+      "word": "rabbit",
+      "lemma": "rabbit",
+      "ipa": "/ˈræbɪt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small furry animal with long ears that hops",
+          "meaning_vi": "con thỏ",
+          "examples": [
+            {
+              "en": "She has two white rabbits in the garden.",
+              "vi": "Cô ấy có hai con thỏ trắng ngoài vườn."
+            },
+            {
+              "en": "The rabbit eats carrots and lettuce.",
+              "vi": "Con thỏ ăn cà rốt và rau xà lách."
+            },
+            { "en": "Rabbits hop very fast.", "vi": "Thỏ nhảy rất nhanh." }
+          ]
+        }
+      ],
+      "synonyms": ["bunny"],
+      "antonyms": [],
+      "collocations": ["pet rabbit", "rabbit hutch", "wild rabbit", "white rabbit", "rabbit ears"],
+      "etymology_hint": "From Old French 'rabotte' meaning 'young rabbit'.",
+      "mnemonic_vi": "RABBIT — 'rép-bít' → 'ráp bít' đôi tai dài = thỏ"
+    },
+    {
+      "word": "hamster",
+      "lemma": "hamster",
+      "ipa": "/ˈhæmstə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small furry pet rodent with cheek pouches",
+          "meaning_vi": "con chuột hamster (vật nuôi)",
+          "examples": [
+            {
+              "en": "My hamster sleeps all day and plays at night.",
+              "vi": "Hamster của tôi ngủ cả ngày và chơi ban đêm."
+            },
+            {
+              "en": "She bought a hamster cage at PetMart.",
+              "vi": "Cô ấy mua lồng hamster ở PetMart."
+            },
+            {
+              "en": "The hamster ran on its wheel for hours.",
+              "vi": "Con hamster chạy trên bánh xe hàng giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "pet hamster",
+        "hamster cage",
+        "hamster wheel",
+        "hamster food",
+        "Syrian hamster"
+      ],
+      "etymology_hint": "From German 'Hamster', from Old High German 'hamustro'.",
+      "mnemonic_vi": "HAMSTER — 'hâm-tờ' → 'hâm hấp' chạy bánh xe = hamster"
+    },
+    {
+      "word": "horse",
+      "lemma": "horse",
+      "ipa": "/hɔːs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large four-legged animal that people ride or use for work",
+          "meaning_vi": "con ngựa",
+          "examples": [
+            { "en": "He rode a horse in Sa Pa.", "vi": "Cậu ấy cưỡi ngựa ở Sa Pa." },
+            { "en": "Horses are strong and fast.", "vi": "Ngựa khỏe và chạy nhanh." },
+            { "en": "The horse pulled the small cart.", "vi": "Con ngựa kéo chiếc xe nhỏ." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["ride a horse", "wild horse", "race horse", "horse riding", "horse race"],
+      "etymology_hint": "From Old English 'hors'.",
+      "mnemonic_vi": "HORSE — 'hót-sờ' → 'hí hí' tiếng ngựa = ngựa"
+    },
+    {
+      "word": "cow",
+      "lemma": "cow",
+      "ipa": "/kaʊ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large farm animal kept for milk and meat",
+          "meaning_vi": "con bò (cái); bò sữa",
+          "examples": [
+            {
+              "en": "Vinamilk cows live in Mộc Châu.",
+              "vi": "Bò sữa của Vinamilk sống ở Mộc Châu."
+            },
+            { "en": "The cow gives milk every day.", "vi": "Con bò cho sữa mỗi ngày." },
+            { "en": "Cows eat grass in the field.", "vi": "Bò ăn cỏ ngoài đồng." }
+          ]
+        }
+      ],
+      "synonyms": ["cattle"],
+      "antonyms": [],
+      "collocations": ["dairy cow", "cow milk", "cow farm", "feed the cow", "herd of cows"],
+      "etymology_hint": "From Old English 'cū'.",
+      "mnemonic_vi": "COW — 'cao' → 'cao' lớn ngoài đồng cỏ = bò"
+    },
+    {
+      "word": "pig",
+      "lemma": "pig",
+      "ipa": "/pɪɡ/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a fat farm animal with a curly tail, kept for meat",
+          "meaning_vi": "con lợn (heo)",
+          "examples": [
+            {
+              "en": "Vietnamese families raise pigs in the countryside.",
+              "vi": "Gia đình Việt nuôi heo ở nông thôn."
+            },
+            { "en": "The pig sleeps in the mud.", "vi": "Con lợn ngủ trong bùn." },
+            {
+              "en": "Pigs are smarter than many people think.",
+              "vi": "Lợn thông minh hơn nhiều người nghĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hog", "swine"],
+      "antonyms": [],
+      "collocations": ["pig farm", "raise pigs", "fat pig", "pig sty", "wild pig"],
+      "etymology_hint": "Origin unclear, possibly Old English 'picg'.",
+      "mnemonic_vi": "PIG — 'pích' → 'phích' béo tròn = heo"
+    },
+    {
+      "word": "chicken",
+      "lemma": "chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a bird kept on farms for eggs and meat",
+          "meaning_vi": "con gà",
+          "examples": [
+            {
+              "en": "We have ten chickens in our backyard.",
+              "vi": "Nhà tôi có mười con gà sau vườn."
+            },
+            { "en": "The chicken laid two eggs today.", "vi": "Con gà đẻ hai trứng hôm nay." },
+            { "en": "Phở gà uses chicken broth.", "vi": "Phở gà dùng nước dùng gà." }
+          ]
+        }
+      ],
+      "synonyms": ["hen"],
+      "antonyms": [],
+      "collocations": [
+        "raise chickens",
+        "chicken farm",
+        "chicken soup",
+        "fried chicken",
+        "chicken eggs"
+      ],
+      "etymology_hint": "From Old English 'cicen' meaning 'young chicken'.",
+      "mnemonic_vi": "CHICKEN — 'chí-kừn' → 'chiếc cánh' nhỏ = gà"
+    },
+    {
+      "word": "sheep",
+      "lemma": "sheep",
+      "ipa": "/ʃiːp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a farm animal with thick wool, raised for wool and meat",
+          "meaning_vi": "con cừu",
+          "examples": [
+            {
+              "en": "There are sheep farms in Ninh Thuận.",
+              "vi": "Ninh Thuận có những trang trại cừu."
+            },
+            { "en": "The sheep gave thick warm wool.", "vi": "Con cừu cho len ấm dày." },
+            { "en": "She counted sheep to fall asleep.", "vi": "Cô ấy đếm cừu để ngủ." }
+          ]
+        }
+      ],
+      "synonyms": ["lamb"],
+      "antonyms": [],
+      "collocations": ["flock of sheep", "sheep farm", "sheep wool", "black sheep", "count sheep"],
+      "etymology_hint": "From Old English 'scēap' — singular and plural are the same.",
+      "mnemonic_vi": "SHEEP — 'síp' → 'sịp' lông dày phủ kín = cừu"
+    },
+    {
+      "word": "goat",
+      "lemma": "goat",
+      "ipa": "/ɡəʊt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a farm animal with horns and a short tail, kept for milk and meat",
+          "meaning_vi": "con dê",
+          "examples": [
+            {
+              "en": "Goat hot pot is popular in Ninh Bình.",
+              "vi": "Lẩu dê là món nổi tiếng ở Ninh Bình."
+            },
+            { "en": "The goat climbed up the rocky hill.", "vi": "Con dê leo lên đồi đá." },
+            { "en": "Goats eat almost anything green.", "vi": "Dê ăn gần như mọi thứ xanh." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["goat milk", "goat cheese", "mountain goat", "goat farm", "wild goat"],
+      "etymology_hint": "From Old English 'gāt'.",
+      "mnemonic_vi": "GOAT — 'gọt' → 'gọt' sừng cong = dê"
+    },
+    {
+      "word": "mouse",
+      "lemma": "mouse",
+      "ipa": "/maʊs/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small grey or brown animal with a long tail that lives in houses or fields",
+          "meaning_vi": "con chuột (nhỏ)",
+          "examples": [
+            {
+              "en": "A mouse ran across the kitchen floor.",
+              "vi": "Một con chuột chạy qua sàn bếp."
+            },
+            { "en": "We set traps for the mice.", "vi": "Chúng tôi đặt bẫy bắt chuột." },
+            { "en": "The cat watches the mouse hole.", "vi": "Con mèo trông cái hang chuột." }
+          ]
+        }
+      ],
+      "synonyms": ["rodent"],
+      "antonyms": [],
+      "collocations": [
+        "mouse trap",
+        "field mouse",
+        "house mouse",
+        "catch a mouse",
+        "computer mouse"
+      ],
+      "etymology_hint": "From Old English 'mūs'.",
+      "mnemonic_vi": "MOUSE — 'mao-sờ' → 'mau' chạy lủi đi = chuột"
+    },
+    {
+      "word": "snake",
+      "lemma": "snake",
+      "ipa": "/sneɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long thin animal with no legs that slides on the ground",
+          "meaning_vi": "con rắn",
+          "examples": [
+            {
+              "en": "There are many snakes in the Mekong Delta.",
+              "vi": "Có nhiều rắn ở Đồng bằng sông Cửu Long."
+            },
+            {
+              "en": "The snake quietly slid into the bushes.",
+              "vi": "Con rắn lặng lẽ trườn vào bụi cây."
+            },
+            { "en": "Some snakes are venomous.", "vi": "Một số loài rắn có độc." }
+          ]
+        }
+      ],
+      "synonyms": ["serpent"],
+      "antonyms": [],
+      "collocations": ["poisonous snake", "snake bite", "snake skin", "wild snake", "giant snake"],
+      "etymology_hint": "From Old English 'snaca'.",
+      "mnemonic_vi": "SNAKE — 'sờ-nệch' → 'sờ' không cẩn thận 'nệch' (nhếch) cắn = rắn"
+    },
+    {
+      "word": "frog",
+      "lemma": "frog",
+      "ipa": "/frɒɡ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small green or brown animal with long back legs that jumps and lives near water",
+          "meaning_vi": "con ếch",
+          "examples": [
+            {
+              "en": "Frogs croak in the rice fields at night.",
+              "vi": "Ếch kêu trong ruộng lúa vào ban đêm."
+            },
+            { "en": "The frog jumped into the pond.", "vi": "Con ếch nhảy xuống ao." },
+            {
+              "en": "Vietnamese countryside is full of frogs.",
+              "vi": "Quê hương Việt Nam đầy ếch nhái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["toad"],
+      "antonyms": [],
+      "collocations": ["frog jumps", "tree frog", "frog pond", "catch a frog", "frog legs"],
+      "etymology_hint": "From Old English 'frogga'.",
+      "mnemonic_vi": "FROG — 'phờ-rốc' → 'phộc' nhảy phộc một cái = ếch"
+    },
+    {
+      "word": "lion",
+      "lemma": "lion",
+      "ipa": "/ˈlaɪən/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a large strong wild cat with golden fur, called the king of the jungle",
+          "meaning_vi": "con sư tử",
+          "examples": [
+            {
+              "en": "Lions live in Africa, not in Vietnam.",
+              "vi": "Sư tử sống ở Châu Phi, không phải ở Việt Nam."
+            },
+            { "en": "The lion roared loudly at the zoo.", "vi": "Con sư tử gầm to ở vườn thú." },
+            { "en": "Lions hunt in groups.", "vi": "Sư tử săn mồi theo bầy." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["male lion", "lion king", "lion roar", "wild lion", "lion's den"],
+      "etymology_hint": "From Latin 'leo, leonis', via Old French 'lion'.",
+      "mnemonic_vi": "LION — 'lai-ần' → 'lai' (sấm vang) 'ần' (gầm) = sư tử"
+    },
+    {
+      "word": "tiger",
+      "lemma": "tiger",
+      "ipa": "/ˈtaɪɡə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large wild cat with orange fur and black stripes",
+          "meaning_vi": "con hổ",
+          "examples": [
+            {
+              "en": "The Indochinese tiger lives in forests of Vietnam.",
+              "vi": "Hổ Đông Dương sống trong rừng Việt Nam."
+            },
+            { "en": "Tigers are excellent swimmers.", "vi": "Hổ bơi rất giỏi." },
+            {
+              "en": "The tiger is on the Vietnamese zodiac.",
+              "vi": "Hổ là một con giáp của Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wild tiger",
+        "Bengal tiger",
+        "tiger stripes",
+        "tiger reserve",
+        "endangered tiger"
+      ],
+      "etymology_hint": "From Greek 'tigris'.",
+      "mnemonic_vi": "TIGER — 'tai-gờ' → 'tai gờ' (vểnh tai) rình mồi = hổ"
+    },
+    {
+      "word": "elephant",
+      "lemma": "elephant",
+      "ipa": "/ˈelɪfənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the largest land animal, with a long trunk and big ears",
+          "meaning_vi": "con voi",
+          "examples": [
+            {
+              "en": "Wild elephants still live in Đắk Lắk.",
+              "vi": "Voi rừng vẫn còn sống ở Đắk Lắk."
+            },
+            { "en": "The elephant uses its trunk to drink.", "vi": "Voi dùng vòi để uống nước." },
+            {
+              "en": "Bản Đôn is famous for its elephants.",
+              "vi": "Bản Đôn nổi tiếng vì những con voi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wild elephant",
+        "elephant trunk",
+        "Asian elephant",
+        "elephant ride",
+        "baby elephant"
+      ],
+      "etymology_hint": "From Greek 'elephas, elephantos' meaning 'ivory, elephant'.",
+      "mnemonic_vi": "ELEPHANT — 'ê-li-phần' → 'ê li, phần' to nhất rừng = voi"
+    },
+    {
+      "word": "monkey",
+      "lemma": "monkey",
+      "ipa": "/ˈmʌŋki/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a small to medium-sized animal that lives in trees and looks like a small human",
+          "meaning_vi": "con khỉ",
+          "examples": [
+            {
+              "en": "Monkeys live on Son Trà peninsula in Đà Nẵng.",
+              "vi": "Khỉ sống trên bán đảo Sơn Trà ở Đà Nẵng."
+            },
+            {
+              "en": "The monkey stole a banana from the tourist.",
+              "vi": "Con khỉ ăn trộm quả chuối của du khách."
+            },
+            { "en": "Monkeys are smart and curious.", "vi": "Khỉ thông minh và tò mò." }
+          ]
+        }
+      ],
+      "synonyms": ["ape"],
+      "antonyms": [],
+      "collocations": [
+        "wild monkey",
+        "monkey business",
+        "monkey see monkey do",
+        "spider monkey",
+        "baby monkey"
+      ],
+      "etymology_hint": "Origin unclear; possibly from Middle Low German 'Moneke'.",
+      "mnemonic_vi": "MONKEY — 'mâng-ki' → 'mâng' (mân mê) 'ki' (ki kiệu) trên cây = khỉ"
+    },
+    {
+      "word": "dolphin",
+      "lemma": "dolphin",
+      "ipa": "/ˈdɒlfɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a smart sea mammal that looks like a large fish with a long nose",
+          "meaning_vi": "con cá heo",
+          "examples": [
+            {
+              "en": "We saw dolphins jumping near Phú Quốc.",
+              "vi": "Chúng tôi thấy cá heo nhảy gần Phú Quốc."
+            },
+            {
+              "en": "Dolphins are very intelligent animals.",
+              "vi": "Cá heo là loài động vật rất thông minh."
+            },
+            {
+              "en": "The dolphin show was the highlight of the day.",
+              "vi": "Màn biểu diễn cá heo là điểm nhấn của ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wild dolphin",
+        "dolphin show",
+        "swim with dolphins",
+        "smart dolphin",
+        "bottlenose dolphin"
+      ],
+      "etymology_hint": "From Greek 'delphis', possibly related to 'delphys' (womb) since they bear live young.",
+      "mnemonic_vi": "DOLPHIN — 'đôn-phin' → 'đôn' (cao) 'phin' (lướt) sóng = cá heo"
+    }
+  ]
+}
