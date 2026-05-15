@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `b18ecdc`               | base                   | 2026-05-17 (`b18ecdc`) | Tuần 6 chunk 17 onboarding tour (BE + FE merged)          |
-| be     | `081700a`               | 2026-05-17 (`081700a`) | 2026-05-17 (`ddd55bf`) | sync chunk 17 onboarding tour FE                          |
-| fe     | `4e693d8`               | 2026-05-17 (`b47c37f`) | 2026-05-17 (`4e693d8`) | chunk 17 tour modal + layout                              |
+| dev    | `84f5979`               | base                   | 2026-05-15 (`84f5979`) | P1 batch — 7 lessons / 140 cards + 2 topic metas merged   |
+| be     | `9a0d112`               | 2026-05-15 (`3baba2e`) | 2026-05-15 (`9a0d112`) | P1 batch content commit                                   |
+| fe     | `4461ec2`               | 2026-05-15 (`4461ec2`) | 2026-05-17 (`4e693d8`) | sync P1 batch — typecheck/lint/test all green             |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -211,3 +211,6 @@ git checkout fe
 | 2026-05-16 | commit | (T6 ch16 FE) → fe    | `ae64d37` | feat(stats): dashboard week summary card                                  |
 | 2026-05-16 | merge  | fe → dev             | `b1154fb` | bring Tuần 6 chunk 16 week summary to dev                                 |
 | 2026-05-16 | sync   | dev → be             | `413664b` | sync Tuần 6 chunk 16 xuống be                                             |
+| 2026-05-15 | commit | (P1 content) → be    | `9a0d112` | feat(content): add P1 batch — 7 lessons (140 cards) + 2 topic metas       |
+| 2026-05-15 | merge  | be → dev             | `84f5979` | bring P1 batch (7 lessons + 2 metas) to dev — Tuần 2 P1 done              |
+| 2026-05-15 | sync   | dev → fe             | `4461ec2` | sync P1 batch xuống fe — gates green (179/179 tests, lint 0, typecheck 0) |
