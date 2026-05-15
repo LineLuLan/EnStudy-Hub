@@ -1,0 +1,745 @@
+{
+  "slug": "career",
+  "name": "Career",
+  "description": "Sự nghiệp, tuyển dụng và phát triển nghề nghiệp.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "job",
+      "lemma": "job",
+      "ipa": "/dʒɒb/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the work that someone does to earn money",
+          "meaning_vi": "công việc, nghề; việc làm để kiếm tiền",
+          "examples": [
+            {
+              "en": "She got a new job at a tech company.",
+              "vi": "Cô ấy có công việc mới ở công ty công nghệ."
+            },
+            {
+              "en": "I love my job — every day is different.",
+              "vi": "Tôi yêu công việc — mỗi ngày một khác."
+            },
+            { "en": "Finding a good job takes time.", "vi": "Tìm việc tốt mất thời gian." }
+          ]
+        }
+      ],
+      "synonyms": ["work", "position", "occupation"],
+      "antonyms": [],
+      "collocations": ["find a job", "lose a job", "good job", "dream job", "part-time job"],
+      "etymology_hint": "Origin uncertain — possibly from Middle English 'jobbe' (piece of work)",
+      "mnemonic_vi": "JOB đọc 'gióp' — 'GIỌP' (giúp) đỡ bằng việc làm = JOB"
+    },
+    {
+      "word": "career",
+      "lemma": "career",
+      "ipa": "/kəˈrɪə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the long path of jobs someone has in a profession",
+          "meaning_vi": "sự nghiệp; chuỗi công việc lâu dài trong một nghề",
+          "examples": [
+            {
+              "en": "She had a successful career in finance.",
+              "vi": "Cô ấy có sự nghiệp thành công trong tài chính."
+            },
+            {
+              "en": "Many people change careers in their 30s.",
+              "vi": "Nhiều người đổi nghề ở tuổi 30."
+            },
+            {
+              "en": "He built his career step by step.",
+              "vi": "Anh ấy xây dựng sự nghiệp từng bước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["profession", "vocation"],
+      "antonyms": [],
+      "collocations": [
+        "build a career",
+        "career path",
+        "successful career",
+        "change careers",
+        "career goals"
+      ],
+      "etymology_hint": "From French 'carrière' meaning 'racecourse', from Latin 'carrus' (wheeled vehicle)",
+      "mnemonic_vi": "CAREER đọc 'cờ-ria' — 'CỜ' đạt 'RIA' (lâu dài) = sự nghiệp"
+    },
+    {
+      "word": "hire",
+      "lemma": "hire",
+      "ipa": "/haɪə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give someone a job; to employ",
+          "meaning_vi": "thuê, tuyển dụng; nhận ai vào làm việc",
+          "examples": [
+            {
+              "en": "The company hired 50 new engineers last month.",
+              "vi": "Công ty thuê 50 kỹ sư mới tháng trước."
+            },
+            {
+              "en": "We need to hire someone for the marketing team.",
+              "vi": "Chúng tôi cần thuê người cho nhóm marketing."
+            },
+            {
+              "en": "She was hired right after the interview.",
+              "vi": "Cô ấy được tuyển ngay sau phỏng vấn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["employ", "recruit", "take on"],
+      "antonyms": ["fire", "dismiss"],
+      "collocations": [
+        "hire someone",
+        "hire staff",
+        "newly hired",
+        "looking to hire",
+        "hire a freelancer"
+      ],
+      "etymology_hint": "From Old English 'hȳrian' meaning 'to employ for wages'",
+      "mnemonic_vi": "HIRE đọc 'hai-ơ' — 'HAI' (hi) 'ƠI' chào nhân viên mới = thuê"
+    },
+    {
+      "word": "fire",
+      "lemma": "fire",
+      "ipa": "/faɪə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to dismiss someone from a job, usually for bad behaviour or poor performance",
+          "meaning_vi": "sa thải, đuổi việc; cho thôi việc vì lý do xấu hoặc làm kém",
+          "examples": [
+            {
+              "en": "He was fired for arriving late every day.",
+              "vi": "Anh ta bị sa thải vì ngày nào cũng đến muộn."
+            },
+            {
+              "en": "The CEO fired three managers last week.",
+              "vi": "CEO sa thải ba quản lý tuần trước."
+            },
+            {
+              "en": "She was afraid of being fired during the cuts.",
+              "vi": "Cô ấy sợ bị sa thải trong đợt cắt giảm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dismiss", "sack", "let go"],
+      "antonyms": ["hire", "employ"],
+      "collocations": [
+        "fire someone",
+        "get fired",
+        "fire for cause",
+        "wrongfully fired",
+        "fire workers"
+      ],
+      "etymology_hint": "From the literal 'fire' — sense extended to 'discharge' from a job",
+      "mnemonic_vi": "FIRE đọc 'phai-ơ' — 'PHAI' (như phai màu) hồ sơ nhân viên = sa thải"
+    },
+    {
+      "word": "resign",
+      "lemma": "resign",
+      "ipa": "/rɪˈzaɪn/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to leave a job because you want to",
+          "meaning_vi": "từ chức, xin nghỉ việc; tự nguyện rời khỏi công việc",
+          "examples": [
+            {
+              "en": "She resigned to start her own business.",
+              "vi": "Cô ấy xin nghỉ để khởi nghiệp."
+            },
+            { "en": "He resigned after the scandal.", "vi": "Anh ấy từ chức sau vụ bê bối." },
+            {
+              "en": "Many young workers resign within a year.",
+              "vi": "Nhiều nhân viên trẻ nghỉ việc trong vòng một năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quit", "step down", "leave"],
+      "antonyms": ["stay", "join"],
+      "collocations": [
+        "resign from",
+        "officially resign",
+        "resign in protest",
+        "resign quietly",
+        "force to resign"
+      ],
+      "etymology_hint": "From Latin 'resignare' = 're-' (back) + 'signare' (sign) — 'unsign, cancel'",
+      "mnemonic_vi": "RESIGN chứa 'SIGN' (ký) — 'RÚT' lại 'KÝ' = từ chức"
+    },
+    {
+      "word": "promote",
+      "lemma": "promote",
+      "ipa": "/prəˈməʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give someone a higher position at work",
+          "meaning_vi": "thăng chức; cho ai vị trí cao hơn",
+          "examples": [
+            {
+              "en": "She was promoted to senior manager last month.",
+              "vi": "Cô ấy được thăng làm quản lý cao cấp tháng trước."
+            },
+            {
+              "en": "Hard work helps you get promoted.",
+              "vi": "Chăm chỉ giúp bạn được thăng chức."
+            },
+            {
+              "en": "He was promoted from intern to full-time employee.",
+              "vi": "Anh ấy được thăng từ thực tập sinh lên nhân viên chính thức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advance", "upgrade"],
+      "antonyms": ["demote", "downgrade"],
+      "collocations": [
+        "promote someone",
+        "get promoted",
+        "internally promote",
+        "promote to",
+        "deserve to be promoted"
+      ],
+      "etymology_hint": "From Latin 'promovere' = 'pro-' (forward) + 'movere' (move)",
+      "mnemonic_vi": "PROMOTE chứa 'PRO' (chuyên nghiệp) + 'MOTE' — chuyển lên 'PRO' hơn = thăng chức"
+    },
+    {
+      "word": "demote",
+      "lemma": "demote",
+      "ipa": "/diːˈməʊt/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to move someone to a lower position at work, usually as punishment",
+          "meaning_vi": "giáng chức, hạ cấp; chuyển ai xuống vị trí thấp hơn",
+          "examples": [
+            {
+              "en": "He was demoted after making serious mistakes.",
+              "vi": "Anh ấy bị giáng chức sau khi mắc lỗi nghiêm trọng."
+            },
+            {
+              "en": "The manager was demoted to a regular employee.",
+              "vi": "Quản lý bị giáng xuống làm nhân viên thường."
+            },
+            {
+              "en": "Demotion is rare in this company.",
+              "vi": "Việc giáng chức hiếm gặp ở công ty này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["downgrade", "relegate"],
+      "antonyms": ["promote", "advance"],
+      "collocations": [
+        "demote someone",
+        "get demoted",
+        "demoted from",
+        "demoted to",
+        "publicly demote"
+      ],
+      "etymology_hint": "Prefix 'de-' (down) + 'mote' (from 'promote')",
+      "mnemonic_vi": "DEMOTE = DE (xuống) + MOTE: 'xuống chức' = giáng chức"
+    },
+    {
+      "word": "qualification",
+      "lemma": "qualification",
+      "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a skill, education, or experience that makes someone able to do a job",
+          "meaning_vi": "bằng cấp, năng lực; kỹ năng, học vấn hoặc kinh nghiệm phù hợp cho công việc",
+          "examples": [
+            {
+              "en": "She has all the qualifications for the job.",
+              "vi": "Cô ấy có đủ năng lực cho công việc."
+            },
+            {
+              "en": "What qualifications do you need to become a doctor?",
+              "vi": "Cần bằng cấp gì để trở thành bác sĩ?"
+            },
+            {
+              "en": "His qualifications include a master's degree.",
+              "vi": "Bằng cấp của anh ấy gồm bằng thạc sĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["credential", "diploma"],
+      "antonyms": [],
+      "collocations": [
+        "academic qualification",
+        "professional qualification",
+        "necessary qualifications",
+        "list qualifications",
+        "earn a qualification"
+      ],
+      "etymology_hint": "From 'qualify' (Latin 'qualis' = of what kind) + '-ation'",
+      "mnemonic_vi": "QUALIFICATION chứa 'QUALITY' (chất lượng) — chất lượng đủ = năng lực"
+    },
+    {
+      "word": "experience",
+      "lemma": "experience",
+      "ipa": "/ɪkˈspɪə.ri.əns/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the knowledge or skill you get from doing something for a long time",
+          "meaning_vi": "kinh nghiệm; kiến thức hoặc kỹ năng có được từ làm lâu",
+          "examples": [
+            {
+              "en": "She has ten years of experience as a designer.",
+              "vi": "Cô ấy có 10 năm kinh nghiệm làm thiết kế."
+            },
+            {
+              "en": "Experience matters more than degrees sometimes.",
+              "vi": "Đôi khi kinh nghiệm quan trọng hơn bằng cấp."
+            },
+            { "en": "It was an unforgettable experience.", "vi": "Đó là trải nghiệm khó quên." }
+          ]
+        }
+      ],
+      "synonyms": ["expertise", "background"],
+      "antonyms": ["inexperience"],
+      "collocations": [
+        "work experience",
+        "years of experience",
+        "valuable experience",
+        "gain experience",
+        "previous experience"
+      ],
+      "etymology_hint": "From Latin 'experientia' meaning 'a trial, test', from 'experiri' (try)",
+      "mnemonic_vi": "EXPERIENCE chứa 'EXPERT' — có 'EXPERT' qua thời gian = kinh nghiệm"
+    },
+    {
+      "word": "skill",
+      "lemma": "skill",
+      "ipa": "/skɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to do something well, usually learned through practice",
+          "meaning_vi": "kỹ năng; khả năng làm tốt việc gì, thường có qua tập luyện",
+          "examples": [
+            {
+              "en": "Communication skills are important in any job.",
+              "vi": "Kỹ năng giao tiếp quan trọng trong mọi công việc."
+            },
+            {
+              "en": "She has excellent cooking skills.",
+              "vi": "Cô ấy có kỹ năng nấu ăn xuất sắc."
+            },
+            {
+              "en": "Soft skills can take you far in your career.",
+              "vi": "Kỹ năng mềm có thể đưa bạn đi xa trong sự nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ability", "talent", "expertise"],
+      "antonyms": [],
+      "collocations": [
+        "soft skills",
+        "hard skills",
+        "develop a skill",
+        "learn a skill",
+        "communication skills"
+      ],
+      "etymology_hint": "From Old Norse 'skil' meaning 'distinction, discernment'",
+      "mnemonic_vi": "SKILL đọc 'sờ-kiu' — 'SỜ' nhuyễn 'KIỂU' nào cũng giỏi = kỹ năng"
+    },
+    {
+      "word": "training",
+      "lemma": "training",
+      "ipa": "/ˈtreɪ.nɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the process of learning the skills needed for a job",
+          "meaning_vi": "việc đào tạo, tập huấn; quá trình học kỹ năng cần cho công việc",
+          "examples": [
+            {
+              "en": "New employees receive two weeks of training.",
+              "vi": "Nhân viên mới được đào tạo hai tuần."
+            },
+            {
+              "en": "She completed her medical training in Hanoi.",
+              "vi": "Cô ấy hoàn thành đào tạo y khoa ở Hà Nội."
+            },
+            {
+              "en": "Training programs help workers improve.",
+              "vi": "Chương trình đào tạo giúp người lao động giỏi hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instruction", "preparation"],
+      "antonyms": [],
+      "collocations": [
+        "job training",
+        "training course",
+        "training program",
+        "in training",
+        "training session"
+      ],
+      "etymology_hint": "From 'train' (Old French 'trahiner' = drag, draw out) + '-ing'",
+      "mnemonic_vi": "TRAINING chứa 'TRAIN' (luyện tập) — đang TRAIN = đang TRAINING"
+    },
+    {
+      "word": "interview",
+      "lemma": "interview",
+      "ipa": "/ˈɪn.tə.vjuː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a meeting where someone asks you questions for a job, school, or news article",
+          "meaning_vi": "phỏng vấn; cuộc gặp để hỏi câu hỏi cho công việc, học hoặc bài báo",
+          "examples": [
+            {
+              "en": "I have a job interview tomorrow at 10 AM.",
+              "vi": "Tôi có buổi phỏng vấn xin việc ngày mai 10 giờ sáng."
+            },
+            { "en": "She passed the interview easily.", "vi": "Cô ấy vượt qua phỏng vấn dễ dàng." },
+            {
+              "en": "The CEO gave an interview to the local newspaper.",
+              "vi": "CEO trả lời phỏng vấn báo địa phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meeting"],
+      "antonyms": [],
+      "collocations": [
+        "job interview",
+        "pass an interview",
+        "fail an interview",
+        "give an interview",
+        "online interview"
+      ],
+      "etymology_hint": "From Old French 'entrevue' = 'entre-' (between) + 'voir' (see) — 'see between each other'",
+      "mnemonic_vi": "INTERVIEW = INTER + VIEW: 'nhìn giữa' = phỏng vấn"
+    },
+    {
+      "word": "resume",
+      "lemma": "resume",
+      "ipa": "/ˈrez.juː.meɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short written summary of your education, work experience, and skills",
+          "meaning_vi": "sơ yếu lý lịch, CV; bản tóm tắt học vấn, kinh nghiệm và kỹ năng",
+          "examples": [
+            { "en": "Please send your resume by email.", "vi": "Vui lòng gửi CV qua email." },
+            {
+              "en": "Update your resume before applying for jobs.",
+              "vi": "Cập nhật CV trước khi xin việc."
+            },
+            {
+              "en": "Her resume showed strong qualifications.",
+              "vi": "CV của cô ấy thể hiện năng lực mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["CV", "curriculum vitae"],
+      "antonyms": [],
+      "collocations": [
+        "send a resume",
+        "update resume",
+        "resume builder",
+        "attach resume",
+        "professional resume"
+      ],
+      "etymology_hint": "From French 'résumé' meaning 'summary'",
+      "mnemonic_vi": "RESUME âm khác động từ 'tiếp tục' — danh từ này đọc 'rê-zu-mê' = CV"
+    },
+    {
+      "word": "contract",
+      "lemma": "contract",
+      "ipa": "/ˈkɒn.trækt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a legal agreement between two parties, often about work",
+          "meaning_vi": "hợp đồng; thoả thuận pháp lý giữa hai bên, thường về công việc",
+          "examples": [
+            {
+              "en": "Read the contract carefully before signing.",
+              "vi": "Đọc kỹ hợp đồng trước khi ký."
+            },
+            { "en": "Her contract is for two years.", "vi": "Hợp đồng của cô ấy kéo dài hai năm." },
+            {
+              "en": "Breaking a contract can cost you money.",
+              "vi": "Vi phạm hợp đồng có thể tốn tiền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agreement", "deal"],
+      "antonyms": [],
+      "collocations": [
+        "sign a contract",
+        "contract employee",
+        "break a contract",
+        "renew a contract",
+        "rental contract"
+      ],
+      "etymology_hint": "From Latin 'contractus' meaning 'a drawing together', from 'contrahere' (bring together)",
+      "mnemonic_vi": "CONTRACT chứa 'TRACT' (kéo) — 'KÉO' hai bên về cùng = hợp đồng"
+    },
+    {
+      "word": "full-time",
+      "lemma": "full-time",
+      "ipa": "/ˌfʊlˈtaɪm/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "working all the normal hours of the week, usually 40 hours",
+          "meaning_vi": "toàn thời gian; làm đủ số giờ trong tuần, thường 40 giờ",
+          "examples": [
+            {
+              "en": "She works full-time at a hospital.",
+              "vi": "Cô ấy làm toàn thời gian ở bệnh viện."
+            },
+            {
+              "en": "Full-time employees get health insurance.",
+              "vi": "Nhân viên toàn thời gian có bảo hiểm y tế."
+            },
+            {
+              "en": "He went from part-time to full-time last year.",
+              "vi": "Anh ấy chuyển từ bán thời gian sang toàn thời gian năm ngoái."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["part-time"],
+      "collocations": [
+        "full-time job",
+        "full-time employee",
+        "full-time student",
+        "work full-time",
+        "full-time hours"
+      ],
+      "etymology_hint": "Compound: 'full' + 'time'",
+      "mnemonic_vi": "FULL-TIME = FULL + TIME: 'đầy thời gian' = toàn thời gian"
+    },
+    {
+      "word": "part-time",
+      "lemma": "part-time",
+      "ipa": "/ˌpɑːtˈtaɪm/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "working less than the normal full-time hours",
+          "meaning_vi": "bán thời gian; làm ít hơn số giờ toàn thời gian",
+          "examples": [
+            {
+              "en": "She works part-time while studying at university.",
+              "vi": "Cô ấy làm bán thời gian khi đang học đại học."
+            },
+            {
+              "en": "Part-time jobs are popular among students.",
+              "vi": "Việc bán thời gian phổ biến với sinh viên."
+            },
+            {
+              "en": "He has a part-time gig as a tutor.",
+              "vi": "Anh ấy có công việc bán thời gian làm gia sư."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["full-time"],
+      "collocations": [
+        "part-time job",
+        "part-time employee",
+        "part-time student",
+        "work part-time",
+        "part-time work"
+      ],
+      "etymology_hint": "Compound: 'part' + 'time'",
+      "mnemonic_vi": "PART-TIME = PART + TIME: 'một phần thời gian' = bán thời gian"
+    },
+    {
+      "word": "remote",
+      "lemma": "remote",
+      "ipa": "/rɪˈməʊt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "working from home or away from the office",
+          "meaning_vi": "làm từ xa; làm tại nhà hoặc không ở văn phòng",
+          "examples": [
+            {
+              "en": "Many people prefer remote work after COVID.",
+              "vi": "Nhiều người thích làm việc từ xa sau dịch COVID."
+            },
+            {
+              "en": "She has a remote job with a US company.",
+              "vi": "Cô ấy có công việc remote với công ty Mỹ."
+            },
+            {
+              "en": "Remote work saves commuting time.",
+              "vi": "Làm việc từ xa tiết kiệm thời gian di chuyển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["work-from-home", "telecommute"],
+      "antonyms": ["in-office", "on-site"],
+      "collocations": [
+        "remote work",
+        "remote job",
+        "fully remote",
+        "remote team",
+        "remote employee"
+      ],
+      "etymology_hint": "From Latin 'remotus' meaning 'far away, distant', from 'removere' (remove)",
+      "mnemonic_vi": "REMOTE đọc 'ri-mâu' — 'RỜI' MAY (mà) làm xa = làm từ xa"
+    },
+    {
+      "word": "network",
+      "lemma": "network",
+      "ipa": "/ˈnet.wɜːk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to meet new people who might help you in your career",
+          "meaning_vi": "mở rộng quan hệ; gặp gỡ người mới có thể giúp đỡ sự nghiệp",
+          "examples": [
+            {
+              "en": "She networks at industry events to find clients.",
+              "vi": "Cô ấy networking tại sự kiện ngành để tìm khách hàng."
+            },
+            {
+              "en": "Networking is important for finding new jobs.",
+              "vi": "Networking quan trọng để tìm việc mới."
+            },
+            {
+              "en": "He networked with many people on LinkedIn.",
+              "vi": "Anh ấy mở rộng quan hệ với nhiều người trên LinkedIn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["connect", "socialize"],
+      "antonyms": [],
+      "collocations": [
+        "network with",
+        "professional network",
+        "network event",
+        "network actively",
+        "expand network"
+      ],
+      "etymology_hint": "Compound: 'net' (mesh) + 'work' — original sense 'mesh of threads'",
+      "mnemonic_vi": "NETWORK = NET + WORK: 'lưới làm việc' = mạng quan hệ"
+    },
+    {
+      "word": "mentor",
+      "lemma": "mentor",
+      "ipa": "/ˈmen.tɔː(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an experienced person who gives advice to someone less experienced",
+          "meaning_vi": "người cố vấn, người hướng dẫn; người có kinh nghiệm chỉ dẫn người ít kinh nghiệm",
+          "examples": [
+            {
+              "en": "My mentor at work helped me grow a lot.",
+              "vi": "Người cố vấn ở chỗ làm giúp tôi tiến bộ nhiều."
+            },
+            {
+              "en": "Finding a good mentor is invaluable.",
+              "vi": "Tìm được mentor tốt là vô giá."
+            },
+            {
+              "en": "She volunteers as a mentor for young women in tech.",
+              "vi": "Cô ấy tình nguyện làm mentor cho phụ nữ trẻ trong ngành công nghệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advisor", "guide", "coach"],
+      "antonyms": ["mentee"],
+      "collocations": [
+        "find a mentor",
+        "career mentor",
+        "mentor someone",
+        "trusted mentor",
+        "mentor-mentee"
+      ],
+      "etymology_hint": "From Greek 'Mentōr', the wise advisor of Telemachus in Homer's Odyssey",
+      "mnemonic_vi": "MENTOR đọc 'men-tô' — 'MEN' nhân vật cổ Hy Lạp + 'TỔ' (tổ tiên) chỉ đường = cố vấn"
+    },
+    {
+      "word": "retire",
+      "lemma": "retire",
+      "ipa": "/rɪˈtaɪə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop working completely, usually because of age",
+          "meaning_vi": "nghỉ hưu, về hưu; ngừng làm việc, thường do tuổi tác",
+          "examples": [
+            {
+              "en": "He plans to retire at 60 and move to Da Lat.",
+              "vi": "Anh ấy dự định về hưu ở tuổi 60 và chuyển đến Đà Lạt."
+            },
+            {
+              "en": "Many Vietnamese workers retire and then start small businesses.",
+              "vi": "Nhiều người Việt nghỉ hưu rồi mở doanh nghiệp nhỏ."
+            },
+            {
+              "en": "She retired after 35 years of teaching.",
+              "vi": "Cô ấy nghỉ hưu sau 35 năm dạy học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["step down", "withdraw"],
+      "antonyms": ["start working"],
+      "collocations": [
+        "retire early",
+        "retire from",
+        "retired teacher",
+        "retirement age",
+        "plan to retire"
+      ],
+      "etymology_hint": "From French 'retirer' = 're-' (back) + 'tirer' (draw)",
+      "mnemonic_vi": "RETIRE chứa 'TIRE' (mệt) — quá mệt thì 'TIRE' nghỉ = về hưu"
+    }
+  ]
+}

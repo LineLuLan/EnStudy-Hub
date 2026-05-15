@@ -1,0 +1,730 @@
+{
+  "slug": "hotel-restaurant",
+  "name": "Hotel & Restaurant",
+  "description": "Từ vựng giao tiếp khi đặt phòng và đi ăn nhà hàng.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "reservation",
+      "lemma": "reservation",
+      "ipa": "/ˌrez.əˈveɪ.ʃən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an arrangement to keep a room, table, or seat for you",
+          "meaning_vi": "đặt chỗ, đặt trước; sắp xếp giữ phòng, bàn hoặc ghế cho bạn",
+          "examples": [
+            {
+              "en": "I'd like to make a reservation for two at 7 PM.",
+              "vi": "Tôi muốn đặt bàn cho hai người lúc 7 giờ tối."
+            },
+            {
+              "en": "She made a hotel reservation through Agoda.",
+              "vi": "Cô ấy đặt phòng khách sạn qua Agoda."
+            },
+            {
+              "en": "Sorry, your reservation has been cancelled.",
+              "vi": "Xin lỗi, đặt chỗ của bạn đã bị huỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["booking", "appointment"],
+      "antonyms": ["cancellation"],
+      "collocations": [
+        "make a reservation",
+        "hotel reservation",
+        "table reservation",
+        "confirm reservation",
+        "cancel reservation"
+      ],
+      "etymology_hint": "From Latin 'reservare' = 're-' (back) + 'servare' (keep)",
+      "mnemonic_vi": "RESERVATION chứa 'SERVE' (phục vụ) — giữ chỗ để 'SERVE' = đặt trước"
+    },
+    {
+      "word": "check-in",
+      "lemma": "check in",
+      "ipa": "/ˈtʃek.ɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the act of reporting your arrival at a hotel, airport, or event",
+          "meaning_vi": "nhận phòng, làm thủ tục; báo cáo đã đến nơi tại khách sạn, sân bay",
+          "examples": [
+            {
+              "en": "Check-in time at the hotel is 2 PM.",
+              "vi": "Giờ nhận phòng tại khách sạn là 2 giờ chiều."
+            },
+            {
+              "en": "Online check-in saves time at the airport.",
+              "vi": "Làm thủ tục online giúp tiết kiệm thời gian ở sân bay."
+            },
+            {
+              "en": "She arrived early but couldn't check in until 3.",
+              "vi": "Cô ấy đến sớm nhưng không thể nhận phòng đến 3 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["registration"],
+      "antonyms": ["check-out"],
+      "collocations": [
+        "check-in time",
+        "online check-in",
+        "check-in counter",
+        "early check-in",
+        "self check-in"
+      ],
+      "etymology_hint": "Phrasal compound: 'check' (verify) + 'in' (entering)",
+      "mnemonic_vi": "CHECK IN = CHECK + IN: 'kiểm tra' + 'vào' = nhận phòng/làm thủ tục"
+    },
+    {
+      "word": "check-out",
+      "lemma": "check out",
+      "ipa": "/ˈtʃek.aʊt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the act of leaving a hotel after paying the bill",
+          "meaning_vi": "trả phòng; rời khỏi khách sạn sau khi thanh toán",
+          "examples": [
+            { "en": "Check-out is before noon.", "vi": "Trả phòng trước 12 giờ trưa." },
+            {
+              "en": "We had a quick check-out and headed to the airport.",
+              "vi": "Chúng tôi trả phòng nhanh rồi đi sân bay."
+            },
+            {
+              "en": "The express check-out lets you skip the queue.",
+              "vi": "Trả phòng nhanh giúp bạn không phải xếp hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["check-in"],
+      "collocations": [
+        "check-out time",
+        "express check-out",
+        "late check-out",
+        "self check-out",
+        "check-out desk"
+      ],
+      "etymology_hint": "Phrasal compound: 'check' + 'out' (leaving)",
+      "mnemonic_vi": "CHECK OUT = CHECK + OUT: 'kiểm tra' + 'ra' = trả phòng"
+    },
+    {
+      "word": "room-service",
+      "lemma": "room service",
+      "ipa": "/ˈruːm ˌsɜː.vɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a service in a hotel that brings food and drinks to your room",
+          "meaning_vi": "dịch vụ phòng; dịch vụ khách sạn mang đồ ăn uống lên phòng",
+          "examples": [
+            {
+              "en": "We ordered room service after a long day of sightseeing.",
+              "vi": "Chúng tôi gọi dịch vụ phòng sau một ngày dài tham quan."
+            },
+            {
+              "en": "Room service is available 24 hours at this hotel.",
+              "vi": "Dịch vụ phòng có 24 giờ tại khách sạn này."
+            },
+            {
+              "en": "Tip the room service staff if they're helpful.",
+              "vi": "Hãy tip nhân viên dịch vụ phòng nếu họ nhiệt tình."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "order room service",
+        "24-hour room service",
+        "room service menu",
+        "call room service",
+        "room service tip"
+      ],
+      "etymology_hint": "Compound: 'room' + 'service'",
+      "mnemonic_vi": "ROOM SERVICE = phòng + phục vụ: phục vụ tận phòng"
+    },
+    {
+      "word": "menu",
+      "lemma": "menu",
+      "ipa": "/ˈmen.juː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a list of the food and drinks that you can order in a restaurant",
+          "meaning_vi": "thực đơn; danh sách đồ ăn và uống có thể gọi ở nhà hàng",
+          "examples": [
+            { "en": "Can I see the menu, please?", "vi": "Cho tôi xem thực đơn được không?" },
+            {
+              "en": "The menu has many traditional Vietnamese dishes.",
+              "vi": "Thực đơn có nhiều món Việt truyền thống."
+            },
+            {
+              "en": "She always asks for the children's menu.",
+              "vi": "Cô ấy luôn xin thực đơn trẻ em."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bill of fare"],
+      "antonyms": [],
+      "collocations": ["on the menu", "see the menu", "lunch menu", "set menu", "menu items"],
+      "etymology_hint": "From French 'menu' meaning 'small, detailed' — small list of dishes",
+      "mnemonic_vi": "MENU đọc 'me-niu' — 'MÊ' (mê đắm) 'NIU' (níu) bao món ngon = thực đơn"
+    },
+    {
+      "word": "order",
+      "lemma": "order",
+      "ipa": "/ˈɔː.də(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to ask for food, drink, or goods in a restaurant or shop",
+          "meaning_vi": "gọi món, đặt mua; yêu cầu đồ ăn, uống hoặc hàng ở nhà hàng/cửa hàng",
+          "examples": [
+            {
+              "en": "We ordered phở and spring rolls for lunch.",
+              "vi": "Chúng tôi gọi phở và nem cho bữa trưa."
+            },
+            { "en": "I'd like to order a coffee, please.", "vi": "Tôi muốn gọi một ly cà phê." },
+            {
+              "en": "She ordered shoes online from Shopee.",
+              "vi": "Cô ấy đặt giày online qua Shopee."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["request", "ask for", "book"],
+      "antonyms": ["cancel"],
+      "collocations": [
+        "order food",
+        "place an order",
+        "order online",
+        "take an order",
+        "ready to order"
+      ],
+      "etymology_hint": "From Latin 'ordo' meaning 'row, arrangement'",
+      "mnemonic_vi": "ORDER đọc 'ô-đờ' — 'Ô' nhân viên 'ĐỜ' tay ghi đơn = gọi món"
+    },
+    {
+      "word": "waiter",
+      "lemma": "waiter",
+      "ipa": "/ˈweɪ.tə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a man who serves food and drinks in a restaurant",
+          "meaning_vi": "nam bồi bàn; người đàn ông phục vụ đồ ăn uống ở nhà hàng",
+          "examples": [
+            {
+              "en": "The waiter recommended the seafood special.",
+              "vi": "Anh bồi bàn gợi ý món hải sản đặc biệt."
+            },
+            {
+              "en": "Could you call the waiter — I need the bill.",
+              "vi": "Bạn gọi giúp bồi bàn — tôi cần tính tiền."
+            },
+            {
+              "en": "He worked as a waiter while studying at university.",
+              "vi": "Anh ấy làm bồi bàn lúc còn học đại học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["server", "attendant"],
+      "antonyms": ["customer"],
+      "collocations": [
+        "call the waiter",
+        "friendly waiter",
+        "head waiter",
+        "tip the waiter",
+        "wait on tables"
+      ],
+      "etymology_hint": "From 'wait' (Old French 'waitier' = watch, attend) + '-er'",
+      "mnemonic_vi": "WAITER chứa 'WAIT' (chờ) — người 'CHỜ' bạn gọi món = bồi bàn"
+    },
+    {
+      "word": "chef",
+      "lemma": "chef",
+      "ipa": "/ʃef/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a professional cook, especially the head cook in a restaurant",
+          "meaning_vi": "đầu bếp, bếp trưởng; người nấu ăn chuyên nghiệp",
+          "examples": [
+            {
+              "en": "The chef at this restaurant trained in France.",
+              "vi": "Bếp trưởng nhà hàng này được đào tạo ở Pháp."
+            },
+            {
+              "en": "She dreams of becoming a chef one day.",
+              "vi": "Cô ấy mơ ước trở thành đầu bếp một ngày nào đó."
+            },
+            {
+              "en": "The chef's special tonight is grilled fish.",
+              "vi": "Món đặc biệt của bếp trưởng tối nay là cá nướng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cook", "chef de cuisine"],
+      "antonyms": [],
+      "collocations": [
+        "head chef",
+        "chef's special",
+        "celebrity chef",
+        "pastry chef",
+        "executive chef"
+      ],
+      "etymology_hint": "From French 'chef' meaning 'chief, head' — short for 'chef de cuisine' (head of kitchen)",
+      "mnemonic_vi": "CHEF đọc 'sép' — 'SẾP' của bếp = đầu bếp trưởng"
+    },
+    {
+      "word": "bill",
+      "lemma": "bill",
+      "ipa": "/bɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of paper showing how much you have to pay for goods or services",
+          "meaning_vi": "hoá đơn; tờ giấy ghi số tiền phải trả",
+          "examples": [
+            { "en": "Can I have the bill, please?", "vi": "Cho tôi xin hoá đơn nhé." },
+            {
+              "en": "The bill came to 500,000 đồng for four people.",
+              "vi": "Hoá đơn tổng cộng 500.000 đồng cho bốn người."
+            },
+            { "en": "Let's split the bill three ways.", "vi": "Mình chia hoá đơn làm ba phần đi." }
+          ]
+        }
+      ],
+      "synonyms": ["check", "invoice", "tab"],
+      "antonyms": [],
+      "collocations": [
+        "pay the bill",
+        "split the bill",
+        "ask for the bill",
+        "phone bill",
+        "electricity bill"
+      ],
+      "etymology_hint": "From Medieval Latin 'billa' meaning 'document, seal'",
+      "mnemonic_vi": "BILL đọc 'biu' — 'BIÊU' (biểu) số tiền phải trả = hoá đơn"
+    },
+    {
+      "word": "tip",
+      "lemma": "tip",
+      "ipa": "/tɪp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small amount of money you give to a waiter or driver as thanks",
+          "meaning_vi": "tiền boa, tiền tip; khoản tiền nhỏ thưởng cho bồi bàn hoặc tài xế",
+          "examples": [
+            {
+              "en": "We left a generous tip for the helpful waitress.",
+              "vi": "Chúng tôi để lại tiền boa hào phóng cho cô bồi bàn nhiệt tình."
+            },
+            {
+              "en": "In Vietnam, tipping is appreciated but not required.",
+              "vi": "Ở Việt Nam, tiền tip được hoan nghênh nhưng không bắt buộc."
+            },
+            { "en": "How much tip should I leave?", "vi": "Tôi nên để bao nhiêu tiền boa?" }
+          ]
+        }
+      ],
+      "synonyms": ["gratuity"],
+      "antonyms": [],
+      "collocations": ["leave a tip", "generous tip", "tip jar", "tip the waiter", "small tip"],
+      "etymology_hint": "Origin uncertain — may be from thieves' slang 'tip' meaning 'give'",
+      "mnemonic_vi": "TIP y chang tiếng Việt vay từ Anh — 'tiền TIP' = tiền boa"
+    },
+    {
+      "word": "vegetarian",
+      "lemma": "vegetarian",
+      "ipa": "/ˌvedʒ.əˈteə.ri.ən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who does not eat meat or fish",
+          "meaning_vi": "người ăn chay; người không ăn thịt cá",
+          "examples": [
+            {
+              "en": "I'm a vegetarian — do you have any meat-free dishes?",
+              "vi": "Tôi ăn chay — có món nào không có thịt không?"
+            },
+            {
+              "en": "Many Vietnamese are vegetarian on the first and 15th of the lunar month.",
+              "vi": "Nhiều người Việt ăn chay vào mùng một và rằm âm lịch."
+            },
+            {
+              "en": "Vegetarians can find good options at most pho restaurants.",
+              "vi": "Người ăn chay có thể tìm lựa chọn tốt ở hầu hết quán phở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["non-meat-eater"],
+      "antonyms": ["meat-eater", "carnivore"],
+      "collocations": [
+        "strict vegetarian",
+        "vegetarian dish",
+        "vegetarian restaurant",
+        "vegetarian diet",
+        "vegetarian menu"
+      ],
+      "etymology_hint": "From 'vegetable' + '-arian' suffix denoting 'one who advocates or practices'",
+      "mnemonic_vi": "VEGETARIAN chứa 'VEGET' (rau) — chỉ ăn 'VEGET' (rau) = ăn chay"
+    },
+    {
+      "word": "allergic",
+      "lemma": "allergic",
+      "ipa": "/əˈlɜː.dʒɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having a bad reaction to something such as food, dust, or animals",
+          "meaning_vi": "dị ứng; có phản ứng xấu với thứ gì đó như đồ ăn, bụi, động vật",
+          "examples": [
+            {
+              "en": "I'm allergic to peanuts — please tell the chef.",
+              "vi": "Tôi dị ứng đậu phộng — hãy báo với bếp trưởng."
+            },
+            {
+              "en": "She gets allergic when she eats shrimp.",
+              "vi": "Cô ấy bị dị ứng khi ăn tôm."
+            },
+            {
+              "en": "Many people are allergic to cat hair.",
+              "vi": "Nhiều người dị ứng với lông mèo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sensitive", "intolerant"],
+      "antonyms": [],
+      "collocations": [
+        "allergic to",
+        "allergic reaction",
+        "allergic rhinitis",
+        "severely allergic",
+        "highly allergic"
+      ],
+      "etymology_hint": "From Greek 'allos' (other) + 'ergon' (work) — 'altered reactivity'",
+      "mnemonic_vi": "ALLERGIC chứa 'ALLER' — 'A-LẨN' (lẫn) tránh xa thứ gây ngứa = dị ứng"
+    },
+    {
+      "word": "recommend",
+      "lemma": "recommend",
+      "ipa": "/ˌrek.əˈmend/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to suggest something or someone as good or useful",
+          "meaning_vi": "gợi ý, đề nghị; nói rằng cái gì đó tốt hoặc đáng dùng",
+          "examples": [
+            {
+              "en": "I recommend the bún bò Huế here — it's amazing.",
+              "vi": "Tôi gợi ý món bún bò Huế ở đây — ngon tuyệt."
+            },
+            {
+              "en": "She recommended this hotel to me.",
+              "vi": "Cô ấy giới thiệu khách sạn này cho tôi."
+            },
+            {
+              "en": "Doctors recommend drinking eight glasses of water daily.",
+              "vi": "Bác sĩ khuyên uống tám ly nước mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suggest", "advise", "endorse"],
+      "antonyms": ["discourage", "advise against"],
+      "collocations": [
+        "highly recommend",
+        "recommend something",
+        "recommend to",
+        "strongly recommend",
+        "would recommend"
+      ],
+      "etymology_hint": "From Latin 'recommendare' = 're-' (intensive) + 'commendare' (entrust, commend)",
+      "mnemonic_vi": "RECOMMEND chứa 'COMMEND' (khen) — KHEN lại = gợi ý"
+    },
+    {
+      "word": "cancel",
+      "lemma": "cancel",
+      "ipa": "/ˈkæn.səl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say that something planned will not happen",
+          "meaning_vi": "huỷ, hủy bỏ; nói rằng việc đã lên kế hoạch sẽ không diễn ra",
+          "examples": [
+            {
+              "en": "I had to cancel my hotel reservation due to bad weather.",
+              "vi": "Tôi phải huỷ đặt phòng vì thời tiết xấu."
+            },
+            {
+              "en": "The flight was cancelled at the last minute.",
+              "vi": "Chuyến bay bị huỷ vào phút chót."
+            },
+            {
+              "en": "Please cancel my order — I changed my mind.",
+              "vi": "Vui lòng huỷ đơn của tôi — tôi đổi ý rồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["call off", "revoke", "void"],
+      "antonyms": ["confirm", "book"],
+      "collocations": [
+        "cancel a booking",
+        "cancel a flight",
+        "cancel an order",
+        "last-minute cancel",
+        "cancel a meeting"
+      ],
+      "etymology_hint": "From Latin 'cancellare' meaning 'to make like a lattice' — crossing out with lines",
+      "mnemonic_vi": "CANCEL đọc 'ken-sờ' — 'KẾN' (khắc) gạch chéo lên = huỷ bỏ"
+    },
+    {
+      "word": "complaint",
+      "lemma": "complaint",
+      "ipa": "/kəmˈpleɪnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statement saying you are not happy with something",
+          "meaning_vi": "lời phàn nàn, khiếu nại; nói rằng mình không hài lòng",
+          "examples": [
+            {
+              "en": "I'd like to make a complaint about my room.",
+              "vi": "Tôi muốn phàn nàn về căn phòng của mình."
+            },
+            {
+              "en": "The restaurant has received many complaints about slow service.",
+              "vi": "Nhà hàng nhận nhiều phàn nàn về dịch vụ chậm."
+            },
+            {
+              "en": "Please write your complaint in the guest book.",
+              "vi": "Vui lòng viết phàn nàn vào sổ khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grievance", "objection"],
+      "antonyms": ["compliment", "praise"],
+      "collocations": [
+        "make a complaint",
+        "file a complaint",
+        "official complaint",
+        "customer complaint",
+        "complaint letter"
+      ],
+      "etymology_hint": "From Latin 'complangere' = 'com-' (with) + 'plangere' (beat one's breast)",
+      "mnemonic_vi": "COMPLAINT chứa 'PLAIN' (rõ ràng) — nói 'PLAIN' về điều không hài lòng = phàn nàn"
+    },
+    {
+      "word": "refund",
+      "lemma": "refund",
+      "ipa": "/ˈriː.fʌnd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money paid back to you when you return something or cancel a service",
+          "meaning_vi": "tiền hoàn lại; số tiền trả lại khi bạn trả hàng hoặc huỷ dịch vụ",
+          "examples": [
+            {
+              "en": "I asked for a refund because the food was cold.",
+              "vi": "Tôi xin hoàn tiền vì đồ ăn nguội."
+            },
+            {
+              "en": "The hotel gave us a full refund for the cancelled stay.",
+              "vi": "Khách sạn hoàn lại toàn bộ tiền cho kỳ nghỉ bị huỷ."
+            },
+            { "en": "Refunds take 5-7 business days.", "vi": "Hoàn tiền mất 5-7 ngày làm việc." }
+          ]
+        }
+      ],
+      "synonyms": ["reimbursement", "repayment"],
+      "antonyms": [],
+      "collocations": [
+        "full refund",
+        "ask for a refund",
+        "issue a refund",
+        "no refund",
+        "refund policy"
+      ],
+      "etymology_hint": "From Latin 'refundere' = 're-' (back) + 'fundere' (pour)",
+      "mnemonic_vi": "REFUND = RE (lại) + FUND (tiền): 'tiền lại' = hoàn tiền"
+    },
+    {
+      "word": "lobby",
+      "lemma": "lobby",
+      "ipa": "/ˈlɒb.i/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large room or hall just inside the entrance of a hotel or public building",
+          "meaning_vi": "sảnh, đại sảnh; căn phòng lớn ngay lối vào của khách sạn hoặc toà nhà công cộng",
+          "examples": [
+            {
+              "en": "Let's meet in the hotel lobby at 7 AM.",
+              "vi": "Hẹn gặp ở sảnh khách sạn lúc 7 giờ sáng."
+            },
+            {
+              "en": "The lobby has comfortable sofas and free Wi-Fi.",
+              "vi": "Sảnh có sofa thoải mái và Wi-Fi miễn phí."
+            },
+            { "en": "She waited in the lobby for her friend.", "vi": "Cô ấy đợi bạn ở đại sảnh." }
+          ]
+        }
+      ],
+      "synonyms": ["foyer", "entrance hall", "vestibule"],
+      "antonyms": [],
+      "collocations": [
+        "hotel lobby",
+        "in the lobby",
+        "lobby area",
+        "wait in the lobby",
+        "lobby music"
+      ],
+      "etymology_hint": "From Medieval Latin 'lobia' meaning 'covered walk' — same root as 'lodge'",
+      "mnemonic_vi": "LOBBY đọc 'lốp-bi' — chỗ 'LỐP' xốp êm để khách 'BI' (biểu hiện) sang trọng = sảnh"
+    },
+    {
+      "word": "suite",
+      "lemma": "suite",
+      "ipa": "/swiːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of connected rooms in a hotel, especially with a living room and bedroom",
+          "meaning_vi": "phòng suite; bộ phòng liền kề trong khách sạn, thường có phòng khách và phòng ngủ",
+          "examples": [
+            {
+              "en": "We booked a suite with an ocean view in Da Nang.",
+              "vi": "Chúng tôi đặt phòng suite hướng biển ở Đà Nẵng."
+            },
+            {
+              "en": "The honeymoon suite has a private balcony.",
+              "vi": "Phòng suite trăng mật có ban công riêng."
+            },
+            { "en": "The presidential suite is very expensive.", "vi": "Phòng tổng thống rất đắt." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "honeymoon suite",
+        "presidential suite",
+        "luxury suite",
+        "executive suite",
+        "book a suite"
+      ],
+      "etymology_hint": "From French 'suite' meaning 'following, sequence' — connected rooms following each other",
+      "mnemonic_vi": "SUITE đọc 'sờ-uít' — 'SƯỚT' qua nhiều phòng liền nhau = phòng suite cao cấp"
+    },
+    {
+      "word": "breakfast-buffet",
+      "lemma": "breakfast buffet",
+      "ipa": "/ˈbrek.fəst ˈbʊf.eɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a meal where guests serve themselves breakfast from a variety of dishes",
+          "meaning_vi": "buffet sáng; bữa sáng tự chọn nhiều món",
+          "examples": [
+            {
+              "en": "Our hotel includes a breakfast buffet from 6 to 10 AM.",
+              "vi": "Khách sạn chúng tôi bao gồm buffet sáng từ 6 đến 10 giờ."
+            },
+            {
+              "en": "The breakfast buffet had pho, bread, and fresh fruit.",
+              "vi": "Buffet sáng có phở, bánh mì và trái cây tươi."
+            },
+            {
+              "en": "She loaded her plate at the breakfast buffet.",
+              "vi": "Cô ấy lấy đầy đĩa ở buffet sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["morning buffet"],
+      "antonyms": [],
+      "collocations": [
+        "enjoy breakfast buffet",
+        "free breakfast buffet",
+        "hotel breakfast buffet",
+        "all-you-can-eat breakfast buffet",
+        "breakfast buffet hours"
+      ],
+      "etymology_hint": "Compound: 'breakfast' (break the night's fast) + 'buffet' (French, meaning 'sideboard')",
+      "mnemonic_vi": "BREAKFAST BUFFET = 'bữa sáng' + 'tự chọn' = buffet sáng"
+    },
+    {
+      "word": "takeaway",
+      "lemma": "takeaway",
+      "ipa": "/ˈteɪk.ə.weɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a meal that you buy from a restaurant to eat at home",
+          "meaning_vi": "đồ ăn mang về; bữa ăn mua từ nhà hàng để ăn ở nhà",
+          "examples": [
+            {
+              "en": "Let's get takeaway pizza tonight — too tired to cook.",
+              "vi": "Tối nay mình mua pizza mang về đi — mệt quá không nấu nổi."
+            },
+            {
+              "en": "The restaurant offers both dine-in and takeaway.",
+              "vi": "Nhà hàng phục vụ cả ăn tại chỗ và mang về."
+            },
+            {
+              "en": "I packed the leftover food as takeaway.",
+              "vi": "Tôi đóng gói đồ ăn còn lại mang về."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["takeout", "to-go"],
+      "antonyms": ["dine-in"],
+      "collocations": [
+        "takeaway food",
+        "order takeaway",
+        "takeaway menu",
+        "Chinese takeaway",
+        "takeaway box"
+      ],
+      "etymology_hint": "Phrasal compound: 'take' + 'away' (carry off)",
+      "mnemonic_vi": "TAKEAWAY = TAKE + AWAY: 'lấy' + 'đi xa' = mang về"
+    }
+  ]
+}

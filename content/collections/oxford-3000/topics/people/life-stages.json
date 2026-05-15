@@ -1,0 +1,757 @@
+{
+  "slug": "life-stages",
+  "name": "Life Stages",
+  "description": "Các giai đoạn của cuộc đời từ sinh ra đến về già.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "birth",
+      "lemma": "birth",
+      "ipa": "/bɜːθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time when a baby is born; the beginning of a life",
+          "meaning_vi": "sự sinh ra; thời điểm em bé ra đời",
+          "examples": [
+            {
+              "en": "The birth of her first child changed her life.",
+              "vi": "Sự ra đời của đứa con đầu lòng đã thay đổi đời cô ấy."
+            },
+            {
+              "en": "Please write your date of birth on the form.",
+              "vi": "Vui lòng ghi ngày sinh vào mẫu đơn."
+            },
+            {
+              "en": "Vietnamese families celebrate the first month after birth.",
+              "vi": "Gia đình Việt tổ chức lễ đầy tháng sau khi sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nativity", "delivery"],
+      "antonyms": ["death"],
+      "collocations": [
+        "date of birth",
+        "give birth",
+        "birth certificate",
+        "birth rate",
+        "from birth"
+      ],
+      "etymology_hint": "From Old Norse 'byrth', cognate with 'bear'",
+      "mnemonic_vi": "BIRTH đọc 'bớt' — 'BỚT' đau khi em bé chào đời"
+    },
+    {
+      "word": "childhood",
+      "lemma": "childhood",
+      "ipa": "/ˈtʃaɪld.hʊd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time of your life when you are a child",
+          "meaning_vi": "tuổi thơ, thời thơ ấu; quãng đời còn nhỏ",
+          "examples": [
+            {
+              "en": "I spent my childhood in a small village near Hue.",
+              "vi": "Tôi trải qua tuổi thơ ở một ngôi làng nhỏ gần Huế."
+            },
+            {
+              "en": "Childhood is the best time of life for many people.",
+              "vi": "Tuổi thơ là quãng đời tuyệt nhất với nhiều người."
+            },
+            {
+              "en": "His childhood memories include flying kites with friends.",
+              "vi": "Ký ức tuổi thơ của anh ấy gồm thả diều với bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["youth", "infancy"],
+      "antonyms": ["adulthood", "old age"],
+      "collocations": [
+        "happy childhood",
+        "early childhood",
+        "childhood memories",
+        "childhood friend",
+        "throughout childhood"
+      ],
+      "etymology_hint": "Compound: 'child' + '-hood' suffix denoting state or condition",
+      "mnemonic_vi": "CHILDHOOD = CHILD + HOOD: 'thời CHILD' = tuổi thơ"
+    },
+    {
+      "word": "teenager",
+      "lemma": "teenager",
+      "ipa": "/ˈtiːn.eɪ.dʒə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person between the ages of 13 and 19",
+          "meaning_vi": "thanh thiếu niên; người tuổi từ 13 đến 19",
+          "examples": [
+            {
+              "en": "Teenagers in Vietnam spend a lot of time studying for exams.",
+              "vi": "Thanh thiếu niên Việt Nam dành nhiều thời gian học cho kỳ thi."
+            },
+            {
+              "en": "She's a typical teenager — always on her phone.",
+              "vi": "Cô bé là tuổi teen điển hình — lúc nào cũng cầm điện thoại."
+            },
+            {
+              "en": "Many teenagers love K-pop and Korean dramas.",
+              "vi": "Nhiều thanh thiếu niên mê K-pop và phim Hàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["teen", "adolescent", "youth"],
+      "antonyms": ["adult", "child"],
+      "collocations": [
+        "typical teenager",
+        "teenager phase",
+        "rebellious teenager",
+        "teenagers today",
+        "as a teenager"
+      ],
+      "etymology_hint": "Compound: 'teen' (13-19, all end in '-teen') + '-ager'",
+      "mnemonic_vi": "TEENAGER chứa 'TEEN' — tuổi TEEN = 13-19 tuổi"
+    },
+    {
+      "word": "adult",
+      "lemma": "adult",
+      "ipa": "/ˈæd.ʌlt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a fully grown person; someone aged 18 or over",
+          "meaning_vi": "người lớn, người trưởng thành; người từ 18 tuổi trở lên",
+          "examples": [
+            {
+              "en": "Adults must accompany children to the museum.",
+              "vi": "Người lớn phải đi cùng trẻ em vào bảo tàng."
+            },
+            {
+              "en": "Being an adult means paying your own bills.",
+              "vi": "Làm người lớn nghĩa là tự trả hoá đơn của mình."
+            },
+            {
+              "en": "She acts like an adult even though she's only 16.",
+              "vi": "Cô ấy cư xử như người lớn dù mới 16 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grown-up", "mature person"],
+      "antonyms": ["child", "minor"],
+      "collocations": [
+        "young adult",
+        "as an adult",
+        "adult life",
+        "responsible adult",
+        "consenting adults"
+      ],
+      "etymology_hint": "From Latin 'adultus' meaning 'grown up', past participle of 'adolescere' (grow)",
+      "mnemonic_vi": "ADULT đọc 'a-đâu' — 'A' (alpha) + 'ĐÂU' (đâu phải trẻ) = người lớn"
+    },
+    {
+      "word": "elderly",
+      "lemma": "elderly",
+      "ipa": "/ˈel.dər.li/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "old; a polite word to describe old people",
+          "meaning_vi": "cao tuổi, già; từ lịch sự để chỉ người già",
+          "examples": [
+            {
+              "en": "Please give your seat to elderly people on the bus.",
+              "vi": "Xin nhường ghế cho người cao tuổi trên xe buýt."
+            },
+            {
+              "en": "She helps elderly neighbours with their groceries.",
+              "vi": "Cô ấy giúp các cụ hàng xóm mang đồ chợ về."
+            },
+            {
+              "en": "Vietnam's elderly population is growing rapidly.",
+              "vi": "Dân số cao tuổi của Việt Nam đang tăng nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aged", "senior", "old"],
+      "antonyms": ["young", "youthful"],
+      "collocations": [
+        "elderly people",
+        "elderly parents",
+        "elderly relative",
+        "the elderly",
+        "care for the elderly"
+      ],
+      "etymology_hint": "From 'elder' (Old English 'eldra' = older) + '-ly'",
+      "mnemonic_vi": "ELDERLY chứa 'ELDER' (lớn tuổi hơn) — đã 'ELDER' = cao tuổi"
+    },
+    {
+      "word": "retire",
+      "lemma": "retire",
+      "ipa": "/rɪˈtaɪə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop working completely, usually because of age",
+          "meaning_vi": "nghỉ hưu, về hưu; ngừng làm việc hoàn toàn, thường do tuổi tác",
+          "examples": [
+            {
+              "en": "My father retired last year at age 60.",
+              "vi": "Bố tôi nghỉ hưu năm ngoái ở tuổi 60."
+            },
+            {
+              "en": "She plans to retire and travel around Vietnam.",
+              "vi": "Cô ấy dự định nghỉ hưu và đi vòng quanh Việt Nam."
+            },
+            {
+              "en": "Many people retire to the countryside for peace.",
+              "vi": "Nhiều người về hưu rồi về quê để được yên tĩnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resign", "step down"],
+      "antonyms": ["start working", "begin"],
+      "collocations": [
+        "retire early",
+        "retire from",
+        "retired teacher",
+        "retirement age",
+        "plan to retire"
+      ],
+      "etymology_hint": "From French 'retirer' = 're-' (back) + 'tirer' (draw, pull)",
+      "mnemonic_vi": "RETIRE chứa 'TIRE' (mệt) — đã mệt thì 'TIRE' rồi nghỉ = về hưu"
+    },
+    {
+      "word": "generation",
+      "lemma": "generation",
+      "ipa": "/ˌdʒen.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "all the people of about the same age within a society or family",
+          "meaning_vi": "thế hệ; những người sinh ra trong cùng khoảng thời gian",
+          "examples": [
+            {
+              "en": "Three generations live together in this house.",
+              "vi": "Ba thế hệ sống chung trong căn nhà này."
+            },
+            {
+              "en": "My grandmother's generation lived through the war.",
+              "vi": "Thế hệ bà tôi đã trải qua chiến tranh."
+            },
+            {
+              "en": "Gen Z is the most digitally connected generation.",
+              "vi": "Gen Z là thế hệ kết nối số nhiều nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["age group"],
+      "antonyms": [],
+      "collocations": [
+        "next generation",
+        "older generation",
+        "younger generation",
+        "from generation to generation",
+        "new generation"
+      ],
+      "etymology_hint": "From Latin 'generatio' meaning 'producing, birth', from 'generare' (beget)",
+      "mnemonic_vi": "GENERATION chứa 'GEN' (gen di truyền) — cùng 'GEN' di truyền = một thế hệ"
+    },
+    {
+      "word": "ancestor",
+      "lemma": "ancestor",
+      "ipa": "/ˈæn.ses.tə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a member of your family who lived a long time ago",
+          "meaning_vi": "tổ tiên, ông bà; người trong gia đình sống cách đây rất lâu",
+          "examples": [
+            {
+              "en": "Vietnamese people worship their ancestors at Tet.",
+              "vi": "Người Việt thờ cúng tổ tiên vào dịp Tết."
+            },
+            {
+              "en": "Her ancestors came from a fishing village in Hai Phong.",
+              "vi": "Tổ tiên cô ấy đến từ một làng chài ở Hải Phòng."
+            },
+            {
+              "en": "I want to learn about my ancestors' history.",
+              "vi": "Tôi muốn tìm hiểu về lịch sử tổ tiên mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forefather", "forebear"],
+      "antonyms": ["descendant"],
+      "collocations": [
+        "distant ancestor",
+        "common ancestor",
+        "worship ancestors",
+        "ancestor's grave",
+        "Vietnamese ancestors"
+      ],
+      "etymology_hint": "From Latin 'antecessor' meaning 'one who goes before', from 'ante-' (before) + 'cedere' (go)",
+      "mnemonic_vi": "ANCESTOR chứa 'ANCE' — 'ANH CẬ' (anh cả) đầu tiên trong dòng họ = tổ tiên"
+    },
+    {
+      "word": "descendant",
+      "lemma": "descendant",
+      "ipa": "/dɪˈsen.dənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who is related to someone who lived a long time ago",
+          "meaning_vi": "con cháu, hậu duệ; người là con cháu của người sống trước đó",
+          "examples": [
+            {
+              "en": "He is a direct descendant of a famous Vietnamese poet.",
+              "vi": "Anh ấy là hậu duệ trực tiếp của một nhà thơ Việt nổi tiếng."
+            },
+            {
+              "en": "Future descendants will inherit this land.",
+              "vi": "Hậu duệ tương lai sẽ kế thừa mảnh đất này."
+            },
+            {
+              "en": "The descendants of the king still live in the area.",
+              "vi": "Hậu duệ của vị vua vẫn sống ở vùng này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["offspring", "heir"],
+      "antonyms": ["ancestor"],
+      "collocations": [
+        "direct descendant",
+        "distant descendant",
+        "future descendants",
+        "descendant of",
+        "royal descendant"
+      ],
+      "etymology_hint": "From Latin 'descendere' = 'de-' (down) + 'scandere' (climb) — 'one who comes down from'",
+      "mnemonic_vi": "DESCENDANT chứa 'DESCEND' (xuống) — 'XUỐNG' theo dòng = hậu duệ"
+    },
+    {
+      "word": "grow up",
+      "lemma": "grow up",
+      "ipa": "/ˌɡrəʊ ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to develop from a child into an adult",
+          "meaning_vi": "lớn lên, trưởng thành; phát triển từ trẻ con thành người lớn",
+          "examples": [
+            {
+              "en": "I grew up in a small town near Da Nang.",
+              "vi": "Tôi lớn lên ở một thị trấn nhỏ gần Đà Nẵng."
+            },
+            {
+              "en": "Children grow up so quickly these days.",
+              "vi": "Trẻ con thời nay lớn nhanh quá."
+            },
+            {
+              "en": "When I grow up, I want to be a doctor.",
+              "vi": "Khi lớn lên, tôi muốn làm bác sĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mature", "develop", "come of age"],
+      "antonyms": [],
+      "collocations": [
+        "grow up to be",
+        "where you grew up",
+        "grow up fast",
+        "grew up together",
+        "when I grow up"
+      ],
+      "etymology_hint": "Phrasal verb: 'grow' (Old English 'grōwan') + 'up' (upward)",
+      "mnemonic_vi": "GROW UP = GROW (lớn) + UP (lên): 'lớn lên' theo nghĩa đen"
+    },
+    {
+      "word": "raise",
+      "lemma": "raise",
+      "ipa": "/reɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to look after children until they become adults",
+          "meaning_vi": "nuôi nấng, nuôi dạy; chăm sóc con cái cho đến khi trưởng thành",
+          "examples": [
+            {
+              "en": "She raised three children on her own.",
+              "vi": "Cô ấy nuôi ba đứa con một mình."
+            },
+            {
+              "en": "Vietnamese parents often raise their kids strictly.",
+              "vi": "Bố mẹ Việt thường nuôi dạy con khá nghiêm."
+            },
+            { "en": "He was raised by his grandparents.", "vi": "Anh ấy được ông bà nuôi nấng." }
+          ]
+        }
+      ],
+      "synonyms": ["bring up", "rear", "nurture"],
+      "antonyms": [],
+      "collocations": [
+        "raise children",
+        "raise a family",
+        "raise alone",
+        "well-raised",
+        "raised by"
+      ],
+      "etymology_hint": "From Old Norse 'reisa' meaning 'to lift, build up'",
+      "mnemonic_vi": "RAISE đọc 'rê' — 'RÊ' (rê đầu) chăm con mệt nhưng thương = nuôi nấng"
+    },
+    {
+      "word": "education",
+      "lemma": "education",
+      "ipa": "/ˌed.jʊˈkeɪ.ʃən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the process of teaching and learning, especially in schools",
+          "meaning_vi": "sự giáo dục, học vấn; quá trình dạy và học",
+          "examples": [
+            {
+              "en": "Education is the key to a better future.",
+              "vi": "Giáo dục là chìa khoá cho tương lai tốt hơn."
+            },
+            {
+              "en": "Vietnamese parents value their children's education highly.",
+              "vi": "Phụ huynh Việt rất coi trọng việc học của con cái."
+            },
+            {
+              "en": "She finished her education in Australia.",
+              "vi": "Cô ấy hoàn thành việc học ở Úc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["learning", "schooling", "instruction"],
+      "antonyms": ["ignorance"],
+      "collocations": [
+        "higher education",
+        "good education",
+        "primary education",
+        "physical education",
+        "education system"
+      ],
+      "etymology_hint": "From Latin 'educare' meaning 'to bring up, train'",
+      "mnemonic_vi": "EDUCATION chứa 'DUC' — 'DUI' (kéo) trẻ con ra ánh sáng tri thức = giáo dục"
+    },
+    {
+      "word": "career",
+      "lemma": "career",
+      "ipa": "/kəˈrɪə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the series of jobs that you do in a particular profession over many years",
+          "meaning_vi": "sự nghiệp; chuỗi công việc trong một nghề qua nhiều năm",
+          "examples": [
+            {
+              "en": "She had a long career as a teacher.",
+              "vi": "Cô ấy có sự nghiệp dài làm giáo viên."
+            },
+            {
+              "en": "His career in tech started at a small startup.",
+              "vi": "Sự nghiệp công nghệ của anh ấy bắt đầu ở một startup nhỏ."
+            },
+            {
+              "en": "Many young people change careers in their 30s.",
+              "vi": "Nhiều người trẻ đổi nghề ở tuổi 30."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["profession", "occupation"],
+      "antonyms": [],
+      "collocations": [
+        "successful career",
+        "career path",
+        "career change",
+        "long career",
+        "career goals"
+      ],
+      "etymology_hint": "From French 'carrière' meaning 'racecourse', from Latin 'carrus' (wheeled vehicle)",
+      "mnemonic_vi": "CAREER đọc 'cờ-ria' — 'CỜ' đạt được mục tiêu 'RIA' lâu dài = sự nghiệp"
+    },
+    {
+      "word": "parenthood",
+      "lemma": "parenthood",
+      "ipa": "/ˈpeə.rənt.hʊd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of being a parent",
+          "meaning_vi": "vai trò làm cha mẹ; thời kỳ làm phụ huynh",
+          "examples": [
+            {
+              "en": "Parenthood changed his whole perspective on life.",
+              "vi": "Việc làm cha thay đổi hoàn toàn cách nhìn về cuộc đời của anh ấy."
+            },
+            {
+              "en": "She is preparing for parenthood by reading books.",
+              "vi": "Cô ấy chuẩn bị làm mẹ bằng cách đọc sách."
+            },
+            {
+              "en": "Parenthood comes with both joy and challenges.",
+              "vi": "Làm cha mẹ vừa có niềm vui vừa có khó khăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fatherhood", "motherhood"],
+      "antonyms": [],
+      "collocations": [
+        "preparing for parenthood",
+        "single parenthood",
+        "joys of parenthood",
+        "first-time parenthood",
+        "challenges of parenthood"
+      ],
+      "etymology_hint": "Compound: 'parent' + '-hood' (state, condition)",
+      "mnemonic_vi": "PARENTHOOD = PARENT + HOOD: 'thời kỳ PARENT' = làm cha mẹ"
+    },
+    {
+      "word": "mid-life",
+      "lemma": "mid-life",
+      "ipa": "/ˌmɪdˈlaɪf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the middle part of life, usually between 40 and 60",
+          "meaning_vi": "tuổi trung niên; giai đoạn giữa cuộc đời, thường từ 40 đến 60",
+          "examples": [
+            {
+              "en": "Many people reassess their goals in mid-life.",
+              "vi": "Nhiều người đánh giá lại mục tiêu khi đến tuổi trung niên."
+            },
+            {
+              "en": "He bought a motorcycle as part of his mid-life crisis.",
+              "vi": "Anh ấy mua xe máy như một phần của khủng hoảng tuổi trung niên."
+            },
+            {
+              "en": "Mid-life can be a time of reflection.",
+              "vi": "Tuổi trung niên có thể là thời gian để suy ngẫm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["middle age"],
+      "antonyms": ["youth", "old age"],
+      "collocations": [
+        "mid-life crisis",
+        "mid-life change",
+        "in mid-life",
+        "mid-life reflection",
+        "mid-life career"
+      ],
+      "etymology_hint": "Compound: 'mid' (middle) + 'life'",
+      "mnemonic_vi": "MID-LIFE = MID + LIFE: 'giữa LIFE' = tuổi trung niên"
+    },
+    {
+      "word": "senior",
+      "lemma": "senior",
+      "ipa": "/ˈsiː.ni.ə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an older person, especially someone over 60; or someone of higher rank",
+          "meaning_vi": "người cao tuổi (đặc biệt trên 60); hoặc người cấp cao",
+          "examples": [
+            {
+              "en": "Many seniors enjoy doing tai chi in the park.",
+              "vi": "Nhiều người cao tuổi thích tập thái cực quyền trong công viên."
+            },
+            {
+              "en": "She got a senior discount at the cinema.",
+              "vi": "Cô ấy được giảm giá người cao tuổi tại rạp phim."
+            },
+            {
+              "en": "He is a senior engineer at the company.",
+              "vi": "Anh ấy là kỹ sư cấp cao tại công ty."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["elder", "older person"],
+      "antonyms": ["junior", "youngster"],
+      "collocations": [
+        "senior citizen",
+        "senior discount",
+        "senior manager",
+        "senior member",
+        "respect seniors"
+      ],
+      "etymology_hint": "From Latin 'senior' meaning 'older', comparative of 'senex' (old)",
+      "mnemonic_vi": "SENIOR chứa 'SENI' — 'XÊ NI' (cao niên) = người cao tuổi"
+    },
+    {
+      "word": "lifetime",
+      "lemma": "lifetime",
+      "ipa": "/ˈlaɪf.taɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the length of time that someone is alive",
+          "meaning_vi": "cả đời, đời người; thời gian một người sống",
+          "examples": [
+            {
+              "en": "She traveled to fifty countries in her lifetime.",
+              "vi": "Cô ấy đã đi 50 quốc gia trong đời."
+            },
+            {
+              "en": "Vietnam has changed dramatically in my lifetime.",
+              "vi": "Việt Nam thay đổi mạnh mẽ trong cuộc đời tôi."
+            },
+            {
+              "en": "It was a once-in-a-lifetime opportunity.",
+              "vi": "Đó là cơ hội cả đời chỉ có một lần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["life span", "life"],
+      "antonyms": [],
+      "collocations": [
+        "in a lifetime",
+        "once-in-a-lifetime",
+        "lifetime achievement",
+        "throughout lifetime",
+        "lifetime guarantee"
+      ],
+      "etymology_hint": "Compound: 'life' + 'time'",
+      "mnemonic_vi": "LIFETIME = LIFE + TIME: 'thời gian LIFE' = cả đời"
+    },
+    {
+      "word": "legacy",
+      "lemma": "legacy",
+      "ipa": "/ˈleɡ.ə.si/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something that someone has achieved or left behind for future generations",
+          "meaning_vi": "di sản; thành tựu hoặc thứ để lại cho thế hệ sau",
+          "examples": [
+            {
+              "en": "Ho Chi Minh's legacy is still felt today.",
+              "vi": "Di sản của Hồ Chí Minh vẫn còn đến ngày nay."
+            },
+            {
+              "en": "She wants to leave a positive legacy through her work.",
+              "vi": "Cô ấy muốn để lại di sản tích cực qua công việc."
+            },
+            {
+              "en": "The teacher's legacy lives on in his students.",
+              "vi": "Di sản của thầy giáo còn sống mãi qua học trò."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["heritage", "inheritance"],
+      "antonyms": [],
+      "collocations": [
+        "lasting legacy",
+        "leave a legacy",
+        "cultural legacy",
+        "family legacy",
+        "legacy of"
+      ],
+      "etymology_hint": "From Old French 'legacie', from Latin 'legatus' (one sent, ambassador)",
+      "mnemonic_vi": "LEGACY chứa 'LEG' (chân) — đặt 'CHÂN' lên thế hệ sau = di sản"
+    },
+    {
+      "word": "mortal",
+      "lemma": "mortal",
+      "ipa": "/ˈmɔː.təl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not living forever; able to die like all humans",
+          "meaning_vi": "phải chết, hữu tử; không sống mãi như con người",
+          "examples": [
+            {
+              "en": "All humans are mortal — life is precious.",
+              "vi": "Mọi người đều phải chết — cuộc đời quý giá."
+            },
+            {
+              "en": "The mortal world is full of beauty and pain.",
+              "vi": "Thế giới phàm trần đầy vẻ đẹp và nỗi đau."
+            },
+            { "en": "Even kings are mortal.", "vi": "Ngay cả vua cũng phải chết." }
+          ]
+        }
+      ],
+      "synonyms": ["earthly", "finite", "human"],
+      "antonyms": ["immortal", "eternal"],
+      "collocations": [
+        "mortal being",
+        "mere mortal",
+        "mortal danger",
+        "mortal enemy",
+        "mortal life"
+      ],
+      "etymology_hint": "From Latin 'mortalis' meaning 'subject to death', from 'mors' (death)",
+      "mnemonic_vi": "MORTAL chứa 'MORT' (chết, Latin) — sẽ MORT = phải chết = hữu tử"
+    },
+    {
+      "word": "era",
+      "lemma": "era",
+      "ipa": "/ˈɪə.rə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long period of history that has a particular character or event",
+          "meaning_vi": "thời đại, kỷ nguyên; thời kỳ dài trong lịch sử có đặc trưng riêng",
+          "examples": [
+            {
+              "en": "We are living in the digital era.",
+              "vi": "Chúng ta đang sống trong kỷ nguyên số."
+            },
+            {
+              "en": "The smartphone era began with the iPhone in 2007.",
+              "vi": "Kỷ nguyên smartphone bắt đầu với iPhone năm 2007."
+            },
+            {
+              "en": "The colonial era left lasting impacts on Vietnam.",
+              "vi": "Thời kỳ thuộc địa để lại tác động lâu dài cho Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["age", "epoch", "period"],
+      "antonyms": [],
+      "collocations": ["digital era", "modern era", "golden era", "end of an era", "new era"],
+      "etymology_hint": "From Latin 'aera' meaning 'counting period', possibly from coin types used for dating",
+      "mnemonic_vi": "ERA đọc 'i-ra' — 'I' (cứ) 'RA' tiến mỗi thời = mỗi kỷ nguyên"
+    }
+  ]
+}
