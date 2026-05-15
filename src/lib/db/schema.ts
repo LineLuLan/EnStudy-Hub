@@ -128,6 +128,7 @@ export const profiles = pgTable('profiles', {
   dailyReviewMax: integer('daily_review_max').notNull().default(200),
   uiPrefs: jsonb('ui_prefs').notNull().default({}),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  onboardedAt: timestamp('onboarded_at', { withTimezone: true }),
 });
 
 export const userLessons = pgTable(
