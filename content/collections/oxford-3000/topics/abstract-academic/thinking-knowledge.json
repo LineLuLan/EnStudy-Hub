@@ -1,0 +1,715 @@
+{
+  "slug": "thinking-knowledge",
+  "name": "Thinking & Knowledge",
+  "description": "Suy nghĩ, lý luận và tri thức.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "think",
+      "lemma": "think",
+      "ipa": "/θɪŋk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to use your mind to consider ideas or make decisions",
+          "meaning_vi": "nghĩ, suy nghĩ",
+          "examples": [
+            {
+              "en": "I think Vietnamese food is the best.",
+              "vi": "Tôi nghĩ đồ ăn Việt là ngon nhất."
+            },
+            {
+              "en": "She thinks deeply before answering.",
+              "vi": "Cô ấy suy nghĩ sâu trước khi trả lời."
+            },
+            { "en": "Let me think for a moment.", "vi": "Để tôi nghĩ một chút." }
+          ]
+        }
+      ],
+      "synonyms": ["consider", "ponder"],
+      "antonyms": [],
+      "collocations": [
+        "think about",
+        "think twice",
+        "think carefully",
+        "think clearly",
+        "I think so"
+      ],
+      "etymology_hint": "From Old English 'thencan' meaning 'to conceive in the mind'.",
+      "mnemonic_vi": "THINK — 'thinh' → 'thinh' (suy ngẫm) lặng = nghĩ"
+    },
+    {
+      "word": "believe",
+      "lemma": "believe",
+      "ipa": "/bɪˈliːv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to feel sure that something is true",
+          "meaning_vi": "tin tưởng; cho rằng đúng",
+          "examples": [
+            { "en": "I believe she's telling the truth.", "vi": "Tôi tin cô ấy nói sự thật." },
+            { "en": "Believe in yourself!", "vi": "Hãy tin vào chính mình!" },
+            { "en": "Many people believe in karma.", "vi": "Nhiều người tin vào nhân quả." }
+          ]
+        }
+      ],
+      "synonyms": ["trust", "have faith in"],
+      "antonyms": ["doubt"],
+      "collocations": [
+        "believe in",
+        "hard to believe",
+        "believe strongly",
+        "I believe so",
+        "make-believe"
+      ],
+      "etymology_hint": "From Old English 'belȳfan' meaning 'to have confidence in'.",
+      "mnemonic_vi": "BELIEVE — 'bi-lìu' → 'bí' (gắn) 'lưu' (giữ lòng) = tin"
+    },
+    {
+      "word": "assume",
+      "lemma": "assume",
+      "ipa": "/əˈsjuːm/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to accept something as true without proof",
+          "meaning_vi": "giả định; cho rằng (chưa có chứng cứ)",
+          "examples": [
+            {
+              "en": "I assume you've finished the report.",
+              "vi": "Tôi giả định bạn đã làm xong báo cáo."
+            },
+            {
+              "en": "Don't assume she's wrong without listening.",
+              "vi": "Đừng giả định cô ấy sai khi chưa nghe."
+            },
+            { "en": "Let's assume the data is correct.", "vi": "Giả sử dữ liệu là đúng." }
+          ]
+        }
+      ],
+      "synonyms": ["suppose", "presume"],
+      "antonyms": ["know"],
+      "collocations": [
+        "assume responsibility",
+        "let's assume",
+        "safely assume",
+        "naturally assume",
+        "assume the worst"
+      ],
+      "etymology_hint": "From Latin 'assumere' = 'ad-' (toward) + 'sumere' (take).",
+      "mnemonic_vi": "ASSUME — 'ờ-shum' → 'ờ, sờ' (chạm) tưởng tượng = giả định"
+    },
+    {
+      "word": "conclude",
+      "lemma": "conclude",
+      "ipa": "/kənˈkluːd/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to decide that something is true after thinking carefully (academic context)",
+          "meaning_vi": "kết luận (sau khi nghiên cứu, lập luận)",
+          "examples": [
+            {
+              "en": "The study concludes that exercise helps memory.",
+              "vi": "Nghiên cứu kết luận rằng tập thể dục giúp trí nhớ."
+            },
+            {
+              "en": "We can conclude from the data that sales rose.",
+              "vi": "Từ dữ liệu, ta có thể kết luận doanh số tăng."
+            },
+            {
+              "en": "She concluded her essay with a strong point.",
+              "vi": "Cô ấy kết luận bài luận bằng luận điểm mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deduce", "infer"],
+      "antonyms": [],
+      "collocations": [
+        "safely conclude",
+        "conclude that",
+        "research concludes",
+        "logically conclude",
+        "conclude an essay"
+      ],
+      "etymology_hint": "From Latin 'concludere' = 'con-' (together) + 'claudere' (close).",
+      "mnemonic_vi": "CONCLUDE = CON (cùng) + CLUDE (đóng) → đóng lại sau khi suy = kết luận"
+    },
+    {
+      "word": "evidence",
+      "lemma": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "facts or data that support an academic claim or theory",
+          "meaning_vi": "bằng chứng (học thuật, nghiên cứu)",
+          "examples": [
+            {
+              "en": "There is strong evidence that the Earth is warming.",
+              "vi": "Có bằng chứng mạnh rằng Trái Đất đang nóng lên."
+            },
+            {
+              "en": "The paper provides evidence from 10 studies.",
+              "vi": "Bài báo đưa bằng chứng từ 10 nghiên cứu."
+            },
+            {
+              "en": "Show me your evidence before I agree.",
+              "vi": "Cho tôi xem bằng chứng trước khi tôi đồng ý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["proof", "data"],
+      "antonyms": [],
+      "collocations": [
+        "strong evidence",
+        "scientific evidence",
+        "lack of evidence",
+        "evidence-based",
+        "supporting evidence"
+      ],
+      "etymology_hint": "From Latin 'evidentia' meaning 'clarity, that which is plainly seen'.",
+      "mnemonic_vi": "EVIDENCE — 'e-vi-đần' → 'ê vi' (hiển nhiên) thấy = bằng chứng"
+    },
+    {
+      "word": "theory",
+      "lemma": "theory",
+      "ipa": "/ˈθɪəri/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an idea or set of ideas to explain something, based on study",
+          "meaning_vi": "lý thuyết, học thuyết",
+          "examples": [
+            {
+              "en": "Einstein's theory of relativity changed physics.",
+              "vi": "Học thuyết tương đối của Einstein thay đổi vật lý."
+            },
+            { "en": "In theory, this should work.", "vi": "Về lý thuyết, cái này nên hoạt động." },
+            {
+              "en": "She has a theory about why he left.",
+              "vi": "Cô ấy có giả thuyết vì sao anh ấy ra đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hypothesis", "principle"],
+      "antonyms": ["practice"],
+      "collocations": [
+        "scientific theory",
+        "in theory",
+        "develop a theory",
+        "theory of evolution",
+        "conspiracy theory"
+      ],
+      "etymology_hint": "From Greek 'theōria' meaning 'speculation, contemplation'.",
+      "mnemonic_vi": "THEORY — 'thi-ờ-ri' → 'thi' (xem xét) 'ờ ri' (vậy rồi) = lý thuyết"
+    },
+    {
+      "word": "hypothesis",
+      "lemma": "hypothesis",
+      "ipa": "/haɪˈpɒθəsɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an idea suggested as an explanation, which can be tested",
+          "meaning_vi": "giả thuyết (cần được kiểm chứng)",
+          "examples": [
+            {
+              "en": "The scientist tested her hypothesis with experiments.",
+              "vi": "Nhà khoa học kiểm chứng giả thuyết bằng thí nghiệm."
+            },
+            {
+              "en": "We need data to support this hypothesis.",
+              "vi": "Chúng ta cần dữ liệu để củng cố giả thuyết này."
+            },
+            {
+              "en": "His hypothesis turned out to be wrong.",
+              "vi": "Giả thuyết của anh ấy hoá ra sai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["theory", "proposition"],
+      "antonyms": [],
+      "collocations": [
+        "test a hypothesis",
+        "propose a hypothesis",
+        "working hypothesis",
+        "null hypothesis",
+        "support a hypothesis"
+      ],
+      "etymology_hint": "From Greek 'hypothesis' meaning 'foundation, base of an argument'.",
+      "mnemonic_vi": "HYPOTHESIS — 'hai-pót-thi-sít' → 'hơi' (chỉ là) 'pót thi' (đặt thử) = giả thuyết"
+    },
+    {
+      "word": "analyze",
+      "lemma": "analyze",
+      "ipa": "/ˈænəlaɪz/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to study something carefully to understand its parts and meaning",
+          "meaning_vi": "phân tích",
+          "examples": [
+            {
+              "en": "Researchers analyze data to find patterns.",
+              "vi": "Nhà nghiên cứu phân tích dữ liệu để tìm quy luật."
+            },
+            {
+              "en": "Let's analyze the problem step by step.",
+              "vi": "Hãy phân tích vấn đề từng bước."
+            },
+            {
+              "en": "She analyzed his behavior carefully.",
+              "vi": "Cô ấy phân tích hành vi của anh ấy kỹ lưỡng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["examine", "study"],
+      "antonyms": ["synthesize"],
+      "collocations": [
+        "analyze data",
+        "analyze a problem",
+        "carefully analyze",
+        "analyze results",
+        "analyze the situation"
+      ],
+      "etymology_hint": "From Greek 'analyein' meaning 'to break up', from 'ana-' (up) + 'lyein' (loosen).",
+      "mnemonic_vi": "ANALYZE — 'a-nờ-lai' → 'à' nó 'lai rai' tách ra = phân tích"
+    },
+    {
+      "word": "perspective",
+      "lemma": "perspective",
+      "ipa": "/pəˈspektɪv/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a particular way of looking at or thinking about something",
+          "meaning_vi": "góc nhìn; quan điểm",
+          "examples": [
+            {
+              "en": "From a Vietnamese perspective, family comes first.",
+              "vi": "Từ góc nhìn người Việt, gia đình là trên hết."
+            },
+            {
+              "en": "Try to see it from her perspective.",
+              "vi": "Hãy nhìn theo góc nhìn của cô ấy."
+            },
+            {
+              "en": "A new perspective helps solve problems.",
+              "vi": "Một góc nhìn mới giúp giải quyết vấn đề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["viewpoint", "outlook"],
+      "antonyms": [],
+      "collocations": [
+        "from a perspective",
+        "different perspective",
+        "new perspective",
+        "personal perspective",
+        "global perspective"
+      ],
+      "etymology_hint": "From Latin 'perspicere' = 'per-' (through) + 'specere' (look) → 'see through'.",
+      "mnemonic_vi": "PERSPECTIVE = PER (qua) + SPECTIVE (nhìn) → nhìn qua = góc nhìn"
+    },
+    {
+      "word": "opinion",
+      "lemma": "opinion",
+      "ipa": "/əˈpɪnjən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "what someone thinks or believes about something",
+          "meaning_vi": "ý kiến, quan điểm cá nhân",
+          "examples": [
+            {
+              "en": "In my opinion, phở is the best Vietnamese dish.",
+              "vi": "Theo ý kiến tôi, phở là món Việt ngon nhất."
+            },
+            {
+              "en": "Everyone has the right to their opinion.",
+              "vi": "Ai cũng có quyền có ý kiến riêng."
+            },
+            {
+              "en": "Public opinion changed after the news.",
+              "vi": "Dư luận thay đổi sau tin tức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["view", "belief"],
+      "antonyms": ["fact"],
+      "collocations": [
+        "in my opinion",
+        "public opinion",
+        "personal opinion",
+        "express an opinion",
+        "expert opinion"
+      ],
+      "etymology_hint": "From Latin 'opinio' meaning 'belief, conjecture'.",
+      "mnemonic_vi": "OPINION — 'ô-pin-yần' → 'ô pin' (giữ điện) trong đầu = ý kiến"
+    },
+    {
+      "word": "fact",
+      "lemma": "fact",
+      "ipa": "/fækt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something that is true and can be proven",
+          "meaning_vi": "sự thật, dữ kiện",
+          "examples": [
+            {
+              "en": "It's a fact that Vietnam has 54 ethnic groups.",
+              "vi": "Là sự thật rằng Việt Nam có 54 dân tộc."
+            },
+            {
+              "en": "Check the facts before you share.",
+              "vi": "Kiểm chứng dữ kiện trước khi chia sẻ."
+            },
+            { "en": "Facts speak louder than opinions.", "vi": "Sự thật nói lớn hơn ý kiến." }
+          ]
+        }
+      ],
+      "synonyms": ["truth", "reality"],
+      "antonyms": ["fiction", "opinion"],
+      "collocations": [
+        "in fact",
+        "as a matter of fact",
+        "scientific fact",
+        "fact check",
+        "stick to the facts"
+      ],
+      "etymology_hint": "From Latin 'factum' meaning 'something done', from 'facere' (to do).",
+      "mnemonic_vi": "FACT — 'phếch' → 'phách' chắc chắn = sự thật"
+    },
+    {
+      "word": "doubt",
+      "lemma": "doubt",
+      "ipa": "/daʊt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a feeling that something may not be true or right",
+          "meaning_vi": "sự nghi ngờ",
+          "examples": [
+            { "en": "I have no doubt she will win.", "vi": "Tôi không nghi ngờ cô ấy sẽ thắng." },
+            {
+              "en": "There is doubt about the new policy.",
+              "vi": "Có sự nghi ngờ về chính sách mới."
+            },
+            {
+              "en": "Without a doubt, this is the best phở.",
+              "vi": "Không nghi ngờ gì, đây là tô phở ngon nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["uncertainty", "skepticism"],
+      "antonyms": ["certainty"],
+      "collocations": ["no doubt", "without a doubt", "have doubts", "raise doubt", "in doubt"],
+      "etymology_hint": "From Latin 'dubitare' meaning 'to hesitate', from 'dubius' (uncertain).",
+      "mnemonic_vi": "DOUBT — 'đao-tờ' → 'đào' (xới) lại nghĩ = nghi ngờ"
+    },
+    {
+      "word": "knowledge",
+      "lemma": "knowledge",
+      "ipa": "/ˈnɒlɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "what you know about a subject, gained from learning or experience",
+          "meaning_vi": "tri thức, kiến thức",
+          "examples": [
+            {
+              "en": "Her knowledge of history is impressive.",
+              "vi": "Tri thức về lịch sử của cô ấy đáng kinh ngạc."
+            },
+            {
+              "en": "Knowledge grows with every question.",
+              "vi": "Tri thức tăng theo mỗi câu hỏi."
+            },
+            {
+              "en": "He shares his knowledge generously.",
+              "vi": "Anh ấy chia sẻ kiến thức một cách hào phóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["understanding", "wisdom"],
+      "antonyms": ["ignorance"],
+      "collocations": [
+        "gain knowledge",
+        "general knowledge",
+        "deep knowledge",
+        "share knowledge",
+        "common knowledge"
+      ],
+      "etymology_hint": "From Old English 'cnāwan' (to know) + '-ledge' (state of).",
+      "mnemonic_vi": "KNOWLEDGE = KNOW (biết) + LEDGE (đầy) → đầy biết = tri thức"
+    },
+    {
+      "word": "wisdom",
+      "lemma": "wisdom",
+      "ipa": "/ˈwɪzdəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to make good decisions because of experience and knowledge",
+          "meaning_vi": "sự khôn ngoan; minh triết",
+          "examples": [
+            {
+              "en": "Grandmother's wisdom guides our family.",
+              "vi": "Sự khôn ngoan của bà dẫn dắt cả gia đình."
+            },
+            {
+              "en": "He spoke with the wisdom of age.",
+              "vi": "Ông ấy nói với sự khôn ngoan của tuổi tác."
+            },
+            {
+              "en": "Wisdom comes from making mistakes.",
+              "vi": "Sự khôn ngoan đến từ những sai lầm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["insight", "sagacity"],
+      "antonyms": ["foolishness"],
+      "collocations": [
+        "ancient wisdom",
+        "conventional wisdom",
+        "great wisdom",
+        "share wisdom",
+        "wisdom of age"
+      ],
+      "etymology_hint": "From Old English 'wīsdōm' = 'wise' + '-dom' (state).",
+      "mnemonic_vi": "WISDOM = WISE (khôn) + DOM (trạng thái) → trạng thái khôn = minh triết"
+    },
+    {
+      "word": "intuition",
+      "lemma": "intuition",
+      "ipa": "/ˌɪntjuˈɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to feel or know something without thinking it through",
+          "meaning_vi": "trực giác",
+          "examples": [
+            {
+              "en": "Her intuition told her something was wrong.",
+              "vi": "Trực giác cô ấy mách rằng có gì không ổn."
+            },
+            {
+              "en": "Doctors often rely on intuition too.",
+              "vi": "Bác sĩ cũng thường dựa vào trực giác."
+            },
+            { "en": "Trust your intuition sometimes.", "vi": "Đôi khi hãy tin vào trực giác." }
+          ]
+        }
+      ],
+      "synonyms": ["instinct", "gut feeling"],
+      "antonyms": ["reasoning"],
+      "collocations": [
+        "trust your intuition",
+        "strong intuition",
+        "female intuition",
+        "based on intuition",
+        "follow intuition"
+      ],
+      "etymology_hint": "From Latin 'intuitio' meaning 'a looking at, contemplation'.",
+      "mnemonic_vi": "INTUITION — 'in-tu-í-shần' → 'in' (vô) 'tự i' (tự nhận) = trực giác"
+    },
+    {
+      "word": "logic",
+      "lemma": "logic",
+      "ipa": "/ˈlɒdʒɪk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "careful, organized thinking based on rules and facts",
+          "meaning_vi": "logic; suy luận có hệ thống",
+          "examples": [
+            {
+              "en": "Her argument follows clear logic.",
+              "vi": "Lập luận của cô ấy theo logic rõ ràng."
+            },
+            { "en": "Math is built on logic.", "vi": "Toán học xây dựng trên logic." },
+            {
+              "en": "There's no logic in his decision.",
+              "vi": "Quyết định của anh ấy không có logic."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reasoning"],
+      "antonyms": ["illogic"],
+      "collocations": [
+        "clear logic",
+        "follow the logic",
+        "lack of logic",
+        "logic problem",
+        "use logic"
+      ],
+      "etymology_hint": "From Greek 'logikē' meaning 'reasoning', from 'logos' (word, thought).",
+      "mnemonic_vi": "LOGIC — 'lóc-gich' → 'lờ' (theo) 'gích' (đúng) = logic"
+    },
+    {
+      "word": "reason",
+      "lemma": "reason",
+      "ipa": "/ˈriːzn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a cause or explanation for something; or the power to think logically",
+          "meaning_vi": "lý do; lý trí",
+          "examples": [
+            {
+              "en": "There must be a reason for his absence.",
+              "vi": "Phải có lý do cho việc anh ấy vắng mặt."
+            },
+            {
+              "en": "Use your reason, not your emotions.",
+              "vi": "Hãy dùng lý trí, đừng dùng cảm xúc."
+            },
+            { "en": "For some reason, he didn't come.", "vi": "Vì lý do nào đó, anh ấy không đến." }
+          ]
+        }
+      ],
+      "synonyms": ["cause", "logic"],
+      "antonyms": ["emotion"],
+      "collocations": ["good reason", "for some reason", "main reason", "no reason", "reason why"],
+      "etymology_hint": "From Latin 'ratio' meaning 'reckoning, calculation, reason'.",
+      "mnemonic_vi": "REASON — 'ri-zần' → 'rì' (rõ) 'sờn' (lý) = lý do"
+    },
+    {
+      "word": "argument",
+      "lemma": "argument",
+      "ipa": "/ˈɑːɡjumənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of reasons used to support a point of view",
+          "meaning_vi": "lập luận, luận điểm",
+          "examples": [
+            {
+              "en": "Her argument is well supported.",
+              "vi": "Lập luận của cô ấy được hỗ trợ tốt."
+            },
+            {
+              "en": "He presented a strong argument in the essay.",
+              "vi": "Anh ấy trình bày lập luận mạnh trong bài luận."
+            },
+            {
+              "en": "There's a good argument for both sides.",
+              "vi": "Có lập luận tốt cho cả hai bên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reasoning", "case"],
+      "antonyms": [],
+      "collocations": [
+        "strong argument",
+        "weak argument",
+        "make an argument",
+        "support an argument",
+        "logical argument"
+      ],
+      "etymology_hint": "From Latin 'argumentum' meaning 'proof, evidence'.",
+      "mnemonic_vi": "ARGUMENT — 'á-gờ-mần' → 'a, gừ' (bàn) đưa lý = lập luận"
+    },
+    {
+      "word": "claim",
+      "lemma": "claim",
+      "ipa": "/kleɪm/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to say something is true, often without proof yet",
+          "meaning_vi": "tuyên bố; khẳng định (đôi khi chưa có bằng chứng)",
+          "examples": [
+            { "en": "He claims he saw a ghost.", "vi": "Anh ấy khẳng định đã thấy ma." },
+            {
+              "en": "The company claims its product is the best.",
+              "vi": "Công ty tuyên bố sản phẩm của mình là tốt nhất."
+            },
+            {
+              "en": "Some claim ancient Vietnam had giants.",
+              "vi": "Một số người tuyên bố Việt Nam cổ có người khổng lồ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assert", "state"],
+      "antonyms": ["deny"],
+      "collocations": [
+        "claim that",
+        "false claim",
+        "bold claim",
+        "rightly claim",
+        "claim responsibility"
+      ],
+      "etymology_hint": "From Latin 'clamare' meaning 'to call out, shout'.",
+      "mnemonic_vi": "CLAIM — 'cờ-lêm' → 'kêu lên' rằng đúng = tuyên bố"
+    },
+    {
+      "word": "proof",
+      "lemma": "proof",
+      "ipa": "/pruːf/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "facts or things that show something is definitely true",
+          "meaning_vi": "bằng chứng (đầy đủ, không thể chối cãi)",
+          "examples": [
+            {
+              "en": "Do you have proof of your claim?",
+              "vi": "Bạn có bằng chứng cho lời tuyên bố không?"
+            },
+            { "en": "The receipt is proof of purchase.", "vi": "Hoá đơn là bằng chứng mua hàng." },
+            { "en": "Math proofs must be exact.", "vi": "Chứng minh toán học phải chính xác." }
+          ]
+        }
+      ],
+      "synonyms": ["evidence"],
+      "antonyms": [],
+      "collocations": [
+        "solid proof",
+        "proof of purchase",
+        "burden of proof",
+        "living proof",
+        "show proof"
+      ],
+      "etymology_hint": "From Old French 'prueve', from Latin 'probare' (to test).",
+      "mnemonic_vi": "PROOF — 'prúp' → 'phải phù' (đúng phơi bày) = bằng chứng"
+    }
+  ]
+}

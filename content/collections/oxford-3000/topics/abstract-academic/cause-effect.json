@@ -1,0 +1,709 @@
+{
+  "slug": "cause-effect",
+  "name": "Cause & Effect",
+  "description": "Quan hệ nguyên nhân và kết quả.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "cause",
+      "lemma": "cause",
+      "ipa": "/kɔːz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the reason why something happens",
+          "meaning_vi": "nguyên nhân",
+          "examples": [
+            {
+              "en": "The cause of the fire is still unknown.",
+              "vi": "Nguyên nhân vụ cháy vẫn chưa rõ."
+            },
+            {
+              "en": "Smoking is a main cause of lung cancer.",
+              "vi": "Hút thuốc là nguyên nhân chính gây ung thư phổi."
+            },
+            {
+              "en": "Find the cause before fixing the problem.",
+              "vi": "Tìm nguyên nhân trước khi sửa vấn đề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reason", "source"],
+      "antonyms": ["effect", "result"],
+      "collocations": [
+        "main cause",
+        "root cause",
+        "cause and effect",
+        "common cause",
+        "cause of death"
+      ],
+      "etymology_hint": "From Latin 'causa' meaning 'reason, motive'.",
+      "mnemonic_vi": "CAUSE — 'cót' → 'cốt' (lõi gốc) việc = nguyên nhân"
+    },
+    {
+      "word": "effect",
+      "lemma": "effect",
+      "ipa": "/ɪˈfekt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a change or result that something causes",
+          "meaning_vi": "tác động; hiệu ứng; kết quả",
+          "examples": [
+            {
+              "en": "Smoking has bad effects on health.",
+              "vi": "Hút thuốc có tác động xấu lên sức khoẻ."
+            },
+            {
+              "en": "The new policy has a strong effect on prices.",
+              "vi": "Chính sách mới có tác động mạnh lên giá cả."
+            },
+            {
+              "en": "Side effects of the medicine include sleepiness.",
+              "vi": "Tác dụng phụ của thuốc gồm buồn ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["result", "outcome"],
+      "antonyms": ["cause"],
+      "collocations": [
+        "have an effect",
+        "side effect",
+        "long-term effect",
+        "strong effect",
+        "in effect"
+      ],
+      "etymology_hint": "From Latin 'effectus' meaning 'an action carried out', from 'efficere' (to bring about).",
+      "mnemonic_vi": "EFFECT — 'i-phếch' → 'ết phách' (xảy ra) = tác động"
+    },
+    {
+      "word": "result",
+      "lemma": "result",
+      "ipa": "/rɪˈzʌlt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "what happens because of an action or cause",
+          "meaning_vi": "kết quả",
+          "examples": [
+            {
+              "en": "The team's hard work brought great results.",
+              "vi": "Sự chăm chỉ của đội mang lại kết quả tuyệt vời."
+            },
+            {
+              "en": "Test results will be ready tomorrow.",
+              "vi": "Kết quả thi sẽ có vào ngày mai."
+            },
+            { "en": "As a result, sales doubled.", "vi": "Kết quả là doanh số tăng gấp đôi." }
+          ]
+        }
+      ],
+      "synonyms": ["outcome", "consequence"],
+      "antonyms": ["cause"],
+      "collocations": [
+        "as a result",
+        "test result",
+        "end result",
+        "positive result",
+        "as a result of"
+      ],
+      "etymology_hint": "From Latin 'resultare' meaning 'to spring back', from 're-' + 'saltare' (jump).",
+      "mnemonic_vi": "RESULT — 'ri-zằn-tờ' → 'rì' (sau) 'súp' (cuối) = kết quả"
+    },
+    {
+      "word": "lead to",
+      "lemma": "lead to",
+      "ipa": "/liːd tuː/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to cause something to happen",
+          "meaning_vi": "dẫn đến (kết quả nào đó)",
+          "examples": [
+            {
+              "en": "Lack of sleep leads to poor health.",
+              "vi": "Thiếu ngủ dẫn đến sức khoẻ kém."
+            },
+            { "en": "One mistake led to another.", "vi": "Một lỗi dẫn đến lỗi khác." },
+            { "en": "Hard work leads to success.", "vi": "Chăm chỉ dẫn đến thành công." }
+          ]
+        }
+      ],
+      "synonyms": ["cause", "result in"],
+      "antonyms": [],
+      "collocations": [
+        "lead to success",
+        "lead to a problem",
+        "directly lead to",
+        "often lead to",
+        "eventually lead to"
+      ],
+      "etymology_hint": "Compound 'lead' (Old English 'lǣdan' = to guide) + 'to'.",
+      "mnemonic_vi": "LEAD TO = LEAD (dẫn) + TO → dẫn đến = nguyên nhân kết quả"
+    },
+    {
+      "word": "due to",
+      "lemma": "due to",
+      "ipa": "/djuː tuː/",
+      "pos": "preposition",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "because of; caused by",
+          "meaning_vi": "do, vì (chỉ nguyên nhân)",
+          "examples": [
+            {
+              "en": "The flight was delayed due to bad weather.",
+              "vi": "Chuyến bay hoãn do thời tiết xấu."
+            },
+            { "en": "Sales dropped due to the pandemic.", "vi": "Doanh số giảm do đại dịch." },
+            {
+              "en": "The accident happened due to a flat tire.",
+              "vi": "Tai nạn xảy ra do lốp xe xẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["because of", "owing to"],
+      "antonyms": [],
+      "collocations": [
+        "due to weather",
+        "due to lack of",
+        "due to circumstances",
+        "delayed due to",
+        "due to the fact that"
+      ],
+      "etymology_hint": "From Latin 'debitum' (owed) + 'to' — implying 'owed/attributed to'.",
+      "mnemonic_vi": "DUE TO = DUE (gây ra) + TO → do = bởi vì"
+    },
+    {
+      "word": "because",
+      "lemma": "because",
+      "ipa": "/bɪˈkɒz/",
+      "pos": "conjunction",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "for the reason that",
+          "meaning_vi": "bởi vì, vì",
+          "examples": [
+            { "en": "She stayed home because she was sick.", "vi": "Cô ấy ở nhà vì bị ốm." },
+            { "en": "I love Hà Nội because of the food.", "vi": "Tôi yêu Hà Nội vì đồ ăn." },
+            {
+              "en": "He works hard because he wants to succeed.",
+              "vi": "Anh ấy chăm chỉ vì muốn thành công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["since", "as"],
+      "antonyms": [],
+      "collocations": [
+        "because of",
+        "just because",
+        "mainly because",
+        "partly because",
+        "because I"
+      ],
+      "etymology_hint": "Originally 'by cause' — combined into one word.",
+      "mnemonic_vi": "BECAUSE = BE + CAUSE → vì có nguyên nhân = bởi vì"
+    },
+    {
+      "word": "therefore",
+      "lemma": "therefore",
+      "ipa": "/ˈðeəfɔː(r)/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "for that reason; as a result",
+          "meaning_vi": "do đó, vì vậy",
+          "examples": [
+            {
+              "en": "It rained; therefore, we stayed inside.",
+              "vi": "Trời mưa; do đó, chúng tôi ở trong nhà."
+            },
+            {
+              "en": "She studied hard; therefore she passed.",
+              "vi": "Cô ấy học chăm; vì vậy cô ấy đỗ."
+            },
+            {
+              "en": "We are short of staff; therefore the deadline must move.",
+              "vi": "Chúng ta thiếu nhân sự; do đó phải dời hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thus", "hence"],
+      "antonyms": [],
+      "collocations": [
+        "and therefore",
+        "therefore I",
+        "therefore we",
+        "and is therefore",
+        "therefore must"
+      ],
+      "etymology_hint": "Compound 'there' + 'fore' (Old English 'fore' = before, for).",
+      "mnemonic_vi": "THEREFORE = THERE (kia) + FORE (trước) → từ đó suy ra = do đó"
+    },
+    {
+      "word": "consequence",
+      "lemma": "consequence",
+      "ipa": "/ˈkɒnsɪkwəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a result, usually a bad one, of an action or situation",
+          "meaning_vi": "hậu quả (thường nghĩa xấu)",
+          "examples": [
+            { "en": "Skipping homework has consequences.", "vi": "Bỏ bài tập có hậu quả." },
+            {
+              "en": "The flood was a consequence of heavy rain.",
+              "vi": "Lũ là hậu quả của mưa lớn."
+            },
+            { "en": "Every action has its consequences.", "vi": "Mọi hành động đều có hậu quả." }
+          ]
+        }
+      ],
+      "synonyms": ["result", "outcome"],
+      "antonyms": ["cause"],
+      "collocations": [
+        "serious consequence",
+        "as a consequence",
+        "face the consequences",
+        "long-term consequence",
+        "negative consequence"
+      ],
+      "etymology_hint": "From Latin 'consequentia' meaning 'a following after'.",
+      "mnemonic_vi": "CONSEQUENCE = CON (cùng) + SEQUENCE (chuỗi) → chuỗi tiếp = hậu quả"
+    },
+    {
+      "word": "impact",
+      "lemma": "impact",
+      "ipa": "/ˈɪmpækt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strong effect on something or someone",
+          "meaning_vi": "tác động (mạnh)",
+          "examples": [
+            {
+              "en": "Climate change has a huge impact on farming.",
+              "vi": "Biến đổi khí hậu có tác động lớn lên nông nghiệp."
+            },
+            {
+              "en": "Her speech had a strong impact on the audience.",
+              "vi": "Bài phát biểu của cô ấy có tác động mạnh đến khán giả."
+            },
+            {
+              "en": "Social media impacts how we think.",
+              "vi": "Mạng xã hội tác động đến cách ta suy nghĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["effect", "influence"],
+      "antonyms": [],
+      "collocations": [
+        "huge impact",
+        "have an impact",
+        "environmental impact",
+        "social impact",
+        "impact on"
+      ],
+      "etymology_hint": "From Latin 'impactus' meaning 'pushed against'.",
+      "mnemonic_vi": "IMPACT — 'im-pếch' → 'im' (lặng) 'phạch' (đánh mạnh) = tác động"
+    },
+    {
+      "word": "influence",
+      "lemma": "influence",
+      "ipa": "/ˈɪnfluəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the power to affect someone or something",
+          "meaning_vi": "ảnh hưởng",
+          "examples": [
+            {
+              "en": "Her mother has a big influence on her.",
+              "vi": "Mẹ cô ấy có ảnh hưởng lớn đến cô ấy."
+            },
+            {
+              "en": "Western music has influence on Vietnamese youth.",
+              "vi": "Nhạc phương Tây có ảnh hưởng đến giới trẻ Việt."
+            },
+            {
+              "en": "Don't underestimate the influence of friends.",
+              "vi": "Đừng coi nhẹ ảnh hưởng của bạn bè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["impact", "effect"],
+      "antonyms": [],
+      "collocations": [
+        "big influence",
+        "have influence",
+        "under the influence",
+        "good influence",
+        "bad influence"
+      ],
+      "etymology_hint": "From Latin 'influentia' meaning 'a flowing in'.",
+      "mnemonic_vi": "INFLUENCE — 'in-flu-ần-sờ' → 'in' (vô) 'phầu sơn' (chảy vào) = ảnh hưởng"
+    },
+    {
+      "word": "factor",
+      "lemma": "factor",
+      "ipa": "/ˈfæktə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one of several things that causes a situation or result",
+          "meaning_vi": "yếu tố, nhân tố",
+          "examples": [
+            {
+              "en": "Cost is a major factor in choosing a school.",
+              "vi": "Chi phí là yếu tố quan trọng khi chọn trường."
+            },
+            {
+              "en": "Many factors affect the climate.",
+              "vi": "Nhiều yếu tố ảnh hưởng đến khí hậu."
+            },
+            { "en": "Luck is also a factor.", "vi": "May mắn cũng là một yếu tố." }
+          ]
+        }
+      ],
+      "synonyms": ["element", "aspect"],
+      "antonyms": [],
+      "collocations": [
+        "main factor",
+        "key factor",
+        "risk factor",
+        "important factor",
+        "deciding factor"
+      ],
+      "etymology_hint": "From Latin 'factor' meaning 'doer, maker'.",
+      "mnemonic_vi": "FACTOR — 'fắc-tờ' → 'fắc' (ghép) 'tớ' (vào) = yếu tố"
+    },
+    {
+      "word": "outcome",
+      "lemma": "outcome",
+      "ipa": "/ˈaʊtkʌm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the final result of an action, event, or process",
+          "meaning_vi": "kết quả cuối cùng",
+          "examples": [
+            {
+              "en": "The outcome of the meeting was positive.",
+              "vi": "Kết quả cuộc họp tích cực."
+            },
+            {
+              "en": "We don't know the outcome of the experiment yet.",
+              "vi": "Chúng tôi chưa biết kết quả thí nghiệm."
+            },
+            {
+              "en": "Every outcome teaches us something.",
+              "vi": "Mỗi kết quả đều dạy ta điều gì đó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["result", "consequence"],
+      "antonyms": [],
+      "collocations": [
+        "positive outcome",
+        "expected outcome",
+        "best outcome",
+        "final outcome",
+        "outcome of"
+      ],
+      "etymology_hint": "Compound 'out' + 'come' — what 'comes out' of an action.",
+      "mnemonic_vi": "OUTCOME = OUT (ra) + COME (đến) → cái đến ra cuối = kết quả"
+    },
+    {
+      "word": "reaction",
+      "lemma": "reaction",
+      "ipa": "/riˈækʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "what someone feels, says, or does in response to something",
+          "meaning_vi": "phản ứng",
+          "examples": [
+            {
+              "en": "His reaction to the news was calm.",
+              "vi": "Phản ứng của anh ấy với tin tức rất bình tĩnh."
+            },
+            { "en": "The audience had a strong reaction.", "vi": "Khán giả có phản ứng mạnh." },
+            {
+              "en": "Chemical reactions can be dangerous.",
+              "vi": "Phản ứng hoá học có thể nguy hiểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["response"],
+      "antonyms": ["action"],
+      "collocations": [
+        "strong reaction",
+        "chemical reaction",
+        "allergic reaction",
+        "first reaction",
+        "public reaction"
+      ],
+      "etymology_hint": "From 're-' (back) + 'action' (Latin 'actio').",
+      "mnemonic_vi": "REACTION = RE (lại) + ACTION (hành động) → hành động lại = phản ứng"
+    },
+    {
+      "word": "response",
+      "lemma": "response",
+      "ipa": "/rɪˈspɒns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an answer or reaction to something said or done",
+          "meaning_vi": "phản hồi; sự đáp lại",
+          "examples": [
+            {
+              "en": "His response was honest and direct.",
+              "vi": "Phản hồi của anh ấy thẳng thắn và trực tiếp."
+            },
+            { "en": "The response to the survey was huge.", "vi": "Phản hồi khảo sát rất lớn." },
+            {
+              "en": "There was no response to my email.",
+              "vi": "Không có phản hồi cho email của tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reply", "reaction"],
+      "antonyms": ["question"],
+      "collocations": [
+        "quick response",
+        "no response",
+        "in response to",
+        "response time",
+        "positive response"
+      ],
+      "etymology_hint": "From Latin 'responsum' meaning 'an answer'.",
+      "mnemonic_vi": "RESPONSE = RE (lại) + SPONSE (đáp) → đáp lại = phản hồi"
+    },
+    {
+      "word": "trigger",
+      "lemma": "trigger",
+      "ipa": "/ˈtrɪɡə(r)/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to make something happen suddenly",
+          "meaning_vi": "kích hoạt; gây ra (đột ngột)",
+          "examples": [
+            { "en": "Stress can trigger headaches.", "vi": "Stress có thể gây đau đầu." },
+            {
+              "en": "The news triggered a market crash.",
+              "vi": "Tin tức kích hoạt cuộc khủng hoảng thị trường."
+            },
+            { "en": "Loud noise can trigger anxiety.", "vi": "Tiếng ồn lớn có thể gây lo âu." }
+          ]
+        }
+      ],
+      "synonyms": ["cause", "set off"],
+      "antonyms": ["prevent"],
+      "collocations": [
+        "trigger an event",
+        "trigger a reaction",
+        "trigger memories",
+        "trigger an alarm",
+        "trigger a response"
+      ],
+      "etymology_hint": "From Dutch 'trekker' meaning 'puller' — like a gun trigger.",
+      "mnemonic_vi": "TRIGGER — 'trí-gờ' → 'trí' bóp 'gờ' (cò) súng = kích hoạt"
+    },
+    {
+      "word": "since",
+      "lemma": "since",
+      "ipa": "/sɪns/",
+      "pos": "conjunction",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "because; for the reason that",
+          "meaning_vi": "vì, bởi vì; vì rằng",
+          "examples": [
+            { "en": "Since it's raining, let's stay home.", "vi": "Vì trời đang mưa, hãy ở nhà." },
+            { "en": "Since you ask, I'll tell the truth.", "vi": "Vì bạn hỏi, tôi sẽ nói thật." },
+            {
+              "en": "Since we have time, let's eat phở.",
+              "vi": "Vì chúng ta có thời gian, hãy đi ăn phở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["because", "as"],
+      "antonyms": [],
+      "collocations": [
+        "since when",
+        "since you ask",
+        "since it is",
+        "since the time",
+        "since then"
+      ],
+      "etymology_hint": "From Old English 'siððan' meaning 'after, because'.",
+      "mnemonic_vi": "SINCE — 'sin-sờ' → 'sì' (vì) 'cờ' (nay) = bởi vì"
+    },
+    {
+      "word": "thus",
+      "lemma": "thus",
+      "ipa": "/ðʌs/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "as a result of what was just said; therefore",
+          "meaning_vi": "do đó; như vậy (trang trọng)",
+          "examples": [
+            {
+              "en": "He missed the train; thus, he was late.",
+              "vi": "Anh ấy lỡ tàu; do đó, anh ấy đến muộn."
+            },
+            {
+              "en": "The price rose, thus reducing demand.",
+              "vi": "Giá tăng, do đó nhu cầu giảm."
+            },
+            {
+              "en": "She studied hard; thus, she succeeded.",
+              "vi": "Cô ấy học chăm; nhờ vậy, cô ấy thành công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["therefore", "hence"],
+      "antonyms": [],
+      "collocations": ["thus far", "thus making", "and thus", "thus enabling", "thus creating"],
+      "etymology_hint": "From Old English 'þus' meaning 'in this manner'.",
+      "mnemonic_vi": "THUS — 'thớt' → 'thế' (vậy) 'tớ' (suy) = do đó"
+    },
+    {
+      "word": "hence",
+      "lemma": "hence",
+      "ipa": "/hens/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "for that reason; therefore (formal)",
+          "meaning_vi": "do đó; vì vậy (trang trọng)",
+          "examples": [
+            {
+              "en": "Costs rose, hence the price increase.",
+              "vi": "Chi phí tăng, vì vậy giá tăng."
+            },
+            {
+              "en": "She is fluent in three languages, hence the job offer.",
+              "vi": "Cô ấy thông thạo ba thứ tiếng, do đó nhận được lời mời việc."
+            },
+            {
+              "en": "The report was unclear, hence the confusion.",
+              "vi": "Báo cáo không rõ ràng, do đó gây nhầm lẫn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["therefore", "thus"],
+      "antonyms": [],
+      "collocations": ["hence the", "hence why", "hence forward", "and hence", "hence the need"],
+      "etymology_hint": "From Old English 'heonan' meaning 'from here'.",
+      "mnemonic_vi": "HENCE — 'hen-sờ' → 'hên' nên thế = do đó"
+    },
+    {
+      "word": "owing to",
+      "lemma": "owing to",
+      "ipa": "/ˈəʊɪŋ tuː/",
+      "pos": "preposition",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "because of (formal)",
+          "meaning_vi": "do, vì (trang trọng)",
+          "examples": [
+            { "en": "The match was cancelled owing to rain.", "vi": "Trận đấu bị huỷ do mưa." },
+            {
+              "en": "Owing to traffic, we arrived late.",
+              "vi": "Do tắc đường, chúng tôi đến muộn."
+            },
+            {
+              "en": "Owing to the pandemic, schools closed.",
+              "vi": "Do đại dịch, trường học đóng cửa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["due to", "because of"],
+      "antonyms": [],
+      "collocations": [
+        "owing to weather",
+        "owing to circumstances",
+        "owing to delays",
+        "largely owing to",
+        "owing to the fact"
+      ],
+      "etymology_hint": "From 'owe' (Old English 'āgan' = to possess) + 'to' — implying 'attributable to'.",
+      "mnemonic_vi": "OWING TO = OWE (do) + TO → 'do … gây ra' = bởi vì"
+    },
+    {
+      "word": "eventually",
+      "lemma": "eventually",
+      "ipa": "/ɪˈventʃuəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "in the end; after a long time",
+          "meaning_vi": "cuối cùng; rốt cuộc",
+          "examples": [
+            {
+              "en": "She eventually became a famous singer.",
+              "vi": "Cô ấy cuối cùng trở thành ca sĩ nổi tiếng."
+            },
+            {
+              "en": "If you try, you will eventually succeed.",
+              "vi": "Nếu bạn cố gắng, cuối cùng bạn sẽ thành công."
+            },
+            {
+              "en": "The train eventually arrived an hour late.",
+              "vi": "Tàu cuối cùng cũng đến, muộn một giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finally", "in the end"],
+      "antonyms": ["immediately"],
+      "collocations": [
+        "eventually became",
+        "eventually arrived",
+        "eventually agreed",
+        "eventually realised",
+        "eventually succeed"
+      ],
+      "etymology_hint": "From 'eventual' (Latin 'eventus' = outcome) + '-ly'.",
+      "mnemonic_vi": "EVENTUALLY = EVENTUAL (cuối) + LY (cách) → cuối cùng"
+    }
+  ]
+}
