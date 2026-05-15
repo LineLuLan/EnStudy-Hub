@@ -1,0 +1,724 @@
+{
+  "slug": "traditions-festivals",
+  "name": "Traditions & Festivals",
+  "description": "Truyền thống, lễ hội và tôn giáo.",
+  "order_index": 2,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "tradition",
+      "lemma": "tradition",
+      "ipa": "/trəˈdɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a belief or way of doing something passed down through generations",
+          "meaning_vi": "truyền thống",
+          "examples": [
+            {
+              "en": "Tết is the biggest tradition in Vietnam.",
+              "vi": "Tết là truyền thống lớn nhất ở Việt Nam."
+            },
+            {
+              "en": "Áo dài is part of our tradition.",
+              "vi": "Áo dài là một phần của truyền thống chúng ta."
+            },
+            { "en": "She loves family tradition.", "vi": "Cô ấy yêu truyền thống gia đình." }
+          ]
+        }
+      ],
+      "synonyms": ["custom", "heritage"],
+      "antonyms": ["innovation"],
+      "collocations": [
+        "family tradition",
+        "old tradition",
+        "Vietnamese tradition",
+        "keep a tradition",
+        "break a tradition"
+      ],
+      "etymology_hint": "From Latin 'traditio' meaning 'a handing over', from 'tradere' (to deliver).",
+      "mnemonic_vi": "TRADITION — 'trợ-đí-shần' → 'truyền đi' qua nhiều đời = truyền thống"
+    },
+    {
+      "word": "custom",
+      "lemma": "custom",
+      "ipa": "/ˈkʌstəm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a usual way of behaving or doing something in a place or family",
+          "meaning_vi": "phong tục, tập quán",
+          "examples": [
+            { "en": "It's a custom to give lì xì at Tết.", "vi": "Lì xì là phong tục dịp Tết." },
+            {
+              "en": "Vietnamese custom is to remove shoes indoors.",
+              "vi": "Phong tục Việt là cởi giày khi vào nhà."
+            },
+            { "en": "Every region has its own customs.", "vi": "Mỗi vùng có phong tục riêng." }
+          ]
+        }
+      ],
+      "synonyms": ["tradition", "practice"],
+      "antonyms": [],
+      "collocations": [
+        "local custom",
+        "old custom",
+        "follow a custom",
+        "Vietnamese custom",
+        "social custom"
+      ],
+      "etymology_hint": "From Latin 'consuetudo' meaning 'habit, familiarity'.",
+      "mnemonic_vi": "CUSTOM — 'cát-tâm' → 'gắt tâm' giữ thói = phong tục"
+    },
+    {
+      "word": "festival",
+      "lemma": "festival",
+      "ipa": "/ˈfestɪvl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a special celebration where people gather for music, food, or religion",
+          "meaning_vi": "lễ hội",
+          "examples": [
+            {
+              "en": "The Mid-Autumn Festival is fun for children.",
+              "vi": "Tết Trung Thu rất vui với trẻ em."
+            },
+            {
+              "en": "Huế Festival happens every two years.",
+              "vi": "Festival Huế được tổ chức hai năm một lần."
+            },
+            {
+              "en": "Music festivals attract big crowds.",
+              "vi": "Các lễ hội âm nhạc thu hút đám đông lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["celebration"],
+      "antonyms": [],
+      "collocations": [
+        "music festival",
+        "religious festival",
+        "annual festival",
+        "film festival",
+        "celebrate a festival"
+      ],
+      "etymology_hint": "From Latin 'festivalis' meaning 'of a feast', from 'festum' (feast).",
+      "mnemonic_vi": "FESTIVAL — 'phét-tì-vồ' → 'phấn' (vui) 'tì' (cùng) 'vồ' (vô) = lễ hội"
+    },
+    {
+      "word": "holiday",
+      "lemma": "holiday",
+      "ipa": "/ˈhɒlədeɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a day on which most people do not work, often for celebration",
+          "meaning_vi": "ngày lễ, ngày nghỉ lễ",
+          "examples": [
+            {
+              "en": "September 2 is a national holiday in Vietnam.",
+              "vi": "2/9 là ngày lễ quốc gia của Việt Nam."
+            },
+            { "en": "Tết is a long holiday.", "vi": "Tết là kỳ nghỉ lễ dài." },
+            {
+              "en": "Banks are closed on public holidays.",
+              "vi": "Ngân hàng đóng cửa vào ngày lễ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vacation"],
+      "antonyms": ["workday"],
+      "collocations": [
+        "public holiday",
+        "national holiday",
+        "holiday season",
+        "long holiday",
+        "happy holiday"
+      ],
+      "etymology_hint": "Compound 'holy' + 'day' — originally a religious feast day.",
+      "mnemonic_vi": "HOLIDAY = HOLY (thánh) + DAY (ngày) → ngày thiêng = ngày lễ"
+    },
+    {
+      "word": "celebrate",
+      "lemma": "celebrate",
+      "ipa": "/ˈselɪbreɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to do something special to mark a happy event",
+          "meaning_vi": "tổ chức ăn mừng, kỷ niệm",
+          "examples": [
+            {
+              "en": "Vietnamese families celebrate Tết together.",
+              "vi": "Các gia đình Việt cùng nhau đón Tết."
+            },
+            {
+              "en": "We celebrated her birthday at Pizza 4P's.",
+              "vi": "Chúng tôi tổ chức sinh nhật cô ấy ở Pizza 4P's."
+            },
+            { "en": "Let's celebrate the new year!", "vi": "Hãy cùng ăn mừng năm mới!" }
+          ]
+        }
+      ],
+      "synonyms": ["mark", "commemorate"],
+      "antonyms": [],
+      "collocations": [
+        "celebrate a birthday",
+        "celebrate Tết",
+        "celebrate together",
+        "celebrate an event",
+        "celebrate a victory"
+      ],
+      "etymology_hint": "From Latin 'celebrare' meaning 'to throng, frequent, honor'.",
+      "mnemonic_vi": "CELEBRATE — 'se-lờ-brết' → 'sẽ-lờ-brề' (vui cùng) = ăn mừng"
+    },
+    {
+      "word": "religion",
+      "lemma": "religion",
+      "ipa": "/rɪˈlɪdʒən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a belief in one or more gods and the practices that come with it",
+          "meaning_vi": "tôn giáo",
+          "examples": [
+            {
+              "en": "Vietnam has many religions: Buddhism, Catholicism, and more.",
+              "vi": "Việt Nam có nhiều tôn giáo: Phật giáo, Công giáo, v.v."
+            },
+            {
+              "en": "Religion plays a role in Tết customs.",
+              "vi": "Tôn giáo có vai trò trong phong tục Tết."
+            },
+            {
+              "en": "She studies world religions at university.",
+              "vi": "Cô ấy học các tôn giáo thế giới ở đại học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["faith"],
+      "antonyms": [],
+      "collocations": [
+        "religious belief",
+        "world religion",
+        "follow a religion",
+        "religion class",
+        "religion and culture"
+      ],
+      "etymology_hint": "From Latin 'religio' meaning 'reverence, conscientiousness'.",
+      "mnemonic_vi": "RELIGION — 'ri-lì-dần' → 'ri lì' (tin) niềm = tôn giáo"
+    },
+    {
+      "word": "faith",
+      "lemma": "faith",
+      "ipa": "/feɪθ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "strong belief in someone or something, especially in religion",
+          "meaning_vi": "niềm tin (đặc biệt là tín ngưỡng)",
+          "examples": [
+            {
+              "en": "She has strong faith in her family.",
+              "vi": "Cô ấy có niềm tin mạnh vào gia đình."
+            },
+            {
+              "en": "Buddhists follow the faith of Buddha.",
+              "vi": "Phật tử theo niềm tin của Đức Phật."
+            },
+            {
+              "en": "Faith helps people through hard times.",
+              "vi": "Niềm tin giúp người ta vượt qua khó khăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["belief", "trust"],
+      "antonyms": ["doubt"],
+      "collocations": [
+        "have faith",
+        "lose faith",
+        "strong faith",
+        "religious faith",
+        "blind faith"
+      ],
+      "etymology_hint": "From Latin 'fides' meaning 'trust, belief'.",
+      "mnemonic_vi": "FAITH — 'phây-th' → 'phẩy' tay tin tưởng = niềm tin"
+    },
+    {
+      "word": "temple",
+      "lemma": "temple",
+      "ipa": "/ˈtempl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a building for religious worship, especially in Buddhism or Hinduism",
+          "meaning_vi": "ngôi chùa, đền (Phật giáo, Ấn Độ giáo)",
+          "examples": [
+            {
+              "en": "Chùa Một Cột is a famous temple in Hà Nội.",
+              "vi": "Chùa Một Cột là ngôi chùa nổi tiếng ở Hà Nội."
+            },
+            {
+              "en": "Many people visit temples on the first day of Tết.",
+              "vi": "Nhiều người đi chùa ngày mùng Một Tết."
+            },
+            { "en": "The temple is over 1000 years old.", "vi": "Ngôi chùa hơn 1000 năm tuổi." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Buddhist temple",
+        "visit a temple",
+        "ancient temple",
+        "temple gate",
+        "temple ceremony"
+      ],
+      "etymology_hint": "From Latin 'templum' meaning 'sacred place'.",
+      "mnemonic_vi": "TEMPLE — 'tem-pồ' → 'tâm' (lòng) 'pồ' (vô) yên = chùa"
+    },
+    {
+      "word": "church",
+      "lemma": "church",
+      "ipa": "/tʃɜːtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a building where Christians worship",
+          "meaning_vi": "nhà thờ (Công giáo, Tin lành)",
+          "examples": [
+            {
+              "en": "Nhà thờ Đức Bà is a famous church in Sài Gòn.",
+              "vi": "Nhà thờ Đức Bà là nhà thờ nổi tiếng ở Sài Gòn."
+            },
+            {
+              "en": "They got married in a small church.",
+              "vi": "Họ kết hôn trong một nhà thờ nhỏ."
+            },
+            { "en": "She goes to church every Sunday.", "vi": "Cô ấy đi nhà thờ mỗi Chủ nhật." }
+          ]
+        }
+      ],
+      "synonyms": ["cathedral", "chapel"],
+      "antonyms": [],
+      "collocations": [
+        "go to church",
+        "church bell",
+        "Catholic church",
+        "church wedding",
+        "old church"
+      ],
+      "etymology_hint": "From Greek 'kyriakon' meaning 'lord's house'.",
+      "mnemonic_vi": "CHURCH — 'chớt-chờ' → 'chuông' nhà 'thờ' = nhà thờ"
+    },
+    {
+      "word": "prayer",
+      "lemma": "prayer",
+      "ipa": "/preə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "words said to a god, asking for help or giving thanks",
+          "meaning_vi": "lời cầu nguyện",
+          "examples": [
+            { "en": "She says a prayer before meals.", "vi": "Cô ấy cầu nguyện trước bữa ăn." },
+            { "en": "The whole family joined in prayer.", "vi": "Cả gia đình cùng cầu nguyện." },
+            {
+              "en": "Prayer brings peace to many people.",
+              "vi": "Cầu nguyện đem lại bình an cho nhiều người."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "say a prayer",
+        "morning prayer",
+        "silent prayer",
+        "prayer book",
+        "prayer service"
+      ],
+      "etymology_hint": "From Old French 'preiere', from Latin 'precari' (to entreat).",
+      "mnemonic_vi": "PRAYER — 'prây-ờ' → 'prây' (cầu) gọi trời = cầu nguyện"
+    },
+    {
+      "word": "wedding",
+      "lemma": "wedding",
+      "ipa": "/ˈwedɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a ceremony when two people get married",
+          "meaning_vi": "đám cưới, lễ cưới (góc nhìn truyền thống)",
+          "examples": [
+            {
+              "en": "Vietnamese weddings often last all day.",
+              "vi": "Đám cưới Việt thường kéo dài cả ngày."
+            },
+            {
+              "en": "The bride wore red áo dài at the wedding.",
+              "vi": "Cô dâu mặc áo dài đỏ trong lễ cưới."
+            },
+            {
+              "en": "They invited 500 guests to their wedding.",
+              "vi": "Họ mời 500 khách đến đám cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["marriage ceremony"],
+      "antonyms": ["funeral"],
+      "collocations": [
+        "wedding ceremony",
+        "wedding dress",
+        "wedding day",
+        "traditional wedding",
+        "wedding ring"
+      ],
+      "etymology_hint": "From Old English 'weddung', from 'wed' (a pledge).",
+      "mnemonic_vi": "WEDDING — 'guét-đinh' → 'gặt đinh' đóng nắp lời hứa = lễ cưới"
+    },
+    {
+      "word": "funeral",
+      "lemma": "funeral",
+      "ipa": "/ˈfjuːnərəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a ceremony when someone who has died is buried or cremated",
+          "meaning_vi": "lễ tang, đám tang",
+          "examples": [
+            { "en": "Many people attended the funeral.", "vi": "Nhiều người đến viếng đám tang." },
+            {
+              "en": "Funerals in Vietnam often last several days.",
+              "vi": "Đám tang ở Việt Nam thường kéo dài vài ngày."
+            },
+            {
+              "en": "White is the traditional funeral colour in Vietnam.",
+              "vi": "Trắng là màu tang truyền thống ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["wedding"],
+      "collocations": [
+        "attend a funeral",
+        "funeral ceremony",
+        "funeral service",
+        "family funeral",
+        "funeral procession"
+      ],
+      "etymology_hint": "From Latin 'funeralis', from 'funus' (death rites).",
+      "mnemonic_vi": "FUNERAL — 'phiu-nờ-rồ' → 'phờ' (buồn) 'noron' (đưa tiễn) = lễ tang"
+    },
+    {
+      "word": "anniversary",
+      "lemma": "anniversary",
+      "ipa": "/ˌænɪˈvɜːsəri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the day in each year that is exactly the same date as an important past event",
+          "meaning_vi": "ngày kỷ niệm (cưới, lập quốc, etc.)",
+          "examples": [
+            {
+              "en": "Today is our 10-year wedding anniversary.",
+              "vi": "Hôm nay là kỷ niệm 10 năm ngày cưới của chúng tôi."
+            },
+            {
+              "en": "Vietnam celebrates the Reunification anniversary on April 30.",
+              "vi": "Việt Nam kỷ niệm ngày Thống nhất 30/4."
+            },
+            { "en": "He always remembers his anniversary.", "vi": "Anh ấy luôn nhớ ngày kỷ niệm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wedding anniversary",
+        "10-year anniversary",
+        "celebrate an anniversary",
+        "anniversary gift",
+        "national anniversary"
+      ],
+      "etymology_hint": "From Latin 'anniversarius' = 'annus' (year) + 'vertere' (to turn) → 'returning yearly'.",
+      "mnemonic_vi": "ANNIVERSARY = ANNI (năm) + VERSARY (vòng) → vòng một năm = kỷ niệm"
+    },
+    {
+      "word": "parade",
+      "lemma": "parade",
+      "ipa": "/pəˈreɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a public march or display, often to celebrate something",
+          "meaning_vi": "cuộc diễu hành, diễu binh",
+          "examples": [
+            {
+              "en": "The parade in Ba Đình on September 2 is impressive.",
+              "vi": "Cuộc diễu hành ở Ba Đình ngày 2/9 rất ấn tượng."
+            },
+            {
+              "en": "Kids waved flags during the parade.",
+              "vi": "Trẻ con vẫy cờ trong cuộc diễu hành."
+            },
+            {
+              "en": "The carnival parade lasted two hours.",
+              "vi": "Cuộc diễu hành lễ hội kéo dài hai giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["procession", "march"],
+      "antonyms": [],
+      "collocations": [
+        "military parade",
+        "carnival parade",
+        "lead a parade",
+        "watch the parade",
+        "parade route"
+      ],
+      "etymology_hint": "From French 'parade' meaning 'show, display'.",
+      "mnemonic_vi": "PARADE — 'pờ-rết' → 'phố' rộng 'đỡ' (đi) đều = diễu hành"
+    },
+    {
+      "word": "costume",
+      "lemma": "costume",
+      "ipa": "/ˈkɒstjuːm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "special clothes worn for a performance, festival, or party",
+          "meaning_vi": "trang phục, phục trang",
+          "examples": [
+            {
+              "en": "Children wore traditional costumes at the festival.",
+              "vi": "Trẻ em mặc trang phục truyền thống tại lễ hội."
+            },
+            {
+              "en": "Her Halloween costume was scary.",
+              "vi": "Trang phục Halloween của cô ấy rất đáng sợ."
+            },
+            {
+              "en": "The actors prepared their costumes backstage.",
+              "vi": "Diễn viên chuẩn bị trang phục sau cánh gà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outfit", "attire"],
+      "antonyms": [],
+      "collocations": [
+        "traditional costume",
+        "Halloween costume",
+        "wear a costume",
+        "national costume",
+        "stage costume"
+      ],
+      "etymology_hint": "From Italian 'costume' meaning 'custom, fashion'.",
+      "mnemonic_vi": "COSTUME nghe gần 'CUSTOM' → trang phục theo phong tục = costume"
+    },
+    {
+      "word": "ritual",
+      "lemma": "ritual",
+      "ipa": "/ˈrɪtʃuəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a fixed series of actions done in a special way, often for religion",
+          "meaning_vi": "nghi lễ, nghi thức",
+          "examples": [
+            {
+              "en": "The wedding ritual includes worshipping ancestors.",
+              "vi": "Nghi thức cưới bao gồm cúng tổ tiên."
+            },
+            {
+              "en": "Morning tea is her daily ritual.",
+              "vi": "Trà sáng là nghi thức hàng ngày của cô ấy."
+            },
+            { "en": "Each religion has its own rituals.", "vi": "Mỗi tôn giáo có nghi lễ riêng." }
+          ]
+        }
+      ],
+      "synonyms": ["ceremony", "rite"],
+      "antonyms": [],
+      "collocations": [
+        "religious ritual",
+        "morning ritual",
+        "follow a ritual",
+        "ancient ritual",
+        "wedding ritual"
+      ],
+      "etymology_hint": "From Latin 'ritualis' meaning 'relating to rites'.",
+      "mnemonic_vi": "RITUAL — 'rít-chu-ồ' → 'rì' (đều) 'chú' (chú trọng) = nghi lễ"
+    },
+    {
+      "word": "heritage",
+      "lemma": "heritage",
+      "ipa": "/ˈherɪtɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the traditions, buildings, and culture inherited from past generations",
+          "meaning_vi": "di sản (văn hoá, lịch sử)",
+          "examples": [
+            { "en": "Hội An is a UNESCO heritage site.", "vi": "Hội An là di sản UNESCO." },
+            {
+              "en": "Vietnamese heritage is rich and diverse.",
+              "vi": "Di sản Việt Nam phong phú và đa dạng."
+            },
+            {
+              "en": "She is proud of her cultural heritage.",
+              "vi": "Cô ấy tự hào về di sản văn hoá của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["legacy", "tradition"],
+      "antonyms": [],
+      "collocations": [
+        "cultural heritage",
+        "world heritage",
+        "national heritage",
+        "preserve heritage",
+        "heritage site"
+      ],
+      "etymology_hint": "From Old French 'eritage', from Latin 'heres' (heir).",
+      "mnemonic_vi": "HERITAGE = HERIT (thừa kế) + AGE → đồ thừa kế = di sản"
+    },
+    {
+      "word": "ancestor",
+      "lemma": "ancestor",
+      "ipa": "/ˈænsestə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person in your family who lived long ago, before grandparents",
+          "meaning_vi": "tổ tiên, ông bà tổ",
+          "examples": [
+            {
+              "en": "Vietnamese families worship their ancestors at Tết.",
+              "vi": "Gia đình Việt cúng tổ tiên vào Tết."
+            },
+            {
+              "en": "She is proud of her royal ancestors.",
+              "vi": "Cô ấy tự hào về dòng dõi hoàng tộc."
+            },
+            {
+              "en": "Our ancestors came from the north.",
+              "vi": "Tổ tiên chúng tôi đến từ miền Bắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forefather"],
+      "antonyms": ["descendant"],
+      "collocations": [
+        "worship ancestors",
+        "common ancestor",
+        "distant ancestor",
+        "ancestor altar",
+        "trace your ancestors"
+      ],
+      "etymology_hint": "From Latin 'antecessor' meaning 'predecessor, one who goes before'.",
+      "mnemonic_vi": "ANCESTOR — 'ăn-set-tờ' → 'ăn' (trước) 'sét' (rễ) = tổ tiên"
+    },
+    {
+      "word": "generation",
+      "lemma": "generation",
+      "ipa": "/ˌdʒenəˈreɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "all the people of about the same age in a family or society",
+          "meaning_vi": "thế hệ",
+          "examples": [
+            {
+              "en": "Three generations live under one roof in Việt Nam.",
+              "vi": "Ba thế hệ sống chung mái nhà ở Việt Nam."
+            },
+            {
+              "en": "Gen Z is the youngest working generation.",
+              "vi": "Gen Z là thế hệ làm việc trẻ nhất."
+            },
+            { "en": "Each generation has its own values.", "vi": "Mỗi thế hệ có giá trị riêng." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "young generation",
+        "older generation",
+        "next generation",
+        "generation gap",
+        "future generation"
+      ],
+      "etymology_hint": "From Latin 'generatio' meaning 'producing', from 'generare' (to beget).",
+      "mnemonic_vi": "GENERATION = GENERATE (sinh) + ION → đợt sinh ra = thế hệ"
+    },
+    {
+      "word": "identity",
+      "lemma": "identity",
+      "ipa": "/aɪˈdentəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "who a person is, including their background, culture, and beliefs",
+          "meaning_vi": "danh tính; bản sắc (cá nhân, văn hoá)",
+          "examples": [
+            {
+              "en": "Áo dài is part of Vietnamese identity.",
+              "vi": "Áo dài là một phần bản sắc Việt."
+            },
+            {
+              "en": "The police checked his identity card.",
+              "vi": "Cảnh sát kiểm tra thẻ căn cước của anh ấy."
+            },
+            { "en": "She is still finding her identity.", "vi": "Cô ấy đang tìm bản sắc của mình." }
+          ]
+        }
+      ],
+      "synonyms": ["self", "character"],
+      "antonyms": [],
+      "collocations": [
+        "cultural identity",
+        "national identity",
+        "identity card",
+        "personal identity",
+        "find your identity"
+      ],
+      "etymology_hint": "From Latin 'identitas' meaning 'sameness'.",
+      "mnemonic_vi": "IDENTITY — 'ai-đen-tì-ti' → 'ai đó' 'tì ti' (rõ ràng) = danh tính"
+    }
+  ]
+}

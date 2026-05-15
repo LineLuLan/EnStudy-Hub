@@ -1,0 +1,691 @@
+{
+  "slug": "government-law",
+  "name": "Government & Law",
+  "description": "Chính phủ, pháp luật và công dân.",
+  "order_index": 1,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "government",
+      "lemma": "government",
+      "ipa": "/ˈɡʌvənmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the group of people who control and run a country",
+          "meaning_vi": "chính phủ",
+          "examples": [
+            {
+              "en": "The Vietnamese government announced new policies.",
+              "vi": "Chính phủ Việt Nam công bố các chính sách mới."
+            },
+            {
+              "en": "The government supports small businesses.",
+              "vi": "Chính phủ hỗ trợ doanh nghiệp nhỏ."
+            },
+            {
+              "en": "People expect the government to act fast.",
+              "vi": "Người dân mong chính phủ hành động nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["administration", "state"],
+      "antonyms": [],
+      "collocations": [
+        "central government",
+        "local government",
+        "government policy",
+        "form a government",
+        "government official"
+      ],
+      "etymology_hint": "From Latin 'gubernare' meaning 'to steer, govern', via Old French 'governer'.",
+      "mnemonic_vi": "GOVERNMENT = GOVERN (cai quản) + MENT (việc) → việc cai quản = chính phủ"
+    },
+    {
+      "word": "law",
+      "lemma": "law",
+      "ipa": "/lɔː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a rule made by the state that everyone must follow",
+          "meaning_vi": "luật, pháp luật",
+          "examples": [
+            {
+              "en": "It is against the law to drink and drive.",
+              "vi": "Lái xe sau khi uống rượu là vi phạm pháp luật."
+            },
+            {
+              "en": "Vietnam passed a new labour law in 2021.",
+              "vi": "Việt Nam thông qua luật lao động mới năm 2021."
+            },
+            {
+              "en": "She studies law at Đại học Luật Hà Nội.",
+              "vi": "Cô ấy học luật ở Đại học Luật Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rule", "regulation"],
+      "antonyms": [],
+      "collocations": ["break the law", "pass a law", "labour law", "law school", "by law"],
+      "etymology_hint": "From Old English 'lagu', from Old Norse 'lag' meaning 'something laid down'.",
+      "mnemonic_vi": "LAW — 'lô' → 'lô' (đặt ra) phải theo = luật"
+    },
+    {
+      "word": "election",
+      "lemma": "election",
+      "ipa": "/ɪˈlekʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an event when people vote to choose someone for a position",
+          "meaning_vi": "cuộc bầu cử",
+          "examples": [
+            { "en": "The next election is in May.", "vi": "Cuộc bầu cử tiếp theo vào tháng Năm." },
+            {
+              "en": "Many young people voted in the election.",
+              "vi": "Nhiều người trẻ đi bỏ phiếu trong cuộc bầu cử."
+            },
+            {
+              "en": "The election results were announced live.",
+              "vi": "Kết quả bầu cử được công bố trực tiếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vote", "poll"],
+      "antonyms": [],
+      "collocations": [
+        "win an election",
+        "hold an election",
+        "general election",
+        "election day",
+        "election results"
+      ],
+      "etymology_hint": "From Latin 'electio' meaning 'a choosing', from 'eligere' (to pick out).",
+      "mnemonic_vi": "ELECTION = ELECT (chọn) + ION → việc chọn = cuộc bầu cử"
+    },
+    {
+      "word": "court",
+      "lemma": "court",
+      "ipa": "/kɔːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place where legal cases are decided by a judge",
+          "meaning_vi": "toà án",
+          "examples": [
+            { "en": "The case will go to court next month.", "vi": "Vụ án sẽ ra toà tháng sau." },
+            {
+              "en": "Vietnam's Supreme Court is in Hà Nội.",
+              "vi": "Toà án Tối cao của Việt Nam ở Hà Nội."
+            },
+            {
+              "en": "He must appear in court tomorrow.",
+              "vi": "Anh ấy phải có mặt tại toà ngày mai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tribunal"],
+      "antonyms": [],
+      "collocations": [
+        "go to court",
+        "court case",
+        "supreme court",
+        "court order",
+        "court hearing"
+      ],
+      "etymology_hint": "From Old French 'cort' meaning 'king's court', from Latin 'cohors' (enclosure).",
+      "mnemonic_vi": "COURT — 'cót' → 'cót' (gõ búa) phán quyết = toà án"
+    },
+    {
+      "word": "police",
+      "lemma": "police",
+      "ipa": "/pəˈliːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the people whose job is to keep order and protect citizens",
+          "meaning_vi": "cảnh sát, công an",
+          "examples": [
+            {
+              "en": "The police arrived at the scene quickly.",
+              "vi": "Cảnh sát đến hiện trường rất nhanh."
+            },
+            {
+              "en": "Vietnamese police wear green uniforms.",
+              "vi": "Cảnh sát Việt Nam mặc đồng phục xanh."
+            },
+            {
+              "en": "Call the police if you see a crime.",
+              "vi": "Gọi cảnh sát nếu bạn thấy tội phạm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["officers"],
+      "antonyms": [],
+      "collocations": [
+        "call the police",
+        "police officer",
+        "police station",
+        "traffic police",
+        "secret police"
+      ],
+      "etymology_hint": "From Greek 'polis' meaning 'city' — those who maintain order in the city.",
+      "mnemonic_vi": "POLICE — 'pờ-lít-sờ' → 'pò lít' (lực) giữ trật tự = cảnh sát"
+    },
+    {
+      "word": "crime",
+      "lemma": "crime",
+      "ipa": "/kraɪm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an illegal action that can be punished by law",
+          "meaning_vi": "tội phạm; hành vi phạm pháp",
+          "examples": [
+            { "en": "Stealing is a serious crime.", "vi": "Trộm cắp là tội nghiêm trọng." },
+            { "en": "The crime rate in Hà Nội is low.", "vi": "Tỉ lệ tội phạm ở Hà Nội thấp." },
+            {
+              "en": "Police investigated the crime carefully.",
+              "vi": "Cảnh sát điều tra vụ án rất kỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["offense", "violation"],
+      "antonyms": [],
+      "collocations": [
+        "commit a crime",
+        "violent crime",
+        "crime rate",
+        "fight crime",
+        "organized crime"
+      ],
+      "etymology_hint": "From Latin 'crimen' meaning 'accusation, charge'.",
+      "mnemonic_vi": "CRIME — 'krai-mờ' → 'cray' (đảo điên) 'mờ' (mờ ám) = tội phạm"
+    },
+    {
+      "word": "evidence",
+      "lemma": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "facts or objects that show something is true, especially in court",
+          "meaning_vi": "bằng chứng, chứng cứ",
+          "examples": [
+            {
+              "en": "The police found strong evidence at the scene.",
+              "vi": "Cảnh sát tìm thấy bằng chứng mạnh tại hiện trường."
+            },
+            {
+              "en": "There is no evidence he was lying.",
+              "vi": "Không có bằng chứng anh ấy nói dối."
+            },
+            {
+              "en": "The lawyer presented new evidence in court.",
+              "vi": "Luật sư đưa ra bằng chứng mới tại toà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["proof"],
+      "antonyms": [],
+      "collocations": [
+        "strong evidence",
+        "lack of evidence",
+        "present evidence",
+        "physical evidence",
+        "based on evidence"
+      ],
+      "etymology_hint": "From Latin 'evidentia' meaning 'clarity, proof'.",
+      "mnemonic_vi": "EVIDENCE — 'e-vi-đần' → 'ê vi' (hiển nhiên) thấy = bằng chứng"
+    },
+    {
+      "word": "witness",
+      "lemma": "witness",
+      "ipa": "/ˈwɪtnəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who saw something happen and can tell about it in court",
+          "meaning_vi": "nhân chứng",
+          "examples": [
+            {
+              "en": "The witness gave clear answers in court.",
+              "vi": "Nhân chứng trả lời rõ ràng tại toà."
+            },
+            {
+              "en": "He was the only witness to the accident.",
+              "vi": "Anh ấy là nhân chứng duy nhất của vụ tai nạn."
+            },
+            { "en": "Witnesses must tell the truth.", "vi": "Nhân chứng phải nói sự thật." }
+          ]
+        }
+      ],
+      "synonyms": ["observer"],
+      "antonyms": [],
+      "collocations": [
+        "eye witness",
+        "key witness",
+        "call a witness",
+        "witness statement",
+        "witness the event"
+      ],
+      "etymology_hint": "From Old English 'witnes' meaning 'knowledge, awareness'.",
+      "mnemonic_vi": "WITNESS — 'guýt-nét' → 'guít' (chứng kiến) 'nét' (rõ nét) = nhân chứng"
+    },
+    {
+      "word": "lawyer",
+      "lemma": "lawyer",
+      "ipa": "/ˈlɔːjə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to give legal advice and represent people in court",
+          "meaning_vi": "luật sư (góc nhìn pháp luật)",
+          "examples": [
+            {
+              "en": "Her lawyer argued the case well.",
+              "vi": "Luật sư của cô ấy lập luận tốt tại toà."
+            },
+            {
+              "en": "You should hire a lawyer for this contract.",
+              "vi": "Bạn nên thuê luật sư cho hợp đồng này."
+            },
+            {
+              "en": "Vietnamese lawyers must pass a strict bar exam.",
+              "vi": "Luật sư Việt Nam phải thi sát hạch nghề khắt khe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["attorney", "barrister"],
+      "antonyms": [],
+      "collocations": [
+        "hire a lawyer",
+        "defense lawyer",
+        "corporate lawyer",
+        "criminal lawyer",
+        "consult a lawyer"
+      ],
+      "etymology_hint": "From Middle English 'lawe' (law) + '-yer' (person who).",
+      "mnemonic_vi": "LAWYER = LAW (luật) + YER (người) → người làm luật = luật sư"
+    },
+    {
+      "word": "judge",
+      "lemma": "judge",
+      "ipa": "/dʒʌdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person in court who decides on legal cases",
+          "meaning_vi": "thẩm phán",
+          "examples": [
+            { "en": "The judge gave a fair sentence.", "vi": "Thẩm phán đưa ra bản án công bằng." },
+            {
+              "en": "Vietnamese judges wear red robes.",
+              "vi": "Thẩm phán Việt Nam mặc áo choàng đỏ."
+            },
+            { "en": "The judge listened to both sides.", "vi": "Thẩm phán lắng nghe cả hai bên." }
+          ]
+        }
+      ],
+      "synonyms": ["magistrate"],
+      "antonyms": [],
+      "collocations": [
+        "chief judge",
+        "trial judge",
+        "judge's decision",
+        "before the judge",
+        "judge a case"
+      ],
+      "etymology_hint": "From Latin 'judex' meaning 'one who declares law'.",
+      "mnemonic_vi": "JUDGE — 'dất-dờ' → 'đấp' (gõ búa) phán xử = thẩm phán"
+    },
+    {
+      "word": "jury",
+      "lemma": "jury",
+      "ipa": "/ˈdʒʊəri/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a group of people in court who decide if someone is guilty",
+          "meaning_vi": "bồi thẩm đoàn (đặc biệt trong hệ thống Anh-Mỹ)",
+          "examples": [
+            { "en": "The jury found him not guilty.", "vi": "Bồi thẩm đoàn tuyên anh ấy vô tội." },
+            {
+              "en": "A jury usually has 12 members.",
+              "vi": "Bồi thẩm đoàn thường có 12 thành viên."
+            },
+            {
+              "en": "Vietnam does not use the jury system.",
+              "vi": "Việt Nam không dùng hệ thống bồi thẩm đoàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["panel"],
+      "antonyms": [],
+      "collocations": ["jury member", "trial by jury", "hung jury", "select a jury", "jury duty"],
+      "etymology_hint": "From Old French 'juree' meaning 'oath, sworn group', from Latin 'jurare' (to swear).",
+      "mnemonic_vi": "JURY — 'duy-ri' → 'duy ri' (chỉ riêng) một nhóm quyết = bồi thẩm"
+    },
+    {
+      "word": "justice",
+      "lemma": "justice",
+      "ipa": "/ˈdʒʌstɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "fair treatment under the law; the quality of being fair",
+          "meaning_vi": "công lý; sự công bằng",
+          "examples": [
+            {
+              "en": "The family seeks justice for their son.",
+              "vi": "Gia đình tìm công lý cho con trai."
+            },
+            { "en": "Justice is slow but it comes.", "vi": "Công lý đến chậm nhưng sẽ đến." },
+            {
+              "en": "The Ministry of Justice oversees laws.",
+              "vi": "Bộ Tư pháp giám sát luật pháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fairness", "equity"],
+      "antonyms": ["injustice"],
+      "collocations": [
+        "bring to justice",
+        "seek justice",
+        "social justice",
+        "Ministry of Justice",
+        "justice system"
+      ],
+      "etymology_hint": "From Latin 'justitia' meaning 'righteousness, fairness'.",
+      "mnemonic_vi": "JUSTICE — 'dăs-tít' → 'đặt' (cân) 'tịt' (chính xác) = công lý"
+    },
+    {
+      "word": "freedom",
+      "lemma": "freedom",
+      "ipa": "/ˈfriːdəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the right to do, say, or think what you want",
+          "meaning_vi": "tự do",
+          "examples": [
+            {
+              "en": "Vietnam celebrates Independence Day on September 2.",
+              "vi": "Việt Nam kỷ niệm Ngày Độc lập 2/9."
+            },
+            {
+              "en": "Freedom of speech is important.",
+              "vi": "Tự do ngôn luận là điều quan trọng."
+            },
+            { "en": "She values her personal freedom.", "vi": "Cô ấy trân trọng tự do cá nhân." }
+          ]
+        }
+      ],
+      "synonyms": ["liberty"],
+      "antonyms": ["captivity", "oppression"],
+      "collocations": [
+        "freedom of speech",
+        "personal freedom",
+        "fight for freedom",
+        "freedom of religion",
+        "win freedom"
+      ],
+      "etymology_hint": "From 'free' (Old English 'frēo') + '-dom' (state of being).",
+      "mnemonic_vi": "FREEDOM = FREE (tự do) + DOM (trạng thái) → trạng thái tự do = tự do"
+    },
+    {
+      "word": "democracy",
+      "lemma": "democracy",
+      "ipa": "/dɪˈmɒkrəsi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a system of government in which people vote to choose their leaders",
+          "meaning_vi": "nền dân chủ",
+          "examples": [
+            { "en": "Many countries are democracies.", "vi": "Nhiều quốc gia theo nền dân chủ." },
+            {
+              "en": "Democracy depends on free elections.",
+              "vi": "Dân chủ phụ thuộc vào bầu cử tự do."
+            },
+            {
+              "en": "The book explains modern democracy.",
+              "vi": "Cuốn sách giải thích nền dân chủ hiện đại."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["dictatorship"],
+      "collocations": [
+        "modern democracy",
+        "direct democracy",
+        "democracy movement",
+        "fight for democracy",
+        "young democracy"
+      ],
+      "etymology_hint": "From Greek 'dēmos' (people) + 'kratia' (rule) → 'rule by the people'.",
+      "mnemonic_vi": "DEMOCRACY = DEMO (dân) + CRACY (cai trị) → dân cai trị = dân chủ"
+    },
+    {
+      "word": "rights",
+      "lemma": "rights",
+      "ipa": "/raɪts/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "things that everyone is allowed to do or have under the law",
+          "meaning_vi": "các quyền (con người, công dân)",
+          "examples": [
+            {
+              "en": "Every citizen has equal rights.",
+              "vi": "Mọi công dân đều có quyền bình đẳng."
+            },
+            {
+              "en": "Children's rights must be protected.",
+              "vi": "Quyền trẻ em phải được bảo vệ."
+            },
+            {
+              "en": "She knows her legal rights well.",
+              "vi": "Cô ấy hiểu rõ quyền pháp lý của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["entitlements"],
+      "antonyms": ["duties"],
+      "collocations": [
+        "human rights",
+        "civil rights",
+        "equal rights",
+        "know your rights",
+        "fight for rights"
+      ],
+      "etymology_hint": "From Old English 'riht' meaning 'straight, just, correct'.",
+      "mnemonic_vi": "RIGHTS — 'rai-tờ' → 'rì' (đúng) 'tớ' (cho ta) = quyền"
+    },
+    {
+      "word": "duty",
+      "lemma": "duty",
+      "ipa": "/ˈdjuːti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "something a person should do because of their job or moral reason",
+          "meaning_vi": "nghĩa vụ, trách nhiệm",
+          "examples": [
+            { "en": "It is your duty to vote.", "vi": "Đi bỏ phiếu là nghĩa vụ của bạn." },
+            {
+              "en": "Soldiers have a duty to their country.",
+              "vi": "Người lính có nghĩa vụ với đất nước."
+            },
+            { "en": "The nurse was on duty all night.", "vi": "Y tá trực cả đêm." }
+          ]
+        }
+      ],
+      "synonyms": ["obligation", "responsibility"],
+      "antonyms": ["rights"],
+      "collocations": ["civic duty", "on duty", "sense of duty", "perform a duty", "duty calls"],
+      "etymology_hint": "From Anglo-French 'duete' meaning 'that which is owed', from Old French 'deu' (owed).",
+      "mnemonic_vi": "DUTY — 'diu-ti' → 'diễu' (phải làm) 'tì' (tròn) = nghĩa vụ"
+    },
+    {
+      "word": "parliament",
+      "lemma": "parliament",
+      "ipa": "/ˈpɑːləmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the group of elected people who make a country's laws",
+          "meaning_vi": "quốc hội, nghị viện",
+          "examples": [
+            {
+              "en": "Vietnam's National Assembly is the country's parliament.",
+              "vi": "Quốc hội Việt Nam là cơ quan lập pháp của đất nước."
+            },
+            {
+              "en": "Parliament passed the new tax law.",
+              "vi": "Quốc hội thông qua luật thuế mới."
+            },
+            { "en": "She is a member of parliament.", "vi": "Bà ấy là đại biểu quốc hội." }
+          ]
+        }
+      ],
+      "synonyms": ["assembly", "congress"],
+      "antonyms": [],
+      "collocations": [
+        "member of parliament",
+        "national parliament",
+        "parliament session",
+        "elected to parliament",
+        "parliament building"
+      ],
+      "etymology_hint": "From Old French 'parlement' meaning 'a talking, conference', from 'parler' (to speak).",
+      "mnemonic_vi": "PARLIAMENT nghe gần 'parli-mặn' → 'parly' (bàn) 'mặn' (mạnh) = nghị viện"
+    },
+    {
+      "word": "constitution",
+      "lemma": "constitution",
+      "ipa": "/ˌkɒnstɪˈtjuːʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the basic written rules that a country follows",
+          "meaning_vi": "hiến pháp",
+          "examples": [
+            {
+              "en": "Vietnam's constitution was last revised in 2013.",
+              "vi": "Hiến pháp Việt Nam được sửa đổi lần gần nhất năm 2013."
+            },
+            {
+              "en": "The constitution protects basic rights.",
+              "vi": "Hiến pháp bảo vệ các quyền cơ bản."
+            },
+            { "en": "The new law violates the constitution.", "vi": "Luật mới vi phạm hiến pháp." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "national constitution",
+        "written constitution",
+        "amend the constitution",
+        "violate the constitution",
+        "draft a constitution"
+      ],
+      "etymology_hint": "From Latin 'constitutio' meaning 'an arrangement, decree', from 'constituere' (to set up).",
+      "mnemonic_vi": "CONSTITUTION = CON (cùng) + STITUTION (xếp đặt) → xếp đặt chung = hiến pháp"
+    },
+    {
+      "word": "vote",
+      "lemma": "vote",
+      "ipa": "/vəʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to choose someone or something officially by marking a paper or pressing a button",
+          "meaning_vi": "bỏ phiếu, bầu",
+          "examples": [
+            { "en": "Citizens vote every five years.", "vi": "Công dân bầu cử năm năm một lần." },
+            { "en": "She voted for the new candidate.", "vi": "Cô ấy bỏ phiếu cho ứng viên mới." },
+            {
+              "en": "I voted online for the first time.",
+              "vi": "Lần đầu tiên tôi bỏ phiếu trực tuyến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["elect"],
+      "antonyms": [],
+      "collocations": ["vote for", "vote against", "right to vote", "cast a vote", "vote online"],
+      "etymology_hint": "From Latin 'votum' meaning 'a vow, wish'.",
+      "mnemonic_vi": "VOTE — 'vâu-tờ' → 'vô' thùng phiếu 'tớ' chọn = bỏ phiếu"
+    },
+    {
+      "word": "citizen",
+      "lemma": "citizen",
+      "ipa": "/ˈsɪtɪzn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who legally belongs to a country and has rights there",
+          "meaning_vi": "công dân",
+          "examples": [
+            {
+              "en": "Every Vietnamese citizen has an ID card.",
+              "vi": "Mỗi công dân Việt Nam có thẻ căn cước."
+            },
+            {
+              "en": "She became a citizen of Canada last year.",
+              "vi": "Cô ấy nhập quốc tịch Canada năm ngoái."
+            },
+            { "en": "Good citizens follow the law.", "vi": "Công dân tốt tuân thủ pháp luật." }
+          ]
+        }
+      ],
+      "synonyms": ["national"],
+      "antonyms": ["foreigner"],
+      "collocations": [
+        "become a citizen",
+        "good citizen",
+        "Vietnamese citizen",
+        "citizen rights",
+        "citizen duty"
+      ],
+      "etymology_hint": "From Anglo-French 'citezein', from Latin 'civitas' (city).",
+      "mnemonic_vi": "CITIZEN — 'sì-ti-dần' → 'sì' (thuộc) 'ti dân' (nhân dân) = công dân"
+    }
+  ]
+}

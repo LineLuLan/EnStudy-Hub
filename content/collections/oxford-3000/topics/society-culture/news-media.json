@@ -1,0 +1,727 @@
+{
+  "slug": "news-media",
+  "name": "News & Media",
+  "description": "Tin tức, truyền thông và mạng xã hội.",
+  "order_index": 3,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "news",
+      "lemma": "news",
+      "ipa": "/njuːz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "new information about recent events on TV, online, or in newspapers",
+          "meaning_vi": "tin tức",
+          "examples": [
+            { "en": "I watch the evening news on VTV1.", "vi": "Tôi xem bản tin tối trên VTV1." },
+            {
+              "en": "The news of the election spread fast.",
+              "vi": "Tin tức về bầu cử lan rất nhanh."
+            },
+            {
+              "en": "Good news travels slowly; bad news travels fast.",
+              "vi": "Tin tốt lan chậm; tin xấu lan nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["report", "information"],
+      "antonyms": [],
+      "collocations": ["breaking news", "watch the news", "good news", "bad news", "news report"],
+      "etymology_hint": "Plural of 'new' — literally 'new things'.",
+      "mnemonic_vi": "NEWS — 'niu-zờ' → 'nhỉu' (nhiều) 'sự' mới = tin tức"
+    },
+    {
+      "word": "media",
+      "lemma": "media",
+      "ipa": "/ˈmiːdiə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "TV, radio, newspapers, and websites that share information with the public",
+          "meaning_vi": "truyền thông; phương tiện truyền thông",
+          "examples": [
+            {
+              "en": "The media reported the story all day.",
+              "vi": "Truyền thông đưa tin cả ngày."
+            },
+            {
+              "en": "Vietnamese media covers economic news closely.",
+              "vi": "Truyền thông Việt theo sát tin kinh tế."
+            },
+            {
+              "en": "Social media is part of modern media.",
+              "vi": "Mạng xã hội là một phần của truyền thông hiện đại."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "mass media",
+        "social media",
+        "media coverage",
+        "news media",
+        "media outlet"
+      ],
+      "etymology_hint": "Plural of Latin 'medium' meaning 'middle, means'.",
+      "mnemonic_vi": "MEDIA — 'mi-đi-ờ' → 'mi đi' (đem tin) cho mọi người = truyền thông"
+    },
+    {
+      "word": "journalist",
+      "lemma": "journalist",
+      "ipa": "/ˈdʒɜːnəlɪst/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to collect and report news",
+          "meaning_vi": "nhà báo",
+          "examples": [
+            {
+              "en": "She works as a journalist for Tuổi Trẻ newspaper.",
+              "vi": "Cô ấy làm nhà báo cho báo Tuổi Trẻ."
+            },
+            {
+              "en": "The journalist interviewed many witnesses.",
+              "vi": "Nhà báo phỏng vấn nhiều nhân chứng."
+            },
+            {
+              "en": "Good journalists check their sources.",
+              "vi": "Nhà báo giỏi luôn kiểm tra nguồn tin."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reporter"],
+      "antonyms": [],
+      "collocations": [
+        "work as a journalist",
+        "freelance journalist",
+        "investigative journalist",
+        "young journalist",
+        "famous journalist"
+      ],
+      "etymology_hint": "From French 'journaliste', from 'journal' (daily news).",
+      "mnemonic_vi": "JOURNALIST = JOURNAL (báo) + IST (người) → người làm báo = nhà báo"
+    },
+    {
+      "word": "reporter",
+      "lemma": "reporter",
+      "ipa": "/rɪˈpɔːtə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a journalist who reports the news, often on TV or online",
+          "meaning_vi": "phóng viên",
+          "examples": [
+            {
+              "en": "The reporter spoke live from the scene.",
+              "vi": "Phóng viên đưa tin trực tiếp từ hiện trường."
+            },
+            {
+              "en": "VTV has reporters in many cities.",
+              "vi": "VTV có phóng viên ở nhiều thành phố."
+            },
+            {
+              "en": "She wants to be a sports reporter.",
+              "vi": "Cô ấy muốn trở thành phóng viên thể thao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["journalist", "correspondent"],
+      "antonyms": [],
+      "collocations": [
+        "TV reporter",
+        "field reporter",
+        "sports reporter",
+        "news reporter",
+        "young reporter"
+      ],
+      "etymology_hint": "From 'report' (Latin 'reportare' = to bring back) + '-er'.",
+      "mnemonic_vi": "REPORTER = REPORT (báo cáo) + ER (người) → người báo cáo = phóng viên"
+    },
+    {
+      "word": "article",
+      "lemma": "article",
+      "ipa": "/ˈɑːtɪkl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of writing in a newspaper, magazine, or website",
+          "meaning_vi": "bài báo, bài viết",
+          "examples": [
+            {
+              "en": "I read an interesting article on VnExpress.",
+              "vi": "Tôi đọc một bài báo hay trên VnExpress."
+            },
+            {
+              "en": "Her article got 100,000 views.",
+              "vi": "Bài viết của cô ấy đạt 100,000 lượt xem."
+            },
+            { "en": "He writes articles on travel.", "vi": "Anh ấy viết bài về du lịch." }
+          ]
+        }
+      ],
+      "synonyms": ["piece", "post"],
+      "antonyms": [],
+      "collocations": [
+        "write an article",
+        "read an article",
+        "news article",
+        "online article",
+        "feature article"
+      ],
+      "etymology_hint": "From Latin 'articulus' meaning 'small joint, part'.",
+      "mnemonic_vi": "ARTICLE — 'á-ti-cồ' → 'á' (một bài) 'ti cồ' (chữ) = bài báo"
+    },
+    {
+      "word": "headline",
+      "lemma": "headline",
+      "ipa": "/ˈhedlaɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the big title at the top of a news article",
+          "meaning_vi": "tiêu đề báo; dòng tít",
+          "examples": [
+            {
+              "en": "The headline caught my attention immediately.",
+              "vi": "Tiêu đề báo lập tức gây chú ý."
+            },
+            {
+              "en": "She wrote a catchy headline for the story.",
+              "vi": "Cô ấy viết một tiêu đề bắt mắt cho bài viết."
+            },
+            {
+              "en": "Headlines should be short and clear.",
+              "vi": "Tiêu đề nên ngắn gọn và rõ ràng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["title"],
+      "antonyms": [],
+      "collocations": [
+        "news headline",
+        "catchy headline",
+        "front-page headline",
+        "write a headline",
+        "make headlines"
+      ],
+      "etymology_hint": "Compound 'head' + 'line' — a line at the head of an article.",
+      "mnemonic_vi": "HEADLINE = HEAD (đầu) + LINE (dòng) → dòng đầu = tiêu đề báo"
+    },
+    {
+      "word": "broadcast",
+      "lemma": "broadcast",
+      "ipa": "/ˈbrɔːdkɑːst/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to send out programs on TV, radio, or the internet",
+          "meaning_vi": "phát sóng, truyền hình/phát thanh",
+          "examples": [
+            { "en": "VTV broadcasts the news every hour.", "vi": "VTV phát sóng tin tức mỗi giờ." },
+            {
+              "en": "The match was broadcast live to millions.",
+              "vi": "Trận đấu được phát sóng trực tiếp đến hàng triệu người."
+            },
+            {
+              "en": "She broadcasts her show on YouTube.",
+              "vi": "Cô ấy phát chương trình trên YouTube."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["air", "transmit"],
+      "antonyms": [],
+      "collocations": [
+        "broadcast live",
+        "broadcast news",
+        "broadcast a match",
+        "national broadcast",
+        "live broadcast"
+      ],
+      "etymology_hint": "Originally 'broad' + 'cast' meaning 'to scatter widely' (like seeds).",
+      "mnemonic_vi": "BROADCAST = BROAD (rộng) + CAST (ném) → ném sóng đi xa = phát sóng"
+    },
+    {
+      "word": "channel",
+      "lemma": "channel",
+      "ipa": "/ˈtʃænl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an official station that broadcasts news, programs, or entertainment",
+          "meaning_vi": "kênh (truyền hình, đài) chính thống",
+          "examples": [
+            {
+              "en": "VTV1 is the main news channel in Vietnam.",
+              "vi": "VTV1 là kênh tin chính của Việt Nam."
+            },
+            {
+              "en": "She works for an English-language news channel.",
+              "vi": "Cô ấy làm cho một kênh tin tiếng Anh."
+            },
+            {
+              "en": "The channel reaches 50 million viewers.",
+              "vi": "Kênh tiếp cận 50 triệu khán giả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["station", "network"],
+      "antonyms": [],
+      "collocations": [
+        "news channel",
+        "TV channel",
+        "national channel",
+        "channel reach",
+        "official channel"
+      ],
+      "etymology_hint": "From Old French 'chanel', from Latin 'canalis' (pipe).",
+      "mnemonic_vi": "CHANNEL — 'chen-nờ' → 'chỉ một' dòng tin chính = kênh"
+    },
+    {
+      "word": "publish",
+      "lemma": "publish",
+      "ipa": "/ˈpʌblɪʃ/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to make a book, article, or website available to the public",
+          "meaning_vi": "xuất bản; đăng tải",
+          "examples": [
+            {
+              "en": "She published her first novel last year.",
+              "vi": "Cô ấy xuất bản tiểu thuyết đầu tay năm ngoái."
+            },
+            {
+              "en": "The article was published on VnExpress.",
+              "vi": "Bài báo được đăng trên VnExpress."
+            },
+            {
+              "en": "He publishes a blog post every week.",
+              "vi": "Anh ấy đăng một bài blog mỗi tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["release", "issue"],
+      "antonyms": [],
+      "collocations": [
+        "publish a book",
+        "publish online",
+        "publish an article",
+        "publishing house",
+        "publish a study"
+      ],
+      "etymology_hint": "From Latin 'publicare' meaning 'to make public'.",
+      "mnemonic_vi": "PUBLISH = PUBLIC (công khai) + ISH (việc) → công khai ra = xuất bản"
+    },
+    {
+      "word": "censor",
+      "lemma": "censor",
+      "ipa": "/ˈsensə(r)/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to remove parts of a book, film, or news that are seen as unsuitable",
+          "meaning_vi": "kiểm duyệt; cắt bỏ phần bị cấm",
+          "examples": [
+            {
+              "en": "The film was censored before release.",
+              "vi": "Bộ phim bị kiểm duyệt trước khi ra mắt."
+            },
+            { "en": "Some words are censored on TV.", "vi": "Một số từ bị kiểm duyệt trên TV." },
+            {
+              "en": "Authorities sometimes censor news.",
+              "vi": "Chính quyền đôi khi kiểm duyệt tin tức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["edit", "ban"],
+      "antonyms": [],
+      "collocations": [
+        "censor a film",
+        "censor the news",
+        "self-censor",
+        "heavily censored",
+        "censor content"
+      ],
+      "etymology_hint": "From Latin 'censor' meaning 'magistrate who supervised public morals'.",
+      "mnemonic_vi": "CENSOR — 'sen-sờ' → 'sen' (sỏi) 'sờ' (cắt) bỏ = kiểm duyệt"
+    },
+    {
+      "word": "propaganda",
+      "lemma": "propaganda",
+      "ipa": "/ˌprɒpəˈɡændə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "information used to support a cause or view, often unfair or biased",
+          "meaning_vi": "tuyên truyền (mang nghĩa thuyết phục một chiều)",
+          "examples": [
+            {
+              "en": "Wartime posters often had political propaganda.",
+              "vi": "Áp phích thời chiến thường mang tính tuyên truyền chính trị."
+            },
+            {
+              "en": "Some say the ad is just propaganda.",
+              "vi": "Một số người nói quảng cáo này chỉ là tuyên truyền."
+            },
+            {
+              "en": "Propaganda can shape public opinion.",
+              "vi": "Tuyên truyền có thể định hình dư luận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["publicity"],
+      "antonyms": [],
+      "collocations": [
+        "political propaganda",
+        "spread propaganda",
+        "war propaganda",
+        "anti-propaganda",
+        "propaganda poster"
+      ],
+      "etymology_hint": "From Latin 'congregatio de propaganda fide' (committee for propagating the faith), 17th-century Catholic Church.",
+      "mnemonic_vi": "PROPAGANDA — 'pờ-rốp-pờ-gan-đờ' → 'phổ rộng' tin = tuyên truyền"
+    },
+    {
+      "word": "fake news",
+      "lemma": "fake news",
+      "ipa": "/feɪk njuːz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "false stories made to look like real news, often spread online",
+          "meaning_vi": "tin giả; tin tức bịa đặt",
+          "examples": [
+            {
+              "en": "Fake news spreads fast on Facebook.",
+              "vi": "Tin giả lan rất nhanh trên Facebook."
+            },
+            {
+              "en": "Check the source before sharing fake news.",
+              "vi": "Kiểm tra nguồn trước khi chia sẻ tin giả."
+            },
+            { "en": "Vietnam has laws against fake news.", "vi": "Việt Nam có luật chống tin giả." }
+          ]
+        }
+      ],
+      "synonyms": ["misinformation", "hoax"],
+      "antonyms": [],
+      "collocations": [
+        "spread fake news",
+        "fight fake news",
+        "fake news story",
+        "share fake news",
+        "detect fake news"
+      ],
+      "etymology_hint": "Compound 'fake' + 'news' — coined in modern era for misinformation online.",
+      "mnemonic_vi": "FAKE NEWS = FAKE (giả) + NEWS (tin) → tin giả"
+    },
+    {
+      "word": "social media",
+      "lemma": "social media",
+      "ipa": "/ˈsəʊʃl ˈmiːdiə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "websites and apps where people share posts, photos, and videos",
+          "meaning_vi": "mạng xã hội",
+          "examples": [
+            {
+              "en": "Facebook is the biggest social media in Vietnam.",
+              "vi": "Facebook là mạng xã hội lớn nhất ở Việt Nam."
+            },
+            {
+              "en": "Young people spend hours on social media.",
+              "vi": "Người trẻ dành hàng giờ trên mạng xã hội."
+            },
+            {
+              "en": "Social media changed how we get news.",
+              "vi": "Mạng xã hội thay đổi cách chúng ta xem tin."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use social media",
+        "social media post",
+        "social media account",
+        "social media app",
+        "social media platform"
+      ],
+      "etymology_hint": "Compound 'social' (Latin 'socialis' = of companions) + 'media'.",
+      "mnemonic_vi": "SOCIAL MEDIA = SOCIAL (xã hội) + MEDIA (truyền thông) → truyền thông xã hội"
+    },
+    {
+      "word": "influencer",
+      "lemma": "influencer",
+      "ipa": "/ˈɪnfluənsə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has many followers online and can affect their opinions",
+          "meaning_vi": "người ảnh hưởng mạng xã hội; KOL",
+          "examples": [
+            {
+              "en": "She is a beauty influencer on TikTok.",
+              "vi": "Cô ấy là influencer làm đẹp trên TikTok."
+            },
+            {
+              "en": "Influencers help brands sell products.",
+              "vi": "Các influencer giúp thương hiệu bán sản phẩm."
+            },
+            {
+              "en": "Vietnamese influencers earn good money.",
+              "vi": "Các influencer Việt kiếm thu nhập tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["KOL"],
+      "antonyms": [],
+      "collocations": [
+        "social media influencer",
+        "fashion influencer",
+        "famous influencer",
+        "Instagram influencer",
+        "TikTok influencer"
+      ],
+      "etymology_hint": "From 'influence' (Latin 'influentia' = flowing in) + '-er'.",
+      "mnemonic_vi": "INFLUENCER = INFLUENCE (ảnh hưởng) + ER (người) → người ảnh hưởng"
+    },
+    {
+      "word": "post",
+      "lemma": "post",
+      "ipa": "/pəʊst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a message, photo, or video shared on social media",
+          "meaning_vi": "bài đăng (trên mạng xã hội)",
+          "examples": [
+            {
+              "en": "Her Facebook post got 1,000 likes.",
+              "vi": "Bài đăng Facebook của cô ấy được 1,000 lượt thích."
+            },
+            {
+              "en": "I read a funny post this morning.",
+              "vi": "Sáng nay tôi đọc một bài đăng vui."
+            },
+            { "en": "The post went viral overnight.", "vi": "Bài đăng nổi viral chỉ sau một đêm." }
+          ]
+        }
+      ],
+      "synonyms": ["update", "status"],
+      "antonyms": [],
+      "collocations": [
+        "Facebook post",
+        "blog post",
+        "create a post",
+        "share a post",
+        "post a comment"
+      ],
+      "etymology_hint": "From Latin 'positum' meaning 'placed', via Old French.",
+      "mnemonic_vi": "POST — 'pâu-sờt' → 'phố' (dán lên) bảng = bài đăng"
+    },
+    {
+      "word": "share",
+      "lemma": "share",
+      "ipa": "/ʃeə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to send a post or content to other people, especially online",
+          "meaning_vi": "chia sẻ (trên mạng xã hội)",
+          "examples": [
+            {
+              "en": "I shared the article on Facebook.",
+              "vi": "Tôi chia sẻ bài viết trên Facebook."
+            },
+            { "en": "Please share this with your friends.", "vi": "Vui lòng chia sẻ với bạn bè." },
+            { "en": "She shares photos of her family.", "vi": "Cô ấy chia sẻ ảnh gia đình." }
+          ]
+        }
+      ],
+      "synonyms": ["repost"],
+      "antonyms": [],
+      "collocations": [
+        "share a post",
+        "share online",
+        "share with friends",
+        "share a link",
+        "share a photo"
+      ],
+      "etymology_hint": "From Old English 'scearu' meaning 'a division, cutting'.",
+      "mnemonic_vi": "SHARE — 'sheo' → 'shé' bánh ra cho bạn = chia sẻ"
+    },
+    {
+      "word": "comment",
+      "lemma": "comment",
+      "ipa": "/ˈkɒment/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a written remark left under a post or article online",
+          "meaning_vi": "bình luận (mạng xã hội)",
+          "examples": [
+            {
+              "en": "Her post received hundreds of comments.",
+              "vi": "Bài đăng của cô ấy nhận được hàng trăm bình luận."
+            },
+            { "en": "Please leave a comment below.", "vi": "Vui lòng để lại bình luận bên dưới." },
+            { "en": "Some comments were very rude.", "vi": "Một số bình luận rất khiếm nhã." }
+          ]
+        }
+      ],
+      "synonyms": ["remark", "reply"],
+      "antonyms": [],
+      "collocations": [
+        "leave a comment",
+        "read the comments",
+        "negative comment",
+        "delete a comment",
+        "comment section"
+      ],
+      "etymology_hint": "From Latin 'commentum' meaning 'invention, fabrication'.",
+      "mnemonic_vi": "COMMENT — 'còm-mần' → 'còm' (gõ) 'mán' (ý) = bình luận"
+    },
+    {
+      "word": "follower",
+      "lemma": "follower",
+      "ipa": "/ˈfɒləʊə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who subscribes to someone's posts on social media",
+          "meaning_vi": "người theo dõi (mạng xã hội)",
+          "examples": [
+            {
+              "en": "She has 1 million followers on Instagram.",
+              "vi": "Cô ấy có 1 triệu người theo dõi trên Instagram."
+            },
+            {
+              "en": "Followers love her cooking videos.",
+              "vi": "Người theo dõi yêu các video nấu ăn của cô ấy."
+            },
+            {
+              "en": "He gained 5,000 new followers last week.",
+              "vi": "Anh ấy có thêm 5,000 người theo dõi tuần trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["subscriber", "fan"],
+      "antonyms": [],
+      "collocations": [
+        "gain followers",
+        "lose followers",
+        "loyal follower",
+        "millions of followers",
+        "follower count"
+      ],
+      "etymology_hint": "From 'follow' (Old English 'folgian' = to go after) + '-er'.",
+      "mnemonic_vi": "FOLLOWER = FOLLOW (theo) + ER (người) → người theo = follower"
+    },
+    {
+      "word": "viral",
+      "lemma": "viral",
+      "ipa": "/ˈvaɪrəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of online content) spread very quickly to many people",
+          "meaning_vi": "viral; lan truyền rộng rãi (như virus)",
+          "examples": [
+            {
+              "en": "The funny video went viral overnight.",
+              "vi": "Video hài hước thành viral chỉ sau một đêm."
+            },
+            {
+              "en": "Viral posts can earn lots of money.",
+              "vi": "Bài đăng viral có thể kiếm nhiều tiền."
+            },
+            {
+              "en": "She wants her TikTok to go viral.",
+              "vi": "Cô ấy muốn TikTok của mình thành viral."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["go viral", "viral video", "viral post", "viral trend", "viral marketing"],
+      "etymology_hint": "From 'virus' (Latin = poison) — content that spreads like a virus.",
+      "mnemonic_vi": "VIRAL — 'vai-rồ' → 'vi' (vi rút) lan rộng = viral"
+    },
+    {
+      "word": "trend",
+      "lemma": "trend",
+      "ipa": "/trend/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a popular topic, style, or activity at a particular time",
+          "meaning_vi": "xu hướng; trào lưu",
+          "examples": [
+            {
+              "en": "The new dance is a trend on TikTok.",
+              "vi": "Điệu nhảy mới là trend trên TikTok."
+            },
+            {
+              "en": "Vietnamese fashion follows global trends.",
+              "vi": "Thời trang Việt theo xu hướng toàn cầu."
+            },
+            {
+              "en": "She studies social media trends.",
+              "vi": "Cô ấy nghiên cứu xu hướng mạng xã hội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fashion", "fad"],
+      "antonyms": [],
+      "collocations": [
+        "latest trend",
+        "follow a trend",
+        "set a trend",
+        "fashion trend",
+        "social media trend"
+      ],
+      "etymology_hint": "From Old English 'trendan' meaning 'to roll, turn'.",
+      "mnemonic_vi": "TREND — 'trền' → 'trền lan' khắp nơi = xu hướng"
+    }
+  ]
+}
