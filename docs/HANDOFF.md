@@ -5,6 +5,83 @@
 
 ---
 
+## 2026-05-15 (khuya) — P3 CLOSED — AI gen 3 topic còn lại (12 lessons / 240 cards + 3 metas) — Claude Opus 4.7
+
+**Mục tiêu session**: User explicit override policy `feedback_content_gen` (offline-only) lần 2 — cho AI tự gen 3 topic P3 còn lại (education + nature-environment + entertainment). Đóng phase P3. Còn P4 (society-culture + abstract-academic) cho session sau.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                                     |
+| ------ | --------- | ------------------------------------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                                                       |
+| dev    | `cf36359` | merge be → dev (P3 closed)                                               |
+| be     | `3744fcd` | 3 commits feat(content) (education / nature-environment / entertainment) |
+| fe     | `6044eb6` | sync dev → fe (P3 closed) — gates green                                  |
+
+### Đã ship (3 commits trên `be`)
+
+**12 lessons (240 cards) — Oxford 3000, A1-B2 mix:**
+
+| #   | Topic              | Lesson              | Cards | CEFR mix          |
+| --- | ------------------ | ------------------- | ----- | ----------------- |
+| 1   | education          | school-classroom    | 20    | A1 (12) + A2 (8)  |
+| 2   | education          | subjects-academic   | 20    | A2 (10) + B1 (10) |
+| 3   | education          | exams-results       | 20    | A2 (8) + B1 (12)  |
+| 4   | education          | learning-skills     | 20    | A2 (8) + B1 (12)  |
+| 5   | nature-environment | animals-pets        | 20    | A1 (12) + A2 (8)  |
+| 6   | nature-environment | plants-trees        | 20    | A1 (8) + A2 (12)  |
+| 7   | nature-environment | landscape-geography | 20    | A2 (10) + B1 (10) |
+| 8   | nature-environment | climate-env         | 20    | B1 (10) + B2 (10) |
+| 9   | entertainment      | sports-games        | 20    | A1 (10) + A2 (10) |
+| 10  | entertainment      | music-arts          | 20    | A2 (10) + B1 (10) |
+| 11  | entertainment      | movies-tv           | 20    | A2 (10) + B1 (10) |
+| 12  | entertainment      | hobbies-leisure     | 20    | A2 (10) + B1 (10) |
+
+**3 topic metas**: `education` (order_index 6, graduation-cap, #8b5cf6), `nature-environment` (7, tree-pine, #22c55e), `entertainment` (8, film, #f43f5e).
+
+### Conventions giữ nguyên P1/P2/P3-partial
+
+- IPA British /…/, 3 examples/definition, VN context dày (Sa Pa, Hạ Long, Mỹ Đình, Sơn Tùng, CGV Vincom, Cúc Phương, Mộc Châu, ĐH Bách Khoa, RMIT, AFF Championship, Park Hang-seo, Hoài Linh, Vịnh Hạ Long, Mai Châu, Bản Giốc, Sông Hồng, Mê Kông, Phú Quốc, etc.)
+- 4-5 collocations, etymology 1-2 câu (Old English/Latin/Greek/Old French/Sanskrit/Italian/etc.)
+- mnemonic_vi vibe-y wordplay tiếng Việt
+- Collision disambiguation: forest/jungle (landscape vs plants — nature angle), vegetable (plants vs food-meals), score (sports vs exams), music (subjects vs entertainment), artist (jobs vs music-arts), relax (daily-routine vs hobbies), skill (career vs learning-skills), deadline (meetings vs exams)
+- Multi-word slots (`fossil fuel`, `eco-friendly`) lưu space/hyphen theo natural English
+
+### Verify đã chạy trên fe (sau sync dev → fe)
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm test` ✓ 179/179
+- `pnpm lint` ✓ 0 warnings
+- `pnpm validate:content` ✓ schema pass cho 12 lesson + 3 meta (240 cards). IPA/POS mismatch flags acceptable per precedent.
+
+### Decisions
+
+1. **Override policy `feedback_content_gen` lần 2** → user explicit OK. Quy ước nhắc lại: default vẫn offline gen, override only when user explicit. Memory rule không đổi.
+2. **3 commit/3 topic** thay vì 1 commit gom → clean git history per topic, dễ revert.
+3. **CEFR cho từ trùng**: `forest`/`jungle` ở landscape-geography = B1 (góc nhìn địa lý) khác plants-trees (A1/A2 góc nhìn cây). `music` ở music-arts = A2 (cách dùng phổ biến) khác subjects-academic (môn học A2).
+
+### Progress tổng MVP
+
+- **Đã có (36 lessons / 720 cards)**: P0 (3/60) + P1 (7/140) + P2 (5/100) + P3 (9 partial + 12 close = 21/420) trên 8 topic
+- **Còn lại (6 lessons / 120 cards)**: P4 (society-culture 3 + abstract-academic 3) + 2 topic metas (society-culture, abstract-academic)
+- **MVP target**: 42 lessons / 840 cards. Hiện **86% done**.
+
+### USER TODOs sau session này
+
+1. **`pnpm seed`** trên `.env.local` có DATABASE_URL → upsert 240 cards P3-closed (+ 180 P3-partial nếu chưa) vào Supabase live.
+2. **Gen P4 batch (6 lessons / 120 cards + 2 metas)** — society-culture + abstract-academic — theo `docs/CONTENT_BRIEF_P3_P4_REMAINING.md` Phần 4 lessons 13-18. Phương án: AI gen (override lần 3) hoặc offline qua Claude desktop. Hỏi user trước khi chạy.
+3. Sau P4 → đầy đủ MVP 42/840 → tag `v0.3.0-content-mvp` hoặc tương tự.
+
+### 5 USER TODOs cũ vẫn chưa close (v1.0.0 tag)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test
+4. Lighthouse audit (mobile + desktop)
+5. Supabase RLS smoke test
+
+---
+
 ## 2026-05-15 (tối) — P3 partial content ship (9 lessons / 180 cards + meta work-business) + brief handoff — Claude Opus 4.7
 
 **Mục tiêu session**: gen P3 batch (21 lessons). User truncate sau khi xong work-business (9/21 lessons) → AI handoff phần còn lại (12 P3 + 6 P4 = 18 lessons / 360 cards + 5 metas) qua `docs/CONTENT_BRIEF_P3_P4_REMAINING.md` cho user gen offline. Lý do truncate (user gọi): tiết kiệm context window + API cost + để user kiểm soát chất lượng.
