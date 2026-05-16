@@ -1,0 +1,745 @@
+{
+  "slug": "feelings-extended",
+  "name": "Feelings Extended",
+  "description": "Cảm xúc nâng cao A2 — anxious, delighted, furious, thrilled và 16 từ mạnh hơn happy/sad/angry.",
+  "order_index": 7,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "anxious",
+      "lemma": "anxious",
+      "ipa": "/ˈæŋkʃəs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling worried or nervous about something",
+          "meaning_vi": "lo âu, lo lắng (kéo dài, không cụ thể)",
+          "examples": [
+            {
+              "en": "I'm anxious about my IELTS results tomorrow.",
+              "vi": "Tôi lo âu về kết quả IELTS ngày mai."
+            },
+            {
+              "en": "She felt anxious before her first day at FPT.",
+              "vi": "Cô ấy lo lắng trước ngày đầu tiên đi làm ở FPT."
+            },
+            {
+              "en": "Many parents are anxious about their children's safety online.",
+              "vi": "Nhiều phụ huynh lo lắng về sự an toàn của con trên mạng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["worried", "uneasy"],
+      "antonyms": ["calm", "relaxed"],
+      "collocations": [
+        "feel anxious",
+        "anxious about",
+        "anxious moment",
+        "anxious to know",
+        "increasingly anxious"
+      ],
+      "etymology_hint": "From Latin 'anxius' meaning 'troubled in mind' — from 'angere' (to choke, distress).",
+      "mnemonic_vi": "ANXIOUS = 'ang-shợt' — 'ang ác' lòng, lo lắng day dứt."
+    },
+    {
+      "word": "disappointed",
+      "lemma": "disappointed",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "sad because something didn't happen as you wanted or expected",
+          "meaning_vi": "thất vọng (vì không được như mong đợi)",
+          "examples": [
+            {
+              "en": "I was disappointed when Việt Nam lost the final.",
+              "vi": "Tôi đã thất vọng khi Việt Nam thua trận chung kết."
+            },
+            {
+              "en": "Don't be disappointed if you don't pass on the first try.",
+              "vi": "Đừng thất vọng nếu bạn không đậu lần đầu."
+            },
+            {
+              "en": "She felt disappointed with her exam grade.",
+              "vi": "Cô ấy thất vọng với điểm thi của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["let down", "discouraged"],
+      "antonyms": ["pleased", "delighted"],
+      "collocations": [
+        "deeply disappointed",
+        "disappointed with",
+        "disappointed in",
+        "feel disappointed",
+        "bitterly disappointed"
+      ],
+      "etymology_hint": "From Old French 'desapointer' meaning 'to undo the appointment' — sense of 'fail to meet expectations' developed in English.",
+      "mnemonic_vi": "DISAPPOINTED = DIS + APPOINT → 'mất hẹn' với kỳ vọng. Thất vọng vì không như mơ."
+    },
+    {
+      "word": "furious",
+      "lemma": "furious",
+      "ipa": "/ˈfjʊəriəs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "extremely angry",
+          "meaning_vi": "giận điên, tức điên (mạnh hơn 'angry')",
+          "examples": [
+            {
+              "en": "My boss was furious when I missed the deadline.",
+              "vi": "Sếp tôi tức điên khi tôi trễ deadline."
+            },
+            {
+              "en": "She was furious with him for forgetting their anniversary.",
+              "vi": "Cô ấy giận điên vì anh quên ngày kỷ niệm."
+            },
+            {
+              "en": "Drivers in Sài Gòn get furious during traffic jams.",
+              "vi": "Tài xế ở Sài Gòn tức điên khi kẹt xe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enraged", "livid"],
+      "antonyms": ["calm", "pleased"],
+      "collocations": [
+        "absolutely furious",
+        "furious with",
+        "furious row",
+        "furious pace",
+        "make someone furious"
+      ],
+      "etymology_hint": "From Latin 'furiosus' meaning 'full of rage' — from 'furia' (madness, frenzy).",
+      "mnemonic_vi": "FURIOUS = 'fua-ri-ợt' — 'phừa rịt' lửa giận. Hơn angry một bậc."
+    },
+    {
+      "word": "delighted",
+      "lemma": "delighted",
+      "ipa": "/dɪˈlaɪtɪd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very pleased or happy",
+          "meaning_vi": "vui mừng, hân hoan (mạnh hơn 'happy')",
+          "examples": [
+            {
+              "en": "I'm delighted to hear you got the job at Vingroup.",
+              "vi": "Tôi rất vui khi nghe bạn được nhận vào Vingroup."
+            },
+            {
+              "en": "She was delighted with her birthday present.",
+              "vi": "Cô ấy vô cùng vui với món quà sinh nhật."
+            },
+            {
+              "en": "We'd be delighted if you could come to our wedding.",
+              "vi": "Chúng tôi rất hân hạnh nếu bạn đến dự đám cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thrilled", "overjoyed"],
+      "antonyms": ["disappointed", "displeased"],
+      "collocations": [
+        "absolutely delighted",
+        "delighted to hear",
+        "delighted with",
+        "delighted to meet",
+        "delighted by"
+      ],
+      "etymology_hint": "From Old French 'delitier' meaning 'to please' — from Latin 'delectare' (to charm, attract).",
+      "mnemonic_vi": "DELIGHTED = DE + LIGHT → 'có ánh sáng' rọi vào lòng. Vui sáng cả mặt."
+    },
+    {
+      "word": "amazed",
+      "lemma": "amazed",
+      "ipa": "/əˈmeɪzd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very surprised, often in a good way",
+          "meaning_vi": "kinh ngạc, sửng sốt (thường tích cực)",
+          "examples": [
+            {
+              "en": "I was amazed by the view from Bà Nà Hills.",
+              "vi": "Tôi kinh ngạc trước cảnh nhìn từ Bà Nà Hills."
+            },
+            {
+              "en": "She was amazed at how fast he learned tiếng Việt.",
+              "vi": "Cô ấy ngạc nhiên về tốc độ anh ấy học tiếng Việt."
+            },
+            {
+              "en": "Tourists are amazed by Hạ Long Bay's beauty.",
+              "vi": "Du khách kinh ngạc trước vẻ đẹp Vịnh Hạ Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["astonished", "astounded"],
+      "antonyms": ["unimpressed", "bored"],
+      "collocations": [
+        "absolutely amazed",
+        "amazed at",
+        "amazed by",
+        "amazed to see",
+        "completely amazed"
+      ],
+      "etymology_hint": "From Old English 'amasian' meaning 'to bewilder, confuse' — same root as 'maze' (something confusing).",
+      "mnemonic_vi": "AMAZED = A + MAZE → 'lạc vào mê cung', đầu óc xoay vòng vì ngạc nhiên quá."
+    },
+    {
+      "word": "upset",
+      "lemma": "upset",
+      "ipa": "/ʌpˈset/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "unhappy, worried, or annoyed because of something bad that happened",
+          "meaning_vi": "buồn bực, khó chịu (mix giữa buồn và bực)",
+          "examples": [
+            {
+              "en": "Don't be upset — I'll buy you another cốc trà sữa.",
+              "vi": "Đừng buồn — tôi sẽ mua cho bạn cốc trà sữa khác."
+            },
+            {
+              "en": "She was upset when her dog ran away.",
+              "vi": "Cô ấy buồn bực khi chú chó của mình chạy mất."
+            },
+            {
+              "en": "He sounded upset on the phone yesterday.",
+              "vi": "Anh ấy có vẻ khó chịu khi nói chuyện điện thoại hôm qua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["distressed", "troubled"],
+      "antonyms": ["happy", "calm"],
+      "collocations": ["very upset", "upset about", "get upset", "look upset", "deeply upset"],
+      "etymology_hint": "From Middle English 'upsetten' meaning 'to set up' — modern sense 'distressed' developed from 'overturned, disturbed'.",
+      "mnemonic_vi": "UPSET = UP + SET → 'lật ngược' tâm trạng từ vui sang buồn bực."
+    },
+    {
+      "word": "stressed",
+      "lemma": "stressed",
+      "ipa": "/strest/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling worried and tired because of too much work or problems",
+          "meaning_vi": "căng thẳng, áp lực",
+          "examples": [
+            {
+              "en": "I'm so stressed before the end-of-year report.",
+              "vi": "Tôi rất căng thẳng trước báo cáo cuối năm."
+            },
+            {
+              "en": "Sinh viên năm cuối thường stressed về luận văn.",
+              "vi": "Sinh viên năm cuối thường căng thẳng vì luận văn."
+            },
+            {
+              "en": "Don't get stressed — just take a deep breath.",
+              "vi": "Đừng căng thẳng — chỉ cần hít thở sâu thôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tense", "overwhelmed"],
+      "antonyms": ["relaxed", "calm"],
+      "collocations": [
+        "stressed out",
+        "feel stressed",
+        "stressed about",
+        "highly stressed",
+        "get stressed"
+      ],
+      "etymology_hint": "From Latin 'strictus' meaning 'drawn tight' — modern psychological sense popularized in 20th century by Hans Selye.",
+      "mnemonic_vi": "STRESSED = 'strét' — 'sờ trét' kín đầu công việc. Stress = áp lực."
+    },
+    {
+      "word": "content",
+      "lemma": "content",
+      "ipa": "/kənˈtent/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happy and satisfied with what you have",
+          "meaning_vi": "hài lòng, mãn nguyện (đủ rồi không cần thêm)",
+          "examples": [
+            {
+              "en": "She's content with her small house in Đà Lạt.",
+              "vi": "Cô ấy hài lòng với căn nhà nhỏ ở Đà Lạt."
+            },
+            {
+              "en": "I'm content just to sit and watch the sunset at Phú Quốc.",
+              "vi": "Tôi mãn nguyện chỉ với việc ngồi ngắm hoàng hôn ở Phú Quốc."
+            },
+            {
+              "en": "He seems content to live alone with his cat.",
+              "vi": "Anh ấy có vẻ hài lòng sống một mình với con mèo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["satisfied", "pleased"],
+      "antonyms": ["dissatisfied", "discontent"],
+      "collocations": [
+        "content with",
+        "content to",
+        "perfectly content",
+        "feel content",
+        "remain content"
+      ],
+      "etymology_hint": "From Latin 'contentus' meaning 'contained, satisfied' — from 'continere' (to hold together).",
+      "mnemonic_vi": "CONTENT = CON + TENT → 'cùng giữ' trong lều, không cần ra ngoài. Mãn nguyện ở chỗ mình có."
+    },
+    {
+      "word": "annoyed",
+      "lemma": "annoyed",
+      "ipa": "/əˈnɔɪd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "slightly angry; irritated",
+          "meaning_vi": "bực mình, khó chịu (cấp nhẹ của angry)",
+          "examples": [
+            {
+              "en": "I get annoyed when people honk too much.",
+              "vi": "Tôi bực mình khi ai đó bóp còi quá nhiều."
+            },
+            {
+              "en": "She was annoyed at her noisy neighbours.",
+              "vi": "Cô ấy bực mình với hàng xóm ồn ào."
+            },
+            {
+              "en": "He sounded annoyed about losing his Grab order.",
+              "vi": "Anh ấy có vẻ khó chịu vì mất đơn Grab."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["irritated", "bothered"],
+      "antonyms": ["pleased", "amused"],
+      "collocations": [
+        "annoyed at",
+        "annoyed with",
+        "annoyed about",
+        "get annoyed",
+        "sound annoyed"
+      ],
+      "etymology_hint": "From Old French 'anoier' meaning 'to weary, vex' — from Vulgar Latin 'inodiare' (to make hateful).",
+      "mnemonic_vi": "ANNOYED = AN + NOY (noisy) → 'tiếng ồn' làm bực. Annoying = gây khó chịu."
+    },
+    {
+      "word": "shocked",
+      "lemma": "shocked",
+      "ipa": "/ʃɒkt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very surprised and upset by something unexpected, often bad",
+          "meaning_vi": "sốc, bàng hoàng (thường vì điều xấu)",
+          "examples": [
+            {
+              "en": "We were shocked when we heard the news.",
+              "vi": "Chúng tôi bàng hoàng khi nghe tin."
+            },
+            {
+              "en": "She was shocked by the price of fish at Bến Thành market.",
+              "vi": "Cô ấy sốc với giá cá ở chợ Bến Thành."
+            },
+            {
+              "en": "I'm shocked he failed the entrance exam.",
+              "vi": "Tôi sốc vì anh ấy rớt kỳ thi tuyển sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stunned", "appalled"],
+      "antonyms": ["unsurprised", "calm"],
+      "collocations": [
+        "shocked by",
+        "shocked at",
+        "deeply shocked",
+        "shocked silent",
+        "look shocked"
+      ],
+      "etymology_hint": "From French 'choc' meaning 'violent encounter' — original military sense for clash of armies.",
+      "mnemonic_vi": "SHOCKED = 'sóc-kịt' — 'sốc' điện vào tim. Tin xấu đến bất ngờ."
+    },
+    {
+      "word": "terrified",
+      "lemma": "terrified",
+      "ipa": "/ˈterɪfaɪd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very frightened",
+          "meaning_vi": "kinh hoàng, hoảng sợ (mạnh hơn 'scared')",
+          "examples": [
+            {
+              "en": "She's terrified of cockroaches.",
+              "vi": "Cô ấy sợ hãi gián."
+            },
+            {
+              "en": "I was terrified during the typhoon last year.",
+              "vi": "Tôi kinh hoàng trong cơn bão năm ngoái."
+            },
+            {
+              "en": "Don't be terrified — it's just a horror movie.",
+              "vi": "Đừng sợ — chỉ là phim kinh dị thôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["petrified", "horrified"],
+      "antonyms": ["fearless", "calm"],
+      "collocations": [
+        "terrified of",
+        "absolutely terrified",
+        "terrified to death",
+        "look terrified",
+        "terrified silence"
+      ],
+      "etymology_hint": "From Latin 'terrere' meaning 'to frighten' — same root as 'terror' and 'terrible'.",
+      "mnemonic_vi": "TERRIFIED = TERROR + IFIED → 'bị khủng bố' tinh thần. Sợ hết hồn."
+    },
+    {
+      "word": "thrilled",
+      "lemma": "thrilled",
+      "ipa": "/θrɪld/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "extremely excited and pleased",
+          "meaning_vi": "phấn khích, sướng rơn",
+          "examples": [
+            {
+              "en": "I'm thrilled to visit Việt Nam for the first time!",
+              "vi": "Tôi phấn khích vì lần đầu được đến Việt Nam!"
+            },
+            {
+              "en": "She was thrilled to get tickets to the BlackPink concert.",
+              "vi": "Cô ấy sướng rơn khi mua được vé concert BlackPink."
+            },
+            {
+              "en": "The kids were thrilled by the fireworks on Tết Eve.",
+              "vi": "Bọn trẻ phấn khích với pháo hoa đêm Giao thừa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["delighted", "ecstatic"],
+      "antonyms": ["bored", "uninterested"],
+      "collocations": [
+        "thrilled to",
+        "absolutely thrilled",
+        "thrilled with",
+        "thrilled by",
+        "thrilled to bits"
+      ],
+      "etymology_hint": "From Old English 'þyrlian' meaning 'to pierce' — sense developed from 'penetrate emotionally'.",
+      "mnemonic_vi": "THRILLED = 'thrillờ' — như chơi trò 'thriller' cảm giác mạnh. Sướng phát rung."
+    },
+    {
+      "word": "homesick",
+      "lemma": "homesick",
+      "ipa": "/ˈhəʊmsɪk/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling sad because you are away from home and miss it",
+          "meaning_vi": "nhớ nhà (buồn vì xa nhà)",
+          "examples": [
+            {
+              "en": "I felt homesick after a month in Tokyo.",
+              "vi": "Tôi nhớ nhà sau một tháng ở Tokyo."
+            },
+            {
+              "en": "Students from xa quê often get homesick during Tết.",
+              "vi": "Sinh viên xa quê thường nhớ nhà vào dịp Tết."
+            },
+            {
+              "en": "Eating phở always cures my homesickness abroad.",
+              "vi": "Ăn phở luôn chữa được nỗi nhớ nhà khi ở nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nostalgic"],
+      "antonyms": [],
+      "collocations": [
+        "feel homesick",
+        "get homesick",
+        "terribly homesick",
+        "homesick for",
+        "cure homesickness"
+      ],
+      "etymology_hint": "Compound of 'home' + 'sick' — originally referring to physical illness from being away from home.",
+      "mnemonic_vi": "HOMESICK = HOME + SICK → 'bệnh nhớ nhà'. Phở chữa được homesick."
+    },
+    {
+      "word": "miserable",
+      "lemma": "miserable",
+      "ipa": "/ˈmɪzrəbl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very unhappy or uncomfortable",
+          "meaning_vi": "khốn khổ, đau khổ (mức nặng)",
+          "examples": [
+            {
+              "en": "I felt miserable when I got food poisoning in Nha Trang.",
+              "vi": "Tôi khốn khổ khi bị ngộ độc thức ăn ở Nha Trang."
+            },
+            {
+              "en": "She looked miserable after her cat died.",
+              "vi": "Cô ấy trông đau khổ sau khi mèo chết."
+            },
+            {
+              "en": "The rainy weather made everyone miserable.",
+              "vi": "Thời tiết mưa khiến mọi người chán nản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wretched", "depressed"],
+      "antonyms": ["happy", "cheerful"],
+      "collocations": [
+        "feel miserable",
+        "look miserable",
+        "absolutely miserable",
+        "miserable weather",
+        "make someone miserable"
+      ],
+      "etymology_hint": "From Latin 'miserabilis' meaning 'pitiable' — from 'miser' (wretched, unhappy).",
+      "mnemonic_vi": "MISERABLE = MISER + ABLE → 'có khả năng nghèo khổ'. Khốn khổ, ai cũng thương."
+    },
+    {
+      "word": "eager",
+      "lemma": "eager",
+      "ipa": "/ˈiːɡə(r)/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very interested and wanting to do something",
+          "meaning_vi": "háo hức, hăm hở",
+          "examples": [
+            {
+              "en": "She's eager to start her new job at Vinamilk.",
+              "vi": "Cô ấy háo hức bắt đầu công việc mới ở Vinamilk."
+            },
+            {
+              "en": "The students were eager to visit the museum.",
+              "vi": "Học sinh hăm hở đi thăm bảo tàng."
+            },
+            {
+              "en": "I'm eager to try bún bò Huế for the first time.",
+              "vi": "Tôi háo hức thử bún bò Huế lần đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["keen", "enthusiastic"],
+      "antonyms": ["reluctant", "uninterested"],
+      "collocations": [
+        "eager to",
+        "eager for",
+        "eager beaver",
+        "eager learner",
+        "particularly eager"
+      ],
+      "etymology_hint": "From Old French 'aigre' meaning 'sour, sharp' — sense of 'keen desire' developed in Middle English.",
+      "mnemonic_vi": "EAGER = 'i-gờ' — 'i, gấp' đi làm liền. Hăm hở không đợi được."
+    },
+    {
+      "word": "astonished",
+      "lemma": "astonished",
+      "ipa": "/əˈstɒnɪʃt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very surprised about something completely unexpected",
+          "meaning_vi": "sửng sốt, kinh ngạc (cực mạnh)",
+          "examples": [
+            {
+              "en": "I was astonished to see my old teacher at the market.",
+              "vi": "Tôi sửng sốt khi thấy thầy cũ ở chợ."
+            },
+            {
+              "en": "She was astonished by the size of the wedding cake.",
+              "vi": "Cô ấy kinh ngạc trước kích thước cái bánh cưới."
+            },
+            {
+              "en": "We were astonished at how much Hà Nội has changed.",
+              "vi": "Chúng tôi sửng sốt về sự thay đổi của Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["amazed", "flabbergasted"],
+      "antonyms": ["unimpressed", "indifferent"],
+      "collocations": [
+        "astonished to see",
+        "astonished by",
+        "astonished at",
+        "absolutely astonished",
+        "astonished silence"
+      ],
+      "etymology_hint": "From Old French 'estoner' meaning 'to thunder, stun' — from Latin 'extonare' (to thunder out).",
+      "mnemonic_vi": "ASTONISHED = AS + TONE → 'như sét đánh ngang tai'. Sửng sốt như nghe sấm."
+    },
+    {
+      "word": "regret",
+      "lemma": "regret",
+      "ipa": "/rɪˈɡret/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to feel sorry about something you did or didn't do",
+          "meaning_vi": "hối tiếc, hối hận",
+          "examples": [
+            {
+              "en": "I regret not visiting Sa Pa when I had the chance.",
+              "vi": "Tôi tiếc vì không đến Sa Pa khi có cơ hội."
+            },
+            {
+              "en": "Don't do anything you'll regret tomorrow.",
+              "vi": "Đừng làm gì mà mai sẽ hối hận."
+            },
+            {
+              "en": "She regrets selling her motorbike too cheap.",
+              "vi": "Cô ấy hối hận vì bán xe máy quá rẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["repent", "rue"],
+      "antonyms": [],
+      "collocations": [
+        "regret doing",
+        "deeply regret",
+        "live to regret",
+        "regret to say",
+        "no regrets"
+      ],
+      "etymology_hint": "From Old French 'regreter' meaning 'to lament the dead' — sense of 'feel sorry about past' broadened in Middle English.",
+      "mnemonic_vi": "REGRET = RE + GRET → 're-greet' lại quá khứ, ước được làm lại. Hối tiếc."
+    },
+    {
+      "word": "fear",
+      "lemma": "fear",
+      "ipa": "/fɪə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the feeling you have when you are afraid of something",
+          "meaning_vi": "nỗi sợ, sự sợ hãi",
+          "examples": [
+            {
+              "en": "She has a fear of flying.",
+              "vi": "Cô ấy có nỗi sợ đi máy bay."
+            },
+            {
+              "en": "Don't let fear stop you from chasing your dream.",
+              "vi": "Đừng để nỗi sợ ngăn bạn theo đuổi ước mơ."
+            },
+            {
+              "en": "Fear of failure is normal for new graduates.",
+              "vi": "Sợ thất bại là bình thường với sinh viên mới ra trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dread", "terror"],
+      "antonyms": ["courage", "bravery"],
+      "collocations": ["fear of", "in fear", "overcome fear", "face your fears", "for fear of"],
+      "etymology_hint": "From Old English 'fær' meaning 'sudden calamity, danger' — original sense of 'fright' developed in Middle English.",
+      "mnemonic_vi": "FEAR = 'phia' — 'phia' tránh xa cái mình sợ. Fear of heights = sợ độ cao."
+    },
+    {
+      "word": "joy",
+      "lemma": "joy",
+      "ipa": "/dʒɔɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of great happiness",
+          "meaning_vi": "niềm vui, sự sung sướng",
+          "examples": [
+            {
+              "en": "Her face was full of joy on her wedding day.",
+              "vi": "Khuôn mặt cô ấy tràn đầy niềm vui trong ngày cưới."
+            },
+            {
+              "en": "Children bring joy to a family.",
+              "vi": "Trẻ con mang lại niềm vui cho gia đình."
+            },
+            {
+              "en": "Eating bánh xèo with friends is pure joy.",
+              "vi": "Ăn bánh xèo với bạn bè là niềm vui thuần khiết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["delight", "pleasure"],
+      "antonyms": ["sorrow", "misery"],
+      "collocations": ["great joy", "pure joy", "tears of joy", "bring joy", "filled with joy"],
+      "etymology_hint": "From Old French 'joie' meaning 'happiness' — from Latin 'gaudia' (rejoicing, delight).",
+      "mnemonic_vi": "JOY = 'doi' — 'dôi' niềm vui ra ngoài. Joyful = đầy niềm vui."
+    },
+    {
+      "word": "mood",
+      "lemma": "mood",
+      "ipa": "/muːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the way you are feeling at a particular time",
+          "meaning_vi": "tâm trạng",
+          "examples": [
+            {
+              "en": "I'm not in the mood for cà phê today.",
+              "vi": "Hôm nay tôi không có tâm trạng uống cà phê."
+            },
+            {
+              "en": "Hà Nội's autumn weather puts everyone in a good mood.",
+              "vi": "Thời tiết mùa thu Hà Nội khiến mọi người vui vẻ."
+            },
+            {
+              "en": "Her mood changes quickly when she's hungry.",
+              "vi": "Tâm trạng cô ấy thay đổi nhanh khi đói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["frame of mind", "humour"],
+      "antonyms": [],
+      "collocations": ["good mood", "bad mood", "in the mood", "mood swing", "change mood"],
+      "etymology_hint": "From Old English 'mōd' meaning 'mind, spirit, courage' — modern emotional sense developed in 17th century.",
+      "mnemonic_vi": "MOOD = 'mud' — 'mút' tâm trạng vào, vui buồn lẫn lộn. Good mood = tâm trạng tốt."
+    }
+  ]
+}

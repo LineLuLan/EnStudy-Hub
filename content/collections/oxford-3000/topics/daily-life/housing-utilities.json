@@ -1,0 +1,751 @@
+{
+  "slug": "housing-utilities",
+  "name": "Housing & Utilities",
+  "description": "Từ vựng A2 về nhà ở và tiện ích — rent, landlord, electricity, plumber, lease và 15 từ khác về sống thuê và sửa chữa.",
+  "order_index": 11,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "rent",
+      "lemma": "rent",
+      "ipa": "/rent/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to pay money regularly to live in a house or use something owned by someone else",
+          "meaning_vi": "thuê (nhà, đồ vật)",
+          "examples": [
+            {
+              "en": "I rent a small studio in Cầu Giấy district.",
+              "vi": "Tôi thuê căn studio nhỏ ở quận Cầu Giấy."
+            },
+            {
+              "en": "Most students rent rooms near their university.",
+              "vi": "Hầu hết sinh viên thuê phòng gần trường."
+            },
+            {
+              "en": "She rents a motorbike when she visits Đà Nẵng.",
+              "vi": "Cô ấy thuê xe máy mỗi khi đến Đà Nẵng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lease", "hire"],
+      "antonyms": ["own", "buy"],
+      "collocations": ["rent an apartment", "rent a house", "monthly rent", "pay rent", "rent out"],
+      "etymology_hint": "From Old French 'rente' meaning 'payment due' — from Latin 'reddita' (given back).",
+      "mnemonic_vi": "RENT = 'rént' — 'rền' tiền hàng tháng. Đối của own (sở hữu)."
+    },
+    {
+      "word": "deposit",
+      "lemma": "deposit",
+      "ipa": "/dɪˈpɒzɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "money paid in advance, often returned later if conditions are met",
+          "meaning_vi": "tiền cọc, tiền đặt cọc",
+          "examples": [
+            {
+              "en": "I paid a 2-month deposit on my apartment.",
+              "vi": "Tôi đã trả tiền cọc 2 tháng cho căn hộ."
+            },
+            {
+              "en": "The landlord returned my deposit when I moved out.",
+              "vi": "Chủ nhà trả lại tiền cọc khi tôi chuyển đi."
+            },
+            {
+              "en": "You need a deposit to book this venue.",
+              "vi": "Bạn cần đặt cọc để giữ chỗ địa điểm này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["down payment", "advance"],
+      "antonyms": ["withdrawal"],
+      "collocations": [
+        "pay a deposit",
+        "return the deposit",
+        "non-refundable deposit",
+        "security deposit",
+        "lose the deposit"
+      ],
+      "etymology_hint": "From Latin 'depositum' meaning 'a thing put down' — from 'de-' (down) + 'ponere' (to place).",
+      "mnemonic_vi": "DEPOSIT = DE + POSIT → 'đặt xuống'. Tiền cọc đặt trước, lấy lại sau."
+    },
+    {
+      "word": "lease",
+      "lemma": "lease",
+      "ipa": "/liːs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a written agreement to rent something, usually a home, for a fixed period",
+          "meaning_vi": "hợp đồng thuê (nhà, đất)",
+          "examples": [
+            {
+              "en": "I signed a 1-year lease for my new apartment.",
+              "vi": "Tôi đã ký hợp đồng thuê 1 năm cho căn hộ mới."
+            },
+            {
+              "en": "Read the lease carefully before signing.",
+              "vi": "Đọc kỹ hợp đồng thuê trước khi ký."
+            },
+            {
+              "en": "Their lease expires next month.",
+              "vi": "Hợp đồng thuê của họ hết hạn tháng sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rental contract", "tenancy"],
+      "antonyms": [],
+      "collocations": [
+        "sign a lease",
+        "renew a lease",
+        "lease agreement",
+        "long-term lease",
+        "break a lease"
+      ],
+      "etymology_hint": "From Old French 'lais' meaning 'leave, permission' — from Latin 'laxare' (to let loose).",
+      "mnemonic_vi": "LEASE = 'lís' — 'lý sự' giấy tờ ràng buộc. Hợp đồng thuê chính thức."
+    },
+    {
+      "word": "mortgage",
+      "lemma": "mortgage",
+      "ipa": "/ˈmɔːɡɪdʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "money you borrow from a bank to buy a house, paid back over many years",
+          "meaning_vi": "khoản vay mua nhà (trả góp)",
+          "examples": [
+            {
+              "en": "Most young Vietnamese couples need a mortgage to buy their first home.",
+              "vi": "Hầu hết các cặp đôi trẻ Việt Nam cần khoản vay mua nhà đầu tiên."
+            },
+            {
+              "en": "Vietcombank offers low mortgage rates this year.",
+              "vi": "Vietcombank cung cấp lãi suất vay mua nhà thấp năm nay."
+            },
+            {
+              "en": "Their mortgage is 15 million VND per month.",
+              "vi": "Khoản vay mua nhà của họ là 15 triệu VND mỗi tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["home loan"],
+      "antonyms": [],
+      "collocations": [
+        "take out a mortgage",
+        "pay off a mortgage",
+        "mortgage payment",
+        "fixed-rate mortgage",
+        "monthly mortgage"
+      ],
+      "etymology_hint": "From Old French 'mort' (dead) + 'gage' (pledge) — literally 'dead pledge', because the deal dies when paid off.",
+      "mnemonic_vi": "MORTGAGE = MORT + GAGE → 'lời hứa chết'. Vay mua nhà, trả xong là hết nợ."
+    },
+    {
+      "word": "landlord",
+      "lemma": "landlord",
+      "ipa": "/ˈlændlɔːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who owns a house or apartment and rents it to others",
+          "meaning_vi": "chủ nhà (cho thuê)",
+          "examples": [
+            {
+              "en": "My landlord lives upstairs and is very kind.",
+              "vi": "Chủ nhà của tôi sống tầng trên và rất tốt."
+            },
+            {
+              "en": "Tell the landlord if the air conditioner breaks.",
+              "vi": "Báo cho chủ nhà nếu máy lạnh hỏng."
+            },
+            {
+              "en": "The landlord wants to raise the rent next year.",
+              "vi": "Chủ nhà muốn tăng tiền thuê năm sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["property owner"],
+      "antonyms": ["tenant"],
+      "collocations": [
+        "strict landlord",
+        "kind landlord",
+        "private landlord",
+        "ask the landlord",
+        "former landlord"
+      ],
+      "etymology_hint": "Compound of 'land' + 'lord' — Anglo-Saxon term for owner of land with tenants paying rent.",
+      "mnemonic_vi": "LANDLORD = LAND + LORD → 'lãnh chúa đất'. Chủ nhà cho thuê."
+    },
+    {
+      "word": "tenant",
+      "lemma": "tenant",
+      "ipa": "/ˈtenənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who pays rent to live in a house or use a space",
+          "meaning_vi": "người thuê nhà",
+          "examples": [
+            {
+              "en": "The new tenant moves in on the 1st.",
+              "vi": "Người thuê mới chuyển đến vào ngày mùng 1."
+            },
+            {
+              "en": "Good tenants always pay rent on time.",
+              "vi": "Người thuê tốt luôn trả tiền đúng hạn."
+            },
+            {
+              "en": "She's been a tenant in this building for 5 years.",
+              "vi": "Cô ấy đã thuê ở chung cư này 5 năm rồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["renter", "occupant"],
+      "antonyms": ["landlord", "owner"],
+      "collocations": [
+        "good tenant",
+        "previous tenant",
+        "evict a tenant",
+        "tenant's rights",
+        "long-term tenant"
+      ],
+      "etymology_hint": "From Old French 'tenant' meaning 'holding' — present participle of 'tenir' (to hold), so a tenant 'holds' the property by rent.",
+      "mnemonic_vi": "TENANT = TEN + ANT → 'kiến mướn' nhà. Người thuê (đối với landlord)."
+    },
+    {
+      "word": "utility",
+      "lemma": "utility",
+      "ipa": "/juːˈtɪləti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a basic service such as water, electricity, or gas supplied to a home",
+          "meaning_vi": "tiện ích (điện, nước, gas) — phí dịch vụ cơ bản",
+          "examples": [
+            {
+              "en": "Utilities are not included in the rent.",
+              "vi": "Phí tiện ích không tính trong tiền thuê."
+            },
+            {
+              "en": "My monthly utility bill is around 800,000 VND.",
+              "vi": "Hóa đơn tiện ích hàng tháng của tôi khoảng 800.000 đồng."
+            },
+            {
+              "en": "EVN handles most electricity utilities in Việt Nam.",
+              "vi": "EVN xử lý hầu hết tiện ích điện ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["service", "amenity"],
+      "antonyms": [],
+      "collocations": [
+        "utility bill",
+        "public utility",
+        "utility company",
+        "utility room",
+        "utility costs"
+      ],
+      "etymology_hint": "From Latin 'utilitas' meaning 'usefulness' — from 'uti' (to use).",
+      "mnemonic_vi": "UTILITY = 'iu-tí-li-ti' — 'iu' tiện. Tiện ích = thứ tiện dùng (điện, nước)."
+    },
+    {
+      "word": "electricity",
+      "lemma": "electricity",
+      "ipa": "/ɪˌlekˈtrɪsəti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a form of energy used for lighting, heating, and running machines",
+          "meaning_vi": "điện, điện năng",
+          "examples": [
+            {
+              "en": "Electricity goes off when there's a thunderstorm in Sài Gòn.",
+              "vi": "Điện cúp khi có giông bão ở Sài Gòn."
+            },
+            {
+              "en": "Solar panels can generate electricity at home.",
+              "vi": "Tấm pin mặt trời có thể tạo điện ở nhà."
+            },
+            {
+              "en": "Save electricity by turning off lights you don't need.",
+              "vi": "Tiết kiệm điện bằng cách tắt đèn không cần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["power"],
+      "antonyms": [],
+      "collocations": [
+        "save electricity",
+        "use electricity",
+        "electricity bill",
+        "electricity supply",
+        "cut off electricity"
+      ],
+      "etymology_hint": "From Greek 'elektron' meaning 'amber' — ancient Greeks noticed amber's static-electric property.",
+      "mnemonic_vi": "ELECTRICITY = 'i-léc-trí-si-ti' — 'éc' rít khi giật điện. Năng lượng chạy thiết bị."
+    },
+    {
+      "word": "gas",
+      "lemma": "gas",
+      "ipa": "/ɡæs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance like air, used for cooking or heating in homes",
+          "meaning_vi": "khí gas (nấu ăn, sưởi)",
+          "examples": [
+            {
+              "en": "Vietnamese families often cook with gas stoves.",
+              "vi": "Gia đình Việt thường nấu bằng bếp gas."
+            },
+            {
+              "en": "We ran out of gas — need to call PetroGas.",
+              "vi": "Chúng tôi hết gas — phải gọi PetroGas."
+            },
+            {
+              "en": "Turn off the gas before you go out.",
+              "vi": "Khóa gas trước khi đi ra ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fuel"],
+      "antonyms": [],
+      "collocations": [
+        "gas stove",
+        "gas cylinder",
+        "run out of gas",
+        "turn off the gas",
+        "natural gas"
+      ],
+      "etymology_hint": "Coined by Flemish scientist Van Helmont in 1652 — derived from Greek 'khaos' (chaos, formless void).",
+      "mnemonic_vi": "GAS = 'gát' — 'gas' cháy bếp. Cẩn thận, nguy hiểm cháy nổ."
+    },
+    {
+      "word": "internet",
+      "lemma": "internet",
+      "ipa": "/ˈɪntənet/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the global computer network that lets people access information and communicate",
+          "meaning_vi": "internet, mạng",
+          "examples": [
+            {
+              "en": "FPT and Viettel provide most home internet in Việt Nam.",
+              "vi": "FPT và Viettel cung cấp hầu hết internet nhà ở Việt Nam."
+            },
+            {
+              "en": "My internet is too slow for Zoom calls.",
+              "vi": "Internet của tôi quá chậm để gọi Zoom."
+            },
+            {
+              "en": "I can't live without the internet for a day.",
+              "vi": "Tôi không thể sống thiếu internet một ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["web", "net"],
+      "antonyms": [],
+      "collocations": [
+        "fast internet",
+        "internet connection",
+        "internet provider",
+        "lose internet",
+        "internet access"
+      ],
+      "etymology_hint": "From 'inter-' (between) + 'network' — coined in 1970s to describe network of networks.",
+      "mnemonic_vi": "INTERNET = INTER + NET → 'lưới liên kết'. Mạng toàn cầu."
+    },
+    {
+      "word": "repair",
+      "lemma": "repair",
+      "ipa": "/rɪˈpeə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to fix something that is broken or damaged",
+          "meaning_vi": "sửa chữa",
+          "examples": [
+            {
+              "en": "The handyman repaired the leaky faucet quickly.",
+              "vi": "Thợ sửa nhà sửa vòi nước rò rất nhanh."
+            },
+            {
+              "en": "I need to repair my motorbike before going to Đà Lạt.",
+              "vi": "Tôi cần sửa xe máy trước khi đi Đà Lạt."
+            },
+            {
+              "en": "Some old houses in Hội An have been beautifully repaired.",
+              "vi": "Một số nhà cổ ở Hội An đã được sửa rất đẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fix", "mend"],
+      "antonyms": ["damage", "break"],
+      "collocations": [
+        "repair the damage",
+        "needs repair",
+        "repair work",
+        "minor repair",
+        "repair shop"
+      ],
+      "etymology_hint": "From Latin 'reparare' meaning 'to make ready again' — from 're-' (again) + 'parare' (to prepare).",
+      "mnemonic_vi": "REPAIR = RE + PAIR → 'ghép đôi lại'. Sửa cho hoạt động lại như cũ."
+    },
+    {
+      "word": "plumber",
+      "lemma": "plumber",
+      "ipa": "/ˈplʌmə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to fix water pipes, sinks, and toilets",
+          "meaning_vi": "thợ sửa ống nước",
+          "examples": [
+            {
+              "en": "Call a plumber — the bathroom sink is leaking.",
+              "vi": "Gọi thợ sửa ống nước — bồn rửa nhà tắm bị rò."
+            },
+            {
+              "en": "The plumber fixed our hot water in 30 minutes.",
+              "vi": "Thợ sửa ống nước sửa nước nóng trong 30 phút."
+            },
+            {
+              "en": "It's hard to find a good plumber on weekends.",
+              "vi": "Khó tìm thợ sửa ống nước tốt vào cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "call a plumber",
+        "hire a plumber",
+        "local plumber",
+        "emergency plumber",
+        "good plumber"
+      ],
+      "etymology_hint": "From Latin 'plumbum' meaning 'lead' — originally workers handled lead water pipes (same root as chemical symbol Pb).",
+      "mnemonic_vi": "PLUMBER = PLUMB + ER → 'người dò ống'. Chữ 'b' câm. Sửa ống nước."
+    },
+    {
+      "word": "electrician",
+      "lemma": "electrician",
+      "ipa": "/ɪˌlekˈtrɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to fix or install electrical wires and equipment",
+          "meaning_vi": "thợ điện",
+          "examples": [
+            {
+              "en": "An electrician installed our new ceiling fan.",
+              "vi": "Thợ điện đã lắp quạt trần mới cho chúng tôi."
+            },
+            {
+              "en": "Always hire a licensed electrician for big jobs.",
+              "vi": "Luôn thuê thợ điện có chứng chỉ cho việc lớn."
+            },
+            {
+              "en": "The electrician fixed the broken light switch.",
+              "vi": "Thợ điện đã sửa công tắc đèn bị hỏng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "qualified electrician",
+        "hire an electrician",
+        "call an electrician",
+        "licensed electrician",
+        "electrician's bill"
+      ],
+      "etymology_hint": "From 'electric' + '-ian' (one who practices) — coined in 18th century when electricity was a new field.",
+      "mnemonic_vi": "ELECTRICIAN = ELECTRIC + IAN → 'người làm điện'. Sửa dây, lắp đèn."
+    },
+    {
+      "word": "furnished",
+      "lemma": "furnished",
+      "ipa": "/ˈfɜːnɪʃt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "with furniture already included (about a house or apartment)",
+          "meaning_vi": "có sẵn nội thất (nhà thuê)",
+          "examples": [
+            {
+              "en": "I'm looking for a furnished apartment near Lotte Center.",
+              "vi": "Tôi tìm căn hộ có sẵn nội thất gần Lotte Center."
+            },
+            {
+              "en": "Furnished places usually cost more than empty ones.",
+              "vi": "Nơi có sẵn nội thất thường đắt hơn nơi trống."
+            },
+            {
+              "en": "Their new house came fully furnished.",
+              "vi": "Nhà mới của họ có đầy đủ nội thất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["equipped"],
+      "antonyms": ["unfurnished", "empty"],
+      "collocations": [
+        "fully furnished",
+        "partly furnished",
+        "furnished apartment",
+        "furnished room",
+        "well furnished"
+      ],
+      "etymology_hint": "From Old French 'fournir' meaning 'to provide' — from Frankish 'frumjan' (to do, accomplish).",
+      "mnemonic_vi": "FURNISHED = FURNI + SHED → 'có đồ nội thất' (furniture). Đối: unfurnished = trống."
+    },
+    {
+      "word": "basement",
+      "lemma": "basement",
+      "ipa": "/ˈbeɪsmənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a room or floor below ground level in a building",
+          "meaning_vi": "tầng hầm",
+          "examples": [
+            {
+              "en": "The Vincom basement has a food court and supermarket.",
+              "vi": "Tầng hầm Vincom có khu ẩm thực và siêu thị."
+            },
+            {
+              "en": "We park our motorbikes in the basement.",
+              "vi": "Chúng tôi để xe máy ở tầng hầm."
+            },
+            {
+              "en": "His office is in the basement of an old French villa.",
+              "vi": "Văn phòng anh ấy ở tầng hầm của một villa Pháp cổ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cellar"],
+      "antonyms": ["attic", "loft"],
+      "collocations": [
+        "in the basement",
+        "basement parking",
+        "basement flat",
+        "basement floor",
+        "underground basement"
+      ],
+      "etymology_hint": "From 'base' + '-ment' — 'the lowest part of a building'.",
+      "mnemonic_vi": "BASEMENT = BASE + MENT → 'phần đáy'. Tầng dưới mặt đất, B1, B2."
+    },
+    {
+      "word": "driveway",
+      "lemma": "driveway",
+      "ipa": "/ˈdraɪvweɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short road leading from the street to a house or garage",
+          "meaning_vi": "lối lái xe vào nhà",
+          "examples": [
+            {
+              "en": "Park your car in the driveway, not on the street.",
+              "vi": "Đậu xe vào lối nhà, đừng đậu ngoài đường."
+            },
+            {
+              "en": "Their driveway is too narrow for two cars.",
+              "vi": "Lối vào nhà họ quá hẹp cho hai xe."
+            },
+            {
+              "en": "The driveway was full of leaves after the storm.",
+              "vi": "Lối vào nhà đầy lá sau cơn bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in the driveway",
+        "pull into the driveway",
+        "long driveway",
+        "narrow driveway",
+        "block the driveway"
+      ],
+      "etymology_hint": "Compound of 'drive' + 'way' — literally 'a way to drive on'.",
+      "mnemonic_vi": "DRIVEWAY = DRIVE + WAY → 'đường lái'. Lối từ cổng tới gara."
+    },
+    {
+      "word": "hallway",
+      "lemma": "hallway",
+      "ipa": "/ˈhɔːlweɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long narrow passage inside a building, connecting rooms",
+          "meaning_vi": "hành lang, lối đi (trong nhà)",
+          "examples": [
+            {
+              "en": "Keep your bike out of the hallway.",
+              "vi": "Đừng để xe đạp ở hành lang."
+            },
+            {
+              "en": "The hallway smells like phở from the apartment next door.",
+              "vi": "Hành lang thơm mùi phở từ căn hộ bên cạnh."
+            },
+            {
+              "en": "Hang the mirror in the hallway.",
+              "vi": "Treo gương ở hành lang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["corridor", "passage"],
+      "antonyms": [],
+      "collocations": [
+        "long hallway",
+        "narrow hallway",
+        "hallway mirror",
+        "down the hallway",
+        "well-lit hallway"
+      ],
+      "etymology_hint": "Compound of 'hall' (large room) + 'way' — modern usage for connecting corridor.",
+      "mnemonic_vi": "HALLWAY = HALL + WAY → 'lối qua sảnh'. Hành lang chung cư."
+    },
+    {
+      "word": "roof",
+      "lemma": "roof",
+      "ipa": "/ruːf/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the top covering of a building",
+          "meaning_vi": "mái nhà",
+          "examples": [
+            {
+              "en": "The roof leaked during the heavy Sài Gòn rain.",
+              "vi": "Mái nhà bị dột trong cơn mưa lớn ở Sài Gòn."
+            },
+            {
+              "en": "Vietnamese village houses often have red tile roofs.",
+              "vi": "Nhà làng quê Việt thường có mái ngói đỏ."
+            },
+            {
+              "en": "We have a beautiful view from the roof of our building.",
+              "vi": "Chúng tôi có view đẹp từ trên mái tòa nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["foundation"],
+      "collocations": ["tile roof", "leaky roof", "fix the roof", "roof garden", "under one roof"],
+      "etymology_hint": "From Old English 'hrōf' meaning 'roof, ceiling, sky' — same Germanic root as Dutch 'roef'.",
+      "mnemonic_vi": "ROOF = 'rúp' — 'rúp' che mưa nắng trên đầu. Mái che."
+    },
+    {
+      "word": "lock",
+      "lemma": "lock",
+      "ipa": "/lɒk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a device used to keep a door, box, or vehicle closed and safe",
+          "meaning_vi": "khóa (cửa, két, xe)",
+          "examples": [
+            {
+              "en": "Change the lock when you move into a new apartment.",
+              "vi": "Đổi khóa khi chuyển vào căn hộ mới."
+            },
+            {
+              "en": "The lock on the gate is broken.",
+              "vi": "Khóa cổng bị hỏng."
+            },
+            {
+              "en": "Buy a strong lock for your motorbike to prevent theft.",
+              "vi": "Mua khóa chắc cho xe máy để chống trộm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["latch", "bolt"],
+      "antonyms": ["key"],
+      "collocations": [
+        "lock and key",
+        "change the lock",
+        "strong lock",
+        "pick a lock",
+        "lock the door"
+      ],
+      "etymology_hint": "From Old English 'loc' meaning 'fastening, enclosure' — same root as 'enclose'.",
+      "mnemonic_vi": "LOCK = 'lóc' — 'lốc' kêu cộc khi khóa cửa. Cần chìa key để mở."
+    },
+    {
+      "word": "leak",
+      "lemma": "leak",
+      "ipa": "/liːk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "when liquid or gas comes out through a hole or crack by accident",
+          "meaning_vi": "rò rỉ (nước, gas)",
+          "examples": [
+            {
+              "en": "The kitchen tap is leaking — call the plumber.",
+              "vi": "Vòi nước nhà bếp đang rò — gọi thợ sửa ống nước."
+            },
+            {
+              "en": "Gas was leaking from the broken stove.",
+              "vi": "Gas đang rò ra từ cái bếp hỏng."
+            },
+            {
+              "en": "Rain leaked into the basement during the typhoon.",
+              "vi": "Nước mưa rò vào tầng hầm trong bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["drip", "seep"],
+      "antonyms": ["seal"],
+      "collocations": ["leak out", "leak through", "water leak", "gas leak", "leaky pipe"],
+      "etymology_hint": "From Middle English 'leken' meaning 'to drip, run' — from Old Norse 'leka' (to drip).",
+      "mnemonic_vi": "LEAK = 'lích' — 'lích lích' nước nhỏ giọt. Leaky tap = vòi nước rò."
+    }
+  ]
+}
