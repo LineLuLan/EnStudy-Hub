@@ -475,13 +475,20 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/time-sequence` — prior, subsequent, simultaneously, previously, meanwhile, finally, afterwards, beforehand, briefly, shortly, presently, formerly, subsequently, ongoing, earlier, later, consecutive, successive, imminent, prolonged
     - `entertainment/digital-culture` — meme, algorithm, streamer, gaming, esports, nft, crypto, metaverse, avatar, hack, cyber, reality, augmented, chatbot, database, cookie, browser, website, firewall, encryption
     - Gates green. Seed live: **97 lessons / 1940 cards** (~50% Oxford 3000 — milestone đầu tiên!).
-  - [ ] **P8c/d/e** (15 lessons remaining) — TODO next sessions
+  - [x] **P8c B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `1d6b923` → merge `2169324` → sync `b234dad`):
+    - `abstract-academic/abstract-concepts` — concept, principle, paradigm, framework, notion, essence, aspect, context, approach, model, system, structure, nature, truth, value, property, feature, characteristic, component, trait
+    - `society-culture/politics-government` — politics, policy, minister, president, congress, senator, mayor, candidate, diplomat, embassy, nation, federal, republic, monarchy, treaty, summit, speech, ballot, coalition, referendum
+    - `work-business/leadership` — motivate, inspire, vision, mission, empower, charisma, integrity, accountability, authority, command, direct, oversee, supervise, govern, dominate, control, discipline, encourage, visionary, delegate
+    - `daily-life/relationships-modern` — relationship, breakup, marriage, crush, flirt, honeymoon, spouse, fiance, bachelor, widow, soulmate, in-laws, ghost, ex, dating, intimacy, commitment, cohabit, blind-date, matchmaker
+    - `nature-environment/sustainability` — organic, footprint, reuse, compost, biodegradable, environmental, protect, solar, electric, hybrid, vegan, consumption, waste, erosion, recyclable, natural, endangered, plant-based, zero-waste, biofuel
+    - Gates green. Seed live: **102 lessons / 2040 cards** (~53% Oxford 3000).
+  - [ ] **P8d/e** (10 lessons remaining) — TODO next sessions
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 97/192 lessons (50.5%), 1940/3840 cards (50.5%), **🎉 ~50% Oxford 3000 coverage milestone đầu tiên**. **P7 CLOSED (20/20)**, **P8 ở 10/25**, next: P8c-e (15 lessons remaining).
+**Progress**: 102/192 lessons (53%), 2040/3840 cards (53%), ~53% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 ở 15/25**, next: P8d-e (10 lessons remaining).
 
 ---
 
