@@ -443,14 +443,22 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
   - `daily-life/health-symptoms` — headache, stomachache, toothache, flu, fever, cough, sneeze, dizzy, vomit, bleed, bandage, prescription, vaccine, medication, infection, virus, bacteria, injury, wound, rash
   - Quality bar: British IPA, VN context dày (FPT/Vincom/Shopee/Vinmec/Petrolimex/EVN/Côn Đảo/Cát Bà/Fansipan/Highlands/...), mnemonic wordplay, etymology narratives, 0-3 syn / 0-2 ant / 4-5 collocations. Collision check via grep — 100/100 NEW.
   - Gates green (Zod ALL VALID, typecheck 0, lint 0). Seed live: **77 lessons / 1540 cards** (~40% Oxford 3000).
-- [ ] **P7c A2 expansion remaining** (~10 lessons / 200 cards) — TODO
+- [x] **P7c A2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `cb3c24b` trên be → merge `0b6e512` lên dev → sync `61a1a1a` xuống fe):
+  - `daily-life/cleaning-housework` — vacuum, sweep, mop, dust, laundry, iron, dishwasher, garbage, tidy, broom, bucket, wipe, polish, stain, sponge, detergent, rubbish, chore, maid, spotless
+  - `entertainment/social-media` — follow, story, hashtag, profile, tag, filter, upload, download, notification, emoji, stream, subscribe, block, mute, caption, selfie, trending, unfollow, swipe, status
+  - `people/work-relationships` — supervisor, subordinate, coworker, trainee, apprentice, recruit, counterpart, mentee, peer, associate, dismiss, quit, shift, rookie, veteran, chief, lead, specialist, junior, crew
+  - `work-business/teamwork` — collaborate, role, task, contribute, cooperate, delegate, assign, achieve, accomplish, teamwork, unity, division, resolve, consensus, coordinate, align, responsibility, mutual, commit, complete
+  - `time-numbers/measurements` — metre, kilometre, centimetre, millimetre, inch, mile, kilogram, gram, pound, litre, millilitre, gallon, weight, height, length, width, depth, distance, tonne, measure
+  - Quality bar: British IPA, VN context dày (Vinhomes/Vietcombank/VPBank/Viettel/FPT/Vinpearl/Landmark 81/Mekong/Bến Thành/Sơn Tùng M-TP/Vietnam Airlines/Hạ Long Bay), mnemonic wordplay, etymology narratives, 0-3 syn / 0-2 ant / 4-5 collocations. Collision check via grep — 100/100 NEW.
+  - Gates green (Zod ALL VALID). Seed live: **82 lessons / 1640 cards** (~43% Oxford 3000).
+- [ ] **P7d A2 expansion remaining** (~5 lessons / 100 cards) — TODO last batch to close P7
 - [ ] **P8 B1 part 1** (25 lessons / 500 cards) — TODO
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 77/192 lessons (40%), 1540/3840 cards (40%), ~40% Oxford 3000 coverage.
+**Progress**: 82/192 lessons (43%), 1640/3840 cards (43%), ~43% Oxford 3000 coverage.
 
 ---
 
