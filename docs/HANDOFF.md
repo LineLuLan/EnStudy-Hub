@@ -5,6 +5,63 @@
 
 ---
 
+## 2026-05-17 (P9e content batch — P9 CLOSED) — B1: 5 lessons / 100 cards (137/192, ~71%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 cuối đóng P9 25/25. User "Tiếp đi" → override #17. Quality bar duy trì.
+
+**5 lessons mới (B1, 100/100 NEW so với 2640 existing)**:
+
+| #   | Lesson           | Topic         | order |
+| --- | ---------------- | ------------- | ----- |
+| 1   | personal-finance | daily-life    | 21    |
+| 2   | board-games      | entertainment | 13    |
+| 3   | networking       | people        | 8     |
+| 4   | data-analysis    | work-business | 16    |
+| 5   | sleep-routine    | daily-life    | 22    |
+
+### Scope pivot
+
+L5: HANDOFF P9d đề xuất `airport-procedures` nhưng airport-flight đã cover 12/20 candidates (check-in, gate, terminal, customs, etc.). Pivot sang `daily-life/sleep-routine` — concrete topic mới, ít overlap.
+
+### SHA cuối session (P9e)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `d580ddd` (P9e merge)
+- be `110c582` (P9e content)
+- fe `806cc65` (sync P9e)
+
+### Verify
+
+- Zod ALL VALID 5 files. Tất cả đúng 20 cards.
+- Validate flags: 12+12+15+12+10 = 61/100 IPA notation variations.
+- Round 2 grep cần thiết do collision ngày càng nặng (coverage 71%).
+
+### **P9 CLOSED 25/25 — Milestone**
+
+P9 hoàn thành 5 batches (P9a/b/c/d/e), tổng 25 lessons / 500 cards. Day total từ P8e đến P9e: **30 lessons / 600 cards** trong 1 session marathon. Coverage tăng từ 56% (P8d ship) → 71% (P9e ship).
+
+### PICKUP cho session sau — P10 B2 expansion (25 lessons / 500 cards)
+
+P9 đã đóng. Next phase: **P10 — B2 expansion** (25 lessons B2 trở lên). Đề xuất topic candidates cho P10a (5 đầu):
+
+- `abstract-academic/philosophy` — existentialism, dichotomy, paradigm-shift, epistemology, ontology
+- `work-business/corporate-strategy` — diversification, synergy, vertical-integration, M&A-(merger taken)
+- `nature-environment/ecosystem-services` — pollination, carbon-sequestration, biocapacity, nutrient-cycling
+- `entertainment/film-production` — cinematography, postproduction, screenwriting, montage, mise-en-scene
+- `society-culture/governance-systems` — federalism, autocracy, constitution, jurisdiction, sovereignty
+
+Lưu ý: P10 lên B2 → từ vựng học thuật hơn, ít collision hơn với A2/B1 nền hiện có (nhưng vẫn cần grep kỹ).
+
+### Files state khi handoff (P9e)
+
+- All branches pushed to origin.
+- Docs updated.
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (P9d content batch) — B1: 5 lessons / 100 cards (132/192, ~69%) — Claude Opus 4.7
 
 ### Đã ship
