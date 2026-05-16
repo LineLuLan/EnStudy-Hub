@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P10a B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `c62d88f` → merge `a376d79` → sync `c69b4a4`) — P10 mở 5/25, lần đầu B2:
+    - `abstract-academic/philosophy` — existentialism, dichotomy, paradigm-shift, epistemology, ontology, metaphysics, dualism, monism, nihilism, stoicism, dialectic, syllogism, ethics, morality, virtue, free-will, determinism, consciousness, relativism, paradox
+    - `work-business/corporate-strategy` — diversification, synergy, vertical-integration, horizontal-integration, monopoly, oligopoly, conglomerate, holding-company, divestment, takeover, restructuring, downsize, outsource, merger, acquisition, market-share, consolidation, antitrust, shareholder, leverage
+    - `nature-environment/ecosystem-services` — pollination, carbon-sequestration, biocapacity, nutrient-cycling, watershed, decomposition, biome, food-chain, food-web, succession, keystone, equilibrium, biosphere, photosynthesis, biomass, carbon-sink, wetland, rainforest, runoff, riparian
+    - `entertainment/film-production` — cinematography, postproduction, screenwriting, montage, mise-en-scene, storyboard, cinematographer, screenplay, CGI, dolly, pan, fade, cut, shot, frame-rate, composition, lighting, b-roll, voice-over, blocking
+    - `society-culture/governance-systems` — federalism, autocracy, jurisdiction, sovereignty, legislation, judiciary, executive, electorate, plebiscite, mandate, impeachment, ratify, amendment, tyranny, oligarchy, theocracy, dictatorship, anarchy, suffrage, partisan
+    - Zod schema green tất cả 5. Seed live: **pending user manual run** (target 142 lessons / 2840 cards). **B2 vocabulary** — academic, lower collision than B1 zones.
   - [x] **P9e B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `110c582` → merge `d580ddd` → sync `806cc65`) — **P9 CLOSED 25/25**:
     - `daily-life/personal-finance` — interest-rate, emergency-fund, frugal, splurge, expense, income, insurance, earn, broke, paycheck, automate, stash, set-aside, side-income, recurring, subscription, thrifty, impulsive, planner, miser
     - `entertainment/board-games` — pawn, strategy, chess, checkers, opponent, turn, roll, bluff, deck, card, rook, knight, bishop, queen, king, poker, gamble, shuffle, bet, wager
@@ -532,11 +539,11 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
+- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a done (5/25), TODO P10b-e
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 137/192 lessons (71%), 2740/3840 cards (71%), ~71% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, next: P10 B2 expansion.
+**Progress**: 142/192 lessons (74%), 2840/3840 cards (74%), ~74% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 mở 5/25 (lần đầu B2)**, next: P10b (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
