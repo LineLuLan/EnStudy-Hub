@@ -1,0 +1,727 @@
+{
+  "slug": "sports-fitness",
+  "name": "Sports & Fitness",
+  "description": "Vận động và thể hình A2 — workout, stretch, stamina, jog, race và 15 từ về sức khỏe vận động.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "workout",
+      "lemma": "workout",
+      "ipa": "/ˈwɜːkaʊt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a period of physical exercise, often at a gym",
+          "meaning_vi": "buổi tập, buổi luyện tập",
+          "examples": [
+            {
+              "en": "I do a 30-minute workout at California Fitness every morning.",
+              "vi": "Tôi tập 30 phút ở California Fitness mỗi sáng."
+            },
+            {
+              "en": "A good workout makes me feel energetic all day.",
+              "vi": "Buổi tập tốt giúp tôi tràn năng lượng cả ngày."
+            },
+            {
+              "en": "She follows YouTube workouts at home.",
+              "vi": "Cô ấy tập theo YouTube tại nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["training session"],
+      "antonyms": [],
+      "collocations": [
+        "morning workout",
+        "intense workout",
+        "home workout",
+        "workout routine",
+        "full-body workout"
+      ],
+      "etymology_hint": "Compound of 'work' + 'out' — phrasal verb 'work out' developed sense of 'exercise vigorously' in early 20th century.",
+      "mnemonic_vi": "WORKOUT = WORK + OUT → 'làm việc ra mồ hôi'. Buổi tập."
+    },
+    {
+      "word": "stretch",
+      "lemma": "stretch",
+      "ipa": "/stretʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to extend your body or arms to make muscles longer and more flexible",
+          "meaning_vi": "giãn cơ, duỗi người",
+          "examples": [
+            {
+              "en": "Always stretch before you run to avoid injury.",
+              "vi": "Luôn giãn cơ trước khi chạy để tránh chấn thương."
+            },
+            {
+              "en": "She stretched her legs after the long bus ride.",
+              "vi": "Cô ấy duỗi chân sau chuyến xe buýt dài."
+            },
+            {
+              "en": "Yoga teachers teach you how to stretch properly.",
+              "vi": "Giáo viên yoga dạy bạn cách giãn cơ đúng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extend", "limber up"],
+      "antonyms": ["contract"],
+      "collocations": [
+        "stretch your legs",
+        "stretch out",
+        "stretch your muscles",
+        "stretching exercise",
+        "gentle stretch"
+      ],
+      "etymology_hint": "From Old English 'streccan' meaning 'to extend, spread out' — Germanic root.",
+      "mnemonic_vi": "STRETCH = 'strétch' — 'streét' kéo dài. Giãn cơ kéo người."
+    },
+    {
+      "word": "fitness",
+      "lemma": "fitness",
+      "ipa": "/ˈfɪtnəs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being physically healthy and strong",
+          "meaning_vi": "thể lực, sự khỏe mạnh",
+          "examples": [
+            {
+              "en": "Fitness is important for both body and mind.",
+              "vi": "Thể lực quan trọng cho cả thể chất và tinh thần."
+            },
+            {
+              "en": "I joined Elite Fitness to improve my health.",
+              "vi": "Tôi đăng ký Elite Fitness để cải thiện sức khỏe."
+            },
+            {
+              "en": "His fitness level dropped during the pandemic.",
+              "vi": "Thể lực anh ấy giảm trong đại dịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["health", "wellness"],
+      "antonyms": [],
+      "collocations": [
+        "physical fitness",
+        "fitness centre",
+        "fitness level",
+        "improve fitness",
+        "general fitness"
+      ],
+      "etymology_hint": "From 'fit' + '-ness' — sense of 'physical health' developed in 20th century with rise of exercise culture.",
+      "mnemonic_vi": "FITNESS = FIT + NESS → 'sự vừa vặn'. Thể trạng khỏe."
+    },
+    {
+      "word": "strength",
+      "lemma": "strength",
+      "ipa": "/streŋθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how physically strong you are; ability to lift heavy things",
+          "meaning_vi": "sức mạnh, sức lực",
+          "examples": [
+            {
+              "en": "Weightlifting builds upper-body strength.",
+              "vi": "Cử tạ giúp tăng sức mạnh phần thân trên."
+            },
+            {
+              "en": "He has the strength to lift 100 kg.",
+              "vi": "Anh ấy có sức nâng 100 kg."
+            },
+            {
+              "en": "Strength training is good for older people too.",
+              "vi": "Tập sức mạnh tốt cho cả người lớn tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["power", "force"],
+      "antonyms": ["weakness"],
+      "collocations": [
+        "great strength",
+        "strength training",
+        "build strength",
+        "physical strength",
+        "test of strength"
+      ],
+      "etymology_hint": "From Old English 'strengþ' — from 'strong' + '-th' (state of), same Germanic root.",
+      "mnemonic_vi": "STRENGTH = STRENG + TH → 'sức mạnh'. Build strength = xây sức."
+    },
+    {
+      "word": "flexibility",
+      "lemma": "flexibility",
+      "ipa": "/ˌfleksəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to bend or move your body easily",
+          "meaning_vi": "sự linh hoạt, dẻo dai (cơ thể)",
+          "examples": [
+            {
+              "en": "Yoga improves flexibility a lot.",
+              "vi": "Yoga cải thiện sự dẻo dai rất nhiều."
+            },
+            {
+              "en": "Dancers need great flexibility in their legs.",
+              "vi": "Vũ công cần đôi chân rất linh hoạt."
+            },
+            {
+              "en": "Stretch every day to keep your flexibility.",
+              "vi": "Giãn cơ mỗi ngày để giữ độ dẻo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suppleness"],
+      "antonyms": ["stiffness"],
+      "collocations": [
+        "improve flexibility",
+        "great flexibility",
+        "lose flexibility",
+        "physical flexibility",
+        "flexibility training"
+      ],
+      "etymology_hint": "From Latin 'flexibilis' meaning 'able to bend' — from 'flectere' (to bend).",
+      "mnemonic_vi": "FLEXIBILITY = FLEX + IBILITY → 'khả năng cong'. Cơ thể dẻo dai."
+    },
+    {
+      "word": "stamina",
+      "lemma": "stamina",
+      "ipa": "/ˈstæmɪnə/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to keep doing something physical for a long time",
+          "meaning_vi": "sức bền",
+          "examples": [
+            {
+              "en": "Long-distance runners need a lot of stamina.",
+              "vi": "Người chạy bộ đường dài cần nhiều sức bền."
+            },
+            {
+              "en": "Cycling around Đảo Cát Bà builds stamina.",
+              "vi": "Đạp xe quanh đảo Cát Bà giúp tăng sức bền."
+            },
+            {
+              "en": "My stamina improved after one month of training.",
+              "vi": "Sức bền của tôi cải thiện sau một tháng tập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["endurance"],
+      "antonyms": [],
+      "collocations": [
+        "build stamina",
+        "lack of stamina",
+        "good stamina",
+        "physical stamina",
+        "improve stamina"
+      ],
+      "etymology_hint": "From Latin 'stamina' meaning 'threads of life' — originally plural of 'stamen' (thread), referring to the threads spun by the Fates in mythology.",
+      "mnemonic_vi": "STAMINA = 'stá-mi-nờ' — 'stà mi nà' chạy mãi không đuối. Sức bền dài hơi."
+    },
+    {
+      "word": "warmup",
+      "lemma": "warmup",
+      "ipa": "/ˈwɔːmʌp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "light exercise done before sports to prepare your body",
+          "meaning_vi": "khởi động (trước khi tập)",
+          "examples": [
+            {
+              "en": "Do a 5-minute warmup before lifting weights.",
+              "vi": "Làm 5 phút khởi động trước khi tập tạ."
+            },
+            {
+              "en": "The team's warmup includes jogging and stretching.",
+              "vi": "Khởi động của đội bao gồm chạy bộ và giãn cơ."
+            },
+            {
+              "en": "A proper warmup prevents injuries.",
+              "vi": "Khởi động đúng cách giúp tránh chấn thương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["preparation"],
+      "antonyms": ["cooldown"],
+      "collocations": [
+        "do a warmup",
+        "warmup exercise",
+        "5-minute warmup",
+        "quick warmup",
+        "thorough warmup"
+      ],
+      "etymology_hint": "Compound of 'warm' + 'up' — sports sense developed in early 20th century from phrasal verb 'warm up'.",
+      "mnemonic_vi": "WARMUP = WARM + UP → 'làm ấm cơ thể'. Khởi động cho nóng."
+    },
+    {
+      "word": "jog",
+      "lemma": "jog",
+      "ipa": "/dʒɒɡ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to run at a slow steady speed, especially for exercise",
+          "meaning_vi": "chạy bộ chậm (tập thể dục)",
+          "examples": [
+            {
+              "en": "I jog around Hồ Tây every Sunday morning.",
+              "vi": "Tôi chạy bộ quanh Hồ Tây mỗi sáng Chủ Nhật."
+            },
+            {
+              "en": "Jogging is easier on the knees than running fast.",
+              "vi": "Chạy bộ chậm nhẹ nhàng với đầu gối hơn chạy nhanh."
+            },
+            {
+              "en": "He likes to jog with his dog in the park.",
+              "vi": "Anh ấy thích chạy bộ với chó trong công viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["run slowly", "trot"],
+      "antonyms": ["sprint"],
+      "collocations": [
+        "go jogging",
+        "jog every morning",
+        "jog around the park",
+        "morning jog",
+        "slow jog"
+      ],
+      "etymology_hint": "Origin uncertain — Middle English 'joggen' meaning 'to shake' developed into modern running sense in 17th century.",
+      "mnemonic_vi": "JOG = 'dóc' — 'dộc' nhẹ nhàng đều. Jog = chạy chậm có nhịp."
+    },
+    {
+      "word": "hike",
+      "lemma": "hike",
+      "ipa": "/haɪk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to walk a long way in the countryside or mountains for exercise",
+          "meaning_vi": "leo núi đi bộ, trekking",
+          "examples": [
+            {
+              "en": "We're going to hike Fansipan next weekend.",
+              "vi": "Cuối tuần sau chúng tôi sẽ leo Fansipan."
+            },
+            {
+              "en": "Hiking in Cát Bà National Park was amazing.",
+              "vi": "Trekking ở Vườn Quốc gia Cát Bà thật tuyệt."
+            },
+            {
+              "en": "Bring water when you hike in hot weather.",
+              "vi": "Mang nước khi leo núi trong thời tiết nóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trek", "ramble"],
+      "antonyms": [],
+      "collocations": ["go hiking", "hike up", "long hike", "hiking trail", "hike through"],
+      "etymology_hint": "Origin uncertain — appeared in 19th century English, possibly imitative of walking briskly.",
+      "mnemonic_vi": "HIKE = 'haik' — 'hai cờ' leo núi 2 chân chéo. Hike Fansipan = leo Fansipan."
+    },
+    {
+      "word": "dive",
+      "lemma": "dive",
+      "ipa": "/daɪv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to jump into water with your head and arms first",
+          "meaning_vi": "lặn, nhảy xuống nước (đầu trước)",
+          "examples": [
+            {
+              "en": "Tourists dive to see coral reefs in Nha Trang.",
+              "vi": "Du khách lặn để xem rạn san hô ở Nha Trang."
+            },
+            {
+              "en": "She dived into the pool from the high board.",
+              "vi": "Cô ấy nhảy từ bục cao xuống bể bơi."
+            },
+            {
+              "en": "Don't dive in shallow water — it's dangerous.",
+              "vi": "Đừng nhảy vào nước nông — nguy hiểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plunge", "jump"],
+      "antonyms": ["surface", "rise"],
+      "collocations": ["dive into", "scuba dive", "deep dive", "dive board", "dive in"],
+      "etymology_hint": "From Old English 'dūfan' meaning 'to dip, sink' — Germanic root, related to 'dove' (past tense of dive).",
+      "mnemonic_vi": "DIVE = 'đai-v' — 'đại vù' lao xuống nước. Scuba dive = lặn bình hơi."
+    },
+    {
+      "word": "surf",
+      "lemma": "surf",
+      "ipa": "/sɜːf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to ride on the top of waves on a special board",
+          "meaning_vi": "lướt sóng",
+          "examples": [
+            {
+              "en": "Mũi Né is a great place to learn how to surf.",
+              "vi": "Mũi Né là nơi tuyệt vời để học lướt sóng."
+            },
+            {
+              "en": "Many tourists come to Bali to surf big waves.",
+              "vi": "Nhiều du khách đến Bali để lướt sóng lớn."
+            },
+            {
+              "en": "It takes weeks of practice to surf well.",
+              "vi": "Cần nhiều tuần luyện để lướt sóng giỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["go surfing", "surf the waves", "surf board", "learn to surf", "wind surf"],
+      "etymology_hint": "Origin uncertain — possibly from Indian dialect or imitative of the sound of waves; sport sense developed in 18th-century Hawaii.",
+      "mnemonic_vi": "SURF = 'sớp' — 'sờ phố' trên đầu sóng. Surf the web = lướt web."
+    },
+    {
+      "word": "kick",
+      "lemma": "kick",
+      "ipa": "/kɪk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to hit something with your foot",
+          "meaning_vi": "đá (chân)",
+          "examples": [
+            {
+              "en": "He kicked the ball into the goal.",
+              "vi": "Anh ấy đá bóng vào lưới."
+            },
+            {
+              "en": "Kids love to kick footballs in the courtyard.",
+              "vi": "Trẻ con thích đá bóng trong sân."
+            },
+            {
+              "en": "Don't kick the wall when you're angry.",
+              "vi": "Đừng đá vào tường khi giận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["boot"],
+      "antonyms": [],
+      "collocations": ["kick the ball", "kick off", "free kick", "kick back", "kick out"],
+      "etymology_hint": "Middle English 'kiken' — origin uncertain, possibly from Old Norse 'keikr' (bent backwards).",
+      "mnemonic_vi": "KICK = 'kíc' — 'kíc' đá nhanh. Kick the ball = đá bóng."
+    },
+    {
+      "word": "throw",
+      "lemma": "throw",
+      "ipa": "/θrəʊ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to send something through the air using your hand",
+          "meaning_vi": "ném, quăng",
+          "examples": [
+            {
+              "en": "Throw the ball to me!",
+              "vi": "Ném bóng cho tôi!"
+            },
+            {
+              "en": "She can throw a basketball very accurately.",
+              "vi": "Cô ấy ném bóng rổ rất chính xác."
+            },
+            {
+              "en": "Don't throw rubbish on the ground.",
+              "vi": "Đừng quăng rác xuống đất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["toss", "hurl"],
+      "antonyms": ["catch"],
+      "collocations": ["throw a ball", "throw away", "throw out", "throw a party", "throw up"],
+      "etymology_hint": "From Old English 'þrāwan' meaning 'to twist, turn' — sense of 'hurl' developed because early throwing motions involved twisting the body.",
+      "mnemonic_vi": "THROW = 'thrô' — 'trổ' tay ném ra. Throw a party = mở tiệc."
+    },
+    {
+      "word": "catch",
+      "lemma": "catch",
+      "ipa": "/kætʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to take and hold something that is moving through the air",
+          "meaning_vi": "bắt, chụp lấy",
+          "examples": [
+            {
+              "en": "Can you catch this ball?",
+              "vi": "Bạn bắt được quả bóng này không?"
+            },
+            {
+              "en": "She caught the keys he threw to her.",
+              "vi": "Cô ấy chụp chìa khóa anh ném cho."
+            },
+            {
+              "en": "He's good at catching fast cricket balls.",
+              "vi": "Anh ấy giỏi bắt bóng cricket nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grab", "seize"],
+      "antonyms": ["throw", "drop"],
+      "collocations": ["catch a ball", "catch up", "catch on", "catch a cold", "catch fire"],
+      "etymology_hint": "From Old French 'cachier' meaning 'to hunt' — Latin 'captiare' (try to seize) — same root as 'chase'.",
+      "mnemonic_vi": "CATCH = 'cátch' — 'cắp chộp' tay bắt. Catch a cold = bị cảm."
+    },
+    {
+      "word": "race",
+      "lemma": "race",
+      "ipa": "/reɪs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a competition to see who can go fastest",
+          "meaning_vi": "cuộc đua",
+          "examples": [
+            {
+              "en": "She won the 100-metre race at school.",
+              "vi": "Cô ấy thắng cuộc đua 100m ở trường."
+            },
+            {
+              "en": "Formula 1 races are watched by millions worldwide.",
+              "vi": "Đua F1 được hàng triệu người xem trên thế giới."
+            },
+            {
+              "en": "The Vietnam Mountain Marathon is a famous race.",
+              "vi": "Marathon Núi Việt Nam là cuộc đua nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["competition", "contest"],
+      "antonyms": [],
+      "collocations": ["win a race", "lose a race", "horse race", "race against", "race track"],
+      "etymology_hint": "From Old Norse 'rās' meaning 'a running, rush' — also gave us 'race' in the sense of swift current.",
+      "mnemonic_vi": "RACE = 'rêis' — 'reo' cổ vũ đua. Race = ai về nhất."
+    },
+    {
+      "word": "referee",
+      "lemma": "referee",
+      "ipa": "/ˌrefəˈriː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who makes sure players follow the rules in a game",
+          "meaning_vi": "trọng tài",
+          "examples": [
+            {
+              "en": "The referee blew his whistle to start the match.",
+              "vi": "Trọng tài thổi còi để bắt đầu trận đấu."
+            },
+            {
+              "en": "Vietnamese fans yelled at the referee's bad call.",
+              "vi": "Người hâm mộ Việt Nam la lên vì quyết định sai của trọng tài."
+            },
+            {
+              "en": "Being a football referee is a hard job.",
+              "vi": "Làm trọng tài bóng đá là công việc khó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["umpire", "judge"],
+      "antonyms": [],
+      "collocations": [
+        "main referee",
+        "referee's decision",
+        "football referee",
+        "blame the referee",
+        "FIFA referee"
+      ],
+      "etymology_hint": "From Latin 'referre' meaning 'to bring back, refer' — originally a person to whom disputes were referred for settlement.",
+      "mnemonic_vi": "REFEREE = REFER + EE → 'người được tham vấn'. Trọng tài quyết định."
+    },
+    {
+      "word": "medal",
+      "lemma": "medal",
+      "ipa": "/ˈmedl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small metal disc given as a prize to the winner of a competition",
+          "meaning_vi": "huy chương",
+          "examples": [
+            {
+              "en": "Việt Nam won 3 gold medals at the SEA Games.",
+              "vi": "Việt Nam giành 3 huy chương vàng tại SEA Games."
+            },
+            {
+              "en": "She has a collection of swimming medals.",
+              "vi": "Cô ấy có bộ sưu tập huy chương bơi."
+            },
+            {
+              "en": "Even a bronze medal makes me very proud.",
+              "vi": "Cả huy chương đồng cũng khiến tôi rất tự hào."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["award"],
+      "antonyms": [],
+      "collocations": [
+        "gold medal",
+        "silver medal",
+        "bronze medal",
+        "win a medal",
+        "Olympic medal"
+      ],
+      "etymology_hint": "From French 'médaille' — from Italian 'medaglia', possibly from Latin 'metallum' (metal).",
+      "mnemonic_vi": "MEDAL = 'međ-l' — 'mèo đèo' lên cổ. Huy chương vàng-bạc-đồng."
+    },
+    {
+      "word": "trophy",
+      "lemma": "trophy",
+      "ipa": "/ˈtrəʊfi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large prize, often a cup, given to the winner of a tournament",
+          "meaning_vi": "cúp vô địch, kỷ niệm chương lớn",
+          "examples": [
+            {
+              "en": "He lifted the trophy after winning the championship.",
+              "vi": "Anh ấy nâng cúp sau khi vô địch."
+            },
+            {
+              "en": "Our team brought home the trophy from the tournament.",
+              "vi": "Đội chúng tôi đem cúp về sau giải đấu."
+            },
+            {
+              "en": "The Premier League trophy is huge and silver.",
+              "vi": "Cúp Premier League rất to và bạc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cup", "prize"],
+      "antonyms": [],
+      "collocations": [
+        "lift the trophy",
+        "win the trophy",
+        "championship trophy",
+        "golden trophy",
+        "trophy room"
+      ],
+      "etymology_hint": "From Greek 'tropaion' meaning 'memorial of a victory' — originally arms taken from a defeated enemy.",
+      "mnemonic_vi": "TROPHY = 'tró-fi' — 'trồ phi' cao vung lên ăn mừng. Cúp = trophy."
+    },
+    {
+      "word": "dumbbell",
+      "lemma": "dumbbell",
+      "ipa": "/ˈdʌmbel/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short bar with weights on each end, used to make arm muscles stronger",
+          "meaning_vi": "tạ tay",
+          "examples": [
+            {
+              "en": "I lift 10-kg dumbbells at the gym.",
+              "vi": "Tôi tập tạ tay 10kg ở phòng gym."
+            },
+            {
+              "en": "Beginners should start with light dumbbells.",
+              "vi": "Người mới nên bắt đầu với tạ nhẹ."
+            },
+            {
+              "en": "She bought a pair of dumbbells to work out at home.",
+              "vi": "Cô ấy mua cặp tạ tay tập tại nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["weight"],
+      "antonyms": [],
+      "collocations": [
+        "lift dumbbells",
+        "heavy dumbbells",
+        "light dumbbells",
+        "pair of dumbbells",
+        "dumbbell exercise"
+      ],
+      "etymology_hint": "Originally a silent practice device for bell-ringers — 'dumb' (silent) + 'bell', because it had no clapper.",
+      "mnemonic_vi": "DUMBBELL = DUMB + BELL → 'chuông câm'. Tạ tay không kêu."
+    },
+    {
+      "word": "push-up",
+      "lemma": "push-up",
+      "ipa": "/ˈpʊʃʌp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an exercise where you push your body up and down with your arms",
+          "meaning_vi": "động tác hít đất",
+          "examples": [
+            {
+              "en": "I do 50 push-ups every morning.",
+              "vi": "Tôi hít đất 50 cái mỗi sáng."
+            },
+            {
+              "en": "Push-ups build chest and arm strength.",
+              "vi": "Hít đất tăng sức mạnh ngực và tay."
+            },
+            {
+              "en": "Soldiers do hundreds of push-ups in training.",
+              "vi": "Lính làm hàng trăm cái hít đất khi tập."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["pull-up"],
+      "collocations": [
+        "do push-ups",
+        "50 push-ups",
+        "chest push-up",
+        "push-up position",
+        "diamond push-up"
+      ],
+      "etymology_hint": "Compound of 'push' + 'up' — sport sense formalized in 20th century as bodyweight calisthenics.",
+      "mnemonic_vi": "PUSH-UP = PUSH + UP → 'đẩy lên'. Hít đất tự nâng người."
+    }
+  ]
+}

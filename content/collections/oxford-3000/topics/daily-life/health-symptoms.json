@@ -1,0 +1,751 @@
+{
+  "slug": "health-symptoms",
+  "name": "Health & Symptoms",
+  "description": "Sức khỏe và triệu chứng A2 — headache, fever, cough, vaccine, injury và 15 từ về bệnh, thuốc, hồi phục.",
+  "order_index": 12,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "headache",
+      "lemma": "headache",
+      "ipa": "/ˈhedeɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a pain in your head",
+          "meaning_vi": "đau đầu, nhức đầu",
+          "examples": [
+            {
+              "en": "I have a terrible headache from the loud noise.",
+              "vi": "Tôi đau đầu kinh khủng vì tiếng ồn lớn."
+            },
+            {
+              "en": "Drink water — sometimes headaches come from dehydration.",
+              "vi": "Uống nước — đôi khi đau đầu do mất nước."
+            },
+            {
+              "en": "She gets a headache whenever she stares at her screen too long.",
+              "vi": "Cô ấy đau đầu mỗi khi nhìn màn hình quá lâu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["migraine"],
+      "antonyms": [],
+      "collocations": [
+        "have a headache",
+        "bad headache",
+        "headache pills",
+        "get a headache",
+        "cure a headache"
+      ],
+      "etymology_hint": "Compound of 'head' + 'ache' — Old English construction for body-part pains (toothache, backache).",
+      "mnemonic_vi": "HEADACHE = HEAD + ACHE → 'đầu đau'. -ache = đau (toothache, stomachache)."
+    },
+    {
+      "word": "stomachache",
+      "lemma": "stomachache",
+      "ipa": "/ˈstʌməkeɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a pain in your stomach",
+          "meaning_vi": "đau bụng",
+          "examples": [
+            {
+              "en": "I got a stomachache after eating too much bánh bao.",
+              "vi": "Tôi đau bụng sau khi ăn quá nhiều bánh bao."
+            },
+            {
+              "en": "Spicy food gives me a stomachache.",
+              "vi": "Đồ cay làm tôi đau bụng."
+            },
+            {
+              "en": "She had a stomachache and stayed home from school.",
+              "vi": "Cô ấy đau bụng và nghỉ học ở nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["belly ache"],
+      "antonyms": [],
+      "collocations": [
+        "have a stomachache",
+        "bad stomachache",
+        "give someone a stomachache",
+        "mild stomachache",
+        "cure stomachache"
+      ],
+      "etymology_hint": "Compound of 'stomach' + 'ache' — same pattern as headache/toothache.",
+      "mnemonic_vi": "STOMACHACHE = STOMACH + ACHE → 'bụng đau'. Ăn nhiều quá là đau."
+    },
+    {
+      "word": "toothache",
+      "lemma": "toothache",
+      "ipa": "/ˈtuːθeɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a pain in your tooth",
+          "meaning_vi": "đau răng",
+          "examples": [
+            {
+              "en": "I need to see the dentist — I have a bad toothache.",
+              "vi": "Tôi cần đi nha sĩ — đau răng quá."
+            },
+            {
+              "en": "Cold drinks make my toothache worse.",
+              "vi": "Đồ uống lạnh làm răng tôi đau hơn."
+            },
+            {
+              "en": "Brushing your teeth properly prevents toothaches.",
+              "vi": "Đánh răng đúng cách giúp tránh đau răng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "have a toothache",
+        "terrible toothache",
+        "cure a toothache",
+        "constant toothache",
+        "treat a toothache"
+      ],
+      "etymology_hint": "Compound of 'tooth' + 'ache' — same Old English pattern as headache.",
+      "mnemonic_vi": "TOOTHACHE = TOOTH + ACHE → 'răng đau'. Cần dentist (nha sĩ)."
+    },
+    {
+      "word": "flu",
+      "lemma": "flu",
+      "ipa": "/fluː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a common illness that gives you fever, sore throat, and tiredness",
+          "meaning_vi": "cúm",
+          "examples": [
+            {
+              "en": "I caught the flu last week and missed work.",
+              "vi": "Tôi bị cúm tuần trước và phải nghỉ làm."
+            },
+            {
+              "en": "Get a flu shot every winter to stay healthy.",
+              "vi": "Tiêm phòng cúm mỗi mùa đông để giữ sức khỏe."
+            },
+            {
+              "en": "Flu spreads quickly in offices and schools.",
+              "vi": "Cúm lây nhanh trong văn phòng và trường học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["influenza"],
+      "antonyms": [],
+      "collocations": ["catch the flu", "flu shot", "flu season", "have the flu", "flu virus"],
+      "etymology_hint": "Short for 'influenza' — Italian word meaning 'influence', based on old belief that diseases were caused by celestial influence.",
+      "mnemonic_vi": "FLU = 'flu' — viết tắt influenza. 'Phù' người bệnh cúm. Flu shot = tiêm cúm."
+    },
+    {
+      "word": "fever",
+      "lemma": "fever",
+      "ipa": "/ˈfiːvə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a body temperature higher than normal, usually because of illness",
+          "meaning_vi": "sốt (cơ thể nóng hơn bình thường)",
+          "examples": [
+            {
+              "en": "My son has a high fever — I'll take him to Vinmec.",
+              "vi": "Con trai tôi sốt cao — tôi sẽ đưa đi Vinmec."
+            },
+            {
+              "en": "Drink lots of water when you have a fever.",
+              "vi": "Uống nhiều nước khi bị sốt."
+            },
+            {
+              "en": "Dengue fever is common in tropical countries.",
+              "vi": "Sốt xuất huyết phổ biến ở các nước nhiệt đới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["high temperature"],
+      "antonyms": [],
+      "collocations": [
+        "high fever",
+        "low fever",
+        "have a fever",
+        "running a fever",
+        "dengue fever"
+      ],
+      "etymology_hint": "From Latin 'febris' meaning 'fever' — Indo-European root referring to heating or warmth.",
+      "mnemonic_vi": "FEVER = 'phí-vơ' — 'phừ' nóng. Dengue fever = sốt xuất huyết."
+    },
+    {
+      "word": "cough",
+      "lemma": "cough",
+      "ipa": "/kɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to push air out of your throat with a sudden sound, usually because you are sick",
+          "meaning_vi": "ho",
+          "examples": [
+            {
+              "en": "Cover your mouth when you cough!",
+              "vi": "Che miệng khi ho!"
+            },
+            {
+              "en": "I've been coughing all night.",
+              "vi": "Tôi ho cả đêm."
+            },
+            {
+              "en": "Smoke from motorbikes makes me cough.",
+              "vi": "Khói xe máy làm tôi ho."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hack"],
+      "antonyms": [],
+      "collocations": ["dry cough", "cough syrup", "cough up", "have a cough", "bad cough"],
+      "etymology_hint": "From Old English 'cohhian' — imitative of the sound, similar to German 'Husten'.",
+      "mnemonic_vi": "COUGH = 'cốp' — 'khụ khụ' tiếng ho. Cover your mouth when you cough!"
+    },
+    {
+      "word": "sneeze",
+      "lemma": "sneeze",
+      "ipa": "/sniːz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to push air out of your nose suddenly and loudly",
+          "meaning_vi": "hắt hơi",
+          "examples": [
+            {
+              "en": "She sneezed because of the dust in the room.",
+              "vi": "Cô ấy hắt hơi vì bụi trong phòng."
+            },
+            {
+              "en": "Vietnamese say 'someone is missing you' when you sneeze.",
+              "vi": "Người Việt nói 'có ai nhớ bạn' khi bạn hắt hơi."
+            },
+            {
+              "en": "Cover your mouth when you sneeze, please.",
+              "vi": "Vui lòng che miệng khi hắt hơi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "sneeze loudly",
+        "sneeze twice",
+        "make someone sneeze",
+        "cover a sneeze",
+        "stifle a sneeze"
+      ],
+      "etymology_hint": "From Old English 'fnēosan' — imitative; the 'f-' was misread as 's-' in early printed texts and the new form stuck.",
+      "mnemonic_vi": "SNEEZE = 'sni-z' — 'sì! Sì!' tiếng hắt hơi. Cover when you sneeze."
+    },
+    {
+      "word": "dizzy",
+      "lemma": "dizzy",
+      "ipa": "/ˈdɪzi/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "feeling like the world around you is spinning",
+          "meaning_vi": "chóng mặt",
+          "examples": [
+            {
+              "en": "I feel dizzy after standing up too fast.",
+              "vi": "Tôi chóng mặt sau khi đứng lên quá nhanh."
+            },
+            {
+              "en": "The roller coaster at Đầm Sen makes me dizzy.",
+              "vi": "Tàu lượn ở Đầm Sen làm tôi chóng mặt."
+            },
+            {
+              "en": "Drink some water if you feel dizzy.",
+              "vi": "Uống chút nước nếu thấy chóng mặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lightheaded", "giddy"],
+      "antonyms": [],
+      "collocations": [
+        "feel dizzy",
+        "get dizzy",
+        "dizzy spell",
+        "make someone dizzy",
+        "slightly dizzy"
+      ],
+      "etymology_hint": "From Old English 'dysig' meaning 'foolish, stupid' — sense shifted to 'mental confusion' then to physical lightheadedness.",
+      "mnemonic_vi": "DIZZY = 'đi-zi' — 'đi xí' loạng choạng. Đầu quay vòng."
+    },
+    {
+      "word": "vomit",
+      "lemma": "vomit",
+      "ipa": "/ˈvɒmɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to throw up food from your stomach through your mouth",
+          "meaning_vi": "nôn, ói",
+          "examples": [
+            {
+              "en": "The baby vomited after drinking too much milk.",
+              "vi": "Em bé nôn sau khi uống sữa quá nhiều."
+            },
+            {
+              "en": "Some people vomit on long bus rides.",
+              "vi": "Một số người nôn khi đi xe buýt đường dài."
+            },
+            {
+              "en": "Eating bad seafood made me vomit all night.",
+              "vi": "Ăn hải sản ôi làm tôi nôn cả đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["throw up", "puke"],
+      "antonyms": [],
+      "collocations": [
+        "feel like vomiting",
+        "vomit blood",
+        "vomit up",
+        "make someone vomit",
+        "uncontrollable vomiting"
+      ],
+      "etymology_hint": "From Latin 'vomere' meaning 'to spew out' — same Indo-European root as ancient Greek 'emein'.",
+      "mnemonic_vi": "VOMIT = 'vó-mít' — 'vó mít' ra. Throw up = nôn (cách nói nhẹ hơn)."
+    },
+    {
+      "word": "bleed",
+      "lemma": "bleed",
+      "ipa": "/bliːd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to lose blood, especially because of a cut or injury",
+          "meaning_vi": "chảy máu",
+          "examples": [
+            {
+              "en": "My nose started bleeding in the hot weather.",
+              "vi": "Mũi tôi bắt đầu chảy máu vì trời nóng."
+            },
+            {
+              "en": "The cut won't stop bleeding — we need a bandage.",
+              "vi": "Vết cắt không ngừng chảy máu — cần băng cuộn."
+            },
+            {
+              "en": "He bled a lot after the motorbike accident.",
+              "vi": "Anh ấy chảy nhiều máu sau tai nạn xe máy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lose blood"],
+      "antonyms": [],
+      "collocations": [
+        "bleed heavily",
+        "nose bleed",
+        "stop bleeding",
+        "bleed to death",
+        "internal bleeding"
+      ],
+      "etymology_hint": "From Old English 'blēdan' — from 'blōd' (blood), same Germanic root.",
+      "mnemonic_vi": "BLEED = 'blít' — 'bluýt' máu chảy. Blood (máu) → bleed (chảy máu)."
+    },
+    {
+      "word": "bandage",
+      "lemma": "bandage",
+      "ipa": "/ˈbændɪdʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a long strip of cloth used to cover or protect a wound",
+          "meaning_vi": "băng cuộn, băng vết thương",
+          "examples": [
+            {
+              "en": "She put a bandage on her knee after falling.",
+              "vi": "Cô ấy băng đầu gối sau khi té."
+            },
+            {
+              "en": "Keep extra bandages in your first aid kit.",
+              "vi": "Giữ thêm băng cuộn trong hộp cứu thương."
+            },
+            {
+              "en": "Change the bandage every day to prevent infection.",
+              "vi": "Thay băng mỗi ngày để tránh nhiễm trùng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dressing"],
+      "antonyms": [],
+      "collocations": [
+        "apply a bandage",
+        "remove a bandage",
+        "elastic bandage",
+        "fresh bandage",
+        "wrap a bandage"
+      ],
+      "etymology_hint": "From French 'bandage' meaning 'a strip' — from Old Frankish 'binda' (band, strap).",
+      "mnemonic_vi": "BANDAGE = BAND + AGE → 'dải băng'. Quấn vết thương = bandage."
+    },
+    {
+      "word": "prescription",
+      "lemma": "prescription",
+      "ipa": "/prɪˈskrɪpʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a written order from a doctor for medicine you need",
+          "meaning_vi": "đơn thuốc",
+          "examples": [
+            {
+              "en": "The doctor gave me a prescription for antibiotics.",
+              "vi": "Bác sĩ kê đơn thuốc kháng sinh cho tôi."
+            },
+            {
+              "en": "Bring your prescription to the pharmacy.",
+              "vi": "Mang đơn thuốc đến hiệu thuốc."
+            },
+            {
+              "en": "Some medicines need a prescription, others don't.",
+              "vi": "Một số thuốc cần đơn, một số không."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["script"],
+      "antonyms": [],
+      "collocations": [
+        "doctor's prescription",
+        "fill a prescription",
+        "write a prescription",
+        "prescription drug",
+        "by prescription only"
+      ],
+      "etymology_hint": "From Latin 'praescriptio' meaning 'something written before' — from 'prae-' (before) + 'scribere' (to write).",
+      "mnemonic_vi": "PRESCRIPTION = PRE + SCRIPT → 'viết trước'. Bác sĩ viết trước cho ta uống."
+    },
+    {
+      "word": "vaccine",
+      "lemma": "vaccine",
+      "ipa": "/ˈvæksiːn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance given to protect you from a disease",
+          "meaning_vi": "vắc xin",
+          "examples": [
+            {
+              "en": "The COVID-19 vaccine saved millions of lives.",
+              "vi": "Vắc xin COVID-19 đã cứu hàng triệu sinh mạng."
+            },
+            {
+              "en": "Babies in Việt Nam get many vaccines in their first year.",
+              "vi": "Em bé ở Việt Nam được tiêm nhiều vắc xin trong năm đầu."
+            },
+            {
+              "en": "I had a flu vaccine last week.",
+              "vi": "Tôi đã tiêm vắc xin cúm tuần trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["jab", "shot"],
+      "antonyms": [],
+      "collocations": [
+        "get a vaccine",
+        "flu vaccine",
+        "COVID vaccine",
+        "vaccine dose",
+        "develop a vaccine"
+      ],
+      "etymology_hint": "From Latin 'vaccinus' meaning 'from cows' — Edward Jenner created the first vaccine from cowpox in 1796.",
+      "mnemonic_vi": "VACCINE = 'vắc-xin' — gốc 'bò' (vaccinus = từ bò). Tiêm phòng bệnh."
+    },
+    {
+      "word": "medication",
+      "lemma": "medication",
+      "ipa": "/ˌmedɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "medicine that you take to treat or prevent an illness",
+          "meaning_vi": "thuốc, thuốc điều trị",
+          "examples": [
+            {
+              "en": "Take your medication with food.",
+              "vi": "Uống thuốc cùng với thức ăn."
+            },
+            {
+              "en": "She forgot to take her medication this morning.",
+              "vi": "Cô ấy quên uống thuốc sáng nay."
+            },
+            {
+              "en": "Some medications can make you sleepy.",
+              "vi": "Một số thuốc có thể làm bạn buồn ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["medicine", "drug"],
+      "antonyms": [],
+      "collocations": [
+        "take medication",
+        "prescribe medication",
+        "daily medication",
+        "strong medication",
+        "stop medication"
+      ],
+      "etymology_hint": "From Latin 'medicari' meaning 'to heal' — same root as 'medicine' and 'medical'.",
+      "mnemonic_vi": "MEDICATION = MEDIC + ATION → 'việc dùng thuốc'. Medicine = thuốc."
+    },
+    {
+      "word": "infection",
+      "lemma": "infection",
+      "ipa": "/ɪnˈfekʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an illness caused by harmful bacteria or viruses entering your body",
+          "meaning_vi": "nhiễm trùng",
+          "examples": [
+            {
+              "en": "The wound is red — it might have an infection.",
+              "vi": "Vết thương đỏ — có thể bị nhiễm trùng."
+            },
+            {
+              "en": "Wash your hands to prevent infection.",
+              "vi": "Rửa tay để tránh nhiễm trùng."
+            },
+            {
+              "en": "She needs antibiotics for the ear infection.",
+              "vi": "Cô ấy cần kháng sinh cho viêm tai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contamination"],
+      "antonyms": [],
+      "collocations": [
+        "viral infection",
+        "ear infection",
+        "prevent infection",
+        "spread an infection",
+        "treat an infection"
+      ],
+      "etymology_hint": "From Latin 'infectio' meaning 'dyeing, staining' — from 'in-' (in) + 'facere' (to make).",
+      "mnemonic_vi": "INFECTION = IN + FECT → 'làm vào trong'. Vi khuẩn xâm nhập."
+    },
+    {
+      "word": "virus",
+      "lemma": "virus",
+      "ipa": "/ˈvaɪrəs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a tiny living thing that causes diseases",
+          "meaning_vi": "vi-rút",
+          "examples": [
+            {
+              "en": "The flu virus changes every year.",
+              "vi": "Vi-rút cúm thay đổi mỗi năm."
+            },
+            {
+              "en": "Computers can also catch a virus.",
+              "vi": "Máy tính cũng có thể nhiễm vi-rút."
+            },
+            {
+              "en": "Many viruses spread through coughing and sneezing.",
+              "vi": "Nhiều vi-rút lây qua ho và hắt hơi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bug", "pathogen"],
+      "antonyms": [],
+      "collocations": [
+        "computer virus",
+        "deadly virus",
+        "spread a virus",
+        "catch a virus",
+        "anti-virus"
+      ],
+      "etymology_hint": "From Latin 'virus' meaning 'slimy liquid, poison' — adopted into English in 14th century for diseases.",
+      "mnemonic_vi": "VIRUS = 'vai-rớt' — 'vai' nhỏ xíu mà mạnh. COVID-19 = một loại virus."
+    },
+    {
+      "word": "bacteria",
+      "lemma": "bacteria",
+      "ipa": "/bækˈtɪəriə/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very small living things, some of which can cause disease",
+          "meaning_vi": "vi khuẩn",
+          "examples": [
+            {
+              "en": "Bacteria can grow on uncooked food.",
+              "vi": "Vi khuẩn có thể sinh sôi trên đồ ăn sống."
+            },
+            {
+              "en": "Not all bacteria are harmful — some help digestion.",
+              "vi": "Không phải tất cả vi khuẩn đều hại — một số giúp tiêu hóa."
+            },
+            {
+              "en": "Antibiotics kill bacteria but not viruses.",
+              "vi": "Kháng sinh diệt vi khuẩn nhưng không diệt virus."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["germs", "microbes"],
+      "antonyms": [],
+      "collocations": [
+        "harmful bacteria",
+        "good bacteria",
+        "kill bacteria",
+        "grow bacteria",
+        "bacteria culture"
+      ],
+      "etymology_hint": "From Greek 'baktērion' meaning 'small staff, rod' — diminutive of 'baktron' (rod), referring to rod-shaped microbes seen under microscope.",
+      "mnemonic_vi": "BACTERIA = 'bác-tia-ri-a' — như que nhỏ xíu. Khác với virus (nhỏ hơn)."
+    },
+    {
+      "word": "injury",
+      "lemma": "injury",
+      "ipa": "/ˈɪndʒəri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "physical harm to your body, especially from an accident",
+          "meaning_vi": "chấn thương",
+          "examples": [
+            {
+              "en": "He had a serious knee injury playing football.",
+              "vi": "Anh ấy bị chấn thương đầu gối nặng khi chơi bóng."
+            },
+            {
+              "en": "Wear a helmet to prevent head injuries.",
+              "vi": "Đội mũ bảo hiểm để tránh chấn thương đầu."
+            },
+            {
+              "en": "Her injuries healed in 3 weeks.",
+              "vi": "Vết chấn thương của cô ấy lành trong 3 tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wound", "harm"],
+      "antonyms": [],
+      "collocations": [
+        "serious injury",
+        "minor injury",
+        "head injury",
+        "sustain an injury",
+        "back injury"
+      ],
+      "etymology_hint": "From Latin 'injuria' meaning 'wrong, injustice' — from 'in-' (not) + 'jus' (right, law); originally a legal term.",
+      "mnemonic_vi": "INJURY = IN + JURY → 'không công bằng'. Tổn thương cơ thể."
+    },
+    {
+      "word": "wound",
+      "lemma": "wound",
+      "ipa": "/wuːnd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an injury to the skin or body caused by a cut, hit, or weapon",
+          "meaning_vi": "vết thương",
+          "examples": [
+            {
+              "en": "Clean the wound before putting on a bandage.",
+              "vi": "Rửa sạch vết thương trước khi băng."
+            },
+            {
+              "en": "The deep wound needed stitches.",
+              "vi": "Vết thương sâu cần khâu."
+            },
+            {
+              "en": "His wound healed quickly with proper care.",
+              "vi": "Vết thương lành nhanh nhờ chăm sóc đúng cách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["injury", "cut"],
+      "antonyms": [],
+      "collocations": [
+        "deep wound",
+        "clean a wound",
+        "heal a wound",
+        "open wound",
+        "wound dressing"
+      ],
+      "etymology_hint": "From Old English 'wund' — Germanic root, related to German 'Wunde' and Dutch 'wond'.",
+      "mnemonic_vi": "WOUND = 'wund' — 'oan' đau. Clean the wound = rửa vết thương."
+    },
+    {
+      "word": "rash",
+      "lemma": "rash",
+      "ipa": "/ræʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an area of red spots on your skin, often itchy",
+          "meaning_vi": "phát ban, mẩn đỏ",
+          "examples": [
+            {
+              "en": "She got a rash from the new soap.",
+              "vi": "Cô ấy bị phát ban vì xà phòng mới."
+            },
+            {
+              "en": "Heat rash is common during Sài Gòn summers.",
+              "vi": "Rôm sảy phổ biến trong mùa hè Sài Gòn."
+            },
+            {
+              "en": "If the rash doesn't go away, see a doctor.",
+              "vi": "Nếu phát ban không hết, hãy đi khám."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["breakout", "eruption"],
+      "antonyms": [],
+      "collocations": ["heat rash", "skin rash", "develop a rash", "itchy rash", "rash spreads"],
+      "etymology_hint": "From Old French 'rasche' meaning 'a scratching' — possibly from Vulgar Latin 'rasicare' (to scrape).",
+      "mnemonic_vi": "RASH = 'rátsh' — 'rách' da nổi đỏ. Heat rash = rôm sảy."
+    }
+  ]
+}

@@ -1,0 +1,733 @@
+{
+  "slug": "traffic-roads",
+  "name": "Traffic & Roads",
+  "description": "Từ vựng A2 về giao thông và đường sá — kẹt xe, vạch sang đường, vỉa hè, làn đường và 16 từ về tham gia giao thông.",
+  "order_index": 7,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "jam",
+      "lemma": "jam",
+      "ipa": "/dʒæm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a situation where many cars cannot move because of too much traffic",
+          "meaning_vi": "kẹt xe, tắc đường",
+          "examples": [
+            {
+              "en": "Sài Gòn has terrible traffic jams every evening.",
+              "vi": "Sài Gòn kẹt xe khủng khiếp mỗi chiều."
+            },
+            {
+              "en": "We were stuck in a 2-hour jam on the way to Vũng Tàu.",
+              "vi": "Chúng tôi kẹt 2 tiếng trên đường đi Vũng Tàu."
+            },
+            {
+              "en": "Avoid the jam by leaving home before 7am.",
+              "vi": "Tránh kẹt xe bằng cách ra khỏi nhà trước 7 giờ sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["congestion", "gridlock"],
+      "antonyms": [],
+      "collocations": ["traffic jam", "stuck in a jam", "long jam", "huge jam", "avoid the jam"],
+      "etymology_hint": "Origin uncertain — possibly imitative of being 'squeezed' tight. Traffic sense emerged in early 20th century cities.",
+      "mnemonic_vi": "JAM = 'gem' — xe 'gem chặt' lại như mứt jam. Traffic jam = kẹt xe."
+    },
+    {
+      "word": "lane",
+      "lemma": "lane",
+      "ipa": "/leɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of the strips into which a road is divided for cars to drive in",
+          "meaning_vi": "làn đường",
+          "examples": [
+            {
+              "en": "Stay in the right lane until you exit the highway.",
+              "vi": "Giữ làn phải đến khi rời cao tốc."
+            },
+            {
+              "en": "Motorbikes and cars use separate lanes in Hà Nội.",
+              "vi": "Xe máy và ô tô đi làn riêng ở Hà Nội."
+            },
+            {
+              "en": "Don't change lanes without signaling.",
+              "vi": "Đừng đổi làn mà không bật xi nhan."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["track"],
+      "antonyms": [],
+      "collocations": ["fast lane", "slow lane", "change lanes", "bike lane", "bus lane"],
+      "etymology_hint": "From Old English 'lanu' meaning 'narrow road, path' — original sense of small countryside way.",
+      "mnemonic_vi": "LANE = 'lên' — 'lên làn' nào? Mỗi làn 1 đường riêng."
+    },
+    {
+      "word": "highway",
+      "lemma": "highway",
+      "ipa": "/ˈhaɪweɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a main road that connects cities, usually with high speed limits",
+          "meaning_vi": "đường cao tốc",
+          "examples": [
+            {
+              "en": "The new highway from Hà Nội to Hải Phòng takes only 1.5 hours.",
+              "vi": "Cao tốc mới Hà Nội — Hải Phòng chỉ mất 1,5 tiếng."
+            },
+            {
+              "en": "Highways are safer than national roads at night.",
+              "vi": "Cao tốc an toàn hơn quốc lộ ban đêm."
+            },
+            {
+              "en": "Don't stop on the highway unless it's an emergency.",
+              "vi": "Đừng dừng trên cao tốc trừ khi khẩn cấp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motorway", "freeway"],
+      "antonyms": ["alley", "country road"],
+      "collocations": [
+        "national highway",
+        "on the highway",
+        "build a highway",
+        "exit the highway",
+        "highway speed"
+      ],
+      "etymology_hint": "Compound of 'high' (main) + 'way' (road) — Old English 'heahweg' originally meant any main public road.",
+      "mnemonic_vi": "HIGHWAY = HIGH + WAY → 'đường lớn'. Cao tốc, tốc độ cao."
+    },
+    {
+      "word": "roundabout",
+      "lemma": "roundabout",
+      "ipa": "/ˈraʊndəbaʊt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a circular road junction where cars drive around in one direction",
+          "meaning_vi": "bùng binh, vòng xuyến",
+          "examples": [
+            {
+              "en": "Turn left at the roundabout in front of Lotte Mall.",
+              "vi": "Rẽ trái tại bùng binh trước Lotte Mall."
+            },
+            {
+              "en": "Going around the roundabout the wrong way is dangerous.",
+              "vi": "Đi ngược chiều bùng binh rất nguy hiểm."
+            },
+            {
+              "en": "The roundabout near Bến Thành is always crowded.",
+              "vi": "Vòng xuyến gần Bến Thành lúc nào cũng đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["traffic circle"],
+      "antonyms": [],
+      "collocations": [
+        "at the roundabout",
+        "go around the roundabout",
+        "big roundabout",
+        "exit the roundabout",
+        "small roundabout"
+      ],
+      "etymology_hint": "Compound of 'round' + 'about' — coined in early 20th century as cars increased; replaced older crossroad designs.",
+      "mnemonic_vi": "ROUNDABOUT = ROUND + ABOUT → 'đi vòng quanh'. Vòng xuyến."
+    },
+    {
+      "word": "intersection",
+      "lemma": "intersection",
+      "ipa": "/ˌɪntəˈsekʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place where two or more roads cross each other",
+          "meaning_vi": "giao lộ, ngã tư",
+          "examples": [
+            {
+              "en": "Stop at the red light at the intersection.",
+              "vi": "Dừng ở đèn đỏ tại giao lộ."
+            },
+            {
+              "en": "The intersection of Nguyễn Huệ and Lê Lợi is famous.",
+              "vi": "Giao lộ Nguyễn Huệ — Lê Lợi rất nổi tiếng."
+            },
+            {
+              "en": "There's a camera at every major intersection.",
+              "vi": "Có camera ở mọi giao lộ lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["crossroads", "junction"],
+      "antonyms": [],
+      "collocations": [
+        "busy intersection",
+        "at the intersection",
+        "main intersection",
+        "dangerous intersection",
+        "T-intersection"
+      ],
+      "etymology_hint": "From Latin 'intersectio' meaning 'a cutting between' — from 'inter-' (between) + 'secare' (to cut).",
+      "mnemonic_vi": "INTERSECTION = INTER + SECTION → 'phần cắt qua nhau'. Giao lộ."
+    },
+    {
+      "word": "sidewalk",
+      "lemma": "sidewalk",
+      "ipa": "/ˈsaɪdwɔːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a path along the side of a road for people to walk on (US English)",
+          "meaning_vi": "vỉa hè (Mỹ)",
+          "examples": [
+            {
+              "en": "Walk on the sidewalk, not in the road.",
+              "vi": "Đi trên vỉa hè, đừng đi dưới lòng đường."
+            },
+            {
+              "en": "Many motorbikes park on the sidewalk in Sài Gòn.",
+              "vi": "Nhiều xe máy đậu trên vỉa hè ở Sài Gòn."
+            },
+            {
+              "en": "The sidewalk is too narrow for two people.",
+              "vi": "Vỉa hè quá hẹp cho hai người đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pavement", "footpath"],
+      "antonyms": ["road"],
+      "collocations": [
+        "on the sidewalk",
+        "narrow sidewalk",
+        "wide sidewalk",
+        "sidewalk café",
+        "block the sidewalk"
+      ],
+      "etymology_hint": "Compound of 'side' + 'walk' — American coinage in 18th century, while British English uses 'pavement'.",
+      "mnemonic_vi": "SIDEWALK = SIDE + WALK → 'lối đi bên cạnh'. Bên Mỹ; bên Anh = pavement."
+    },
+    {
+      "word": "crossing",
+      "lemma": "crossing",
+      "ipa": "/ˈkrɒsɪŋ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a marked place on a road where people can cross safely",
+          "meaning_vi": "vạch sang đường (cho người đi bộ)",
+          "examples": [
+            {
+              "en": "Use the crossing — it's safer than crossing here.",
+              "vi": "Dùng vạch sang đường — an toàn hơn băng ngang đây."
+            },
+            {
+              "en": "The school crossing is busy at 4pm.",
+              "vi": "Vạch qua đường trường học đông lúc 4 giờ chiều."
+            },
+            {
+              "en": "Always check both ways at the zebra crossing.",
+              "vi": "Luôn nhìn cả 2 phía tại vạch sang đường ngựa vằn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["crosswalk", "zebra crossing"],
+      "antonyms": [],
+      "collocations": [
+        "zebra crossing",
+        "pedestrian crossing",
+        "school crossing",
+        "at the crossing",
+        "use the crossing"
+      ],
+      "etymology_hint": "From 'cross' + '-ing' — original sense of 'place where roads cross'.",
+      "mnemonic_vi": "CROSSING = CROSS + ING → 'chỗ băng qua'. Vạch sang đường."
+    },
+    {
+      "word": "footpath",
+      "lemma": "footpath",
+      "ipa": "/ˈfʊtpɑːθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a narrow path for walking, especially in the countryside or a park",
+          "meaning_vi": "đường mòn đi bộ, lối nhỏ",
+          "examples": [
+            {
+              "en": "The footpath around Hồ Tây is great for jogging.",
+              "vi": "Đường đi bộ quanh Hồ Tây rất hợp để chạy bộ."
+            },
+            {
+              "en": "Follow the footpath to reach the waterfall.",
+              "vi": "Theo đường mòn để đến thác nước."
+            },
+            {
+              "en": "A muddy footpath leads to the temple.",
+              "vi": "Một lối mòn lầy lội dẫn đến ngôi chùa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trail", "path"],
+      "antonyms": ["road", "highway"],
+      "collocations": [
+        "narrow footpath",
+        "muddy footpath",
+        "follow the footpath",
+        "footpath sign",
+        "public footpath"
+      ],
+      "etymology_hint": "Compound of 'foot' + 'path' — Old English term for any track made by walking feet.",
+      "mnemonic_vi": "FOOTPATH = FOOT + PATH → 'đường cho chân'. Lối nhỏ đi bộ."
+    },
+    {
+      "word": "signal",
+      "lemma": "signal",
+      "ipa": "/ˈsɪɡnəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a light, sound, or movement that gives a message to drivers",
+          "meaning_vi": "tín hiệu (đèn giao thông, xi nhan)",
+          "examples": [
+            {
+              "en": "Wait for the green signal before you cross.",
+              "vi": "Đợi tín hiệu xanh rồi mới qua đường."
+            },
+            {
+              "en": "Always use your signal when turning left.",
+              "vi": "Luôn bật xi nhan khi rẽ trái."
+            },
+            {
+              "en": "The traffic signal is broken at this corner.",
+              "vi": "Đèn tín hiệu giao thông góc này bị hỏng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sign", "indicator"],
+      "antonyms": [],
+      "collocations": [
+        "traffic signal",
+        "give a signal",
+        "turn signal",
+        "green signal",
+        "stop signal"
+      ],
+      "etymology_hint": "From Latin 'signalis' meaning 'serving as a sign' — from 'signum' (sign, mark).",
+      "mnemonic_vi": "SIGNAL = SIGN + AL → 'dấu hiệu'. Đèn tín hiệu, xi nhan."
+    },
+    {
+      "word": "rush",
+      "lemma": "rush",
+      "ipa": "/rʌʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the time when most people travel to or from work, causing busy traffic",
+          "meaning_vi": "giờ cao điểm",
+          "examples": [
+            {
+              "en": "I always avoid driving during rush hour in Hà Nội.",
+              "vi": "Tôi luôn tránh lái xe vào giờ cao điểm ở Hà Nội."
+            },
+            {
+              "en": "There's a big rush at the bus station after 5pm.",
+              "vi": "Có cảnh tấp nập ở bến xe buýt sau 5 giờ chiều."
+            },
+            {
+              "en": "Morning rush starts around 7am here.",
+              "vi": "Giờ cao điểm buổi sáng bắt đầu khoảng 7 giờ ở đây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["surge", "peak"],
+      "antonyms": [],
+      "collocations": ["rush hour", "morning rush", "evening rush", "in a rush", "rush of"],
+      "etymology_hint": "From Old French 'ruser' meaning 'to drive back' — sense of 'great hurry' developed in Middle English.",
+      "mnemonic_vi": "RUSH = 'rớt-sờ' — 'rớt sờ' lao đi vội vã. Rush hour = giờ cao điểm."
+    },
+    {
+      "word": "honk",
+      "lemma": "honk",
+      "ipa": "/hɒŋk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make a loud noise with a car horn",
+          "meaning_vi": "bóp còi (xe)",
+          "examples": [
+            {
+              "en": "Drivers in Việt Nam honk a lot, even on quiet streets.",
+              "vi": "Tài xế ở Việt Nam bóp còi rất nhiều, kể cả đường vắng."
+            },
+            {
+              "en": "Don't honk in residential areas at night.",
+              "vi": "Đừng bóp còi ở khu dân cư ban đêm."
+            },
+            {
+              "en": "He honked twice to get her attention.",
+              "vi": "Anh ấy bóp còi 2 lần để gây chú ý cô ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beep"],
+      "antonyms": [],
+      "collocations": ["honk the horn", "honk at", "honk loudly", "stop honking", "honk twice"],
+      "etymology_hint": "Imitative — onomatopoeia of the sound made by a goose or a car horn.",
+      "mnemonic_vi": "HONK = 'hong' — 'hong hong' bóp còi. Onomatopoeia tiếng còi."
+    },
+    {
+      "word": "overtake",
+      "lemma": "overtake",
+      "ipa": "/ˌəʊvəˈteɪk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to pass another vehicle going in the same direction",
+          "meaning_vi": "vượt qua (xe khác)",
+          "examples": [
+            {
+              "en": "Never overtake on a curve.",
+              "vi": "Đừng bao giờ vượt xe khi đang ở khúc cua."
+            },
+            {
+              "en": "She overtook the truck on the highway.",
+              "vi": "Cô ấy đã vượt chiếc xe tải trên cao tốc."
+            },
+            {
+              "en": "It's dangerous to overtake on a one-lane road.",
+              "vi": "Vượt xe trên đường 1 làn rất nguy hiểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pass"],
+      "antonyms": ["follow"],
+      "collocations": [
+        "overtake a car",
+        "overtake on the left",
+        "safely overtake",
+        "try to overtake",
+        "no overtaking"
+      ],
+      "etymology_hint": "Compound of 'over' + 'take' — Middle English sense of 'catch up to and pass'.",
+      "mnemonic_vi": "OVERTAKE = OVER + TAKE → 'lấy qua đầu'. Vượt xe lên trước."
+    },
+    {
+      "word": "speed",
+      "lemma": "speed",
+      "ipa": "/spiːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how fast something or someone moves",
+          "meaning_vi": "tốc độ",
+          "examples": [
+            {
+              "en": "The speed limit on this road is 60 km/h.",
+              "vi": "Giới hạn tốc độ đường này là 60 km/h."
+            },
+            {
+              "en": "Reduce your speed in foggy weather.",
+              "vi": "Giảm tốc độ khi trời sương mù."
+            },
+            {
+              "en": "The train reaches a speed of 200 km/h.",
+              "vi": "Tàu đạt tốc độ 200 km/h."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pace", "velocity"],
+      "antonyms": [],
+      "collocations": ["speed limit", "at high speed", "reduce speed", "speed up", "top speed"],
+      "etymology_hint": "From Old English 'spēd' meaning 'success, prosperity' — sense of 'rate of motion' developed later.",
+      "mnemonic_vi": "SPEED = 'spit' — như Speedy nhanh như chớp. Speed limit = giới hạn tốc độ."
+    },
+    {
+      "word": "horn",
+      "lemma": "horn",
+      "ipa": "/hɔːn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the part of a vehicle that makes a loud sound to warn others",
+          "meaning_vi": "còi xe",
+          "examples": [
+            {
+              "en": "Press the horn to warn the motorbike ahead.",
+              "vi": "Bấm còi để cảnh báo xe máy phía trước."
+            },
+            {
+              "en": "My car horn is broken — I need to fix it.",
+              "vi": "Còi xe tôi bị hỏng — phải sửa thôi."
+            },
+            {
+              "en": "Stop using the horn so much, it's annoying!",
+              "vi": "Đừng bóp còi nhiều thế, phiền quá!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hooter"],
+      "antonyms": [],
+      "collocations": ["press the horn", "car horn", "blow the horn", "loud horn", "broken horn"],
+      "etymology_hint": "From Old English 'horn' meaning 'animal horn' — applied to musical instruments and later car horns shaped similarly.",
+      "mnemonic_vi": "HORN = 'họn' — như 'hong' bóp còi. Còi xe = car horn."
+    },
+    {
+      "word": "seatbelt",
+      "lemma": "seatbelt",
+      "ipa": "/ˈsiːtbelt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a strap in a car that keeps you safe by holding you in your seat",
+          "meaning_vi": "dây an toàn (xe ô tô)",
+          "examples": [
+            {
+              "en": "Always wear your seatbelt when you drive.",
+              "vi": "Luôn cài dây an toàn khi lái xe."
+            },
+            {
+              "en": "It's illegal not to wear a seatbelt in Việt Nam.",
+              "vi": "Không cài dây an toàn là phạm luật ở Việt Nam."
+            },
+            {
+              "en": "Make sure your child's seatbelt is fastened.",
+              "vi": "Đảm bảo dây an toàn của con bạn được cài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["safety belt"],
+      "antonyms": [],
+      "collocations": [
+        "wear a seatbelt",
+        "fasten your seatbelt",
+        "seatbelt sign",
+        "buckle up the seatbelt",
+        "front-seat seatbelt"
+      ],
+      "etymology_hint": "Compound of 'seat' + 'belt' — invented in 1885 but mass-required in cars only from 1960s onwards.",
+      "mnemonic_vi": "SEATBELT = SEAT + BELT → 'thắt lưng ghế'. Dây an toàn."
+    },
+    {
+      "word": "petrol",
+      "lemma": "petrol",
+      "ipa": "/ˈpetrəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a liquid used as fuel for cars and motorbikes (US: gasoline)",
+          "meaning_vi": "xăng",
+          "examples": [
+            {
+              "en": "Petrol prices in Việt Nam went up again last week.",
+              "vi": "Giá xăng ở Việt Nam lại tăng tuần trước."
+            },
+            {
+              "en": "Petrolimex is the biggest petrol seller in Việt Nam.",
+              "vi": "Petrolimex là nhà bán xăng lớn nhất Việt Nam."
+            },
+            {
+              "en": "Fill up the petrol tank before the long trip.",
+              "vi": "Đổ đầy bình xăng trước chuyến đi xa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gasoline", "gas"],
+      "antonyms": [],
+      "collocations": [
+        "petrol station",
+        "petrol tank",
+        "fill up with petrol",
+        "petrol price",
+        "run out of petrol"
+      ],
+      "etymology_hint": "From French 'pétrole' meaning 'rock oil' — from Latin 'petra' (rock) + 'oleum' (oil).",
+      "mnemonic_vi": "PETROL = PETR + OL → 'dầu đá' (rock oil). Xăng cho xe."
+    },
+    {
+      "word": "diesel",
+      "lemma": "diesel",
+      "ipa": "/ˈdiːzl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a type of fuel for trucks, buses, and some cars; different from petrol",
+          "meaning_vi": "dầu diesel",
+          "examples": [
+            {
+              "en": "Most trucks in Việt Nam run on diesel.",
+              "vi": "Hầu hết xe tải ở Việt Nam chạy dầu diesel."
+            },
+            {
+              "en": "Diesel cars are usually more fuel-efficient.",
+              "vi": "Xe diesel thường tiết kiệm nhiên liệu hơn."
+            },
+            {
+              "en": "Don't put diesel in a petrol car!",
+              "vi": "Đừng đổ dầu diesel vào xe xăng!"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["petrol"],
+      "collocations": [
+        "diesel engine",
+        "diesel fuel",
+        "diesel car",
+        "diesel truck",
+        "diesel price"
+      ],
+      "etymology_hint": "Named after German engineer Rudolf Diesel (1858-1913), who invented the diesel engine in 1893.",
+      "mnemonic_vi": "DIESEL = 'đí-sồl' — tên ông Rudolf Diesel. Dầu xe tải, xe khách."
+    },
+    {
+      "word": "collision",
+      "lemma": "collision",
+      "ipa": "/kəˈlɪʒn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an accident in which two vehicles or objects hit each other",
+          "meaning_vi": "va chạm, đụng xe",
+          "examples": [
+            {
+              "en": "There was a serious collision on Highway 1A this morning.",
+              "vi": "Có vụ va chạm nghiêm trọng trên Quốc lộ 1A sáng nay."
+            },
+            {
+              "en": "The collision between two trucks blocked the road.",
+              "vi": "Vụ đụng giữa hai xe tải làm tắc cả đường."
+            },
+            {
+              "en": "Luckily, no one was hurt in the collision.",
+              "vi": "May mắn không ai bị thương trong vụ va chạm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["crash", "impact"],
+      "antonyms": [],
+      "collocations": [
+        "head-on collision",
+        "collision course",
+        "serious collision",
+        "avoid a collision",
+        "in collision with"
+      ],
+      "etymology_hint": "From Latin 'collidere' meaning 'to strike together' — from 'com-' (together) + 'laedere' (to strike).",
+      "mnemonic_vi": "COLLISION = COL + LISION → 'cùng đập vào'. Va chạm xe."
+    },
+    {
+      "word": "pedestrian",
+      "lemma": "pedestrian",
+      "ipa": "/pəˈdestriən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person walking, not in a vehicle",
+          "meaning_vi": "người đi bộ",
+          "examples": [
+            {
+              "en": "Drivers must yield to pedestrians at crossings.",
+              "vi": "Tài xế phải nhường người đi bộ ở vạch sang đường."
+            },
+            {
+              "en": "Nguyễn Huệ Street is a pedestrian-only zone at night.",
+              "vi": "Phố Nguyễn Huệ là khu chỉ cho người đi bộ ban đêm."
+            },
+            {
+              "en": "Pedestrians should walk on the sidewalk.",
+              "vi": "Người đi bộ nên đi trên vỉa hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["walker", "foot traveler"],
+      "antonyms": ["driver", "motorist"],
+      "collocations": [
+        "pedestrian crossing",
+        "pedestrian zone",
+        "yield to pedestrians",
+        "pedestrian path",
+        "pedestrian street"
+      ],
+      "etymology_hint": "From Latin 'pedester' meaning 'going on foot' — from 'pes' (foot, same root as 'pedal').",
+      "mnemonic_vi": "PEDESTRIAN = PEDE + STRIAN → 'người đi chân'. Pede = foot. Người đi bộ."
+    },
+    {
+      "word": "accident",
+      "lemma": "accident",
+      "ipa": "/ˈæksɪdənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "something unexpected and bad that happens, often causing injury",
+          "meaning_vi": "tai nạn",
+          "examples": [
+            {
+              "en": "There was a motorbike accident in front of my house.",
+              "vi": "Có vụ tai nạn xe máy trước cửa nhà tôi."
+            },
+            {
+              "en": "Wear a helmet to avoid serious accidents.",
+              "vi": "Đội mũ bảo hiểm để tránh tai nạn nghiêm trọng."
+            },
+            {
+              "en": "Most road accidents happen at night.",
+              "vi": "Hầu hết tai nạn giao thông xảy ra ban đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["crash", "mishap"],
+      "antonyms": ["plan"],
+      "collocations": [
+        "car accident",
+        "road accident",
+        "serious accident",
+        "have an accident",
+        "by accident"
+      ],
+      "etymology_hint": "From Latin 'accidens' meaning 'happening, befalling' — from 'ad-' (to) + 'cadere' (to fall).",
+      "mnemonic_vi": "ACCIDENT = AC + CIDENT → 'rơi vào'. Tai nạn xảy ra bất ngờ."
+    }
+  ]
+}
