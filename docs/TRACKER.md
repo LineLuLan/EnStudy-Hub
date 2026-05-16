@@ -489,13 +489,21 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
-  - [ ] **P8e** (5 lessons remaining) — TODO to close P8
+  - [x] **P8e B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `93df61a` → merge `7f17792` → sync `b9ccaed`) — **P8 CLOSED 25/25**:
+    - `work-business/entrepreneurship` — startup, founder, pivot, venture, funding, prototype, valuation, unicorn, exit, acquire, merge, cofounder, bootstrap, IPO, runway, burn, traction, hustle, incubator, disrupt
+    - `entertainment/music-production` — beat, lyrics, riff, chord, tempo, remix, sample, producer, vocal, harmony, rhythm, bass, synth, record, mix, master, track, album, DJ, groove
+    - `places-travel/extreme-travel` — expedition, backpacker, off-grid, nomad, trek, wilderness, frontier, pilgrimage, solo, voyage, scenic, checkpoint, gear, trail, ascent, altitude, peak, ridge, endurance, navigate
+    - `nature-environment/natural-disasters` (pivoted from weather-disasters do 7 từ trùng với weather-seasons-ext) — earthquake, eruption, wildfire, blizzard, avalanche, landslide, tornado, monsoon, tremor, magnitude, epicenter, aftermath, evacuation, devastation, debris, rescue, hazard, casualty, shelter, alert
+    - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
+    - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 107/192 lessons (56%), 2140/3840 cards (56%), ~56% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 ở 20/25**, next: P8e (5 lessons để đóng P8).
+**Progress**: 112/192 lessons (58%), 2240/3840 cards (58%), ~58% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, next: P9 B1 part 2.
+
+**Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
 ---
 

@@ -5,6 +5,86 @@
 
 ---
 
+## 2026-05-17 (P8e content batch — P8 CLOSED) — B1: 5 lessons / 100 cards (112/192, ~58%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 cuối cùng đóng P8 25/25. User confirm "tiếp tục gen content" + chỉ thị mới durable: **"Từ giờ cho phép dùng nhiều token hơn để gen chất lượng hơn"** → override #12 cho rule content-gen-offline, đồng thời raised quality bar (chống quality drift session marathon trước).
+
+**5 lessons mới (B1, 100/100 NEW so với 2140 existing)**:
+
+| #   | Lesson            | Topic              | order |
+| --- | ----------------- | ------------------ | ----- |
+| 1   | entrepreneurship  | work-business      | 12    |
+| 2   | music-production  | entertainment      | 9     |
+| 3   | extreme-travel    | places-travel      | 7     |
+| 4   | natural-disasters | nature-environment | 10    |
+| 5   | identity-self     | abstract-academic  | 11    |
+
+**Quality bar raised**:
+
+- Diverse example contexts: 1 formal/business + 1 conversational + 1 cultural (VN refs ưu tiên).
+- Etymology + mnemonic_vi bắt buộc trên mọi card.
+- Definitions polysemous tách multi-definitions (vd `pivot` business + literal).
+- Collocations 4-5 cái thật sự high-frequency.
+
+**Scope pivot ghi nhận**:
+
+- `weather-disasters` → `natural-disasters` do 7 từ gốc (typhoon, drought, flood, hurricane, lightning, thunder, storm) đều taken trong weather-seasons / weather-seasons-ext. Topic mới tập trung disaster response + geological.
+
+### SHA cuối session
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `7f17792` (P8e merge — feat: be `93df61a` + merge commit)
+- be `93df61a` (P8e content)
+- fe `b9ccaed` (sync P8e)
+
+### Verify
+
+- Zod ALL VALID 5 files (validate-content.ts không crash; chỉ flag IPA notation variations vs dictionaryapi.dev — pattern bình thường như P7/P8a-d).
+- Commitlint: phải shorten body lines < 100 chars; first attempt fail, second pass.
+- Husky pre-commit prettier auto-format JSON arrays compact một số chỗ — accepted.
+- Seed live: **CHƯA chạy** — user step manual.
+
+### TODO user (carry forward sau P8 CLOSED)
+
+1. Manual seed Supabase với P8e batch (target: 112 lessons / 2240 cards live).
+2. **Light/dark mode bug**: user request fix bug ở light mode SAU KHI gen xong toàn bộ Oxford 3000 (~80 lessons nữa: P9-P12). Tracked trong TRACKER.md "Deferred".
+3. v1.0.0 ship vẫn block trên 5 TODOs cũ (xem entry 2026-05-17 marathon dưới).
+
+### PICKUP cho session sau — P9 B1 part 2 (25 lessons / 500 cards)
+
+P8 đã đóng 25/25. Tiếp theo: **P9 B1 part 2** (25 lessons B1 còn thiếu để đạt ~75% Oxford 3000).
+
+Đề xuất phase split P9: 5 batches × 5 lessons (P9a/b/c/d/e) như cách P7/P8 đã chạy. Topic candidates (cần grep collision trước):
+
+- `daily-life/cooking-techniques`, `daily-life/home-renovation`
+- `people/relationships-conflict`, `people/communication-styles`
+- `work-business/marketing-digital`, `work-business/freelance-remote`
+- `nature-environment/conservation`, `nature-environment/seasons-climate-extended`
+- `abstract-academic/critical-thinking`, `abstract-academic/learning-theory`
+- `society-culture/social-movements`, `society-culture/global-issues`
+- `entertainment/literature-genres`, `entertainment/visual-arts`
+- `education/higher-ed`, `education/study-abroad`
+- `places-travel/urban-exploration`, `places-travel/cultural-immersion`
+- ... (chốt qua grep round trước gen mỗi batch)
+
+### Quan trọng cho next session
+
+1. **Override pattern lan rộng**: 12 overrides "gen tiếp" / "tự gen". Default vẫn offline per memory, nhưng user explicit override → AI auto-gen với raised quality bar (token thoải mái).
+2. **Quality drift alert**: vẫn nhớ — review 1-2 file gần đây spot-check khi pickup, đặc biệt sau 100+ cards mới.
+3. **Date drift**: HANDOFF entries dán date 2026-05-17 dù session AI có thể chạy ngày khác — giữ consistency với chuỗi entry trước (logical project day, không phải calendar day).
+4. **Topic naming**: P8e đã pivot weather-disasters → natural-disasters. Pattern này hữu ích khi collision quá nặng — rename topic clearer thay vì squeeze 20 từ clean.
+5. **Sau khi đóng Oxford 3000 (P12)**: fix light/dark mode bug user đã flag.
+
+### Files state khi handoff
+
+- All branches pushed to origin (main `eb18493`, dev `7f17792`, be `93df61a`, fe `b9ccaed`).
+- Docs updated: TRACKER P8 CLOSED + P8e detail, SYNC table, HANDOFF (this entry), CONTENT_PLAN (xem P9 stub).
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (cuối session — hết token, handoff) — Day total 40 lessons / 800 cards B1+A2 — Claude Opus 4.7
 
 ### Session day summary
