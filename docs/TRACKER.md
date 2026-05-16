@@ -482,13 +482,20 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `daily-life/relationships-modern` — relationship, breakup, marriage, crush, flirt, honeymoon, spouse, fiance, bachelor, widow, soulmate, in-laws, ghost, ex, dating, intimacy, commitment, cohabit, blind-date, matchmaker
     - `nature-environment/sustainability` — organic, footprint, reuse, compost, biodegradable, environmental, protect, solar, electric, hybrid, vegan, consumption, waste, erosion, recyclable, natural, endangered, plant-based, zero-waste, biofuel
     - Gates green. Seed live: **102 lessons / 2040 cards** (~53% Oxford 3000).
-  - [ ] **P8d/e** (10 lessons remaining) — TODO next sessions
+  - [x] **P8d B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `96a7aa9` → merge `5bb6b28` → sync `2943625`):
+    - `work-business/finance-investment` — bond, asset, portfolio, dividend, investor, investment, equity, fund, capital, broker, trader, finance, savings, inflation, recession, yield, liquidity, bull, hedge, gain
+    - `entertainment/streaming-media` — original, trailer, spoiler, binge, finale, cliffhanger, cast, reboot, sequel, prequel, spinoff, crossover, thriller, sitcom, soundtrack, subscriber, rating, documentary, showrunner, playlist
+    - `nature-environment/oceans-marine` — coral, reef, tide, current, marine, wave, seaweed, jellyfish, seal, squid, krill, plankton, aquatic, salinity, seabed, seafood, fisherman, underwater, sailor, tsunami
+    - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
+    - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
+    - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [ ] **P8e** (5 lessons remaining) — TODO to close P8
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 102/192 lessons (53%), 2040/3840 cards (53%), ~53% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 ở 15/25**, next: P8d-e (10 lessons remaining).
+**Progress**: 107/192 lessons (56%), 2140/3840 cards (56%), ~56% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 ở 20/25**, next: P8e (5 lessons để đóng P8).
 
 ---
 
