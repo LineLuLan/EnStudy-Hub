@@ -384,6 +384,43 @@
 
 ---
 
+## Post-MVP UI Revamp (2026-05-16 → 17)
+
+Mục tiêu: nâng cấp UX `/decks` lên production-grade sau khi seed 1340 cards live. 2 sessions:
+
+### Session 2026-05-16 — `/decks` topic grid + topic detail page
+
+- [x] **DB migration applied** — `0001_magenta_umar.sql` (profiles.onboarded_at) lên Supabase live, fix lỗi user gặp khi mở `/decks`
+- [x] **`/decks/[col]` redesign** — Topic grid 3×N responsive (1/2/3 cột), icon từ `topic.icon` qua `<TopicIcon>`, lesson count + "Đang học X/Y" badge, priority indicator góc phải, badge ✨ "Khuyến nghị bắt đầu" cho 3 topic đầu
+- [x] **New page `/decks/[col]/[topic]`** — Topic header với icon h-14, lesson list numbered (01/02/...), breadcrumb back collection
+- [x] **CardPreview scroll focus** — `scrollIntoView({behavior:'smooth', block:'center'})` khi expand, ring amber + scale-[1.015]
+- [x] **Query helper `getTopicBySlug`** — ownership gate giống `getCollectionBySlug`, trả `TopicDetail`
+- Commit `eff2055` trên fe → merge `781251c` lên dev → sync `82dc173` xuống be
+
+### Session 2026-05-17 — CardPreview polish + theme accent
+
+- [x] **Theme accent tokens** (`globals.css`): `--accent` / `--accent-soft` / `--highlight`. Light (study4-inspired blue/yellow), Dark (low-chroma soft sage/cream — KHÔNG neon, eye-friendly). Swap `@media (prefers-color-scheme: dark)` → `.dark` selector cho next-themes class-based toggle (fix bug CSS vars không react theo toggle)
+- [x] **CardPreview restyle** (`card-preview.tsx`):
+  - Typography EN/VI: VN italic + `text-zinc-500` dim, EN giữ `text-zinc-900 dark:text-zinc-50`
+  - Bold target word: regex `\b(card.word|card.lemma)\b` với escape, capture-group split → wrap `<strong>` text-accent
+  - Glassmorphism badges (POS/CEFR/Note/suspend): `backdrop-blur-sm bg-white/60 dark:bg-black/30 ring-1`
+  - Section dividers: `divide-y divide-zinc-100 dark:divide-zinc-900` between def / examples / syn-ant-col / mnemonic / etymology
+  - Mnemonic blockquote: dashed `border-[var(--highlight)]/60` + gradient `from-highlight/10 to-accent-soft/30` + floating "💡 Mẹo nhớ" label absolute
+  - Audio TTS button: `Volume2` icon cạnh IPA, `speechSynthesis` en-GB rate 0.9, `stopPropagation`, hydration-safe `ttsSupported` state
+  - Hover lift closed: `hover:-translate-y-0.5 hover:shadow-sm`. Open state soft glow: `border-[var(--accent)]/40 shadow-lg shadow-[var(--accent)]/10 ring-2 ring-[var(--accent)]/30` (thay amber solid)
+  - Relabel suspend badge: "Tạm dừng" → "Đã thuộc" + `CheckCircle2` icon
+- [x] **Lesson cards masonry** (`/decks/[col]/[topic]/[lesson]/page.tsx`): switch từ CSS grid `lg:grid-cols-2 items-start` → CSS columns `lg:columns-2` + `break-inside-avoid`. Eliminates row-height alignment artifacts khi cards uneven height
+- Commit `d6cc9bc` + `c9fe61a` trên fe → merge `c2bf721` lên dev → sync `ae75f85` xuống be. Gates green (typecheck 0 / lint 0 / 179 tests)
+
+### Defer (chưa làm)
+
+- [ ] "Lưu từ" bookmark — cần DB migration `user_cards.bookmarked` boolean + server action
+- [ ] "Báo lỗi" feature — cần form + table report mới
+- [ ] Theme accent apply vào dashboard/stats/topbar (chỉ scope deck/card hiện tại)
+- [ ] Conjugation matching cho bold target word (vd `accountant` vs `accountants`)
+
+---
+
 ## Backlog (Post-MVP)
 
 Xem `../VOCAB_APP_BLUEPRINT.md` Phần 9.
