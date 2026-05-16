@@ -1,0 +1,751 @@
+{
+  "slug": "change-process",
+  "name": "Change & Process",
+  "description": "Động từ thay đổi B1 — alter, transform, develop, evolve, adapt và 15 từ về quá trình biến đổi.",
+  "order_index": 6,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "alter",
+      "lemma": "alter",
+      "ipa": "/ˈɔːltə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make something different in some way; change",
+          "meaning_vi": "thay đổi (thường nhỏ, một phần)",
+          "examples": [
+            {
+              "en": "She altered the dress to fit better.",
+              "vi": "Cô ấy chỉnh sửa cái váy cho vừa hơn."
+            },
+            {
+              "en": "Climate change has altered weather patterns.",
+              "vi": "Biến đổi khí hậu đã thay đổi mô hình thời tiết."
+            },
+            {
+              "en": "We can't alter the past.",
+              "vi": "Chúng ta không thể thay đổi quá khứ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["change", "modify"],
+      "antonyms": ["preserve"],
+      "collocations": [
+        "alter slightly",
+        "alter significantly",
+        "alter your plans",
+        "alter the course",
+        "fundamentally alter"
+      ],
+      "etymology_hint": "From Latin 'alter' meaning 'other, second' — sense of 'make different' from 'making it other'.",
+      "mnemonic_vi": "ALTER = 'ốl-tơ' — 'ốt' khác đi. Alter the dress = sửa váy."
+    },
+    {
+      "word": "transform",
+      "lemma": "transform",
+      "ipa": "/trænsˈfɔːm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change something completely, often improving it",
+          "meaning_vi": "biến đổi (lớn, toàn diện)",
+          "examples": [
+            {
+              "en": "Technology has transformed Vietnamese society.",
+              "vi": "Công nghệ đã biến đổi xã hội Việt Nam."
+            },
+            {
+              "en": "She transformed the old house into a café.",
+              "vi": "Cô ấy biến căn nhà cũ thành quán cà phê."
+            },
+            {
+              "en": "Education can transform a person's life.",
+              "vi": "Giáo dục có thể biến đổi cuộc đời người ta."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["convert", "change"],
+      "antonyms": [],
+      "collocations": [
+        "transform into",
+        "completely transform",
+        "transform society",
+        "transform lives",
+        "digital transformation"
+      ],
+      "etymology_hint": "From Latin 'transformare' — from 'trans-' (across) + 'formare' (to form, shape).",
+      "mnemonic_vi": "TRANSFORM = TRANS + FORM → 'đổi hình'. Transformer = robot biến hình."
+    },
+    {
+      "word": "develop",
+      "lemma": "develop",
+      "ipa": "/dɪˈveləp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to grow or change to become bigger, better, or more advanced",
+          "meaning_vi": "phát triển",
+          "examples": [
+            {
+              "en": "Vietnam has developed rapidly since 1990.",
+              "vi": "Việt Nam phát triển nhanh từ 1990."
+            },
+            {
+              "en": "She's developing a new app for restaurants.",
+              "vi": "Cô ấy đang phát triển app mới cho nhà hàng."
+            },
+            {
+              "en": "Children develop language skills before age 5.",
+              "vi": "Trẻ em phát triển kỹ năng ngôn ngữ trước 5 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grow", "evolve"],
+      "antonyms": ["decline"],
+      "collocations": [
+        "develop a skill",
+        "develop a plan",
+        "develop rapidly",
+        "develop further",
+        "develop an app"
+      ],
+      "etymology_hint": "From Old French 'desveloper' meaning 'to unwrap, unfold' — from 'des-' (apart) + 'veloper' (to wrap).",
+      "mnemonic_vi": "DEVELOP = DE + VELOP → 'mở ra'. Develop = phát triển."
+    },
+    {
+      "word": "evolve",
+      "lemma": "evolve",
+      "ipa": "/ɪˈvɒlv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to gradually change and develop over time",
+          "meaning_vi": "tiến hóa, phát triển dần",
+          "examples": [
+            {
+              "en": "Vietnamese cuisine has evolved over centuries.",
+              "vi": "Ẩm thực Việt đã phát triển qua nhiều thế kỷ."
+            },
+            {
+              "en": "Animals evolve to adapt to their environment.",
+              "vi": "Động vật tiến hóa để thích nghi môi trường."
+            },
+            {
+              "en": "Her style evolved from punk to elegant.",
+              "vi": "Phong cách cô ấy phát triển từ punk sang thanh lịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["develop", "progress"],
+      "antonyms": [],
+      "collocations": [
+        "evolve over time",
+        "evolve from",
+        "gradually evolve",
+        "evolve into",
+        "naturally evolve"
+      ],
+      "etymology_hint": "From Latin 'evolvere' meaning 'to unroll, unfold' — biological sense from Darwin's theory of evolution (1859).",
+      "mnemonic_vi": "EVOLVE = E + VOLVE → 'mở ra dần'. Tiến hóa = evolve theo Darwin."
+    },
+    {
+      "word": "modify",
+      "lemma": "modify",
+      "ipa": "/ˈmɒdɪfaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change something slightly, often to improve it",
+          "meaning_vi": "sửa đổi, điều chỉnh",
+          "examples": [
+            {
+              "en": "We need to modify the plan based on feedback.",
+              "vi": "Chúng ta cần điều chỉnh kế hoạch dựa trên phản hồi."
+            },
+            {
+              "en": "He modified his motorbike with new lights.",
+              "vi": "Anh ấy độ xe máy với đèn mới."
+            },
+            {
+              "en": "Modify the recipe to use less sugar.",
+              "vi": "Sửa công thức để dùng ít đường hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alter", "adjust"],
+      "antonyms": ["keep"],
+      "collocations": [
+        "modify a plan",
+        "slightly modify",
+        "modify behaviour",
+        "genetically modified",
+        "modify slightly"
+      ],
+      "etymology_hint": "From Latin 'modificare' meaning 'to limit, restrain' — from 'modus' (measure) + 'facere' (to make).",
+      "mnemonic_vi": "MODIFY = MOD + IFY → 'làm cho theo kiểu'. Modify = chỉnh sửa nhẹ."
+    },
+    {
+      "word": "vary",
+      "lemma": "vary",
+      "ipa": "/ˈveəri/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to be different in different situations or for different people",
+          "meaning_vi": "khác nhau, biến đổi",
+          "examples": [
+            {
+              "en": "Prices vary from shop to shop.",
+              "vi": "Giá khác nhau từ tiệm này sang tiệm khác."
+            },
+            {
+              "en": "Vietnamese weather varies by region.",
+              "vi": "Thời tiết Việt Nam khác nhau theo vùng."
+            },
+            {
+              "en": "Vary your exercise routine to stay motivated.",
+              "vi": "Đa dạng bài tập để giữ động lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["differ", "change"],
+      "antonyms": ["stay the same"],
+      "collocations": ["vary widely", "vary from", "vary in size", "vary by", "considerably vary"],
+      "etymology_hint": "From Latin 'variare' meaning 'to make different' — from 'varius' (changing, different).",
+      "mnemonic_vi": "VARY = 'vê-ri' — 'vâng có' đa dạng. Vary widely = rất khác nhau."
+    },
+    {
+      "word": "switch",
+      "lemma": "switch",
+      "ipa": "/swɪtʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change from one thing or position to another",
+          "meaning_vi": "chuyển, đổi sang (cái khác)",
+          "examples": [
+            {
+              "en": "I switched from coffee to green tea.",
+              "vi": "Tôi chuyển từ cà phê sang trà xanh."
+            },
+            {
+              "en": "Switch off the lights before leaving.",
+              "vi": "Tắt đèn trước khi rời đi."
+            },
+            {
+              "en": "He switched jobs three times last year.",
+              "vi": "Anh ấy đổi việc 3 lần năm ngoái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["change", "swap"],
+      "antonyms": [],
+      "collocations": ["switch on", "switch off", "switch to", "switch jobs", "switch sides"],
+      "etymology_hint": "Possibly from Middle Dutch 'swijch' meaning 'a flexible rod' — sense of 'changing electrical connection' from 19th century.",
+      "mnemonic_vi": "SWITCH = 'switch' — 'sờ-ích' đổi. Switch off = tắt."
+    },
+    {
+      "word": "adjust",
+      "lemma": "adjust",
+      "ipa": "/əˈdʒʌst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make small changes to make something right or comfortable",
+          "meaning_vi": "điều chỉnh (nhỏ, chính xác)",
+          "examples": [
+            {
+              "en": "Adjust the chair to a comfortable height.",
+              "vi": "Điều chỉnh ghế tới độ cao thoải mái."
+            },
+            {
+              "en": "She adjusted her glasses before speaking.",
+              "vi": "Cô ấy chỉnh kính trước khi nói."
+            },
+            {
+              "en": "It took time to adjust to life in Hà Nội.",
+              "vi": "Mất thời gian để thích nghi cuộc sống Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["modify", "tune"],
+      "antonyms": [],
+      "collocations": [
+        "adjust the volume",
+        "adjust to",
+        "easily adjust",
+        "adjust accordingly",
+        "fine-tune adjust"
+      ],
+      "etymology_hint": "From Latin 'ad-' (to) + 'iuxta' (near, beside) — sense of 'bring near to right position'.",
+      "mnemonic_vi": "ADJUST = AD + JUST → 'làm cho đúng'. Adjust = điều chỉnh."
+    },
+    {
+      "word": "adapt",
+      "lemma": "adapt",
+      "ipa": "/əˈdæpt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change behavior or things to fit a new situation",
+          "meaning_vi": "thích nghi, biến đổi cho phù hợp",
+          "examples": [
+            {
+              "en": "International students must adapt to Vietnamese culture.",
+              "vi": "Sinh viên quốc tế phải thích nghi văn hóa Việt."
+            },
+            {
+              "en": "Animals adapt to climate change.",
+              "vi": "Động vật thích nghi biến đổi khí hậu."
+            },
+            {
+              "en": "We adapted the recipe for vegetarians.",
+              "vi": "Chúng tôi biến công thức cho người ăn chay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["adjust", "modify"],
+      "antonyms": [],
+      "collocations": [
+        "adapt to",
+        "quickly adapt",
+        "adapt yourself",
+        "adapt accordingly",
+        "adapt and survive"
+      ],
+      "etymology_hint": "From Latin 'adaptare' meaning 'to fit to' — from 'ad-' (to) + 'aptare' (to fit).",
+      "mnemonic_vi": "ADAPT = A + DAPT → 'làm hợp'. Adapt to new culture = thích nghi."
+    },
+    {
+      "word": "reform",
+      "lemma": "reform",
+      "ipa": "/rɪˈfɔːm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change a system or organization to make it better",
+          "meaning_vi": "cải cách, đổi mới (chính sách, hệ thống)",
+          "examples": [
+            {
+              "en": "Vietnam reformed its economy in 1986 with Đổi Mới.",
+              "vi": "Việt Nam cải cách kinh tế năm 1986 với Đổi Mới."
+            },
+            {
+              "en": "Education needs urgent reform.",
+              "vi": "Giáo dục cần cải cách cấp thiết."
+            },
+            {
+              "en": "The law was reformed to protect workers.",
+              "vi": "Luật được cải cách để bảo vệ người lao động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["improve", "transform"],
+      "antonyms": [],
+      "collocations": [
+        "education reform",
+        "land reform",
+        "reform the system",
+        "major reform",
+        "reform package"
+      ],
+      "etymology_hint": "From Latin 'reformare' meaning 'to form again, restore' — from 're-' (again) + 'formare' (to shape).",
+      "mnemonic_vi": "REFORM = RE + FORM → 'tạo hình lại'. Đổi Mới = land reform."
+    },
+    {
+      "word": "expand",
+      "lemma": "expand",
+      "ipa": "/ɪkˈspænd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become bigger or to make something bigger",
+          "meaning_vi": "mở rộng, nở ra",
+          "examples": [
+            {
+              "en": "VinFast expanded to the US market last year.",
+              "vi": "VinFast mở rộng sang thị trường Mỹ năm ngoái."
+            },
+            {
+              "en": "Metal expands when heated.",
+              "vi": "Kim loại nở ra khi nung nóng."
+            },
+            {
+              "en": "Expand your vocabulary by reading more.",
+              "vi": "Mở rộng vốn từ bằng cách đọc nhiều hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grow", "enlarge"],
+      "antonyms": ["shrink", "reduce"],
+      "collocations": [
+        "expand rapidly",
+        "expand business",
+        "expand internationally",
+        "expand vocabulary",
+        "expand your horizons"
+      ],
+      "etymology_hint": "From Latin 'expandere' meaning 'to spread out' — from 'ex-' (out) + 'pandere' (to spread).",
+      "mnemonic_vi": "EXPAND = EX + PAND → 'trải ra ngoài'. Expand business = mở rộng."
+    },
+    {
+      "word": "reduce",
+      "lemma": "reduce",
+      "ipa": "/rɪˈdjuːs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make something smaller in size or amount",
+          "meaning_vi": "giảm",
+          "examples": [
+            {
+              "en": "Reduce your sugar intake for better health.",
+              "vi": "Giảm lượng đường để khỏe hơn."
+            },
+            {
+              "en": "Vietnam aims to reduce CO2 emissions.",
+              "vi": "Việt Nam đặt mục tiêu giảm khí thải CO2."
+            },
+            {
+              "en": "The shop reduced prices by 50%.",
+              "vi": "Cửa hàng giảm giá 50%."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lower", "decrease"],
+      "antonyms": ["increase", "expand"],
+      "collocations": [
+        "reduce stress",
+        "reduce costs",
+        "significantly reduce",
+        "reduce by half",
+        "reduce emissions"
+      ],
+      "etymology_hint": "From Latin 'reducere' meaning 'to bring back' — from 're-' (back) + 'ducere' (to lead).",
+      "mnemonic_vi": "REDUCE = RE + DUCE → 'dẫn lại'. Reduce = giảm xuống."
+    },
+    {
+      "word": "grow",
+      "lemma": "grow",
+      "ipa": "/ɡrəʊ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become bigger, taller, or more in number",
+          "meaning_vi": "lớn lên, phát triển, tăng trưởng",
+          "examples": [
+            {
+              "en": "Vietnamese GDP is growing 6% per year.",
+              "vi": "GDP Việt Nam tăng trưởng 6%/năm."
+            },
+            {
+              "en": "Plants grow well in warm weather.",
+              "vi": "Cây cối phát triển tốt trong thời tiết ấm."
+            },
+            {
+              "en": "Children grow quickly.",
+              "vi": "Trẻ con lớn rất nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expand", "develop"],
+      "antonyms": ["shrink"],
+      "collocations": ["grow rapidly", "grow up", "grow into", "grow old", "grow taller"],
+      "etymology_hint": "From Old English 'grōwan' — Germanic root, related to 'green' (growing things).",
+      "mnemonic_vi": "GROW = 'grốu' — 'gro' lớn lên. Grow up = trưởng thành."
+    },
+    {
+      "word": "decline",
+      "lemma": "decline",
+      "ipa": "/dɪˈklaɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become less or worse in amount or quality",
+          "meaning_vi": "giảm sút, suy giảm",
+          "examples": [
+            {
+              "en": "Bird populations are declining in cities.",
+              "vi": "Số lượng chim giảm trong các thành phố."
+            },
+            {
+              "en": "The economy declined during the pandemic.",
+              "vi": "Kinh tế suy giảm trong đại dịch."
+            },
+            {
+              "en": "He declined my invitation politely.",
+              "vi": "Anh ấy từ chối lời mời lịch sự."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["decrease", "fall"],
+      "antonyms": ["grow", "rise"],
+      "collocations": [
+        "decline rapidly",
+        "decline an offer",
+        "in decline",
+        "decline sharply",
+        "polite decline"
+      ],
+      "etymology_hint": "From Latin 'declinare' meaning 'to bend down, decline' — from 'de-' (away) + 'clinare' (to bend).",
+      "mnemonic_vi": "DECLINE = DE + CLINE → 'nghiêng xuống'. Decline = giảm sút."
+    },
+    {
+      "word": "advance",
+      "lemma": "advance",
+      "ipa": "/ədˈvɑːns/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to move forward; to make progress",
+          "meaning_vi": "tiến lên, tiến bộ",
+          "examples": [
+            {
+              "en": "Technology is advancing rapidly.",
+              "vi": "Công nghệ đang tiến bộ nhanh chóng."
+            },
+            {
+              "en": "She advanced from junior to senior in 2 years.",
+              "vi": "Cô ấy lên từ junior tới senior trong 2 năm."
+            },
+            {
+              "en": "Advance booking is cheaper.",
+              "vi": "Đặt trước rẻ hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["progress", "move forward"],
+      "antonyms": ["retreat"],
+      "collocations": [
+        "advance technology",
+        "advance booking",
+        "rapidly advance",
+        "advance to",
+        "advance notice"
+      ],
+      "etymology_hint": "From Old French 'avancier' meaning 'to move forward' — from Latin 'abante' (in front).",
+      "mnemonic_vi": "ADVANCE = AD + VANCE → 'tiến tới'. Advance booking = đặt trước."
+    },
+    {
+      "word": "deteriorate",
+      "lemma": "deteriorate",
+      "ipa": "/dɪˈtɪəriəreɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become worse over time",
+          "meaning_vi": "xấu đi, suy giảm (chất lượng)",
+          "examples": [
+            {
+              "en": "Air quality has deteriorated in Hà Nội.",
+              "vi": "Chất lượng không khí đã xấu đi ở Hà Nội."
+            },
+            {
+              "en": "His health deteriorated quickly.",
+              "vi": "Sức khỏe ông ấy xấu đi nhanh."
+            },
+            {
+              "en": "The old building deteriorated without maintenance.",
+              "vi": "Tòa nhà cũ xuống cấp vì không bảo trì."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["decline", "worsen"],
+      "antonyms": ["improve"],
+      "collocations": [
+        "deteriorate rapidly",
+        "deteriorate over time",
+        "condition deteriorate",
+        "deteriorate further",
+        "weather deteriorate"
+      ],
+      "etymology_hint": "From Latin 'deteriorare' meaning 'to make worse' — from 'deterior' (worse).",
+      "mnemonic_vi": "DETERIORATE = DE + TERIOR → 'xuống cấp'. Health deteriorate = sức khỏe xấu đi."
+    },
+    {
+      "word": "maintain",
+      "lemma": "maintain",
+      "ipa": "/meɪnˈteɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to keep something in the same condition; to continue doing",
+          "meaning_vi": "duy trì, bảo dưỡng",
+          "examples": [
+            {
+              "en": "Maintain a healthy diet to stay fit.",
+              "vi": "Duy trì chế độ ăn lành để giữ sức."
+            },
+            {
+              "en": "We need to maintain the motorbike regularly.",
+              "vi": "Cần bảo dưỡng xe máy thường xuyên."
+            },
+            {
+              "en": "Maintain eye contact during interviews.",
+              "vi": "Duy trì giao tiếp mắt khi phỏng vấn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["preserve", "uphold"],
+      "antonyms": ["abandon", "neglect"],
+      "collocations": [
+        "maintain a relationship",
+        "maintain a balance",
+        "maintain quality",
+        "maintain order",
+        "maintain a vehicle"
+      ],
+      "etymology_hint": "From Latin 'manu tenere' meaning 'to hold in the hand' — original sense of physically maintaining.",
+      "mnemonic_vi": "MAINTAIN = MAIN + TAIN → 'giữ chính'. Maintain a relationship = giữ quan hệ."
+    },
+    {
+      "word": "preserve",
+      "lemma": "preserve",
+      "ipa": "/prɪˈzɜːv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to keep something the same or prevent it from being damaged",
+          "meaning_vi": "bảo tồn, giữ gìn",
+          "examples": [
+            {
+              "en": "Preserve Vietnamese culture for the next generation.",
+              "vi": "Bảo tồn văn hóa Việt cho thế hệ sau."
+            },
+            {
+              "en": "Ancient temples in Hà Nội must be preserved.",
+              "vi": "Đền cổ ở Hà Nội phải được bảo tồn."
+            },
+            {
+              "en": "Dried fruits are preserved with sugar.",
+              "vi": "Trái cây khô được bảo quản bằng đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["protect", "save"],
+      "antonyms": ["destroy"],
+      "collocations": [
+        "preserve culture",
+        "preserve nature",
+        "preserve a tradition",
+        "preserve in salt",
+        "carefully preserve"
+      ],
+      "etymology_hint": "From Latin 'praeservare' meaning 'to guard beforehand' — from 'prae-' (before) + 'servare' (to keep).",
+      "mnemonic_vi": "PRESERVE = PRE + SERVE → 'phục vụ trước'. Preserve = giữ gìn từ trước."
+    },
+    {
+      "word": "sustain",
+      "lemma": "sustain",
+      "ipa": "/səˈsteɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to keep something going at the same level over time",
+          "meaning_vi": "duy trì lâu dài, chịu đựng",
+          "examples": [
+            {
+              "en": "Vietnam aims to sustain economic growth.",
+              "vi": "Việt Nam mục tiêu duy trì tăng trưởng kinh tế."
+            },
+            {
+              "en": "Can we sustain this fast pace?",
+              "vi": "Chúng ta duy trì được nhịp nhanh này không?"
+            },
+            {
+              "en": "The plant sustains us with food.",
+              "vi": "Cây cung cấp duy trì thức ăn cho ta."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["maintain", "support"],
+      "antonyms": [],
+      "collocations": [
+        "sustain growth",
+        "sustainable development",
+        "sustain life",
+        "hard to sustain",
+        "sustain interest"
+      ],
+      "etymology_hint": "From Latin 'sustinere' meaning 'to hold up' — from 'sus-' (under) + 'tenere' (to hold).",
+      "mnemonic_vi": "SUSTAIN = SUS + TAIN → 'giữ dưới'. Sustainable = duy trì lâu dài."
+    },
+    {
+      "word": "innovate",
+      "lemma": "innovate",
+      "ipa": "/ˈɪnəveɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to introduce new ideas or methods",
+          "meaning_vi": "đổi mới, sáng tạo (cách mới)",
+          "examples": [
+            {
+              "en": "Vingroup innovates in many sectors from cars to retail.",
+              "vi": "Vingroup đổi mới ở nhiều ngành từ xe đến bán lẻ."
+            },
+            {
+              "en": "Successful businesses constantly innovate.",
+              "vi": "Doanh nghiệp thành công liên tục đổi mới."
+            },
+            {
+              "en": "We need to innovate to stay competitive.",
+              "vi": "Chúng ta cần đổi mới để cạnh tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["create", "pioneer"],
+      "antonyms": [],
+      "collocations": [
+        "innovate constantly",
+        "innovate in",
+        "encourage innovation",
+        "fail to innovate",
+        "ability to innovate"
+      ],
+      "etymology_hint": "From Latin 'innovare' meaning 'to renew' — from 'in-' (into) + 'novus' (new).",
+      "mnemonic_vi": "INNOVATE = IN + NOVATE → 'làm mới'. Đổi mới sáng tạo."
+    }
+  ]
+}

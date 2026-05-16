@@ -1,0 +1,763 @@
+{
+  "slug": "decision-making",
+  "name": "Decision Making",
+  "description": "Ra quyết định B1 — decision, select, hesitate, compromise, approve và 15 từ về quá trình quyết định.",
+  "order_index": 8,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "decision",
+      "lemma": "decision",
+      "ipa": "/dɪˈsɪʒn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a choice you make after thinking about something",
+          "meaning_vi": "quyết định",
+          "examples": [
+            {
+              "en": "Make a quick decision — the meeting starts soon.",
+              "vi": "Quyết định nhanh — cuộc họp sắp bắt đầu."
+            },
+            {
+              "en": "It was a difficult decision to leave my job.",
+              "vi": "Đó là quyết định khó để bỏ việc."
+            },
+            {
+              "en": "The CEO's decision affected 1,000 employees.",
+              "vi": "Quyết định của CEO ảnh hưởng 1.000 nhân viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["choice", "verdict"],
+      "antonyms": [],
+      "collocations": [
+        "make a decision",
+        "tough decision",
+        "final decision",
+        "important decision",
+        "wise decision"
+      ],
+      "etymology_hint": "From Latin 'decisio' meaning 'a cutting off' — from 'decidere' (to cut off, decide).",
+      "mnemonic_vi": "DECISION = DECIDE + ION → 'sự cắt đứt'. Make a decision = ra quyết định."
+    },
+    {
+      "word": "select",
+      "lemma": "select",
+      "ipa": "/sɪˈlekt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to choose something or someone from a group",
+          "meaning_vi": "chọn (cẩn thận)",
+          "examples": [
+            {
+              "en": "Select the size before checkout.",
+              "vi": "Chọn size trước khi thanh toán."
+            },
+            {
+              "en": "Coach selected 11 players for the match.",
+              "vi": "HLV chọn 11 cầu thủ cho trận đấu."
+            },
+            {
+              "en": "Vietnamese tea is carefully selected by hand.",
+              "vi": "Trà Việt được chọn kỹ bằng tay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["choose", "pick"],
+      "antonyms": [],
+      "collocations": [
+        "carefully select",
+        "select from",
+        "randomly select",
+        "select a candidate",
+        "select an option"
+      ],
+      "etymology_hint": "From Latin 'selectus' meaning 'chosen' — from 'se-' (apart) + 'legere' (to choose).",
+      "mnemonic_vi": "SELECT = SE + LECT → 'chọn ra'. Select option = chọn lựa chọn."
+    },
+    {
+      "word": "determine",
+      "lemma": "determine",
+      "ipa": "/dɪˈtɜːmɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to decide something firmly; or to find out exactly",
+          "meaning_vi": "xác định, quyết định chắc chắn",
+          "examples": [
+            {
+              "en": "Test results will determine your level.",
+              "vi": "Kết quả test sẽ xác định trình độ bạn."
+            },
+            {
+              "en": "She determined to learn English in 6 months.",
+              "vi": "Cô ấy quyết tâm học tiếng Anh trong 6 tháng."
+            },
+            {
+              "en": "We need to determine the cause of the problem.",
+              "vi": "Chúng ta cần xác định nguyên nhân vấn đề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["establish", "decide"],
+      "antonyms": [],
+      "collocations": [
+        "determine the cause",
+        "determine to",
+        "ultimately determine",
+        "determine your future",
+        "scientifically determine"
+      ],
+      "etymology_hint": "From Latin 'determinare' meaning 'to mark off, fix the limits' — from 'de-' (off) + 'terminare' (to limit).",
+      "mnemonic_vi": "DETERMINE = DE + TERMINE → 'cắt ranh giới'. Xác định ranh giới."
+    },
+    {
+      "word": "hesitate",
+      "lemma": "hesitate",
+      "ipa": "/ˈhezɪteɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to pause before doing something because you're not sure",
+          "meaning_vi": "do dự, ngần ngại",
+          "examples": [
+            {
+              "en": "Don't hesitate to ask if you need help.",
+              "vi": "Đừng ngần ngại hỏi nếu cần giúp."
+            },
+            {
+              "en": "She hesitated before answering the difficult question.",
+              "vi": "Cô ấy ngập ngừng trước khi trả lời câu khó."
+            },
+            {
+              "en": "He hesitated to leave his old company.",
+              "vi": "Anh ấy do dự để rời công ty cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pause", "waver"],
+      "antonyms": [],
+      "collocations": [
+        "hesitate to",
+        "don't hesitate",
+        "briefly hesitate",
+        "hesitate before",
+        "without hesitation"
+      ],
+      "etymology_hint": "From Latin 'haesitare' meaning 'to stick, hold back' — from 'haerere' (to stick).",
+      "mnemonic_vi": "HESITATE = HESI + TATE → 'mắc kẹt'. Hesitate = do dự, đứng lại."
+    },
+    {
+      "word": "consult",
+      "lemma": "consult",
+      "ipa": "/kənˈsʌlt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to ask someone for advice or information before deciding",
+          "meaning_vi": "tham khảo, hội ý",
+          "examples": [
+            {
+              "en": "Consult a doctor before taking medicine.",
+              "vi": "Tham khảo bác sĩ trước khi uống thuốc."
+            },
+            {
+              "en": "I consulted my parents about my career choice.",
+              "vi": "Tôi hỏi ý kiến bố mẹ về lựa chọn nghề."
+            },
+            {
+              "en": "Always consult the manual first.",
+              "vi": "Luôn tham khảo sách hướng dẫn trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["confer", "ask"],
+      "antonyms": [],
+      "collocations": [
+        "consult a doctor",
+        "consult an expert",
+        "consult with",
+        "consult a lawyer",
+        "consult before"
+      ],
+      "etymology_hint": "From Latin 'consultare' meaning 'to take counsel' — from 'consulere' (to ask advice).",
+      "mnemonic_vi": "CONSULT = CON + SULT → 'cùng hỏi ý'. Consult a doctor = tham khảo bác sĩ."
+    },
+    {
+      "word": "advise",
+      "lemma": "advise",
+      "ipa": "/ədˈvaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to tell someone what you think they should do",
+          "meaning_vi": "khuyên",
+          "examples": [
+            {
+              "en": "I advise you to study harder.",
+              "vi": "Tôi khuyên bạn nên học chăm hơn."
+            },
+            {
+              "en": "Doctors advise drinking 2 liters of water daily.",
+              "vi": "Bác sĩ khuyên uống 2 lít nước mỗi ngày."
+            },
+            {
+              "en": "She advised against buying a used motorbike.",
+              "vi": "Cô ấy khuyên không nên mua xe máy cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recommend", "counsel"],
+      "antonyms": [],
+      "collocations": [
+        "advise someone to",
+        "strongly advise",
+        "advise against",
+        "professionally advise",
+        "well-advised"
+      ],
+      "etymology_hint": "From Old French 'aviser' meaning 'to see, consider' — from Latin 'ad-' (to) + 'visus' (sight).",
+      "mnemonic_vi": "ADVISE = AD + VISE → 'nhìn cho'. Advise to do = khuyên làm gì."
+    },
+    {
+      "word": "prefer",
+      "lemma": "prefer",
+      "ipa": "/prɪˈfɜː(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to like something more than another thing",
+          "meaning_vi": "thích hơn, ưa hơn",
+          "examples": [
+            {
+              "en": "I prefer phở to bún chả.",
+              "vi": "Tôi thích phở hơn bún chả."
+            },
+            {
+              "en": "She prefers reading to watching TV.",
+              "vi": "Cô ấy thích đọc hơn xem TV."
+            },
+            {
+              "en": "Most students prefer online classes nowadays.",
+              "vi": "Hầu hết sinh viên thích lớp online ngày nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["favor", "like better"],
+      "antonyms": ["dislike"],
+      "collocations": [
+        "prefer to",
+        "prefer over",
+        "strongly prefer",
+        "would prefer",
+        "prefer doing"
+      ],
+      "etymology_hint": "From Latin 'praeferre' meaning 'to put before' — from 'prae-' (before) + 'ferre' (to bear).",
+      "mnemonic_vi": "PREFER = PRE + FER → 'đặt trước'. Prefer A to B = thích A hơn B."
+    },
+    {
+      "word": "option",
+      "lemma": "option",
+      "ipa": "/ˈɒpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a thing that you can choose",
+          "meaning_vi": "lựa chọn, phương án",
+          "examples": [
+            {
+              "en": "You have 3 options for dinner: phở, bún, or cơm.",
+              "vi": "Bạn có 3 lựa chọn bữa tối: phở, bún, cơm."
+            },
+            {
+              "en": "Online learning is a great option.",
+              "vi": "Học online là lựa chọn tuyệt vời."
+            },
+            {
+              "en": "There's no other option but to wait.",
+              "vi": "Không còn lựa chọn nào khác ngoài chờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["choice", "alternative"],
+      "antonyms": [],
+      "collocations": [
+        "best option",
+        "no option",
+        "available option",
+        "another option",
+        "consider options"
+      ],
+      "etymology_hint": "From Latin 'optio' meaning 'choice' — from 'optare' (to choose, wish).",
+      "mnemonic_vi": "OPTION = OPT + ION → 'sự chọn lựa'. Best option = lựa chọn tốt nhất."
+    },
+    {
+      "word": "alternative",
+      "lemma": "alternative",
+      "ipa": "/ɔːlˈtɜːnətɪv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "another choice that can be used instead",
+          "meaning_vi": "phương án thay thế",
+          "examples": [
+            {
+              "en": "Solar power is an alternative to fossil fuel.",
+              "vi": "Năng lượng mặt trời là phương án thay thế nhiên liệu hóa thạch."
+            },
+            {
+              "en": "There's no alternative — we must accept.",
+              "vi": "Không có cách khác — phải chấp nhận."
+            },
+            {
+              "en": "Healthy alternatives to fried food include grilled.",
+              "vi": "Thay thế lành cho đồ chiên có món nướng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["option", "substitute"],
+      "antonyms": [],
+      "collocations": [
+        "viable alternative",
+        "no alternative",
+        "alternative to",
+        "healthy alternative",
+        "look for an alternative"
+      ],
+      "etymology_hint": "From Latin 'alternativus' meaning 'every other' — from 'alternare' (to do by turns).",
+      "mnemonic_vi": "ALTERNATIVE = ALTERN + ATIVE → 'cách khác'. Alternative = phương án B."
+    },
+    {
+      "word": "weigh",
+      "lemma": "weigh",
+      "ipa": "/weɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to think carefully about the pros and cons before deciding",
+          "meaning_vi": "cân nhắc (lợi/hại)",
+          "examples": [
+            {
+              "en": "Weigh the pros and cons before deciding.",
+              "vi": "Cân nhắc lợi và hại trước khi quyết định."
+            },
+            {
+              "en": "She weighed her options carefully.",
+              "vi": "Cô ấy cân nhắc các lựa chọn kỹ lưỡng."
+            },
+            {
+              "en": "Weigh the cost against the benefit.",
+              "vi": "Cân nhắc chi phí so với lợi ích."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consider", "evaluate"],
+      "antonyms": [],
+      "collocations": [
+        "weigh up",
+        "weigh the pros and cons",
+        "weigh your options",
+        "carefully weigh",
+        "weigh the cost"
+      ],
+      "etymology_hint": "From Old English 'wegan' meaning 'to bear, carry, weigh' — same Germanic root as 'weight'.",
+      "mnemonic_vi": "WEIGH = 'wê' — 'oai' đặt lên cân. Weigh = cân nhắc."
+    },
+    {
+      "word": "risk",
+      "lemma": "risk",
+      "ipa": "/rɪsk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the possibility of something bad happening",
+          "meaning_vi": "rủi ro, nguy cơ",
+          "examples": [
+            {
+              "en": "Starting a business has its risks.",
+              "vi": "Khởi nghiệp có rủi ro."
+            },
+            {
+              "en": "Smoking increases the risk of cancer.",
+              "vi": "Hút thuốc tăng nguy cơ ung thư."
+            },
+            {
+              "en": "She took a big risk by moving abroad.",
+              "vi": "Cô ấy mạo hiểm lớn khi chuyển ra nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["danger", "hazard"],
+      "antonyms": ["safety"],
+      "collocations": ["take a risk", "high risk", "risk factor", "at risk", "calculated risk"],
+      "etymology_hint": "From French 'risque' meaning 'risk, danger' — Italian 'risco' from sailors' vocabulary of dangers at sea.",
+      "mnemonic_vi": "RISK = 'rít-sk' — 'rít skịt' nguy hiểm. Take a risk = chịu rủi ro."
+    },
+    {
+      "word": "priority",
+      "lemma": "priority",
+      "ipa": "/praɪˈɒrəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something that is most important and should be done first",
+          "meaning_vi": "ưu tiên, việc quan trọng nhất",
+          "examples": [
+            {
+              "en": "Family is my top priority.",
+              "vi": "Gia đình là ưu tiên hàng đầu của tôi."
+            },
+            {
+              "en": "Set your priorities for the week.",
+              "vi": "Đặt ưu tiên cho tuần."
+            },
+            {
+              "en": "Education is a national priority.",
+              "vi": "Giáo dục là ưu tiên quốc gia."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["importance"],
+      "antonyms": [],
+      "collocations": [
+        "top priority",
+        "set priorities",
+        "high priority",
+        "first priority",
+        "priority list"
+      ],
+      "etymology_hint": "From Latin 'prioritas' meaning 'precedence' — from 'prior' (former, previous).",
+      "mnemonic_vi": "PRIORITY = PRIOR + ITY → 'sự đặt trước'. Top priority = ưu tiên hàng đầu."
+    },
+    {
+      "word": "conclusion",
+      "lemma": "conclusion",
+      "ipa": "/kənˈkluːʒn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an opinion or decision after thinking about something carefully",
+          "meaning_vi": "kết luận",
+          "examples": [
+            {
+              "en": "What's your conclusion after this experiment?",
+              "vi": "Kết luận của bạn sau thí nghiệm là gì?"
+            },
+            {
+              "en": "In conclusion, we should invest in education.",
+              "vi": "Tóm lại, ta nên đầu tư vào giáo dục."
+            },
+            {
+              "en": "Don't jump to conclusions without evidence.",
+              "vi": "Đừng vội kết luận khi không có bằng chứng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finding", "end"],
+      "antonyms": ["beginning"],
+      "collocations": [
+        "draw a conclusion",
+        "in conclusion",
+        "reach a conclusion",
+        "jump to conclusions",
+        "logical conclusion"
+      ],
+      "etymology_hint": "From Latin 'conclusio' meaning 'a close, ending' — from 'concludere' (to close, end).",
+      "mnemonic_vi": "CONCLUSION = CONCLUSE + ION → 'sự kết'. In conclusion = tóm lại."
+    },
+    {
+      "word": "compromise",
+      "lemma": "compromise",
+      "ipa": "/ˈkɒmprəmaɪz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an agreement where each side gives up something to settle a dispute",
+          "meaning_vi": "sự thỏa hiệp",
+          "examples": [
+            {
+              "en": "Marriage requires compromise from both sides.",
+              "vi": "Hôn nhân cần thỏa hiệp từ cả hai phía."
+            },
+            {
+              "en": "We reached a compromise on the budget.",
+              "vi": "Chúng tôi đạt thỏa hiệp về ngân sách."
+            },
+            {
+              "en": "Don't compromise on quality.",
+              "vi": "Đừng thỏa hiệp về chất lượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agreement", "middle ground"],
+      "antonyms": [],
+      "collocations": [
+        "reach a compromise",
+        "find a compromise",
+        "no compromise",
+        "fair compromise",
+        "willing to compromise"
+      ],
+      "etymology_hint": "From Latin 'compromissum' meaning 'mutual promise' — from 'com-' (together) + 'promissum' (promise).",
+      "mnemonic_vi": "COMPROMISE = COM + PROMISE → 'cùng hứa'. Compromise = thỏa hiệp."
+    },
+    {
+      "word": "approve",
+      "lemma": "approve",
+      "ipa": "/əˈpruːv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to officially agree to something or say it is good",
+          "meaning_vi": "phê duyệt, chấp thuận",
+          "examples": [
+            {
+              "en": "The boss approved my leave request.",
+              "vi": "Sếp đã duyệt đơn nghỉ phép của tôi."
+            },
+            {
+              "en": "Parents don't approve of his new girlfriend.",
+              "vi": "Phụ huynh không chấp thuận bạn gái mới của anh."
+            },
+            {
+              "en": "FDA approves new medicines after tests.",
+              "vi": "FDA phê duyệt thuốc mới sau khi thử nghiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agree", "sanction"],
+      "antonyms": ["reject"],
+      "collocations": [
+        "approve of",
+        "officially approve",
+        "approve a plan",
+        "approve a request",
+        "fully approve"
+      ],
+      "etymology_hint": "From Latin 'approbare' meaning 'to assent to as good' — from 'ad-' (to) + 'probare' (to test, prove).",
+      "mnemonic_vi": "APPROVE = AP + PROVE → 'chứng nhận tới'. Approve = duyệt."
+    },
+    {
+      "word": "reject",
+      "lemma": "reject",
+      "ipa": "/rɪˈdʒekt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to refuse to accept something or someone",
+          "meaning_vi": "từ chối, bác bỏ",
+          "examples": [
+            {
+              "en": "The committee rejected the proposal.",
+              "vi": "Hội đồng bác đề xuất."
+            },
+            {
+              "en": "She rejected his marriage proposal.",
+              "vi": "Cô ấy từ chối lời cầu hôn."
+            },
+            {
+              "en": "Don't reject opportunities too quickly.",
+              "vi": "Đừng từ chối cơ hội quá nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refuse", "decline"],
+      "antonyms": ["accept", "approve"],
+      "collocations": [
+        "reject an offer",
+        "outright reject",
+        "reject a proposal",
+        "completely reject",
+        "reject the idea"
+      ],
+      "etymology_hint": "From Latin 'reicere' meaning 'to throw back' — from 're-' (back) + 'iacere' (to throw).",
+      "mnemonic_vi": "REJECT = RE + JECT → 'ném lại'. Reject = bác bỏ."
+    },
+    {
+      "word": "postpone",
+      "lemma": "postpone",
+      "ipa": "/pəʊstˈpəʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change something to a later time",
+          "meaning_vi": "hoãn lại, dời",
+          "examples": [
+            {
+              "en": "We postponed the wedding due to COVID.",
+              "vi": "Chúng tôi hoãn đám cưới vì COVID."
+            },
+            {
+              "en": "The meeting is postponed to next week.",
+              "vi": "Cuộc họp dời sang tuần sau."
+            },
+            {
+              "en": "Don't postpone what you can do today.",
+              "vi": "Đừng hoãn việc có thể làm hôm nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["delay", "put off"],
+      "antonyms": ["advance"],
+      "collocations": [
+        "postpone a meeting",
+        "indefinitely postpone",
+        "postpone a decision",
+        "postpone until",
+        "have to postpone"
+      ],
+      "etymology_hint": "From Latin 'postponere' meaning 'to put after' — from 'post-' (after) + 'ponere' (to put).",
+      "mnemonic_vi": "POSTPONE = POST + PONE → 'đặt sau'. Postpone = hoãn lại sau."
+    },
+    {
+      "word": "prioritize",
+      "lemma": "prioritize",
+      "ipa": "/praɪˈɒrətaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to put tasks or things in order of importance",
+          "meaning_vi": "ưu tiên (xếp thứ tự)",
+          "examples": [
+            {
+              "en": "Prioritize tasks so you finish on time.",
+              "vi": "Ưu tiên công việc để xong đúng hạn."
+            },
+            {
+              "en": "Vietnam prioritizes education and healthcare.",
+              "vi": "Việt Nam ưu tiên giáo dục và y tế."
+            },
+            {
+              "en": "Always prioritize family over work.",
+              "vi": "Luôn ưu tiên gia đình hơn công việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rank"],
+      "antonyms": [],
+      "collocations": [
+        "prioritize tasks",
+        "prioritize health",
+        "carefully prioritize",
+        "prioritize family",
+        "prioritize properly"
+      ],
+      "etymology_hint": "From 'priority' + '-ize' (make) — coined in 20th century with rise of project management.",
+      "mnemonic_vi": "PRIORITIZE = PRIORITY + IZE → 'làm ưu tiên'. Prioritize tasks = xếp việc theo ưu tiên."
+    },
+    {
+      "word": "veto",
+      "lemma": "veto",
+      "ipa": "/ˈviːtəʊ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to officially refuse to allow something to happen",
+          "meaning_vi": "phủ quyết",
+          "examples": [
+            {
+              "en": "The president vetoed the new tax law.",
+              "vi": "Tổng thống phủ quyết luật thuế mới."
+            },
+            {
+              "en": "My wife vetoed buying another motorbike.",
+              "vi": "Vợ tôi phủ quyết việc mua thêm xe máy."
+            },
+            {
+              "en": "The UN has veto power.",
+              "vi": "Liên Hợp Quốc có quyền phủ quyết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reject", "ban"],
+      "antonyms": ["approve"],
+      "collocations": [
+        "veto a bill",
+        "veto power",
+        "exercise veto",
+        "presidential veto",
+        "right to veto"
+      ],
+      "etymology_hint": "Latin meaning 'I forbid' — used by Roman tribunes; modern political sense from 18th century.",
+      "mnemonic_vi": "VETO = 'vi-tô' — Latin 'tôi cấm'. Veto power = quyền phủ quyết."
+    },
+    {
+      "word": "finalize",
+      "lemma": "finalize",
+      "ipa": "/ˈfaɪnəlaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to complete the last parts of a decision or plan",
+          "meaning_vi": "hoàn tất, chốt cuối",
+          "examples": [
+            {
+              "en": "Finalize the contract by Friday.",
+              "vi": "Chốt hợp đồng trước thứ Sáu."
+            },
+            {
+              "en": "We finalized the wedding plans last night.",
+              "vi": "Chúng tôi chốt kế hoạch cưới tối qua."
+            },
+            {
+              "en": "Finalize the design before printing.",
+              "vi": "Hoàn tất thiết kế trước khi in."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complete", "wrap up"],
+      "antonyms": [],
+      "collocations": [
+        "finalize a deal",
+        "finalize plans",
+        "finalize the design",
+        "finalize details",
+        "almost finalize"
+      ],
+      "etymology_hint": "From 'final' + '-ize' (make) — coined in 20th century, particularly American business usage.",
+      "mnemonic_vi": "FINALIZE = FINAL + IZE → 'làm cho cuối cùng'. Finalize = chốt cuối."
+    }
+  ]
+}

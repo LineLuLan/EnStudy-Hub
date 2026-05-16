@@ -1,0 +1,769 @@
+{
+  "slug": "social-issues",
+  "name": "Social Issues",
+  "description": "Vấn đề xã hội B1 — poverty, inequality, discrimination, volunteer và 16 từ về vấn đề + giải pháp xã hội.",
+  "order_index": 4,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "poverty",
+      "lemma": "poverty",
+      "ipa": "/ˈpɒvəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of being very poor",
+          "meaning_vi": "sự nghèo đói",
+          "examples": [
+            {
+              "en": "Vietnam has reduced poverty significantly since 1990.",
+              "vi": "Việt Nam đã giảm nghèo đáng kể từ 1990."
+            },
+            {
+              "en": "Education helps families escape poverty.",
+              "vi": "Giáo dục giúp gia đình thoát nghèo."
+            },
+            {
+              "en": "Many ethnic minorities live in poverty.",
+              "vi": "Nhiều dân tộc thiểu số sống trong nghèo đói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["want", "destitution"],
+      "antonyms": ["wealth"],
+      "collocations": [
+        "live in poverty",
+        "fight poverty",
+        "extreme poverty",
+        "reduce poverty",
+        "poverty line"
+      ],
+      "etymology_hint": "From Old French 'poverté' meaning 'poor condition' — from Latin 'pauper' (poor).",
+      "mnemonic_vi": "POVERTY = POVER + TY → 'sự nghèo'. Live in poverty = sống trong nghèo đói."
+    },
+    {
+      "word": "inequality",
+      "lemma": "inequality",
+      "ipa": "/ˌɪnɪˈkwɒləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an unfair difference between people, especially in income or opportunity",
+          "meaning_vi": "sự bất bình đẳng",
+          "examples": [
+            {
+              "en": "Income inequality is growing in many countries.",
+              "vi": "Bất bình đẳng thu nhập đang tăng ở nhiều nước."
+            },
+            {
+              "en": "Education reduces social inequality.",
+              "vi": "Giáo dục giảm bất bình đẳng xã hội."
+            },
+            {
+              "en": "Gender inequality still exists at workplaces.",
+              "vi": "Bất bình đẳng giới vẫn còn ở nơi làm việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unfairness", "disparity"],
+      "antonyms": ["equality"],
+      "collocations": [
+        "social inequality",
+        "income inequality",
+        "gender inequality",
+        "reduce inequality",
+        "racial inequality"
+      ],
+      "etymology_hint": "From Latin 'inaequalitas' — from 'in-' (not) + 'aequalis' (equal).",
+      "mnemonic_vi": "INEQUALITY = IN + EQUALITY → 'không bình đẳng'. Income inequality = bất bình đẳng thu nhập."
+    },
+    {
+      "word": "equality",
+      "lemma": "equality",
+      "ipa": "/iˈkwɒləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of being equal, with the same rights and opportunities",
+          "meaning_vi": "sự bình đẳng",
+          "examples": [
+            {
+              "en": "We must fight for gender equality.",
+              "vi": "Chúng ta phải đấu tranh cho bình đẳng giới."
+            },
+            {
+              "en": "Equality before the law is a basic right.",
+              "vi": "Bình đẳng trước pháp luật là quyền cơ bản."
+            },
+            {
+              "en": "True equality requires effort from everyone.",
+              "vi": "Bình đẳng thực sự cần nỗ lực từ mọi người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fairness", "parity"],
+      "antonyms": ["inequality"],
+      "collocations": [
+        "gender equality",
+        "racial equality",
+        "fight for equality",
+        "equality of opportunity",
+        "true equality"
+      ],
+      "etymology_hint": "From Latin 'aequalitas' meaning 'sameness' — from 'aequalis' (equal).",
+      "mnemonic_vi": "EQUALITY = EQUAL + ITY → 'sự ngang bằng'. Gender equality = bình đẳng giới."
+    },
+    {
+      "word": "class",
+      "lemma": "class",
+      "ipa": "/klɑːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a social group based on wealth, education, or job",
+          "meaning_vi": "tầng lớp (xã hội)",
+          "examples": [
+            {
+              "en": "Vietnam has a growing middle class.",
+              "vi": "Việt Nam có tầng lớp trung lưu đang phát triển."
+            },
+            {
+              "en": "Working class people deserve respect.",
+              "vi": "Tầng lớp lao động xứng đáng được tôn trọng."
+            },
+            {
+              "en": "Class differences affect education access.",
+              "vi": "Khác biệt tầng lớp ảnh hưởng tiếp cận giáo dục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["group", "stratum"],
+      "antonyms": [],
+      "collocations": [
+        "middle class",
+        "working class",
+        "upper class",
+        "social class",
+        "class system"
+      ],
+      "etymology_hint": "From Latin 'classis' meaning 'a division' — original Roman sense of citizen divisions for military service.",
+      "mnemonic_vi": "CLASS = 'clás' — 'class' nhóm trong xã hội. Middle class = trung lưu."
+    },
+    {
+      "word": "protest",
+      "lemma": "protest",
+      "ipa": "/prəˈtest/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show that you strongly disagree with something, often in public",
+          "meaning_vi": "biểu tình, phản đối",
+          "examples": [
+            {
+              "en": "Students protested against rising tuition.",
+              "vi": "Sinh viên biểu tình phản đối tăng học phí."
+            },
+            {
+              "en": "Workers protested for higher wages.",
+              "vi": "Công nhân biểu tình đòi tăng lương."
+            },
+            {
+              "en": "Don't just protest — propose solutions.",
+              "vi": "Đừng chỉ phản đối — hãy đề xuất giải pháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["object", "demonstrate"],
+      "antonyms": ["agree", "support"],
+      "collocations": [
+        "protest against",
+        "peaceful protest",
+        "join a protest",
+        "loud protest",
+        "in protest"
+      ],
+      "etymology_hint": "From Latin 'protestari' meaning 'to declare publicly' — from 'pro-' (forth) + 'testari' (to bear witness).",
+      "mnemonic_vi": "PROTEST = PRO + TEST → 'làm chứng công khai'. Protest = biểu tình."
+    },
+    {
+      "word": "movement",
+      "lemma": "movement",
+      "ipa": "/ˈmuːvmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a group of people working together for a social or political goal",
+          "meaning_vi": "phong trào (xã hội, chính trị)",
+          "examples": [
+            {
+              "en": "The environmental movement is growing globally.",
+              "vi": "Phong trào môi trường đang phát triển toàn cầu."
+            },
+            {
+              "en": "Vietnam's literacy movement reduced illiteracy.",
+              "vi": "Phong trào xóa mù chữ Việt Nam đã giảm mù chữ."
+            },
+            {
+              "en": "Join the #MeToo movement to support victims.",
+              "vi": "Tham gia phong trào #MeToo để ủng hộ nạn nhân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["campaign"],
+      "antonyms": [],
+      "collocations": [
+        "social movement",
+        "political movement",
+        "join a movement",
+        "civil rights movement",
+        "start a movement"
+      ],
+      "etymology_hint": "From Old French 'movement' meaning 'a move' — sense of 'organized social effort' developed in 18th century.",
+      "mnemonic_vi": "MOVEMENT = MOVE + MENT → 'sự vận động'. Social movement = phong trào xã hội."
+    },
+    {
+      "word": "welfare",
+      "lemma": "welfare",
+      "ipa": "/ˈwelfeə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the health, happiness, and safety of people; or government help for the poor",
+          "meaning_vi": "phúc lợi, an sinh xã hội",
+          "examples": [
+            {
+              "en": "The government cares about child welfare.",
+              "vi": "Chính phủ quan tâm phúc lợi trẻ em."
+            },
+            {
+              "en": "Animal welfare laws protect pets in Việt Nam.",
+              "vi": "Luật phúc lợi động vật bảo vệ thú cưng ở Việt Nam."
+            },
+            {
+              "en": "Welfare programs help low-income families.",
+              "vi": "Chương trình phúc lợi giúp gia đình thu nhập thấp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["well-being"],
+      "antonyms": [],
+      "collocations": [
+        "child welfare",
+        "animal welfare",
+        "social welfare",
+        "welfare state",
+        "welfare check"
+      ],
+      "etymology_hint": "Compound of 'well' + 'fare' (journey, condition) — original sense of 'going well, faring well'.",
+      "mnemonic_vi": "WELFARE = WELL + FARE → 'điều kiện tốt'. Phúc lợi = welfare."
+    },
+    {
+      "word": "gender",
+      "lemma": "gender",
+      "ipa": "/ˈdʒendə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of being male or female (and other identities)",
+          "meaning_vi": "giới tính",
+          "examples": [
+            {
+              "en": "Gender shouldn't affect job opportunities.",
+              "vi": "Giới tính không nên ảnh hưởng cơ hội việc làm."
+            },
+            {
+              "en": "Vietnam ranks high on gender equality.",
+              "vi": "Việt Nam xếp cao về bình đẳng giới."
+            },
+            {
+              "en": "She studies gender issues in Asian cultures.",
+              "vi": "Cô ấy nghiên cứu vấn đề giới trong văn hóa Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sex"],
+      "antonyms": [],
+      "collocations": [
+        "gender equality",
+        "gender gap",
+        "gender role",
+        "gender identity",
+        "regardless of gender"
+      ],
+      "etymology_hint": "From Latin 'genus' meaning 'kind, sort' — original grammatical sense (masculine/feminine) extended to people.",
+      "mnemonic_vi": "GENDER = 'gen-đơ' — 'gien' nam-nữ. Gender equality = bình đẳng giới."
+    },
+    {
+      "word": "discrimination",
+      "lemma": "discrimination",
+      "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "treating people unfairly because of race, gender, age, or other factors",
+          "meaning_vi": "sự phân biệt đối xử",
+          "examples": [
+            {
+              "en": "Age discrimination is illegal in many countries.",
+              "vi": "Phân biệt tuổi là bất hợp pháp ở nhiều nước."
+            },
+            {
+              "en": "Fight discrimination in all forms.",
+              "vi": "Đấu tranh chống mọi hình thức phân biệt."
+            },
+            {
+              "en": "She faced discrimination as a woman in tech.",
+              "vi": "Cô ấy đối mặt phân biệt giới là phụ nữ trong tech."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prejudice", "bias"],
+      "antonyms": ["fairness"],
+      "collocations": [
+        "racial discrimination",
+        "gender discrimination",
+        "age discrimination",
+        "face discrimination",
+        "fight discrimination"
+      ],
+      "etymology_hint": "From Latin 'discriminare' meaning 'to separate, distinguish' — modern negative sense from 19th century US civil rights debates.",
+      "mnemonic_vi": "DISCRIMINATION = DIS + CRIMIN → 'phân chia có tội'. Phân biệt đối xử."
+    },
+    {
+      "word": "corruption",
+      "lemma": "corruption",
+      "ipa": "/kəˈrʌpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "dishonest behavior by people in power, especially involving bribes",
+          "meaning_vi": "tham nhũng",
+          "examples": [
+            {
+              "en": "Vietnam is fighting corruption seriously.",
+              "vi": "Việt Nam đang chống tham nhũng nghiêm túc."
+            },
+            {
+              "en": "Corruption hurts economic development.",
+              "vi": "Tham nhũng gây hại cho phát triển kinh tế."
+            },
+            {
+              "en": "Reduce corruption to improve trust in government.",
+              "vi": "Giảm tham nhũng để tăng niềm tin vào chính phủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dishonesty", "bribery"],
+      "antonyms": ["honesty"],
+      "collocations": [
+        "fight corruption",
+        "political corruption",
+        "expose corruption",
+        "corruption case",
+        "anti-corruption"
+      ],
+      "etymology_hint": "From Latin 'corruptio' meaning 'a breaking, decomposing' — from 'corrumpere' (to destroy, ruin).",
+      "mnemonic_vi": "CORRUPTION = CORRUPT + ION → 'sự hư hỏng'. Anti-corruption = chống tham nhũng."
+    },
+    {
+      "word": "charity",
+      "lemma": "charity",
+      "ipa": "/ˈtʃærəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an organization that helps people in need; or money given to help others",
+          "meaning_vi": "tổ chức từ thiện, lòng từ thiện",
+          "examples": [
+            {
+              "en": "Donate to charity during Tết.",
+              "vi": "Quyên góp cho từ thiện dịp Tết."
+            },
+            {
+              "en": "Red Cross is an international charity.",
+              "vi": "Chữ Thập Đỏ là tổ chức từ thiện quốc tế."
+            },
+            {
+              "en": "She works for a charity helping orphans.",
+              "vi": "Cô ấy làm cho tổ chức từ thiện giúp trẻ mồ côi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["donation", "philanthropy"],
+      "antonyms": [],
+      "collocations": [
+        "donate to charity",
+        "charity event",
+        "charity work",
+        "give to charity",
+        "registered charity"
+      ],
+      "etymology_hint": "From Latin 'caritas' meaning 'dearness, love' — Christian sense of 'love for others' broadened to help for poor.",
+      "mnemonic_vi": "CHARITY = 'cha-rí-ti' — 'cha rí' cho. Charity = lòng từ thiện."
+    },
+    {
+      "word": "diversity",
+      "lemma": "diversity",
+      "ipa": "/daɪˈvɜːsəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the existence of many different kinds of people or things",
+          "meaning_vi": "sự đa dạng",
+          "examples": [
+            {
+              "en": "Vietnam has cultural diversity with 54 ethnic groups.",
+              "vi": "Việt Nam đa dạng văn hóa với 54 dân tộc."
+            },
+            {
+              "en": "Diversity makes the workplace stronger.",
+              "vi": "Đa dạng làm nơi làm việc mạnh hơn."
+            },
+            {
+              "en": "Biodiversity is important for the planet.",
+              "vi": "Đa dạng sinh học quan trọng cho hành tinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["variety"],
+      "antonyms": ["uniformity"],
+      "collocations": [
+        "cultural diversity",
+        "biological diversity",
+        "promote diversity",
+        "great diversity",
+        "ethnic diversity"
+      ],
+      "etymology_hint": "From Latin 'diversitas' meaning 'difference, contradiction' — from 'diversus' (turned different ways).",
+      "mnemonic_vi": "DIVERSITY = DIVERS + ITY → 'sự khác biệt'. Diversity = đa dạng."
+    },
+    {
+      "word": "immigrant",
+      "lemma": "immigrant",
+      "ipa": "/ˈɪmɪɡrənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who comes to live in a new country",
+          "meaning_vi": "người nhập cư",
+          "examples": [
+            {
+              "en": "Many Vietnamese immigrants live in the US.",
+              "vi": "Nhiều người Việt nhập cư sống ở Mỹ."
+            },
+            {
+              "en": "Immigrants contribute a lot to society.",
+              "vi": "Người nhập cư đóng góp nhiều cho xã hội."
+            },
+            {
+              "en": "She came to Canada as an immigrant 10 years ago.",
+              "vi": "Cô ấy đến Canada làm người nhập cư 10 năm trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["newcomer"],
+      "antonyms": ["emigrant", "native"],
+      "collocations": [
+        "illegal immigrant",
+        "immigrant family",
+        "first-generation immigrant",
+        "immigrant rights",
+        "skilled immigrant"
+      ],
+      "etymology_hint": "From Latin 'immigrans' meaning 'one who moves into' — from 'in-' (in) + 'migrare' (to move).",
+      "mnemonic_vi": "IMMIGRANT = IM + MIGRANT → 'di cư vào'. Immigrant = người nhập cư."
+    },
+    {
+      "word": "refugee",
+      "lemma": "refugee",
+      "ipa": "/ˌrefjuˈdʒiː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person forced to leave their country because of war or danger",
+          "meaning_vi": "người tị nạn",
+          "examples": [
+            {
+              "en": "Many Vietnamese became refugees in the 1970s.",
+              "vi": "Nhiều người Việt thành người tị nạn thập kỷ 70."
+            },
+            {
+              "en": "Refugees need help building new lives.",
+              "vi": "Người tị nạn cần giúp đỡ xây cuộc sống mới."
+            },
+            {
+              "en": "UNHCR protects refugee rights.",
+              "vi": "UNHCR bảo vệ quyền người tị nạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["asylum seeker"],
+      "antonyms": [],
+      "collocations": [
+        "refugee camp",
+        "refugee crisis",
+        "war refugee",
+        "refugee status",
+        "help refugees"
+      ],
+      "etymology_hint": "From French 'réfugié' — past participle of 'réfugier' (to take refuge); coined in 17th century for French Protestants fleeing persecution.",
+      "mnemonic_vi": "REFUGEE = REFUGE + EE → 'người tìm nơi trú ẩn'. War refugee = tị nạn chiến tranh."
+    },
+    {
+      "word": "homeless",
+      "lemma": "homeless",
+      "ipa": "/ˈhəʊmləs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having no place to live",
+          "meaning_vi": "vô gia cư",
+          "examples": [
+            {
+              "en": "Floods left thousands homeless in the Mekong Delta.",
+              "vi": "Lũ làm hàng nghìn người vô gia cư ở đồng bằng Cửu Long."
+            },
+            {
+              "en": "Homeless people sleep in shelters during winter.",
+              "vi": "Người vô gia cư ngủ trong nơi trú đông."
+            },
+            {
+              "en": "She helps homeless children in Sài Gòn.",
+              "vi": "Cô ấy giúp trẻ em vô gia cư ở Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["destitute"],
+      "antonyms": [],
+      "collocations": [
+        "homeless people",
+        "homeless shelter",
+        "become homeless",
+        "help the homeless",
+        "homeless families"
+      ],
+      "etymology_hint": "Compound of 'home' + '-less' (without) — straightforward Middle English construction.",
+      "mnemonic_vi": "HOMELESS = HOME + LESS → 'không nhà'. Homeless people = người vô gia cư."
+    },
+    {
+      "word": "volunteer",
+      "lemma": "volunteer",
+      "ipa": "/ˌvɒlənˈtɪə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to offer to do something for free, especially to help others",
+          "meaning_vi": "tình nguyện",
+          "examples": [
+            {
+              "en": "She volunteers at an orphanage every Sunday.",
+              "vi": "Cô ấy tình nguyện ở trại mồ côi mỗi Chủ Nhật."
+            },
+            {
+              "en": "Volunteer for the SEA Games organizing team!",
+              "vi": "Tình nguyện cho đội tổ chức SEA Games!"
+            },
+            {
+              "en": "Many students volunteer during the summer.",
+              "vi": "Nhiều sinh viên tình nguyện trong hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["offer", "donate time"],
+      "antonyms": [],
+      "collocations": [
+        "volunteer at",
+        "volunteer for",
+        "volunteer work",
+        "long-term volunteer",
+        "willing volunteer"
+      ],
+      "etymology_hint": "From French 'voluntaire' meaning 'one who acts willingly' — from Latin 'voluntas' (free will).",
+      "mnemonic_vi": "VOLUNTEER = VOLUNT + EER → 'người tự nguyện'. Volunteer work = tình nguyện."
+    },
+    {
+      "word": "donate",
+      "lemma": "donate",
+      "ipa": "/dəʊˈneɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give something, especially money or goods, to help others",
+          "meaning_vi": "quyên góp, hiến tặng",
+          "examples": [
+            {
+              "en": "Please donate blood at the Red Cross center.",
+              "vi": "Vui lòng hiến máu ở trung tâm Chữ Thập Đỏ."
+            },
+            {
+              "en": "Vingroup donated 200 billion VND to flood victims.",
+              "vi": "Vingroup quyên 200 tỷ đồng cho nạn nhân lũ."
+            },
+            {
+              "en": "She donates her old clothes to charity.",
+              "vi": "Cô ấy quyên áo cũ cho từ thiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["give", "contribute"],
+      "antonyms": [],
+      "collocations": [
+        "donate money",
+        "donate blood",
+        "donate to charity",
+        "donate generously",
+        "donate clothes"
+      ],
+      "etymology_hint": "From Latin 'donare' meaning 'to give as a gift' — from 'donum' (gift), same root as 'donor'.",
+      "mnemonic_vi": "DONATE = 'đô-nêt' — 'đô' cho. Donate to charity = quyên góp từ thiện."
+    },
+    {
+      "word": "riot",
+      "lemma": "riot",
+      "ipa": "/ˈraɪət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "violent public disorder by a crowd of people",
+          "meaning_vi": "bạo loạn",
+          "examples": [
+            {
+              "en": "The riot started after the controversial verdict.",
+              "vi": "Cuộc bạo loạn bắt đầu sau phán quyết gây tranh cãi."
+            },
+            {
+              "en": "Police controlled the football riot.",
+              "vi": "Cảnh sát kiểm soát cuộc bạo loạn bóng đá."
+            },
+            {
+              "en": "Riots are rare in Việt Nam.",
+              "vi": "Bạo loạn hiếm xảy ra ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["uprising", "disturbance"],
+      "antonyms": ["peace"],
+      "collocations": [
+        "start a riot",
+        "race riot",
+        "control a riot",
+        "riot police",
+        "anti-government riot"
+      ],
+      "etymology_hint": "From Old French 'riote' meaning 'debate, quarrel' — origin uncertain, possibly from Anglo-Norman.",
+      "mnemonic_vi": "RIOT = 'rai-ợt' — 'rời ọt' loạn. Riot police = cảnh sát chống bạo loạn."
+    },
+    {
+      "word": "petition",
+      "lemma": "petition",
+      "ipa": "/pəˈtɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a written request signed by many people asking for change",
+          "meaning_vi": "đơn kiến nghị",
+          "examples": [
+            {
+              "en": "Sign the petition to save the old park.",
+              "vi": "Ký đơn kiến nghị cứu công viên cũ."
+            },
+            {
+              "en": "Over 10,000 people signed the petition.",
+              "vi": "Hơn 10.000 người đã ký đơn kiến nghị."
+            },
+            {
+              "en": "Submit the petition to the government office.",
+              "vi": "Nộp đơn kiến nghị lên văn phòng chính phủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["request", "appeal"],
+      "antonyms": [],
+      "collocations": [
+        "sign a petition",
+        "online petition",
+        "submit a petition",
+        "circulate a petition",
+        "start a petition"
+      ],
+      "etymology_hint": "From Latin 'petitio' meaning 'a request' — from 'petere' (to seek, ask).",
+      "mnemonic_vi": "PETITION = PETI + TION → 'sự xin'. Sign a petition = ký đơn."
+    },
+    {
+      "word": "activist",
+      "lemma": "activist",
+      "ipa": "/ˈæktɪvɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who works to bring about social or political change",
+          "meaning_vi": "nhà hoạt động (xã hội, chính trị)",
+          "examples": [
+            {
+              "en": "Greta Thunberg is a famous climate activist.",
+              "vi": "Greta Thunberg là nhà hoạt động khí hậu nổi tiếng."
+            },
+            {
+              "en": "Human rights activists fight injustice.",
+              "vi": "Nhà hoạt động nhân quyền đấu tranh chống bất công."
+            },
+            {
+              "en": "She became an activist for animal welfare.",
+              "vi": "Cô ấy trở thành nhà hoạt động vì phúc lợi động vật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["campaigner"],
+      "antonyms": [],
+      "collocations": [
+        "human rights activist",
+        "environmental activist",
+        "social activist",
+        "political activist",
+        "young activist"
+      ],
+      "etymology_hint": "From 'active' + '-ist' (one who practices) — coined in late 19th century during European political reform movements.",
+      "mnemonic_vi": "ACTIVIST = ACTIVE + IST → 'người hoạt động'. Climate activist = nhà hoạt động khí hậu."
+    }
+  ]
+}
