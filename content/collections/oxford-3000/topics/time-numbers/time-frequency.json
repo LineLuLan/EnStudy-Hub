@@ -1,0 +1,763 @@
+{
+  "slug": "time-frequency",
+  "name": "Time & Frequency",
+  "description": "Tần suất và thời gian A2 — daily, weekly, frequently, immediate, gradual, temporary và 14 từ về độ lặp + tính thời gian.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "seldom",
+      "lemma": "seldom",
+      "ipa": "/ˈseldəm/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not often; hardly ever",
+          "meaning_vi": "hiếm khi (formal hơn 'rarely')",
+          "examples": [
+            {
+              "en": "I seldom eat fast food on weekdays.",
+              "vi": "Tôi hiếm khi ăn đồ ăn nhanh ngày thường."
+            },
+            {
+              "en": "She seldom complains about anything.",
+              "vi": "Cô ấy hiếm khi than phiền về điều gì."
+            },
+            {
+              "en": "It seldom snows in northern Việt Nam.",
+              "vi": "Hiếm khi có tuyết ở miền Bắc Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rarely", "infrequently"],
+      "antonyms": ["often", "frequently"],
+      "collocations": [
+        "seldom seen",
+        "seldom heard",
+        "seldom found",
+        "seldom occur",
+        "seldom visit"
+      ],
+      "etymology_hint": "From Old English 'seldon' meaning 'rare, strange' — Germanic root, related to 'seldsam' in German.",
+      "mnemonic_vi": "SELDOM = 'sel-đơm' — 'sảng đơm' chỉ ít lần. Hiếm khi xảy ra."
+    },
+    {
+      "word": "frequently",
+      "lemma": "frequently",
+      "ipa": "/ˈfriːkwəntli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "many times; often",
+          "meaning_vi": "thường xuyên (formal hơn 'often')",
+          "examples": [
+            {
+              "en": "FAQ stands for 'Frequently Asked Questions'.",
+              "vi": "FAQ là 'Câu hỏi thường gặp'."
+            },
+            {
+              "en": "She visits her grandmother in Huế frequently.",
+              "vi": "Cô ấy thường xuyên về thăm bà ở Huế."
+            },
+            {
+              "en": "These streets flood frequently during rainy season.",
+              "vi": "Các phố này bị ngập thường xuyên vào mùa mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["often", "regularly"],
+      "antonyms": ["seldom", "rarely"],
+      "collocations": [
+        "frequently asked",
+        "frequently used",
+        "occur frequently",
+        "visit frequently",
+        "happen frequently"
+      ],
+      "etymology_hint": "From Latin 'frequens' meaning 'crowded, repeated' — sense of 'happening often' developed in Middle English.",
+      "mnemonic_vi": "FREQUENTLY = FREQUENT + LY → 'tần suất cao'. Đông & dồn dập."
+    },
+    {
+      "word": "daily",
+      "lemma": "daily",
+      "ipa": "/ˈdeɪli/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening every day",
+          "meaning_vi": "hàng ngày, mỗi ngày",
+          "examples": [
+            {
+              "en": "Reading is part of my daily routine.",
+              "vi": "Đọc sách là phần thói quen hàng ngày của tôi."
+            },
+            {
+              "en": "Take this medicine twice daily.",
+              "vi": "Uống thuốc này 2 lần mỗi ngày."
+            },
+            {
+              "en": "VnExpress publishes daily news in Vietnamese.",
+              "vi": "VnExpress đăng tin tức hàng ngày bằng tiếng Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["everyday"],
+      "antonyms": ["occasional"],
+      "collocations": [
+        "daily routine",
+        "daily life",
+        "daily basis",
+        "daily newspaper",
+        "twice daily"
+      ],
+      "etymology_hint": "From 'day' + '-ly' (adjective suffix) — Middle English construction.",
+      "mnemonic_vi": "DAILY = DAY + LY → 'thuộc về ngày'. Hằng ngày."
+    },
+    {
+      "word": "weekly",
+      "lemma": "weekly",
+      "ipa": "/ˈwiːkli/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening once a week",
+          "meaning_vi": "hàng tuần, mỗi tuần",
+          "examples": [
+            {
+              "en": "We have a weekly team meeting on Mondays.",
+              "vi": "Chúng tôi có buổi họp đội hàng tuần vào thứ Hai."
+            },
+            {
+              "en": "She gets a weekly allowance from her parents.",
+              "vi": "Cô ấy nhận tiền tiêu vặt hàng tuần từ bố mẹ."
+            },
+            {
+              "en": "I do weekly grocery shopping at Co.opmart.",
+              "vi": "Tôi đi chợ hàng tuần ở Co.opmart."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "weekly meeting",
+        "weekly report",
+        "weekly basis",
+        "weekly newspaper",
+        "weekly schedule"
+      ],
+      "etymology_hint": "From 'week' + '-ly' (adjective suffix) — same pattern as 'daily', 'monthly'.",
+      "mnemonic_vi": "WEEKLY = WEEK + LY → 'thuộc về tuần'. Hàng tuần."
+    },
+    {
+      "word": "monthly",
+      "lemma": "monthly",
+      "ipa": "/ˈmʌnθli/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening once a month",
+          "meaning_vi": "hàng tháng, mỗi tháng",
+          "examples": [
+            {
+              "en": "I pay rent on a monthly basis.",
+              "vi": "Tôi trả tiền thuê hàng tháng."
+            },
+            {
+              "en": "My monthly salary is paid on the 5th.",
+              "vi": "Lương tháng của tôi được trả vào ngày 5."
+            },
+            {
+              "en": "Vietcombank sends a monthly bank statement.",
+              "vi": "Vietcombank gửi sao kê tài khoản hàng tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "monthly salary",
+        "monthly payment",
+        "monthly report",
+        "monthly basis",
+        "monthly bill"
+      ],
+      "etymology_hint": "From 'month' + '-ly' (adjective suffix) — Old English construction.",
+      "mnemonic_vi": "MONTHLY = MONTH + LY → 'thuộc về tháng'. Hàng tháng."
+    },
+    {
+      "word": "yearly",
+      "lemma": "yearly",
+      "ipa": "/ˈjɪəli/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening once a year",
+          "meaning_vi": "hàng năm, mỗi năm",
+          "examples": [
+            {
+              "en": "Tết is the most important yearly celebration.",
+              "vi": "Tết là lễ hội hàng năm quan trọng nhất."
+            },
+            {
+              "en": "I get a yearly health check at Vinmec.",
+              "vi": "Tôi kiểm tra sức khỏe hàng năm ở Vinmec."
+            },
+            {
+              "en": "Yearly subscriptions are usually cheaper.",
+              "vi": "Đăng ký hàng năm thường rẻ hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["annual"],
+      "antonyms": [],
+      "collocations": [
+        "yearly income",
+        "yearly check-up",
+        "yearly basis",
+        "yearly event",
+        "twice yearly"
+      ],
+      "etymology_hint": "From 'year' + '-ly' (adjective suffix) — Old English pattern same as daily/weekly/monthly.",
+      "mnemonic_vi": "YEARLY = YEAR + LY → 'thuộc về năm'. Hàng năm = yearly = annual."
+    },
+    {
+      "word": "hourly",
+      "lemma": "hourly",
+      "ipa": "/ˈaʊəli/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening every hour or paid per hour",
+          "meaning_vi": "hàng giờ, mỗi giờ",
+          "examples": [
+            {
+              "en": "Buses run hourly from Mỹ Đình station.",
+              "vi": "Xe buýt chạy hàng giờ từ bến Mỹ Đình."
+            },
+            {
+              "en": "She works at an hourly rate of 100,000 VND.",
+              "vi": "Cô ấy làm việc với mức lương 100.000 đồng/giờ."
+            },
+            {
+              "en": "Take this medicine on an hourly basis.",
+              "vi": "Uống thuốc này mỗi giờ một lần."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["hourly rate", "hourly wage", "run hourly", "hourly basis", "hourly check"],
+      "etymology_hint": "From 'hour' + '-ly' (adjective suffix) — same pattern as daily/weekly.",
+      "mnemonic_vi": "HOURLY = HOUR + LY → 'thuộc về giờ'. Mỗi giờ một lần."
+    },
+    {
+      "word": "annual",
+      "lemma": "annual",
+      "ipa": "/ˈænjuəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening once every year",
+          "meaning_vi": "thường niên, hàng năm (formal)",
+          "examples": [
+            {
+              "en": "The annual company party is on Friday.",
+              "vi": "Tiệc công ty thường niên vào thứ Sáu."
+            },
+            {
+              "en": "Vietnam's annual GDP growth is around 6-7%.",
+              "vi": "Tăng trưởng GDP thường niên Việt Nam khoảng 6-7%."
+            },
+            {
+              "en": "She takes her annual leave in summer.",
+              "vi": "Cô ấy nghỉ phép thường niên vào mùa hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["yearly"],
+      "antonyms": [],
+      "collocations": [
+        "annual report",
+        "annual leave",
+        "annual income",
+        "annual event",
+        "annual fee"
+      ],
+      "etymology_hint": "From Latin 'annualis' meaning 'yearly' — from 'annus' (year), same root as 'anniversary'.",
+      "mnemonic_vi": "ANNUAL = ANN + UAL → 'năm' (ann = year). Annual report = báo cáo năm."
+    },
+    {
+      "word": "regular",
+      "lemma": "regular",
+      "ipa": "/ˈreɡjələ(r)/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening at the same time or with the same pattern",
+          "meaning_vi": "đều đặn, định kỳ",
+          "examples": [
+            {
+              "en": "Eating regular meals is good for your health.",
+              "vi": "Ăn uống đều đặn tốt cho sức khỏe."
+            },
+            {
+              "en": "She has a regular yoga class every Tuesday.",
+              "vi": "Cô ấy có lớp yoga đều đặn mỗi thứ Ba."
+            },
+            {
+              "en": "The bus has a regular schedule.",
+              "vi": "Xe buýt chạy theo lịch định kỳ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consistent", "steady"],
+      "antonyms": ["irregular"],
+      "collocations": [
+        "regular basis",
+        "regular customer",
+        "regular meal",
+        "regular check-up",
+        "regular exercise"
+      ],
+      "etymology_hint": "From Latin 'regularis' meaning 'according to rule' — from 'regula' (rule, straight piece of wood).",
+      "mnemonic_vi": "REGULAR = REGUL + AR → 'theo nguyên tắc'. Đều đặn, có quy luật."
+    },
+    {
+      "word": "sudden",
+      "lemma": "sudden",
+      "ipa": "/ˈsʌdn/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening quickly and unexpectedly",
+          "meaning_vi": "đột ngột, bất ngờ",
+          "examples": [
+            {
+              "en": "There was a sudden change in the weather.",
+              "vi": "Thời tiết thay đổi đột ngột."
+            },
+            {
+              "en": "His sudden departure surprised everyone.",
+              "vi": "Việc anh ấy ra đi đột ngột khiến mọi người ngạc nhiên."
+            },
+            {
+              "en": "A sudden rain shower interrupted the picnic.",
+              "vi": "Một cơn mưa bất ngờ làm gián đoạn cuộc picnic."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["abrupt", "unexpected"],
+      "antonyms": ["gradual"],
+      "collocations": [
+        "sudden change",
+        "sudden death",
+        "all of a sudden",
+        "sudden movement",
+        "sudden decision"
+      ],
+      "etymology_hint": "From Latin 'subitaneus' meaning 'sudden, hasty' — from 'subitus' (sudden), past participle of 'subire' (to come secretly).",
+      "mnemonic_vi": "SUDDEN = 'sấ-đợn' — 'sốc đập' bất thình lình. Sudden change = thay đổi đột ngột."
+    },
+    {
+      "word": "immediate",
+      "lemma": "immediate",
+      "ipa": "/ɪˈmiːdiət/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening or done at once, with no delay",
+          "meaning_vi": "tức thời, ngay lập tức",
+          "examples": [
+            {
+              "en": "We need an immediate response from the hospital.",
+              "vi": "Chúng tôi cần phản hồi tức thời từ bệnh viện."
+            },
+            {
+              "en": "His immediate reaction was to laugh.",
+              "vi": "Phản ứng ngay lập tức của anh ấy là cười."
+            },
+            {
+              "en": "There's no immediate danger.",
+              "vi": "Hiện không có nguy hiểm tức thời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instant", "prompt"],
+      "antonyms": ["delayed"],
+      "collocations": [
+        "immediate effect",
+        "immediate attention",
+        "with immediate effect",
+        "immediate response",
+        "immediate family"
+      ],
+      "etymology_hint": "From Latin 'immediatus' meaning 'without intermediary' — from 'in-' (not) + 'medius' (middle).",
+      "mnemonic_vi": "IMMEDIATE = IM + MEDIATE → 'không trung gian'. Ngay lập tức không qua bước nào."
+    },
+    {
+      "word": "gradual",
+      "lemma": "gradual",
+      "ipa": "/ˈɡrædʒuəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening slowly over a long period of time",
+          "meaning_vi": "dần dần, từng bước",
+          "examples": [
+            {
+              "en": "Vietnam has seen gradual economic growth since 1990.",
+              "vi": "Việt Nam có sự tăng trưởng kinh tế dần dần từ 1990."
+            },
+            {
+              "en": "There's been a gradual improvement in air quality.",
+              "vi": "Chất lượng không khí cải thiện dần."
+            },
+            {
+              "en": "Learning a language is a gradual process.",
+              "vi": "Học ngôn ngữ là quá trình từng bước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["slow", "steady"],
+      "antonyms": ["sudden", "abrupt"],
+      "collocations": [
+        "gradual change",
+        "gradual increase",
+        "gradual process",
+        "gradual improvement",
+        "gradual decline"
+      ],
+      "etymology_hint": "From Latin 'gradualis' meaning 'by steps' — from 'gradus' (step, degree), same root as 'gradient'.",
+      "mnemonic_vi": "GRADUAL = GRADU + AL → 'từng bước'. Như leo thang từng bậc."
+    },
+    {
+      "word": "temporary",
+      "lemma": "temporary",
+      "ipa": "/ˈtemprəri/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "lasting for only a short time, not permanent",
+          "meaning_vi": "tạm thời",
+          "examples": [
+            {
+              "en": "I have a temporary job at Lotte during Tết.",
+              "vi": "Tôi có công việc tạm thời ở Lotte dịp Tết."
+            },
+            {
+              "en": "The road closure is temporary, only 2 weeks.",
+              "vi": "Việc cấm đường chỉ tạm thời, có 2 tuần."
+            },
+            {
+              "en": "She lives in a temporary apartment while her house is being built.",
+              "vi": "Cô ấy ở căn hộ tạm trong khi nhà đang xây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["short-term", "provisional"],
+      "antonyms": ["permanent"],
+      "collocations": [
+        "temporary job",
+        "temporary solution",
+        "temporary fix",
+        "temporary visa",
+        "temporary measures"
+      ],
+      "etymology_hint": "From Latin 'temporarius' meaning 'of a season, lasting a while' — from 'tempus' (time).",
+      "mnemonic_vi": "TEMPORARY = TEMPOR + ARY → 'thuộc về thời gian'. Tạm thời, không bền."
+    },
+    {
+      "word": "permanent",
+      "lemma": "permanent",
+      "ipa": "/ˈpɜːmənənt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "lasting for a long time or forever; not temporary",
+          "meaning_vi": "vĩnh viễn, lâu dài",
+          "examples": [
+            {
+              "en": "She got a permanent job at FPT after 6 months.",
+              "vi": "Cô ấy được nhận chính thức ở FPT sau 6 tháng."
+            },
+            {
+              "en": "The damage to the painting is permanent.",
+              "vi": "Hư hại với bức tranh là vĩnh viễn."
+            },
+            {
+              "en": "He moved to Đà Nẵng on a permanent basis.",
+              "vi": "Anh ấy chuyển đến Đà Nẵng để định cư lâu dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lasting", "lifelong"],
+      "antonyms": ["temporary"],
+      "collocations": [
+        "permanent job",
+        "permanent address",
+        "permanent resident",
+        "permanent damage",
+        "permanent solution"
+      ],
+      "etymology_hint": "From Latin 'permanens' meaning 'continuing throughout' — from 'per-' (through) + 'manere' (to remain).",
+      "mnemonic_vi": "PERMANENT = PER + MANENT → 'tồn tại suốt'. Vĩnh viễn không đổi."
+    },
+    {
+      "word": "continuous",
+      "lemma": "continuous",
+      "ipa": "/kənˈtɪnjuəs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening without stopping or pause",
+          "meaning_vi": "liên tục, không ngừng",
+          "examples": [
+            {
+              "en": "It's been raining continuously for 3 days in Huế.",
+              "vi": "Trời mưa liên tục 3 ngày ở Huế."
+            },
+            {
+              "en": "I need continuous Wi-Fi for my online meeting.",
+              "vi": "Tôi cần Wi-Fi liên tục cho cuộc họp online."
+            },
+            {
+              "en": "Their continuous arguing drives me crazy.",
+              "vi": "Việc họ cãi nhau liên tục khiến tôi điên mất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["constant", "uninterrupted"],
+      "antonyms": ["intermittent", "discontinuous"],
+      "collocations": [
+        "continuous rain",
+        "continuous improvement",
+        "continuous flow",
+        "continuous learning",
+        "continuous noise"
+      ],
+      "etymology_hint": "From Latin 'continuus' meaning 'uninterrupted' — from 'continere' (to hold together).",
+      "mnemonic_vi": "CONTINUOUS = CONTINU + OUS → 'tiếp tục mãi'. Liên tục không nghỉ."
+    },
+    {
+      "word": "whenever",
+      "lemma": "whenever",
+      "ipa": "/wenˈevə(r)/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "at any time that; every time that",
+          "meaning_vi": "bất cứ khi nào, mỗi khi",
+          "examples": [
+            {
+              "en": "Call me whenever you need help.",
+              "vi": "Gọi tôi bất cứ khi nào bạn cần giúp đỡ."
+            },
+            {
+              "en": "Whenever I eat phở, I think of my mum.",
+              "vi": "Mỗi khi ăn phở, tôi nghĩ đến mẹ."
+            },
+            {
+              "en": "You can drop by whenever you're free.",
+              "vi": "Bạn có thể ghé qua bất cứ khi nào rảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["any time"],
+      "antonyms": ["never"],
+      "collocations": [
+        "whenever possible",
+        "whenever I can",
+        "whenever you want",
+        "whenever needed",
+        "whenever they meet"
+      ],
+      "etymology_hint": "Compound of 'when' + 'ever' — Middle English construction meaning 'at any time'.",
+      "mnemonic_vi": "WHENEVER = WHEN + EVER → 'khi mãi mãi'. Bất cứ khi nào, mỗi khi."
+    },
+    {
+      "word": "whilst",
+      "lemma": "whilst",
+      "ipa": "/waɪlst/",
+      "pos": "conjunction",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "during the time that (more formal British English for 'while')",
+          "meaning_vi": "trong khi (formal British, đồng nghĩa 'while')",
+          "examples": [
+            {
+              "en": "He cooked dinner whilst she was at work.",
+              "vi": "Anh ấy nấu bữa tối trong khi cô ấy đi làm."
+            },
+            {
+              "en": "Whilst studying in the UK, she learned to make scones.",
+              "vi": "Trong khi học ở Anh, cô ấy học làm bánh scone."
+            },
+            {
+              "en": "Please be quiet whilst the baby is sleeping.",
+              "vi": "Vui lòng yên lặng trong khi em bé đang ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["while", "during"],
+      "antonyms": [],
+      "collocations": [
+        "whilst doing",
+        "whilst waiting",
+        "whilst studying",
+        "whilst at",
+        "whilst in"
+      ],
+      "etymology_hint": "Variant of 'whiles' with adverbial '-st' suffix (like 'amongst') — formal British form, increasingly rare in American English.",
+      "mnemonic_vi": "WHILST = WHILE + ST → biến thể trang trọng của 'while'. Dùng nhiều ở Anh."
+    },
+    {
+      "word": "occasionally",
+      "lemma": "occasionally",
+      "ipa": "/əˈkeɪʒnəli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "sometimes, but not often",
+          "meaning_vi": "thỉnh thoảng",
+          "examples": [
+            {
+              "en": "I occasionally drink coffee, but mostly tea.",
+              "vi": "Tôi thỉnh thoảng uống cà phê, chủ yếu là trà."
+            },
+            {
+              "en": "She occasionally visits her old high school friends.",
+              "vi": "Cô ấy thỉnh thoảng đi gặp bạn cấp 3."
+            },
+            {
+              "en": "Snow falls only occasionally in Sa Pa.",
+              "vi": "Tuyết chỉ rơi thỉnh thoảng ở Sa Pa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sometimes", "now and then"],
+      "antonyms": ["frequently", "constantly"],
+      "collocations": [
+        "only occasionally",
+        "very occasionally",
+        "occasionally visit",
+        "occasionally happen",
+        "occasionally enjoy"
+      ],
+      "etymology_hint": "From Latin 'occasionalis' meaning 'happening on occasion' — from 'occasio' (occurrence).",
+      "mnemonic_vi": "OCCASIONALLY = OCCASION + ALLY → 'theo dịp'. Thỉnh thoảng có dịp."
+    },
+    {
+      "word": "constantly",
+      "lemma": "constantly",
+      "ipa": "/ˈkɒnstəntli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "all the time; very often",
+          "meaning_vi": "liên tục, thường xuyên",
+          "examples": [
+            {
+              "en": "My phone is constantly buzzing with notifications.",
+              "vi": "Điện thoại tôi liên tục rung vì thông báo."
+            },
+            {
+              "en": "Hà Nội traffic is constantly busy.",
+              "vi": "Giao thông Hà Nội liên tục đông đúc."
+            },
+            {
+              "en": "She's constantly improving her English.",
+              "vi": "Cô ấy liên tục cải thiện tiếng Anh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["continuously", "incessantly"],
+      "antonyms": ["never", "occasionally"],
+      "collocations": [
+        "constantly changing",
+        "constantly improving",
+        "constantly busy",
+        "constantly worrying",
+        "almost constantly"
+      ],
+      "etymology_hint": "From Latin 'constans' meaning 'standing firm' — from 'con-' (with) + 'stare' (to stand).",
+      "mnemonic_vi": "CONSTANTLY = CONSTANT + LY → 'theo cách bền vững'. Liên tục không ngừng."
+    },
+    {
+      "word": "repeatedly",
+      "lemma": "repeatedly",
+      "ipa": "/rɪˈpiːtɪdli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "many times in a row",
+          "meaning_vi": "nhiều lần, lặp đi lặp lại",
+          "examples": [
+            {
+              "en": "I've told you repeatedly to lock the door.",
+              "vi": "Tôi đã nhắc bạn nhiều lần khóa cửa."
+            },
+            {
+              "en": "She repeatedly asked the same question.",
+              "vi": "Cô ấy hỏi đi hỏi lại cùng câu hỏi."
+            },
+            {
+              "en": "The teacher repeatedly explained the grammar rule.",
+              "vi": "Giáo viên đã giải thích lặp đi lặp lại quy tắc ngữ pháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["over and over", "again and again"],
+      "antonyms": ["once"],
+      "collocations": [
+        "repeatedly asked",
+        "repeatedly tried",
+        "repeatedly told",
+        "repeatedly warned",
+        "repeatedly fail"
+      ],
+      "etymology_hint": "From 'repeat' + '-ed' + '-ly' — from Latin 'repetere' (to seek again).",
+      "mnemonic_vi": "REPEATEDLY = REPEAT + ED + LY → 'theo cách lặp lại'. Đi đi lại lại."
+    }
+  ]
+}

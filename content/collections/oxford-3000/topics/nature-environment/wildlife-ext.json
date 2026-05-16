@@ -1,0 +1,721 @@
+{
+  "slug": "wildlife-ext",
+  "name": "Wildlife Extended",
+  "description": "Động vật hoang dã A2 — chim, côn trùng, sinh vật biển và thú rừng — eagle, butterfly, shark, wolf và 16 con khác.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "eagle",
+      "lemma": "eagle",
+      "ipa": "/ˈiːɡl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large strong bird that hunts smaller animals",
+          "meaning_vi": "đại bàng",
+          "examples": [
+            {
+              "en": "An eagle can see fish from very high in the sky.",
+              "vi": "Đại bàng nhìn thấy cá từ rất cao trên trời."
+            },
+            {
+              "en": "The eagle is a symbol of strength in many cultures.",
+              "vi": "Đại bàng là biểu tượng sức mạnh trong nhiều nền văn hóa."
+            },
+            {
+              "en": "We saw a golden eagle in the mountains of Sa Pa.",
+              "vi": "Chúng tôi thấy đại bàng vàng ở vùng núi Sa Pa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["bald eagle", "golden eagle", "eagle eye", "eagle's nest", "soaring eagle"],
+      "etymology_hint": "From Old French 'aigle' — from Latin 'aquila' (eagle), possibly meaning 'dark-coloured bird'.",
+      "mnemonic_vi": "EAGLE = 'i-gồ' — 'i, gốc' chúa tể bầu trời. Đại bàng = king of birds."
+    },
+    {
+      "word": "owl",
+      "lemma": "owl",
+      "ipa": "/aʊl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a bird with large eyes that hunts at night",
+          "meaning_vi": "chim cú",
+          "examples": [
+            {
+              "en": "Owls hunt mice and small animals at night.",
+              "vi": "Cú săn chuột và động vật nhỏ vào ban đêm."
+            },
+            {
+              "en": "I heard an owl in the garden last night.",
+              "vi": "Tôi nghe tiếng cú trong vườn tối qua."
+            },
+            {
+              "en": "Owls are considered wise in many stories.",
+              "vi": "Cú được coi là thông thái trong nhiều câu chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["night owl", "wise owl", "barn owl", "owl call", "hoot of an owl"],
+      "etymology_hint": "From Old English 'ūle' — imitative of the bird's call ('hooo').",
+      "mnemonic_vi": "OWL = 'aoo' — như tiếng cú 'hú hú'. Night owl = người thức khuya."
+    },
+    {
+      "word": "parrot",
+      "lemma": "parrot",
+      "ipa": "/ˈpærət/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a brightly coloured tropical bird that can copy human speech",
+          "meaning_vi": "vẹt",
+          "examples": [
+            {
+              "en": "My uncle has a parrot that says 'xin chào'.",
+              "vi": "Cậu tôi có con vẹt biết nói 'xin chào'."
+            },
+            {
+              "en": "Parrots can live up to 50 years.",
+              "vi": "Vẹt có thể sống đến 50 năm."
+            },
+            {
+              "en": "We saw colourful parrots in the Cát Tiên jungle.",
+              "vi": "Chúng tôi thấy vẹt nhiều màu sắc trong rừng Cát Tiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "talking parrot",
+        "pet parrot",
+        "colourful parrot",
+        "wild parrot",
+        "parrot fashion"
+      ],
+      "etymology_hint": "From Middle French 'perrot' — possibly a pet name from 'Pierre' (Peter), as parrots were often given human names.",
+      "mnemonic_vi": "PARROT = 'pa-rớt' — 'parroting' = nói lại như vẹt. Vẹt = bird that copies."
+    },
+    {
+      "word": "peacock",
+      "lemma": "peacock",
+      "ipa": "/ˈpiːkɒk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large bird whose tail has beautiful blue and green feathers",
+          "meaning_vi": "công, chim công",
+          "examples": [
+            {
+              "en": "Peacocks open their tails to attract females.",
+              "vi": "Công xòe đuôi để thu hút con cái."
+            },
+            {
+              "en": "The peacocks at Thảo Cầm Viên zoo are stunning.",
+              "vi": "Công ở Thảo Cầm Viên đẹp lộng lẫy."
+            },
+            {
+              "en": "She wore a dress with peacock feather patterns.",
+              "vi": "Cô ấy mặc váy hoa văn lông công."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "peacock feather",
+        "proud as a peacock",
+        "peacock tail",
+        "peacock blue",
+        "spread peacock"
+      ],
+      "etymology_hint": "Old English 'pēa' (peacock) + 'cock' (male bird) — 'pēa' came from Latin 'pavo'.",
+      "mnemonic_vi": "PEACOCK = PEA + COCK → 'gà to'. Chim công xòe đuôi đẹp."
+    },
+    {
+      "word": "butterfly",
+      "lemma": "butterfly",
+      "ipa": "/ˈbʌtəflaɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an insect with large colourful wings, often seen in gardens",
+          "meaning_vi": "bướm",
+          "examples": [
+            {
+              "en": "A butterfly landed on her shoulder in the garden.",
+              "vi": "Một con bướm đậu trên vai cô ấy trong vườn."
+            },
+            {
+              "en": "Butterflies are everywhere in Đà Lạt in spring.",
+              "vi": "Bướm bay khắp nơi ở Đà Lạt vào mùa xuân."
+            },
+            {
+              "en": "Children love watching butterflies fly.",
+              "vi": "Trẻ con thích ngắm bướm bay."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "colourful butterfly",
+        "butterfly wings",
+        "catch a butterfly",
+        "butterfly garden",
+        "butterfly effect"
+      ],
+      "etymology_hint": "From Old English 'butorflēoge' — possibly because they were thought to eat butter or because of their butter-yellow colour.",
+      "mnemonic_vi": "BUTTERFLY = BUTTER + FLY → 'ruồi bơ'. Bướm bay nhẹ như sữa béo."
+    },
+    {
+      "word": "bee",
+      "lemma": "bee",
+      "ipa": "/biː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a flying insect that makes honey and can sting",
+          "meaning_vi": "ong",
+          "examples": [
+            {
+              "en": "Bees make honey from flower nectar.",
+              "vi": "Ong làm mật từ phấn hoa."
+            },
+            {
+              "en": "I was stung by a bee in the garden.",
+              "vi": "Tôi bị ong đốt trong vườn."
+            },
+            {
+              "en": "Bees are very important for nature.",
+              "vi": "Ong rất quan trọng với thiên nhiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["busy as a bee", "honey bee", "bee sting", "queen bee", "swarm of bees"],
+      "etymology_hint": "From Old English 'bēo' — same Germanic root as Dutch 'bij' and German 'Biene'.",
+      "mnemonic_vi": "BEE = 'bi' — 'bịt' đốt là đau. Busy as a bee = bận như ong."
+    },
+    {
+      "word": "spider",
+      "lemma": "spider",
+      "ipa": "/ˈspaɪdə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small creature with eight legs that catches insects in webs",
+          "meaning_vi": "nhện",
+          "examples": [
+            {
+              "en": "There's a spider in the corner of the bathroom.",
+              "vi": "Có con nhện ở góc nhà tắm."
+            },
+            {
+              "en": "Spiders eat mosquitoes and flies.",
+              "vi": "Nhện ăn muỗi và ruồi."
+            },
+            {
+              "en": "She's afraid of even tiny spiders.",
+              "vi": "Cô ấy sợ cả nhện nhỏ xíu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "spider web",
+        "spider bite",
+        "huge spider",
+        "afraid of spiders",
+        "spider's web"
+      ],
+      "etymology_hint": "From Old English 'spīþra' meaning 'spinner' — from 'spinnan' (to spin), because spiders spin webs.",
+      "mnemonic_vi": "SPIDER = 'spai-đơ' — 'spy-đơ' rình mồi trong tơ. Spider-Man = người nhện."
+    },
+    {
+      "word": "ant",
+      "lemma": "ant",
+      "ipa": "/ænt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small insect that lives in large groups and works together",
+          "meaning_vi": "con kiến",
+          "examples": [
+            {
+              "en": "There's a line of ants going into the kitchen.",
+              "vi": "Có một hàng kiến đi vào bếp."
+            },
+            {
+              "en": "Ants are very strong for their size.",
+              "vi": "Kiến rất khỏe so với kích thước của chúng."
+            },
+            {
+              "en": "Don't leave sweets out — the ants will come.",
+              "vi": "Đừng để đồ ngọt — kiến sẽ kéo đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["ant colony", "ant hill", "ants and bees", "fire ant", "ant farm"],
+      "etymology_hint": "From Old English 'æmette' meaning 'cutter' — possibly from chewing motion of ants' jaws.",
+      "mnemonic_vi": "ANT = 'ânt' — 'an' chăm chỉ. Đoàn kiến đi thành hàng."
+    },
+    {
+      "word": "mosquito",
+      "lemma": "mosquito",
+      "ipa": "/məˈskiːtəʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small flying insect that bites and sucks blood",
+          "meaning_vi": "con muỗi",
+          "examples": [
+            {
+              "en": "Mosquitoes are everywhere in Hà Nội in summer.",
+              "vi": "Muỗi đầy khắp Hà Nội vào mùa hè."
+            },
+            {
+              "en": "Use a mosquito net when you sleep in the countryside.",
+              "vi": "Dùng mùng chống muỗi khi ngủ ở quê."
+            },
+            {
+              "en": "Mosquitoes can carry dengue fever in Việt Nam.",
+              "vi": "Muỗi có thể truyền sốt xuất huyết ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "mosquito bite",
+        "mosquito net",
+        "mosquito repellent",
+        "swarm of mosquitoes",
+        "mosquito coil"
+      ],
+      "etymology_hint": "From Spanish 'mosquito' meaning 'little fly' — diminutive of 'mosca' (fly), from Latin 'musca'.",
+      "mnemonic_vi": "MOSQUITO = 'mơ-skí-tô' — 'ơ-i-ti-tô' tiếng vo ve. Muỗi đốt nhanh."
+    },
+    {
+      "word": "shark",
+      "lemma": "shark",
+      "ipa": "/ʃɑːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large dangerous fish with sharp teeth that lives in the sea",
+          "meaning_vi": "cá mập",
+          "examples": [
+            {
+              "en": "Some swimmers are afraid of sharks at Nha Trang beach.",
+              "vi": "Một số người bơi sợ cá mập ở biển Nha Trang."
+            },
+            {
+              "en": "Sharks have been on Earth for 400 million years.",
+              "vi": "Cá mập đã có trên Trái Đất 400 triệu năm."
+            },
+            {
+              "en": "Whale sharks are gentle giants, not dangerous.",
+              "vi": "Cá mập voi là người khổng lồ hiền lành, không nguy hiểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "great white shark",
+        "shark attack",
+        "shark fin",
+        "whale shark",
+        "loan shark"
+      ],
+      "etymology_hint": "Origin uncertain — possibly from German 'Schurke' meaning 'scoundrel' or from a Mayan word 'xoc'.",
+      "mnemonic_vi": "SHARK = 'sác' — 'sắc' răng. Loan shark = chủ nợ ngầm."
+    },
+    {
+      "word": "whale",
+      "lemma": "whale",
+      "ipa": "/weɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a very large sea animal that breathes air through the top of its head",
+          "meaning_vi": "cá voi",
+          "examples": [
+            {
+              "en": "The blue whale is the biggest animal on Earth.",
+              "vi": "Cá voi xanh là động vật lớn nhất Trái Đất."
+            },
+            {
+              "en": "Vietnamese fishermen worship the whale as a sacred animal.",
+              "vi": "Ngư dân Việt Nam thờ cá voi như loài vật thiêng."
+            },
+            {
+              "en": "Whales sing songs that travel for miles in the ocean.",
+              "vi": "Cá voi hát những bài ca vang xa hàng dặm trong đại dương."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "blue whale",
+        "humpback whale",
+        "killer whale",
+        "whale song",
+        "whale watching"
+      ],
+      "etymology_hint": "From Old English 'hwæl' — Germanic word, related to Norwegian 'hval' and German 'Walfisch'.",
+      "mnemonic_vi": "WHALE = 'wây' — 'oai' to lớn nhất biển. Khác whale với wail (kêu than)."
+    },
+    {
+      "word": "octopus",
+      "lemma": "octopus",
+      "ipa": "/ˈɒktəpəs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a sea creature with a soft body and eight long arms",
+          "meaning_vi": "bạch tuộc",
+          "examples": [
+            {
+              "en": "Vietnamese love grilled octopus as street food.",
+              "vi": "Người Việt thích bạch tuộc nướng làm món vỉa hè."
+            },
+            {
+              "en": "Octopuses are very smart sea animals.",
+              "vi": "Bạch tuộc là loài biển rất thông minh."
+            },
+            {
+              "en": "I saw a baby octopus in an aquarium in Vinpearl.",
+              "vi": "Tôi thấy con bạch tuộc nhỏ trong thủy cung Vinpearl."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "giant octopus",
+        "octopus arms",
+        "grilled octopus",
+        "baby octopus",
+        "octopus ink"
+      ],
+      "etymology_hint": "From Greek 'oktōpous' meaning 'eight-footed' — 'okto-' (eight) + 'pous' (foot).",
+      "mnemonic_vi": "OCTOPUS = OCTO + PUS → 'tám chân' (octo = 8). Bạch tuộc 8 cánh tay."
+    },
+    {
+      "word": "turtle",
+      "lemma": "turtle",
+      "ipa": "/ˈtɜːtl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a slow-moving animal with a hard shell that lives in water or on land",
+          "meaning_vi": "rùa, ba ba",
+          "examples": [
+            {
+              "en": "Sea turtles lay eggs on the beach in Côn Đảo.",
+              "vi": "Rùa biển đẻ trứng trên bãi biển Côn Đảo."
+            },
+            {
+              "en": "The turtle in Hồ Gươm is a legendary symbol.",
+              "vi": "Rùa Hồ Gươm là biểu tượng huyền thoại."
+            },
+            {
+              "en": "Turtles can live for over 100 years.",
+              "vi": "Rùa có thể sống hơn 100 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tortoise"],
+      "antonyms": [],
+      "collocations": [
+        "sea turtle",
+        "turtle shell",
+        "baby turtle",
+        "turtle conservation",
+        "slow as a turtle"
+      ],
+      "etymology_hint": "From Old French 'tortre' — possibly from Latin 'tortuca', meaning 'twisted' (referring to twisted shell pattern).",
+      "mnemonic_vi": "TURTLE = 'tớt-l' — 'từ từ' chậm chạp. Rùa có mai cứng."
+    },
+    {
+      "word": "crab",
+      "lemma": "crab",
+      "ipa": "/kræb/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a sea animal with a hard shell, eight legs, and two large claws",
+          "meaning_vi": "cua, cua biển",
+          "examples": [
+            {
+              "en": "Cà Mau is famous for delicious mud crabs.",
+              "vi": "Cà Mau nổi tiếng vì cua bùn ngon."
+            },
+            {
+              "en": "Crabs walk sideways on the sand.",
+              "vi": "Cua bò ngang trên cát."
+            },
+            {
+              "en": "I love crab soup with phở chua.",
+              "vi": "Tôi thích súp cua với phở chua."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["sea crab", "mud crab", "crab meat", "crab claw", "soft-shell crab"],
+      "etymology_hint": "From Old English 'crabba' — Germanic word, same root as 'crawl' (sideways crawling motion).",
+      "mnemonic_vi": "CRAB = 'cráp' — 'cắp' cắp 2 càng. Cua bò ngang."
+    },
+    {
+      "word": "wolf",
+      "lemma": "wolf",
+      "ipa": "/wʊlf/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a wild animal that looks like a large dog and lives in groups",
+          "meaning_vi": "sói",
+          "examples": [
+            {
+              "en": "Wolves hunt in packs in the cold forests.",
+              "vi": "Sói săn theo bầy trong rừng lạnh."
+            },
+            {
+              "en": "The Vietnamese tale 'Sói và Bảy Con Dê' is famous.",
+              "vi": "Truyện 'Sói và Bảy Con Dê' rất nổi tiếng ở Việt Nam."
+            },
+            {
+              "en": "Wolves howl at night to call their pack.",
+              "vi": "Sói hú vào ban đêm để gọi bầy."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wolf pack",
+        "lone wolf",
+        "wolf in sheep's clothing",
+        "howl like a wolf",
+        "grey wolf"
+      ],
+      "etymology_hint": "From Old English 'wulf' — Germanic root, related to Latin 'lupus' and Greek 'lykos'.",
+      "mnemonic_vi": "WOLF = 'wúp' — như 'húp' tiếng sói hú. Lone wolf = cô độc."
+    },
+    {
+      "word": "bear",
+      "lemma": "bear",
+      "ipa": "/beə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large strong wild animal with thick fur and sharp claws",
+          "meaning_vi": "gấu",
+          "examples": [
+            {
+              "en": "Bears sleep all winter in caves.",
+              "vi": "Gấu ngủ cả mùa đông trong hang."
+            },
+            {
+              "en": "There are wild bears in the forests of Cúc Phương.",
+              "vi": "Có gấu hoang ở rừng Cúc Phương."
+            },
+            {
+              "en": "My niece sleeps with her teddy bear every night.",
+              "vi": "Cháu gái tôi ngủ ôm gấu bông mỗi tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["polar bear", "teddy bear", "brown bear", "bear hug", "bear cub"],
+      "etymology_hint": "From Old English 'bera' meaning 'the brown one' — many Indo-European languages use indirect names for bears (taboo against saying its true name).",
+      "mnemonic_vi": "BEAR = 'bea' — 'bịa' to mạnh. Teddy bear = gấu bông."
+    },
+    {
+      "word": "fox",
+      "lemma": "fox",
+      "ipa": "/fɒks/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a wild animal that looks like a small dog with a long bushy tail",
+          "meaning_vi": "cáo",
+          "examples": [
+            {
+              "en": "The fox is known as a clever animal in folk tales.",
+              "vi": "Cáo nổi tiếng là loài thông minh trong cổ tích."
+            },
+            {
+              "en": "I saw a red fox running through the garden.",
+              "vi": "Tôi thấy con cáo đỏ chạy qua vườn."
+            },
+            {
+              "en": "She's sly as a fox in business negotiations.",
+              "vi": "Cô ấy ranh ma như cáo trong đàm phán kinh doanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["red fox", "sly as a fox", "fox hunt", "fox tail", "clever fox"],
+      "etymology_hint": "From Old English 'fox' — Germanic root, related to Sanskrit 'pucchas' (tail), because of the fox's notable tail.",
+      "mnemonic_vi": "FOX = 'fóx' — 'phốc' nhanh nhẹn. Sly as a fox = ranh như cáo."
+    },
+    {
+      "word": "deer",
+      "lemma": "deer",
+      "ipa": "/dɪə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a wild animal with long legs that runs fast and has antlers (male)",
+          "meaning_vi": "hươu, nai",
+          "examples": [
+            {
+              "en": "Deer live in the forests of Bạch Mã National Park.",
+              "vi": "Hươu sống trong rừng Vườn Quốc gia Bạch Mã."
+            },
+            {
+              "en": "Be careful — deer often cross country roads at night.",
+              "vi": "Cẩn thận — hươu thường băng qua đường vùng quê ban đêm."
+            },
+            {
+              "en": "Sika deer are bred for their valuable antlers in Nghệ An.",
+              "vi": "Hươu Sika được nuôi vì nhung hươu quý ở Nghệ An."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["wild deer", "deer antlers", "baby deer", "deer crossing", "herd of deer"],
+      "etymology_hint": "From Old English 'dēor' meaning 'wild animal' — meaning narrowed to 'deer' specifically in Middle English; German 'Tier' still means 'animal'.",
+      "mnemonic_vi": "DEER = 'đia' — như 'đi' chạy nhanh. Deer crossing = báo hiệu hươu qua đường."
+    },
+    {
+      "word": "squirrel",
+      "lemma": "squirrel",
+      "ipa": "/ˈskwɪrəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small animal with a long bushy tail that lives in trees and eats nuts",
+          "meaning_vi": "sóc",
+          "examples": [
+            {
+              "en": "A squirrel was eating nuts in our garden.",
+              "vi": "Một con sóc đang ăn hạt trong vườn nhà tôi."
+            },
+            {
+              "en": "Squirrels jump from tree to tree very quickly.",
+              "vi": "Sóc nhảy từ cây này sang cây khác rất nhanh."
+            },
+            {
+              "en": "She watched the squirrel store food for winter.",
+              "vi": "Cô ấy ngắm sóc tích trữ thức ăn cho mùa đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "red squirrel",
+        "grey squirrel",
+        "squirrel away",
+        "flying squirrel",
+        "baby squirrel"
+      ],
+      "etymology_hint": "From Greek 'skiouros' meaning 'shadow-tail' — 'skia' (shadow) + 'oura' (tail), because the bushy tail shades the body.",
+      "mnemonic_vi": "SQUIRREL = 'sqwí-rồ' — 'sờ qua' đuôi xù. Sóc đuôi to."
+    },
+    {
+      "word": "crocodile",
+      "lemma": "crocodile",
+      "ipa": "/ˈkrɒkədaɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large reptile with sharp teeth that lives in rivers in hot countries",
+          "meaning_vi": "cá sấu",
+          "examples": [
+            {
+              "en": "Crocodiles live in the Mekong Delta rivers.",
+              "vi": "Cá sấu sống ở các sông Đồng bằng sông Cửu Long."
+            },
+            {
+              "en": "Don't swim in places where crocodiles might be.",
+              "vi": "Đừng bơi nơi có thể có cá sấu."
+            },
+            {
+              "en": "Crocodile leather bags are popular but controversial.",
+              "vi": "Túi da cá sấu phổ biến nhưng gây tranh cãi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["croc", "alligator"],
+      "antonyms": [],
+      "collocations": [
+        "saltwater crocodile",
+        "crocodile tears",
+        "crocodile skin",
+        "wild crocodile",
+        "crocodile farm"
+      ],
+      "etymology_hint": "From Greek 'krokodeilos' meaning 'lizard of the river' — 'krokē' (pebble) + 'drilos' (worm), because they lay in pebbly riverbeds.",
+      "mnemonic_vi": "CROCODILE = 'cróc-co-đai' — 'cọc cọc đại' răng to. Crocodile tears = nước mắt cá sấu (giả vờ)."
+    }
+  ]
+}
