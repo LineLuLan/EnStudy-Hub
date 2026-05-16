@@ -1,0 +1,769 @@
+{
+  "slug": "cultural-immersion",
+  "name": "Cultural Immersion",
+  "description": "Hòa nhập văn hóa B1 — homestay, dialect, etiquette, immerse và 16 từ khi sống cùng người bản địa.",
+  "order_index": 8,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "homestay",
+      "lemma": "homestay",
+      "ipa": "/ˈhəʊmsteɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a stay where you live with a local family in their home, common when traveling or studying abroad",
+          "meaning_vi": "ở homestay (ở cùng gia đình bản địa)",
+          "examples": [
+            {
+              "en": "She did a two-week homestay in a Sapa village.",
+              "vi": "Cô ấy ở homestay hai tuần ở một làng Sapa."
+            },
+            {
+              "en": "Homestays teach language faster than hotels.",
+              "vi": "Homestay dạy ngôn ngữ nhanh hơn khách sạn."
+            },
+            {
+              "en": "Vietnamese homestays often include home-cooked meals.",
+              "vi": "Homestay Việt thường gồm bữa cơm nhà nấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["host family stay"],
+      "antonyms": ["hotel stay"],
+      "collocations": [
+        "homestay program",
+        "book a homestay",
+        "stay in a homestay",
+        "rural homestay",
+        "cultural homestay"
+      ],
+      "etymology_hint": "Compound: 'home' + 'stay' — coined mid-20th century for foreign exchange programs.",
+      "mnemonic_vi": "HOME (nhà) + STAY (ở) = ở nhà người. Stay in a homestay = ở homestay."
+    },
+    {
+      "word": "etiquette",
+      "lemma": "etiquette",
+      "ipa": "/ˈetɪkət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the rules of polite behavior in a society or situation",
+          "meaning_vi": "phép xã giao, nguyên tắc lịch sự",
+          "examples": [
+            {
+              "en": "Japanese business etiquette is famously precise.",
+              "vi": "Phép xã giao kinh doanh Nhật nổi tiếng chính xác."
+            },
+            {
+              "en": "Learn local etiquette before your trip.",
+              "vi": "Học phép xã giao địa phương trước khi đi."
+            },
+            {
+              "en": "Vietnamese dinner etiquette includes serving elders first.",
+              "vi": "Phép ăn cơm Việt bao gồm gắp cho người lớn tuổi trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["manners", "protocol", "decorum"],
+      "antonyms": ["rudeness"],
+      "collocations": [
+        "business etiquette",
+        "dining etiquette",
+        "proper etiquette",
+        "local etiquette",
+        "social etiquette"
+      ],
+      "etymology_hint": "From French 'étiquette' = small note, ticket — originally rules of court behavior at Versailles.",
+      "mnemonic_vi": "ETIQUETTE đọc 'ết-ti-kệt' — ếch ti kẹp lễ. Dining etiquette = phép ăn uống."
+    },
+    {
+      "word": "taboo",
+      "lemma": "taboo",
+      "ipa": "/təˈbuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a social or religious custom prohibiting discussion or behavior",
+          "meaning_vi": "điều cấm kỵ (theo tập tục xã hội/tôn giáo)",
+          "examples": [
+            {
+              "en": "Talking about salary used to be a taboo in Vietnam.",
+              "vi": "Nói về lương từng là điều cấm kỵ ở Việt Nam."
+            },
+            {
+              "en": "Cultural taboos vary widely across regions.",
+              "vi": "Điều cấm kỵ văn hóa khác nhau rộng giữa các vùng."
+            },
+            {
+              "en": "Breaking a taboo can shock your hosts.",
+              "vi": "Phạm điều cấm kỵ có thể khiến chủ nhà sốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forbidden topic", "no-no"],
+      "antonyms": ["acceptable topic"],
+      "collocations": [
+        "cultural taboo",
+        "social taboo",
+        "break a taboo",
+        "religious taboo",
+        "taboo subject"
+      ],
+      "etymology_hint": "From Tongan 'tapu' = forbidden — introduced to English by Captain Cook in 1777.",
+      "mnemonic_vi": "TABOO đọc 'tà-bu' — tà thuật bu mà tránh. Cultural taboo = điều cấm kỵ văn hóa."
+    },
+    {
+      "word": "hospitality",
+      "lemma": "hospitality",
+      "ipa": "/ˌhɒspɪˈtæləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "friendly and generous treatment of guests, especially in their own home",
+          "meaning_vi": "lòng hiếu khách",
+          "examples": [
+            {
+              "en": "Vietnamese hospitality is famous worldwide.",
+              "vi": "Lòng hiếu khách Việt Nam nổi tiếng toàn cầu."
+            },
+            {
+              "en": "Their hospitality made us feel like family.",
+              "vi": "Lòng hiếu khách của họ khiến chúng tôi cảm thấy như người nhà."
+            },
+            {
+              "en": "Hospitality is central to Middle Eastern culture.",
+              "vi": "Lòng hiếu khách là trung tâm của văn hóa Trung Đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["warmth", "welcome"],
+      "antonyms": ["coldness", "rudeness"],
+      "collocations": [
+        "warm hospitality",
+        "generous hospitality",
+        "show hospitality",
+        "hospitality industry",
+        "extend hospitality"
+      ],
+      "etymology_hint": "From Latin 'hospes' = guest, host — same root as 'hotel' and 'hospital'.",
+      "mnemonic_vi": "HOSPIT (chủ) + ALITY = lòng làm chủ chào khách. Warm hospitality = lòng hiếu khách."
+    },
+    {
+      "word": "dialect",
+      "lemma": "dialect",
+      "ipa": "/ˈdaɪəlekt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a regional form of a language with its own vocabulary, grammar, or pronunciation",
+          "meaning_vi": "phương ngữ, tiếng địa phương",
+          "examples": [
+            {
+              "en": "Northern and Southern Vietnamese are mutually intelligible dialects.",
+              "vi": "Tiếng Bắc và tiếng Nam là phương ngữ hiểu được lẫn nhau."
+            },
+            {
+              "en": "Linguists document endangered dialects.",
+              "vi": "Nhà ngôn ngữ học ghi lại các phương ngữ đang biến mất."
+            },
+            {
+              "en": "Her dialect gives her hometown away.",
+              "vi": "Phương ngữ của cô ấy tiết lộ quê quán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["regional variety", "vernacular"],
+      "antonyms": ["standard language"],
+      "collocations": [
+        "regional dialect",
+        "local dialect",
+        "speak a dialect",
+        "rural dialect",
+        "dialect map"
+      ],
+      "etymology_hint": "From Greek 'dialektos' = way of speaking, discourse — same root as 'dialogue'.",
+      "mnemonic_vi": "DIA (qua) + LECT (nói) = cách nói. Regional dialect = phương ngữ vùng."
+    },
+    {
+      "word": "accent",
+      "lemma": "accent",
+      "ipa": "/ˈæksent/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a way of pronouncing words that shows where you are from",
+          "meaning_vi": "giọng (vùng miền hoặc nước)",
+          "examples": [
+            {
+              "en": "She speaks English with a slight Vietnamese accent.",
+              "vi": "Cô ấy nói tiếng Anh với chút giọng Việt."
+            },
+            {
+              "en": "His Hà Nội accent is unmistakable.",
+              "vi": "Giọng Hà Nội của anh ấy không thể nhầm được."
+            },
+            {
+              "en": "Accents reveal more than language proficiency.",
+              "vi": "Giọng tiết lộ nhiều hơn khả năng ngôn ngữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pronunciation"],
+      "antonyms": [],
+      "collocations": [
+        "strong accent",
+        "slight accent",
+        "regional accent",
+        "lose an accent",
+        "pick up an accent"
+      ],
+      "etymology_hint": "From Latin 'accentus' = song added to speech — 'ad-' (to) + 'cantus' (song).",
+      "mnemonic_vi": "ACCENT đọc 'ác-sần' — ác giọng riêng. Strong accent = giọng mạnh."
+    },
+    {
+      "word": "regional",
+      "lemma": "regional",
+      "ipa": "/ˈriːdʒənl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to a particular area or part of a country",
+          "meaning_vi": "thuộc vùng miền",
+          "examples": [
+            {
+              "en": "Bánh mì has regional variations across Vietnam.",
+              "vi": "Bánh mì có các biến thể vùng khắp Việt Nam."
+            },
+            {
+              "en": "Regional cuisine shows a country's diversity.",
+              "vi": "Ẩm thực vùng miền cho thấy sự đa dạng của một nước."
+            },
+            {
+              "en": "She studies regional differences in dialect.",
+              "vi": "Cô ấy nghiên cứu khác biệt vùng miền trong phương ngữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["local", "area-specific"],
+      "antonyms": ["national", "global"],
+      "collocations": [
+        "regional cuisine",
+        "regional dialect",
+        "regional variation",
+        "regional identity",
+        "regional accent"
+      ],
+      "etymology_hint": "From Latin 'regio' = direction, district — root 'regere' (to rule, draw a line).",
+      "mnemonic_vi": "REGION (vùng) + AL = thuộc vùng. Regional cuisine = ẩm thực vùng."
+    },
+    {
+      "word": "indigenous",
+      "lemma": "indigenous",
+      "ipa": "/ɪnˈdɪdʒənəs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "originally living in a particular place, especially before the arrival of others",
+          "meaning_vi": "bản địa, thổ dân",
+          "examples": [
+            {
+              "en": "The Hmong are an indigenous people of northern Vietnam.",
+              "vi": "Người H'Mông là dân tộc bản địa miền Bắc Việt Nam."
+            },
+            {
+              "en": "Indigenous knowledge helps modern medicine.",
+              "vi": "Tri thức bản địa giúp y học hiện đại."
+            },
+            {
+              "en": "Many indigenous languages are dying out.",
+              "vi": "Nhiều ngôn ngữ bản địa đang dần mất đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["native", "aboriginal"],
+      "antonyms": ["foreign", "non-native"],
+      "collocations": [
+        "indigenous people",
+        "indigenous language",
+        "indigenous culture",
+        "indigenous rights",
+        "indigenous knowledge"
+      ],
+      "etymology_hint": "From Latin 'indigena' = born in a place — 'indi-' (within) + 'gen-' (born).",
+      "mnemonic_vi": "INDIGENOUS đọc 'in-điờ-giơ-nớt' — trong địa nguyên. Indigenous people = dân bản địa."
+    },
+    {
+      "word": "exchange",
+      "lemma": "exchange",
+      "ipa": "/ɪksˈtʃeɪndʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a program in which students live and study in another country",
+          "meaning_vi": "chương trình trao đổi (sinh viên)",
+          "examples": [
+            {
+              "en": "She went on a one-year exchange to Korea.",
+              "vi": "Cô ấy đi trao đổi một năm sang Hàn."
+            },
+            {
+              "en": "Exchange programs broaden cultural horizons.",
+              "vi": "Chương trình trao đổi mở rộng tầm nhìn văn hóa."
+            },
+            {
+              "en": "Our school hosts exchange students every semester.",
+              "vi": "Trường chúng tôi đón sinh viên trao đổi mỗi học kỳ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["swap", "interchange"],
+      "antonyms": ["isolation"],
+      "collocations": [
+        "exchange program",
+        "exchange student",
+        "cultural exchange",
+        "go on exchange",
+        "student exchange"
+      ],
+      "etymology_hint": "From Latin 'cambire' = to barter — 'ex-' (out) + change.",
+      "mnemonic_vi": "EX (ra) + CHANGE (đổi) = đổi cho nhau. Cultural exchange = trao đổi văn hóa."
+    },
+    {
+      "word": "integrate",
+      "lemma": "integrate",
+      "ipa": "/ˈɪntɪɡreɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become part of a community or culture",
+          "meaning_vi": "hòa nhập, hòa mình vào",
+          "examples": [
+            {
+              "en": "Refugees need time to integrate into a new society.",
+              "vi": "Người tị nạn cần thời gian để hòa nhập xã hội mới."
+            },
+            {
+              "en": "She integrated quickly thanks to her Vietnamese friends.",
+              "vi": "Cô ấy hòa nhập nhanh nhờ những người bạn Việt."
+            },
+            {
+              "en": "Learning the language is the fastest way to integrate.",
+              "vi": "Học ngôn ngữ là cách hòa nhập nhanh nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assimilate", "blend in"],
+      "antonyms": ["segregate", "isolate"],
+      "collocations": [
+        "integrate into",
+        "fully integrate",
+        "integrate culturally",
+        "integrate community",
+        "fail to integrate"
+      ],
+      "etymology_hint": "From Latin 'integrare' = to make whole — root 'integer' (untouched, whole).",
+      "mnemonic_vi": "INTEGR (toàn vẹn) + ATE = nhập vào thành toàn vẹn. Integrate into = hòa nhập vào."
+    },
+    {
+      "word": "immerse",
+      "lemma": "immerse",
+      "ipa": "/ɪˈmɜːs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to involve yourself deeply in a culture, language, or activity",
+          "meaning_vi": "đắm mình, hòa mình sâu vào",
+          "examples": [
+            {
+              "en": "Immerse yourself in the language by avoiding English.",
+              "vi": "Đắm mình vào ngôn ngữ bằng cách tránh tiếng Anh."
+            },
+            {
+              "en": "She immersed herself in Vietnamese street food culture.",
+              "vi": "Cô ấy đắm mình vào văn hóa ăn vặt vỉa hè Việt."
+            },
+            {
+              "en": "Full immersion is the fastest path to fluency.",
+              "vi": "Đắm mình hoàn toàn là con đường nhanh nhất đến lưu loát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dive into", "absorb"],
+      "antonyms": ["detach", "stay aloof"],
+      "collocations": [
+        "immerse yourself",
+        "immerse in culture",
+        "language immersion",
+        "fully immerse",
+        "immersive experience"
+      ],
+      "etymology_hint": "From Latin 'immergere' = to dip into — 'in-' (into) + 'mergere' (plunge).",
+      "mnemonic_vi": "IM (vào) + MERSE (dìm) = dìm mình vào. Immerse in culture = đắm vào văn hóa."
+    },
+    {
+      "word": "customary",
+      "lemma": "customary",
+      "ipa": "/ˈkʌstəməri/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "usual or traditional in a particular culture or situation",
+          "meaning_vi": "theo phong tục, thường lệ",
+          "examples": [
+            {
+              "en": "It's customary to bring fruit when visiting a Vietnamese home.",
+              "vi": "Theo phong tục, mang trái cây khi đến nhà người Việt."
+            },
+            {
+              "en": "Customary greetings vary across regions.",
+              "vi": "Lời chào theo phong tục khác nhau giữa các vùng."
+            },
+            {
+              "en": "She wore the customary áo dài to the wedding.",
+              "vi": "Cô ấy mặc áo dài theo phong tục đến đám cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["traditional", "usual", "conventional"],
+      "antonyms": ["unusual", "exceptional"],
+      "collocations": [
+        "customary greeting",
+        "customary practice",
+        "customary law",
+        "as is customary",
+        "customary dress"
+      ],
+      "etymology_hint": "From Latin 'consuetudo' = custom — same root as 'custom'.",
+      "mnemonic_vi": "CUSTOM (phong tục) + ARY = thuộc phong tục. Customary greeting = lời chào phong tục."
+    },
+    {
+      "word": "culture-shock",
+      "lemma": "culture-shock",
+      "ipa": "/ˈkʌltʃəˌʃɒk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the feeling of confusion or anxiety when in an unfamiliar culture",
+          "meaning_vi": "sốc văn hóa",
+          "examples": [
+            {
+              "en": "He experienced culture-shock during his first month in Tokyo.",
+              "vi": "Anh ấy bị sốc văn hóa trong tháng đầu ở Tokyo."
+            },
+            {
+              "en": "Culture-shock usually fades after three months.",
+              "vi": "Sốc văn hóa thường nhạt dần sau 3 tháng."
+            },
+            {
+              "en": "Reverse culture-shock hits when you return home.",
+              "vi": "Sốc văn hóa ngược ập đến khi bạn về quê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cultural disorientation"],
+      "antonyms": ["cultural comfort"],
+      "collocations": [
+        "experience culture-shock",
+        "severe culture-shock",
+        "reverse culture-shock",
+        "culture-shock phase",
+        "overcome culture-shock"
+      ],
+      "etymology_hint": "Coined 1954 by anthropologist Kalervo Oberg — describes adjustment difficulty in new environments.",
+      "mnemonic_vi": "CULTURE (văn hóa) + SHOCK (sốc) = sốc văn hóa. Experience culture-shock = bị sốc văn hóa."
+    },
+    {
+      "word": "bilingual",
+      "lemma": "bilingual",
+      "ipa": "/baɪˈlɪŋɡwəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to speak two languages fluently",
+          "meaning_vi": "song ngữ (nói thành thạo 2 ngôn ngữ)",
+          "examples": [
+            {
+              "en": "Her children grew up bilingual in Vietnamese and English.",
+              "vi": "Con cô ấy lớn lên song ngữ Việt-Anh."
+            },
+            {
+              "en": "Bilingual brains process information faster.",
+              "vi": "Não song ngữ xử lý thông tin nhanh hơn."
+            },
+            {
+              "en": "Bilingual education is growing in Vietnamese cities.",
+              "vi": "Giáo dục song ngữ đang phát triển ở các thành phố Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["two-language"],
+      "antonyms": ["monolingual"],
+      "collocations": [
+        "bilingual speaker",
+        "bilingual education",
+        "fully bilingual",
+        "bilingual family",
+        "raise bilingual"
+      ],
+      "etymology_hint": "From Latin 'bi-' (two) + 'lingua' (tongue, language).",
+      "mnemonic_vi": "BI (hai) + LINGUAL (lưỡi/ngôn ngữ) = hai ngôn ngữ. Bilingual education = giáo dục song ngữ."
+    },
+    {
+      "word": "monolingual",
+      "lemma": "monolingual",
+      "ipa": "/ˌmɒnəʊˈlɪŋɡwəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to speak only one language",
+          "meaning_vi": "đơn ngữ (chỉ nói 1 ngôn ngữ)",
+          "examples": [
+            {
+              "en": "Most native English speakers remain monolingual.",
+              "vi": "Phần lớn người bản xứ tiếng Anh vẫn đơn ngữ."
+            },
+            {
+              "en": "Being monolingual limits travel experiences.",
+              "vi": "Đơn ngữ giới hạn trải nghiệm du lịch."
+            },
+            {
+              "en": "She regrets staying monolingual as a child.",
+              "vi": "Cô ấy tiếc đã ở đơn ngữ thời nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one-language"],
+      "antonyms": ["bilingual", "multilingual"],
+      "collocations": [
+        "monolingual speaker",
+        "monolingual society",
+        "purely monolingual",
+        "monolingual education",
+        "monolingual environment"
+      ],
+      "etymology_hint": "From Greek 'monos' (one) + Latin 'lingua' (tongue).",
+      "mnemonic_vi": "MONO (một) + LINGUAL (ngôn ngữ) = đơn ngữ. Monolingual speaker = người đơn ngữ."
+    },
+    {
+      "word": "expat",
+      "lemma": "expat",
+      "ipa": "/ˈekspæt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "short for expatriate — a person living outside their home country",
+          "meaning_vi": "người nước ngoài sinh sống tại đây (kiều dân)",
+          "examples": [
+            {
+              "en": "Saigon has a large expat community.",
+              "vi": "Sài Gòn có cộng đồng expat lớn."
+            },
+            {
+              "en": "Expats often start as English teachers.",
+              "vi": "Expat thường khởi đầu bằng nghề dạy tiếng Anh."
+            },
+            {
+              "en": "She's been an expat in Vietnam for ten years.",
+              "vi": "Cô ấy đã làm expat ở Việt Nam 10 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expatriate", "foreigner abroad"],
+      "antonyms": ["local", "native"],
+      "collocations": [
+        "expat community",
+        "expat life",
+        "long-term expat",
+        "expat network",
+        "fellow expat"
+      ],
+      "etymology_hint": "Shortened from 'expatriate' (Latin 'ex' + 'patria' = out of homeland) — popular usage from 2000s globalization.",
+      "mnemonic_vi": "EX (ra) + PAT(RIA) (tổ quốc) = ra khỏi quê. Expat community = cộng đồng expat."
+    },
+    {
+      "word": "host-family",
+      "lemma": "host-family",
+      "ipa": "/ˈhəʊstˌfæməli/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a local family who hosts a foreign student or visitor in their home",
+          "meaning_vi": "gia đình bản xứ tiếp đón (sinh viên trao đổi)",
+          "examples": [
+            {
+              "en": "Her host-family treated her like a daughter.",
+              "vi": "Gia đình tiếp đón coi cô ấy như con gái."
+            },
+            {
+              "en": "Pick a host-family that matches your lifestyle.",
+              "vi": "Chọn host-family hợp với lối sống của bạn."
+            },
+            {
+              "en": "We stayed in touch with our host-family for years.",
+              "vi": "Chúng tôi giữ liên lạc với gia đình tiếp đón nhiều năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["host", "homestay family"],
+      "antonyms": ["solo traveler"],
+      "collocations": [
+        "Vietnamese host-family",
+        "stay with a host-family",
+        "host-family experience",
+        "warm host-family",
+        "match with a host-family"
+      ],
+      "etymology_hint": "Compound: 'host' (Latin 'hospes' = guest/host) + 'family' — exchange-program term from 1950s.",
+      "mnemonic_vi": "HOST (chủ) + FAMILY (gia đình) = gia đình chủ nhà. Host-family experience = trải nghiệm gia đình tiếp đón."
+    },
+    {
+      "word": "ceremony",
+      "lemma": "ceremony",
+      "ipa": "/ˈserəməni/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a formal religious or public event with traditional actions",
+          "meaning_vi": "nghi lễ, buổi lễ trang trọng",
+          "examples": [
+            {
+              "en": "The tea ceremony lasted two hours.",
+              "vi": "Buổi trà lễ kéo dài 2 tiếng."
+            },
+            {
+              "en": "Vietnamese wedding ceremonies have many steps.",
+              "vi": "Lễ cưới Việt có rất nhiều bước."
+            },
+            {
+              "en": "She attended the graduation ceremony with her parents.",
+              "vi": "Cô ấy dự lễ tốt nghiệp cùng bố mẹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ritual", "rite"],
+      "antonyms": ["informal gathering"],
+      "collocations": [
+        "wedding ceremony",
+        "religious ceremony",
+        "traditional ceremony",
+        "opening ceremony",
+        "attend a ceremony"
+      ],
+      "etymology_hint": "From Latin 'caerimonia' = sacred rite — entered English in 14th century.",
+      "mnemonic_vi": "CERE (linh thiêng) + MONY = nghi lễ. Wedding ceremony = lễ cưới."
+    },
+    {
+      "word": "folklore",
+      "lemma": "folklore",
+      "ipa": "/ˈfəʊklɔː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "traditional stories, beliefs, songs, and customs of a culture passed down by word of mouth",
+          "meaning_vi": "văn hóa dân gian (chuyện kể, ca dao, tín ngưỡng)",
+          "examples": [
+            {
+              "en": "Vietnamese folklore is full of dragons and fairies.",
+              "vi": "Văn hóa dân gian Việt đầy rồng và tiên."
+            },
+            {
+              "en": "Folklore preserves a community's values.",
+              "vi": "Văn hóa dân gian giữ giá trị cộng đồng."
+            },
+            {
+              "en": "Grandparents pass folklore to grandchildren.",
+              "vi": "Ông bà truyền dân gian cho cháu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["folk tradition", "lore"],
+      "antonyms": [],
+      "collocations": [
+        "rich folklore",
+        "Vietnamese folklore",
+        "ancient folklore",
+        "folklore tradition",
+        "folklore stories"
+      ],
+      "etymology_hint": "Coined 1846 by English antiquarian William Thoms — 'folk' (people) + 'lore' (knowledge).",
+      "mnemonic_vi": "FOLK (dân) + LORE (kiến thức) = kiến thức dân gian. Vietnamese folklore = dân gian Việt."
+    },
+    {
+      "word": "gesture",
+      "lemma": "gesture",
+      "ipa": "/ˈdʒestʃə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a movement of the hand or head used to express meaning, sometimes culture-specific",
+          "meaning_vi": "cử chỉ (tay/đầu để truyền đạt)",
+          "examples": [
+            {
+              "en": "The thumbs-up gesture is rude in some countries.",
+              "vi": "Cử chỉ giơ ngón cái thô lỗ ở một số nước."
+            },
+            {
+              "en": "Vietnamese rarely use exaggerated hand gestures.",
+              "vi": "Người Việt ít dùng cử chỉ tay phóng đại."
+            },
+            {
+              "en": "A small gesture of kindness goes a long way.",
+              "vi": "Một cử chỉ tử tế nhỏ có giá trị lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motion", "signal"],
+      "antonyms": ["stillness"],
+      "collocations": [
+        "hand gesture",
+        "polite gesture",
+        "kind gesture",
+        "rude gesture",
+        "symbolic gesture"
+      ],
+      "etymology_hint": "From Latin 'gerere' = to carry, manage — body movement that 'carries' meaning.",
+      "mnemonic_vi": "GESTURE đọc 'giét-chờ' — giật cử chỉ ra. Hand gesture = cử chỉ tay."
+    }
+  ]
+}

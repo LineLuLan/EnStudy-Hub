@@ -1,0 +1,769 @@
+{
+  "slug": "critical-thinking",
+  "name": "Critical Thinking",
+  "description": "Tư duy phản biện B1 — scrutinize, skeptical, empirical, credible và 16 từ cho người ham logic.",
+  "order_index": 12,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "logical",
+      "lemma": "logical",
+      "ipa": "/ˈlɒdʒɪkl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "following clear reasoning and making sense",
+          "meaning_vi": "có logic, hợp lý",
+          "examples": [
+            {
+              "en": "Her argument is logical and well-supported.",
+              "vi": "Lập luận của cô ấy logic và được hỗ trợ tốt."
+            },
+            {
+              "en": "Take a logical approach to the problem.",
+              "vi": "Tiếp cận vấn đề theo lối logic."
+            },
+            {
+              "en": "It's logical to save before spending.",
+              "vi": "Hợp lý là tiết kiệm trước khi tiêu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rational", "reasoned", "coherent"],
+      "antonyms": ["illogical", "irrational"],
+      "collocations": [
+        "logical argument",
+        "logical conclusion",
+        "perfectly logical",
+        "logical step",
+        "logical thinking"
+      ],
+      "etymology_hint": "From Greek 'logikos' = of reasoning — root 'logos' (word, reason).",
+      "mnemonic_vi": "LOGIC + AL = thuộc logic. Logical conclusion = kết luận hợp logic."
+    },
+    {
+      "word": "irrational",
+      "lemma": "irrational",
+      "ipa": "/ɪˈræʃənl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not based on clear thinking or reason; driven by emotion or fear",
+          "meaning_vi": "phi lý, không có lý",
+          "examples": [
+            {
+              "en": "His irrational fear of flying keeps him grounded.",
+              "vi": "Nỗi sợ bay phi lý khiến anh ấy không dám bay."
+            },
+            {
+              "en": "Irrational decisions often happen under stress.",
+              "vi": "Quyết định phi lý thường xảy ra khi căng thẳng."
+            },
+            {
+              "en": "Markets can move in irrational ways.",
+              "vi": "Thị trường có thể vận động phi lý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["illogical", "unreasonable"],
+      "antonyms": ["rational", "logical"],
+      "collocations": [
+        "irrational fear",
+        "irrational behavior",
+        "deeply irrational",
+        "irrational decision",
+        "irrational thought"
+      ],
+      "etymology_hint": "Prefix 'ir-' (not) + 'rational' (Latin 'ratio' = reason).",
+      "mnemonic_vi": "IR (không) + RATIONAL (hợp lý) = phi lý. Irrational fear = nỗi sợ phi lý."
+    },
+    {
+      "word": "skeptical",
+      "lemma": "skeptical",
+      "ipa": "/ˈskeptɪkl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "doubting claims and demanding evidence before believing",
+          "meaning_vi": "hoài nghi, đòi bằng chứng",
+          "examples": [
+            {
+              "en": "Be skeptical of viral health claims online.",
+              "vi": "Hãy hoài nghi các tuyên bố sức khỏe viral online."
+            },
+            {
+              "en": "Scientists must remain skeptical of their own data.",
+              "vi": "Nhà khoa học phải luôn hoài nghi với dữ liệu của mình."
+            },
+            {
+              "en": "She gave him a skeptical look.",
+              "vi": "Cô ấy nhìn anh ấy với ánh mắt hoài nghi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doubtful", "questioning"],
+      "antonyms": ["credulous", "gullible"],
+      "collocations": [
+        "skeptical of",
+        "highly skeptical",
+        "skeptical view",
+        "remain skeptical",
+        "skeptical look"
+      ],
+      "etymology_hint": "From Greek 'skeptikos' = inquiring — ancient Skeptic philosophers doubted all claims.",
+      "mnemonic_vi": "SKEPT (nghi) + ICAL = thuộc hoài nghi. Be skeptical of = hoài nghi về."
+    },
+    {
+      "word": "scrutinize",
+      "lemma": "scrutinize",
+      "ipa": "/ˈskruːtɪnaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to examine something very carefully and critically",
+          "meaning_vi": "xem xét kỹ lưỡng, soi xét",
+          "examples": [
+            {
+              "en": "Auditors scrutinize every receipt.",
+              "vi": "Kiểm toán soi xét từng hóa đơn."
+            },
+            {
+              "en": "She scrutinized the contract before signing.",
+              "vi": "Cô ấy xem xét kỹ hợp đồng trước khi ký."
+            },
+            {
+              "en": "Voters scrutinize candidates' past statements.",
+              "vi": "Cử tri soi các tuyên bố trước đây của ứng viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["examine", "inspect", "study closely"],
+      "antonyms": ["overlook", "skim"],
+      "collocations": [
+        "carefully scrutinize",
+        "scrutinize the data",
+        "scrutinize closely",
+        "scrutinize evidence",
+        "publicly scrutinize"
+      ],
+      "etymology_hint": "From Latin 'scrutari' = to search through (originally rummaging in rags) — 'scruta' (trash).",
+      "mnemonic_vi": "SCRUT (kỹ) + INIZE = xem xét kỹ. Scrutinize the data = soi xét dữ liệu."
+    },
+    {
+      "word": "presume",
+      "lemma": "presume",
+      "ipa": "/prɪˈzjuːm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to assume something is true without proof, often as a starting point",
+          "meaning_vi": "giả định, cho là (chưa chứng minh)",
+          "examples": [
+            {
+              "en": "I presume you've already read the report.",
+              "vi": "Tôi cho là bạn đã đọc báo cáo rồi."
+            },
+            {
+              "en": "Don't presume guilt before seeing evidence.",
+              "vi": "Đừng cho là có tội trước khi thấy bằng chứng."
+            },
+            {
+              "en": "She presumed the meeting would be at the usual time.",
+              "vi": "Cô ấy cho là cuộc họp sẽ ở giờ thường lệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assume", "suppose"],
+      "antonyms": ["doubt", "verify"],
+      "collocations": [
+        "presume innocent",
+        "presume the worst",
+        "presume to know",
+        "safely presume",
+        "presume guilt"
+      ],
+      "etymology_hint": "From Latin 'praesumere' = to take beforehand — 'prae-' (before) + 'sumere' (take).",
+      "mnemonic_vi": "PRE (trước) + SUME (lấy) = lấy trước khi chắc. Presume innocent = giả định vô tội."
+    },
+    {
+      "word": "critique",
+      "lemma": "critique",
+      "ipa": "/krɪˈtiːk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give a careful analysis pointing out strengths and weaknesses",
+          "meaning_vi": "phê bình, đánh giá phân tích",
+          "examples": [
+            {
+              "en": "Peers critique each other's research drafts.",
+              "vi": "Đồng nghiệp phê bình bản nháp nghiên cứu của nhau."
+            },
+            {
+              "en": "She critiqued the policy point by point.",
+              "vi": "Cô ấy phê bình chính sách từng điểm một."
+            },
+            {
+              "en": "Constructive critique helps writers improve.",
+              "vi": "Phê bình mang tính xây dựng giúp người viết tiến bộ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["review", "analyze", "assess"],
+      "antonyms": ["praise blindly"],
+      "collocations": [
+        "critique a paper",
+        "constructive critique",
+        "harsh critique",
+        "literary critique",
+        "publicly critique"
+      ],
+      "etymology_hint": "From Greek 'kritikos' = able to discern — same root as 'criticism' but more formal/analytical.",
+      "mnemonic_vi": "CRITIQUE đọc 'kri-tíc' — chứ tích cực phân tích. Constructive critique = phê bình xây dựng."
+    },
+    {
+      "word": "verify",
+      "lemma": "verify",
+      "ipa": "/ˈverɪfaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to check that something is true or correct",
+          "meaning_vi": "xác minh, kiểm chứng",
+          "examples": [
+            {
+              "en": "Verify the source before sharing news.",
+              "vi": "Xác minh nguồn trước khi chia sẻ tin."
+            },
+            {
+              "en": "She verified the data with three independent samples.",
+              "vi": "Cô ấy xác minh dữ liệu bằng 3 mẫu độc lập."
+            },
+            {
+              "en": "Banks verify your identity by ID and selfie.",
+              "vi": "Ngân hàng xác minh danh tính bằng CMND và selfie."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["confirm", "validate", "double-check"],
+      "antonyms": ["assume", "doubt"],
+      "collocations": [
+        "verify the source",
+        "verify identity",
+        "independently verify",
+        "verify the claim",
+        "easily verify"
+      ],
+      "etymology_hint": "From Latin 'verus' (true) + 'facere' (make) — 'make true'.",
+      "mnemonic_vi": "VERI (thật) + FY (làm) = làm cho thật. Verify the source = xác minh nguồn."
+    },
+    {
+      "word": "rationalize",
+      "lemma": "rationalize",
+      "ipa": "/ˈræʃənəlaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to try to explain or justify a decision by giving logical-sounding reasons (often after the fact)",
+          "meaning_vi": "tự lý giải / biện minh (cho hành động đã làm)",
+          "examples": [
+            {
+              "en": "He rationalized skipping the gym by claiming he was tired.",
+              "vi": "Anh ấy biện minh bỏ tập gym bằng cách bảo mình mệt."
+            },
+            {
+              "en": "We often rationalize impulse purchases later.",
+              "vi": "Chúng ta thường biện minh các vụ mua bốc đồng sau đó."
+            },
+            {
+              "en": "Don't rationalize bad behavior — own it.",
+              "vi": "Đừng biện minh hành vi xấu — hãy nhận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["justify", "excuse"],
+      "antonyms": ["own up", "admit"],
+      "collocations": [
+        "rationalize a decision",
+        "rationalize behavior",
+        "easily rationalize",
+        "post-hoc rationalize",
+        "rationalize the choice"
+      ],
+      "etymology_hint": "From 'rational' + '-ize' — psychology coined 'rationalization' as defense mechanism (Freud, early 20th century).",
+      "mnemonic_vi": "RATIONAL (lý lẽ) + IZE = biến thành có lý. Rationalize a decision = biện minh cho quyết định."
+    },
+    {
+      "word": "ponder",
+      "lemma": "ponder",
+      "ipa": "/ˈpɒndə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to think about something carefully for some time",
+          "meaning_vi": "suy ngẫm, cân nhắc",
+          "examples": [
+            {
+              "en": "She pondered the offer for a week before accepting.",
+              "vi": "Cô ấy suy ngẫm lời đề nghị một tuần trước khi nhận."
+            },
+            {
+              "en": "He pondered every word before answering.",
+              "vi": "Anh ấy cân nhắc từng từ trước khi trả lời."
+            },
+            {
+              "en": "Pondering big life choices takes time.",
+              "vi": "Suy ngẫm những lựa chọn lớn cần thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contemplate", "reflect", "mull over"],
+      "antonyms": ["act impulsively"],
+      "collocations": [
+        "ponder a question",
+        "deeply ponder",
+        "ponder the meaning",
+        "ponder for a moment",
+        "ponder over"
+      ],
+      "etymology_hint": "From Latin 'ponderare' = to weigh — root 'pondus' (weight). Mental weighing of ideas.",
+      "mnemonic_vi": "PONDER đọc 'pôn-đơ' — bôn-đơ cân tâm trí. Ponder a question = suy ngẫm câu hỏi."
+    },
+    {
+      "word": "deliberate",
+      "lemma": "deliberate",
+      "ipa": "/dɪˈlɪbərət/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "done with careful thought and intention, not by accident",
+          "meaning_vi": "có chủ ý, cố ý (qua suy xét)",
+          "examples": [
+            {
+              "en": "It was a deliberate choice, not an accident.",
+              "vi": "Đó là lựa chọn có chủ ý, không phải tình cờ."
+            },
+            {
+              "en": "She works at a slow, deliberate pace.",
+              "vi": "Cô ấy làm việc với nhịp chậm, có chủ ý."
+            },
+            {
+              "en": "His deliberate silence said more than words.",
+              "vi": "Sự im lặng có chủ ý của anh ấy nói nhiều hơn lời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intentional", "thoughtful", "measured"],
+      "antonyms": ["accidental", "rash"],
+      "collocations": [
+        "deliberate choice",
+        "deliberate action",
+        "deliberate pace",
+        "carefully deliberate",
+        "deliberate decision"
+      ],
+      "etymology_hint": "From Latin 'deliberare' = to weigh carefully — 'de-' + 'librare' (to balance).",
+      "mnemonic_vi": "DELIBER (cân nhắc) + ATE = đã cân nhắc. Deliberate choice = lựa chọn có chủ ý."
+    },
+    {
+      "word": "anecdotal",
+      "lemma": "anecdotal",
+      "ipa": "/ˌænɪkˈdəʊtl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "based on personal stories rather than scientific research or solid data",
+          "meaning_vi": "dựa trên câu chuyện cá nhân (không phải nghiên cứu)",
+          "examples": [
+            {
+              "en": "Her evidence is anecdotal — not statistically valid.",
+              "vi": "Bằng chứng của cô ấy chỉ là câu chuyện — không có giá trị thống kê."
+            },
+            {
+              "en": "Anecdotal reports led to a formal study.",
+              "vi": "Báo cáo dạng giai thoại dẫn tới nghiên cứu chính thức."
+            },
+            {
+              "en": "Don't rely on anecdotal proof.",
+              "vi": "Đừng dựa vào bằng chứng dạng giai thoại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["story-based", "informal"],
+      "antonyms": ["empirical", "data-based"],
+      "collocations": [
+        "anecdotal evidence",
+        "purely anecdotal",
+        "anecdotal report",
+        "anecdotal claim",
+        "rely on anecdotal"
+      ],
+      "etymology_hint": "From Greek 'anekdota' = unpublished things — adjective form of 'anecdote'.",
+      "mnemonic_vi": "ANECDOT (giai thoại) + AL = thuộc giai thoại. Anecdotal evidence = bằng chứng giai thoại."
+    },
+    {
+      "word": "empirical",
+      "lemma": "empirical",
+      "ipa": "/ɪmˈpɪrɪkl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "based on observation, experiment, or experience rather than theory",
+          "meaning_vi": "dựa trên quan sát, thực nghiệm",
+          "examples": [
+            {
+              "en": "Empirical evidence supports her hypothesis.",
+              "vi": "Bằng chứng thực nghiệm ủng hộ giả thuyết của cô ấy."
+            },
+            {
+              "en": "Science values empirical data over opinion.",
+              "vi": "Khoa học coi trọng dữ liệu thực nghiệm hơn quan điểm."
+            },
+            {
+              "en": "His claim lacks empirical support.",
+              "vi": "Tuyên bố của anh ấy thiếu cơ sở thực nghiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["observational", "experimental", "evidence-based"],
+      "antonyms": ["theoretical", "anecdotal"],
+      "collocations": [
+        "empirical evidence",
+        "empirical data",
+        "empirical research",
+        "empirical study",
+        "empirical support"
+      ],
+      "etymology_hint": "From Greek 'empeirikos' = experienced — root 'peira' (trial, experience).",
+      "mnemonic_vi": "EMPIR (kinh nghiệm) + ICAL = thuộc kinh nghiệm. Empirical evidence = bằng chứng thực nghiệm."
+    },
+    {
+      "word": "credible",
+      "lemma": "credible",
+      "ipa": "/ˈkredəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to be believed; trustworthy",
+          "meaning_vi": "đáng tin, có thể tin được",
+          "examples": [
+            {
+              "en": "Cite only credible sources in your essay.",
+              "vi": "Chỉ trích nguồn đáng tin trong bài luận."
+            },
+            {
+              "en": "Her story sounded credible despite being odd.",
+              "vi": "Câu chuyện của cô ấy nghe đáng tin dù kỳ lạ."
+            },
+            {
+              "en": "Witnesses need to be credible in court.",
+              "vi": "Nhân chứng cần phải đáng tin trước tòa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["believable", "trustworthy", "reliable"],
+      "antonyms": ["incredible", "implausible"],
+      "collocations": [
+        "credible source",
+        "credible witness",
+        "highly credible",
+        "credible evidence",
+        "credible threat"
+      ],
+      "etymology_hint": "From Latin 'credibilis' = worthy of belief — root 'credere' (believe).",
+      "mnemonic_vi": "CRED (tin) + IBLE = có thể tin. Credible source = nguồn đáng tin."
+    },
+    {
+      "word": "reliable",
+      "lemma": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to be trusted to give correct or consistent information",
+          "meaning_vi": "đáng tin cậy, chính xác",
+          "examples": [
+            {
+              "en": "Use reliable sources for your research.",
+              "vi": "Dùng nguồn đáng tin cậy cho nghiên cứu."
+            },
+            {
+              "en": "Her car is old but reliable.",
+              "vi": "Xe của cô ấy cũ nhưng đáng tin cậy."
+            },
+            {
+              "en": "Reliable data leads to reliable conclusions.",
+              "vi": "Dữ liệu đáng tin dẫn đến kết luận đáng tin."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trustworthy", "dependable", "consistent"],
+      "antonyms": ["unreliable", "untrustworthy"],
+      "collocations": [
+        "reliable source",
+        "reliable data",
+        "highly reliable",
+        "reliable witness",
+        "reliable information"
+      ],
+      "etymology_hint": "From 'rely' (Old French 'relier' = bind back) + '-able' — 'able to be relied on'.",
+      "mnemonic_vi": "RELY (dựa) + ABLE = có thể dựa vào. Reliable source = nguồn đáng tin."
+    },
+    {
+      "word": "oversimplify",
+      "lemma": "oversimplify",
+      "ipa": "/ˌəʊvəˈsɪmplɪfaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make something seem simpler than it really is, losing important detail",
+          "meaning_vi": "đơn giản hóa thái quá (mất đi sự phức tạp thực)",
+          "examples": [
+            {
+              "en": "Don't oversimplify climate science to a single number.",
+              "vi": "Đừng đơn giản hóa khoa học khí hậu thành một con số."
+            },
+            {
+              "en": "News headlines often oversimplify complex issues.",
+              "vi": "Tít báo thường đơn giản hóa các vấn đề phức tạp."
+            },
+            {
+              "en": "Oversimplifying history leads to bad conclusions.",
+              "vi": "Đơn giản hóa lịch sử thái quá dẫn tới kết luận sai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dumb down", "reduce"],
+      "antonyms": ["nuance", "complicate"],
+      "collocations": [
+        "oversimplify the issue",
+        "oversimplify history",
+        "tend to oversimplify",
+        "oversimplify a problem",
+        "dangerously oversimplify"
+      ],
+      "etymology_hint": "Prefix 'over-' (excessive) + 'simplify' — modern compound highlighting loss of nuance.",
+      "mnemonic_vi": "OVER (quá) + SIMPLIFY (đơn giản) = đơn giản quá. Oversimplify the issue = đơn giản hóa thái quá vấn đề."
+    },
+    {
+      "word": "mislead",
+      "lemma": "mislead",
+      "ipa": "/ˌmɪsˈliːd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give a wrong idea or impression, often on purpose",
+          "meaning_vi": "đánh lừa, dẫn dắt sai",
+          "examples": [
+            {
+              "en": "The ad misled customers about side effects.",
+              "vi": "Quảng cáo đánh lừa khách hàng về tác dụng phụ."
+            },
+            {
+              "en": "Don't be misled by clickbait headlines.",
+              "vi": "Đừng bị đánh lừa bởi tít clickbait."
+            },
+            {
+              "en": "Misleading statistics damage public trust.",
+              "vi": "Số liệu đánh lừa làm tổn hại lòng tin công chúng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deceive", "misinform"],
+      "antonyms": ["enlighten", "inform truthfully"],
+      "collocations": [
+        "deliberately mislead",
+        "mislead the public",
+        "misleading advertisement",
+        "mislead about",
+        "feel misled"
+      ],
+      "etymology_hint": "Prefix 'mis-' (wrong) + 'lead' (Old English 'lædan' = to guide) — guide wrongly.",
+      "mnemonic_vi": "MIS (sai) + LEAD (dẫn) = dẫn sai. Mislead the public = đánh lừa công chúng."
+    },
+    {
+      "word": "manipulate",
+      "lemma": "manipulate",
+      "ipa": "/məˈnɪpjʊleɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to control or influence someone or something cleverly, often unfairly",
+          "meaning_vi": "thao túng, lèo lái",
+          "examples": [
+            {
+              "en": "He manipulated the data to support his theory.",
+              "vi": "Anh ấy thao túng dữ liệu để ủng hộ thuyết của mình."
+            },
+            {
+              "en": "Social media can manipulate public opinion.",
+              "vi": "Mạng xã hội có thể thao túng dư luận."
+            },
+            {
+              "en": "Don't let anyone manipulate your emotions.",
+              "vi": "Đừng để ai thao túng cảm xúc của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["control", "exploit", "influence unfairly"],
+      "antonyms": ["respect", "let be"],
+      "collocations": [
+        "manipulate data",
+        "emotionally manipulate",
+        "manipulate the market",
+        "manipulate opinion",
+        "cleverly manipulate"
+      ],
+      "etymology_hint": "From Latin 'manus' (hand) + 'plere' (fill) — literally 'handling'; pejorative sense from 18th century.",
+      "mnemonic_vi": "MANI (tay) + PULATE = nhúng tay vào. Manipulate data = thao túng dữ liệu."
+    },
+    {
+      "word": "dogma",
+      "lemma": "dogma",
+      "ipa": "/ˈdɒɡmə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of beliefs accepted as absolute truth without question",
+          "meaning_vi": "giáo điều (niềm tin tuyệt đối không cho phép nghi ngờ)",
+          "examples": [
+            {
+              "en": "Question the dogma of your own field.",
+              "vi": "Hãy hỏi lại giáo điều trong ngành của mình."
+            },
+            {
+              "en": "Religious dogma resists scientific challenge.",
+              "vi": "Giáo điều tôn giáo kháng lại thách thức khoa học."
+            },
+            {
+              "en": "Old dogmas can hold back innovation.",
+              "vi": "Giáo điều cũ kìm hãm đổi mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doctrine", "tenet"],
+      "antonyms": ["open inquiry", "skepticism"],
+      "collocations": [
+        "religious dogma",
+        "political dogma",
+        "challenge dogma",
+        "accept as dogma",
+        "rigid dogma"
+      ],
+      "etymology_hint": "From Greek 'dogma' = opinion, decree — originally 'what seems good'.",
+      "mnemonic_vi": "DOGMA đọc 'đốc-ma' — đóc ma đè đầu. Religious dogma = giáo điều tôn giáo."
+    },
+    {
+      "word": "qualify",
+      "lemma": "qualify",
+      "ipa": "/ˈkwɒlɪfaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to add a condition or limit to a statement to make it more accurate",
+          "meaning_vi": "giới hạn lại / điều kiện hóa (cho phát ngôn chính xác hơn)",
+          "examples": [
+            {
+              "en": "Let me qualify that — I meant most cases, not all.",
+              "vi": "Để tôi nói thêm — ý tôi là phần lớn, không phải tất cả."
+            },
+            {
+              "en": "Good writers qualify bold claims with evidence.",
+              "vi": "Người viết giỏi giới hạn các tuyên bố mạnh bằng bằng chứng."
+            },
+            {
+              "en": "She qualified her praise with two criticisms.",
+              "vi": "Cô ấy giới hạn lời khen bằng 2 lời chê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clarify", "limit", "modify"],
+      "antonyms": ["overgeneralize"],
+      "collocations": [
+        "qualify a statement",
+        "qualify the claim",
+        "carefully qualify",
+        "qualify with",
+        "qualify the answer"
+      ],
+      "etymology_hint": "From Latin 'qualis' (of what kind) + 'facere' (make) — 'specify the kind'.",
+      "mnemonic_vi": "QUALITY (loại, đặc tính) + FY (làm) = đặt loại/giới hạn. Qualify a statement = giới hạn phát ngôn."
+    },
+    {
+      "word": "dispute",
+      "lemma": "dispute",
+      "ipa": "/dɪˈspjuːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to argue against a claim or fact",
+          "meaning_vi": "phản bác, tranh cãi (về một điều)",
+          "examples": [
+            {
+              "en": "Scientists still dispute the cause of the anomaly.",
+              "vi": "Các nhà khoa học vẫn tranh cãi về nguyên nhân của bất thường."
+            },
+            {
+              "en": "She disputed the bill on her credit card.",
+              "vi": "Cô ấy tranh cãi hóa đơn trên thẻ tín dụng."
+            },
+            {
+              "en": "Few would dispute the importance of sleep.",
+              "vi": "Ít ai phản bác tầm quan trọng của giấc ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["challenge", "contest", "argue against"],
+      "antonyms": ["agree", "accept"],
+      "collocations": [
+        "dispute a claim",
+        "dispute the findings",
+        "publicly dispute",
+        "hotly disputed",
+        "dispute the bill"
+      ],
+      "etymology_hint": "From Latin 'disputare' = to discuss — 'dis-' (apart) + 'putare' (think, weigh).",
+      "mnemonic_vi": "DISPUTE đọc 'đi-spiut' — đi tranh cãi. Dispute a claim = phản bác tuyên bố."
+    }
+  ]
+}
