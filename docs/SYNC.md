@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `09a3db8`               | base                   | 2026-05-17 (`09a3db8`) | P7a A2 expansion — 5 lessons / 100 cards merged           |
-| be     | `eb4c659`               | 2026-05-17 (`c32fc1e`) | 2026-05-17 (`eb4c659`) | P7a content commit on be                                  |
-| fe     | `f9bed4d`               | 2026-05-17 (`f9bed4d`) | 2026-05-17 (`c9fe61a`) | sync P7a content — 1440 cards live on Supabase            |
+| dev    | `c99d978`               | base                   | 2026-05-17 (`c99d978`) | P7b A2 expansion — 5 lessons / 100 cards merged           |
+| be     | `f009659`               | 2026-05-17             | 2026-05-17 (`f009659`) | P7b content commit on be                                  |
+| fe     | `955f4f2`               | 2026-05-17 (`955f4f2`) | 2026-05-17 (`c9fe61a`) | sync P7b content — 1540 cards live on Supabase            |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -231,3 +231,7 @@ git checkout fe
 | 2026-05-17 | commit | (P7a content) → be   | `eb4c659` | feat(content): P7a A2 expansion — 5 lessons (100 cards)                   |
 | 2026-05-17 | merge  | be → dev             | `09a3db8` | merge: be → dev (P7a A2 expansion — 5 lessons / 100 cards)                |
 | 2026-05-17 | sync   | dev → fe             | `f9bed4d` | sync: dev → fe (P7a content) — 1440 cards seeded live                     |
+| 2026-05-17 | commit | (P7a docs) → dev     | `093d58b` | docs(content): P7a A2 expansion ship — 72/192 lessons / 1440 cards (37%)  |
+| 2026-05-17 | commit | (P7b content) → be   | `f009659` | feat(content): P7b A2 expansion — 5 lessons (100 cards)                   |
+| 2026-05-17 | merge  | be → dev             | `c99d978` | merge: be → dev (P7b A2 expansion — 5 lessons / 100 cards)                |
+| 2026-05-17 | sync   | dev → fe             | `955f4f2` | sync: dev → fe (P7b content) — 1540 cards seeded live                     |
