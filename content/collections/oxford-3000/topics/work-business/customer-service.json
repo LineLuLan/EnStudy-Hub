@@ -1,0 +1,769 @@
+{
+  "slug": "customer-service",
+  "name": "Customer Service",
+  "description": "Chăm sóc khách hàng B1 — helpdesk, warranty, callback, troubleshoot và 16 từ cho dân CS.",
+  "order_index": 15,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "replacement",
+      "lemma": "replacement",
+      "ipa": "/rɪˈpleɪsmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a new item given to a customer to replace a faulty or broken one",
+          "meaning_vi": "hàng thay thế (đổi cho khách)",
+          "examples": [
+            {
+              "en": "She got a free replacement for the broken phone.",
+              "vi": "Cô ấy được đổi điện thoại hỏng miễn phí."
+            },
+            {
+              "en": "Replacement takes 5-7 business days.",
+              "vi": "Đổi hàng mất 5-7 ngày làm việc."
+            },
+            {
+              "en": "Vietnamese retailers issue replacements quickly.",
+              "vi": "Hàng quán Việt đổi hàng nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["substitute"],
+      "antonyms": ["original"],
+      "collocations": [
+        "free replacement",
+        "issue a replacement",
+        "request a replacement",
+        "replacement product",
+        "warranty replacement"
+      ],
+      "etymology_hint": "From 'replace' (Latin 're-' + 'placea' = place again) + '-ment'.",
+      "mnemonic_vi": "REPLACE (thay) + MENT = sự thay. Free replacement = đổi miễn phí."
+    },
+    {
+      "word": "queue",
+      "lemma": "queue",
+      "ipa": "/kjuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a line of people or calls waiting for service",
+          "meaning_vi": "hàng đợi (khách / cuộc gọi)",
+          "examples": [
+            {
+              "en": "The call queue is 12 minutes today.",
+              "vi": "Hàng đợi cuộc gọi 12 phút hôm nay."
+            },
+            {
+              "en": "Join the queue for the morning hotline.",
+              "vi": "Vào hàng đợi hotline buổi sáng."
+            },
+            {
+              "en": "Vietnamese banks have separate VIP queues.",
+              "vi": "Ngân hàng Việt có hàng đợi VIP riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["line", "wait list"],
+      "antonyms": ["no wait"],
+      "collocations": [
+        "join the queue",
+        "call queue",
+        "long queue",
+        "priority queue",
+        "queue time"
+      ],
+      "etymology_hint": "From French 'queue' = tail — meaning 'line of people' from 18th century, originally British.",
+      "mnemonic_vi": "QUEUE đọc 'kiu' — xếp tù tù chờ. Join the queue = xếp hàng."
+    },
+    {
+      "word": "helpdesk",
+      "lemma": "helpdesk",
+      "ipa": "/ˈhelpdesk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a service that answers customer questions and solves problems, usually by phone or chat",
+          "meaning_vi": "bộ phận hỗ trợ (giải đáp / xử lý sự cố)",
+          "examples": [
+            {
+              "en": "Call the helpdesk if your password resets fail.",
+              "vi": "Gọi helpdesk nếu đặt lại mật khẩu thất bại."
+            },
+            {
+              "en": "The helpdesk operates 24/7.",
+              "vi": "Helpdesk hoạt động 24/7."
+            },
+            {
+              "en": "Many Vietnamese helpdesks now use chatbots.",
+              "vi": "Nhiều helpdesk Việt giờ dùng chatbot."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["support desk", "tech support"],
+      "antonyms": ["self-service"],
+      "collocations": [
+        "call the helpdesk",
+        "helpdesk ticket",
+        "helpdesk agent",
+        "internal helpdesk",
+        "helpdesk software"
+      ],
+      "etymology_hint": "Compound: 'help' + 'desk' — IT industry term from 1980s.",
+      "mnemonic_vi": "HELP (giúp) + DESK (bàn) = bàn giúp. Call the helpdesk = gọi helpdesk."
+    },
+    {
+      "word": "agent",
+      "lemma": "agent",
+      "ipa": "/ˈeɪdʒənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who helps customers, usually over the phone or chat",
+          "meaning_vi": "nhân viên chăm sóc khách hàng",
+          "examples": [
+            {
+              "en": "The agent solved my issue in under a minute.",
+              "vi": "Nhân viên giải quyết vấn đề của tôi trong chưa đầy 1 phút."
+            },
+            {
+              "en": "Speak to a senior agent if needed.",
+              "vi": "Yêu cầu gặp nhân viên cấp cao nếu cần."
+            },
+            {
+              "en": "Agents handle 50-100 calls per day.",
+              "vi": "Nhân viên xử lý 50-100 cuộc gọi mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["representative", "rep"],
+      "antonyms": ["customer"],
+      "collocations": [
+        "customer service agent",
+        "senior agent",
+        "speak to an agent",
+        "live agent",
+        "call center agent"
+      ],
+      "etymology_hint": "From Latin 'agens' = one who acts — service-industry sense from 1900s.",
+      "mnemonic_vi": "AGENT đọc 'ây-giần' — đại lý giúp khách. Customer service agent = nhân viên CS."
+    },
+    {
+      "word": "satisfaction",
+      "lemma": "satisfaction",
+      "ipa": "/ˌsætɪsˈfækʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "how happy a customer feels after using a product or service",
+          "meaning_vi": "sự hài lòng (của khách hàng)",
+          "examples": [
+            {
+              "en": "Customer satisfaction scores rose to 92%.",
+              "vi": "Điểm hài lòng khách lên 92%."
+            },
+            {
+              "en": "Their satisfaction guarantee covers full refunds.",
+              "vi": "Cam kết hài lòng của họ bảo đảm hoàn tiền."
+            },
+            {
+              "en": "Survey customers to measure satisfaction.",
+              "vi": "Khảo sát khách để đo sự hài lòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contentment", "happiness"],
+      "antonyms": ["dissatisfaction", "complaint"],
+      "collocations": [
+        "customer satisfaction",
+        "satisfaction guarantee",
+        "satisfaction survey",
+        "high satisfaction",
+        "satisfaction rating"
+      ],
+      "etymology_hint": "From Latin 'satisfacere' = to do enough — 'satis' (enough) + 'facere' (do).",
+      "mnemonic_vi": "SATISFY (làm hài lòng) + ACTION = sự hài lòng. Customer satisfaction = hài lòng khách."
+    },
+    {
+      "word": "warranty",
+      "lemma": "warranty",
+      "ipa": "/ˈwɒrənti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a promise from the seller to repair or replace a product within a set time",
+          "meaning_vi": "bảo hành",
+          "examples": [
+            {
+              "en": "The phone has a 12-month warranty.",
+              "vi": "Điện thoại có bảo hành 12 tháng."
+            },
+            {
+              "en": "Keep your receipt to claim the warranty.",
+              "vi": "Giữ hóa đơn để được bảo hành."
+            },
+            {
+              "en": "Extended warranty costs 10% extra.",
+              "vi": "Bảo hành mở rộng tính thêm 10%."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["guarantee"],
+      "antonyms": ["as-is sale"],
+      "collocations": [
+        "extended warranty",
+        "warranty period",
+        "under warranty",
+        "warranty claim",
+        "lifetime warranty"
+      ],
+      "etymology_hint": "From Old Norman French 'warantie' = protection — same root as 'guarantee'.",
+      "mnemonic_vi": "WARRANT (đảm bảo) + Y = sự bảo hành. Under warranty = trong thời hạn bảo hành."
+    },
+    {
+      "word": "hotline",
+      "lemma": "hotline",
+      "ipa": "/ˈhɒtlaɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a phone number customers can call for fast help or information",
+          "meaning_vi": "đường dây nóng",
+          "examples": [
+            {
+              "en": "Call the hotline for emergencies.",
+              "vi": "Gọi đường dây nóng khi khẩn cấp."
+            },
+            {
+              "en": "Vietnamese banks publish hotlines on every card.",
+              "vi": "Ngân hàng Việt in hotline lên mọi thẻ."
+            },
+            {
+              "en": "The hotline is open 24 hours.",
+              "vi": "Đường dây nóng mở 24 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["helpline"],
+      "antonyms": [],
+      "collocations": [
+        "call the hotline",
+        "customer hotline",
+        "24-hour hotline",
+        "support hotline",
+        "emergency hotline"
+      ],
+      "etymology_hint": "Compound: 'hot' (urgent) + 'line' (phone connection) — Cold War term for US-USSR direct phone, 1963.",
+      "mnemonic_vi": "HOT (nóng) + LINE (đường) = đường nóng. Customer hotline = hotline khách."
+    },
+    {
+      "word": "FAQ",
+      "lemma": "FAQ",
+      "ipa": "/ˌefeɪˈkjuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Frequently Asked Questions — a list of common questions and answers on a website",
+          "meaning_vi": "FAQ, câu hỏi thường gặp",
+          "examples": [
+            {
+              "en": "Check the FAQ before contacting support.",
+              "vi": "Xem FAQ trước khi liên hệ hỗ trợ."
+            },
+            {
+              "en": "A good FAQ cuts support tickets in half.",
+              "vi": "FAQ tốt giảm nửa số ticket hỗ trợ."
+            },
+            {
+              "en": "Update the FAQ as questions change.",
+              "vi": "Cập nhật FAQ khi câu hỏi thay đổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["common questions"],
+      "antonyms": [],
+      "collocations": [
+        "FAQ page",
+        "check the FAQ",
+        "update FAQ",
+        "comprehensive FAQ",
+        "FAQ section"
+      ],
+      "etymology_hint": "Acronym popular on early internet (1980s Usenet) — pronounced as letters or 'fack'.",
+      "mnemonic_vi": "FAQ = 'ép-ây-kiu' — Frequently Asked Questions. FAQ page = trang FAQ."
+    },
+    {
+      "word": "apology",
+      "lemma": "apology",
+      "ipa": "/əˈpɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statement saying you are sorry for a problem or mistake",
+          "meaning_vi": "lời xin lỗi",
+          "examples": [
+            {
+              "en": "A sincere apology calms angry customers.",
+              "vi": "Lời xin lỗi chân thành xoa dịu khách giận."
+            },
+            {
+              "en": "The CEO issued a public apology.",
+              "vi": "CEO đưa lời xin lỗi công khai."
+            },
+            {
+              "en": "Empty apologies make things worse.",
+              "vi": "Xin lỗi suông làm tệ hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sorry message"],
+      "antonyms": ["denial"],
+      "collocations": [
+        "sincere apology",
+        "public apology",
+        "issue an apology",
+        "formal apology",
+        "accept an apology"
+      ],
+      "etymology_hint": "From Greek 'apologia' = a defense speech — meaning shifted to 'sorry' in 16th century.",
+      "mnemonic_vi": "APOLOGY đọc 'a-pô-lờ-gi' — anh phỗng lỡ. Public apology = xin lỗi công khai."
+    },
+    {
+      "word": "courteous",
+      "lemma": "courteous",
+      "ipa": "/ˈkɜːtiəs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "polite and respectful, especially when dealing with people",
+          "meaning_vi": "lịch sự, nhã nhặn",
+          "examples": [
+            {
+              "en": "Stay courteous even with rude callers.",
+              "vi": "Giữ nhã nhặn ngay cả với khách thô lỗ."
+            },
+            {
+              "en": "Courteous service builds repeat customers.",
+              "vi": "Phục vụ nhã nhặn tạo khách quay lại."
+            },
+            {
+              "en": "A courteous tone wins more than the right answer.",
+              "vi": "Giọng nhã nhặn thắng cả câu trả lời đúng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["polite", "respectful"],
+      "antonyms": ["rude", "discourteous"],
+      "collocations": [
+        "courteous service",
+        "remain courteous",
+        "courteous staff",
+        "courteous tone",
+        "polite and courteous"
+      ],
+      "etymology_hint": "From Old French 'corteis' = of the court — manners learned at royal courts.",
+      "mnemonic_vi": "COURT (cung điện) + EOUS = lịch sự kiểu cung đình. Courteous service = phục vụ nhã nhặn."
+    },
+    {
+      "word": "inquiry",
+      "lemma": "inquiry",
+      "ipa": "/ɪnˈkwaɪəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a question asking for information from a company",
+          "meaning_vi": "yêu cầu thông tin (từ khách)",
+          "examples": [
+            {
+              "en": "Respond to every inquiry within 24 hours.",
+              "vi": "Trả lời mọi inquiry trong 24 giờ."
+            },
+            {
+              "en": "Submit inquiries through the contact form.",
+              "vi": "Nộp yêu cầu qua form liên hệ."
+            },
+            {
+              "en": "Sales inquiries jump 30% during Tết.",
+              "vi": "Yêu cầu mua tăng 30% dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["query", "request"],
+      "antonyms": ["answer"],
+      "collocations": [
+        "customer inquiry",
+        "respond to inquiries",
+        "sales inquiry",
+        "submit an inquiry",
+        "general inquiry"
+      ],
+      "etymology_hint": "From Latin 'inquirere' = to seek into — 'in-' + 'quaerere' (seek).",
+      "mnemonic_vi": "INQUIRY đọc 'in-quai-ri' — anh quai hỏi rõ. Customer inquiry = yêu cầu của khách."
+    },
+    {
+      "word": "grievance",
+      "lemma": "grievance",
+      "ipa": "/ˈɡriːvəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a serious complaint about unfair treatment",
+          "meaning_vi": "lời than phiền chính thức / khiếu nại",
+          "examples": [
+            {
+              "en": "She filed a grievance about late deliveries.",
+              "vi": "Cô ấy nộp khiếu nại về giao hàng trễ."
+            },
+            {
+              "en": "Grievances are taken seriously by HR.",
+              "vi": "HR coi trọng các khiếu nại."
+            },
+            {
+              "en": "Handle grievances in writing for record-keeping.",
+              "vi": "Xử lý khiếu nại bằng văn bản để lưu hồ sơ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complaint", "grudge (different lesson)"],
+      "antonyms": ["satisfaction"],
+      "collocations": [
+        "file a grievance",
+        "official grievance",
+        "address a grievance",
+        "grievance procedure",
+        "personal grievance"
+      ],
+      "etymology_hint": "From Old French 'grevance' — Latin 'gravis' (heavy, serious).",
+      "mnemonic_vi": "GRIEV (đau) + ANCE = lời đau. File a grievance = nộp khiếu nại."
+    },
+    {
+      "word": "dissatisfied",
+      "lemma": "dissatisfied",
+      "ipa": "/ˌdɪsˈsætɪsfaɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not happy with something received or experienced",
+          "meaning_vi": "không hài lòng",
+          "examples": [
+            {
+              "en": "Dissatisfied customers tell ten others.",
+              "vi": "Khách không hài lòng kể cho 10 người khác."
+            },
+            {
+              "en": "Survey dissatisfied users to learn why.",
+              "vi": "Khảo sát người dùng không hài lòng để biết lý do."
+            },
+            {
+              "en": "She's deeply dissatisfied with the response time.",
+              "vi": "Cô ấy rất không hài lòng với thời gian phản hồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unhappy", "disgruntled"],
+      "antonyms": ["satisfied", "pleased"],
+      "collocations": [
+        "dissatisfied customer",
+        "deeply dissatisfied",
+        "dissatisfied with",
+        "increasingly dissatisfied",
+        "dissatisfied user"
+      ],
+      "etymology_hint": "Prefix 'dis-' (not) + 'satisfied' — modern compound from corporate-survey vocabulary.",
+      "mnemonic_vi": "DIS (không) + SATISFIED (hài lòng) = không hài lòng. Dissatisfied customer = khách không vừa."
+    },
+    {
+      "word": "live-chat",
+      "lemma": "live-chat",
+      "ipa": "/ˈlaɪv tʃæt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "real-time text chat with a customer support agent on a website",
+          "meaning_vi": "chat trực tuyến với hỗ trợ viên",
+          "examples": [
+            {
+              "en": "Live-chat is faster than email support.",
+              "vi": "Live-chat nhanh hơn email hỗ trợ."
+            },
+            {
+              "en": "Open live-chat from the bottom-right icon.",
+              "vi": "Mở live-chat từ icon góc dưới bên phải."
+            },
+            {
+              "en": "Live-chat conversion is higher than phone.",
+              "vi": "Chuyển đổi qua live-chat cao hơn qua điện thoại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chat support"],
+      "antonyms": ["email support"],
+      "collocations": [
+        "live-chat support",
+        "open live-chat",
+        "live-chat widget",
+        "24/7 live-chat",
+        "live-chat agent"
+      ],
+      "etymology_hint": "Compound: 'live' (real-time) + 'chat' — website tool widespread since 2010s.",
+      "mnemonic_vi": "LIVE (trực tiếp) + CHAT (chat) = chat trực tiếp. Live-chat support = hỗ trợ live-chat."
+    },
+    {
+      "word": "escalation",
+      "lemma": "escalation",
+      "ipa": "/ˌeskəˈleɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of passing a problem to a higher-level agent or manager",
+          "meaning_vi": "việc đẩy lên cấp cao hơn (xử lý)",
+          "examples": [
+            {
+              "en": "Tough cases need escalation to a senior agent.",
+              "vi": "Ca khó cần escalation lên agent cấp cao."
+            },
+            {
+              "en": "She avoided escalation by handling it personally.",
+              "vi": "Cô ấy né escalation bằng cách tự xử."
+            },
+            {
+              "en": "Escalation rates measure team competence.",
+              "vi": "Tỷ lệ escalation đo năng lực team."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hand-off", "promotion (of issue)"],
+      "antonyms": ["containment"],
+      "collocations": [
+        "escalation path",
+        "request escalation",
+        "escalation rate",
+        "automatic escalation",
+        "ticket escalation"
+      ],
+      "etymology_hint": "From 'escalate' (back-formation from escalator, 1922) + '-ion' — corporate jargon from 1990s.",
+      "mnemonic_vi": "ESCALAT(E) + ION = sự leo thang/đẩy lên. Escalation path = đường escalation."
+    },
+    {
+      "word": "resolution",
+      "lemma": "resolution",
+      "ipa": "/ˌrezəˈluːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of solving a problem or complaint",
+          "meaning_vi": "việc giải quyết (vấn đề / khiếu nại)",
+          "examples": [
+            {
+              "en": "Resolution took two phone calls.",
+              "vi": "Giải quyết mất 2 cuộc gọi."
+            },
+            {
+              "en": "Track time-to-resolution as a KPI.",
+              "vi": "Theo dõi thời gian giải quyết như một KPI."
+            },
+            {
+              "en": "Quick resolution wins loyalty.",
+              "vi": "Giải quyết nhanh tạo lòng trung thành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["solution", "fix"],
+      "antonyms": ["unresolved"],
+      "collocations": [
+        "quick resolution",
+        "issue resolution",
+        "first-call resolution",
+        "time to resolution",
+        "satisfactory resolution"
+      ],
+      "etymology_hint": "From Latin 'resolutio' = a loosening — meaning 'solving a problem' since 16th century.",
+      "mnemonic_vi": "RESOLVE (giải) + UTION = sự giải. Quick resolution = giải quyết nhanh."
+    },
+    {
+      "word": "callback",
+      "lemma": "callback",
+      "ipa": "/ˈkɔːlbæk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a return call from a company to a customer who left a message or request",
+          "meaning_vi": "cuộc gọi lại (từ công ty cho khách)",
+          "examples": [
+            {
+              "en": "Schedule a callback at 3 p.m. tomorrow.",
+              "vi": "Đặt lịch gọi lại 15 giờ ngày mai."
+            },
+            {
+              "en": "Most callbacks happen within 30 minutes.",
+              "vi": "Phần lớn callback diễn ra trong 30 phút."
+            },
+            {
+              "en": "Request a callback to skip the queue.",
+              "vi": "Yêu cầu callback để khỏi xếp hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return call"],
+      "antonyms": [],
+      "collocations": [
+        "request a callback",
+        "schedule a callback",
+        "callback option",
+        "automated callback",
+        "missed callback"
+      ],
+      "etymology_hint": "Compound: 'call' + 'back' — telephony term from mid-20th century.",
+      "mnemonic_vi": "CALL (gọi) + BACK (lại) = gọi lại. Request a callback = yêu cầu callback."
+    },
+    {
+      "word": "self-service",
+      "lemma": "self-service",
+      "ipa": "/ˌselfˈsɜːvɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "service where customers help themselves without a staff member",
+          "meaning_vi": "tự phục vụ (không cần nhân viên)",
+          "examples": [
+            {
+              "en": "Self-service kiosks reduce queue time.",
+              "vi": "Ki-ốt tự phục vụ giảm thời gian xếp hàng."
+            },
+            {
+              "en": "Vietnamese fast-food chains pushed self-service.",
+              "vi": "Chuỗi fast-food Việt đẩy mạnh tự phục vụ."
+            },
+            {
+              "en": "Build a self-service portal for common issues.",
+              "vi": "Xây portal tự phục vụ cho vấn đề thường gặp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["DIY service"],
+      "antonyms": ["full service"],
+      "collocations": [
+        "self-service kiosk",
+        "self-service portal",
+        "self-service option",
+        "self-service checkout",
+        "self-service support"
+      ],
+      "etymology_hint": "Compound: 'self' + 'service' — retail concept from 1916 US grocery stores.",
+      "mnemonic_vi": "SELF (tự) + SERVICE (phục vụ) = tự phục vụ. Self-service kiosk = ki-ốt tự phục vụ."
+    },
+    {
+      "word": "troubleshoot",
+      "lemma": "troubleshoot",
+      "ipa": "/ˈtrʌblʃuːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to identify and solve technical problems step by step",
+          "meaning_vi": "xử lý sự cố (kỹ thuật) từng bước",
+          "examples": [
+            {
+              "en": "Troubleshoot the printer by restarting first.",
+              "vi": "Xử lý sự cố máy in bằng cách khởi động lại trước."
+            },
+            {
+              "en": "Agents troubleshoot 30 different issues a day.",
+              "vi": "Agent xử lý 30 sự cố khác nhau mỗi ngày."
+            },
+            {
+              "en": "Read the troubleshooting guide before calling.",
+              "vi": "Đọc hướng dẫn xử lý sự cố trước khi gọi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["debug", "diagnose"],
+      "antonyms": ["ignore"],
+      "collocations": [
+        "troubleshoot the issue",
+        "troubleshoot a problem",
+        "troubleshoot remotely",
+        "troubleshooting guide",
+        "step-by-step troubleshoot"
+      ],
+      "etymology_hint": "Compound: 'trouble' (Old French 'trouble' = disturbance) + 'shoot' (to dispatch) — coined 1905 in US industry.",
+      "mnemonic_vi": "TROUBLE (sự cố) + SHOOT (bắn) = bắn hạ sự cố. Troubleshoot the issue = xử lý sự cố."
+    },
+    {
+      "word": "onboarding",
+      "lemma": "onboarding",
+      "ipa": "/ˈɒnbɔːdɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of helping a new customer or employee get started with a product or company",
+          "meaning_vi": "quá trình hướng dẫn người mới (dùng sản phẩm / vào công ty)",
+          "examples": [
+            {
+              "en": "Smooth onboarding cuts customer churn.",
+              "vi": "Onboarding mượt giảm khách rời bỏ."
+            },
+            {
+              "en": "We redesigned onboarding to take 5 minutes.",
+              "vi": "Chúng tôi thiết kế lại onboarding chỉ 5 phút."
+            },
+            {
+              "en": "Employee onboarding includes culture training.",
+              "vi": "Onboarding nhân viên gồm cả đào tạo văn hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["orientation (different context)"],
+      "antonyms": ["offboarding"],
+      "collocations": [
+        "customer onboarding",
+        "employee onboarding",
+        "smooth onboarding",
+        "onboarding flow",
+        "onboarding email"
+      ],
+      "etymology_hint": "From phrase 'on board' (originally nautical, joining a ship) + '-ing' — HR/SaaS term from 1990s.",
+      "mnemonic_vi": "ON (lên) + BOARD (tàu) + ING = lên tàu. Customer onboarding = đón khách mới."
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "slug": "oceans-deep",
+  "name": "Deep Oceans",
+  "description": "Đại dương sâu B1 — trench, sonar, abyss, bioluminescent và 16 từ về thế giới dưới biển sâu.",
+  "order_index": 12,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "depths",
+      "lemma": "depth",
+      "ipa": "/depθs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the deep parts of an ocean or sea, far below the surface",
+          "meaning_vi": "vùng sâu (đại dương)",
+          "examples": [
+            {
+              "en": "The depths of the Pacific remain mostly unexplored.",
+              "vi": "Vùng sâu Thái Bình Dương phần lớn chưa được khám phá."
+            },
+            {
+              "en": "Few creatures survive at extreme depths.",
+              "vi": "Ít loài sống được ở vùng sâu cực hạn."
+            },
+            {
+              "en": "Submarines can reach depths over 6,000 meters.",
+              "vi": "Tàu ngầm xuống tới độ sâu 6.000 mét."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["abyss", "deep waters"],
+      "antonyms": ["surface", "shallows"],
+      "collocations": [
+        "ocean depths",
+        "extreme depths",
+        "depths of the sea",
+        "explore the depths",
+        "dark depths"
+      ],
+      "etymology_hint": "Plural of 'depth' (Old English 'dēop' = deep) — used poetically for ocean far reaches.",
+      "mnemonic_vi": "DEEP (sâu) + TH + S = các vùng sâu. Ocean depths = vùng sâu đại dương."
+    },
+    {
+      "word": "trench",
+      "lemma": "trench",
+      "ipa": "/trentʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long, narrow, very deep area on the ocean floor",
+          "meaning_vi": "rãnh đại dương (sâu, dài)",
+          "examples": [
+            {
+              "en": "The Mariana Trench is the deepest place on Earth.",
+              "vi": "Rãnh Mariana là nơi sâu nhất Trái Đất."
+            },
+            {
+              "en": "Trenches form where tectonic plates meet.",
+              "vi": "Các rãnh hình thành nơi mảng kiến tạo gặp nhau."
+            },
+            {
+              "en": "Only special submarines can reach a deep trench.",
+              "vi": "Chỉ tàu ngầm đặc biệt mới xuống được rãnh sâu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deep groove"],
+      "antonyms": ["ridge"],
+      "collocations": [
+        "ocean trench",
+        "deep trench",
+        "Mariana Trench",
+        "explore a trench",
+        "trench depth"
+      ],
+      "etymology_hint": "From Old French 'trenche' = a cut — geological sense for ocean grooves from 19th century.",
+      "mnemonic_vi": "TRENCH đọc 'trẹnch' — trầm hằn sâu. Mariana Trench = rãnh Mariana."
+    },
+    {
+      "word": "deep-sea",
+      "lemma": "deep-sea",
+      "ipa": "/ˌdiːp ˈsiː/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the very deep parts of the ocean, usually below 200 meters",
+          "meaning_vi": "thuộc đáy biển sâu (thường dưới 200m)",
+          "examples": [
+            {
+              "en": "Deep-sea fishing requires special boats.",
+              "vi": "Đánh cá biển sâu cần tàu chuyên dụng."
+            },
+            {
+              "en": "Deep-sea creatures glow in the dark.",
+              "vi": "Sinh vật biển sâu phát sáng trong bóng tối."
+            },
+            {
+              "en": "Vietnamese deep-sea exploration is still young.",
+              "vi": "Thám hiểm biển sâu Việt Nam còn non trẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["abyssal"],
+      "antonyms": ["shallow-water"],
+      "collocations": [
+        "deep-sea creature",
+        "deep-sea fishing",
+        "deep-sea exploration",
+        "deep-sea diver",
+        "deep-sea mining"
+      ],
+      "etymology_hint": "Compound: 'deep' + 'sea' — scientific term standardized in 19th-century oceanography.",
+      "mnemonic_vi": "DEEP (sâu) + SEA (biển) = biển sâu. Deep-sea creature = sinh vật biển sâu."
+    },
+    {
+      "word": "submarine",
+      "lemma": "submarine",
+      "ipa": "/ˌsʌbməˈriːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a ship that travels under water",
+          "meaning_vi": "tàu ngầm",
+          "examples": [
+            {
+              "en": "Nuclear submarines stay submerged for months.",
+              "vi": "Tàu ngầm hạt nhân lặn dưới nước nhiều tháng."
+            },
+            {
+              "en": "Research submarines explored hydrothermal vents.",
+              "vi": "Tàu ngầm nghiên cứu khám phá lỗ phun thuỷ nhiệt."
+            },
+            {
+              "en": "Vietnam operates a small fleet of submarines.",
+              "vi": "Việt Nam vận hành đội tàu ngầm nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sub"],
+      "antonyms": ["surface vessel"],
+      "collocations": [
+        "nuclear submarine",
+        "research submarine",
+        "operate a submarine",
+        "submarine fleet",
+        "stealth submarine"
+      ],
+      "etymology_hint": "From Latin 'sub-' (under) + 'marinus' (of the sea) — first practical submarines built in 1860s.",
+      "mnemonic_vi": "SUB (dưới) + MARINE (biển) = dưới biển. Nuclear submarine = tàu ngầm hạt nhân."
+    },
+    {
+      "word": "sonar",
+      "lemma": "sonar",
+      "ipa": "/ˈsəʊnɑː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a system that uses sound waves to detect objects underwater",
+          "meaning_vi": "sonar (dùng sóng âm dò vật dưới nước)",
+          "examples": [
+            {
+              "en": "Sonar maps the ocean floor.",
+              "vi": "Sonar lập bản đồ đáy biển."
+            },
+            {
+              "en": "Dolphins use natural sonar called echolocation.",
+              "vi": "Cá heo dùng sonar tự nhiên gọi là echolocation."
+            },
+            {
+              "en": "Submarines rely on sonar to avoid obstacles.",
+              "vi": "Tàu ngầm dựa vào sonar để tránh chướng ngại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["echo sounder"],
+      "antonyms": ["radar (air)"],
+      "collocations": [
+        "sonar system",
+        "use sonar",
+        "active sonar",
+        "passive sonar",
+        "sonar reading"
+      ],
+      "etymology_hint": "Acronym from 'SOund Navigation And Ranging' — coined 1942 by US Navy.",
+      "mnemonic_vi": "SONAR đọc 'sô-na' — sóng nâu đo. Sonar system = hệ thống sonar."
+    },
+    {
+      "word": "abyss",
+      "lemma": "abyss",
+      "ipa": "/əˈbɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a very deep, dark, seemingly bottomless place in the ocean",
+          "meaning_vi": "vực thẳm (đại dương)",
+          "examples": [
+            {
+              "en": "The abyss begins at 4,000 meters down.",
+              "vi": "Vực thẳm bắt đầu từ độ sâu 4.000 mét."
+            },
+            {
+              "en": "Few species inhabit the abyss.",
+              "vi": "Ít loài sinh sống ở vực thẳm."
+            },
+            {
+              "en": "Sunlight never reaches the abyss.",
+              "vi": "Ánh nắng không bao giờ tới được vực thẳm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chasm", "abyssal zone"],
+      "antonyms": ["shallows"],
+      "collocations": [
+        "ocean abyss",
+        "into the abyss",
+        "dark abyss",
+        "bottomless abyss",
+        "abyss zone"
+      ],
+      "etymology_hint": "From Greek 'abussos' = bottomless — 'a-' (not) + 'bussos' (bottom).",
+      "mnemonic_vi": "ABYSS đọc 'a-bít' — anh bí mất hút. Into the abyss = vào vực thẳm."
+    },
+    {
+      "word": "pressure",
+      "lemma": "pressure",
+      "ipa": "/ˈpreʃə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the force that water pushes on objects underwater, increasing with depth",
+          "meaning_vi": "áp suất (nước, tăng theo độ sâu)",
+          "examples": [
+            {
+              "en": "At 1,000 meters, the pressure is 100 atmospheres.",
+              "vi": "Ở 1.000 mét, áp suất là 100 khí quyển."
+            },
+            {
+              "en": "Deep-sea creatures evolved to withstand pressure.",
+              "vi": "Sinh vật biển sâu tiến hóa chịu được áp suất."
+            },
+            {
+              "en": "A small leak at depth becomes catastrophic from pressure.",
+              "vi": "Vết rò nhỏ ở sâu thành thảm họa vì áp suất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["force"],
+      "antonyms": ["vacuum"],
+      "collocations": [
+        "water pressure",
+        "intense pressure",
+        "withstand pressure",
+        "atmospheric pressure",
+        "pressure resistance"
+      ],
+      "etymology_hint": "From Latin 'pressus' = pressed — meaning expanded from physical force to emotional stress.",
+      "mnemonic_vi": "PRESS (ép) + URE = sự ép. Water pressure = áp suất nước."
+    },
+    {
+      "word": "undersea",
+      "lemma": "undersea",
+      "ipa": "/ˌʌndəˈsiː/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "existing or happening below the surface of the sea",
+          "meaning_vi": "dưới biển",
+          "examples": [
+            {
+              "en": "Undersea cables carry 99% of internet traffic.",
+              "vi": "Cáp dưới biển mang 99% traffic internet."
+            },
+            {
+              "en": "Vietnamese fiber-optic networks rely on undersea cables.",
+              "vi": "Mạng cáp quang Việt phụ thuộc cáp dưới biển."
+            },
+            {
+              "en": "Undersea volcanoes erupt without anyone seeing.",
+              "vi": "Núi lửa dưới biển phun không ai thấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["submarine (adj)", "underwater"],
+      "antonyms": ["overland"],
+      "collocations": [
+        "undersea cable",
+        "undersea exploration",
+        "undersea volcano",
+        "undersea world",
+        "undersea pipeline"
+      ],
+      "etymology_hint": "Compound: 'under' (Old English 'under') + 'sea' — common scientific compound from 19th century.",
+      "mnemonic_vi": "UNDER (dưới) + SEA (biển) = dưới biển. Undersea cable = cáp dưới biển."
+    },
+    {
+      "word": "scuba",
+      "lemma": "scuba",
+      "ipa": "/ˈskuːbə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "diving equipment with an oxygen tank, used to breathe underwater",
+          "meaning_vi": "thiết bị lặn scuba (có bình oxy)",
+          "examples": [
+            {
+              "en": "She got her scuba license in Phú Quốc.",
+              "vi": "Cô ấy lấy bằng lặn scuba ở Phú Quốc."
+            },
+            {
+              "en": "Scuba diving requires solid training.",
+              "vi": "Lặn scuba cần đào tạo bài bản."
+            },
+            {
+              "en": "Vietnamese reefs are popular scuba destinations.",
+              "vi": "Rạn san hô Việt là điểm lặn scuba nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["diving gear"],
+      "antonyms": ["snorkel"],
+      "collocations": [
+        "scuba diving",
+        "scuba gear",
+        "scuba license",
+        "scuba tank",
+        "scuba instructor"
+      ],
+      "etymology_hint": "Acronym from 'Self-Contained Underwater Breathing Apparatus' — coined 1952.",
+      "mnemonic_vi": "SCUBA đọc 'sờ-cu-ba' — Self-Contained Underwater Breathing Apparatus. Scuba diving = lặn scuba."
+    },
+    {
+      "word": "benthic",
+      "lemma": "benthic",
+      "ipa": "/ˈbenθɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the bottom of the sea or to organisms that live there",
+          "meaning_vi": "thuộc tầng đáy biển",
+          "examples": [
+            {
+              "en": "Benthic creatures filter food from the sediment.",
+              "vi": "Sinh vật tầng đáy lọc thức ăn từ trầm tích."
+            },
+            {
+              "en": "Trawling destroys benthic habitats.",
+              "vi": "Đánh bắt giã cào phá môi trường tầng đáy."
+            },
+            {
+              "en": "Scientists study benthic ecosystems with robots.",
+              "vi": "Nhà khoa học nghiên cứu hệ sinh thái tầng đáy bằng robot."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bottom-dwelling"],
+      "antonyms": ["pelagic"],
+      "collocations": [
+        "benthic zone",
+        "benthic organism",
+        "benthic habitat",
+        "benthic community",
+        "benthic ecology"
+      ],
+      "etymology_hint": "From Greek 'benthos' = depth of the sea — scientific coinage from 1890s ecology.",
+      "mnemonic_vi": "BENTH (đáy biển) + IC = thuộc đáy. Benthic zone = vùng tầng đáy."
+    },
+    {
+      "word": "seamount",
+      "lemma": "seamount",
+      "ipa": "/ˈsiːmaʊnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an underwater mountain rising from the ocean floor without reaching the surface",
+          "meaning_vi": "núi ngầm (dưới biển)",
+          "examples": [
+            {
+              "en": "Seamounts host rich marine life.",
+              "vi": "Núi ngầm là nơi sống của nhiều sinh vật biển."
+            },
+            {
+              "en": "There are over 100,000 seamounts worldwide.",
+              "vi": "Có hơn 100.000 núi ngầm trên toàn cầu."
+            },
+            {
+              "en": "A seamount can rise 4 kilometers from the seabed.",
+              "vi": "Núi ngầm có thể cao 4 km từ đáy biển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["underwater mountain"],
+      "antonyms": ["trench"],
+      "collocations": [
+        "seamount chain",
+        "active seamount",
+        "submerged seamount",
+        "seamount ecosystem",
+        "discover a seamount"
+      ],
+      "etymology_hint": "Compound: 'sea' + 'mount' (Latin 'mons' = mountain) — geological term standardized 1939.",
+      "mnemonic_vi": "SEA (biển) + MOUNT (núi) = núi biển. Seamount ecosystem = hệ sinh thái núi ngầm."
+    },
+    {
+      "word": "hydrothermal",
+      "lemma": "hydrothermal",
+      "ipa": "/ˌhaɪdrəʊˈθɜːml/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to hot water, especially from undersea vents",
+          "meaning_vi": "thuộc thủy nhiệt (nước nóng dưới biển)",
+          "examples": [
+            {
+              "en": "Hydrothermal vents support unique life forms.",
+              "vi": "Lỗ thủy nhiệt nuôi các dạng sống độc nhất."
+            },
+            {
+              "en": "Scientists found hydrothermal activity near Iceland.",
+              "vi": "Nhà khoa học tìm thấy hoạt động thủy nhiệt gần Iceland."
+            },
+            {
+              "en": "Hydrothermal energy may power future cities.",
+              "vi": "Năng lượng thủy nhiệt có thể cấp điện cho thành phố tương lai."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "hydrothermal vent",
+        "hydrothermal activity",
+        "hydrothermal system",
+        "hydrothermal fluid",
+        "hydrothermal energy"
+      ],
+      "etymology_hint": "From Greek 'hydro-' (water) + 'thermos' (hot) — coined 19th-century geology.",
+      "mnemonic_vi": "HYDRO (nước) + THERMAL (nhiệt) = nước nóng. Hydrothermal vent = lỗ thủy nhiệt."
+    },
+    {
+      "word": "creature",
+      "lemma": "creature",
+      "ipa": "/ˈkriːtʃə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an animal or living being, especially one that is strange or unfamiliar",
+          "meaning_vi": "sinh vật (động vật)",
+          "examples": [
+            {
+              "en": "Strange creatures live in the deepest trenches.",
+              "vi": "Những sinh vật kỳ lạ sống ở các rãnh sâu nhất."
+            },
+            {
+              "en": "Glowing creatures light up the abyss.",
+              "vi": "Sinh vật phát sáng thắp sáng vực thẳm."
+            },
+            {
+              "en": "We are all creatures of habit.",
+              "vi": "Chúng ta đều là sinh vật của thói quen."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["being", "animal"],
+      "antonyms": [],
+      "collocations": [
+        "sea creature",
+        "deep-sea creature",
+        "strange creature",
+        "glowing creature",
+        "mythical creature"
+      ],
+      "etymology_hint": "From Latin 'creatura' = a thing created — root 'creare' (to make).",
+      "mnemonic_vi": "CREAT (tạo) + URE = thứ được tạo ra. Sea creature = sinh vật biển."
+    },
+    {
+      "word": "fathom",
+      "lemma": "fathom",
+      "ipa": "/ˈfæðəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a unit of length equal to 1.8 meters, used for measuring sea depth",
+          "meaning_vi": "fathom (đơn vị đo sâu biển = 1,8 m)",
+          "examples": [
+            {
+              "en": "The shipwreck lies 50 fathoms below.",
+              "vi": "Xác tàu chìm sâu 50 fathom."
+            },
+            {
+              "en": "Sailors traditionally measured depth in fathoms.",
+              "vi": "Thủy thủ xưa đo độ sâu bằng fathom."
+            },
+            {
+              "en": "Modern depth gauges use meters, not fathoms.",
+              "vi": "Đồng hồ độ sâu hiện đại dùng mét, không phải fathom."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["depth unit"],
+      "antonyms": [],
+      "collocations": [
+        "fifty fathoms",
+        "sound the fathoms",
+        "fathom deep",
+        "many fathoms below",
+        "measure in fathoms"
+      ],
+      "etymology_hint": "From Old English 'fæthm' = outstretched arms — original measurement was the span between fingertips.",
+      "mnemonic_vi": "FATHOM đọc 'fá-thầm' — phá thâm sâu. Fifty fathoms = 50 fathom."
+    },
+    {
+      "word": "kelp",
+      "lemma": "kelp",
+      "ipa": "/kelp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "large brown seaweed that grows in cool ocean water, forming underwater forests",
+          "meaning_vi": "tảo bẹ (loại tảo lớn dưới biển)",
+          "examples": [
+            {
+              "en": "Kelp forests are home to sea otters.",
+              "vi": "Rừng tảo bẹ là nhà của rái cá biển."
+            },
+            {
+              "en": "Kelp can grow 30 centimeters a day.",
+              "vi": "Tảo bẹ có thể lớn 30 cm mỗi ngày."
+            },
+            {
+              "en": "Korean cuisine uses kelp in soups.",
+              "vi": "Ẩm thực Hàn dùng tảo bẹ trong súp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seaweed (large)"],
+      "antonyms": [],
+      "collocations": ["kelp forest", "harvest kelp", "giant kelp", "kelp bed", "edible kelp"],
+      "etymology_hint": "From Middle English 'culp' — possibly Scandinavian origin meaning 'thick water plant'.",
+      "mnemonic_vi": "KELP đọc 'kẹp' — kẹp lá dưới biển. Kelp forest = rừng tảo bẹ."
+    },
+    {
+      "word": "eel",
+      "lemma": "eel",
+      "ipa": "/iːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long, snake-like fish that lives in water",
+          "meaning_vi": "con lươn",
+          "examples": [
+            {
+              "en": "Vietnamese eel hotpot is a delicacy.",
+              "vi": "Lẩu lươn Việt là món đặc sản."
+            },
+            {
+              "en": "Some eels can give electric shocks.",
+              "vi": "Một số loài lươn có thể phóng điện."
+            },
+            {
+              "en": "Eels migrate thousands of kilometers to spawn.",
+              "vi": "Lươn di cư hàng nghìn km để sinh sản."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["electric eel", "moray eel", "freshwater eel", "fried eel", "eel migration"],
+      "etymology_hint": "From Old English 'ǣl' — Germanic root, related to German 'Aal'.",
+      "mnemonic_vi": "EEL đọc 'i-l' — ì lươn trườn. Electric eel = lươn điện."
+    },
+    {
+      "word": "anemone",
+      "lemma": "anemone",
+      "ipa": "/əˈneməni/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a sea creature shaped like a flower that lives stuck to rocks underwater",
+          "meaning_vi": "hải quỳ (sinh vật biển giống hoa)",
+          "examples": [
+            {
+              "en": "Clownfish live safely inside anemones.",
+              "vi": "Cá hề sống an toàn trong hải quỳ."
+            },
+            {
+              "en": "Sea anemones sting small fish.",
+              "vi": "Hải quỳ biển chích cá nhỏ."
+            },
+            {
+              "en": "Anemones come in stunning bright colors.",
+              "vi": "Hải quỳ có màu sắc rực rỡ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sea anemone"],
+      "antonyms": [],
+      "collocations": [
+        "sea anemone",
+        "colorful anemone",
+        "anemone tentacles",
+        "anemone colony",
+        "tropical anemone"
+      ],
+      "etymology_hint": "From Greek 'anemos' = wind — original 'anemone' was a flower thought to bloom in the wind; sea version named for similar shape.",
+      "mnemonic_vi": "ANEMONE đọc 'a-nê-mô-ni' — anh nem hoa biển. Sea anemone = hải quỳ."
+    },
+    {
+      "word": "anglerfish",
+      "lemma": "anglerfish",
+      "ipa": "/ˈæŋɡləfɪʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a deep-sea fish with a glowing lure on its head used to attract prey",
+          "meaning_vi": "cá anglerfish (cá cần câu, có đèn dụ mồi)",
+          "examples": [
+            {
+              "en": "Anglerfish live in total darkness.",
+              "vi": "Anglerfish sống trong bóng tối hoàn toàn."
+            },
+            {
+              "en": "The anglerfish's lure glows like a tiny lantern.",
+              "vi": "Đèn dụ mồi của anglerfish sáng như đèn nhỏ."
+            },
+            {
+              "en": "Few anglerfish are seen above 1,000 meters.",
+              "vi": "Ít anglerfish được thấy ở trên 1.000 mét."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deep-sea predator"],
+      "antonyms": [],
+      "collocations": [
+        "female anglerfish",
+        "deep-sea anglerfish",
+        "anglerfish lure",
+        "spot an anglerfish",
+        "rare anglerfish"
+      ],
+      "etymology_hint": "Compound: 'angler' (one who fishes with a hook) + 'fish' — named for the lure that acts like a fishing rod.",
+      "mnemonic_vi": "ANGLER (người câu) + FISH (cá) = cá câu cá. Deep-sea anglerfish = anglerfish biển sâu."
+    },
+    {
+      "word": "snorkel",
+      "lemma": "snorkel",
+      "ipa": "/ˈsnɔːkl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a tube held in the mouth that lets you breathe air while your face is underwater",
+          "meaning_vi": "ống thở (lặn snorkel, mặt dưới nước)",
+          "examples": [
+            {
+              "en": "Snorkel over the reefs to see fish.",
+              "vi": "Lặn snorkel trên rạn san hô để xem cá."
+            },
+            {
+              "en": "Phú Quốc is great for beginner snorkeling.",
+              "vi": "Phú Quốc tuyệt cho snorkel người mới."
+            },
+            {
+              "en": "Rent a snorkel and mask at the resort.",
+              "vi": "Thuê ống thở và kính lặn ở resort."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["breathing tube"],
+      "antonyms": ["scuba tank"],
+      "collocations": [
+        "snorkel and mask",
+        "go snorkeling",
+        "snorkel set",
+        "snorkel gear",
+        "snorkel trip"
+      ],
+      "etymology_hint": "From German 'Schnorchel' = snorkel (originally a submarine breathing tube in WWII).",
+      "mnemonic_vi": "SNORKEL đọc 'sờ-noóc-cồ' — sờ nóc trên mặt nước. Go snorkeling = đi snorkel."
+    },
+    {
+      "word": "oxygen",
+      "lemma": "oxygen",
+      "ipa": "/ˈɒksɪdʒən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the gas in air that humans need to breathe; also dissolved in water for marine life",
+          "meaning_vi": "oxy (khí thở; tan trong nước cho sinh vật biển)",
+          "examples": [
+            {
+              "en": "Divers carry oxygen tanks on their backs.",
+              "vi": "Thợ lặn mang bình oxy trên lưng."
+            },
+            {
+              "en": "Deep-sea creatures survive on very little oxygen.",
+              "vi": "Sinh vật biển sâu sống với rất ít oxy."
+            },
+            {
+              "en": "Ocean oxygen levels fall as water warms.",
+              "vi": "Mức oxy đại dương giảm khi nước ấm lên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["O2"],
+      "antonyms": ["carbon dioxide"],
+      "collocations": [
+        "oxygen tank",
+        "oxygen level",
+        "dissolved oxygen",
+        "oxygen supply",
+        "low oxygen"
+      ],
+      "etymology_hint": "From Greek 'oxys' (sharp, acid) + 'genes' (forming) — coined 1777 by Antoine Lavoisier.",
+      "mnemonic_vi": "OXY (axit) + GEN (sinh) = sinh axit. Oxygen tank = bình oxy."
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "slug": "road-trip",
+  "name": "Road Trip",
+  "description": "Phượt xe đường dài B1 — pit-stop, GPS, odometer, traffic-jam và 16 từ cho dân lái xe đường dài.",
+  "order_index": 9,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "pit-stop",
+      "lemma": "pit-stop",
+      "ipa": "/ˈpɪt stɒp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short break during a long drive, usually to rest, eat, or refuel",
+          "meaning_vi": "trạm dừng chân (trên hành trình dài)",
+          "examples": [
+            {
+              "en": "We made a pit-stop for phở at the highway rest area.",
+              "vi": "Chúng tôi pit-stop ăn phở ở trạm dừng cao tốc."
+            },
+            {
+              "en": "Plan three pit-stops on a six-hour drive.",
+              "vi": "Lên kế hoạch 3 pit-stop cho chuyến lái 6 tiếng."
+            },
+            {
+              "en": "A quick pit-stop saved her from falling asleep.",
+              "vi": "Pit-stop nhanh cứu cô ấy khỏi ngủ gật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rest break", "quick stop"],
+      "antonyms": ["non-stop drive"],
+      "collocations": [
+        "make a pit-stop",
+        "quick pit-stop",
+        "pit-stop break",
+        "scheduled pit-stop",
+        "long pit-stop"
+      ],
+      "etymology_hint": "From motorsport — 'pit' was the work area beside the racetrack where cars stopped for service.",
+      "mnemonic_vi": "PIT (hố) + STOP (dừng) = chui vào hố nghỉ. Make a pit-stop = dừng chân."
+    },
+    {
+      "word": "gas-station",
+      "lemma": "gas-station",
+      "ipa": "/ˈɡæs ˌsteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place where you stop to buy fuel for your car (American English)",
+          "meaning_vi": "trạm xăng (Mỹ); cây xăng",
+          "examples": [
+            {
+              "en": "Find a gas-station before the tank hits empty.",
+              "vi": "Tìm trạm xăng trước khi bình rỗng."
+            },
+            {
+              "en": "Vietnamese gas-stations are open 24/7 in cities.",
+              "vi": "Cây xăng Việt mở 24/7 ở thành phố."
+            },
+            {
+              "en": "The gas-station also sells coffee and snacks.",
+              "vi": "Trạm xăng còn bán cà phê và đồ ăn vặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["petrol station (UK)", "fuel station"],
+      "antonyms": [],
+      "collocations": [
+        "stop at a gas-station",
+        "24-hour gas-station",
+        "gas-station attendant",
+        "nearest gas-station",
+        "gas-station coffee"
+      ],
+      "etymology_hint": "American compound: 'gas' (short for 'gasoline') + 'station' — popular since the rise of cars in the 1910s.",
+      "mnemonic_vi": "GAS (xăng) + STATION (trạm) = trạm xăng. 24-hour gas-station = trạm xăng 24h."
+    },
+    {
+      "word": "RV",
+      "lemma": "RV",
+      "ipa": "/ˌɑːˈviː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Recreational Vehicle — a large vehicle with living space inside for road trips",
+          "meaning_vi": "RV, xe du lịch có chỗ ở",
+          "examples": [
+            {
+              "en": "They drove an RV across the United States for two months.",
+              "vi": "Họ lái RV xuyên Mỹ trong 2 tháng."
+            },
+            {
+              "en": "RVs are rare in Vietnam due to narrow roads.",
+              "vi": "RV hiếm gặp ở Việt Nam vì đường hẹp."
+            },
+            {
+              "en": "Renting an RV is cheaper than hotels for a family.",
+              "vi": "Thuê RV rẻ hơn khách sạn cho gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motorhome", "camper van"],
+      "antonyms": ["sedan", "compact car"],
+      "collocations": ["rent an RV", "RV trip", "RV park", "luxury RV", "RV lifestyle"],
+      "etymology_hint": "Acronym from American travel industry in the 1960s — replaced earlier 'house trailer'.",
+      "mnemonic_vi": "RV = 'a-vi' — Recreational Vehicle. RV trip = chuyến RV."
+    },
+    {
+      "word": "detour",
+      "lemma": "detour",
+      "ipa": "/ˈdiːtʊə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a route that is longer than usual, often to avoid a problem on the main road",
+          "meaning_vi": "đường vòng, lối đi tránh",
+          "examples": [
+            {
+              "en": "Roadwork forced us to take a detour.",
+              "vi": "Đường đang sửa buộc chúng tôi phải đi đường vòng."
+            },
+            {
+              "en": "The detour added 40 minutes to the trip.",
+              "vi": "Đường vòng kéo dài chuyến đi thêm 40 phút."
+            },
+            {
+              "en": "Sometimes a detour reveals beautiful views.",
+              "vi": "Đôi khi đi vòng lại thấy cảnh đẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bypass", "diversion"],
+      "antonyms": ["direct route", "shortcut"],
+      "collocations": [
+        "take a detour",
+        "make a detour",
+        "long detour",
+        "scenic detour",
+        "forced detour"
+      ],
+      "etymology_hint": "From French 'détour' = a turning aside — 'dé-' (away) + 'tour' (turn).",
+      "mnemonic_vi": "DE (xa) + TOUR (vòng) = vòng xa. Take a detour = đi đường vòng."
+    },
+    {
+      "word": "mileage",
+      "lemma": "mileage",
+      "ipa": "/ˈmaɪlɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the number of miles a vehicle travels, or how far it goes per unit of fuel",
+          "meaning_vi": "số km đã đi, hoặc khả năng tiết kiệm nhiên liệu",
+          "examples": [
+            {
+              "en": "Check the mileage before buying a used car.",
+              "vi": "Kiểm tra số km trước khi mua xe cũ."
+            },
+            {
+              "en": "Toyotas have great mileage.",
+              "vi": "Toyota có mileage tốt (ăn xăng ít)."
+            },
+            {
+              "en": "High mileage often means more wear and tear.",
+              "vi": "Mileage cao thường nghĩa là nhiều hao mòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fuel economy"],
+      "antonyms": [],
+      "collocations": [
+        "low mileage",
+        "high mileage",
+        "fuel mileage",
+        "check the mileage",
+        "rental mileage"
+      ],
+      "etymology_hint": "From 'mile' (Old English 'mīl' — from Latin 'mille passus' = thousand paces) + '-age'.",
+      "mnemonic_vi": "MILE (dặm) + AGE = quãng đường. Low mileage = ít km đã đi."
+    },
+    {
+      "word": "breakdown",
+      "lemma": "breakdown",
+      "ipa": "/ˈbreɪkdaʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "when a vehicle stops working and can't continue",
+          "meaning_vi": "sự cố xe (xe hỏng giữa đường)",
+          "examples": [
+            {
+              "en": "We had a breakdown on the way to Vũng Tàu.",
+              "vi": "Xe chúng tôi hỏng trên đường đi Vũng Tàu."
+            },
+            {
+              "en": "Breakdown coverage is worth the extra fee.",
+              "vi": "Bảo hiểm sự cố xe đáng để trả thêm phí."
+            },
+            {
+              "en": "Most breakdowns happen on long highway drives.",
+              "vi": "Phần lớn sự cố xe xảy ra trên đường cao tốc dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["car trouble", "engine failure"],
+      "antonyms": ["smooth drive"],
+      "collocations": [
+        "car breakdown",
+        "have a breakdown",
+        "breakdown service",
+        "roadside breakdown",
+        "breakdown cover"
+      ],
+      "etymology_hint": "Compound: 'break' + 'down' — mechanical sense established in late 19th century with the rise of vehicles.",
+      "mnemonic_vi": "BREAK (vỡ) + DOWN (xuống) = vỡ xuống. Car breakdown = xe hỏng."
+    },
+    {
+      "word": "interstate",
+      "lemma": "interstate",
+      "ipa": "/ˈɪntəsteɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a major highway that connects different states (US) or large regions",
+          "meaning_vi": "đường cao tốc liên bang (Mỹ), đường cao tốc lớn",
+          "examples": [
+            {
+              "en": "Interstate 95 runs from Maine to Florida.",
+              "vi": "Interstate 95 chạy từ Maine xuống Florida."
+            },
+            {
+              "en": "Driving on the interstate is faster but boring.",
+              "vi": "Lái trên interstate nhanh hơn nhưng nhàm."
+            },
+            {
+              "en": "The interstate system reshaped American travel.",
+              "vi": "Hệ thống interstate định hình lại du lịch Mỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expressway", "freeway"],
+      "antonyms": ["back road"],
+      "collocations": [
+        "interstate highway",
+        "cross-country interstate",
+        "drive the interstate",
+        "interstate system",
+        "interstate exit"
+      ],
+      "etymology_hint": "Compound: 'inter-' (between) + 'state' — coined for the 1956 US Interstate Highway System.",
+      "mnemonic_vi": "INTER (giữa) + STATE (bang) = giữa các bang. Interstate highway = cao tốc liên bang."
+    },
+    {
+      "word": "GPS",
+      "lemma": "GPS",
+      "ipa": "/ˌdʒiːpiːˈes/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Global Positioning System — technology that uses satellites to find your location",
+          "meaning_vi": "GPS, hệ thống định vị toàn cầu",
+          "examples": [
+            {
+              "en": "Don't drive in a new city without GPS.",
+              "vi": "Đừng lái xe ở thành phố lạ mà không có GPS."
+            },
+            {
+              "en": "GPS sometimes routes you through tiny alleys.",
+              "vi": "GPS đôi khi dẫn bạn qua hẻm nhỏ."
+            },
+            {
+              "en": "Vietnamese cabbies all rely on GPS apps now.",
+              "vi": "Tài xế Việt giờ ai cũng dùng app GPS."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["navigation system", "satnav"],
+      "antonyms": ["paper map"],
+      "collocations": [
+        "GPS navigation",
+        "GPS signal",
+        "follow the GPS",
+        "GPS app",
+        "GPS coordinates"
+      ],
+      "etymology_hint": "Acronym from US military program in 1973 — became public-use in 1990s.",
+      "mnemonic_vi": "GPS = 'giê-pê-ét' / 'gi-pi-ét'. GPS navigation = định vị GPS."
+    },
+    {
+      "word": "navigation",
+      "lemma": "navigation",
+      "ipa": "/ˌnævɪˈɡeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of finding your way to a destination, often using maps or technology",
+          "meaning_vi": "việc định hướng / điều hướng",
+          "examples": [
+            {
+              "en": "Google Maps revolutionized navigation.",
+              "vi": "Google Maps cách mạng hóa việc điều hướng."
+            },
+            {
+              "en": "Old-school navigation used paper maps and compasses.",
+              "vi": "Điều hướng kiểu cũ dùng bản đồ giấy và la bàn."
+            },
+            {
+              "en": "Good navigation skills save hours on a road trip.",
+              "vi": "Kỹ năng định hướng tốt tiết kiệm giờ đi xa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wayfinding", "guidance"],
+      "antonyms": ["getting lost"],
+      "collocations": [
+        "GPS navigation",
+        "navigation app",
+        "satellite navigation",
+        "in-car navigation",
+        "navigation skills"
+      ],
+      "etymology_hint": "From Latin 'navigatio' = sailing — 'navis' (ship) + 'agere' (drive).",
+      "mnemonic_vi": "NAVIGATE (định hướng) + ION = sự định hướng. Navigation app = app điều hướng."
+    },
+    {
+      "word": "rest-area",
+      "lemma": "rest-area",
+      "ipa": "/ˈrest ˌeəriə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place beside a highway where drivers can stop to rest, use toilets, or eat",
+          "meaning_vi": "trạm dừng nghỉ (trên cao tốc)",
+          "examples": [
+            {
+              "en": "The next rest-area is 25 km away.",
+              "vi": "Trạm dừng kế tiếp cách 25 km."
+            },
+            {
+              "en": "We picnicked at a rest-area near the mountains.",
+              "vi": "Chúng tôi ăn trưa ở trạm dừng gần núi."
+            },
+            {
+              "en": "Rest-areas often have free Wi-Fi and toilets.",
+              "vi": "Trạm dừng thường có Wi-Fi và toilet miễn phí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rest stop", "service area"],
+      "antonyms": ["non-stop drive"],
+      "collocations": [
+        "highway rest-area",
+        "nearest rest-area",
+        "stop at a rest-area",
+        "rest-area facilities",
+        "official rest-area"
+      ],
+      "etymology_hint": "Compound: 'rest' + 'area' — standardized term in 1950s US Interstate planning.",
+      "mnemonic_vi": "REST (nghỉ) + AREA (khu) = khu nghỉ. Highway rest-area = trạm dừng cao tốc."
+    },
+    {
+      "word": "motorhome",
+      "lemma": "motorhome",
+      "ipa": "/ˈməʊtəhəʊm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large vehicle built like a home, with bed, kitchen, and bathroom inside",
+          "meaning_vi": "xe nhà di động (có giường, bếp, vệ sinh)",
+          "examples": [
+            {
+              "en": "They retired and bought a motorhome.",
+              "vi": "Họ về hưu và mua xe nhà di động."
+            },
+            {
+              "en": "Motorhomes use a lot of fuel.",
+              "vi": "Xe nhà di động tốn nhiều nhiên liệu."
+            },
+            {
+              "en": "Motorhome holidays are popular in Europe.",
+              "vi": "Du lịch bằng motorhome phổ biến ở châu Âu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["RV", "camper van"],
+      "antonyms": ["regular car"],
+      "collocations": [
+        "luxury motorhome",
+        "rent a motorhome",
+        "motorhome holiday",
+        "park a motorhome",
+        "motorhome owner"
+      ],
+      "etymology_hint": "Compound: 'motor' (Latin 'movere' = move) + 'home' — UK term, popular since the 1970s.",
+      "mnemonic_vi": "MOTOR (động cơ) + HOME (nhà) = nhà có máy. Motorhome holiday = du lịch motorhome."
+    },
+    {
+      "word": "camper",
+      "lemma": "camper",
+      "ipa": "/ˈkæmpə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small vehicle or van fitted for sleeping and traveling",
+          "meaning_vi": "xe cắm trại (nhỏ hơn motorhome)",
+          "examples": [
+            {
+              "en": "Their camper has a bed and a tiny kitchen.",
+              "vi": "Xe cắm trại của họ có giường và bếp tí xíu."
+            },
+            {
+              "en": "Campers are cheaper to run than motorhomes.",
+              "vi": "Xe cắm trại rẻ vận hành hơn motorhome."
+            },
+            {
+              "en": "She converted an old van into a camper.",
+              "vi": "Cô ấy hoán cải xe van cũ thành camper."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["camper van", "VW bus"],
+      "antonyms": ["tent"],
+      "collocations": [
+        "camper van",
+        "convert into a camper",
+        "rent a camper",
+        "vintage camper",
+        "self-built camper"
+      ],
+      "etymology_hint": "Agent noun of 'camp' (Latin 'campus' = field) — vehicle sense from 1960s American outdoor culture.",
+      "mnemonic_vi": "CAMPER đọc 'kem-pờ' — camp đi đâu cũng được. Camper van = xe cắm trại."
+    },
+    {
+      "word": "traffic-jam",
+      "lemma": "traffic-jam",
+      "ipa": "/ˈtræfɪk dʒæm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "many vehicles stuck close together on the road, moving slowly or not at all",
+          "meaning_vi": "tắc đường, kẹt xe",
+          "examples": [
+            {
+              "en": "Hà Nội traffic-jams can last an hour.",
+              "vi": "Tắc đường Hà Nội có thể kéo dài cả tiếng."
+            },
+            {
+              "en": "Avoid the rush-hour traffic-jam by leaving at 6 a.m.",
+              "vi": "Tránh tắc giờ cao điểm bằng cách đi từ 6 giờ sáng."
+            },
+            {
+              "en": "We were stuck in a traffic-jam for 90 minutes.",
+              "vi": "Chúng tôi kẹt xe 90 phút."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gridlock", "congestion"],
+      "antonyms": ["clear road"],
+      "collocations": [
+        "stuck in a traffic-jam",
+        "rush-hour traffic-jam",
+        "massive traffic-jam",
+        "avoid traffic-jams",
+        "traffic-jam warning"
+      ],
+      "etymology_hint": "Compound: 'traffic' (Latin 'transfricare' = to rub across) + 'jam' (stuck mass) — 20th-century urban term.",
+      "mnemonic_vi": "TRAFFIC (giao thông) + JAM (kẹt) = kẹt giao thông. Stuck in a traffic-jam = kẹt xe."
+    },
+    {
+      "word": "speed-limit",
+      "lemma": "speed-limit",
+      "ipa": "/ˈspiːd ˌlɪmɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the maximum legal speed you can drive on a road",
+          "meaning_vi": "giới hạn tốc độ (theo luật)",
+          "examples": [
+            {
+              "en": "The speed-limit on this highway is 90 km/h.",
+              "vi": "Giới hạn tốc độ trên cao tốc này là 90 km/h."
+            },
+            {
+              "en": "Exceeding the speed-limit means a fine.",
+              "vi": "Vượt tốc độ tối đa bị phạt."
+            },
+            {
+              "en": "Vietnamese urban speed-limits are usually 40-50 km/h.",
+              "vi": "Giới hạn tốc độ trong đô thị Việt Nam thường 40-50 km/h."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["max speed"],
+      "antonyms": ["no limit"],
+      "collocations": [
+        "exceed the speed-limit",
+        "posted speed-limit",
+        "obey the speed-limit",
+        "speed-limit sign",
+        "urban speed-limit"
+      ],
+      "etymology_hint": "Compound: 'speed' + 'limit' — first enforced on UK highways in 1865 (4 mph in town).",
+      "mnemonic_vi": "SPEED (tốc độ) + LIMIT (giới hạn) = giới hạn tốc độ. Exceed the speed-limit = vượt tốc độ."
+    },
+    {
+      "word": "registration",
+      "lemma": "registration",
+      "ipa": "/ˌredʒɪˈstreɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the official record showing a vehicle is allowed to be on the road",
+          "meaning_vi": "đăng ký xe (giấy tờ)",
+          "examples": [
+            {
+              "en": "Carry your registration whenever you drive.",
+              "vi": "Mang giấy đăng ký xe khi lái."
+            },
+            {
+              "en": "Vietnamese vehicle registration requires inspection.",
+              "vi": "Đăng ký xe ở Việt Nam phải qua đăng kiểm."
+            },
+            {
+              "en": "Expired registration leads to fines.",
+              "vi": "Đăng ký hết hạn dẫn đến bị phạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["license plate paper"],
+      "antonyms": ["unregistered"],
+      "collocations": [
+        "vehicle registration",
+        "registration number",
+        "renew registration",
+        "registration certificate",
+        "expired registration"
+      ],
+      "etymology_hint": "From Latin 'registrum' = list — official records sense from 14th century.",
+      "mnemonic_vi": "REGIST (đăng ký) + RATION = sự đăng ký. Vehicle registration = đăng ký xe."
+    },
+    {
+      "word": "odometer",
+      "lemma": "odometer",
+      "ipa": "/əʊˈdɒmɪtə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the instrument in a vehicle that measures total distance traveled",
+          "meaning_vi": "đồng hồ đo km (trên xe)",
+          "examples": [
+            {
+              "en": "The odometer hit 100,000 km today.",
+              "vi": "Đồng hồ đo km chạm 100.000 km hôm nay."
+            },
+            {
+              "en": "Check the odometer before any long trip.",
+              "vi": "Xem đồng hồ km trước mỗi chuyến đi dài."
+            },
+            {
+              "en": "An odometer rollback is illegal in Vietnam.",
+              "vi": "Tua ngược odometer là phạm pháp ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mileage counter"],
+      "antonyms": [],
+      "collocations": [
+        "check the odometer",
+        "odometer reading",
+        "digital odometer",
+        "odometer rollback",
+        "trip odometer"
+      ],
+      "etymology_hint": "From Greek 'hodos' (path, road) + 'metron' (measure) — invented in ancient Greece by Heron.",
+      "mnemonic_vi": "ODO (đường) + METER (đo) = đo đường. Odometer reading = chỉ số odometer."
+    },
+    {
+      "word": "toll",
+      "lemma": "toll",
+      "ipa": "/təʊl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money you pay to use certain roads or bridges",
+          "meaning_vi": "phí cầu đường",
+          "examples": [
+            {
+              "en": "The toll on this expressway is 50,000 đồng.",
+              "vi": "Phí cầu đường trên cao tốc này là 50.000 đồng."
+            },
+            {
+              "en": "Electronic tolls speed up the queue.",
+              "vi": "Thu phí điện tử làm nhanh hàng chờ."
+            },
+            {
+              "en": "Vietnamese highways increasingly use cashless tolls.",
+              "vi": "Cao tốc Việt ngày càng dùng thu phí không tiền mặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["road fee"],
+      "antonyms": ["free road"],
+      "collocations": ["pay the toll", "toll road", "electronic toll", "toll booth", "toll fee"],
+      "etymology_hint": "From Old English 'toln' = tax — original meaning preserved in 'toll road'.",
+      "mnemonic_vi": "TOLL đọc 'tôl' — tốn tiền cầu đường. Toll road = đường có phí."
+    },
+    {
+      "word": "carpool",
+      "lemma": "carpool",
+      "ipa": "/ˈkɑːpuːl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to share a car ride with others going to the same place to save costs and fuel",
+          "meaning_vi": "đi chung xe (chia phí)",
+          "examples": [
+            {
+              "en": "Three coworkers carpool to the office daily.",
+              "vi": "Ba đồng nghiệp đi chung xe đến văn phòng mỗi ngày."
+            },
+            {
+              "en": "Carpooling cuts your commute cost in half.",
+              "vi": "Đi chung xe cắt nửa chi phí đi làm."
+            },
+            {
+              "en": "Vietnamese apps now organize carpools between cities.",
+              "vi": "App Việt giờ tổ chức đi chung xe liên tỉnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ride share"],
+      "antonyms": ["drive solo"],
+      "collocations": [
+        "carpool with",
+        "carpool lane",
+        "organize a carpool",
+        "school carpool",
+        "office carpool"
+      ],
+      "etymology_hint": "Compound: 'car' + 'pool' (shared resource) — American term from 1940s wartime fuel rationing.",
+      "mnemonic_vi": "CAR (xe) + POOL (chung) = chung xe. Carpool lane = làn đi chung xe."
+    },
+    {
+      "word": "dashboard",
+      "lemma": "dashboard",
+      "ipa": "/ˈdæʃbɔːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the panel in front of the driver showing speed, fuel, and other gauges",
+          "meaning_vi": "bảng đồng hồ taplô (trước mặt tài xế)",
+          "examples": [
+            {
+              "en": "The check-engine light on the dashboard turned on.",
+              "vi": "Đèn check-engine trên taplô sáng lên."
+            },
+            {
+              "en": "Modern dashboards show navigation and music.",
+              "vi": "Taplô hiện đại hiển thị bản đồ và nhạc."
+            },
+            {
+              "en": "Don't put hot drinks on the dashboard.",
+              "vi": "Đừng đặt đồ uống nóng lên taplô."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instrument panel"],
+      "antonyms": [],
+      "collocations": [
+        "car dashboard",
+        "dashboard warning light",
+        "digital dashboard",
+        "dashboard display",
+        "wipe the dashboard"
+      ],
+      "etymology_hint": "Originally a board on a carriage that 'dashed' mud away — moved to cars in 1900s.",
+      "mnemonic_vi": "DASH (đập) + BOARD (bảng) = bảng chắn bùn → taplô. Car dashboard = taplô xe."
+    },
+    {
+      "word": "freeway",
+      "lemma": "freeway",
+      "ipa": "/ˈfriːweɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a wide, fast road with no traffic lights, free to use (American English)",
+          "meaning_vi": "đường cao tốc miễn phí (Mỹ)",
+          "examples": [
+            {
+              "en": "Hop on the freeway and you'll be there in 30 minutes.",
+              "vi": "Lên cao tốc thì 30 phút là tới."
+            },
+            {
+              "en": "California freeways are famously congested.",
+              "vi": "Cao tốc California nổi tiếng kẹt xe."
+            },
+            {
+              "en": "Vietnam built its first freeway in 1998.",
+              "vi": "Việt Nam xây cao tốc đầu tiên năm 1998."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expressway", "highway"],
+      "antonyms": ["local road"],
+      "collocations": [
+        "freeway entrance",
+        "freeway exit",
+        "merge onto the freeway",
+        "freeway traffic",
+        "freeway lanes"
+      ],
+      "etymology_hint": "Compound: 'free' (no toll) + 'way' — coined 1930s by US traffic engineer Edward Bassett.",
+      "mnemonic_vi": "FREE (miễn phí) + WAY (đường) = đường miễn phí. Freeway entrance = lối vào cao tốc."
+    }
+  ]
+}
