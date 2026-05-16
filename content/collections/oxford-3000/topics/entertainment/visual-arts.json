@@ -1,0 +1,769 @@
+{
+  "slug": "visual-arts",
+  "name": "Visual Arts",
+  "description": "Mỹ thuật B1 — sketch, canvas, palette, masterpiece và 16 từ cho người yêu nghệ thuật.",
+  "order_index": 11,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "sketch",
+      "lemma": "sketch",
+      "ipa": "/sketʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a quick, rough drawing made before a more detailed work",
+          "meaning_vi": "bản phác họa, sketch",
+          "examples": [
+            {
+              "en": "She made a quick sketch of the temple.",
+              "vi": "Cô ấy vẽ nhanh phác họa ngôi chùa."
+            },
+            {
+              "en": "Architects start with rough sketches.",
+              "vi": "Kiến trúc sư bắt đầu bằng sketch thô."
+            },
+            {
+              "en": "His sketchbook is full of café portraits.",
+              "vi": "Sổ phác họa của anh ấy đầy chân dung quán cà phê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["draft drawing", "outline"],
+      "antonyms": ["finished painting"],
+      "collocations": [
+        "rough sketch",
+        "quick sketch",
+        "pencil sketch",
+        "sketch book",
+        "preliminary sketch"
+      ],
+      "etymology_hint": "From Italian 'schizzo' = a splash — quick artistic gesture.",
+      "mnemonic_vi": "SKETCH đọc 'sketch' — sờ ke nhanh. Rough sketch = phác họa thô."
+    },
+    {
+      "word": "canvas",
+      "lemma": "canvas",
+      "ipa": "/ˈkænvəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "strong cloth that artists paint on",
+          "meaning_vi": "vải canvas (vải vẽ tranh)",
+          "examples": [
+            {
+              "en": "She prepared a fresh canvas for her oil painting.",
+              "vi": "Cô ấy chuẩn bị canvas mới cho tranh sơn dầu."
+            },
+            {
+              "en": "Stretching canvas takes practice.",
+              "vi": "Căng canvas đòi hỏi luyện tập."
+            },
+            {
+              "en": "Large canvases cost a lot to ship.",
+              "vi": "Canvas lớn tốn nhiều phí giao hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["painting cloth"],
+      "antonyms": ["paper"],
+      "collocations": [
+        "blank canvas",
+        "stretch a canvas",
+        "oil on canvas",
+        "large canvas",
+        "primed canvas"
+      ],
+      "etymology_hint": "From Latin 'cannabis' = hemp — original canvas was hemp cloth.",
+      "mnemonic_vi": "CANVAS đọc 'ken-vớt' — căng vải vẽ. Blank canvas = canvas trắng."
+    },
+    {
+      "word": "exhibit",
+      "lemma": "exhibit",
+      "ipa": "/ɪɡˈzɪbɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show artworks publicly, especially in a museum or gallery",
+          "meaning_vi": "trưng bày (tác phẩm nghệ thuật)",
+          "examples": [
+            {
+              "en": "The artist exhibits in Hà Nội twice a year.",
+              "vi": "Họa sĩ trưng bày ở Hà Nội mỗi năm 2 lần."
+            },
+            {
+              "en": "Several Vietnamese pieces are exhibited in MoMA.",
+              "vi": "Vài tác phẩm Việt được trưng bày tại MoMA."
+            },
+            {
+              "en": "Young artists struggle to find places to exhibit.",
+              "vi": "Họa sĩ trẻ chật vật tìm chỗ trưng bày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["display", "show"],
+      "antonyms": ["hide", "store away"],
+      "collocations": [
+        "exhibit a painting",
+        "publicly exhibit",
+        "exhibit at",
+        "currently exhibiting",
+        "exhibit work"
+      ],
+      "etymology_hint": "From Latin 'exhibere' = to hold out — 'ex-' (out) + 'habere' (hold).",
+      "mnemonic_vi": "EX (ra) + HIBIT (giữ) = đưa ra. Exhibit a painting = trưng bày tranh."
+    },
+    {
+      "word": "abstract",
+      "lemma": "abstract",
+      "ipa": "/ˈæbstrækt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of art) using shapes and colors rather than realistic images",
+          "meaning_vi": "trừu tượng (nghệ thuật, không vẽ vật thật)",
+          "examples": [
+            {
+              "en": "Abstract paintings invite many interpretations.",
+              "vi": "Tranh trừu tượng cho phép nhiều cách hiểu."
+            },
+            {
+              "en": "She prefers abstract over realism.",
+              "vi": "Cô ấy thích trừu tượng hơn hiện thực."
+            },
+            {
+              "en": "Kandinsky pioneered abstract art.",
+              "vi": "Kandinsky tiên phong nghệ thuật trừu tượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["non-representational"],
+      "antonyms": ["realistic", "figurative"],
+      "collocations": [
+        "abstract art",
+        "abstract painting",
+        "abstract style",
+        "pure abstract",
+        "abstract expressionism"
+      ],
+      "etymology_hint": "From Latin 'abstractus' = drawn away — meaning 'detached from concrete reality'.",
+      "mnemonic_vi": "AB (ra) + STRACT (kéo) = kéo ra khỏi cụ thể. Abstract art = nghệ thuật trừu tượng."
+    },
+    {
+      "word": "portrait",
+      "lemma": "portrait",
+      "ipa": "/ˈpɔːtrət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a painting, drawing, or photo of a person, especially of the face",
+          "meaning_vi": "tranh chân dung",
+          "examples": [
+            {
+              "en": "The Mona Lisa is the world's most famous portrait.",
+              "vi": "Mona Lisa là chân dung nổi tiếng nhất thế giới."
+            },
+            {
+              "en": "She paints portraits of street vendors.",
+              "vi": "Cô ấy vẽ chân dung những người bán hàng rong."
+            },
+            {
+              "en": "A good portrait reveals personality, not just looks.",
+              "vi": "Chân dung tốt thể hiện cá tính, không chỉ ngoại hình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["likeness", "image"],
+      "antonyms": ["landscape (genre)"],
+      "collocations": [
+        "self-portrait",
+        "oil portrait",
+        "commission a portrait",
+        "family portrait",
+        "portrait photographer"
+      ],
+      "etymology_hint": "From Old French 'portraire' = to draw forth — 'pro-' (forth) + 'traire' (draw).",
+      "mnemonic_vi": "PORT (mang) + RAIT (vẽ) = vẽ ra hình người. Self-portrait = chân dung tự họa."
+    },
+    {
+      "word": "landscape",
+      "lemma": "landscape",
+      "ipa": "/ˈlændskeɪp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a painting or photograph showing natural scenery",
+          "meaning_vi": "tranh phong cảnh",
+          "examples": [
+            {
+              "en": "She specializes in Vietnamese rice-field landscapes.",
+              "vi": "Cô ấy chuyên vẽ phong cảnh đồng lúa Việt Nam."
+            },
+            {
+              "en": "Landscapes were unfashionable in modern art.",
+              "vi": "Phong cảnh từng không thời thượng trong nghệ thuật hiện đại."
+            },
+            {
+              "en": "Watercolor suits soft landscape scenes.",
+              "vi": "Màu nước hợp cảnh phong cảnh dịu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["scenery", "vista"],
+      "antonyms": ["portrait (genre)"],
+      "collocations": [
+        "landscape painting",
+        "rural landscape",
+        "paint a landscape",
+        "watercolor landscape",
+        "famous landscape"
+      ],
+      "etymology_hint": "From Dutch 'landschap' = region — entered English via 17th-century Dutch art.",
+      "mnemonic_vi": "LAND (đất) + SCAPE (cảnh) = cảnh đất. Landscape painting = tranh phong cảnh."
+    },
+    {
+      "word": "mural",
+      "lemma": "mural",
+      "ipa": "/ˈmjʊərəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large painting made directly on a wall",
+          "meaning_vi": "tranh tường (vẽ trực tiếp lên tường)",
+          "examples": [
+            {
+              "en": "The mural in District 1 is now an Instagram landmark.",
+              "vi": "Bức tranh tường quận 1 giờ là điểm chụp Instagram."
+            },
+            {
+              "en": "Painting a mural takes days, even weeks.",
+              "vi": "Vẽ tranh tường mất nhiều ngày, có khi tuần."
+            },
+            {
+              "en": "Some Vietnamese villages are famous for outdoor murals.",
+              "vi": "Vài làng Việt nổi tiếng nhờ tranh tường ngoài trời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wall painting", "fresco"],
+      "antonyms": ["framed painting"],
+      "collocations": [
+        "outdoor mural",
+        "paint a mural",
+        "street mural",
+        "huge mural",
+        "commissioned mural"
+      ],
+      "etymology_hint": "From Latin 'muralis' = of a wall — root 'murus' (wall).",
+      "mnemonic_vi": "MURAL đọc 'miu-rồ' — mỡ rồng vẽ tường. Outdoor mural = tranh tường ngoài trời."
+    },
+    {
+      "word": "brushstroke",
+      "lemma": "brushstroke",
+      "ipa": "/ˈbrʌʃstrəʊk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a single movement of a paintbrush, leaving a mark of paint",
+          "meaning_vi": "nét cọ, vệt cọ",
+          "examples": [
+            {
+              "en": "His bold brushstrokes give the painting energy.",
+              "vi": "Nét cọ mạnh tay làm tranh tràn năng lượng."
+            },
+            {
+              "en": "Notice the brushstrokes — they tell you the artist's style.",
+              "vi": "Để ý nét cọ — chúng tiết lộ phong cách họa sĩ."
+            },
+            {
+              "en": "Van Gogh's brushstrokes are unmistakable.",
+              "vi": "Nét cọ của Van Gogh không thể nhầm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["paint stroke"],
+      "antonyms": [],
+      "collocations": [
+        "bold brushstroke",
+        "fine brushstroke",
+        "loose brushstrokes",
+        "visible brushstrokes",
+        "delicate brushstrokes"
+      ],
+      "etymology_hint": "Compound: 'brush' + 'stroke' — art criticism term from 19th century.",
+      "mnemonic_vi": "BRUSH (cọ) + STROKE (nét) = nét cọ. Bold brushstroke = nét cọ mạnh."
+    },
+    {
+      "word": "watercolor",
+      "lemma": "watercolor",
+      "ipa": "/ˈwɔːtəkʌlə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "paint that is mixed with water, or a painting made with such paint",
+          "meaning_vi": "màu nước (sơn pha nước) hoặc tranh màu nước",
+          "examples": [
+            {
+              "en": "Watercolor is forgiving for beginners.",
+              "vi": "Màu nước dễ chịu cho người mới."
+            },
+            {
+              "en": "She brought her watercolor kit to the beach.",
+              "vi": "Cô ấy mang bộ màu nước ra biển."
+            },
+            {
+              "en": "His watercolor of Hội An hangs in the lobby.",
+              "vi": "Bức màu nước Hội An của anh ấy treo ở sảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aquarelle"],
+      "antonyms": ["oil paint", "acrylic"],
+      "collocations": [
+        "watercolor painting",
+        "watercolor set",
+        "in watercolor",
+        "loose watercolor",
+        "watercolor paper"
+      ],
+      "etymology_hint": "Compound: 'water' + 'color' — popularized in 18th-century English painting.",
+      "mnemonic_vi": "WATER (nước) + COLOR (màu) = màu nước. Watercolor painting = tranh màu nước."
+    },
+    {
+      "word": "easel",
+      "lemma": "easel",
+      "ipa": "/ˈiːzl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a wooden stand that holds a painter's canvas while they work",
+          "meaning_vi": "giá vẽ (đỡ tranh)",
+          "examples": [
+            {
+              "en": "She set up her easel by the lake.",
+              "vi": "Cô ấy dựng giá vẽ bên hồ."
+            },
+            {
+              "en": "Portable easels fold up small.",
+              "vi": "Giá vẽ di động gấp gọn được."
+            },
+            {
+              "en": "An adjustable easel saves your back.",
+              "vi": "Giá vẽ điều chỉnh được giúp đỡ lưng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["painting stand"],
+      "antonyms": [],
+      "collocations": [
+        "wooden easel",
+        "portable easel",
+        "set up an easel",
+        "studio easel",
+        "adjustable easel"
+      ],
+      "etymology_hint": "From Dutch 'ezel' = donkey — the stand 'carries' the painting like a pack animal.",
+      "mnemonic_vi": "EASEL đọc 'i-zồ' — i, đỡ tranh trên giá. Set up an easel = dựng giá vẽ."
+    },
+    {
+      "word": "palette",
+      "lemma": "palette",
+      "ipa": "/ˈpælət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a board on which a painter mixes colors; also the range of colors used",
+          "meaning_vi": "bảng pha màu / bảng màu của một tác phẩm",
+          "examples": [
+            {
+              "en": "She mixed earth tones on her palette.",
+              "vi": "Cô ấy pha các tông màu đất trên bảng pha."
+            },
+            {
+              "en": "Monet's palette favored pale blues and pinks.",
+              "vi": "Bảng màu Monet thiên về xanh nhạt và hồng."
+            },
+            {
+              "en": "A limited palette can make a painting cohesive.",
+              "vi": "Bảng màu hạn chế làm tranh đồng nhất hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["color board", "color scheme"],
+      "antonyms": [],
+      "collocations": [
+        "color palette",
+        "limited palette",
+        "earthy palette",
+        "mix on the palette",
+        "vibrant palette"
+      ],
+      "etymology_hint": "From French 'palette' = small spade — originally a flat tool, became artists' mixing board.",
+      "mnemonic_vi": "PALETTE đọc 'pa-lét' — phía lết bảng pha. Color palette = bảng màu."
+    },
+    {
+      "word": "masterpiece",
+      "lemma": "masterpiece",
+      "ipa": "/ˈmɑːstəpiːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an artwork considered the best of its kind, or the artist's greatest work",
+          "meaning_vi": "kiệt tác",
+          "examples": [
+            {
+              "en": "The Mona Lisa is widely seen as a masterpiece.",
+              "vi": "Mona Lisa được xem rộng rãi là một kiệt tác."
+            },
+            {
+              "en": "Few artists produce more than one masterpiece.",
+              "vi": "Ít họa sĩ tạo nên hơn một kiệt tác."
+            },
+            {
+              "en": "This building is an architectural masterpiece.",
+              "vi": "Công trình này là kiệt tác kiến trúc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["magnum opus", "great work"],
+      "antonyms": ["mediocre work"],
+      "collocations": [
+        "true masterpiece",
+        "literary masterpiece",
+        "create a masterpiece",
+        "absolute masterpiece",
+        "architectural masterpiece"
+      ],
+      "etymology_hint": "Compound: 'master' (skilled artist) + 'piece' — originally the work a guild apprentice had to make to qualify as a master.",
+      "mnemonic_vi": "MASTER (bậc thầy) + PIECE (tác phẩm) = tác phẩm bậc thầy. True masterpiece = kiệt tác thực sự."
+    },
+    {
+      "word": "realism",
+      "lemma": "realism",
+      "ipa": "/ˈrɪəlɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an art style that shows things exactly as they appear in real life",
+          "meaning_vi": "trường phái hiện thực (vẽ chân thật)",
+          "examples": [
+            {
+              "en": "Photorealism takes realism to an extreme.",
+              "vi": "Trường phái hyper-realism đẩy hiện thực đến cực hạn."
+            },
+            {
+              "en": "19th-century French realism rejected idealization.",
+              "vi": "Trường phái hiện thực Pháp thế kỷ 19 từ chối lý tưởng hóa."
+            },
+            {
+              "en": "Her realism contrasts with his abstract style.",
+              "vi": "Phong cách hiện thực của cô ấy tương phản với trừu tượng của anh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["realistic style"],
+      "antonyms": ["abstraction", "fantasy"],
+      "collocations": [
+        "photorealism",
+        "social realism",
+        "magic realism",
+        "strict realism",
+        "embrace realism"
+      ],
+      "etymology_hint": "From 'real' (Latin 'res' = thing) + '-ism' — art movement label from 1850s France.",
+      "mnemonic_vi": "REAL (thật) + ISM = chủ nghĩa hiện thực. Social realism = hiện thực xã hội."
+    },
+    {
+      "word": "impressionism",
+      "lemma": "impressionism",
+      "ipa": "/ɪmˈpreʃənɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a 19th-century art movement using small bright brushstrokes to capture light and atmosphere",
+          "meaning_vi": "trường phái ấn tượng (nét cọ nhỏ, tập trung ánh sáng)",
+          "examples": [
+            {
+              "en": "Impressionism began with Monet and his peers.",
+              "vi": "Trường phái ấn tượng bắt đầu với Monet và đồng nghiệp."
+            },
+            {
+              "en": "Impressionism shocked critics when it appeared.",
+              "vi": "Ấn tượng từng gây sốc giới phê bình khi xuất hiện."
+            },
+            {
+              "en": "Vietnamese impressionists studied in France in the 1920s.",
+              "vi": "Họa sĩ ấn tượng Việt từng học ở Pháp thập niên 1920."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["realism (in style)"],
+      "collocations": [
+        "French impressionism",
+        "Impressionist painter",
+        "post-impressionism",
+        "study impressionism",
+        "Vietnamese impressionism"
+      ],
+      "etymology_hint": "From 'impression' (Latin 'impressio') + '-ism' — labeled after Monet's painting 'Impression, Sunrise' (1872).",
+      "mnemonic_vi": "IMPRESS (ấn tượng) + IONISM = chủ nghĩa ấn tượng. French impressionism = trường phái ấn tượng Pháp."
+    },
+    {
+      "word": "curator",
+      "lemma": "curator",
+      "ipa": "/kjʊəˈreɪtə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person in charge of selecting and organizing artworks in a museum or gallery",
+          "meaning_vi": "giám tuyển (chọn và sắp đặt tác phẩm)",
+          "examples": [
+            {
+              "en": "The curator chose 80 pieces for the exhibition.",
+              "vi": "Giám tuyển chọn 80 tác phẩm cho triển lãm."
+            },
+            {
+              "en": "She trained as a curator at the Sorbonne.",
+              "vi": "Cô ấy học giám tuyển ở Sorbonne."
+            },
+            {
+              "en": "Vietnamese museums need more young curators.",
+              "vi": "Bảo tàng Việt cần thêm giám tuyển trẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gallery director"],
+      "antonyms": [],
+      "collocations": [
+        "museum curator",
+        "chief curator",
+        "guest curator",
+        "curator of",
+        "assistant curator"
+      ],
+      "etymology_hint": "From Latin 'cura' = care — originally 'one who cares for'.",
+      "mnemonic_vi": "CURATE (chăm chọn) + OR = người chăm chọn. Museum curator = giám tuyển bảo tàng."
+    },
+    {
+      "word": "frame",
+      "lemma": "frame",
+      "ipa": "/freɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the wooden or metal border around a picture or painting",
+          "meaning_vi": "khung tranh",
+          "examples": [
+            {
+              "en": "She bought a wooden frame for the watercolor.",
+              "vi": "Cô ấy mua khung gỗ cho tranh màu nước."
+            },
+            {
+              "en": "A heavy frame can overpower a small painting.",
+              "vi": "Khung nặng có thể lấn át tranh nhỏ."
+            },
+            {
+              "en": "Antique frames cost as much as the artwork sometimes.",
+              "vi": "Khung cổ đôi khi đắt ngang tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["border", "case"],
+      "antonyms": [],
+      "collocations": [
+        "picture frame",
+        "wooden frame",
+        "antique frame",
+        "frame the painting",
+        "ornate frame"
+      ],
+      "etymology_hint": "From Old English 'framian' = to make progress, to fit — meaning shifted to physical border.",
+      "mnemonic_vi": "FRAME = khung. Picture frame = khung tranh."
+    },
+    {
+      "word": "illustration",
+      "lemma": "illustration",
+      "ipa": "/ˌɪləˈstreɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a picture or drawing used in a book, magazine, or article to support text",
+          "meaning_vi": "tranh minh họa",
+          "examples": [
+            {
+              "en": "The children's book has stunning illustrations.",
+              "vi": "Sách trẻ em có những bức minh họa đẹp ngỡ ngàng."
+            },
+            {
+              "en": "Editorial illustration is a growing field in Vietnam.",
+              "vi": "Minh họa biên tập là lĩnh vực đang lên ở Việt Nam."
+            },
+            {
+              "en": "Good illustration makes complex ideas clear.",
+              "vi": "Minh họa tốt làm rõ ý tưởng phức tạp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["drawing", "image"],
+      "antonyms": ["text only"],
+      "collocations": [
+        "book illustration",
+        "digital illustration",
+        "fashion illustration",
+        "editorial illustration",
+        "freelance illustration"
+      ],
+      "etymology_hint": "From Latin 'illustrare' = to light up, make clear — root 'lustrare' (to shine).",
+      "mnemonic_vi": "ILLUS (sáng) + TRATION = sự làm sáng. Book illustration = minh họa sách."
+    },
+    {
+      "word": "pottery",
+      "lemma": "pottery",
+      "ipa": "/ˈpɒtəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the craft of making objects from clay; also the objects themselves",
+          "meaning_vi": "gốm, đồ gốm",
+          "examples": [
+            {
+              "en": "Bát Tràng is Vietnam's most famous pottery village.",
+              "vi": "Bát Tràng là làng gốm nổi tiếng nhất Việt Nam."
+            },
+            {
+              "en": "She takes pottery classes on weekends.",
+              "vi": "Cô ấy học lớp gốm cuối tuần."
+            },
+            {
+              "en": "Hand-thrown pottery feels different from machine-made.",
+              "vi": "Gốm vuốt tay cảm giác khác gốm máy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ceramics"],
+      "antonyms": [],
+      "collocations": [
+        "pottery class",
+        "handmade pottery",
+        "Bát Tràng pottery",
+        "ancient pottery",
+        "ceramic pottery"
+      ],
+      "etymology_hint": "From 'pot' (Old English 'pott' = vessel) + '-ery' as a craft suffix.",
+      "mnemonic_vi": "POT (lọ) + ERY = nghề lọ. Pottery class = lớp học gốm."
+    },
+    {
+      "word": "charcoal",
+      "lemma": "charcoal",
+      "ipa": "/ˈtʃɑːkəʊl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a black stick made from burned wood, used for drawing",
+          "meaning_vi": "than chì để vẽ",
+          "examples": [
+            {
+              "en": "Charcoal sketches show emotion through dark strokes.",
+              "vi": "Phác họa than chì thể hiện cảm xúc qua nét tối."
+            },
+            {
+              "en": "She prefers charcoal to pencil for portraits.",
+              "vi": "Cô ấy thích than chì hơn bút chì cho chân dung."
+            },
+            {
+              "en": "Charcoal smudges easily — work carefully.",
+              "vi": "Than chì dễ lem — vẽ cẩn thận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["charcoal stick"],
+      "antonyms": ["pen"],
+      "collocations": [
+        "charcoal drawing",
+        "charcoal sketch",
+        "compressed charcoal",
+        "charcoal portrait",
+        "vine charcoal"
+      ],
+      "etymology_hint": "Compound: 'char' (to burn partly) + 'coal' — material made by partial burning of wood.",
+      "mnemonic_vi": "CHAR (than) + COAL (than đá) = than chì. Charcoal drawing = vẽ than chì."
+    },
+    {
+      "word": "contemporary",
+      "lemma": "contemporary",
+      "ipa": "/kənˈtempərəri/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of art) created in the present time or recent years",
+          "meaning_vi": "đương đại (thời nay)",
+          "examples": [
+            {
+              "en": "She collects contemporary Vietnamese art.",
+              "vi": "Cô ấy sưu tầm nghệ thuật đương đại Việt Nam."
+            },
+            {
+              "en": "Contemporary galleries open monthly in Saigon.",
+              "vi": "Phòng tranh đương đại mở hàng tháng ở Sài Gòn."
+            },
+            {
+              "en": "Some say contemporary art is hard to understand.",
+              "vi": "Có người nói nghệ thuật đương đại khó hiểu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["modern", "current"],
+      "antonyms": ["ancient", "classical"],
+      "collocations": [
+        "contemporary art",
+        "contemporary artist",
+        "contemporary style",
+        "contemporary design",
+        "Vietnamese contemporary"
+      ],
+      "etymology_hint": "From Latin 'con-' (together) + 'tempus' (time) — 'of the same time'.",
+      "mnemonic_vi": "CON (cùng) + TEMPOR (thời) + ARY = cùng thời. Contemporary art = nghệ thuật đương đại."
+    }
+  ]
+}

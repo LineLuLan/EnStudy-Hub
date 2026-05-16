@@ -1,0 +1,769 @@
+{
+  "slug": "parenting",
+  "name": "Parenting",
+  "description": "Nuôi dạy con B1 — parenting, scold, nurture, sibling và 16 từ cho cha mẹ trẻ.",
+  "order_index": 20,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "parenting",
+      "lemma": "parenting",
+      "ipa": "/ˈpeərəntɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of raising and caring for children",
+          "meaning_vi": "việc nuôi dạy con cái",
+          "examples": [
+            {
+              "en": "Modern parenting is harder than ever.",
+              "vi": "Nuôi dạy con thời nay khó hơn bao giờ hết."
+            },
+            {
+              "en": "Parenting styles vary across Vietnamese generations.",
+              "vi": "Phong cách nuôi con khác nhau giữa các thế hệ Việt."
+            },
+            {
+              "en": "Good parenting requires consistency.",
+              "vi": "Nuôi dạy tốt cần sự nhất quán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["child-rearing", "childcare"],
+      "antonyms": ["neglect"],
+      "collocations": [
+        "good parenting",
+        "modern parenting",
+        "parenting style",
+        "parenting tips",
+        "single parenting"
+      ],
+      "etymology_hint": "Gerund of 'parent' (Latin 'parens' = one who brings forth) — became its own noun in mid-20th century.",
+      "mnemonic_vi": "PARENT (cha mẹ) + ING = sự làm cha mẹ. Modern parenting = nuôi con hiện đại."
+    },
+    {
+      "word": "scold",
+      "lemma": "scold",
+      "ipa": "/skəʊld/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to speak angrily to a child for doing something wrong",
+          "meaning_vi": "la mắng, quở trách",
+          "examples": [
+            {
+              "en": "She scolded him for breaking the vase.",
+              "vi": "Bà ấy la mắng nó vì làm vỡ bình hoa."
+            },
+            {
+              "en": "Don't scold in public — embarrass them in private.",
+              "vi": "Đừng mắng nơi đông người — riêng tư thì hơn."
+            },
+            {
+              "en": "Vietnamese teachers used to scold heavily.",
+              "vi": "Giáo viên Việt từng quở mắng nặng tay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rebuke", "tell off"],
+      "antonyms": ["praise", "compliment"],
+      "collocations": [
+        "scold a child",
+        "scold harshly",
+        "scold for",
+        "scold publicly",
+        "stop scolding"
+      ],
+      "etymology_hint": "From Middle English 'scolden' — Old Norse 'skald' (poet, often mocking).",
+      "mnemonic_vi": "SCOLD đọc 'sờ-cold' — sờ chốc cau mặt. Scold a child = mắng trẻ."
+    },
+    {
+      "word": "bedtime",
+      "lemma": "bedtime",
+      "ipa": "/ˈbedtaɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the time when someone, especially a child, normally goes to bed",
+          "meaning_vi": "giờ đi ngủ",
+          "examples": [
+            {
+              "en": "Their bedtime is 8 p.m. on school nights.",
+              "vi": "Giờ ngủ của bọn trẻ là 20 giờ tối thường."
+            },
+            {
+              "en": "Bedtime stories soothe young children.",
+              "vi": "Truyện trước ngủ dỗ trẻ nhỏ."
+            },
+            {
+              "en": "Skipping bedtime causes meltdowns the next day.",
+              "vi": "Bỏ giờ ngủ gây nổi cơn ngày hôm sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sleeping time"],
+      "antonyms": ["wake-up time"],
+      "collocations": [
+        "bedtime routine",
+        "bedtime story",
+        "set a bedtime",
+        "past bedtime",
+        "early bedtime"
+      ],
+      "etymology_hint": "Compound: 'bed' (Old English 'bedd') + 'time' — domestic term standardized in 17th century.",
+      "mnemonic_vi": "BED (giường) + TIME (giờ) = giờ giường. Bedtime story = truyện trước ngủ."
+    },
+    {
+      "word": "nursery",
+      "lemma": "nursery",
+      "ipa": "/ˈnɜːsəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a room or place where young children are looked after",
+          "meaning_vi": "phòng trẻ em, nhà trẻ",
+          "examples": [
+            {
+              "en": "She painted the nursery soft yellow.",
+              "vi": "Cô ấy sơn phòng em bé màu vàng nhạt."
+            },
+            {
+              "en": "Vietnamese state nurseries accept kids from 18 months.",
+              "vi": "Nhà trẻ công Việt nhận bé từ 18 tháng."
+            },
+            {
+              "en": "The nursery is open from 7 to 5.",
+              "vi": "Nhà trẻ mở từ 7 giờ đến 17 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["daycare (room)", "kindergarten (broad)"],
+      "antonyms": [],
+      "collocations": [
+        "baby nursery",
+        "nursery room",
+        "nursery school",
+        "decorate the nursery",
+        "private nursery"
+      ],
+      "etymology_hint": "From Old French 'nourricerie' — Latin 'nutrire' (nurse, nourish).",
+      "mnemonic_vi": "NURSE (chăm) + RY = nơi chăm trẻ. Baby nursery = phòng em bé."
+    },
+    {
+      "word": "playtime",
+      "lemma": "playtime",
+      "ipa": "/ˈpleɪtaɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a period when children play, especially during school or daycare",
+          "meaning_vi": "giờ chơi (của trẻ)",
+          "examples": [
+            {
+              "en": "Outdoor playtime helps kids sleep better.",
+              "vi": "Giờ chơi ngoài trời giúp trẻ ngủ ngon hơn."
+            },
+            {
+              "en": "Screen time should not replace playtime.",
+              "vi": "Thời gian màn hình không nên thay giờ chơi."
+            },
+            {
+              "en": "Vietnamese schools schedule short playtimes between classes.",
+              "vi": "Trường Việt có giờ chơi ngắn giữa các tiết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["play period", "recess (school)"],
+      "antonyms": ["study time", "screen time"],
+      "collocations": [
+        "outdoor playtime",
+        "playtime activities",
+        "playtime with parents",
+        "structured playtime",
+        "supervised playtime"
+      ],
+      "etymology_hint": "Compound: 'play' + 'time' — child-development term standardized in 20th-century education.",
+      "mnemonic_vi": "PLAY (chơi) + TIME (giờ) = giờ chơi. Outdoor playtime = giờ chơi ngoài trời."
+    },
+    {
+      "word": "allowance",
+      "lemma": "allowance",
+      "ipa": "/əˈlaʊəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a regular sum of money given to a child by parents",
+          "meaning_vi": "tiền tiêu vặt (cha mẹ cho con)",
+          "examples": [
+            {
+              "en": "She gets a weekly allowance for chores.",
+              "vi": "Cô bé được tiền tiêu vặt hàng tuần khi làm việc nhà."
+            },
+            {
+              "en": "Allowance teaches kids to budget early.",
+              "vi": "Tiền tiêu vặt dạy trẻ lập ngân sách sớm."
+            },
+            {
+              "en": "Vietnamese kids often get bigger allowances at Tết.",
+              "vi": "Trẻ Việt thường được tiền lì xì lớn dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pocket money", "spending money"],
+      "antonyms": [],
+      "collocations": [
+        "weekly allowance",
+        "monthly allowance",
+        "give an allowance",
+        "earn an allowance",
+        "raise the allowance"
+      ],
+      "etymology_hint": "From Old French 'aloer' = to allot — root in Latin 'allocare' (place).",
+      "mnemonic_vi": "ALLOW (cho phép) + ANCE = tiền cho phép tiêu. Weekly allowance = tiền tuần."
+    },
+    {
+      "word": "sibling",
+      "lemma": "sibling",
+      "ipa": "/ˈsɪblɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a brother or sister",
+          "meaning_vi": "anh chị em ruột",
+          "examples": [
+            {
+              "en": "She has three siblings, all younger.",
+              "vi": "Cô ấy có 3 anh chị em, đều nhỏ hơn."
+            },
+            {
+              "en": "Sibling rivalry is normal in big families.",
+              "vi": "Tranh giành giữa anh chị em là bình thường trong gia đình đông."
+            },
+            {
+              "en": "Older siblings often help raise younger ones in Vietnam.",
+              "vi": "Anh chị lớn thường phụ nuôi em ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brother or sister"],
+      "antonyms": ["only child"],
+      "collocations": [
+        "younger sibling",
+        "older sibling",
+        "sibling rivalry",
+        "sibling bond",
+        "multiple siblings"
+      ],
+      "etymology_hint": "From Old English 'sibling' = relative — modern narrowed meaning 'brother/sister' from 1903.",
+      "mnemonic_vi": "SIBLING đọc 'síp-linh' — síp lị em ruột. Sibling rivalry = tranh giành anh em."
+    },
+    {
+      "word": "foster",
+      "lemma": "foster",
+      "ipa": "/ˈfɒstə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to take care of a child as your own without legal adoption",
+          "meaning_vi": "nuôi tạm thời (chăm sóc trẻ không phải con đẻ)",
+          "examples": [
+            {
+              "en": "They fostered two children before adopting.",
+              "vi": "Họ nuôi tạm 2 đứa trước khi nhận làm con."
+            },
+            {
+              "en": "Fostering requires training and approval.",
+              "vi": "Nuôi tạm đòi hỏi đào tạo và phê duyệt."
+            },
+            {
+              "en": "Some children are fostered for years before adoption.",
+              "vi": "Vài trẻ được nuôi tạm nhiều năm trước khi được nhận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["care for", "raise"],
+      "antonyms": ["abandon"],
+      "collocations": [
+        "foster a child",
+        "foster parent",
+        "foster family",
+        "foster care",
+        "foster system"
+      ],
+      "etymology_hint": "From Old English 'fōstrian' = to feed — root 'fōster' (food, nourishment).",
+      "mnemonic_vi": "FOSTER đọc 'phót-tơ' — phớt giàu tình thương. Foster parent = cha mẹ nuôi tạm."
+    },
+    {
+      "word": "adopt",
+      "lemma": "adopt",
+      "ipa": "/əˈdɒpt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to legally become the parent of a child who is not your own by birth",
+          "meaning_vi": "nhận làm con nuôi (chính thức theo luật)",
+          "examples": [
+            {
+              "en": "They adopted a baby girl from Đà Nẵng.",
+              "vi": "Họ nhận một bé gái từ Đà Nẵng làm con."
+            },
+            {
+              "en": "Adopting takes years of paperwork.",
+              "vi": "Nhận con nuôi mất nhiều năm giấy tờ."
+            },
+            {
+              "en": "She wants to adopt rather than give birth.",
+              "vi": "Cô ấy muốn nhận con nuôi thay vì sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["take in"],
+      "antonyms": ["disown"],
+      "collocations": [
+        "adopt a child",
+        "adopt internationally",
+        "decide to adopt",
+        "adoption process",
+        "adopt from abroad"
+      ],
+      "etymology_hint": "From Latin 'adoptare' = to choose — 'ad-' (to) + 'optare' (choose).",
+      "mnemonic_vi": "ADOPT đọc 'a-đốp' — anh đốp ôm con người ta. Adopt a child = nhận con nuôi."
+    },
+    {
+      "word": "stepmother",
+      "lemma": "stepmother",
+      "ipa": "/ˈstepmʌðə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the woman who marries your father after your biological mother",
+          "meaning_vi": "mẹ kế",
+          "examples": [
+            {
+              "en": "Her stepmother became like a real mother.",
+              "vi": "Mẹ kế của cô ấy trở thành như mẹ ruột."
+            },
+            {
+              "en": "Vietnamese folktales often portray harsh stepmothers.",
+              "vi": "Cổ tích Việt thường miêu tả mẹ kế khắc nghiệt."
+            },
+            {
+              "en": "Modern stepmothers face unfair stereotypes.",
+              "vi": "Mẹ kế thời nay đối mặt định kiến bất công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["step-mom"],
+      "antonyms": ["biological mother"],
+      "collocations": [
+        "wicked stepmother",
+        "kind stepmother",
+        "step-mother relationship",
+        "second stepmother",
+        "stepmother role"
+      ],
+      "etymology_hint": "Compound: 'step-' (Old English 'steop' = bereaved) + 'mother' — 'step' originally meant 'related by remarriage after bereavement'.",
+      "mnemonic_vi": "STEP (kế) + MOTHER (mẹ) = mẹ kế. Stepmother relationship = quan hệ mẹ kế."
+    },
+    {
+      "word": "stepfather",
+      "lemma": "stepfather",
+      "ipa": "/ˈstepfɑːðə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the man who marries your mother after your biological father",
+          "meaning_vi": "cha kế",
+          "examples": [
+            {
+              "en": "Her stepfather raised her from age five.",
+              "vi": "Cha kế đã nuôi cô ấy từ năm 5 tuổi."
+            },
+            {
+              "en": "Good stepfathers earn trust slowly.",
+              "vi": "Cha kế tốt xây niềm tin từ từ."
+            },
+            {
+              "en": "He's proud to be a stepfather.",
+              "vi": "Anh ấy tự hào làm cha kế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["step-dad"],
+      "antonyms": ["biological father"],
+      "collocations": [
+        "loving stepfather",
+        "stepfather and stepchildren",
+        "second stepfather",
+        "stepfather role",
+        "stepfather figure"
+      ],
+      "etymology_hint": "Compound: 'step-' (Old English 'steop' = bereaved) + 'father' — parallel formation to 'stepmother'.",
+      "mnemonic_vi": "STEP (kế) + FATHER (cha) = cha kế. Stepfather role = vai trò cha kế."
+    },
+    {
+      "word": "tantrum",
+      "lemma": "tantrum",
+      "ipa": "/ˈtæntrəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a sudden outburst of anger and crying, especially by a young child",
+          "meaning_vi": "cơn ăn vạ, cơn nổi tam bành (của trẻ nhỏ)",
+          "examples": [
+            {
+              "en": "He threw a tantrum at the supermarket.",
+              "vi": "Bé nổi cơn ăn vạ ở siêu thị."
+            },
+            {
+              "en": "Toddler tantrums peak around age two.",
+              "vi": "Cơn ăn vạ trẻ con đỉnh điểm khoảng 2 tuổi."
+            },
+            {
+              "en": "Stay calm when your child has a tantrum.",
+              "vi": "Giữ bình tĩnh khi con ăn vạ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meltdown", "outburst"],
+      "antonyms": ["calmness"],
+      "collocations": [
+        "throw a tantrum",
+        "toddler tantrum",
+        "public tantrum",
+        "manage a tantrum",
+        "epic tantrum"
+      ],
+      "etymology_hint": "1714, origin uncertain — possibly imitative of a child's stamping foot.",
+      "mnemonic_vi": "TANTRUM đọc 'ten-trừm' — tền trùm cơn ăn vạ. Throw a tantrum = nổi cơn ăn vạ."
+    },
+    {
+      "word": "lullaby",
+      "lemma": "lullaby",
+      "ipa": "/ˈlʌləbaɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a quiet, gentle song sung to help a baby fall asleep",
+          "meaning_vi": "bài hát ru",
+          "examples": [
+            {
+              "en": "Vietnamese lullabies use simple melodies.",
+              "vi": "Bài ru Việt dùng giai điệu đơn giản."
+            },
+            {
+              "en": "She sang a lullaby and the baby drifted off.",
+              "vi": "Cô ấy hát ru và em bé chìm vào giấc ngủ."
+            },
+            {
+              "en": "Grandmothers pass lullabies down generations.",
+              "vi": "Bà truyền bài ru qua các thế hệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cradle song"],
+      "antonyms": [],
+      "collocations": [
+        "sing a lullaby",
+        "soft lullaby",
+        "traditional lullaby",
+        "favorite lullaby",
+        "gentle lullaby"
+      ],
+      "etymology_hint": "From Middle English 'lullen' (to soothe) + 'by' (bye-bye) — onomatopoeic, mimicking soothing sounds.",
+      "mnemonic_vi": "LULL (ru) + ABY (bé) = ru em bé. Sing a lullaby = hát ru."
+    },
+    {
+      "word": "daycare",
+      "lemma": "daycare",
+      "ipa": "/ˈdeɪkeə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place that looks after young children during the day while parents work",
+          "meaning_vi": "nhà trẻ ban ngày",
+          "examples": [
+            {
+              "en": "She drops her son at daycare at 8 a.m.",
+              "vi": "Cô ấy gửi con ở nhà trẻ lúc 8 giờ sáng."
+            },
+            {
+              "en": "Daycare costs are rising in Vietnamese cities.",
+              "vi": "Chi phí nhà trẻ tăng ở các thành phố Việt."
+            },
+            {
+              "en": "Vietnamese grandparents often replace daycare.",
+              "vi": "Ông bà Việt thường thay nhà trẻ trông cháu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["childcare center"],
+      "antonyms": ["home care"],
+      "collocations": [
+        "daycare center",
+        "send to daycare",
+        "daycare fees",
+        "affordable daycare",
+        "full-time daycare"
+      ],
+      "etymology_hint": "Compound: 'day' + 'care' — American English term standardized in 1940s as women entered workforce.",
+      "mnemonic_vi": "DAY (ngày) + CARE (chăm) = chăm ngày. Daycare center = trung tâm nhà trẻ."
+    },
+    {
+      "word": "spoil",
+      "lemma": "spoil",
+      "ipa": "/spɔɪl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give a child too much, so they become selfish or badly behaved",
+          "meaning_vi": "nuông chiều thái quá (làm hư)",
+          "examples": [
+            {
+              "en": "Grandparents tend to spoil grandchildren.",
+              "vi": "Ông bà hay nuông cháu."
+            },
+            {
+              "en": "Spoiling kids backfires in their teen years.",
+              "vi": "Nuông trẻ phản tác dụng ở tuổi vị thành niên."
+            },
+            {
+              "en": "A spoiled child struggles to share.",
+              "vi": "Trẻ được nuông khó chia sẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pamper", "indulge"],
+      "antonyms": ["discipline (different lesson)"],
+      "collocations": [
+        "spoil a child",
+        "spoil rotten",
+        "spoiled brat",
+        "completely spoil",
+        "spoiled by grandparents"
+      ],
+      "etymology_hint": "From Old French 'espoillier' = to plunder — child-rearing sense 'damage by overindulgence' from 16th century.",
+      "mnemonic_vi": "SPOIL đọc 'sờ-poi-l' — sờ phải hư. Spoil a child = nuông con."
+    },
+    {
+      "word": "nurture",
+      "lemma": "nurture",
+      "ipa": "/ˈnɜːtʃə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to care for and help someone grow, especially emotionally and intellectually",
+          "meaning_vi": "nuôi dưỡng, vun đắp (về tinh thần, trí tuệ)",
+          "examples": [
+            {
+              "en": "Good schools nurture both skills and confidence.",
+              "vi": "Trường tốt nuôi dưỡng cả kỹ năng lẫn tự tin."
+            },
+            {
+              "en": "She nurtured her son's love of reading.",
+              "vi": "Cô ấy vun đắp tình yêu đọc sách của con."
+            },
+            {
+              "en": "Nurture matters as much as nature.",
+              "vi": "Cách nuôi quan trọng như di truyền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["foster", "cultivate", "nourish"],
+      "antonyms": ["neglect"],
+      "collocations": [
+        "nurture talent",
+        "nurture a child",
+        "nurture confidence",
+        "carefully nurture",
+        "nature vs nurture"
+      ],
+      "etymology_hint": "From Latin 'nutrire' = to feed, nourish — same root as 'nursery' and 'nutrition'.",
+      "mnemonic_vi": "NURTURE đọc 'nớ-chờ' — nớ chăm vun đắp. Nurture talent = nuôi dưỡng tài năng."
+    },
+    {
+      "word": "babyproof",
+      "lemma": "babyproof",
+      "ipa": "/ˈbeɪbipruːf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make a home safe for a baby by removing or covering dangerous things",
+          "meaning_vi": "an toàn hóa nhà cho em bé",
+          "examples": [
+            {
+              "en": "We babyproofed every drawer before she started crawling.",
+              "vi": "Chúng tôi babyproof mọi hộc tủ trước khi bé biết bò."
+            },
+            {
+              "en": "Outlet covers are step one in babyproofing.",
+              "vi": "Bịt ổ điện là bước đầu babyproof."
+            },
+            {
+              "en": "Vietnamese homes need babyproofing for tile floors.",
+              "vi": "Nhà Việt cần babyproof sàn gạch trơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["childproof"],
+      "antonyms": ["leave unsafe"],
+      "collocations": [
+        "babyproof the house",
+        "babyproof the kitchen",
+        "fully babyproof",
+        "babyproofing kit",
+        "babyproof outlets"
+      ],
+      "etymology_hint": "Compound: 'baby' + 'proof' (Old French 'prove' = test) — meaning 'resistant to baby damage', popular since 1980s.",
+      "mnemonic_vi": "BABY (em bé) + PROOF (chống) = chống nguy hiểm cho em bé. Babyproof the house = babyproof nhà."
+    },
+    {
+      "word": "stroller",
+      "lemma": "stroller",
+      "ipa": "/ˈstrəʊlə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small wheeled chair for pushing a baby or young child around",
+          "meaning_vi": "xe đẩy em bé",
+          "examples": [
+            {
+              "en": "Vietnamese sidewalks are tough for strollers.",
+              "vi": "Vỉa hè Việt khó cho xe đẩy."
+            },
+            {
+              "en": "Lightweight strollers fold for travel.",
+              "vi": "Xe đẩy nhẹ gấp được cho chuyến đi."
+            },
+            {
+              "en": "She pushes the stroller to the park each morning.",
+              "vi": "Cô ấy đẩy xe em bé ra công viên mỗi sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pram", "pushchair (UK)"],
+      "antonyms": ["baby carrier"],
+      "collocations": [
+        "fold the stroller",
+        "lightweight stroller",
+        "double stroller",
+        "push a stroller",
+        "stroller-friendly"
+      ],
+      "etymology_hint": "From 'stroll' (1600s — origin unclear) + '-er' — American term, British prefer 'pushchair'.",
+      "mnemonic_vi": "STROLL (đi dạo) + ER = thứ để đi dạo. Lightweight stroller = xe đẩy nhẹ."
+    },
+    {
+      "word": "diaper",
+      "lemma": "diaper",
+      "ipa": "/ˈdaɪəpə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of soft material wrapped around a baby's bottom to absorb waste",
+          "meaning_vi": "tã (em bé)",
+          "examples": [
+            {
+              "en": "Change the diaper every 3-4 hours.",
+              "vi": "Thay tã mỗi 3-4 tiếng."
+            },
+            {
+              "en": "Cloth diapers cost more upfront but save long-term.",
+              "vi": "Tã vải đắt ban đầu nhưng tiết kiệm dài hạn."
+            },
+            {
+              "en": "Vietnamese parents traditionally used cloth diapers.",
+              "vi": "Phụ huynh Việt truyền thống dùng tã vải."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nappy (UK)"],
+      "antonyms": [],
+      "collocations": [
+        "change a diaper",
+        "diaper bag",
+        "cloth diaper",
+        "disposable diaper",
+        "diaper rash"
+      ],
+      "etymology_hint": "From Old French 'diaspre' = ornamental cloth — meaning narrowed in American English to baby's cloth.",
+      "mnemonic_vi": "DIAPER đọc 'đai-pờ' — đại pho phòng ướt. Change a diaper = thay tã."
+    },
+    {
+      "word": "upbringing",
+      "lemma": "upbringing",
+      "ipa": "/ˈʌpbrɪŋɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way a child is raised, including values, education, and behavior",
+          "meaning_vi": "sự nuôi dạy, cách dạy dỗ",
+          "examples": [
+            {
+              "en": "Her strict upbringing made her disciplined.",
+              "vi": "Cách nuôi dạy nghiêm khắc làm cô ấy có kỷ luật."
+            },
+            {
+              "en": "Vietnamese upbringing emphasizes respect for elders.",
+              "vi": "Cách nuôi Việt nhấn mạnh kính trọng người lớn."
+            },
+            {
+              "en": "His upbringing shapes how he raises his own kids.",
+              "vi": "Cách anh ấy được nuôi định hình cách anh dạy con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rearing", "education"],
+      "antonyms": ["neglect"],
+      "collocations": [
+        "strict upbringing",
+        "religious upbringing",
+        "rural upbringing",
+        "shape your upbringing",
+        "happy upbringing"
+      ],
+      "etymology_hint": "Gerund of 'bring up' — phrasal verb meaning 'raise a child', noun form standardized in 19th century.",
+      "mnemonic_vi": "UP (lên) + BRING (mang) + ING = sự nuôi cho lớn. Strict upbringing = nuôi dạy nghiêm."
+    }
+  ]
+}

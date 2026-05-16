@@ -1,0 +1,763 @@
+{
+  "slug": "home-renovation",
+  "name": "Home Renovation",
+  "description": "Cải tạo nhà cửa B1 — renovate, plumbing, blueprint, carpenter và 16 từ cho dân tay làm chủ.",
+  "order_index": 19,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "renovate",
+      "lemma": "renovate",
+      "ipa": "/ˈrenəveɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to repair and improve an old building, especially to make it modern",
+          "meaning_vi": "cải tạo, tu sửa nhà cửa",
+          "examples": [
+            {
+              "en": "They renovated the old shophouse into a café.",
+              "vi": "Họ cải tạo căn nhà phố cổ thành quán cà phê."
+            },
+            {
+              "en": "Vietnamese families often renovate before Tết.",
+              "vi": "Gia đình Việt thường tu sửa nhà trước Tết."
+            },
+            {
+              "en": "Renovating costs less than rebuilding from scratch.",
+              "vi": "Cải tạo rẻ hơn xây mới từ đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refurbish", "remodel", "renew"],
+      "antonyms": ["demolish", "leave as-is"],
+      "collocations": [
+        "renovate the house",
+        "fully renovate",
+        "renovate the kitchen",
+        "renovate cheaply",
+        "renovate before selling"
+      ],
+      "etymology_hint": "From Latin 'renovare' = to make new again — 're-' (again) + 'novare' (make new).",
+      "mnemonic_vi": "RE (lại) + NOVATE (mới) = làm mới lại. Renovate the house = cải tạo nhà."
+    },
+    {
+      "word": "remodel",
+      "lemma": "remodel",
+      "ipa": "/ˌriːˈmɒdl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change the structure or shape of a building or room",
+          "meaning_vi": "thiết kế lại, sửa cấu trúc",
+          "examples": [
+            {
+              "en": "We remodeled the bathroom in three weeks.",
+              "vi": "Chúng tôi sửa lại phòng tắm trong 3 tuần."
+            },
+            {
+              "en": "Remodeling the kitchen adds resale value.",
+              "vi": "Sửa lại bếp tăng giá bán lại."
+            },
+            {
+              "en": "She wants to remodel before the baby arrives.",
+              "vi": "Cô ấy muốn sửa nhà trước khi em bé chào đời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["renovate", "redesign"],
+      "antonyms": ["leave unchanged"],
+      "collocations": [
+        "remodel the kitchen",
+        "remodel the bathroom",
+        "fully remodel",
+        "remodel completely",
+        "home remodel"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'model' (Latin 'modulus' = small measure) — to shape again.",
+      "mnemonic_vi": "RE (lại) + MODEL (kiểu) = đổi kiểu. Remodel the kitchen = sửa lại bếp."
+    },
+    {
+      "word": "paint",
+      "lemma": "paint",
+      "ipa": "/peɪnt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cover a wall or surface with colored liquid",
+          "meaning_vi": "sơn (tường)",
+          "examples": [
+            {
+              "en": "We're painting the living room white.",
+              "vi": "Chúng tôi đang sơn phòng khách màu trắng."
+            },
+            {
+              "en": "Painting the exterior costs around 10 million đồng.",
+              "vi": "Sơn mặt ngoài tốn khoảng 10 triệu đồng."
+            },
+            {
+              "en": "Use two coats for a smooth paint job.",
+              "vi": "Lăn 2 lớp cho nước sơn mịn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coat", "color"],
+      "antonyms": ["strip"],
+      "collocations": [
+        "paint the wall",
+        "fresh paint",
+        "paint job",
+        "paint white",
+        "second coat of paint"
+      ],
+      "etymology_hint": "From Old French 'peindre' = to paint — Latin 'pingere' (to depict).",
+      "mnemonic_vi": "PAINT = pen + tay = đè sơn. Paint the wall = sơn tường."
+    },
+    {
+      "word": "wallpaper",
+      "lemma": "wallpaper",
+      "ipa": "/ˈwɔːlpeɪpə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "decorative paper stuck on walls instead of paint",
+          "meaning_vi": "giấy dán tường",
+          "examples": [
+            {
+              "en": "She chose a floral wallpaper for the bedroom.",
+              "vi": "Cô ấy chọn giấy dán tường hoa cho phòng ngủ."
+            },
+            {
+              "en": "Old wallpaper is hard to remove cleanly.",
+              "vi": "Giấy dán tường cũ khó bóc sạch."
+            },
+            {
+              "en": "Vietnamese homes prefer paint over wallpaper.",
+              "vi": "Nhà Việt ưa sơn hơn giấy dán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wall covering"],
+      "antonyms": ["bare wall"],
+      "collocations": [
+        "hang wallpaper",
+        "remove wallpaper",
+        "floral wallpaper",
+        "vinyl wallpaper",
+        "patterned wallpaper"
+      ],
+      "etymology_hint": "Compound: 'wall' + 'paper' — first commercial wallpaper appeared in 16th century England.",
+      "mnemonic_vi": "WALL (tường) + PAPER (giấy) = giấy dán tường. Hang wallpaper = dán giấy tường."
+    },
+    {
+      "word": "decorate",
+      "lemma": "decorate",
+      "ipa": "/ˈdekəreɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make a room or building more attractive with paint, ornaments, or furniture",
+          "meaning_vi": "trang trí (phòng, nhà)",
+          "examples": [
+            {
+              "en": "Vietnamese families decorate with peach blossoms at Tết.",
+              "vi": "Gia đình Việt trang trí cành đào dịp Tết."
+            },
+            {
+              "en": "She decorated the nursery in soft pastels.",
+              "vi": "Cô ấy trang trí phòng em bé bằng màu pastel."
+            },
+            {
+              "en": "Decorating is the fun part of renovation.",
+              "vi": "Trang trí là phần vui nhất của cải tạo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["adorn", "embellish"],
+      "antonyms": ["bare", "leave plain"],
+      "collocations": [
+        "decorate a room",
+        "tastefully decorate",
+        "decorate for the holidays",
+        "interior decorating",
+        "decorate the house"
+      ],
+      "etymology_hint": "From Latin 'decorare' = to adorn — root 'decus' (honor, ornament).",
+      "mnemonic_vi": "DECOR (trang sức) + ATE = trang trí. Decorate a room = trang trí phòng."
+    },
+    {
+      "word": "layout",
+      "lemma": "layout",
+      "ipa": "/ˈleɪaʊt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way rooms and furniture are arranged in a space",
+          "meaning_vi": "bố cục, cách bài trí",
+          "examples": [
+            {
+              "en": "The open-plan layout makes the house feel bigger.",
+              "vi": "Bố cục mở khiến nhà trông rộng hơn."
+            },
+            {
+              "en": "Vietnamese tube houses have a long, narrow layout.",
+              "vi": "Nhà ống Việt có bố cục dài, hẹp."
+            },
+            {
+              "en": "Changing the layout requires moving walls.",
+              "vi": "Đổi bố cục đòi hỏi dỡ tường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["arrangement", "floor plan"],
+      "antonyms": [],
+      "collocations": [
+        "open-plan layout",
+        "floor layout",
+        "change the layout",
+        "spacious layout",
+        "kitchen layout"
+      ],
+      "etymology_hint": "Compound: 'lay' (Old English 'lecgan' = put down) + 'out' — interior design sense from 19th century.",
+      "mnemonic_vi": "LAY (đặt) + OUT (ra) = đặt ra. Open-plan layout = bố cục mở."
+    },
+    {
+      "word": "tile",
+      "lemma": "tile",
+      "ipa": "/taɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a flat piece of baked clay used to cover walls, floors, or roofs",
+          "meaning_vi": "viên gạch men (lát sàn, tường)",
+          "examples": [
+            {
+              "en": "We replaced the cracked tiles in the bathroom.",
+              "vi": "Chúng tôi thay các viên gạch nứt trong phòng tắm."
+            },
+            {
+              "en": "Italian tiles cost more but last decades.",
+              "vi": "Gạch Ý đắt hơn nhưng bền hàng chục năm."
+            },
+            {
+              "en": "Vietnamese roof tiles are often terracotta.",
+              "vi": "Ngói mái nhà Việt thường là gốm đỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["slab", "ceramic"],
+      "antonyms": [],
+      "collocations": ["ceramic tile", "lay tiles", "broken tile", "tile the floor", "roof tile"],
+      "etymology_hint": "From Latin 'tegula' = roof tile — root 'tegere' (to cover).",
+      "mnemonic_vi": "TILE đọc 'tai-l' — tai lát phẳng. Lay tiles = lát gạch."
+    },
+    {
+      "word": "flooring",
+      "lemma": "flooring",
+      "ipa": "/ˈflɔːrɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "material used to cover the floor of a room",
+          "meaning_vi": "vật liệu lát sàn",
+          "examples": [
+            {
+              "en": "Hardwood flooring is more expensive than laminate.",
+              "vi": "Sàn gỗ tự nhiên đắt hơn sàn laminate."
+            },
+            {
+              "en": "Bamboo flooring is popular in Vietnam.",
+              "vi": "Sàn tre phổ biến ở Việt Nam."
+            },
+            {
+              "en": "Replace damaged flooring before painting walls.",
+              "vi": "Thay sàn hỏng trước khi sơn tường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["floor covering"],
+      "antonyms": [],
+      "collocations": [
+        "hardwood flooring",
+        "tile flooring",
+        "install flooring",
+        "vinyl flooring",
+        "bamboo flooring"
+      ],
+      "etymology_hint": "From 'floor' (Old English 'flōr' = level ground) + '-ing' as a material noun.",
+      "mnemonic_vi": "FLOOR (sàn) + ING = vật liệu sàn. Hardwood flooring = sàn gỗ tự nhiên."
+    },
+    {
+      "word": "plumbing",
+      "lemma": "plumbing",
+      "ipa": "/ˈplʌmɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the system of pipes and fittings that carry water in a building",
+          "meaning_vi": "hệ thống ống nước",
+          "examples": [
+            {
+              "en": "The old plumbing leaks every rainy season.",
+              "vi": "Hệ thống ống nước cũ rò rỉ mỗi mùa mưa."
+            },
+            {
+              "en": "Fixing the plumbing took two days.",
+              "vi": "Sửa ống nước mất 2 ngày."
+            },
+            {
+              "en": "Indoor plumbing reached rural Vietnam in the 1990s.",
+              "vi": "Ống nước trong nhà đến với nông thôn Việt Nam thập niên 90."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pipework"],
+      "antonyms": [],
+      "collocations": [
+        "indoor plumbing",
+        "plumbing system",
+        "fix the plumbing",
+        "plumbing repair",
+        "outdated plumbing"
+      ],
+      "etymology_hint": "From Latin 'plumbum' = lead — original pipes were lead, despite modern safety concerns.",
+      "mnemonic_vi": "PLUMB (chì) + ING = nghề chì (ống nước). Plumbing system = hệ ống nước."
+    },
+    {
+      "word": "wiring",
+      "lemma": "wiring",
+      "ipa": "/ˈwaɪərɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the system of electrical wires inside a building",
+          "meaning_vi": "hệ thống dây điện",
+          "examples": [
+            {
+              "en": "Old wiring is a serious fire risk.",
+              "vi": "Dây điện cũ là nguy cơ cháy nghiêm trọng."
+            },
+            {
+              "en": "Vietnamese building codes now require safer wiring.",
+              "vi": "Quy chuẩn xây dựng Việt giờ yêu cầu dây điện an toàn hơn."
+            },
+            {
+              "en": "The electrician redid all the wiring.",
+              "vi": "Thợ điện làm lại toàn bộ dây điện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["electrical system"],
+      "antonyms": [],
+      "collocations": [
+        "electrical wiring",
+        "faulty wiring",
+        "redo the wiring",
+        "old wiring",
+        "wiring diagram"
+      ],
+      "etymology_hint": "From 'wire' (Old English 'wir') + '-ing' — modern electrical sense from 1880s.",
+      "mnemonic_vi": "WIRE (dây) + ING = sự đi dây. Faulty wiring = dây điện hỏng."
+    },
+    {
+      "word": "install",
+      "lemma": "install",
+      "ipa": "/ɪnˈstɔːl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to fit equipment or fixtures somewhere so they are ready to use",
+          "meaning_vi": "lắp đặt",
+          "examples": [
+            {
+              "en": "They installed a new air conditioner yesterday.",
+              "vi": "Họ lắp điều hòa mới hôm qua."
+            },
+            {
+              "en": "Install solar panels to cut electricity bills.",
+              "vi": "Lắp pin mặt trời để giảm hóa đơn điện."
+            },
+            {
+              "en": "She installed the smart lock herself.",
+              "vi": "Cô ấy tự lắp khóa thông minh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["set up", "fit"],
+      "antonyms": ["remove", "uninstall"],
+      "collocations": [
+        "install a system",
+        "professionally install",
+        "install the air-con",
+        "install lighting",
+        "install solar panels"
+      ],
+      "etymology_hint": "From Medieval Latin 'installare' — 'in' + 'stallum' (place, seat).",
+      "mnemonic_vi": "IN (vào) + STALL (chỗ) = đưa vào chỗ. Install a system = lắp đặt hệ thống."
+    },
+    {
+      "word": "blueprint",
+      "lemma": "blueprint",
+      "ipa": "/ˈbluːprɪnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a technical drawing showing how a building or system will be made",
+          "meaning_vi": "bản vẽ thiết kế (bản vẽ kỹ thuật)",
+          "examples": [
+            {
+              "en": "The architect handed us the blueprint.",
+              "vi": "Kiến trúc sư đưa cho chúng tôi bản vẽ."
+            },
+            {
+              "en": "Don't deviate from the blueprint without approval.",
+              "vi": "Đừng làm khác bản vẽ khi chưa được duyệt."
+            },
+            {
+              "en": "Blueprints are now mostly digital files.",
+              "vi": "Bản vẽ giờ chủ yếu là file số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plan", "design", "schematic"],
+      "antonyms": ["sketch"],
+      "collocations": [
+        "architectural blueprint",
+        "follow the blueprint",
+        "blueprint for",
+        "detailed blueprint",
+        "original blueprint"
+      ],
+      "etymology_hint": "Named after the 19th-century cyanotype printing process that produced blue-and-white technical drawings.",
+      "mnemonic_vi": "BLUE (xanh) + PRINT (in) = bản in xanh. Architectural blueprint = bản vẽ kiến trúc."
+    },
+    {
+      "word": "permit",
+      "lemma": "permit",
+      "ipa": "/ˈpɜːmɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official document allowing you to do something, like building or renovating",
+          "meaning_vi": "giấy phép (xây/sửa nhà)",
+          "examples": [
+            {
+              "en": "You need a permit to add a second floor.",
+              "vi": "Cần giấy phép để xây thêm tầng 2."
+            },
+            {
+              "en": "Building without a permit risks fines.",
+              "vi": "Xây không phép có nguy cơ bị phạt."
+            },
+            {
+              "en": "The permit process takes weeks in Hà Nội.",
+              "vi": "Quy trình xin giấy phép mất nhiều tuần ở Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["license", "authorization"],
+      "antonyms": ["ban", "prohibition"],
+      "collocations": [
+        "building permit",
+        "obtain a permit",
+        "without a permit",
+        "permit application",
+        "construction permit"
+      ],
+      "etymology_hint": "From Latin 'permittere' = to allow — 'per-' (through) + 'mittere' (let go).",
+      "mnemonic_vi": "PERMIT đọc 'pơ-mít' — phơi mít có giấy phép. Building permit = giấy phép xây dựng."
+    },
+    {
+      "word": "demolish",
+      "lemma": "demolish",
+      "ipa": "/dɪˈmɒlɪʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to completely destroy a building or structure",
+          "meaning_vi": "đập bỏ, phá dỡ",
+          "examples": [
+            {
+              "en": "They demolished the old hotel to build apartments.",
+              "vi": "Họ phá dỡ khách sạn cũ để xây căn hộ."
+            },
+            {
+              "en": "The shed was demolished in one afternoon.",
+              "vi": "Nhà kho bị phá dỡ trong một buổi chiều."
+            },
+            {
+              "en": "Some heritage buildings are protected from demolition.",
+              "vi": "Một số công trình di sản được bảo vệ khỏi việc phá dỡ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tear down", "knock down"],
+      "antonyms": ["build", "preserve"],
+      "collocations": [
+        "demolish the building",
+        "demolish illegally",
+        "demolish a wall",
+        "demolish a structure",
+        "demolition crew"
+      ],
+      "etymology_hint": "From Latin 'demoliri' = to tear down — 'de-' (down) + 'moliri' (build).",
+      "mnemonic_vi": "DE (xuống) + MOLISH (xây) = phá xuống. Demolish the building = phá dỡ nhà."
+    },
+    {
+      "word": "hardwood",
+      "lemma": "hardwood",
+      "ipa": "/ˈhɑːdwʊd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "wood from broadleaf trees, used in high-quality furniture and flooring",
+          "meaning_vi": "gỗ cứng (gỗ chắc, dùng làm sàn/đồ nội thất cao cấp)",
+          "examples": [
+            {
+              "en": "Vietnamese hardwood is prized worldwide.",
+              "vi": "Gỗ cứng Việt Nam được ưa chuộng toàn cầu."
+            },
+            {
+              "en": "She chose oak hardwood for the dining table.",
+              "vi": "Cô ấy chọn gỗ sồi cứng cho bàn ăn."
+            },
+            {
+              "en": "Hardwood floors last for generations.",
+              "vi": "Sàn gỗ cứng bền qua nhiều thế hệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["solid wood"],
+      "antonyms": ["softwood"],
+      "collocations": [
+        "hardwood floor",
+        "tropical hardwood",
+        "oak hardwood",
+        "polished hardwood",
+        "hardwood furniture"
+      ],
+      "etymology_hint": "Compound: 'hard' (Old English 'heard') + 'wood' — classification term from 18th-century forestry.",
+      "mnemonic_vi": "HARD (cứng) + WOOD (gỗ) = gỗ cứng. Hardwood floor = sàn gỗ cứng."
+    },
+    {
+      "word": "refurbish",
+      "lemma": "refurbish",
+      "ipa": "/riːˈfɜːbɪʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to clean and repair something old to make it look new again",
+          "meaning_vi": "tân trang, làm mới lại",
+          "examples": [
+            {
+              "en": "The hotel was refurbished last year.",
+              "vi": "Khách sạn được tân trang năm ngoái."
+            },
+            {
+              "en": "Refurbished iPhones cost 30% less than new ones.",
+              "vi": "iPhone tân trang rẻ hơn iPhone mới 30%."
+            },
+            {
+              "en": "They refurbished the lobby with new lighting.",
+              "vi": "Họ tân trang sảnh với hệ thống đèn mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["renovate", "refresh", "restore"],
+      "antonyms": ["neglect"],
+      "collocations": [
+        "refurbish the hotel",
+        "refurbish completely",
+        "refurbished products",
+        "refurbish on a budget",
+        "newly refurbished"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'furbish' (Old French 'forbir' = to polish).",
+      "mnemonic_vi": "RE (lại) + FURBISH (đánh bóng) = đánh bóng lại. Refurbish the hotel = tân trang khách sạn."
+    },
+    {
+      "word": "fixture",
+      "lemma": "fixture",
+      "ipa": "/ˈfɪkstʃə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of equipment fixed permanently in a building, like a sink, toilet, or light",
+          "meaning_vi": "thiết bị cố định (đèn, vòi nước, bồn cầu)",
+          "examples": [
+            {
+              "en": "Bathroom fixtures account for 20% of renovation costs.",
+              "vi": "Thiết bị phòng tắm chiếm 20% chi phí cải tạo."
+            },
+            {
+              "en": "Replace old fixtures for a modern feel.",
+              "vi": "Thay thiết bị cũ để có cảm giác hiện đại."
+            },
+            {
+              "en": "Vietnamese factories make affordable, quality fixtures.",
+              "vi": "Nhà máy Việt làm thiết bị giá rẻ và chất lượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fitting"],
+      "antonyms": ["furniture (movable)"],
+      "collocations": [
+        "bathroom fixtures",
+        "lighting fixture",
+        "kitchen fixture",
+        "fixed fixture",
+        "replace fixtures"
+      ],
+      "etymology_hint": "From Latin 'fixus' = fixed — root 'figere' (fasten).",
+      "mnemonic_vi": "FIX (cố định) + TURE = thứ cố định. Bathroom fixtures = thiết bị phòng tắm."
+    },
+    {
+      "word": "foundation",
+      "lemma": "foundation",
+      "ipa": "/faʊnˈdeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the solid base of a building underground that supports the whole structure",
+          "meaning_vi": "nền móng (của nhà)",
+          "examples": [
+            {
+              "en": "A strong foundation is non-negotiable for tall buildings.",
+              "vi": "Móng vững là điều bắt buộc với nhà cao tầng."
+            },
+            {
+              "en": "Vietnamese delta soil makes foundations expensive.",
+              "vi": "Đất vùng đồng bằng Việt khiến móng tốn kém."
+            },
+            {
+              "en": "Cracks in the foundation need urgent repair.",
+              "vi": "Nứt ở móng cần sửa khẩn cấp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["base", "footing"],
+      "antonyms": ["roof", "top"],
+      "collocations": [
+        "lay the foundation",
+        "solid foundation",
+        "foundation crack",
+        "concrete foundation",
+        "deep foundation"
+      ],
+      "etymology_hint": "From Latin 'fundatio' = a founding — root 'fundus' (bottom).",
+      "mnemonic_vi": "FOUNDATION đọc 'phon-đây-shần' — phòng đẩy nền. Solid foundation = móng vững."
+    },
+    {
+      "word": "carpenter",
+      "lemma": "carpenter",
+      "ipa": "/ˈkɑːpɪntə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who makes and repairs wooden objects and structures",
+          "meaning_vi": "thợ mộc",
+          "examples": [
+            {
+              "en": "The carpenter built custom bookshelves for the study.",
+              "vi": "Thợ mộc đóng kệ sách may đo cho phòng làm việc."
+            },
+            {
+              "en": "Skilled carpenters earn good wages in Vietnam.",
+              "vi": "Thợ mộc tay nghề cao có lương tốt ở Việt Nam."
+            },
+            {
+              "en": "Hire a carpenter to fix the broken door frame.",
+              "vi": "Thuê thợ mộc sửa khung cửa gãy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["woodworker", "joiner"],
+      "antonyms": [],
+      "collocations": [
+        "skilled carpenter",
+        "hire a carpenter",
+        "master carpenter",
+        "local carpenter",
+        "freelance carpenter"
+      ],
+      "etymology_hint": "From Latin 'carpentarius' = wagon-maker — root 'carpentum' (cart).",
+      "mnemonic_vi": "CARPENTER đọc 'cá-pần-tơ' — cá phấn đóng tủ gỗ. Skilled carpenter = thợ mộc giỏi."
+    },
+    {
+      "word": "drywall",
+      "lemma": "drywall",
+      "ipa": "/ˈdraɪwɔːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "panels of gypsum used to make interior walls quickly without wet plaster",
+          "meaning_vi": "tường thạch cao (tấm tường khô)",
+          "examples": [
+            {
+              "en": "Drywall is faster to install than traditional plaster.",
+              "vi": "Tường thạch cao lắp nhanh hơn trát truyền thống."
+            },
+            {
+              "en": "Holes in drywall are easy to patch.",
+              "vi": "Lỗ trên tường thạch cao dễ vá."
+            },
+            {
+              "en": "Modern Vietnamese offices use drywall partitions.",
+              "vi": "Văn phòng Việt hiện đại dùng vách ngăn thạch cao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plasterboard", "gypsum board"],
+      "antonyms": ["brick wall", "concrete wall"],
+      "collocations": [
+        "install drywall",
+        "patch drywall",
+        "drywall partition",
+        "hang drywall",
+        "drywall screw"
+      ],
+      "etymology_hint": "Compound: 'dry' + 'wall' — invented in US in 1916 as a faster alternative to wet plaster.",
+      "mnemonic_vi": "DRY (khô) + WALL (tường) = tường khô. Drywall partition = vách thạch cao."
+    }
+  ]
+}
