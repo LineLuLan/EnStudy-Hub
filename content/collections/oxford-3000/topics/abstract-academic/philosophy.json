@@ -1,0 +1,769 @@
+{
+  "slug": "philosophy",
+  "name": "Philosophy",
+  "description": "Triết học B2 — existentialism, epistemology, ethics, paradox và 16 từ cho người mê suy ngẫm.",
+  "order_index": 14,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "existentialism",
+      "lemma": "existentialism",
+      "ipa": "/ˌeɡzɪˈstenʃəlɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a philosophy that says individuals create their own meaning in a meaningless universe",
+          "meaning_vi": "thuyết hiện sinh (cá nhân tự tạo ý nghĩa cho cuộc sống)",
+          "examples": [
+            {
+              "en": "Sartre's existentialism shaped 20th-century thought.",
+              "vi": "Hiện sinh của Sartre định hình tư tưởng thế kỷ 20."
+            },
+            {
+              "en": "Existentialism appeals to those questioning life's purpose.",
+              "vi": "Hiện sinh hấp dẫn người đặt câu hỏi về ý nghĩa cuộc sống."
+            },
+            {
+              "en": "Vietnamese readers discovered existentialism in the 1960s.",
+              "vi": "Độc giả Việt biết đến hiện sinh từ thập niên 1960."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["existentialist philosophy"],
+      "antonyms": ["determinism"],
+      "collocations": [
+        "French existentialism",
+        "existentialism and freedom",
+        "study existentialism",
+        "existentialism crisis",
+        "existentialism literature"
+      ],
+      "etymology_hint": "From Latin 'existere' = to stand forth — philosophical movement coined 1940s by Sartre and others.",
+      "mnemonic_vi": "EXIST (tồn tại) + ENTIALISM = chủ nghĩa về sự tồn tại. French existentialism = hiện sinh Pháp."
+    },
+    {
+      "word": "dichotomy",
+      "lemma": "dichotomy",
+      "ipa": "/daɪˈkɒtəmi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a division between two ideas or things that are presented as completely different",
+          "meaning_vi": "sự phân đôi (giữa hai ý đối lập)",
+          "examples": [
+            {
+              "en": "The mind-body dichotomy has puzzled philosophers for ages.",
+              "vi": "Sự phân đôi tâm-thân đã làm bối rối triết gia bao đời."
+            },
+            {
+              "en": "She rejects the dichotomy between art and science.",
+              "vi": "Cô ấy phản đối sự phân đôi giữa nghệ thuật và khoa học."
+            },
+            {
+              "en": "Many dichotomies are false binaries.",
+              "vi": "Nhiều dichotomy là phân đôi giả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["division", "split"],
+      "antonyms": ["unity", "spectrum"],
+      "collocations": [
+        "false dichotomy",
+        "mind-body dichotomy",
+        "reject the dichotomy",
+        "stark dichotomy",
+        "moral dichotomy"
+      ],
+      "etymology_hint": "From Greek 'dikha' (in two) + 'tomē' (cutting) — literally 'a cutting in two'.",
+      "mnemonic_vi": "DI (hai) + CHOTO (chia) + MY = sự chia hai. False dichotomy = phân đôi giả."
+    },
+    {
+      "word": "paradigm-shift",
+      "lemma": "paradigm-shift",
+      "ipa": "/ˈpærədaɪm ʃɪft/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a fundamental change in the basic assumptions of a science or worldview",
+          "meaning_vi": "sự chuyển biến mẫu hình (thay đổi nền tảng tư duy)",
+          "examples": [
+            {
+              "en": "Einstein's relativity caused a paradigm-shift in physics.",
+              "vi": "Thuyết tương đối của Einstein gây paradigm-shift trong vật lý."
+            },
+            {
+              "en": "AI is driving a paradigm-shift in education.",
+              "vi": "AI đang gây paradigm-shift trong giáo dục."
+            },
+            {
+              "en": "Paradigm-shifts feel obvious only in hindsight.",
+              "vi": "Paradigm-shift chỉ thấy hiển nhiên khi nhìn lại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["revolutionary change"],
+      "antonyms": ["status quo"],
+      "collocations": [
+        "major paradigm-shift",
+        "cause a paradigm-shift",
+        "scientific paradigm-shift",
+        "cultural paradigm-shift",
+        "drive a paradigm-shift"
+      ],
+      "etymology_hint": "Coined 1962 by Thomas Kuhn — 'paradigm' (Greek 'paradeigma' = pattern) + 'shift'.",
+      "mnemonic_vi": "PARADIGM (mẫu) + SHIFT (đổi) = đổi mẫu hình. Cause a paradigm-shift = gây paradigm-shift."
+    },
+    {
+      "word": "epistemology",
+      "lemma": "epistemology",
+      "ipa": "/ɪˌpɪstəˈmɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of philosophy that studies how we know things and what knowledge is",
+          "meaning_vi": "nhận thức luận (nghiên cứu về tri thức)",
+          "examples": [
+            {
+              "en": "Epistemology asks: how do we know what's true?",
+              "vi": "Nhận thức luận hỏi: làm sao ta biết điều gì là thật?"
+            },
+            {
+              "en": "AI raises new epistemology questions.",
+              "vi": "AI đặt ra câu hỏi nhận thức luận mới."
+            },
+            {
+              "en": "Her PhD focuses on social epistemology.",
+              "vi": "Tiến sĩ của cô ấy tập trung nhận thức luận xã hội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["theory of knowledge"],
+      "antonyms": [],
+      "collocations": [
+        "social epistemology",
+        "study epistemology",
+        "epistemology question",
+        "feminist epistemology",
+        "epistemology of science"
+      ],
+      "etymology_hint": "From Greek 'epistēmē' (knowledge) + 'logia' (study) — coined 1856 by Scottish philosopher James Ferrier.",
+      "mnemonic_vi": "EPISTEM (tri thức) + OLOGY (học) = học về tri thức. Social epistemology = nhận thức luận xã hội."
+    },
+    {
+      "word": "ontology",
+      "lemma": "ontology",
+      "ipa": "/ɒnˈtɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of philosophy that studies what exists and the nature of being",
+          "meaning_vi": "bản thể luận (nghiên cứu về sự tồn tại)",
+          "examples": [
+            {
+              "en": "Ontology asks: what does it mean to exist?",
+              "vi": "Bản thể luận hỏi: tồn tại nghĩa là gì?"
+            },
+            {
+              "en": "Computer scientists also use ontology to organize data.",
+              "vi": "Nhà khoa học máy tính cũng dùng ontology để sắp xếp dữ liệu."
+            },
+            {
+              "en": "Heidegger's ontology centers on 'being-in-the-world'.",
+              "vi": "Bản thể luận của Heidegger tập trung 'tồn tại trong thế giới'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["study of being"],
+      "antonyms": [],
+      "collocations": [
+        "philosophical ontology",
+        "ontology of mind",
+        "develop an ontology",
+        "social ontology",
+        "data ontology"
+      ],
+      "etymology_hint": "From Greek 'on' (being) + 'logia' (study) — coined 1606 by German philosopher Jacob Lorhard.",
+      "mnemonic_vi": "ONT (tồn tại) + OLOGY (học) = học về tồn tại. Social ontology = bản thể luận xã hội."
+    },
+    {
+      "word": "metaphysics",
+      "lemma": "metaphysics",
+      "ipa": "/ˌmetəˈfɪzɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of philosophy that examines reality beyond physical things",
+          "meaning_vi": "siêu hình học (vượt khỏi vật lý)",
+          "examples": [
+            {
+              "en": "Metaphysics asks about time, space, and causation.",
+              "vi": "Siêu hình học hỏi về thời gian, không gian, nhân quả."
+            },
+            {
+              "en": "She studied metaphysics at Oxford.",
+              "vi": "Cô ấy học siêu hình học ở Oxford."
+            },
+            {
+              "en": "Modern metaphysics overlaps with theoretical physics.",
+              "vi": "Siêu hình học hiện đại giao thoa với vật lý lý thuyết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["philosophy of being"],
+      "antonyms": ["physics", "empirical science"],
+      "collocations": [
+        "classical metaphysics",
+        "Western metaphysics",
+        "metaphysics of mind",
+        "study metaphysics",
+        "metaphysics class"
+      ],
+      "etymology_hint": "From Greek 'ta meta ta phusika' = the things after the physics — refers to Aristotle's works after his Physics.",
+      "mnemonic_vi": "META (sau, vượt) + PHYSICS (vật lý) = vượt qua vật lý. Classical metaphysics = siêu hình học cổ điển."
+    },
+    {
+      "word": "dualism",
+      "lemma": "dualism",
+      "ipa": "/ˈdjuːəlɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the view that mind and body, or good and evil, are two separate substances or forces",
+          "meaning_vi": "thuyết nhị nguyên (mind/body hoặc good/evil là hai thực thể tách biệt)",
+          "examples": [
+            {
+              "en": "Descartes is famous for mind-body dualism.",
+              "vi": "Descartes nổi tiếng vì thuyết nhị nguyên tâm-thân."
+            },
+            {
+              "en": "Many Eastern philosophies reject dualism.",
+              "vi": "Nhiều triết học phương Đông từ chối nhị nguyên."
+            },
+            {
+              "en": "Dualism shapes Western religious thought.",
+              "vi": "Nhị nguyên định hình tư tưởng tôn giáo phương Tây."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["monism"],
+      "collocations": [
+        "mind-body dualism",
+        "Cartesian dualism",
+        "reject dualism",
+        "religious dualism",
+        "moral dualism"
+      ],
+      "etymology_hint": "From Latin 'duo' (two) + '-ism' — philosophical sense from 18th century Christian Wolff.",
+      "mnemonic_vi": "DUAL (hai) + ISM = chủ nghĩa hai. Cartesian dualism = nhị nguyên Descartes."
+    },
+    {
+      "word": "monism",
+      "lemma": "monism",
+      "ipa": "/ˈmɒnɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the view that everything is made of one ultimate substance or reality",
+          "meaning_vi": "thuyết nhất nguyên (tất cả từ một thực thể)",
+          "examples": [
+            {
+              "en": "Spinoza's monism sees God and nature as one.",
+              "vi": "Nhất nguyên của Spinoza coi Chúa và tự nhiên là một."
+            },
+            {
+              "en": "Buddhism leans toward monism in some interpretations.",
+              "vi": "Phật giáo nghiêng về nhất nguyên trong vài cách hiểu."
+            },
+            {
+              "en": "Modern physics has revived interest in monism.",
+              "vi": "Vật lý hiện đại làm sống lại quan tâm về nhất nguyên."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["dualism", "pluralism"],
+      "collocations": [
+        "material monism",
+        "philosophical monism",
+        "Spinoza's monism",
+        "neutral monism",
+        "embrace monism"
+      ],
+      "etymology_hint": "From Greek 'monos' (one) + '-ism' — coined 1730s by German philosopher Christian Wolff.",
+      "mnemonic_vi": "MONO (một) + ISM = chủ nghĩa một. Material monism = nhất nguyên vật chất."
+    },
+    {
+      "word": "nihilism",
+      "lemma": "nihilism",
+      "ipa": "/ˈnaɪɪlɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the belief that life has no inherent meaning, purpose, or moral truth",
+          "meaning_vi": "thuyết hư vô (cuộc sống không có ý nghĩa nội tại)",
+          "examples": [
+            {
+              "en": "Nietzsche warned that nihilism would shape modern life.",
+              "vi": "Nietzsche cảnh báo nhân loại sẽ bị nhân vô định hình."
+            },
+            {
+              "en": "Nihilism is often misunderstood as pessimism.",
+              "vi": "Hư vô thường bị hiểu nhầm thành bi quan."
+            },
+            {
+              "en": "Some young people drift into nihilism.",
+              "vi": "Một số người trẻ trôi vào hư vô."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meaninglessness"],
+      "antonyms": ["optimism", "purposefulness"],
+      "collocations": [
+        "moral nihilism",
+        "drift into nihilism",
+        "embrace nihilism",
+        "reject nihilism",
+        "existential nihilism"
+      ],
+      "etymology_hint": "From Latin 'nihil' (nothing) + '-ism' — popularized in 19th-century Russia by Turgenev.",
+      "mnemonic_vi": "NIHIL (không) + ISM = chủ nghĩa hư vô. Moral nihilism = hư vô đạo đức."
+    },
+    {
+      "word": "stoicism",
+      "lemma": "stoicism",
+      "ipa": "/ˈstəʊɪsɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an ancient philosophy teaching virtue, self-control, and acceptance of fate",
+          "meaning_vi": "chủ nghĩa khắc kỷ (đức hạnh, tự chủ, chấp nhận số phận)",
+          "examples": [
+            {
+              "en": "Stoicism is having a modern revival on social media.",
+              "vi": "Khắc kỷ đang hồi sinh trên mạng xã hội."
+            },
+            {
+              "en": "Marcus Aurelius wrote 'Meditations' on Stoicism.",
+              "vi": "Marcus Aurelius viết 'Meditations' về khắc kỷ."
+            },
+            {
+              "en": "Vietnamese readers love translations of Stoicism.",
+              "vi": "Độc giả Việt yêu các bản dịch khắc kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stoic philosophy"],
+      "antonyms": ["hedonism"],
+      "collocations": [
+        "practice stoicism",
+        "modern stoicism",
+        "ancient stoicism",
+        "study stoicism",
+        "stoicism principles"
+      ],
+      "etymology_hint": "From 'Stoa' = porch — early Stoics taught at the Stoa Poikile in Athens.",
+      "mnemonic_vi": "STOIC (khắc kỷ) + ISM = chủ nghĩa khắc kỷ. Modern stoicism = khắc kỷ hiện đại."
+    },
+    {
+      "word": "dialectic",
+      "lemma": "dialectic",
+      "ipa": "/ˌdaɪəˈlektɪk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a method of discussing opposing ideas to find truth, especially associated with Hegel and Marx",
+          "meaning_vi": "phép biện chứng (đối thoại ý đối lập để tìm ra chân lý)",
+          "examples": [
+            {
+              "en": "Hegel's dialectic moves through thesis, antithesis, synthesis.",
+              "vi": "Biện chứng của Hegel đi qua thesis, antithesis, synthesis."
+            },
+            {
+              "en": "Marx used dialectic to explain history.",
+              "vi": "Marx dùng biện chứng để giải thích lịch sử."
+            },
+            {
+              "en": "Vietnamese universities still teach dialectical materialism.",
+              "vi": "Đại học Việt vẫn dạy duy vật biện chứng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reasoning method"],
+      "antonyms": [],
+      "collocations": [
+        "Hegelian dialectic",
+        "Marxist dialectic",
+        "dialectic method",
+        "Socratic dialectic",
+        "dialectic of"
+      ],
+      "etymology_hint": "From Greek 'dialektikē' = art of discussion — root 'dia-' (across) + 'legein' (speak).",
+      "mnemonic_vi": "DIA (qua) + LECTIC (lời) = đối thoại qua lại. Hegelian dialectic = biện chứng Hegel."
+    },
+    {
+      "word": "syllogism",
+      "lemma": "syllogism",
+      "ipa": "/ˈsɪlədʒɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a logical argument with two statements (premises) that lead to a conclusion",
+          "meaning_vi": "tam đoạn luận (2 tiền đề + 1 kết luận)",
+          "examples": [
+            {
+              "en": "Classic syllogism: All men are mortal; Socrates is a man; therefore Socrates is mortal.",
+              "vi": "Tam đoạn luận kinh điển: Mọi người đều chết; Socrates là người; nên Socrates sẽ chết."
+            },
+            {
+              "en": "Faulty syllogisms produce wrong conclusions.",
+              "vi": "Tam đoạn luận sai cho ra kết luận sai."
+            },
+            {
+              "en": "Aristotle systematized the syllogism.",
+              "vi": "Aristotle hệ thống hóa tam đoạn luận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deductive argument"],
+      "antonyms": [],
+      "collocations": [
+        "valid syllogism",
+        "faulty syllogism",
+        "classic syllogism",
+        "syllogism structure",
+        "Aristotelian syllogism"
+      ],
+      "etymology_hint": "From Greek 'sullogismos' = reasoning together — 'syn-' (together) + 'logizesthai' (to reason).",
+      "mnemonic_vi": "SYLLOG (tổng hợp lý) + ISM = lý luận tổng hợp. Valid syllogism = tam đoạn luận hợp lệ."
+    },
+    {
+      "word": "ethics",
+      "lemma": "ethics",
+      "ipa": "/ˈeθɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the study of what is right and wrong in human behavior",
+          "meaning_vi": "đạo đức học",
+          "examples": [
+            {
+              "en": "Medical ethics guides difficult treatment decisions.",
+              "vi": "Đạo đức y học hướng dẫn các quyết định điều trị khó."
+            },
+            {
+              "en": "AI ethics is now a major academic field.",
+              "vi": "Đạo đức AI giờ là lĩnh vực học thuật lớn."
+            },
+            {
+              "en": "Business ethics affect a company's reputation.",
+              "vi": "Đạo đức kinh doanh ảnh hưởng danh tiếng công ty."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["moral philosophy"],
+      "antonyms": ["unethical practices"],
+      "collocations": [
+        "medical ethics",
+        "business ethics",
+        "code of ethics",
+        "AI ethics",
+        "research ethics"
+      ],
+      "etymology_hint": "From Greek 'ēthikos' = of character — root 'ēthos' (character, custom).",
+      "mnemonic_vi": "ETHIC (đạo) + S = đạo đức. Code of ethics = bộ quy tắc đạo đức."
+    },
+    {
+      "word": "morality",
+      "lemma": "morality",
+      "ipa": "/məˈræləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "principles concerning right and wrong behavior",
+          "meaning_vi": "đạo đức (cá nhân hoặc xã hội)",
+          "examples": [
+            {
+              "en": "Morality differs across cultures.",
+              "vi": "Đạo đức khác nhau giữa các nền văn hóa."
+            },
+            {
+              "en": "Religious morality often shapes laws.",
+              "vi": "Đạo đức tôn giáo thường định hình luật pháp."
+            },
+            {
+              "en": "She questions the morality of capital punishment.",
+              "vi": "Cô ấy đặt câu hỏi về đạo đức của án tử hình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ethics", "moral standards"],
+      "antonyms": ["immorality"],
+      "collocations": [
+        "personal morality",
+        "public morality",
+        "question morality",
+        "shared morality",
+        "moral relativism"
+      ],
+      "etymology_hint": "From Latin 'moralis' = of customs — root 'mos' (custom, manner).",
+      "mnemonic_vi": "MORAL (đạo đức) + ITY = sự đạo đức. Personal morality = đạo đức cá nhân."
+    },
+    {
+      "word": "virtue",
+      "lemma": "virtue",
+      "ipa": "/ˈvɜːtʃuː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a quality considered morally good or admirable, like honesty or kindness",
+          "meaning_vi": "đức tính, đức hạnh",
+          "examples": [
+            {
+              "en": "Patience is a virtue worth cultivating.",
+              "vi": "Kiên nhẫn là đức tính đáng vun đắp."
+            },
+            {
+              "en": "Aristotle described virtue as a balanced character trait.",
+              "vi": "Aristotle mô tả đức hạnh là phẩm chất cân bằng."
+            },
+            {
+              "en": "Vietnamese culture values filial virtue.",
+              "vi": "Văn hóa Việt coi trọng đức hiếu thảo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["good quality", "moral excellence"],
+      "antonyms": ["vice", "flaw"],
+      "collocations": [
+        "cardinal virtue",
+        "moral virtue",
+        "practice virtue",
+        "virtue ethics",
+        "patience is a virtue"
+      ],
+      "etymology_hint": "From Latin 'virtus' = manliness, excellence — root 'vir' (man) shifted to general 'moral strength'.",
+      "mnemonic_vi": "VIRTUE đọc 'vớt-chu' — vớt phẩm chất tốt. Virtue ethics = đạo đức đức hạnh."
+    },
+    {
+      "word": "free-will",
+      "lemma": "free-will",
+      "ipa": "/ˌfriː ˈwɪl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to make choices freely, not forced by fate or biology",
+          "meaning_vi": "ý chí tự do (lựa chọn không bị ép buộc)",
+          "examples": [
+            {
+              "en": "Do humans truly have free-will?",
+              "vi": "Con người có thực sự có ý chí tự do không?"
+            },
+            {
+              "en": "Neuroscience challenges traditional free-will.",
+              "vi": "Khoa học thần kinh thách thức ý chí tự do truyền thống."
+            },
+            {
+              "en": "Many religions assume free-will exists.",
+              "vi": "Nhiều tôn giáo giả định ý chí tự do tồn tại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["autonomy", "self-determination"],
+      "antonyms": ["determinism", "fate"],
+      "collocations": [
+        "exercise free-will",
+        "question free-will",
+        "free-will debate",
+        "true free-will",
+        "limit free-will"
+      ],
+      "etymology_hint": "Compound: 'free' + 'will' (Old English 'willa' = desire) — theological debate term since medieval times.",
+      "mnemonic_vi": "FREE (tự do) + WILL (ý chí) = ý chí tự do. Exercise free-will = thực thi ý chí tự do."
+    },
+    {
+      "word": "determinism",
+      "lemma": "determinism",
+      "ipa": "/dɪˈtɜːmɪnɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the philosophical view that all events are caused by previous events, leaving no room for free will",
+          "meaning_vi": "thuyết tất định (mọi sự đều do nguyên nhân trước, không có tự do)",
+          "examples": [
+            {
+              "en": "Determinism implies everything is predictable in principle.",
+              "vi": "Tất định ngụ ý mọi thứ có thể đoán được về nguyên tắc."
+            },
+            {
+              "en": "Biological determinism is controversial.",
+              "vi": "Tất định sinh học gây tranh cãi."
+            },
+            {
+              "en": "Hard determinism denies moral responsibility.",
+              "vi": "Tất định cứng phủ định trách nhiệm đạo đức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fatalism (related)"],
+      "antonyms": ["free-will"],
+      "collocations": [
+        "hard determinism",
+        "biological determinism",
+        "soft determinism",
+        "embrace determinism",
+        "philosophical determinism"
+      ],
+      "etymology_hint": "From Latin 'determinare' = to limit — philosophical sense coined 19th century.",
+      "mnemonic_vi": "DETERMIN (xác định) + ISM = chủ nghĩa xác định. Hard determinism = tất định cứng."
+    },
+    {
+      "word": "consciousness",
+      "lemma": "consciousness",
+      "ipa": "/ˈkɒnʃəsnəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being aware of yourself and the world; the subjective experience of being",
+          "meaning_vi": "ý thức (sự nhận biết bản thân và thế giới)",
+          "examples": [
+            {
+              "en": "Consciousness is philosophy's hardest problem.",
+              "vi": "Ý thức là vấn đề khó nhất của triết học."
+            },
+            {
+              "en": "She lost consciousness for a moment.",
+              "vi": "Cô ấy mất ý thức trong giây lát."
+            },
+            {
+              "en": "Can machines ever have consciousness?",
+              "vi": "Máy móc có bao giờ có ý thức không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["awareness", "awakeness"],
+      "antonyms": ["unconsciousness"],
+      "collocations": [
+        "human consciousness",
+        "stream of consciousness",
+        "lose consciousness",
+        "altered consciousness",
+        "machine consciousness"
+      ],
+      "etymology_hint": "From Latin 'conscius' = aware — 'com-' (with) + 'scire' (know).",
+      "mnemonic_vi": "CON (cùng) + SCIOUS (biết) + NESS = sự biết. Stream of consciousness = dòng ý thức."
+    },
+    {
+      "word": "relativism",
+      "lemma": "relativism",
+      "ipa": "/ˈrelətɪvɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the view that truth or morality depends on culture, perspective, or context",
+          "meaning_vi": "thuyết tương đối (chân lý / đạo đức phụ thuộc hoàn cảnh)",
+          "examples": [
+            {
+              "en": "Cultural relativism resists imposing one view as universal.",
+              "vi": "Tương đối văn hóa từ chối áp đặt một góc nhìn là phổ quát."
+            },
+            {
+              "en": "Moral relativism is contested in ethics classes.",
+              "vi": "Tương đối đạo đức gây tranh cãi trong lớp đạo đức."
+            },
+            {
+              "en": "Critics say relativism dissolves all standards.",
+              "vi": "Người chỉ trích nói tương đối phá hết tiêu chuẩn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["absolutism", "objectivism"],
+      "collocations": [
+        "cultural relativism",
+        "moral relativism",
+        "embrace relativism",
+        "reject relativism",
+        "epistemic relativism"
+      ],
+      "etymology_hint": "From Latin 'relativus' = having reference to — philosophical sense from 19th century.",
+      "mnemonic_vi": "RELATIVE (tương đối) + ISM = chủ nghĩa tương đối. Cultural relativism = tương đối văn hóa."
+    },
+    {
+      "word": "paradox",
+      "lemma": "paradox",
+      "ipa": "/ˈpærədɒks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a statement that seems contradictory but may reveal a deeper truth",
+          "meaning_vi": "nghịch lý (lời mâu thuẫn nhưng có thể đúng)",
+          "examples": [
+            {
+              "en": "Zeno's paradoxes puzzled mathematicians for centuries.",
+              "vi": "Nghịch lý Zeno làm nhà toán học bối rối hàng thế kỷ."
+            },
+            {
+              "en": "The grandfather paradox involves time travel.",
+              "vi": "Nghịch lý ông nội liên quan đến du hành thời gian."
+            },
+            {
+              "en": "Life is full of small paradoxes.",
+              "vi": "Cuộc sống đầy những nghịch lý nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contradiction"],
+      "antonyms": ["consistency"],
+      "collocations": [
+        "logical paradox",
+        "resolve a paradox",
+        "famous paradox",
+        "central paradox",
+        "apparent paradox"
+      ],
+      "etymology_hint": "From Greek 'paradoxon' = contrary to expectation — 'para-' (against) + 'doxa' (opinion).",
+      "mnemonic_vi": "PARA (trái) + DOX (ý kiến) = trái ý kiến. Logical paradox = nghịch lý logic."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "slug": "corporate-strategy",
+  "name": "Corporate Strategy",
+  "description": "Chiến lược doanh nghiệp B2 — diversification, synergy, takeover, antitrust và 16 từ M&A cao cấp.",
+  "order_index": 17,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "diversification",
+      "lemma": "diversification",
+      "ipa": "/daɪˌvɜːsɪfɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the strategy of expanding into new markets or products to reduce risk",
+          "meaning_vi": "đa dạng hóa (mở rộng vào thị trường / sản phẩm mới)",
+          "examples": [
+            {
+              "en": "Diversification protected the firm during the recession.",
+              "vi": "Đa dạng hóa bảo vệ công ty trong suy thoái."
+            },
+            {
+              "en": "Vingroup's diversification spans real estate to electric vehicles.",
+              "vi": "Đa dạng hóa của Vingroup trải từ bất động sản tới xe điện."
+            },
+            {
+              "en": "Over-diversification can dilute focus.",
+              "vi": "Đa dạng hóa quá mức có thể loãng tập trung."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expansion"],
+      "antonyms": ["specialization"],
+      "collocations": [
+        "product diversification",
+        "geographic diversification",
+        "risk diversification",
+        "over-diversification",
+        "strategic diversification"
+      ],
+      "etymology_hint": "From Latin 'diversus' (different) + '-ification' — corporate strategy term from 1950s.",
+      "mnemonic_vi": "DIVERSE (đa dạng) + IFICATION = sự đa dạng hóa. Product diversification = đa dạng hóa sản phẩm."
+    },
+    {
+      "word": "synergy",
+      "lemma": "synergy",
+      "ipa": "/ˈsɪnədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the extra value created when two companies or teams work together",
+          "meaning_vi": "sức mạnh cộng hưởng (1+1 > 2)",
+          "examples": [
+            {
+              "en": "The merger promised $50M in annual synergy.",
+              "vi": "Vụ sáp nhập hứa hẹn 50 triệu USD synergy hàng năm."
+            },
+            {
+              "en": "Real synergy is rare and hard to achieve.",
+              "vi": "Synergy thật rất hiếm và khó đạt."
+            },
+            {
+              "en": "Cross-team synergy improves outcomes.",
+              "vi": "Synergy chéo team cải thiện kết quả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["combined effect"],
+      "antonyms": ["redundancy"],
+      "collocations": [
+        "merger synergy",
+        "cost synergy",
+        "revenue synergy",
+        "achieve synergy",
+        "team synergy"
+      ],
+      "etymology_hint": "From Greek 'sunergos' = working together — 'syn-' (together) + 'ergon' (work).",
+      "mnemonic_vi": "SYN (cùng) + ERGY (năng lượng) = năng lượng cộng. Cost synergy = synergy chi phí."
+    },
+    {
+      "word": "vertical-integration",
+      "lemma": "vertical-integration",
+      "ipa": "/ˈvɜːtɪkl ˌɪntɪˈɡreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "owning both supply and distribution sides of your business",
+          "meaning_vi": "tích hợp dọc (sở hữu cả chuỗi cung ứng và phân phối)",
+          "examples": [
+            {
+              "en": "Tesla pursued vertical-integration by mining lithium.",
+              "vi": "Tesla theo đuổi tích hợp dọc bằng cách tự khai thác lithium."
+            },
+            {
+              "en": "Vertical-integration cuts dependence on suppliers.",
+              "vi": "Tích hợp dọc giảm phụ thuộc nhà cung cấp."
+            },
+            {
+              "en": "Apple uses vertical-integration to control quality.",
+              "vi": "Apple dùng tích hợp dọc để kiểm soát chất lượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["horizontal-integration", "outsourcing"],
+      "collocations": [
+        "full vertical-integration",
+        "backward vertical-integration",
+        "forward vertical-integration",
+        "pursue vertical-integration",
+        "vertical-integration strategy"
+      ],
+      "etymology_hint": "Compound: 'vertical' (top-to-bottom) + 'integration' — coined early 20th-century industrial economics.",
+      "mnemonic_vi": "VERTICAL (dọc) + INTEGRATION (tích hợp) = tích hợp dọc. Backward vertical-integration = tích hợp ngược."
+    },
+    {
+      "word": "horizontal-integration",
+      "lemma": "horizontal-integration",
+      "ipa": "/ˌhɒrɪˈzɒntl ˌɪntɪˈɡreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "acquiring competitors at the same stage of the supply chain",
+          "meaning_vi": "tích hợp ngang (mua đối thủ cùng cấp)",
+          "examples": [
+            {
+              "en": "Disney pursued horizontal-integration by buying Marvel and Pixar.",
+              "vi": "Disney tích hợp ngang khi mua Marvel và Pixar."
+            },
+            {
+              "en": "Horizontal-integration boosts market share fast.",
+              "vi": "Tích hợp ngang tăng thị phần nhanh."
+            },
+            {
+              "en": "Regulators scrutinize horizontal-integration for monopoly risk.",
+              "vi": "Cơ quan quản lý soi tích hợp ngang vì rủi ro độc quyền."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["vertical-integration"],
+      "collocations": [
+        "horizontal-integration deal",
+        "horizontal-integration strategy",
+        "pursue horizontal-integration",
+        "horizontal-integration synergy",
+        "block horizontal-integration"
+      ],
+      "etymology_hint": "Compound: 'horizontal' (same level) + 'integration' — same coinage period as vertical-integration.",
+      "mnemonic_vi": "HORIZONTAL (ngang) + INTEGRATION = tích hợp ngang. Horizontal-integration deal = thương vụ tích hợp ngang."
+    },
+    {
+      "word": "monopoly",
+      "lemma": "monopoly",
+      "ipa": "/məˈnɒpəli/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a market where one company controls all sales of a product or service",
+          "meaning_vi": "độc quyền (một công ty kiểm soát toàn thị trường)",
+          "examples": [
+            {
+              "en": "Vietnamese electricity is effectively a state monopoly.",
+              "vi": "Điện Việt Nam thực chất là độc quyền nhà nước."
+            },
+            {
+              "en": "Anti-monopoly laws break up dominant firms.",
+              "vi": "Luật chống độc quyền giải thể công ty thống trị."
+            },
+            {
+              "en": "Tech giants face monopoly investigations worldwide.",
+              "vi": "Gã khổng lồ công nghệ đối mặt điều tra độc quyền toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["competition", "free market"],
+      "collocations": [
+        "state monopoly",
+        "anti-monopoly law",
+        "break up a monopoly",
+        "natural monopoly",
+        "monopoly power"
+      ],
+      "etymology_hint": "From Greek 'mono-' (one) + 'pōlein' (to sell) — 'sole seller'.",
+      "mnemonic_vi": "MONO (một) + POLY (bán) = một mình bán. Anti-monopoly law = luật chống độc quyền."
+    },
+    {
+      "word": "oligopoly",
+      "lemma": "oligopoly",
+      "ipa": "/ˌɒlɪˈɡɒpəli/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a market dominated by a few large companies",
+          "meaning_vi": "thị trường ít kẻ thống trị (vài công ty lớn nắm)",
+          "examples": [
+            {
+              "en": "Mobile telecom in Vietnam is an oligopoly.",
+              "vi": "Viễn thông di động Việt Nam là oligopoly."
+            },
+            {
+              "en": "Oligopolies often coordinate prices implicitly.",
+              "vi": "Oligopoly thường ngầm phối hợp giá."
+            },
+            {
+              "en": "Three airlines form an oligopoly on this route.",
+              "vi": "Ba hãng bay tạo oligopoly trên tuyến này."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["perfect competition"],
+      "collocations": [
+        "global oligopoly",
+        "tight oligopoly",
+        "form an oligopoly",
+        "oligopoly market",
+        "oligopoly behavior"
+      ],
+      "etymology_hint": "From Greek 'oligos' (few) + 'pōlein' (sell) — analog to monopoly.",
+      "mnemonic_vi": "OLIGO (ít) + POLY (bán) = vài kẻ bán. Global oligopoly = oligopoly toàn cầu."
+    },
+    {
+      "word": "conglomerate",
+      "lemma": "conglomerate",
+      "ipa": "/kənˈɡlɒmərət/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large company made up of many different businesses in unrelated industries",
+          "meaning_vi": "tập đoàn đa ngành",
+          "examples": [
+            {
+              "en": "Samsung is a Korean conglomerate.",
+              "vi": "Samsung là tập đoàn đa ngành Hàn Quốc."
+            },
+            {
+              "en": "Vietnamese conglomerates like Vingroup span many sectors.",
+              "vi": "Tập đoàn Việt như Vingroup trải nhiều ngành."
+            },
+            {
+              "en": "Conglomerates often trade at a discount.",
+              "vi": "Conglomerate thường giao dịch ở giá chiết khấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["corporate group"],
+      "antonyms": ["single-business firm"],
+      "collocations": [
+        "large conglomerate",
+        "Korean conglomerate",
+        "media conglomerate",
+        "diversified conglomerate",
+        "industrial conglomerate"
+      ],
+      "etymology_hint": "From Latin 'conglomeratus' = rolled together — 'com-' + 'glomus' (ball).",
+      "mnemonic_vi": "CON (cùng) + GLOMER (cuộn) + ATE = cuộn nhiều ngành. Korean conglomerate = tập đoàn Hàn."
+    },
+    {
+      "word": "holding-company",
+      "lemma": "holding-company",
+      "ipa": "/ˈhəʊldɪŋ ˌkʌmpəni/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a parent company that owns shares in other companies but doesn't make products itself",
+          "meaning_vi": "công ty mẹ (sở hữu cổ phần các công ty con)",
+          "examples": [
+            {
+              "en": "Alphabet is the holding-company that owns Google.",
+              "vi": "Alphabet là holding-company sở hữu Google."
+            },
+            {
+              "en": "Holding-companies allow flexible legal structures.",
+              "vi": "Holding-company cho cấu trúc pháp lý linh hoạt."
+            },
+            {
+              "en": "Vietnamese tycoons often use holding-companies.",
+              "vi": "Đại gia Việt thường dùng holding-company."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["parent company"],
+      "antonyms": ["subsidiary"],
+      "collocations": [
+        "parent holding-company",
+        "form a holding-company",
+        "holding-company structure",
+        "holding-company tax",
+        "regional holding-company"
+      ],
+      "etymology_hint": "Compound: 'holding' + 'company' — legal-structure term from US corporate law in 1880s.",
+      "mnemonic_vi": "HOLDING (sở hữu) + COMPANY = công ty sở hữu. Parent holding-company = công ty mẹ."
+    },
+    {
+      "word": "divestment",
+      "lemma": "divestment",
+      "ipa": "/daɪˈvestmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "selling off a business unit or assets, the opposite of investment",
+          "meaning_vi": "thoái vốn / bán đi (tài sản / công ty con)",
+          "examples": [
+            {
+              "en": "GE announced a major divestment of its finance arm.",
+              "vi": "GE công bố thoái vốn lớn ở mảng tài chính."
+            },
+            {
+              "en": "Fossil-fuel divestment is a growing movement.",
+              "vi": "Thoái vốn nhiên liệu hóa thạch là phong trào tăng dần."
+            },
+            {
+              "en": "Strategic divestment frees capital for new bets.",
+              "vi": "Thoái vốn chiến lược giải phóng vốn cho cược mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sell-off"],
+      "antonyms": ["investment", "acquisition"],
+      "collocations": [
+        "strategic divestment",
+        "announce divestment",
+        "fossil-fuel divestment",
+        "complete a divestment",
+        "partial divestment"
+      ],
+      "etymology_hint": "From 'divest' (Latin 'dis-' (away) + 'vestire' (clothe)) — meaning 'strip away assets'.",
+      "mnemonic_vi": "DIVEST (gỡ) + MENT = sự gỡ bỏ. Strategic divestment = thoái vốn chiến lược."
+    },
+    {
+      "word": "takeover",
+      "lemma": "takeover",
+      "ipa": "/ˈteɪkəʊvə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of one company gaining control over another, often through buying shares",
+          "meaning_vi": "vụ thâu tóm (kiểm soát công ty khác qua mua cổ phần)",
+          "examples": [
+            {
+              "en": "The hostile takeover sent the stock soaring.",
+              "vi": "Vụ thâu tóm thù địch khiến cổ phiếu tăng vọt."
+            },
+            {
+              "en": "Friendly takeovers happen with the board's blessing.",
+              "vi": "Thâu tóm thân thiện có sự đồng ý của hội đồng quản trị."
+            },
+            {
+              "en": "Takeover defenses delay unwanted bids.",
+              "vi": "Phòng vệ chống thâu tóm trì hoãn đặt giá không mong muốn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["acquisition"],
+      "antonyms": ["spin-off"],
+      "collocations": [
+        "hostile takeover",
+        "friendly takeover",
+        "takeover bid",
+        "takeover target",
+        "block a takeover"
+      ],
+      "etymology_hint": "Compound: 'take' + 'over' — phrasal verb used as noun from early 20th-century finance.",
+      "mnemonic_vi": "TAKE (lấy) + OVER (qua) = lấy qua. Hostile takeover = thâu tóm thù địch."
+    },
+    {
+      "word": "restructuring",
+      "lemma": "restructuring",
+      "ipa": "/ˌriːˈstrʌktʃərɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of significantly changing a company's organization, often to reduce costs",
+          "meaning_vi": "tái cấu trúc doanh nghiệp",
+          "examples": [
+            {
+              "en": "The restructuring cut 5,000 jobs.",
+              "vi": "Vụ tái cấu trúc cắt 5.000 việc làm."
+            },
+            {
+              "en": "Debt restructuring saved the airline.",
+              "vi": "Tái cấu trúc nợ cứu hãng bay."
+            },
+            {
+              "en": "Restructuring announcements rattle stock prices.",
+              "vi": "Thông báo tái cấu trúc làm giá cổ phiếu rung."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reorganization"],
+      "antonyms": ["status quo"],
+      "collocations": [
+        "corporate restructuring",
+        "debt restructuring",
+        "announce restructuring",
+        "painful restructuring",
+        "restructuring plan"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'structure' (Latin 'structura' = building) — corporate jargon from 1980s.",
+      "mnemonic_vi": "RE (lại) + STRUCTURE (cấu trúc) + ING = tái cấu trúc. Debt restructuring = tái cấu trúc nợ."
+    },
+    {
+      "word": "downsize",
+      "lemma": "downsize",
+      "ipa": "/ˌdaʊnˈsaɪz/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to reduce the number of employees or size of a company to cut costs",
+          "meaning_vi": "thu hẹp quy mô (cắt giảm nhân sự)",
+          "examples": [
+            {
+              "en": "The firm downsized 20% during the pandemic.",
+              "vi": "Công ty thu hẹp 20% trong đại dịch."
+            },
+            {
+              "en": "Downsizing often hits morale hard.",
+              "vi": "Thu hẹp thường đập tinh thần mạnh."
+            },
+            {
+              "en": "Vietnamese factories downsized after orders fell.",
+              "vi": "Nhà máy Việt thu hẹp sau khi đơn hàng giảm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lay off", "shrink"],
+      "antonyms": ["expand", "grow"],
+      "collocations": [
+        "downsize the workforce",
+        "downsize aggressively",
+        "downsize operations",
+        "forced to downsize",
+        "downsize the team"
+      ],
+      "etymology_hint": "Compound: 'down' + 'size' — corporate euphemism for mass layoffs from 1980s.",
+      "mnemonic_vi": "DOWN (xuống) + SIZE (kích cỡ) = giảm cỡ. Downsize the workforce = giảm nhân sự."
+    },
+    {
+      "word": "outsource",
+      "lemma": "outsource",
+      "ipa": "/ˈaʊtsɔːs/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to hire an outside company to do work that was previously done in-house",
+          "meaning_vi": "thuê ngoài (chuyển công việc cho công ty khác làm)",
+          "examples": [
+            {
+              "en": "US firms outsource customer service to the Philippines.",
+              "vi": "Công ty Mỹ thuê ngoài chăm sóc khách hàng sang Philippines."
+            },
+            {
+              "en": "Vietnam attracts outsourcing in software and textiles.",
+              "vi": "Việt Nam hút outsourcing trong phần mềm và dệt may."
+            },
+            {
+              "en": "Don't outsource your core competence.",
+              "vi": "Đừng thuê ngoài năng lực cốt lõi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contract out"],
+      "antonyms": ["insource"],
+      "collocations": [
+        "outsource production",
+        "outsource customer service",
+        "fully outsource",
+        "outsource overseas",
+        "outsource non-core work"
+      ],
+      "etymology_hint": "Compound: 'out' (external) + 'source' — coined 1981 in US manufacturing.",
+      "mnemonic_vi": "OUT (ngoài) + SOURCE (nguồn) = nguồn ngoài. Outsource production = thuê ngoài sản xuất."
+    },
+    {
+      "word": "merger",
+      "lemma": "merger",
+      "ipa": "/ˈmɜːdʒə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the joining of two companies into one new larger company",
+          "meaning_vi": "vụ sáp nhập (hai công ty thành một)",
+          "examples": [
+            {
+              "en": "The merger created a $50B company.",
+              "vi": "Vụ sáp nhập tạo công ty 50 tỷ USD."
+            },
+            {
+              "en": "Mergers often face regulatory review.",
+              "vi": "Sáp nhập thường bị xem xét pháp lý."
+            },
+            {
+              "en": "Cultural fit determines merger success.",
+              "vi": "Phù hợp văn hóa quyết định thành công sáp nhập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["combination", "consolidation"],
+      "antonyms": ["spin-off", "split"],
+      "collocations": [
+        "merger and acquisition",
+        "announce a merger",
+        "merger talks",
+        "approve a merger",
+        "block a merger"
+      ],
+      "etymology_hint": "From verb 'merge' (Latin 'mergere' = plunge, dip) — financial sense from late 19th century.",
+      "mnemonic_vi": "MERGE (sáp nhập) + R = vụ sáp nhập. Merger and acquisition = sáp nhập và mua lại (M&A)."
+    },
+    {
+      "word": "acquisition",
+      "lemma": "acquisition",
+      "ipa": "/ˌækwɪˈzɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of buying another company",
+          "meaning_vi": "vụ mua lại (công ty khác)",
+          "examples": [
+            {
+              "en": "Microsoft's acquisition of LinkedIn cost $26 billion.",
+              "vi": "Vụ mua lại LinkedIn của Microsoft tốn 26 tỷ USD."
+            },
+            {
+              "en": "Acquisitions diversify the parent company.",
+              "vi": "Vụ mua lại đa dạng hóa công ty mẹ."
+            },
+            {
+              "en": "Failed acquisitions destroy shareholder value.",
+              "vi": "Mua lại thất bại phá giá trị cổ đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["takeover", "purchase"],
+      "antonyms": ["divestment"],
+      "collocations": [
+        "make an acquisition",
+        "successful acquisition",
+        "strategic acquisition",
+        "talent acquisition",
+        "acquisition target"
+      ],
+      "etymology_hint": "From Latin 'acquirere' = to acquire — 'ad-' (to) + 'quaerere' (seek).",
+      "mnemonic_vi": "ACQUIRE (mua lại) + ITION = sự mua lại. Strategic acquisition = mua lại chiến lược."
+    },
+    {
+      "word": "market-share",
+      "lemma": "market-share",
+      "ipa": "/ˈmɑːkɪt ʃeə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the percentage of total sales in an industry held by a company",
+          "meaning_vi": "thị phần (% tổng doanh số ngành mà công ty nắm)",
+          "examples": [
+            {
+              "en": "Vinamilk holds 40% market-share in Vietnam.",
+              "vi": "Vinamilk nắm 40% thị phần Việt Nam."
+            },
+            {
+              "en": "Sacrificing margin to gain market-share is risky.",
+              "vi": "Hy sinh biên lợi nhuận để giành thị phần là rủi ro."
+            },
+            {
+              "en": "Market-share growth justifies acquisition prices.",
+              "vi": "Tăng thị phần biện minh giá mua lại."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "gain market-share",
+        "lose market-share",
+        "market-share leader",
+        "global market-share",
+        "market-share growth"
+      ],
+      "etymology_hint": "Compound: 'market' + 'share' — economic concept formalized in 1960s.",
+      "mnemonic_vi": "MARKET (thị trường) + SHARE (phần) = phần thị trường. Gain market-share = giành thị phần."
+    },
+    {
+      "word": "consolidation",
+      "lemma": "consolidation",
+      "ipa": "/kənˌsɒlɪˈdeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of combining several companies or units into one stronger entity",
+          "meaning_vi": "sự hợp nhất / củng cố (nhiều công ty thành một)",
+          "examples": [
+            {
+              "en": "Industry consolidation reduced players from 20 to 5.",
+              "vi": "Hợp nhất ngành giảm số người chơi từ 20 còn 5."
+            },
+            {
+              "en": "Banking consolidation strengthens the system.",
+              "vi": "Hợp nhất ngân hàng làm hệ thống mạnh hơn."
+            },
+            {
+              "en": "Tech consolidation worries regulators.",
+              "vi": "Hợp nhất công nghệ làm cơ quan quản lý lo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["combination", "merger"],
+      "antonyms": ["fragmentation"],
+      "collocations": [
+        "industry consolidation",
+        "market consolidation",
+        "wave of consolidation",
+        "post-merger consolidation",
+        "banking consolidation"
+      ],
+      "etymology_hint": "From Latin 'consolidare' = to make solid — 'com-' + 'solidus' (solid).",
+      "mnemonic_vi": "CON (cùng) + SOLID (rắn) + ATION = làm rắn cùng. Industry consolidation = hợp nhất ngành."
+    },
+    {
+      "word": "antitrust",
+      "lemma": "antitrust",
+      "ipa": "/ˌæntiˈtrʌst/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "(of laws or regulations) intended to prevent monopolies and protect competition",
+          "meaning_vi": "(luật) chống độc quyền",
+          "examples": [
+            {
+              "en": "The EU launched an antitrust case against Google.",
+              "vi": "EU khởi tố vụ chống độc quyền với Google."
+            },
+            {
+              "en": "Antitrust laws break up dominant firms.",
+              "vi": "Luật chống độc quyền giải thể công ty thống trị."
+            },
+            {
+              "en": "Vietnam strengthened its antitrust framework recently.",
+              "vi": "Việt Nam mới củng cố khung pháp lý chống độc quyền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anti-monopoly"],
+      "antonyms": [],
+      "collocations": [
+        "antitrust law",
+        "antitrust case",
+        "antitrust regulator",
+        "antitrust violation",
+        "antitrust investigation"
+      ],
+      "etymology_hint": "Compound: 'anti-' (against) + 'trust' (big business combination) — US term from 1890 Sherman Antitrust Act.",
+      "mnemonic_vi": "ANTI (chống) + TRUST (tổ hợp) = chống tổ hợp lớn. Antitrust law = luật chống độc quyền."
+    },
+    {
+      "word": "shareholder",
+      "lemma": "shareholder",
+      "ipa": "/ˈʃeəhəʊldə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person or company that owns shares in a corporation",
+          "meaning_vi": "cổ đông (người sở hữu cổ phần)",
+          "examples": [
+            {
+              "en": "Major shareholders vote on key decisions.",
+              "vi": "Cổ đông lớn bỏ phiếu các quyết định then chốt."
+            },
+            {
+              "en": "Shareholder activism pushes companies to act.",
+              "vi": "Cổ đông hành động đẩy công ty phải hành động."
+            },
+            {
+              "en": "Vietnamese shareholders attend annual meetings.",
+              "vi": "Cổ đông Việt dự họp thường niên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stockholder", "equity holder"],
+      "antonyms": ["bondholder"],
+      "collocations": [
+        "majority shareholder",
+        "minority shareholder",
+        "shareholder meeting",
+        "shareholder activism",
+        "shareholder value"
+      ],
+      "etymology_hint": "Compound: 'share' + 'holder' — corporate term from 17th-century joint-stock companies.",
+      "mnemonic_vi": "SHARE (cổ phần) + HOLDER (người giữ) = người giữ cổ phần. Major shareholder = cổ đông lớn."
+    },
+    {
+      "word": "leverage",
+      "lemma": "leverage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the use of borrowed money or strategic position to increase the impact of an action",
+          "meaning_vi": "đòn bẩy (tài chính / chiến lược)",
+          "examples": [
+            {
+              "en": "Private equity firms use heavy leverage.",
+              "vi": "Quỹ đầu tư tư nhân dùng đòn bẩy nặng."
+            },
+            {
+              "en": "Negotiating leverage comes from alternatives.",
+              "vi": "Đòn bẩy đàm phán đến từ lựa chọn thay thế."
+            },
+            {
+              "en": "Too much leverage can sink a company.",
+              "vi": "Đòn bẩy quá mức có thể đánh chìm công ty."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advantage", "borrowed capital"],
+      "antonyms": ["lack of advantage"],
+      "collocations": [
+        "financial leverage",
+        "negotiating leverage",
+        "use leverage",
+        "high leverage",
+        "leverage ratio"
+      ],
+      "etymology_hint": "From 'lever' (Old French 'levier' = to lift) — meaning 'strategic advantage' from 1930s finance.",
+      "mnemonic_vi": "LEVER (đòn) + AGE = đòn bẩy. Financial leverage = đòn bẩy tài chính."
+    }
+  ]
+}

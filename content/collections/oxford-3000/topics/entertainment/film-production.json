@@ -1,0 +1,739 @@
+{
+  "slug": "film-production",
+  "name": "Film Production",
+  "description": "Sản xuất phim B2 — cinematography, montage, mise-en-scene, CGI và 16 từ cho dân làm phim.",
+  "order_index": 14,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "cinematography",
+      "lemma": "cinematography",
+      "ipa": "/ˌsɪnəməˈtɒɡrəfi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the art of capturing images on film or video, including lighting, framing, and camera movement",
+          "meaning_vi": "nghệ thuật quay phim (ánh sáng, khung hình, di chuyển máy)",
+          "examples": [
+            {
+              "en": "The film won an Oscar for cinematography.",
+              "vi": "Bộ phim đoạt Oscar về cinematography."
+            },
+            {
+              "en": "Vietnamese cinematography draws inspiration from landscapes.",
+              "vi": "Cinematography Việt lấy cảm hứng từ phong cảnh."
+            },
+            {
+              "en": "Good cinematography elevates a simple story.",
+              "vi": "Cinematography giỏi nâng tầm câu chuyện đơn giản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["camerawork"],
+      "antonyms": [],
+      "collocations": [
+        "stunning cinematography",
+        "award-winning cinematography",
+        "cinematography style",
+        "study cinematography",
+        "cinematography crew"
+      ],
+      "etymology_hint": "From Greek 'kinēma' (movement) + 'graphein' (write) — coined 1890s with the first films.",
+      "mnemonic_vi": "CINEMA (điện ảnh) + GRAPHY (viết, vẽ) = nghệ thuật quay phim. Stunning cinematography = quay phim tuyệt đỉnh."
+    },
+    {
+      "word": "postproduction",
+      "lemma": "postproduction",
+      "ipa": "/ˌpəʊstprəˈdʌkʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the work done on a film after shooting, like editing, sound design, and visual effects",
+          "meaning_vi": "hậu kỳ (chỉnh sửa, âm thanh, VFX sau quay)",
+          "examples": [
+            {
+              "en": "Postproduction took twice as long as filming.",
+              "vi": "Hậu kỳ tốn gấp đôi thời gian quay."
+            },
+            {
+              "en": "Vietnamese postproduction studios are improving fast.",
+              "vi": "Studio hậu kỳ Việt tiến bộ nhanh."
+            },
+            {
+              "en": "Modern postproduction relies on powerful computers.",
+              "vi": "Hậu kỳ hiện đại dựa vào máy tính mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["post"],
+      "antonyms": ["preproduction"],
+      "collocations": [
+        "postproduction work",
+        "in postproduction",
+        "postproduction studio",
+        "postproduction budget",
+        "postproduction supervisor"
+      ],
+      "etymology_hint": "Compound: 'post-' (after) + 'production' — film industry term standardized 1930s.",
+      "mnemonic_vi": "POST (sau) + PRODUCTION (sản xuất) = sau sản xuất. In postproduction = đang hậu kỳ."
+    },
+    {
+      "word": "screenwriting",
+      "lemma": "screenwriting",
+      "ipa": "/ˈskriːnraɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the craft of writing scripts for films or TV",
+          "meaning_vi": "viết kịch bản phim / TV",
+          "examples": [
+            {
+              "en": "Screenwriting requires visual thinking.",
+              "vi": "Viết kịch bản đòi hỏi tư duy hình ảnh."
+            },
+            {
+              "en": "She teaches screenwriting at film school.",
+              "vi": "Cô ấy dạy viết kịch bản ở trường phim."
+            },
+            {
+              "en": "Vietnamese screenwriting needs more original voices.",
+              "vi": "Viết kịch bản Việt cần thêm giọng độc đáo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["scriptwriting"],
+      "antonyms": [],
+      "collocations": [
+        "screenwriting course",
+        "screenwriting software",
+        "screenwriting career",
+        "learn screenwriting",
+        "Vietnamese screenwriting"
+      ],
+      "etymology_hint": "Compound: 'screen' + 'writing' — coined 1910s with the rise of silent films.",
+      "mnemonic_vi": "SCREEN (màn hình) + WRITING (viết) = viết cho màn hình. Screenwriting course = lớp viết kịch bản."
+    },
+    {
+      "word": "montage",
+      "lemma": "montage",
+      "ipa": "/ˈmɒntɑːʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a film technique of cutting together short clips to compress time or build emotion",
+          "meaning_vi": "đoạn montage (nhiều clip ngắn ghép lại để gói gọn thời gian / dồn cảm xúc)",
+          "examples": [
+            {
+              "en": "Training montages are a Rocky-movie staple.",
+              "vi": "Montage tập luyện là thương hiệu phim Rocky."
+            },
+            {
+              "en": "The montage covered three years in two minutes.",
+              "vi": "Đoạn montage gói 3 năm trong 2 phút."
+            },
+            {
+              "en": "Soviet directors pioneered the montage technique.",
+              "vi": "Đạo diễn Liên Xô tiên phong kỹ thuật montage."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sequence"],
+      "antonyms": ["long take"],
+      "collocations": [
+        "training montage",
+        "musical montage",
+        "create a montage",
+        "fast montage",
+        "montage sequence"
+      ],
+      "etymology_hint": "From French 'monter' = to mount, assemble — adopted 1920s by Soviet filmmakers Eisenstein and Pudovkin.",
+      "mnemonic_vi": "MONTAGE đọc 'môn-ta-zhờ' — ghép nhiều cảnh thành 1. Training montage = montage tập luyện."
+    },
+    {
+      "word": "mise-en-scene",
+      "lemma": "mise-en-scene",
+      "ipa": "/ˌmiːz ɒn ˈsen/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "everything placed in front of the camera — set, costume, lighting, actor placement",
+          "meaning_vi": "mọi thứ trong khung hình (bối cảnh, trang phục, ánh sáng, vị trí diễn viên)",
+          "examples": [
+            {
+              "en": "Kubrick obsessed over every detail of mise-en-scene.",
+              "vi": "Kubrick ám ảnh từng chi tiết mise-en-scene."
+            },
+            {
+              "en": "Strong mise-en-scene tells story without dialogue.",
+              "vi": "Mise-en-scene mạnh kể chuyện không cần thoại."
+            },
+            {
+              "en": "Film students analyze classic mise-en-scene.",
+              "vi": "Sinh viên phim phân tích mise-en-scene kinh điển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["staging"],
+      "antonyms": [],
+      "collocations": [
+        "elaborate mise-en-scene",
+        "study mise-en-scene",
+        "mise-en-scene analysis",
+        "minimalist mise-en-scene",
+        "stylish mise-en-scene"
+      ],
+      "etymology_hint": "French phrase = 'placing on stage' — borrowed into English film theory from 1930s.",
+      "mnemonic_vi": "MISE (đặt) + EN-SCENE (trong cảnh) = đặt vào cảnh. Elaborate mise-en-scene = mise-en-scene công phu."
+    },
+    {
+      "word": "storyboard",
+      "lemma": "storyboard",
+      "ipa": "/ˈstɔːribɔːd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a series of drawings showing what each scene of a film will look like before shooting",
+          "meaning_vi": "kịch bản phân cảnh (bản vẽ trước quay)",
+          "examples": [
+            {
+              "en": "Pixar storyboards every frame.",
+              "vi": "Pixar vẽ storyboard từng khung."
+            },
+            {
+              "en": "The storyboard guides the cinematographer.",
+              "vi": "Storyboard dẫn dắt cinematographer."
+            },
+            {
+              "en": "Storyboards prevent expensive reshoots.",
+              "vi": "Storyboard ngăn việc quay lại tốn kém."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shot plan"],
+      "antonyms": [],
+      "collocations": [
+        "detailed storyboard",
+        "create a storyboard",
+        "storyboard artist",
+        "approved storyboard",
+        "storyboard sketch"
+      ],
+      "etymology_hint": "Compound: 'story' + 'board' — invented at Disney in 1933 for animated films.",
+      "mnemonic_vi": "STORY (chuyện) + BOARD (bảng) = bảng kể chuyện. Detailed storyboard = storyboard chi tiết."
+    },
+    {
+      "word": "cinematographer",
+      "lemma": "cinematographer",
+      "ipa": "/ˌsɪnəməˈtɒɡrəfə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the person in charge of the camera and lighting on a film set",
+          "meaning_vi": "đạo diễn hình ảnh (DOP)",
+          "examples": [
+            {
+              "en": "The cinematographer chose 35mm film over digital.",
+              "vi": "Cinematographer chọn phim nhựa 35mm thay digital."
+            },
+            {
+              "en": "Roger Deakins is one of the greatest living cinematographers.",
+              "vi": "Roger Deakins là một trong những cinematographer vĩ đại nhất còn sống."
+            },
+            {
+              "en": "Vietnamese cinematographers win at international festivals.",
+              "vi": "Cinematographer Việt thắng giải ở liên hoan quốc tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["DOP", "director of photography"],
+      "antonyms": [],
+      "collocations": [
+        "award-winning cinematographer",
+        "hire a cinematographer",
+        "lead cinematographer",
+        "veteran cinematographer",
+        "cinematographer credit"
+      ],
+      "etymology_hint": "From 'cinematography' + agent suffix '-er' — profession standardized in 1910s Hollywood.",
+      "mnemonic_vi": "CINEMATOGRAPHY + ER = người làm cinematography. DOP = director of photography."
+    },
+    {
+      "word": "screenplay",
+      "lemma": "screenplay",
+      "ipa": "/ˈskriːnpleɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the written script of a film, including dialogue and scene descriptions",
+          "meaning_vi": "kịch bản phim (lời thoại + mô tả cảnh)",
+          "examples": [
+            {
+              "en": "The screenplay went through 30 drafts.",
+              "vi": "Kịch bản qua 30 bản nháp."
+            },
+            {
+              "en": "A great screenplay can save a mediocre director.",
+              "vi": "Kịch bản hay có thể cứu đạo diễn xoàng."
+            },
+            {
+              "en": "Submit your screenplay to the festival.",
+              "vi": "Nộp kịch bản vào liên hoan."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["script"],
+      "antonyms": [],
+      "collocations": [
+        "original screenplay",
+        "adapted screenplay",
+        "screenplay credit",
+        "write a screenplay",
+        "polish a screenplay"
+      ],
+      "etymology_hint": "Compound: 'screen' + 'play' — coined 1910s as cinema replaced stage plays.",
+      "mnemonic_vi": "SCREEN (màn hình) + PLAY (kịch) = kịch cho màn hình. Original screenplay = kịch bản gốc."
+    },
+    {
+      "word": "CGI",
+      "lemma": "CGI",
+      "ipa": "/ˌsiːdʒiːˈaɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "Computer-Generated Imagery — visual effects made digitally instead of with cameras",
+          "meaning_vi": "CGI (hình ảnh do máy tính tạo)",
+          "examples": [
+            {
+              "en": "Avatar pushed CGI to new limits.",
+              "vi": "Avatar đẩy CGI tới giới hạn mới."
+            },
+            {
+              "en": "CGI is cheaper than building physical sets.",
+              "vi": "CGI rẻ hơn xây bối cảnh thật."
+            },
+            {
+              "en": "Vietnamese studios offer CGI outsourcing.",
+              "vi": "Studio Việt cung cấp outsourcing CGI."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["VFX", "digital effects"],
+      "antonyms": ["practical effects"],
+      "collocations": ["CGI effects", "extensive CGI", "create CGI", "CGI artist", "CGI budget"],
+      "etymology_hint": "Acronym from 1980s — Computer-Generated Imagery, became mainstream after Jurassic Park (1993).",
+      "mnemonic_vi": "CGI = 'xi-gi-ai'. CGI effects = hiệu ứng CGI."
+    },
+    {
+      "word": "dolly",
+      "lemma": "dolly",
+      "ipa": "/ˈdɒli/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a wheeled platform that moves the camera smoothly during a shot",
+          "meaning_vi": "xe đẩy máy quay (di chuyển mượt)",
+          "examples": [
+            {
+              "en": "The dolly creates a smooth tracking shot.",
+              "vi": "Xe dolly tạo cảnh theo dõi mượt."
+            },
+            {
+              "en": "Dolly shots feel more cinematic than handheld.",
+              "vi": "Cảnh dolly cinematic hơn cầm tay."
+            },
+            {
+              "en": "Set up the dolly tracks before lunch.",
+              "vi": "Lắp đường ray dolly trước bữa trưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["handheld"],
+      "collocations": ["dolly shot", "dolly track", "dolly zoom", "set up the dolly", "dolly in"],
+      "etymology_hint": "From 'doll' — informal name for any wheeled platform; film usage from early Hollywood.",
+      "mnemonic_vi": "DOLLY = xe búp bê → xe đẩy máy quay. Dolly shot = cảnh dolly."
+    },
+    {
+      "word": "pan",
+      "lemma": "pan",
+      "ipa": "/pæn/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to move a camera horizontally to follow action or reveal a scene",
+          "meaning_vi": "quay máy quét ngang (theo hành động hoặc lộ cảnh)",
+          "examples": [
+            {
+              "en": "Pan slowly across the landscape.",
+              "vi": "Quét ngang chậm qua phong cảnh."
+            },
+            {
+              "en": "The camera pans from her face to the door.",
+              "vi": "Máy quét ngang từ mặt cô ấy tới cửa."
+            },
+            {
+              "en": "Smooth panning takes practice.",
+              "vi": "Quét ngang mượt cần luyện tập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sweep"],
+      "antonyms": ["tilt"],
+      "collocations": ["slow pan", "pan across", "smooth pan", "pan shot", "whip pan"],
+      "etymology_hint": "Shortened from 'panorama' (Greek 'pan' = all + 'horama' = view) — film usage from 1910s.",
+      "mnemonic_vi": "PAN đọc 'pen' — pin máy quay ngang. Pan across = quét ngang qua."
+    },
+    {
+      "word": "fade",
+      "lemma": "fade",
+      "ipa": "/feɪd/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to gradually become darker (fade-out) or lighter (fade-in), used between scenes",
+          "meaning_vi": "mờ dần (chuyển cảnh)",
+          "examples": [
+            {
+              "en": "Fade to black at the end of each act.",
+              "vi": "Mờ dần thành đen cuối mỗi hồi."
+            },
+            {
+              "en": "The film fades in from a white screen.",
+              "vi": "Phim mờ dần ra từ màn trắng."
+            },
+            {
+              "en": "Cross-fade between two scenes for smooth transition.",
+              "vi": "Mờ chéo giữa hai cảnh để chuyển mượt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dissolve"],
+      "antonyms": ["cut"],
+      "collocations": ["fade to black", "fade in", "fade out", "cross-fade", "slow fade"],
+      "etymology_hint": "From Old French 'fader' = to wither — cinematic transition use from silent-film era.",
+      "mnemonic_vi": "FADE = mờ dần. Fade to black = mờ thành đen."
+    },
+    {
+      "word": "cut",
+      "lemma": "cut",
+      "ipa": "/kʌt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a sudden change from one shot to another, or the verb to make that change",
+          "meaning_vi": "cú cắt (chuyển cảnh đột ngột) / cắt",
+          "examples": [
+            {
+              "en": "Quick cuts build tension in action scenes.",
+              "vi": "Cắt nhanh tạo căng thẳng cảnh hành động."
+            },
+            {
+              "en": "Director shouted 'Cut!' to end the take.",
+              "vi": "Đạo diễn hô 'Cắt!' kết thúc lượt quay."
+            },
+            {
+              "en": "Match cuts connect similar shapes between scenes.",
+              "vi": "Match cut nối hình dạng giống giữa các cảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["edit"],
+      "antonyms": ["dissolve", "fade"],
+      "collocations": ["quick cut", "jump cut", "final cut", "match cut", "rough cut"],
+      "etymology_hint": "From Old English 'cuttan' = to cut — film sense established with silent-era editing.",
+      "mnemonic_vi": "CUT = cắt. Final cut = bản cắt cuối."
+    },
+    {
+      "word": "shot",
+      "lemma": "shot",
+      "ipa": "/ʃɒt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a single continuous piece of film captured by the camera",
+          "meaning_vi": "cảnh quay liên tục (1 take của máy quay)",
+          "examples": [
+            {
+              "en": "That long shot took six rehearsals.",
+              "vi": "Cảnh long shot đó tốn 6 lần tập."
+            },
+            {
+              "en": "The opening shot is iconic.",
+              "vi": "Cảnh mở đầu là biểu tượng."
+            },
+            {
+              "en": "Wide shots establish the location.",
+              "vi": "Cảnh rộng giới thiệu địa điểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["take", "frame"],
+      "antonyms": [],
+      "collocations": [
+        "wide shot",
+        "close-up shot",
+        "long shot",
+        "establishing shot",
+        "tracking shot"
+      ],
+      "etymology_hint": "From Old English 'sceot' = a shooting — film sense from 1910s as 'one camera take'.",
+      "mnemonic_vi": "SHOT = một cảnh quay. Wide shot = cảnh rộng."
+    },
+    {
+      "word": "frame-rate",
+      "lemma": "frame-rate",
+      "ipa": "/ˈfreɪm reɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the number of single images shown per second in a film or video",
+          "meaning_vi": "tốc độ khung hình (số ảnh/giây)",
+          "examples": [
+            {
+              "en": "Cinema uses 24 frames per second as standard frame-rate.",
+              "vi": "Điện ảnh dùng 24 khung/giây làm frame-rate chuẩn."
+            },
+            {
+              "en": "Higher frame-rates feel hyper-realistic.",
+              "vi": "Frame-rate cao hơn cảm giác siêu thực."
+            },
+            {
+              "en": "Games target a 60-fps frame-rate.",
+              "vi": "Game nhắm frame-rate 60 fps."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fps"],
+      "antonyms": [],
+      "collocations": [
+        "high frame-rate",
+        "low frame-rate",
+        "standard frame-rate",
+        "drop frame-rate",
+        "frame-rate variable"
+      ],
+      "etymology_hint": "Compound: 'frame' (a single picture) + 'rate' (speed) — technical term standardized with sound film in 1927.",
+      "mnemonic_vi": "FRAME (khung) + RATE (tốc độ) = tốc độ khung. High frame-rate = frame-rate cao."
+    },
+    {
+      "word": "composition",
+      "lemma": "composition",
+      "ipa": "/ˌkɒmpəˈzɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the way visual elements are arranged within the frame",
+          "meaning_vi": "bố cục khung hình (cách sắp xếp các yếu tố)",
+          "examples": [
+            {
+              "en": "The composition follows the rule of thirds.",
+              "vi": "Bố cục theo quy tắc một phần ba."
+            },
+            {
+              "en": "Strong composition draws the eye.",
+              "vi": "Bố cục mạnh hút ánh nhìn."
+            },
+            {
+              "en": "Vietnamese landscape composition prefers asymmetry.",
+              "vi": "Bố cục cảnh Việt thường bất đối xứng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["arrangement"],
+      "antonyms": [],
+      "collocations": [
+        "visual composition",
+        "frame composition",
+        "balanced composition",
+        "study composition",
+        "asymmetrical composition"
+      ],
+      "etymology_hint": "From Latin 'componere' = put together — applied to visual arts from Renaissance.",
+      "mnemonic_vi": "COMPOSE (cấu tạo) + ITION = sự cấu tạo. Visual composition = bố cục thị giác."
+    },
+    {
+      "word": "lighting",
+      "lemma": "lighting",
+      "ipa": "/ˈlaɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the design and control of light on a film set or in a shot",
+          "meaning_vi": "ánh sáng (thiết kế và điều khiển trên trường quay)",
+          "examples": [
+            {
+              "en": "Three-point lighting is the classic setup.",
+              "vi": "Ánh sáng ba điểm là bộ chuẩn kinh điển."
+            },
+            {
+              "en": "Lighting creates mood more than dialogue.",
+              "vi": "Ánh sáng tạo tâm trạng hơn cả lời thoại."
+            },
+            {
+              "en": "Natural lighting saves rental costs.",
+              "vi": "Ánh sáng tự nhiên tiết kiệm tiền thuê thiết bị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["illumination"],
+      "antonyms": [],
+      "collocations": [
+        "studio lighting",
+        "natural lighting",
+        "three-point lighting",
+        "dim lighting",
+        "lighting setup"
+      ],
+      "etymology_hint": "Gerund of 'light' (Old English 'lēoht') — film and theater technical sense from 1900s.",
+      "mnemonic_vi": "LIGHT (ánh sáng) + ING = ánh sáng (kỹ thuật). Three-point lighting = ánh sáng 3 điểm."
+    },
+    {
+      "word": "b-roll",
+      "lemma": "b-roll",
+      "ipa": "/ˈbiː rəʊl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "extra footage used to support or break up the main shots in editing",
+          "meaning_vi": "cảnh phụ (cảnh bổ sung dùng để xen vào)",
+          "examples": [
+            {
+              "en": "B-roll covers awkward cuts in interviews.",
+              "vi": "B-roll che các cú cắt khó trong phỏng vấn."
+            },
+            {
+              "en": "Always shoot extra b-roll for safety.",
+              "vi": "Luôn quay thêm b-roll để dự phòng."
+            },
+            {
+              "en": "YouTubers rely heavily on b-roll.",
+              "vi": "YouTuber dựa nhiều vào b-roll."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supplementary footage"],
+      "antonyms": ["a-roll"],
+      "collocations": [
+        "shoot b-roll",
+        "extra b-roll",
+        "b-roll footage",
+        "stock b-roll",
+        "edit with b-roll"
+      ],
+      "etymology_hint": "From 1950s TV — original 'A-roll' carried main footage, 'B-roll' carried backups and inserts.",
+      "mnemonic_vi": "B = backup. B-roll = cảnh phụ. Shoot b-roll = quay b-roll."
+    },
+    {
+      "word": "voice-over",
+      "lemma": "voice-over",
+      "ipa": "/ˈvɔɪs əʊvə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "narration heard over the footage, recorded separately from the on-screen action",
+          "meaning_vi": "voice-over (giọng kể lồng trên hình)",
+          "examples": [
+            {
+              "en": "Documentaries often use a voice-over narrator.",
+              "vi": "Phim tài liệu thường dùng voice-over."
+            },
+            {
+              "en": "She recorded the voice-over in her closet.",
+              "vi": "Cô ấy thu voice-over trong tủ quần áo."
+            },
+            {
+              "en": "Voice-over needs clear, expressive delivery.",
+              "vi": "Voice-over cần giọng rõ và biểu cảm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["narration"],
+      "antonyms": ["on-screen dialogue"],
+      "collocations": [
+        "voice-over narrator",
+        "record a voice-over",
+        "voice-over artist",
+        "documentary voice-over",
+        "voice-over script"
+      ],
+      "etymology_hint": "Compound: 'voice' + 'over' — film/TV term from 1930s radio drama, transferred to film.",
+      "mnemonic_vi": "VOICE (giọng) + OVER (trên) = giọng trên hình. Voice-over narrator = người kể voice-over."
+    },
+    {
+      "word": "blocking",
+      "lemma": "blocking",
+      "ipa": "/ˈblɒkɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the planning of where actors stand and move during a scene",
+          "meaning_vi": "dàn dựng vị trí diễn viên (đứng, di chuyển trong cảnh)",
+          "examples": [
+            {
+              "en": "Blocking rehearsal happens before camera setup.",
+              "vi": "Tập blocking diễn ra trước khi đặt máy."
+            },
+            {
+              "en": "Good blocking guides the audience's eye.",
+              "vi": "Blocking tốt dẫn ánh nhìn khán giả."
+            },
+            {
+              "en": "The director adjusted the blocking last minute.",
+              "vi": "Đạo diễn điều chỉnh blocking phút cuối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["staging"],
+      "antonyms": [],
+      "collocations": [
+        "rehearse the blocking",
+        "scene blocking",
+        "complex blocking",
+        "simple blocking",
+        "blocking diagram"
+      ],
+      "etymology_hint": "From theater jargon — actors blocked their positions with wooden blocks during 19th-century stagecraft.",
+      "mnemonic_vi": "BLOCK (chặn, đặt) + ING = dàn dựng vị trí. Rehearse the blocking = tập dàn dựng."
+    }
+  ]
+}

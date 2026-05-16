@@ -1,0 +1,769 @@
+{
+  "slug": "governance-systems",
+  "name": "Governance Systems",
+  "description": "Hệ thống chính trị B2 — federalism, sovereignty, judiciary, impeachment và 16 từ về cấu trúc nhà nước.",
+  "order_index": 7,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "federalism",
+      "lemma": "federalism",
+      "ipa": "/ˈfedərəlɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a system where power is divided between a central government and regional states",
+          "meaning_vi": "chế độ liên bang (quyền chia giữa trung ương và các bang)",
+          "examples": [
+            {
+              "en": "Federalism gives US states broad autonomy.",
+              "vi": "Liên bang cho các bang Mỹ quyền tự chủ rộng."
+            },
+            {
+              "en": "Federalism balances unity and diversity.",
+              "vi": "Liên bang cân bằng thống nhất và đa dạng."
+            },
+            {
+              "en": "Germany also uses a federalism model.",
+              "vi": "Đức cũng dùng mô hình liên bang."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["centralism", "unitary system"],
+      "collocations": [
+        "American federalism",
+        "cooperative federalism",
+        "federalism debate",
+        "fiscal federalism",
+        "federalism system"
+      ],
+      "etymology_hint": "From Latin 'foedus' = treaty, covenant — political term standardized in US Constitutional debates 1780s.",
+      "mnemonic_vi": "FEDERAL (liên bang) + ISM = chế độ liên bang. American federalism = liên bang Mỹ."
+    },
+    {
+      "word": "autocracy",
+      "lemma": "autocracy",
+      "ipa": "/ɔːˈtɒkrəsi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a government ruled by one person with absolute power",
+          "meaning_vi": "chế độ chuyên quyền (một người nắm quyền tuyệt đối)",
+          "examples": [
+            {
+              "en": "Autocracy concentrates power in a single ruler.",
+              "vi": "Chuyên quyền dồn quyền vào một người."
+            },
+            {
+              "en": "History shows autocracies often end badly.",
+              "vi": "Lịch sử cho thấy chuyên quyền thường kết thúc tệ."
+            },
+            {
+              "en": "Modern autocracies disguise themselves as democracies.",
+              "vi": "Chuyên quyền hiện đại trá hình thành dân chủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dictatorship"],
+      "antonyms": ["democracy"],
+      "collocations": [
+        "absolute autocracy",
+        "modern autocracy",
+        "drift toward autocracy",
+        "soft autocracy",
+        "rise of autocracy"
+      ],
+      "etymology_hint": "From Greek 'autos' (self) + 'kratos' (rule) — literally 'self-rule by one'.",
+      "mnemonic_vi": "AUTO (tự) + CRACY (quyền) = một mình nắm quyền. Modern autocracy = chuyên quyền hiện đại."
+    },
+    {
+      "word": "jurisdiction",
+      "lemma": "jurisdiction",
+      "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the official power to make legal decisions, or the area where that power applies",
+          "meaning_vi": "thẩm quyền (pháp lý) / vùng quản hạt",
+          "examples": [
+            {
+              "en": "Local police lack jurisdiction over federal cases.",
+              "vi": "Cảnh sát địa phương không có thẩm quyền với vụ liên bang."
+            },
+            {
+              "en": "The case fell outside the court's jurisdiction.",
+              "vi": "Vụ án nằm ngoài thẩm quyền tòa."
+            },
+            {
+              "en": "International jurisdiction is increasingly contested.",
+              "vi": "Thẩm quyền quốc tế ngày càng tranh chấp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["authority"],
+      "antonyms": [],
+      "collocations": [
+        "legal jurisdiction",
+        "federal jurisdiction",
+        "outside jurisdiction",
+        "fall under jurisdiction",
+        "exclusive jurisdiction"
+      ],
+      "etymology_hint": "From Latin 'jurisdictio' = administration of justice — 'juris' (law) + 'dictio' (saying).",
+      "mnemonic_vi": "JURIS (luật) + DICTION (lời) = lời pháp lý. Legal jurisdiction = thẩm quyền pháp lý."
+    },
+    {
+      "word": "sovereignty",
+      "lemma": "sovereignty",
+      "ipa": "/ˈsɒvrənti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the supreme authority of a state to govern itself without outside interference",
+          "meaning_vi": "chủ quyền (quyền tự quản tối cao của quốc gia)",
+          "examples": [
+            {
+              "en": "Vietnam asserts sovereignty over its territorial waters.",
+              "vi": "Việt Nam khẳng định chủ quyền vùng biển."
+            },
+            {
+              "en": "National sovereignty conflicts with global cooperation.",
+              "vi": "Chủ quyền quốc gia mâu thuẫn hợp tác toàn cầu."
+            },
+            {
+              "en": "Digital sovereignty is a new political concept.",
+              "vi": "Chủ quyền số là khái niệm chính trị mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["independence", "self-rule"],
+      "antonyms": ["dependency"],
+      "collocations": [
+        "national sovereignty",
+        "territorial sovereignty",
+        "popular sovereignty",
+        "respect sovereignty",
+        "digital sovereignty"
+      ],
+      "etymology_hint": "From Old French 'soveraineté' = supremacy — Latin 'supernus' (above).",
+      "mnemonic_vi": "SOVEREIGN (quyền tối cao) + TY = sự tối cao. National sovereignty = chủ quyền quốc gia."
+    },
+    {
+      "word": "legislation",
+      "lemma": "legislation",
+      "ipa": "/ˌledʒɪsˈleɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "laws passed by a government, or the process of making them",
+          "meaning_vi": "pháp luật / việc lập pháp",
+          "examples": [
+            {
+              "en": "New legislation tightens data privacy.",
+              "vi": "Pháp luật mới siết quyền riêng tư dữ liệu."
+            },
+            {
+              "en": "Legislation moves slowly through parliament.",
+              "vi": "Lập pháp diễn ra chậm qua nghị viện."
+            },
+            {
+              "en": "Vietnam updates legislation annually.",
+              "vi": "Việt Nam cập nhật pháp luật hàng năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["laws", "statute"],
+      "antonyms": [],
+      "collocations": [
+        "new legislation",
+        "pass legislation",
+        "tighten legislation",
+        "draft legislation",
+        "anti-corruption legislation"
+      ],
+      "etymology_hint": "From Latin 'legis' (of law) + 'latio' (a carrying) — 'carrying of law'.",
+      "mnemonic_vi": "LEGIS (luật) + LATION = sự đưa luật. Pass legislation = thông qua pháp luật."
+    },
+    {
+      "word": "judiciary",
+      "lemma": "judiciary",
+      "ipa": "/dʒuˈdɪʃəri/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the system of courts and judges that interpret and apply the law",
+          "meaning_vi": "hệ thống tư pháp (tòa án + thẩm phán)",
+          "examples": [
+            {
+              "en": "An independent judiciary protects democracy.",
+              "vi": "Tư pháp độc lập bảo vệ dân chủ."
+            },
+            {
+              "en": "The judiciary checks executive power.",
+              "vi": "Tư pháp kiềm chế quyền hành pháp."
+            },
+            {
+              "en": "Judiciary reform is a long-term project.",
+              "vi": "Cải cách tư pháp là dự án dài hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["court system"],
+      "antonyms": [],
+      "collocations": [
+        "independent judiciary",
+        "federal judiciary",
+        "judiciary committee",
+        "judiciary reform",
+        "judiciary branch"
+      ],
+      "etymology_hint": "From Latin 'judicium' = judgment — same root as 'judge'.",
+      "mnemonic_vi": "JUDICI (xét xử) + ARY = nhánh tư pháp. Independent judiciary = tư pháp độc lập."
+    },
+    {
+      "word": "executive",
+      "lemma": "executive",
+      "ipa": "/ɪɡˈzekjətɪv/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of government that carries out laws, headed by the president or prime minister",
+          "meaning_vi": "nhánh hành pháp (thi hành luật)",
+          "examples": [
+            {
+              "en": "The executive proposed new spending.",
+              "vi": "Hành pháp đề xuất chi tiêu mới."
+            },
+            {
+              "en": "Executive orders bypass legislation.",
+              "vi": "Sắc lệnh hành pháp đi vòng pháp luật."
+            },
+            {
+              "en": "Vietnam's executive is led by the Prime Minister.",
+              "vi": "Hành pháp Việt Nam do Thủ tướng đứng đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["executive branch"],
+      "antonyms": ["legislative", "judiciary"],
+      "collocations": [
+        "executive branch",
+        "executive order",
+        "executive power",
+        "chief executive",
+        "executive authority"
+      ],
+      "etymology_hint": "From Latin 'exsequi' = follow out, carry out — 'ex-' + 'sequi' (follow).",
+      "mnemonic_vi": "EXECUTE (thi hành) + IVE = thi hành. Executive order = sắc lệnh hành pháp."
+    },
+    {
+      "word": "electorate",
+      "lemma": "electorate",
+      "ipa": "/ɪˈlektərət/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "all the people who are eligible to vote in an election",
+          "meaning_vi": "cử tri đoàn (toàn bộ người đủ điều kiện bầu)",
+          "examples": [
+            {
+              "en": "The electorate rejected the proposal.",
+              "vi": "Cử tri từ chối đề xuất."
+            },
+            {
+              "en": "Polls measure the mood of the electorate.",
+              "vi": "Khảo sát đo tâm trạng cử tri."
+            },
+            {
+              "en": "A young electorate shifts political priorities.",
+              "vi": "Cử tri trẻ thay đổi ưu tiên chính trị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["voters"],
+      "antonyms": [],
+      "collocations": [
+        "the electorate",
+        "young electorate",
+        "energize the electorate",
+        "win over the electorate",
+        "electorate turnout"
+      ],
+      "etymology_hint": "From 'elector' (Latin 'eligere' = pick out) + '-ate' (collective noun).",
+      "mnemonic_vi": "ELECT (bầu) + ORATE = tập thể cử tri. Young electorate = cử tri trẻ."
+    },
+    {
+      "word": "plebiscite",
+      "lemma": "plebiscite",
+      "ipa": "/ˈplebɪsaɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a direct vote by the people on an important national question",
+          "meaning_vi": "trưng cầu dân ý",
+          "examples": [
+            {
+              "en": "A plebiscite decided independence.",
+              "vi": "Trưng cầu dân ý quyết định độc lập."
+            },
+            {
+              "en": "Plebiscites are rarer than parliamentary votes.",
+              "vi": "Trưng cầu dân ý hiếm hơn bỏ phiếu nghị viện."
+            },
+            {
+              "en": "Australia held a plebiscite on same-sex marriage.",
+              "vi": "Úc tổ chức trưng cầu về hôn nhân đồng giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["popular vote"],
+      "antonyms": [],
+      "collocations": [
+        "hold a plebiscite",
+        "national plebiscite",
+        "plebiscite result",
+        "non-binding plebiscite",
+        "constitutional plebiscite"
+      ],
+      "etymology_hint": "From Latin 'plebs' (common people) + 'scitum' (decree) — ancient Roman procedure.",
+      "mnemonic_vi": "PLEBI (dân) + SCITE (quyết) = dân quyết. National plebiscite = trưng cầu cả nước."
+    },
+    {
+      "word": "mandate",
+      "lemma": "mandate",
+      "ipa": "/ˈmændeɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the authority a government has to act, given by election results",
+          "meaning_vi": "quyền ủy nhiệm (do bầu cử trao)",
+          "examples": [
+            {
+              "en": "The PM claimed a strong mandate after winning 60%.",
+              "vi": "Thủ tướng tuyên bố ủy nhiệm mạnh sau khi thắng 60%."
+            },
+            {
+              "en": "A clear mandate enables bold reforms.",
+              "vi": "Ủy nhiệm rõ ràng cho phép cải cách mạnh."
+            },
+            {
+              "en": "Without a mandate, change stalls.",
+              "vi": "Không có ủy nhiệm, thay đổi bế tắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["authority"],
+      "antonyms": [],
+      "collocations": [
+        "strong mandate",
+        "popular mandate",
+        "claim a mandate",
+        "constitutional mandate",
+        "no mandate"
+      ],
+      "etymology_hint": "From Latin 'mandatum' = command — 'manus' (hand) + 'dare' (give), 'put in someone's hand'.",
+      "mnemonic_vi": "MANDATE đọc 'men-đêt' — trao tay người dân. Strong mandate = ủy nhiệm mạnh."
+    },
+    {
+      "word": "impeachment",
+      "lemma": "impeachment",
+      "ipa": "/ɪmˈpiːtʃmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a formal process to remove a high official like a president for serious misconduct",
+          "meaning_vi": "luận tội (quy trình phế truất quan chức cao cấp)",
+          "examples": [
+            {
+              "en": "The impeachment failed in the Senate.",
+              "vi": "Vụ luận tội thất bại ở Thượng viện."
+            },
+            {
+              "en": "Brazil saw a high-profile impeachment in 2016.",
+              "vi": "Brazil chứng kiến vụ luận tội đình đám năm 2016."
+            },
+            {
+              "en": "Impeachment requires strong evidence.",
+              "vi": "Luận tội đòi hỏi bằng chứng vững."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["removal"],
+      "antonyms": ["confirmation"],
+      "collocations": [
+        "impeachment proceedings",
+        "face impeachment",
+        "impeachment trial",
+        "impeachment vote",
+        "presidential impeachment"
+      ],
+      "etymology_hint": "From Old French 'empechier' = to hinder, accuse — Latin 'in pedica' (in fetters).",
+      "mnemonic_vi": "IMPEACH (luận tội) + MENT = sự luận tội. Impeachment trial = phiên luận tội."
+    },
+    {
+      "word": "ratify",
+      "lemma": "ratify",
+      "ipa": "/ˈrætɪfaɪ/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to officially approve a treaty, agreement, or law by formal vote",
+          "meaning_vi": "phê chuẩn (chính thức thông qua)",
+          "examples": [
+            {
+              "en": "Parliament must ratify the trade agreement.",
+              "vi": "Nghị viện phải phê chuẩn hiệp định thương mại."
+            },
+            {
+              "en": "Vietnam ratified the climate accord in 2016.",
+              "vi": "Việt Nam phê chuẩn hiệp định khí hậu năm 2016."
+            },
+            {
+              "en": "Ratifying takes longer than negotiating.",
+              "vi": "Phê chuẩn lâu hơn đàm phán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["approve", "endorse"],
+      "antonyms": ["reject"],
+      "collocations": [
+        "ratify a treaty",
+        "ratify an agreement",
+        "ratify the amendment",
+        "fail to ratify",
+        "formally ratify"
+      ],
+      "etymology_hint": "From Latin 'ratus' = settled, valid + 'facere' (make) — 'make settled'.",
+      "mnemonic_vi": "RATI (vững) + FY (làm) = làm vững. Ratify a treaty = phê chuẩn hiệp ước."
+    },
+    {
+      "word": "amendment",
+      "lemma": "amendment",
+      "ipa": "/əˈmendmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a change made to a law or constitution",
+          "meaning_vi": "tu chính (sửa đổi luật / hiến pháp)",
+          "examples": [
+            {
+              "en": "The First Amendment protects free speech.",
+              "vi": "Tu chính án thứ nhất bảo vệ tự do ngôn luận."
+            },
+            {
+              "en": "Constitutional amendments are rare and slow.",
+              "vi": "Tu chính hiến pháp hiếm và chậm."
+            },
+            {
+              "en": "Vietnam's 2013 constitution has been amended.",
+              "vi": "Hiến pháp Việt Nam 2013 đã được tu chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["change", "revision"],
+      "antonyms": [],
+      "collocations": [
+        "constitutional amendment",
+        "propose an amendment",
+        "First Amendment",
+        "pass an amendment",
+        "amendment process"
+      ],
+      "etymology_hint": "From Latin 'emendare' = to correct — root 'mendum' (fault).",
+      "mnemonic_vi": "AMEND (sửa) + MENT = sự sửa đổi. Constitutional amendment = tu chính hiến pháp."
+    },
+    {
+      "word": "tyranny",
+      "lemma": "tyranny",
+      "ipa": "/ˈtɪrəni/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "cruel and unfair use of power by a ruler or government",
+          "meaning_vi": "sự bạo ngược (lạm dụng quyền lực tàn bạo)",
+          "examples": [
+            {
+              "en": "Tyranny breeds revolution.",
+              "vi": "Bạo ngược sinh cách mạng."
+            },
+            {
+              "en": "The Founding Fathers feared monarchical tyranny.",
+              "vi": "Các Lập quốc Mỹ sợ bạo ngược quân chủ."
+            },
+            {
+              "en": "Tyranny of the majority threatens minorities.",
+              "vi": "Bạo ngược của đa số đe dọa thiểu số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["oppression", "despotism"],
+      "antonyms": ["freedom", "democracy"],
+      "collocations": [
+        "fight tyranny",
+        "modern tyranny",
+        "tyranny of the majority",
+        "escape tyranny",
+        "religious tyranny"
+      ],
+      "etymology_hint": "From Greek 'turannos' = absolute ruler — originally neutral, became negative.",
+      "mnemonic_vi": "TYRANNY đọc 'tia-rờ-ni' — tia ra ngược dân. Fight tyranny = chống bạo ngược."
+    },
+    {
+      "word": "oligarchy",
+      "lemma": "oligarchy",
+      "ipa": "/ˈɒlɪɡɑːki/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a system where a small group of people hold all the power",
+          "meaning_vi": "chế độ đầu sỏ (nhóm nhỏ nắm hết quyền)",
+          "examples": [
+            {
+              "en": "Russian oligarchs control major industries.",
+              "vi": "Đầu sỏ Nga kiểm soát các ngành lớn."
+            },
+            {
+              "en": "Some scholars call modern US politics an oligarchy.",
+              "vi": "Một số học giả gọi chính trị Mỹ hiện đại là oligarchy."
+            },
+            {
+              "en": "Oligarchy resists democratic reform.",
+              "vi": "Đầu sỏ cản trở cải cách dân chủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["democracy"],
+      "collocations": [
+        "Russian oligarchy",
+        "corporate oligarchy",
+        "modern oligarchy",
+        "oligarchy power",
+        "rise of oligarchy"
+      ],
+      "etymology_hint": "From Greek 'oligos' (few) + 'arkhē' (rule) — 'rule by the few'.",
+      "mnemonic_vi": "OLIGO (ít) + ARCHY (cai trị) = ít người cai trị. Russian oligarchy = đầu sỏ Nga."
+    },
+    {
+      "word": "theocracy",
+      "lemma": "theocracy",
+      "ipa": "/θiˈɒkrəsi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a system where religious leaders rule using religious law",
+          "meaning_vi": "chế độ thần quyền (lãnh tụ tôn giáo cai trị bằng giáo luật)",
+          "examples": [
+            {
+              "en": "Iran is governed as an Islamic theocracy.",
+              "vi": "Iran được quản theo chế độ thần quyền Hồi giáo."
+            },
+            {
+              "en": "Theocracies blur church and state.",
+              "vi": "Thần quyền mờ ranh giữa tôn giáo và nhà nước."
+            },
+            {
+              "en": "Theocracy resists secular reform.",
+              "vi": "Thần quyền cản cải cách thế tục."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["secular state"],
+      "collocations": [
+        "Islamic theocracy",
+        "religious theocracy",
+        "modern theocracy",
+        "theocracy rule",
+        "establish a theocracy"
+      ],
+      "etymology_hint": "From Greek 'theos' (god) + 'kratos' (rule) — coined 1737 in English.",
+      "mnemonic_vi": "THEO (thần) + CRACY (quyền) = thần quyền. Islamic theocracy = thần quyền Hồi giáo."
+    },
+    {
+      "word": "dictatorship",
+      "lemma": "dictatorship",
+      "ipa": "/dɪkˈteɪtəʃɪp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a country ruled by a single leader with absolute power, usually seized rather than elected",
+          "meaning_vi": "chế độ độc tài (một người nắm quyền tuyệt đối)",
+          "examples": [
+            {
+              "en": "The dictatorship banned all opposition parties.",
+              "vi": "Chế độ độc tài cấm mọi đảng đối lập."
+            },
+            {
+              "en": "Dictatorships rarely survive their founder.",
+              "vi": "Độc tài hiếm khi sống qua người sáng lập."
+            },
+            {
+              "en": "Modern dictatorships often hold sham elections.",
+              "vi": "Độc tài hiện đại thường tổ chức bầu giả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["autocracy", "tyranny"],
+      "antonyms": ["democracy"],
+      "collocations": [
+        "military dictatorship",
+        "establish a dictatorship",
+        "overthrow a dictatorship",
+        "soft dictatorship",
+        "totalitarian dictatorship"
+      ],
+      "etymology_hint": "From Latin 'dictator' = one who dictates — originally a temporary Roman office, became negative.",
+      "mnemonic_vi": "DICTATOR (độc tài) + SHIP = chế độ độc tài. Military dictatorship = độc tài quân sự."
+    },
+    {
+      "word": "anarchy",
+      "lemma": "anarchy",
+      "ipa": "/ˈænəki/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a state of disorder where there is no government or laws",
+          "meaning_vi": "vô chính phủ, hỗn loạn (không có nhà nước/luật)",
+          "examples": [
+            {
+              "en": "The revolution led to a year of anarchy.",
+              "vi": "Cuộc cách mạng dẫn đến một năm vô chính phủ."
+            },
+            {
+              "en": "Anarchy frightens most ordinary citizens.",
+              "vi": "Vô chính phủ làm phần lớn dân thường sợ."
+            },
+            {
+              "en": "Some philosophers defend anarchy as freedom.",
+              "vi": "Vài triết gia bảo vệ vô chính phủ như tự do."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chaos", "lawlessness"],
+      "antonyms": ["order", "government"],
+      "collocations": [
+        "descend into anarchy",
+        "total anarchy",
+        "post-war anarchy",
+        "fear of anarchy",
+        "political anarchy"
+      ],
+      "etymology_hint": "From Greek 'anarkhia' = without a ruler — 'an-' (not) + 'arkhē' (rule).",
+      "mnemonic_vi": "AN (không) + ARCHY (cai trị) = không cai trị. Descend into anarchy = rơi vào hỗn loạn."
+    },
+    {
+      "word": "suffrage",
+      "lemma": "suffrage",
+      "ipa": "/ˈsʌfrɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the right to vote in political elections",
+          "meaning_vi": "quyền bầu cử",
+          "examples": [
+            {
+              "en": "Women won full suffrage in the US in 1920.",
+              "vi": "Phụ nữ Mỹ giành quyền bầu cử đầy đủ năm 1920."
+            },
+            {
+              "en": "Universal suffrage is now standard globally.",
+              "vi": "Quyền bầu cử phổ thông giờ là chuẩn toàn cầu."
+            },
+            {
+              "en": "Suffrage movements transformed democracy.",
+              "vi": "Phong trào suffrage thay đổi dân chủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["voting rights"],
+      "antonyms": ["disenfranchisement"],
+      "collocations": [
+        "universal suffrage",
+        "women's suffrage",
+        "suffrage movement",
+        "extend suffrage",
+        "deny suffrage"
+      ],
+      "etymology_hint": "From Latin 'suffragium' = ballot, vote — Roman political practice.",
+      "mnemonic_vi": "SUFFRAGE đọc 'sấp-phríc' — sắp phiếu bầu. Universal suffrage = phổ thông đầu phiếu."
+    },
+    {
+      "word": "partisan",
+      "lemma": "partisan",
+      "ipa": "/ˈpɑːtɪzæn/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "strongly supporting one political party or group, often unfairly",
+          "meaning_vi": "đảng phái (ủng hộ một bên mạnh, thường thiên kiến)",
+          "examples": [
+            {
+              "en": "Partisan media distorts the news.",
+              "vi": "Báo chí đảng phái bóp méo tin tức."
+            },
+            {
+              "en": "The vote was deeply partisan.",
+              "vi": "Cuộc bỏ phiếu đậm chất đảng phái."
+            },
+            {
+              "en": "Bipartisan deals are rare in modern Congress.",
+              "vi": "Thỏa thuận lưỡng đảng hiếm trong Quốc hội hiện đại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["biased", "one-sided"],
+      "antonyms": ["bipartisan", "neutral"],
+      "collocations": [
+        "partisan politics",
+        "partisan media",
+        "deeply partisan",
+        "partisan divide",
+        "partisan loyalty"
+      ],
+      "etymology_hint": "From Italian 'partigiano' = follower of a party — same root as 'party'.",
+      "mnemonic_vi": "PART (phần, đảng) + ISAN = thuộc đảng. Partisan politics = chính trị đảng phái."
+    }
+  ]
+}

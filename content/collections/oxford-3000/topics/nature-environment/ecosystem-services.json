@@ -1,0 +1,769 @@
+{
+  "slug": "ecosystem-services",
+  "name": "Ecosystem Services",
+  "description": "Dịch vụ hệ sinh thái B2 — pollination, watershed, biome, keystone và 16 từ về vai trò của tự nhiên.",
+  "order_index": 13,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "pollination",
+      "lemma": "pollination",
+      "ipa": "/ˌpɒləˈneɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the transfer of pollen between flowers, allowing plants to reproduce",
+          "meaning_vi": "sự thụ phấn (hoa)",
+          "examples": [
+            {
+              "en": "Bees provide free pollination for farmers.",
+              "vi": "Ong cung cấp dịch vụ thụ phấn miễn phí cho nông dân."
+            },
+            {
+              "en": "Pollination declines threaten food supply.",
+              "vi": "Suy giảm thụ phấn đe dọa nguồn lương thực."
+            },
+            {
+              "en": "Vietnamese coffee crops depend on insect pollination.",
+              "vi": "Cây cà phê Việt phụ thuộc côn trùng thụ phấn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bee pollination",
+        "cross-pollination",
+        "pollination service",
+        "pollination decline",
+        "wind pollination"
+      ],
+      "etymology_hint": "From Latin 'pollen' = fine flour — verb 'pollinate' coined 1875 in botany.",
+      "mnemonic_vi": "POLLEN (phấn) + ATION = sự thụ phấn. Bee pollination = thụ phấn bằng ong."
+    },
+    {
+      "word": "carbon-sequestration",
+      "lemma": "carbon-sequestration",
+      "ipa": "/ˈkɑːbən ˌsiːkwəˈstreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of capturing carbon dioxide from the air and storing it in plants, soil, or rock",
+          "meaning_vi": "hấp thụ và lưu trữ carbon (cố định carbon trong cây, đất, đá)",
+          "examples": [
+            {
+              "en": "Forests provide natural carbon-sequestration.",
+              "vi": "Rừng cung cấp carbon-sequestration tự nhiên."
+            },
+            {
+              "en": "Carbon-sequestration is key to climate goals.",
+              "vi": "Carbon-sequestration là chìa khóa mục tiêu khí hậu."
+            },
+            {
+              "en": "Vietnamese mangroves excel at carbon-sequestration.",
+              "vi": "Rừng ngập mặn Việt xuất sắc trong carbon-sequestration."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["carbon capture"],
+      "antonyms": ["carbon emission"],
+      "collocations": [
+        "natural carbon-sequestration",
+        "artificial carbon-sequestration",
+        "soil carbon-sequestration",
+        "forest carbon-sequestration",
+        "carbon-sequestration potential"
+      ],
+      "etymology_hint": "Compound: 'carbon' + 'sequestration' (Latin 'sequestrare' = to set aside).",
+      "mnemonic_vi": "CARBON + SEQUESTER (giữ riêng) + ATION = giữ carbon. Soil carbon-sequestration = giữ carbon trong đất."
+    },
+    {
+      "word": "biocapacity",
+      "lemma": "biocapacity",
+      "ipa": "/ˌbaɪəʊkəˈpæsəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability of an ecosystem to produce useful resources and absorb waste",
+          "meaning_vi": "sức tải sinh học (khả năng tự nhiên cung cấp tài nguyên + hấp thụ chất thải)",
+          "examples": [
+            {
+              "en": "Earth's biocapacity is shrinking.",
+              "vi": "Sức tải sinh học Trái đất đang co lại."
+            },
+            {
+              "en": "Wealthy nations exceed their biocapacity by far.",
+              "vi": "Nước giàu vượt sức tải sinh học rất xa."
+            },
+            {
+              "en": "Vietnam's biocapacity per person dropped 30%.",
+              "vi": "Sức tải sinh học mỗi người ở Việt Nam giảm 30%."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ecological capacity"],
+      "antonyms": ["ecological footprint"],
+      "collocations": [
+        "global biocapacity",
+        "national biocapacity",
+        "biocapacity per person",
+        "biocapacity decline",
+        "biocapacity reserve"
+      ],
+      "etymology_hint": "Compound: 'bio-' (life) + 'capacity' — coined late 20th century in ecological economics.",
+      "mnemonic_vi": "BIO (sinh) + CAPACITY (sức chứa) = sức tải sinh học. Global biocapacity = sức tải toàn cầu."
+    },
+    {
+      "word": "nutrient-cycling",
+      "lemma": "nutrient-cycling",
+      "ipa": "/ˈnjuːtriənt ˌsaɪklɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the movement of nutrients like nitrogen and carbon through an ecosystem",
+          "meaning_vi": "chu trình dinh dưỡng (nitơ, carbon di chuyển trong hệ sinh thái)",
+          "examples": [
+            {
+              "en": "Decomposers drive nutrient-cycling in forests.",
+              "vi": "Sinh vật phân hủy dẫn chu trình dinh dưỡng trong rừng."
+            },
+            {
+              "en": "Disrupted nutrient-cycling causes dead zones.",
+              "vi": "Chu trình dinh dưỡng bị phá gây vùng chết."
+            },
+            {
+              "en": "Composting accelerates nutrient-cycling.",
+              "vi": "Ủ phân tăng tốc chu trình dinh dưỡng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["biogeochemical cycle"],
+      "antonyms": [],
+      "collocations": [
+        "soil nutrient-cycling",
+        "natural nutrient-cycling",
+        "nutrient-cycling rate",
+        "disrupt nutrient-cycling",
+        "nutrient-cycling process"
+      ],
+      "etymology_hint": "Compound: 'nutrient' (Latin 'nutrire' = nourish) + 'cycling' — ecology term from mid-20th century.",
+      "mnemonic_vi": "NUTRIENT (dinh dưỡng) + CYCLING (vòng quay) = chu trình dinh dưỡng. Disrupt nutrient-cycling = phá chu trình."
+    },
+    {
+      "word": "watershed",
+      "lemma": "watershed",
+      "ipa": "/ˈwɔːtəʃed/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an area of land where all the water drains into a single river or lake",
+          "meaning_vi": "lưu vực sông (vùng đất nước chảy vào cùng một sông/hồ)",
+          "examples": [
+            {
+              "en": "The Mekong watershed supports millions of people.",
+              "vi": "Lưu vực Mekong nuôi hàng triệu người."
+            },
+            {
+              "en": "Watershed health depends on forest cover.",
+              "vi": "Sức khỏe lưu vực phụ thuộc độ che phủ rừng."
+            },
+            {
+              "en": "Urban watersheds need careful management.",
+              "vi": "Lưu vực đô thị cần quản lý cẩn thận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["drainage basin", "catchment"],
+      "antonyms": [],
+      "collocations": [
+        "Mekong watershed",
+        "watershed management",
+        "watershed protection",
+        "river watershed",
+        "watershed boundary"
+      ],
+      "etymology_hint": "Compound: 'water' + 'shed' (to divide) — calque of German 'Wasserscheide'.",
+      "mnemonic_vi": "WATER (nước) + SHED (chia) = vùng chia nước. Watershed management = quản lý lưu vực."
+    },
+    {
+      "word": "decomposition",
+      "lemma": "decomposition",
+      "ipa": "/ˌdiːkɒmpəˈzɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the natural breakdown of dead plants and animals into simpler substances",
+          "meaning_vi": "sự phân hủy (xác sinh vật thành chất đơn giản)",
+          "examples": [
+            {
+              "en": "Fungi accelerate decomposition.",
+              "vi": "Nấm tăng tốc phân hủy."
+            },
+            {
+              "en": "Slow decomposition stores carbon long-term.",
+              "vi": "Phân hủy chậm giữ carbon lâu dài."
+            },
+            {
+              "en": "Tropical decomposition rates are extremely high.",
+              "vi": "Tỷ lệ phân hủy nhiệt đới cực cao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["breakdown", "decay"],
+      "antonyms": ["growth"],
+      "collocations": [
+        "organic decomposition",
+        "decomposition rate",
+        "natural decomposition",
+        "microbial decomposition",
+        "slow decomposition"
+      ],
+      "etymology_hint": "Prefix 'de-' (down) + 'composition' (Latin 'componere' = put together) — opposite of building up.",
+      "mnemonic_vi": "DE (xuống) + COMPOSITION (cấu trúc) = phân tách. Organic decomposition = phân hủy hữu cơ."
+    },
+    {
+      "word": "biome",
+      "lemma": "biome",
+      "ipa": "/ˈbaɪəʊm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large community of plants and animals adapted to a specific climate, like forest or desert",
+          "meaning_vi": "quần xã sinh học lớn (rừng, sa mạc, đồng cỏ...)",
+          "examples": [
+            {
+              "en": "The tropical rainforest biome holds most species.",
+              "vi": "Quần xã rừng mưa nhiệt đới chứa hầu hết loài."
+            },
+            {
+              "en": "Vietnam contains five major biomes.",
+              "vi": "Việt Nam có 5 quần xã lớn."
+            },
+            {
+              "en": "Climate change shifts biome boundaries.",
+              "vi": "Biến đổi khí hậu dịch chuyển ranh giới quần xã."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tropical biome",
+        "desert biome",
+        "marine biome",
+        "biome boundary",
+        "Earth's biomes"
+      ],
+      "etymology_hint": "Coined 1916 by Frederic Clements — from 'bio-' (life) + '-ome' (mass, group).",
+      "mnemonic_vi": "BIO (sinh) + OME (khối) = khối sinh học. Tropical biome = quần xã nhiệt đới."
+    },
+    {
+      "word": "food-chain",
+      "lemma": "food-chain",
+      "ipa": "/ˈfuːd tʃeɪn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the sequence of who eats whom in an ecosystem, from plants to top predators",
+          "meaning_vi": "chuỗi thức ăn",
+          "examples": [
+            {
+              "en": "Pollutants concentrate up the food-chain.",
+              "vi": "Chất ô nhiễm tích tụ lên cao trên chuỗi thức ăn."
+            },
+            {
+              "en": "Top of the food-chain animals are vulnerable.",
+              "vi": "Sinh vật đỉnh chuỗi thức ăn dễ bị tổn thương."
+            },
+            {
+              "en": "Schoolchildren learn about food-chains early.",
+              "vi": "Học sinh học về chuỗi thức ăn từ sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["food sequence"],
+      "antonyms": [],
+      "collocations": [
+        "top of the food-chain",
+        "marine food-chain",
+        "disrupt the food-chain",
+        "food-chain hierarchy",
+        "food-chain bottom"
+      ],
+      "etymology_hint": "Compound: 'food' + 'chain' — ecology concept formalized 1920s by Charles Elton.",
+      "mnemonic_vi": "FOOD (thức ăn) + CHAIN (chuỗi) = chuỗi thức ăn. Top of the food-chain = đỉnh chuỗi."
+    },
+    {
+      "word": "food-web",
+      "lemma": "food-web",
+      "ipa": "/ˈfuːd web/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a network showing how many food-chains connect in an ecosystem",
+          "meaning_vi": "mạng lưới thức ăn (nhiều chuỗi thức ăn nối với nhau)",
+          "examples": [
+            {
+              "en": "A food-web is more accurate than a food-chain.",
+              "vi": "Mạng lưới thức ăn chính xác hơn chuỗi thức ăn."
+            },
+            {
+              "en": "Removing one species disrupts the food-web.",
+              "vi": "Loại một loài phá mạng lưới thức ăn."
+            },
+            {
+              "en": "Coral reef food-webs are remarkably complex.",
+              "vi": "Mạng lưới thức ăn rạn san hô phức tạp đáng kinh ngạc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trophic web"],
+      "antonyms": [],
+      "collocations": [
+        "complex food-web",
+        "marine food-web",
+        "food-web structure",
+        "disrupt the food-web",
+        "food-web modeling"
+      ],
+      "etymology_hint": "Compound: 'food' + 'web' (network) — refinement of 'food-chain' from 1940s ecology.",
+      "mnemonic_vi": "FOOD (thức ăn) + WEB (mạng) = mạng thức ăn. Complex food-web = mạng thức ăn phức tạp."
+    },
+    {
+      "word": "succession",
+      "lemma": "succession",
+      "ipa": "/səkˈseʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the gradual change of species in an ecosystem over time, from pioneers to mature communities",
+          "meaning_vi": "sự diễn thế sinh thái (loài này thay loài khác theo thời gian)",
+          "examples": [
+            {
+              "en": "Forest succession takes centuries to complete.",
+              "vi": "Diễn thế rừng mất nhiều thế kỷ để hoàn tất."
+            },
+            {
+              "en": "Pioneer species start ecological succession.",
+              "vi": "Loài tiên phong khởi đầu diễn thế sinh thái."
+            },
+            {
+              "en": "Disturbances reset the succession process.",
+              "vi": "Xáo trộn đặt lại quá trình diễn thế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["progression"],
+      "antonyms": ["stasis"],
+      "collocations": [
+        "ecological succession",
+        "primary succession",
+        "secondary succession",
+        "forest succession",
+        "succession stage"
+      ],
+      "etymology_hint": "From Latin 'successio' = a following after — ecology sense coined 1899 by Henry Cowles.",
+      "mnemonic_vi": "SUCCEED (kế tiếp) + SION = sự kế tiếp. Ecological succession = diễn thế sinh thái."
+    },
+    {
+      "word": "keystone",
+      "lemma": "keystone",
+      "ipa": "/ˈkiːstəʊn/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "(of a species) playing a crucial role in keeping an ecosystem stable",
+          "meaning_vi": "(loài) chủ chốt — giữ ổn định cả hệ sinh thái",
+          "examples": [
+            {
+              "en": "Sea otters are keystone species in kelp forests.",
+              "vi": "Rái cá biển là loài chủ chốt ở rừng tảo bẹ."
+            },
+            {
+              "en": "Lose a keystone species, lose the ecosystem.",
+              "vi": "Mất loài chủ chốt, mất cả hệ sinh thái."
+            },
+            {
+              "en": "Identifying keystone species guides conservation.",
+              "vi": "Xác định loài chủ chốt dẫn dắt bảo tồn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pivotal"],
+      "antonyms": [],
+      "collocations": [
+        "keystone species",
+        "keystone predator",
+        "keystone role",
+        "true keystone",
+        "keystone effect"
+      ],
+      "etymology_hint": "From architecture — 'keystone' is the central wedge stone holding an arch together; ecological sense coined 1969 by Robert Paine.",
+      "mnemonic_vi": "KEY (chìa) + STONE (đá) = đá chìa khóa. Keystone species = loài chủ chốt."
+    },
+    {
+      "word": "equilibrium",
+      "lemma": "equilibrium",
+      "ipa": "/ˌekwɪˈlɪbriəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a balanced state where opposing forces or species are stable",
+          "meaning_vi": "trạng thái cân bằng (lực / loài đối lập ổn định)",
+          "examples": [
+            {
+              "en": "Ecosystems take decades to reach equilibrium.",
+              "vi": "Hệ sinh thái mất hàng chục năm để đạt cân bằng."
+            },
+            {
+              "en": "Human activity disrupts natural equilibrium.",
+              "vi": "Hoạt động con người phá cân bằng tự nhiên."
+            },
+            {
+              "en": "Predator-prey equilibrium is dynamic.",
+              "vi": "Cân bằng động giữa thú săn và con mồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["balance"],
+      "antonyms": ["imbalance"],
+      "collocations": [
+        "ecological equilibrium",
+        "dynamic equilibrium",
+        "reach equilibrium",
+        "disrupt equilibrium",
+        "natural equilibrium"
+      ],
+      "etymology_hint": "From Latin 'aequilibrium' = even balance — 'aequus' (equal) + 'libra' (scale).",
+      "mnemonic_vi": "EQUI (bằng) + LIBR (cân) + IUM = sự cân bằng. Ecological equilibrium = cân bằng sinh thái."
+    },
+    {
+      "word": "biosphere",
+      "lemma": "biosphere",
+      "ipa": "/ˈbaɪəʊsfɪə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the global sum of all ecosystems where life exists, from oceans to mountains",
+          "meaning_vi": "sinh quyển (toàn bộ vùng sống của Trái đất)",
+          "examples": [
+            {
+              "en": "The biosphere is the thin layer of life on Earth.",
+              "vi": "Sinh quyển là lớp sống mỏng trên Trái đất."
+            },
+            {
+              "en": "Biosphere reserves protect rare habitats.",
+              "vi": "Khu dự trữ sinh quyển bảo vệ môi trường sống quý."
+            },
+            {
+              "en": "Cát Bà is a UNESCO biosphere reserve.",
+              "vi": "Cát Bà là khu dự trữ sinh quyển UNESCO."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["lithosphere", "atmosphere"],
+      "collocations": [
+        "biosphere reserve",
+        "global biosphere",
+        "protect the biosphere",
+        "biosphere health",
+        "biosphere boundary"
+      ],
+      "etymology_hint": "Coined 1875 by geologist Eduard Suess — from Greek 'bios' (life) + 'sphaira' (sphere).",
+      "mnemonic_vi": "BIO (sinh) + SPHERE (vùng) = vùng sinh. Biosphere reserve = khu dự trữ sinh quyển."
+    },
+    {
+      "word": "photosynthesis",
+      "lemma": "photosynthesis",
+      "ipa": "/ˌfəʊtəʊˈsɪnθəsɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process by which plants use sunlight to turn carbon dioxide and water into food and oxygen",
+          "meaning_vi": "quang hợp (cây dùng ánh nắng tạo thức ăn + oxy)",
+          "examples": [
+            {
+              "en": "Photosynthesis makes life on Earth possible.",
+              "vi": "Quang hợp làm cho sự sống Trái đất khả dĩ."
+            },
+            {
+              "en": "Vietnamese rice paddies are huge photosynthesis engines.",
+              "vi": "Ruộng lúa Việt là cỗ máy quang hợp khổng lồ."
+            },
+            {
+              "en": "Without photosynthesis, oxygen would disappear.",
+              "vi": "Không có quang hợp, oxy sẽ biến mất."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["respiration"],
+      "collocations": [
+        "plant photosynthesis",
+        "artificial photosynthesis",
+        "photosynthesis rate",
+        "photosynthesis process",
+        "study photosynthesis"
+      ],
+      "etymology_hint": "From Greek 'phōs' (light) + 'sunthesis' (putting together) — coined 1898.",
+      "mnemonic_vi": "PHOTO (ánh sáng) + SYNTHESIS (tổng hợp) = tổng hợp nhờ ánh sáng. Plant photosynthesis = quang hợp cây."
+    },
+    {
+      "word": "biomass",
+      "lemma": "biomass",
+      "ipa": "/ˈbaɪəʊmæs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the total mass of living organisms in a given area, or organic material used as fuel",
+          "meaning_vi": "sinh khối (tổng khối lượng sinh vật / nhiên liệu hữu cơ)",
+          "examples": [
+            {
+              "en": "Forest biomass stores massive amounts of carbon.",
+              "vi": "Sinh khối rừng giữ lượng carbon khổng lồ."
+            },
+            {
+              "en": "Vietnamese power plants are testing biomass fuel.",
+              "vi": "Nhà máy điện Việt đang thử nhiên liệu sinh khối."
+            },
+            {
+              "en": "Marine biomass is hard to measure accurately.",
+              "vi": "Sinh khối biển khó đo chính xác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organic matter"],
+      "antonyms": [],
+      "collocations": [
+        "forest biomass",
+        "biomass energy",
+        "biomass fuel",
+        "marine biomass",
+        "biomass density"
+      ],
+      "etymology_hint": "Compound: 'bio-' (life) + 'mass' — coined 1934 in ecology.",
+      "mnemonic_vi": "BIO (sinh) + MASS (khối lượng) = khối sinh. Biomass energy = năng lượng sinh khối."
+    },
+    {
+      "word": "carbon-sink",
+      "lemma": "carbon-sink",
+      "ipa": "/ˈkɑːbən sɪŋk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a natural or artificial system that absorbs more carbon dioxide than it releases",
+          "meaning_vi": "bể hấp thụ carbon (hệ hấp thụ CO2 nhiều hơn thải)",
+          "examples": [
+            {
+              "en": "Oceans are Earth's largest carbon-sink.",
+              "vi": "Đại dương là carbon-sink lớn nhất Trái đất."
+            },
+            {
+              "en": "Mature forests act as carbon-sinks.",
+              "vi": "Rừng già là carbon-sink."
+            },
+            {
+              "en": "Deforestation turns carbon-sinks into carbon sources.",
+              "vi": "Phá rừng biến carbon-sink thành nguồn carbon."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["carbon source"],
+      "collocations": [
+        "natural carbon-sink",
+        "forest carbon-sink",
+        "ocean carbon-sink",
+        "create a carbon-sink",
+        "lose a carbon-sink"
+      ],
+      "etymology_hint": "Compound: 'carbon' + 'sink' (a place that absorbs) — climate-science term from 1980s.",
+      "mnemonic_vi": "CARBON + SINK (bồn) = bồn carbon. Forest carbon-sink = rừng hấp thụ carbon."
+    },
+    {
+      "word": "wetland",
+      "lemma": "wetland",
+      "ipa": "/ˈwetlænd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an area where land is saturated with water, like marshes or swamps",
+          "meaning_vi": "đất ngập nước (đầm lầy, vùng ướt)",
+          "examples": [
+            {
+              "en": "The Mekong Delta is one of Asia's largest wetlands.",
+              "vi": "Đồng bằng Mekong là một trong những đất ngập nước lớn nhất châu Á."
+            },
+            {
+              "en": "Wetlands filter pollutants from water.",
+              "vi": "Đất ngập nước lọc ô nhiễm từ nước."
+            },
+            {
+              "en": "Protecting wetlands reduces flood risk.",
+              "vi": "Bảo vệ đất ngập nước giảm rủi ro lũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["marsh", "swamp"],
+      "antonyms": ["dryland"],
+      "collocations": [
+        "coastal wetland",
+        "wetland conservation",
+        "wetland ecosystem",
+        "Ramsar wetland",
+        "freshwater wetland"
+      ],
+      "etymology_hint": "Compound: 'wet' + 'land' — ecological term standardized 1971 by the Ramsar Convention.",
+      "mnemonic_vi": "WET (ướt) + LAND (đất) = đất ướt. Coastal wetland = đất ngập nước ven biển."
+    },
+    {
+      "word": "rainforest",
+      "lemma": "rainforest",
+      "ipa": "/ˈreɪnfɒrɪst/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a dense forest in a wet, warm region, home to enormous biodiversity",
+          "meaning_vi": "rừng mưa nhiệt đới",
+          "examples": [
+            {
+              "en": "The Amazon rainforest produces 20% of Earth's oxygen.",
+              "vi": "Rừng mưa Amazon tạo 20% oxy Trái đất."
+            },
+            {
+              "en": "Vietnamese rainforests host endemic species.",
+              "vi": "Rừng mưa Việt là nhà của loài đặc hữu."
+            },
+            {
+              "en": "Rainforest loss accelerates climate change.",
+              "vi": "Mất rừng mưa gia tốc biến đổi khí hậu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tropical forest"],
+      "antonyms": ["desert"],
+      "collocations": [
+        "Amazon rainforest",
+        "tropical rainforest",
+        "rainforest canopy",
+        "rainforest destruction",
+        "protect rainforests"
+      ],
+      "etymology_hint": "Compound: 'rain' + 'forest' — coined 1903 to describe persistently wet tropical forests.",
+      "mnemonic_vi": "RAIN (mưa) + FOREST (rừng) = rừng mưa. Tropical rainforest = rừng mưa nhiệt đới."
+    },
+    {
+      "word": "runoff",
+      "lemma": "runoff",
+      "ipa": "/ˈrʌnɒf/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "rainwater that flows over land into rivers, often carrying pollutants",
+          "meaning_vi": "nước chảy tràn (nước mưa chảy mặt đất, thường mang ô nhiễm)",
+          "examples": [
+            {
+              "en": "Fertilizer runoff causes algae blooms.",
+              "vi": "Nước chảy tràn từ phân bón gây nở tảo."
+            },
+            {
+              "en": "Urban runoff pollutes Vietnamese rivers.",
+              "vi": "Nước chảy đô thị làm bẩn sông Việt."
+            },
+            {
+              "en": "Green roofs reduce runoff.",
+              "vi": "Mái xanh giảm nước chảy tràn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["surface flow"],
+      "antonyms": ["infiltration"],
+      "collocations": [
+        "agricultural runoff",
+        "urban runoff",
+        "stormwater runoff",
+        "reduce runoff",
+        "nutrient runoff"
+      ],
+      "etymology_hint": "Compound: 'run' + 'off' — phrasal-verb origin, became hydrology term in 19th century.",
+      "mnemonic_vi": "RUN (chạy) + OFF (đi) = chảy đi. Agricultural runoff = nước chảy nông nghiệp."
+    },
+    {
+      "word": "riparian",
+      "lemma": "riparian",
+      "ipa": "/raɪˈpeəriən/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to the area along the bank of a river or stream",
+          "meaning_vi": "(ven sông) — thuộc vùng đất ven sông",
+          "examples": [
+            {
+              "en": "Riparian zones protect water quality.",
+              "vi": "Vùng ven sông bảo vệ chất lượng nước."
+            },
+            {
+              "en": "Riparian plants filter farm runoff.",
+              "vi": "Cây ven sông lọc nước nông nghiệp tràn."
+            },
+            {
+              "en": "Restoring riparian forests helps salmon return.",
+              "vi": "Phục hồi rừng ven sông giúp cá hồi quay lại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["streamside"],
+      "antonyms": ["upland"],
+      "collocations": [
+        "riparian zone",
+        "riparian forest",
+        "riparian ecosystem",
+        "riparian buffer",
+        "riparian rights"
+      ],
+      "etymology_hint": "From Latin 'riparius' = of the river bank — root 'ripa' (bank).",
+      "mnemonic_vi": "RIPA (bờ) + RIAN = thuộc bờ. Riparian zone = vùng ven sông."
+    }
+  ]
+}
