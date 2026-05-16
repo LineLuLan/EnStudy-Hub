@@ -1,0 +1,763 @@
+{
+  "slug": "work-relationships",
+  "name": "Work Relationships",
+  "description": "Mối quan hệ công sở A2 — supervisor, coworker, trainee, peer, mentee và 15 từ về cấp bậc + động lực việc.",
+  "order_index": 8,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "supervisor",
+      "lemma": "supervisor",
+      "ipa": "/ˈsuːpəvaɪzə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to make sure others do their work properly",
+          "meaning_vi": "người giám sát, supervisor",
+          "examples": [
+            {
+              "en": "My supervisor checks my work every week.",
+              "vi": "Người giám sát kiểm tra công việc tôi mỗi tuần."
+            },
+            {
+              "en": "If you have questions, ask your supervisor.",
+              "vi": "Có câu hỏi thì hỏi supervisor."
+            },
+            {
+              "en": "The supervisor at the factory speaks both Vietnamese and English.",
+              "vi": "Giám sát viên ở nhà máy nói cả tiếng Việt và Anh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overseer"],
+      "antonyms": ["subordinate"],
+      "collocations": [
+        "report to supervisor",
+        "ask your supervisor",
+        "direct supervisor",
+        "shift supervisor",
+        "supervisor approval"
+      ],
+      "etymology_hint": "From Latin 'super' (over) + 'videre' (to see) — literally 'one who oversees'.",
+      "mnemonic_vi": "SUPERVISOR = SUPER + VISOR → 'nhìn từ trên'. Người giám sát cấp dưới."
+    },
+    {
+      "word": "subordinate",
+      "lemma": "subordinate",
+      "ipa": "/səˈbɔːdɪnət/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has a lower rank than someone else at work",
+          "meaning_vi": "cấp dưới",
+          "examples": [
+            {
+              "en": "A good leader treats subordinates with respect.",
+              "vi": "Sếp giỏi đối xử cấp dưới có tôn trọng."
+            },
+            {
+              "en": "She manages a team of 5 subordinates.",
+              "vi": "Cô ấy quản lý team 5 cấp dưới."
+            },
+            {
+              "en": "Don't shout at your subordinates.",
+              "vi": "Đừng quát cấp dưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["junior", "underling"],
+      "antonyms": ["supervisor", "boss"],
+      "collocations": [
+        "treat subordinates",
+        "direct subordinate",
+        "subordinate role",
+        "lead subordinates",
+        "trusted subordinate"
+      ],
+      "etymology_hint": "From Latin 'sub-' (under) + 'ordinare' (to order) — 'placed under the order of another'.",
+      "mnemonic_vi": "SUBORDINATE = SUB + ORDINATE → 'dưới thứ tự'. Cấp dưới."
+    },
+    {
+      "word": "coworker",
+      "lemma": "coworker",
+      "ipa": "/ˈkəʊwɜːkə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person you work with at the same company or job",
+          "meaning_vi": "đồng nghiệp (American English)",
+          "examples": [
+            {
+              "en": "My coworkers and I went for phở after work.",
+              "vi": "Tôi và đồng nghiệp đi ăn phở sau giờ làm."
+            },
+            {
+              "en": "She's a friendly coworker, always helps with problems.",
+              "vi": "Cô ấy là đồng nghiệp thân thiện, luôn giúp khi có vấn đề."
+            },
+            {
+              "en": "Tết bonus party with coworkers was so fun.",
+              "vi": "Tiệc cuối năm với đồng nghiệp vui ghê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["colleague"],
+      "antonyms": [],
+      "collocations": [
+        "friendly coworker",
+        "close coworker",
+        "coworker lunch",
+        "new coworker",
+        "annoying coworker"
+      ],
+      "etymology_hint": "Compound of 'co-' (together) + 'worker' — American variant; British prefers 'colleague'.",
+      "mnemonic_vi": "COWORKER = CO + WORKER → 'cùng làm'. American = coworker, British = colleague."
+    },
+    {
+      "word": "trainee",
+      "lemma": "trainee",
+      "ipa": "/ˌtreɪˈniː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who is learning a new job at a company",
+          "meaning_vi": "thực tập sinh, học viên (đang train)",
+          "examples": [
+            {
+              "en": "VPBank takes 50 trainees every year.",
+              "vi": "VPBank nhận 50 trainee mỗi năm."
+            },
+            {
+              "en": "The trainee learned quickly and got hired.",
+              "vi": "Người thực tập học nhanh và được nhận vào."
+            },
+            {
+              "en": "All trainees attend the orientation on Monday.",
+              "vi": "Tất cả trainee tham gia định hướng thứ Hai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["apprentice", "intern"],
+      "antonyms": ["expert"],
+      "collocations": [
+        "graduate trainee",
+        "management trainee",
+        "trainee program",
+        "trainee position",
+        "former trainee"
+      ],
+      "etymology_hint": "From 'train' + '-ee' (suffix for receiver of action) — coined in 19th century from US military terminology.",
+      "mnemonic_vi": "TRAINEE = TRAIN + EE → 'người được đào tạo'. Graduate trainee = trainee mới ra trường."
+    },
+    {
+      "word": "apprentice",
+      "lemma": "apprentice",
+      "ipa": "/əˈprentɪs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a young person who works for an expert to learn a skill",
+          "meaning_vi": "người học việc, học nghề",
+          "examples": [
+            {
+              "en": "He's an apprentice at a Hà Nội tailor shop.",
+              "vi": "Anh ấy là học việc ở một tiệm may Hà Nội."
+            },
+            {
+              "en": "The chef has 3 apprentices learning Vietnamese cuisine.",
+              "vi": "Đầu bếp có 3 học việc đang học ẩm thực Việt."
+            },
+            {
+              "en": "Apprenticeships last 2-4 years usually.",
+              "vi": "Thời gian học việc thường 2-4 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trainee", "learner"],
+      "antonyms": ["master"],
+      "collocations": [
+        "young apprentice",
+        "apprentice program",
+        "former apprentice",
+        "skilled apprentice",
+        "take on an apprentice"
+      ],
+      "etymology_hint": "From Old French 'aprentis' meaning 'one learning' — from 'aprendre' (to learn), Latin 'apprehendere' (to grasp).",
+      "mnemonic_vi": "APPRENTICE = APPRENT + ICE → 'người học' (apprendre = học). Học việc."
+    },
+    {
+      "word": "recruit",
+      "lemma": "recruit",
+      "ipa": "/rɪˈkruːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a new person who has just joined an organization or company",
+          "meaning_vi": "tân binh, người mới được tuyển",
+          "examples": [
+            {
+              "en": "The army welcomed 200 new recruits last month.",
+              "vi": "Quân đội đón 200 tân binh tháng trước."
+            },
+            {
+              "en": "Train the recruits well in the first week.",
+              "vi": "Đào tạo người mới kỹ trong tuần đầu."
+            },
+            {
+              "en": "She's our newest recruit at the marketing team.",
+              "vi": "Cô ấy là tân binh mới nhất của team marketing."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["new hire", "newcomer"],
+      "antonyms": ["veteran"],
+      "collocations": [
+        "new recruit",
+        "recent recruit",
+        "train recruits",
+        "young recruit",
+        "promising recruit"
+      ],
+      "etymology_hint": "From French 'recrue' meaning 'new growth' — military sense of fresh soldiers, later business sense.",
+      "mnemonic_vi": "RECRUIT = RE + CRUIT → 'tăng trưởng mới'. Tân binh, người mới."
+    },
+    {
+      "word": "counterpart",
+      "lemma": "counterpart",
+      "ipa": "/ˈkaʊntəpɑːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has the same job or role as someone in another company or country",
+          "meaning_vi": "người đối tác (cùng vị trí, khác công ty/nước)",
+          "examples": [
+            {
+              "en": "Vietnamese CEO met with his Japanese counterpart.",
+              "vi": "CEO Việt Nam gặp người đối tác Nhật Bản."
+            },
+            {
+              "en": "Their FE engineers work with our counterparts daily.",
+              "vi": "Kỹ sư FE của họ làm việc với đối tác của ta hằng ngày."
+            },
+            {
+              "en": "She emailed her counterpart in the Singapore office.",
+              "vi": "Cô ấy email đối tác cùng vị trí ở văn phòng Singapore."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["equivalent", "peer"],
+      "antonyms": [],
+      "collocations": [
+        "American counterpart",
+        "direct counterpart",
+        "meet your counterpart",
+        "discuss with counterpart",
+        "foreign counterpart"
+      ],
+      "etymology_hint": "Compound of 'counter' (corresponding) + 'part' — originally a duplicate copy of a legal document.",
+      "mnemonic_vi": "COUNTERPART = COUNTER + PART → 'phần đối ứng'. Cùng vị trí khác công ty."
+    },
+    {
+      "word": "mentee",
+      "lemma": "mentee",
+      "ipa": "/menˈtiː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who is being taught and helped by a more experienced person",
+          "meaning_vi": "người được dẫn dắt (đối ngược mentor)",
+          "examples": [
+            {
+              "en": "She's my mentee — I help her with career advice.",
+              "vi": "Cô ấy là mentee của tôi — tôi giúp cô ấy lời khuyên nghề nghiệp."
+            },
+            {
+              "en": "A good mentee asks lots of questions.",
+              "vi": "Mentee giỏi hỏi rất nhiều câu hỏi."
+            },
+            {
+              "en": "He has been a mentee of the CTO for 2 years.",
+              "vi": "Anh ấy đã là mentee của CTO trong 2 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["protégé"],
+      "antonyms": ["mentor"],
+      "collocations": [
+        "mentor and mentee",
+        "former mentee",
+        "young mentee",
+        "guide a mentee",
+        "support a mentee"
+      ],
+      "etymology_hint": "Modern English coinage from 'mentor' + '-ee' (suffix for receiver) — opposite role to mentor.",
+      "mnemonic_vi": "MENTEE = MENT + EE → 'người được mentor'. Mentor dẫn mentee."
+    },
+    {
+      "word": "peer",
+      "lemma": "peer",
+      "ipa": "/pɪə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who is the same age, rank, or position as you",
+          "meaning_vi": "người đồng đẳng, ngang hàng",
+          "examples": [
+            {
+              "en": "Teenagers care about what their peers think.",
+              "vi": "Tuổi teen quan tâm bạn cùng lứa nghĩ gì."
+            },
+            {
+              "en": "Her peers respect her for her hard work.",
+              "vi": "Đồng đẳng tôn trọng cô ấy vì cô làm việc chăm."
+            },
+            {
+              "en": "Peer pressure is strong in school.",
+              "vi": "Áp lực bạn bè rất mạnh trong trường học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["equal"],
+      "antonyms": [],
+      "collocations": [
+        "peer pressure",
+        "peer review",
+        "peer group",
+        "respected by peers",
+        "peer support"
+      ],
+      "etymology_hint": "From Old French 'per' meaning 'equal' — from Latin 'par' (equal), same root as 'parity'.",
+      "mnemonic_vi": "PEER = 'pia' — 'pia' = par = equal. Đồng đẳng cùng cấp."
+    },
+    {
+      "word": "associate",
+      "lemma": "associate",
+      "ipa": "/əˈsəʊʃiət/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person you work with at the same level, not very close as a friend",
+          "meaning_vi": "đồng nghiệp xã giao, người cộng tác",
+          "examples": [
+            {
+              "en": "She introduced me to her business associates.",
+              "vi": "Cô ấy giới thiệu tôi với cộng sự kinh doanh."
+            },
+            {
+              "en": "He's an associate at Vietcombank.",
+              "vi": "Anh ấy là chuyên viên ở Vietcombank."
+            },
+            {
+              "en": "Several associates joined the conference.",
+              "vi": "Vài đồng nghiệp tham gia hội nghị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["partner", "colleague"],
+      "antonyms": [],
+      "collocations": [
+        "business associate",
+        "research associate",
+        "close associate",
+        "senior associate",
+        "marketing associate"
+      ],
+      "etymology_hint": "From Latin 'associare' meaning 'to join with' — from 'ad-' (to) + 'socius' (companion).",
+      "mnemonic_vi": "ASSOCIATE = AS + SOCIATE → 'cùng hợp tác'. Bạn làm ăn, không phải bạn thân."
+    },
+    {
+      "word": "dismiss",
+      "lemma": "dismiss",
+      "ipa": "/dɪsˈmɪs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to officially tell someone they must leave their job",
+          "meaning_vi": "cho thôi việc, sa thải",
+          "examples": [
+            {
+              "en": "The company dismissed him for poor performance.",
+              "vi": "Công ty cho anh ấy thôi việc vì làm kém."
+            },
+            {
+              "en": "She was dismissed after being late repeatedly.",
+              "vi": "Cô ấy bị sa thải sau khi đi muộn nhiều lần."
+            },
+            {
+              "en": "It's not easy to dismiss permanent staff in Việt Nam.",
+              "vi": "Không dễ sa thải nhân viên chính thức ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fire", "sack"],
+      "antonyms": ["hire", "employ"],
+      "collocations": [
+        "dismiss someone",
+        "unfairly dismiss",
+        "dismiss for cause",
+        "dismiss an employee",
+        "wrongful dismissal"
+      ],
+      "etymology_hint": "From Latin 'dis-' (away) + 'missus' (sent) — past participle of 'mittere' (to send).",
+      "mnemonic_vi": "DISMISS = DIS + MISS → 'gửi đi'. Mời ra khỏi công ty."
+    },
+    {
+      "word": "quit",
+      "lemma": "quit",
+      "ipa": "/kwɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to leave a job or stop doing something",
+          "meaning_vi": "nghỉ việc, bỏ (việc, thói quen)",
+          "examples": [
+            {
+              "en": "She quit her job to start a phở restaurant.",
+              "vi": "Cô ấy nghỉ việc để mở quán phở."
+            },
+            {
+              "en": "He's trying to quit smoking.",
+              "vi": "Anh ấy đang cố bỏ thuốc."
+            },
+            {
+              "en": "Don't quit before you find another job.",
+              "vi": "Đừng nghỉ trước khi tìm được việc khác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leave", "resign", "stop"],
+      "antonyms": ["continue", "start"],
+      "collocations": ["quit a job", "quit smoking", "quit halfway", "quietly quit", "never quit"],
+      "etymology_hint": "From Old French 'quitter' meaning 'to leave free, abandon' — from Latin 'quietus' (calm, free).",
+      "mnemonic_vi": "QUIT = 'quít' — 'cứt' bỏ đi. Quit smoking = bỏ thuốc."
+    },
+    {
+      "word": "shift",
+      "lemma": "shift",
+      "ipa": "/ʃɪft/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a period of time when a group of workers do their job",
+          "meaning_vi": "ca làm việc",
+          "examples": [
+            {
+              "en": "My shift starts at 7am and ends at 3pm.",
+              "vi": "Ca của tôi bắt đầu 7 giờ sáng và kết thúc 3 giờ chiều."
+            },
+            {
+              "en": "Vinhomes security has 3 shifts a day.",
+              "vi": "Bảo vệ Vinhomes có 3 ca mỗi ngày."
+            },
+            {
+              "en": "I prefer the morning shift to the night shift.",
+              "vi": "Tôi thích ca sáng hơn ca đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rotation"],
+      "antonyms": [],
+      "collocations": [
+        "night shift",
+        "morning shift",
+        "12-hour shift",
+        "shift work",
+        "swap shifts"
+      ],
+      "etymology_hint": "From Old English 'sciftan' meaning 'to divide, arrange' — work sense from dividing day into rotations.",
+      "mnemonic_vi": "SHIFT = 'shíp' — 'shíp' đổi ca. Night shift = ca đêm."
+    },
+    {
+      "word": "rookie",
+      "lemma": "rookie",
+      "ipa": "/ˈrʊki/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has just started in a job or sport (informal)",
+          "meaning_vi": "lính mới, người mới (thân mật)",
+          "examples": [
+            {
+              "en": "Don't make rookie mistakes — be careful.",
+              "vi": "Đừng phạm lỗi lính mới — cẩn thận."
+            },
+            {
+              "en": "The team has 3 rookies this season.",
+              "vi": "Đội có 3 tân binh mùa này."
+            },
+            {
+              "en": "She's a rookie reporter at VnExpress.",
+              "vi": "Cô ấy là phóng viên mới ở VnExpress."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["newbie", "novice"],
+      "antonyms": ["veteran", "expert"],
+      "collocations": [
+        "rookie mistake",
+        "rookie season",
+        "young rookie",
+        "rookie player",
+        "rookie of the year"
+      ],
+      "etymology_hint": "Possibly from 'recruit' (slurred pronunciation) — first used in 19th century US baseball slang.",
+      "mnemonic_vi": "ROOKIE = 'rúc-ki' — 'rúc' vào, lính mới. Rookie mistake = sai sót của lính mới."
+    },
+    {
+      "word": "veteran",
+      "lemma": "veteran",
+      "ipa": "/ˈvetərən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has a lot of experience in a job or activity",
+          "meaning_vi": "người kỳ cựu, lâu năm",
+          "examples": [
+            {
+              "en": "He's a 20-year veteran at FPT.",
+              "vi": "Anh ấy là kỳ cựu 20 năm ở FPT."
+            },
+            {
+              "en": "Veterans of the war meet every April 30.",
+              "vi": "Cựu binh chiến tranh gặp nhau mỗi 30 tháng 4."
+            },
+            {
+              "en": "The veteran teacher has seen many changes.",
+              "vi": "Giáo viên lâu năm đã chứng kiến nhiều thay đổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expert", "old hand"],
+      "antonyms": ["rookie", "novice"],
+      "collocations": [
+        "war veteran",
+        "veteran teacher",
+        "industry veteran",
+        "10-year veteran",
+        "veteran player"
+      ],
+      "etymology_hint": "From Latin 'veteranus' meaning 'old, experienced' — from 'vetus' (old).",
+      "mnemonic_vi": "VETERAN = VETER + AN → 'người già dặn'. Kỳ cựu, dày kinh nghiệm."
+    },
+    {
+      "word": "chief",
+      "lemma": "chief",
+      "ipa": "/tʃiːf/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the leader or person with the highest rank in a group",
+          "meaning_vi": "thủ lĩnh, người đứng đầu",
+          "examples": [
+            {
+              "en": "She became the chief of the marketing department.",
+              "vi": "Cô ấy trở thành trưởng phòng marketing."
+            },
+            {
+              "en": "The fire chief gave the order to evacuate.",
+              "vi": "Trưởng đội cứu hỏa ra lệnh sơ tán."
+            },
+            {
+              "en": "Talk to the chief if you have a complaint.",
+              "vi": "Nói với người đứng đầu nếu bạn có khiếu nại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["head", "boss"],
+      "antonyms": [],
+      "collocations": [
+        "chief executive",
+        "fire chief",
+        "police chief",
+        "chief of staff",
+        "deputy chief"
+      ],
+      "etymology_hint": "From Old French 'chief' meaning 'head, leader' — from Latin 'caput' (head), same root as 'capital'.",
+      "mnemonic_vi": "CHIEF = 'chíp' — 'chí' đứng đầu. Chief executive officer = CEO."
+    },
+    {
+      "word": "lead",
+      "lemma": "lead",
+      "ipa": "/liːd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be in charge of a group or be the first in a competition",
+          "meaning_vi": "dẫn dắt, dẫn đầu",
+          "examples": [
+            {
+              "en": "She leads a team of 10 developers.",
+              "vi": "Cô ấy dẫn dắt team 10 lập trình viên."
+            },
+            {
+              "en": "Việt Nam leads in coffee exports in Asia.",
+              "vi": "Việt Nam dẫn đầu xuất khẩu cà phê châu Á."
+            },
+            {
+              "en": "Who's going to lead today's meeting?",
+              "vi": "Ai sẽ dẫn dắt cuộc họp hôm nay?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["guide", "head"],
+      "antonyms": ["follow"],
+      "collocations": [
+        "lead a team",
+        "lead the way",
+        "lead by example",
+        "team lead",
+        "lead a meeting"
+      ],
+      "etymology_hint": "From Old English 'lǣdan' meaning 'to cause to go with one' — Germanic root, related to 'load' and 'lade'.",
+      "mnemonic_vi": "LEAD = 'lít' — 'lít' đi đầu. Team lead = trưởng nhóm."
+    },
+    {
+      "word": "specialist",
+      "lemma": "specialist",
+      "ipa": "/ˈspeʃəlɪst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who has deep knowledge of a particular subject or job",
+          "meaning_vi": "chuyên viên, chuyên gia",
+          "examples": [
+            {
+              "en": "He's an IT specialist at Vinpearl.",
+              "vi": "Anh ấy là chuyên viên IT ở Vinpearl."
+            },
+            {
+              "en": "You should see a heart specialist for that pain.",
+              "vi": "Bạn nên gặp bác sĩ chuyên khoa tim cho cơn đau đó."
+            },
+            {
+              "en": "She's a marketing specialist with 5 years experience.",
+              "vi": "Cô ấy là chuyên viên marketing 5 năm kinh nghiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expert", "professional"],
+      "antonyms": ["generalist", "amateur"],
+      "collocations": [
+        "marketing specialist",
+        "IT specialist",
+        "medical specialist",
+        "consult a specialist",
+        "lead specialist"
+      ],
+      "etymology_hint": "From 'special' + '-ist' (one who practices) — coined in 19th century for medicine, expanded to all fields.",
+      "mnemonic_vi": "SPECIALIST = SPECIAL + IST → 'người chuyên'. Chuyên 1 lĩnh vực."
+    },
+    {
+      "word": "junior",
+      "lemma": "junior",
+      "ipa": "/ˈdʒuːniə(r)/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "lower in rank, younger, or less experienced",
+          "meaning_vi": "cấp thấp, trẻ hơn (về kinh nghiệm)",
+          "examples": [
+            {
+              "en": "She started as a junior developer at FPT.",
+              "vi": "Cô ấy bắt đầu là junior developer ở FPT."
+            },
+            {
+              "en": "Junior staff don't make big decisions.",
+              "vi": "Nhân viên cấp thấp không ra quyết định lớn."
+            },
+            {
+              "en": "He went from junior to senior in 3 years.",
+              "vi": "Anh ấy lên từ junior tới senior trong 3 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["younger", "subordinate"],
+      "antonyms": ["senior"],
+      "collocations": [
+        "junior staff",
+        "junior developer",
+        "junior position",
+        "junior member",
+        "junior partner"
+      ],
+      "etymology_hint": "From Latin 'junior' meaning 'younger' — comparative form of 'juvenis' (young).",
+      "mnemonic_vi": "JUNIOR = 'júc-ni-ơ' — 'trẻ hơn'. Junior dev = lập trình viên mới."
+    },
+    {
+      "word": "crew",
+      "lemma": "crew",
+      "ipa": "/kruː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a team of people who work together, especially on a ship, plane, or project",
+          "meaning_vi": "phi hành đoàn, nhóm cộng sự",
+          "examples": [
+            {
+              "en": "The flight crew on Vietnam Airlines is very friendly.",
+              "vi": "Phi hành đoàn Vietnam Airlines rất thân thiện."
+            },
+            {
+              "en": "Our film crew has 20 members.",
+              "vi": "Đoàn làm phim của chúng tôi có 20 người."
+            },
+            {
+              "en": "The construction crew works from 7am to 5pm.",
+              "vi": "Tổ thi công làm từ 7 giờ sáng đến 5 giờ chiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["team", "staff"],
+      "antonyms": [],
+      "collocations": [
+        "flight crew",
+        "film crew",
+        "construction crew",
+        "join the crew",
+        "crew member"
+      ],
+      "etymology_hint": "From Old French 'creue' meaning 'an addition, increase' — originally referring to military reinforcements.",
+      "mnemonic_vi": "CREW = 'crú' — 'crợ-u' nhóm cùng làm. Flight crew = tiếp viên hàng không."
+    }
+  ]
+}

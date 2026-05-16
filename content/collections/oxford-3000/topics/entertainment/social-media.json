@@ -1,0 +1,763 @@
+{
+  "slug": "social-media",
+  "name": "Social Media",
+  "description": "Mạng xã hội A2 — follow, story, hashtag, upload, notification, selfie và 14 từ về cuộc sống online.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "follow",
+      "lemma": "follow",
+      "ipa": "/ˈfɒləʊ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to subscribe to someone's account to see their posts",
+          "meaning_vi": "theo dõi (trên mạng xã hội)",
+          "examples": [
+            {
+              "en": "I follow over 200 accounts on Instagram.",
+              "vi": "Tôi theo dõi hơn 200 tài khoản trên Instagram."
+            },
+            {
+              "en": "Follow Sơn Tùng M-TP for the latest music updates.",
+              "vi": "Theo dõi Sơn Tùng M-TP để biết tin nhạc mới."
+            },
+            {
+              "en": "Follow back, please!",
+              "vi": "Theo dõi lại đi nhé!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["subscribe"],
+      "antonyms": ["unfollow"],
+      "collocations": [
+        "follow back",
+        "follow account",
+        "follow on Instagram",
+        "follow trends",
+        "follow updates"
+      ],
+      "etymology_hint": "From Old English 'folgian' meaning 'to accompany' — social media sense developed in 2000s with Twitter.",
+      "mnemonic_vi": "FOLLOW = 'fol-lô' — 'phol' bám sát. Follow on Insta = theo dõi."
+    },
+    {
+      "word": "story",
+      "lemma": "story",
+      "ipa": "/ˈstɔːri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short photo or video shared on social media that disappears after 24 hours",
+          "meaning_vi": "story (bài đăng ngắn biến mất sau 24 giờ)",
+          "examples": [
+            {
+              "en": "She posts a story every day on Instagram.",
+              "vi": "Cô ấy đăng story mỗi ngày trên Instagram."
+            },
+            {
+              "en": "Did you see his story from Đà Lạt?",
+              "vi": "Bạn xem story của anh ấy từ Đà Lạt chưa?"
+            },
+            {
+              "en": "Stories are great for sharing daily moments.",
+              "vi": "Story rất tiện để chia sẻ khoảnh khắc hàng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "post a story",
+        "watch a story",
+        "Instagram story",
+        "share to story",
+        "delete a story"
+      ],
+      "etymology_hint": "From Old French 'estoire' (history, tale) — social media sense popularized by Snapchat in 2013, adopted by Instagram in 2016.",
+      "mnemonic_vi": "STORY = 'stó-ri' — 'cốt truyện 24 tiếng'. Story IG = 24h biến mất."
+    },
+    {
+      "word": "hashtag",
+      "lemma": "hashtag",
+      "ipa": "/ˈhæʃtæɡ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a word or phrase after # used to find related posts on social media",
+          "meaning_vi": "hashtag, thẻ #",
+          "examples": [
+            {
+              "en": "Use the hashtag #VietnamTravel for travel posts.",
+              "vi": "Dùng hashtag #VietnamTravel cho bài đăng du lịch."
+            },
+            {
+              "en": "The hashtag #Tet2025 is trending now.",
+              "vi": "Hashtag #Tet2025 đang trending."
+            },
+            {
+              "en": "Don't use too many hashtags — 5 is enough.",
+              "vi": "Đừng dùng quá nhiều hashtag — 5 là đủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use a hashtag",
+        "trending hashtag",
+        "popular hashtag",
+        "create a hashtag",
+        "click the hashtag"
+      ],
+      "etymology_hint": "Compound of 'hash' (# symbol) + 'tag' — coined in 2007 by Chris Messina on Twitter to group conversations.",
+      "mnemonic_vi": "HASHTAG = HASH + TAG → 'dấu # gắn nhãn'. # = thẻ phân loại."
+    },
+    {
+      "word": "profile",
+      "lemma": "profile",
+      "ipa": "/ˈprəʊfaɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a page on a website that shows information about a person",
+          "meaning_vi": "hồ sơ (cá nhân trên mạng)",
+          "examples": [
+            {
+              "en": "Update your LinkedIn profile before job hunting.",
+              "vi": "Cập nhật hồ sơ LinkedIn trước khi tìm việc."
+            },
+            {
+              "en": "Her profile picture is from her trip to Sapa.",
+              "vi": "Ảnh đại diện của cô ấy chụp từ chuyến Sapa."
+            },
+            {
+              "en": "Don't share too much personal info on your profile.",
+              "vi": "Đừng chia sẻ quá nhiều thông tin cá nhân trên hồ sơ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bio", "page"],
+      "antonyms": [],
+      "collocations": [
+        "profile picture",
+        "update profile",
+        "view profile",
+        "LinkedIn profile",
+        "online profile"
+      ],
+      "etymology_hint": "From Italian 'profilo' meaning 'outline' — original art term for side view, modernized for online identity.",
+      "mnemonic_vi": "PROFILE = 'pro-phai' — 'pờ phai' nhìn nghiêng. Online profile = trang cá nhân."
+    },
+    {
+      "word": "tag",
+      "lemma": "tag",
+      "ipa": "/tæɡ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to mention someone in a post or photo so they get a notification",
+          "meaning_vi": "tag, gắn thẻ ai đó (vào bài đăng)",
+          "examples": [
+            {
+              "en": "Tag your friends in the wedding photos.",
+              "vi": "Tag bạn bè vào ảnh đám cưới."
+            },
+            {
+              "en": "She tagged me in her birthday post.",
+              "vi": "Cô ấy tag tôi trong bài sinh nhật."
+            },
+            {
+              "en": "Don't tag people without their permission.",
+              "vi": "Đừng tag người khác khi chưa xin phép."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mention"],
+      "antonyms": ["untag"],
+      "collocations": [
+        "tag a friend",
+        "tag in a photo",
+        "tag in a post",
+        "untag yourself",
+        "tag along"
+      ],
+      "etymology_hint": "Middle English 'tagge' (small hanging piece) — Internet sense from physical luggage tags identifying ownership.",
+      "mnemonic_vi": "TAG = 'tág' — 'tắc' gắn tên. Tag a friend = gắn thẻ bạn vào."
+    },
+    {
+      "word": "filter",
+      "lemma": "filter",
+      "ipa": "/ˈfɪltə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a special effect added to photos or videos to change how they look",
+          "meaning_vi": "filter, hiệu ứng ảnh",
+          "examples": [
+            {
+              "en": "She always uses a filter on her Instagram photos.",
+              "vi": "Cô ấy luôn dùng filter cho ảnh Instagram."
+            },
+            {
+              "en": "The dog ear filter is so cute!",
+              "vi": "Filter tai chó dễ thương quá!"
+            },
+            {
+              "en": "Without filters, her photos look very natural.",
+              "vi": "Không filter, ảnh cô ấy trông tự nhiên lắm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["effect"],
+      "antonyms": [],
+      "collocations": [
+        "use a filter",
+        "apply a filter",
+        "Instagram filter",
+        "Snapchat filter",
+        "no filter"
+      ],
+      "etymology_hint": "From Medieval Latin 'filtrum' meaning 'felt cloth used for straining' — modern image sense from photography filters.",
+      "mnemonic_vi": "FILTER = 'fíl-tơ' — 'phin' lọc. Filter ảnh = thêm hiệu ứng đẹp."
+    },
+    {
+      "word": "upload",
+      "lemma": "upload",
+      "ipa": "/ˌʌpˈləʊd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to send photos, videos, or files from your device to the internet",
+          "meaning_vi": "tải lên (mạng)",
+          "examples": [
+            {
+              "en": "I uploaded all my Tết photos to Google Drive.",
+              "vi": "Tôi tải hết ảnh Tết lên Google Drive."
+            },
+            {
+              "en": "Upload your CV when you apply for the job.",
+              "vi": "Tải CV lên khi ứng tuyển."
+            },
+            {
+              "en": "The video takes 10 minutes to upload.",
+              "vi": "Video mất 10 phút để tải lên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["post"],
+      "antonyms": ["download"],
+      "collocations": [
+        "upload a video",
+        "upload to YouTube",
+        "upload speed",
+        "upload a file",
+        "upload a photo"
+      ],
+      "etymology_hint": "Compound of 'up' + 'load' — created in 1980s with rise of computer networks; opposite of 'download'.",
+      "mnemonic_vi": "UPLOAD = UP + LOAD → 'tải lên'. Lên trên = up. Download = ngược lại."
+    },
+    {
+      "word": "download",
+      "lemma": "download",
+      "ipa": "/ˌdaʊnˈləʊd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to get a file from the internet onto your device",
+          "meaning_vi": "tải xuống (về máy)",
+          "examples": [
+            {
+              "en": "I downloaded the Grab app to order food.",
+              "vi": "Tôi tải app Grab để gọi đồ ăn."
+            },
+            {
+              "en": "The movie is downloading — it will take 20 minutes.",
+              "vi": "Phim đang tải — sẽ mất 20 phút."
+            },
+            {
+              "en": "Don't download files from unknown websites.",
+              "vi": "Đừng tải file từ website lạ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["upload"],
+      "collocations": [
+        "download an app",
+        "download a file",
+        "free download",
+        "download a song",
+        "download speed"
+      ],
+      "etymology_hint": "Compound of 'down' + 'load' — coined in 1970s for transferring data from main computer to terminal.",
+      "mnemonic_vi": "DOWNLOAD = DOWN + LOAD → 'tải xuống'. Xuống về máy bạn."
+    },
+    {
+      "word": "notification",
+      "lemma": "notification",
+      "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a message your phone shows you when something happens",
+          "meaning_vi": "thông báo (điện thoại, app)",
+          "examples": [
+            {
+              "en": "I get too many notifications from Zalo every day.",
+              "vi": "Tôi nhận quá nhiều thông báo từ Zalo mỗi ngày."
+            },
+            {
+              "en": "Turn off notifications during class.",
+              "vi": "Tắt thông báo trong giờ học."
+            },
+            {
+              "en": "She missed the notification about the meeting.",
+              "vi": "Cô ấy bỏ lỡ thông báo về cuộc họp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alert", "message"],
+      "antonyms": [],
+      "collocations": [
+        "push notification",
+        "turn off notifications",
+        "get a notification",
+        "notification settings",
+        "notification sound"
+      ],
+      "etymology_hint": "From Latin 'notificare' meaning 'to make known' — from 'notus' (known) + 'facere' (to make).",
+      "mnemonic_vi": "NOTIFICATION = NOTIFY + ATION → 'việc báo cho biết'. Thông báo điện thoại."
+    },
+    {
+      "word": "emoji",
+      "lemma": "emoji",
+      "ipa": "/ɪˈməʊdʒi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small picture or icon used in messages to show feelings",
+          "meaning_vi": "emoji, biểu tượng cảm xúc",
+          "examples": [
+            {
+              "en": "She uses a lot of heart emojis in her messages.",
+              "vi": "Cô ấy dùng nhiều emoji trái tim trong tin nhắn."
+            },
+            {
+              "en": "The 😂 is the most popular emoji of the year.",
+              "vi": "Emoji 😂 là phổ biến nhất năm."
+            },
+            {
+              "en": "Don't use too many emojis in work emails.",
+              "vi": "Đừng dùng quá nhiều emoji trong email công việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["emoticon", "smiley"],
+      "antonyms": [],
+      "collocations": [
+        "use an emoji",
+        "heart emoji",
+        "smiley emoji",
+        "emoji keyboard",
+        "favorite emoji"
+      ],
+      "etymology_hint": "From Japanese 'e' (picture) + 'moji' (character) — coined in 1999 by Shigetaka Kurita for Japanese mobile phones.",
+      "mnemonic_vi": "EMOJI = 'i-mô-ji' — 'i, mơ-zi' Nhật Bản. E (picture) + moji (character)."
+    },
+    {
+      "word": "stream",
+      "lemma": "stream",
+      "ipa": "/striːm/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to send or receive video and audio live over the internet",
+          "meaning_vi": "phát trực tiếp, stream",
+          "examples": [
+            {
+              "en": "Many gamers stream on Twitch in Việt Nam.",
+              "vi": "Nhiều game thủ stream trên Twitch ở Việt Nam."
+            },
+            {
+              "en": "I stream Netflix on my TV every night.",
+              "vi": "Tôi xem Netflix trên TV mỗi tối."
+            },
+            {
+              "en": "She streamed her wedding live on Facebook.",
+              "vi": "Cô ấy livestream đám cưới trên Facebook."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["broadcast"],
+      "antonyms": [],
+      "collocations": [
+        "live stream",
+        "stream a movie",
+        "stream a game",
+        "stream on Twitch",
+        "stream content"
+      ],
+      "etymology_hint": "From Old English 'strēam' (flowing water) — digital sense from continuous flow of data, popularized in late 1990s.",
+      "mnemonic_vi": "STREAM = 'strim' — 'sờ trim' dòng chảy. Stream = phát trực tiếp."
+    },
+    {
+      "word": "subscribe",
+      "lemma": "subscribe",
+      "ipa": "/səbˈskraɪb/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to sign up to regularly receive content from a service",
+          "meaning_vi": "đăng ký (kênh, dịch vụ)",
+          "examples": [
+            {
+              "en": "Subscribe to my YouTube channel — Like and Share!",
+              "vi": "Đăng ký kênh YouTube của tôi — Like và Share!"
+            },
+            {
+              "en": "I subscribe to Netflix and Spotify.",
+              "vi": "Tôi đăng ký Netflix và Spotify."
+            },
+            {
+              "en": "Don't forget to subscribe for daily updates.",
+              "vi": "Đừng quên đăng ký để cập nhật mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sign up"],
+      "antonyms": ["unsubscribe"],
+      "collocations": [
+        "subscribe to",
+        "subscribe to a channel",
+        "subscribe to a newsletter",
+        "monthly subscription",
+        "subscribe for free"
+      ],
+      "etymology_hint": "From Latin 'subscribere' meaning 'to write underneath' — original sense of signing one's name to support something.",
+      "mnemonic_vi": "SUBSCRIBE = SUB + SCRIBE → 'viết tên dưới'. Đăng ký theo dõi."
+    },
+    {
+      "word": "block",
+      "lemma": "block",
+      "ipa": "/blɒk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to stop someone from contacting you or seeing your account online",
+          "meaning_vi": "chặn (ai đó trên mạng)",
+          "examples": [
+            {
+              "en": "I blocked the spam account immediately.",
+              "vi": "Tôi chặn tài khoản spam ngay lập tức."
+            },
+            {
+              "en": "She blocked her ex-boyfriend on Facebook.",
+              "vi": "Cô ấy chặn người yêu cũ trên Facebook."
+            },
+            {
+              "en": "Don't be afraid to block toxic people.",
+              "vi": "Đừng ngại chặn người độc hại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ban"],
+      "antonyms": ["unblock"],
+      "collocations": [
+        "block someone",
+        "block an account",
+        "block a number",
+        "blocked list",
+        "block forever"
+      ],
+      "etymology_hint": "From Middle French 'bloc' meaning 'block of wood' — sense of preventing developed from physical blocking.",
+      "mnemonic_vi": "BLOCK = 'blốc' — 'bốc' chặn. Block on Facebook = chặn trên FB."
+    },
+    {
+      "word": "mute",
+      "lemma": "mute",
+      "ipa": "/mjuːt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to silence sound or notifications from a person or chat",
+          "meaning_vi": "tắt tiếng, mute (tin nhắn)",
+          "examples": [
+            {
+              "en": "I mute the group chat when I need to sleep.",
+              "vi": "Tôi tắt tiếng nhóm chat khi cần ngủ."
+            },
+            {
+              "en": "Please mute yourself during the Zoom meeting.",
+              "vi": "Vui lòng tắt mic trong cuộc họp Zoom."
+            },
+            {
+              "en": "Mute the loud notifications, they're annoying.",
+              "vi": "Tắt thông báo ồn ào đi, phiền lắm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["silence"],
+      "antonyms": ["unmute"],
+      "collocations": [
+        "mute the chat",
+        "mute notifications",
+        "mute yourself",
+        "mute button",
+        "stay muted"
+      ],
+      "etymology_hint": "From Latin 'mutus' meaning 'silent' — also root of 'mutter' (to speak quietly).",
+      "mnemonic_vi": "MUTE = 'miút' — 'mịt' kín tiếng. Mute mic = tắt mic."
+    },
+    {
+      "word": "caption",
+      "lemma": "caption",
+      "ipa": "/ˈkæpʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the words written under a photo or video to describe it",
+          "meaning_vi": "chú thích (dưới ảnh, video)",
+          "examples": [
+            {
+              "en": "Her caption was just a single emoji 🌸.",
+              "vi": "Caption của cô ấy chỉ là một emoji 🌸."
+            },
+            {
+              "en": "Write a witty caption for your travel photo.",
+              "vi": "Viết caption hài hước cho ảnh du lịch."
+            },
+            {
+              "en": "Captions help people understand video without sound.",
+              "vi": "Caption giúp người ta hiểu video không cần âm thanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["subtitle", "title"],
+      "antonyms": [],
+      "collocations": [
+        "write a caption",
+        "Instagram caption",
+        "photo caption",
+        "witty caption",
+        "caption contest"
+      ],
+      "etymology_hint": "From Latin 'captio' meaning 'a taking, seizing' — sense of 'title text' developed in 17th century from printed materials.",
+      "mnemonic_vi": "CAPTION = 'cáp-shờn' — 'cấp xơn' lời dưới ảnh. Photo caption = chú thích ảnh."
+    },
+    {
+      "word": "selfie",
+      "lemma": "selfie",
+      "ipa": "/ˈselfi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a photo you take of yourself, usually with a phone",
+          "meaning_vi": "ảnh tự sướng, selfie",
+          "examples": [
+            {
+              "en": "Let's take a selfie at the top of Bà Nà Hills.",
+              "vi": "Chụp selfie ở đỉnh Bà Nà Hills nào."
+            },
+            {
+              "en": "Her selfies always get hundreds of likes.",
+              "vi": "Selfie của cô ấy luôn được hàng trăm like."
+            },
+            {
+              "en": "He uses a selfie stick to take group photos.",
+              "vi": "Anh ấy dùng gậy selfie để chụp ảnh nhóm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "take a selfie",
+        "selfie stick",
+        "group selfie",
+        "post a selfie",
+        "selfie camera"
+      ],
+      "etymology_hint": "Australian English coinage in 2002 from 'self' + '-ie' suffix — Oxford Dictionaries Word of the Year 2013.",
+      "mnemonic_vi": "SELFIE = SELF + IE → 'tự mình'. Tự chụp ảnh chính mình."
+    },
+    {
+      "word": "trending",
+      "lemma": "trending",
+      "ipa": "/ˈtrendɪŋ/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "being popular and discussed by many people online right now",
+          "meaning_vi": "đang hot, đang trending",
+          "examples": [
+            {
+              "en": "This dance challenge is trending on TikTok.",
+              "vi": "Thử thách nhảy này đang trending trên TikTok."
+            },
+            {
+              "en": "Check what's trending on Twitter today.",
+              "vi": "Xem cái gì đang trending trên Twitter hôm nay."
+            },
+            {
+              "en": "The bánh mì recipe video is trending worldwide.",
+              "vi": "Video công thức bánh mì đang hot toàn thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["popular", "viral"],
+      "antonyms": [],
+      "collocations": [
+        "trending topic",
+        "trending hashtag",
+        "currently trending",
+        "trending now",
+        "trending video"
+      ],
+      "etymology_hint": "Present participle of 'trend' — modern internet usage from Twitter's 'Trending Topics' feature, launched 2008.",
+      "mnemonic_vi": "TRENDING = TREND + ING → 'đang theo xu hướng'. Đang hot."
+    },
+    {
+      "word": "unfollow",
+      "lemma": "unfollow",
+      "ipa": "/ʌnˈfɒləʊ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to stop subscribing to someone's account on social media",
+          "meaning_vi": "bỏ theo dõi",
+          "examples": [
+            {
+              "en": "I unfollowed accounts that post fake news.",
+              "vi": "Tôi bỏ theo dõi tài khoản đăng tin giả."
+            },
+            {
+              "en": "She unfollowed her ex after the breakup.",
+              "vi": "Cô ấy bỏ theo dõi người yêu cũ sau chia tay."
+            },
+            {
+              "en": "Don't unfollow me — I'll post better content soon!",
+              "vi": "Đừng bỏ theo dõi tôi — sắp đăng bài hay hơn!"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["follow"],
+      "collocations": [
+        "unfollow someone",
+        "quietly unfollow",
+        "unfollow back",
+        "unfollow account",
+        "decide to unfollow"
+      ],
+      "etymology_hint": "Modern compound of 'un-' (reversal) + 'follow' — coined alongside social media follow systems in late 2000s.",
+      "mnemonic_vi": "UNFOLLOW = UN + FOLLOW → 'ngược follow'. Bỏ theo dõi."
+    },
+    {
+      "word": "swipe",
+      "lemma": "swipe",
+      "ipa": "/swaɪp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to move your finger across a phone screen to scroll or navigate",
+          "meaning_vi": "vuốt (màn hình)",
+          "examples": [
+            {
+              "en": "Swipe up to see the next TikTok video.",
+              "vi": "Vuốt lên để xem video TikTok tiếp."
+            },
+            {
+              "en": "Swipe left on Tinder to skip a profile.",
+              "vi": "Vuốt trái trên Tinder để bỏ qua hồ sơ."
+            },
+            {
+              "en": "She swipes through her camera roll for hours.",
+              "vi": "Cô ấy lướt ảnh trong máy hàng giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["slide"],
+      "antonyms": [],
+      "collocations": ["swipe up", "swipe down", "swipe left", "swipe right", "swipe through"],
+      "etymology_hint": "Origin uncertain — Middle English 'swipen' meaning 'to sweep' developed touchscreen sense in 2007 with iPhone.",
+      "mnemonic_vi": "SWIPE = 'swai-p' — 'sờ vẽ' tay vuốt. Swipe up = vuốt lên."
+    },
+    {
+      "word": "status",
+      "lemma": "status",
+      "ipa": "/ˈsteɪtəs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short message or update that you post on social media about yourself",
+          "meaning_vi": "trạng thái, status (Facebook)",
+          "examples": [
+            {
+              "en": "Her status said 'feeling happy 😊'.",
+              "vi": "Status của cô ấy ghi 'feeling happy 😊'."
+            },
+            {
+              "en": "He updated his relationship status to 'married'.",
+              "vi": "Anh ấy cập nhật tình trạng thành 'đã kết hôn'."
+            },
+            {
+              "en": "Don't post angry status — you'll regret it.",
+              "vi": "Đừng đăng status giận — sẽ hối hận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["update", "post"],
+      "antonyms": [],
+      "collocations": [
+        "update status",
+        "Facebook status",
+        "relationship status",
+        "post a status",
+        "status message"
+      ],
+      "etymology_hint": "From Latin 'status' meaning 'standing, condition' — social media sense from MSN/AOL chat presence indicators.",
+      "mnemonic_vi": "STATUS = 'stếu-tớt' — 'sờ tâm trạng'. Status FB = trạng thái."
+    }
+  ]
+}

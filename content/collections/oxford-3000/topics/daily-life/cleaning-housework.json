@@ -1,0 +1,751 @@
+{
+  "slug": "cleaning-housework",
+  "name": "Cleaning & Housework",
+  "description": "Việc nhà và dọn dẹp A2 — vacuum, sweep, mop, laundry, garbage và 15 từ về housework hằng ngày.",
+  "order_index": 13,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "vacuum",
+      "lemma": "vacuum",
+      "ipa": "/ˈvækjuːm/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to clean a floor or carpet using a machine that sucks up dust",
+          "meaning_vi": "hút bụi (bằng máy hút bụi)",
+          "examples": [
+            {
+              "en": "I vacuum the living room every weekend.",
+              "vi": "Tôi hút bụi phòng khách mỗi cuối tuần."
+            },
+            {
+              "en": "Vacuum under the bed — it's very dusty.",
+              "vi": "Hút bụi gầm giường — bụi nhiều lắm."
+            },
+            {
+              "en": "She bought a robot vacuum from Điện Máy Xanh.",
+              "vi": "Cô ấy mua robot hút bụi ở Điện Máy Xanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hoover"],
+      "antonyms": [],
+      "collocations": [
+        "vacuum the floor",
+        "vacuum cleaner",
+        "robot vacuum",
+        "vacuum daily",
+        "vacuum the carpet"
+      ],
+      "etymology_hint": "From Latin 'vacuus' meaning 'empty' — sense of cleaning machine from creating empty space (suction).",
+      "mnemonic_vi": "VACUUM = 'vắc-kium' — 'vắc' hút sạch. Robot vacuum = robot dọn nhà."
+    },
+    {
+      "word": "sweep",
+      "lemma": "sweep",
+      "ipa": "/swiːp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to clean a floor by pushing dirt off it with a broom",
+          "meaning_vi": "quét (bằng chổi)",
+          "examples": [
+            {
+              "en": "Sweep the courtyard before guests arrive.",
+              "vi": "Quét sân trước khi khách đến."
+            },
+            {
+              "en": "My grandma still sweeps with a bamboo broom.",
+              "vi": "Bà tôi vẫn quét bằng chổi tre."
+            },
+            {
+              "en": "Sweep the leaves into a pile.",
+              "vi": "Quét lá thành đống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brush"],
+      "antonyms": [],
+      "collocations": [
+        "sweep the floor",
+        "sweep up",
+        "sweep away",
+        "sweep the leaves",
+        "sweep clean"
+      ],
+      "etymology_hint": "From Old English 'swāpan' meaning 'to sweep' — Germanic root, related to 'swoop' (sudden downward motion).",
+      "mnemonic_vi": "SWEEP = 'súp' — 'sờ-úp' đẩy bụi. Sweep the floor = quét sàn."
+    },
+    {
+      "word": "mop",
+      "lemma": "mop",
+      "ipa": "/mɒp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to clean a floor with a wet cloth or stick that has soft material at the end",
+          "meaning_vi": "lau sàn (bằng giẻ ướt)",
+          "examples": [
+            {
+              "en": "Mop the kitchen after cooking phở.",
+              "vi": "Lau bếp sau khi nấu phở."
+            },
+            {
+              "en": "He spilled coffee — get a mop quickly!",
+              "vi": "Anh ấy đổ cà phê — lấy cây lau nhà nhanh!"
+            },
+            {
+              "en": "She mops the bathroom floor twice a week.",
+              "vi": "Cô ấy lau sàn nhà tắm 2 lần một tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wipe", "swab"],
+      "antonyms": [],
+      "collocations": ["mop the floor", "mop up", "wet mop", "mop and bucket", "mop the spill"],
+      "etymology_hint": "From Latin 'mappa' meaning 'napkin, cloth' — same root as 'map' (originally drawn on cloth).",
+      "mnemonic_vi": "MOP = 'mốp' — 'mọp' xuống sàn lau. Mop and bucket = cây lau và xô."
+    },
+    {
+      "word": "dust",
+      "lemma": "dust",
+      "ipa": "/dʌst/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to remove small bits of dirt or powder from a surface",
+          "meaning_vi": "phủi bụi, lau bụi",
+          "examples": [
+            {
+              "en": "She dusts the bookshelves every Sunday.",
+              "vi": "Cô ấy phủi bụi kệ sách mỗi Chủ Nhật."
+            },
+            {
+              "en": "Dust the TV before guests come.",
+              "vi": "Phủi bụi TV trước khi khách đến."
+            },
+            {
+              "en": "Hà Nội streets are dusty all year round.",
+              "vi": "Phố Hà Nội đầy bụi quanh năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wipe down"],
+      "antonyms": [],
+      "collocations": [
+        "dust the furniture",
+        "dust off",
+        "dust-free",
+        "dust the shelves",
+        "thick layer of dust"
+      ],
+      "etymology_hint": "From Old English 'dūst' — Germanic root, related to 'dūn' (powder).",
+      "mnemonic_vi": "DUST = 'đắt' — 'đập đập' phủi bụi. Dust the shelves = phủi bụi kệ."
+    },
+    {
+      "word": "laundry",
+      "lemma": "laundry",
+      "ipa": "/ˈlɔːndri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "clothes that need washing or have just been washed",
+          "meaning_vi": "đồ giặt, việc giặt giũ",
+          "examples": [
+            {
+              "en": "I do the laundry every Sunday morning.",
+              "vi": "Tôi giặt đồ mỗi sáng Chủ Nhật."
+            },
+            {
+              "en": "Don't leave wet laundry in the machine all night.",
+              "vi": "Đừng để đồ giặt ướt trong máy cả đêm."
+            },
+            {
+              "en": "Many apartments in Sài Gòn have laundry on the balcony.",
+              "vi": "Nhiều căn hộ ở Sài Gòn phơi đồ ngoài ban công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["washing"],
+      "antonyms": [],
+      "collocations": [
+        "do the laundry",
+        "dirty laundry",
+        "laundry basket",
+        "laundry detergent",
+        "fold the laundry"
+      ],
+      "etymology_hint": "From Old French 'lavanderie' meaning 'place of washing' — from Latin 'lavare' (to wash).",
+      "mnemonic_vi": "LAUNDRY = 'lon-đri' — 'lông dài' rộng. Do the laundry = đi giặt đồ."
+    },
+    {
+      "word": "iron",
+      "lemma": "iron",
+      "ipa": "/ˈaɪən/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make clothes smooth by using a hot device",
+          "meaning_vi": "là, ủi (quần áo)",
+          "examples": [
+            {
+              "en": "I iron my work shirts every Sunday evening.",
+              "vi": "Tôi ủi áo công sở mỗi tối Chủ Nhật."
+            },
+            {
+              "en": "Don't iron silk on high heat — it will burn.",
+              "vi": "Đừng ủi lụa nhiệt cao — sẽ bị cháy."
+            },
+            {
+              "en": "Vietnamese men often have their pants ironed daily.",
+              "vi": "Đàn ông Việt thường ủi quần mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["press"],
+      "antonyms": [],
+      "collocations": [
+        "iron a shirt",
+        "iron the clothes",
+        "ironing board",
+        "iron flat",
+        "newly ironed"
+      ],
+      "etymology_hint": "From Old English 'īsern' (iron metal) — verb sense from ironing devices originally made of iron.",
+      "mnemonic_vi": "IRON = 'ai-ơn' — 'ay ơn' nóng. Ủi quần áo dùng nhiệt."
+    },
+    {
+      "word": "dishwasher",
+      "lemma": "dishwasher",
+      "ipa": "/ˈdɪʃwɒʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a machine that washes dirty dishes automatically",
+          "meaning_vi": "máy rửa bát",
+          "examples": [
+            {
+              "en": "We don't have a dishwasher — we wash by hand.",
+              "vi": "Chúng tôi không có máy rửa bát — phải rửa tay."
+            },
+            {
+              "en": "Load the dishwasher after dinner.",
+              "vi": "Xếp bát vào máy rửa sau bữa tối."
+            },
+            {
+              "en": "A dishwasher saves a lot of time for big families.",
+              "vi": "Máy rửa bát tiết kiệm rất nhiều thời gian cho gia đình đông."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "load the dishwasher",
+        "empty the dishwasher",
+        "dishwasher safe",
+        "dishwasher tablet",
+        "run the dishwasher"
+      ],
+      "etymology_hint": "Compound of 'dish' + 'washer' — first patented in 1850s, became common household appliance in 1970s.",
+      "mnemonic_vi": "DISHWASHER = DISH + WASHER → 'máy rửa bát'. Đỡ phải tay rửa từng cái."
+    },
+    {
+      "word": "garbage",
+      "lemma": "garbage",
+      "ipa": "/ˈɡɑːbɪdʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "things you throw away because you don't want them anymore",
+          "meaning_vi": "rác, đồ bỏ đi",
+          "examples": [
+            {
+              "en": "Take out the garbage before bed.",
+              "vi": "Đem rác đi đổ trước khi đi ngủ."
+            },
+            {
+              "en": "Garbage collection is at 6am here.",
+              "vi": "Xe rác đến lúc 6 giờ sáng ở đây."
+            },
+            {
+              "en": "Don't throw garbage on the street, please.",
+              "vi": "Vui lòng đừng vứt rác ngoài đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rubbish", "trash", "waste"],
+      "antonyms": [],
+      "collocations": [
+        "take out the garbage",
+        "garbage can",
+        "garbage truck",
+        "garbage bag",
+        "garbage collection"
+      ],
+      "etymology_hint": "Origin uncertain — possibly from Old French 'garbe' meaning 'bundle of grain' (kitchen waste from grain processing).",
+      "mnemonic_vi": "GARBAGE = 'gáp-bít' — 'gấp bịt' túi rác. Take out the garbage = đem rác ra."
+    },
+    {
+      "word": "tidy",
+      "lemma": "tidy",
+      "ipa": "/ˈtaɪdi/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "arranged neatly with everything in its proper place",
+          "meaning_vi": "gọn gàng, ngăn nắp",
+          "examples": [
+            {
+              "en": "Her bedroom is always tidy.",
+              "vi": "Phòng ngủ của cô ấy luôn gọn gàng."
+            },
+            {
+              "en": "Please keep the kitchen tidy.",
+              "vi": "Hãy giữ bếp gọn gàng."
+            },
+            {
+              "en": "He's not very tidy — books everywhere on the floor.",
+              "vi": "Anh ấy không gọn — sách vứt lung tung trên sàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["neat", "organized"],
+      "antonyms": ["messy", "untidy"],
+      "collocations": ["tidy room", "tidy up", "keep tidy", "tidy desk", "neat and tidy"],
+      "etymology_hint": "From 'tide' (time, season) + '-y' — originally 'timely, in season', sense shifted to 'orderly' in Middle English.",
+      "mnemonic_vi": "TIDY = 'tai-đi' — 'tay đi' xếp gọn. Tidy room = phòng ngăn nắp."
+    },
+    {
+      "word": "broom",
+      "lemma": "broom",
+      "ipa": "/bruːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a brush with a long handle used for sweeping floors",
+          "meaning_vi": "cái chổi",
+          "examples": [
+            {
+              "en": "Get the broom and sweep the kitchen.",
+              "vi": "Lấy chổi và quét bếp."
+            },
+            {
+              "en": "Bamboo brooms are common in Vietnamese homes.",
+              "vi": "Chổi tre phổ biến trong nhà Việt Nam."
+            },
+            {
+              "en": "The broom is in the corner of the laundry room.",
+              "vi": "Chổi ở góc phòng giặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brush"],
+      "antonyms": [],
+      "collocations": [
+        "sweep with a broom",
+        "wooden broom",
+        "broom handle",
+        "broomstick",
+        "new broom"
+      ],
+      "etymology_hint": "From Old English 'brōm' — originally a type of shrub whose twigs were used to make brooms.",
+      "mnemonic_vi": "BROOM = 'brum' — 'brum brum' đẩy bụi. Witch's broom = chổi phù thủy."
+    },
+    {
+      "word": "bucket",
+      "lemma": "bucket",
+      "ipa": "/ˈbʌkɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a round open container with a handle, used for carrying water",
+          "meaning_vi": "cái xô, thùng",
+          "examples": [
+            {
+              "en": "Fill the bucket with soapy water.",
+              "vi": "Đổ nước xà phòng đầy xô."
+            },
+            {
+              "en": "She carried a bucket of rice from the truck.",
+              "vi": "Cô ấy xách xô gạo từ xe tải."
+            },
+            {
+              "en": "Use a bucket and mop to clean the floor.",
+              "vi": "Dùng xô và cây lau để lau sàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pail"],
+      "antonyms": [],
+      "collocations": [
+        "fill a bucket",
+        "bucket of water",
+        "plastic bucket",
+        "kick the bucket",
+        "bucket list"
+      ],
+      "etymology_hint": "From Old French 'buquet' meaning 'tub, pail' — from Latin 'buccia' (small jug).",
+      "mnemonic_vi": "BUCKET = 'bắc-kịt' — 'bắc bốc' nước. Bucket list = list trước khi 'kick the bucket'."
+    },
+    {
+      "word": "wipe",
+      "lemma": "wipe",
+      "ipa": "/waɪp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to clean or dry something by rubbing it with a cloth or tissue",
+          "meaning_vi": "lau (bằng giẻ, khăn)",
+          "examples": [
+            {
+              "en": "Wipe the table after eating.",
+              "vi": "Lau bàn sau khi ăn."
+            },
+            {
+              "en": "She wiped her hands on her apron.",
+              "vi": "Cô ấy lau tay vào tạp dề."
+            },
+            {
+              "en": "Wipe up the spill before someone slips.",
+              "vi": "Lau chỗ đổ trước khi có ai trượt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clean", "rub"],
+      "antonyms": [],
+      "collocations": ["wipe down", "wipe up", "wipe clean", "wipe the table", "wipe away"],
+      "etymology_hint": "From Old English 'wīpian' meaning 'to wipe, rub' — Germanic root, related to German 'wischen'.",
+      "mnemonic_vi": "WIPE = 'wai-p' — 'oai phẳng' tay lau. Wet wipes = khăn giấy ướt."
+    },
+    {
+      "word": "polish",
+      "lemma": "polish",
+      "ipa": "/ˈpɒlɪʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make something smooth and shiny by rubbing it",
+          "meaning_vi": "đánh bóng (giày, đồ kim loại)",
+          "examples": [
+            {
+              "en": "He polishes his leather shoes every Sunday.",
+              "vi": "Anh ấy đánh bóng giày da mỗi Chủ Nhật."
+            },
+            {
+              "en": "Polish the silver before the wedding dinner.",
+              "vi": "Đánh bóng bộ đồ bạc trước tiệc cưới."
+            },
+            {
+              "en": "She polished the floor until it shined.",
+              "vi": "Cô ấy đánh sàn đến khi bóng loáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shine", "buff"],
+      "antonyms": [],
+      "collocations": [
+        "polish the floor",
+        "polish your shoes",
+        "shoe polish",
+        "polish silver",
+        "high polish"
+      ],
+      "etymology_hint": "From Old French 'polir' meaning 'to make smooth' — from Latin 'polire' (to polish).",
+      "mnemonic_vi": "POLISH = 'po-lít' — 'pôi lít' chà cho bóng. Shoe polish = xi đánh giày."
+    },
+    {
+      "word": "stain",
+      "lemma": "stain",
+      "ipa": "/steɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a dirty mark on something that is hard to remove",
+          "meaning_vi": "vết bẩn, vết ố",
+          "examples": [
+            {
+              "en": "There's a coffee stain on my white shirt.",
+              "vi": "Có vết cà phê trên áo trắng của tôi."
+            },
+            {
+              "en": "Phở broth stains are hard to wash out.",
+              "vi": "Vết phở rất khó giặt sạch."
+            },
+            {
+              "en": "Use baking soda to remove stains.",
+              "vi": "Dùng baking soda để tẩy vết bẩn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mark", "spot"],
+      "antonyms": [],
+      "collocations": [
+        "remove a stain",
+        "coffee stain",
+        "blood stain",
+        "stain remover",
+        "leave a stain"
+      ],
+      "etymology_hint": "From Old French 'desteindre' meaning 'to remove colour' — sense reversed in English to 'leave a mark'.",
+      "mnemonic_vi": "STAIN = 'stên' — 'sờ tên' không xóa được. Stain remover = chất tẩy vết bẩn."
+    },
+    {
+      "word": "sponge",
+      "lemma": "sponge",
+      "ipa": "/spʌndʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a soft material with small holes that absorbs water, used for cleaning",
+          "meaning_vi": "bọt biển, miếng rửa bát",
+          "examples": [
+            {
+              "en": "Use a sponge to wash the dishes.",
+              "vi": "Dùng bọt biển để rửa bát."
+            },
+            {
+              "en": "The sponge is full of soapy water.",
+              "vi": "Miếng bọt biển đầy nước xà phòng."
+            },
+            {
+              "en": "Squeeze the sponge dry after washing.",
+              "vi": "Vắt khô bọt biển sau khi rửa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "wash with a sponge",
+        "wet sponge",
+        "sponge cake",
+        "kitchen sponge",
+        "absorb like a sponge"
+      ],
+      "etymology_hint": "From Greek 'spongia' — originally referring to the sea animal whose dried skeleton was used for cleaning.",
+      "mnemonic_vi": "SPONGE = 'spăn-dz' — 'sờ-pung' bóp nước. Sponge cake = bánh bông lan."
+    },
+    {
+      "word": "detergent",
+      "lemma": "detergent",
+      "ipa": "/dɪˈtɜːdʒənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a powder or liquid used for washing clothes, dishes, or surfaces",
+          "meaning_vi": "bột giặt, chất tẩy rửa",
+          "examples": [
+            {
+              "en": "Tide and OMO are popular detergent brands.",
+              "vi": "Tide và OMO là thương hiệu bột giặt phổ biến."
+            },
+            {
+              "en": "Use too much detergent and the clothes won't rinse well.",
+              "vi": "Dùng quá nhiều bột giặt thì đồ không xả sạch."
+            },
+            {
+              "en": "Liquid detergent works better in cold water.",
+              "vi": "Nước giặt hoạt động tốt hơn ở nước lạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["soap", "cleaner"],
+      "antonyms": [],
+      "collocations": [
+        "laundry detergent",
+        "dish detergent",
+        "liquid detergent",
+        "powder detergent",
+        "scoop of detergent"
+      ],
+      "etymology_hint": "From Latin 'detergere' meaning 'to wipe away' — from 'de-' (off) + 'tergere' (to wipe).",
+      "mnemonic_vi": "DETERGENT = DE + TERG → 'lau sạch đi'. Bột giặt, nước rửa."
+    },
+    {
+      "word": "rubbish",
+      "lemma": "rubbish",
+      "ipa": "/ˈrʌbɪʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "things you do not want any more; garbage (British English)",
+          "meaning_vi": "rác (British, đồng nghĩa garbage)",
+          "examples": [
+            {
+              "en": "Throw the rubbish in the bin, not on the floor.",
+              "vi": "Vứt rác vào thùng, không phải xuống sàn."
+            },
+            {
+              "en": "Rubbish collection in our area is on Tuesdays.",
+              "vi": "Thu gom rác khu vực chúng tôi vào thứ Ba."
+            },
+            {
+              "en": "That movie was rubbish — don't waste your time.",
+              "vi": "Phim đó dở tệ — đừng phí thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["garbage", "trash", "waste"],
+      "antonyms": [],
+      "collocations": [
+        "throw out the rubbish",
+        "rubbish bin",
+        "rubbish dump",
+        "talking rubbish",
+        "load of rubbish"
+      ],
+      "etymology_hint": "From Anglo-Norman 'rubbous' meaning 'rubble, broken stones' — sense expanded to mean any unwanted things.",
+      "mnemonic_vi": "RUBBISH = 'rắp-bích' — 'rớp bịt' bỏ đi. British = rubbish, American = garbage/trash."
+    },
+    {
+      "word": "chore",
+      "lemma": "chore",
+      "ipa": "/tʃɔː(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small task that needs to be done regularly, often boring",
+          "meaning_vi": "việc vặt nhà, việc lặt vặt",
+          "examples": [
+            {
+              "en": "Doing the dishes is my least favorite chore.",
+              "vi": "Rửa bát là việc nhà tôi ít thích nhất."
+            },
+            {
+              "en": "Kids should learn to help with household chores.",
+              "vi": "Trẻ em nên học giúp việc nhà."
+            },
+            {
+              "en": "Cleaning the bathroom is a weekly chore.",
+              "vi": "Cọ nhà tắm là việc nhà hàng tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["task", "duty"],
+      "antonyms": ["fun", "leisure"],
+      "collocations": [
+        "household chores",
+        "daily chores",
+        "do the chores",
+        "tedious chore",
+        "share the chores"
+      ],
+      "etymology_hint": "American English variant of British 'char' (small task) — from Old English 'cierr' (turn, occasion).",
+      "mnemonic_vi": "CHORE = 'chór' — 'chợ' đi chợ là 1 chore. Việc lặt vặt phải làm."
+    },
+    {
+      "word": "maid",
+      "lemma": "maid",
+      "ipa": "/meɪd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a woman who is paid to clean and do housework",
+          "meaning_vi": "người giúp việc nhà (nữ)",
+          "examples": [
+            {
+              "en": "Many Vietnamese families hire a maid for housework.",
+              "vi": "Nhiều gia đình Việt thuê người giúp việc cho việc nhà."
+            },
+            {
+              "en": "The hotel maid cleaned our room every morning.",
+              "vi": "Người dọn phòng khách sạn dọn phòng mỗi sáng."
+            },
+            {
+              "en": "She's been our maid for 10 years now.",
+              "vi": "Cô ấy đã là giúp việc của nhà chúng tôi 10 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["housekeeper", "cleaner"],
+      "antonyms": [],
+      "collocations": [
+        "hire a maid",
+        "hotel maid",
+        "maid service",
+        "live-in maid",
+        "part-time maid"
+      ],
+      "etymology_hint": "Short for 'maiden' from Old English 'mægden' meaning 'young woman' — sense narrowed to 'female servant' in Middle English.",
+      "mnemonic_vi": "MAID = 'mêi' — 'me-i' nhân viên giúp nhà. Hotel maid = dọn phòng KS."
+    },
+    {
+      "word": "spotless",
+      "lemma": "spotless",
+      "ipa": "/ˈspɒtləs/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "completely clean with no dirt or marks",
+          "meaning_vi": "sạch bóng, không một vết",
+          "examples": [
+            {
+              "en": "Her kitchen is always spotless.",
+              "vi": "Bếp của cô ấy luôn sạch bóng."
+            },
+            {
+              "en": "He keeps his motorbike spotless.",
+              "vi": "Anh ấy giữ xe máy sạch bóng."
+            },
+            {
+              "en": "The new hotel has spotless rooms.",
+              "vi": "Khách sạn mới có phòng sạch không tì vết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["immaculate", "pristine"],
+      "antonyms": ["dirty", "filthy"],
+      "collocations": [
+        "spotless record",
+        "spotless kitchen",
+        "keep spotless",
+        "spotless white",
+        "spotless reputation"
+      ],
+      "etymology_hint": "Compound of 'spot' + '-less' — Middle English construction meaning 'without spots'.",
+      "mnemonic_vi": "SPOTLESS = SPOT + LESS → 'không vết'. Sạch hoàn hảo."
+    }
+  ]
+}
