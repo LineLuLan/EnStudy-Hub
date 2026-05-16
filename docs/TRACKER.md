@@ -421,6 +421,32 @@ Mục tiêu: nâng cấp UX `/decks` lên production-grade sau khi seed 1340 car
 
 ---
 
+## Content expansion P5-P12 (Post-MVP) — Coverage Oxford 3000 lên 100%
+
+Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
+
+- [x] **P5 Common Core** (10 lessons / 200 cards, 2026-05-16) — articles-determiners, pronouns-basic, prepositions-place, prepositions-time-other, conjunctions-basic, core-be-do-have, core-action-verbs, core-mental-verbs, core-adjectives, core-adverbs. New topic `common-core`.
+- [x] **P6 A1 fillers** (15 lessons / 300 cards, 2026-05-16) — colors-basic, shapes-sizes, common-a1-verbs-1/2, common-a1-adj/adv/nouns, body-parts-ext, food-cooking, clothes-accessories-ext, transport-vehicles-ext, numbers-quantities-ext, weather-seasons-ext, time-words-ext, family-people-ext.
+- [x] **P7a A2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `eb4c659` trên be → merge `09a3db8` lên dev → sync `f9bed4d` xuống fe):
+  - `daily-life/shopping-money` — purchase, sell, price, cost, discount, sale, bargain, receipt, cash, basket, trolley, cashier, brand, customer, afford, offer, coupon, stock, deliver, fit
+  - `people/feelings-extended` — anxious, disappointed, furious, delighted, amazed, upset, stressed, content, annoyed, shocked, terrified, thrilled, homesick, miserable, eager, astonished, regret, fear, joy, mood
+  - `work-business/email-communication` — reply, forward, attach, attachment, subject, inbox, spam, draft, recipient, urgent, signature, sincerely, regards, delete, chat, message, sender, request, confirm, link
+  - `education/study-techniques` — note, highlight, outline, flashcard, chapter, paragraph, search, define, lecture, goal, method, technique, resource, topic, chart, diagram, break, quote, format, organize
+  - `daily-life/housing-utilities` — rent, deposit, lease, mortgage, landlord, tenant, utility, electricity, gas, internet, repair, plumber, electrician, furnished, basement, driveway, hallway, roof, lock, leak
+  - Quality bar: British IPA, VN context dày (FPT/Vincom/Shopee/Lotte/Highlands/Tết/Vietcombank/Zalo/Momo/Grab/BlackPink/Hạ Long Bay…), mnemonic wordplay, etymology narratives, 0-3 syn / 0-2 ant / 4-5 collocations. Collision check via grep — 100/100 NEW words.
+  - Gates green (typecheck 0, lint 0, 179/179 tests). Seed live: **72 lessons / 1440 cards** (~37% Oxford 3000).
+- [ ] **P7b A2 expansion remaining** (~5 lessons / 100 cards) — TODO next session
+- [ ] **P7c A2 expansion remaining** (~10 lessons / 200 cards) — TODO
+- [ ] **P8 B1 part 1** (25 lessons / 500 cards) — TODO
+- [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
+- [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
+- [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
+- [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
+
+**Progress**: 72/192 lessons (37.5%), 1440/3840 cards (37.5%), ~37% Oxford 3000 coverage.
+
+---
+
 ## Backlog (Post-MVP)
 
 Xem `../VOCAB_APP_BLUEPRINT.md` Phần 9.
