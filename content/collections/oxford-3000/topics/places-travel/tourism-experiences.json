@@ -1,0 +1,757 @@
+{
+  "slug": "tourism-experiences",
+  "name": "Tourism Experiences",
+  "description": "Trải nghiệm du lịch A2 — souvenir, guide, attraction, landmark, itinerary và 15 từ về tham quan, khám phá.",
+  "order_index": 8,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "souvenir",
+      "lemma": "souvenir",
+      "ipa": "/ˌsuːvəˈnɪə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small thing you buy or keep to remember a place you visited",
+          "meaning_vi": "quà lưu niệm",
+          "examples": [
+            {
+              "en": "I bought a conical hat as a souvenir from Hội An.",
+              "vi": "Tôi mua nón lá làm quà lưu niệm từ Hội An."
+            },
+            {
+              "en": "Phú Quốc has many souvenir shops near the beach.",
+              "vi": "Phú Quốc có nhiều cửa hàng lưu niệm gần biển."
+            },
+            {
+              "en": "The keychain is a small souvenir from my trip.",
+              "vi": "Móc khóa là quà lưu niệm nhỏ từ chuyến đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["memento", "keepsake"],
+      "antonyms": [],
+      "collocations": [
+        "buy a souvenir",
+        "souvenir shop",
+        "tourist souvenir",
+        "small souvenir",
+        "collect souvenirs"
+      ],
+      "etymology_hint": "From French 'souvenir' meaning 'to remember' — from Latin 'subvenire' (to come to mind).",
+      "mnemonic_vi": "SOUVENIR = 'su-vơ-nia' — 'sờ' nhớ về. Souvenir = quà nhớ kỷ niệm."
+    },
+    {
+      "word": "guide",
+      "lemma": "guide",
+      "ipa": "/ɡaɪd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to show tourists around a place",
+          "meaning_vi": "hướng dẫn viên",
+          "examples": [
+            {
+              "en": "Our guide explained the history of Hạ Long Bay.",
+              "vi": "Hướng dẫn viên kể lịch sử Vịnh Hạ Long."
+            },
+            {
+              "en": "Hire a local guide for the best experience.",
+              "vi": "Thuê hướng dẫn viên địa phương để có trải nghiệm tốt nhất."
+            },
+            {
+              "en": "The guide spoke fluent English and Korean.",
+              "vi": "Hướng dẫn viên nói tiếng Anh và Hàn lưu loát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tour guide"],
+      "antonyms": [],
+      "collocations": [
+        "tour guide",
+        "local guide",
+        "experienced guide",
+        "hire a guide",
+        "guide book"
+      ],
+      "etymology_hint": "From Old French 'guide' meaning 'one who shows the way' — from Provençal 'guida'.",
+      "mnemonic_vi": "GUIDE = 'gai-d' — 'gài' dẫn đường. Tour guide = HDV du lịch."
+    },
+    {
+      "word": "tour",
+      "lemma": "tour",
+      "ipa": "/tʊə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a trip where you visit several places to see them",
+          "meaning_vi": "tour du lịch, chuyến tham quan",
+          "examples": [
+            {
+              "en": "We booked a 3-day tour to Mai Châu.",
+              "vi": "Chúng tôi đặt tour 3 ngày Mai Châu."
+            },
+            {
+              "en": "Take a walking tour of Old Quarter Hà Nội.",
+              "vi": "Tham gia tour đi bộ phố cổ Hà Nội."
+            },
+            {
+              "en": "The factory offers free tours to visitors.",
+              "vi": "Nhà máy cho tour miễn phí cho khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trip", "excursion"],
+      "antonyms": [],
+      "collocations": ["go on a tour", "guided tour", "walking tour", "city tour", "tour package"],
+      "etymology_hint": "From Old French 'tour' meaning 'circuit, lathe' — sense of 'trip' from making a circuit through places.",
+      "mnemonic_vi": "TOUR = 'tua' — 'tu-a' đi vòng. Walking tour = tour đi bộ."
+    },
+    {
+      "word": "attraction",
+      "lemma": "attraction",
+      "ipa": "/əˈtrækʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a place or feature that draws tourists to visit",
+          "meaning_vi": "điểm tham quan, điểm thu hút",
+          "examples": [
+            {
+              "en": "Hoàn Kiếm Lake is a major tourist attraction.",
+              "vi": "Hồ Hoàn Kiếm là điểm thu hút du khách lớn."
+            },
+            {
+              "en": "What's the main attraction in this town?",
+              "vi": "Điểm thu hút chính ở thị trấn này là gì?"
+            },
+            {
+              "en": "Bà Nà Hills has many attractions for kids.",
+              "vi": "Bà Nà Hills có nhiều điểm thu hút cho trẻ con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sight"],
+      "antonyms": [],
+      "collocations": [
+        "tourist attraction",
+        "main attraction",
+        "popular attraction",
+        "visit an attraction",
+        "natural attraction"
+      ],
+      "etymology_hint": "From Latin 'attractio' meaning 'a drawing toward' — from 'ad-' (to) + 'trahere' (to draw, pull).",
+      "mnemonic_vi": "ATTRACTION = AT + TRACT → 'kéo về phía'. Điểm thu hút khách."
+    },
+    {
+      "word": "landmark",
+      "lemma": "landmark",
+      "ipa": "/ˈlændmɑːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a famous building or feature that is easy to recognize",
+          "meaning_vi": "địa danh nổi tiếng, công trình mốc",
+          "examples": [
+            {
+              "en": "Notre-Dame Cathedral is a Sài Gòn landmark.",
+              "vi": "Nhà thờ Đức Bà là địa danh Sài Gòn."
+            },
+            {
+              "en": "Landmark 81 is the tallest building in Việt Nam.",
+              "vi": "Landmark 81 là tòa nhà cao nhất Việt Nam."
+            },
+            {
+              "en": "Use the church as a landmark to find my house.",
+              "vi": "Dùng nhà thờ làm điểm mốc để tìm nhà tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["monument"],
+      "antonyms": [],
+      "collocations": [
+        "famous landmark",
+        "historic landmark",
+        "visit landmarks",
+        "national landmark",
+        "city landmark"
+      ],
+      "etymology_hint": "Compound of 'land' + 'mark' — original sense of boundary marker, extended to recognizable features.",
+      "mnemonic_vi": "LANDMARK = LAND + MARK → 'dấu hiệu đất'. Công trình mốc."
+    },
+    {
+      "word": "brochure",
+      "lemma": "brochure",
+      "ipa": "/ˈbrəʊʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small booklet with pictures and information about a place or product",
+          "meaning_vi": "tờ rơi, sách quảng cáo (du lịch)",
+          "examples": [
+            {
+              "en": "Pick up a brochure at the tourist office.",
+              "vi": "Lấy tờ rơi ở văn phòng du lịch."
+            },
+            {
+              "en": "The brochure shows all 5 Phú Quốc resorts.",
+              "vi": "Tờ rơi giới thiệu cả 5 resort Phú Quốc."
+            },
+            {
+              "en": "Read the brochure before booking the tour.",
+              "vi": "Đọc tờ rơi trước khi đặt tour."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leaflet", "pamphlet"],
+      "antonyms": [],
+      "collocations": [
+        "tour brochure",
+        "travel brochure",
+        "glossy brochure",
+        "read a brochure",
+        "design a brochure"
+      ],
+      "etymology_hint": "From French 'brochure' meaning 'a stitched work' — from 'brocher' (to stitch), referring to early stitched pamphlets.",
+      "mnemonic_vi": "BROCHURE = 'brô-shờ' — 'bờ-rọ-sơ' giấy quảng cáo. Travel brochure = tờ rơi du lịch."
+    },
+    {
+      "word": "itinerary",
+      "lemma": "itinerary",
+      "ipa": "/aɪˈtɪnərəri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a plan or list of places to visit during a trip",
+          "meaning_vi": "lịch trình du lịch",
+          "examples": [
+            {
+              "en": "Our 5-day itinerary covers Hà Nội and Sa Pa.",
+              "vi": "Lịch trình 5 ngày của chúng tôi gồm Hà Nội và Sa Pa."
+            },
+            {
+              "en": "Stick to the itinerary or you'll miss the flight.",
+              "vi": "Bám sát lịch trình hoặc bạn sẽ lỡ chuyến bay."
+            },
+            {
+              "en": "The itinerary includes hotel and transport.",
+              "vi": "Lịch trình bao gồm khách sạn và di chuyển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["schedule", "plan"],
+      "antonyms": [],
+      "collocations": [
+        "travel itinerary",
+        "detailed itinerary",
+        "follow the itinerary",
+        "plan an itinerary",
+        "itinerary includes"
+      ],
+      "etymology_hint": "From Latin 'itinerarius' meaning 'of a journey' — from 'iter' (journey), same root as 'itinerant'.",
+      "mnemonic_vi": "ITINERARY = ITINER + ARY → 'thuộc chuyến đi'. Lịch trình từng ngày."
+    },
+    {
+      "word": "postcard",
+      "lemma": "postcard",
+      "ipa": "/ˈpəʊstkɑːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small card with a picture, sent by mail without an envelope",
+          "meaning_vi": "bưu thiếp",
+          "examples": [
+            {
+              "en": "I sent my mum a postcard from Đà Nẵng.",
+              "vi": "Tôi gửi mẹ một bưu thiếp từ Đà Nẵng."
+            },
+            {
+              "en": "Hội An has beautiful handmade postcards.",
+              "vi": "Hội An có bưu thiếp handmade rất đẹp."
+            },
+            {
+              "en": "She collects postcards from every country she visits.",
+              "vi": "Cô ấy sưu tầm bưu thiếp từ mọi nước đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["card"],
+      "antonyms": [],
+      "collocations": [
+        "send a postcard",
+        "vintage postcard",
+        "postcard from",
+        "collect postcards",
+        "tourist postcard"
+      ],
+      "etymology_hint": "Compound of 'post' + 'card' — invented in Austria in 1869 as a cheap way to send short messages.",
+      "mnemonic_vi": "POSTCARD = POST + CARD → 'thẻ gửi qua bưu điện'. Bưu thiếp lưu niệm."
+    },
+    {
+      "word": "tourist",
+      "lemma": "tourist",
+      "ipa": "/ˈtʊərɪst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who travels to visit places for fun",
+          "meaning_vi": "du khách, khách du lịch",
+          "examples": [
+            {
+              "en": "Many tourists visit Hội An every year.",
+              "vi": "Nhiều du khách đến Hội An mỗi năm."
+            },
+            {
+              "en": "Tourists love trying phở and bánh mì.",
+              "vi": "Du khách thích thử phở và bánh mì."
+            },
+            {
+              "en": "She works as a guide for Korean tourists.",
+              "vi": "Cô ấy làm HDV cho du khách Hàn Quốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["traveller", "visitor"],
+      "antonyms": ["local"],
+      "collocations": [
+        "foreign tourist",
+        "tourist attraction",
+        "tourist trap",
+        "tourist visa",
+        "tourist guide"
+      ],
+      "etymology_hint": "From French 'touriste' — from 'tour' (a journey); coined in late 18th century during European Grand Tour era.",
+      "mnemonic_vi": "TOURIST = TOUR + IST → 'người đi tour'. Du khách."
+    },
+    {
+      "word": "tourism",
+      "lemma": "tourism",
+      "ipa": "/ˈtʊərɪzəm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the business of providing travel and stays for people on holiday",
+          "meaning_vi": "ngành du lịch",
+          "examples": [
+            {
+              "en": "Tourism is important for Việt Nam's economy.",
+              "vi": "Du lịch quan trọng cho kinh tế Việt Nam."
+            },
+            {
+              "en": "Sustainable tourism protects nature.",
+              "vi": "Du lịch bền vững bảo vệ thiên nhiên."
+            },
+            {
+              "en": "She studies tourism management at university.",
+              "vi": "Cô ấy học quản lý du lịch ở đại học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["travel industry"],
+      "antonyms": [],
+      "collocations": [
+        "sustainable tourism",
+        "tourism industry",
+        "tourism sector",
+        "promote tourism",
+        "international tourism"
+      ],
+      "etymology_hint": "From 'tour' + '-ism' (system, practice) — coined in early 19th century with rise of organized travel.",
+      "mnemonic_vi": "TOURISM = TOUR + ISM → 'ngành tour'. Tourism = ngành du lịch."
+    },
+    {
+      "word": "destination",
+      "lemma": "destination",
+      "ipa": "/ˌdestɪˈneɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the place where you are going on a trip",
+          "meaning_vi": "điểm đến",
+          "examples": [
+            {
+              "en": "Phú Quốc is a popular beach destination.",
+              "vi": "Phú Quốc là điểm đến biển nổi tiếng."
+            },
+            {
+              "en": "What's your next travel destination?",
+              "vi": "Điểm đến tiếp theo của bạn là gì?"
+            },
+            {
+              "en": "Wedding destination shoots are popular in Đà Lạt.",
+              "vi": "Chụp ảnh cưới điểm đến Đà Lạt rất hot."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["place", "spot"],
+      "antonyms": ["origin"],
+      "collocations": [
+        "travel destination",
+        "popular destination",
+        "final destination",
+        "dream destination",
+        "exotic destination"
+      ],
+      "etymology_hint": "From Latin 'destinare' meaning 'to determine, intend' — original sense of 'place intended to be reached'.",
+      "mnemonic_vi": "DESTINATION = DESTIN + ATION → 'nơi đi đến'. Travel destination = điểm đến du lịch."
+    },
+    {
+      "word": "cruise",
+      "lemma": "cruise",
+      "ipa": "/kruːz/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a holiday on a large ship that travels to several places",
+          "meaning_vi": "chuyến du thuyền nhiều ngày",
+          "examples": [
+            {
+              "en": "We took a luxury cruise around Hạ Long Bay.",
+              "vi": "Chúng tôi đi cruise sang trọng vòng Vịnh Hạ Long."
+            },
+            {
+              "en": "Cruises stop at multiple Asian ports.",
+              "vi": "Cruise dừng nhiều cảng châu Á."
+            },
+            {
+              "en": "Her dream is a 7-day Caribbean cruise.",
+              "vi": "Giấc mơ của cô là cruise Caribbean 7 ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["voyage"],
+      "antonyms": [],
+      "collocations": [
+        "take a cruise",
+        "luxury cruise",
+        "Mediterranean cruise",
+        "cruise ship",
+        "go on a cruise"
+      ],
+      "etymology_hint": "From Dutch 'kruisen' meaning 'to cross' — original nautical sense of sailing to and fro.",
+      "mnemonic_vi": "CRUISE = 'crú-z' — 'cờ-rút' du thuyền. Cruise ship = tàu cruise."
+    },
+    {
+      "word": "backpack",
+      "lemma": "backpack",
+      "ipa": "/ˈbækpæk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a bag with straps that you wear on your back, used for travel",
+          "meaning_vi": "ba lô",
+          "examples": [
+            {
+              "en": "She traveled across Vietnam with just one backpack.",
+              "vi": "Cô ấy đi xuyên Việt chỉ với 1 ba lô."
+            },
+            {
+              "en": "Backpackers prefer hostels over hotels.",
+              "vi": "Backpacker thích hostel hơn khách sạn."
+            },
+            {
+              "en": "Pack light — only one backpack each.",
+              "vi": "Đóng gói nhẹ — mỗi người 1 ba lô thôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rucksack", "pack"],
+      "antonyms": [],
+      "collocations": [
+        "carry a backpack",
+        "school backpack",
+        "travel backpack",
+        "small backpack",
+        "backpacker style"
+      ],
+      "etymology_hint": "Compound of 'back' + 'pack' — American English coinage in 20th century, popular with hikers and travelers.",
+      "mnemonic_vi": "BACKPACK = BACK + PACK → 'ba lô đeo lưng'. Backpacker = du khách bụi."
+    },
+    {
+      "word": "hostel",
+      "lemma": "hostel",
+      "ipa": "/ˈhɒstl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a cheap place to stay where you often share rooms with other travelers",
+          "meaning_vi": "nhà nghỉ giá rẻ, hostel",
+          "examples": [
+            {
+              "en": "I stayed in a hostel in Old Quarter for 100k VND.",
+              "vi": "Tôi ở hostel phố cổ với 100k đồng."
+            },
+            {
+              "en": "Hostels are great for meeting other travelers.",
+              "vi": "Hostel tuyệt vời để gặp các traveler khác."
+            },
+            {
+              "en": "Vietnam has high-quality hostels at low prices.",
+              "vi": "Việt Nam có hostel chất lượng cao giá rẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["inn"],
+      "antonyms": [],
+      "collocations": [
+        "youth hostel",
+        "stay at a hostel",
+        "cheap hostel",
+        "book a hostel",
+        "hostel dorm"
+      ],
+      "etymology_hint": "From Old French 'hostel' meaning 'lodging place' — same root as 'hotel' and 'hospital'.",
+      "mnemonic_vi": "HOSTEL = 'hốt-sồl' — 'hốt' đến trú. Hostel = khách sạn rẻ."
+    },
+    {
+      "word": "map",
+      "lemma": "map",
+      "ipa": "/mæp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a drawing of an area showing roads, places, or features",
+          "meaning_vi": "bản đồ",
+          "examples": [
+            {
+              "en": "Google Map is the most-used map app in Việt Nam.",
+              "vi": "Google Map là app bản đồ dùng nhiều nhất ở Việt Nam."
+            },
+            {
+              "en": "Check the map before driving in Hà Nội.",
+              "vi": "Xem bản đồ trước khi lái xe ở Hà Nội."
+            },
+            {
+              "en": "The hostel gave us a free map of the area.",
+              "vi": "Hostel tặng chúng tôi bản đồ khu vực miễn phí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chart"],
+      "antonyms": [],
+      "collocations": ["read a map", "tourist map", "city map", "google map", "on the map"],
+      "etymology_hint": "From Latin 'mappa' meaning 'napkin, cloth' — early maps were drawn on cloth.",
+      "mnemonic_vi": "MAP = 'máp' — 'mép' bản đồ. Read a map = đọc bản đồ."
+    },
+    {
+      "word": "exotic",
+      "lemma": "exotic",
+      "ipa": "/ɪɡˈzɒtɪk/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "from a foreign country and seeming interesting or unusual",
+          "meaning_vi": "ngoại lai, lạ mắt (thường tích cực)",
+          "examples": [
+            {
+              "en": "Tourists find Vietnamese fruits exotic and tasty.",
+              "vi": "Du khách thấy trái cây Việt Nam ngoại lai và ngon."
+            },
+            {
+              "en": "She loves exotic destinations like Maldives.",
+              "vi": "Cô ấy thích điểm đến lạ như Maldives."
+            },
+            {
+              "en": "Exotic spices give Vietnamese food its unique taste.",
+              "vi": "Gia vị ngoại lai cho món Việt hương vị riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["foreign", "unusual"],
+      "antonyms": ["familiar", "common"],
+      "collocations": [
+        "exotic location",
+        "exotic food",
+        "exotic destination",
+        "exotic fruit",
+        "exotic animal"
+      ],
+      "etymology_hint": "From Greek 'exōtikos' meaning 'from outside' — from 'exō' (outside).",
+      "mnemonic_vi": "EXOTIC = EX + OTIC → 'từ bên ngoài'. Exotic destination = điểm đến lạ."
+    },
+    {
+      "word": "local",
+      "lemma": "local",
+      "ipa": "/ˈləʊkl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "from or relating to a particular area or place",
+          "meaning_vi": "địa phương, bản địa",
+          "examples": [
+            {
+              "en": "Try local food when you travel.",
+              "vi": "Thử món địa phương khi đi du lịch."
+            },
+            {
+              "en": "The local market is cheaper than supermarkets.",
+              "vi": "Chợ địa phương rẻ hơn siêu thị."
+            },
+            {
+              "en": "Ask local people for the best places to eat.",
+              "vi": "Hỏi người địa phương các quán ăn ngon nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["regional", "native"],
+      "antonyms": ["foreign", "international"],
+      "collocations": [
+        "local food",
+        "local people",
+        "local market",
+        "local guide",
+        "local culture"
+      ],
+      "etymology_hint": "From Latin 'localis' meaning 'pertaining to a place' — from 'locus' (place).",
+      "mnemonic_vi": "LOCAL = LOC + AL → 'thuộc địa điểm'. Local food = món địa phương."
+    },
+    {
+      "word": "adventure",
+      "lemma": "adventure",
+      "ipa": "/ədˈventʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an exciting or unusual experience, especially while traveling",
+          "meaning_vi": "cuộc phiêu lưu, trải nghiệm thú vị",
+          "examples": [
+            {
+              "en": "Trekking in Sapa was a real adventure.",
+              "vi": "Trekking Sapa thực sự là cuộc phiêu lưu."
+            },
+            {
+              "en": "She craves adventure in her life.",
+              "vi": "Cô ấy khao khát phiêu lưu trong đời."
+            },
+            {
+              "en": "Have an adventure in the Mekong Delta.",
+              "vi": "Có cuộc phiêu lưu ở miền Tây sông Mekong."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exploit", "journey"],
+      "antonyms": ["routine"],
+      "collocations": [
+        "go on an adventure",
+        "great adventure",
+        "adventure sports",
+        "love of adventure",
+        "exciting adventure"
+      ],
+      "etymology_hint": "From Latin 'adventura' meaning 'about to happen' — sense of 'risky enterprise' developed in Middle English.",
+      "mnemonic_vi": "ADVENTURE = AD + VENTURE → 'đi đến'. Adventure = phiêu lưu."
+    },
+    {
+      "word": "explore",
+      "lemma": "explore",
+      "ipa": "/ɪkˈsplɔː(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to travel through a place to learn about it",
+          "meaning_vi": "khám phá, thám hiểm",
+          "examples": [
+            {
+              "en": "We explored the caves in Quảng Bình.",
+              "vi": "Chúng tôi khám phá hang động ở Quảng Bình."
+            },
+            {
+              "en": "Take time to explore Old Quarter Hà Nội.",
+              "vi": "Dành thời gian khám phá phố cổ Hà Nội."
+            },
+            {
+              "en": "Let's explore the night market this evening.",
+              "vi": "Tối nay mình khám phá chợ đêm nhé."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["discover", "wander"],
+      "antonyms": [],
+      "collocations": [
+        "explore a place",
+        "explore options",
+        "explore the city",
+        "explore freely",
+        "explore further"
+      ],
+      "etymology_hint": "From Latin 'explorare' meaning 'to investigate' — possibly from 'ex-' (out) + 'plorare' (to cry out, when scouts shouted news).",
+      "mnemonic_vi": "EXPLORE = EX + PLORE → 'tìm ra'. Explore the city = khám phá thành phố."
+    },
+    {
+      "word": "wander",
+      "lemma": "wander",
+      "ipa": "/ˈwɒndə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to walk around slowly without a specific destination",
+          "meaning_vi": "đi lang thang, dạo bộ không định trước",
+          "examples": [
+            {
+              "en": "We wandered through Hội An's lantern-lit streets.",
+              "vi": "Chúng tôi lang thang trong phố lồng đèn Hội An."
+            },
+            {
+              "en": "She loves wandering in flower markets.",
+              "vi": "Cô ấy thích lang thang chợ hoa."
+            },
+            {
+              "en": "Don't wander too far from the group.",
+              "vi": "Đừng đi lang thang quá xa khỏi nhóm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stroll", "roam"],
+      "antonyms": ["stay"],
+      "collocations": [
+        "wander around",
+        "wander through",
+        "wander aimlessly",
+        "wander off",
+        "love to wander"
+      ],
+      "etymology_hint": "From Old English 'wandrian' meaning 'to move about' — Germanic root, related to 'wend' (to turn, go).",
+      "mnemonic_vi": "WANDER = 'wơn-đơ' — 'oan đó' đi lang thang. Wanderlust = đam mê đi xa."
+    }
+  ]
+}
