@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P9a B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `f860441` → merge `9d106e7` → sync `fedea80`) — P9 mở 5/25:
+    - `daily-life/cooking-techniques` — simmer, sauté, marinate, knead, whisk, blanch, braise, garnish, roast, grill, deep-fry, steam, mince, dice, sear, glaze, baste, julienne, chop, stir
+    - `people/communication-styles` — assertive, passive, aggressive, diplomatic, blunt, tactful, sarcasm, irony, hint, mumble, articulate, eloquent, concise, verbose, persuasive, confrontational, listener, interrupt, paraphrase, validate
+    - `work-business/freelance-remote` — contractor, gig, retainer, deliverable, invoice, scope, async, timezone, productivity, workspace, billable, downtime, sabbatical, coworking, self-employed, solopreneur, telework, home-office, brief, side-gig
+    - `entertainment/literature-genres` — novel, fiction, nonfiction, fantasy, sci-fi, mystery, biography, memoir, poetry, satire, allegory, protagonist, antagonist, metaphor, simile, prose, dialogue, climax, foreshadow, manuscript
+    - `education/higher-ed` — undergraduate, graduate, postgraduate, masters, doctorate, PhD, dissertation, faculty, professor, lecturer, seminar, tuition, transcript, GPA, internship, major, minor, campus, dormitory, alumni
+    - Zod schema green tất cả 5. Quality bar maintained từ P8e. Seed live: **pending user manual run** (target 117 lessons / 2340 cards).
   - [x] **P8e B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `93df61a` → merge `7f17792` → sync `b9ccaed`) — **P8 CLOSED 25/25**:
     - `work-business/entrepreneurship` — startup, founder, pivot, venture, funding, prototype, valuation, unicorn, exit, acquire, merge, cofounder, bootstrap, IPO, runway, burn, traction, hustle, incubator, disrupt
     - `entertainment/music-production` — beat, lyrics, riff, chord, tempo, remix, sample, producer, vocal, harmony, rhythm, bass, synth, record, mix, master, track, album, DJ, groove
@@ -496,12 +503,12 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `nature-environment/natural-disasters` (pivoted from weather-disasters do 7 từ trùng với weather-seasons-ext) — earthquake, eruption, wildfire, blizzard, avalanche, landslide, tornado, monsoon, tremor, magnitude, epicenter, aftermath, evacuation, devastation, debris, rescue, hazard, casualty, shelter, alert
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
-- [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
+- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a done (5/25), TODO P9b-e
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 112/192 lessons (58%), 2240/3840 cards (58%), ~58% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, next: P9 B1 part 2.
+**Progress**: 117/192 lessons (61%), 2340/3840 cards (61%), ~61% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 mở 5/25**, next: P9b (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
