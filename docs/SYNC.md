@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `2169324`               | base                   | 2026-05-17 (`2169324`) | P8c B1 — 5 lessons / 100 cards merged (P8 15/25)          |
-| be     | `1d6b923`               | 2026-05-17             | 2026-05-17 (`1d6b923`) | P8c B1 content commit on be                               |
-| fe     | `b234dad`               | 2026-05-17 (`b234dad`) | 2026-05-17 (`c9fe61a`) | sync P8c — 2040 cards live (~53% Oxford 3000)             |
+| dev    | `5bb6b28`               | base                   | 2026-05-17 (`5bb6b28`) | P8d B1 — 5 lessons / 100 cards merged (P8 20/25)          |
+| be     | `96a7aa9`               | 2026-05-17             | 2026-05-17 (`96a7aa9`) | P8d B1 content commit on be                               |
+| fe     | `2943625`               | 2026-05-17 (`2943625`) | 2026-05-17 (`c9fe61a`) | sync P8d — 2140 cards live (~56% Oxford 3000)             |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -255,3 +255,7 @@ git checkout fe
 | 2026-05-17 | commit | (P8c content) → be    | `1d6b923` | feat(content): P8c B1 expansion — 5 lessons (100 cards)                   |
 | 2026-05-17 | merge  | be → dev              | `2169324` | merge: be → dev (P8c B1 — 5 lessons / 100 cards, P8 15/25)                |
 | 2026-05-17 | sync   | dev → fe              | `b234dad` | sync: dev → fe (P8c content) — 2040 cards seeded live                     |
+| 2026-05-17 | commit | (P8c docs) → dev      | `b9f4b3e` | docs(content): P8c ship — 102/192 lessons / 2040 cards (53%)              |
+| 2026-05-17 | commit | (P8d content) → be    | `96a7aa9` | feat(content): P8d B1 expansion — 5 lessons (100 cards)                   |
+| 2026-05-17 | merge  | be → dev              | `5bb6b28` | merge: be → dev (P8d B1 — 5 lessons / 100 cards, P8 20/25)                |
+| 2026-05-17 | sync   | dev → fe              | `2943625` | sync: dev → fe (P8d content) — 2140 cards seeded live                     |

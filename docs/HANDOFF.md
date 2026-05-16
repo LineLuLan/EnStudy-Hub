@@ -5,6 +5,40 @@
 
 ---
 
+## 2026-05-17 (P8d content batch) — B1: 5 more lessons / 100 cards (107/192, ~56%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 tiếp nối P8c. User "gen tiếp P8d" → AI auto-gen (11th override). P8 giờ 20/25, còn 5 lessons nữa đóng phase.
+
+**5 lessons mới (B1, 100/100 NEW so với 2040 existing)**:
+
+| #   | Lesson             | Topic              | order |
+| --- | ------------------ | ------------------ | ----- |
+| 1   | finance-investment | work-business      | 11    |
+| 2   | streaming-media    | entertainment      | 8     |
+| 3   | oceans-marine      | nature-environment | 9     |
+| 4   | argument-logic     | abstract-academic  | 10    |
+| 5   | aging-life-stages  | daily-life         | 17    |
+
+### SHA cuối session
+
+main `eb18493` · dev `5bb6b28` · be `96a7aa9` · fe `2943625`
+
+### Verify
+
+Zod ALL VALID. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+
+### Next P8e (5 cuối đóng P8 25/25)
+
+- `work-business/entrepreneurship` (startup, founder, pivot, scale)
+- `entertainment/music-production` (beat, lyrics, melody, riff)
+- `places-travel/extreme-travel` (backpacker, off-grid, expedition)
+- `nature-environment/weather-disasters` (typhoon, blizzard, drought-extreme)
+- `abstract-academic/identity-self` (identity, persona, self-image)
+
+---
+
 ## 2026-05-17 (P8c content batch) — B1: 5 more lessons / 100 cards (102/192, ~53%) — Claude Opus 4.7
 
 ### Đã ship session này
