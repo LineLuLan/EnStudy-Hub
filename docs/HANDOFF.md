@@ -5,6 +5,44 @@
 
 ---
 
+## 2026-05-17 (P8c content batch) — B1: 5 more lessons / 100 cards (102/192, ~53%) — Claude Opus 4.7
+
+### Đã ship session này
+
+5 lessons B1 tiếp nối P8b. User confirm "gen tiếp P8c" → AI auto-gen (10th override). P8 giờ 15/25, gần đóng phase.
+
+**5 lessons mới (B1, 100/100 NEW so với 1940 existing)**:
+
+| #   | Lesson               | Topic              | order |
+| --- | -------------------- | ------------------ | ----- |
+| 1   | abstract-concepts    | abstract-academic  | 9     |
+| 2   | politics-government  | society-culture    | 5     |
+| 3   | leadership           | work-business      | 10    |
+| 4   | relationships-modern | daily-life         | 16    |
+| 5   | sustainability       | nature-environment | 8     |
+
+### SHA cuối session
+
+- main `eb18493` · dev `2169324` · be `1d6b923` · fe `b234dad`
+
+### Verify
+
+- Zod ALL VALID. Seed live: **102 lessons / 2040 cards** (~53% Oxford 3000).
+
+### Progress
+
+P8 ở 15/25 (P8a + P8b + P8c). Còn P8d (5 lessons) và P8e (5 lessons) để đóng P8 25/25.
+
+### Next P8d suggestions
+
+- `work-business/finance-investment` (stock, bond, asset, portfolio, dividend)
+- `entertainment/streaming-media` (subtitle, episode, season, premiere, original)
+- `nature-environment/oceans-marine` (coral, reef, tide, current, marine)
+- `abstract-academic/argument-logic` (claim, evidence, rebuttal, premise, conclusion)
+- `daily-life/aging-life-stages` (retire, elderly, adult, mature, prime)
+
+---
+
 ## 2026-05-17 (P8b content batch + 🎉 50% MILESTONE) — B1 part 1: 5 more lessons / 100 cards (97/192) — Claude Opus 4.7
 
 ### Đã ship session này (BE work — content gen + seed + 50% milestone)
