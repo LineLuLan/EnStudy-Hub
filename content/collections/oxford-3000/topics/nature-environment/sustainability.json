@@ -1,0 +1,757 @@
+{
+  "slug": "sustainability",
+  "name": "Sustainability",
+  "description": "Bền vững B1 — organic, footprint, solar, vegan, recyclable và 15 từ về lối sống xanh.",
+  "order_index": 8,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "organic",
+      "lemma": "organic",
+      "ipa": "/ɔːˈɡænɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "grown without chemicals or made from natural things",
+          "meaning_vi": "hữu cơ (không hóa chất)",
+          "examples": [
+            {
+              "en": "Organic vegetables are healthier.",
+              "vi": "Rau hữu cơ lành mạnh hơn."
+            },
+            {
+              "en": "Đà Lạt has many organic farms.",
+              "vi": "Đà Lạt có nhiều nông trại hữu cơ."
+            },
+            {
+              "en": "Buy organic when possible.",
+              "vi": "Mua hữu cơ khi có thể."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["natural"],
+      "antonyms": ["synthetic", "chemical"],
+      "collocations": [
+        "organic food",
+        "organic farming",
+        "organic vegetables",
+        "go organic",
+        "certified organic"
+      ],
+      "etymology_hint": "From Greek 'organon' meaning 'instrument, organ' — modern sense of 'natural/biological' from 19th century chemistry.",
+      "mnemonic_vi": "ORGANIC = ORGAN + IC → 'thuộc về cơ thể'. Organic food = đồ hữu cơ."
+    },
+    {
+      "word": "footprint",
+      "lemma": "footprint",
+      "ipa": "/ˈfʊtprɪnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the impact you have on the environment",
+          "meaning_vi": "dấu chân (sinh thái, môi trường)",
+          "examples": [
+            {
+              "en": "Reduce your carbon footprint.",
+              "vi": "Giảm dấu chân carbon của bạn."
+            },
+            {
+              "en": "Flying has a big environmental footprint.",
+              "vi": "Bay máy bay có dấu chân môi trường lớn."
+            },
+            {
+              "en": "She tracks her ecological footprint.",
+              "vi": "Cô ấy theo dõi dấu chân sinh thái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["impact"],
+      "antonyms": [],
+      "collocations": [
+        "carbon footprint",
+        "ecological footprint",
+        "environmental footprint",
+        "reduce footprint",
+        "digital footprint"
+      ],
+      "etymology_hint": "Compound of 'foot' + 'print' — modern environmental sense from late 20th century.",
+      "mnemonic_vi": "FOOTPRINT = FOOT + PRINT → 'dấu chân'. Carbon footprint = dấu chân khí thải."
+    },
+    {
+      "word": "reuse",
+      "lemma": "reuse",
+      "ipa": "/ˌriːˈjuːz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to use something again instead of throwing it away",
+          "meaning_vi": "tái sử dụng",
+          "examples": [
+            {
+              "en": "Reuse plastic bags as much as possible.",
+              "vi": "Tái sử dụng túi nhựa càng nhiều càng tốt."
+            },
+            {
+              "en": "Vietnamese people reuse glass jars for storage.",
+              "vi": "Người Việt tái sử dụng lọ thủy tinh để lưu trữ."
+            },
+            {
+              "en": "Reduce, reuse, recycle.",
+              "vi": "Giảm, tái sử dụng, tái chế."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["discard"],
+      "collocations": [
+        "reuse a bag",
+        "reuse water",
+        "reuse and recycle",
+        "creative reuse",
+        "reuse materials"
+      ],
+      "etymology_hint": "Compound of 're-' (again) + 'use' — sustainability sense popular since 1990s 3R movement.",
+      "mnemonic_vi": "REUSE = RE + USE → 'dùng lại'. Reuse and recycle = tái dùng & tái chế."
+    },
+    {
+      "word": "compost",
+      "lemma": "compost",
+      "ipa": "/ˈkɒmpɒst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "decayed plant material used as fertilizer",
+          "meaning_vi": "phân ủ (từ rác hữu cơ)",
+          "examples": [
+            {
+              "en": "I make compost from kitchen scraps.",
+              "vi": "Tôi làm phân ủ từ rác bếp."
+            },
+            {
+              "en": "Compost is great for organic gardens.",
+              "vi": "Phân ủ tốt cho vườn hữu cơ."
+            },
+            {
+              "en": "Composting reduces household waste.",
+              "vi": "Ủ phân giảm rác gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fertilizer"],
+      "antonyms": [],
+      "collocations": [
+        "make compost",
+        "compost bin",
+        "compost heap",
+        "organic compost",
+        "compost food scraps"
+      ],
+      "etymology_hint": "From Old French 'compost' meaning 'a mixture' — from Latin 'compositum' (something put together).",
+      "mnemonic_vi": "COMPOST = COM + POST → 'đặt cùng'. Compost = phân ủ hỗn hợp."
+    },
+    {
+      "word": "biodegradable",
+      "lemma": "biodegradable",
+      "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to break down naturally without harming the environment",
+          "meaning_vi": "phân hủy sinh học",
+          "examples": [
+            {
+              "en": "Use biodegradable bags instead of plastic.",
+              "vi": "Dùng túi phân hủy thay nhựa."
+            },
+            {
+              "en": "Banana leaves are 100% biodegradable.",
+              "vi": "Lá chuối 100% phân hủy được."
+            },
+            {
+              "en": "Biodegradable products are better for nature.",
+              "vi": "Sản phẩm phân hủy tốt cho thiên nhiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compostable"],
+      "antonyms": ["non-biodegradable"],
+      "collocations": [
+        "biodegradable bag",
+        "biodegradable plastic",
+        "fully biodegradable",
+        "biodegradable material",
+        "biodegradable packaging"
+      ],
+      "etymology_hint": "Compound of 'bio-' (life) + 'degradable' — coined in 1960s by sanitation engineers.",
+      "mnemonic_vi": "BIODEGRADABLE = BIO + DEGRADE + ABLE → 'có thể phân hủy sinh học'. Tan trong tự nhiên."
+    },
+    {
+      "word": "environmental",
+      "lemma": "environmental",
+      "ipa": "/ɪnˌvaɪrənˈmentl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the natural world and protecting it",
+          "meaning_vi": "thuộc về môi trường",
+          "examples": [
+            {
+              "en": "Environmental protection is everyone's job.",
+              "vi": "Bảo vệ môi trường là việc của mọi người."
+            },
+            {
+              "en": "She studies environmental science.",
+              "vi": "Cô ấy học khoa học môi trường."
+            },
+            {
+              "en": "Environmental damage is hard to repair.",
+              "vi": "Hư hại môi trường khó sửa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ecological"],
+      "antonyms": [],
+      "collocations": [
+        "environmental protection",
+        "environmental impact",
+        "environmental issue",
+        "environmental science",
+        "environmental damage"
+      ],
+      "etymology_hint": "From 'environment' + '-al' — modern usage from late 20th century environmental movement.",
+      "mnemonic_vi": "ENVIRONMENTAL = ENVIRONMENT + AL → 'thuộc về môi trường'. Environmental issue = vấn đề môi trường."
+    },
+    {
+      "word": "protect",
+      "lemma": "protect",
+      "ipa": "/prəˈtekt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to keep something safe from harm",
+          "meaning_vi": "bảo vệ",
+          "examples": [
+            {
+              "en": "We must protect endangered animals.",
+              "vi": "Chúng ta phải bảo vệ động vật nguy cấp."
+            },
+            {
+              "en": "A helmet protects your head.",
+              "vi": "Mũ bảo hiểm bảo vệ đầu."
+            },
+            {
+              "en": "Protect your data with strong passwords.",
+              "vi": "Bảo vệ dữ liệu bằng mật khẩu mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["defend", "guard"],
+      "antonyms": ["expose", "harm"],
+      "collocations": [
+        "protect the environment",
+        "protect yourself",
+        "protect children",
+        "protect data",
+        "fully protect"
+      ],
+      "etymology_hint": "From Latin 'protectus' meaning 'covered in front' — from 'pro-' (in front) + 'tegere' (to cover).",
+      "mnemonic_vi": "PROTECT = PRO + TECT → 'che trước'. Protect environment = bảo vệ môi trường."
+    },
+    {
+      "word": "solar",
+      "lemma": "solar",
+      "ipa": "/ˈsəʊlə(r)/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the Sun or using its energy",
+          "meaning_vi": "thuộc về mặt trời, năng lượng mặt trời",
+          "examples": [
+            {
+              "en": "Vietnam invests heavily in solar power.",
+              "vi": "Việt Nam đầu tư mạnh năng lượng mặt trời."
+            },
+            {
+              "en": "Solar panels on the roof generate electricity.",
+              "vi": "Tấm pin mặt trời trên mái tạo điện."
+            },
+            {
+              "en": "The solar system has 8 planets.",
+              "vi": "Hệ mặt trời có 8 hành tinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["solar power", "solar panel", "solar energy", "solar system", "solar cell"],
+      "etymology_hint": "From Latin 'solaris' meaning 'of the sun' — from 'sol' (sun).",
+      "mnemonic_vi": "SOLAR = 'sốu-lơ' — 'sô' mặt trời. Solar panel = pin mặt trời."
+    },
+    {
+      "word": "electric",
+      "lemma": "electric",
+      "ipa": "/ɪˈlektrɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "powered by electricity (not gasoline)",
+          "meaning_vi": "chạy bằng điện",
+          "examples": [
+            {
+              "en": "VinFast makes electric cars.",
+              "vi": "VinFast làm xe điện."
+            },
+            {
+              "en": "Electric scooters are popular in Việt Nam.",
+              "vi": "Xe máy điện phổ biến ở Việt Nam."
+            },
+            {
+              "en": "Electric vehicles reduce air pollution.",
+              "vi": "Xe điện giảm ô nhiễm không khí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["electrical"],
+      "antonyms": ["manual"],
+      "collocations": [
+        "electric car",
+        "electric vehicle",
+        "electric scooter",
+        "electric bike",
+        "electric guitar"
+      ],
+      "etymology_hint": "From Latin 'electrum' meaning 'amber' — Greeks observed amber's static electric property.",
+      "mnemonic_vi": "ELECTRIC = ELECTR + IC → 'thuộc điện'. Electric car = xe điện (VinFast)."
+    },
+    {
+      "word": "hybrid",
+      "lemma": "hybrid",
+      "ipa": "/ˈhaɪbrɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something made by combining two different things",
+          "meaning_vi": "lai (xe hybrid: xăng + điện)",
+          "examples": [
+            {
+              "en": "Toyota Prius is a famous hybrid car.",
+              "vi": "Toyota Prius là xe hybrid nổi tiếng."
+            },
+            {
+              "en": "Hybrid working combines office and home.",
+              "vi": "Làm việc hybrid kết hợp văn phòng và nhà."
+            },
+            {
+              "en": "Hybrids use less petrol than regular cars.",
+              "vi": "Xe hybrid dùng ít xăng hơn xe thường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mix", "combination"],
+      "antonyms": [],
+      "collocations": ["hybrid car", "hybrid model", "hybrid working", "hybrid plant", "go hybrid"],
+      "etymology_hint": "From Latin 'hybrida' meaning 'mongrel' — original biology sense for crossbred animals.",
+      "mnemonic_vi": "HYBRID = 'hai-brịt' — 'hai' kết hợp. Hybrid car = xe lai xăng-điện."
+    },
+    {
+      "word": "vegan",
+      "lemma": "vegan",
+      "ipa": "/ˈviːɡən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who doesn't eat any animal products",
+          "meaning_vi": "người ăn thuần chay",
+          "examples": [
+            {
+              "en": "Vegans don't eat meat, eggs, or dairy.",
+              "vi": "Người ăn chay không ăn thịt, trứng, sữa."
+            },
+            {
+              "en": "Vegan restaurants are growing in Sài Gòn.",
+              "vi": "Nhà hàng chay tăng ở Sài Gòn."
+            },
+            {
+              "en": "She became vegan for environmental reasons.",
+              "vi": "Cô ấy ăn chay vì lý do môi trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["carnivore"],
+      "collocations": [
+        "go vegan",
+        "vegan diet",
+        "vegan restaurant",
+        "strict vegan",
+        "vegan options"
+      ],
+      "etymology_hint": "Coined in 1944 by Donald Watson — from 'vegetarian' with first 3 + last 2 letters.",
+      "mnemonic_vi": "VEGAN = 'vi-gân' — 'vi-gốn' ăn thuần chay. Vegan diet = ăn thuần chay."
+    },
+    {
+      "word": "consumption",
+      "lemma": "consumption",
+      "ipa": "/kənˈsʌmpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of using or buying things",
+          "meaning_vi": "tiêu thụ, mức dùng",
+          "examples": [
+            {
+              "en": "Reduce energy consumption to save money.",
+              "vi": "Giảm tiêu thụ năng lượng để tiết kiệm."
+            },
+            {
+              "en": "Vietnam's meat consumption is rising.",
+              "vi": "Tiêu thụ thịt ở Việt Nam đang tăng."
+            },
+            {
+              "en": "Mindless consumption hurts the planet.",
+              "vi": "Tiêu thụ vô tâm hại hành tinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["use"],
+      "antonyms": ["production"],
+      "collocations": [
+        "energy consumption",
+        "fuel consumption",
+        "food consumption",
+        "reduce consumption",
+        "responsible consumption"
+      ],
+      "etymology_hint": "From Latin 'consumptio' meaning 'a using up' — from 'consumere' (to take up wholly).",
+      "mnemonic_vi": "CONSUMPTION = CONSUMP + TION → 'sự tiêu dùng'. Energy consumption = tiêu thụ năng lượng."
+    },
+    {
+      "word": "waste",
+      "lemma": "waste",
+      "ipa": "/weɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "things that are no longer wanted; or using something carelessly",
+          "meaning_vi": "rác thải; sự phí phạm",
+          "examples": [
+            {
+              "en": "Hà Nội produces tons of waste daily.",
+              "vi": "Hà Nội sản xuất hàng tấn rác mỗi ngày."
+            },
+            {
+              "en": "Food waste is a big problem.",
+              "vi": "Lãng phí thức ăn là vấn đề lớn."
+            },
+            {
+              "en": "Time is a waste if not used well.",
+              "vi": "Thời gian phí nếu không dùng tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["garbage", "loss"],
+      "antonyms": ["conservation"],
+      "collocations": [
+        "food waste",
+        "waste of time",
+        "waste of money",
+        "reduce waste",
+        "industrial waste"
+      ],
+      "etymology_hint": "From Old French 'wast' meaning 'desert, wilderness' — from Latin 'vastus' (empty, vast).",
+      "mnemonic_vi": "WASTE = 'wếi-st' — 'oai sờ tệ' phí. Reduce waste = giảm phí."
+    },
+    {
+      "word": "erosion",
+      "lemma": "erosion",
+      "ipa": "/ɪˈrəʊʒn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the gradual destruction of land by water, wind, or sea",
+          "meaning_vi": "sự xói mòn (đất, bờ biển)",
+          "examples": [
+            {
+              "en": "Coastal erosion threatens Mekong Delta.",
+              "vi": "Xói mòn ven biển đe dọa Đồng bằng Cửu Long."
+            },
+            {
+              "en": "Plant trees to prevent soil erosion.",
+              "vi": "Trồng cây để chống xói mòn đất."
+            },
+            {
+              "en": "Wind causes erosion in deserts.",
+              "vi": "Gió gây xói mòn ở sa mạc."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "soil erosion",
+        "coastal erosion",
+        "prevent erosion",
+        "natural erosion",
+        "erosion rate"
+      ],
+      "etymology_hint": "From Latin 'erosio' meaning 'a gnawing away' — from 'erodere' (to eat away).",
+      "mnemonic_vi": "EROSION = ERO + SION → 'sự ăn mòn'. Soil erosion = xói mòn đất."
+    },
+    {
+      "word": "recyclable",
+      "lemma": "recyclable",
+      "ipa": "/riːˈsaɪkləbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to be recycled and used again",
+          "meaning_vi": "có thể tái chế",
+          "examples": [
+            {
+              "en": "Glass and aluminum are 100% recyclable.",
+              "vi": "Thủy tinh và nhôm tái chế 100%."
+            },
+            {
+              "en": "Buy products with recyclable packaging.",
+              "vi": "Mua sản phẩm có bao bì tái chế."
+            },
+            {
+              "en": "Not all plastic is recyclable.",
+              "vi": "Không phải nhựa nào cũng tái chế được."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["non-recyclable"],
+      "collocations": [
+        "recyclable material",
+        "recyclable packaging",
+        "100% recyclable",
+        "fully recyclable",
+        "easily recyclable"
+      ],
+      "etymology_hint": "From 'recycle' + '-able' — modern environmental term from late 20th century.",
+      "mnemonic_vi": "RECYCLABLE = RECYCLE + ABLE → 'có thể tái chế'. Recyclable packaging = bao bì tái chế."
+    },
+    {
+      "word": "natural",
+      "lemma": "natural",
+      "ipa": "/ˈnætʃərəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "existing in nature, not made by people",
+          "meaning_vi": "tự nhiên, thuộc tự nhiên",
+          "examples": [
+            {
+              "en": "Vietnam has many natural beauties like Hạ Long Bay.",
+              "vi": "Việt Nam có nhiều cảnh đẹp tự nhiên như Vịnh Hạ Long."
+            },
+            {
+              "en": "Natural ingredients are better for skin.",
+              "vi": "Thành phần tự nhiên tốt cho da."
+            },
+            {
+              "en": "It's natural to feel nervous before exams.",
+              "vi": "Hồi hộp trước thi là tự nhiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organic", "pure"],
+      "antonyms": ["artificial", "synthetic"],
+      "collocations": [
+        "natural beauty",
+        "natural resources",
+        "natural disaster",
+        "natural ingredient",
+        "act natural"
+      ],
+      "etymology_hint": "From Latin 'naturalis' meaning 'belonging to nature' — from 'natura' (nature).",
+      "mnemonic_vi": "NATURAL = NATURE + AL → 'thuộc tự nhiên'. Natural ingredient = tự nhiên."
+    },
+    {
+      "word": "endangered",
+      "lemma": "endangered",
+      "ipa": "/ɪnˈdeɪndʒəd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "at risk of dying out (about animals or plants)",
+          "meaning_vi": "đang bị đe dọa (loài động/thực vật)",
+          "examples": [
+            {
+              "en": "The Saola is an endangered Vietnamese animal.",
+              "vi": "Sao La là động vật đang bị đe dọa của Việt Nam."
+            },
+            {
+              "en": "Tigers are endangered worldwide.",
+              "vi": "Hổ đang nguy cấp khắp thế giới."
+            },
+            {
+              "en": "Protect endangered species.",
+              "vi": "Bảo vệ loài đang nguy cấp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["threatened"],
+      "antonyms": ["safe", "abundant"],
+      "collocations": [
+        "endangered species",
+        "highly endangered",
+        "endangered animal",
+        "endangered plant",
+        "critically endangered"
+      ],
+      "etymology_hint": "Past participle of 'endanger' — from 'en-' (in) + 'danger'. Conservation sense from 20th century.",
+      "mnemonic_vi": "ENDANGERED = EN + DANGER + ED → 'bị nguy hiểm'. Endangered species = loài nguy cấp."
+    },
+    {
+      "word": "plant-based",
+      "lemma": "plant-based",
+      "ipa": "/ˈplɑːnt beɪst/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "made from plants instead of animal products",
+          "meaning_vi": "từ thực vật (thay vì động vật)",
+          "examples": [
+            {
+              "en": "Plant-based milk like soy and oat is popular.",
+              "vi": "Sữa thực vật như đậu nành và yến mạch phổ biến."
+            },
+            {
+              "en": "She follows a plant-based diet.",
+              "vi": "Cô ấy theo chế độ ăn thực vật."
+            },
+            {
+              "en": "Plant-based meat tastes more like real meat now.",
+              "vi": "Thịt thực vật giờ ngon như thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vegan", "vegetarian"],
+      "antonyms": ["animal-based"],
+      "collocations": [
+        "plant-based diet",
+        "plant-based milk",
+        "plant-based meat",
+        "plant-based food",
+        "go plant-based"
+      ],
+      "etymology_hint": "Compound of 'plant' + 'based' — modern food industry term popularized in 2010s with rise of vegan trends.",
+      "mnemonic_vi": "PLANT-BASED = PLANT + BASED → 'dựa vào cây'. Plant-based diet = ăn thực vật."
+    },
+    {
+      "word": "zero-waste",
+      "lemma": "zero-waste",
+      "ipa": "/ˌzɪərəʊ ˈweɪst/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "producing little or no waste",
+          "meaning_vi": "không rác thải (lối sống xanh)",
+          "examples": [
+            {
+              "en": "Zero-waste lifestyle reduces plastic.",
+              "vi": "Lối sống không rác giảm nhựa."
+            },
+            {
+              "en": "Some Vietnamese youth practice zero-waste.",
+              "vi": "Một số người trẻ Việt theo zero-waste."
+            },
+            {
+              "en": "Zero-waste shops sell unpackaged goods.",
+              "vi": "Tiệm zero-waste bán hàng không bao bì."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "zero-waste lifestyle",
+        "zero-waste shop",
+        "zero-waste movement",
+        "go zero-waste",
+        "zero-waste home"
+      ],
+      "etymology_hint": "Compound of 'zero' + 'waste' — coined in 1970s by chemist Paul Palmer, popularized 2010s.",
+      "mnemonic_vi": "ZERO-WASTE = ZERO + WASTE → '0 rác'. Zero-waste lifestyle = lối sống xanh."
+    },
+    {
+      "word": "biofuel",
+      "lemma": "biofuel",
+      "ipa": "/ˈbaɪəʊfjuːəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "fuel made from plants or other living things, not from oil",
+          "meaning_vi": "nhiên liệu sinh học",
+          "examples": [
+            {
+              "en": "Biofuel is greener than gasoline.",
+              "vi": "Nhiên liệu sinh học xanh hơn xăng."
+            },
+            {
+              "en": "Brazil makes biofuel from sugar cane.",
+              "vi": "Brazil làm biofuel từ mía."
+            },
+            {
+              "en": "Vietnam tests biofuel from rice husks.",
+              "vi": "Việt Nam thử biofuel từ vỏ trấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["fossil fuel"],
+      "collocations": [
+        "biofuel production",
+        "use biofuel",
+        "biofuel crop",
+        "alternative biofuel",
+        "biofuel technology"
+      ],
+      "etymology_hint": "Compound of 'bio-' (life) + 'fuel' — modern term from 1970s energy crisis.",
+      "mnemonic_vi": "BIOFUEL = BIO + FUEL → 'nhiên liệu sinh học'. Từ cây thay vì dầu."
+    }
+  ]
+}

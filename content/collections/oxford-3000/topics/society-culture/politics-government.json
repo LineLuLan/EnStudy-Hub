@@ -1,0 +1,763 @@
+{
+  "slug": "politics-government",
+  "name": "Politics & Government",
+  "description": "Chính trị và chính phủ B1 — politics, policy, president, treaty, summit và 15 từ về cơ chế nhà nước.",
+  "order_index": 5,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "politics",
+      "lemma": "politics",
+      "ipa": "/ˈpɒlətɪks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the activities involved in governing a country",
+          "meaning_vi": "chính trị",
+          "examples": [
+            {
+              "en": "Vietnamese politics is dominated by the Communist Party.",
+              "vi": "Chính trị Việt Nam do Đảng Cộng sản dẫn dắt."
+            },
+            {
+              "en": "She studies politics at university.",
+              "vi": "Cô ấy học chính trị ở đại học."
+            },
+            {
+              "en": "Don't talk politics at dinner.",
+              "vi": "Đừng bàn chính trị trong bữa tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["governance"],
+      "antonyms": [],
+      "collocations": [
+        "international politics",
+        "office politics",
+        "in politics",
+        "talk politics",
+        "enter politics"
+      ],
+      "etymology_hint": "From Greek 'politikos' meaning 'of the citizens' — from 'polis' (city-state).",
+      "mnemonic_vi": "POLITICS = 'pó-li-tịc' — 'pô lít' chính trị. Office politics = chính trị công sở."
+    },
+    {
+      "word": "policy",
+      "lemma": "policy",
+      "ipa": "/ˈpɒləsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a plan of action of a government or organization",
+          "meaning_vi": "chính sách",
+          "examples": [
+            {
+              "en": "Vietnam's foreign policy is non-alignment.",
+              "vi": "Chính sách đối ngoại Việt Nam là không liên kết."
+            },
+            {
+              "en": "The company has a no-smoking policy.",
+              "vi": "Công ty có chính sách không hút thuốc."
+            },
+            {
+              "en": "Read the privacy policy before signing up.",
+              "vi": "Đọc chính sách bảo mật trước khi đăng ký."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plan", "guideline"],
+      "antonyms": [],
+      "collocations": [
+        "foreign policy",
+        "company policy",
+        "privacy policy",
+        "policy change",
+        "implement policy"
+      ],
+      "etymology_hint": "From Old French 'policie' meaning 'civil administration' — from Latin 'politia' (citizenship, government).",
+      "mnemonic_vi": "POLICY = 'pó-li-si' — 'pô-li-si' kế hoạch. Foreign policy = chính sách ngoại giao."
+    },
+    {
+      "word": "minister",
+      "lemma": "minister",
+      "ipa": "/ˈmɪnɪstə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a senior member of the government in charge of a department",
+          "meaning_vi": "bộ trưởng",
+          "examples": [
+            {
+              "en": "The Prime Minister announced new laws.",
+              "vi": "Thủ tướng công bố luật mới."
+            },
+            {
+              "en": "The Education Minister visited the school.",
+              "vi": "Bộ trưởng Giáo dục thăm trường."
+            },
+            {
+              "en": "Foreign ministers met at the summit.",
+              "vi": "Bộ trưởng ngoại giao gặp tại hội nghị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["secretary"],
+      "antonyms": [],
+      "collocations": [
+        "Prime Minister",
+        "Finance Minister",
+        "Foreign Minister",
+        "deputy minister",
+        "former minister"
+      ],
+      "etymology_hint": "From Latin 'minister' meaning 'servant' — from 'minus' (less); originally meant 'attendant'.",
+      "mnemonic_vi": "MINISTER = MIN + ISTER → 'người phục vụ nhỏ'. Prime Minister = Thủ tướng."
+    },
+    {
+      "word": "president",
+      "lemma": "president",
+      "ipa": "/ˈprezɪdənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the elected leader of a country or organization",
+          "meaning_vi": "chủ tịch nước, tổng thống",
+          "examples": [
+            {
+              "en": "Hồ Chí Minh was Vietnam's first president.",
+              "vi": "Hồ Chí Minh là chủ tịch đầu tiên Việt Nam."
+            },
+            {
+              "en": "The US president serves 4-year terms.",
+              "vi": "Tổng thống Mỹ làm 4 năm/nhiệm kỳ."
+            },
+            {
+              "en": "She's the president of the student union.",
+              "vi": "Cô ấy là chủ tịch hội sinh viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leader"],
+      "antonyms": [],
+      "collocations": [
+        "elect a president",
+        "president of",
+        "former president",
+        "vice president",
+        "president's speech"
+      ],
+      "etymology_hint": "From Latin 'praesidens' meaning 'sitting in front, presiding' — from 'praesidere' (to sit before).",
+      "mnemonic_vi": "PRESIDENT = PRE + SIDENT → 'ngồi đầu'. Vice president = phó tổng thống."
+    },
+    {
+      "word": "congress",
+      "lemma": "congress",
+      "ipa": "/ˈkɒŋɡres/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a group of people elected to make laws (in the US)",
+          "meaning_vi": "quốc hội (Mỹ)",
+          "examples": [
+            {
+              "en": "The US Congress passed the law.",
+              "vi": "Quốc hội Mỹ thông qua luật."
+            },
+            {
+              "en": "Congress holds the budget power.",
+              "vi": "Quốc hội nắm quyền ngân sách."
+            },
+            {
+              "en": "She was elected to Congress last year.",
+              "vi": "Cô ấy được bầu vào Quốc hội năm ngoái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["legislature"],
+      "antonyms": [],
+      "collocations": [
+        "US Congress",
+        "Congress passed",
+        "Congress members",
+        "Congressional hearing",
+        "Congress approved"
+      ],
+      "etymology_hint": "From Latin 'congressus' meaning 'a coming together' — from 'congredi' (to meet).",
+      "mnemonic_vi": "CONGRESS = CON + GRESS → 'cùng đi'. US Congress = Quốc hội Mỹ."
+    },
+    {
+      "word": "senator",
+      "lemma": "senator",
+      "ipa": "/ˈsenətə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a member of a senate or upper house of government",
+          "meaning_vi": "thượng nghị sĩ",
+          "examples": [
+            {
+              "en": "The senator voted against the bill.",
+              "vi": "Thượng nghị sĩ bỏ phiếu chống luật."
+            },
+            {
+              "en": "Senators serve 6-year terms in the US.",
+              "vi": "Thượng nghị sĩ Mỹ làm 6 năm/nhiệm kỳ."
+            },
+            {
+              "en": "Bernie Sanders is a famous senator.",
+              "vi": "Bernie Sanders là thượng nghị sĩ nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "US senator",
+        "elected senator",
+        "senator's office",
+        "former senator",
+        "junior senator"
+      ],
+      "etymology_hint": "From Latin 'senator' meaning 'old man' — from 'senex' (old); originally Roman elder statesmen.",
+      "mnemonic_vi": "SENATOR = SENATE + OR → 'người trong viện thượng'. Senator = thượng nghị sĩ."
+    },
+    {
+      "word": "mayor",
+      "lemma": "mayor",
+      "ipa": "/meə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the elected head of a city or town",
+          "meaning_vi": "thị trưởng",
+          "examples": [
+            {
+              "en": "The mayor of Hà Nội announced new metro lines.",
+              "vi": "Thị trưởng Hà Nội công bố tuyến metro mới."
+            },
+            {
+              "en": "The mayor visited the flood victims.",
+              "vi": "Thị trưởng thăm nạn nhân lũ."
+            },
+            {
+              "en": "She ran for mayor last election.",
+              "vi": "Cô ấy ứng cử thị trưởng kỳ bầu cử trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["mayor of", "former mayor", "elect a mayor", "mayor's office", "city mayor"],
+      "etymology_hint": "From Latin 'maior' meaning 'greater' — comparative of 'magnus' (great).",
+      "mnemonic_vi": "MAYOR = 'mê-ơ' — 'mê' lớn. Mayor of Hà Nội = thị trưởng Hà Nội."
+    },
+    {
+      "word": "candidate",
+      "lemma": "candidate",
+      "ipa": "/ˈkændɪdət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who applies for a job or runs for election",
+          "meaning_vi": "ứng cử viên",
+          "examples": [
+            {
+              "en": "She's the best candidate for the job.",
+              "vi": "Cô ấy là ứng viên tốt nhất cho công việc."
+            },
+            {
+              "en": "Three candidates ran for president.",
+              "vi": "Ba ứng cử viên tranh cử tổng thống."
+            },
+            {
+              "en": "Interview all 5 candidates carefully.",
+              "vi": "Phỏng vấn cả 5 ứng viên kỹ lưỡng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["applicant", "nominee"],
+      "antonyms": [],
+      "collocations": [
+        "presidential candidate",
+        "strong candidate",
+        "job candidate",
+        "interview candidates",
+        "nominate a candidate"
+      ],
+      "etymology_hint": "From Latin 'candidatus' meaning 'clothed in white' — Roman candidates wore white togas for elections.",
+      "mnemonic_vi": "CANDIDATE = CANDID + ATE → 'người trong sạch'. Job candidate = ứng viên việc."
+    },
+    {
+      "word": "diplomat",
+      "lemma": "diplomat",
+      "ipa": "/ˈdɪpləmæt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official who represents a country abroad",
+          "meaning_vi": "nhà ngoại giao",
+          "examples": [
+            {
+              "en": "Vietnamese diplomats work in 90 countries.",
+              "vi": "Nhà ngoại giao Việt làm ở 90 nước."
+            },
+            {
+              "en": "The diplomat speaks 5 languages.",
+              "vi": "Nhà ngoại giao nói 5 ngôn ngữ."
+            },
+            {
+              "en": "He started as a junior diplomat.",
+              "vi": "Anh ấy khởi nghiệp là nhà ngoại giao trẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ambassador"],
+      "antonyms": [],
+      "collocations": [
+        "senior diplomat",
+        "foreign diplomat",
+        "diplomat's office",
+        "junior diplomat",
+        "career diplomat"
+      ],
+      "etymology_hint": "From Greek 'diploma' meaning 'folded paper, document' — referring to official documents diplomats carry.",
+      "mnemonic_vi": "DIPLOMAT = 'đíp-lô-mát' — 'đíp' giấy tờ. Diplomat = nhà ngoại giao."
+    },
+    {
+      "word": "embassy",
+      "lemma": "embassy",
+      "ipa": "/ˈembəsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the office or building where a country's diplomats work in another country",
+          "meaning_vi": "đại sứ quán",
+          "examples": [
+            {
+              "en": "Apply for a US visa at the US Embassy in Hà Nội.",
+              "vi": "Xin visa Mỹ ở Đại sứ quán Mỹ tại Hà Nội."
+            },
+            {
+              "en": "The Vietnamese Embassy is in Washington DC.",
+              "vi": "Đại sứ quán Việt Nam ở Washington DC."
+            },
+            {
+              "en": "Contact your embassy in an emergency.",
+              "vi": "Liên hệ đại sứ quán bạn khi khẩn cấp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consulate"],
+      "antonyms": [],
+      "collocations": [
+        "Vietnamese embassy",
+        "embassy of",
+        "at the embassy",
+        "embassy staff",
+        "visit the embassy"
+      ],
+      "etymology_hint": "From Old French 'ambassée' meaning 'mission of an ambassador' — same root as 'ambassador'.",
+      "mnemonic_vi": "EMBASSY = 'em-bá-si' — 'em bá' đại diện. Vietnamese embassy = ĐSQ Việt Nam."
+    },
+    {
+      "word": "nation",
+      "lemma": "nation",
+      "ipa": "/ˈneɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a country considered as a group of people",
+          "meaning_vi": "dân tộc, quốc gia",
+          "examples": [
+            {
+              "en": "Vietnam is a proud nation.",
+              "vi": "Việt Nam là dân tộc tự hào."
+            },
+            {
+              "en": "The nation celebrated independence day.",
+              "vi": "Cả dân tộc mừng ngày độc lập."
+            },
+            {
+              "en": "Asian nations cooperate on trade.",
+              "vi": "Các quốc gia châu Á hợp tác thương mại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["country", "people"],
+      "antonyms": [],
+      "collocations": [
+        "Vietnamese nation",
+        "developed nation",
+        "united nation",
+        "nation-wide",
+        "across the nation"
+      ],
+      "etymology_hint": "From Latin 'natio' meaning 'birth, tribe' — from 'natus' (born), same root as 'native'.",
+      "mnemonic_vi": "NATION = 'nê-shờn' — 'nai-sơn' dân nước. Vietnamese nation = dân Việt."
+    },
+    {
+      "word": "federal",
+      "lemma": "federal",
+      "ipa": "/ˈfedərəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to a central government that unites several states",
+          "meaning_vi": "thuộc về liên bang",
+          "examples": [
+            {
+              "en": "The US has a federal government system.",
+              "vi": "Mỹ có hệ thống chính phủ liên bang."
+            },
+            {
+              "en": "Federal taxes are different from state taxes.",
+              "vi": "Thuế liên bang khác thuế bang."
+            },
+            {
+              "en": "The FBI is a federal agency.",
+              "vi": "FBI là cơ quan liên bang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["national"],
+      "antonyms": ["state", "local"],
+      "collocations": [
+        "federal government",
+        "federal law",
+        "federal agency",
+        "federal court",
+        "federal tax"
+      ],
+      "etymology_hint": "From Latin 'foedus' meaning 'covenant, league' — same root as 'federation'.",
+      "mnemonic_vi": "FEDERAL = 'fê-đơ-rồ' — 'phẹt-đờ' liên bang. Federal law = luật liên bang."
+    },
+    {
+      "word": "republic",
+      "lemma": "republic",
+      "ipa": "/rɪˈpʌblɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a country where people vote to elect their leaders, with no king or queen",
+          "meaning_vi": "nước cộng hòa",
+          "examples": [
+            {
+              "en": "Vietnam is the Socialist Republic of Vietnam.",
+              "vi": "Việt Nam là Cộng hòa Xã hội Chủ nghĩa Việt Nam."
+            },
+            {
+              "en": "The US is a federal republic.",
+              "vi": "Mỹ là cộng hòa liên bang."
+            },
+            {
+              "en": "France became a republic in 1792.",
+              "vi": "Pháp trở thành cộng hòa năm 1792."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["monarchy"],
+      "collocations": [
+        "Socialist Republic",
+        "Federal Republic",
+        "Banana Republic",
+        "people's republic",
+        "the Republic of"
+      ],
+      "etymology_hint": "From Latin 'res publica' meaning 'public thing' — from 'res' (thing) + 'publicus' (public).",
+      "mnemonic_vi": "REPUBLIC = RE + PUBLIC → 'thuộc về công chúng'. Socialist Republic = CHXHCN."
+    },
+    {
+      "word": "monarchy",
+      "lemma": "monarchy",
+      "ipa": "/ˈmɒnəki/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a country ruled by a king or queen",
+          "meaning_vi": "chế độ quân chủ",
+          "examples": [
+            {
+              "en": "The UK is a constitutional monarchy.",
+              "vi": "Anh là quân chủ lập hiến."
+            },
+            {
+              "en": "Thailand still has a monarchy.",
+              "vi": "Thái Lan vẫn còn quân chủ."
+            },
+            {
+              "en": "Vietnam ended its monarchy in 1945.",
+              "vi": "Việt Nam kết thúc quân chủ năm 1945."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["kingdom"],
+      "antonyms": ["republic", "democracy"],
+      "collocations": [
+        "constitutional monarchy",
+        "absolute monarchy",
+        "British monarchy",
+        "end the monarchy",
+        "ancient monarchy"
+      ],
+      "etymology_hint": "From Greek 'monarkhia' meaning 'sole rule' — from 'monos' (one) + 'arkhein' (to rule).",
+      "mnemonic_vi": "MONARCHY = MONO + ARCHY → 'một người trị'. Monarchy = vua trị."
+    },
+    {
+      "word": "treaty",
+      "lemma": "treaty",
+      "ipa": "/ˈtriːti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a formal written agreement between countries",
+          "meaning_vi": "hiệp ước, hiệp định",
+          "examples": [
+            {
+              "en": "Vietnam signed a trade treaty with the EU.",
+              "vi": "Việt Nam ký hiệp định thương mại với EU."
+            },
+            {
+              "en": "The peace treaty ended the war.",
+              "vi": "Hiệp ước hòa bình kết thúc chiến tranh."
+            },
+            {
+              "en": "Climate treaties protect the planet.",
+              "vi": "Các hiệp ước khí hậu bảo vệ hành tinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agreement", "pact"],
+      "antonyms": [],
+      "collocations": [
+        "sign a treaty",
+        "peace treaty",
+        "trade treaty",
+        "international treaty",
+        "treaty between"
+      ],
+      "etymology_hint": "From Old French 'traité' meaning 'treatment, dealing' — from Latin 'tractare' (to handle).",
+      "mnemonic_vi": "TREATY = 'tri-ti' — 'trí tị' hiệp ước. Trade treaty = hiệp định thương mại."
+    },
+    {
+      "word": "summit",
+      "lemma": "summit",
+      "ipa": "/ˈsʌmɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a meeting between leaders of countries; or the top of a mountain",
+          "meaning_vi": "hội nghị cấp cao; đỉnh núi",
+          "examples": [
+            {
+              "en": "The ASEAN summit will be in Hà Nội.",
+              "vi": "Hội nghị cấp cao ASEAN sẽ ở Hà Nội."
+            },
+            {
+              "en": "Hikers reached Fansipan's summit at sunrise.",
+              "vi": "Người leo núi đến đỉnh Fansipan lúc bình minh."
+            },
+            {
+              "en": "Climate summits gather world leaders.",
+              "vi": "Hội nghị khí hậu tập hợp lãnh đạo thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conference", "peak"],
+      "antonyms": [],
+      "collocations": [
+        "ASEAN summit",
+        "climate summit",
+        "reach the summit",
+        "G20 summit",
+        "world summit"
+      ],
+      "etymology_hint": "From Latin 'summum' meaning 'highest point' — from 'summus' (highest).",
+      "mnemonic_vi": "SUMMIT = 'sấm-mịt' — 'sàm-mít' đỉnh. Climate summit = hội nghị khí hậu."
+    },
+    {
+      "word": "speech",
+      "lemma": "speech",
+      "ipa": "/spiːtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a formal talk given to an audience",
+          "meaning_vi": "bài phát biểu",
+          "examples": [
+            {
+              "en": "Hồ Chí Minh gave a famous speech in 1945.",
+              "vi": "Hồ Chí Minh có bài phát biểu nổi tiếng 1945."
+            },
+            {
+              "en": "The president's speech was inspiring.",
+              "vi": "Bài phát biểu của tổng thống truyền cảm hứng."
+            },
+            {
+              "en": "She prepared the wedding speech all week.",
+              "vi": "Cô ấy chuẩn bị bài phát biểu cưới cả tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["address", "talk"],
+      "antonyms": [],
+      "collocations": [
+        "give a speech",
+        "presidential speech",
+        "wedding speech",
+        "inaugural speech",
+        "prepare a speech"
+      ],
+      "etymology_hint": "From Old English 'spǣc' meaning 'act of speaking' — Germanic root, related to 'speak'.",
+      "mnemonic_vi": "SPEECH = 'spitch' — 'sờ-pit' nói. Give a speech = phát biểu."
+    },
+    {
+      "word": "ballot",
+      "lemma": "ballot",
+      "ipa": "/ˈbælət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a piece of paper used to vote in an election",
+          "meaning_vi": "lá phiếu",
+          "examples": [
+            {
+              "en": "Drop your ballot in the box.",
+              "vi": "Bỏ lá phiếu vào hòm."
+            },
+            {
+              "en": "Ballots are counted after voting closes.",
+              "vi": "Phiếu được đếm sau khi bầu cử đóng cửa."
+            },
+            {
+              "en": "Secret ballot protects voter privacy.",
+              "vi": "Bỏ phiếu kín bảo vệ riêng tư cử tri."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vote"],
+      "antonyms": [],
+      "collocations": [
+        "cast a ballot",
+        "secret ballot",
+        "ballot box",
+        "count ballots",
+        "ballot paper"
+      ],
+      "etymology_hint": "From Italian 'ballotta' meaning 'small ball' — original voting was done with colored balls.",
+      "mnemonic_vi": "BALLOT = 'bá-lốt' — 'bá lốt' phiếu. Cast a ballot = bỏ phiếu."
+    },
+    {
+      "word": "coalition",
+      "lemma": "coalition",
+      "ipa": "/ˌkəʊəˈlɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "two or more groups joining together for a common purpose",
+          "meaning_vi": "liên minh",
+          "examples": [
+            {
+              "en": "The coalition government has 4 parties.",
+              "vi": "Chính phủ liên minh có 4 đảng."
+            },
+            {
+              "en": "Form a coalition to win the vote.",
+              "vi": "Lập liên minh để thắng cuộc bỏ phiếu."
+            },
+            {
+              "en": "The anti-poverty coalition raised millions.",
+              "vi": "Liên minh chống đói nghèo gom được hàng triệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alliance"],
+      "antonyms": [],
+      "collocations": [
+        "coalition government",
+        "form a coalition",
+        "broad coalition",
+        "join a coalition",
+        "anti-war coalition"
+      ],
+      "etymology_hint": "From Latin 'coalitio' meaning 'a coming together' — from 'coalescere' (to grow together).",
+      "mnemonic_vi": "COALITION = CO + ALITION → 'cùng nhau'. Coalition = liên minh."
+    },
+    {
+      "word": "referendum",
+      "lemma": "referendum",
+      "ipa": "/ˌrefəˈrendəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a vote by the public on a single important question",
+          "meaning_vi": "trưng cầu dân ý",
+          "examples": [
+            {
+              "en": "Brexit was decided by a referendum.",
+              "vi": "Brexit được quyết qua trưng cầu dân ý."
+            },
+            {
+              "en": "Scotland held a referendum on independence.",
+              "vi": "Scotland tổ chức trưng cầu độc lập."
+            },
+            {
+              "en": "A referendum needs majority support.",
+              "vi": "Trưng cầu cần đa số ủng hộ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["public vote"],
+      "antonyms": [],
+      "collocations": [
+        "hold a referendum",
+        "national referendum",
+        "Brexit referendum",
+        "win a referendum",
+        "constitutional referendum"
+      ],
+      "etymology_hint": "Latin meaning 'something to be referred' — from 'referre' (to bring back), same root as 'refer'.",
+      "mnemonic_vi": "REFERENDUM = REFER + ENDUM → 'thứ trao về dân'. Trưng cầu ý kiến."
+    }
+  ]
+}
