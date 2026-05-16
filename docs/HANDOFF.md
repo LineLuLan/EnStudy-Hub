@@ -5,6 +5,61 @@
 
 ---
 
+## 2026-05-17 (P10a content batch — P10 opens, lần đầu B2) — B2: 5 lessons / 100 cards (142/192, ~74%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B2 đầu tiên, mở phase P10 (B2 expansion). User "Continue" → override #18.
+
+**5 lessons mới (B2, 100/100 NEW so với 2740 existing)** — chuyển từ B1 → B2 → từ vựng học thuật:
+
+| #   | Lesson             | Topic              | order |
+| --- | ------------------ | ------------------ | ----- |
+| 1   | philosophy         | abstract-academic  | 14    |
+| 2   | corporate-strategy | work-business      | 17    |
+| 3   | ecosystem-services | nature-environment | 13    |
+| 4   | film-production    | entertainment      | 14    |
+| 5   | governance-systems | society-culture    | 7     |
+
+### Lưu ý B2 vs B1
+
+- **Collision dễ hơn B1**: B2 vocabulary chuyên ngành, ít trùng với A1-B1 nền. Round 2 grep đủ (không cần round 3 như P9c-e).
+- **CEFR field**: tất cả 100 cards mark `B2`. Schema validates fine.
+- **VN translations**: vài thuật ngữ B2 không có dịch chuẩn (mise-en-scene, b-roll, KPI) — giữ nguyên gốc trong meaning_vi + giải nghĩa ngắn.
+
+### SHA cuối session (P10a)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `a376d79` (P10a merge)
+- be `c62d88f` (P10a content)
+- fe `c69b4a4` (sync P10a)
+
+### Verify
+
+- Zod ALL VALID 5 files. Tất cả đúng 20 cards.
+- Validate flags: 15+12+14+8+17 = 66/100 IPA notation variations (similar to B1 rate).
+- B2 collision pattern: hầu như chỉ trùng vài từ basic (truth, niche, score, democracy, lobby) → vẫn cần grep.
+
+### PICKUP cho session sau — P10b (5 lessons B2)
+
+P10 đang 5/25. Đề xuất P10b topic candidates (B2, cần grep):
+
+- `abstract-academic/linguistics` — phonology, morphology, semantics, pragmatics, syntax, lexicon, dialect (taken P9b!)
+- `work-business/finance-advanced` — derivative, hedge, arbitrage, liquidity, volatility, yield, par-value, capital-gain
+- `nature-environment/genetics-biology` — DNA, gene, chromosome, mutation, allele, hereditary, genome, replication (taken!)
+- `entertainment/literary-criticism` — symbolism, foreshadowing (taken!), tone, motif, theme (taken? need check), archetype
+- `places-travel/geopolitics` — frontier (taken!), border-dispute, sphere-of-influence, soft-power, alliance, treaty
+
+Lưu ý đã có collision pre-flag với B1 lessons trước đó (dialect, replication, foreshadowing, frontier).
+
+### Files state khi handoff (P10a)
+
+- All branches pushed to origin.
+- Docs updated.
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (P9e content batch — P9 CLOSED) — B1: 5 lessons / 100 cards (137/192, ~71%) — Claude Opus 4.7
 
 ### Đã ship
