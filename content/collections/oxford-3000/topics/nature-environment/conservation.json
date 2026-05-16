@@ -1,0 +1,769 @@
+{
+  "slug": "conservation",
+  "name": "Wildlife Conservation",
+  "description": "Bảo tồn thiên nhiên B1 — wildlife, sanctuary, poach, conservation và 16 từ về cứu rừng cứu loài.",
+  "order_index": 11,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "wildlife",
+      "lemma": "wildlife",
+      "ipa": "/ˈwaɪldlaɪf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "animals and plants that live in their natural environment, not in captivity",
+          "meaning_vi": "động thực vật hoang dã",
+          "examples": [
+            {
+              "en": "Cát Tiên National Park protects rare wildlife.",
+              "vi": "Vườn Quốc gia Cát Tiên bảo vệ động vật hoang dã quý hiếm."
+            },
+            {
+              "en": "Climate change threatens wildlife everywhere.",
+              "vi": "Biến đổi khí hậu đe dọa động vật hoang dã khắp nơi."
+            },
+            {
+              "en": "She studies wildlife in the Mekong Delta.",
+              "vi": "Cô ấy nghiên cứu động vật hoang dã ở đồng bằng sông Cửu Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fauna", "wild animals"],
+      "antonyms": ["domestic animals", "captive animals"],
+      "collocations": [
+        "protect wildlife",
+        "wildlife reserve",
+        "wildlife photographer",
+        "endangered wildlife",
+        "wildlife habitat"
+      ],
+      "etymology_hint": "Compound: 'wild' (Old English 'wilde') + 'life' — coined in 1879 by US naturalists.",
+      "mnemonic_vi": "WILD (hoang) + LIFE (sự sống) = sự sống hoang dã. Protect wildlife = bảo vệ động vật hoang dã."
+    },
+    {
+      "word": "reserve",
+      "lemma": "reserve",
+      "ipa": "/rɪˈzɜːv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an area of land protected for animals, plants, or nature",
+          "meaning_vi": "khu bảo tồn (đất giành riêng cho thiên nhiên)",
+          "examples": [
+            {
+              "en": "Tigers roam freely in the nature reserve.",
+              "vi": "Hổ tự do đi lại trong khu bảo tồn thiên nhiên."
+            },
+            {
+              "en": "Vietnam has dozens of forest reserves.",
+              "vi": "Việt Nam có hàng chục khu bảo tồn rừng."
+            },
+            {
+              "en": "Visitors need permits to enter the reserve.",
+              "vi": "Khách cần giấy phép để vào khu bảo tồn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["preserve", "park", "sanctuary"],
+      "antonyms": ["developed area"],
+      "collocations": [
+        "nature reserve",
+        "wildlife reserve",
+        "forest reserve",
+        "marine reserve",
+        "create a reserve"
+      ],
+      "etymology_hint": "From Latin 'reservare' = to keep back — protected lands 'kept back' from development.",
+      "mnemonic_vi": "RESERVE đọc 'ri-zợv' — rít giữ lại đất. Nature reserve = khu bảo tồn thiên nhiên."
+    },
+    {
+      "word": "poach",
+      "lemma": "poach",
+      "ipa": "/pəʊtʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hunt or catch animals illegally, especially in protected areas",
+          "meaning_vi": "săn trộm",
+          "examples": [
+            {
+              "en": "Rhinos are poached for their horns.",
+              "vi": "Tê giác bị săn trộm để lấy sừng."
+            },
+            {
+              "en": "Rangers shot a man trying to poach in the park.",
+              "vi": "Kiểm lâm bắn một người định săn trộm trong vườn quốc gia."
+            },
+            {
+              "en": "Poaching has driven tigers near extinction.",
+              "vi": "Săn trộm đẩy hổ tới bờ tuyệt chủng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hunt illegally", "kill illegally"],
+      "antonyms": ["protect", "conserve"],
+      "collocations": [
+        "poach rhinos",
+        "stop poaching",
+        "anti-poaching",
+        "illegal poaching",
+        "poach for"
+      ],
+      "etymology_hint": "From Old French 'pochier' = to thrust into a bag — meaning shifted from stealing to illegal hunting.",
+      "mnemonic_vi": "POACH đọc 'pôch' — pỗ lén bắt thú. Stop poaching = chặn nạn săn trộm."
+    },
+    {
+      "word": "smuggle",
+      "lemma": "smuggle",
+      "ipa": "/ˈsmʌɡl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to move illegal goods, animals, or people across borders secretly",
+          "meaning_vi": "buôn lậu (qua biên giới)",
+          "examples": [
+            {
+              "en": "Traffickers smuggle pangolin scales out of Vietnam.",
+              "vi": "Bọn buôn lậu chuyển vảy tê tê khỏi Việt Nam."
+            },
+            {
+              "en": "She was caught smuggling ivory through the airport.",
+              "vi": "Cô ấy bị bắt khi buôn lậu ngà voi qua sân bay."
+            },
+            {
+              "en": "Smuggling is a multi-billion-dollar global crime.",
+              "vi": "Buôn lậu là tội phạm toàn cầu trị giá hàng tỷ USD."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["traffic", "sneak"],
+      "antonyms": ["import legally"],
+      "collocations": [
+        "smuggle ivory",
+        "wildlife smuggling",
+        "smuggle across borders",
+        "smuggling ring",
+        "stop smuggling"
+      ],
+      "etymology_hint": "From Low German 'smuggelen' = to slip secretly — popularized in English during 18th-century tariff evasion.",
+      "mnemonic_vi": "SMUGGLE đọc 'smắt-gồ' — smắt vào lén lút. Wildlife smuggling = buôn lậu động vật hoang dã."
+    },
+    {
+      "word": "restore",
+      "lemma": "restore",
+      "ipa": "/rɪˈstɔː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to bring back a habitat, population, or natural system to its former condition",
+          "meaning_vi": "phục hồi (môi trường, loài, hệ sinh thái)",
+          "examples": [
+            {
+              "en": "Volunteers are restoring the mangrove forest.",
+              "vi": "Tình nguyện viên đang phục hồi rừng ngập mặn."
+            },
+            {
+              "en": "Restoring coral reefs takes decades.",
+              "vi": "Phục hồi rạn san hô mất hàng chục năm."
+            },
+            {
+              "en": "The project aims to restore wetland biodiversity.",
+              "vi": "Dự án nhằm phục hồi đa dạng sinh học vùng đất ngập nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rehabilitate", "rebuild", "rejuvenate"],
+      "antonyms": ["destroy", "ruin"],
+      "collocations": [
+        "restore a habitat",
+        "restore biodiversity",
+        "restore wetlands",
+        "fully restore",
+        "restoration project"
+      ],
+      "etymology_hint": "From Latin 'restaurare' = to repair — 're-' (again) + 'staurare' (set up).",
+      "mnemonic_vi": "RE (lại) + STORE (cất, dựng) = dựng lại. Restore a habitat = phục hồi môi trường sống."
+    },
+    {
+      "word": "sanctuary",
+      "lemma": "sanctuary",
+      "ipa": "/ˈsæŋktʃəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place where wild animals are protected and cared for",
+          "meaning_vi": "khu cứu hộ động vật, nơi trú an toàn",
+          "examples": [
+            {
+              "en": "The sanctuary rehabilitates rescued bears.",
+              "vi": "Khu cứu hộ phục hồi cho gấu được giải cứu."
+            },
+            {
+              "en": "Visitors can adopt an animal at the elephant sanctuary.",
+              "vi": "Khách có thể nhận nuôi voi tại khu cứu hộ."
+            },
+            {
+              "en": "Bird sanctuaries protect migrating species.",
+              "vi": "Khu cứu hộ chim bảo vệ các loài di cư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refuge", "reserve", "safe haven"],
+      "antonyms": ["zoo (commercial)", "hunting ground"],
+      "collocations": [
+        "wildlife sanctuary",
+        "bird sanctuary",
+        "elephant sanctuary",
+        "safe sanctuary",
+        "sanctuary for"
+      ],
+      "etymology_hint": "From Latin 'sanctus' = holy — originally a sacred place; meaning extended to any safe refuge.",
+      "mnemonic_vi": "SANCT (thánh) + UARY = chốn thiêng. Wildlife sanctuary = khu cứu hộ hoang dã."
+    },
+    {
+      "word": "ecological",
+      "lemma": "ecological",
+      "ipa": "/ˌiːkəˈlɒdʒɪkl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the relationship between living things and their environment",
+          "meaning_vi": "thuộc sinh thái",
+          "examples": [
+            {
+              "en": "Dams cause major ecological damage downstream.",
+              "vi": "Đập gây thiệt hại sinh thái lớn ở hạ lưu."
+            },
+            {
+              "en": "We must consider ecological impact before building.",
+              "vi": "Phải xét tác động sinh thái trước khi xây dựng."
+            },
+            {
+              "en": "Vietnam's mangroves are an ecological treasure.",
+              "vi": "Rừng ngập mặn Việt Nam là kho báu sinh thái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["environmental", "biological"],
+      "antonyms": ["non-environmental"],
+      "collocations": [
+        "ecological balance",
+        "ecological damage",
+        "ecological footprint",
+        "ecological system",
+        "ecological impact"
+      ],
+      "etymology_hint": "From Greek 'oikos' (house) + 'logia' (study) — coined by Ernst Haeckel in 1866.",
+      "mnemonic_vi": "ECO (môi trường) + LOGICAL (thuộc lý) = thuộc môi trường. Ecological balance = cân bằng sinh thái."
+    },
+    {
+      "word": "threatened",
+      "lemma": "threatened",
+      "ipa": "/ˈθretnd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a species) at risk of becoming endangered or extinct",
+          "meaning_vi": "đang bị đe dọa (loài có nguy cơ tuyệt chủng)",
+          "examples": [
+            {
+              "en": "The saola is one of Vietnam's most threatened species.",
+              "vi": "Sao la là một trong những loài bị đe dọa nhất Việt Nam."
+            },
+            {
+              "en": "Threatened plants need urgent protection.",
+              "vi": "Thực vật bị đe dọa cần được bảo vệ khẩn cấp."
+            },
+            {
+              "en": "Many marine species are threatened by overfishing.",
+              "vi": "Nhiều loài biển bị đe dọa do đánh bắt quá mức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["at risk", "vulnerable"],
+      "antonyms": ["safe", "thriving"],
+      "collocations": [
+        "threatened species",
+        "critically threatened",
+        "threatened habitat",
+        "near-threatened",
+        "globally threatened"
+      ],
+      "etymology_hint": "Past participle of 'threaten' (Old English 'þrēatian' = to press) — conservation jargon since IUCN Red List in 1960s.",
+      "mnemonic_vi": "THREAT (mối đe) + ENED = bị đe. Threatened species = loài bị đe dọa."
+    },
+    {
+      "word": "ranger",
+      "lemma": "ranger",
+      "ipa": "/ˈreɪndʒə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person whose job is to look after a forest, park, or wildlife area",
+          "meaning_vi": "kiểm lâm",
+          "examples": [
+            {
+              "en": "The ranger spotted a poacher near the river.",
+              "vi": "Kiểm lâm phát hiện một kẻ săn trộm gần con sông."
+            },
+            {
+              "en": "Rangers patrol the park 24/7.",
+              "vi": "Kiểm lâm tuần tra vườn 24/7."
+            },
+            {
+              "en": "Becoming a ranger requires field training.",
+              "vi": "Trở thành kiểm lâm cần huấn luyện thực địa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forest guard", "park ranger"],
+      "antonyms": ["poacher"],
+      "collocations": [
+        "park ranger",
+        "forest ranger",
+        "ranger station",
+        "rangers patrol",
+        "wildlife ranger"
+      ],
+      "etymology_hint": "From 'range' (Old French 'range' = row, line) — one who ranges or patrols an area.",
+      "mnemonic_vi": "RANGE (vùng) + R (người) = người tuần vùng. Park ranger = kiểm lâm công viên."
+    },
+    {
+      "word": "conservation",
+      "lemma": "conservation",
+      "ipa": "/ˌkɒnsəˈveɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the protection of nature, animals, and natural resources",
+          "meaning_vi": "công cuộc bảo tồn",
+          "examples": [
+            {
+              "en": "Conservation efforts saved the Javan rhino.",
+              "vi": "Các nỗ lực bảo tồn đã cứu tê giác Java."
+            },
+            {
+              "en": "Vietnam invests heavily in marine conservation.",
+              "vi": "Việt Nam đầu tư mạnh cho bảo tồn biển."
+            },
+            {
+              "en": "She runs a conservation nonprofit in Đà Lạt.",
+              "vi": "Cô ấy điều hành một tổ chức phi lợi nhuận bảo tồn ở Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["preservation", "protection"],
+      "antonyms": ["destruction", "exploitation"],
+      "collocations": [
+        "wildlife conservation",
+        "conservation efforts",
+        "conservation project",
+        "marine conservation",
+        "conservation area"
+      ],
+      "etymology_hint": "From Latin 'conservare' = to preserve — 'com-' (with) + 'servare' (keep, watch).",
+      "mnemonic_vi": "CONSERV (giữ gìn) + ATION = sự giữ gìn. Wildlife conservation = bảo tồn hoang dã."
+    },
+    {
+      "word": "recycling",
+      "lemma": "recycling",
+      "ipa": "/riːˈsaɪklɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of treating used materials so they can be used again",
+          "meaning_vi": "việc tái chế",
+          "examples": [
+            {
+              "en": "Recycling reduces landfill waste dramatically.",
+              "vi": "Tái chế giảm rác thải chôn lấp đáng kể."
+            },
+            {
+              "en": "Vietnam's recycling rate lags behind regional peers.",
+              "vi": "Tỷ lệ tái chế của Việt Nam tụt hậu so với khu vực."
+            },
+            {
+              "en": "Sort waste at home to help recycling.",
+              "vi": "Phân loại rác tại nhà để giúp tái chế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reuse process"],
+      "antonyms": ["disposal", "landfill"],
+      "collocations": [
+        "recycling bin",
+        "plastic recycling",
+        "recycling rate",
+        "promote recycling",
+        "recycling program"
+      ],
+      "etymology_hint": "From verb 'recycle' (1922) — 're-' (again) + 'cycle' (Greek 'kuklos' = circle).",
+      "mnemonic_vi": "RE (lại) + CYCLE (vòng) + ING = quay lại vòng. Recycling rate = tỷ lệ tái chế."
+    },
+    {
+      "word": "replant",
+      "lemma": "replant",
+      "ipa": "/ˌriːˈplɑːnt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to plant trees, crops, or vegetation again, especially after damage or removal",
+          "meaning_vi": "trồng lại (cây)",
+          "examples": [
+            {
+              "en": "Locals replanted thousands of mangroves after the storm.",
+              "vi": "Người dân địa phương trồng lại hàng nghìn cây ngập mặn sau bão."
+            },
+            {
+              "en": "Replanting forests fights climate change.",
+              "vi": "Trồng lại rừng chống biến đổi khí hậu."
+            },
+            {
+              "en": "We replant on Earth Day every April.",
+              "vi": "Chúng tôi trồng lại cây vào Ngày Trái Đất tháng 4 hàng năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reforest", "replenish"],
+      "antonyms": ["uproot", "clear"],
+      "collocations": [
+        "replant trees",
+        "replant the forest",
+        "replant native species",
+        "replanting effort",
+        "replant after"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'plant' — modern conservation usage from 20th century.",
+      "mnemonic_vi": "RE (lại) + PLANT (trồng) = trồng lại. Replant trees = trồng lại cây."
+    },
+    {
+      "word": "reforest",
+      "lemma": "reforest",
+      "ipa": "/ˌriːˈfɒrɪst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to plant trees on land where forest has been destroyed",
+          "meaning_vi": "tái tạo rừng (trên đất đã bị phá)",
+          "examples": [
+            {
+              "en": "Vietnam pledged to reforest 1 million hectares.",
+              "vi": "Việt Nam cam kết tái tạo 1 triệu hecta rừng."
+            },
+            {
+              "en": "Reforesting hillsides prevents landslides.",
+              "vi": "Tái tạo rừng đồi giúp ngừa sạt lở."
+            },
+            {
+              "en": "Drone seeding can reforest faster than manual planting.",
+              "vi": "Gieo bằng drone tái tạo rừng nhanh hơn trồng tay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["replant forest"],
+      "antonyms": ["deforest"],
+      "collocations": [
+        "reforest the area",
+        "reforest hectares",
+        "reforestation project",
+        "reforest sustainably",
+        "fully reforest"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'forest' (Latin 'foresta' = open wood) — environmental policy term from 1880s.",
+      "mnemonic_vi": "RE (lại) + FOREST (rừng) = phục hồi rừng. Reforest hectares = tái tạo hecta rừng."
+    },
+    {
+      "word": "captive",
+      "lemma": "captive",
+      "ipa": "/ˈkæptɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "kept in a cage, zoo, or enclosed space, not free in the wild",
+          "meaning_vi": "bị nuôi nhốt (không thả tự nhiên)",
+          "examples": [
+            {
+              "en": "Captive elephants need huge enclosures.",
+              "vi": "Voi nuôi nhốt cần khu nhốt rộng lớn."
+            },
+            {
+              "en": "Captive breeding helps save rare species.",
+              "vi": "Nhân giống nuôi nhốt giúp cứu loài quý."
+            },
+            {
+              "en": "Releasing captive tigers into the wild is risky.",
+              "vi": "Thả hổ nuôi nhốt về tự nhiên đầy rủi ro."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["caged", "confined"],
+      "antonyms": ["wild", "free"],
+      "collocations": [
+        "captive animal",
+        "captive breeding",
+        "born in captivity",
+        "captive population",
+        "captive-bred"
+      ],
+      "etymology_hint": "From Latin 'capere' = to seize — same root as 'capture' and 'captor'.",
+      "mnemonic_vi": "CAPT (bắt) + IVE = bị bắt. Captive breeding = nhân giống nuôi nhốt."
+    },
+    {
+      "word": "breeding",
+      "lemma": "breeding",
+      "ipa": "/ˈbriːdɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of producing young animals or plants",
+          "meaning_vi": "sự sinh sản, gây giống",
+          "examples": [
+            {
+              "en": "Breeding programs increase rare bird numbers.",
+              "vi": "Các chương trình gây giống tăng số chim quý."
+            },
+            {
+              "en": "Spring is the main breeding season for many fish.",
+              "vi": "Mùa xuân là mùa sinh sản chính của nhiều loài cá."
+            },
+            {
+              "en": "Successful breeding requires healthy genetics.",
+              "vi": "Gây giống thành công cần di truyền khỏe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reproduction", "rearing"],
+      "antonyms": ["sterilization"],
+      "collocations": [
+        "breeding season",
+        "breeding program",
+        "captive breeding",
+        "selective breeding",
+        "breeding pair"
+      ],
+      "etymology_hint": "From Old English 'brēdan' = to nourish, hatch — same Germanic root as 'brood'.",
+      "mnemonic_vi": "BREED (gây giống) + ING = sự gây giống. Breeding program = chương trình gây giống."
+    },
+    {
+      "word": "hunt",
+      "lemma": "hunt",
+      "ipa": "/hʌnt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to chase and kill wild animals for food, sport, or population control",
+          "meaning_vi": "săn bắt (động vật)",
+          "examples": [
+            {
+              "en": "Local tribes hunt only for food, never for trophies.",
+              "vi": "Các bộ tộc địa phương chỉ săn để ăn, không bao giờ săn để khoe."
+            },
+            {
+              "en": "Hunting is banned in protected reserves.",
+              "vi": "Săn bắt bị cấm trong các khu bảo tồn."
+            },
+            {
+              "en": "Wolves hunt in packs for greater success.",
+              "vi": "Sói săn theo bầy để hiệu quả hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pursue", "stalk"],
+      "antonyms": ["protect", "spare"],
+      "collocations": [
+        "hunt for food",
+        "trophy hunting",
+        "hunt illegally",
+        "hunting ban",
+        "hunt in packs"
+      ],
+      "etymology_hint": "From Old English 'huntian' = to chase game — Germanic root, original sport-of-kings sense.",
+      "mnemonic_vi": "HUNT đọc 'hânt' — hân hửng săn được con thú. Hunting ban = lệnh cấm săn."
+    },
+    {
+      "word": "plastic",
+      "lemma": "plastic",
+      "ipa": "/ˈplæstɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a synthetic material that doesn't biodegrade and pollutes oceans and land",
+          "meaning_vi": "nhựa (vật liệu, gây ô nhiễm)",
+          "examples": [
+            {
+              "en": "Single-use plastic is choking our oceans.",
+              "vi": "Nhựa dùng một lần đang bóp ngạt đại dương."
+            },
+            {
+              "en": "Vietnam ranks among the top plastic polluters globally.",
+              "vi": "Việt Nam nằm trong top các nước xả nhựa nhiều nhất."
+            },
+            {
+              "en": "Reduce, reuse, and recycle plastic where possible.",
+              "vi": "Giảm, tái sử dụng và tái chế nhựa nếu có thể."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["polymer"],
+      "antonyms": ["biodegradable material"],
+      "collocations": [
+        "plastic pollution",
+        "single-use plastic",
+        "plastic waste",
+        "ban plastic",
+        "plastic bag"
+      ],
+      "etymology_hint": "From Greek 'plastikos' = able to be molded — material sense from 1909, invention of Bakelite.",
+      "mnemonic_vi": "PLASTIC đọc 'plát-stíc' — plat tay tạo hình. Plastic pollution = ô nhiễm nhựa."
+    },
+    {
+      "word": "illegal",
+      "lemma": "illegal",
+      "ipa": "/ɪˈliːɡl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not allowed by law",
+          "meaning_vi": "trái phép, bất hợp pháp",
+          "examples": [
+            {
+              "en": "Illegal logging destroys old-growth forests.",
+              "vi": "Khai thác gỗ trái phép phá rừng nguyên sinh."
+            },
+            {
+              "en": "Selling ivory is illegal in most countries.",
+              "vi": "Bán ngà voi là bất hợp pháp ở phần lớn các nước."
+            },
+            {
+              "en": "Police arrested 12 people for illegal wildlife trade.",
+              "vi": "Cảnh sát bắt 12 người buôn bán động vật hoang dã trái phép."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unlawful", "prohibited"],
+      "antonyms": ["legal", "lawful"],
+      "collocations": [
+        "illegal logging",
+        "illegal trade",
+        "illegal hunting",
+        "strictly illegal",
+        "illegal substance"
+      ],
+      "etymology_hint": "Prefix 'il-' (not) + 'legal' (Latin 'lex' = law).",
+      "mnemonic_vi": "IL (không) + LEGAL (hợp pháp) = trái phép. Illegal logging = khai thác gỗ trái phép."
+    },
+    {
+      "word": "advocate",
+      "lemma": "advocate",
+      "ipa": "/ˈædvəkeɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to publicly support a cause or recommend a policy",
+          "meaning_vi": "vận động, ủng hộ công khai",
+          "examples": [
+            {
+              "en": "She advocates for stronger anti-poaching laws.",
+              "vi": "Cô ấy vận động luật chống săn trộm mạnh hơn."
+            },
+            {
+              "en": "Many NGOs advocate banning single-use plastic.",
+              "vi": "Nhiều NGO vận động cấm nhựa dùng một lần."
+            },
+            {
+              "en": "He advocates renewable energy in his TED talks.",
+              "vi": "Anh ấy ủng hộ năng lượng tái tạo trong các TED talk."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["support", "champion", "promote"],
+      "antonyms": ["oppose", "discourage"],
+      "collocations": [
+        "advocate for",
+        "strongly advocate",
+        "advocate change",
+        "publicly advocate",
+        "advocate a policy"
+      ],
+      "etymology_hint": "From Latin 'advocare' = to call to one's aid — 'ad-' (to) + 'vocare' (call).",
+      "mnemonic_vi": "AD (đến) + VOC (kêu) + ATE = kêu đến ủng hộ. Advocate for = vận động cho."
+    },
+    {
+      "word": "protected",
+      "lemma": "protected",
+      "ipa": "/prəˈtektɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "kept safe from harm, especially by law (used for species or areas)",
+          "meaning_vi": "được bảo vệ (theo luật)",
+          "examples": [
+            {
+              "en": "The pangolin is a protected species in Vietnam.",
+              "vi": "Tê tê là loài được bảo vệ ở Việt Nam."
+            },
+            {
+              "en": "Building inside protected areas requires special permits.",
+              "vi": "Xây trong khu vực được bảo vệ cần giấy phép đặc biệt."
+            },
+            {
+              "en": "Protected reefs recover faster than open ones.",
+              "vi": "Rạn san hô được bảo vệ phục hồi nhanh hơn rạn mở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["safeguarded", "preserved"],
+      "antonyms": ["exposed", "unprotected"],
+      "collocations": [
+        "protected area",
+        "protected species",
+        "legally protected",
+        "protected status",
+        "strictly protected"
+      ],
+      "etymology_hint": "Past participle of 'protect' (Latin 'protegere' = to cover in front).",
+      "mnemonic_vi": "PROTECT (bảo vệ) + ED = đã được bảo vệ. Protected species = loài được bảo vệ."
+    }
+  ]
+}

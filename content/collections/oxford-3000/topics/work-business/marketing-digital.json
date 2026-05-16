@@ -1,0 +1,739 @@
+{
+  "slug": "marketing-digital",
+  "name": "Digital Marketing",
+  "description": "Marketing số B1 — SEO, funnel, analytics, ROI và 16 từ cho dân làm marketing online.",
+  "order_index": 14,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "SEO",
+      "lemma": "SEO",
+      "ipa": "/ˌesiːˈəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Search Engine Optimization — the practice of improving a website to rank higher on Google",
+          "meaning_vi": "SEO (tối ưu công cụ tìm kiếm)",
+          "examples": [
+            {
+              "en": "Good SEO brings free traffic for months.",
+              "vi": "SEO tốt mang traffic miễn phí trong nhiều tháng."
+            },
+            {
+              "en": "Vietnamese SEO agencies charge $500-2000 a month.",
+              "vi": "Agency SEO Việt tính 500-2000 USD mỗi tháng."
+            },
+            {
+              "en": "SEO results take time — be patient.",
+              "vi": "Kết quả SEO cần thời gian — hãy kiên nhẫn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["search optimization"],
+      "antonyms": [],
+      "collocations": ["SEO strategy", "SEO ranking", "SEO audit", "technical SEO", "local SEO"],
+      "etymology_hint": "Acronym from 1997 when search engines emerged — 'Search Engine Optimization' standardized by Danny Sullivan.",
+      "mnemonic_vi": "SEO = 'ét-i-ô' / 'sê-ô' — Search Engine Optimization. SEO strategy = chiến lược SEO."
+    },
+    {
+      "word": "funnel",
+      "lemma": "funnel",
+      "ipa": "/ˈfʌnl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the customer journey from first awareness to final purchase, narrowing at each step",
+          "meaning_vi": "phễu marketing (hành trình khách từ biết đến mua)",
+          "examples": [
+            {
+              "en": "Optimize the top of the funnel to reach more people.",
+              "vi": "Tối ưu đầu phễu để tiếp cận nhiều người hơn."
+            },
+            {
+              "en": "Most leads drop off in the middle of the funnel.",
+              "vi": "Phần lớn lead rơi rớt ở giữa phễu."
+            },
+            {
+              "en": "A clean funnel can triple conversions.",
+              "vi": "Phễu sạch có thể tăng gấp 3 lần conversion."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sales funnel", "conversion funnel"],
+      "antonyms": [],
+      "collocations": [
+        "marketing funnel",
+        "sales funnel",
+        "top of funnel",
+        "bottom of funnel",
+        "funnel analysis"
+      ],
+      "etymology_hint": "From Latin 'fundibulum' = pouring tube — marketing metaphor: many in top, few out bottom.",
+      "mnemonic_vi": "FUNNEL đọc 'phân-nồ' — phễu hẹp dần. Sales funnel = phễu bán hàng."
+    },
+    {
+      "word": "click-through",
+      "lemma": "click-through",
+      "ipa": "/ˈklɪkθruː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the action of clicking a link or ad to visit a website",
+          "meaning_vi": "lượt nhấp chuyển trang",
+          "examples": [
+            {
+              "en": "Our click-through rate doubled after redesigning the ad.",
+              "vi": "Tỷ lệ nhấp chuột tăng gấp đôi sau khi thiết kế lại quảng cáo."
+            },
+            {
+              "en": "Each click-through costs us 50 cents.",
+              "vi": "Mỗi lượt click-through tốn 50 cent."
+            },
+            {
+              "en": "Email subject lines drive click-throughs.",
+              "vi": "Dòng tiêu đề email kéo click-through."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["click"],
+      "antonyms": ["impression only"],
+      "collocations": [
+        "click-through rate",
+        "high click-through",
+        "drive click-throughs",
+        "click-through link",
+        "click-through tracking"
+      ],
+      "etymology_hint": "Compound: 'click' + 'through' — appeared with banner ads in mid-1990s web.",
+      "mnemonic_vi": "CLICK (nhấn) + THROUGH (qua) = nhấn qua. Click-through rate = tỷ lệ nhấp chuyển."
+    },
+    {
+      "word": "paid",
+      "lemma": "paid",
+      "ipa": "/peɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of traffic, ads, or media) achieved by paying for promotion rather than earning it",
+          "meaning_vi": "trả phí, có trả tiền (quảng cáo)",
+          "examples": [
+            {
+              "en": "Paid ads bring instant traffic.",
+              "vi": "Quảng cáo trả phí mang traffic tức thì."
+            },
+            {
+              "en": "Most brands mix paid and organic.",
+              "vi": "Phần lớn thương hiệu trộn paid và organic."
+            },
+            {
+              "en": "Paid search converts better than display.",
+              "vi": "Paid search chuyển đổi tốt hơn display."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sponsored", "promoted"],
+      "antonyms": ["organic", "free"],
+      "collocations": ["paid ads", "paid traffic", "paid search", "paid social", "paid campaign"],
+      "etymology_hint": "Past participle of 'pay' (Old French 'paier' = to satisfy) — marketing adjective from 'paid media' since 2000s.",
+      "mnemonic_vi": "PAID = đã trả tiền. Paid ads = quảng cáo trả phí."
+    },
+    {
+      "word": "retention",
+      "lemma": "retention",
+      "ipa": "/rɪˈtenʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the ability of a business to keep its customers over time",
+          "meaning_vi": "tỷ lệ giữ chân khách hàng",
+          "examples": [
+            {
+              "en": "Retention costs 5x less than acquisition.",
+              "vi": "Giữ chân khách rẻ hơn 5 lần so với thu hút mới."
+            },
+            {
+              "en": "Their retention dropped after the price hike.",
+              "vi": "Tỷ lệ giữ chân tụt sau khi tăng giá."
+            },
+            {
+              "en": "Improve retention by listening to feedback.",
+              "vi": "Tăng giữ chân bằng cách lắng nghe phản hồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["customer loyalty"],
+      "antonyms": ["churn", "attrition"],
+      "collocations": [
+        "customer retention",
+        "high retention",
+        "retention rate",
+        "improve retention",
+        "user retention"
+      ],
+      "etymology_hint": "From Latin 'retentio' = a holding back — root 'tenere' (hold).",
+      "mnemonic_vi": "RETAIN (giữ) + ION = sự giữ lại. Customer retention = giữ chân khách."
+    },
+    {
+      "word": "churn",
+      "lemma": "churn",
+      "ipa": "/tʃɜːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the rate at which customers stop using a service",
+          "meaning_vi": "tỷ lệ rời bỏ (khách bỏ dịch vụ)",
+          "examples": [
+            {
+              "en": "Our churn dropped 30% after the new onboarding.",
+              "vi": "Tỷ lệ rời bỏ giảm 30% sau quy trình onboarding mới."
+            },
+            {
+              "en": "High churn signals product problems.",
+              "vi": "Churn cao báo hiệu vấn đề sản phẩm."
+            },
+            {
+              "en": "Reduce churn with proactive support.",
+              "vi": "Giảm churn bằng hỗ trợ chủ động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["attrition", "drop-off"],
+      "antonyms": ["retention", "loyalty"],
+      "collocations": [
+        "churn rate",
+        "reduce churn",
+        "customer churn",
+        "high churn",
+        "churn analysis"
+      ],
+      "etymology_hint": "From Old English 'cyrin' = a churning vessel — meaning 'rapid customer turnover' from 2000s SaaS jargon.",
+      "mnemonic_vi": "CHURN đọc 'chơn' — chơn ra, chơn vào. Churn rate = tỷ lệ rời bỏ."
+    },
+    {
+      "word": "impression",
+      "lemma": "impression",
+      "ipa": "/ɪmˈpreʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a single view of an ad, regardless of clicks",
+          "meaning_vi": "lượt hiển thị (quảng cáo được xem)",
+          "examples": [
+            {
+              "en": "The ad got 100,000 impressions but few clicks.",
+              "vi": "Quảng cáo có 100.000 lượt hiển thị nhưng ít click."
+            },
+            {
+              "en": "We pay per thousand impressions, not per click.",
+              "vi": "Chúng tôi trả theo nghìn lượt hiển thị, không phải mỗi click."
+            },
+            {
+              "en": "More impressions don't always mean more sales.",
+              "vi": "Hiển thị nhiều chưa chắc nghĩa là bán nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["view"],
+      "antonyms": ["click", "conversion"],
+      "collocations": [
+        "ad impressions",
+        "cost per impression",
+        "impression count",
+        "high impressions",
+        "impression share"
+      ],
+      "etymology_hint": "From Latin 'impressio' = a pressing in — meaning 'one viewing' from advertising terminology.",
+      "mnemonic_vi": "IMPRESS (in dấu) + ION = lần in lên mắt. Ad impressions = lượt hiển thị quảng cáo."
+    },
+    {
+      "word": "reach",
+      "lemma": "reach",
+      "ipa": "/riːtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the total number of different people who see your content or ad",
+          "meaning_vi": "lượng người tiếp cận (số người khác nhau)",
+          "examples": [
+            {
+              "en": "Our post had a reach of 50,000.",
+              "vi": "Bài viết có lượng tiếp cận 50.000."
+            },
+            {
+              "en": "Reach measures audience size, not engagement.",
+              "vi": "Reach đo quy mô khán giả, không phải tương tác."
+            },
+            {
+              "en": "Viral content multiplies your reach.",
+              "vi": "Nội dung viral nhân rộng lượng tiếp cận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["audience size"],
+      "antonyms": ["engagement"],
+      "collocations": [
+        "organic reach",
+        "paid reach",
+        "extend reach",
+        "global reach",
+        "reach declines"
+      ],
+      "etymology_hint": "From Old English 'rǣcan' = stretch out — modern marketing sense 'audience size' from 2010s social media.",
+      "mnemonic_vi": "REACH = vươn tới. Organic reach = tiếp cận tự nhiên."
+    },
+    {
+      "word": "targeting",
+      "lemma": "targeting",
+      "ipa": "/ˈtɑːɡɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the practice of focusing ads on specific groups based on age, interest, or behavior",
+          "meaning_vi": "nhắm mục tiêu (chọn khán giả quảng cáo)",
+          "examples": [
+            {
+              "en": "Facebook's targeting is incredibly precise.",
+              "vi": "Targeting của Facebook cực kỳ chính xác."
+            },
+            {
+              "en": "Poor targeting wastes budget.",
+              "vi": "Targeting kém phí ngân sách."
+            },
+            {
+              "en": "Interest-based targeting outperforms broad targeting.",
+              "vi": "Targeting theo sở thích thắng targeting rộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["audience selection"],
+      "antonyms": ["broad spray"],
+      "collocations": [
+        "audience targeting",
+        "interest targeting",
+        "geo targeting",
+        "precise targeting",
+        "behavioral targeting"
+      ],
+      "etymology_hint": "From 'target' (Old French 'targette' = small shield) — modern military-derived metaphor for advertising precision.",
+      "mnemonic_vi": "TARGET (bia) + ING = sự nhắm bia. Audience targeting = nhắm khán giả."
+    },
+    {
+      "word": "optimization",
+      "lemma": "optimization",
+      "ipa": "/ˌɒptɪmaɪˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of improving performance to get the best possible result",
+          "meaning_vi": "việc tối ưu hóa",
+          "examples": [
+            {
+              "en": "Site speed optimization boosted bounce rate.",
+              "vi": "Tối ưu tốc độ trang cải thiện tỷ lệ thoát."
+            },
+            {
+              "en": "Continuous optimization beats one-time fixes.",
+              "vi": "Tối ưu liên tục thắng sửa một lần."
+            },
+            {
+              "en": "Run optimization tests weekly.",
+              "vi": "Chạy thử nghiệm tối ưu hàng tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["improvement", "fine-tuning"],
+      "antonyms": ["neglect"],
+      "collocations": [
+        "site optimization",
+        "search optimization",
+        "conversion optimization",
+        "continuous optimization",
+        "speed optimization"
+      ],
+      "etymology_hint": "From Latin 'optimus' = best — '-ize' verbalizes; '-ation' nominalizes. 'Making best'.",
+      "mnemonic_vi": "OPTIM (tốt nhất) + IZATION = tối ưu hóa. Conversion optimization = tối ưu chuyển đổi."
+    },
+    {
+      "word": "metric",
+      "lemma": "metric",
+      "ipa": "/ˈmetrɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a measurement used to track performance, such as clicks or sales",
+          "meaning_vi": "chỉ số đo lường",
+          "examples": [
+            {
+              "en": "Choose three key metrics to track weekly.",
+              "vi": "Chọn 3 chỉ số chính theo dõi hàng tuần."
+            },
+            {
+              "en": "Vanity metrics don't drive revenue.",
+              "vi": "Chỉ số hư vinh không tạo doanh thu."
+            },
+            {
+              "en": "Conversion is the only metric that matters at the bottom.",
+              "vi": "Conversion là chỉ số duy nhất quan trọng cuối phễu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["measure", "KPI"],
+      "antonyms": [],
+      "collocations": [
+        "key metric",
+        "vanity metric",
+        "track metrics",
+        "marketing metric",
+        "performance metric"
+      ],
+      "etymology_hint": "From Greek 'metron' = measure — same root as 'meter' and 'metric system'.",
+      "mnemonic_vi": "METRIC đọc 'mét-rịc' — mét đo. Key metric = chỉ số then chốt."
+    },
+    {
+      "word": "analytics",
+      "lemma": "analytics",
+      "ipa": "/ˌænəˈlɪtɪks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the systematic analysis of data, especially user behavior on a website or app",
+          "meaning_vi": "phân tích dữ liệu (hành vi người dùng)",
+          "examples": [
+            {
+              "en": "Google Analytics is free and powerful.",
+              "vi": "Google Analytics miễn phí và mạnh."
+            },
+            {
+              "en": "Check your analytics every Monday morning.",
+              "vi": "Xem analytics mỗi sáng thứ Hai."
+            },
+            {
+              "en": "Without analytics, you're flying blind.",
+              "vi": "Không có analytics thì bạn bay mù."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["data analysis"],
+      "antonyms": ["guesswork"],
+      "collocations": [
+        "web analytics",
+        "Google Analytics",
+        "analytics dashboard",
+        "marketing analytics",
+        "user analytics"
+      ],
+      "etymology_hint": "From Greek 'analutikos' = able to loosen, resolve — modern business sense from 2000s.",
+      "mnemonic_vi": "ANALYZE (phân tích) + TICS = phân tích học. Web analytics = phân tích web."
+    },
+    {
+      "word": "copywriter",
+      "lemma": "copywriter",
+      "ipa": "/ˈkɒpiraɪtə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who writes persuasive text for ads, emails, or websites",
+          "meaning_vi": "copywriter (người viết câu chữ quảng cáo)",
+          "examples": [
+            {
+              "en": "Top copywriters earn six figures a year.",
+              "vi": "Copywriter giỏi kiếm 6 chữ số mỗi năm."
+            },
+            {
+              "en": "She works as a freelance copywriter.",
+              "vi": "Cô ấy làm copywriter tự do."
+            },
+            {
+              "en": "Good copywriters write less, sell more.",
+              "vi": "Copywriter giỏi viết ít, bán nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["copy writer", "ad writer"],
+      "antonyms": [],
+      "collocations": [
+        "senior copywriter",
+        "freelance copywriter",
+        "hire a copywriter",
+        "junior copywriter",
+        "in-house copywriter"
+      ],
+      "etymology_hint": "From 'copy' (text to be printed, Old French 'copie') + 'writer'. Profession named in early 20th-century advertising.",
+      "mnemonic_vi": "COPY (bản chữ) + WRITER (người viết) = người viết câu chữ. Freelance copywriter = copywriter tự do."
+    },
+    {
+      "word": "backlink",
+      "lemma": "backlink",
+      "ipa": "/ˈbæklɪŋk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a link from another website pointing to your site, important for SEO",
+          "meaning_vi": "backlink (link từ website khác trỏ về)",
+          "examples": [
+            {
+              "en": "Quality backlinks boost search rankings.",
+              "vi": "Backlink chất lượng tăng thứ hạng tìm kiếm."
+            },
+            {
+              "en": "Avoid buying spammy backlinks — Google penalizes them.",
+              "vi": "Tránh mua backlink rác — Google phạt."
+            },
+            {
+              "en": "Each backlink from a trusted site is gold.",
+              "vi": "Mỗi backlink từ trang uy tín là vàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["inbound link"],
+      "antonyms": ["outbound link"],
+      "collocations": [
+        "quality backlink",
+        "build backlinks",
+        "backlink profile",
+        "spammy backlink",
+        "earn backlinks"
+      ],
+      "etymology_hint": "Compound: 'back' (returning) + 'link' (Web hypertext) — SEO term from late 1990s.",
+      "mnemonic_vi": "BACK (về) + LINK (liên kết) = liên kết về. Build backlinks = xây backlink."
+    },
+    {
+      "word": "keyword",
+      "lemma": "keyword",
+      "ipa": "/ˈkiːwɜːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a word that people search for, used in SEO and ads",
+          "meaning_vi": "từ khóa (từ người dùng tìm kiếm)",
+          "examples": [
+            {
+              "en": "Rank for long-tail keywords first — they're easier.",
+              "vi": "Xếp hạng từ khóa dài trước — dễ hơn."
+            },
+            {
+              "en": "Choose keywords with low competition and high intent.",
+              "vi": "Chọn từ khóa cạnh tranh thấp, ý định cao."
+            },
+            {
+              "en": "Stuffing too many keywords harms readability.",
+              "vi": "Nhồi quá nhiều từ khóa hại khả năng đọc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["search term"],
+      "antonyms": [],
+      "collocations": [
+        "long-tail keyword",
+        "keyword research",
+        "rank for keyword",
+        "target keyword",
+        "keyword density"
+      ],
+      "etymology_hint": "Compound: 'key' (essential) + 'word' — library science term from 1880s, adopted by web search in 1990s.",
+      "mnemonic_vi": "KEY (chìa khóa) + WORD (từ) = từ chìa khóa. Long-tail keyword = từ khóa dài."
+    },
+    {
+      "word": "ranking",
+      "lemma": "ranking",
+      "ipa": "/ˈræŋkɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the position your website holds in search results for a given keyword",
+          "meaning_vi": "thứ hạng (trên kết quả tìm kiếm)",
+          "examples": [
+            {
+              "en": "Our ranking jumped to page one in two months.",
+              "vi": "Thứ hạng nhảy lên trang nhất trong 2 tháng."
+            },
+            {
+              "en": "Ranking #1 brings 30% of all clicks.",
+              "vi": "Thứ hạng số 1 mang 30% tổng click."
+            },
+            {
+              "en": "Track ranking for top 50 keywords daily.",
+              "vi": "Theo dõi thứ hạng cho top 50 từ khóa hàng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["position", "rank"],
+      "antonyms": [],
+      "collocations": [
+        "search ranking",
+        "improve ranking",
+        "ranking factor",
+        "high ranking",
+        "ranking drop"
+      ],
+      "etymology_hint": "From 'rank' (Old French 'ranc' = row) + '-ing' — modern SEO usage from 2000s.",
+      "mnemonic_vi": "RANK (xếp hạng) + ING = sự xếp hạng. Search ranking = thứ hạng tìm kiếm."
+    },
+    {
+      "word": "ROI",
+      "lemma": "ROI",
+      "ipa": "/ˌɑːrəʊˈaɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Return On Investment — how much profit you get from money spent",
+          "meaning_vi": "ROI (tỷ suất lợi nhuận trên đầu tư)",
+          "examples": [
+            {
+              "en": "Our ROI on Facebook ads is 5x.",
+              "vi": "ROI trên quảng cáo Facebook của chúng tôi là 5 lần."
+            },
+            {
+              "en": "Calculate ROI before scaling spend.",
+              "vi": "Tính ROI trước khi tăng chi tiêu."
+            },
+            {
+              "en": "Negative ROI means you're losing money.",
+              "vi": "ROI âm nghĩa là bạn đang lỗ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return on investment"],
+      "antonyms": ["loss"],
+      "collocations": ["high ROI", "calculate ROI", "marketing ROI", "negative ROI", "track ROI"],
+      "etymology_hint": "Acronym standardized in early 20th-century corporate finance — adopted by marketing in 1990s.",
+      "mnemonic_vi": "ROI = 'a-rồ-ai' / 'ar-ô-ai'. Marketing ROI = ROI marketing."
+    },
+    {
+      "word": "retarget",
+      "lemma": "retarget",
+      "ipa": "/ˌriːˈtɑːɡɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show ads again to users who already visited your site or showed interest",
+          "meaning_vi": "tiếp thị lại (chạy ads cho người đã quan tâm)",
+          "examples": [
+            {
+              "en": "Retarget abandoned-cart visitors within 24 hours.",
+              "vi": "Tiếp thị lại khách bỏ giỏ hàng trong 24 giờ."
+            },
+            {
+              "en": "Retargeting ads convert better than cold ads.",
+              "vi": "Retargeting ads chuyển đổi tốt hơn ads lạnh."
+            },
+            {
+              "en": "Cap retargeting frequency or users get annoyed.",
+              "vi": "Hạn chế tần suất retargeting hoặc khách sẽ khó chịu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["remarket", "retargeting"],
+      "antonyms": ["cold targeting"],
+      "collocations": [
+        "retarget visitors",
+        "retargeting campaign",
+        "retarget customers",
+        "abandoned-cart retargeting",
+        "Facebook retargeting"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'target' — coined late 2000s with cookie-based ad tracking.",
+      "mnemonic_vi": "RE (lại) + TARGET (nhắm) = nhắm lại. Retarget visitors = retarget khách đã ghé."
+    },
+    {
+      "word": "ad",
+      "lemma": "ad",
+      "ipa": "/æd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "short for advertisement — a piece of marketing content used to promote a product",
+          "meaning_vi": "quảng cáo (ngắn gọn của advertisement)",
+          "examples": [
+            {
+              "en": "Skip the ads if you can.",
+              "vi": "Bỏ qua quảng cáo nếu được."
+            },
+            {
+              "en": "Vietnamese YouTubers love 15-second ads.",
+              "vi": "YouTuber Việt thích quảng cáo 15 giây."
+            },
+            {
+              "en": "Test 5 ad variations to find the winner.",
+              "vi": "Thử nghiệm 5 biến thể quảng cáo để tìm cái thắng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advertisement", "advert"],
+      "antonyms": ["organic content"],
+      "collocations": ["video ad", "display ad", "skip the ad", "ad spend", "run an ad"],
+      "etymology_hint": "Shortened from 'advertisement' (Latin 'advertere' = turn toward) — informal by late 19th century.",
+      "mnemonic_vi": "AD = 'ét' — quảng cáo. Run an ad = chạy quảng cáo."
+    },
+    {
+      "word": "CTR",
+      "lemma": "CTR",
+      "ipa": "/ˌsiːtiːˈɑː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Click-Through Rate — the percentage of people who clicked an ad after seeing it",
+          "meaning_vi": "CTR (tỷ lệ nhấp / lượt hiển thị)",
+          "examples": [
+            {
+              "en": "A 2% CTR is solid for display ads.",
+              "vi": "CTR 2% là tốt với quảng cáo hiển thị."
+            },
+            {
+              "en": "Improve CTR with stronger headlines.",
+              "vi": "Tăng CTR bằng tiêu đề mạnh hơn."
+            },
+            {
+              "en": "Low CTR usually means weak creative.",
+              "vi": "CTR thấp thường nghĩa là sáng tạo yếu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["click-through rate"],
+      "antonyms": [],
+      "collocations": ["high CTR", "low CTR", "improve CTR", "average CTR", "CTR benchmark"],
+      "etymology_hint": "Acronym from Google AdWords launch (2000) — standard pay-per-click metric.",
+      "mnemonic_vi": "CTR = 'xi-ti-ar'. Improve CTR = tăng tỷ lệ nhấp."
+    }
+  ]
+}
