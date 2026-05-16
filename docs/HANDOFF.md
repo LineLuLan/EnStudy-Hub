@@ -5,6 +5,64 @@
 
 ---
 
+## 2026-05-17 (cuối session — hết token, handoff) — Day total 40 lessons / 800 cards B1+A2 — Claude Opus 4.7
+
+### Session day summary
+
+Marathon 1 ngày từ 67 → 107 lessons (37% → 56% Oxford 3000). **8 batches × 5 lessons / 100 cards mỗi batch**: P7a/b/c/d (A2) + P8a/b/c/d (B1). P7 ĐÓNG 20/20. P8 ở 20/25.
+
+| Batch | Lessons (5)                                                                                 | Status       |
+| ----- | ------------------------------------------------------------------------------------------- | ------------ |
+| P7a   | shopping-money, feelings-extended, email-communication, study-techniques, housing-utilities | ✅           |
+| P7b   | traffic-roads, wildlife-ext, sports-fitness, time-frequency, health-symptoms                | ✅           |
+| P7c   | cleaning-housework, social-media, work-relationships, teamwork, measurements                | ✅           |
+| P7d   | personal-care, online-learning, tourism-experiences, farm-rural, cognition                  | ✅ P7 CLOSED |
+| P8a   | quality-quantity, change-process, social-issues, communication, decision-making             | ✅           |
+| P8b   | science-basics, health-wellness, marketing-sales, time-sequence, digital-culture            | ✅ 🎉 50%    |
+| P8c   | abstract-concepts, politics-government, leadership, relationships-modern, sustainability    | ✅           |
+| P8d   | finance-investment, streaming-media, oceans-marine, argument-logic, aging-life-stages       | ✅ P8 20/25  |
+
+### SHA cuối session
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `f777013` (P8d docs)
+- fe `0be433e` (sync P8d docs)
+- be `1080e74` (sync P8d docs)
+
+### Live trên Supabase
+
+**1 collection / 11 topics / 107 lessons / 2140 cards** (~56% Oxford 3000 coverage)
+
+### PICKUP cho session sau — P8e (cuối cùng để đóng P8 25/25)
+
+User confirm "Oke tiếp P8e" rồi nhưng AI hết token, **chưa gen được lesson nào của P8e**. Session sau pickup từ đây:
+
+**5 lessons B1 đề xuất cho P8e** (workflow đã chuẩn: grep collision → gen JSON → Zod validate → commit be → merge dev → sync fe → seed):
+
+1. `work-business/entrepreneurship` — startup, founder, pivot, scale, venture, funding, prototype, valuation, unicorn, exit, acquire, merge, cofounder, bootstrap, IPO, revenue (taken? check), runway, burn, traction, hustle
+2. `entertainment/music-production` — beat, lyrics, melody, riff, chord, tempo, remix, sample, producer, vocal, harmony, rhythm, bass, drum (taken? check), record, mix, master, single (taken? check), album (check), DJ
+3. `places-travel/extreme-travel` — expedition, backpacker, off-grid, nomad, jet-lag (taken), itinerary (taken), trek (related to hike), summit (taken), wilderness, remote, frontier, journey (taken), pilgrimage, solo, voyage, scenic, route (taken), checkpoint, gear, adventure (taken)
+4. `nature-environment/weather-disasters` — typhoon (taken in weather-seasons-ext), blizzard, drought (taken), flood (taken), hurricane (taken), avalanche, landslide, earthquake, eruption, tornado, monsoon, lightning (taken), thunder (taken), storm (taken)... ⚠️ topic này nhiều conflict, có thể pivot sang `weather-extremes` hoặc `natural-phenomena`
+5. `abstract-academic/identity-self` — identity, persona, self-image, self-esteem, ego, character (related to characteristic), individuality, authentic, genuine, self-aware, mindset, perspective (taken), worldview, belief (related to believe), conviction, faith, value (taken)... ⚠️ nhiều conflict cần check kỹ
+
+**Collision check ESSENTIAL trước khi gen** mỗi lesson — pattern: `Grep "word": "(w1|w2|w3...)" content/collections/oxford-3000`.
+
+### Quan trọng cho next session
+
+1. **Override pattern**: 11 overrides "gen tiếp" trong day này → AI auto-gen, không hỏi.
+2. **Quality bar drift alert**: Session marathon dài (40 lessons), quality có thể bắt đầu trôi. Khi pickup nên review 1-2 file gần đây xem chất lượng còn ổn không.
+3. **JSON typo risk**: P8c sustainability.json có lỗi typo `snỉug` đã fix kịp trước commit. Cẩn thận key tên khi gen nhanh.
+4. **Word collision với "delegate"**: noun trong leadership.json trùng verb trong teamwork.json — DB cho phép (unique theo lessonId), nhưng phá rule "100% NEW". Future: tránh hoặc note rõ angle khác.
+5. **Sau khi đóng P8e**: P8 totals 25 lessons / 500 cards. Coverage sẽ ~58-60%. Next: P9 B1 part 2 (25 lessons).
+
+### Files state khi handoff
+
+- Branches all pushed to origin
+- No uncommitted changes
+- Live DB seed up to date
+
+---
+
 ## 2026-05-17 (P8d content batch) — B1: 5 more lessons / 100 cards (107/192, ~56%) — Claude Opus 4.7
 
 ### Đã ship
