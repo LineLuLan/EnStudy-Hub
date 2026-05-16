@@ -1,0 +1,751 @@
+{
+  "slug": "higher-ed",
+  "name": "Higher Education",
+  "description": "Giáo dục đại học B1 — undergraduate, graduate, dissertation, GPA và 16 từ cho sinh viên.",
+  "order_index": 5,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "undergraduate",
+      "lemma": "undergraduate",
+      "ipa": "/ˌʌndəˈɡrædʒuət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a student studying for their first university degree (bachelor's)",
+          "meaning_vi": "sinh viên đại học (chưa tốt nghiệp / hệ cử nhân)",
+          "examples": [
+            {
+              "en": "She's an undergraduate in computer science at Bách Khoa.",
+              "vi": "Cô ấy là sinh viên ngành Khoa học máy tính ở Bách Khoa."
+            },
+            {
+              "en": "Most undergraduates live in dormitories.",
+              "vi": "Phần lớn sinh viên đại học ở ký túc xá."
+            },
+            {
+              "en": "Undergraduate years shape who you become.",
+              "vi": "Những năm đại học định hình bạn sẽ là ai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bachelor's student", "undergrad"],
+      "antonyms": ["postgraduate", "graduate student"],
+      "collocations": [
+        "undergraduate degree",
+        "undergraduate program",
+        "undergraduate student",
+        "first-year undergraduate",
+        "undergraduate research"
+      ],
+      "etymology_hint": "Prefix 'under-' (below) + 'graduate' — literally 'below the graduate level'.",
+      "mnemonic_vi": "UNDER (dưới) + GRADUATE (tốt nghiệp) = chưa tốt nghiệp. Undergraduate degree = bằng cử nhân."
+    },
+    {
+      "word": "graduate",
+      "lemma": "graduate",
+      "ipa": "/ˈɡrædʒuət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who has completed a university degree",
+          "meaning_vi": "người đã tốt nghiệp đại học",
+          "examples": [
+            {
+              "en": "She's a graduate of Hà Nội Foreign Trade University.",
+              "vi": "Cô ấy tốt nghiệp Đại học Ngoại Thương Hà Nội."
+            },
+            {
+              "en": "Most graduates spend a year job-hunting.",
+              "vi": "Phần lớn sinh viên tốt nghiệp dành 1 năm tìm việc."
+            },
+            {
+              "en": "Recent graduates earn less than experienced workers.",
+              "vi": "Sinh viên mới tốt nghiệp kiếm ít hơn người có kinh nghiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alumni (when many)"],
+      "antonyms": ["dropout", "undergraduate"],
+      "collocations": [
+        "recent graduate",
+        "university graduate",
+        "graduate program",
+        "graduate school",
+        "fresh graduate"
+      ],
+      "etymology_hint": "From Latin 'graduari' = take a degree — root 'gradus' (step), each degree a 'step up'.",
+      "mnemonic_vi": "GRADUATE đọc 'gra-điu-ết' — gra giải đi đếu trường. Recent graduate = sinh viên mới tốt nghiệp."
+    },
+    {
+      "word": "postgraduate",
+      "lemma": "postgraduate",
+      "ipa": "/ˌpəʊstˈɡrædʒuət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a student studying for a degree after completing a bachelor's degree",
+          "meaning_vi": "học viên sau đại học (cao học, NCS)",
+          "examples": [
+            {
+              "en": "He's a postgraduate researching renewable energy.",
+              "vi": "Anh ấy là học viên sau đại học nghiên cứu năng lượng tái tạo."
+            },
+            {
+              "en": "Postgraduate scholarships are competitive.",
+              "vi": "Học bổng sau đại học cạnh tranh rất gắt."
+            },
+            {
+              "en": "Postgraduate study deepens your specialization.",
+              "vi": "Học sau đại học đào sâu chuyên ngành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["graduate student", "postgrad"],
+      "antonyms": ["undergraduate"],
+      "collocations": [
+        "postgraduate program",
+        "postgraduate research",
+        "postgraduate degree",
+        "postgraduate student",
+        "postgraduate funding"
+      ],
+      "etymology_hint": "Prefix 'post-' (after) + 'graduate' — literally 'after graduation'.",
+      "mnemonic_vi": "POST (sau) + GRADUATE (tốt nghiệp) = sau tốt nghiệp. Postgraduate research = nghiên cứu sau đại học."
+    },
+    {
+      "word": "masters",
+      "lemma": "master",
+      "ipa": "/ˈmɑːstəz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an advanced university degree higher than a bachelor's, usually one to two years",
+          "meaning_vi": "bằng thạc sĩ",
+          "examples": [
+            {
+              "en": "She earned her masters in public health from Harvard.",
+              "vi": "Cô ấy lấy bằng thạc sĩ y tế công cộng tại Harvard."
+            },
+            {
+              "en": "A masters can boost your salary significantly.",
+              "vi": "Một bằng thạc sĩ có thể tăng lương đáng kể."
+            },
+            {
+              "en": "Many Vietnamese pursue masters abroad.",
+              "vi": "Nhiều người Việt học thạc sĩ ở nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["master's degree", "MA", "MSc"],
+      "antonyms": ["bachelor's"],
+      "collocations": [
+        "masters degree",
+        "earn a masters",
+        "masters program",
+        "MBA masters",
+        "masters thesis"
+      ],
+      "etymology_hint": "From Latin 'magister' = chief, teacher — medieval universities used 'master' for teaching-rank degree.",
+      "mnemonic_vi": "MASTERS đọc 'mát-tơ-s' — bậc 'master' bậc thầy. Masters degree = bằng thạc sĩ."
+    },
+    {
+      "word": "doctorate",
+      "lemma": "doctorate",
+      "ipa": "/ˈdɒktərət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the highest academic degree, usually awarded after years of research",
+          "meaning_vi": "bằng tiến sĩ",
+          "examples": [
+            {
+              "en": "He completed his doctorate in three and a half years.",
+              "vi": "Anh ấy hoàn thành tiến sĩ trong 3 năm rưỡi."
+            },
+            {
+              "en": "A doctorate opens doors to academic careers.",
+              "vi": "Bằng tiến sĩ mở cánh cửa cho sự nghiệp học thuật."
+            },
+            {
+              "en": "Few Vietnamese students reach doctorate level.",
+              "vi": "Ít sinh viên Việt đạt tới trình độ tiến sĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["PhD", "doctoral degree"],
+      "antonyms": ["bachelor's", "masters"],
+      "collocations": [
+        "earn a doctorate",
+        "doctorate degree",
+        "doctorate in",
+        "complete a doctorate",
+        "honorary doctorate"
+      ],
+      "etymology_hint": "From Latin 'doctor' = teacher — early universities awarded doctorate as license to teach.",
+      "mnemonic_vi": "DOCTOR (tiến sĩ) + ATE = bằng tiến sĩ. Earn a doctorate = lấy bằng tiến sĩ."
+    },
+    {
+      "word": "PhD",
+      "lemma": "PhD",
+      "ipa": "/ˌpiːeɪtʃˈdiː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Doctor of Philosophy — the most common doctoral degree, awarded after original research",
+          "meaning_vi": "tiến sĩ PhD",
+          "examples": [
+            {
+              "en": "She's doing her PhD on Vietnamese folk music.",
+              "vi": "Cô ấy làm PhD về nhạc dân gian Việt."
+            },
+            {
+              "en": "A PhD typically takes four to six years.",
+              "vi": "PhD thường mất 4-6 năm."
+            },
+            {
+              "en": "PhD students often teach undergraduate classes.",
+              "vi": "Nghiên cứu sinh PhD thường dạy lớp đại học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doctorate", "doctoral degree"],
+      "antonyms": ["bachelor's", "masters"],
+      "collocations": ["PhD student", "PhD program", "PhD candidate", "PhD thesis", "PhD in"],
+      "etymology_hint": "Abbreviation of Latin 'Philosophiae Doctor' — 'philosophy' in old sense meaning 'all advanced learning'.",
+      "mnemonic_vi": "PhD = 'piếc-eich-đi' — Ph là Philo, D là Doctor. PhD student = nghiên cứu sinh."
+    },
+    {
+      "word": "dissertation",
+      "lemma": "dissertation",
+      "ipa": "/ˌdɪsəˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long written piece of research, usually required for a doctorate",
+          "meaning_vi": "luận án (thường cấp tiến sĩ)",
+          "examples": [
+            {
+              "en": "Her dissertation was 300 pages long.",
+              "vi": "Luận án của cô ấy dài 300 trang."
+            },
+            {
+              "en": "Defending a dissertation takes months of preparation.",
+              "vi": "Bảo vệ luận án cần nhiều tháng chuẩn bị."
+            },
+            {
+              "en": "He published parts of his dissertation as journal articles.",
+              "vi": "Anh ấy đăng các phần của luận án thành bài báo khoa học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doctoral thesis"],
+      "antonyms": [],
+      "collocations": [
+        "write a dissertation",
+        "defend a dissertation",
+        "dissertation topic",
+        "doctoral dissertation",
+        "complete a dissertation"
+      ],
+      "etymology_hint": "From Latin 'dissertatio' = discussion — 'dis-' (apart) + 'serere' (arrange).",
+      "mnemonic_vi": "DISSERT (luận) + ATION = bản luận. Defend a dissertation = bảo vệ luận án."
+    },
+    {
+      "word": "faculty",
+      "lemma": "faculty",
+      "ipa": "/ˈfæklti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the teaching staff of a university or a department within it",
+          "meaning_vi": "khoa, đội ngũ giảng viên",
+          "examples": [
+            {
+              "en": "The Faculty of Economics has 80 lecturers.",
+              "vi": "Khoa Kinh tế có 80 giảng viên."
+            },
+            {
+              "en": "She joined the faculty last September.",
+              "vi": "Cô ấy gia nhập đội ngũ giảng viên từ tháng 9."
+            },
+            {
+              "en": "Faculty meetings happen monthly.",
+              "vi": "Họp khoa diễn ra hàng tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["teaching staff", "department"],
+      "antonyms": ["students"],
+      "collocations": [
+        "join the faculty",
+        "faculty member",
+        "faculty meeting",
+        "faculty of law",
+        "senior faculty"
+      ],
+      "etymology_hint": "From Latin 'facultas' = ability, power — academic sense from medieval universities.",
+      "mnemonic_vi": "FACULTY đọc 'phếch-cồ-ti' — phách chỉ thầy cô. Faculty member = giảng viên/thành viên khoa."
+    },
+    {
+      "word": "professor",
+      "lemma": "professor",
+      "ipa": "/prəˈfesə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a senior university teacher who often leads research in their field",
+          "meaning_vi": "giáo sư, giảng viên cao cấp",
+          "examples": [
+            {
+              "en": "Professor Ngô Bảo Châu won the Fields Medal in 2010.",
+              "vi": "Giáo sư Ngô Bảo Châu giành huy chương Fields năm 2010."
+            },
+            {
+              "en": "His professor wrote him a strong recommendation letter.",
+              "vi": "Giáo sư của anh ấy viết thư giới thiệu mạnh."
+            },
+            {
+              "en": "Professors balance teaching, research, and admin work.",
+              "vi": "Giáo sư cân bằng dạy, nghiên cứu và công việc hành chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["academic", "prof"],
+      "antonyms": ["student"],
+      "collocations": [
+        "associate professor",
+        "full professor",
+        "visiting professor",
+        "professor of",
+        "tenured professor"
+      ],
+      "etymology_hint": "From Latin 'profiteri' = declare openly — originally a public lecturer.",
+      "mnemonic_vi": "PROFESS (tuyên xưng) + OR = người tuyên dạy. Associate professor = phó giáo sư."
+    },
+    {
+      "word": "lecturer",
+      "lemma": "lecturer",
+      "ipa": "/ˈlektʃərə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a university teacher, usually below the rank of professor",
+          "meaning_vi": "giảng viên (chưa lên giáo sư)",
+          "examples": [
+            {
+              "en": "The lecturer started the class with a real-world example.",
+              "vi": "Giảng viên mở đầu bằng ví dụ thực tế."
+            },
+            {
+              "en": "She works as a part-time lecturer at two universities.",
+              "vi": "Cô ấy làm giảng viên bán thời gian tại 2 trường."
+            },
+            {
+              "en": "Junior lecturers earn modest salaries in Vietnam.",
+              "vi": "Giảng viên trẻ ở Việt Nam lương khiêm tốn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["instructor", "teaching fellow"],
+      "antonyms": ["student"],
+      "collocations": [
+        "senior lecturer",
+        "junior lecturer",
+        "part-time lecturer",
+        "lecturer in",
+        "guest lecturer"
+      ],
+      "etymology_hint": "From 'lecture' (Latin 'lectura' = a reading) + agent suffix '-er' — one who reads/teaches.",
+      "mnemonic_vi": "LECTURE (giảng) + R (người) = người giảng. Senior lecturer = giảng viên cao cấp."
+    },
+    {
+      "word": "seminar",
+      "lemma": "seminar",
+      "ipa": "/ˈsemɪnɑː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small class for discussion of a topic, usually led by a tutor or expert",
+          "meaning_vi": "hội thảo, seminar (lớp nhỏ thảo luận)",
+          "examples": [
+            {
+              "en": "The Friday seminar covers research methods.",
+              "vi": "Seminar thứ Sáu bàn về phương pháp nghiên cứu."
+            },
+            {
+              "en": "Active participation in seminars boosts your grade.",
+              "vi": "Tích cực ở seminar tăng điểm của bạn."
+            },
+            {
+              "en": "She presented her draft paper at the doctoral seminar.",
+              "vi": "Cô ấy trình bày bản nháp ở seminar nghiên cứu sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["discussion class", "workshop"],
+      "antonyms": ["lecture (one-way)"],
+      "collocations": [
+        "weekly seminar",
+        "attend a seminar",
+        "host a seminar",
+        "seminar room",
+        "doctoral seminar"
+      ],
+      "etymology_hint": "From Latin 'seminarium' = seed plot — a place where ideas (seeds) are planted and grown.",
+      "mnemonic_vi": "SEMINAR đọc 'sê-mi-nà' — sê-mi-na cứ nghĩ là 'mầm' học. Doctoral seminar = seminar nghiên cứu sinh."
+    },
+    {
+      "word": "tuition",
+      "lemma": "tuition",
+      "ipa": "/tjuˈɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the money you pay for instruction at a school or university",
+          "meaning_vi": "học phí",
+          "examples": [
+            {
+              "en": "Vietnamese public university tuition is much lower than abroad.",
+              "vi": "Học phí trường công Việt Nam thấp hơn nhiều so với nước ngoài."
+            },
+            {
+              "en": "Scholarships cover full tuition for top students.",
+              "vi": "Học bổng cover học phí toàn phần cho sinh viên xuất sắc."
+            },
+            {
+              "en": "Tuition increases sparked student protests.",
+              "vi": "Tăng học phí gây ra biểu tình của sinh viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["school fees"],
+      "antonyms": ["scholarship", "free education"],
+      "collocations": [
+        "annual tuition",
+        "pay tuition",
+        "tuition fees",
+        "tuition waiver",
+        "increase tuition"
+      ],
+      "etymology_hint": "From Latin 'tuitio' = a looking after — meaning 'instruction' (a form of care) since 16th century.",
+      "mnemonic_vi": "TUITION đọc 'tiu-ish-ần' — tù tiền học. Annual tuition = học phí năm."
+    },
+    {
+      "word": "transcript",
+      "lemma": "transcript",
+      "ipa": "/ˈtrænskrɪpt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official record of your courses and grades from a school or university",
+          "meaning_vi": "bảng điểm chính thức",
+          "examples": [
+            {
+              "en": "Request your transcript at least two weeks in advance.",
+              "vi": "Yêu cầu bảng điểm trước ít nhất 2 tuần."
+            },
+            {
+              "en": "Universities abroad require sealed transcripts.",
+              "vi": "Trường nước ngoài yêu cầu bảng điểm niêm phong."
+            },
+            {
+              "en": "Her transcript shows straight A's in math.",
+              "vi": "Bảng điểm cô ấy toàn A môn toán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["academic record", "grade report"],
+      "antonyms": [],
+      "collocations": [
+        "official transcript",
+        "request a transcript",
+        "academic transcript",
+        "sealed transcript",
+        "send transcript"
+      ],
+      "etymology_hint": "From Latin 'transcribere' = to copy — 'trans-' (across) + 'scribere' (write).",
+      "mnemonic_vi": "TRANS (sang) + SCRIPT (viết) = chép sang. Official transcript = bảng điểm chính thức."
+    },
+    {
+      "word": "GPA",
+      "lemma": "GPA",
+      "ipa": "/ˌdʒiːpiːˈeɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Grade Point Average — a number representing your overall academic performance",
+          "meaning_vi": "GPA, điểm trung bình tích lũy",
+          "examples": [
+            {
+              "en": "Her GPA of 3.8 helped her win a scholarship.",
+              "vi": "GPA 3.8 giúp cô ấy giành học bổng."
+            },
+            {
+              "en": "Vietnamese universities often use a 10-point GPA scale.",
+              "vi": "Đại học Việt thường dùng GPA thang 10."
+            },
+            {
+              "en": "A low GPA can be offset by strong work experience.",
+              "vi": "GPA thấp có thể được bù bằng kinh nghiệm làm việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grade average"],
+      "antonyms": [],
+      "collocations": ["high GPA", "low GPA", "GPA scale", "cumulative GPA", "raise GPA"],
+      "etymology_hint": "Acronym standardized in US universities mid-20th century — 'Grade Point Average'.",
+      "mnemonic_vi": "GPA = 'giê-pi-ây' — giải pháp điểm. Cumulative GPA = GPA tích lũy."
+    },
+    {
+      "word": "internship",
+      "lemma": "internship",
+      "ipa": "/ˈɪntɜːnʃɪp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a period of work experience offered to students or recent graduates",
+          "meaning_vi": "kỳ thực tập",
+          "examples": [
+            {
+              "en": "She landed an internship at a Singapore fintech.",
+              "vi": "Cô ấy được nhận thực tập tại một fintech Singapore."
+            },
+            {
+              "en": "Unpaid internships are controversial.",
+              "vi": "Thực tập không lương đang gây tranh cãi."
+            },
+            {
+              "en": "His summer internship turned into a full-time offer.",
+              "vi": "Kỳ thực tập hè của anh ấy thành lời mời full-time."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["work placement", "trainee position"],
+      "antonyms": ["full-time job"],
+      "collocations": [
+        "summer internship",
+        "paid internship",
+        "land an internship",
+        "internship program",
+        "complete an internship"
+      ],
+      "etymology_hint": "From 'intern' (Latin 'internus' = within) + '-ship' — originally medical residents 'inside' hospitals.",
+      "mnemonic_vi": "INTERN (thực tập sinh) + SHIP = giai đoạn thực tập. Summer internship = thực tập hè."
+    },
+    {
+      "word": "major",
+      "lemma": "major",
+      "ipa": "/ˈmeɪdʒə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the main subject you focus on in your university degree",
+          "meaning_vi": "ngành chính (chuyên ngành học)",
+          "examples": [
+            {
+              "en": "Her major is international business.",
+              "vi": "Ngành chính của cô ấy là Kinh doanh Quốc tế."
+            },
+            {
+              "en": "Choose a major you can stay passionate about.",
+              "vi": "Chọn ngành chính bạn duy trì được đam mê."
+            },
+            {
+              "en": "He changed his major from engineering to design.",
+              "vi": "Anh ấy đổi ngành chính từ kỹ sư sang thiết kế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["specialization", "discipline"],
+      "antonyms": ["minor"],
+      "collocations": [
+        "double major",
+        "declare a major",
+        "change a major",
+        "major in",
+        "primary major"
+      ],
+      "etymology_hint": "From Latin 'maior' = greater — academic use as 'main subject' from US universities 19th-20th century.",
+      "mnemonic_vi": "MAJOR = chính, lớn. Double major = học hai ngành chính."
+    },
+    {
+      "word": "minor",
+      "lemma": "minor",
+      "ipa": "/ˈmaɪnə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a secondary subject of study, less intensive than a major",
+          "meaning_vi": "ngành phụ",
+          "examples": [
+            {
+              "en": "She majored in economics with a minor in Chinese.",
+              "vi": "Cô ấy học ngành chính Kinh tế, ngành phụ tiếng Trung."
+            },
+            {
+              "en": "Picking up a minor adds breadth to your degree.",
+              "vi": "Học thêm ngành phụ mở rộng bằng cấp của bạn."
+            },
+            {
+              "en": "Minors usually require 5 to 7 courses.",
+              "vi": "Ngành phụ thường cần 5-7 môn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["secondary subject"],
+      "antonyms": ["major", "primary subject"],
+      "collocations": [
+        "minor in",
+        "declare a minor",
+        "pick up a minor",
+        "secondary minor",
+        "minor subject"
+      ],
+      "etymology_hint": "From Latin 'minor' = smaller — academic use parallels 'major'.",
+      "mnemonic_vi": "MINOR = nhỏ, phụ. Minor in = học phụ ngành."
+    },
+    {
+      "word": "campus",
+      "lemma": "campus",
+      "ipa": "/ˈkæmpəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the area and buildings of a university or college",
+          "meaning_vi": "khuôn viên trường (đại học)",
+          "examples": [
+            {
+              "en": "RMIT's Saigon campus is beautifully designed.",
+              "vi": "Khuôn viên RMIT Sài Gòn được thiết kế đẹp."
+            },
+            {
+              "en": "She lives on campus to save commuting time.",
+              "vi": "Cô ấy ở trong khuôn viên trường để tiết kiệm thời gian đi lại."
+            },
+            {
+              "en": "Most campuses have a library, cafeteria, and gym.",
+              "vi": "Phần lớn campus có thư viện, căng tin và phòng gym."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["university grounds"],
+      "antonyms": ["off-campus"],
+      "collocations": ["on campus", "off campus", "campus life", "main campus", "campus tour"],
+      "etymology_hint": "From Latin 'campus' = field — Princeton coined modern academic usage in the 1770s.",
+      "mnemonic_vi": "CAMPUS đọc 'kem-pừs' — kem phụ trường. On campus = trong khuôn viên."
+    },
+    {
+      "word": "dormitory",
+      "lemma": "dormitory",
+      "ipa": "/ˈdɔːmətri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a building where students live, usually on or near campus",
+          "meaning_vi": "ký túc xá",
+          "examples": [
+            {
+              "en": "Her dormitory room is small but cozy.",
+              "vi": "Phòng ký túc của cô ấy nhỏ nhưng ấm cúng."
+            },
+            {
+              "en": "Vietnamese dormitories often have 4-8 students per room.",
+              "vi": "Ký túc xá Việt thường có 4-8 sinh viên mỗi phòng."
+            },
+            {
+              "en": "Dormitory friendships often last a lifetime.",
+              "vi": "Tình bạn ký túc thường kéo dài cả đời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dorm", "student housing", "hall of residence"],
+      "antonyms": ["off-campus housing", "private apartment"],
+      "collocations": [
+        "live in a dormitory",
+        "dormitory room",
+        "university dormitory",
+        "dormitory life",
+        "shared dormitory"
+      ],
+      "etymology_hint": "From Latin 'dormitorium' = sleeping place — 'dormire' (sleep).",
+      "mnemonic_vi": "DORM (ngủ) + ITORY = nơi ngủ. Live in a dormitory = ở ký túc."
+    },
+    {
+      "word": "alumni",
+      "lemma": "alumnus",
+      "ipa": "/əˈlʌmnaɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "former students of a particular school, college, or university",
+          "meaning_vi": "cựu sinh viên (số nhiều)",
+          "examples": [
+            {
+              "en": "The alumni network helped him find his first job.",
+              "vi": "Mạng lưới cựu sinh viên giúp anh ấy tìm được việc đầu."
+            },
+            {
+              "en": "Famous alumni include the country's prime minister.",
+              "vi": "Cựu sinh viên nổi tiếng gồm cả thủ tướng quốc gia."
+            },
+            {
+              "en": "Alumni reunions happen every five years.",
+              "vi": "Họp mặt cựu sinh viên diễn ra mỗi 5 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["graduates", "former students"],
+      "antonyms": ["current students"],
+      "collocations": [
+        "alumni network",
+        "alumni reunion",
+        "alumni association",
+        "famous alumni",
+        "alumni event"
+      ],
+      "etymology_hint": "From Latin 'alumnus' = nursling, foster son — those 'raised' by the institution. Plural 'alumni'.",
+      "mnemonic_vi": "ALUMNI đọc 'a-lum-nai' — anh, lúm nai cựu sinh viên. Alumni network = mạng cựu sinh viên."
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "slug": "communication-styles",
+  "name": "Communication Styles",
+  "description": "Phong cách giao tiếp B1 — assertive, diplomatic, tactful, persuasive và 16 từ cho người muốn nói khéo.",
+  "order_index": 6,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "assertive",
+      "lemma": "assertive",
+      "ipa": "/əˈsɜːtɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "expressing your views and needs confidently without being aggressive",
+          "meaning_vi": "quyết đoán, dám nói thẳng (không hung hăng)",
+          "examples": [
+            {
+              "en": "She's assertive in meetings but never rude.",
+              "vi": "Cô ấy quyết đoán trong họp nhưng không bao giờ thô lỗ."
+            },
+            {
+              "en": "Vietnamese employees can learn to be more assertive with bosses.",
+              "vi": "Nhân viên Việt có thể học cách quyết đoán hơn với sếp."
+            },
+            {
+              "en": "Being assertive means saying 'no' when needed.",
+              "vi": "Quyết đoán nghĩa là dám nói 'không' khi cần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["confident", "self-assured", "firm"],
+      "antonyms": ["passive", "submissive"],
+      "collocations": [
+        "assertive communication",
+        "be assertive",
+        "assertive tone",
+        "assertive without aggression",
+        "assertive leader"
+      ],
+      "etymology_hint": "From Latin 'asserere' = to claim — assertiveness training emerged in 1970s psychology.",
+      "mnemonic_vi": "ASSERT (khẳng định) + IVE = mang tính khẳng định. Be assertive = quyết đoán."
+    },
+    {
+      "word": "passive",
+      "lemma": "passive",
+      "ipa": "/ˈpæsɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "accepting what happens without trying to change it; not speaking up",
+          "meaning_vi": "thụ động, cam chịu",
+          "examples": [
+            {
+              "en": "Don't be too passive — speak up if you disagree.",
+              "vi": "Đừng quá thụ động — lên tiếng nếu không đồng ý."
+            },
+            {
+              "en": "Passive listeners miss opportunities to clarify.",
+              "vi": "Người nghe thụ động bỏ lỡ cơ hội làm rõ vấn đề."
+            },
+            {
+              "en": "Passive-aggressive behavior damages relationships.",
+              "vi": "Hành vi thụ động-hung hăng làm hỏng các mối quan hệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["submissive", "yielding"],
+      "antonyms": ["assertive", "active"],
+      "collocations": [
+        "passive listener",
+        "passive-aggressive",
+        "passive role",
+        "remain passive",
+        "passive resistance"
+      ],
+      "etymology_hint": "From Latin 'pati' = to suffer, undergo — same root as 'patient' and 'passion'.",
+      "mnemonic_vi": "PASS (bị qua) + IVE = bị động. Passive listener = người nghe thụ động."
+    },
+    {
+      "word": "aggressive",
+      "lemma": "aggressive",
+      "ipa": "/əˈɡresɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "behaving in an angry, forceful, or threatening way",
+          "meaning_vi": "hung hăng, gây hấn",
+          "examples": [
+            {
+              "en": "His aggressive tone made everyone defensive.",
+              "vi": "Giọng hung hăng của anh ấy khiến ai cũng phòng thủ."
+            },
+            {
+              "en": "Aggressive selling drives customers away.",
+              "vi": "Bán hàng hung hăng làm khách bỏ chạy."
+            },
+            {
+              "en": "There's a difference between assertive and aggressive.",
+              "vi": "Có sự khác biệt giữa quyết đoán và hung hăng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hostile", "forceful", "combative"],
+      "antonyms": ["peaceful", "passive"],
+      "collocations": [
+        "aggressive behavior",
+        "verbally aggressive",
+        "aggressive tone",
+        "passive-aggressive",
+        "aggressive driving"
+      ],
+      "etymology_hint": "From Latin 'aggressus' = to step toward, attack — 'ad-' (to) + 'gradi' (step).",
+      "mnemonic_vi": "AGGRESS đọc 'a-gress' — a, gờ răng gầm gừ. Aggressive tone = giọng hung hăng."
+    },
+    {
+      "word": "diplomatic",
+      "lemma": "diplomatic",
+      "ipa": "/ˌdɪpləˈmætɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "skillful at saying difficult things without offending people",
+          "meaning_vi": "khéo léo, ngoại giao (nói tránh đụng chạm)",
+          "examples": [
+            {
+              "en": "She gave a diplomatic answer that satisfied both sides.",
+              "vi": "Cô ấy trả lời ngoại giao làm hài lòng cả hai bên."
+            },
+            {
+              "en": "Be diplomatic when refusing a senior's proposal.",
+              "vi": "Hãy khéo léo khi từ chối đề nghị của người lớn tuổi."
+            },
+            {
+              "en": "His diplomatic style works well in cross-cultural teams.",
+              "vi": "Phong cách ngoại giao của anh ấy hợp team đa văn hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tactful", "sensitive", "polite"],
+      "antonyms": ["blunt", "tactless"],
+      "collocations": [
+        "diplomatic answer",
+        "be diplomatic",
+        "diplomatic approach",
+        "diplomatic response",
+        "diplomatic language"
+      ],
+      "etymology_hint": "From Greek 'diploma' = folded paper — diplomats carried folded official documents.",
+      "mnemonic_vi": "DIPLOMAT (nhà ngoại giao) + IC = mang tính ngoại giao. Diplomatic answer = trả lời khéo."
+    },
+    {
+      "word": "blunt",
+      "lemma": "blunt",
+      "ipa": "/blʌnt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "saying exactly what you think without trying to be polite",
+          "meaning_vi": "thẳng tuột, nói thẳng không kiêng",
+          "examples": [
+            {
+              "en": "I'll be blunt — this proposal won't work.",
+              "vi": "Tôi nói thẳng — đề xuất này không khả thi."
+            },
+            {
+              "en": "Her blunt feedback hurts but helps you grow.",
+              "vi": "Phản hồi thẳng tuột của cô ấy đau nhưng giúp bạn lớn."
+            },
+            {
+              "en": "Bluntness can feel rude in Vietnamese culture.",
+              "vi": "Nói thẳng có thể bị cho là khiếm nhã trong văn hóa Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["frank", "direct", "straightforward"],
+      "antonyms": ["tactful", "diplomatic"],
+      "collocations": [
+        "be blunt",
+        "blunt feedback",
+        "brutally blunt",
+        "blunt answer",
+        "blunt honesty"
+      ],
+      "etymology_hint": "Middle English 'blunt' = dull (of a blade) — extended to speech meaning 'not sharp/polished'.",
+      "mnemonic_vi": "BLUNT đọc 'blân-t' — bằn lẳng nói thẳng. Be blunt = nói thẳng."
+    },
+    {
+      "word": "tactful",
+      "lemma": "tactful",
+      "ipa": "/ˈtæktfl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "careful not to upset or offend people when speaking",
+          "meaning_vi": "tế nhị, biết ý",
+          "examples": [
+            {
+              "en": "A tactful manager delivers bad news privately.",
+              "vi": "Quản lý tế nhị truyền tin xấu riêng tư."
+            },
+            {
+              "en": "Be tactful when discussing weight or age.",
+              "vi": "Hãy tế nhị khi bàn về cân nặng hay tuổi tác."
+            },
+            {
+              "en": "She's known for her tactful diplomacy.",
+              "vi": "Cô ấy nổi tiếng nhờ ngoại giao tế nhị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["diplomatic", "considerate", "sensitive"],
+      "antonyms": ["tactless", "blunt", "rude"],
+      "collocations": [
+        "be tactful",
+        "tactful approach",
+        "tactful response",
+        "tactful silence",
+        "remarkably tactful"
+      ],
+      "etymology_hint": "From Latin 'tactus' = touch — 'tact' as social skill from 18th century, '-ful' suffix means full of.",
+      "mnemonic_vi": "TACT (sự khéo) + FUL = đầy khéo léo. Tactful approach = cách tiếp cận tế nhị."
+    },
+    {
+      "word": "sarcasm",
+      "lemma": "sarcasm",
+      "ipa": "/ˈsɑːkæzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "saying the opposite of what you mean to mock or criticize",
+          "meaning_vi": "sự châm biếm, mỉa mai",
+          "examples": [
+            {
+              "en": "His sarcasm wasn't appreciated by the new intern.",
+              "vi": "Châm biếm của anh ấy khiến intern mới khó chịu."
+            },
+            {
+              "en": "She replied with heavy sarcasm: 'Oh, brilliant idea.'",
+              "vi": "Cô ấy đáp lại đầy mỉa mai: 'Ồ, ý tưởng tuyệt vời.'"
+            },
+            {
+              "en": "Sarcasm doesn't translate well across cultures.",
+              "vi": "Châm biếm khó dịch qua các nền văn hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["irony", "mockery", "snideness"],
+      "antonyms": ["sincerity", "earnestness"],
+      "collocations": [
+        "heavy sarcasm",
+        "dripping with sarcasm",
+        "detect sarcasm",
+        "biting sarcasm",
+        "sarcasm doesn't translate"
+      ],
+      "etymology_hint": "From Greek 'sarkasmos' = to tear flesh — originally meant 'biting' speech.",
+      "mnemonic_vi": "SARCASM đọc 'sa-cá-zm' — sa cá đâm bằng lời. Heavy sarcasm = mỉa mai nặng."
+    },
+    {
+      "word": "irony",
+      "lemma": "irony",
+      "ipa": "/ˈaɪrəni/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a situation that is strange because it's the opposite of what was expected; or words meaning the opposite of their literal sense",
+          "meaning_vi": "sự trớ trêu, lời nói châm biếm",
+          "examples": [
+            {
+              "en": "The irony is, the fire station burned down.",
+              "vi": "Điều trớ trêu là, trạm cứu hỏa đã cháy rụi."
+            },
+            {
+              "en": "She missed the irony in his comment.",
+              "vi": "Cô ấy không nhận ra sự châm biếm trong câu anh ấy nói."
+            },
+            {
+              "en": "Vietnamese humor often relies on subtle irony.",
+              "vi": "Hài Việt thường dựa vào sự trớ trêu tinh tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sarcasm (similar)", "paradox"],
+      "antonyms": ["sincerity"],
+      "collocations": [
+        "the irony of",
+        "heavy irony",
+        "subtle irony",
+        "dramatic irony",
+        "sense of irony"
+      ],
+      "etymology_hint": "From Greek 'eirōneia' = feigned ignorance — Socratic technique of pretending not to know.",
+      "mnemonic_vi": "IRONY đọc 'ai-rồ-ni' — ai rồ ni mà ngược lại. The irony of = điều trớ trêu là."
+    },
+    {
+      "word": "hint",
+      "lemma": "hint",
+      "ipa": "/hɪnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an indirect suggestion that makes someone realize something",
+          "meaning_vi": "lời gợi ý, ám chỉ kín",
+          "examples": [
+            {
+              "en": "She dropped a hint about wanting flowers.",
+              "vi": "Cô ấy thả lời gợi ý muốn được tặng hoa."
+            },
+            {
+              "en": "Vietnamese culture often relies on hints rather than direct requests.",
+              "vi": "Văn hóa Việt thường dùng ám chỉ thay vì yêu cầu thẳng."
+            },
+            {
+              "en": "He didn't take the hint and stayed too long.",
+              "vi": "Anh ấy không hiểu ý và ở quá lâu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suggestion", "clue", "tip"],
+      "antonyms": ["direct statement"],
+      "collocations": ["drop a hint", "take the hint", "subtle hint", "give a hint", "hint at"],
+      "etymology_hint": "From Old English 'hentan' = to seize, grasp — meaning shifted to 'subtle indication'.",
+      "mnemonic_vi": "HINT đọc 'hin-t' — hin hỉn ý nhẹ. Drop a hint = thả lời gợi ý."
+    },
+    {
+      "word": "mumble",
+      "lemma": "mumble",
+      "ipa": "/ˈmʌmbl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to speak quietly and unclearly so that others find it hard to hear",
+          "meaning_vi": "lầm bầm, nói lí nhí",
+          "examples": [
+            {
+              "en": "Please don't mumble — I can't hear you.",
+              "vi": "Đừng lầm bầm — tôi không nghe rõ."
+            },
+            {
+              "en": "He mumbled an apology and left.",
+              "vi": "Anh ấy lầm bầm xin lỗi rồi đi."
+            },
+            {
+              "en": "Nervous speakers often mumble.",
+              "vi": "Người nói lo lắng thường lí nhí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mutter", "murmur"],
+      "antonyms": ["articulate", "speak clearly"],
+      "collocations": [
+        "mumble something",
+        "mumble under one's breath",
+        "stop mumbling",
+        "mumble an apology",
+        "nervous mumbling"
+      ],
+      "etymology_hint": "Imitative origin — like 'mama' sound, mimicking soft, closed-lip speech.",
+      "mnemonic_vi": "MUMBLE đọc 'mâm-bồ' — mum mim mồm. Stop mumbling = đừng lầm bầm."
+    },
+    {
+      "word": "articulate",
+      "lemma": "articulate",
+      "ipa": "/ɑːˈtɪkjʊlət/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to express ideas clearly and effectively in speech",
+          "meaning_vi": "diễn đạt rõ ràng, ăn nói lưu loát",
+          "examples": [
+            {
+              "en": "She's an articulate spokesperson for the cause.",
+              "vi": "Cô ấy là phát ngôn viên ăn nói lưu loát cho phong trào."
+            },
+            {
+              "en": "Being articulate matters more than having a fancy vocabulary.",
+              "vi": "Diễn đạt rõ ràng quan trọng hơn dùng từ hoa mỹ."
+            },
+            {
+              "en": "Practice helps you become more articulate.",
+              "vi": "Luyện tập giúp bạn diễn đạt lưu loát hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["eloquent", "well-spoken"],
+      "antonyms": ["inarticulate", "tongue-tied"],
+      "collocations": [
+        "highly articulate",
+        "articulate speaker",
+        "articulate his thoughts",
+        "remarkably articulate",
+        "articulate response"
+      ],
+      "etymology_hint": "From Latin 'articulus' = small joint — words 'joined together' clearly, like body joints.",
+      "mnemonic_vi": "ARTIC (rõ khớp) + ULATE = nói rõ từng chữ như khớp ráp. Articulate speaker = người nói lưu loát."
+    },
+    {
+      "word": "eloquent",
+      "lemma": "eloquent",
+      "ipa": "/ˈeləkwənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "speaking or writing in a powerful, beautiful, and convincing way",
+          "meaning_vi": "hùng hồn, lưu loát có sức lay động",
+          "examples": [
+            {
+              "en": "His eloquent speech moved everyone to tears.",
+              "vi": "Bài phát biểu hùng hồn của anh ấy khiến mọi người rơi nước mắt."
+            },
+            {
+              "en": "Hồ Chí Minh was famously eloquent in multiple languages.",
+              "vi": "Hồ Chí Minh nổi tiếng hùng hồn bằng nhiều ngôn ngữ."
+            },
+            {
+              "en": "Even short eloquent words can change minds.",
+              "vi": "Vài từ ngắn nhưng hùng hồn có thể đổi suy nghĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["articulate", "expressive", "persuasive"],
+      "antonyms": ["inarticulate", "dull"],
+      "collocations": [
+        "eloquent speech",
+        "remarkably eloquent",
+        "eloquent defense",
+        "eloquent silence",
+        "eloquent writer"
+      ],
+      "etymology_hint": "From Latin 'eloqui' = to speak out — 'e-' (out) + 'loqui' (speak).",
+      "mnemonic_vi": "ELO (ra) + QUENT (nói) = nói ra trôi chảy. Eloquent speech = bài nói hùng hồn."
+    },
+    {
+      "word": "concise",
+      "lemma": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "giving a lot of information clearly in a few words",
+          "meaning_vi": "súc tích, ngắn gọn mà đầy đủ",
+          "examples": [
+            {
+              "en": "Keep your email concise — three short paragraphs max.",
+              "vi": "Email nên súc tích — tối đa 3 đoạn ngắn."
+            },
+            {
+              "en": "A concise summary saves everyone time.",
+              "vi": "Bản tóm tắt súc tích tiết kiệm thời gian cho tất cả."
+            },
+            {
+              "en": "Being concise is harder than being long-winded.",
+              "vi": "Súc tích khó hơn dài dòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brief", "succinct", "to the point"],
+      "antonyms": ["verbose", "long-winded", "rambling"],
+      "collocations": [
+        "be concise",
+        "concise summary",
+        "concise answer",
+        "remarkably concise",
+        "concise writing"
+      ],
+      "etymology_hint": "From Latin 'concisus' = cut short — 'com-' + 'caedere' (cut).",
+      "mnemonic_vi": "CONCISE đọc 'cần-sai-s' — cần ngắn sát ý. Concise summary = tóm tắt súc tích."
+    },
+    {
+      "word": "verbose",
+      "lemma": "verbose",
+      "ipa": "/vɜːˈbəʊs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "using too many words to express something",
+          "meaning_vi": "dài dòng, lắm lời",
+          "examples": [
+            {
+              "en": "His verbose reports waste readers' time.",
+              "vi": "Báo cáo dài dòng của anh ấy làm mất thì giờ người đọc."
+            },
+            {
+              "en": "Cut the verbose introduction — get to the point.",
+              "vi": "Bỏ phần mở đầu lắm lời — vào thẳng vấn đề."
+            },
+            {
+              "en": "Verbose answers in interviews suggest poor focus.",
+              "vi": "Trả lời lắm lời trong phỏng vấn cho thấy thiếu tập trung."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wordy", "long-winded", "rambling"],
+      "antonyms": ["concise", "terse"],
+      "collocations": [
+        "verbose explanation",
+        "overly verbose",
+        "verbose writing",
+        "verbose report",
+        "needlessly verbose"
+      ],
+      "etymology_hint": "From Latin 'verbosus' = full of words — root 'verbum' (word).",
+      "mnemonic_vi": "VERB (từ) + OSE = đầy từ ngữ. Overly verbose = quá dài dòng."
+    },
+    {
+      "word": "persuasive",
+      "lemma": "persuasive",
+      "ipa": "/pəˈsweɪsɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to make someone do or believe something through reasoning or appeal",
+          "meaning_vi": "có sức thuyết phục",
+          "examples": [
+            {
+              "en": "Her persuasive pitch won the investor over.",
+              "vi": "Bài pitch thuyết phục của cô ấy khiến nhà đầu tư đồng ý."
+            },
+            {
+              "en": "Persuasive writing balances logic and emotion.",
+              "vi": "Viết thuyết phục cân bằng giữa logic và cảm xúc."
+            },
+            {
+              "en": "Be persuasive without being pushy.",
+              "vi": "Thuyết phục mà không ép buộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["convincing", "compelling", "influential"],
+      "antonyms": ["unconvincing", "weak"],
+      "collocations": [
+        "persuasive argument",
+        "highly persuasive",
+        "persuasive writing",
+        "persuasive evidence",
+        "persuasive pitch"
+      ],
+      "etymology_hint": "From Latin 'persuadere' = to advise thoroughly — 'per-' (through) + 'suadere' (urge).",
+      "mnemonic_vi": "PERSUADE (thuyết phục) + IVE = có sức thuyết phục. Persuasive argument = lập luận thuyết phục."
+    },
+    {
+      "word": "confrontational",
+      "lemma": "confrontational",
+      "ipa": "/ˌkɒnfrʌnˈteɪʃənl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "tending to argue or fight rather than discuss calmly",
+          "meaning_vi": "thích đối đầu, gây gổ trong giao tiếp",
+          "examples": [
+            {
+              "en": "Avoid being confrontational in the first meeting.",
+              "vi": "Tránh đối đầu trong buổi gặp đầu."
+            },
+            {
+              "en": "His confrontational style scared off many clients.",
+              "vi": "Phong cách đối đầu của anh ấy làm nhiều khách bỏ đi."
+            },
+            {
+              "en": "There's a non-confrontational way to disagree.",
+              "vi": "Có cách bất đồng mà không đối đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["combative", "argumentative"],
+      "antonyms": ["conciliatory", "non-confrontational"],
+      "collocations": [
+        "confrontational style",
+        "highly confrontational",
+        "non-confrontational",
+        "confrontational tone",
+        "avoid being confrontational"
+      ],
+      "etymology_hint": "From Latin 'confrontare' = to face — 'con-' (together) + 'frons' (forehead, face).",
+      "mnemonic_vi": "CONFRONT (đối mặt) + ATIONAL = mang tính đối đầu. Confrontational style = phong cách đối đầu."
+    },
+    {
+      "word": "listener",
+      "lemma": "listener",
+      "ipa": "/ˈlɪsənə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who pays attention to what someone is saying, especially with care",
+          "meaning_vi": "người lắng nghe",
+          "examples": [
+            {
+              "en": "Good leaders are great listeners first.",
+              "vi": "Lãnh đạo giỏi trước hết là người lắng nghe giỏi."
+            },
+            {
+              "en": "Being an active listener builds trust quickly.",
+              "vi": "Là người lắng nghe chủ động xây dựng niềm tin nhanh."
+            },
+            {
+              "en": "Sometimes she just needs a listener, not advice.",
+              "vi": "Đôi khi cô ấy chỉ cần người nghe, không cần lời khuyên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["audience member"],
+      "antonyms": ["speaker", "talker"],
+      "collocations": [
+        "active listener",
+        "good listener",
+        "attentive listener",
+        "patient listener",
+        "be a listener"
+      ],
+      "etymology_hint": "From 'listen' (Old English 'hlysnan' = pay attention) + agent suffix '-er'.",
+      "mnemonic_vi": "LISTEN (nghe) + ER (người) = người nghe. Active listener = người lắng nghe chủ động."
+    },
+    {
+      "word": "interrupt",
+      "lemma": "interrupt",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to break someone's speech by starting to talk before they finish",
+          "meaning_vi": "ngắt lời",
+          "examples": [
+            {
+              "en": "Sorry to interrupt, but I have a quick question.",
+              "vi": "Xin lỗi cắt lời, nhưng tôi có câu hỏi nhanh."
+            },
+            {
+              "en": "Don't interrupt — let her finish her point.",
+              "vi": "Đừng ngắt lời — để cô ấy nói hết ý."
+            },
+            {
+              "en": "Constant interrupting damages a conversation.",
+              "vi": "Ngắt lời liên tục phá hỏng cuộc trò chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cut off", "butt in"],
+      "antonyms": ["let finish", "yield the floor"],
+      "collocations": [
+        "interrupt the speaker",
+        "sorry to interrupt",
+        "constantly interrupt",
+        "interrupt politely",
+        "don't interrupt"
+      ],
+      "etymology_hint": "From Latin 'interrumpere' = to break in — 'inter-' (between) + 'rumpere' (break).",
+      "mnemonic_vi": "INTER (giữa) + RUPT (vỡ) = chen vào vỡ lời. Don't interrupt = đừng ngắt lời."
+    },
+    {
+      "word": "paraphrase",
+      "lemma": "paraphrase",
+      "ipa": "/ˈpærəfreɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to restate something in different words to make it clearer",
+          "meaning_vi": "diễn đạt lại bằng từ khác",
+          "examples": [
+            {
+              "en": "Let me paraphrase to make sure I understood.",
+              "vi": "Để tôi diễn đạt lại để chắc đã hiểu đúng."
+            },
+            {
+              "en": "Paraphrasing is a key active-listening skill.",
+              "vi": "Diễn đạt lại là kỹ năng lắng nghe chủ động cốt lõi."
+            },
+            {
+              "en": "Don't quote — paraphrase in your own words.",
+              "vi": "Đừng trích nguyên — diễn đạt lại bằng lời mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rephrase", "restate"],
+      "antonyms": ["quote verbatim"],
+      "collocations": [
+        "paraphrase the speaker",
+        "paraphrase in your own words",
+        "paraphrase carefully",
+        "paraphrase to confirm",
+        "paraphrase the question"
+      ],
+      "etymology_hint": "From Greek 'paraphrasis' = a saying alongside — 'para-' (beside) + 'phrazein' (speak).",
+      "mnemonic_vi": "PARA (bên cạnh) + PHRASE (cụm từ) = nói lại bên cạnh. Paraphrase the speaker = diễn đạt lại lời người nói."
+    },
+    {
+      "word": "validate",
+      "lemma": "validate",
+      "ipa": "/ˈvælɪdeɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to acknowledge someone's feelings or opinion as understandable, even without agreeing",
+          "meaning_vi": "công nhận (cảm xúc, ý kiến) của ai đó",
+          "examples": [
+            {
+              "en": "Validate her feelings before offering advice.",
+              "vi": "Công nhận cảm xúc cô ấy trước khi cho lời khuyên."
+            },
+            {
+              "en": "A simple 'I get it' can validate someone's pain.",
+              "vi": "Một câu 'Mình hiểu' đơn giản có thể công nhận nỗi đau ai đó."
+            },
+            {
+              "en": "Validating doesn't mean you have to agree.",
+              "vi": "Công nhận không có nghĩa bạn phải đồng ý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["acknowledge", "affirm", "recognize"],
+      "antonyms": ["dismiss", "invalidate"],
+      "collocations": [
+        "validate feelings",
+        "validate someone's experience",
+        "validate the concern",
+        "feel validated",
+        "validate emotionally"
+      ],
+      "etymology_hint": "From Latin 'validus' = strong — meaning shifted from 'confirm valid' to 'acknowledge worth'.",
+      "mnemonic_vi": "VALID (hợp lệ) + ATE = công nhận hợp lệ. Validate feelings = công nhận cảm xúc."
+    }
+  ]
+}
