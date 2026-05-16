@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P9c B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `4d17ebe` → merge `2ed7135` → sync `b9cb9e8`) — P9 15/25:
+    - `daily-life/home-renovation` — renovate, remodel, paint, wallpaper, decorate, layout, tile, flooring, plumbing, wiring, install, blueprint, permit, demolish, hardwood, refurbish, fixture, foundation, carpenter, drywall
+    - `entertainment/visual-arts` — sketch, canvas, exhibit, abstract, portrait, landscape, mural, brushstroke, watercolor, easel, palette, masterpiece, realism, impressionism, curator, frame, illustration, pottery, charcoal, contemporary
+    - `people/relationships-conflict` — conflict, forgive, grudge, reconcile, mediate, fallout, tension, escalate, deescalate, misunderstanding, accusation, blame, betray, vent, sulk, bicker, ultimatum, heartbreak, jealousy, separate
+    - `education/study-abroad` — application, orientation, overseas, semester, accommodation, stipend, homesickness, adjustment, exchange-program, foreign-language, international, IELTS, TOEFL, host-country, language-test, study-permit, exchange-student, placement, recommendation, cross-cultural
+    - `daily-life/parenting` (pivot from seasons-extreme do weather lessons saturated) — parenting, scold, bedtime, nursery, playtime, allowance, sibling, foster, adopt, stepmother, stepfather, tantrum, lullaby, daycare, spoil, nurture, babyproof, stroller, diaper, upbringing
+    - Zod schema green tất cả 5. Quality bar maintained. Seed live: **pending user manual run** (target 127 lessons / 2540 cards).
   - [x] **P9b B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `47533fd` → merge `44b105f` → sync `eda2b53`) — P9 10/25:
     - `nature-environment/conservation` — wildlife, reserve, poach, smuggle, restore, sanctuary, ecological, threatened, ranger, conservation, recycling, replant, reforest, captive, breeding, hunt, plastic, illegal, advocate, protected
     - `society-culture/global-issues` — globalization, migration, prejudice, tolerance, fairness, oppression, gentrification, racism, sexism, privilege, activism, asylum, marginalize, exploit, systemic, underprivileged, grassroots, stigma, stereotype, xenophobia
@@ -510,12 +517,12 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `nature-environment/natural-disasters` (pivoted from weather-disasters do 7 từ trùng với weather-seasons-ext) — earthquake, eruption, wildfire, blizzard, avalanche, landslide, tornado, monsoon, tremor, magnitude, epicenter, aftermath, evacuation, devastation, debris, rescue, hazard, casualty, shelter, alert
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
-- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a-b done (10/25), TODO P9c-e
+- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a-c done (15/25), TODO P9d-e
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 122/192 lessons (64%), 2440/3840 cards (64%), ~64% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 ở 10/25**, next: P9c (5 lessons).
+**Progress**: 127/192 lessons (66%), 2540/3840 cards (66%), ~66% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 ở 15/25**, next: P9d (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
