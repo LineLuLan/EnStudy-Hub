@@ -1,0 +1,649 @@
+{
+  "slug": "oceans-marine",
+  "name": "Oceans & Marine Life",
+  "description": "Đại dương và biển B1 — coral, reef, tide, marine, seafood và 15 từ về thế giới biển.",
+  "order_index": 9,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "coral",
+      "lemma": "coral",
+      "ipa": "/ˈkɒrəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "small sea creatures whose hard skeletons form colorful reefs",
+          "meaning_vi": "san hô",
+          "examples": [
+            { "en": "Phú Quốc has beautiful coral reefs.", "vi": "Phú Quốc có rạn san hô đẹp." },
+            { "en": "Climate change kills coral.", "vi": "Biến đổi khí hậu giết san hô." },
+            { "en": "Diving among coral is magical.", "vi": "Lặn giữa san hô như phép thuật." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "coral reef",
+        "dying coral",
+        "coral bleaching",
+        "protect coral",
+        "Great Barrier Reef coral"
+      ],
+      "etymology_hint": "From Greek 'korallion' meaning 'sea organism' — ancient Mediterranean trade word.",
+      "mnemonic_vi": "CORAL = 'cốu-rồ' — 'co rạn' biển. Coral reef = rạn san hô."
+    },
+    {
+      "word": "reef",
+      "lemma": "reef",
+      "ipa": "/riːf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long line of rocks or coral near the surface of the sea",
+          "meaning_vi": "rạn (đá hoặc san hô dưới biển)",
+          "examples": [
+            {
+              "en": "The Great Barrier Reef is the world's largest.",
+              "vi": "Great Barrier Reef là rạn lớn nhất thế giới."
+            },
+            { "en": "Reefs are home to many fish.", "vi": "Rạn là nhà của nhiều loài cá." },
+            { "en": "Boats avoid hidden reefs.", "vi": "Tàu tránh rạn ngầm." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["coral reef", "barrier reef", "hidden reef", "reef diving", "protect reef"],
+      "etymology_hint": "From Old Norse 'rif' meaning 'rib, reef' — sailors' term.",
+      "mnemonic_vi": "REEF = 'rif' — 'rịp' đá ngầm. Coral reef = rạn san hô."
+    },
+    {
+      "word": "tide",
+      "lemma": "tide",
+      "ipa": "/taɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the rising and falling of sea levels each day",
+          "meaning_vi": "thủy triều",
+          "examples": [
+            {
+              "en": "Surfers check the tide before going out.",
+              "vi": "Người lướt sóng xem thủy triều trước khi đi."
+            },
+            { "en": "Low tide reveals beach treasures.", "vi": "Triều thấp lộ kho báu bãi biển." },
+            { "en": "The moon controls the tides.", "vi": "Mặt Trăng điều khiển thủy triều." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["high tide", "low tide", "tide chart", "rising tide", "incoming tide"],
+      "etymology_hint": "From Old English 'tīd' meaning 'time, period' — original sense of regular time (high tide, low tide).",
+      "mnemonic_vi": "TIDE = 'taid' — 'tăng' thủy. High tide = triều cao."
+    },
+    {
+      "word": "current",
+      "lemma": "current",
+      "ipa": "/ˈkʌrənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a flow of water in the sea or a river",
+          "meaning_vi": "dòng chảy (biển, sông)",
+          "examples": [
+            {
+              "en": "The Gulf Stream is a powerful ocean current.",
+              "vi": "Hải lưu Gulf Stream mạnh."
+            },
+            {
+              "en": "Swim across the current, not against it.",
+              "vi": "Bơi ngang dòng, không ngược dòng."
+            },
+            {
+              "en": "Vietnamese fishermen know local currents well.",
+              "vi": "Ngư dân Việt rõ dòng chảy địa phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flow", "stream"],
+      "antonyms": [],
+      "collocations": [
+        "ocean current",
+        "strong current",
+        "river current",
+        "underwater current",
+        "warm current"
+      ],
+      "etymology_hint": "From Latin 'currens' meaning 'running' — from 'currere' (to run).",
+      "mnemonic_vi": "CURRENT = 'cá-rồnt' — 'cờ rộng' chảy. Ocean current = hải lưu."
+    },
+    {
+      "word": "marine",
+      "lemma": "marine",
+      "ipa": "/məˈriːn/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the sea or sea life",
+          "meaning_vi": "thuộc về biển, hải dương",
+          "examples": [
+            {
+              "en": "Marine biology studies ocean creatures.",
+              "vi": "Sinh học biển nghiên cứu sinh vật đại dương."
+            },
+            {
+              "en": "Vietnam protects marine life in Côn Đảo.",
+              "vi": "Việt Nam bảo vệ sinh vật biển ở Côn Đảo."
+            },
+            {
+              "en": "Marine pollution is a global crisis.",
+              "vi": "Ô nhiễm biển là khủng hoảng toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sea", "ocean"],
+      "antonyms": ["terrestrial"],
+      "collocations": [
+        "marine life",
+        "marine biology",
+        "marine pollution",
+        "marine park",
+        "marine ecosystem"
+      ],
+      "etymology_hint": "From Latin 'marinus' meaning 'of the sea' — from 'mare' (sea), same root as 'mariner' and 'submarine'.",
+      "mnemonic_vi": "MARINE = MARI + NE → 'thuộc biển'. Marine life = sinh vật biển."
+    },
+    {
+      "word": "wave",
+      "lemma": "wave",
+      "ipa": "/weɪv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a moving line of water on the surface of the sea",
+          "meaning_vi": "sóng (biển)",
+          "examples": [
+            { "en": "Big waves are perfect for surfing.", "vi": "Sóng lớn hợp lướt ván." },
+            {
+              "en": "Mũi Né has gentle waves for beginners.",
+              "vi": "Mũi Né có sóng nhẹ cho người mới."
+            },
+            { "en": "Tsunami waves can be deadly.", "vi": "Sóng thần có thể chết người." }
+          ]
+        }
+      ],
+      "synonyms": ["surge"],
+      "antonyms": [],
+      "collocations": ["big wave", "tidal wave", "wave height", "catch a wave", "wave pool"],
+      "etymology_hint": "From Old English 'wafian' meaning 'to fluctuate, wave' — Germanic root.",
+      "mnemonic_vi": "WAVE = 'wêv' — 'oai vẫy'. Catch a wave = bắt sóng."
+    },
+    {
+      "word": "seaweed",
+      "lemma": "seaweed",
+      "ipa": "/ˈsiːwiːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "plant-like organisms that grow in the sea",
+          "meaning_vi": "rong biển",
+          "examples": [
+            {
+              "en": "Vietnamese eat seaweed in soups.",
+              "vi": "Người Việt ăn rong biển trong canh."
+            },
+            { "en": "Seaweed is rich in iodine.", "vi": "Rong biển giàu iốt." },
+            { "en": "Korean nori is dried seaweed.", "vi": "Nori Hàn là rong biển khô." }
+          ]
+        }
+      ],
+      "synonyms": ["kelp"],
+      "antonyms": [],
+      "collocations": [
+        "dried seaweed",
+        "edible seaweed",
+        "seaweed salad",
+        "seaweed extract",
+        "harvest seaweed"
+      ],
+      "etymology_hint": "Compound of 'sea' + 'weed' — Middle English construction for sea plants.",
+      "mnemonic_vi": "SEAWEED = SEA + WEED → 'cỏ biển'. Rong biển ăn được."
+    },
+    {
+      "word": "jellyfish",
+      "lemma": "jellyfish",
+      "ipa": "/ˈdʒelifɪʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a soft sea creature with long tentacles that can sting",
+          "meaning_vi": "sứa biển",
+          "examples": [
+            { "en": "Don't touch jellyfish at the beach.", "vi": "Đừng chạm sứa ở biển." },
+            { "en": "Jellyfish stings hurt a lot.", "vi": "Sứa đốt đau lắm." },
+            {
+              "en": "Some jellyfish are translucent and beautiful.",
+              "vi": "Một số sứa trong suốt và đẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "jellyfish sting",
+        "box jellyfish",
+        "swarm of jellyfish",
+        "jellyfish bloom",
+        "avoid jellyfish"
+      ],
+      "etymology_hint": "Compound of 'jelly' + 'fish' — coined in 18th century for the gelatinous body.",
+      "mnemonic_vi": "JELLYFISH = JELLY + FISH → 'cá thạch'. Jellyfish sting = sứa đốt."
+    },
+    {
+      "word": "seal",
+      "lemma": "seal",
+      "ipa": "/siːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large sea mammal with flippers that lives in cold waters",
+          "meaning_vi": "hải cẩu",
+          "examples": [
+            { "en": "Seals are playful and intelligent.", "vi": "Hải cẩu vui nhộn và thông minh." },
+            { "en": "Watch seals at the aquarium.", "vi": "Xem hải cẩu ở thủy cung." },
+            { "en": "Seals eat fish and squid.", "vi": "Hải cẩu ăn cá và mực." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["baby seal", "seal pup", "seal colony", "seal hunting", "watch seals"],
+      "etymology_hint": "From Old English 'seolh' — Germanic root, different from 'seal' (stamp) which comes from Latin.",
+      "mnemonic_vi": "SEAL = 'sil' — 'sờ il' hải cẩu. Seal pup = hải cẩu con."
+    },
+    {
+      "word": "squid",
+      "lemma": "squid",
+      "ipa": "/skwɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a sea creature with a long body and 10 tentacles",
+          "meaning_vi": "mực ống",
+          "examples": [
+            { "en": "Vietnamese grilled squid is delicious.", "vi": "Mực nướng Việt ngon." },
+            { "en": "Squid have ink to escape predators.", "vi": "Mực có mực để thoát kẻ săn." },
+            {
+              "en": "Giant squid live deep in the ocean.",
+              "vi": "Mực khổng lồ sống sâu trong đại dương."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["grilled squid", "giant squid", "squid ink", "fresh squid", "fried squid"],
+      "etymology_hint": "Origin uncertain — possibly from English dialect 'squidge' (something soft).",
+      "mnemonic_vi": "SQUID = 'sqwíd' — 'sờ quít' mực. Squid Game = trò mực."
+    },
+    {
+      "word": "krill",
+      "lemma": "krill",
+      "ipa": "/krɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "tiny shrimp-like creatures eaten by whales",
+          "meaning_vi": "nhuyễn thể nhỏ (mồi của cá voi)",
+          "examples": [
+            { "en": "Whales eat tons of krill daily.", "vi": "Cá voi ăn tấn krill mỗi ngày." },
+            {
+              "en": "Krill oil is sold as a supplement.",
+              "vi": "Dầu krill bán làm thực phẩm bổ sung."
+            },
+            {
+              "en": "Antarctic krill is the largest population.",
+              "vi": "Krill Nam Cực là quần thể lớn nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "krill oil",
+        "Antarctic krill",
+        "krill swarm",
+        "tiny krill",
+        "feed on krill"
+      ],
+      "etymology_hint": "From Norwegian 'krill' meaning 'fish fry' — adopted into English in 1900s with polar whaling.",
+      "mnemonic_vi": "KRILL = 'crill' — 'krịt' nhỏ. Krill = thức ăn của cá voi."
+    },
+    {
+      "word": "plankton",
+      "lemma": "plankton",
+      "ipa": "/ˈplæŋktən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "very small plants and animals floating in the sea",
+          "meaning_vi": "sinh vật phù du",
+          "examples": [
+            {
+              "en": "Plankton feeds the entire ocean food chain.",
+              "vi": "Sinh vật phù du nuôi cả chuỗi thức ăn biển."
+            },
+            {
+              "en": "Whale sharks filter plankton through their mouth.",
+              "vi": "Cá mập voi lọc plankton qua miệng."
+            },
+            {
+              "en": "Plankton produces 50% of Earth's oxygen.",
+              "vi": "Plankton tạo 50% oxy Trái Đất."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "plankton bloom",
+        "feed on plankton",
+        "marine plankton",
+        "tiny plankton",
+        "plankton population"
+      ],
+      "etymology_hint": "From Greek 'planktos' meaning 'drifting, wandering' — coined in 1887 by German biologist Hensen.",
+      "mnemonic_vi": "PLANKTON = 'pláng-tớn' — 'plang' trôi. Plankton = sinh vật trôi nhỏ."
+    },
+    {
+      "word": "aquatic",
+      "lemma": "aquatic",
+      "ipa": "/əˈkwætɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "living or growing in water",
+          "meaning_vi": "sống dưới nước, thủy sinh",
+          "examples": [
+            { "en": "Aquatic plants grow in ponds.", "vi": "Cây thủy sinh mọc trong ao." },
+            { "en": "Vietnam exports aquatic products.", "vi": "Việt Nam xuất khẩu thủy sản." },
+            {
+              "en": "Aquatic sports are popular in summer.",
+              "vi": "Thể thao dưới nước phổ biến mùa hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["marine", "underwater"],
+      "antonyms": ["terrestrial"],
+      "collocations": [
+        "aquatic plant",
+        "aquatic animal",
+        "aquatic sport",
+        "aquatic ecosystem",
+        "aquatic life"
+      ],
+      "etymology_hint": "From Latin 'aqua' meaning 'water' — same root as 'aquarium' and 'aqueduct'.",
+      "mnemonic_vi": "AQUATIC = AQUA + TIC → 'thuộc nước'. Aquatic plant = cây thủy sinh."
+    },
+    {
+      "word": "salinity",
+      "lemma": "salinity",
+      "ipa": "/səˈlɪnəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the amount of salt in water",
+          "meaning_vi": "độ mặn",
+          "examples": [
+            { "en": "Ocean salinity is about 3.5%.", "vi": "Độ mặn đại dương khoảng 3.5%." },
+            {
+              "en": "Mekong Delta faces salinity intrusion.",
+              "vi": "Đồng bằng sông Cửu Long bị xâm nhập mặn."
+            },
+            {
+              "en": "High salinity kills freshwater plants.",
+              "vi": "Độ mặn cao giết cây nước ngọt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["saltiness"],
+      "antonyms": [],
+      "collocations": [
+        "high salinity",
+        "ocean salinity",
+        "salinity level",
+        "salt salinity",
+        "low salinity"
+      ],
+      "etymology_hint": "From Latin 'salinus' meaning 'of salt' — from 'sal' (salt).",
+      "mnemonic_vi": "SALINITY = SAL + INITY → 'tính muối'. Salinity = độ mặn."
+    },
+    {
+      "word": "seabed",
+      "lemma": "seabed",
+      "ipa": "/ˈsiːbed/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the floor of the ocean or sea",
+          "meaning_vi": "đáy biển",
+          "examples": [
+            {
+              "en": "Divers explore the seabed for treasures.",
+              "vi": "Thợ lặn khám phá đáy biển tìm kho báu."
+            },
+            { "en": "Internet cables lie on the seabed.", "vi": "Cáp internet nằm dưới đáy biển." },
+            { "en": "The seabed near Hạ Long is sandy.", "vi": "Đáy biển gần Hạ Long có cát." }
+          ]
+        }
+      ],
+      "synonyms": ["ocean floor"],
+      "antonyms": ["surface"],
+      "collocations": [
+        "explore the seabed",
+        "deep seabed",
+        "seabed mining",
+        "rocky seabed",
+        "sandy seabed"
+      ],
+      "etymology_hint": "Compound of 'sea' + 'bed' — Old English construction.",
+      "mnemonic_vi": "SEABED = SEA + BED → 'giường biển'. Seabed = đáy biển."
+    },
+    {
+      "word": "seafood",
+      "lemma": "seafood",
+      "ipa": "/ˈsiːfuːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "food from the sea like fish, crab, and shrimp",
+          "meaning_vi": "hải sản",
+          "examples": [
+            {
+              "en": "Nha Trang is famous for fresh seafood.",
+              "vi": "Nha Trang nổi tiếng hải sản tươi."
+            },
+            { "en": "I love Vietnamese seafood hot pot.", "vi": "Tôi thích lẩu hải sản Việt." },
+            { "en": "Some people are allergic to seafood.", "vi": "Một số người dị ứng hải sản." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "fresh seafood",
+        "seafood restaurant",
+        "seafood allergy",
+        "seafood platter",
+        "grilled seafood"
+      ],
+      "etymology_hint": "Compound of 'sea' + 'food' — modern English, popularized in 20th century.",
+      "mnemonic_vi": "SEAFOOD = SEA + FOOD → 'đồ ăn từ biển'. Hải sản tươi."
+    },
+    {
+      "word": "fisherman",
+      "lemma": "fisherman",
+      "ipa": "/ˈfɪʃəmən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who catches fish for work or fun",
+          "meaning_vi": "ngư dân, người đánh cá",
+          "examples": [
+            {
+              "en": "Vietnamese fishermen work along the long coast.",
+              "vi": "Ngư dân Việt làm việc dọc bờ biển dài."
+            },
+            { "en": "Fishermen wake up before sunrise.", "vi": "Ngư dân dậy trước bình minh." },
+            {
+              "en": "Local fishermen know the best spots.",
+              "vi": "Ngư dân địa phương biết điểm đánh tốt nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["angler"],
+      "antonyms": [],
+      "collocations": [
+        "local fisherman",
+        "fisherman's boat",
+        "fisherman's net",
+        "experienced fisherman",
+        "young fisherman"
+      ],
+      "etymology_hint": "Compound of 'fisher' + 'man' — Old English construction for one who catches fish.",
+      "mnemonic_vi": "FISHERMAN = FISHER + MAN → 'người đánh cá'. Vietnamese fisherman = ngư dân Việt."
+    },
+    {
+      "word": "underwater",
+      "lemma": "underwater",
+      "ipa": "/ˌʌndəˈwɔːtə(r)/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "below the surface of water",
+          "meaning_vi": "dưới nước",
+          "examples": [
+            { "en": "Underwater photography is challenging.", "vi": "Chụp ảnh dưới nước khó." },
+            { "en": "Submarines move underwater.", "vi": "Tàu ngầm di chuyển dưới nước." },
+            {
+              "en": "Phú Quốc has an underwater walk attraction.",
+              "vi": "Phú Quốc có khu đi bộ dưới nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["submerged"],
+      "antonyms": ["above water"],
+      "collocations": [
+        "underwater camera",
+        "underwater diving",
+        "underwater world",
+        "underwater photography",
+        "swim underwater"
+      ],
+      "etymology_hint": "Compound of 'under' + 'water' — straightforward English construction.",
+      "mnemonic_vi": "UNDERWATER = UNDER + WATER → 'dưới nước'. Underwater photo = ảnh dưới nước."
+    },
+    {
+      "word": "sailor",
+      "lemma": "sailor",
+      "ipa": "/ˈseɪlə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who works on a ship or boat",
+          "meaning_vi": "thủy thủ",
+          "examples": [
+            { "en": "Sailors spend months at sea.", "vi": "Thủy thủ dành nhiều tháng trên biển." },
+            {
+              "en": "Vietnamese sailors work on international ships.",
+              "vi": "Thủy thủ Việt làm trên tàu quốc tế."
+            },
+            {
+              "en": "Old sailors tell amazing sea stories.",
+              "vi": "Thủy thủ già kể chuyện biển hay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seafarer", "mariner"],
+      "antonyms": [],
+      "collocations": [
+        "experienced sailor",
+        "old sailor",
+        "navy sailor",
+        "sailor's life",
+        "sailor's uniform"
+      ],
+      "etymology_hint": "From 'sail' + '-or' — Middle English construction.",
+      "mnemonic_vi": "SAILOR = SAIL + OR → 'người căng buồm'. Thủy thủ."
+    },
+    {
+      "word": "tsunami",
+      "lemma": "tsunami",
+      "ipa": "/tsuːˈnɑːmi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a huge sea wave caused by an earthquake under the ocean",
+          "meaning_vi": "sóng thần",
+          "examples": [
+            {
+              "en": "The 2004 tsunami killed 230,000 people.",
+              "vi": "Sóng thần 2004 giết 230.000 người."
+            },
+            {
+              "en": "Vietnam's coast is relatively safe from tsunamis.",
+              "vi": "Bờ biển Việt Nam tương đối an toàn khỏi sóng thần."
+            },
+            {
+              "en": "Early warning systems detect tsunamis.",
+              "vi": "Hệ thống cảnh báo sớm phát hiện sóng thần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tidal wave"],
+      "antonyms": [],
+      "collocations": [
+        "tsunami warning",
+        "deadly tsunami",
+        "tsunami evacuation",
+        "tsunami zone",
+        "tsunami damage"
+      ],
+      "etymology_hint": "From Japanese 'tsu' (harbor) + 'nami' (wave) — adopted into English after Japanese coastal disasters.",
+      "mnemonic_vi": "TSUNAMI = 'tờ-su-na-mi' — Nhật. Tsunami warning = cảnh báo sóng thần."
+    }
+  ]
+}
