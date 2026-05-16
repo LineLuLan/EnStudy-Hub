@@ -1,0 +1,757 @@
+{
+  "slug": "digital-culture",
+  "name": "Digital Culture",
+  "description": "Văn hóa số B1 — meme, algorithm, streamer, crypto, metaverse và 15 từ về Internet hiện đại.",
+  "order_index": 7,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "meme",
+      "lemma": "meme",
+      "ipa": "/miːm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a funny picture or video that spreads quickly on the internet",
+          "meaning_vi": "meme (ảnh/video hài lan truyền)",
+          "examples": [
+            {
+              "en": "That cat meme made me laugh.",
+              "vi": "Cái meme mèo đó khiến tôi cười."
+            },
+            {
+              "en": "Vietnamese memes are getting more popular.",
+              "vi": "Meme Việt ngày càng phổ biến."
+            },
+            {
+              "en": "She runs a meme page on Facebook.",
+              "vi": "Cô ấy quản lý trang meme trên Facebook."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["internet meme", "viral meme", "popular meme", "make a meme", "meme page"],
+      "etymology_hint": "Coined in 1976 by Richard Dawkins from Greek 'mimēma' (something imitated) — modern internet sense from 2010s.",
+      "mnemonic_vi": "MEME = 'mim' — 'mìm' cười. Internet meme = ảnh chế."
+    },
+    {
+      "word": "algorithm",
+      "lemma": "algorithm",
+      "ipa": "/ˈælɡərɪðəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of rules computers follow to solve problems or recommend content",
+          "meaning_vi": "thuật toán",
+          "examples": [
+            {
+              "en": "TikTok's algorithm shows you what you like.",
+              "vi": "Thuật toán TikTok hiển thị thứ bạn thích."
+            },
+            {
+              "en": "Google's algorithm ranks search results.",
+              "vi": "Thuật toán Google xếp hạng kết quả tìm kiếm."
+            },
+            {
+              "en": "Algorithms decide what we see online.",
+              "vi": "Thuật toán quyết định ta thấy gì online."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "search algorithm",
+        "TikTok algorithm",
+        "algorithm change",
+        "ranking algorithm",
+        "complex algorithm"
+      ],
+      "etymology_hint": "From Latin 'algorismus' — derived from name of 9th-century Persian mathematician al-Khwarizmi.",
+      "mnemonic_vi": "ALGORITHM = 'an-go-rì-thừm' — quy tắc máy. TikTok algorithm = thuật toán TikTok."
+    },
+    {
+      "word": "streamer",
+      "lemma": "streamer",
+      "ipa": "/ˈstriːmə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who broadcasts video live on the internet",
+          "meaning_vi": "streamer, người livestream",
+          "examples": [
+            {
+              "en": "Vietnamese streamers play games on Twitch.",
+              "vi": "Streamer Việt chơi game trên Twitch."
+            },
+            {
+              "en": "He's a popular streamer with 100k followers.",
+              "vi": "Anh ấy là streamer nổi tiếng với 100k follower."
+            },
+            {
+              "en": "Streamers earn money from donations.",
+              "vi": "Streamer kiếm tiền từ donate."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["broadcaster"],
+      "antonyms": [],
+      "collocations": [
+        "game streamer",
+        "popular streamer",
+        "Twitch streamer",
+        "professional streamer",
+        "live streamer"
+      ],
+      "etymology_hint": "From 'stream' + '-er' — modern internet sense from rise of Twitch (2011) and YouTube Live.",
+      "mnemonic_vi": "STREAMER = STREAM + ER → 'người stream'. Game streamer = streamer game."
+    },
+    {
+      "word": "gaming",
+      "lemma": "gaming",
+      "ipa": "/ˈɡeɪmɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the activity of playing video games",
+          "meaning_vi": "chơi game (như hobby/nghề)",
+          "examples": [
+            {
+              "en": "Vietnamese gaming community is growing fast.",
+              "vi": "Cộng đồng game Việt phát triển nhanh."
+            },
+            {
+              "en": "He spends 4 hours a day on gaming.",
+              "vi": "Anh ấy dành 4 giờ một ngày chơi game."
+            },
+            {
+              "en": "Gaming PC is expensive but powerful.",
+              "vi": "PC gaming đắt nhưng mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "gaming community",
+        "gaming PC",
+        "online gaming",
+        "gaming addiction",
+        "gaming chair"
+      ],
+      "etymology_hint": "From 'game' + '-ing' — modern sense for video gaming developed in 1990s.",
+      "mnemonic_vi": "GAMING = GAME + ING → 'việc chơi game'. Gaming PC = máy tính chơi game."
+    },
+    {
+      "word": "esports",
+      "lemma": "esports",
+      "ipa": "/ˈiːspɔːts/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "competitive video gaming as a professional sport",
+          "meaning_vi": "thể thao điện tử (esports)",
+          "examples": [
+            {
+              "en": "Vietnam won bronze at the SEA Games esports.",
+              "vi": "Việt Nam giành đồng SEA Games esports."
+            },
+            {
+              "en": "Esports tournaments offer big prize money.",
+              "vi": "Giải esports có tiền thưởng lớn."
+            },
+            {
+              "en": "Esports is now in the Asian Games.",
+              "vi": "Esports giờ có trong Asian Games."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["competitive gaming"],
+      "antonyms": [],
+      "collocations": [
+        "esports tournament",
+        "esports team",
+        "esports player",
+        "esports league",
+        "Vietnamese esports"
+      ],
+      "etymology_hint": "Short for 'electronic sports' — coined in late 1990s with rise of competitive gaming, formalized 2010s.",
+      "mnemonic_vi": "ESPORTS = E + SPORTS → 'thể thao điện tử'. Esports = game thi đấu chuyên."
+    },
+    {
+      "word": "nft",
+      "lemma": "nft",
+      "ipa": "/ˌen ef ˈtiː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a unique digital item you can own and sell, often art (Non-Fungible Token)",
+          "meaning_vi": "NFT (tài sản số độc bản)",
+          "examples": [
+            {
+              "en": "Bored Ape NFTs sell for millions.",
+              "vi": "NFT Bored Ape bán được hàng triệu USD."
+            },
+            {
+              "en": "Vietnamese artist Tinh Vũ sells NFT art.",
+              "vi": "Họa sĩ Việt Tinh Vũ bán NFT art."
+            },
+            {
+              "en": "I bought my first NFT last year.",
+              "vi": "Tôi mua NFT đầu tiên năm ngoái."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["NFT art", "buy NFT", "sell NFT", "NFT collection", "NFT marketplace"],
+      "etymology_hint": "Acronym 'Non-Fungible Token' — coined in 2014, exploded in popularity in 2021 with crypto art boom.",
+      "mnemonic_vi": "NFT = Non-Fungible Token → 'duy nhất không thay được'. NFT art = nghệ thuật số độc bản."
+    },
+    {
+      "word": "crypto",
+      "lemma": "crypto",
+      "ipa": "/ˈkrɪptəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "digital money like Bitcoin (short for cryptocurrency)",
+          "meaning_vi": "tiền điện tử (cryptocurrency)",
+          "examples": [
+            {
+              "en": "Bitcoin is the biggest crypto.",
+              "vi": "Bitcoin là crypto lớn nhất."
+            },
+            {
+              "en": "Vietnamese youth invest in crypto.",
+              "vi": "Người trẻ Việt đầu tư crypto."
+            },
+            {
+              "en": "Crypto prices are very volatile.",
+              "vi": "Giá crypto rất biến động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cryptocurrency"],
+      "antonyms": [],
+      "collocations": [
+        "crypto investor",
+        "crypto exchange",
+        "crypto market",
+        "crypto wallet",
+        "crypto trader"
+      ],
+      "etymology_hint": "Short for 'cryptocurrency' — from Greek 'kryptos' (hidden) + currency. Bitcoin launched 2009.",
+      "mnemonic_vi": "CRYPTO = 'críp-tô' — 'ẩn' (kryptos). Tiền số khó hack."
+    },
+    {
+      "word": "metaverse",
+      "lemma": "metaverse",
+      "ipa": "/ˈmetəvɜːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a virtual world where people interact using avatars",
+          "meaning_vi": "vũ trụ ảo (metaverse)",
+          "examples": [
+            {
+              "en": "Meta is investing billions in the metaverse.",
+              "vi": "Meta đầu tư hàng tỷ vào metaverse."
+            },
+            {
+              "en": "You can buy land in the metaverse.",
+              "vi": "Có thể mua đất trong metaverse."
+            },
+            {
+              "en": "Metaverse meetings replace some Zoom calls.",
+              "vi": "Cuộc họp metaverse thay thế một số Zoom."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["virtual world"],
+      "antonyms": [],
+      "collocations": [
+        "enter the metaverse",
+        "metaverse platform",
+        "metaverse experience",
+        "explore the metaverse",
+        "metaverse meeting"
+      ],
+      "etymology_hint": "Coined in 1992 novel 'Snow Crash' by Neal Stephenson — from 'meta-' (beyond) + 'universe'.",
+      "mnemonic_vi": "METAVERSE = META + VERSE → 'vũ trụ vượt qua'. Vũ trụ ảo."
+    },
+    {
+      "word": "avatar",
+      "lemma": "avatar",
+      "ipa": "/ˈævətɑː(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a picture or character that represents you online",
+          "meaning_vi": "ảnh đại diện, avatar",
+          "examples": [
+            {
+              "en": "Change your avatar on Facebook.",
+              "vi": "Đổi avatar trên Facebook."
+            },
+            {
+              "en": "Her game avatar looks like an anime girl.",
+              "vi": "Avatar game của cô ấy giống cô gái anime."
+            },
+            {
+              "en": "Choose an avatar for your Zalo account.",
+              "vi": "Chọn avatar cho tài khoản Zalo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["profile picture"],
+      "antonyms": [],
+      "collocations": [
+        "change avatar",
+        "anime avatar",
+        "game avatar",
+        "custom avatar",
+        "create avatar"
+      ],
+      "etymology_hint": "From Sanskrit 'avatāra' meaning 'descent' — Hindu sense of a god descending to Earth, modern computing sense from 1980s.",
+      "mnemonic_vi": "AVATAR = 'á-vơ-ta' — Sanskrit 'descent'. Avatar = đại diện cá nhân online."
+    },
+    {
+      "word": "hack",
+      "lemma": "hack",
+      "ipa": "/hæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to break into a computer system illegally",
+          "meaning_vi": "hack, đột nhập (máy tính)",
+          "examples": [
+            {
+              "en": "Someone hacked my email account.",
+              "vi": "Ai đó đã hack email của tôi."
+            },
+            {
+              "en": "Use strong passwords to prevent being hacked.",
+              "vi": "Dùng mật khẩu mạnh để tránh bị hack."
+            },
+            {
+              "en": "Ethical hackers help find security flaws.",
+              "vi": "Hacker đạo đức giúp tìm lỗ hổng bảo mật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["break into", "compromise"],
+      "antonyms": [],
+      "collocations": [
+        "hack into",
+        "get hacked",
+        "ethical hack",
+        "hack a system",
+        "hacking attack"
+      ],
+      "etymology_hint": "From Old English 'haccian' meaning 'to cut' — computing sense from MIT in 1960s for clever technical solutions.",
+      "mnemonic_vi": "HACK = 'hác' — 'hấc' đột nhập. Hack the system = hack hệ thống."
+    },
+    {
+      "word": "cyber",
+      "lemma": "cyber",
+      "ipa": "/ˈsaɪbə(r)/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to computers and the internet",
+          "meaning_vi": "thuộc về mạng (cyber)",
+          "examples": [
+            {
+              "en": "Cyber security is critical for businesses.",
+              "vi": "An ninh mạng quan trọng cho doanh nghiệp."
+            },
+            {
+              "en": "Vietnam fights cyber crime seriously.",
+              "vi": "Việt Nam chống tội phạm mạng nghiêm túc."
+            },
+            {
+              "en": "Cyber attacks can shut down websites.",
+              "vi": "Tấn công mạng có thể đánh sập web."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["digital", "online"],
+      "antonyms": ["physical"],
+      "collocations": [
+        "cyber security",
+        "cyber attack",
+        "cyber crime",
+        "cyber bullying",
+        "cyber threat"
+      ],
+      "etymology_hint": "From Greek 'kybernētēs' meaning 'steersman' — modern usage from 'cybernetics' (Norbert Wiener, 1948).",
+      "mnemonic_vi": "CYBER = 'sai-bơ' — 'sai bờ' liên quan mạng. Cyber security = an ninh mạng."
+    },
+    {
+      "word": "reality",
+      "lemma": "reality",
+      "ipa": "/riˈæləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way things really are, not how you imagine",
+          "meaning_vi": "thực tế",
+          "examples": [
+            {
+              "en": "In reality, working from home is hard.",
+              "vi": "Thực tế, làm việc tại nhà khó."
+            },
+            {
+              "en": "Virtual reality games feel real.",
+              "vi": "Game thực tế ảo cảm giác như thật."
+            },
+            {
+              "en": "Face reality and adapt.",
+              "vi": "Đối mặt thực tế và thích nghi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["truth"],
+      "antonyms": ["fantasy"],
+      "collocations": [
+        "in reality",
+        "virtual reality",
+        "augmented reality",
+        "face reality",
+        "harsh reality"
+      ],
+      "etymology_hint": "From Latin 'realitas' meaning 'thingness, fact' — from 'res' (thing).",
+      "mnemonic_vi": "REALITY = REAL + ITY → 'sự thật'. Virtual reality = thực tế ảo."
+    },
+    {
+      "word": "augmented",
+      "lemma": "augmented",
+      "ipa": "/ɔːɡˈmentɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "made larger or improved by adding extra information or technology",
+          "meaning_vi": "tăng cường, gia cố (AR)",
+          "examples": [
+            {
+              "en": "Augmented reality games like Pokemon Go.",
+              "vi": "Game thực tế tăng cường như Pokemon Go."
+            },
+            {
+              "en": "AR glasses show augmented information.",
+              "vi": "Kính AR hiển thị thông tin tăng cường."
+            },
+            {
+              "en": "Augmented reality changes shopping experience.",
+              "vi": "Thực tế tăng cường đổi trải nghiệm mua sắm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enhanced"],
+      "antonyms": ["reduced"],
+      "collocations": [
+        "augmented reality",
+        "augmented version",
+        "augmented experience",
+        "AR glasses",
+        "augmented data"
+      ],
+      "etymology_hint": "Past participle of 'augment' — from Latin 'augere' (to increase).",
+      "mnemonic_vi": "AUGMENTED = AUG + MENTED → 'được tăng thêm'. AR = augmented reality."
+    },
+    {
+      "word": "chatbot",
+      "lemma": "chatbot",
+      "ipa": "/ˈtʃætbɒt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a computer program that talks to people like a real person",
+          "meaning_vi": "chatbot (AI trò chuyện)",
+          "examples": [
+            {
+              "en": "ChatGPT is a famous AI chatbot.",
+              "vi": "ChatGPT là chatbot AI nổi tiếng."
+            },
+            {
+              "en": "Vietnamese banks use chatbots for support.",
+              "vi": "Ngân hàng Việt dùng chatbot hỗ trợ."
+            },
+            {
+              "en": "The chatbot answered my question in 1 second.",
+              "vi": "Chatbot trả lời câu hỏi tôi trong 1 giây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["AI bot"],
+      "antonyms": [],
+      "collocations": [
+        "AI chatbot",
+        "customer service chatbot",
+        "talk to a chatbot",
+        "chatbot interface",
+        "build a chatbot"
+      ],
+      "etymology_hint": "Compound of 'chat' + 'bot' (short for robot) — coined in 1990s, exploded with ChatGPT in 2022.",
+      "mnemonic_vi": "CHATBOT = CHAT + BOT → 'robot chat'. ChatGPT = chatbot lớn."
+    },
+    {
+      "word": "database",
+      "lemma": "database",
+      "ipa": "/ˈdeɪtəbeɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an organized collection of information on a computer",
+          "meaning_vi": "cơ sở dữ liệu",
+          "examples": [
+            {
+              "en": "Search the customer database for the name.",
+              "vi": "Tìm tên trong cơ sở dữ liệu khách."
+            },
+            {
+              "en": "Big companies have huge databases.",
+              "vi": "Các công ty lớn có cơ sở dữ liệu khổng lồ."
+            },
+            {
+              "en": "She works with SQL databases daily.",
+              "vi": "Cô ấy làm với cơ sở dữ liệu SQL hàng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["data store"],
+      "antonyms": [],
+      "collocations": [
+        "customer database",
+        "build a database",
+        "search the database",
+        "database administrator",
+        "database query"
+      ],
+      "etymology_hint": "Compound of 'data' + 'base' — coined in 1960s with rise of computer storage systems.",
+      "mnemonic_vi": "DATABASE = DATA + BASE → 'kho dữ liệu'. SQL database = CSDL SQL."
+    },
+    {
+      "word": "cookie",
+      "lemma": "cookie",
+      "ipa": "/ˈkʊki/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small file websites save on your computer to remember you",
+          "meaning_vi": "cookie (theo dõi web)",
+          "examples": [
+            {
+              "en": "Accept cookies to continue browsing.",
+              "vi": "Chấp nhận cookie để tiếp tục duyệt."
+            },
+            {
+              "en": "Cookies remember your login.",
+              "vi": "Cookie nhớ đăng nhập của bạn."
+            },
+            {
+              "en": "Delete cookies regularly for privacy.",
+              "vi": "Xóa cookie thường xuyên cho riêng tư."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "accept cookies",
+        "delete cookies",
+        "cookie policy",
+        "tracking cookies",
+        "browser cookies"
+      ],
+      "etymology_hint": "Computing sense coined in 1994 by Lou Montulli at Netscape — name from 'magic cookie' programming term.",
+      "mnemonic_vi": "COOKIE = 'cú-ki' — 'cú kí' bánh nhỏ. Browser cookie = mảnh data web."
+    },
+    {
+      "word": "browser",
+      "lemma": "browser",
+      "ipa": "/ˈbraʊzə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a program you use to look at websites (like Chrome, Firefox)",
+          "meaning_vi": "trình duyệt web",
+          "examples": [
+            {
+              "en": "Chrome is the most popular browser in Việt Nam.",
+              "vi": "Chrome là trình duyệt phổ biến nhất ở Việt Nam."
+            },
+            {
+              "en": "Update your browser for better security.",
+              "vi": "Cập nhật trình duyệt cho bảo mật tốt hơn."
+            },
+            {
+              "en": "Open the browser and search Google.",
+              "vi": "Mở trình duyệt và tìm Google."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["web browser"],
+      "antonyms": [],
+      "collocations": [
+        "web browser",
+        "update the browser",
+        "browser history",
+        "browser tab",
+        "default browser"
+      ],
+      "etymology_hint": "From 'browse' + '-er' — coined in 1990s when WorldWideWeb (first browser) launched in 1990.",
+      "mnemonic_vi": "BROWSER = BROWSE + ER → 'người duyệt'. Web browser = trình duyệt."
+    },
+    {
+      "word": "website",
+      "lemma": "website",
+      "ipa": "/ˈwebsaɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place on the internet that has pages of information",
+          "meaning_vi": "trang web, website",
+          "examples": [
+            {
+              "en": "Visit our website for more information.",
+              "vi": "Vào website của chúng tôi để biết thêm."
+            },
+            {
+              "en": "I built a website for my café.",
+              "vi": "Tôi xây website cho quán cà phê."
+            },
+            {
+              "en": "Vingroup website lists all properties.",
+              "vi": "Website Vingroup liệt kê tất cả dự án."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["site"],
+      "antonyms": [],
+      "collocations": [
+        "visit a website",
+        "company website",
+        "build a website",
+        "official website",
+        "popular website"
+      ],
+      "etymology_hint": "Compound of 'web' + 'site' — coined 1993 with rise of World Wide Web.",
+      "mnemonic_vi": "WEBSITE = WEB + SITE → 'chỗ trên web'. Visit website = vào web."
+    },
+    {
+      "word": "firewall",
+      "lemma": "firewall",
+      "ipa": "/ˈfaɪəwɔːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "computer security that protects a network from outside attacks",
+          "meaning_vi": "tường lửa (bảo mật mạng)",
+          "examples": [
+            {
+              "en": "Install a firewall on your computer.",
+              "vi": "Cài tường lửa trên máy tính."
+            },
+            {
+              "en": "Firewalls block harmful connections.",
+              "vi": "Tường lửa chặn kết nối có hại."
+            },
+            {
+              "en": "Corporate firewalls are very strong.",
+              "vi": "Tường lửa công ty rất mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "install a firewall",
+        "firewall settings",
+        "corporate firewall",
+        "behind a firewall",
+        "firewall protection"
+      ],
+      "etymology_hint": "Compound of 'fire' + 'wall' — original sense of physical wall preventing fire spread, applied to computing in 1980s.",
+      "mnemonic_vi": "FIREWALL = FIRE + WALL → 'tường chặn lửa'. Network firewall = tường lửa mạng."
+    },
+    {
+      "word": "encryption",
+      "lemma": "encryption",
+      "ipa": "/ɪnˈkrɪpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of changing data into a code so others can't read it",
+          "meaning_vi": "mã hóa (bảo mật)",
+          "examples": [
+            {
+              "en": "WhatsApp uses end-to-end encryption.",
+              "vi": "WhatsApp dùng mã hóa đầu cuối."
+            },
+            {
+              "en": "Encryption protects your messages.",
+              "vi": "Mã hóa bảo vệ tin nhắn bạn."
+            },
+            {
+              "en": "Strong encryption is hard to break.",
+              "vi": "Mã hóa mạnh khó bẻ khóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["encoding"],
+      "antonyms": ["decryption"],
+      "collocations": [
+        "end-to-end encryption",
+        "strong encryption",
+        "data encryption",
+        "encryption key",
+        "use encryption"
+      ],
+      "etymology_hint": "From Greek 'kryptos' (hidden) + Latin '-ion' (action of) — modern computing sense from 1950s.",
+      "mnemonic_vi": "ENCRYPTION = EN + CRYPT → 'làm cho ẩn'. Encryption = mã hóa bảo mật."
+    }
+  ]
+}

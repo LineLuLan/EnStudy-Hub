@@ -1,0 +1,769 @@
+{
+  "slug": "time-sequence",
+  "name": "Time & Sequence",
+  "description": "Thời gian và thứ tự B1 — prior, subsequent, meanwhile, formerly và 16 từ về thứ tự thời gian formal.",
+  "order_index": 8,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "prior",
+      "lemma": "prior",
+      "ipa": "/ˈpraɪə(r)/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "happening or existing before something else",
+          "meaning_vi": "trước (đó), có trước",
+          "examples": [
+            {
+              "en": "You need prior experience for this job.",
+              "vi": "Bạn cần kinh nghiệm trước cho việc này."
+            },
+            {
+              "en": "Prior to 1986, Vietnam had a planned economy.",
+              "vi": "Trước 1986, Việt Nam có kinh tế kế hoạch."
+            },
+            {
+              "en": "Get prior approval before spending money.",
+              "vi": "Xin phê duyệt trước khi tiêu tiền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["previous", "earlier"],
+      "antonyms": ["later", "subsequent"],
+      "collocations": [
+        "prior to",
+        "prior knowledge",
+        "prior approval",
+        "prior experience",
+        "no prior"
+      ],
+      "etymology_hint": "From Latin 'prior' meaning 'former, previous' — comparative of an unattested 'pris' (before).",
+      "mnemonic_vi": "PRIOR = 'prai-ơ' — 'prai' trước. Prior to = trước khi."
+    },
+    {
+      "word": "subsequent",
+      "lemma": "subsequent",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "happening after something else",
+          "meaning_vi": "tiếp theo, sau đó (formal)",
+          "examples": [
+            {
+              "en": "Subsequent events confirmed the prediction.",
+              "vi": "Các sự kiện sau đó xác nhận lời dự đoán."
+            },
+            {
+              "en": "Read the subsequent chapters carefully.",
+              "vi": "Đọc các chương tiếp theo cẩn thận."
+            },
+            {
+              "en": "The first test passed; subsequent ones failed.",
+              "vi": "Test đầu pass; các test sau fail."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["following", "next"],
+      "antonyms": ["prior", "previous"],
+      "collocations": [
+        "subsequent events",
+        "subsequent years",
+        "subsequent to",
+        "in subsequent",
+        "subsequent chapters"
+      ],
+      "etymology_hint": "From Latin 'subsequens' meaning 'following close behind' — from 'sub-' (under, after) + 'sequi' (to follow).",
+      "mnemonic_vi": "SUBSEQUENT = SUB + SEQUENT → 'tiếp theo sau'. Subsequent = tiếp sau."
+    },
+    {
+      "word": "simultaneously",
+      "lemma": "simultaneously",
+      "ipa": "/ˌsɪmlˈteɪniəsli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "happening at the same time",
+          "meaning_vi": "đồng thời, cùng lúc",
+          "examples": [
+            {
+              "en": "Live concerts are broadcast simultaneously worldwide.",
+              "vi": "Concert trực tiếp phát đồng thời toàn cầu."
+            },
+            {
+              "en": "She speaks 3 languages simultaneously when interpreting.",
+              "vi": "Cô ấy nói 3 ngôn ngữ đồng thời khi phiên dịch."
+            },
+            {
+              "en": "Two events happened simultaneously.",
+              "vi": "Hai sự kiện xảy ra cùng lúc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["at once", "concurrently"],
+      "antonyms": ["separately"],
+      "collocations": [
+        "happen simultaneously",
+        "broadcast simultaneously",
+        "occur simultaneously",
+        "speak simultaneously",
+        "work simultaneously"
+      ],
+      "etymology_hint": "From Latin 'simul' meaning 'at the same time' — same root as 'similar' and 'assemble'.",
+      "mnemonic_vi": "SIMULTANEOUSLY = SIMUL + TANE + OUSLY → 'cùng một lúc'. Đồng thời."
+    },
+    {
+      "word": "previously",
+      "lemma": "previously",
+      "ipa": "/ˈpriːviəsli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "before now or before something else",
+          "meaning_vi": "trước đó, từng",
+          "examples": [
+            {
+              "en": "She previously worked at FPT.",
+              "vi": "Cô ấy từng làm việc ở FPT."
+            },
+            {
+              "en": "Previously, I lived in Sapa.",
+              "vi": "Trước đó, tôi sống ở Sapa."
+            },
+            {
+              "en": "He was previously the CEO.",
+              "vi": "Trước đây anh ấy là CEO."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["before", "formerly"],
+      "antonyms": ["later", "subsequently"],
+      "collocations": [
+        "previously stated",
+        "previously known",
+        "previously held",
+        "as previously",
+        "previously worked"
+      ],
+      "etymology_hint": "From Latin 'praevius' meaning 'going before' — from 'prae-' (before) + 'via' (way).",
+      "mnemonic_vi": "PREVIOUSLY = PREVIOUS + LY → 'theo cách trước'. Previously = trước đó."
+    },
+    {
+      "word": "meanwhile",
+      "lemma": "meanwhile",
+      "ipa": "/ˈmiːnwaɪl/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "at the same time as something else is happening",
+          "meaning_vi": "trong khi đó, cùng lúc",
+          "examples": [
+            {
+              "en": "I cooked dinner; meanwhile, she set the table.",
+              "vi": "Tôi nấu bữa tối; trong khi đó, cô ấy dọn bàn."
+            },
+            {
+              "en": "Wait 10 minutes; meanwhile, I'll call you.",
+              "vi": "Đợi 10 phút; trong khi đó tôi sẽ gọi bạn."
+            },
+            {
+              "en": "Meanwhile, the situation got worse.",
+              "vi": "Trong khi đó, tình hình tệ hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meantime", "simultaneously"],
+      "antonyms": [],
+      "collocations": [
+        "meanwhile in",
+        "but meanwhile",
+        "meanwhile back",
+        "meanwhile elsewhere",
+        "in the meanwhile"
+      ],
+      "etymology_hint": "Compound of 'mean' (middle, intermediate) + 'while' (time) — Middle English construction.",
+      "mnemonic_vi": "MEANWHILE = MEAN + WHILE → 'giữa khoảng thời gian'. Trong khi đó."
+    },
+    {
+      "word": "finally",
+      "lemma": "finally",
+      "ipa": "/ˈfaɪnəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "after a long time or as the last in a series",
+          "meaning_vi": "cuối cùng, sau cùng",
+          "examples": [
+            {
+              "en": "After hours of traffic, we finally arrived home.",
+              "vi": "Sau nhiều giờ kẹt xe, cuối cùng cũng về nhà."
+            },
+            {
+              "en": "Finally, I want to thank everyone.",
+              "vi": "Cuối cùng, tôi muốn cảm ơn mọi người."
+            },
+            {
+              "en": "She finally got her dream job.",
+              "vi": "Cô ấy cuối cùng đã có việc mơ ước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["at last", "ultimately"],
+      "antonyms": ["initially", "firstly"],
+      "collocations": [
+        "finally arrived",
+        "finally got",
+        "and finally",
+        "finally decided",
+        "finally finished"
+      ],
+      "etymology_hint": "From Latin 'finalis' meaning 'final' — from 'finis' (end).",
+      "mnemonic_vi": "FINALLY = FINAL + LY → 'cuối cùng'. Finally home = cuối cùng cũng về."
+    },
+    {
+      "word": "afterwards",
+      "lemma": "afterwards",
+      "ipa": "/ˈɑːftəwədz/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "later, after something has happened",
+          "meaning_vi": "sau đó",
+          "examples": [
+            {
+              "en": "We ate phở; afterwards, we walked around the lake.",
+              "vi": "Chúng tôi ăn phở; sau đó đi dạo quanh hồ."
+            },
+            {
+              "en": "What did you do afterwards?",
+              "vi": "Bạn làm gì sau đó?"
+            },
+            {
+              "en": "She regretted it afterwards.",
+              "vi": "Cô ấy hối hận sau đó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["later", "subsequently"],
+      "antonyms": ["beforehand"],
+      "collocations": [
+        "shortly afterwards",
+        "soon afterwards",
+        "long afterwards",
+        "immediately afterwards",
+        "happen afterwards"
+      ],
+      "etymology_hint": "Compound of 'after' + 'ward' (direction) + '-s' (adverbial) — Old English construction.",
+      "mnemonic_vi": "AFTERWARDS = AFTER + WARDS → 'hướng sau'. Sau đó."
+    },
+    {
+      "word": "beforehand",
+      "lemma": "beforehand",
+      "ipa": "/bɪˈfɔːhænd/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "earlier than a particular time or event",
+          "meaning_vi": "trước đó, từ trước",
+          "examples": [
+            {
+              "en": "Book the restaurant beforehand to avoid waiting.",
+              "vi": "Đặt nhà hàng trước để tránh đợi."
+            },
+            {
+              "en": "She prepared everything beforehand.",
+              "vi": "Cô ấy chuẩn bị mọi thứ từ trước."
+            },
+            {
+              "en": "Tell me beforehand if you can't come.",
+              "vi": "Báo tôi trước nếu bạn không thể đến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in advance", "previously"],
+      "antonyms": ["afterwards"],
+      "collocations": [
+        "well beforehand",
+        "prepare beforehand",
+        "long beforehand",
+        "warn beforehand",
+        "agree beforehand"
+      ],
+      "etymology_hint": "Compound of 'before' + 'hand' (at hand, ready) — Middle English idiom.",
+      "mnemonic_vi": "BEFOREHAND = BEFORE + HAND → 'trong tay trước'. Chuẩn bị trước."
+    },
+    {
+      "word": "briefly",
+      "lemma": "briefly",
+      "ipa": "/ˈbriːfli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "for a short time, or in a few words",
+          "meaning_vi": "ngắn, vắn tắt",
+          "examples": [
+            {
+              "en": "I'll briefly explain the project.",
+              "vi": "Tôi sẽ vắn tắt giải thích dự án."
+            },
+            {
+              "en": "She spoke briefly at the meeting.",
+              "vi": "Cô ấy nói ngắn gọn tại cuộc họp."
+            },
+            {
+              "en": "I met him briefly at the conference.",
+              "vi": "Tôi gặp anh ấy ngắn tại hội nghị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shortly", "concisely"],
+      "antonyms": ["lengthily"],
+      "collocations": [
+        "briefly explain",
+        "briefly mention",
+        "speak briefly",
+        "appear briefly",
+        "very briefly"
+      ],
+      "etymology_hint": "From Latin 'brevis' meaning 'short' — same root as 'brief' and 'abbreviate'.",
+      "mnemonic_vi": "BRIEFLY = BRIEF + LY → 'theo cách ngắn'. Briefly explain = giải thích vắn tắt."
+    },
+    {
+      "word": "shortly",
+      "lemma": "shortly",
+      "ipa": "/ˈʃɔːtli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "in a short time, soon",
+          "meaning_vi": "ngay, sắp",
+          "examples": [
+            {
+              "en": "The bus will arrive shortly.",
+              "vi": "Xe buýt sẽ đến ngay."
+            },
+            {
+              "en": "Shortly after Tết, prices return to normal.",
+              "vi": "Ngay sau Tết, giá trở lại bình thường."
+            },
+            {
+              "en": "I'll call you back shortly.",
+              "vi": "Tôi sẽ gọi lại ngay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["soon", "presently"],
+      "antonyms": ["later"],
+      "collocations": [
+        "shortly after",
+        "shortly before",
+        "arrive shortly",
+        "shortly afterwards",
+        "begin shortly"
+      ],
+      "etymology_hint": "From 'short' + '-ly' — Middle English construction meaning 'in a short time'.",
+      "mnemonic_vi": "SHORTLY = SHORT + LY → 'ngay, sớm'. Shortly after = ngay sau."
+    },
+    {
+      "word": "presently",
+      "lemma": "presently",
+      "ipa": "/ˈprezntli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "at the present time; now (formal)",
+          "meaning_vi": "hiện tại (formal)",
+          "examples": [
+            {
+              "en": "She is presently studying in Hà Nội.",
+              "vi": "Cô ấy hiện đang học ở Hà Nội."
+            },
+            {
+              "en": "The CEO is presently abroad.",
+              "vi": "CEO hiện đang ở nước ngoài."
+            },
+            {
+              "en": "There are presently 10 staff members.",
+              "vi": "Hiện tại có 10 nhân viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["currently", "now"],
+      "antonyms": [],
+      "collocations": [
+        "presently working",
+        "presently available",
+        "presently living",
+        "presently studying",
+        "presently engaged"
+      ],
+      "etymology_hint": "From 'present' + '-ly' — Middle English. Original meaning 'immediately' shifted to 'currently' in 16th century.",
+      "mnemonic_vi": "PRESENTLY = PRESENT + LY → 'hiện giờ'. Presently = đang."
+    },
+    {
+      "word": "formerly",
+      "lemma": "formerly",
+      "ipa": "/ˈfɔːməli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "in the past; previously",
+          "meaning_vi": "trước đây, xưa kia",
+          "examples": [
+            {
+              "en": "Sài Gòn was formerly the capital.",
+              "vi": "Sài Gòn trước đây là thủ đô."
+            },
+            {
+              "en": "He was formerly known as Nguyễn Văn A.",
+              "vi": "Anh ấy trước đây được biết với tên Nguyễn Văn A."
+            },
+            {
+              "en": "This building was formerly a hospital.",
+              "vi": "Tòa nhà này trước đây là bệnh viện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["previously"],
+      "antonyms": ["currently"],
+      "collocations": [
+        "formerly known as",
+        "formerly used",
+        "formerly the",
+        "formerly a",
+        "formerly held"
+      ],
+      "etymology_hint": "From Middle English 'former' (earlier) + '-ly' — Germanic root.",
+      "mnemonic_vi": "FORMERLY = FORMER + LY → 'theo cách trước'. Formerly = trước đây."
+    },
+    {
+      "word": "subsequently",
+      "lemma": "subsequently",
+      "ipa": "/ˈsʌbsɪkwəntli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "after that; later (formal)",
+          "meaning_vi": "sau đó (formal)",
+          "examples": [
+            {
+              "en": "He graduated in 2020 and subsequently joined FPT.",
+              "vi": "Anh ấy tốt nghiệp 2020 và sau đó vào FPT."
+            },
+            {
+              "en": "She subsequently moved to Đà Nẵng.",
+              "vi": "Cô ấy sau đó chuyển đến Đà Nẵng."
+            },
+            {
+              "en": "Subsequently, the law was changed.",
+              "vi": "Sau đó, luật được thay đổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["afterwards", "later"],
+      "antonyms": ["previously"],
+      "collocations": [
+        "subsequently became",
+        "subsequently moved",
+        "subsequently developed",
+        "soon subsequently",
+        "and subsequently"
+      ],
+      "etymology_hint": "From 'subsequent' + '-ly' — formal English derivative for sequence in writing.",
+      "mnemonic_vi": "SUBSEQUENTLY = SUB + SEQUENT + LY → 'theo cách tiếp sau'. Subsequently = sau đó."
+    },
+    {
+      "word": "ongoing",
+      "lemma": "ongoing",
+      "ipa": "/ˈɒnɡəʊɪŋ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "still happening; continuing",
+          "meaning_vi": "đang diễn ra, tiếp tục",
+          "examples": [
+            {
+              "en": "The ongoing project takes 6 months.",
+              "vi": "Dự án đang diễn ra mất 6 tháng."
+            },
+            {
+              "en": "There's an ongoing debate about education.",
+              "vi": "Có cuộc tranh luận đang diễn ra về giáo dục."
+            },
+            {
+              "en": "Ongoing research helps find solutions.",
+              "vi": "Nghiên cứu liên tục giúp tìm giải pháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["continuing", "current"],
+      "antonyms": ["completed", "finished"],
+      "collocations": [
+        "ongoing project",
+        "ongoing research",
+        "ongoing debate",
+        "ongoing process",
+        "ongoing investigation"
+      ],
+      "etymology_hint": "Compound of 'on' + 'going' — Middle English, sense of 'continuing in progress'.",
+      "mnemonic_vi": "ONGOING = ON + GOING → 'đang đi'. Ongoing project = dự án đang chạy."
+    },
+    {
+      "word": "earlier",
+      "lemma": "earlier",
+      "ipa": "/ˈɜːliə(r)/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "before now or before a particular time",
+          "meaning_vi": "sớm hơn, trước đó",
+          "examples": [
+            {
+              "en": "I called earlier but you didn't answer.",
+              "vi": "Tôi gọi trước đó nhưng bạn không nghe."
+            },
+            {
+              "en": "Wake up earlier to catch the bus.",
+              "vi": "Dậy sớm hơn để bắt xe buýt."
+            },
+            {
+              "en": "Earlier this week, it rained heavily.",
+              "vi": "Đầu tuần này, trời mưa lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sooner", "previously"],
+      "antonyms": ["later"],
+      "collocations": [
+        "earlier today",
+        "earlier this year",
+        "earlier than",
+        "much earlier",
+        "as earlier"
+      ],
+      "etymology_hint": "Comparative form of 'early' — from Old English 'ǣr-līce' (early).",
+      "mnemonic_vi": "EARLIER = EARLY + ER → 'sớm hơn'. Earlier today = đầu hôm nay."
+    },
+    {
+      "word": "later",
+      "lemma": "later",
+      "ipa": "/ˈleɪtə(r)/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "after now or after a particular time",
+          "meaning_vi": "sau, sau đó",
+          "examples": [
+            {
+              "en": "See you later!",
+              "vi": "Gặp lại sau!"
+            },
+            {
+              "en": "I'll call you later tonight.",
+              "vi": "Tôi sẽ gọi bạn tối sau."
+            },
+            {
+              "en": "Three days later, she replied.",
+              "vi": "Ba ngày sau, cô ấy trả lời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["afterwards", "subsequently"],
+      "antonyms": ["earlier", "sooner"],
+      "collocations": [
+        "later today",
+        "see you later",
+        "sooner or later",
+        "much later",
+        "later this year"
+      ],
+      "etymology_hint": "Comparative form of 'late' — Old English 'lætor'.",
+      "mnemonic_vi": "LATER = LATE + R → 'trễ hơn'. See you later = gặp lại sau."
+    },
+    {
+      "word": "consecutive",
+      "lemma": "consecutive",
+      "ipa": "/kənˈsekjətɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "following one after another without a break",
+          "meaning_vi": "liên tiếp",
+          "examples": [
+            {
+              "en": "It rained for 5 consecutive days.",
+              "vi": "Trời mưa 5 ngày liên tiếp."
+            },
+            {
+              "en": "She won 3 consecutive championships.",
+              "vi": "Cô ấy thắng 3 giải vô địch liên tiếp."
+            },
+            {
+              "en": "Take a break after 2 consecutive hours.",
+              "vi": "Nghỉ sau 2 giờ liên tiếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["successive", "sequential"],
+      "antonyms": [],
+      "collocations": [
+        "consecutive days",
+        "consecutive years",
+        "consecutive wins",
+        "consecutive months",
+        "for the consecutive"
+      ],
+      "etymology_hint": "From Latin 'consecutus' meaning 'following' — past participle of 'consequi' (to follow closely).",
+      "mnemonic_vi": "CONSECUTIVE = CON + SECUTIVE → 'cùng theo'. Liên tiếp."
+    },
+    {
+      "word": "successive",
+      "lemma": "successive",
+      "ipa": "/səkˈsesɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "following each other one after another",
+          "meaning_vi": "liên tục, kế tiếp",
+          "examples": [
+            {
+              "en": "Three successive presidents have visited.",
+              "vi": "Ba tổng thống kế tiếp đã thăm."
+            },
+            {
+              "en": "Successive Vietnamese governments have promoted exports.",
+              "vi": "Các chính phủ Việt kế tiếp đẩy mạnh xuất khẩu."
+            },
+            {
+              "en": "Successive defeats discouraged the team.",
+              "vi": "Các thất bại kế tiếp làm đội nản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consecutive", "subsequent"],
+      "antonyms": [],
+      "collocations": [
+        "successive years",
+        "successive generations",
+        "successive defeats",
+        "in successive",
+        "successive winners"
+      ],
+      "etymology_hint": "From Latin 'successus' meaning 'a coming up after' — same root as 'succeed' and 'success'.",
+      "mnemonic_vi": "SUCCESSIVE = SUCCESS + IVE → 'tiếp theo'. Successive = kế tiếp."
+    },
+    {
+      "word": "imminent",
+      "lemma": "imminent",
+      "ipa": "/ˈɪmɪnənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "about to happen very soon",
+          "meaning_vi": "sắp xảy ra (rất gần)",
+          "examples": [
+            {
+              "en": "A typhoon is imminent.",
+              "vi": "Cơn bão sắp đến."
+            },
+            {
+              "en": "Her promotion is imminent.",
+              "vi": "Cô ấy sắp được thăng chức."
+            },
+            {
+              "en": "The deadline is imminent — work fast!",
+              "vi": "Deadline sắp đến — làm nhanh!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["impending", "approaching"],
+      "antonyms": ["distant"],
+      "collocations": [
+        "imminent danger",
+        "imminent threat",
+        "imminent arrival",
+        "imminent collapse",
+        "appears imminent"
+      ],
+      "etymology_hint": "From Latin 'imminens' meaning 'overhanging' — from 'in-' (over) + 'minere' (to project, threaten).",
+      "mnemonic_vi": "IMMINENT = IM + MINENT → 'sắp tới gần'. Imminent danger = nguy hiểm gần."
+    },
+    {
+      "word": "prolonged",
+      "lemma": "prolonged",
+      "ipa": "/prəˈlɒŋd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "lasting for a long time",
+          "meaning_vi": "kéo dài (lâu)",
+          "examples": [
+            {
+              "en": "Prolonged exposure to sun is harmful.",
+              "vi": "Phơi nắng kéo dài có hại."
+            },
+            {
+              "en": "She had a prolonged illness.",
+              "vi": "Cô ấy bị bệnh kéo dài."
+            },
+            {
+              "en": "Avoid prolonged screen time.",
+              "vi": "Tránh dùng màn hình kéo dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lengthy", "extended"],
+      "antonyms": ["brief", "short"],
+      "collocations": [
+        "prolonged period",
+        "prolonged illness",
+        "prolonged exposure",
+        "prolonged silence",
+        "prolonged effort"
+      ],
+      "etymology_hint": "Past participle of 'prolong' — from Latin 'prolongare' (to extend), from 'pro-' (forward) + 'longus' (long).",
+      "mnemonic_vi": "PROLONGED = PRO + LONG + ED → 'kéo dài ra'. Prolonged illness = bệnh kéo dài."
+    }
+  ]
+}
