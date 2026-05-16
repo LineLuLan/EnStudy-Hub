@@ -1,0 +1,763 @@
+{
+  "slug": "personal-finance",
+  "name": "Personal Finance",
+  "description": "Tài chính cá nhân B1 — interest-rate, emergency-fund, frugal, automate và 16 từ cho người quản tiền.",
+  "order_index": 21,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "interest-rate",
+      "lemma": "interest-rate",
+      "ipa": "/ˈɪntrəst reɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the percentage charged on borrowed money or paid on savings",
+          "meaning_vi": "lãi suất",
+          "examples": [
+            {
+              "en": "Vietnamese savings accounts pay 5-7% interest-rates.",
+              "vi": "Tài khoản tiết kiệm Việt trả lãi suất 5-7%."
+            },
+            {
+              "en": "Credit-card interest-rates can exceed 25%.",
+              "vi": "Lãi suất thẻ tín dụng có thể vượt 25%."
+            },
+            {
+              "en": "Lower interest-rates encourage borrowing.",
+              "vi": "Lãi suất thấp khuyến khích vay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rate of interest"],
+      "antonyms": [],
+      "collocations": [
+        "high interest-rate",
+        "low interest-rate",
+        "fixed interest-rate",
+        "variable interest-rate",
+        "compare interest-rates"
+      ],
+      "etymology_hint": "Compound: 'interest' (Latin 'interesse' = to matter) + 'rate' (Old French 'rate' = price).",
+      "mnemonic_vi": "INTEREST (lãi) + RATE (tỷ lệ) = lãi suất. High interest-rate = lãi suất cao."
+    },
+    {
+      "word": "emergency-fund",
+      "lemma": "emergency-fund",
+      "ipa": "/ɪˈmɜːdʒənsi fʌnd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money saved for unexpected costs like medical bills or job loss",
+          "meaning_vi": "quỹ khẩn cấp (dự phòng)",
+          "examples": [
+            {
+              "en": "Build an emergency-fund of 3-6 months' expenses.",
+              "vi": "Xây quỹ khẩn cấp bằng 3-6 tháng chi phí."
+            },
+            {
+              "en": "Her emergency-fund covered the surgery bill.",
+              "vi": "Quỹ khẩn cấp của cô ấy trang trải hóa đơn mổ."
+            },
+            {
+              "en": "Without an emergency-fund, debt spirals fast.",
+              "vi": "Không có quỹ khẩn cấp, nợ vỡ ra nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rainy-day fund", "safety net"],
+      "antonyms": ["living paycheck-to-paycheck"],
+      "collocations": [
+        "build an emergency-fund",
+        "dip into the emergency-fund",
+        "fully funded emergency-fund",
+        "use the emergency-fund",
+        "emergency-fund target"
+      ],
+      "etymology_hint": "Compound: 'emergency' (Latin 'emergens' = rising up) + 'fund' (Latin 'fundus' = bottom, base).",
+      "mnemonic_vi": "EMERGENCY (khẩn) + FUND (quỹ) = quỹ khẩn. Build an emergency-fund = xây quỹ khẩn cấp."
+    },
+    {
+      "word": "frugal",
+      "lemma": "frugal",
+      "ipa": "/ˈfruːɡl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "careful with money, spending only on what is necessary",
+          "meaning_vi": "tiết kiệm, tằn tiện",
+          "examples": [
+            {
+              "en": "She lives a frugal life on $1,000 a month.",
+              "vi": "Cô ấy sống tằn tiện với 1.000 USD mỗi tháng."
+            },
+            {
+              "en": "Frugal habits build wealth faster than high income.",
+              "vi": "Thói quen tiết kiệm xây giàu nhanh hơn lương cao."
+            },
+            {
+              "en": "Vietnamese grandparents are famously frugal.",
+              "vi": "Ông bà Việt nổi tiếng tằn tiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thrifty", "economical"],
+      "antonyms": ["wasteful", "extravagant"],
+      "collocations": [
+        "frugal lifestyle",
+        "frugal habits",
+        "remarkably frugal",
+        "frugal budget",
+        "frugal living"
+      ],
+      "etymology_hint": "From Latin 'frux' = fruit, profit — meaning shifted to 'making the most of one's resources'.",
+      "mnemonic_vi": "FRUGAL đọc 'phru-gồ' — phù gọn tiết kiệm. Frugal lifestyle = lối sống tiết kiệm."
+    },
+    {
+      "word": "splurge",
+      "lemma": "splurge",
+      "ipa": "/splɜːdʒ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to spend a lot of money on something special or unnecessary",
+          "meaning_vi": "vung tiền, chi mạnh tay (cho thứ không cần thiết)",
+          "examples": [
+            {
+              "en": "She splurged on a designer handbag at Tết.",
+              "vi": "Cô ấy vung tiền mua túi xách hiệu dịp Tết."
+            },
+            {
+              "en": "Budget a small splurge each month.",
+              "vi": "Dành chút tiền vung mỗi tháng."
+            },
+            {
+              "en": "Splurging too often ruins your budget.",
+              "vi": "Vung tiền quá thường phá ngân sách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overspend", "indulge"],
+      "antonyms": ["save", "scrimp"],
+      "collocations": [
+        "splurge on",
+        "occasional splurge",
+        "splurge purchase",
+        "splurge once",
+        "splurge a little"
+      ],
+      "etymology_hint": "American English from 1820s — possibly imitative, suggesting a sudden splash of money.",
+      "mnemonic_vi": "SPLURGE đọc 'splớ-zh' — sờ phỉnh phơi tiền. Splurge on = vung tiền cho."
+    },
+    {
+      "word": "expense",
+      "lemma": "expense",
+      "ipa": "/ɪkˈspens/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the money you spend on something, often recurring",
+          "meaning_vi": "chi phí, khoản chi",
+          "examples": [
+            {
+              "en": "Rent is her biggest monthly expense.",
+              "vi": "Tiền thuê nhà là chi phí lớn nhất hàng tháng của cô ấy."
+            },
+            {
+              "en": "Track every expense for one month.",
+              "vi": "Theo dõi mọi khoản chi trong 1 tháng."
+            },
+            {
+              "en": "Cut fixed expenses to save more.",
+              "vi": "Cắt chi phí cố định để tiết kiệm thêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cost", "outlay"],
+      "antonyms": ["income"],
+      "collocations": [
+        "monthly expense",
+        "track expenses",
+        "fixed expense",
+        "variable expense",
+        "business expense"
+      ],
+      "etymology_hint": "From Latin 'expensus' = paid out — root 'pendere' (weigh, pay).",
+      "mnemonic_vi": "EX (ra) + PENSE (cân) = cân ra (chi). Track expenses = theo dõi chi phí."
+    },
+    {
+      "word": "income",
+      "lemma": "income",
+      "ipa": "/ˈɪnkʌm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the money you receive regularly from work, investments, or other sources",
+          "meaning_vi": "thu nhập",
+          "examples": [
+            {
+              "en": "Her income tripled after switching to freelance.",
+              "vi": "Thu nhập cô ấy tăng 3 lần sau khi chuyển freelance."
+            },
+            {
+              "en": "Diversify income with side hustles.",
+              "vi": "Đa dạng thu nhập bằng nghề tay trái."
+            },
+            {
+              "en": "Vietnamese median income rises 7% yearly.",
+              "vi": "Thu nhập trung bình Việt tăng 7% mỗi năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["earnings", "salary"],
+      "antonyms": ["expense", "outgoing"],
+      "collocations": [
+        "monthly income",
+        "passive income",
+        "disposable income",
+        "supplement income",
+        "annual income"
+      ],
+      "etymology_hint": "Compound: 'in' + 'come' — Middle English, literally 'that which comes in'.",
+      "mnemonic_vi": "IN (vào) + COME (đến) = đến vào (túi). Passive income = thu nhập thụ động."
+    },
+    {
+      "word": "insurance",
+      "lemma": "insurance",
+      "ipa": "/ɪnˈʃʊərəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money you pay regularly so a company will cover unexpected losses",
+          "meaning_vi": "bảo hiểm",
+          "examples": [
+            {
+              "en": "Health insurance saves you from huge medical bills.",
+              "vi": "Bảo hiểm y tế cứu bạn khỏi hóa đơn viện khổng lồ."
+            },
+            {
+              "en": "Vietnamese car insurance is mandatory.",
+              "vi": "Bảo hiểm xe Việt là bắt buộc."
+            },
+            {
+              "en": "Life insurance protects your family financially.",
+              "vi": "Bảo hiểm nhân thọ bảo vệ gia đình về tài chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coverage", "policy"],
+      "antonyms": ["uninsured"],
+      "collocations": [
+        "health insurance",
+        "car insurance",
+        "life insurance",
+        "insurance premium",
+        "claim insurance"
+      ],
+      "etymology_hint": "From Old French 'enseurance' = assurance — meaning 'safety against loss' since 16th-century shipping.",
+      "mnemonic_vi": "INSURE (đảm bảo) + ANCE = sự bảo đảm. Health insurance = bảo hiểm y tế."
+    },
+    {
+      "word": "earn",
+      "lemma": "earn",
+      "ipa": "/ɜːn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to receive money for work or to gain through effort",
+          "meaning_vi": "kiếm được (tiền, thành tích)",
+          "examples": [
+            {
+              "en": "She earns $2,000 a month teaching online.",
+              "vi": "Cô ấy kiếm 2.000 USD/tháng dạy online."
+            },
+            {
+              "en": "Earn first, splurge later.",
+              "vi": "Kiếm trước, vung sau."
+            },
+            {
+              "en": "He earned his promotion through hard work.",
+              "vi": "Anh ấy kiếm được thăng chức nhờ làm việc chăm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["make", "gain"],
+      "antonyms": ["spend", "lose"],
+      "collocations": [
+        "earn money",
+        "earn a living",
+        "earn a salary",
+        "earn extra",
+        "earn respect"
+      ],
+      "etymology_hint": "From Old English 'earnian' = to merit, deserve — Germanic root meaning 'reap, harvest'.",
+      "mnemonic_vi": "EARN đọc 'ơn' — ơn lao động kiếm tiền. Earn a living = kiếm sống."
+    },
+    {
+      "word": "broke",
+      "lemma": "broke",
+      "ipa": "/brəʊk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having no money, especially temporarily",
+          "meaning_vi": "rỗng túi, hết tiền",
+          "examples": [
+            {
+              "en": "I'm broke until payday next Friday.",
+              "vi": "Tôi rỗng túi đến ngày lương thứ Sáu tới."
+            },
+            {
+              "en": "Going broke once teaches financial humility.",
+              "vi": "Một lần hết tiền dạy ta khiêm nhường tài chính."
+            },
+            {
+              "en": "Many people are one emergency from being broke.",
+              "vi": "Nhiều người chỉ cách rỗng túi một sự cố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["penniless", "broke (slang)"],
+      "antonyms": ["wealthy", "well-off"],
+      "collocations": ["go broke", "flat broke", "dead broke", "broke until payday", "stay broke"],
+      "etymology_hint": "Originally past tense of 'break' — financial sense from 17th century 'broken in funds'.",
+      "mnemonic_vi": "BROKE = vỡ (túi). Flat broke = rỗng túi sạch."
+    },
+    {
+      "word": "paycheck",
+      "lemma": "paycheck",
+      "ipa": "/ˈpeɪtʃek/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the regular payment from your employer for work done",
+          "meaning_vi": "tiền lương (séc lương)",
+          "examples": [
+            {
+              "en": "Half her paycheck goes to rent.",
+              "vi": "Nửa lương cô ấy đi tiền thuê nhà."
+            },
+            {
+              "en": "Living paycheck-to-paycheck is stressful.",
+              "vi": "Sống lương-tới-lương rất căng thẳng."
+            },
+            {
+              "en": "Direct deposit hits your account on paycheck day.",
+              "vi": "Chuyển khoản trực tiếp vào ngày lương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["salary", "wages"],
+      "antonyms": [],
+      "collocations": [
+        "monthly paycheck",
+        "paycheck-to-paycheck",
+        "after-tax paycheck",
+        "first paycheck",
+        "skip a paycheck"
+      ],
+      "etymology_hint": "Compound: 'pay' + 'check' (cheque) — American spelling, became standard after 1930s.",
+      "mnemonic_vi": "PAY (trả) + CHECK (séc) = séc lương. Monthly paycheck = lương tháng."
+    },
+    {
+      "word": "automate",
+      "lemma": "automate",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make a process happen automatically, especially recurring transactions",
+          "meaning_vi": "tự động hóa (giao dịch lặp lại)",
+          "examples": [
+            {
+              "en": "Automate savings to remove willpower from the equation.",
+              "vi": "Tự động hóa tiết kiệm để bỏ ý chí khỏi phương trình."
+            },
+            {
+              "en": "She automates bill payments through her bank.",
+              "vi": "Cô ấy tự động hóa thanh toán hóa đơn qua ngân hàng."
+            },
+            {
+              "en": "Automating reduces forgetting and late fees.",
+              "vi": "Tự động hóa giảm quên và phí trễ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["set to auto", "schedule"],
+      "antonyms": ["pay manually"],
+      "collocations": [
+        "automate savings",
+        "automate bills",
+        "automate payments",
+        "automate the process",
+        "fully automate"
+      ],
+      "etymology_hint": "Back-formation from 'automatic' (Greek 'automatos' = self-moving) — back to verb in 1950s.",
+      "mnemonic_vi": "AUTO (tự) + MATE = làm tự. Automate savings = tự động hóa tiết kiệm."
+    },
+    {
+      "word": "stash",
+      "lemma": "stash",
+      "ipa": "/stæʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to put money or things away in a safe or hidden place",
+          "meaning_vi": "cất giấu (tiền)",
+          "examples": [
+            {
+              "en": "She stashes 10% of every paycheck.",
+              "vi": "Cô ấy cất 10% mỗi tháng lương."
+            },
+            {
+              "en": "Vietnamese grandparents stash cash in mattresses.",
+              "vi": "Ông bà Việt giấu tiền trong nệm."
+            },
+            {
+              "en": "Stash a little for unexpected costs.",
+              "vi": "Cất giấu chút ít cho chi phí bất ngờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hide", "stockpile"],
+      "antonyms": ["spend"],
+      "collocations": [
+        "stash cash",
+        "stash away",
+        "stash savings",
+        "secret stash",
+        "stash some money"
+      ],
+      "etymology_hint": "British slang from 1797 — origin uncertain, possibly blending 'stow' + 'cache'.",
+      "mnemonic_vi": "STASH đọc 'stẹch' — sờ chật giấu tiền. Stash away = cất giấu đi."
+    },
+    {
+      "word": "set-aside",
+      "lemma": "set-aside",
+      "ipa": "/ˌset əˈsaɪd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to keep money or time separately for a specific purpose",
+          "meaning_vi": "để dành riêng (tiền/thời gian) cho mục đích cụ thể",
+          "examples": [
+            {
+              "en": "Set-aside 500,000 đồng each month for vacation.",
+              "vi": "Để dành 500 nghìn đồng mỗi tháng cho du lịch."
+            },
+            {
+              "en": "She set-aside time every Sunday to budget.",
+              "vi": "Cô ấy để dành thời gian mỗi Chủ Nhật lập ngân sách."
+            },
+            {
+              "en": "Set-aside something for taxes before celebrating.",
+              "vi": "Để dành tiền thuế trước khi mừng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reserve", "earmark"],
+      "antonyms": ["spend immediately"],
+      "collocations": [
+        "set-aside money",
+        "set-aside savings",
+        "set-aside for",
+        "deliberately set-aside",
+        "set-aside a fund"
+      ],
+      "etymology_hint": "Phrasal verb: 'set' + 'aside' (to one side) — used as compound noun/verb since 17th century.",
+      "mnemonic_vi": "SET (đặt) + ASIDE (sang một bên) = để bên cạnh. Set-aside money = để dành tiền."
+    },
+    {
+      "word": "side-income",
+      "lemma": "side-income",
+      "ipa": "/ˈsaɪd ˌɪnkʌm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "extra money you earn outside your main job",
+          "meaning_vi": "thu nhập tay trái (ngoài công việc chính)",
+          "examples": [
+            {
+              "en": "Her side-income from tutoring is $500 a month.",
+              "vi": "Side-income từ dạy kèm của cô ấy 500 USD/tháng."
+            },
+            {
+              "en": "Side-income beats begging your boss for raises.",
+              "vi": "Side-income hơn xin sếp tăng lương."
+            },
+            {
+              "en": "Building side-income reduces financial stress.",
+              "vi": "Xây side-income giảm áp lực tài chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["secondary income"],
+      "antonyms": ["main income"],
+      "collocations": [
+        "build side-income",
+        "passive side-income",
+        "extra side-income",
+        "side-income stream",
+        "earn side-income"
+      ],
+      "etymology_hint": "Compound: 'side' (additional) + 'income' — usage rose with gig economy from 2010s.",
+      "mnemonic_vi": "SIDE (bên) + INCOME (thu nhập) = thu nhập bên. Side-income stream = nguồn side-income."
+    },
+    {
+      "word": "recurring",
+      "lemma": "recurring",
+      "ipa": "/rɪˈkɜːrɪŋ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "happening regularly, especially of charges or payments",
+          "meaning_vi": "định kỳ, lặp lại (chi phí/thanh toán)",
+          "examples": [
+            {
+              "en": "Cancel recurring subscriptions you don't use.",
+              "vi": "Hủy đăng ký định kỳ bạn không dùng."
+            },
+            {
+              "en": "Recurring bills eat your paycheck silently.",
+              "vi": "Hóa đơn định kỳ ăn lương âm thầm."
+            },
+            {
+              "en": "Set a recurring transfer to savings.",
+              "vi": "Đặt chuyển tiền định kỳ sang tiết kiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["regular", "repeated"],
+      "antonyms": ["one-time", "ad-hoc"],
+      "collocations": [
+        "recurring payment",
+        "recurring bill",
+        "recurring subscription",
+        "recurring charge",
+        "recurring expense"
+      ],
+      "etymology_hint": "Present participle of 'recur' (Latin 're-' + 'currere' = run back).",
+      "mnemonic_vi": "RECUR (xảy ra lại) + RING = đang lặp lại. Recurring bill = hóa đơn định kỳ."
+    },
+    {
+      "word": "subscription",
+      "lemma": "subscription",
+      "ipa": "/səbˈskrɪpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a regular payment to access a service like Netflix or a magazine",
+          "meaning_vi": "đăng ký định kỳ (Netflix, Spotify, app)",
+          "examples": [
+            {
+              "en": "She audits subscriptions every January.",
+              "vi": "Cô ấy rà soát các đăng ký mỗi tháng Giêng."
+            },
+            {
+              "en": "Vietnamese Netflix subscriptions hit 5 million.",
+              "vi": "Lượt đăng ký Netflix Việt đạt 5 triệu."
+            },
+            {
+              "en": "Annual subscriptions cost less than monthly.",
+              "vi": "Đăng ký năm rẻ hơn đăng ký tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["membership"],
+      "antonyms": ["one-time purchase"],
+      "collocations": [
+        "monthly subscription",
+        "cancel a subscription",
+        "subscription service",
+        "annual subscription",
+        "subscription fee"
+      ],
+      "etymology_hint": "From Latin 'subscriptio' = a writing underneath — originally referred to signing one's name to commit.",
+      "mnemonic_vi": "SUB (dưới) + SCRIPT (viết) + ION = ký dưới (cam kết). Monthly subscription = đăng ký tháng."
+    },
+    {
+      "word": "thrifty",
+      "lemma": "thrifty",
+      "ipa": "/ˈθrɪfti/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "good at using money carefully and avoiding waste",
+          "meaning_vi": "biết tiết kiệm, không phung phí",
+          "examples": [
+            {
+              "en": "Thrifty shoppers wait for sales.",
+              "vi": "Khách biết tiết kiệm chờ giảm giá."
+            },
+            {
+              "en": "He's thrifty but generous with friends.",
+              "vi": "Anh ấy tiết kiệm mà hào phóng với bạn."
+            },
+            {
+              "en": "Thrifty habits compound over time.",
+              "vi": "Thói quen tiết kiệm tích tụ theo thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["frugal", "economical"],
+      "antonyms": ["wasteful", "spendthrift"],
+      "collocations": [
+        "thrifty shopper",
+        "thrifty habit",
+        "thrifty lifestyle",
+        "remarkably thrifty",
+        "thrifty mindset"
+      ],
+      "etymology_hint": "From 'thrift' (Old Norse 'þrift' = prosperity) + '-y' — root sense 'flourishing through care'.",
+      "mnemonic_vi": "THRIFTY đọc 'thri-phi' — thì phỉ tiết kiệm. Thrifty shopper = khách biết tiết kiệm."
+    },
+    {
+      "word": "impulsive",
+      "lemma": "impulsive",
+      "ipa": "/ɪmˈpʌlsɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "acting without thinking, especially making sudden purchases",
+          "meaning_vi": "bốc đồng (mua đồ không suy nghĩ)",
+          "examples": [
+            {
+              "en": "Impulsive buys add up quickly.",
+              "vi": "Mua bốc đồng cộng dồn nhanh."
+            },
+            {
+              "en": "Wait 24 hours to avoid impulsive purchases.",
+              "vi": "Chờ 24 giờ để tránh mua bốc đồng."
+            },
+            {
+              "en": "She's impulsive with shoes but careful with rent.",
+              "vi": "Cô ấy bốc đồng với giày nhưng cẩn thận với tiền thuê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spontaneous", "rash"],
+      "antonyms": ["deliberate (different lesson)", "planned"],
+      "collocations": [
+        "impulsive buy",
+        "impulsive decision",
+        "highly impulsive",
+        "impulsive spending",
+        "impulsive shopper"
+      ],
+      "etymology_hint": "From Latin 'impulsus' = a push — 'in-' (into) + 'pellere' (push).",
+      "mnemonic_vi": "IMPULSE (xung động) + IVE = bốc đồng. Impulsive buy = mua bốc đồng."
+    },
+    {
+      "word": "planner",
+      "lemma": "planner",
+      "ipa": "/ˈplænə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person or tool that helps organize money, time, or events",
+          "meaning_vi": "người lên kế hoạch / công cụ lập kế hoạch (chi tiêu)",
+          "examples": [
+            {
+              "en": "She uses a budget planner every month.",
+              "vi": "Cô ấy dùng planner ngân sách mỗi tháng."
+            },
+            {
+              "en": "A financial planner helps with long-term goals.",
+              "vi": "Chuyên viên hoạch định tài chính giúp mục tiêu dài hạn."
+            },
+            {
+              "en": "Planners exist as apps and paper notebooks.",
+              "vi": "Planner tồn tại dạng app và sổ giấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organizer"],
+      "antonyms": [],
+      "collocations": [
+        "financial planner",
+        "budget planner",
+        "use a planner",
+        "daily planner",
+        "wedding planner"
+      ],
+      "etymology_hint": "From 'plan' (Latin 'planus' = flat) + agent suffix '-er' — modern use as profession from 1900s.",
+      "mnemonic_vi": "PLAN (kế hoạch) + ER = người/công cụ kế hoạch. Financial planner = chuyên viên hoạch định tài chính."
+    },
+    {
+      "word": "miser",
+      "lemma": "miser",
+      "ipa": "/ˈmaɪzə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who hates spending money, even when they have plenty",
+          "meaning_vi": "kẻ keo kiệt",
+          "examples": [
+            {
+              "en": "Don't be a miser — enjoy your savings sometimes.",
+              "vi": "Đừng keo kiệt — đôi khi hưởng tiền tiết kiệm."
+            },
+            {
+              "en": "The old miser refused to fix the leaky roof.",
+              "vi": "Ông keo kiệt từ chối sửa mái dột."
+            },
+            {
+              "en": "Misers may save money but lose friendships.",
+              "vi": "Kẻ keo kiệt tiết kiệm tiền nhưng mất bạn bè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["skinflint", "penny-pincher"],
+      "antonyms": ["spendthrift", "generous person"],
+      "collocations": [
+        "old miser",
+        "act like a miser",
+        "stingy miser",
+        "famous miser",
+        "rich miser"
+      ],
+      "etymology_hint": "From Latin 'miser' = wretched — original meaning 'pitifully unhappy', narrowed to 'unhappy due to clinging to money'.",
+      "mnemonic_vi": "MISER đọc 'mai-zờ' — mài giữ tiền. Old miser = ông keo kiệt."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "slug": "networking",
+  "name": "Professional Networking",
+  "description": "Mạng lưới chuyên nghiệp B1 — connect, business-card, LinkedIn, rapport và 16 từ cho dân kinh doanh.",
+  "order_index": 8,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "connect",
+      "lemma": "connect",
+      "ipa": "/kəˈnekt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to form a professional or personal link with someone",
+          "meaning_vi": "kết nối (với người khác)",
+          "examples": [
+            {
+              "en": "Let's connect on LinkedIn after the conference.",
+              "vi": "Kết nối trên LinkedIn sau hội nghị nhé."
+            },
+            {
+              "en": "She connects easily with strangers.",
+              "vi": "Cô ấy kết nối dễ dàng với người lạ."
+            },
+            {
+              "en": "Networking is about real connections, not numbers.",
+              "vi": "Networking là kết nối thật, không phải con số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["link", "engage"],
+      "antonyms": ["disconnect"],
+      "collocations": [
+        "connect with",
+        "connect on LinkedIn",
+        "connect professionally",
+        "fail to connect",
+        "deeply connect"
+      ],
+      "etymology_hint": "From Latin 'conectere' = to bind together — 'com-' (together) + 'nectere' (bind).",
+      "mnemonic_vi": "CON (cùng) + NECT (buộc) = buộc cùng. Connect with = kết nối với."
+    },
+    {
+      "word": "contact",
+      "lemma": "contact",
+      "ipa": "/ˈkɒntækt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person you know professionally who can help you in business",
+          "meaning_vi": "mối quan hệ, người quen trong ngành",
+          "examples": [
+            {
+              "en": "Build contacts before you need them.",
+              "vi": "Xây mối quan hệ trước khi cần."
+            },
+            {
+              "en": "She has contacts in three Vietnamese ministries.",
+              "vi": "Cô ấy có mối quan hệ ở 3 bộ Việt."
+            },
+            {
+              "en": "A good contact is more valuable than a resume.",
+              "vi": "Một mối quan hệ tốt giá trị hơn CV."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["connection"],
+      "antonyms": ["stranger"],
+      "collocations": [
+        "key contact",
+        "make contacts",
+        "business contact",
+        "lose contact",
+        "valuable contact"
+      ],
+      "etymology_hint": "From Latin 'contactus' = a touching — business sense 'professional acquaintance' since 19th century.",
+      "mnemonic_vi": "CONTACT đọc 'cón-tắc' — con tay chạm. Key contact = mối quan hệ then chốt."
+    },
+    {
+      "word": "business-card",
+      "lemma": "business-card",
+      "ipa": "/ˈbɪznəs kɑːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small card with your name, job title, and contact information",
+          "meaning_vi": "danh thiếp",
+          "examples": [
+            {
+              "en": "Always carry business-cards to events.",
+              "vi": "Luôn mang danh thiếp đến sự kiện."
+            },
+            {
+              "en": "She designed a unique business-card with QR codes.",
+              "vi": "Cô ấy thiết kế danh thiếp độc đáo với mã QR."
+            },
+            {
+              "en": "Vietnamese business etiquette uses two hands to exchange business-cards.",
+              "vi": "Lễ nghi kinh doanh Việt dùng 2 tay đưa danh thiếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["calling card"],
+      "antonyms": [],
+      "collocations": [
+        "exchange business-cards",
+        "hand out a business-card",
+        "business-card design",
+        "digital business-card",
+        "business-card holder"
+      ],
+      "etymology_hint": "Compound: 'business' + 'card' — formal exchange tradition since 17th-century European aristocrats.",
+      "mnemonic_vi": "BUSINESS (kinh doanh) + CARD (thẻ) = thẻ kinh doanh. Exchange business-cards = trao danh thiếp."
+    },
+    {
+      "word": "reach-out",
+      "lemma": "reach-out",
+      "ipa": "/ˌriːtʃ ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to contact someone first, often for professional reasons",
+          "meaning_vi": "chủ động liên hệ (trước, vì công việc)",
+          "examples": [
+            {
+              "en": "Reach-out to mentors before you need them.",
+              "vi": "Chủ động liên hệ mentor trước khi cần."
+            },
+            {
+              "en": "She reached-out via a warm LinkedIn message.",
+              "vi": "Cô ấy chủ động liên hệ qua tin LinkedIn lịch sự."
+            },
+            {
+              "en": "Don't be afraid to reach-out to strangers.",
+              "vi": "Đừng sợ chủ động liên hệ người lạ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contact", "make contact"],
+      "antonyms": ["wait passively"],
+      "collocations": [
+        "reach-out to",
+        "reach-out first",
+        "warm reach-out",
+        "cold reach-out",
+        "professional reach-out"
+      ],
+      "etymology_hint": "Phrasal verb: 'reach' (Old English 'rǣcan' = stretch out) + 'out' — modern professional usage from 1960s.",
+      "mnemonic_vi": "REACH (vươn) + OUT (ra) = vươn ra. Reach-out to = chủ động liên hệ."
+    },
+    {
+      "word": "warm-lead",
+      "lemma": "warm-lead",
+      "ipa": "/ˈwɔːm liːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a potential customer or contact who already has some interest in you",
+          "meaning_vi": "lead nóng (đã quan tâm sẵn)",
+          "examples": [
+            {
+              "en": "Warm-leads convert 10x better than cold ones.",
+              "vi": "Warm-lead chuyển đổi tốt gấp 10 lần cold lead."
+            },
+            {
+              "en": "Referrals are the best source of warm-leads.",
+              "vi": "Người giới thiệu là nguồn warm-lead tốt nhất."
+            },
+            {
+              "en": "Follow up on every warm-lead within 24 hours.",
+              "vi": "Theo dõi mọi warm-lead trong 24 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["qualified lead"],
+      "antonyms": ["cold lead"],
+      "collocations": [
+        "generate warm-leads",
+        "warm-lead conversion",
+        "warm-lead list",
+        "qualified warm-lead",
+        "warm-lead source"
+      ],
+      "etymology_hint": "Compound: 'warm' (already interested) + 'lead' (potential customer) — sales jargon from 1990s.",
+      "mnemonic_vi": "WARM (ấm/đã quan tâm) + LEAD (mối) = mối nóng. Generate warm-leads = tạo warm-lead."
+    },
+    {
+      "word": "small-talk",
+      "lemma": "small-talk",
+      "ipa": "/ˈsmɔːl tɔːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "light, friendly conversation about everyday topics",
+          "meaning_vi": "trò chuyện xã giao (chuyện vu vơ)",
+          "examples": [
+            {
+              "en": "Networking starts with small-talk about weather.",
+              "vi": "Networking bắt đầu bằng small-talk về thời tiết."
+            },
+            {
+              "en": "She hates small-talk but does it for business.",
+              "vi": "Cô ấy ghét small-talk nhưng vẫn làm vì công việc."
+            },
+            {
+              "en": "Master small-talk and doors open everywhere.",
+              "vi": "Giỏi small-talk thì cửa mở ra khắp nơi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chitchat", "casual conversation"],
+      "antonyms": ["deep discussion"],
+      "collocations": [
+        "make small-talk",
+        "small-talk topics",
+        "skilled at small-talk",
+        "awkward small-talk",
+        "elevator small-talk"
+      ],
+      "etymology_hint": "Compound: 'small' (trivial) + 'talk' (Old English 'talu') — phrase coined 1751 by Lord Chesterfield.",
+      "mnemonic_vi": "SMALL (nhỏ) + TALK (nói) = nói chuyện nhỏ. Make small-talk = xã giao."
+    },
+    {
+      "word": "LinkedIn",
+      "lemma": "LinkedIn",
+      "ipa": "/ˈlɪŋktɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the world's largest professional networking website",
+          "meaning_vi": "LinkedIn (mạng xã hội nghề nghiệp)",
+          "examples": [
+            {
+              "en": "Update your LinkedIn profile every quarter.",
+              "vi": "Cập nhật profile LinkedIn mỗi quý."
+            },
+            {
+              "en": "LinkedIn helps Vietnamese students reach foreign recruiters.",
+              "vi": "LinkedIn giúp sinh viên Việt tiếp cận nhà tuyển dụng nước ngoài."
+            },
+            {
+              "en": "Connect on LinkedIn with a personal note.",
+              "vi": "Kết nối LinkedIn kèm lời nhắn cá nhân."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "LinkedIn profile",
+        "LinkedIn connection",
+        "LinkedIn message",
+        "active on LinkedIn",
+        "LinkedIn premium"
+      ],
+      "etymology_hint": "Founded 2002 by Reid Hoffman — name plays on 'linked in' (connected in) the professional world.",
+      "mnemonic_vi": "LINKED (liên kết) + IN (trong) = liên kết trong nghề. LinkedIn profile = profile LinkedIn."
+    },
+    {
+      "word": "elevator-pitch",
+      "lemma": "elevator-pitch",
+      "ipa": "/ˈelɪveɪtə pɪtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short, persuasive description of yourself or your business, given in about 30 seconds",
+          "meaning_vi": "bài giới thiệu ngắn 30 giây (đủ trong cuộc đi thang máy)",
+          "examples": [
+            {
+              "en": "Practice your elevator-pitch in the mirror.",
+              "vi": "Tập elevator-pitch trước gương."
+            },
+            {
+              "en": "Her elevator-pitch landed an investor meeting.",
+              "vi": "Bài elevator-pitch của cô ấy kéo được cuộc gặp nhà đầu tư."
+            },
+            {
+              "en": "Every founder needs a sharp elevator-pitch.",
+              "vi": "Mỗi founder cần elevator-pitch sắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quick pitch", "60-second pitch"],
+      "antonyms": ["full presentation"],
+      "collocations": [
+        "deliver an elevator-pitch",
+        "polished elevator-pitch",
+        "rehearse the elevator-pitch",
+        "elevator-pitch template",
+        "30-second elevator-pitch"
+      ],
+      "etymology_hint": "Coined 1980s — refers to pitching during a chance elevator ride with a busy executive.",
+      "mnemonic_vi": "ELEVATOR (thang máy) + PITCH (chào hàng) = chào hàng trong thang máy. Polished elevator-pitch = elevator-pitch trau chuốt."
+    },
+    {
+      "word": "icebreaker",
+      "lemma": "icebreaker",
+      "ipa": "/ˈaɪsbreɪkə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a question or activity that helps strangers start talking",
+          "meaning_vi": "câu hỏi/hoạt động phá băng (giúp người lạ trò chuyện)",
+          "examples": [
+            {
+              "en": "Compliments are a safe icebreaker.",
+              "vi": "Lời khen là icebreaker an toàn."
+            },
+            {
+              "en": "Workshops start with an icebreaker game.",
+              "vi": "Workshop bắt đầu bằng trò phá băng."
+            },
+            {
+              "en": "A funny icebreaker eases nerves.",
+              "vi": "Icebreaker hài giảm hồi hộp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["opener"],
+      "antonyms": ["awkward silence"],
+      "collocations": [
+        "icebreaker question",
+        "use an icebreaker",
+        "icebreaker game",
+        "perfect icebreaker",
+        "icebreaker activity"
+      ],
+      "etymology_hint": "Originally a ship designed to break ice — figurative sense 'first move to ease tension' from 1880s.",
+      "mnemonic_vi": "ICE (băng) + BREAKER (phá) = phá băng. Icebreaker question = câu hỏi phá băng."
+    },
+    {
+      "word": "mingle",
+      "lemma": "mingle",
+      "ipa": "/ˈmɪŋɡl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to mix and talk with many different people at a social event",
+          "meaning_vi": "đi vòng quanh trò chuyện (ở sự kiện)",
+          "examples": [
+            {
+              "en": "Don't stand in one corner — mingle.",
+              "vi": "Đừng đứng một góc — đi giao lưu đi."
+            },
+            {
+              "en": "She mingled effortlessly at the gala.",
+              "vi": "Cô ấy giao lưu thoải mái ở gala."
+            },
+            {
+              "en": "Mingle for 20 minutes, then leave gracefully.",
+              "vi": "Giao lưu 20 phút rồi ra về duyên dáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["socialize", "mix"],
+      "antonyms": ["stay in a corner"],
+      "collocations": [
+        "mingle with",
+        "mingle freely",
+        "mingle at a party",
+        "mingle with guests",
+        "happy to mingle"
+      ],
+      "etymology_hint": "From Middle English 'menglen' = to mix — frequentative of 'meng' (mix), Germanic root.",
+      "mnemonic_vi": "MINGLE đọc 'min-gồ' — min gọn trò chuyện. Mingle with = giao lưu với."
+    },
+    {
+      "word": "referral",
+      "lemma": "referral",
+      "ipa": "/rɪˈfɜːrəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of suggesting someone to a person or company who might hire or use them",
+          "meaning_vi": "lời giới thiệu, người được giới thiệu",
+          "examples": [
+            {
+              "en": "She got the job through a referral.",
+              "vi": "Cô ấy được nhận việc qua referral."
+            },
+            {
+              "en": "Referrals are the strongest job leads.",
+              "vi": "Referral là nguồn việc mạnh nhất."
+            },
+            {
+              "en": "Vietnamese companies offer cash referral bonuses.",
+              "vi": "Công ty Việt thưởng tiền cho referral."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recommendation"],
+      "antonyms": ["cold application"],
+      "collocations": [
+        "employee referral",
+        "referral bonus",
+        "get a referral",
+        "referral program",
+        "doctor referral"
+      ],
+      "etymology_hint": "From verb 'refer' (Latin 'referre' = to bring back) + '-al'.",
+      "mnemonic_vi": "REFER (giới thiệu) + RAL = sự giới thiệu. Employee referral = referral nhân viên."
+    },
+    {
+      "word": "introduction",
+      "lemma": "introduction",
+      "ipa": "/ˌɪntrəˈdʌkʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of formally presenting one person to another",
+          "meaning_vi": "lời giới thiệu (người với người)",
+          "examples": [
+            {
+              "en": "Let me make an introduction.",
+              "vi": "Để tôi giới thiệu."
+            },
+            {
+              "en": "Warm introductions open doors.",
+              "vi": "Giới thiệu nồng hậu mở cửa."
+            },
+            {
+              "en": "Introductions matter at business events.",
+              "vi": "Lời giới thiệu quan trọng ở sự kiện doanh nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intro (informal)", "presentation"],
+      "antonyms": ["farewell"],
+      "collocations": [
+        "make an introduction",
+        "warm introduction",
+        "formal introduction",
+        "self-introduction",
+        "letter of introduction"
+      ],
+      "etymology_hint": "From Latin 'introducere' = to lead inside — 'intro-' + 'ducere' (lead).",
+      "mnemonic_vi": "INTRO (vào) + DUCTION (dẫn) = sự dẫn vào. Warm introduction = giới thiệu nồng hậu."
+    },
+    {
+      "word": "handshake",
+      "lemma": "handshake",
+      "ipa": "/ˈhændʃeɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of taking someone's hand to greet them or agree on something",
+          "meaning_vi": "cái bắt tay (chào hỏi / thoả thuận)",
+          "examples": [
+            {
+              "en": "A firm handshake creates a good first impression.",
+              "vi": "Cái bắt tay chắc tạo ấn tượng đầu tốt."
+            },
+            {
+              "en": "Handshakes returned after the pandemic.",
+              "vi": "Bắt tay quay lại sau đại dịch."
+            },
+            {
+              "en": "They sealed the deal with a handshake.",
+              "vi": "Họ chốt thoả thuận bằng cái bắt tay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["greeting"],
+      "antonyms": ["snub"],
+      "collocations": [
+        "firm handshake",
+        "weak handshake",
+        "exchange handshakes",
+        "handshake deal",
+        "warm handshake"
+      ],
+      "etymology_hint": "Compound: 'hand' + 'shake' — formal greeting ritual in Western cultures since 17th century.",
+      "mnemonic_vi": "HAND (tay) + SHAKE (lắc) = lắc tay. Firm handshake = bắt tay chắc."
+    },
+    {
+      "word": "name-drop",
+      "lemma": "name-drop",
+      "ipa": "/ˈneɪm drɒp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to mention famous or important people you know, often to impress others",
+          "meaning_vi": "khoe quen người nổi tiếng (để gây ấn tượng)",
+          "examples": [
+            {
+              "en": "He name-drops his boss in every conversation.",
+              "vi": "Anh ấy khoe quen sếp trong mọi cuộc trò chuyện."
+            },
+            {
+              "en": "Subtle name-dropping can help; overdoing it backfires.",
+              "vi": "Khoe quen tinh tế giúp; quá thì phản tác dụng."
+            },
+            {
+              "en": "Don't name-drop people you barely know.",
+              "vi": "Đừng khoe quen người bạn chỉ biết sơ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brag about contacts"],
+      "antonyms": ["stay humble"],
+      "collocations": [
+        "name-drop a CEO",
+        "subtle name-drop",
+        "obvious name-drop",
+        "avoid name-dropping",
+        "casual name-drop"
+      ],
+      "etymology_hint": "Compound: 'name' + 'drop' (mention casually) — slang from 1939, popularized in show-business circles.",
+      "mnemonic_vi": "NAME (tên) + DROP (thả ra) = thả tên ra (khoe). Subtle name-drop = khoe quen tinh tế."
+    },
+    {
+      "word": "prospect",
+      "lemma": "prospect",
+      "ipa": "/ˈprɒspekt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a potential customer or future opportunity",
+          "meaning_vi": "khách hàng tiềm năng / cơ hội tương lai",
+          "examples": [
+            {
+              "en": "Track every prospect in a CRM.",
+              "vi": "Theo dõi mọi prospect trong CRM."
+            },
+            {
+              "en": "Career prospects in tech are strong.",
+              "vi": "Triển vọng nghề tech rất mạnh."
+            },
+            {
+              "en": "She qualifies prospects before pitching.",
+              "vi": "Cô ấy đánh giá prospect trước khi pitch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["potential customer", "outlook"],
+      "antonyms": ["dead end"],
+      "collocations": [
+        "qualified prospect",
+        "track prospects",
+        "career prospect",
+        "future prospect",
+        "good prospect"
+      ],
+      "etymology_hint": "From Latin 'prospectus' = a looking forward — 'pro-' + 'specere' (see).",
+      "mnemonic_vi": "PRO (trước) + SPECT (nhìn) = nhìn về phía trước. Qualified prospect = prospect đủ tiêu chí."
+    },
+    {
+      "word": "networking-event",
+      "lemma": "networking-event",
+      "ipa": "/ˈnetwɜːkɪŋ ɪˌvent/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a gathering designed for professionals to meet and build contacts",
+          "meaning_vi": "sự kiện networking (gặp gỡ chuyên nghiệp)",
+          "examples": [
+            {
+              "en": "Saigon hosts dozens of tech networking-events.",
+              "vi": "Sài Gòn tổ chức hàng chục networking-event tech."
+            },
+            {
+              "en": "Attend at least one networking-event a month.",
+              "vi": "Tham dự ít nhất 1 networking-event mỗi tháng."
+            },
+            {
+              "en": "Most networking-events are free with registration.",
+              "vi": "Phần lớn networking-event miễn phí khi đăng ký."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mixer", "professional event"],
+      "antonyms": [],
+      "collocations": [
+        "attend a networking-event",
+        "industry networking-event",
+        "networking-event invitation",
+        "host a networking-event",
+        "after-work networking-event"
+      ],
+      "etymology_hint": "Compound: 'networking' + 'event' — professional-organization usage since 1980s.",
+      "mnemonic_vi": "NETWORKING (mạng lưới) + EVENT (sự kiện) = sự kiện mạng lưới. Attend a networking-event = dự networking-event."
+    },
+    {
+      "word": "keep-in-touch",
+      "lemma": "keep-in-touch",
+      "ipa": "/ˌkiːp ɪn ˈtʌtʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stay in regular contact with someone you know",
+          "meaning_vi": "giữ liên lạc (đều đặn)",
+          "examples": [
+            {
+              "en": "Keep-in-touch with mentors twice a year.",
+              "vi": "Giữ liên lạc với mentor 2 lần/năm."
+            },
+            {
+              "en": "Birthdays are good reminders to keep-in-touch.",
+              "vi": "Sinh nhật là dịp tốt để giữ liên lạc."
+            },
+            {
+              "en": "She keeps-in-touch via short voice notes.",
+              "vi": "Cô ấy giữ liên lạc qua tin nhắn thoại ngắn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stay in contact"],
+      "antonyms": ["lose touch"],
+      "collocations": [
+        "keep-in-touch with",
+        "easy to keep-in-touch",
+        "keep-in-touch regularly",
+        "fail to keep-in-touch",
+        "keep-in-touch monthly"
+      ],
+      "etymology_hint": "Phrase: 'keep' + 'in' + 'touch' — 'touch' here means contact, in English since 18th century.",
+      "mnemonic_vi": "KEEP (giữ) + IN (trong) + TOUCH (chạm) = giữ tiếp xúc. Keep-in-touch with = giữ liên lạc với."
+    },
+    {
+      "word": "schmooze",
+      "lemma": "schmooze",
+      "ipa": "/ʃmuːz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to chat in a friendly, persuasive way, often for business advantage",
+          "meaning_vi": "tán dóc khéo (vì mục đích công việc)",
+          "examples": [
+            {
+              "en": "He schmoozed the investors all night.",
+              "vi": "Anh ấy tán dóc nhà đầu tư cả tối."
+            },
+            {
+              "en": "Schmoozing is part of agency life.",
+              "vi": "Tán khéo là phần của đời làm agency."
+            },
+            {
+              "en": "She hates schmoozing but does it well.",
+              "vi": "Cô ấy ghét tán dóc khéo nhưng làm rất giỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["network casually"],
+      "antonyms": ["stay aloof"],
+      "collocations": [
+        "schmooze with",
+        "schmooze clients",
+        "schmooze hard",
+        "schmoozing skills",
+        "professional schmoozing"
+      ],
+      "etymology_hint": "From Yiddish 'shmuesn' = to chat — entered English via 1890s American Jewish communities.",
+      "mnemonic_vi": "SCHMOOZE đọc 'shờ-mu-z' — sờ mu xã giao. Schmooze with clients = tán khéo với khách."
+    },
+    {
+      "word": "rapport",
+      "lemma": "rapport",
+      "ipa": "/ræˈpɔː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a friendly relationship where people understand each other well",
+          "meaning_vi": "sự thấu hiểu, mối hòa hợp (giữa hai người)",
+          "examples": [
+            {
+              "en": "Build rapport before pitching anything.",
+              "vi": "Xây rapport trước khi pitch bất cứ điều gì."
+            },
+            {
+              "en": "Good salespeople establish rapport in minutes.",
+              "vi": "Bán hàng giỏi tạo rapport trong vài phút."
+            },
+            {
+              "en": "Trust grows from genuine rapport.",
+              "vi": "Niềm tin lớn từ rapport thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["understanding", "connection"],
+      "antonyms": ["distance", "tension"],
+      "collocations": [
+        "build rapport",
+        "establish rapport",
+        "instant rapport",
+        "natural rapport",
+        "rapport with"
+      ],
+      "etymology_hint": "From French 'rapport' = relation, agreement — note silent 't' in pronunciation.",
+      "mnemonic_vi": "RAPPORT đọc 'ra-pô' — ra hợp đôi. Build rapport = xây sự thấu hiểu."
+    },
+    {
+      "word": "cold-email",
+      "lemma": "cold-email",
+      "ipa": "/ˌkəʊld ˈiːmeɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an email sent to someone you don't know, usually for business",
+          "meaning_vi": "email lạnh (gửi cho người chưa quen)",
+          "examples": [
+            {
+              "en": "She got a job from a single cold-email.",
+              "vi": "Cô ấy được việc nhờ 1 cold-email."
+            },
+            {
+              "en": "Cold-emails work if personalized.",
+              "vi": "Cold-email hiệu quả nếu cá nhân hóa."
+            },
+            {
+              "en": "Most cold-emails are ignored.",
+              "vi": "Phần lớn cold-email bị lờ đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unsolicited email"],
+      "antonyms": ["warm intro", "reply email"],
+      "collocations": [
+        "send a cold-email",
+        "cold-email outreach",
+        "personalized cold-email",
+        "cold-email template",
+        "cold-email response rate"
+      ],
+      "etymology_hint": "Compound: 'cold' (no prior contact) + 'email' — sales jargon from 2000s.",
+      "mnemonic_vi": "COLD (lạnh) + EMAIL = email lạnh. Send a cold-email = gửi cold-email."
+    }
+  ]
+}
