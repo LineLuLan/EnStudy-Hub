@@ -1,0 +1,733 @@
+{
+  "slug": "quality-quantity",
+  "name": "Quality & Quantity",
+  "description": "Trừu tượng B1 về số lượng và chất lượng — level, scale, range, capacity, surplus và 15 từ về độ và lượng.",
+  "order_index": 5,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "level",
+      "lemma": "level",
+      "ipa": "/ˈlevl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the amount or degree of something on a scale",
+          "meaning_vi": "mức, mức độ",
+          "examples": [
+            {
+              "en": "My English level is intermediate.",
+              "vi": "Trình độ tiếng Anh của tôi là trung cấp."
+            },
+            {
+              "en": "Pollution levels in Hà Nội are high.",
+              "vi": "Mức ô nhiễm ở Hà Nội cao."
+            },
+            {
+              "en": "Take the test to find your level.",
+              "vi": "Làm bài test để tìm trình độ của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["degree", "stage"],
+      "antonyms": [],
+      "collocations": ["high level", "low level", "skill level", "noise level", "next level"],
+      "etymology_hint": "From Old French 'livel' meaning 'instrument to determine horizontal' — from Latin 'libella' (small balance).",
+      "mnemonic_vi": "LEVEL = 'lề-vồ' — 'lề vô' từng bậc. English level = trình độ tiếng Anh."
+    },
+    {
+      "word": "scale",
+      "lemma": "scale",
+      "ipa": "/skeɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the size or extent of something, often compared to other things",
+          "meaning_vi": "quy mô, thang đo",
+          "examples": [
+            {
+              "en": "Vietnam's coffee export is on a large scale.",
+              "vi": "Xuất khẩu cà phê của Việt Nam ở quy mô lớn."
+            },
+            {
+              "en": "Rate your pain on a scale of 1 to 10.",
+              "vi": "Đánh giá cơn đau trên thang 1 đến 10."
+            },
+            {
+              "en": "The project failed because of its scale.",
+              "vi": "Dự án thất bại vì quy mô quá lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["size", "extent"],
+      "antonyms": [],
+      "collocations": ["large scale", "small scale", "on a scale of", "global scale", "scale of"],
+      "etymology_hint": "From Latin 'scala' meaning 'ladder, staircase' — sense of 'graduated measure' from a ladder's rungs.",
+      "mnemonic_vi": "SCALE = 'skêl' — 'sờ-kế' đo. Large scale = quy mô lớn."
+    },
+    {
+      "word": "range",
+      "lemma": "range",
+      "ipa": "/reɪndʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the limits within which amounts or things vary; a variety",
+          "meaning_vi": "khoảng, phạm vi, dải",
+          "examples": [
+            {
+              "en": "The price range is from 100k to 500k VND.",
+              "vi": "Khoảng giá từ 100k đến 500k đồng."
+            },
+            {
+              "en": "Shopee offers a wide range of products.",
+              "vi": "Shopee có dải sản phẩm rộng."
+            },
+            {
+              "en": "Her age range is 18-25.",
+              "vi": "Tuổi của cô ấy trong khoảng 18-25."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["variety", "spectrum"],
+      "antonyms": [],
+      "collocations": ["wide range", "price range", "age range", "within range", "out of range"],
+      "etymology_hint": "From Old French 'ranger' meaning 'to arrange in a row' — sense of 'extent of variation' developed in Modern English.",
+      "mnemonic_vi": "RANGE = 'rên-dz' — 'rên-dài' đến đâu. Range of products = dải sản phẩm."
+    },
+    {
+      "word": "proportion",
+      "lemma": "proportion",
+      "ipa": "/prəˈpɔːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a part or share of a whole; how much one thing is compared to another",
+          "meaning_vi": "tỷ lệ, phần",
+          "examples": [
+            {
+              "en": "A large proportion of Vietnamese are under 30.",
+              "vi": "Một tỷ lệ lớn người Việt dưới 30 tuổi."
+            },
+            {
+              "en": "Use the right proportion of rice and water.",
+              "vi": "Dùng đúng tỷ lệ gạo và nước."
+            },
+            {
+              "en": "Her face has perfect proportions.",
+              "vi": "Khuôn mặt cô ấy có tỷ lệ hoàn hảo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ratio", "share"],
+      "antonyms": [],
+      "collocations": [
+        "large proportion",
+        "in proportion to",
+        "out of proportion",
+        "correct proportion",
+        "small proportion"
+      ],
+      "etymology_hint": "From Latin 'proportio' meaning 'comparative relation' — from 'pro-' (for) + 'portio' (share).",
+      "mnemonic_vi": "PROPORTION = PRO + PORTION → 'phần dành cho'. Tỷ lệ chia ra."
+    },
+    {
+      "word": "extent",
+      "lemma": "extent",
+      "ipa": "/ɪkˈstent/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "how large, important, or far-reaching something is",
+          "meaning_vi": "mức độ, phạm vi (tác động, ảnh hưởng)",
+          "examples": [
+            {
+              "en": "The extent of the damage is unclear.",
+              "vi": "Mức độ thiệt hại chưa rõ."
+            },
+            {
+              "en": "To some extent, I agree with you.",
+              "vi": "Ở mức độ nào đó, tôi đồng ý với bạn."
+            },
+            {
+              "en": "Floods affected a large extent of the Mekong Delta.",
+              "vi": "Lũ ảnh hưởng phạm vi lớn của đồng bằng sông Cửu Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["degree", "scope"],
+      "antonyms": [],
+      "collocations": [
+        "to some extent",
+        "to a great extent",
+        "full extent",
+        "extent of the damage",
+        "to what extent"
+      ],
+      "etymology_hint": "From Old French 'estente' meaning 'stretching, range' — from Latin 'extendere' (to stretch out).",
+      "mnemonic_vi": "EXTENT = EX + TENT → 'kéo ra ngoài'. To some extent = ở mức độ nào đó."
+    },
+    {
+      "word": "quantity",
+      "lemma": "quantity",
+      "ipa": "/ˈkwɒntəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an amount or number of something",
+          "meaning_vi": "số lượng, lượng",
+          "examples": [
+            {
+              "en": "Buy a small quantity first to test the quality.",
+              "vi": "Mua số lượng nhỏ trước để thử chất lượng."
+            },
+            {
+              "en": "Vietnam exports large quantities of rice.",
+              "vi": "Việt Nam xuất khẩu số lượng lớn gạo."
+            },
+            {
+              "en": "Quantity matters less than quality.",
+              "vi": "Số lượng quan trọng kém hơn chất lượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["amount", "number"],
+      "antonyms": ["quality"],
+      "collocations": [
+        "large quantity",
+        "small quantity",
+        "in quantity",
+        "quantity over quality",
+        "huge quantity"
+      ],
+      "etymology_hint": "From Latin 'quantitas' meaning 'how much' — from 'quantus' (how much).",
+      "mnemonic_vi": "QUANTITY = QUANT + ITY → 'tính lượng'. Quantity = số nhiều, Quality = chất lượng."
+    },
+    {
+      "word": "quality",
+      "lemma": "quality",
+      "ipa": "/ˈkwɒləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "how good or bad something is",
+          "meaning_vi": "chất lượng",
+          "examples": [
+            {
+              "en": "Vinamilk is known for high-quality milk.",
+              "vi": "Vinamilk nổi tiếng chất lượng sữa cao."
+            },
+            {
+              "en": "The quality of life in Đà Nẵng is great.",
+              "vi": "Chất lượng sống ở Đà Nẵng tuyệt vời."
+            },
+            {
+              "en": "Don't compromise on quality.",
+              "vi": "Đừng nhượng bộ về chất lượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["standard"],
+      "antonyms": ["quantity"],
+      "collocations": [
+        "high quality",
+        "low quality",
+        "quality of life",
+        "quality control",
+        "good quality"
+      ],
+      "etymology_hint": "From Latin 'qualitas' meaning 'of what kind' — from 'qualis' (of what sort).",
+      "mnemonic_vi": "QUALITY = QUAL + ITY → 'tính chất'. Quality of life = chất lượng sống."
+    },
+    {
+      "word": "portion",
+      "lemma": "portion",
+      "ipa": "/ˈpɔːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a part or share of something larger",
+          "meaning_vi": "phần, suất",
+          "examples": [
+            {
+              "en": "She gave me a large portion of phở.",
+              "vi": "Cô ấy cho tôi một suất phở lớn."
+            },
+            {
+              "en": "Save a portion of your salary every month.",
+              "vi": "Để dành một phần lương mỗi tháng."
+            },
+            {
+              "en": "The kid's portion is half the price.",
+              "vi": "Suất trẻ em giá bằng nửa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["part", "share"],
+      "antonyms": ["whole"],
+      "collocations": [
+        "large portion",
+        "small portion",
+        "portion of",
+        "fair portion",
+        "main portion"
+      ],
+      "etymology_hint": "From Latin 'portio' meaning 'a share' — same root as 'proportion'.",
+      "mnemonic_vi": "PORTION = 'pó-shờn' — 'phố' phân. Portion of food = suất ăn."
+    },
+    {
+      "word": "majority",
+      "lemma": "majority",
+      "ipa": "/məˈdʒɒrəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the larger part or number; more than half",
+          "meaning_vi": "đa số, phần lớn",
+          "examples": [
+            {
+              "en": "The majority of Vietnamese drink coffee daily.",
+              "vi": "Đa số người Việt uống cà phê hàng ngày."
+            },
+            {
+              "en": "The majority voted for the proposal.",
+              "vi": "Đa số bỏ phiếu cho đề xuất."
+            },
+            {
+              "en": "Majority rule is a democratic principle.",
+              "vi": "Quy tắc đa số là nguyên tắc dân chủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["most"],
+      "antonyms": ["minority"],
+      "collocations": [
+        "vast majority",
+        "in the majority",
+        "majority of people",
+        "majority vote",
+        "clear majority"
+      ],
+      "etymology_hint": "From French 'majorité' — from Latin 'major' (greater) + '-ity' (state).",
+      "mnemonic_vi": "MAJORITY = MAJOR + ITY → 'sự lớn hơn'. Đa số = phần lớn."
+    },
+    {
+      "word": "minority",
+      "lemma": "minority",
+      "ipa": "/maɪˈnɒrəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a smaller part or number; less than half",
+          "meaning_vi": "thiểu số, phần nhỏ",
+          "examples": [
+            {
+              "en": "Vietnam has 54 ethnic groups, many are minorities.",
+              "vi": "Việt Nam có 54 dân tộc, nhiều dân tộc thiểu số."
+            },
+            {
+              "en": "Only a minority oppose the new law.",
+              "vi": "Chỉ thiểu số phản đối luật mới."
+            },
+            {
+              "en": "Ethnic minorities live in the mountains.",
+              "vi": "Dân tộc thiểu số sống ở vùng núi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["few"],
+      "antonyms": ["majority"],
+      "collocations": [
+        "ethnic minority",
+        "small minority",
+        "in the minority",
+        "minority group",
+        "tiny minority"
+      ],
+      "etymology_hint": "From Latin 'minor' (lesser) + '-ity' (state) — opposite construction of 'majority'.",
+      "mnemonic_vi": "MINORITY = MINOR + ITY → 'sự nhỏ hơn'. Ethnic minority = dân tộc thiểu số."
+    },
+    {
+      "word": "capacity",
+      "lemma": "capacity",
+      "ipa": "/kəˈpæsəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the amount that something can hold or do",
+          "meaning_vi": "sức chứa, khả năng (giới hạn)",
+          "examples": [
+            {
+              "en": "The stadium has a capacity of 40,000.",
+              "vi": "Sân vận động có sức chứa 40.000 người."
+            },
+            {
+              "en": "Vietnam has the capacity to host the SEA Games.",
+              "vi": "Việt Nam có khả năng tổ chức SEA Games."
+            },
+            {
+              "en": "My phone is at full capacity — I need to delete photos.",
+              "vi": "Điện thoại tôi đầy dung lượng — cần xóa ảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["volume", "ability"],
+      "antonyms": [],
+      "collocations": [
+        "full capacity",
+        "at capacity",
+        "storage capacity",
+        "capacity of",
+        "increase capacity"
+      ],
+      "etymology_hint": "From Latin 'capacitas' meaning 'ability to hold' — from 'capere' (to take, hold).",
+      "mnemonic_vi": "CAPACITY = CAP + ACITY → 'khả năng chứa'. Capacity = sức chứa max."
+    },
+    {
+      "word": "volume",
+      "lemma": "volume",
+      "ipa": "/ˈvɒljuːm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the amount of space something takes up; loudness of sound",
+          "meaning_vi": "thể tích, âm lượng",
+          "examples": [
+            {
+              "en": "Turn up the volume — I can't hear.",
+              "vi": "Tăng âm lượng lên — tôi không nghe được."
+            },
+            {
+              "en": "What's the volume of this container?",
+              "vi": "Thể tích của thùng này bao nhiêu?"
+            },
+            {
+              "en": "Sales volume increased 20% this year.",
+              "vi": "Doanh số bán tăng 20% năm nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["capacity", "loudness"],
+      "antonyms": [],
+      "collocations": [
+        "turn up the volume",
+        "high volume",
+        "low volume",
+        "volume of",
+        "sales volume"
+      ],
+      "etymology_hint": "From Latin 'volumen' meaning 'a roll, scroll' — original sense of book size (rolled parchment).",
+      "mnemonic_vi": "VOLUME = 'vó-liu-m' — 'vó liêm' to nhỏ. Turn up volume = tăng âm."
+    },
+    {
+      "word": "density",
+      "lemma": "density",
+      "ipa": "/ˈdensəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "how much there is of something in a particular area or space",
+          "meaning_vi": "mật độ",
+          "examples": [
+            {
+              "en": "Sài Gòn has high population density.",
+              "vi": "Sài Gòn có mật độ dân cao."
+            },
+            {
+              "en": "The density of traffic at rush hour is bad.",
+              "vi": "Mật độ giao thông giờ cao điểm tệ."
+            },
+            {
+              "en": "Forest density is decreasing every year.",
+              "vi": "Mật độ rừng giảm mỗi năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["concentration"],
+      "antonyms": [],
+      "collocations": [
+        "population density",
+        "high density",
+        "low density",
+        "density of",
+        "traffic density"
+      ],
+      "etymology_hint": "From Latin 'densitas' meaning 'thickness' — from 'densus' (thick, compact).",
+      "mnemonic_vi": "DENSITY = DENSE + ITY → 'sự dày đặc'. Population density = mật độ dân."
+    },
+    {
+      "word": "rate",
+      "lemma": "rate",
+      "ipa": "/reɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the speed at which something happens, or a price",
+          "meaning_vi": "tỷ lệ, tốc độ, mức giá",
+          "examples": [
+            {
+              "en": "Vietnam's unemployment rate is low.",
+              "vi": "Tỷ lệ thất nghiệp Việt Nam thấp."
+            },
+            {
+              "en": "What's the exchange rate today?",
+              "vi": "Tỷ giá hôm nay bao nhiêu?"
+            },
+            {
+              "en": "The hotel rate is 1,500,000 VND per night.",
+              "vi": "Giá khách sạn 1.500.000 đồng/đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["speed", "price"],
+      "antonyms": [],
+      "collocations": ["exchange rate", "interest rate", "at a rate", "rate of", "high rate"],
+      "etymology_hint": "From Old French 'rate' meaning 'price, value' — from Latin 'ratus' (calculated).",
+      "mnemonic_vi": "RATE = 'rêt' — 'rất' nhanh. Exchange rate = tỷ giá."
+    },
+    {
+      "word": "ratio",
+      "lemma": "ratio",
+      "ipa": "/ˈreɪʃiəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a comparison showing how much of one thing there is compared to another",
+          "meaning_vi": "tỷ lệ (1:2, 2:3 ...)",
+          "examples": [
+            {
+              "en": "The student-teacher ratio is 25:1 in most schools.",
+              "vi": "Tỷ lệ học sinh-giáo viên là 25:1 ở hầu hết trường."
+            },
+            {
+              "en": "Mix water and sugar in a 3:1 ratio.",
+              "vi": "Pha nước và đường tỷ lệ 3:1."
+            },
+            {
+              "en": "The male-to-female ratio is balanced here.",
+              "vi": "Tỷ lệ nam-nữ ở đây cân bằng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["proportion"],
+      "antonyms": [],
+      "collocations": ["ratio of", "high ratio", "low ratio", "ratio between", "in a ratio of"],
+      "etymology_hint": "From Latin 'ratio' meaning 'reckoning, calculation' — from 'reri' (to think, calculate).",
+      "mnemonic_vi": "RATIO = 'rê-shi-ô' — 'rê-shi-ô' tỷ số. Mix in 3:1 ratio = tỷ lệ 3:1."
+    },
+    {
+      "word": "abundance",
+      "lemma": "abundance",
+      "ipa": "/əˈbʌndəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a very large amount of something",
+          "meaning_vi": "sự phong phú, dồi dào",
+          "examples": [
+            {
+              "en": "Mekong Delta has an abundance of fish.",
+              "vi": "Đồng bằng sông Cửu Long có cá dồi dào."
+            },
+            {
+              "en": "There's an abundance of street food in Sài Gòn.",
+              "vi": "Có vô số món ăn đường phố ở Sài Gòn."
+            },
+            {
+              "en": "Spring brings an abundance of flowers.",
+              "vi": "Mùa xuân mang đến hoa nở rộ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plenty", "wealth"],
+      "antonyms": ["scarcity", "shortage"],
+      "collocations": [
+        "abundance of",
+        "in abundance",
+        "natural abundance",
+        "great abundance",
+        "abundance of resources"
+      ],
+      "etymology_hint": "From Latin 'abundantia' meaning 'fullness, plenty' — from 'abundare' (to overflow).",
+      "mnemonic_vi": "ABUNDANCE = AB + UNDANCE → 'tràn đầy'. Sự phong phú."
+    },
+    {
+      "word": "shortage",
+      "lemma": "shortage",
+      "ipa": "/ˈʃɔːtɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a situation when there isn't enough of something",
+          "meaning_vi": "sự thiếu hụt, khan hiếm",
+          "examples": [
+            {
+              "en": "There's a shortage of doctors in rural Việt Nam.",
+              "vi": "Có sự thiếu hụt bác sĩ ở vùng quê Việt Nam."
+            },
+            {
+              "en": "Water shortage is a serious problem.",
+              "vi": "Khan hiếm nước là vấn đề nghiêm trọng."
+            },
+            {
+              "en": "Skilled labor shortage affects many industries.",
+              "vi": "Thiếu lao động lành nghề ảnh hưởng nhiều ngành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lack", "deficit"],
+      "antonyms": ["abundance", "surplus"],
+      "collocations": [
+        "water shortage",
+        "labor shortage",
+        "no shortage of",
+        "serious shortage",
+        "food shortage"
+      ],
+      "etymology_hint": "From 'short' + '-age' — Middle English coinage meaning 'state of being short of supply'.",
+      "mnemonic_vi": "SHORTAGE = SHORT + AGE → 'tình trạng thiếu'. Water shortage = thiếu nước."
+    },
+    {
+      "word": "surplus",
+      "lemma": "surplus",
+      "ipa": "/ˈsɜːpləs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an amount of something that is more than needed",
+          "meaning_vi": "thặng dư, dư thừa",
+          "examples": [
+            {
+              "en": "Vietnam has a trade surplus with the US.",
+              "vi": "Việt Nam thặng dư thương mại với Mỹ."
+            },
+            {
+              "en": "Donate surplus food to charity.",
+              "vi": "Quyên góp thức ăn dư cho từ thiện."
+            },
+            {
+              "en": "The budget surplus will be invested.",
+              "vi": "Ngân sách thặng dư sẽ được đầu tư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["excess", "extra"],
+      "antonyms": ["shortage", "deficit"],
+      "collocations": [
+        "trade surplus",
+        "budget surplus",
+        "surplus food",
+        "surplus stock",
+        "in surplus"
+      ],
+      "etymology_hint": "From Old French 'sourplus' meaning 'over and above' — from 'sur-' (over) + 'plus' (more).",
+      "mnemonic_vi": "SURPLUS = SUR + PLUS → 'cộng thêm'. Surplus = thừa ra."
+    },
+    {
+      "word": "excess",
+      "lemma": "excess",
+      "ipa": "/ɪkˈses/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "more of something than is needed or allowed",
+          "meaning_vi": "sự quá mức, vượt quá",
+          "examples": [
+            {
+              "en": "Excess sugar is bad for your health.",
+              "vi": "Đường quá mức có hại sức khỏe."
+            },
+            {
+              "en": "There's an excess baggage fee at the airport.",
+              "vi": "Có phí hành lý vượt quá ở sân bay."
+            },
+            {
+              "en": "Avoid excess spending during Tết.",
+              "vi": "Tránh chi tiêu quá mức dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["surplus", "overflow"],
+      "antonyms": ["lack"],
+      "collocations": ["in excess", "excess weight", "excess baggage", "excess of", "to excess"],
+      "etymology_hint": "From Latin 'excessus' meaning 'a going beyond' — from 'ex-' (out) + 'cedere' (to go).",
+      "mnemonic_vi": "EXCESS = EX + CESS → 'vượt ra'. Excess baggage = quá tải hành lý."
+    },
+    {
+      "word": "plenty",
+      "lemma": "plenty",
+      "ipa": "/ˈplenti/",
+      "pos": "pronoun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large amount; more than enough",
+          "meaning_vi": "rất nhiều, dư dả",
+          "examples": [
+            {
+              "en": "There's plenty of phở for everyone.",
+              "vi": "Có rất nhiều phở cho mọi người."
+            },
+            {
+              "en": "Don't worry, we have plenty of time.",
+              "vi": "Đừng lo, chúng ta có thừa thời gian."
+            },
+            {
+              "en": "Hà Nội has plenty of cafés to choose from.",
+              "vi": "Hà Nội có vô số quán cà phê để chọn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lots", "abundance"],
+      "antonyms": ["lack", "few"],
+      "collocations": [
+        "plenty of",
+        "plenty more",
+        "plenty of time",
+        "plenty of room",
+        "more than plenty"
+      ],
+      "etymology_hint": "From Old French 'plente' meaning 'fullness, abundance' — from Latin 'plenitas' (fullness).",
+      "mnemonic_vi": "PLENTY = PLEN + TY → 'sự đầy'. Plenty of time = thừa thời gian."
+    }
+  ]
+}
