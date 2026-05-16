@@ -1,0 +1,763 @@
+{
+  "slug": "relationships-modern",
+  "name": "Modern Relationships",
+  "description": "Tình cảm hiện đại B1 — breakup, crush, dating, soulmate, commitment và 15 từ về love + relationships ngày nay.",
+  "order_index": 16,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "relationship",
+      "lemma": "relationship",
+      "ipa": "/rɪˈleɪʃnʃɪp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way two people or groups feel about and behave toward each other",
+          "meaning_vi": "mối quan hệ (tình cảm, công việc)",
+          "examples": [
+            {
+              "en": "They've been in a relationship for 3 years.",
+              "vi": "Họ đã trong mối quan hệ 3 năm."
+            },
+            {
+              "en": "Communication is key to a good relationship.",
+              "vi": "Giao tiếp là chìa khóa cho quan hệ tốt."
+            },
+            {
+              "en": "Vietnam has strong relationships with neighbors.",
+              "vi": "Việt Nam có quan hệ mạnh với láng giềng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bond", "connection"],
+      "antonyms": [],
+      "collocations": [
+        "in a relationship",
+        "long-term relationship",
+        "healthy relationship",
+        "end a relationship",
+        "build a relationship"
+      ],
+      "etymology_hint": "From 'relation' + '-ship' (state of) — coined in 17th century English.",
+      "mnemonic_vi": "RELATIONSHIP = RELATION + SHIP → 'trạng thái liên hệ'. In a relationship = đang yêu."
+    },
+    {
+      "word": "breakup",
+      "lemma": "breakup",
+      "ipa": "/ˈbreɪkʌp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the end of a romantic relationship",
+          "meaning_vi": "chia tay",
+          "examples": [
+            {
+              "en": "Their breakup was hard for everyone.",
+              "vi": "Việc chia tay của họ khó cho mọi người."
+            },
+            {
+              "en": "She wrote a song about the breakup.",
+              "vi": "Cô ấy viết bài hát về vụ chia tay."
+            },
+            {
+              "en": "Some breakups lead to friendship.",
+              "vi": "Có vụ chia tay dẫn đến tình bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["split"],
+      "antonyms": ["reconciliation"],
+      "collocations": [
+        "messy breakup",
+        "go through a breakup",
+        "after the breakup",
+        "bad breakup",
+        "mutual breakup"
+      ],
+      "etymology_hint": "Compound of 'break' + 'up' — phrasal verb 'break up' sense developed in 20th century.",
+      "mnemonic_vi": "BREAKUP = BREAK + UP → 'tan ra'. Breakup = chia tay."
+    },
+    {
+      "word": "marriage",
+      "lemma": "marriage",
+      "ipa": "/ˈmærɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the legal relationship between two people who are married",
+          "meaning_vi": "hôn nhân",
+          "examples": [
+            {
+              "en": "Their marriage lasted 50 years.",
+              "vi": "Hôn nhân họ kéo dài 50 năm."
+            },
+            {
+              "en": "Marriage requires daily effort.",
+              "vi": "Hôn nhân cần nỗ lực hằng ngày."
+            },
+            {
+              "en": "Vietnamese marriage involves both families.",
+              "vi": "Hôn nhân Việt Nam liên quan đến cả hai gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wedlock"],
+      "antonyms": ["divorce"],
+      "collocations": [
+        "happy marriage",
+        "arranged marriage",
+        "marriage counselor",
+        "marriage certificate",
+        "save a marriage"
+      ],
+      "etymology_hint": "From Old French 'mariage' — from Latin 'maritare' (to marry).",
+      "mnemonic_vi": "MARRIAGE = MARRY + AGE → 'sự cưới'. Happy marriage = hôn nhân hạnh phúc."
+    },
+    {
+      "word": "crush",
+      "lemma": "crush",
+      "ipa": "/krʌʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strong but often short feeling of love for someone",
+          "meaning_vi": "tình cảm thoáng qua, crush ai đó",
+          "examples": [
+            {
+              "en": "I had a crush on my high school teacher.",
+              "vi": "Tôi crush thầy giáo cấp 3."
+            },
+            {
+              "en": "Teenagers often have crushes.",
+              "vi": "Thanh thiếu niên thường có crush."
+            },
+            {
+              "en": "Don't tell my crush I like him!",
+              "vi": "Đừng nói với crush rằng tôi thích anh ấy!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["infatuation"],
+      "antonyms": [],
+      "collocations": [
+        "have a crush",
+        "secret crush",
+        "celebrity crush",
+        "develop a crush",
+        "school crush"
+      ],
+      "etymology_hint": "Original meaning 'to press hard' — emotional sense from 19th century slang for being 'crushed' by feelings.",
+      "mnemonic_vi": "CRUSH = 'crất-sh' — 'crứt' đè nén tình cảm. Have a crush = thầm thương."
+    },
+    {
+      "word": "flirt",
+      "lemma": "flirt",
+      "ipa": "/flɜːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to act in a way that shows you are romantically interested",
+          "meaning_vi": "tán tỉnh, ve vãn",
+          "examples": [
+            {
+              "en": "He flirts with everyone at parties.",
+              "vi": "Anh ấy tán tỉnh mọi người ở tiệc."
+            },
+            {
+              "en": "She's just flirting — don't take it seriously.",
+              "vi": "Cô ấy chỉ tán thôi — đừng tưởng thật."
+            },
+            {
+              "en": "Vietnamese flirting can be subtle.",
+              "vi": "Tán tỉnh kiểu Việt có thể tinh tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "flirt with",
+        "harmless flirt",
+        "flirt online",
+        "shameless flirt",
+        "flirt back"
+      ],
+      "etymology_hint": "Origin uncertain — possibly imitative of quick darting movement, like a coquettish glance.",
+      "mnemonic_vi": "FLIRT = 'flớt' — 'phớt' liếc nhìn. Flirt with = tán tỉnh."
+    },
+    {
+      "word": "honeymoon",
+      "lemma": "honeymoon",
+      "ipa": "/ˈhʌnimuːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a holiday taken by a couple right after their wedding",
+          "meaning_vi": "trăng mật, tuần trăng mật",
+          "examples": [
+            {
+              "en": "They went to Phú Quốc for their honeymoon.",
+              "vi": "Họ đi Phú Quốc hưởng trăng mật."
+            },
+            {
+              "en": "The honeymoon period is exciting.",
+              "vi": "Giai đoạn trăng mật đầy phấn khích."
+            },
+            {
+              "en": "Maldives is a top honeymoon destination.",
+              "vi": "Maldives là điểm trăng mật top."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "on honeymoon",
+        "honeymoon destination",
+        "honeymoon period",
+        "honeymoon suite",
+        "second honeymoon"
+      ],
+      "etymology_hint": "Compound of 'honey' + 'moon' — original sense referring to the 'sweet' first month of marriage.",
+      "mnemonic_vi": "HONEYMOON = HONEY + MOON → 'trăng mật'. Honeymoon destination = điểm trăng mật."
+    },
+    {
+      "word": "spouse",
+      "lemma": "spouse",
+      "ipa": "/spaʊs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a husband or wife",
+          "meaning_vi": "vợ hoặc chồng (chính thức)",
+          "examples": [
+            {
+              "en": "Bring your spouse to the event.",
+              "vi": "Mang vợ/chồng đến sự kiện."
+            },
+            {
+              "en": "Find your spouse's name on the list.",
+              "vi": "Tìm tên vợ/chồng trên danh sách."
+            },
+            {
+              "en": "Many couples meet their spouse at work.",
+              "vi": "Nhiều cặp gặp bạn đời ở chỗ làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["partner", "mate"],
+      "antonyms": [],
+      "collocations": [
+        "future spouse",
+        "spouse and children",
+        "loving spouse",
+        "supportive spouse",
+        "former spouse"
+      ],
+      "etymology_hint": "From Old French 'espouse' meaning 'a bride' — from Latin 'spondere' (to pledge), same root as 'sponsor'.",
+      "mnemonic_vi": "SPOUSE = 'sờ-paus' — 'sờ phau' người cưới. Spouse = vợ/chồng."
+    },
+    {
+      "word": "fiance",
+      "lemma": "fiance",
+      "ipa": "/fiˈɒnseɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the man a woman is going to marry",
+          "meaning_vi": "vị hôn phu",
+          "examples": [
+            {
+              "en": "Her fiancé proposed in Đà Nẵng.",
+              "vi": "Vị hôn phu cô ấy cầu hôn ở Đà Nẵng."
+            },
+            {
+              "en": "Meet her fiancé at the party.",
+              "vi": "Gặp vị hôn phu cô ấy ở tiệc."
+            },
+            {
+              "en": "Her fiancé works at Vingroup.",
+              "vi": "Vị hôn phu cô ấy làm Vingroup."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "future fiancé",
+        "her fiancé",
+        "meet fiancé",
+        "fiancé and bride",
+        "long-distance fiancé"
+      ],
+      "etymology_hint": "From French 'fiancé' meaning 'engaged' — past participle of 'fiancer' (to betroth).",
+      "mnemonic_vi": "FIANCE = 'fi-ăn-sêi' — Pháp. Fiancé = vị hôn phu (engaged man)."
+    },
+    {
+      "word": "bachelor",
+      "lemma": "bachelor",
+      "ipa": "/ˈbætʃələ(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an unmarried man",
+          "meaning_vi": "đàn ông độc thân",
+          "examples": [
+            {
+              "en": "He's still a bachelor at 35.",
+              "vi": "Anh ấy 35 tuổi vẫn độc thân."
+            },
+            {
+              "en": "Vietnamese bachelors face pressure to marry.",
+              "vi": "Đàn ông độc thân Việt chịu áp lực cưới."
+            },
+            {
+              "en": "Bachelor parties are common before weddings.",
+              "vi": "Tiệc độc thân phổ biến trước cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["single man"],
+      "antonyms": ["husband"],
+      "collocations": [
+        "confirmed bachelor",
+        "eligible bachelor",
+        "bachelor party",
+        "bachelor pad",
+        "lifelong bachelor"
+      ],
+      "etymology_hint": "From Old French 'bacheler' meaning 'young knight' — extended to mean 'unmarried man' in Middle English.",
+      "mnemonic_vi": "BACHELOR = 'bát-chơ-lơ' — 'bát chơ' độc thân. Bachelor party = tiệc tiễn độc thân."
+    },
+    {
+      "word": "widow",
+      "lemma": "widow",
+      "ipa": "/ˈwɪdəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a woman whose husband has died",
+          "meaning_vi": "góa phụ",
+          "examples": [
+            {
+              "en": "She became a widow at 40.",
+              "vi": "Cô ấy thành góa phụ ở tuổi 40."
+            },
+            {
+              "en": "Many widows need community support.",
+              "vi": "Nhiều góa phụ cần hỗ trợ cộng đồng."
+            },
+            {
+              "en": "The widow raised three children alone.",
+              "vi": "Góa phụ nuôi 3 con một mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["widower"],
+      "collocations": [
+        "young widow",
+        "war widow",
+        "elderly widow",
+        "widow's pension",
+        "support widows"
+      ],
+      "etymology_hint": "From Old English 'widewe' — Germanic root, related to Latin 'vidua' (widow).",
+      "mnemonic_vi": "WIDOW = 'wi-đô' — 'oai đó' chồng mất. Widow = góa phụ."
+    },
+    {
+      "word": "soulmate",
+      "lemma": "soulmate",
+      "ipa": "/ˈsəʊlmeɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person you have a special deep connection with",
+          "meaning_vi": "tri kỷ, người tâm giao",
+          "examples": [
+            {
+              "en": "She believes he's her soulmate.",
+              "vi": "Cô ấy tin anh là tri kỷ."
+            },
+            {
+              "en": "Finding a soulmate is rare.",
+              "vi": "Tìm tri kỷ là hiếm."
+            },
+            {
+              "en": "Best friends can be soulmates too.",
+              "vi": "Bạn thân cũng có thể là tri kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["kindred spirit"],
+      "antonyms": [],
+      "collocations": [
+        "find your soulmate",
+        "true soulmate",
+        "platonic soulmate",
+        "believe in soulmates",
+        "destined soulmate"
+      ],
+      "etymology_hint": "Compound of 'soul' + 'mate' — coined by Samuel Taylor Coleridge in 1822.",
+      "mnemonic_vi": "SOULMATE = SOUL + MATE → 'bạn tâm hồn'. Soulmate = tri kỷ."
+    },
+    {
+      "word": "in-laws",
+      "lemma": "in-laws",
+      "ipa": "/ˈɪnlɔːz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the parents and family members of your spouse",
+          "meaning_vi": "bố mẹ chồng/vợ và họ hàng bên đó",
+          "examples": [
+            {
+              "en": "She visits her in-laws every Tết.",
+              "vi": "Cô ấy thăm bố mẹ chồng mỗi Tết."
+            },
+            {
+              "en": "Living with in-laws is tough but common in Việt Nam.",
+              "vi": "Sống chung bố mẹ chồng khó nhưng phổ biến ở Việt Nam."
+            },
+            {
+              "en": "He gets along well with his in-laws.",
+              "vi": "Anh ấy hợp với gia đình vợ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "future in-laws",
+        "live with in-laws",
+        "visit in-laws",
+        "in-law problems",
+        "supportive in-laws"
+      ],
+      "etymology_hint": "Compound from 'mother-in-law', 'father-in-law' etc. — original sense of relatives by law, not by blood.",
+      "mnemonic_vi": "IN-LAWS = IN + LAWS → 'theo luật'. In-laws = họ hàng bên vợ/chồng."
+    },
+    {
+      "word": "ghost",
+      "lemma": "ghost",
+      "ipa": "/ɡəʊst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to suddenly stop talking to someone you were dating, without explanation",
+          "meaning_vi": "biến mất không tăm tích (sau khi hẹn hò)",
+          "examples": [
+            {
+              "en": "He ghosted me after 3 dates.",
+              "vi": "Anh ấy ghost tôi sau 3 buổi hẹn."
+            },
+            {
+              "en": "Being ghosted hurts.",
+              "vi": "Bị ghost đau lòng."
+            },
+            {
+              "en": "Don't ghost — at least say goodbye.",
+              "vi": "Đừng ghost — ít nhất nói lời tạm biệt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disappear"],
+      "antonyms": [],
+      "collocations": [
+        "get ghosted",
+        "ghosting culture",
+        "ghost someone",
+        "complete ghosting",
+        "modern ghosting"
+      ],
+      "etymology_hint": "From the noun 'ghost' (spirit, ghost-like presence) — verb sense developed in 2010s dating culture.",
+      "mnemonic_vi": "GHOST = 'gốt' — 'gốt' biến mất. Ghost someone = biến mất không lời."
+    },
+    {
+      "word": "ex",
+      "lemma": "ex",
+      "ipa": "/eks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a former boyfriend, girlfriend, husband, or wife",
+          "meaning_vi": "người yêu cũ, vợ/chồng cũ",
+          "examples": [
+            {
+              "en": "I met my ex at the wedding.",
+              "vi": "Tôi gặp người yêu cũ ở đám cưới."
+            },
+            {
+              "en": "Don't text your ex at midnight.",
+              "vi": "Đừng nhắn người yêu cũ lúc nửa đêm."
+            },
+            {
+              "en": "She's friends with her ex now.",
+              "vi": "Cô ấy giờ là bạn với người yêu cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["former partner"],
+      "antonyms": [],
+      "collocations": ["my ex", "ex-boyfriend", "ex-husband", "stalk your ex", "block your ex"],
+      "etymology_hint": "Short for 'ex-husband', 'ex-wife' etc. — Latin 'ex' meaning 'out of, former'.",
+      "mnemonic_vi": "EX = 'ếch' — 'éc' người cũ. Ex-boyfriend = người yêu cũ."
+    },
+    {
+      "word": "dating",
+      "lemma": "dating",
+      "ipa": "/ˈdeɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of meeting people romantically to find a partner",
+          "meaning_vi": "việc hẹn hò",
+          "examples": [
+            {
+              "en": "Online dating is popular in Việt Nam.",
+              "vi": "Hẹn hò online phổ biến ở Việt Nam."
+            },
+            {
+              "en": "Dating apps like Tinder are widely used.",
+              "vi": "App hẹn hò như Tinder được dùng rộng."
+            },
+            {
+              "en": "Modern dating has new challenges.",
+              "vi": "Hẹn hò hiện đại có thử thách mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "online dating",
+        "dating app",
+        "dating scene",
+        "casual dating",
+        "modern dating"
+      ],
+      "etymology_hint": "From 'date' (romantic meeting) + '-ing' — 19th century American English.",
+      "mnemonic_vi": "DATING = DATE + ING → 'việc hẹn hò'. Online dating = hẹn hò online."
+    },
+    {
+      "word": "intimacy",
+      "lemma": "intimacy",
+      "ipa": "/ˈɪntɪməsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a close personal connection and feeling of being very close",
+          "meaning_vi": "sự thân mật, gắn bó",
+          "examples": [
+            {
+              "en": "Emotional intimacy is more important than physical.",
+              "vi": "Thân mật cảm xúc quan trọng hơn thể chất."
+            },
+            {
+              "en": "They lost their intimacy over time.",
+              "vi": "Họ mất đi sự thân mật qua thời gian."
+            },
+            {
+              "en": "Intimacy builds through trust.",
+              "vi": "Sự thân mật xây qua tin tưởng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["closeness"],
+      "antonyms": ["distance"],
+      "collocations": [
+        "emotional intimacy",
+        "physical intimacy",
+        "build intimacy",
+        "true intimacy",
+        "lack of intimacy"
+      ],
+      "etymology_hint": "From Latin 'intimus' meaning 'innermost' — superlative of 'interior'.",
+      "mnemonic_vi": "INTIMACY = INTIM + ACY → 'sự gần'. Emotional intimacy = gắn bó cảm xúc."
+    },
+    {
+      "word": "commitment",
+      "lemma": "commitment",
+      "ipa": "/kəˈmɪtmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a promise to support or do something seriously",
+          "meaning_vi": "sự cam kết (gắn bó)",
+          "examples": [
+            {
+              "en": "Marriage requires commitment from both.",
+              "vi": "Hôn nhân cần cam kết từ cả hai."
+            },
+            {
+              "en": "She's afraid of commitment in relationships.",
+              "vi": "Cô ấy sợ cam kết trong tình cảm."
+            },
+            {
+              "en": "Show commitment to your work.",
+              "vi": "Thể hiện cam kết với công việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dedication"],
+      "antonyms": [],
+      "collocations": [
+        "long-term commitment",
+        "fear of commitment",
+        "make a commitment",
+        "show commitment",
+        "strong commitment"
+      ],
+      "etymology_hint": "From 'commit' + '-ment' — sense of 'pledge to relationship' from late 20th century.",
+      "mnemonic_vi": "COMMITMENT = COMMIT + MENT → 'sự cam kết'. Fear of commitment = sợ cam kết."
+    },
+    {
+      "word": "cohabit",
+      "lemma": "cohabit",
+      "ipa": "/kəʊˈhæbɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to live together as a couple without being married",
+          "meaning_vi": "sống chung không cưới",
+          "examples": [
+            {
+              "en": "Many young Vietnamese couples cohabit before marriage.",
+              "vi": "Nhiều cặp đôi Việt sống chung trước cưới."
+            },
+            {
+              "en": "They cohabited for 5 years.",
+              "vi": "Họ sống chung 5 năm."
+            },
+            {
+              "en": "Cohabiting is more accepted now.",
+              "vi": "Sống chung được chấp nhận hơn giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["live together"],
+      "antonyms": [],
+      "collocations": [
+        "cohabit with",
+        "cohabit before marriage",
+        "cohabiting couple",
+        "long-term cohabit",
+        "cohabit happily"
+      ],
+      "etymology_hint": "From Latin 'cohabitare' meaning 'to live together' — from 'co-' (together) + 'habitare' (to dwell).",
+      "mnemonic_vi": "COHABIT = CO + HABIT → 'cùng có thói quen sống'. Cohabit = sống chung."
+    },
+    {
+      "word": "blind-date",
+      "lemma": "blind-date",
+      "ipa": "/ˌblaɪnd ˈdeɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a romantic meeting with someone you've never met before",
+          "meaning_vi": "hẹn hò mù (chưa gặp nhau)",
+          "examples": [
+            {
+              "en": "My friend set me up on a blind date.",
+              "vi": "Bạn tôi sắp xếp cho tôi buổi hẹn mù."
+            },
+            {
+              "en": "Blind dates can be awkward.",
+              "vi": "Hẹn mù có thể ngại ngùng."
+            },
+            {
+              "en": "She married her blind date!",
+              "vi": "Cô ấy cưới người hẹn mù!"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "go on a blind date",
+        "set up a blind date",
+        "first blind date",
+        "successful blind date",
+        "blind date story"
+      ],
+      "etymology_hint": "Compound of 'blind' (without knowledge) + 'date' — 20th century coinage for arranged meetings.",
+      "mnemonic_vi": "BLIND-DATE = BLIND + DATE → 'hẹn không thấy mặt trước'. Blind date = hẹn mù."
+    },
+    {
+      "word": "matchmaker",
+      "lemma": "matchmaker",
+      "ipa": "/ˈmætʃmeɪkə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who introduces people who might be a good couple",
+          "meaning_vi": "người mai mối, người làm mối",
+          "examples": [
+            {
+              "en": "She's a famous matchmaker in Hà Nội.",
+              "vi": "Cô ấy là người mai mối nổi tiếng Hà Nội."
+            },
+            {
+              "en": "Vietnamese parents often act as matchmakers.",
+              "vi": "Bố mẹ Việt thường đóng vai mai mối."
+            },
+            {
+              "en": "Modern matchmakers use apps and data.",
+              "vi": "Người mai mối hiện đại dùng app và dữ liệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cupid"],
+      "antonyms": [],
+      "collocations": [
+        "professional matchmaker",
+        "play matchmaker",
+        "modern matchmaker",
+        "matchmaker service",
+        "famous matchmaker"
+      ],
+      "etymology_hint": "Compound of 'match' (suitable pair) + 'maker' — coined in 17th century English.",
+      "mnemonic_vi": "MATCHMAKER = MATCH + MAKER → 'người làm cặp'. Matchmaker = mai mối."
+    }
+  ]
+}
