@@ -468,13 +468,20 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/communication` — debate, declare, state, announce, warn, insist, deny, admit, express, describe, complain, criticize, praise, respond, whisper, shout, persuade, convince, negotiate, inform
     - `work-business/decision-making` — decision, select, determine, hesitate, consult, advise, prefer, option, alternative, weigh, risk, priority, conclusion, compromise, approve, reject, postpone, prioritize, veto, finalize
     - Gates green. Seed live: **92 lessons / 1840 cards** (~48% Oxford 3000).
-  - [ ] **P8b/c/d/e** (20 lessons remaining) — TODO next sessions
+  - [x] **P8b B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `e56cf53` → merge `7f24339` → sync `3e4585a`):
+    - `nature-environment/science-basics` — gravity, energy, force, mass, atom, molecule, particle, experiment, cell, element, matter, universe, space, planet, earth, moon, star, galaxy, orbit, equation
+    - `daily-life/health-wellness` — mental, stress, anxiety, therapy, meditation, nutrition, vitamin, calorie, immune, recovery, wellness, wellbeing, diet, hydration, protein, carb, cardio, mindful, healing, nap
+    - `work-business/marketing-sales` — advertise, target, campaign, sales, segment, launch, product, service, client, revenue, loyalty, niche, pitch, competitor, demographic, engagement, conversion, sponsor, endorse, slogan
+    - `abstract-academic/time-sequence` — prior, subsequent, simultaneously, previously, meanwhile, finally, afterwards, beforehand, briefly, shortly, presently, formerly, subsequently, ongoing, earlier, later, consecutive, successive, imminent, prolonged
+    - `entertainment/digital-culture` — meme, algorithm, streamer, gaming, esports, nft, crypto, metaverse, avatar, hack, cyber, reality, augmented, chatbot, database, cookie, browser, website, firewall, encryption
+    - Gates green. Seed live: **97 lessons / 1940 cards** (~50% Oxford 3000 — milestone đầu tiên!).
+  - [ ] **P8c/d/e** (15 lessons remaining) — TODO next sessions
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 92/192 lessons (48%), 1840/3840 cards (48%), ~48% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8a done (5/25)**, next: P8b-e (20 lessons remaining).
+**Progress**: 97/192 lessons (50.5%), 1940/3840 cards (50.5%), **🎉 ~50% Oxford 3000 coverage milestone đầu tiên**. **P7 CLOSED (20/20)**, **P8 ở 10/25**, next: P8c-e (15 lessons remaining).
 
 ---
 
