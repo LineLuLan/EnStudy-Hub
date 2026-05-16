@@ -5,6 +5,55 @@
 
 ---
 
+## 2026-05-17 (P9a content batch — P9 opens) — B1: 5 lessons / 100 cards (117/192, ~61%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 đầu tiên của P9 (B1 part 2). User confirm "tiếp tục gen P9" → override #13. Quality bar duy trì từ P8e (more tokens for quality).
+
+**5 lessons mới (B1, 100/100 NEW so với 2240 existing)** — diverse topics để mở rộng coverage trục Oxford 3000:
+
+| #   | Lesson               | Topic         | order |
+| --- | -------------------- | ------------- | ----- |
+| 1   | cooking-techniques   | daily-life    | 18    |
+| 2   | communication-styles | people        | 6     |
+| 3   | freelance-remote     | work-business | 13    |
+| 4   | literature-genres    | entertainment | 10    |
+| 5   | higher-ed            | education     | 5     |
+
+### SHA cuối session (P9a)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `9d106e7` (P9a merge)
+- be `f860441` (P9a content)
+- fe `fedea80` (sync P9a)
+
+### Verify
+
+- Zod ALL VALID 5 files.
+- Validate flags: 5+12+11+14+14 = 56/100 IPA notation variations (consistent với P8e pattern).
+- Husky pre-commit prettier compact format applied; commit clean.
+
+### PICKUP cho session sau — P9b (5 lessons B1 tiếp theo)
+
+P9 đang 5/25. Còn 20 lessons để đóng P9. Đề xuất P9b topic candidates (cần grep collision trước):
+
+- `nature-environment/conservation` — endangered, deforestation, wildlife, reserve, habitat, poach, smuggle, restore, sanctuary, ecological, biodiversity, extinct, threatened, ranger, sustain
+- `society-culture/global-issues` — globalization, inequality, migration, discrimination, prejudice, tolerance, equality, justice, fairness, oppression, gentrification
+- `places-travel/cultural-immersion` — local, homestay, customs, etiquette, taboo, hospitality, dialect, accent, regional, indigenous, ritual
+- `abstract-academic/critical-thinking` — analyze, evaluate, evidence, logical, irrational, skeptical, opinion, fact, scrutinize
+- `work-business/marketing-digital` — SEO, content, brand, audience, conversion, funnel, engagement, click-through, organic, paid, lead, retention, churn, viral
+
+Grep tất cả 100 candidates trước gen P9b — đã thấy nhiều conflict tiềm tàng (refugee, authentic, assumption, bias, fallacy, reasoning, objective, subjective đều taken).
+
+### Files state khi handoff
+
+- All branches pushed to origin.
+- Docs updated (TRACKER, SYNC, HANDOFF this entry).
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (P8e content batch — P8 CLOSED) — B1: 5 lessons / 100 cards (112/192, ~58%) — Claude Opus 4.7
 
 ### Đã ship
