@@ -1,0 +1,769 @@
+{
+  "slug": "global-issues",
+  "name": "Global Issues",
+  "description": "Vấn đề toàn cầu B1 — globalization, migration, prejudice, activism và 16 từ về xã hội đa quốc.",
+  "order_index": 6,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "globalization",
+      "lemma": "globalization",
+      "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process by which countries become more connected through trade, culture, and technology",
+          "meaning_vi": "toàn cầu hóa",
+          "examples": [
+            {
+              "en": "Globalization brought iPhones to every Vietnamese pocket.",
+              "vi": "Toàn cầu hóa mang iPhone đến mỗi túi quần người Việt."
+            },
+            {
+              "en": "Some workers feel left behind by globalization.",
+              "vi": "Một số người lao động cảm thấy bị bỏ lại bởi toàn cầu hóa."
+            },
+            {
+              "en": "Globalization speeds up cultural exchange.",
+              "vi": "Toàn cầu hóa làm trao đổi văn hóa nhanh hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["global integration"],
+      "antonyms": ["isolationism", "protectionism"],
+      "collocations": [
+        "economic globalization",
+        "globalization era",
+        "embrace globalization",
+        "globalization effects",
+        "anti-globalization"
+      ],
+      "etymology_hint": "From 'global' (Latin 'globus' = sphere) + '-ization' — term spread in 1980s economic discourse.",
+      "mnemonic_vi": "GLOBAL (toàn cầu) + IZATION = sự toàn cầu hóa. Economic globalization = toàn cầu hóa kinh tế."
+    },
+    {
+      "word": "migration",
+      "lemma": "migration",
+      "ipa": "/maɪˈɡreɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the movement of people from one country or region to another to live or work",
+          "meaning_vi": "sự di cư",
+          "examples": [
+            {
+              "en": "Mass migration follows economic opportunity.",
+              "vi": "Di cư hàng loạt đi theo cơ hội kinh tế."
+            },
+            {
+              "en": "Rural-to-urban migration is reshaping Vietnam.",
+              "vi": "Di cư từ nông thôn ra đô thị đang định hình lại Việt Nam."
+            },
+            {
+              "en": "Climate migration will increase in coming decades.",
+              "vi": "Di cư do khí hậu sẽ tăng trong các thập kỷ tới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["movement", "relocation"],
+      "antonyms": ["settlement"],
+      "collocations": [
+        "mass migration",
+        "international migration",
+        "labor migration",
+        "migration flow",
+        "climate migration"
+      ],
+      "etymology_hint": "From Latin 'migrare' = to move from one place to another — same root as 'migrate'.",
+      "mnemonic_vi": "MIGRATE (di cư) + ION = sự di cư. Mass migration = di cư hàng loạt."
+    },
+    {
+      "word": "prejudice",
+      "lemma": "prejudice",
+      "ipa": "/ˈpredʒʊdɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an unfair opinion about a person or group, often based on their race, religion, or background",
+          "meaning_vi": "định kiến (thường về chủng tộc, tôn giáo)",
+          "examples": [
+            {
+              "en": "Education reduces prejudice against minorities.",
+              "vi": "Giáo dục giảm định kiến chống lại các nhóm thiểu số."
+            },
+            {
+              "en": "She experienced prejudice when she moved to a new city.",
+              "vi": "Cô ấy trải qua định kiến khi chuyển đến thành phố mới."
+            },
+            {
+              "en": "Prejudice is taught — not inborn.",
+              "vi": "Định kiến là được dạy — không phải bẩm sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bias (different lesson)", "intolerance"],
+      "antonyms": ["fairness", "open-mindedness"],
+      "collocations": [
+        "racial prejudice",
+        "deep-seated prejudice",
+        "fight prejudice",
+        "religious prejudice",
+        "overcome prejudice"
+      ],
+      "etymology_hint": "From Latin 'praejudicium' = previous judgment — 'prae-' (before) + 'judicium' (judgment).",
+      "mnemonic_vi": "PRE (trước) + JUDICE (xét) = xét trước khi biết. Racial prejudice = định kiến chủng tộc."
+    },
+    {
+      "word": "tolerance",
+      "lemma": "tolerance",
+      "ipa": "/ˈtɒlərəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "willingness to accept people who are different from you",
+          "meaning_vi": "sự khoan dung, chấp nhận khác biệt",
+          "examples": [
+            {
+              "en": "Religious tolerance is essential in a diverse society.",
+              "vi": "Khoan dung tôn giáo là điều thiết yếu trong xã hội đa dạng."
+            },
+            {
+              "en": "Schools should teach tolerance from young age.",
+              "vi": "Trường học nên dạy khoan dung từ nhỏ."
+            },
+            {
+              "en": "Zero tolerance for hate speech is now policy.",
+              "vi": "Không khoan nhượng với phát ngôn thù ghét đã thành chính sách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["acceptance", "open-mindedness"],
+      "antonyms": ["intolerance", "bigotry"],
+      "collocations": [
+        "religious tolerance",
+        "racial tolerance",
+        "zero tolerance",
+        "promote tolerance",
+        "tolerance and respect"
+      ],
+      "etymology_hint": "From Latin 'tolerare' = to bear, endure — modern social sense from Enlightenment era.",
+      "mnemonic_vi": "TOLER (chịu) + ANCE = sức chịu, khoan dung. Religious tolerance = khoan dung tôn giáo."
+    },
+    {
+      "word": "fairness",
+      "lemma": "fairness",
+      "ipa": "/ˈfeənəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the quality of treating people equally and justly",
+          "meaning_vi": "sự công bằng, công minh",
+          "examples": [
+            {
+              "en": "Fairness in pay matters to every worker.",
+              "vi": "Công bằng trong lương là quan trọng với mọi lao động."
+            },
+            {
+              "en": "Children develop a sense of fairness very early.",
+              "vi": "Trẻ con phát triển ý thức công bằng từ rất sớm."
+            },
+            {
+              "en": "We expect fairness from our institutions.",
+              "vi": "Chúng ta kỳ vọng công bằng từ các thiết chế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["justice", "impartiality"],
+      "antonyms": ["unfairness", "bias"],
+      "collocations": [
+        "sense of fairness",
+        "fairness in pay",
+        "social fairness",
+        "demand fairness",
+        "procedural fairness"
+      ],
+      "etymology_hint": "From Old English 'fæger' = beautiful, just — '-ness' makes it abstract noun.",
+      "mnemonic_vi": "FAIR (công bằng) + NESS = sự công bằng. Sense of fairness = ý thức công bằng."
+    },
+    {
+      "word": "oppression",
+      "lemma": "oppression",
+      "ipa": "/əˈpreʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "unjust or cruel treatment of a group of people by those in power",
+          "meaning_vi": "sự áp bức, đàn áp",
+          "examples": [
+            {
+              "en": "Centuries of oppression shaped the country's literature.",
+              "vi": "Hàng thế kỷ áp bức định hình văn học của đất nước."
+            },
+            {
+              "en": "Women fought oppression for the right to vote.",
+              "vi": "Phụ nữ đấu tranh chống áp bức để giành quyền bầu cử."
+            },
+            {
+              "en": "Oppression takes many forms — economic, political, cultural.",
+              "vi": "Áp bức có nhiều dạng — kinh tế, chính trị, văn hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tyranny", "subjugation"],
+      "antonyms": ["liberation", "freedom"],
+      "collocations": [
+        "political oppression",
+        "fight oppression",
+        "systemic oppression",
+        "centuries of oppression",
+        "freedom from oppression"
+      ],
+      "etymology_hint": "From Latin 'opprimere' = to press down — 'ob-' (against) + 'premere' (press).",
+      "mnemonic_vi": "OP (ép) + PRESS (đè) + ION = sự đè ép. Political oppression = áp bức chính trị."
+    },
+    {
+      "word": "gentrification",
+      "lemma": "gentrification",
+      "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process by which a poor area becomes wealthier, pushing out original residents",
+          "meaning_vi": "quá trình thượng lưu hóa khu nghèo (đẩy dân gốc đi)",
+          "examples": [
+            {
+              "en": "Gentrification is changing Saigon's District 2 rapidly.",
+              "vi": "Thượng lưu hóa đang thay đổi nhanh quận 2 Sài Gòn."
+            },
+            {
+              "en": "Long-time residents can no longer afford rent after gentrification.",
+              "vi": "Cư dân lâu năm không kham nổi tiền thuê sau thượng lưu hóa."
+            },
+            {
+              "en": "Cafés often signal early gentrification.",
+              "vi": "Quán cà phê thường báo hiệu thượng lưu hóa sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["urban renewal (similar)"],
+      "antonyms": ["urban decay"],
+      "collocations": [
+        "rapid gentrification",
+        "gentrification of",
+        "resist gentrification",
+        "gentrification process",
+        "gentrification displaces"
+      ],
+      "etymology_hint": "Coined 1964 by British sociologist Ruth Glass — root 'gentry' (Latin 'gens' = clan, upper class).",
+      "mnemonic_vi": "GENTRY (thượng lưu) + FICATION = biến thành thượng lưu. Rapid gentrification = thượng lưu hóa nhanh."
+    },
+    {
+      "word": "racism",
+      "lemma": "racism",
+      "ipa": "/ˈreɪsɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the belief that some races are better than others, and unfair treatment based on it",
+          "meaning_vi": "phân biệt chủng tộc, kỳ thị chủng tộc",
+          "examples": [
+            {
+              "en": "Racism still affects job opportunities in many countries.",
+              "vi": "Kỳ thị chủng tộc vẫn ảnh hưởng cơ hội việc làm ở nhiều nước."
+            },
+            {
+              "en": "Anti-racism education starts in primary school.",
+              "vi": "Giáo dục chống phân biệt chủng tộc bắt đầu từ tiểu học."
+            },
+            {
+              "en": "Subtle racism is harder to confront than overt racism.",
+              "vi": "Kỳ thị ngầm khó đối mặt hơn kỳ thị công khai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["racial prejudice"],
+      "antonyms": ["racial equality", "anti-racism"],
+      "collocations": [
+        "fight racism",
+        "systemic racism",
+        "anti-racism",
+        "casual racism",
+        "racism awareness"
+      ],
+      "etymology_hint": "From 'race' (Middle French 'race' = lineage) + '-ism' — term standardized in 1930s anti-fascist writing.",
+      "mnemonic_vi": "RACE (chủng tộc) + ISM = chủ nghĩa chủng tộc. Fight racism = chống kỳ thị."
+    },
+    {
+      "word": "sexism",
+      "lemma": "sexism",
+      "ipa": "/ˈseksɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "unfair treatment of people because of their sex, especially women",
+          "meaning_vi": "phân biệt giới tính",
+          "examples": [
+            {
+              "en": "Workplace sexism limits women's career growth.",
+              "vi": "Phân biệt giới tại nơi làm việc hạn chế sự nghiệp phụ nữ."
+            },
+            {
+              "en": "Vietnamese ads sometimes contain casual sexism.",
+              "vi": "Quảng cáo Việt đôi khi chứa phân biệt giới tính kiểu vô tư."
+            },
+            {
+              "en": "Calling out sexism takes courage.",
+              "vi": "Lên tiếng về phân biệt giới đòi hỏi can đảm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gender discrimination"],
+      "antonyms": ["gender equality"],
+      "collocations": [
+        "workplace sexism",
+        "casual sexism",
+        "fight sexism",
+        "institutional sexism",
+        "everyday sexism"
+      ],
+      "etymology_hint": "Coined 1968 by analogy with 'racism' — 'sex' (biological category) + '-ism'.",
+      "mnemonic_vi": "SEX (giới tính) + ISM = chủ nghĩa kỳ thị giới. Workplace sexism = phân biệt giới ở nơi làm việc."
+    },
+    {
+      "word": "privilege",
+      "lemma": "privilege",
+      "ipa": "/ˈprɪvəlɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an advantage that some groups have over others, often unearned",
+          "meaning_vi": "đặc quyền, lợi thế (thường không tự kiếm)",
+          "examples": [
+            {
+              "en": "Recognizing your privilege is the first step toward fairness.",
+              "vi": "Nhận ra đặc quyền của mình là bước đầu hướng tới công bằng."
+            },
+            {
+              "en": "Children of wealthy families enjoy many privileges.",
+              "vi": "Con cái nhà giàu hưởng nhiều đặc quyền."
+            },
+            {
+              "en": "Privilege isn't bad — using it well matters.",
+              "vi": "Đặc quyền không xấu — quan trọng là dùng tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advantage", "perk"],
+      "antonyms": ["disadvantage", "burden"],
+      "collocations": [
+        "white privilege",
+        "check your privilege",
+        "social privilege",
+        "earned privilege",
+        "unearned privilege"
+      ],
+      "etymology_hint": "From Latin 'privilegium' = private law — 'privus' (individual) + 'lex' (law).",
+      "mnemonic_vi": "PRIV (riêng) + ILEGE (luật) = luật riêng. Check your privilege = nhìn lại đặc quyền."
+    },
+    {
+      "word": "activism",
+      "lemma": "activism",
+      "ipa": "/ˈæktɪvɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the use of vigorous action to bring about political or social change",
+          "meaning_vi": "phong trào hành động vì thay đổi (xã hội/chính trị)",
+          "examples": [
+            {
+              "en": "Online activism reaches millions in seconds.",
+              "vi": "Phong trào online lan tới hàng triệu người trong vài giây."
+            },
+            {
+              "en": "Climate activism is led by young people worldwide.",
+              "vi": "Phong trào khí hậu được dẫn dắt bởi giới trẻ toàn cầu."
+            },
+            {
+              "en": "Activism takes many forms — protest, art, writing.",
+              "vi": "Hành động xã hội có nhiều dạng — biểu tình, nghệ thuật, viết lách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advocacy", "campaigning"],
+      "antonyms": ["passivity", "apathy"],
+      "collocations": [
+        "climate activism",
+        "online activism",
+        "grassroots activism",
+        "student activism",
+        "activism movement"
+      ],
+      "etymology_hint": "From 'active' (Latin 'activus' = doing) + '-ism' — modern political sense from 1907.",
+      "mnemonic_vi": "ACTIV (hành động) + ISM = chủ nghĩa hành động. Climate activism = phong trào khí hậu."
+    },
+    {
+      "word": "asylum",
+      "lemma": "asylum",
+      "ipa": "/əˈsaɪləm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "protection given by a country to someone who fled their own due to danger",
+          "meaning_vi": "quyền tị nạn (được nước khác bảo vệ)",
+          "examples": [
+            {
+              "en": "She sought asylum after the political crackdown.",
+              "vi": "Cô ấy xin tị nạn sau cuộc đàn áp chính trị."
+            },
+            {
+              "en": "Asylum applications take years to process.",
+              "vi": "Đơn xin tị nạn mất nhiều năm để xử lý."
+            },
+            {
+              "en": "Granting asylum is a humanitarian act.",
+              "vi": "Cấp quyền tị nạn là hành động nhân đạo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refuge", "sanctuary"],
+      "antonyms": ["deportation"],
+      "collocations": [
+        "seek asylum",
+        "grant asylum",
+        "asylum seeker",
+        "political asylum",
+        "asylum application"
+      ],
+      "etymology_hint": "From Greek 'asulon' = inviolable place — 'a-' (not) + 'sulon' (right of seizure).",
+      "mnemonic_vi": "ASYLUM đọc 'a-sai-lừm' — anh xa lánh tìm nơi nương. Seek asylum = xin tị nạn."
+    },
+    {
+      "word": "marginalize",
+      "lemma": "marginalize",
+      "ipa": "/ˈmɑːdʒɪnəlaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to push a group to the edge of society where they have little power or attention",
+          "meaning_vi": "đẩy ra rìa xã hội, gạt ra lề",
+          "examples": [
+            {
+              "en": "Indigenous communities have been marginalized for centuries.",
+              "vi": "Cộng đồng bản địa đã bị gạt ra lề hàng thế kỷ."
+            },
+            {
+              "en": "Tech can either include or marginalize older users.",
+              "vi": "Công nghệ có thể bao gồm hoặc gạt người dùng lớn tuổi ra rìa."
+            },
+            {
+              "en": "Policies that marginalize minorities erode trust.",
+              "vi": "Chính sách gạt thiểu số ra rìa làm xói mòn niềm tin."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exclude", "sideline", "alienate"],
+      "antonyms": ["include", "empower", "center"],
+      "collocations": [
+        "marginalize a group",
+        "feel marginalized",
+        "marginalized communities",
+        "systematically marginalize",
+        "voice the marginalized"
+      ],
+      "etymology_hint": "From Latin 'margo' = edge — adding '-alize' creates the verb meaning 'push to edge'.",
+      "mnemonic_vi": "MARGIN (rìa) + ALIZE = đẩy ra rìa. Marginalized communities = cộng đồng bị gạt ra lề."
+    },
+    {
+      "word": "exploit",
+      "lemma": "exploit",
+      "ipa": "/ɪkˈsplɔɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to treat people or resources unfairly for personal gain",
+          "meaning_vi": "bóc lột, lợi dụng",
+          "examples": [
+            {
+              "en": "Factories sometimes exploit cheap migrant labor.",
+              "vi": "Các nhà máy đôi khi bóc lột lao động di cư giá rẻ."
+            },
+            {
+              "en": "Companies that exploit workers face boycotts.",
+              "vi": "Công ty bóc lột lao động bị tẩy chay."
+            },
+            {
+              "en": "Don't exploit your friends — that ends friendships.",
+              "vi": "Đừng lợi dụng bạn bè — sẽ mất tình bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["take advantage of", "abuse"],
+      "antonyms": ["protect", "respect"],
+      "collocations": [
+        "exploit workers",
+        "exploit resources",
+        "exploit a loophole",
+        "ruthlessly exploit",
+        "exploit the system"
+      ],
+      "etymology_hint": "From Latin 'explicare' = to unfold, deploy — meaning shifted to negative 'use for advantage' in 19th century.",
+      "mnemonic_vi": "EXPLOIT đọc 'íc-ploi-t' — ép lợi của ai đó. Exploit workers = bóc lột lao động."
+    },
+    {
+      "word": "systemic",
+      "lemma": "systemic",
+      "ipa": "/sɪˈstemɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "affecting the whole system rather than just parts of it",
+          "meaning_vi": "thuộc hệ thống, mang tính cấu trúc",
+          "examples": [
+            {
+              "en": "Systemic racism is hard to fix with individual effort alone.",
+              "vi": "Phân biệt chủng tộc cấu trúc khó sửa bằng nỗ lực cá nhân."
+            },
+            {
+              "en": "Poverty is often a systemic issue, not a personal failing.",
+              "vi": "Nghèo đói thường là vấn đề hệ thống, không phải lỗi cá nhân."
+            },
+            {
+              "en": "Systemic change requires policy reform.",
+              "vi": "Thay đổi hệ thống cần cải cách chính sách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["structural", "institutional"],
+      "antonyms": ["isolated", "individual"],
+      "collocations": [
+        "systemic racism",
+        "systemic problem",
+        "systemic change",
+        "systemic inequality",
+        "deeply systemic"
+      ],
+      "etymology_hint": "From 'system' (Greek 'sustema' = organized whole) — meaning 'whole-system-wide' from medical use.",
+      "mnemonic_vi": "SYSTEM (hệ) + IC = thuộc hệ. Systemic racism = phân biệt cấu trúc."
+    },
+    {
+      "word": "underprivileged",
+      "lemma": "underprivileged",
+      "ipa": "/ˌʌndəˈprɪvəlɪdʒd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having fewer advantages, rights, or opportunities than most people",
+          "meaning_vi": "thiệt thòi, ít đặc quyền",
+          "examples": [
+            {
+              "en": "Scholarships help underprivileged students enter university.",
+              "vi": "Học bổng giúp sinh viên thiệt thòi vào đại học."
+            },
+            {
+              "en": "Underprivileged children face longer learning gaps.",
+              "vi": "Trẻ em thiệt thòi đối mặt khoảng cách học tập dài hơn."
+            },
+            {
+              "en": "She volunteers with underprivileged kids on weekends.",
+              "vi": "Cô ấy tình nguyện với trẻ thiệt thòi vào cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disadvantaged", "deprived"],
+      "antonyms": ["privileged", "advantaged"],
+      "collocations": [
+        "underprivileged children",
+        "underprivileged communities",
+        "help the underprivileged",
+        "underprivileged background",
+        "support underprivileged"
+      ],
+      "etymology_hint": "Compound: 'under-' (less than) + 'privileged' — sociological term standardized mid-20th century.",
+      "mnemonic_vi": "UNDER (dưới) + PRIVILEGED (đặc quyền) = ít đặc quyền. Underprivileged children = trẻ thiệt thòi."
+    },
+    {
+      "word": "grassroots",
+      "lemma": "grassroots",
+      "ipa": "/ˌɡrɑːsˈruːts/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "starting from ordinary people in a community, not from leaders or large organizations",
+          "meaning_vi": "khởi từ cơ sở, từ dân thường",
+          "examples": [
+            {
+              "en": "Grassroots movements changed national policy.",
+              "vi": "Phong trào từ cơ sở đã thay đổi chính sách quốc gia."
+            },
+            {
+              "en": "Her grassroots campaign reached every village.",
+              "vi": "Chiến dịch cơ sở của cô ấy đến từng làng."
+            },
+            {
+              "en": "Grassroots fundraising beats corporate donations.",
+              "vi": "Gây quỹ từ cộng đồng thắng tài trợ doanh nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["community-based", "bottom-up"],
+      "antonyms": ["top-down", "elite-led"],
+      "collocations": [
+        "grassroots movement",
+        "grassroots campaign",
+        "grassroots organizing",
+        "grassroots support",
+        "grassroots level"
+      ],
+      "etymology_hint": "Metaphor from agriculture: roots in grass, the most basic and widespread level — political usage from 1900s US progressivism.",
+      "mnemonic_vi": "GRASS (cỏ) + ROOTS (rễ) = rễ cỏ, từ dưới. Grassroots movement = phong trào cơ sở."
+    },
+    {
+      "word": "stigma",
+      "lemma": "stigma",
+      "ipa": "/ˈstɪɡmə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strong feeling of disapproval that society has toward certain people or behaviors",
+          "meaning_vi": "sự kỳ thị, vết nhơ xã hội (cảm giác bị xã hội xa lánh)",
+          "examples": [
+            {
+              "en": "Mental illness still carries stigma in many cultures.",
+              "vi": "Bệnh tâm thần vẫn mang kỳ thị ở nhiều nền văn hóa."
+            },
+            {
+              "en": "Reducing stigma encourages people to seek help.",
+              "vi": "Giảm kỳ thị khiến người ta dám tìm sự giúp đỡ."
+            },
+            {
+              "en": "The stigma around divorce is fading in Vietnam.",
+              "vi": "Kỳ thị quanh ly hôn đang nhạt dần ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shame", "disgrace"],
+      "antonyms": ["acceptance", "honor"],
+      "collocations": [
+        "social stigma",
+        "reduce stigma",
+        "carry stigma",
+        "stigma around",
+        "fight stigma"
+      ],
+      "etymology_hint": "From Greek 'stigma' = mark, brand — physical mark on skin in ancient times, now metaphorical social mark.",
+      "mnemonic_vi": "STIGMA = vết nhơ. Social stigma = sự kỳ thị xã hội."
+    },
+    {
+      "word": "stereotype",
+      "lemma": "stereotype",
+      "ipa": "/ˈsteriətaɪp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a fixed, oversimplified idea about a group of people that is often unfair",
+          "meaning_vi": "định kiến rập khuôn",
+          "examples": [
+            {
+              "en": "The stereotype of the 'tiger mom' is unfair to many Asian parents.",
+              "vi": "Định kiến 'tiger mom' bất công với nhiều phụ huynh châu Á."
+            },
+            {
+              "en": "Travel breaks stereotypes faster than reading.",
+              "vi": "Du lịch phá vỡ định kiến nhanh hơn đọc sách."
+            },
+            {
+              "en": "Cultural stereotypes hurt both sides.",
+              "vi": "Định kiến văn hóa làm tổn thương cả hai bên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["generalization", "cliché"],
+      "antonyms": ["individual view", "nuanced understanding"],
+      "collocations": [
+        "cultural stereotype",
+        "gender stereotype",
+        "challenge a stereotype",
+        "break stereotypes",
+        "harmful stereotype"
+      ],
+      "etymology_hint": "From Greek 'stereos' (solid) + 'typos' (impression) — originally a fixed printing plate, applied to fixed mental images by 1922.",
+      "mnemonic_vi": "STEREO (cố định) + TYPE (kiểu) = kiểu cố định. Gender stereotype = định kiến giới tính."
+    },
+    {
+      "word": "xenophobia",
+      "lemma": "xenophobia",
+      "ipa": "/ˌzenəˈfəʊbiə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "strong dislike or fear of people from other countries",
+          "meaning_vi": "tâm lý bài ngoại, sợ người nước ngoài",
+          "examples": [
+            {
+              "en": "The pandemic triggered a wave of xenophobia.",
+              "vi": "Đại dịch khơi mào làn sóng bài ngoại."
+            },
+            {
+              "en": "Education is the best weapon against xenophobia.",
+              "vi": "Giáo dục là vũ khí tốt nhất chống bài ngoại."
+            },
+            {
+              "en": "Xenophobia rarely solves real economic problems.",
+              "vi": "Bài ngoại hiếm khi giải quyết vấn đề kinh tế thực sự."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["foreigner-hatred", "anti-immigrant sentiment"],
+      "antonyms": ["openness", "cosmopolitanism"],
+      "collocations": [
+        "rising xenophobia",
+        "fight xenophobia",
+        "xenophobia and racism",
+        "blatant xenophobia",
+        "xenophobia online"
+      ],
+      "etymology_hint": "From Greek 'xenos' (stranger) + 'phobos' (fear) — coined in late 19th century.",
+      "mnemonic_vi": "XENO (lạ) + PHOBIA (sợ) = sợ người lạ. Rising xenophobia = bài ngoại gia tăng."
+    }
+  ]
+}
