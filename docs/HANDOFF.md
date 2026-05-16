@@ -5,6 +5,70 @@
 
 ---
 
+## 2026-05-17 (P8b content batch + 🎉 50% MILESTONE) — B1 part 1: 5 more lessons / 100 cards (97/192) — Claude Opus 4.7
+
+### Đã ship session này (BE work — content gen + seed + 50% milestone)
+
+5 lessons B1 tiếp nối P8a. User confirm "gen tiếp P8b" → AI auto-gen (9th override). **Cột mốc lớn: vượt 50% Oxford 3000 coverage** (97 lessons / 1940 cards / 50.5%).
+
+**5 lessons mới (B1, 100% NEW words không trùng existing 1840)**:
+
+| #   | Lesson          | Topic              | order_index | Highlights                                                                                                                                                                                         |
+| --- | --------------- | ------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | science-basics  | nature-environment | 7           | gravity/energy/force/mass/atom/molecule/particle/experiment/cell/element/matter/universe/space/planet/earth/moon/star/galaxy/orbit/equation                                                        |
+| 2   | health-wellness | daily-life         | 15          | mental/stress/anxiety/therapy/meditation/nutrition/vitamin/calorie/immune/recovery/wellness/wellbeing/diet/hydration/protein/carb/cardio/mindful/healing/nap                                       |
+| 3   | marketing-sales | work-business      | 9           | advertise/target/campaign/sales/segment/launch/product/service/client/revenue/loyalty/niche/pitch/competitor/demographic/engagement/conversion/sponsor/endorse/slogan                              |
+| 4   | time-sequence   | abstract-academic  | 8           | prior/subsequent/simultaneously/previously/meanwhile/finally/afterwards/beforehand/briefly/shortly/presently/formerly/subsequently/ongoing/earlier/later/consecutive/successive/imminent/prolonged |
+| 5   | digital-culture | entertainment      | 7           | meme/algorithm/streamer/gaming/esports/nft/crypto/metaverse/avatar/hack/cyber/reality/augmented/chatbot/database/cookie/browser/website/firewall/encryption                                        |
+
+### Quality bar applied
+
+- ✅ British IPA strict
+- ✅ VN context: Newton/Einstein, Vinmec, Tiki/Shopee, Vinhomes, ChatGPT, WhatsApp/Zalo, Vietnamese esports/streamers, Coursera/Udemy
+- ✅ Mnemonic wordplay (vd "ATOM = a không cắt được", "GRAVITY = grá-vi kéo xuống", "ENCRYPTION = EN + CRYPT → ẩn")
+- ✅ Etymology narrative (Greek/Latin/Sanskrit cho 'avatar' / Persian al-Khwarizmi cho 'algorithm')
+- ✅ Collision check — 100/100 NEW so với 1840 existing
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                       |
+| ------ | --------- | ------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                         |
+| dev    | `7f24339` | merge be → dev (P8b 5 lessons / 100 cards) |
+| be     | `e56cf53` | feat(content): P8b B1 expansion            |
+| fe     | `3e4585a` | sync: dev → fe (P8b content)               |
+
+### Verify
+
+- Zod ALL VALID. Seed live: **1 collection / 11 topics / 97 lessons / 1940 cards**.
+- 🎉 **50% Oxford 3000 coverage** — milestone đầu tiên cho phép user học từ vựng cơ bản → trung cấp tốt.
+
+### Progress P5-P12
+
+| Phase           | Lessons | Cards    | Status             |
+| --------------- | ------- | -------- | ------------------ |
+| P0-P4 MVP       | 42      | 840      | ✅                 |
+| P5 Common Core  | 10      | 200      | ✅                 |
+| P6 A1 fillers   | 15      | 300      | ✅                 |
+| P7 A2 expansion | 20      | 400      | ✅                 |
+| P8a B1          | 5       | 100      | ✅                 |
+| **P8b B1**      | **5**   | **100**  | **✅ session này** |
+| P8c/d/e (còn)   | ~15     | ~300     | TODO               |
+| **Tổng ship**   | **97**  | **1940** | **🎉 ~50% Oxford** |
+
+### Notes for next AI session pickup
+
+- **Tiếp P8c**: 5 lessons B1 tiếp. Đề xuất các angles:
+  - `abstract-academic/abstract-concepts` (concept, principle, hypothesis, paradigm)
+  - `society-culture/politics-government` (politics, election, party, vote — need check)
+  - `work-business/leadership` (leader, manage, supervise, inspire, motivate)
+  - `daily-life/relationships-modern` (date, relationship, breakup, single, marriage)
+  - `nature-environment/sustainability` or new topic `technology/devices-gadgets`
+- **Override pattern**: 9 overrides, fully autopilot.
+- **B1 sessions trong cùng day**: P8a + P8b = 10 lessons / 200 cards B1. Quality giữ vững khi pattern stable.
+
+---
+
 ## 2026-05-17 (P8a content batch) — B1 part 1 opening: 5 lessons / 100 cards (92/192) — Claude Opus 4.7
 
 ### Đã ship session này (BE work — content gen + seed)
