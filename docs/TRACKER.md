@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P9d B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `7dcffaf` → merge `8dcdbc7` → sync `693b5af`) — P9 20/25:
+    - `places-travel/road-trip` — pit-stop, gas-station, RV, detour, mileage, breakdown, interstate, GPS, navigation, rest-area, motorhome, camper, traffic-jam, speed-limit, registration, odometer, toll, carpool, dashboard, freeway
+    - `entertainment/podcasting` — RSS, microphone, recording, edit, patron, monetize, podcaster, audio, headphones, playback, intro, outro, production, airtime, cohost, feed, mic, archive, soundcheck, pilot
+    - `work-business/customer-service` — replacement, queue, helpdesk, agent, satisfaction, warranty, hotline, FAQ, apology, courteous, inquiry, grievance, dissatisfied, live-chat, escalation, resolution, callback, self-service, troubleshoot, onboarding
+    - `nature-environment/oceans-deep` — depths, trench, deep-sea, submarine, sonar, abyss, pressure, undersea, scuba, benthic, seamount, hydrothermal, creature, fathom, kelp, eel, anemone, anglerfish, snorkel, oxygen
+    - `abstract-academic/scientific-method` — observation, variable, replication, peer-review, falsifiable, repeatable, data, treatment, dependent, independent, reproducible, measurement, prediction, trial, null, inference, double-blind, placebo, replicate, protocol
+    - Zod schema green tất cả 5. Seed live: **pending user manual run** (target 132 lessons / 2640 cards).
   - [x] **P9c B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `4d17ebe` → merge `2ed7135` → sync `b9cb9e8`) — P9 15/25:
     - `daily-life/home-renovation` — renovate, remodel, paint, wallpaper, decorate, layout, tile, flooring, plumbing, wiring, install, blueprint, permit, demolish, hardwood, refurbish, fixture, foundation, carpenter, drywall
     - `entertainment/visual-arts` — sketch, canvas, exhibit, abstract, portrait, landscape, mural, brushstroke, watercolor, easel, palette, masterpiece, realism, impressionism, curator, frame, illustration, pottery, charcoal, contemporary
@@ -517,12 +524,12 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `nature-environment/natural-disasters` (pivoted from weather-disasters do 7 từ trùng với weather-seasons-ext) — earthquake, eruption, wildfire, blizzard, avalanche, landslide, tornado, monsoon, tremor, magnitude, epicenter, aftermath, evacuation, devastation, debris, rescue, hazard, casualty, shelter, alert
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
-- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a-c done (15/25), TODO P9d-e
+- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a-d done (20/25), TODO P9e
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 127/192 lessons (66%), 2540/3840 cards (66%), ~66% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 ở 15/25**, next: P9d (5 lessons).
+**Progress**: 132/192 lessons (69%), 2640/3840 cards (69%), ~69% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 ở 20/25**, next: P9e (5 cuối đóng P9).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
