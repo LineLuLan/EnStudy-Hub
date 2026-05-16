@@ -1,0 +1,763 @@
+{
+  "slug": "data-analysis",
+  "name": "Data Analysis",
+  "description": "Phân tích dữ liệu B1 — dataset, regression, outlier, p-value và 16 từ cho data analyst.",
+  "order_index": 16,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "dataset",
+      "lemma": "dataset",
+      "ipa": "/ˈdeɪtəset/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a collection of related data, often organized in rows and columns",
+          "meaning_vi": "tập dữ liệu",
+          "examples": [
+            {
+              "en": "Clean the dataset before running analysis.",
+              "vi": "Làm sạch dataset trước khi phân tích."
+            },
+            {
+              "en": "She built a dataset of 10,000 Vietnamese reviews.",
+              "vi": "Cô ấy dựng dataset 10.000 review tiếng Việt."
+            },
+            {
+              "en": "Open datasets accelerate research.",
+              "vi": "Dataset công khai tăng tốc nghiên cứu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["data collection"],
+      "antonyms": [],
+      "collocations": [
+        "clean dataset",
+        "large dataset",
+        "open dataset",
+        "training dataset",
+        "explore the dataset"
+      ],
+      "etymology_hint": "Compound: 'data' + 'set' — programming and statistics term standardized in 1960s computing.",
+      "mnemonic_vi": "DATA (dữ liệu) + SET (tập) = tập dữ liệu. Clean dataset = dataset sạch."
+    },
+    {
+      "word": "graph",
+      "lemma": "graph",
+      "ipa": "/ɡrɑːf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a diagram that shows how numbers or quantities relate",
+          "meaning_vi": "biểu đồ, đồ thị",
+          "examples": [
+            {
+              "en": "The graph shows steady revenue growth.",
+              "vi": "Đồ thị cho thấy doanh thu tăng đều."
+            },
+            {
+              "en": "A clear graph beats a thousand numbers.",
+              "vi": "Đồ thị rõ hơn cả nghìn con số."
+            },
+            {
+              "en": "She drew a graph by hand before plotting digitally.",
+              "vi": "Cô ấy vẽ tay đồ thị trước khi vẽ số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plot", "diagram"],
+      "antonyms": ["table"],
+      "collocations": [
+        "line graph",
+        "bar graph",
+        "draw a graph",
+        "graph axis",
+        "interactive graph"
+      ],
+      "etymology_hint": "Shortened from 'graphic formula' — Greek 'graphein' (to write, draw).",
+      "mnemonic_vi": "GRAPH đọc 'gráp' — gấp đường vẽ. Line graph = đồ thị đường."
+    },
+    {
+      "word": "visualize",
+      "lemma": "visualize",
+      "ipa": "/ˈvɪʒuəlaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show data as pictures or graphs so patterns are easy to see",
+          "meaning_vi": "trực quan hóa (dữ liệu thành biểu đồ)",
+          "examples": [
+            {
+              "en": "Visualize the data before drawing conclusions.",
+              "vi": "Trực quan hóa dữ liệu trước khi kết luận."
+            },
+            {
+              "en": "Vietnamese fintech firms visualize spending habits.",
+              "vi": "Fintech Việt trực quan hóa thói quen chi tiêu."
+            },
+            {
+              "en": "Tableau makes visualizing easy.",
+              "vi": "Tableau làm trực quan hóa dễ dàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chart", "display"],
+      "antonyms": ["tabulate"],
+      "collocations": [
+        "visualize data",
+        "visualize trends",
+        "easy to visualize",
+        "visualize results",
+        "interactively visualize"
+      ],
+      "etymology_hint": "From Latin 'videre' = to see + '-ize' — modern data-science usage from 1990s.",
+      "mnemonic_vi": "VISUAL (thị giác) + IZE = làm thấy được. Visualize data = trực quan hóa dữ liệu."
+    },
+    {
+      "word": "KPI",
+      "lemma": "KPI",
+      "ipa": "/ˌkeɪpiːˈaɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Key Performance Indicator — an important number used to measure progress",
+          "meaning_vi": "KPI, chỉ số hiệu suất chính",
+          "examples": [
+            {
+              "en": "Choose three KPIs and review weekly.",
+              "vi": "Chọn 3 KPI và xem hàng tuần."
+            },
+            {
+              "en": "Revenue is a lagging KPI.",
+              "vi": "Doanh thu là KPI trễ."
+            },
+            {
+              "en": "Vietnamese teams obsess over KPI dashboards.",
+              "vi": "Team Việt ám ảnh dashboard KPI."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["metric", "performance indicator"],
+      "antonyms": [],
+      "collocations": ["key KPI", "track KPIs", "set a KPI", "leading KPI", "miss the KPI"],
+      "etymology_hint": "Acronym from US corporate strategy in 1980s — 'Key Performance Indicator'.",
+      "mnemonic_vi": "KPI = 'kê-pi-ai'. Track KPIs = theo dõi KPI."
+    },
+    {
+      "word": "insight",
+      "lemma": "insight",
+      "ipa": "/ˈɪnsaɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a clear understanding of a situation, often gained from analyzing data",
+          "meaning_vi": "hiểu biết sâu, insight (từ dữ liệu)",
+          "examples": [
+            {
+              "en": "The survey revealed surprising insights.",
+              "vi": "Cuộc khảo sát hé lộ các insight bất ngờ."
+            },
+            {
+              "en": "Turn data into actionable insights.",
+              "vi": "Biến dữ liệu thành insight có thể hành động."
+            },
+            {
+              "en": "Insight without action wastes time.",
+              "vi": "Insight không hành động là phí thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["understanding", "discovery"],
+      "antonyms": ["confusion"],
+      "collocations": [
+        "key insight",
+        "actionable insight",
+        "data insight",
+        "customer insight",
+        "gain insight"
+      ],
+      "etymology_hint": "Compound: 'in' + 'sight' — Middle English, originally 'inner sight'.",
+      "mnemonic_vi": "IN (trong) + SIGHT (thấy) = thấy bên trong. Actionable insight = insight có thể hành động."
+    },
+    {
+      "word": "regression",
+      "lemma": "regression",
+      "ipa": "/rɪˈɡreʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statistical method that estimates how one variable relates to another",
+          "meaning_vi": "hồi quy (phương pháp thống kê tìm mối liên hệ)",
+          "examples": [
+            {
+              "en": "Linear regression is the simplest model.",
+              "vi": "Hồi quy tuyến tính là mô hình đơn giản nhất."
+            },
+            {
+              "en": "She ran a regression on housing prices.",
+              "vi": "Cô ấy chạy hồi quy giá nhà."
+            },
+            {
+              "en": "Regression doesn't prove causation.",
+              "vi": "Hồi quy không chứng minh quan hệ nhân quả."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "linear regression",
+        "logistic regression",
+        "regression model",
+        "run a regression",
+        "regression analysis"
+      ],
+      "etymology_hint": "From Latin 'regressus' = a going back — statistical sense coined 1885 by Francis Galton.",
+      "mnemonic_vi": "RE (lại) + GRESS (đi) + ION = đi ngược tìm quan hệ. Linear regression = hồi quy tuyến tính."
+    },
+    {
+      "word": "correlation",
+      "lemma": "correlation",
+      "ipa": "/ˌkɒrəˈleɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a connection between two things that change together (but may not cause each other)",
+          "meaning_vi": "mối tương quan (hai biến thay đổi cùng nhau)",
+          "examples": [
+            {
+              "en": "There's a strong correlation between sleep and grades.",
+              "vi": "Có tương quan mạnh giữa giấc ngủ và điểm số."
+            },
+            {
+              "en": "Correlation doesn't equal causation.",
+              "vi": "Tương quan không phải nhân quả."
+            },
+            {
+              "en": "Negative correlation means they move opposite.",
+              "vi": "Tương quan âm nghĩa là chúng ngược chiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relationship", "association"],
+      "antonyms": ["independence"],
+      "collocations": [
+        "strong correlation",
+        "negative correlation",
+        "correlation coefficient",
+        "positive correlation",
+        "find a correlation"
+      ],
+      "etymology_hint": "From Medieval Latin 'correlatio' = mutual relation — coined 17th century.",
+      "mnemonic_vi": "CO (cùng) + RELATION = mối liên hệ cùng. Strong correlation = tương quan mạnh."
+    },
+    {
+      "word": "outlier",
+      "lemma": "outlier",
+      "ipa": "/ˈaʊtlaɪə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a data point that is very different from the rest, often skewing analysis",
+          "meaning_vi": "điểm ngoại lai (rất khác phần còn lại)",
+          "examples": [
+            {
+              "en": "Remove outliers before computing the mean.",
+              "vi": "Bỏ điểm ngoại lai trước khi tính trung bình."
+            },
+            {
+              "en": "One outlier shifted the entire conclusion.",
+              "vi": "Một outlier xoay cả kết luận."
+            },
+            {
+              "en": "Investigate outliers — they may reveal errors.",
+              "vi": "Điều tra outlier — chúng có thể tiết lộ lỗi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anomaly", "exception"],
+      "antonyms": ["typical value"],
+      "collocations": [
+        "remove outliers",
+        "investigate outliers",
+        "extreme outlier",
+        "data outlier",
+        "outlier detection"
+      ],
+      "etymology_hint": "Compound: 'out' (away) + 'lier' (one who lies) — meaning 'lies outside the main pattern'.",
+      "mnemonic_vi": "OUT (ngoài) + LIER (người nằm) = nằm ngoài. Remove outliers = bỏ outlier."
+    },
+    {
+      "word": "histogram",
+      "lemma": "histogram",
+      "ipa": "/ˈhɪstəɡræm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a bar chart showing how often values fall into different ranges",
+          "meaning_vi": "biểu đồ tần số (histogram)",
+          "examples": [
+            {
+              "en": "The histogram revealed two distinct peaks.",
+              "vi": "Histogram cho thấy hai đỉnh rõ rệt."
+            },
+            {
+              "en": "Always inspect histograms first.",
+              "vi": "Luôn kiểm tra histogram đầu tiên."
+            },
+            {
+              "en": "Bin width affects how the histogram looks.",
+              "vi": "Độ rộng bin ảnh hưởng cách histogram trông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["frequency chart"],
+      "antonyms": [],
+      "collocations": [
+        "plot a histogram",
+        "histogram bin",
+        "skewed histogram",
+        "histogram analysis",
+        "read a histogram"
+      ],
+      "etymology_hint": "Coined 1891 by statistician Karl Pearson — Greek 'histos' (mast, web) + 'gramma' (drawing).",
+      "mnemonic_vi": "HISTO (thanh) + GRAM (đồ) = đồ thị thanh. Plot a histogram = vẽ histogram."
+    },
+    {
+      "word": "median",
+      "lemma": "median",
+      "ipa": "/ˈmiːdiən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the middle value in a sorted list of numbers",
+          "meaning_vi": "trung vị (giá trị giữa khi sắp xếp)",
+          "examples": [
+            {
+              "en": "The median salary is more honest than the mean.",
+              "vi": "Lương trung vị trung thực hơn lương trung bình."
+            },
+            {
+              "en": "Calculate the median to ignore extreme values.",
+              "vi": "Tính trung vị để bỏ qua giá trị cực hạn."
+            },
+            {
+              "en": "Vietnamese median age is 33.",
+              "vi": "Tuổi trung vị của Việt Nam là 33."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["middle value"],
+      "antonyms": ["mean (average)"],
+      "collocations": [
+        "median salary",
+        "median age",
+        "median value",
+        "calculate the median",
+        "median income"
+      ],
+      "etymology_hint": "From Latin 'medianus' = in the middle — root 'medius' (middle).",
+      "mnemonic_vi": "MEDI (giữa) + AN = ở giữa. Median salary = lương trung vị."
+    },
+    {
+      "word": "mode",
+      "lemma": "mode",
+      "ipa": "/məʊd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the value that appears most often in a dataset",
+          "meaning_vi": "giá trị xuất hiện nhiều nhất, mốt",
+          "examples": [
+            {
+              "en": "The mode age in the survey was 25.",
+              "vi": "Tuổi mốt trong khảo sát là 25."
+            },
+            {
+              "en": "Mode is useful for categorical data.",
+              "vi": "Mốt hữu dụng cho dữ liệu phân loại."
+            },
+            {
+              "en": "A dataset can have multiple modes.",
+              "vi": "Một dataset có thể có nhiều mốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["most frequent"],
+      "antonyms": [],
+      "collocations": [
+        "find the mode",
+        "modal value",
+        "bimodal distribution",
+        "the mode is",
+        "categorical mode"
+      ],
+      "etymology_hint": "From Latin 'modus' = measure, way — statistical sense from 1890s.",
+      "mnemonic_vi": "MODE = mốt (xuất hiện nhiều). Find the mode = tìm mốt."
+    },
+    {
+      "word": "spreadsheet",
+      "lemma": "spreadsheet",
+      "ipa": "/ˈspredʃiːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a computer document with rows and columns for storing and calculating data",
+          "meaning_vi": "bảng tính (Excel, Google Sheets)",
+          "examples": [
+            {
+              "en": "She tracks her budget in a spreadsheet.",
+              "vi": "Cô ấy theo dõi ngân sách trong bảng tính."
+            },
+            {
+              "en": "Vietnamese SMEs run on spreadsheets.",
+              "vi": "Doanh nghiệp nhỏ vừa Việt vận hành bằng bảng tính."
+            },
+            {
+              "en": "Spreadsheets are the gateway to data analysis.",
+              "vi": "Bảng tính là cửa ngõ vào phân tích dữ liệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["Excel sheet", "table file"],
+      "antonyms": ["database"],
+      "collocations": [
+        "Excel spreadsheet",
+        "Google spreadsheet",
+        "spreadsheet formula",
+        "shared spreadsheet",
+        "spreadsheet template"
+      ],
+      "etymology_hint": "Compound: 'spread' + 'sheet' — accounting term from 1960s, digital sense from 1979 with VisiCalc.",
+      "mnemonic_vi": "SPREAD (trải) + SHEET (tờ) = tờ trải dữ liệu. Excel spreadsheet = bảng tính Excel."
+    },
+    {
+      "word": "forecast",
+      "lemma": "forecast",
+      "ipa": "/ˈfɔːkɑːst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a prediction about what will happen, especially based on data",
+          "meaning_vi": "dự báo (dựa trên dữ liệu)",
+          "examples": [
+            {
+              "en": "The sales forecast for Q3 is bullish.",
+              "vi": "Dự báo doanh thu Q3 lạc quan."
+            },
+            {
+              "en": "Weather forecasts use millions of data points.",
+              "vi": "Dự báo thời tiết dùng hàng triệu điểm dữ liệu."
+            },
+            {
+              "en": "Update the forecast as new data arrives.",
+              "vi": "Cập nhật dự báo khi có dữ liệu mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prediction", "projection"],
+      "antonyms": ["hindsight"],
+      "collocations": [
+        "sales forecast",
+        "weather forecast",
+        "annual forecast",
+        "update the forecast",
+        "accurate forecast"
+      ],
+      "etymology_hint": "Compound: 'fore-' (before) + 'cast' (throw, scheme) — meaning 'to plan ahead' from 14th century.",
+      "mnemonic_vi": "FORE (trước) + CAST (ném) = ném ra trước (đoán). Sales forecast = dự báo doanh thu."
+    },
+    {
+      "word": "cluster",
+      "lemma": "cluster",
+      "ipa": "/ˈklʌstə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a group of similar data points that are close together",
+          "meaning_vi": "nhóm/cụm (dữ liệu giống nhau)",
+          "examples": [
+            {
+              "en": "The algorithm found three clusters of customers.",
+              "vi": "Thuật toán tìm 3 cụm khách hàng."
+            },
+            {
+              "en": "Cluster analysis reveals hidden groups.",
+              "vi": "Phân tích cụm hé lộ nhóm ẩn."
+            },
+            {
+              "en": "Each cluster needs a different marketing approach.",
+              "vi": "Mỗi cụm cần cách marketing khác nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["group", "bunch"],
+      "antonyms": ["scatter"],
+      "collocations": [
+        "customer cluster",
+        "cluster analysis",
+        "cluster algorithm",
+        "data cluster",
+        "tight cluster"
+      ],
+      "etymology_hint": "From Old English 'clyster' = bunch of grapes — statistical sense from 20th-century data science.",
+      "mnemonic_vi": "CLUSTER đọc 'clấs-tơ' — cụm sát. Customer cluster = cụm khách hàng."
+    },
+    {
+      "word": "query",
+      "lemma": "query",
+      "ipa": "/ˈkwɪəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a question or request for data from a database",
+          "meaning_vi": "truy vấn (yêu cầu dữ liệu từ database)",
+          "examples": [
+            {
+              "en": "Write an SQL query to find users from Hà Nội.",
+              "vi": "Viết truy vấn SQL tìm user từ Hà Nội."
+            },
+            {
+              "en": "Complex queries can take minutes to run.",
+              "vi": "Truy vấn phức tạp có thể mất phút để chạy."
+            },
+            {
+              "en": "Optimize your queries to save time.",
+              "vi": "Tối ưu truy vấn để tiết kiệm thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["request", "question"],
+      "antonyms": ["answer"],
+      "collocations": [
+        "SQL query",
+        "database query",
+        "run a query",
+        "complex query",
+        "optimize a query"
+      ],
+      "etymology_hint": "From Latin 'quaerere' = to ask, seek — database sense from 1970s.",
+      "mnemonic_vi": "QUERY đọc 'qui-rì' — qui tìm gì. SQL query = truy vấn SQL."
+    },
+    {
+      "word": "big-data",
+      "lemma": "big-data",
+      "ipa": "/ˌbɪɡ ˈdeɪtə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "extremely large datasets that need special tools to analyze",
+          "meaning_vi": "dữ liệu lớn (cần công cụ đặc biệt để xử lý)",
+          "examples": [
+            {
+              "en": "Big-data drives modern marketing.",
+              "vi": "Big-data dẫn dắt marketing hiện đại."
+            },
+            {
+              "en": "Vietnamese banks invest in big-data infrastructure.",
+              "vi": "Ngân hàng Việt đầu tư hạ tầng big-data."
+            },
+            {
+              "en": "Big-data without insight is just storage cost.",
+              "vi": "Big-data không có insight chỉ là phí lưu trữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["massive data"],
+      "antonyms": ["small data"],
+      "collocations": [
+        "big-data analytics",
+        "big-data platform",
+        "big-data tool",
+        "leverage big-data",
+        "big-data infrastructure"
+      ],
+      "etymology_hint": "Compound: 'big' + 'data' — term popularized in late 2000s as datasets exceeded traditional tools.",
+      "mnemonic_vi": "BIG (lớn) + DATA (dữ liệu) = dữ liệu lớn. Big-data analytics = phân tích big-data."
+    },
+    {
+      "word": "anomaly",
+      "lemma": "anomaly",
+      "ipa": "/əˈnɒməli/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something that is different from what is normal or expected",
+          "meaning_vi": "điều bất thường, dị thường",
+          "examples": [
+            {
+              "en": "The dashboard alerted us to an anomaly.",
+              "vi": "Dashboard cảnh báo chúng tôi về bất thường."
+            },
+            {
+              "en": "Investigate every anomaly in production.",
+              "vi": "Điều tra mọi bất thường trong production."
+            },
+            {
+              "en": "Anomaly detection uses machine learning.",
+              "vi": "Phát hiện bất thường dùng machine learning."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["abnormality", "irregularity"],
+      "antonyms": ["norm"],
+      "collocations": [
+        "anomaly detection",
+        "data anomaly",
+        "spot an anomaly",
+        "unusual anomaly",
+        "system anomaly"
+      ],
+      "etymology_hint": "From Greek 'anōmalos' = uneven — 'an-' (not) + 'homalos' (even).",
+      "mnemonic_vi": "ANOMALY đọc 'a-nâ-mâ-li' — anh nó mã lệ thường. Anomaly detection = phát hiện bất thường."
+    },
+    {
+      "word": "p-value",
+      "lemma": "p-value",
+      "ipa": "/ˈpiː vælju/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statistic measuring how likely a result is due to chance",
+          "meaning_vi": "giá trị p (xác suất kết quả do ngẫu nhiên)",
+          "examples": [
+            {
+              "en": "If p-value < 0.05, we call it significant.",
+              "vi": "Nếu p-value < 0.05, ta gọi là có ý nghĩa."
+            },
+            {
+              "en": "A small p-value doesn't always mean important.",
+              "vi": "P-value nhỏ không phải lúc nào cũng quan trọng."
+            },
+            {
+              "en": "Report exact p-values, not just thresholds.",
+              "vi": "Báo cáo p-value chính xác, không chỉ ngưỡng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "low p-value",
+        "high p-value",
+        "p-value threshold",
+        "report a p-value",
+        "exact p-value"
+      ],
+      "etymology_hint": "Statistical concept developed by R.A. Fisher (1925) — 'p' for probability.",
+      "mnemonic_vi": "P (probability) + VALUE (giá trị) = giá trị xác suất. Low p-value = p-value nhỏ."
+    },
+    {
+      "word": "significant",
+      "lemma": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a result) unlikely to be due to chance; statistically meaningful",
+          "meaning_vi": "(kết quả) có ý nghĩa thống kê (không phải ngẫu nhiên)",
+          "examples": [
+            {
+              "en": "The difference is statistically significant.",
+              "vi": "Khác biệt có ý nghĩa thống kê."
+            },
+            {
+              "en": "Don't confuse significant with important.",
+              "vi": "Đừng nhầm có ý nghĩa với quan trọng."
+            },
+            {
+              "en": "Bigger samples make smaller effects significant.",
+              "vi": "Mẫu lớn hơn làm hiệu ứng nhỏ trở nên có ý nghĩa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meaningful", "important"],
+      "antonyms": ["insignificant", "chance"],
+      "collocations": [
+        "statistically significant",
+        "highly significant",
+        "significant difference",
+        "not significant",
+        "marginally significant"
+      ],
+      "etymology_hint": "From Latin 'significans' = meaning something — root 'signum' (sign) + 'facere' (make).",
+      "mnemonic_vi": "SIGNI (dấu) + FICANT = có dấu hiệu rõ. Statistically significant = có ý nghĩa thống kê."
+    },
+    {
+      "word": "distribution",
+      "lemma": "distribution",
+      "ipa": "/ˌdɪstrɪˈbjuːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way values are spread across a dataset",
+          "meaning_vi": "phân phối (cách giá trị trải trong dữ liệu)",
+          "examples": [
+            {
+              "en": "Plot the distribution to spot skew.",
+              "vi": "Vẽ phân phối để phát hiện lệch."
+            },
+            {
+              "en": "Income distribution in Vietnam is widening.",
+              "vi": "Phân phối thu nhập Việt Nam đang nới rộng."
+            },
+            {
+              "en": "Normal distribution is the famous bell curve.",
+              "vi": "Phân phối chuẩn là đường cong hình chuông nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spread"],
+      "antonyms": ["concentration"],
+      "collocations": [
+        "normal distribution",
+        "skewed distribution",
+        "income distribution",
+        "probability distribution",
+        "plot the distribution"
+      ],
+      "etymology_hint": "From Latin 'distributio' = a dividing — 'dis-' (apart) + 'tribuere' (give).",
+      "mnemonic_vi": "DIS (chia) + TRIBUT (chia) + ION = sự chia trải. Normal distribution = phân phối chuẩn."
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "slug": "board-games",
+  "name": "Board Games",
+  "description": "Cờ bàn và bài B1 — pawn, chess, bluff, wager và 16 từ cho dân chơi cờ và bài.",
+  "order_index": 13,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "pawn",
+      "lemma": "pawn",
+      "ipa": "/pɔːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the smallest and most numerous piece in chess",
+          "meaning_vi": "quân tốt (cờ vua)",
+          "examples": [
+            {
+              "en": "Each side starts with eight pawns.",
+              "vi": "Mỗi bên bắt đầu với 8 quân tốt."
+            },
+            {
+              "en": "A pawn can promote to queen at the last row.",
+              "vi": "Quân tốt có thể thăng thành hậu ở hàng cuối."
+            },
+            {
+              "en": "Sacrificing a pawn can win the game.",
+              "vi": "Hy sinh một tốt có thể thắng trận."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "promote a pawn",
+        "sacrifice a pawn",
+        "pawn structure",
+        "passed pawn",
+        "pawn move"
+      ],
+      "etymology_hint": "From Latin 'pedo' = foot soldier — pawn is the 'foot soldier' of chess.",
+      "mnemonic_vi": "PAWN đọc 'pôn' — bộ binh nhỏ. Sacrifice a pawn = hy sinh tốt."
+    },
+    {
+      "word": "strategy",
+      "lemma": "strategy",
+      "ipa": "/ˈstrætədʒi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a plan to win, especially over many moves",
+          "meaning_vi": "chiến lược (kế hoạch dài hạn)",
+          "examples": [
+            {
+              "en": "Her strategy is to control the center early.",
+              "vi": "Chiến lược của cô ấy là kiểm soát trung tâm sớm."
+            },
+            {
+              "en": "Board games teach strategic thinking.",
+              "vi": "Cờ bàn dạy tư duy chiến lược."
+            },
+            {
+              "en": "Vietnamese chess has its own strategies.",
+              "vi": "Cờ tướng Việt có chiến lược riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plan", "tactic"],
+      "antonyms": ["randomness"],
+      "collocations": [
+        "winning strategy",
+        "strategic move",
+        "long-term strategy",
+        "develop a strategy",
+        "defensive strategy"
+      ],
+      "etymology_hint": "From Greek 'stratēgia' = generalship — 'stratos' (army) + 'agein' (lead).",
+      "mnemonic_vi": "STRAT (quân) + EGY = nghệ thuật cầm quân. Winning strategy = chiến lược thắng."
+    },
+    {
+      "word": "chess",
+      "lemma": "chess",
+      "ipa": "/tʃes/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strategy game for two players on an 8x8 board with 16 pieces each",
+          "meaning_vi": "cờ vua",
+          "examples": [
+            {
+              "en": "Online chess exploded during the pandemic.",
+              "vi": "Cờ vua online bùng nổ trong đại dịch."
+            },
+            {
+              "en": "Chess teaches patience and foresight.",
+              "vi": "Cờ vua dạy kiên nhẫn và tầm nhìn xa."
+            },
+            {
+              "en": "Vietnamese chess masters compete worldwide.",
+              "vi": "Đại kiện tướng cờ vua Việt thi đấu toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play chess",
+        "chess tournament",
+        "chess piece",
+        "chess board",
+        "chess match"
+      ],
+      "etymology_hint": "From Persian 'shāh' = king — same root as Vietnamese 'chiếu'. Game spread via Arabs to Europe.",
+      "mnemonic_vi": "CHESS đọc 'chét' — chéo bàn vua. Play chess = chơi cờ vua."
+    },
+    {
+      "word": "checkers",
+      "lemma": "checkers",
+      "ipa": "/ˈtʃekəz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a simpler board game where pieces move diagonally and jump opponents",
+          "meaning_vi": "cờ caro / cờ đam (Mỹ)",
+          "examples": [
+            {
+              "en": "Kids learn checkers before chess.",
+              "vi": "Trẻ học checkers trước cờ vua."
+            },
+            {
+              "en": "Checkers has fewer rules than chess.",
+              "vi": "Checkers có ít luật hơn cờ vua."
+            },
+            {
+              "en": "Competitive checkers attracts serious players.",
+              "vi": "Checkers thi đấu thu hút người chơi nghiêm túc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["draughts (UK)"],
+      "antonyms": [],
+      "collocations": [
+        "play checkers",
+        "checkers board",
+        "checkers piece",
+        "checkers game",
+        "checkers strategy"
+      ],
+      "etymology_hint": "From 'chequer' (Old French 'eschequier' = chessboard) — game named for the checkered board.",
+      "mnemonic_vi": "CHECK (kiểm) + ERS = trò bàn kẻ ô. Play checkers = chơi cờ đam."
+    },
+    {
+      "word": "opponent",
+      "lemma": "opponent",
+      "ipa": "/əˈpəʊnənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the person you play against in a game",
+          "meaning_vi": "đối thủ (chơi cùng)",
+          "examples": [
+            {
+              "en": "Study your opponent's previous moves.",
+              "vi": "Nghiên cứu nước đi trước của đối thủ."
+            },
+            {
+              "en": "She faced a tough opponent in the final.",
+              "vi": "Cô ấy gặp đối thủ khó ở chung kết."
+            },
+            {
+              "en": "Respect your opponent after every match.",
+              "vi": "Tôn trọng đối thủ sau mỗi trận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rival", "adversary"],
+      "antonyms": ["teammate", "ally"],
+      "collocations": [
+        "tough opponent",
+        "worthy opponent",
+        "face an opponent",
+        "study the opponent",
+        "respect your opponent"
+      ],
+      "etymology_hint": "From Latin 'opponens' = one who places against — 'ob-' (against) + 'ponere' (place).",
+      "mnemonic_vi": "OP (đối) + PONENT (đặt) = người đặt đối diện. Tough opponent = đối thủ khó."
+    },
+    {
+      "word": "turn",
+      "lemma": "turn",
+      "ipa": "/tɜːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "your moment to move or play in a game",
+          "meaning_vi": "lượt (chơi/đi nước)",
+          "examples": [
+            {
+              "en": "Wait your turn — don't grab the dice.",
+              "vi": "Đợi đến lượt — đừng giật xúc xắc."
+            },
+            {
+              "en": "Skip a turn if you have no legal move.",
+              "vi": "Bỏ lượt nếu không có nước đi hợp lệ."
+            },
+            {
+              "en": "Each turn lasts 30 seconds in speed chess.",
+              "vi": "Mỗi lượt 30 giây trong cờ tốc độ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["move"],
+      "antonyms": ["wait"],
+      "collocations": ["take a turn", "wait your turn", "skip a turn", "lose a turn", "extra turn"],
+      "etymology_hint": "From Latin 'tornare' = to round off — gaming sense 'one's chance to play' since 14th century.",
+      "mnemonic_vi": "TURN = lượt xoay vòng. Take a turn = đến lượt."
+    },
+    {
+      "word": "roll",
+      "lemma": "roll",
+      "ipa": "/rəʊl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to throw dice so they tumble and stop on a number",
+          "meaning_vi": "tung xúc xắc",
+          "examples": [
+            {
+              "en": "Roll the dice to start.",
+              "vi": "Tung xúc xắc để bắt đầu."
+            },
+            {
+              "en": "She rolled a six and moved six squares.",
+              "vi": "Cô ấy tung được 6 và đi 6 ô."
+            },
+            {
+              "en": "Lucky rolls win Monopoly games.",
+              "vi": "Tung may mắn thắng game Monopoly."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["throw", "cast"],
+      "antonyms": [],
+      "collocations": ["roll the dice", "lucky roll", "roll a six", "roll well", "roll badly"],
+      "etymology_hint": "From Latin 'rotulus' = small wheel — gambling sense 'tumble dice' from 14th century.",
+      "mnemonic_vi": "ROLL = lăn tròn. Roll the dice = tung xúc xắc."
+    },
+    {
+      "word": "bluff",
+      "lemma": "bluff",
+      "ipa": "/blʌf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to pretend to have something good (often in card games) to scare your opponent",
+          "meaning_vi": "tung hỏa mù, dọa bài (chơi bài / cờ)",
+          "examples": [
+            {
+              "en": "She bluffed with a weak hand and won.",
+              "vi": "Cô ấy dọa bài với tay yếu và thắng."
+            },
+            {
+              "en": "Good poker players read bluffs.",
+              "vi": "Cao thủ poker đọc được hỏa mù."
+            },
+            {
+              "en": "Don't bluff every round — you'll get caught.",
+              "vi": "Đừng dọa mỗi ván — bạn sẽ bị bắt bài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fake", "pretend"],
+      "antonyms": ["show real hand"],
+      "collocations": [
+        "successful bluff",
+        "call a bluff",
+        "bluff your way",
+        "obvious bluff",
+        "bluff and check"
+      ],
+      "etymology_hint": "From Dutch 'bluffen' = to boast — poker sense from 19th-century American gambling.",
+      "mnemonic_vi": "BLUFF đọc 'blắp' — bê lập dối. Call a bluff = bắt bài hỏa mù."
+    },
+    {
+      "word": "deck",
+      "lemma": "deck",
+      "ipa": "/dek/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of playing cards, usually 52",
+          "meaning_vi": "bộ bài (thường 52 lá)",
+          "examples": [
+            {
+              "en": "Shuffle the deck before dealing.",
+              "vi": "Trộn bộ bài trước khi chia."
+            },
+            {
+              "en": "She bought a luxury deck of cards.",
+              "vi": "Cô ấy mua bộ bài sang trọng."
+            },
+            {
+              "en": "A standard deck has four suits.",
+              "vi": "Bộ bài chuẩn có 4 chất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pack of cards"],
+      "antonyms": [],
+      "collocations": [
+        "deck of cards",
+        "shuffle the deck",
+        "standard deck",
+        "fresh deck",
+        "rigged deck"
+      ],
+      "etymology_hint": "From Middle Dutch 'dec' = a cover — card sense from 16th century 'set of cards covered together'.",
+      "mnemonic_vi": "DECK đọc 'đẹc' — đập bài. Deck of cards = bộ bài."
+    },
+    {
+      "word": "card",
+      "lemma": "card",
+      "ipa": "/kɑːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small piece of stiff paper used to play games, usually marked with numbers and suits",
+          "meaning_vi": "lá bài",
+          "examples": [
+            {
+              "en": "She drew a high card and won the round.",
+              "vi": "Cô ấy bốc lá cao và thắng ván."
+            },
+            {
+              "en": "Hide your cards from opponents.",
+              "vi": "Giữ kín bài khỏi đối thủ."
+            },
+            {
+              "en": "Each card has a suit and a value.",
+              "vi": "Mỗi lá bài có chất và giá trị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["playing card"],
+      "antonyms": [],
+      "collocations": ["playing card", "draw a card", "high card", "face card", "wild card"],
+      "etymology_hint": "From Greek 'khartēs' = leaf of papyrus — playing-card sense from late 14th century.",
+      "mnemonic_vi": "CARD = lá bài. Draw a card = bốc lá bài."
+    },
+    {
+      "word": "rook",
+      "lemma": "rook",
+      "ipa": "/rʊk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the castle-shaped chess piece that moves in straight lines",
+          "meaning_vi": "quân xe (cờ vua, hình tháp)",
+          "examples": [
+            {
+              "en": "The rook controls open files.",
+              "vi": "Quân xe kiểm soát cột mở."
+            },
+            {
+              "en": "Each side has two rooks at the corners.",
+              "vi": "Mỗi bên có 2 quân xe ở các góc."
+            },
+            {
+              "en": "Trade a knight for a rook if you can.",
+              "vi": "Đổi mã lấy xe nếu có thể."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["castle"],
+      "antonyms": [],
+      "collocations": ["rook endgame", "trade rooks", "rook pawn", "double rooks", "rook on file"],
+      "etymology_hint": "From Persian 'rukh' = chariot — original chess piece was a war chariot.",
+      "mnemonic_vi": "ROOK đọc 'rúc' — quân xe vững như tháp. Trade rooks = đổi xe."
+    },
+    {
+      "word": "knight",
+      "lemma": "knight",
+      "ipa": "/naɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the chess piece shaped like a horse that moves in an L-shape",
+          "meaning_vi": "quân mã (hình ngựa, đi chữ L)",
+          "examples": [
+            {
+              "en": "The knight jumps over other pieces.",
+              "vi": "Quân mã nhảy qua quân khác."
+            },
+            {
+              "en": "A well-placed knight is worth a rook.",
+              "vi": "Mã đứng tốt giá trị bằng xe."
+            },
+            {
+              "en": "Knights are tricky for beginners.",
+              "vi": "Quân mã rắc rối với người mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["horse (Vietnamese chess)"],
+      "antonyms": [],
+      "collocations": [
+        "knight fork",
+        "knight move",
+        "knight pair",
+        "knight outpost",
+        "knight sacrifice"
+      ],
+      "etymology_hint": "From Old English 'cniht' = boy, servant — became 'knight' (warrior), then chess piece shaped like a horse.",
+      "mnemonic_vi": "KNIGHT đọc 'nait' (im k) — kỵ binh trên ngựa. Knight fork = mã chĩa đôi."
+    },
+    {
+      "word": "bishop",
+      "lemma": "bishop",
+      "ipa": "/ˈbɪʃəp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the chess piece that moves diagonally",
+          "meaning_vi": "quân tượng (cờ vua, đi chéo)",
+          "examples": [
+            {
+              "en": "Each bishop stays on one color.",
+              "vi": "Mỗi tượng đi một màu."
+            },
+            {
+              "en": "Trade a bishop pair only when necessary.",
+              "vi": "Chỉ đổi cặp tượng khi cần thiết."
+            },
+            {
+              "en": "Long-range bishops dominate open positions.",
+              "vi": "Tượng tầm xa thống trị thế cờ mở."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bishop pair",
+        "bishop diagonal",
+        "fianchetto bishop",
+        "trade a bishop",
+        "active bishop"
+      ],
+      "etymology_hint": "From Greek 'episkopos' = overseer — chess sense came later, piece shape resembled a bishop's mitre in Europe.",
+      "mnemonic_vi": "BISHOP đọc 'bí-shớp' — bí tượng đi chéo. Bishop pair = cặp tượng."
+    },
+    {
+      "word": "queen",
+      "lemma": "queen",
+      "ipa": "/kwiːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the most powerful chess piece, moving any number of squares in any direction",
+          "meaning_vi": "quân hậu (mạnh nhất cờ vua)",
+          "examples": [
+            {
+              "en": "Lose your queen, lose the game.",
+              "vi": "Mất hậu là mất ván."
+            },
+            {
+              "en": "She queened her pawn to win.",
+              "vi": "Cô ấy phong hậu để thắng."
+            },
+            {
+              "en": "Promote a pawn to queen on the eighth rank.",
+              "vi": "Phong tốt thành hậu ở hàng 8."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "queen sacrifice",
+        "promote to queen",
+        "lose your queen",
+        "queen trade",
+        "queen exchange"
+      ],
+      "etymology_hint": "From Old English 'cwēn' = wife, woman — chess piece originally weak, became most powerful in 15th century Europe.",
+      "mnemonic_vi": "QUEEN = hậu — quyền lực nhất. Queen sacrifice = hy sinh hậu."
+    },
+    {
+      "word": "king",
+      "lemma": "king",
+      "ipa": "/kɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the chess piece that must be protected — losing it ends the game",
+          "meaning_vi": "quân vua (cờ vua, phải bảo vệ)",
+          "examples": [
+            {
+              "en": "Castle your king for safety.",
+              "vi": "Nhập thành để bảo vệ vua."
+            },
+            {
+              "en": "Checkmate the king to win.",
+              "vi": "Chiếu hết vua để thắng."
+            },
+            {
+              "en": "The king becomes active in endgames.",
+              "vi": "Vua trở nên chủ động ở tàn cuộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "checkmate the king",
+        "castle the king",
+        "king's pawn",
+        "exposed king",
+        "endgame king"
+      ],
+      "etymology_hint": "From Old English 'cyning' = leader — central chess piece since the game's origin in India.",
+      "mnemonic_vi": "KING = vua. Checkmate the king = chiếu bí vua."
+    },
+    {
+      "word": "poker",
+      "lemma": "poker",
+      "ipa": "/ˈpəʊkə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a popular card game involving betting and bluffing",
+          "meaning_vi": "trò poker (cá cược + dọa bài)",
+          "examples": [
+            {
+              "en": "Texas Hold'em is the most famous poker variant.",
+              "vi": "Texas Hold'em là biến thể poker nổi tiếng nhất."
+            },
+            {
+              "en": "She has a perfect poker face.",
+              "vi": "Cô ấy có khuôn mặt poker hoàn hảo."
+            },
+            {
+              "en": "Vietnamese cafés host weekend poker nights.",
+              "vi": "Quán cà phê Việt tổ chức đêm poker cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "play poker",
+        "poker face",
+        "poker night",
+        "poker tournament",
+        "online poker"
+      ],
+      "etymology_hint": "American English from 1830s — origin uncertain, possibly from German 'Pochen' = to brag.",
+      "mnemonic_vi": "POKER đọc 'pô-kơ' — pô khuôn mặt. Poker face = mặt lạnh, không lộ cảm xúc."
+    },
+    {
+      "word": "gamble",
+      "lemma": "gamble",
+      "ipa": "/ˈɡæmbl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to risk money or something valuable on the result of a game or event",
+          "meaning_vi": "đánh bạc, cờ bạc",
+          "examples": [
+            {
+              "en": "He gambled his savings on a horse race.",
+              "vi": "Anh ấy đánh bạc cả số tiết kiệm vào đua ngựa."
+            },
+            {
+              "en": "Don't gamble what you can't afford to lose.",
+              "vi": "Đừng đánh bạc số tiền bạn không cam mất."
+            },
+            {
+              "en": "Online gambling is illegal in Vietnam.",
+              "vi": "Cờ bạc online phạm pháp ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bet", "wager"],
+      "antonyms": ["save", "be safe"],
+      "collocations": [
+        "gamble on",
+        "gamble away",
+        "online gambling",
+        "gambling addiction",
+        "gamble heavily"
+      ],
+      "etymology_hint": "From Middle English 'gamen' = to play — gambling sense from 18th century.",
+      "mnemonic_vi": "GAMBLE đọc 'gem-bồ' — gem bồ cá cược. Gamble away = nướng tiền."
+    },
+    {
+      "word": "shuffle",
+      "lemma": "shuffle",
+      "ipa": "/ˈʃʌfl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to mix the order of playing cards before a game",
+          "meaning_vi": "trộn bài",
+          "examples": [
+            {
+              "en": "Shuffle the deck thoroughly.",
+              "vi": "Trộn bộ bài kỹ lưỡng."
+            },
+            {
+              "en": "She shuffled and dealt seven cards each.",
+              "vi": "Cô ấy trộn bài và chia 7 lá mỗi người."
+            },
+            {
+              "en": "A good shuffle prevents cheating.",
+              "vi": "Trộn tốt ngăn gian lận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mix", "randomize"],
+      "antonyms": ["arrange", "order"],
+      "collocations": [
+        "shuffle the deck",
+        "shuffle thoroughly",
+        "shuffle and deal",
+        "perfect shuffle",
+        "quick shuffle"
+      ],
+      "etymology_hint": "From Low German 'schuffeln' = to walk slowly, drag — card sense by 1530s.",
+      "mnemonic_vi": "SHUFFLE đọc 'shắp-phồ' — sắp tay trộn. Shuffle the deck = trộn bộ bài."
+    },
+    {
+      "word": "bet",
+      "lemma": "bet",
+      "ipa": "/bet/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to risk money on the outcome of a game or event",
+          "meaning_vi": "đặt cược",
+          "examples": [
+            {
+              "en": "She bet 100,000 đồng on the football match.",
+              "vi": "Cô ấy đặt cược 100 nghìn đồng vào trận bóng."
+            },
+            {
+              "en": "Bet small at first to learn.",
+              "vi": "Đặt cược nhỏ ban đầu để học."
+            },
+            {
+              "en": "I bet he's lying.",
+              "vi": "Tôi cá rằng anh ấy đang nói dối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wager", "gamble"],
+      "antonyms": [],
+      "collocations": ["place a bet", "bet on", "win a bet", "lose a bet", "fair bet"],
+      "etymology_hint": "Origin uncertain — possibly back-formation from 'abet' (encourage), gambling sense from 16th century.",
+      "mnemonic_vi": "BET đọc 'bét' — bắt cá. Place a bet = đặt cược."
+    },
+    {
+      "word": "wager",
+      "lemma": "wager",
+      "ipa": "/ˈweɪdʒə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a bet, especially a formal or large one",
+          "meaning_vi": "ván cược (đặc biệt là lớn, chính thức)",
+          "examples": [
+            {
+              "en": "He made a $500 wager on the boxing match.",
+              "vi": "Anh ấy đặt ván cược 500 USD vào trận boxing."
+            },
+            {
+              "en": "Friendly wagers add fun to a game.",
+              "vi": "Cược vui giữa bạn bè làm trò chơi vui hơn."
+            },
+            {
+              "en": "Settle the wager after the result.",
+              "vi": "Thanh toán ván cược sau khi có kết quả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bet", "stake"],
+      "antonyms": [],
+      "collocations": [
+        "make a wager",
+        "friendly wager",
+        "settle a wager",
+        "high wager",
+        "fair wager"
+      ],
+      "etymology_hint": "From Anglo-French 'wageure' = pledge — same root as 'wage' (pledged payment).",
+      "mnemonic_vi": "WAGER đọc 'uây-giờ' — uây giờ cá độ. Make a wager = đặt ván cược."
+    }
+  ]
+}

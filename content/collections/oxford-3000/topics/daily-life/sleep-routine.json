@@ -1,0 +1,751 @@
+{
+  "slug": "sleep-routine",
+  "name": "Sleep Routine",
+  "description": "Thói quen giấc ngủ B1 — insomnia, drowsy, circadian, melatonin và 16 từ cho giấc ngủ chất lượng.",
+  "order_index": 22,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "dream",
+      "lemma": "dream",
+      "ipa": "/driːm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "images and feelings you experience while sleeping",
+          "meaning_vi": "giấc mơ",
+          "examples": [
+            {
+              "en": "She had a strange dream about flying.",
+              "vi": "Cô ấy có giấc mơ kỳ lạ về việc bay."
+            },
+            {
+              "en": "Most dreams happen during REM sleep.",
+              "vi": "Phần lớn giấc mơ xảy ra ở giai đoạn REM."
+            },
+            {
+              "en": "Write down dreams as soon as you wake.",
+              "vi": "Ghi giấc mơ ngay khi tỉnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vision"],
+      "antonyms": ["reality"],
+      "collocations": ["have a dream", "vivid dream", "bad dream", "lucid dream", "dream about"],
+      "etymology_hint": "From Old English 'drēam' = joy, music — meaning shifted to 'sleep vision' by 13th century.",
+      "mnemonic_vi": "DREAM đọc 'drim' — chìm vào mơ. Vivid dream = giấc mơ sống động."
+    },
+    {
+      "word": "snore",
+      "lemma": "snore",
+      "ipa": "/snɔː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make loud breathing sounds through your nose or mouth while asleep",
+          "meaning_vi": "ngáy (khi ngủ)",
+          "examples": [
+            {
+              "en": "He snores so loudly that his wife can't sleep.",
+              "vi": "Anh ấy ngáy to đến mức vợ không ngủ được."
+            },
+            {
+              "en": "Sleeping on your side reduces snoring.",
+              "vi": "Nằm nghiêng giảm ngáy."
+            },
+            {
+              "en": "Snoring can signal sleep apnea.",
+              "vi": "Ngáy có thể báo hiệu ngưng thở khi ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["snort"],
+      "antonyms": ["sleep silently"],
+      "collocations": [
+        "snore loudly",
+        "stop snoring",
+        "heavy snoring",
+        "snoring spouse",
+        "snore through the night"
+      ],
+      "etymology_hint": "Imitative origin — Middle English 'snoren', mimicking the sound.",
+      "mnemonic_vi": "SNORE đọc 'snô' — như tiếng kéo gỗ. Snore loudly = ngáy to."
+    },
+    {
+      "word": "insomnia",
+      "lemma": "insomnia",
+      "ipa": "/ɪnˈsɒmniə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "difficulty falling asleep or staying asleep, especially over time",
+          "meaning_vi": "chứng mất ngủ",
+          "examples": [
+            {
+              "en": "She has suffered from insomnia for years.",
+              "vi": "Cô ấy bị mất ngủ nhiều năm."
+            },
+            {
+              "en": "Stress is a leading cause of insomnia.",
+              "vi": "Căng thẳng là nguyên nhân chính gây mất ngủ."
+            },
+            {
+              "en": "Try meditation to manage insomnia.",
+              "vi": "Thử thiền để kiểm soát mất ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sleeplessness"],
+      "antonyms": ["sound sleep"],
+      "collocations": [
+        "chronic insomnia",
+        "suffer from insomnia",
+        "treat insomnia",
+        "stress-induced insomnia",
+        "battle insomnia"
+      ],
+      "etymology_hint": "From Latin 'insomnis' = sleepless — 'in-' (not) + 'somnus' (sleep).",
+      "mnemonic_vi": "IN (không) + SOMNIA (ngủ) = không ngủ được. Chronic insomnia = mất ngủ mãn tính."
+    },
+    {
+      "word": "melatonin",
+      "lemma": "melatonin",
+      "ipa": "/ˌmeləˈtəʊnɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a hormone that helps control your sleep cycle",
+          "meaning_vi": "melatonin (hormone điều giấc ngủ)",
+          "examples": [
+            {
+              "en": "Bright screens reduce melatonin production.",
+              "vi": "Màn hình sáng giảm sản xuất melatonin."
+            },
+            {
+              "en": "Melatonin supplements help with jetlag.",
+              "vi": "Viên melatonin giúp đỡ jetlag."
+            },
+            {
+              "en": "Vietnamese pharmacies sell melatonin over the counter.",
+              "vi": "Hiệu thuốc Việt bán melatonin không cần đơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sleep hormone"],
+      "antonyms": [],
+      "collocations": [
+        "melatonin supplement",
+        "natural melatonin",
+        "melatonin production",
+        "take melatonin",
+        "melatonin level"
+      ],
+      "etymology_hint": "Coined 1958 from Greek 'melas' (black) + 'tonos' (color/tone) — first isolated from skin pigment.",
+      "mnemonic_vi": "MELATONIN đọc 'me-lờ-tô-nin' — mê lả tới ngủ. Melatonin supplement = viên melatonin."
+    },
+    {
+      "word": "REM",
+      "lemma": "REM",
+      "ipa": "/rem/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Rapid Eye Movement — the sleep stage when most dreaming happens",
+          "meaning_vi": "REM, giai đoạn mắt chuyển động nhanh (lúc mơ)",
+          "examples": [
+            {
+              "en": "Adults need about 90 minutes of REM nightly.",
+              "vi": "Người lớn cần khoảng 90 phút REM mỗi đêm."
+            },
+            {
+              "en": "Wearables track your REM sleep.",
+              "vi": "Thiết bị đeo theo dõi giấc ngủ REM của bạn."
+            },
+            {
+              "en": "Alcohol cuts REM sleep significantly.",
+              "vi": "Rượu cắt giảm giấc ngủ REM đáng kể."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dream sleep"],
+      "antonyms": ["deep sleep"],
+      "collocations": ["REM sleep", "REM cycle", "REM stage", "REM dream", "lack of REM"],
+      "etymology_hint": "Acronym coined 1953 by Nathaniel Kleitman and Eugene Aserinsky — 'Rapid Eye Movement'.",
+      "mnemonic_vi": "REM = Rapid Eye Movement. REM sleep = giấc ngủ REM."
+    },
+    {
+      "word": "doze",
+      "lemma": "doze",
+      "ipa": "/dəʊz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to sleep lightly for a short time, especially during the day",
+          "meaning_vi": "ngủ gà gật, chợp mắt",
+          "examples": [
+            {
+              "en": "He dozed off during the meeting.",
+              "vi": "Anh ấy gà gật trong cuộc họp."
+            },
+            {
+              "en": "She dozed in the hammock all afternoon.",
+              "vi": "Cô ấy chợp mắt trên võng cả chiều."
+            },
+            {
+              "en": "Brief dozing reduces fatigue.",
+              "vi": "Chợp mắt ngắn giảm mệt mỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nod off", "drowse"],
+      "antonyms": ["stay alert"],
+      "collocations": [
+        "doze off",
+        "doze in a chair",
+        "afternoon doze",
+        "brief doze",
+        "gentle dozing"
+      ],
+      "etymology_hint": "Possibly Scandinavian origin — Old Norse 'dusa' = to doze. English use from 17th century.",
+      "mnemonic_vi": "DOZE đọc 'đôz' — đỗ ngủ chợp. Doze off = gà gật."
+    },
+    {
+      "word": "wake",
+      "lemma": "wake",
+      "ipa": "/weɪk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop sleeping; become awake",
+          "meaning_vi": "thức dậy",
+          "examples": [
+            {
+              "en": "I wake at 6 every morning.",
+              "vi": "Tôi thức dậy lúc 6 giờ mỗi sáng."
+            },
+            {
+              "en": "The thunder woke the whole household.",
+              "vi": "Tiếng sấm làm cả nhà thức dậy."
+            },
+            {
+              "en": "She wakes refreshed after eight hours.",
+              "vi": "Cô ấy thức dậy sảng khoái sau 8 tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["awaken", "rise"],
+      "antonyms": ["fall asleep"],
+      "collocations": ["wake up", "wake early", "wake refreshed", "wake suddenly", "wake the baby"],
+      "etymology_hint": "From Old English 'wacan' = to arise — Germanic root, same family as 'watch'.",
+      "mnemonic_vi": "WAKE đọc 'uây-k' — uây kéo dậy. Wake up = thức dậy."
+    },
+    {
+      "word": "alarm",
+      "lemma": "alarm",
+      "ipa": "/əˈlɑːm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a device that makes a sound to wake you at a chosen time",
+          "meaning_vi": "đồng hồ báo thức",
+          "examples": [
+            {
+              "en": "Set the alarm for 6:30.",
+              "vi": "Đặt báo thức 6h30."
+            },
+            {
+              "en": "She snoozes the alarm three times.",
+              "vi": "Cô ấy ấn nút hoãn báo thức 3 lần."
+            },
+            {
+              "en": "Smart alarms wake you in light sleep.",
+              "vi": "Báo thức thông minh đánh thức bạn ở giấc ngủ nông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wake-up call"],
+      "antonyms": [],
+      "collocations": [
+        "set the alarm",
+        "alarm clock",
+        "snooze the alarm",
+        "morning alarm",
+        "phone alarm"
+      ],
+      "etymology_hint": "From Italian 'all'arme!' = to arms! — original meaning was a warning call to soldiers.",
+      "mnemonic_vi": "ALARM đọc 'a-lám' — a-la-má dậy! Set the alarm = đặt báo thức."
+    },
+    {
+      "word": "bedside",
+      "lemma": "bedside",
+      "ipa": "/ˈbedsaɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the area beside a bed, often where a small table or lamp is placed",
+          "meaning_vi": "bên cạnh giường, đầu giường",
+          "examples": [
+            {
+              "en": "Keep water at your bedside.",
+              "vi": "Để nước ở đầu giường."
+            },
+            {
+              "en": "She reads a paper book at her bedside.",
+              "vi": "Cô ấy đọc sách giấy ở đầu giường."
+            },
+            {
+              "en": "A bedside lamp helps avoid blue light.",
+              "vi": "Đèn đầu giường tránh ánh sáng xanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bedside table",
+        "bedside lamp",
+        "bedside manner",
+        "at her bedside",
+        "bedside reading"
+      ],
+      "etymology_hint": "Compound: 'bed' + 'side' — domestic term standardized in 17th century.",
+      "mnemonic_vi": "BED (giường) + SIDE (bên) = bên giường. Bedside lamp = đèn đầu giường."
+    },
+    {
+      "word": "drowsy",
+      "lemma": "drowsy",
+      "ipa": "/ˈdraʊzi/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling sleepy and not fully awake",
+          "meaning_vi": "buồn ngủ, lừ đừ",
+          "examples": [
+            {
+              "en": "Don't drive while drowsy.",
+              "vi": "Đừng lái xe khi buồn ngủ."
+            },
+            {
+              "en": "Some medications make you drowsy.",
+              "vi": "Vài loại thuốc khiến bạn lừ đừ."
+            },
+            {
+              "en": "She felt drowsy after a heavy lunch.",
+              "vi": "Cô ấy lừ đừ sau bữa trưa no."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sleepy", "groggy"],
+      "antonyms": ["alert", "wide-awake"],
+      "collocations": [
+        "feel drowsy",
+        "drowsy driving",
+        "make you drowsy",
+        "slightly drowsy",
+        "drowsy after lunch"
+      ],
+      "etymology_hint": "From Middle English 'drusen' = to droop — Germanic root meaning 'to fall heavy'.",
+      "mnemonic_vi": "DROWSY đọc 'drao-zi' — đầu rủ xuống. Feel drowsy = thấy buồn ngủ."
+    },
+    {
+      "word": "restless",
+      "lemma": "restless",
+      "ipa": "/ˈrestləs/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "unable to rest or sleep peacefully; moving around a lot",
+          "meaning_vi": "trằn trọc, không yên giấc",
+          "examples": [
+            {
+              "en": "She spent a restless night before the exam.",
+              "vi": "Cô ấy trải qua đêm trằn trọc trước kỳ thi."
+            },
+            {
+              "en": "The baby was restless and crying.",
+              "vi": "Em bé không yên và khóc."
+            },
+            {
+              "en": "Restless legs syndrome affects sleep quality.",
+              "vi": "Hội chứng chân không yên ảnh hưởng giấc ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agitated", "fidgety"],
+      "antonyms": ["calm", "peaceful"],
+      "collocations": [
+        "restless night",
+        "restless sleeper",
+        "restless legs",
+        "restless mind",
+        "feel restless"
+      ],
+      "etymology_hint": "Compound: 'rest' (Old English 'ræst' = repose) + '-less' (without).",
+      "mnemonic_vi": "REST (nghỉ) + LESS (không) = không nghỉ được. Restless night = đêm trằn trọc."
+    },
+    {
+      "word": "fatigue",
+      "lemma": "fatigue",
+      "ipa": "/fəˈtiːɡ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "extreme tiredness from physical or mental work",
+          "meaning_vi": "sự mệt mỏi, kiệt sức",
+          "examples": [
+            {
+              "en": "Chronic fatigue affects 1% of adults.",
+              "vi": "Mệt mỏi mãn tính ảnh hưởng 1% người lớn."
+            },
+            {
+              "en": "Fight fatigue with naps and hydration.",
+              "vi": "Chống mệt bằng chợp mắt và uống nước."
+            },
+            {
+              "en": "Vietnamese students often face exam fatigue.",
+              "vi": "Sinh viên Việt thường gặp mệt mỏi kỳ thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exhaustion", "weariness"],
+      "antonyms": ["energy"],
+      "collocations": [
+        "chronic fatigue",
+        "mental fatigue",
+        "physical fatigue",
+        "battle fatigue",
+        "decision fatigue"
+      ],
+      "etymology_hint": "From French 'fatigue' = weariness — Latin 'fatigare' (to tire).",
+      "mnemonic_vi": "FATIGUE đọc 'phờ-típ' — phờ phạc. Chronic fatigue = mệt mãn tính."
+    },
+    {
+      "word": "circadian",
+      "lemma": "circadian",
+      "ipa": "/sɜːˈkeɪdiən/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the natural 24-hour rhythm of your body",
+          "meaning_vi": "thuộc nhịp sinh học 24 giờ",
+          "examples": [
+            {
+              "en": "Shift work disrupts your circadian rhythm.",
+              "vi": "Làm ca xáo trộn nhịp circadian."
+            },
+            {
+              "en": "Sunlight resets the circadian clock.",
+              "vi": "Ánh nắng đặt lại đồng hồ circadian."
+            },
+            {
+              "en": "Healthy circadian rhythms improve mood.",
+              "vi": "Nhịp circadian khỏe cải thiện tâm trạng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "circadian rhythm",
+        "circadian clock",
+        "disrupt circadian",
+        "circadian cycle",
+        "healthy circadian"
+      ],
+      "etymology_hint": "Coined 1959 by Franz Halberg — Latin 'circa' (around) + 'dies' (day).",
+      "mnemonic_vi": "CIRCA (quanh) + DIAN (ngày) = quanh ngày. Circadian rhythm = nhịp 24h."
+    },
+    {
+      "word": "nightowl",
+      "lemma": "nightowl",
+      "ipa": "/ˈnaɪtaʊl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who stays up late and feels active at night",
+          "meaning_vi": "cú đêm (người thức khuya, năng động đêm)",
+          "examples": [
+            {
+              "en": "She's a nightowl — peaks at midnight.",
+              "vi": "Cô ấy là cú đêm — đỉnh điểm lúc nửa đêm."
+            },
+            {
+              "en": "Nightowls struggle with 8 a.m. meetings.",
+              "vi": "Cú đêm chật vật với họp 8 giờ sáng."
+            },
+            {
+              "en": "Many Vietnamese students are nightowls.",
+              "vi": "Nhiều sinh viên Việt là cú đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["night-person"],
+      "antonyms": ["earlybird"],
+      "collocations": [
+        "true nightowl",
+        "natural nightowl",
+        "nightowl schedule",
+        "nightowl tendencies",
+        "self-described nightowl"
+      ],
+      "etymology_hint": "Compound: 'night' + 'owl' (a nocturnal bird) — metaphor for late-night activity since 16th century.",
+      "mnemonic_vi": "NIGHT (đêm) + OWL (cú) = cú đêm. True nightowl = cú đêm thực sự."
+    },
+    {
+      "word": "earlybird",
+      "lemma": "earlybird",
+      "ipa": "/ˈɜːlibɜːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who wakes up and works best in the early morning",
+          "meaning_vi": "người dậy sớm (năng động sáng)",
+          "examples": [
+            {
+              "en": "Earlybirds finish key work before 9 a.m.",
+              "vi": "Earlybird hoàn thành việc chính trước 9 giờ."
+            },
+            {
+              "en": "Her earlybird routine includes meditation.",
+              "vi": "Thói quen earlybird của cô ấy gồm thiền."
+            },
+            {
+              "en": "Vietnamese street vendors are dedicated earlybirds.",
+              "vi": "Người bán hàng rong Việt là earlybird đích thực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["morning-person"],
+      "antonyms": ["nightowl"],
+      "collocations": [
+        "true earlybird",
+        "earlybird routine",
+        "earlybird special",
+        "earlybird discount",
+        "natural earlybird"
+      ],
+      "etymology_hint": "From the proverb 'the early bird catches the worm' — coined 1605.",
+      "mnemonic_vi": "EARLY (sớm) + BIRD (chim) = chim dậy sớm. Earlybird routine = thói quen dậy sớm."
+    },
+    {
+      "word": "tossing",
+      "lemma": "toss",
+      "ipa": "/ˈtɒsɪŋ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "moving around in bed because you can't sleep well",
+          "meaning_vi": "trằn trọc xoay người (không ngủ được)",
+          "examples": [
+            {
+              "en": "She spent the night tossing and turning.",
+              "vi": "Cô ấy trằn trọc cả đêm."
+            },
+            {
+              "en": "Tossing prevents deep sleep.",
+              "vi": "Trằn trọc cản giấc ngủ sâu."
+            },
+            {
+              "en": "Stop tossing — try to relax.",
+              "vi": "Thôi trằn trọc — thử thư giãn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["turning"],
+      "antonyms": ["sleeping soundly"],
+      "collocations": [
+        "tossing and turning",
+        "tossing in bed",
+        "spent the night tossing",
+        "endless tossing",
+        "tossing restlessly"
+      ],
+      "etymology_hint": "From verb 'toss' (origin uncertain, possibly Scandinavian) — sleep sense from idiom 'tossing and turning'.",
+      "mnemonic_vi": "TOSS (quăng) + ING = quăng người. Tossing and turning = trằn trọc xoay người."
+    },
+    {
+      "word": "yawn",
+      "lemma": "yawn",
+      "ipa": "/jɔːn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to open your mouth wide and breathe in deeply because you are tired",
+          "meaning_vi": "ngáp",
+          "examples": [
+            {
+              "en": "She yawned through the long lecture.",
+              "vi": "Cô ấy ngáp suốt buổi giảng dài."
+            },
+            {
+              "en": "Yawning is contagious.",
+              "vi": "Ngáp dễ lây."
+            },
+            {
+              "en": "Cover your mouth when you yawn.",
+              "vi": "Che miệng khi ngáp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gape"],
+      "antonyms": [],
+      "collocations": [
+        "yawn loudly",
+        "stifle a yawn",
+        "yawn contagiously",
+        "wide yawn",
+        "yawn and stretch"
+      ],
+      "etymology_hint": "From Old English 'gānian' = to open wide — Germanic root, imitative of the action.",
+      "mnemonic_vi": "YAWN đọc 'yon' — yon há miệng. Stifle a yawn = nén cái ngáp."
+    },
+    {
+      "word": "pillow",
+      "lemma": "pillow",
+      "ipa": "/ˈpɪləʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a soft cushion you rest your head on while sleeping",
+          "meaning_vi": "cái gối",
+          "examples": [
+            {
+              "en": "Choose a pillow that suits your neck.",
+              "vi": "Chọn gối hợp cổ bạn."
+            },
+            {
+              "en": "She fluffs her pillow every night.",
+              "vi": "Cô ấy đập gối mỗi đêm."
+            },
+            {
+              "en": "Vietnamese kids cling to their childhood pillows.",
+              "vi": "Trẻ Việt bám gối tuổi thơ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cushion"],
+      "antonyms": [],
+      "collocations": [
+        "soft pillow",
+        "fluffy pillow",
+        "fluff a pillow",
+        "memory-foam pillow",
+        "pillow case"
+      ],
+      "etymology_hint": "From Old English 'pyle' — Germanic root, related to Latin 'pulvinus' (cushion).",
+      "mnemonic_vi": "PILLOW đọc 'pi-lâu' — pi lậu mềm. Fluff a pillow = đập gối cho phồng."
+    },
+    {
+      "word": "mattress",
+      "lemma": "mattress",
+      "ipa": "/ˈmætrəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large soft pad that you place on a bed to sleep on",
+          "meaning_vi": "nệm, đệm",
+          "examples": [
+            {
+              "en": "Invest in a good mattress — you spend 8 hours on it.",
+              "vi": "Đầu tư nệm tốt — bạn nằm 8 tiếng trên đó."
+            },
+            {
+              "en": "A firm mattress supports your back.",
+              "vi": "Nệm cứng đỡ lưng."
+            },
+            {
+              "en": "Vietnamese families pass mattresses to grandparents.",
+              "vi": "Gia đình Việt nhường nệm cho ông bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bed pad"],
+      "antonyms": [],
+      "collocations": [
+        "firm mattress",
+        "memory-foam mattress",
+        "soft mattress",
+        "buy a mattress",
+        "mattress topper"
+      ],
+      "etymology_hint": "From Arabic 'maṭraḥ' = place where things are thrown — entered English via Italian 'materasso'.",
+      "mnemonic_vi": "MATTRESS đọc 'mát-trợt' — má trợt mềm. Firm mattress = nệm cứng."
+    },
+    {
+      "word": "snooze",
+      "lemma": "snooze",
+      "ipa": "/snuːz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to take a short nap, or delay an alarm for a few more minutes of sleep",
+          "meaning_vi": "ngủ thêm chút, ấn nút hoãn báo thức",
+          "examples": [
+            {
+              "en": "She snoozed the alarm three times.",
+              "vi": "Cô ấy ấn snooze 3 lần."
+            },
+            {
+              "en": "Don't snooze — get up at the first alarm.",
+              "vi": "Đừng snooze — dậy ngay lần báo đầu."
+            },
+            {
+              "en": "A 20-minute snooze refreshes you.",
+              "vi": "Một giấc snooze 20 phút làm bạn sảng khoái."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doze", "nap"],
+      "antonyms": ["stay alert"],
+      "collocations": [
+        "hit snooze",
+        "snooze the alarm",
+        "short snooze",
+        "snooze button",
+        "afternoon snooze"
+      ],
+      "etymology_hint": "American English from 1789 — origin uncertain, possibly imitative of soft breathing.",
+      "mnemonic_vi": "SNOOZE đọc 'snu-z' — snù nhi ngủ thêm. Hit snooze = ấn snooze."
+    }
+  ]
+}
