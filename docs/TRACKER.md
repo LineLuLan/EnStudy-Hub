@@ -460,13 +460,21 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
   - Quality bar: British IPA, VN context dày (P/S/Sunsilk/Lifebuoy/Vinamilk/Watsons/Anessa/Coursera/Udemy/Vietcetera/Mai Châu/Mu Cang Chai/Bến Tre/Đắk Lắk/Mộc Châu/Hội An/Phú Quốc). Collision check via grep — 100/100 NEW.
   - Gates green (Zod ALL VALID). Seed live: **87 lessons / 1740 cards** (~45% Oxford 3000).
   - **P7 totals**: 20 lessons / 400 cards across 4 batches (P7a + P7b + P7c + P7d) hoàn thành 2026-05-17 trong cùng day.
-- [ ] **P8 B1 part 1** (25 lessons / 500 cards) — TODO
+- [~] **P8 B1 part 1** (25 lessons / 500 cards) — 5/25 done (P8a)
+  - [x] **P8a B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `988796a` → merge `c7bb80e` → sync `e4acd1b`):
+    - `abstract-academic/quality-quantity` — level, scale, range, proportion, extent, quantity, quality, portion, majority, minority, capacity, volume, density, rate, ratio, abundance, shortage, surplus, excess, plenty
+    - `abstract-academic/change-process` — alter, transform, develop, evolve, modify, vary, switch, adjust, adapt, reform, expand, reduce, grow, decline, advance, deteriorate, maintain, preserve, sustain, innovate
+    - `society-culture/social-issues` — poverty, inequality, equality, class, protest, movement, welfare, gender, discrimination, corruption, charity, diversity, immigrant, refugee, homeless, volunteer, donate, riot, petition, activist
+    - `abstract-academic/communication` — debate, declare, state, announce, warn, insist, deny, admit, express, describe, complain, criticize, praise, respond, whisper, shout, persuade, convince, negotiate, inform
+    - `work-business/decision-making` — decision, select, determine, hesitate, consult, advise, prefer, option, alternative, weigh, risk, priority, conclusion, compromise, approve, reject, postpone, prioritize, veto, finalize
+    - Gates green. Seed live: **92 lessons / 1840 cards** (~48% Oxford 3000).
+  - [ ] **P8b/c/d/e** (20 lessons remaining) — TODO next sessions
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 87/192 lessons (45%), 1740/3840 cards (45%), ~45% Oxford 3000 coverage. **P7 CLOSED (20/20)**, next: P8 B1 part 1 (25 lessons / 500 cards).
+**Progress**: 92/192 lessons (48%), 1840/3840 cards (48%), ~48% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8a done (5/25)**, next: P8b-e (20 lessons remaining).
 
 ---
 
