@@ -1,0 +1,781 @@
+{
+  "slug": "entrepreneurship",
+  "name": "Entrepreneurship",
+  "description": "Khởi nghiệp B1 — startup, founder, pivot, funding và 16 từ kể câu chuyện một công ty từ ý tưởng đến IPO.",
+  "order_index": 12,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "startup",
+      "lemma": "startup",
+      "ipa": "/ˈstɑːtʌp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small new company, especially in technology, that is just starting to grow",
+          "meaning_vi": "công ty khởi nghiệp",
+          "examples": [
+            {
+              "en": "She left Google to join a fintech startup in Singapore.",
+              "vi": "Cô ấy nghỉ Google để gia nhập một startup fintech ở Singapore."
+            },
+            {
+              "en": "Vietnamese startups raised over $1 billion last year.",
+              "vi": "Các startup Việt huy động hơn 1 tỷ USD năm ngoái."
+            },
+            {
+              "en": "Most startups fail within their first three years.",
+              "vi": "Phần lớn startup thất bại trong 3 năm đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["new venture", "young company"],
+      "antonyms": ["corporation", "incumbent"],
+      "collocations": [
+        "tech startup",
+        "startup founder",
+        "early-stage startup",
+        "startup ecosystem",
+        "join a startup"
+      ],
+      "etymology_hint": "From phrasal verb 'start up' — 1845 'beginning of an action', business sense from 1976 in computing.",
+      "mnemonic_vi": "START + UP = bắt đầu vọt lên. Công ty mới đang 'start up' từ con số 0."
+    },
+    {
+      "word": "founder",
+      "lemma": "founder",
+      "ipa": "/ˈfaʊndə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who starts a company, organization, or institution",
+          "meaning_vi": "người sáng lập",
+          "examples": [
+            {
+              "en": "Phạm Nhật Vượng is the founder of Vingroup.",
+              "vi": "Phạm Nhật Vượng là người sáng lập Vingroup."
+            },
+            {
+              "en": "The founder still owns 40% of the company.",
+              "vi": "Người sáng lập vẫn nắm 40% công ty."
+            },
+            {
+              "en": "Every successful startup needs a passionate founder.",
+              "vi": "Mọi startup thành công đều cần một founder đầy đam mê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["creator", "originator", "establisher"],
+      "antonyms": ["successor", "employee"],
+      "collocations": [
+        "company founder",
+        "co-founder",
+        "founding team",
+        "founder CEO",
+        "solo founder"
+      ],
+      "etymology_hint": "From Old French 'fondeor' = one who establishes — root Latin 'fundus' = base, bottom.",
+      "mnemonic_vi": "FOUND (tìm ra) + ER (người) = người 'tìm ra' công ty. Founder = người đặt nền móng."
+    },
+    {
+      "word": "pivot",
+      "lemma": "pivot",
+      "ipa": "/ˈpɪvət/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a startup) to change business model or product direction significantly",
+          "meaning_vi": "(startup) chuyển hướng chiến lược, đổi mô hình kinh doanh",
+          "examples": [
+            {
+              "en": "Instagram pivoted from a check-in app to photo sharing.",
+              "vi": "Instagram đã pivot từ ứng dụng check-in sang chia sẻ ảnh."
+            },
+            {
+              "en": "We had to pivot after our first idea didn't get users.",
+              "vi": "Chúng tôi phải pivot sau khi ý tưởng đầu không kéo được người dùng."
+            },
+            {
+              "en": "Knowing when to pivot is a key founder skill.",
+              "vi": "Biết khi nào pivot là kỹ năng then chốt của founder."
+            }
+          ]
+        },
+        {
+          "meaning_en": "to turn or rotate around a central point",
+          "meaning_vi": "xoay quanh một điểm",
+          "examples": [
+            {
+              "en": "The dancer pivoted on one foot.",
+              "vi": "Vũ công xoay người trên một chân."
+            },
+            {
+              "en": "The door pivots on a single hinge.",
+              "vi": "Cánh cửa xoay quanh một bản lề."
+            },
+            {
+              "en": "His head pivoted toward the noise.",
+              "vi": "Đầu anh ấy xoay về phía tiếng động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shift", "change direction", "rotate"],
+      "antonyms": ["persist", "stay the course"],
+      "collocations": [
+        "pivot the business",
+        "strategic pivot",
+        "pivot to",
+        "pivot point",
+        "pivot quickly"
+      ],
+      "etymology_hint": "From French 'pivot' = central pin — startup sense popularized by Eric Ries' 'Lean Startup' (2011).",
+      "mnemonic_vi": "PIVOT đọc giống 'pi-vớt' — pivot là 'vớt' công ty bằng cách xoay hướng khi sắp chìm."
+    },
+    {
+      "word": "venture",
+      "lemma": "venture",
+      "ipa": "/ˈventʃə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a new business activity that involves taking risks",
+          "meaning_vi": "dự án kinh doanh mạo hiểm, sự khởi nghiệp",
+          "examples": [
+            {
+              "en": "The two friends launched a venture selling Vietnamese coffee abroad.",
+              "vi": "Hai người bạn khởi động dự án bán cà phê Việt ra nước ngoài."
+            },
+            {
+              "en": "Joint ventures with foreign partners are common in Vietnam.",
+              "vi": "Liên doanh với đối tác nước ngoài phổ biến tại Việt Nam."
+            },
+            {
+              "en": "The venture failed but taught him valuable lessons.",
+              "vi": "Dự án thất bại nhưng dạy anh ấy nhiều bài học giá trị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enterprise", "undertaking", "endeavor"],
+      "antonyms": ["safe investment"],
+      "collocations": [
+        "joint venture",
+        "business venture",
+        "venture capital",
+        "risky venture",
+        "new venture"
+      ],
+      "etymology_hint": "Shortened from 'adventure' (14th century) — both root in Latin 'advenire' = arrive, come to.",
+      "mnemonic_vi": "VENTURE = 'ven-chờ' — bạn ven theo rủi ro, chờ thắng lớn. Joint venture = liên doanh."
+    },
+    {
+      "word": "funding",
+      "lemma": "funding",
+      "ipa": "/ˈfʌndɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money provided by investors or banks to support a business or project",
+          "meaning_vi": "vốn đầu tư, nguồn tài trợ",
+          "examples": [
+            {
+              "en": "The startup raised $5 million in Series A funding.",
+              "vi": "Startup đã gọi được 5 triệu USD ở vòng Series A."
+            },
+            {
+              "en": "Government funding helps small businesses survive.",
+              "vi": "Tài trợ chính phủ giúp doanh nghiệp nhỏ sống sót."
+            },
+            {
+              "en": "Without funding, we can't hire more engineers.",
+              "vi": "Không có vốn thì chúng tôi không tuyển thêm kỹ sư được."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["financing", "capital", "backing"],
+      "antonyms": ["debt", "loss"],
+      "collocations": [
+        "raise funding",
+        "seed funding",
+        "Series A funding",
+        "secure funding",
+        "funding round"
+      ],
+      "etymology_hint": "From 'fund' (1660s) = a permanent stock of money — Latin 'fundus' = bottom, foundation.",
+      "mnemonic_vi": "FUND (quỹ) + ING = đang gom quỹ. Raise funding = gọi vốn."
+    },
+    {
+      "word": "prototype",
+      "lemma": "prototype",
+      "ipa": "/ˈprəʊtətaɪp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the first version of a product, made to test ideas before mass production",
+          "meaning_vi": "mẫu thử, bản prototype",
+          "examples": [
+            {
+              "en": "We built a prototype in two weeks using cardboard.",
+              "vi": "Chúng tôi dựng prototype bằng bìa carton trong hai tuần."
+            },
+            {
+              "en": "The car prototype was tested in extreme weather.",
+              "vi": "Mẫu thử xe đã được test trong điều kiện thời tiết khắc nghiệt."
+            },
+            {
+              "en": "Show your prototype to users early and often.",
+              "vi": "Cho người dùng xem prototype sớm và thường xuyên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["model", "mock-up", "first version"],
+      "antonyms": ["final product", "mass-produced"],
+      "collocations": [
+        "build a prototype",
+        "working prototype",
+        "test a prototype",
+        "prototype design",
+        "early prototype"
+      ],
+      "etymology_hint": "From Greek 'prōtotypon' = primitive form — 'prōtos' (first) + 'typos' (impression, mold).",
+      "mnemonic_vi": "PROTO (đầu tiên) + TYPE (loại) = loại đầu tiên. Prototype = bản đầu tiên để thử."
+    },
+    {
+      "word": "valuation",
+      "lemma": "valuation",
+      "ipa": "/ˌvæljuˈeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the estimated worth of a company, especially one not yet publicly traded",
+          "meaning_vi": "định giá công ty",
+          "examples": [
+            {
+              "en": "VNG reached a $1 billion valuation in 2014.",
+              "vi": "VNG đạt định giá 1 tỷ USD năm 2014."
+            },
+            {
+              "en": "The valuation depends on revenue and growth rate.",
+              "vi": "Định giá phụ thuộc vào doanh thu và tốc độ tăng trưởng."
+            },
+            {
+              "en": "Investors disputed the company's high valuation.",
+              "vi": "Nhà đầu tư phản đối định giá quá cao của công ty."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["appraisal", "estimate", "worth"],
+      "antonyms": ["devaluation"],
+      "collocations": [
+        "high valuation",
+        "company valuation",
+        "valuation cap",
+        "billion-dollar valuation",
+        "pre-money valuation"
+      ],
+      "etymology_hint": "From 'value' + '-ation' — Latin 'valere' = to be worth.",
+      "mnemonic_vi": "VALUE (giá trị) + ATION (sự...) = sự định giá. Billion-dollar valuation = định giá tỷ đô."
+    },
+    {
+      "word": "unicorn",
+      "lemma": "unicorn",
+      "ipa": "/ˈjuːnɪkɔːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a private startup valued at more than $1 billion",
+          "meaning_vi": "kỳ lân (startup giá trị hơn 1 tỷ USD)",
+          "examples": [
+            {
+              "en": "VNPay became Vietnam's first unicorn in 2020.",
+              "vi": "VNPay trở thành kỳ lân đầu tiên của Việt Nam năm 2020."
+            },
+            {
+              "en": "Only a handful of startups ever reach unicorn status.",
+              "vi": "Chỉ ít startup từng đạt được vị thế kỳ lân."
+            },
+            {
+              "en": "Southeast Asia has produced dozens of unicorns.",
+              "vi": "Đông Nam Á đã sản sinh hàng chục công ty kỳ lân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["billion-dollar startup"],
+      "antonyms": ["small business"],
+      "collocations": [
+        "tech unicorn",
+        "unicorn status",
+        "unicorn startup",
+        "future unicorn",
+        "Asian unicorn"
+      ],
+      "etymology_hint": "Term coined by VC Aileen Lee in 2013 — chose 'unicorn' because such valuations were as rare as the mythical creature.",
+      "mnemonic_vi": "UNICORN = kỳ lân thần thoại — startup tỷ đô hiếm như kỳ lân ngoài đời."
+    },
+    {
+      "word": "exit",
+      "lemma": "exit",
+      "ipa": "/ˈeksɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the moment when founders or investors sell their shares, usually via acquisition or IPO",
+          "meaning_vi": "thoái vốn (bán cổ phần để rời công ty)",
+          "examples": [
+            {
+              "en": "The founders made a successful exit when Facebook bought them.",
+              "vi": "Các founder đã exit thành công khi Facebook mua lại."
+            },
+            {
+              "en": "Investors look for startups with a clear exit strategy.",
+              "vi": "Nhà đầu tư tìm các startup có chiến lược exit rõ ràng."
+            },
+            {
+              "en": "Her exit netted her $50 million.",
+              "vi": "Đợt exit của cô ấy mang về 50 triệu USD."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sale", "cash-out", "liquidity event"],
+      "antonyms": ["hold", "stay"],
+      "collocations": [
+        "exit strategy",
+        "successful exit",
+        "exit the business",
+        "early exit",
+        "exit value"
+      ],
+      "etymology_hint": "From Latin 'exitus' = going out — business sense ('selling stake') is modern, from 1980s VC vocabulary.",
+      "mnemonic_vi": "EXIT = lối ra — founder tìm 'lối ra' bằng cách bán cổ phần. Exit strategy = chiến lược thoái vốn."
+    },
+    {
+      "word": "acquire",
+      "lemma": "acquire",
+      "ipa": "/əˈkwaɪə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to buy another company or its assets",
+          "meaning_vi": "mua lại, thâu tóm (công ty)",
+          "examples": [
+            {
+              "en": "Microsoft acquired LinkedIn for $26 billion.",
+              "vi": "Microsoft thâu tóm LinkedIn với giá 26 tỷ USD."
+            },
+            {
+              "en": "We're looking to acquire a smaller competitor.",
+              "vi": "Chúng tôi đang tìm thâu tóm một đối thủ nhỏ hơn."
+            },
+            {
+              "en": "The bank was acquired during the financial crisis.",
+              "vi": "Ngân hàng bị thâu tóm trong khủng hoảng tài chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["buy", "purchase", "take over"],
+      "antonyms": ["sell", "divest"],
+      "collocations": [
+        "acquire a company",
+        "acquire shares",
+        "acquire customers",
+        "fully acquire",
+        "acquire and merge"
+      ],
+      "etymology_hint": "From Latin 'acquirere' = 'ad-' (to) + 'quaerere' (seek, obtain).",
+      "mnemonic_vi": "ACQUIRE = 'a-quai-rờ' — quay tay 'ơ' lấy cả công ty về. Acquire a company = thâu tóm công ty."
+    },
+    {
+      "word": "merge",
+      "lemma": "merge",
+      "ipa": "/mɜːdʒ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of two companies) to combine into a single new company",
+          "meaning_vi": "sáp nhập, hợp nhất (hai công ty)",
+          "examples": [
+            {
+              "en": "The two airlines merged to form a stronger competitor.",
+              "vi": "Hai hãng hàng không sáp nhập để thành đối thủ mạnh hơn."
+            },
+            {
+              "en": "Daimler and Chrysler famously merged in 1998.",
+              "vi": "Daimler và Chrysler nổi tiếng sáp nhập năm 1998."
+            },
+            {
+              "en": "Our team is merging with the analytics group next month.",
+              "vi": "Team của chúng tôi sẽ gộp với nhóm analytics tháng tới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["combine", "unite", "amalgamate"],
+      "antonyms": ["split", "separate", "spin off"],
+      "collocations": [
+        "merge with",
+        "merge two companies",
+        "merger and acquisition",
+        "merge operations",
+        "fully merge"
+      ],
+      "etymology_hint": "From Latin 'mergere' = to dip, plunge — business sense from late 19th century.",
+      "mnemonic_vi": "MERGE đọc 'mơ-giờ' — hai công ty mơ về nhau, giờ thành một. Merge = sáp nhập."
+    },
+    {
+      "word": "cofounder",
+      "lemma": "cofounder",
+      "ipa": "/ˌkəʊˈfaʊndə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one of two or more people who start a company together",
+          "meaning_vi": "đồng sáng lập",
+          "examples": [
+            {
+              "en": "He met his cofounder at university.",
+              "vi": "Anh ấy gặp đồng sáng lập của mình ở đại học."
+            },
+            {
+              "en": "Most successful startups have two or three cofounders.",
+              "vi": "Phần lớn startup thành công có 2-3 đồng sáng lập."
+            },
+            {
+              "en": "The cofounders split equity equally at the start.",
+              "vi": "Các cofounder chia cổ phần đều nhau lúc đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["co-creator", "founding partner"],
+      "antonyms": ["solo founder"],
+      "collocations": [
+        "technical cofounder",
+        "cofounder agreement",
+        "find a cofounder",
+        "trusted cofounder",
+        "cofounder split"
+      ],
+      "etymology_hint": "Prefix 'co-' (together) + 'founder' — popularized by Silicon Valley culture in 2000s.",
+      "mnemonic_vi": "CO (cùng) + FOUNDER (sáng lập) = cùng sáng lập. Technical cofounder = đồng sáng lập kỹ thuật."
+    },
+    {
+      "word": "bootstrap",
+      "lemma": "bootstrap",
+      "ipa": "/ˈbuːtstræp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to build a business using personal savings instead of outside investment",
+          "meaning_vi": "tự thân vận động (xây công ty bằng tiền cá nhân)",
+          "examples": [
+            {
+              "en": "She bootstrapped her café for two years before taking a loan.",
+              "vi": "Cô ấy tự thân vận động quán cà phê hai năm trước khi vay."
+            },
+            {
+              "en": "Bootstrapping forces founders to be lean from day one.",
+              "vi": "Bootstrap buộc founder phải tiết kiệm từ ngày đầu."
+            },
+            {
+              "en": "Many Vietnamese founders bootstrap until they hit profitability.",
+              "vi": "Nhiều founder Việt bootstrap đến khi có lời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-fund", "self-finance"],
+      "antonyms": ["venture-fund", "raise capital"],
+      "collocations": [
+        "bootstrap a startup",
+        "bootstrap the business",
+        "bootstrapped company",
+        "bootstrap to profitability",
+        "bootstrapping phase"
+      ],
+      "etymology_hint": "From idiom 'pull oneself up by one's bootstraps' (19th century) — succeed without outside help.",
+      "mnemonic_vi": "BOOT (giày) + STRAP (dây) = tự kéo dây giày để đứng lên. Bootstrap = tự thân vận động."
+    },
+    {
+      "word": "IPO",
+      "lemma": "IPO",
+      "ipa": "/ˌaɪpiːˈəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Initial Public Offering — the first time a company sells shares to the public on a stock exchange",
+          "meaning_vi": "IPO, phát hành cổ phiếu lần đầu ra công chúng",
+          "examples": [
+            {
+              "en": "Vinhomes had Vietnam's largest IPO in 2018.",
+              "vi": "Vinhomes có đợt IPO lớn nhất Việt Nam năm 2018."
+            },
+            {
+              "en": "An IPO is often the dream exit for founders.",
+              "vi": "IPO thường là exit trong mơ của các founder."
+            },
+            {
+              "en": "The company delayed its IPO due to market conditions.",
+              "vi": "Công ty hoãn IPO vì điều kiện thị trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["going public", "stock market debut"],
+      "antonyms": ["private placement", "delisting"],
+      "collocations": ["file for IPO", "successful IPO", "IPO price", "post-IPO", "IPO roadshow"],
+      "etymology_hint": "Acronym standardized in the 1980s — 'Initial Public Offering' replaced earlier terms like 'going public'.",
+      "mnemonic_vi": "I-P-O = 'ai-pi-ô' — ai cũng được mua. IPO = bán cổ phiếu ra công chúng lần đầu."
+    },
+    {
+      "word": "runway",
+      "lemma": "runway",
+      "ipa": "/ˈrʌnweɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the number of months a startup can operate before running out of cash",
+          "meaning_vi": "thời gian sống còn (startup còn tiền hoạt động được bao lâu)",
+          "examples": [
+            {
+              "en": "We have 18 months of runway at current burn rate.",
+              "vi": "Chúng tôi còn 18 tháng runway với mức burn hiện tại."
+            },
+            {
+              "en": "Short runway forces tough cost cuts.",
+              "vi": "Runway ngắn buộc phải cắt giảm chi phí mạnh tay."
+            },
+            {
+              "en": "Raising another round extended our runway by a year.",
+              "vi": "Gọi thêm vòng vốn kéo dài runway thêm một năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cash runway", "financial runway"],
+      "antonyms": ["out of cash"],
+      "collocations": [
+        "extend the runway",
+        "cash runway",
+        "short runway",
+        "runway calculation",
+        "burn through runway"
+      ],
+      "etymology_hint": "Borrowed from aviation — startup needs 'runway' (distance/time) before it can 'take off' (become profitable).",
+      "mnemonic_vi": "RUN (chạy) + WAY (đường) = đường băng. Startup chạy trên runway tiền mặt — hết thì rơi."
+    },
+    {
+      "word": "burn",
+      "lemma": "burn",
+      "ipa": "/bɜːn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to spend cash quickly, especially for a startup not yet profitable",
+          "meaning_vi": "đốt tiền (tiêu tiền nhanh khi chưa có lời)",
+          "examples": [
+            {
+              "en": "The startup is burning $500,000 a month on marketing.",
+              "vi": "Startup đang đốt 500.000 USD mỗi tháng cho marketing."
+            },
+            {
+              "en": "If we keep burning at this rate, we'll need more funding.",
+              "vi": "Nếu tiếp tục đốt với tốc độ này thì sẽ cần gọi vốn thêm."
+            },
+            {
+              "en": "Investors hate seeing startups burn cash on perks.",
+              "vi": "Nhà đầu tư ghét nhìn startup đốt tiền cho phúc lợi vớ vẩn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spend rapidly", "consume cash"],
+      "antonyms": ["save", "conserve cash"],
+      "collocations": [
+        "burn rate",
+        "burn cash",
+        "burn through funding",
+        "monthly burn",
+        "control the burn"
+      ],
+      "etymology_hint": "From Old English 'beornan' = to be on fire — financial metaphor 'burning cash' from late 1990s dot-com era.",
+      "mnemonic_vi": "BURN = đốt — startup đốt tiền như đốt rơm. Burn rate = tốc độ đốt tiền."
+    },
+    {
+      "word": "traction",
+      "lemma": "traction",
+      "ipa": "/ˈtrækʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "evidence that customers want your product, shown by growth in users or revenue",
+          "meaning_vi": "đà tăng trưởng, dấu hiệu sản phẩm có người dùng",
+          "examples": [
+            {
+              "en": "Investors won't fund a startup without traction.",
+              "vi": "Nhà đầu tư không rót vốn cho startup không có traction."
+            },
+            {
+              "en": "We gained traction after going viral on TikTok.",
+              "vi": "Chúng tôi có traction sau khi viral trên TikTok."
+            },
+            {
+              "en": "Early traction came from a Reddit post.",
+              "vi": "Traction đầu tiên đến từ một bài Reddit."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["momentum", "growth", "pull"],
+      "antonyms": ["stagnation", "no users"],
+      "collocations": [
+        "gain traction",
+        "early traction",
+        "user traction",
+        "show traction",
+        "lose traction"
+      ],
+      "etymology_hint": "From Latin 'tractio' = pulling — startup sense (pulling in users) from 2000s lean startup vocabulary.",
+      "mnemonic_vi": "TRACT (kéo) + ION = sự kéo. Traction = sản phẩm 'kéo' được người dùng. Gain traction = lấy đà."
+    },
+    {
+      "word": "hustle",
+      "lemma": "hustle",
+      "ipa": "/ˈhʌsl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "energetic, determined effort to make a business succeed",
+          "meaning_vi": "tinh thần xông pha, làm việc cật lực",
+          "examples": [
+            {
+              "en": "Her hustle got the company its first 100 customers.",
+              "vi": "Tinh thần xông pha của cô ấy mang về 100 khách hàng đầu tiên."
+            },
+            {
+              "en": "Side hustle culture is huge among young Vietnamese.",
+              "vi": "Văn hóa side hustle rất thịnh ở giới trẻ Việt."
+            },
+            {
+              "en": "Talent matters, but hustle wins in the long run.",
+              "vi": "Tài năng quan trọng, nhưng cày cuốc thắng về lâu dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grind", "drive", "graft"],
+      "antonyms": ["laziness", "complacency"],
+      "collocations": [
+        "side hustle",
+        "hustle culture",
+        "out-hustle",
+        "constant hustle",
+        "founder hustle"
+      ],
+      "etymology_hint": "From Dutch 'husselen' = shake — modern startup sense popularized by Gary Vaynerchuk in 2010s.",
+      "mnemonic_vi": "HUSTLE đọc 'hớt-sồ' — hớt tay từng giây để bán hàng. Side hustle = nghề tay trái."
+    },
+    {
+      "word": "incubator",
+      "lemma": "incubator",
+      "ipa": "/ˈɪŋkjʊbeɪtə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a program or organization that supports very early-stage startups with workspace, mentoring, and small funding",
+          "meaning_vi": "vườn ươm khởi nghiệp",
+          "examples": [
+            {
+              "en": "Their startup graduated from a Singapore incubator.",
+              "vi": "Startup của họ tốt nghiệp từ một vườn ươm ở Singapore."
+            },
+            {
+              "en": "The incubator provides $50,000 and three months of mentoring.",
+              "vi": "Vườn ươm hỗ trợ 50.000 USD và 3 tháng cố vấn."
+            },
+            {
+              "en": "Y Combinator is the world's most famous startup incubator.",
+              "vi": "Y Combinator là vườn ươm startup nổi tiếng nhất thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accelerator (similar)", "startup program"],
+      "antonyms": ["established corporation"],
+      "collocations": [
+        "startup incubator",
+        "tech incubator",
+        "join an incubator",
+        "incubator program",
+        "graduate from incubator"
+      ],
+      "etymology_hint": "From Latin 'incubare' = to lie on, hatch — applied to startups by analogy with hatching eggs.",
+      "mnemonic_vi": "INCUBATOR đọc 'ing-kiu-bây-tờ' — máy ấp trứng. Vườn ươm 'ấp' startup non thành startup khỏe."
+    },
+    {
+      "word": "disrupt",
+      "lemma": "disrupt",
+      "ipa": "/dɪsˈrʌpt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change an established industry radically with new technology or business model",
+          "meaning_vi": "phá vỡ ngành công nghiệp (bằng công nghệ hoặc mô hình mới)",
+          "examples": [
+            {
+              "en": "Grab disrupted the traditional taxi industry in Vietnam.",
+              "vi": "Grab đã phá vỡ ngành taxi truyền thống ở Việt Nam."
+            },
+            {
+              "en": "Netflix disrupted Blockbuster within a decade.",
+              "vi": "Netflix đã phá vỡ Blockbuster trong một thập kỷ."
+            },
+            {
+              "en": "AI is about to disrupt every white-collar profession.",
+              "vi": "AI sắp sửa phá vỡ mọi nghề văn phòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["upend", "transform", "revolutionize"],
+      "antonyms": ["preserve", "maintain"],
+      "collocations": [
+        "disrupt the market",
+        "disrupt an industry",
+        "fully disrupt",
+        "disruptive technology",
+        "disruptive innovation"
+      ],
+      "etymology_hint": "From Latin 'disrumpere' = break apart — modern business sense from Clayton Christensen's 'The Innovator's Dilemma' (1997).",
+      "mnemonic_vi": "DIS (phá) + RUPT (vỡ) = phá vỡ. Disrupt the market = đảo lộn thị trường."
+    }
+  ]
+}

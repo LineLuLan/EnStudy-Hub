@@ -1,0 +1,733 @@
+{
+  "slug": "music-production",
+  "name": "Music Production",
+  "description": "Sản xuất âm nhạc B1 — beat, lyrics, chord, remix và 16 từ về thế giới phòng thu hiện đại.",
+  "order_index": 9,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "beat",
+      "lemma": "beat",
+      "ipa": "/biːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the rhythmic pattern of a song, usually created by drums and bass",
+          "meaning_vi": "nhịp, beat (trong âm nhạc)",
+          "examples": [
+            {
+              "en": "This song has a slow, jazzy beat.",
+              "vi": "Bài này có beat chậm và jazzy."
+            },
+            {
+              "en": "Vietnamese producers are making world-class hip-hop beats.",
+              "vi": "Producer Việt đang làm beat hip-hop đẳng cấp thế giới."
+            },
+            {
+              "en": "He bought the beat online for $30.",
+              "vi": "Anh ấy mua beat online giá 30 USD."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rhythm", "pulse", "groove"],
+      "antonyms": ["silence", "stillness"],
+      "collocations": [
+        "drop a beat",
+        "catchy beat",
+        "beat maker",
+        "rap over a beat",
+        "produce beats"
+      ],
+      "etymology_hint": "From Old English 'beatan' = to strike — musical sense from 1670s, beat-making subculture grew with hip-hop in 1980s.",
+      "mnemonic_vi": "BEAT = đập — tim đập theo beat. Catchy beat = nhịp gây nghiện."
+    },
+    {
+      "word": "lyrics",
+      "lemma": "lyrics",
+      "ipa": "/ˈlɪrɪks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the words of a song",
+          "meaning_vi": "lời bài hát",
+          "examples": [
+            {
+              "en": "The lyrics tell a story about losing love.",
+              "vi": "Lời bài hát kể câu chuyện mất đi tình yêu."
+            },
+            {
+              "en": "Sơn Tùng writes most of his own lyrics.",
+              "vi": "Sơn Tùng tự viết phần lớn lời bài hát của mình."
+            },
+            {
+              "en": "I memorized every word of the lyrics.",
+              "vi": "Tôi thuộc lòng từng chữ trong lời bài hát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["words", "verses", "text"],
+      "antonyms": ["instrumental", "music only"],
+      "collocations": [
+        "write lyrics",
+        "song lyrics",
+        "memorize lyrics",
+        "powerful lyrics",
+        "lyrics video"
+      ],
+      "etymology_hint": "From Greek 'lyrikos' = singing to the lyre — modern sense 'song words' became dominant in early 20th century.",
+      "mnemonic_vi": "LYRICS đọc 'lý-rít' — lý do làm nhạc là lời. Memorize lyrics = thuộc lời."
+    },
+    {
+      "word": "riff",
+      "lemma": "riff",
+      "ipa": "/rɪf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short, repeated musical phrase, usually played on guitar or piano",
+          "meaning_vi": "đoạn riff (đoạn nhạc ngắn lặp lại, thường ở guitar)",
+          "examples": [
+            {
+              "en": "The opening riff of 'Smoke on the Water' is iconic.",
+              "vi": "Đoạn riff mở đầu 'Smoke on the Water' rất kinh điển."
+            },
+            {
+              "en": "He played the same riff over and over until it stuck.",
+              "vi": "Anh ấy chơi đi chơi lại đoạn riff đến khi thuộc."
+            },
+            {
+              "en": "A great riff can carry an entire song.",
+              "vi": "Một đoạn riff hay có thể gánh cả bài hát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lick", "hook (similar)", "motif"],
+      "antonyms": ["solo", "improvisation"],
+      "collocations": ["guitar riff", "killer riff", "play a riff", "opening riff", "iconic riff"],
+      "etymology_hint": "American jazz slang from 1930s — possibly shortened from 'refrain'.",
+      "mnemonic_vi": "RIFF đọc 'ríp' — như tiếng 'ríp' của guitar điện. Guitar riff = đoạn riff guitar."
+    },
+    {
+      "word": "chord",
+      "lemma": "chord",
+      "ipa": "/kɔːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "three or more musical notes played together to create harmony",
+          "meaning_vi": "hợp âm",
+          "examples": [
+            {
+              "en": "She learned three guitar chords in one afternoon.",
+              "vi": "Cô ấy học được 3 hợp âm guitar trong một buổi chiều."
+            },
+            {
+              "en": "Most pop songs use the same four chords.",
+              "vi": "Phần lớn nhạc pop dùng chung 4 hợp âm."
+            },
+            {
+              "en": "The minor chord gave the song a sad feeling.",
+              "vi": "Hợp âm thứ mang lại cảm giác buồn cho bài hát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["harmony"],
+      "antonyms": ["single note"],
+      "collocations": [
+        "chord progression",
+        "minor chord",
+        "major chord",
+        "play a chord",
+        "chord changes"
+      ],
+      "etymology_hint": "Shortened from 'accord' (14th century) = agreement, harmony — 'h' added in 16th century by false analogy with 'chord' (string).",
+      "mnemonic_vi": "CHORD đọc 'cót' — nhiều note cùng cót lên một lúc. Chord progression = vòng hợp âm."
+    },
+    {
+      "word": "tempo",
+      "lemma": "tempo",
+      "ipa": "/ˈtempəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the speed at which a piece of music is played",
+          "meaning_vi": "tốc độ, nhịp độ của bài hát",
+          "examples": [
+            {
+              "en": "Speed up the tempo to make it more danceable.",
+              "vi": "Tăng tempo lên cho dễ nhảy hơn."
+            },
+            {
+              "en": "Most ballads have a slow tempo around 70 BPM.",
+              "vi": "Phần lớn ballad có tempo chậm khoảng 70 BPM."
+            },
+            {
+              "en": "The tempo dropped suddenly in the bridge.",
+              "vi": "Tempo bỗng chậm lại ở đoạn bridge."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["speed", "pace", "BPM"],
+      "antonyms": [],
+      "collocations": ["fast tempo", "slow tempo", "change tempo", "set the tempo", "tempo change"],
+      "etymology_hint": "From Italian 'tempo' = time — borrowed into English in 17th century music theory.",
+      "mnemonic_vi": "TEMPO đọc 'tem-pô' — em pô đỡ phải nhanh, tempo nhanh thì nhịp nhanh. Fast tempo = tempo nhanh."
+    },
+    {
+      "word": "remix",
+      "lemma": "remix",
+      "ipa": "/ˈriːmɪks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a new version of a song made by changing or adding to the original",
+          "meaning_vi": "bản remix, phiên bản phối lại",
+          "examples": [
+            {
+              "en": "The remix went viral on TikTok last week.",
+              "vi": "Bản remix viral trên TikTok tuần trước."
+            },
+            {
+              "en": "DJs often play remixes at clubs instead of originals.",
+              "vi": "DJ thường chơi remix ở club thay vì bản gốc."
+            },
+            {
+              "en": "She released an EDM remix of her own ballad.",
+              "vi": "Cô ấy ra bản EDM remix từ ballad của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rework", "rearrangement"],
+      "antonyms": ["original", "acoustic version"],
+      "collocations": [
+        "EDM remix",
+        "official remix",
+        "release a remix",
+        "remix version",
+        "club remix"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'mix' — emerged in 1970s Jamaican dub culture, spread globally with hip-hop.",
+      "mnemonic_vi": "RE (lại) + MIX (trộn) = trộn lại. Remix = phối lại bản nhạc."
+    },
+    {
+      "word": "sample",
+      "lemma": "sample",
+      "ipa": "/ˈsɑːmpl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short piece of recorded sound taken from one song to use in another",
+          "meaning_vi": "đoạn sample (đoạn nhạc lấy từ bài khác)",
+          "examples": [
+            {
+              "en": "The hit song uses a sample from a 1970s soul track.",
+              "vi": "Bài hit dùng sample từ một bản soul thập niên 70."
+            },
+            {
+              "en": "Clearing samples can be expensive and slow.",
+              "vi": "Xin phép dùng sample có thể tốn kém và chậm."
+            },
+            {
+              "en": "Kanye West built his career on creative samples.",
+              "vi": "Kanye West xây sự nghiệp dựa trên sample sáng tạo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clip", "snippet", "loop"],
+      "antonyms": ["original recording"],
+      "collocations": [
+        "music sample",
+        "vocal sample",
+        "clear a sample",
+        "drum sample",
+        "use a sample"
+      ],
+      "etymology_hint": "From Old French 'essample' = example — music sense from late 1970s with the rise of digital samplers.",
+      "mnemonic_vi": "SAMPLE = mẫu thử — lấy một mẫu âm thanh nhỏ. Vocal sample = sample giọng hát."
+    },
+    {
+      "word": "producer",
+      "lemma": "producer",
+      "ipa": "/prəˈdjuːsə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who oversees and shapes the recording of a song or album",
+          "meaning_vi": "nhà sản xuất âm nhạc, producer",
+          "examples": [
+            {
+              "en": "Touliver is one of Vietnam's most famous producers.",
+              "vi": "Touliver là một trong những producer nổi tiếng nhất Việt Nam."
+            },
+            {
+              "en": "A good producer brings out the best in the artist.",
+              "vi": "Producer giỏi khơi ra cái tốt nhất ở nghệ sĩ."
+            },
+            {
+              "en": "She works as both singer and producer.",
+              "vi": "Cô ấy vừa làm ca sĩ vừa làm producer."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beatmaker (informal)", "music producer"],
+      "antonyms": ["performer (only)"],
+      "collocations": [
+        "music producer",
+        "hire a producer",
+        "executive producer",
+        "famous producer",
+        "freelance producer"
+      ],
+      "etymology_hint": "From Latin 'producere' = bring forth — music industry sense dates to early 20th century.",
+      "mnemonic_vi": "PRODUCE (sản xuất) + R (người) = nhà sản xuất. Music producer = producer âm nhạc."
+    },
+    {
+      "word": "vocal",
+      "lemma": "vocal",
+      "ipa": "/ˈvəʊkl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the singing performance on a track; the human voice as a musical element",
+          "meaning_vi": "phần hát, giọng hát trong bài nhạc",
+          "examples": [
+            {
+              "en": "We recorded her vocals in one take.",
+              "vi": "Chúng tôi thu vocal của cô ấy chỉ trong một lần."
+            },
+            {
+              "en": "The vocals were too quiet in the final mix.",
+              "vi": "Phần vocal quá nhỏ trong bản mix cuối."
+            },
+            {
+              "en": "His vocals carry real emotion.",
+              "vi": "Giọng hát của anh ấy mang cảm xúc thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["singing", "voice track"],
+      "antonyms": ["instrumental"],
+      "collocations": [
+        "lead vocal",
+        "backing vocal",
+        "record vocals",
+        "powerful vocals",
+        "vocal track"
+      ],
+      "etymology_hint": "From Latin 'vocalis' = sounding, of the voice — noun use as 'singing performance' grew from 1920s recording industry.",
+      "mnemonic_vi": "VOCAL = vô-cồ — vô bằng giọng. Lead vocal = giọng chính."
+    },
+    {
+      "word": "harmony",
+      "lemma": "harmony",
+      "ipa": "/ˈhɑːməni/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "musical notes sung or played together to create a pleasant sound",
+          "meaning_vi": "bè, hòa âm",
+          "examples": [
+            {
+              "en": "The three singers blended in perfect harmony.",
+              "vi": "Ba ca sĩ hòa quyện trong bè hoàn hảo."
+            },
+            {
+              "en": "She sang the harmony part while her brother sang the melody.",
+              "vi": "Cô ấy hát bè còn anh trai hát giai điệu chính."
+            },
+            {
+              "en": "Adding harmony makes a song feel richer.",
+              "vi": "Thêm bè làm bài hát dày hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chorus harmony", "blending"],
+      "antonyms": ["dissonance", "off-key"],
+      "collocations": [
+        "vocal harmony",
+        "sing in harmony",
+        "harmony part",
+        "tight harmony",
+        "three-part harmony"
+      ],
+      "etymology_hint": "From Greek 'harmonia' = joining, agreement — applied to music since classical antiquity.",
+      "mnemonic_vi": "HARMONY = hài hòa. Sing in harmony = hát hòa âm, hát bè."
+    },
+    {
+      "word": "rhythm",
+      "lemma": "rhythm",
+      "ipa": "/ˈrɪðəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a regular repeated pattern of sounds in music",
+          "meaning_vi": "tiết tấu, nhịp điệu",
+          "examples": [
+            {
+              "en": "Latin music has very distinctive rhythms.",
+              "vi": "Nhạc Latin có tiết tấu rất đặc trưng."
+            },
+            {
+              "en": "He has a great sense of rhythm.",
+              "vi": "Anh ấy có cảm thụ tiết tấu rất tốt."
+            },
+            {
+              "en": "The drummer keeps the rhythm steady.",
+              "vi": "Tay trống giữ nhịp đều đặn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beat", "pulse", "cadence"],
+      "antonyms": ["arrhythmia", "off-beat"],
+      "collocations": [
+        "sense of rhythm",
+        "steady rhythm",
+        "complex rhythm",
+        "rhythm section",
+        "feel the rhythm"
+      ],
+      "etymology_hint": "From Greek 'rhuthmos' = measured motion, flow — entered English via Latin in 16th century.",
+      "mnemonic_vi": "RHYTHM = 'ri-thừm' — rì rầm theo nhịp. Sense of rhythm = cảm nhịp."
+    },
+    {
+      "word": "bass",
+      "lemma": "bass",
+      "ipa": "/beɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the lowest-pitched part of a song, often played on a bass guitar",
+          "meaning_vi": "bass, phần âm trầm",
+          "examples": [
+            {
+              "en": "The bass line drives the whole song.",
+              "vi": "Bass line dẫn dắt cả bài hát."
+            },
+            {
+              "en": "Turn up the bass on your speakers.",
+              "vi": "Tăng bass loa lên đi."
+            },
+            {
+              "en": "He's been playing bass guitar since age 12.",
+              "vi": "Anh ấy chơi bass guitar từ năm 12 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["low end"],
+      "antonyms": ["treble", "high notes"],
+      "collocations": ["bass guitar", "bass line", "deep bass", "play bass", "bass drop"],
+      "etymology_hint": "Variant of 'base' (= low) — distinct from 'bass' (fish) which comes from Old English 'bærs'.",
+      "mnemonic_vi": "BASS đọc 'bây-s' — âm trầm 'bay' sâu xuống dạ. Bass line = đường bass."
+    },
+    {
+      "word": "synth",
+      "lemma": "synth",
+      "ipa": "/sɪnθ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "short for synthesizer — an electronic keyboard that creates a wide range of sounds",
+          "meaning_vi": "đàn synth, nhạc cụ điện tử tổng hợp",
+          "examples": [
+            {
+              "en": "The song opens with a dreamy synth pad.",
+              "vi": "Bài hát mở đầu bằng một đoạn synth pad mơ màng."
+            },
+            {
+              "en": "She layered three synths on top of each other.",
+              "vi": "Cô ấy chồng ba lớp synth lên nhau."
+            },
+            {
+              "en": "Modern synths can mimic almost any instrument.",
+              "vi": "Synth hiện đại có thể giả lập gần như mọi nhạc cụ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["synthesizer", "keyboard"],
+      "antonyms": ["acoustic instrument"],
+      "collocations": ["synth pad", "synth bass", "analog synth", "synth lead", "vintage synth"],
+      "etymology_hint": "Shortened from 'synthesizer' (1950s) — Greek root 'synthesis' = putting together.",
+      "mnemonic_vi": "SYNTH = 'xin' (cho) + 'th' (tiếng) — xin máy tổng hợp tiếng. Synth pad = lớp đệm synth."
+    },
+    {
+      "word": "record",
+      "lemma": "record",
+      "ipa": "/rɪˈkɔːd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to capture sound or music using equipment so it can be played back later",
+          "meaning_vi": "thu âm",
+          "examples": [
+            {
+              "en": "She recorded her first song at home with a laptop.",
+              "vi": "Cô ấy thu bài hát đầu tiên tại nhà bằng laptop."
+            },
+            {
+              "en": "We recorded the album in three weeks.",
+              "vi": "Chúng tôi thu cả album trong 3 tuần."
+            },
+            {
+              "en": "He records his ideas as voice memos before forgetting them.",
+              "vi": "Anh ấy thu ý tưởng dưới dạng ghi âm trước khi quên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["capture", "lay down", "track"],
+      "antonyms": ["perform live", "improvise"],
+      "collocations": [
+        "record a song",
+        "record vocals",
+        "record an album",
+        "record live",
+        "record at home"
+      ],
+      "etymology_hint": "From Latin 'recordari' = call to mind, originally 'to learn by heart' — audio sense from 1888 with Edison's phonograph.",
+      "mnemonic_vi": "RECORD đọc 'ri-cọt' (verb) — ri lại để nhớ. Record vocals = thu vocal."
+    },
+    {
+      "word": "mix",
+      "lemma": "mix",
+      "ipa": "/mɪks/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to combine all recorded tracks of a song into a balanced final stereo file",
+          "meaning_vi": "mix (cân bằng các track thành bản hoàn chỉnh)",
+          "examples": [
+            {
+              "en": "He mixed the song until every instrument sat right.",
+              "vi": "Anh ấy mix bài hát đến khi mọi nhạc cụ đều đúng chỗ."
+            },
+            {
+              "en": "We sent the tracks to a professional mix engineer.",
+              "vi": "Chúng tôi gửi track cho mix engineer chuyên nghiệp."
+            },
+            {
+              "en": "A great mix makes a good song sound amazing.",
+              "vi": "Bản mix hay khiến bài tốt thành bài tuyệt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["blend", "balance"],
+      "antonyms": ["isolate", "separate"],
+      "collocations": ["mix a song", "mix engineer", "final mix", "mix and master", "mix down"],
+      "etymology_hint": "From Latin 'miscere' = to mix — audio sense developed in mid-20th century studios.",
+      "mnemonic_vi": "MIX = trộn. Mix a song = trộn nhạc cụ lại thành bản hoàn chỉnh."
+    },
+    {
+      "word": "master",
+      "lemma": "master",
+      "ipa": "/ˈmɑːstə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to finalize a mixed track for release, adjusting overall loudness and clarity",
+          "meaning_vi": "master (hoàn thiện bản thu cuối để phát hành)",
+          "examples": [
+            {
+              "en": "After mixing, we mastered the album for streaming platforms.",
+              "vi": "Sau khi mix, chúng tôi master album cho các nền tảng stream."
+            },
+            {
+              "en": "Mastering makes the song sound consistent across speakers.",
+              "vi": "Mastering giúp bài hát nghe ổn trên mọi loa."
+            },
+            {
+              "en": "She mastered the track herself using free software.",
+              "vi": "Cô ấy tự master bằng phần mềm miễn phí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finalize", "polish"],
+      "antonyms": ["leave raw"],
+      "collocations": [
+        "master a track",
+        "mastering engineer",
+        "final master",
+        "master for streaming",
+        "mix and master"
+      ],
+      "etymology_hint": "From Latin 'magister' = chief, teacher — audio sense from 'master copy' (1940s vinyl pressing).",
+      "mnemonic_vi": "MASTER = bậc thầy — bản master là bản cuối cùng, hoàn thiện nhất."
+    },
+    {
+      "word": "track",
+      "lemma": "track",
+      "ipa": "/træk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a single song on an album or in a recording session",
+          "meaning_vi": "bài, track (một bài trong album)",
+          "examples": [
+            {
+              "en": "Track 5 is my favorite on the album.",
+              "vi": "Track 5 là bài tôi thích nhất trong album."
+            },
+            {
+              "en": "The bonus track was only available in Japan.",
+              "vi": "Bonus track chỉ có ở phiên bản Nhật."
+            },
+            {
+              "en": "He uploaded the track to SoundCloud last night.",
+              "vi": "Anh ấy upload track lên SoundCloud tối qua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["song", "cut"],
+      "antonyms": ["whole album"],
+      "collocations": [
+        "bonus track",
+        "title track",
+        "instrumental track",
+        "upload a track",
+        "stand-out track"
+      ],
+      "etymology_hint": "From Old French 'trac' = trail, footprint — audio sense from 'track on a vinyl record' (grooves), 1900s.",
+      "mnemonic_vi": "TRACK = đường ray — mỗi bài là một track riêng trên album."
+    },
+    {
+      "word": "album",
+      "lemma": "album",
+      "ipa": "/ˈælbəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a collection of songs released together by an artist",
+          "meaning_vi": "album nhạc",
+          "examples": [
+            {
+              "en": "Her debut album sold a million copies.",
+              "vi": "Album đầu tay của cô ấy bán được một triệu bản."
+            },
+            {
+              "en": "Most albums today are released digitally first.",
+              "vi": "Phần lớn album ngày nay phát hành digital trước."
+            },
+            {
+              "en": "Sơn Tùng's latest album dropped last month.",
+              "vi": "Album mới nhất của Sơn Tùng ra tháng trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["LP", "record"],
+      "antonyms": ["single", "EP"],
+      "collocations": [
+        "debut album",
+        "release an album",
+        "studio album",
+        "concept album",
+        "live album"
+      ],
+      "etymology_hint": "From Latin 'album' = white tablet — applied to vinyl record collections from 1930s.",
+      "mnemonic_vi": "ALBUM = anh-bum — bum cả tệp bài trong một album. Debut album = album đầu tay."
+    },
+    {
+      "word": "DJ",
+      "lemma": "DJ",
+      "ipa": "/ˌdiːˈdʒeɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Disc Jockey — a person who plays recorded music for an audience, often mixing tracks live",
+          "meaning_vi": "DJ, người chơi nhạc",
+          "examples": [
+            {
+              "en": "The DJ kept the dance floor full all night.",
+              "vi": "DJ giữ sàn nhảy đông cả đêm."
+            },
+            {
+              "en": "Famous DJs can earn $100,000 per show.",
+              "vi": "DJ nổi tiếng kiếm 100.000 USD mỗi show."
+            },
+            {
+              "en": "She started as a bedroom DJ before going professional.",
+              "vi": "Cô ấy bắt đầu làm DJ trong phòng ngủ trước khi lên chuyên nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disc jockey"],
+      "antonyms": ["live band", "vocalist"],
+      "collocations": ["club DJ", "DJ set", "famous DJ", "DJ booth", "wedding DJ"],
+      "etymology_hint": "Coined 1935 by US commentator Walter Winchell — 'disc' (record) + 'jockey' (operator).",
+      "mnemonic_vi": "DJ = Disc Jockey — 'người cưỡi đĩa nhạc'. Club DJ = DJ club."
+    },
+    {
+      "word": "groove",
+      "lemma": "groove",
+      "ipa": "/ɡruːv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the feeling of rhythm that makes you want to move; a tight, repeated rhythmic feel",
+          "meaning_vi": "groove (cảm giác nhịp điệu cuốn người nghe)",
+          "examples": [
+            {
+              "en": "The bass and drums lock into a deep groove.",
+              "vi": "Bass và trống ăn khớp tạo thành groove sâu lắng."
+            },
+            {
+              "en": "You can't help dancing when the groove is right.",
+              "vi": "Không nhịn được nhảy khi groove chuẩn."
+            },
+            {
+              "en": "Funk is all about the groove.",
+              "vi": "Funk là tất cả về groove."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["feel", "pocket", "rhythm"],
+      "antonyms": ["stiffness", "no feel"],
+      "collocations": [
+        "find the groove",
+        "deep groove",
+        "lock into a groove",
+        "groove section",
+        "funky groove"
+      ],
+      "etymology_hint": "From Dutch 'groef' = furrow — music sense from vinyl record grooves; metaphor for 'being in the rhythm'.",
+      "mnemonic_vi": "GROOVE đọc 'gru-vờ' — như rãnh trên đĩa nhạc, nhạc trượt theo. Find the groove = bắt nhịp."
+    }
+  ]
+}
