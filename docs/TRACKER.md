@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P9e B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `110c582` → merge `d580ddd` → sync `806cc65`) — **P9 CLOSED 25/25**:
+    - `daily-life/personal-finance` — interest-rate, emergency-fund, frugal, splurge, expense, income, insurance, earn, broke, paycheck, automate, stash, set-aside, side-income, recurring, subscription, thrifty, impulsive, planner, miser
+    - `entertainment/board-games` — pawn, strategy, chess, checkers, opponent, turn, roll, bluff, deck, card, rook, knight, bishop, queen, king, poker, gamble, shuffle, bet, wager
+    - `people/networking` — connect, contact, business-card, reach-out, warm-lead, small-talk, LinkedIn, elevator-pitch, icebreaker, mingle, referral, introduction, handshake, name-drop, prospect, networking-event, keep-in-touch, schmooze, rapport, cold-email
+    - `work-business/data-analysis` — dataset, graph, visualize, KPI, insight, regression, correlation, outlier, histogram, median, mode, spreadsheet, forecast, cluster, query, big-data, anomaly, p-value, significant, distribution
+    - `daily-life/sleep-routine` (pivoted from airport-procedures do airport-flight đã cover 12/20 candidates) — dream, snore, insomnia, melatonin, REM, doze, wake, alarm, bedside, drowsy, restless, fatigue, circadian, nightowl, earlybird, tossing, yawn, pillow, mattress, snooze
+    - Zod schema green tất cả 5. Seed live: **pending user manual run** (target 137 lessons / 2740 cards).
   - [x] **P9d B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `7dcffaf` → merge `8dcdbc7` → sync `693b5af`) — P9 20/25:
     - `places-travel/road-trip` — pit-stop, gas-station, RV, detour, mileage, breakdown, interstate, GPS, navigation, rest-area, motorhome, camper, traffic-jam, speed-limit, registration, odometer, toll, carpool, dashboard, freeway
     - `entertainment/podcasting` — RSS, microphone, recording, edit, patron, monetize, podcaster, audio, headphones, playback, intro, outro, production, airtime, cohost, feed, mic, archive, soundcheck, pilot
@@ -524,12 +531,12 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `nature-environment/natural-disasters` (pivoted from weather-disasters do 7 từ trùng với weather-seasons-ext) — earthquake, eruption, wildfire, blizzard, avalanche, landslide, tornado, monsoon, tremor, magnitude, epicenter, aftermath, evacuation, devastation, debris, rescue, hazard, casualty, shelter, alert
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
-- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a-d done (20/25), TODO P9e
+- [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 132/192 lessons (69%), 2640/3840 cards (69%), ~69% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 ở 20/25**, next: P9e (5 cuối đóng P9).
+**Progress**: 137/192 lessons (71%), 2740/3840 cards (71%), ~71% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, next: P10 B2 expansion.
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
