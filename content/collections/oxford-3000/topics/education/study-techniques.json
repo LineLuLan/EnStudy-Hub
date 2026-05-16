@@ -1,0 +1,763 @@
+{
+  "slug": "study-techniques",
+  "name": "Study Techniques",
+  "description": "Phương pháp học hiệu quả A2 — note, highlight, outline, flashcard, chapter và 15 từ về kỹ thuật học.",
+  "order_index": 5,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "note",
+      "lemma": "note",
+      "ipa": "/nəʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to write something down quickly so you remember it",
+          "meaning_vi": "ghi chú, ghi lại",
+          "examples": [
+            {
+              "en": "Note down the important points during the lecture.",
+              "vi": "Ghi lại các điểm quan trọng trong bài giảng."
+            },
+            {
+              "en": "I always note new từ vựng in my Notion.",
+              "vi": "Tôi luôn ghi từ vựng mới vào Notion."
+            },
+            {
+              "en": "She noted the deadline in her planner.",
+              "vi": "Cô ấy ghi deadline vào sổ tay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["jot down", "record"],
+      "antonyms": [],
+      "collocations": [
+        "take notes",
+        "note down",
+        "make a note",
+        "note carefully",
+        "noted with thanks"
+      ],
+      "etymology_hint": "From Latin 'nota' meaning 'mark, sign' — also root of 'notice' and 'notation'.",
+      "mnemonic_vi": "NOTE = 'nốt' — như nốt nhạc, mỗi nốt 1 ý. Take notes = ghi chú."
+    },
+    {
+      "word": "highlight",
+      "lemma": "highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to mark important text with a coloured pen so it stands out",
+          "meaning_vi": "tô màu nhấn (làm nổi bật), tô highlight",
+          "examples": [
+            {
+              "en": "Highlight the keywords in yellow before the exam.",
+              "vi": "Tô vàng các từ khóa trước kỳ thi."
+            },
+            {
+              "en": "She highlighted the most important paragraph.",
+              "vi": "Cô ấy đã tô nhấn đoạn quan trọng nhất."
+            },
+            {
+              "en": "Don't highlight everything — only what matters.",
+              "vi": "Đừng tô tất cả — chỉ những gì quan trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["emphasize", "underline"],
+      "antonyms": [],
+      "collocations": [
+        "highlight in yellow",
+        "highlight keywords",
+        "highlight the importance",
+        "highlight pen",
+        "highlight reel"
+      ],
+      "etymology_hint": "Compound of 'high' + 'light' — originally a painting term for the brightest spots, now a study tool.",
+      "mnemonic_vi": "HIGHLIGHT = HIGH + LIGHT → 'ánh sáng mạnh' chiếu vào. Tô màu để chữ nổi bật."
+    },
+    {
+      "word": "outline",
+      "lemma": "outline",
+      "ipa": "/ˈaʊtlaɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a brief plan listing the main points of something",
+          "meaning_vi": "dàn ý, sơ lược",
+          "examples": [
+            {
+              "en": "Write an outline before you start your essay.",
+              "vi": "Viết dàn ý trước khi bắt đầu bài luận."
+            },
+            {
+              "en": "The teacher gave us an outline of the syllabus.",
+              "vi": "Giáo viên đưa chúng tôi sơ lược về giáo trình."
+            },
+            {
+              "en": "Her presentation outline had three main parts.",
+              "vi": "Dàn ý thuyết trình của cô có ba phần chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sketch", "framework"],
+      "antonyms": ["detail"],
+      "collocations": [
+        "rough outline",
+        "essay outline",
+        "in outline",
+        "outline of",
+        "detailed outline"
+      ],
+      "etymology_hint": "Compound of 'out' + 'line' — originally meaning the outer line of a drawing.",
+      "mnemonic_vi": "OUTLINE = OUT + LINE → 'đường viền bên ngoài'. Khung sườn trước khi viết chi tiết."
+    },
+    {
+      "word": "flashcard",
+      "lemma": "flashcard",
+      "ipa": "/ˈflæʃkɑːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small card with a word or fact used for learning, especially vocabulary",
+          "meaning_vi": "thẻ ghi nhớ (học từ vựng, công thức)",
+          "examples": [
+            {
+              "en": "I make flashcards on Anki to learn new từ vựng.",
+              "vi": "Tôi tạo flashcard trên Anki để học từ vựng mới."
+            },
+            {
+              "en": "Flashcards are great for learning IELTS vocabulary.",
+              "vi": "Flashcard rất tốt để học từ vựng IELTS."
+            },
+            {
+              "en": "She reviews her flashcards on the bus to work.",
+              "vi": "Cô ấy ôn flashcard trên xe buýt đi làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["study card"],
+      "antonyms": [],
+      "collocations": [
+        "make flashcards",
+        "review flashcards",
+        "flashcard app",
+        "vocabulary flashcards",
+        "digital flashcard"
+      ],
+      "etymology_hint": "Compound of 'flash' + 'card' — 'flash' refers to brief showing for quick recall.",
+      "mnemonic_vi": "FLASHCARD = FLASH + CARD → 'thẻ chớp nhanh'. Lật thẻ chớp 1 từ. Anki style."
+    },
+    {
+      "word": "chapter",
+      "lemma": "chapter",
+      "ipa": "/ˈtʃæptə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one of the main sections of a book, especially a textbook",
+          "meaning_vi": "chương (sách)",
+          "examples": [
+            {
+              "en": "Read chapter 3 before the next class.",
+              "vi": "Đọc chương 3 trước buổi học sau."
+            },
+            {
+              "en": "This chapter is about the history of phở.",
+              "vi": "Chương này nói về lịch sử của phở."
+            },
+            {
+              "en": "I summarize each chapter in my notebook.",
+              "vi": "Tôi tóm tắt mỗi chương trong vở của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["section", "part"],
+      "antonyms": [],
+      "collocations": [
+        "next chapter",
+        "previous chapter",
+        "opening chapter",
+        "final chapter",
+        "chapter summary"
+      ],
+      "etymology_hint": "From Latin 'capitulum' meaning 'little head' — books were once organized by 'heading' sections.",
+      "mnemonic_vi": "CHAPTER = 'chấp-tơ' — 'chương' đứng đầu mỗi phần sách."
+    },
+    {
+      "word": "paragraph",
+      "lemma": "paragraph",
+      "ipa": "/ˈpærəɡrɑːf/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a section of writing that starts on a new line and contains one main idea",
+          "meaning_vi": "đoạn văn",
+          "examples": [
+            {
+              "en": "Each paragraph should have one clear idea.",
+              "vi": "Mỗi đoạn văn nên có một ý rõ ràng."
+            },
+            {
+              "en": "The opening paragraph of your essay is important.",
+              "vi": "Đoạn mở đầu bài luận rất quan trọng."
+            },
+            {
+              "en": "Highlight the first sentence of every paragraph.",
+              "vi": "Tô đậm câu đầu mỗi đoạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["passage"],
+      "antonyms": [],
+      "collocations": [
+        "new paragraph",
+        "opening paragraph",
+        "short paragraph",
+        "long paragraph",
+        "topic sentence of a paragraph"
+      ],
+      "etymology_hint": "From Greek 'paragraphos' meaning 'something written beside' — originally a mark in margin showing a new section.",
+      "mnemonic_vi": "PARAGRAPH = PARA + GRAPH → 'viết bên cạnh'. Một khối ý trong bài viết."
+    },
+    {
+      "word": "search",
+      "lemma": "search",
+      "ipa": "/sɜːtʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to look carefully for information or a thing",
+          "meaning_vi": "tìm kiếm",
+          "examples": [
+            {
+              "en": "I searched Google for the meaning of 'serendipity'.",
+              "vi": "Tôi tìm Google nghĩa của từ 'serendipity'."
+            },
+            {
+              "en": "She searched the library for old Vietnamese books.",
+              "vi": "Cô ấy tìm trong thư viện sách Việt cũ."
+            },
+            {
+              "en": "Search for academic articles on Google Scholar.",
+              "vi": "Tìm bài báo học thuật trên Google Scholar."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seek", "look for"],
+      "antonyms": [],
+      "collocations": [
+        "search for",
+        "search online",
+        "search engine",
+        "thorough search",
+        "search results"
+      ],
+      "etymology_hint": "From Old French 'cerchier' meaning 'to go through, examine' — from Latin 'circare' (to go around).",
+      "mnemonic_vi": "SEARCH = 'sớt' — 'sớt' qua trang web. Search engine = công cụ tìm kiếm."
+    },
+    {
+      "word": "define",
+      "lemma": "define",
+      "ipa": "/dɪˈfaɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to give the meaning of a word or explain what something is",
+          "meaning_vi": "định nghĩa, giải thích",
+          "examples": [
+            {
+              "en": "Can you define 'sustainability' in simple words?",
+              "vi": "Bạn có thể định nghĩa 'sustainability' bằng từ đơn giản không?"
+            },
+            {
+              "en": "First, let's define what success means to you.",
+              "vi": "Trước tiên, hãy định nghĩa thành công với bạn là gì."
+            },
+            {
+              "en": "The textbook defines each new term clearly.",
+              "vi": "Sách giáo khoa định nghĩa rõ ràng mỗi thuật ngữ mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["explain", "describe"],
+      "antonyms": [],
+      "collocations": [
+        "define a term",
+        "clearly define",
+        "define yourself",
+        "hard to define",
+        "define a goal"
+      ],
+      "etymology_hint": "From Latin 'definire' meaning 'to set boundaries' — from 'de-' (off) + 'finire' (to limit).",
+      "mnemonic_vi": "DEFINE = DE + FINE → 'rạch ranh giới rõ'. Xác định nghĩa của một từ."
+    },
+    {
+      "word": "lecture",
+      "lemma": "lecture",
+      "ipa": "/ˈlektʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a talk given to a group of students, usually at university",
+          "meaning_vi": "bài giảng (đại học)",
+          "examples": [
+            {
+              "en": "I have a 2-hour lecture on economics today.",
+              "vi": "Hôm nay tôi có bài giảng kinh tế 2 tiếng."
+            },
+            {
+              "en": "Her lecture on Vietnamese history was excellent.",
+              "vi": "Bài giảng về lịch sử Việt Nam của cô ấy rất hay."
+            },
+            {
+              "en": "I record lectures so I can review them later.",
+              "vi": "Tôi ghi âm bài giảng để xem lại sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talk", "presentation"],
+      "antonyms": [],
+      "collocations": [
+        "attend a lecture",
+        "give a lecture",
+        "lecture hall",
+        "lecture notes",
+        "boring lecture"
+      ],
+      "etymology_hint": "From Latin 'lectura' meaning 'a reading' — originally a teacher reading a text aloud to students.",
+      "mnemonic_vi": "LECTURE = LECT (đọc) + URE → 'đọc cho nghe'. Bài giảng đại học."
+    },
+    {
+      "word": "goal",
+      "lemma": "goal",
+      "ipa": "/ɡəʊl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "something that you hope to achieve",
+          "meaning_vi": "mục tiêu",
+          "examples": [
+            {
+              "en": "My goal is to get IELTS 7.0 by next year.",
+              "vi": "Mục tiêu của tôi là đạt IELTS 7.0 năm sau."
+            },
+            {
+              "en": "Set small daily goals to stay motivated.",
+              "vi": "Đặt mục tiêu nhỏ mỗi ngày để giữ động lực."
+            },
+            {
+              "en": "Her goal is to open a coffee shop in Hội An.",
+              "vi": "Mục tiêu của cô ấy là mở quán cà phê ở Hội An."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aim", "target", "objective"],
+      "antonyms": [],
+      "collocations": [
+        "set a goal",
+        "achieve a goal",
+        "long-term goal",
+        "short-term goal",
+        "main goal"
+      ],
+      "etymology_hint": "Middle English 'gol' meaning 'boundary, limit' — modern sense of 'aim' developed in 16th century.",
+      "mnemonic_vi": "GOAL = 'gôu' — như đá bóng vào 'gôn'. Mục tiêu cần đạt."
+    },
+    {
+      "word": "method",
+      "lemma": "method",
+      "ipa": "/ˈmeθəd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a particular way of doing something",
+          "meaning_vi": "phương pháp, cách thức",
+          "examples": [
+            {
+              "en": "What's the best method to learn a new language?",
+              "vi": "Phương pháp tốt nhất để học ngôn ngữ mới là gì?"
+            },
+            {
+              "en": "The Pomodoro method helps me focus when studying.",
+              "vi": "Phương pháp Pomodoro giúp tôi tập trung khi học."
+            },
+            {
+              "en": "Try different methods to find what works for you.",
+              "vi": "Thử nhiều phương pháp để tìm cách hợp với mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["technique", "approach", "way"],
+      "antonyms": [],
+      "collocations": [
+        "study method",
+        "scientific method",
+        "best method",
+        "traditional method",
+        "method of"
+      ],
+      "etymology_hint": "From Greek 'methodos' meaning 'pursuit of knowledge' — from 'meta' (after) + 'hodos' (way).",
+      "mnemonic_vi": "METHOD = ME + THOD → 'cách tôi đi'. Phương pháp riêng."
+    },
+    {
+      "word": "technique",
+      "lemma": "technique",
+      "ipa": "/tekˈniːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a special way of doing something that needs skill",
+          "meaning_vi": "kỹ thuật, cách làm tinh xảo",
+          "examples": [
+            {
+              "en": "She uses memory techniques to learn 50 words a day.",
+              "vi": "Cô ấy dùng kỹ thuật ghi nhớ để học 50 từ một ngày."
+            },
+            {
+              "en": "His painting technique is unique and beautiful.",
+              "vi": "Kỹ thuật vẽ của anh ấy độc đáo và đẹp."
+            },
+            {
+              "en": "Active recall is a powerful study technique.",
+              "vi": "Active recall là kỹ thuật học rất mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["skill", "method"],
+      "antonyms": [],
+      "collocations": [
+        "learning technique",
+        "advanced technique",
+        "study technique",
+        "use a technique",
+        "master a technique"
+      ],
+      "etymology_hint": "From Greek 'technikos' meaning 'of art, skillful' — from 'techne' (art, craft).",
+      "mnemonic_vi": "TECHNIQUE = TECH + NIQUE → 'kỹ thuật của tech'. Cách làm cần kỹ năng."
+    },
+    {
+      "word": "resource",
+      "lemma": "resource",
+      "ipa": "/rɪˈsɔːs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "something useful (like books, websites, or money) that helps you do something",
+          "meaning_vi": "tài liệu, nguồn lực",
+          "examples": [
+            {
+              "en": "YouTube is a great free resource for self-study.",
+              "vi": "YouTube là nguồn miễn phí tuyệt vời để tự học."
+            },
+            {
+              "en": "Our library has many resources for IELTS preparation.",
+              "vi": "Thư viện chúng tôi có nhiều tài liệu luyện IELTS."
+            },
+            {
+              "en": "Online resources make learning easier than before.",
+              "vi": "Tài liệu online giúp việc học dễ hơn trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["material", "asset"],
+      "antonyms": [],
+      "collocations": [
+        "study resource",
+        "useful resource",
+        "online resource",
+        "natural resource",
+        "limited resource"
+      ],
+      "etymology_hint": "From Old French 'resourdre' meaning 'to rise again' — sense of 'means at one's disposal' developed in 17th century.",
+      "mnemonic_vi": "RESOURCE = RE + SOURCE → 'nguồn lại'. Nguồn tài liệu để học."
+    },
+    {
+      "word": "topic",
+      "lemma": "topic",
+      "ipa": "/ˈtɒpɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a particular subject that you talk, write, or study about",
+          "meaning_vi": "chủ đề",
+          "examples": [
+            {
+              "en": "The topic of my essay is climate change in Việt Nam.",
+              "vi": "Chủ đề bài luận của tôi là biến đổi khí hậu ở Việt Nam."
+            },
+            {
+              "en": "Let's discuss a different topic today.",
+              "vi": "Hôm nay chúng ta thảo luận chủ đề khác đi."
+            },
+            {
+              "en": "She wrote her thesis on a very narrow topic.",
+              "vi": "Cô ấy viết luận văn về một chủ đề rất hẹp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["subject", "theme"],
+      "antonyms": [],
+      "collocations": [
+        "main topic",
+        "topic sentence",
+        "change the topic",
+        "hot topic",
+        "essay topic"
+      ],
+      "etymology_hint": "From Greek 'ta topika' meaning 'matters concerning topoi (places)' — from Aristotle's work on rhetoric.",
+      "mnemonic_vi": "TOPIC = 'tóp-pịc' — 'tóp' nội dung lại 1 ý chính. Hot topic = chủ đề hot."
+    },
+    {
+      "word": "chart",
+      "lemma": "chart",
+      "ipa": "/tʃɑːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a drawing that shows information using numbers, lines, or shapes",
+          "meaning_vi": "biểu đồ, bảng",
+          "examples": [
+            {
+              "en": "Draw a chart to show your study progress.",
+              "vi": "Vẽ biểu đồ thể hiện tiến độ học tập của bạn."
+            },
+            {
+              "en": "The bar chart shows population growth in Hà Nội.",
+              "vi": "Biểu đồ cột cho thấy tăng trưởng dân số Hà Nội."
+            },
+            {
+              "en": "I made a chart of irregular verbs to memorize.",
+              "vi": "Tôi tạo một bảng động từ bất quy tắc để học thuộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["graph", "diagram"],
+      "antonyms": [],
+      "collocations": ["bar chart", "pie chart", "draw a chart", "chart shows", "flow chart"],
+      "etymology_hint": "From Latin 'charta' meaning 'paper' — same root as 'card' and 'cartoon'.",
+      "mnemonic_vi": "CHART = 'chát' — 'trang giấy' có hình. Bar chart = biểu đồ cột."
+    },
+    {
+      "word": "diagram",
+      "lemma": "diagram",
+      "ipa": "/ˈdaɪəɡræm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a simple drawing that shows how something works or how it is arranged",
+          "meaning_vi": "sơ đồ",
+          "examples": [
+            {
+              "en": "Draw a diagram of the human body for biology class.",
+              "vi": "Vẽ sơ đồ cơ thể người cho lớp sinh học."
+            },
+            {
+              "en": "The diagram explains how the Wi-Fi router connects.",
+              "vi": "Sơ đồ giải thích cách router Wi-Fi kết nối."
+            },
+            {
+              "en": "A Venn diagram shows shared and different ideas.",
+              "vi": "Sơ đồ Venn cho thấy ý giống và khác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chart", "sketch"],
+      "antonyms": [],
+      "collocations": [
+        "draw a diagram",
+        "Venn diagram",
+        "flow diagram",
+        "simple diagram",
+        "diagram shows"
+      ],
+      "etymology_hint": "From Greek 'diagramma' meaning 'figure marked by lines' — from 'dia-' (across) + 'graphein' (to draw).",
+      "mnemonic_vi": "DIAGRAM = DIA + GRAM → 'vẽ ngang qua'. Sơ đồ giải thích bằng hình."
+    },
+    {
+      "word": "break",
+      "lemma": "break",
+      "ipa": "/breɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a short period of rest from work or study",
+          "meaning_vi": "thời gian nghỉ ngắn, giải lao",
+          "examples": [
+            {
+              "en": "Take a 10-minute break after each chapter.",
+              "vi": "Nghỉ giải lao 10 phút sau mỗi chương."
+            },
+            {
+              "en": "Let's have a coffee break at Highlands.",
+              "vi": "Mình nghỉ uống cà phê ở Highlands nhé."
+            },
+            {
+              "en": "Without breaks, your brain gets tired quickly.",
+              "vi": "Không nghỉ ngơi, não bộ sẽ mệt rất nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pause", "rest"],
+      "antonyms": [],
+      "collocations": [
+        "take a break",
+        "coffee break",
+        "lunch break",
+        "short break",
+        "need a break"
+      ],
+      "etymology_hint": "From Old English 'brecan' meaning 'to break, fracture' — sense of 'pause' developed from 'break of the day'.",
+      "mnemonic_vi": "BREAK = 'brêk' — 'bẻ' giữa giờ học, nghỉ chút. Take a break = giải lao."
+    },
+    {
+      "word": "quote",
+      "lemma": "quote",
+      "ipa": "/kwəʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to repeat the exact words written or said by someone else",
+          "meaning_vi": "trích dẫn",
+          "examples": [
+            {
+              "en": "He quoted Hồ Chí Minh in his speech.",
+              "vi": "Anh ấy trích lời Hồ Chí Minh trong bài phát biểu."
+            },
+            {
+              "en": "Always quote your sources in academic writing.",
+              "vi": "Luôn trích dẫn nguồn trong bài viết học thuật."
+            },
+            {
+              "en": "She quoted three lines from a famous poem.",
+              "vi": "Cô ấy trích ba câu từ một bài thơ nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cite", "reference"],
+      "antonyms": [],
+      "collocations": [
+        "quote a source",
+        "quote directly",
+        "famous quote",
+        "quote from",
+        "quote unquote"
+      ],
+      "etymology_hint": "From Latin 'quotare' meaning 'to mark with numbers' — originally for marking chapter/verse references.",
+      "mnemonic_vi": "QUOTE = 'cuốt' — 'cuốp' lời người khác đem vào. Trích dẫn nguồn."
+    },
+    {
+      "word": "format",
+      "lemma": "format",
+      "ipa": "/ˈfɔːmæt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the way something is arranged, designed, or organized",
+          "meaning_vi": "định dạng, bố cục",
+          "examples": [
+            {
+              "en": "Follow the essay format your teacher gave you.",
+              "vi": "Theo định dạng bài luận giáo viên đã đưa."
+            },
+            {
+              "en": "Save the file in PDF format.",
+              "vi": "Lưu file ở định dạng PDF."
+            },
+            {
+              "en": "The format of the IELTS test has 4 parts.",
+              "vi": "Cấu trúc bài thi IELTS có 4 phần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["layout", "structure"],
+      "antonyms": [],
+      "collocations": [
+        "file format",
+        "exam format",
+        "in the format of",
+        "change format",
+        "format of"
+      ],
+      "etymology_hint": "From Latin 'formatus' meaning 'formed' — from 'forma' (shape). Computing sense emerged in 1960s.",
+      "mnemonic_vi": "FORMAT = FORM + AT → 'hình ở đâu'. Cách trình bày, định dạng file."
+    },
+    {
+      "word": "organize",
+      "lemma": "organize",
+      "ipa": "/ˈɔːɡənaɪz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to arrange things in a clear order or system",
+          "meaning_vi": "sắp xếp, tổ chức",
+          "examples": [
+            {
+              "en": "Organize your notes by topic before the exam.",
+              "vi": "Sắp xếp ghi chú theo chủ đề trước kỳ thi."
+            },
+            {
+              "en": "She organizes her schedule using Google Calendar.",
+              "vi": "Cô ấy sắp xếp lịch dùng Google Calendar."
+            },
+            {
+              "en": "Let's organize a study group for the midterm.",
+              "vi": "Mình tổ chức nhóm học cho thi giữa kỳ đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["arrange", "structure"],
+      "antonyms": ["disorganize"],
+      "collocations": [
+        "organize a meeting",
+        "organize notes",
+        "organize your time",
+        "well organized",
+        "highly organized"
+      ],
+      "etymology_hint": "From Latin 'organum' meaning 'instrument, organ' — same root as 'organ' and 'organic'.",
+      "mnemonic_vi": "ORGANIZE = ORGAN + IZE → 'làm cho thành hệ thống có cơ quan'. Sắp xếp gọn gàng."
+    }
+  ]
+}
