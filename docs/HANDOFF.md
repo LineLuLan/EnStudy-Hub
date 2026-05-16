@@ -5,6 +5,78 @@
 
 ---
 
+## 2026-05-17 (P7b content batch) — A2 expansion: 5 more lessons / 100 cards (77/192) — Claude Opus 4.7
+
+### Đã ship session này (BE work — content gen + seed)
+
+5 lessons A2 mới, tiếp nối P7a. User confirm "gen tiếp P7b" → AI auto-gen (5th override). Workflow: grep collision check → gen JSON theo quality bar → Zod-validate → commit be → merge dev → sync fe → seed live.
+
+**5 lessons mới (A2, 100% NEW words không trùng existing 1440)**:
+
+| #   | Lesson          | Topic              | order_index | Highlights                                                                                                                                                                     |
+| --- | --------------- | ------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | traffic-roads   | places-travel      | 7           | jam/lane/highway/roundabout/intersection/sidewalk/crossing/footpath/signal/rush/honk/overtake/speed/horn/seatbelt/petrol/diesel/collision/pedestrian/accident                  |
+| 2   | wildlife-ext    | nature-environment | 5           | eagle/owl/parrot/peacock/butterfly/bee/spider/ant/mosquito/shark/whale/octopus/turtle/crab/wolf/bear/fox/deer/squirrel/crocodile                                               |
+| 3   | sports-fitness  | entertainment      | 5           | workout/stretch/fitness/strength/flexibility/stamina/warmup/jog/hike/dive/surf/kick/throw/catch/race/referee/medal/trophy/dumbbell/push-up                                     |
+| 4   | time-frequency  | time-numbers       | 6           | seldom/frequently/daily/weekly/monthly/yearly/hourly/annual/regular/sudden/immediate/gradual/temporary/permanent/continuous/whenever/whilst/occasionally/constantly/repeatedly |
+| 5   | health-symptoms | daily-life         | 12          | headache/stomachache/toothache/flu/fever/cough/sneeze/dizzy/vomit/bleed/bandage/prescription/vaccine/medication/infection/virus/bacteria/injury/wound/rash                     |
+
+### Quality bar applied (CONTENT_PLAN_FULL §3)
+
+- ✅ British IPA strict, slash-wrapped `/.../`
+- ✅ VN context dày: Hà Nội/Sài Gòn/Huế/Đà Nẵng/Đà Lạt, FPT/Vincom/Shopee/Lotte/Vinmec/Petrolimex/EVN/California Fitness/Elite Fitness, Côn Đảo/Cát Bà/Fansipan/Hồ Tây/Mũi Né/Sa Pa, Vinpearl/Thảo Cầm Viên, Tết/áo dài
+- ✅ Mnemonic wordplay (vd "DUMBBELL = DUMB + BELL → chuông câm", "PEDESTRIAN = PEDE + STRIAN → người đi chân", "OCTOPUS = OCTO + PUS → tám chân")
+- ✅ Etymology narrative per card (Old English / Latin / Greek / Old French / French / Italian / Hawaiian)
+- ✅ 0-3 synonyms / 0-2 antonyms / 4-5 collocations natural
+- ✅ POS 10-enum chuẩn
+- ✅ Collision check via grep — 100/100 words là NEW so với 1440 existing
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                       |
+| ------ | --------- | ------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                         |
+| dev    | `c99d978` | merge be → dev (P7b 5 lessons / 100 cards) |
+| be     | `f009659` | feat(content): P7b A2 expansion            |
+| fe     | `955f4f2` | sync: dev → fe (P7b content)               |
+
+### Verify đã chạy
+
+- Zod inline validate 5 lessons ✓ ALL VALID
+- `pnpm seed` ✓ **1 collection / 11 topics / 77 lessons / 1540 cards** live trên Supabase
+- Commitlint: first attempt fail (body-max-line-length 100) — wordlist 1 dòng quá dài. Re-commit với message ngắn hơn pass.
+
+### Progress P5-P12 tracking
+
+| Phase          | Lessons | Cards    | Status             |
+| -------------- | ------- | -------- | ------------------ |
+| P0-P4 MVP      | 42      | 840      | ✅                 |
+| P5 Common Core | 10      | 200      | ✅                 |
+| P6 A1 fillers  | 15      | 300      | ✅                 |
+| P7a A2 exp     | 5       | 100      | ✅                 |
+| **P7b A2 exp** | **5**   | **100**  | **✅ session này** |
+| P7c (còn)      | ~10     | ~200     | TODO next sessions |
+| **Tổng ship**  | **77**  | **1540** | ~40% Oxford 3000   |
+
+### Notes for next AI session pickup
+
+- **Tiếp P7c**: 10 lessons A2 còn lại để đóng P7. Đề xuất các angles còn thiếu:
+  - `daily-life/cleaning-housework` (vacuum, sweep, mop, dust, laundry, iron, dishwasher, garbage, organize, tidy)
+  - `daily-life/personal-care` (toothpaste, shampoo, lotion, deodorant, comb, makeup, mirror, towel-related)
+  - `work-business/teamwork` (collaborate, support, leader, role, member, task, contribute, suggest)
+  - `education/online-learning` (mooc, webinar, livestream, podcast, tutorial, course, certificate, badge)
+  - `entertainment/social-media` (post, like, share, comment, follow, story, hashtag, viral, trend, influencer)
+  - `time-numbers/measurements` (kilometre, metre, kilogram, litre, inch, mile, ounce, weight, height, distance)
+  - `people/work-relationships` (boss, colleague, mentor, intern, freelancer, supervisor, subordinate)
+  - `places-travel/tourism-experiences` (sightseeing, souvenir, guide, tour, attraction, landmark, brochure)
+  - `nature-environment/farm-rural` (farmer, crop, livestock, harvest, plough, barn, field, soil, irrigation)
+  - `abstract-academic/cognition` (recognize, perceive, identify, distinguish, observe, examine, evaluate)
+  - Confirm với user trước khi gen, hoặc auto-pick top 5-10.
+- **Override pattern xác lập** (5 overrides): "gen tiếp" → AI auto-gen. Không cần hỏi.
+- **Commitlint lesson**: body lines ≤ 100 chars. Khi liệt kê wordlist 20 từ, BREAK sang nhiều dòng hoặc dùng "...". Đừng dùng 1 dòng dài.
+
+---
+
 ## 2026-05-17 (P7a content batch) — A2 expansion: 5 lessons / 100 cards (72/192) — Claude Opus 4.7
 
 ### Đã ship session này (BE work — content gen + seed)

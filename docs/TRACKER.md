@@ -435,7 +435,14 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
   - `daily-life/housing-utilities` — rent, deposit, lease, mortgage, landlord, tenant, utility, electricity, gas, internet, repair, plumber, electrician, furnished, basement, driveway, hallway, roof, lock, leak
   - Quality bar: British IPA, VN context dày (FPT/Vincom/Shopee/Lotte/Highlands/Tết/Vietcombank/Zalo/Momo/Grab/BlackPink/Hạ Long Bay…), mnemonic wordplay, etymology narratives, 0-3 syn / 0-2 ant / 4-5 collocations. Collision check via grep — 100/100 NEW words.
   - Gates green (typecheck 0, lint 0, 179/179 tests). Seed live: **72 lessons / 1440 cards** (~37% Oxford 3000).
-- [ ] **P7b A2 expansion remaining** (~5 lessons / 100 cards) — TODO next session
+- [x] **P7b A2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `f009659` trên be → merge `c99d978` lên dev → sync `955f4f2` xuống fe):
+  - `places-travel/traffic-roads` — jam, lane, highway, roundabout, intersection, sidewalk, crossing, footpath, signal, rush, honk, overtake, speed, horn, seatbelt, petrol, diesel, collision, pedestrian, accident
+  - `nature-environment/wildlife-ext` — eagle, owl, parrot, peacock, butterfly, bee, spider, ant, mosquito, shark, whale, octopus, turtle, crab, wolf, bear, fox, deer, squirrel, crocodile
+  - `entertainment/sports-fitness` — workout, stretch, fitness, strength, flexibility, stamina, warmup, jog, hike, dive, surf, kick, throw, catch, race, referee, medal, trophy, dumbbell, push-up
+  - `time-numbers/time-frequency` — seldom, frequently, daily, weekly, monthly, yearly, hourly, annual, regular, sudden, immediate, gradual, temporary, permanent, continuous, whenever, whilst, occasionally, constantly, repeatedly
+  - `daily-life/health-symptoms` — headache, stomachache, toothache, flu, fever, cough, sneeze, dizzy, vomit, bleed, bandage, prescription, vaccine, medication, infection, virus, bacteria, injury, wound, rash
+  - Quality bar: British IPA, VN context dày (FPT/Vincom/Shopee/Vinmec/Petrolimex/EVN/Côn Đảo/Cát Bà/Fansipan/Highlands/...), mnemonic wordplay, etymology narratives, 0-3 syn / 0-2 ant / 4-5 collocations. Collision check via grep — 100/100 NEW.
+  - Gates green (Zod ALL VALID, typecheck 0, lint 0). Seed live: **77 lessons / 1540 cards** (~40% Oxford 3000).
 - [ ] **P7c A2 expansion remaining** (~10 lessons / 200 cards) — TODO
 - [ ] **P8 B1 part 1** (25 lessons / 500 cards) — TODO
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
@@ -443,7 +450,7 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 72/192 lessons (37.5%), 1440/3840 cards (37.5%), ~37% Oxford 3000 coverage.
+**Progress**: 77/192 lessons (40%), 1540/3840 cards (40%), ~40% Oxford 3000 coverage.
 
 ---
 
