@@ -5,6 +5,72 @@
 
 ---
 
+## 2026-05-17 (P8a content batch) — B1 part 1 opening: 5 lessons / 100 cards (92/192) — Claude Opus 4.7
+
+### Đã ship session này (BE work — content gen + seed)
+
+5 lessons B1 mở đầu P8 part 1. User confirm "gen tiếp P8a" → AI auto-gen (8th override). Lần đầu chuyển level từ A2 → B1, vocab abstract hơn (academic, social, decision-making).
+
+**5 lessons mới (B1, 100% NEW words không trùng existing 1740)**:
+
+| #   | Lesson           | Topic             | order_index | Highlights                                                                                                                                                                       |
+| --- | ---------------- | ----------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | quality-quantity | abstract-academic | 5           | level/scale/range/proportion/extent/quantity/quality/portion/majority/minority/capacity/volume/density/rate/ratio/abundance/shortage/surplus/excess/plenty                       |
+| 2   | change-process   | abstract-academic | 6           | alter/transform/develop/evolve/modify/vary/switch/adjust/adapt/reform/expand/reduce/grow/decline/advance/deteriorate/maintain/preserve/sustain/innovate                          |
+| 3   | social-issues    | society-culture   | 4           | poverty/inequality/equality/class/protest/movement/welfare/gender/discrimination/corruption/charity/diversity/immigrant/refugee/homeless/volunteer/donate/riot/petition/activist |
+| 4   | communication    | abstract-academic | 7           | debate/declare/state/announce/warn/insist/deny/admit/express/describe/complain/criticize/praise/respond/whisper/shout/persuade/convince/negotiate/inform                         |
+| 5   | decision-making  | work-business     | 8           | decision/select/determine/hesitate/consult/advise/prefer/option/alternative/weigh/risk/priority/conclusion/compromise/approve/reject/postpone/prioritize/veto/finalize           |
+
+### Quality bar applied (CONTENT_PLAN_FULL §3)
+
+- ✅ British IPA strict
+- ✅ VN context dày: Vingroup/VinFast/Vietnamese DM, SEA Games, Đổi Mới 1986, Mekong/Sapa/Hà Nội, National Assembly, Red Cross, ethnic minorities
+- ✅ Mnemonic wordplay (vd "DECISION = DECIDE + ION → sự cắt đứt", "VETO = Latin tôi cấm")
+- ✅ Etymology narrative per card (Latin / Greek / Old English / Old French)
+- ✅ 0-3 synonyms / 0-2 antonyms / 4-5 collocations natural
+- ✅ POS 10-enum chuẩn
+- ✅ Collision check via grep — 100/100 NEW so với 1740 existing
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                       |
+| ------ | --------- | ------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                         |
+| dev    | `c7bb80e` | merge be → dev (P8a 5 lessons / 100 cards) |
+| be     | `988796a` | feat(content): P8a B1 expansion            |
+| fe     | `e4acd1b` | sync: dev → fe (P8a content)               |
+
+### Verify
+
+- Zod ALL VALID. Seed live: **1 collection / 11 topics / 92 lessons / 1840 cards** (~48% Oxford 3000).
+- Commitlint pass.
+
+### Progress P5-P12
+
+| Phase           | Lessons | Cards    | Status             |
+| --------------- | ------- | -------- | ------------------ |
+| P0-P4 MVP       | 42      | 840      | ✅                 |
+| P5 Common Core  | 10      | 200      | ✅                 |
+| P6 A1 fillers   | 15      | 300      | ✅                 |
+| P7 A2 expansion | 20      | 400      | ✅                 |
+| **P8a B1**      | **5**   | **100**  | **✅ session này** |
+| P8b-e (còn)     | ~20     | ~400     | TODO               |
+| **Tổng ship**   | **92**  | **1840** | ~48% Oxford 3000   |
+
+### Notes for next AI session pickup
+
+- **Tiếp P8b**: 5 lessons B1 tiếp. Đề xuất các angles:
+  - `nature-environment/science-basics` (gravity, energy, force, mass, atom, molecule, particle, reaction, theory, experiment)
+  - `daily-life/health-wellness` (mental, stress, anxiety, therapy, meditation, nutrition, vitamin, calorie, immune, recovery)
+  - `work-business/marketing-sales` (brand, advertise, target, customer, conversion, leads, campaign, sales, market, segment)
+  - `abstract-academic/time-sequence` (era, decade, generation, prior, subsequent, simultaneously, etc.)
+  - `entertainment/digital-culture` (new technology topic possible)
+- **Override pattern**: 8 overrides — fully autopilot. User say "gen tiếp" → AI gen.
+- **B1 quality difference**: B1 cần nhiều abstract concepts hơn A2. VN context phải có ý nghĩa (vd "GDP", "Đổi Mới", "ethnic minorities").
+- **Topic exhaustion alert**: abstract-academic giờ có 7 lessons (4 + 3 mới), gần đầy. Có thể mở topic mới (technology, science) cho P8c/d/e.
+
+---
+
 ## 2026-05-17 (P7d content batch + P7 CLOSED) — A2 expansion final 5 lessons / 100 cards (87/192) — Claude Opus 4.7
 
 ### Đã ship session này (BE work — content gen + seed + P7 CLOSE)
