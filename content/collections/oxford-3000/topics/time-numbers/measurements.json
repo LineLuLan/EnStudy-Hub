@@ -1,0 +1,715 @@
+{
+  "slug": "measurements",
+  "name": "Measurements",
+  "description": "Đơn vị đo lường A2 — metre, kilogram, litre, mile, weight, height và 14 từ về đo lường thực tế.",
+  "order_index": 7,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "metre",
+      "lemma": "metre",
+      "ipa": "/ˈmiːtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring length, equal to 100 centimetres",
+          "meaning_vi": "mét (đơn vị đo chiều dài)",
+          "examples": [
+            {
+              "en": "The pool is 25 metres long.",
+              "vi": "Bể bơi dài 25 mét."
+            },
+            {
+              "en": "I bought 3 metres of silk for the áo dài.",
+              "vi": "Tôi mua 3 mét lụa để may áo dài."
+            },
+            {
+              "en": "She's 1.65 metres tall.",
+              "vi": "Cô ấy cao 1,65 mét."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["square metre", "cubic metre", "metres long", "metres wide", "metres tall"],
+      "etymology_hint": "From French 'mètre' — from Greek 'metron' meaning 'measure'. Defined in 1791 during French Revolution.",
+      "mnemonic_vi": "METRE = 'mí-tơ' — 'mét' đơn vị dài. 1 metre = 100 cm."
+    },
+    {
+      "word": "kilometre",
+      "lemma": "kilometre",
+      "ipa": "/ˈkɪləmiːtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring distance, equal to 1,000 metres",
+          "meaning_vi": "ki-lô-mét (km)",
+          "examples": [
+            {
+              "en": "Hà Nội is 1,700 kilometres from Sài Gòn.",
+              "vi": "Hà Nội cách Sài Gòn 1.700 km."
+            },
+            {
+              "en": "I run 5 kilometres every morning.",
+              "vi": "Tôi chạy 5 km mỗi sáng."
+            },
+            {
+              "en": "Speed limit on this road is 60 kilometres per hour.",
+              "vi": "Giới hạn tốc độ đường này là 60 km/h."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "kilometres per hour",
+        "kilometres away",
+        "square kilometre",
+        "kilometres long",
+        "kilometres apart"
+      ],
+      "etymology_hint": "From Greek 'kilo' (1000) + 'metron' (measure) — coined in 1790s with metric system.",
+      "mnemonic_vi": "KILOMETRE = KILO + METRE → '1000 mét'. KM trên biển đường."
+    },
+    {
+      "word": "centimetre",
+      "lemma": "centimetre",
+      "ipa": "/ˈsentɪmiːtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring length, equal to 1/100 of a metre",
+          "meaning_vi": "xăng-ti-mét (cm)",
+          "examples": [
+            {
+              "en": "Cut the paper 30 centimetres wide.",
+              "vi": "Cắt giấy rộng 30 cm."
+            },
+            {
+              "en": "My waist is 70 centimetres.",
+              "vi": "Vòng eo tôi 70 cm."
+            },
+            {
+              "en": "Babies grow about 2 centimetres each month.",
+              "vi": "Em bé lớn khoảng 2 cm mỗi tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "in centimetres",
+        "centimetres long",
+        "centimetres wide",
+        "centimetres tall",
+        "few centimetres"
+      ],
+      "etymology_hint": "From Latin 'centi' (hundred) + 'metre' — 100 cm in 1 metre.",
+      "mnemonic_vi": "CENTIMETRE = CENTI + METRE → '1 phần 100 mét'. CM trên thước."
+    },
+    {
+      "word": "millimetre",
+      "lemma": "millimetre",
+      "ipa": "/ˈmɪlɪmiːtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring length, equal to 1/1000 of a metre",
+          "meaning_vi": "mi-li-mét (mm)",
+          "examples": [
+            {
+              "en": "The phone screen is 0.5 millimetres thick.",
+              "vi": "Màn hình điện thoại dày 0,5 mm."
+            },
+            {
+              "en": "Rainfall was 30 millimetres last night.",
+              "vi": "Lượng mưa đêm qua là 30 mm."
+            },
+            {
+              "en": "Use a ruler to measure in millimetres.",
+              "vi": "Dùng thước để đo bằng mm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "millimetres thick",
+        "millimetres of rain",
+        "few millimetres",
+        "in millimetres",
+        "millimetres apart"
+      ],
+      "etymology_hint": "From Latin 'milli' (thousand) + 'metre' — 1,000 mm in 1 metre.",
+      "mnemonic_vi": "MILLIMETRE = MILLI + METRE → '1 phần 1000 mét'. MM rất nhỏ."
+    },
+    {
+      "word": "inch",
+      "lemma": "inch",
+      "ipa": "/ɪntʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring length, equal to about 2.54 centimetres",
+          "meaning_vi": "inch (đơn vị Mỹ, ~2,54 cm)",
+          "examples": [
+            {
+              "en": "I bought a 15-inch laptop at FPT Shop.",
+              "vi": "Tôi mua laptop 15 inch ở FPT Shop."
+            },
+            {
+              "en": "Her waist measures 28 inches.",
+              "vi": "Vòng eo cô ấy 28 inch."
+            },
+            {
+              "en": "The TV screen is 55 inches diagonally.",
+              "vi": "Màn hình TV 55 inch đo chéo."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["inches tall", "inches wide", "give an inch", "every inch", "inch by inch"],
+      "etymology_hint": "From Old English 'ynce' — from Latin 'uncia' (twelfth part), same root as 'ounce' (twelfth of pound).",
+      "mnemonic_vi": "INCH = 'ính' — 'inh' đo nhỏ. TV 55 inch = TV bự."
+    },
+    {
+      "word": "mile",
+      "lemma": "mile",
+      "ipa": "/maɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring distance, equal to about 1.6 kilometres",
+          "meaning_vi": "dặm (đơn vị Anh-Mỹ, ~1,6 km)",
+          "examples": [
+            {
+              "en": "The airport is 10 miles from the city centre.",
+              "vi": "Sân bay cách trung tâm 10 dặm."
+            },
+            {
+              "en": "She runs 5 miles every morning in California.",
+              "vi": "Cô ấy chạy 5 dặm mỗi sáng ở California."
+            },
+            {
+              "en": "Vietnam doesn't use miles — we use kilometres.",
+              "vi": "Việt Nam không dùng dặm — chúng tôi dùng km."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["miles per hour", "miles away", "for miles", "mile-long", "miles apart"],
+      "etymology_hint": "From Latin 'milia passuum' meaning 'thousand paces' — original Roman mile based on military marching steps.",
+      "mnemonic_vi": "MILE = 'mai-l' — 'mai' xa. 1 mile = ~1.6 km. Mỹ dùng mile."
+    },
+    {
+      "word": "kilogram",
+      "lemma": "kilogram",
+      "ipa": "/ˈkɪləɡræm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring weight, equal to 1,000 grams",
+          "meaning_vi": "ki-lô-gam (kg)",
+          "examples": [
+            {
+              "en": "I bought 2 kilograms of rice at the market.",
+              "vi": "Tôi mua 2 kg gạo ở chợ."
+            },
+            {
+              "en": "He gained 5 kilograms during Tết.",
+              "vi": "Anh ấy tăng 5 kg trong Tết."
+            },
+            {
+              "en": "The baby weighs 3.2 kilograms at birth.",
+              "vi": "Em bé nặng 3,2 kg lúc sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["kilo"],
+      "antonyms": [],
+      "collocations": [
+        "kilograms of",
+        "weigh in kilograms",
+        "kilograms heavier",
+        "kilograms lighter",
+        "few kilograms"
+      ],
+      "etymology_hint": "From Greek 'kilo' (1000) + 'gramma' (small weight) — coined in 1795 with metric system.",
+      "mnemonic_vi": "KILOGRAM = KILO + GRAM → '1000 gam'. KG cân nặng phổ biến."
+    },
+    {
+      "word": "gram",
+      "lemma": "gram",
+      "ipa": "/ɡræm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small unit for measuring weight, equal to 1/1000 of a kilogram",
+          "meaning_vi": "gam",
+          "examples": [
+            {
+              "en": "This recipe needs 200 grams of flour.",
+              "vi": "Công thức này cần 200 gam bột."
+            },
+            {
+              "en": "A gold ring is about 5 grams.",
+              "vi": "Một nhẫn vàng khoảng 5 gam."
+            },
+            {
+              "en": "Read nutrition labels in grams.",
+              "vi": "Đọc nhãn dinh dưỡng tính bằng gam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["grams of", "weigh in grams", "few grams", "grams per", "exact grams"],
+      "etymology_hint": "From Greek 'gramma' meaning 'small writing, weight' — adopted into French in 1790s for metric system.",
+      "mnemonic_vi": "GRAM = 'gram' — 'gờ-ram' nhỏ. 1000 gram = 1 kg."
+    },
+    {
+      "word": "pound",
+      "lemma": "pound",
+      "ipa": "/paʊnd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit of weight in the US and UK, equal to about 0.45 kilograms",
+          "meaning_vi": "pound (đv Mỹ-Anh, ~0,45 kg)",
+          "examples": [
+            {
+              "en": "She lost 10 pounds during her diet.",
+              "vi": "Cô ấy giảm 10 pound trong khi ăn kiêng."
+            },
+            {
+              "en": "American recipes use pounds, not kilograms.",
+              "vi": "Công thức Mỹ dùng pound, không phải kg."
+            },
+            {
+              "en": "1 pound is about 0.45 kilograms.",
+              "vi": "1 pound khoảng 0,45 kg."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lb"],
+      "antonyms": [],
+      "collocations": ["pounds of", "lose pounds", "gain pounds", "pound weight", "pounds per"],
+      "etymology_hint": "From Latin 'libra pondo' meaning 'a pound by weight' — abbreviation 'lb' is from 'libra'.",
+      "mnemonic_vi": "POUND = 'paund' — 'pao' nặng. Lb viết tắt từ Latin libra."
+    },
+    {
+      "word": "litre",
+      "lemma": "litre",
+      "ipa": "/ˈliːtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring liquid, equal to 1,000 millilitres",
+          "meaning_vi": "lít (đo dung tích)",
+          "examples": [
+            {
+              "en": "Buy 2 litres of milk for the family.",
+              "vi": "Mua 2 lít sữa cho gia đình."
+            },
+            {
+              "en": "The petrol tank holds 50 litres.",
+              "vi": "Bình xăng chứa 50 lít."
+            },
+            {
+              "en": "Drink 2 litres of water every day.",
+              "vi": "Uống 2 lít nước mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "litres of",
+        "per litre",
+        "few litres",
+        "litres of water",
+        "petrol price per litre"
+      ],
+      "etymology_hint": "From French 'litre' — from Greek 'litra' (unit of weight); standardized in metric system 1790s.",
+      "mnemonic_vi": "LITRE = 'lít-tơ' — 'lít' đong nước. 1 chai nước = 1.5 lít."
+    },
+    {
+      "word": "millilitre",
+      "lemma": "millilitre",
+      "ipa": "/ˈmɪlɪliːtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small unit for measuring liquid, equal to 1/1000 of a litre",
+          "meaning_vi": "mi-li-lít (ml)",
+          "examples": [
+            {
+              "en": "Take 10 millilitres of medicine after meals.",
+              "vi": "Uống 10 ml thuốc sau bữa ăn."
+            },
+            {
+              "en": "A standard wine glass holds 175 millilitres.",
+              "vi": "Một ly rượu vang tiêu chuẩn chứa 175 ml."
+            },
+            {
+              "en": "The bottle of perfume is 50 millilitres.",
+              "vi": "Chai nước hoa 50 ml."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "millilitres of",
+        "in millilitres",
+        "few millilitres",
+        "100 millilitres",
+        "millilitres per"
+      ],
+      "etymology_hint": "From Latin 'milli' (thousand) + 'litre' — 1,000 ml in 1 litre.",
+      "mnemonic_vi": "MILLILITRE = MILLI + LITRE → '1 phần 1000 lít'. ML nhỏ xíu."
+    },
+    {
+      "word": "gallon",
+      "lemma": "gallon",
+      "ipa": "/ˈɡælən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit for measuring liquid in the US (3.79 litres) and UK (4.55 litres)",
+          "meaning_vi": "gallon (đv Mỹ ~3,79 l, Anh ~4,55 l)",
+          "examples": [
+            {
+              "en": "American cars hold about 15 gallons of petrol.",
+              "vi": "Xe hơi Mỹ chứa khoảng 15 gallon xăng."
+            },
+            {
+              "en": "She drinks a gallon of water during the marathon.",
+              "vi": "Cô ấy uống 1 gallon nước trong marathon."
+            },
+            {
+              "en": "Milk in the US is sold in gallon jugs.",
+              "vi": "Sữa ở Mỹ bán trong bình gallon."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "gallons of",
+        "miles per gallon",
+        "gallon jug",
+        "few gallons",
+        "gallons of water"
+      ],
+      "etymology_hint": "From Old Northern French 'galun' meaning 'liquid measure' — based on a vessel used for measuring wine.",
+      "mnemonic_vi": "GALLON = 'gắc-lơn' — 'ga' to chứa nhiều. Mỹ dùng nhiều."
+    },
+    {
+      "word": "weight",
+      "lemma": "weight",
+      "ipa": "/weɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how heavy something or someone is",
+          "meaning_vi": "cân nặng, trọng lượng",
+          "examples": [
+            {
+              "en": "What's the weight of your luggage?",
+              "vi": "Hành lý của bạn nặng bao nhiêu?"
+            },
+            {
+              "en": "He's trying to lose weight before the wedding.",
+              "vi": "Anh ấy đang cố giảm cân trước đám cưới."
+            },
+            {
+              "en": "The weight limit is 23 kg per bag.",
+              "vi": "Giới hạn cân nặng là 23 kg mỗi vali."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mass", "heaviness"],
+      "antonyms": ["lightness"],
+      "collocations": [
+        "lose weight",
+        "gain weight",
+        "ideal weight",
+        "weight limit",
+        "watch your weight"
+      ],
+      "etymology_hint": "From Old English 'wiht' meaning 'a weighing' — Germanic root, related to 'weigh'.",
+      "mnemonic_vi": "WEIGHT = 'wêi-t' — 'oai trọng lượng'. Lose weight = giảm cân."
+    },
+    {
+      "word": "height",
+      "lemma": "height",
+      "ipa": "/haɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how tall something or someone is",
+          "meaning_vi": "chiều cao",
+          "examples": [
+            {
+              "en": "What's your height in centimetres?",
+              "vi": "Chiều cao của bạn bao nhiêu cm?"
+            },
+            {
+              "en": "Landmark 81 has an impressive height of 461 metres.",
+              "vi": "Landmark 81 có chiều cao ấn tượng 461 mét."
+            },
+            {
+              "en": "She is average height for a Vietnamese woman.",
+              "vi": "Cô ấy có chiều cao trung bình của phụ nữ Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["depth"],
+      "collocations": ["in height", "average height", "great height", "height of", "max height"],
+      "etymology_hint": "From Old English 'hēhþo' meaning 'the highness' — from 'hēh' (high) + '-þo' (state of).",
+      "mnemonic_vi": "HEIGHT = 'hai-t' — 'hai cao' chiều cao. Tall + height = chiều cao."
+    },
+    {
+      "word": "length",
+      "lemma": "length",
+      "ipa": "/leŋθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how long something is from one end to the other",
+          "meaning_vi": "chiều dài",
+          "examples": [
+            {
+              "en": "The length of the cable is 3 metres.",
+              "vi": "Chiều dài cáp là 3 mét."
+            },
+            {
+              "en": "The Mekong River has a length of 4,300 km.",
+              "vi": "Sông Mekong có chiều dài 4.300 km."
+            },
+            {
+              "en": "Measure the length and width of the room.",
+              "vi": "Đo chiều dài và rộng phòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["distance", "extent"],
+      "antonyms": [],
+      "collocations": ["in length", "full length", "length of", "at length", "great length"],
+      "etymology_hint": "From Old English 'lengþu' meaning 'long-ness' — from 'lang' (long) + '-þu' (state of).",
+      "mnemonic_vi": "LENGTH = LENG + TH → 'sự dài'. Long → length = chiều dài."
+    },
+    {
+      "word": "width",
+      "lemma": "width",
+      "ipa": "/wɪdθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how wide something is from side to side",
+          "meaning_vi": "chiều rộng",
+          "examples": [
+            {
+              "en": "The width of the river is about 100 metres.",
+              "vi": "Chiều rộng sông khoảng 100 mét."
+            },
+            {
+              "en": "Choose a curtain that matches the window width.",
+              "vi": "Chọn rèm vừa với chiều rộng cửa sổ."
+            },
+            {
+              "en": "The road has a width of 6 metres.",
+              "vi": "Con đường rộng 6 mét."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["breadth"],
+      "antonyms": ["length"],
+      "collocations": ["in width", "full width", "width of", "narrow width", "wide width"],
+      "etymology_hint": "From Old English 'wid' (wide) + '-th' (state of) — Middle English construction parallel to 'length'.",
+      "mnemonic_vi": "WIDTH = WID + TH → 'sự rộng'. Wide → width = chiều rộng."
+    },
+    {
+      "word": "depth",
+      "lemma": "depth",
+      "ipa": "/depθ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "how deep something is from top to bottom",
+          "meaning_vi": "chiều sâu",
+          "examples": [
+            {
+              "en": "The pool has a depth of 2 metres.",
+              "vi": "Bể bơi có độ sâu 2 mét."
+            },
+            {
+              "en": "Don't swim in deep water if you don't know its depth.",
+              "vi": "Đừng bơi ở nước sâu nếu không biết độ sâu."
+            },
+            {
+              "en": "Hạ Long Bay has an average depth of 6 metres.",
+              "vi": "Vịnh Hạ Long có độ sâu trung bình 6 mét."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["height", "shallowness"],
+      "collocations": ["in depth", "depth of", "great depth", "shallow depth", "measure depth"],
+      "etymology_hint": "From Middle English 'depthe' — from 'deop' (deep) + '-th' (state of), same pattern as length/width.",
+      "mnemonic_vi": "DEPTH = DEP + TH → 'sự sâu'. Deep → depth = chiều sâu."
+    },
+    {
+      "word": "distance",
+      "lemma": "distance",
+      "ipa": "/ˈdɪstəns/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the space between two places or things",
+          "meaning_vi": "khoảng cách",
+          "examples": [
+            {
+              "en": "What's the distance between Hà Nội and Đà Nẵng?",
+              "vi": "Khoảng cách Hà Nội và Đà Nẵng là bao nhiêu?"
+            },
+            {
+              "en": "She can see the mountains in the distance.",
+              "vi": "Cô ấy có thể nhìn thấy núi ở xa."
+            },
+            {
+              "en": "Keep a safe distance between cars.",
+              "vi": "Giữ khoảng cách an toàn giữa các xe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["space", "gap"],
+      "antonyms": ["proximity"],
+      "collocations": [
+        "long distance",
+        "short distance",
+        "in the distance",
+        "keep your distance",
+        "from a distance"
+      ],
+      "etymology_hint": "From Latin 'distantia' meaning 'a standing apart' — from 'dis-' (apart) + 'stare' (to stand).",
+      "mnemonic_vi": "DISTANCE = DIS + STANCE → 'đứng tách ra'. Khoảng cách."
+    },
+    {
+      "word": "tonne",
+      "lemma": "tonne",
+      "ipa": "/tʌn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a unit of weight equal to 1,000 kilograms",
+          "meaning_vi": "tấn (đơn vị nặng = 1000 kg)",
+          "examples": [
+            {
+              "en": "The truck carries 5 tonnes of rice.",
+              "vi": "Xe tải chở 5 tấn gạo."
+            },
+            {
+              "en": "Vietnam exports millions of tonnes of coffee yearly.",
+              "vi": "Việt Nam xuất khẩu hàng triệu tấn cà phê mỗi năm."
+            },
+            {
+              "en": "An adult elephant weighs about 5 tonnes.",
+              "vi": "Một con voi trưởng thành nặng khoảng 5 tấn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ton"],
+      "antonyms": [],
+      "collocations": [
+        "tonnes of",
+        "metric tonne",
+        "tonnes per",
+        "tonnes of rice",
+        "thousand tonnes"
+      ],
+      "etymology_hint": "From Old French 'tonne' meaning 'large cask, barrel' — originally a measure of how much a barrel could hold.",
+      "mnemonic_vi": "TONNE = 'tốn' — 'tấn' nặng. 1 tonne = 1000 kg."
+    },
+    {
+      "word": "measure",
+      "lemma": "measure",
+      "ipa": "/ˈmeʒə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to find out the size, weight, or amount of something",
+          "meaning_vi": "đo, đo lường",
+          "examples": [
+            {
+              "en": "The tailor measured my chest and waist.",
+              "vi": "Thợ may đo vòng ngực và eo của tôi."
+            },
+            {
+              "en": "Use a thermometer to measure body temperature.",
+              "vi": "Dùng nhiệt kế để đo nhiệt độ cơ thể."
+            },
+            {
+              "en": "Measure the room before buying new furniture.",
+              "vi": "Đo phòng trước khi mua nội thất mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gauge", "calculate"],
+      "antonyms": [],
+      "collocations": [
+        "measure carefully",
+        "measure up",
+        "measure the distance",
+        "tape measure",
+        "measure success"
+      ],
+      "etymology_hint": "From Old French 'mesurer' — from Latin 'mensurare' (to measure), from 'mensura' (measure).",
+      "mnemonic_vi": "MEASURE = 'mé-zơ' — 'mê-sờ' đo. Tape measure = thước cuộn."
+    }
+  ]
+}
