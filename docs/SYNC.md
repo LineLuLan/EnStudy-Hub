@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `0b6e512`               | base                   | 2026-05-17 (`0b6e512`) | P7c A2 expansion — 5 lessons / 100 cards merged           |
-| be     | `cb3c24b`               | 2026-05-17             | 2026-05-17 (`cb3c24b`) | P7c content commit on be                                  |
-| fe     | `61a1a1a`               | 2026-05-17 (`61a1a1a`) | 2026-05-17 (`c9fe61a`) | sync P7c content — 1640 cards live on Supabase            |
+| dev    | `17e4728`               | base                   | 2026-05-17 (`17e4728`) | P7 CLOSED — 20/20 lessons / 400 cards (P7a+b+c+d)         |
+| be     | `ae3af76`               | 2026-05-17             | 2026-05-17 (`ae3af76`) | P7d content commit on be                                  |
+| fe     | `c98c46d`               | 2026-05-17 (`c98c46d`) | 2026-05-17 (`c9fe61a`) | sync P7d content — 1740 cards live on Supabase            |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -239,3 +239,7 @@ git checkout fe
 | 2026-05-17 | commit | (P7c content) → be   | `cb3c24b` | feat(content): P7c A2 expansion — 5 lessons (100 cards)                   |
 | 2026-05-17 | merge  | be → dev             | `0b6e512` | merge: be → dev (P7c A2 expansion — 5 lessons / 100 cards)                |
 | 2026-05-17 | sync   | dev → fe             | `61a1a1a` | sync: dev → fe (P7c content) — 1640 cards seeded live                     |
+| 2026-05-17 | commit | (P7c docs) → dev     | `7d80c0f` | docs(content): P7c A2 expansion ship — 82/192 lessons / 1640 cards (43%)  |
+| 2026-05-17 | commit | (P7d content) → be   | `ae3af76` | feat(content): P7d A2 expansion — 5 lessons (100 cards) — P7 CLOSED       |
+| 2026-05-17 | merge  | be → dev             | `17e4728` | merge: be → dev (P7d — P7 CLOSED, 20/20 lessons)                          |
+| 2026-05-17 | sync   | dev → fe             | `c98c46d` | sync: dev → fe (P7d — P7 CLOSED, 1740 cards seeded)                       |

@@ -451,14 +451,22 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
   - `time-numbers/measurements` — metre, kilometre, centimetre, millimetre, inch, mile, kilogram, gram, pound, litre, millilitre, gallon, weight, height, length, width, depth, distance, tonne, measure
   - Quality bar: British IPA, VN context dày (Vinhomes/Vietcombank/VPBank/Viettel/FPT/Vinpearl/Landmark 81/Mekong/Bến Thành/Sơn Tùng M-TP/Vietnam Airlines/Hạ Long Bay), mnemonic wordplay, etymology narratives, 0-3 syn / 0-2 ant / 4-5 collocations. Collision check via grep — 100/100 NEW.
   - Gates green (Zod ALL VALID). Seed live: **82 lessons / 1640 cards** (~43% Oxford 3000).
-- [ ] **P7d A2 expansion remaining** (~5 lessons / 100 cards) — TODO last batch to close P7
+- [x] **P7d A2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `ae3af76` trên be → merge `17e4728` lên dev → sync `c98c46d` xuống fe) — **P7 CLOSED 20/20 lessons**:
+  - `daily-life/personal-care` — toothpaste, shampoo, conditioner, lotion, deodorant, comb, makeup, perfume, razor, toothbrush, soap, nail, cream, spray, tissue, cotton, lipstick, sunscreen, shave, haircut
+  - `education/online-learning` — mooc, webinar, livestream, podcast, tutorial, course, badge, enroll, register, module, app, digital, online, virtual, video, instructor, session, login, zoom, platform
+  - `places-travel/tourism-experiences` — souvenir, guide, tour, attraction, landmark, brochure, itinerary, postcard, tourist, tourism, destination, cruise, backpack, hostel, map, exotic, local, adventure, explore, wander
+  - `nature-environment/farm-rural` — crop, livestock, plough, barn, field, soil, irrigation, scarecrow, farmhouse, orchard, paddy, cattle, dairy, herd, graze, fertilizer, tractor, countryside, pasture, stable
+  - `abstract-academic/cognition` — recognize, perceive, identify, distinguish, observe, examine, evaluate, consider, imagine, interpret, notice, realize, predict, infer, compare, contrast, recall, process, classify, estimate
+  - Quality bar: British IPA, VN context dày (P/S/Sunsilk/Lifebuoy/Vinamilk/Watsons/Anessa/Coursera/Udemy/Vietcetera/Mai Châu/Mu Cang Chai/Bến Tre/Đắk Lắk/Mộc Châu/Hội An/Phú Quốc). Collision check via grep — 100/100 NEW.
+  - Gates green (Zod ALL VALID). Seed live: **87 lessons / 1740 cards** (~45% Oxford 3000).
+  - **P7 totals**: 20 lessons / 400 cards across 4 batches (P7a + P7b + P7c + P7d) hoàn thành 2026-05-17 trong cùng day.
 - [ ] **P8 B1 part 1** (25 lessons / 500 cards) — TODO
 - [ ] **P9 B1 part 2** (25 lessons / 500 cards) — TODO
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 82/192 lessons (43%), 1640/3840 cards (43%), ~43% Oxford 3000 coverage.
+**Progress**: 87/192 lessons (45%), 1740/3840 cards (45%), ~45% Oxford 3000 coverage. **P7 CLOSED (20/20)**, next: P8 B1 part 1 (25 lessons / 500 cards).
 
 ---
 
