@@ -5,6 +5,77 @@
 
 ---
 
+## 2026-05-17 (P7c content batch) — A2 expansion: 5 more lessons / 100 cards (82/192) — Claude Opus 4.7
+
+### Đã ship session này (BE work — content gen + seed)
+
+5 lessons A2 mới, tiếp nối P7b. User confirm "gen tiếp P7c" → AI auto-gen (6th override, pattern hoàn toàn xác lập). Workflow giống P7a/P7b: grep collision check → gen JSON theo quality bar → Zod-validate → commit be → merge dev → sync fe → seed live.
+
+**5 lessons mới (A2, 100% NEW words không trùng existing 1540)**:
+
+| #   | Lesson             | Topic         | order_index | Highlights                                                                                                                                                                     |
+| --- | ------------------ | ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | cleaning-housework | daily-life    | 13          | vacuum/sweep/mop/dust/laundry/iron/dishwasher/garbage/tidy/broom/bucket/wipe/polish/stain/sponge/detergent/rubbish/chore/maid/spotless                                         |
+| 2   | social-media       | entertainment | 6           | follow/story/hashtag/profile/tag/filter/upload/download/notification/emoji/stream/subscribe/block/mute/caption/selfie/trending/unfollow/swipe/status                           |
+| 3   | work-relationships | people        | 8           | supervisor/subordinate/coworker/trainee/apprentice/recruit/counterpart/mentee/peer/associate/dismiss/quit/shift/rookie/veteran/chief/lead/specialist/junior/crew               |
+| 4   | teamwork           | work-business | 7           | collaborate/role/task/contribute/cooperate/delegate/assign/achieve/accomplish/teamwork/unity/division/resolve/consensus/coordinate/align/responsibility/mutual/commit/complete |
+| 5   | measurements       | time-numbers  | 7           | metre/kilometre/centimetre/millimetre/inch/mile/kilogram/gram/pound/litre/millilitre/gallon/weight/height/length/width/depth/distance/tonne/measure                            |
+
+### Quality bar applied (CONTENT_PLAN_FULL §3)
+
+- ✅ British IPA strict, slash-wrapped `/.../`
+- ✅ VN context dày: Vinhomes/Vietcombank/VPBank/Viettel/FPT/Vinpearl/Landmark 81, Mekong/Bến Thành/Hạ Long Bay, Sơn Tùng M-TP/Vietnam Airlines/Điện Máy Xanh/Vingroup, Tết/áo dài/phở
+- ✅ Mnemonic wordplay (vd "VACUUM = vắc → vắc hút sạch", "DELEGATE = DE + LEGATE → gửi xuống", "DEPTH = DEP + TH → sự sâu")
+- ✅ Etymology narrative per card (Latin / Greek / Old English / Old French / French / Japanese cho 'emoji')
+- ✅ 0-3 synonyms / 0-2 antonyms / 4-5 collocations natural
+- ✅ POS 10-enum chuẩn
+- ✅ Collision check via grep — 100/100 words là NEW so với 1540 existing
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                       |
+| ------ | --------- | ------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                         |
+| dev    | `0b6e512` | merge be → dev (P7c 5 lessons / 100 cards) |
+| be     | `cb3c24b` | feat(content): P7c A2 expansion            |
+| fe     | `61a1a1a` | sync: dev → fe (P7c content)               |
+
+### Verify đã chạy
+
+- Zod inline validate 5 lessons ✓ ALL VALID
+- `pnpm seed` ✓ **1 collection / 11 topics / 82 lessons / 1640 cards** live trên Supabase
+- Commitlint: pass on first attempt (rút kinh nghiệm P7b — body lines ≤ 100 chars OK)
+
+### Progress P5-P12 tracking
+
+| Phase          | Lessons | Cards    | Status             |
+| -------------- | ------- | -------- | ------------------ |
+| P0-P4 MVP      | 42      | 840      | ✅                 |
+| P5 Common Core | 10      | 200      | ✅                 |
+| P6 A1 fillers  | 15      | 300      | ✅                 |
+| P7a A2 exp     | 5       | 100      | ✅                 |
+| P7b A2 exp     | 5       | 100      | ✅                 |
+| **P7c A2 exp** | **5**   | **100**  | **✅ session này** |
+| P7d (cuối P7)  | ~5      | ~100     | TODO next sessions |
+| **Tổng ship**  | **82**  | **1640** | ~43% Oxford 3000   |
+
+### Notes for next AI session pickup
+
+- **Tiếp P7d**: 5 lessons cuối để đóng P7. Đề xuất các angles còn lại:
+  - `daily-life/personal-care` (toothpaste, shampoo, lotion, deodorant, comb, makeup, perfume, razor, brush, mirror)
+  - `education/online-learning` (mooc, webinar, livestream, podcast, tutorial, course, certificate, badge, e-learning)
+  - `places-travel/tourism-experiences` (sightseeing, souvenir, guide, tour, attraction, landmark, brochure, itinerary, postcard)
+  - `nature-environment/farm-rural` (farmer, crop, livestock, harvest, plough, barn, field, soil, irrigation, scarecrow)
+  - `abstract-academic/cognition` (recognize, perceive, identify, distinguish, observe, examine, evaluate, analyze, judge, conclude)
+- **Override pattern xác lập** (6 overrides, 100% consistency): "gen tiếp" → AI auto-gen. Hoàn toàn không cần hỏi.
+- **Pattern reuse từ session này**:
+  - Grep collision batch nhiều words trong 1 regex `(w1|w2|w3...)` để check nhanh
+  - Khi lesson collision quá nhiều (vd `social-media`: 8 conflict), pivot sang angle hẹp hơn
+  - Quality bar ổn định khi gen 5 lessons / batch — không gen quá 10 trong 1 session
+  - JSON indent prettier auto-fix sau commit — không cần ép format perfect tay
+
+---
+
 ## 2026-05-17 (P7b content batch) — A2 expansion: 5 more lessons / 100 cards (77/192) — Claude Opus 4.7
 
 ### Đã ship session này (BE work — content gen + seed)
