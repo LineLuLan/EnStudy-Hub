@@ -5,6 +5,58 @@
 
 ---
 
+## 2026-05-17 (P9b content batch) — B1: 5 lessons / 100 cards (122/192, ~64%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 tiếp nối P9a. User confirm "tiếp tục P9b" → override #14. Quality bar duy trì.
+
+**5 lessons mới (B1, 100/100 NEW so với 2340 existing)**:
+
+| #   | Lesson             | Topic              | order |
+| --- | ------------------ | ------------------ | ----- |
+| 1   | conservation       | nature-environment | 11    |
+| 2   | global-issues      | society-culture    | 6     |
+| 3   | cultural-immersion | places-travel      | 8     |
+| 4   | critical-thinking  | abstract-academic  | 12    |
+| 5   | marketing-digital  | work-business      | 14    |
+
+### Bug caught
+
+L4 critical-thinking ban đầu có 21 cards (thừa 1 — `judgement` không có trong wordlist plan). Phát hiện qua validate-content.ts. Đã trim trước commit. Lesson learned: validate count khớp wordlist trước commit lần đầu.
+
+### SHA cuối session (P9b)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `44b105f` (P9b merge)
+- be `47533fd` (P9b content)
+- fe `eda2b53` (sync P9b)
+
+### Verify
+
+- Zod ALL VALID 5 files (sau trim card thừa).
+- Validate flags: 13+11+18+14+12 = 68/100 IPA notation variations.
+
+### PICKUP cho session sau — P9c (5 lessons B1)
+
+P9 đang 10/25. Còn 15 lessons. Đề xuất P9c topic candidates (cần grep collision trước):
+
+- `daily-life/home-renovation` — renovate, remodel, paint, wallpaper, decorate, layout, tile, flooring, plumbing, wiring
+- `entertainment/visual-arts` — sculpture, painting, sketch, canvas, gallery, exhibit, abstract, portrait, mural, brushstroke
+- `people/relationships-conflict` — argue, conflict, compromise, resolve, forgive, grudge, apologize, reconcile, mediate, fallout
+- `education/study-abroad` — visa, application, orientation, foreign-language, exchange-program, recommendation
+- `nature-environment/seasons-extreme` — frost, hail, heatwave, cyclone (carefully check vs weather-seasons-ext)
+
+Grep collision warnings tăng dần khi coverage tăng — P9c+ sẽ cần nhiều round greps hơn P9a/b.
+
+### Files state khi handoff (P9b)
+
+- All branches pushed to origin.
+- Docs updated.
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (P9a content batch — P9 opens) — B1: 5 lessons / 100 cards (117/192, ~61%) — Claude Opus 4.7
 
 ### Đã ship

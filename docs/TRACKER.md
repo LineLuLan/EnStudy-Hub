@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P9b B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `47533fd` → merge `44b105f` → sync `eda2b53`) — P9 10/25:
+    - `nature-environment/conservation` — wildlife, reserve, poach, smuggle, restore, sanctuary, ecological, threatened, ranger, conservation, recycling, replant, reforest, captive, breeding, hunt, plastic, illegal, advocate, protected
+    - `society-culture/global-issues` — globalization, migration, prejudice, tolerance, fairness, oppression, gentrification, racism, sexism, privilege, activism, asylum, marginalize, exploit, systemic, underprivileged, grassroots, stigma, stereotype, xenophobia
+    - `places-travel/cultural-immersion` — homestay, etiquette, taboo, hospitality, dialect, accent, regional, indigenous, exchange, integrate, immerse, customary, culture-shock, bilingual, monolingual, expat, host-family, ceremony, folklore, gesture
+    - `abstract-academic/critical-thinking` — logical, irrational, skeptical, scrutinize, presume, critique, verify, rationalize, ponder, deliberate, anecdotal, empirical, credible, reliable, oversimplify, mislead, manipulate, dogma, qualify, dispute
+    - `work-business/marketing-digital` — SEO, funnel, click-through, paid, retention, churn, impression, reach, targeting, optimization, metric, analytics, copywriter, backlink, keyword, ranking, ROI, retarget, ad, CTR
+    - Zod schema green tất cả 5. Quality bar maintained. Seed live: **pending user manual run** (target 122 lessons / 2440 cards).
   - [x] **P9a B1 expansion** (5 lessons / 100 cards, 2026-05-17, commit `f860441` → merge `9d106e7` → sync `fedea80`) — P9 mở 5/25:
     - `daily-life/cooking-techniques` — simmer, sauté, marinate, knead, whisk, blanch, braise, garnish, roast, grill, deep-fry, steam, mince, dice, sear, glaze, baste, julienne, chop, stir
     - `people/communication-styles` — assertive, passive, aggressive, diplomatic, blunt, tactful, sarcasm, irony, hint, mumble, articulate, eloquent, concise, verbose, persuasive, confrontational, listener, interrupt, paraphrase, validate
@@ -503,12 +510,12 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `nature-environment/natural-disasters` (pivoted from weather-disasters do 7 từ trùng với weather-seasons-ext) — earthquake, eruption, wildfire, blizzard, avalanche, landslide, tornado, monsoon, tremor, magnitude, epicenter, aftermath, evacuation, devastation, debris, rescue, hazard, casualty, shelter, alert
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
-- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a done (5/25), TODO P9b-e
+- [~] **P9 B1 part 2** (25 lessons / 500 cards) — P9a-b done (10/25), TODO P9c-e
 - [ ] **P10 B2 expansion** (25 lessons / 500 cards) — TODO
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 117/192 lessons (61%), 2340/3840 cards (61%), ~61% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 mở 5/25**, next: P9b (5 lessons).
+**Progress**: 122/192 lessons (64%), 2440/3840 cards (64%), ~64% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 ở 10/25**, next: P9c (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
