@@ -1,0 +1,763 @@
+{
+  "slug": "extreme-travel",
+  "name": "Extreme Travel",
+  "description": "Du lịch mạo hiểm B1 — expedition, trek, altitude, peak và 16 từ về hành trình vượt giới hạn.",
+  "order_index": 7,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "expedition",
+      "lemma": "expedition",
+      "ipa": "/ˌekspəˈdɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an organized journey, especially a long one for exploration or research",
+          "meaning_vi": "chuyến thám hiểm, đoàn thám hiểm",
+          "examples": [
+            {
+              "en": "The expedition to the South Pole took six months.",
+              "vi": "Chuyến thám hiểm Nam Cực kéo dài 6 tháng."
+            },
+            {
+              "en": "She joined a scientific expedition to the Amazon.",
+              "vi": "Cô ấy tham gia đoàn thám hiểm khoa học đến Amazon."
+            },
+            {
+              "en": "The expedition cost over $200,000 to organize.",
+              "vi": "Chuyến thám hiểm tốn hơn 200.000 USD để tổ chức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exploration", "journey", "mission"],
+      "antonyms": ["staycation", "day trip"],
+      "collocations": [
+        "scientific expedition",
+        "lead an expedition",
+        "join an expedition",
+        "Arctic expedition",
+        "expedition team"
+      ],
+      "etymology_hint": "From Latin 'expeditio' = a setting forth — military origin, applied to exploration from 17th century.",
+      "mnemonic_vi": "EX (ra) + PEDI (chân) + TION = bước chân ra đi. Expedition = chuyến thám hiểm."
+    },
+    {
+      "word": "backpacker",
+      "lemma": "backpacker",
+      "ipa": "/ˈbækpækə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a traveler who carries everything in a backpack and travels cheaply, often for long periods",
+          "meaning_vi": "dân du lịch bụi",
+          "examples": [
+            {
+              "en": "Vietnam is a paradise for backpackers.",
+              "vi": "Việt Nam là thiên đường cho dân du lịch bụi."
+            },
+            {
+              "en": "Backpackers often stay in hostels to save money.",
+              "vi": "Backpacker thường ở hostel để tiết kiệm."
+            },
+            {
+              "en": "She spent a year as a backpacker across Southeast Asia.",
+              "vi": "Cô ấy đi du lịch bụi cả năm khắp Đông Nam Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["budget traveler", "wanderer"],
+      "antonyms": ["luxury tourist", "package traveler"],
+      "collocations": [
+        "budget backpacker",
+        "backpacker hostel",
+        "solo backpacker",
+        "backpacker trail",
+        "young backpacker"
+      ],
+      "etymology_hint": "From 'backpack' + '-er' — term spread globally with the 1970s 'hippie trail' across Asia.",
+      "mnemonic_vi": "BACK (sau) + PACK (gói) + ER (người) = người vác ba lô. Backpacker = dân ba lô."
+    },
+    {
+      "word": "off-grid",
+      "lemma": "off-grid",
+      "ipa": "/ˌɒfˈɡrɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not connected to public electricity, water, or internet — fully self-sufficient",
+          "meaning_vi": "không lưới điện, tự cấp (sống/du lịch không nối với hệ thống công cộng)",
+          "examples": [
+            {
+              "en": "They spent a week off-grid in the mountains.",
+              "vi": "Họ ở off-grid trên núi một tuần."
+            },
+            {
+              "en": "Her off-grid cabin runs on solar power.",
+              "vi": "Cabin off-grid của cô ấy dùng năng lượng mặt trời."
+            },
+            {
+              "en": "Going off-grid is a growing travel trend.",
+              "vi": "Du lịch off-grid đang là xu hướng tăng dần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-sufficient", "unplugged"],
+      "antonyms": ["connected", "urban"],
+      "collocations": [
+        "go off-grid",
+        "off-grid living",
+        "off-grid cabin",
+        "fully off-grid",
+        "off-grid travel"
+      ],
+      "etymology_hint": "Compound: 'off' (away from) + 'grid' (electrical grid) — popularized in 1990s sustainability movement.",
+      "mnemonic_vi": "OFF (tắt) + GRID (lưới điện) = ngắt khỏi lưới điện. Go off-grid = sống tự cấp."
+    },
+    {
+      "word": "nomad",
+      "lemma": "nomad",
+      "ipa": "/ˈnəʊmæd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who moves from place to place rather than living in one location",
+          "meaning_vi": "người du mục, người sống nay đây mai đó",
+          "examples": [
+            {
+              "en": "Digital nomads work online while traveling the world.",
+              "vi": "Digital nomad làm việc online khi đi du lịch khắp thế giới."
+            },
+            {
+              "en": "Mongolian nomads still follow their herds across the steppe.",
+              "vi": "Người du mục Mông Cổ vẫn theo đàn gia súc đi khắp thảo nguyên."
+            },
+            {
+              "en": "He lives like a nomad, never in one city for long.",
+              "vi": "Anh ấy sống như du mục, không ở đâu lâu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wanderer", "drifter"],
+      "antonyms": ["settler", "resident"],
+      "collocations": [
+        "digital nomad",
+        "modern nomad",
+        "nomad lifestyle",
+        "traditional nomad",
+        "nomad community"
+      ],
+      "etymology_hint": "From Greek 'nomas' = roaming for pasture — original meaning was 'herder following grazing land'.",
+      "mnemonic_vi": "NOMAD = 'nô-mát' — đi khắp nơi mát mặt. Digital nomad = dân du mục số."
+    },
+    {
+      "word": "trek",
+      "lemma": "trek",
+      "ipa": "/trek/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long, difficult journey on foot, especially in mountains or remote areas",
+          "meaning_vi": "chuyến đi bộ đường dài (qua địa hình khó)",
+          "examples": [
+            {
+              "en": "The trek to Sapa's highest village took three days.",
+              "vi": "Chuyến trek lên bản cao nhất Sapa mất 3 ngày."
+            },
+            {
+              "en": "Everest Base Camp is one of the most famous treks in the world.",
+              "vi": "Base Camp Everest là một trong những trek nổi tiếng nhất thế giới."
+            },
+            {
+              "en": "She trained for months before the Himalayan trek.",
+              "vi": "Cô ấy luyện vài tháng trước trek Himalaya."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hike", "trekking trip"],
+      "antonyms": ["short walk", "stroll"],
+      "collocations": ["mountain trek", "long trek", "trek through", "guided trek", "epic trek"],
+      "etymology_hint": "From Afrikaans 'trek' = pull, journey — entered English from Boer migrations in Southern Africa.",
+      "mnemonic_vi": "TREK đọc 'trẹc' — chân trẹc trật vì đi bộ dài. Mountain trek = trek núi."
+    },
+    {
+      "word": "wilderness",
+      "lemma": "wilderness",
+      "ipa": "/ˈwɪldənəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a wild natural area, especially one untouched by human development",
+          "meaning_vi": "vùng hoang dã",
+          "examples": [
+            {
+              "en": "Alaska has some of the largest wilderness areas on Earth.",
+              "vi": "Alaska có một trong những vùng hoang dã lớn nhất Trái đất."
+            },
+            {
+              "en": "They got lost in the wilderness for two days.",
+              "vi": "Họ lạc trong vùng hoang dã suốt hai ngày."
+            },
+            {
+              "en": "Protecting wilderness is essential for biodiversity.",
+              "vi": "Bảo vệ vùng hoang dã rất quan trọng cho đa dạng sinh học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wild", "outback", "bush"],
+      "antonyms": ["civilization", "urban area"],
+      "collocations": [
+        "protected wilderness",
+        "wilderness area",
+        "vast wilderness",
+        "into the wilderness",
+        "wilderness survival"
+      ],
+      "etymology_hint": "From Old English 'wildēornes' = land of wild animals — 'wild' + 'deor' (animal) + '-ness'.",
+      "mnemonic_vi": "WILD (hoang) + ERNESS = vùng hoang. Into the wilderness = vào vùng hoang dã."
+    },
+    {
+      "word": "frontier",
+      "lemma": "frontier",
+      "ipa": "/ˈfrʌntɪə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the limit of explored or settled territory; the edge of the known world",
+          "meaning_vi": "biên giới chưa khám phá, vùng tiền tiêu",
+          "examples": [
+            {
+              "en": "The American frontier shaped the country's identity.",
+              "vi": "Vùng biên Mỹ định hình bản sắc quốc gia."
+            },
+            {
+              "en": "Space remains the final frontier for explorers.",
+              "vi": "Vũ trụ vẫn là biên giới cuối cùng cho nhà thám hiểm."
+            },
+            {
+              "en": "Few people have ever crossed this frontier.",
+              "vi": "Ít người từng vượt qua vùng biên này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["border", "edge", "boundary"],
+      "antonyms": ["heartland", "interior"],
+      "collocations": [
+        "the final frontier",
+        "frontier town",
+        "cross the frontier",
+        "wild frontier",
+        "new frontier"
+      ],
+      "etymology_hint": "From Old French 'frontiere' = front line — original military sense expanded to 'edge of known territory'.",
+      "mnemonic_vi": "FRONT (mặt trước) + IER = vùng mặt trước. Final frontier = biên giới cuối."
+    },
+    {
+      "word": "pilgrimage",
+      "lemma": "pilgrimage",
+      "ipa": "/ˈpɪlɡrɪmɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long journey to a sacred place, often for religious or personal reasons",
+          "meaning_vi": "cuộc hành hương",
+          "examples": [
+            {
+              "en": "Muslims make a pilgrimage to Mecca at least once in life.",
+              "vi": "Người Hồi giáo hành hương đến Mecca ít nhất một lần trong đời."
+            },
+            {
+              "en": "Many Vietnamese make a pilgrimage to Yên Tử during Tết.",
+              "vi": "Nhiều người Việt hành hương Yên Tử dịp Tết."
+            },
+            {
+              "en": "His trip to the artist's hometown felt like a pilgrimage.",
+              "vi": "Chuyến đi quê họa sĩ của anh ấy giống như hành hương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sacred journey", "religious trip"],
+      "antonyms": ["secular travel", "vacation"],
+      "collocations": [
+        "make a pilgrimage",
+        "religious pilgrimage",
+        "go on a pilgrimage",
+        "annual pilgrimage",
+        "spiritual pilgrimage"
+      ],
+      "etymology_hint": "From Latin 'peregrinus' = traveler from abroad — root of 'pilgrim' and 'peregrine' (falcon).",
+      "mnemonic_vi": "PILGRIM (người hành hương) + AGE = cuộc hành hương. Religious pilgrimage = hành hương tôn giáo."
+    },
+    {
+      "word": "solo",
+      "lemma": "solo",
+      "ipa": "/ˈsəʊləʊ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "done alone, without companions",
+          "meaning_vi": "một mình, đơn độc (đi du lịch/làm gì đó)",
+          "examples": [
+            {
+              "en": "Solo travel teaches you to rely on yourself.",
+              "vi": "Du lịch solo dạy bạn tự lo cho mình."
+            },
+            {
+              "en": "She did a solo trek across Iceland.",
+              "vi": "Cô ấy trek solo xuyên Iceland."
+            },
+            {
+              "en": "Solo female travelers face unique challenges.",
+              "vi": "Du khách nữ đi solo gặp những thách thức riêng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alone", "unaccompanied", "single-handed"],
+      "antonyms": ["in a group", "accompanied"],
+      "collocations": [
+        "solo trip",
+        "solo travel",
+        "solo female traveler",
+        "go solo",
+        "solo adventure"
+      ],
+      "etymology_hint": "From Italian 'solo' = alone — borrowed via music ('solo performance') in 17th century.",
+      "mnemonic_vi": "SOLO = 'sô-lô' — chỉ có một mình. Solo travel = du lịch một mình."
+    },
+    {
+      "word": "voyage",
+      "lemma": "voyage",
+      "ipa": "/ˈvɔɪɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long journey, especially by sea or in space",
+          "meaning_vi": "chuyến hành trình dài (thường bằng biển hoặc vũ trụ)",
+          "examples": [
+            {
+              "en": "Magellan's voyage was the first to circle the globe.",
+              "vi": "Hành trình của Magellan là chuyến đầu tiên vòng quanh Trái đất."
+            },
+            {
+              "en": "The cargo voyage from Vietnam to Europe takes a month.",
+              "vi": "Chuyến hàng từ Việt Nam sang châu Âu mất một tháng."
+            },
+            {
+              "en": "It was a voyage of self-discovery for her.",
+              "vi": "Đó là hành trình khám phá bản thân với cô ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["journey", "trip", "passage"],
+      "antonyms": ["short hop"],
+      "collocations": [
+        "long voyage",
+        "maiden voyage",
+        "sea voyage",
+        "voyage of discovery",
+        "around-the-world voyage"
+      ],
+      "etymology_hint": "From Old French 'voiage' = travel, journey — Latin 'viaticum' = provisions for travel.",
+      "mnemonic_vi": "VOYAGE đọc 'voi-ìt' — voi đi xa hàng tuần. Maiden voyage = chuyến đi đầu tiên."
+    },
+    {
+      "word": "scenic",
+      "lemma": "scenic",
+      "ipa": "/ˈsiːnɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having beautiful natural views",
+          "meaning_vi": "có cảnh đẹp, danh thắng",
+          "examples": [
+            {
+              "en": "Take the scenic route along the coast — it's worth it.",
+              "vi": "Đi đường cảnh đẹp dọc biển — đáng giá lắm."
+            },
+            {
+              "en": "Hà Giang loop is one of the most scenic drives in Vietnam.",
+              "vi": "Cung Hà Giang là một trong những đường cảnh đẹp nhất Việt Nam."
+            },
+            {
+              "en": "The scenic viewpoint draws thousands of tourists.",
+              "vi": "Điểm ngắm cảnh thu hút hàng nghìn du khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["picturesque", "beautiful", "panoramic"],
+      "antonyms": ["plain", "ugly", "industrial"],
+      "collocations": [
+        "scenic route",
+        "scenic view",
+        "scenic drive",
+        "scenic spot",
+        "scenic overlook"
+      ],
+      "etymology_hint": "From Latin 'scenicus' = of the stage — meaning shifted from 'theatrical' to 'view-like' in 18th century.",
+      "mnemonic_vi": "SCEN (cảnh) + IC = thuộc cảnh. Scenic route = đường có cảnh."
+    },
+    {
+      "word": "checkpoint",
+      "lemma": "checkpoint",
+      "ipa": "/ˈtʃekpɔɪnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a stop along a route or border where travelers must show documents or pass inspection",
+          "meaning_vi": "trạm kiểm soát, chốt chặn",
+          "examples": [
+            {
+              "en": "We waited two hours at the border checkpoint.",
+              "vi": "Chúng tôi đợi 2 tiếng ở trạm kiểm soát biên giới."
+            },
+            {
+              "en": "Each trek stage ends at an official checkpoint.",
+              "vi": "Mỗi chặng trek kết thúc ở chốt chính thức."
+            },
+            {
+              "en": "Police set up checkpoints during the Tết holiday.",
+              "vi": "Cảnh sát lập chốt trong dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["control point", "border post"],
+      "antonyms": ["open road"],
+      "collocations": [
+        "border checkpoint",
+        "police checkpoint",
+        "security checkpoint",
+        "pass through a checkpoint",
+        "military checkpoint"
+      ],
+      "etymology_hint": "Compound: 'check' (inspect) + 'point' (location) — military term from World War II.",
+      "mnemonic_vi": "CHECK (kiểm tra) + POINT (điểm) = điểm kiểm tra. Border checkpoint = chốt biên giới."
+    },
+    {
+      "word": "gear",
+      "lemma": "gear",
+      "ipa": "/ɡɪə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "equipment, tools, or clothes needed for a particular activity",
+          "meaning_vi": "đồ nghề, trang thiết bị",
+          "examples": [
+            {
+              "en": "Check your camping gear before leaving.",
+              "vi": "Kiểm tra đồ cắm trại trước khi đi."
+            },
+            {
+              "en": "Good rain gear is essential for trekking in Sapa.",
+              "vi": "Đồ mưa tốt rất cần khi trek Sapa."
+            },
+            {
+              "en": "He spent $2,000 on climbing gear.",
+              "vi": "Anh ấy chi 2.000 USD cho đồ leo núi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["equipment", "kit", "outfit"],
+      "antonyms": [],
+      "collocations": [
+        "camping gear",
+        "climbing gear",
+        "outdoor gear",
+        "rain gear",
+        "pack your gear"
+      ],
+      "etymology_hint": "From Old Norse 'gervi' = clothing, equipment — broadened to mean 'tools for an activity' by 14th century.",
+      "mnemonic_vi": "GEAR đọc 'ghia' — ghé balo đầy đồ nghề. Camping gear = đồ cắm trại."
+    },
+    {
+      "word": "trail",
+      "lemma": "trail",
+      "ipa": "/treɪl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a rough path through countryside, forest, or mountains",
+          "meaning_vi": "đường mòn, lối đi rừng/núi",
+          "examples": [
+            {
+              "en": "Follow the trail markers to avoid getting lost.",
+              "vi": "Theo dấu hiệu trên đường mòn để khỏi lạc."
+            },
+            {
+              "en": "The Hà Giang trail is popular among motorbikers.",
+              "vi": "Cung mòn Hà Giang nổi tiếng với dân phượt xe máy."
+            },
+            {
+              "en": "She trains by running mountain trails.",
+              "vi": "Cô ấy luyện chạy trên đường mòn núi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["path", "track", "route"],
+      "antonyms": ["highway", "paved road"],
+      "collocations": [
+        "hiking trail",
+        "mountain trail",
+        "follow the trail",
+        "trail marker",
+        "off-trail"
+      ],
+      "etymology_hint": "From Old French 'trailler' = to tow, drag — meaning 'path left by something' came naturally.",
+      "mnemonic_vi": "TRAIL đọc 'trêu' — trêu chân đi mãi không hết. Hiking trail = đường mòn đi bộ."
+    },
+    {
+      "word": "ascent",
+      "lemma": "ascent",
+      "ipa": "/əˈsent/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the action of climbing or moving upward, especially up a mountain",
+          "meaning_vi": "sự leo lên, sự đi lên",
+          "examples": [
+            {
+              "en": "The ascent of Everest takes about two months.",
+              "vi": "Leo lên Everest mất khoảng 2 tháng."
+            },
+            {
+              "en": "The first ascent of Fansipan was in 1905.",
+              "vi": "Lần đầu leo Fansipan là năm 1905."
+            },
+            {
+              "en": "The steep ascent left everyone breathless.",
+              "vi": "Đoạn leo dốc làm ai cũng hụt hơi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["climb", "rise", "ascending"],
+      "antonyms": ["descent", "descending"],
+      "collocations": [
+        "steep ascent",
+        "first ascent",
+        "begin the ascent",
+        "gradual ascent",
+        "successful ascent"
+      ],
+      "etymology_hint": "From Latin 'ascendere' = climb up — 'ad-' (to) + 'scandere' (climb).",
+      "mnemonic_vi": "ASCENT đọc 'a-sần' — a, sần sùi vì leo lên đá. Steep ascent = đoạn leo dốc."
+    },
+    {
+      "word": "altitude",
+      "lemma": "altitude",
+      "ipa": "/ˈæltɪtjuːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the height of a place above sea level",
+          "meaning_vi": "độ cao (so với mực nước biển)",
+          "examples": [
+            {
+              "en": "Fansipan stands at an altitude of 3,143 meters.",
+              "vi": "Fansipan ở độ cao 3.143 mét."
+            },
+            {
+              "en": "Altitude sickness can hit anyone above 2,500 meters.",
+              "vi": "Sốc độ cao có thể tấn công bất cứ ai trên 2.500 mét."
+            },
+            {
+              "en": "At high altitude, water boils at a lower temperature.",
+              "vi": "Ở độ cao lớn, nước sôi ở nhiệt độ thấp hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["elevation", "height"],
+      "antonyms": ["sea level", "depth"],
+      "collocations": [
+        "high altitude",
+        "altitude sickness",
+        "low altitude",
+        "gain altitude",
+        "altitude training"
+      ],
+      "etymology_hint": "From Latin 'altitudo' = height — 'altus' (high) + '-tudo' (state of).",
+      "mnemonic_vi": "ALT (cao) + ITUDE = sự cao. Altitude sickness = sốc độ cao."
+    },
+    {
+      "word": "peak",
+      "lemma": "peak",
+      "ipa": "/piːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the pointed top of a mountain",
+          "meaning_vi": "đỉnh núi",
+          "examples": [
+            {
+              "en": "Snow covers the peaks year-round.",
+              "vi": "Tuyết phủ các đỉnh núi quanh năm."
+            },
+            {
+              "en": "Reaching the peak took twelve hours.",
+              "vi": "Lên tới đỉnh mất 12 tiếng."
+            },
+            {
+              "en": "Mont Blanc is the highest peak in the Alps.",
+              "vi": "Mont Blanc là đỉnh cao nhất dãy Alps."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["summit (avoided here)", "top", "pinnacle"],
+      "antonyms": ["base", "foot"],
+      "collocations": [
+        "mountain peak",
+        "snow-capped peak",
+        "reach the peak",
+        "highest peak",
+        "twin peaks"
+      ],
+      "etymology_hint": "From dialectal English 'pike' = pointed top — possibly Norse origin.",
+      "mnemonic_vi": "PEAK = đỉnh — bíp một cái lên đỉnh. Mountain peak = đỉnh núi."
+    },
+    {
+      "word": "ridge",
+      "lemma": "ridge",
+      "ipa": "/rɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long, narrow strip of high land, especially the top of a chain of mountains",
+          "meaning_vi": "sống núi, đỉnh dài",
+          "examples": [
+            {
+              "en": "We hiked along the ridge for hours.",
+              "vi": "Chúng tôi đi bộ dọc sống núi nhiều giờ."
+            },
+            {
+              "en": "The ridge separates two deep valleys.",
+              "vi": "Sống núi chia tách hai thung lũng sâu."
+            },
+            {
+              "en": "Wind blows hard across the exposed ridge.",
+              "vi": "Gió thổi mạnh qua sống núi trống trải."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["crest", "spine"],
+      "antonyms": ["valley", "trough"],
+      "collocations": [
+        "mountain ridge",
+        "ridge top",
+        "narrow ridge",
+        "exposed ridge",
+        "walk along a ridge"
+      ],
+      "etymology_hint": "From Old English 'hrycg' = back, spine — related to 'rigid' through Latin via cognate roots.",
+      "mnemonic_vi": "RIDGE đọc 'ríc' — đỉnh dài như sống lưng. Mountain ridge = sống núi."
+    },
+    {
+      "word": "endurance",
+      "lemma": "endurance",
+      "ipa": "/ɪnˈdjʊərəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the ability to keep doing something difficult, painful, or tiring for a long time",
+          "meaning_vi": "sức bền, sức chịu đựng",
+          "examples": [
+            {
+              "en": "Ultra-marathon runners have incredible endurance.",
+              "vi": "Vận động viên chạy siêu marathon có sức bền không tưởng."
+            },
+            {
+              "en": "Endurance matters more than speed on a long trek.",
+              "vi": "Sức bền quan trọng hơn tốc độ trên đường trek dài."
+            },
+            {
+              "en": "She built her endurance with daily 10K runs.",
+              "vi": "Cô ấy xây sức bền bằng chạy 10km mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stamina (different lesson)", "perseverance"],
+      "antonyms": ["weakness", "fatigue"],
+      "collocations": [
+        "build endurance",
+        "endurance training",
+        "test of endurance",
+        "physical endurance",
+        "endurance athlete"
+      ],
+      "etymology_hint": "From Old French 'endurer' = harden, last — Latin 'durus' = hard, lasting.",
+      "mnemonic_vi": "EN (làm) + DURE (cứng/lâu) + ANCE = sức bền. Endurance training = tập sức bền."
+    },
+    {
+      "word": "navigate",
+      "lemma": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to find your way through unfamiliar or difficult terrain",
+          "meaning_vi": "định hướng, dò đường",
+          "examples": [
+            {
+              "en": "He navigated through the jungle using only a compass.",
+              "vi": "Anh ấy dò đường qua rừng chỉ bằng la bàn."
+            },
+            {
+              "en": "GPS makes it easier to navigate remote areas.",
+              "vi": "GPS giúp định hướng dễ hơn ở vùng xa."
+            },
+            {
+              "en": "Sailors must navigate by the stars when GPS fails.",
+              "vi": "Thủy thủ phải định hướng bằng sao khi GPS hỏng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["find the way", "steer", "guide"],
+      "antonyms": ["get lost", "wander aimlessly"],
+      "collocations": [
+        "navigate through",
+        "navigate by",
+        "navigate the terrain",
+        "hard to navigate",
+        "navigate safely"
+      ],
+      "etymology_hint": "From Latin 'navigare' = sail — 'navis' (ship) + 'agere' (drive).",
+      "mnemonic_vi": "NAV (tàu) + IGATE = lái tàu định hướng. Navigate the terrain = dò đường địa hình."
+    }
+  ]
+}

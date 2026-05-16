@@ -1,0 +1,763 @@
+{
+  "slug": "identity-self",
+  "name": "Identity & Self",
+  "description": "Bản sắc và cái tôi B1 — persona, ego, mindset, conviction và 16 từ kể câu chuyện 'tôi là ai'.",
+  "order_index": 11,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "persona",
+      "lemma": "persona",
+      "ipa": "/pəˈsəʊnə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the version of yourself that you show to others, often different from your inner self",
+          "meaning_vi": "hình tượng, cái 'tôi' đối ngoại",
+          "examples": [
+            {
+              "en": "Her online persona is bolder than her real personality.",
+              "vi": "Persona online của cô ấy mạnh mẽ hơn tính cách thật."
+            },
+            {
+              "en": "Many celebrities maintain a carefully crafted persona.",
+              "vi": "Nhiều người nổi tiếng giữ một persona được dựng kỹ lưỡng."
+            },
+            {
+              "en": "He drops his work persona the moment he gets home.",
+              "vi": "Anh ấy bỏ persona công sở ngay khi về đến nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["image", "facade", "public face"],
+      "antonyms": ["true self", "real self"],
+      "collocations": [
+        "online persona",
+        "public persona",
+        "adopt a persona",
+        "professional persona",
+        "social media persona"
+      ],
+      "etymology_hint": "From Latin 'persona' = theater mask — psychological sense developed by Carl Jung in 20th century.",
+      "mnemonic_vi": "PERSONA = mặt nạ sân khấu — bạn đeo mặt nào ra ngoài. Online persona = persona online."
+    },
+    {
+      "word": "ego",
+      "lemma": "ego",
+      "ipa": "/ˈiːɡəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the part of your mind that gives you a sense of who you are; sometimes excessive self-importance",
+          "meaning_vi": "cái tôi, lòng tự cao",
+          "examples": [
+            {
+              "en": "His huge ego makes him hard to work with.",
+              "vi": "Cái tôi quá lớn của anh ấy khiến anh khó hợp tác."
+            },
+            {
+              "en": "Losing the contract bruised her ego.",
+              "vi": "Mất hợp đồng làm tổn thương cái tôi của cô ấy."
+            },
+            {
+              "en": "A healthy ego is different from arrogance.",
+              "vi": "Một cái tôi lành mạnh khác với kiêu ngạo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self", "self-importance", "pride"],
+      "antonyms": ["humility", "modesty"],
+      "collocations": ["huge ego", "bruised ego", "ego boost", "fragile ego", "check your ego"],
+      "etymology_hint": "Latin 'ego' = I — popularized in psychology by Sigmund Freud in early 20th century.",
+      "mnemonic_vi": "EGO đọc 'i-gô' — chính là 'tôi'. Bruised ego = cái tôi bị tổn thương."
+    },
+    {
+      "word": "mindset",
+      "lemma": "mindset",
+      "ipa": "/ˈmaɪndset/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the set of beliefs and attitudes that shape how a person thinks and acts",
+          "meaning_vi": "tư duy, cách nghĩ",
+          "examples": [
+            {
+              "en": "A growth mindset helps you learn from failure.",
+              "vi": "Tư duy phát triển giúp bạn học từ thất bại."
+            },
+            {
+              "en": "You need an entrepreneurial mindset to run a startup.",
+              "vi": "Bạn cần tư duy khởi nghiệp để vận hành startup."
+            },
+            {
+              "en": "Changing her mindset took years of therapy.",
+              "vi": "Thay đổi tư duy của cô ấy mất nhiều năm trị liệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["attitude", "outlook", "mentality"],
+      "antonyms": ["closed mind"],
+      "collocations": [
+        "growth mindset",
+        "fixed mindset",
+        "change your mindset",
+        "positive mindset",
+        "entrepreneurial mindset"
+      ],
+      "etymology_hint": "Compound: 'mind' + 'set' — psychology term popularized by Carol Dweck's 'Mindset' (2006).",
+      "mnemonic_vi": "MIND (đầu óc) + SET (đặt) = cài đặt trong đầu. Growth mindset = tư duy phát triển."
+    },
+    {
+      "word": "character",
+      "lemma": "character",
+      "ipa": "/ˈkærəktə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the moral qualities and personal nature that make someone who they are",
+          "meaning_vi": "phẩm cách, bản chất con người",
+          "examples": [
+            {
+              "en": "Hard times reveal a person's true character.",
+              "vi": "Khó khăn bộc lộ phẩm chất thật của con người."
+            },
+            {
+              "en": "She built her character through years of small choices.",
+              "vi": "Cô ấy xây phẩm chất qua nhiều năm những lựa chọn nhỏ."
+            },
+            {
+              "en": "He's known for his strong moral character.",
+              "vi": "Anh ấy được biết đến vì phẩm chất đạo đức vững vàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nature", "integrity (different lesson)", "temperament"],
+      "antonyms": ["pretense"],
+      "collocations": [
+        "strong character",
+        "build character",
+        "true character",
+        "moral character",
+        "out of character"
+      ],
+      "etymology_hint": "From Greek 'kharakter' = engraved mark — meaning expanded from 'distinguishing mark' to 'distinguishing qualities of a person'.",
+      "mnemonic_vi": "CHARACTER = ký tự khắc lên người — phẩm chất khắc dấu lên bạn. Strong character = phẩm cách vững."
+    },
+    {
+      "word": "belief",
+      "lemma": "belief",
+      "ipa": "/bɪˈliːf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something you accept as true, often without proof, that shapes how you live",
+          "meaning_vi": "niềm tin, lòng tin",
+          "examples": [
+            {
+              "en": "Her core belief is that everyone deserves a second chance.",
+              "vi": "Niềm tin cốt lõi của cô ấy là ai cũng xứng đáng cơ hội thứ hai."
+            },
+            {
+              "en": "Religious beliefs vary across cultures.",
+              "vi": "Niềm tin tôn giáo khác nhau giữa các nền văn hóa."
+            },
+            {
+              "en": "Limiting beliefs hold many people back.",
+              "vi": "Những niềm tin giới hạn kìm hãm nhiều người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conviction", "faith (taken in another lesson)", "view"],
+      "antonyms": ["doubt", "disbelief"],
+      "collocations": [
+        "core belief",
+        "religious belief",
+        "limiting belief",
+        "strong belief",
+        "challenge a belief"
+      ],
+      "etymology_hint": "From Old English 'gelēafa' = trust, confidence — same root as 'love' in Germanic languages.",
+      "mnemonic_vi": "BELIEF đọc 'bi-líp' — bí lập trong tim. Core belief = niềm tin cốt lõi."
+    },
+    {
+      "word": "conviction",
+      "lemma": "conviction",
+      "ipa": "/kənˈvɪkʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strong belief or opinion you hold with certainty",
+          "meaning_vi": "niềm tin mạnh mẽ, sự xác tín",
+          "examples": [
+            {
+              "en": "She spoke with conviction about climate action.",
+              "vi": "Cô ấy nói đầy xác tín về hành động vì khí hậu."
+            },
+            {
+              "en": "His political convictions never wavered.",
+              "vi": "Niềm tin chính trị của anh ấy không hề lung lay."
+            },
+            {
+              "en": "Acting on conviction takes courage.",
+              "vi": "Hành động theo xác tín cần dũng khí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["certainty", "firm belief", "principle"],
+      "antonyms": ["doubt", "uncertainty"],
+      "collocations": [
+        "with conviction",
+        "deep conviction",
+        "political conviction",
+        "personal conviction",
+        "moral conviction"
+      ],
+      "etymology_hint": "From Latin 'convincere' = to overcome, prove — same root as 'convince'; meaning shifted from 'proof' to 'strong belief'.",
+      "mnemonic_vi": "CON (cùng) + VICT (thắng) = niềm tin chiến thắng. Speak with conviction = nói đầy xác tín."
+    },
+    {
+      "word": "dignity",
+      "lemma": "dignity",
+      "ipa": "/ˈdɪɡnəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the quality of deserving respect, and of behaving in a way that earns respect",
+          "meaning_vi": "phẩm giá, lòng tự trọng",
+          "examples": [
+            {
+              "en": "Treat every patient with dignity.",
+              "vi": "Hãy đối xử với mỗi bệnh nhân bằng phẩm giá."
+            },
+            {
+              "en": "She faced criticism with quiet dignity.",
+              "vi": "Cô ấy đối mặt với chỉ trích bằng phẩm giá lặng lẽ."
+            },
+            {
+              "en": "Human dignity is the foundation of human rights.",
+              "vi": "Phẩm giá con người là nền tảng của nhân quyền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-respect", "honor", "pride"],
+      "antonyms": ["humiliation", "indignity"],
+      "collocations": [
+        "human dignity",
+        "treat with dignity",
+        "quiet dignity",
+        "lose dignity",
+        "maintain dignity"
+      ],
+      "etymology_hint": "From Latin 'dignitas' = worthiness — root 'dignus' (worthy).",
+      "mnemonic_vi": "DIGN (xứng đáng) + ITY = sự xứng đáng. Human dignity = phẩm giá con người."
+    },
+    {
+      "word": "autonomy",
+      "lemma": "autonomy",
+      "ipa": "/ɔːˈtɒnəmi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the freedom to make your own decisions and act independently",
+          "meaning_vi": "quyền tự quyết, sự tự chủ",
+          "examples": [
+            {
+              "en": "Teenagers crave more autonomy from their parents.",
+              "vi": "Thiếu niên khao khát tự chủ hơn khỏi bố mẹ."
+            },
+            {
+              "en": "Remote work gives employees more autonomy.",
+              "vi": "Làm việc từ xa cho nhân viên nhiều tự chủ hơn."
+            },
+            {
+              "en": "Patients have full autonomy over their treatment.",
+              "vi": "Bệnh nhân có quyền tự quyết hoàn toàn về điều trị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["independence", "self-rule", "freedom"],
+      "antonyms": ["dependence", "control"],
+      "collocations": [
+        "personal autonomy",
+        "give autonomy",
+        "full autonomy",
+        "respect autonomy",
+        "lose autonomy"
+      ],
+      "etymology_hint": "From Greek 'auto-' (self) + 'nomos' (law) — literally 'self-ruled', political term applied to individuals from 19th century.",
+      "mnemonic_vi": "AUTO (tự) + NOMY (luật) = tự đặt luật cho mình. Personal autonomy = tự chủ cá nhân."
+    },
+    {
+      "word": "agency",
+      "lemma": "agency",
+      "ipa": "/ˈeɪdʒənsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the power and ability to act, make choices, and influence your own life",
+          "meaning_vi": "khả năng hành động, quyền chủ động",
+          "examples": [
+            {
+              "en": "Poverty can strip people of their agency.",
+              "vi": "Nghèo đói có thể tước đi quyền chủ động của con người."
+            },
+            {
+              "en": "Education gives young women agency over their futures.",
+              "vi": "Giáo dục cho phụ nữ trẻ quyền chủ động về tương lai mình."
+            },
+            {
+              "en": "She regained a sense of agency after therapy.",
+              "vi": "Cô ấy lấy lại cảm giác chủ động sau trị liệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["power to act", "self-determination"],
+      "antonyms": ["helplessness", "passivity"],
+      "collocations": [
+        "personal agency",
+        "sense of agency",
+        "lose agency",
+        "regain agency",
+        "agency over"
+      ],
+      "etymology_hint": "From Latin 'agere' = to do, act — modern psychological/sociological sense from late 20th century.",
+      "mnemonic_vi": "AGENT (người hành động) + CY = năng lực hành động. Sense of agency = cảm giác chủ động."
+    },
+    {
+      "word": "introspection",
+      "lemma": "introspection",
+      "ipa": "/ˌɪntrəˈspekʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of looking inward to examine your own thoughts and feelings",
+          "meaning_vi": "sự tự xét, hướng nội suy ngẫm",
+          "examples": [
+            {
+              "en": "Journaling is a popular tool for introspection.",
+              "vi": "Viết nhật ký là công cụ phổ biến để tự xét."
+            },
+            {
+              "en": "After the breakup, he spent weeks in introspection.",
+              "vi": "Sau khi chia tay, anh ấy dành nhiều tuần tự xét."
+            },
+            {
+              "en": "Good leaders practice regular introspection.",
+              "vi": "Lãnh đạo giỏi thường xuyên tự xét."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-reflection", "soul-searching"],
+      "antonyms": ["distraction", "avoidance"],
+      "collocations": [
+        "deep introspection",
+        "quiet introspection",
+        "moment of introspection",
+        "honest introspection",
+        "practice introspection"
+      ],
+      "etymology_hint": "From Latin 'intro-' (within) + 'specere' (look) — literally 'looking within'.",
+      "mnemonic_vi": "INTRO (vào trong) + SPECT (nhìn) = nhìn vào trong. Deep introspection = tự xét sâu."
+    },
+    {
+      "word": "individuality",
+      "lemma": "individuality",
+      "ipa": "/ˌɪndɪvɪdʒuˈæləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the qualities that make one person different from another",
+          "meaning_vi": "cá tính, sự độc đáo riêng",
+          "examples": [
+            {
+              "en": "School uniforms can suppress individuality.",
+              "vi": "Đồng phục có thể đè nén cá tính."
+            },
+            {
+              "en": "She expresses her individuality through her hair color.",
+              "vi": "Cô ấy thể hiện cá tính qua màu tóc."
+            },
+            {
+              "en": "Vietnamese youth increasingly value individuality.",
+              "vi": "Giới trẻ Việt ngày càng coi trọng cá tính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["uniqueness", "distinctiveness", "personality"],
+      "antonyms": ["conformity", "sameness"],
+      "collocations": [
+        "express individuality",
+        "celebrate individuality",
+        "lose individuality",
+        "personal individuality",
+        "strong individuality"
+      ],
+      "etymology_hint": "From Latin 'individuus' = indivisible — 'in-' (not) + 'dividere' (divide).",
+      "mnemonic_vi": "INDIVIDUAL (cá nhân) + ITY = sự cá nhân. Express individuality = thể hiện cá tính."
+    },
+    {
+      "word": "authentic",
+      "lemma": "authentic",
+      "ipa": "/ɔːˈθentɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "real, true, and matching your inner self rather than pretending",
+          "meaning_vi": "chân thực, đúng bản chất",
+          "examples": [
+            {
+              "en": "She's authentic — what you see is what you get.",
+              "vi": "Cô ấy chân thực — thấy sao là vậy."
+            },
+            {
+              "en": "Authentic Vietnamese food is hard to find abroad.",
+              "vi": "Đồ ăn Việt chân thực khó tìm ở nước ngoài."
+            },
+            {
+              "en": "People trust brands that feel authentic.",
+              "vi": "Người ta tin các thương hiệu cảm giác chân thực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["genuine", "real", "true"],
+      "antonyms": ["fake", "phony", "artificial"],
+      "collocations": [
+        "authentic self",
+        "feel authentic",
+        "authentic experience",
+        "authentic voice",
+        "authentic brand"
+      ],
+      "etymology_hint": "From Greek 'authentikos' = original, principal — 'autos' (self) + 'hentes' (doer).",
+      "mnemonic_vi": "AUTH (tự, chính) + ENTIC = chính cống. Authentic self = bản thân chân thực."
+    },
+    {
+      "word": "genuine",
+      "lemma": "genuine",
+      "ipa": "/ˈdʒenjuɪn/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "real, sincere, not pretended",
+          "meaning_vi": "thật lòng, chân thành",
+          "examples": [
+            {
+              "en": "Her smile felt genuine, not forced.",
+              "vi": "Nụ cười của cô ấy thật, không gượng."
+            },
+            {
+              "en": "He showed genuine interest in my work.",
+              "vi": "Anh ấy thật lòng quan tâm đến công việc của tôi."
+            },
+            {
+              "en": "Always check if the product is genuine before buying.",
+              "vi": "Luôn kiểm tra hàng có thật không trước khi mua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["real", "sincere", "honest"],
+      "antonyms": ["fake", "false", "insincere"],
+      "collocations": [
+        "genuine interest",
+        "genuine smile",
+        "genuine concern",
+        "genuine product",
+        "truly genuine"
+      ],
+      "etymology_hint": "From Latin 'genuinus' = native, natural — root 'gignere' (to bring forth).",
+      "mnemonic_vi": "GENUINE đọc 'gien-iu-in' — gien yêu trong gốc. Genuine interest = quan tâm thật lòng."
+    },
+    {
+      "word": "worldview",
+      "lemma": "worldview",
+      "ipa": "/ˈwɜːldvjuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the overall way a person understands and interprets life and the world",
+          "meaning_vi": "thế giới quan, cách nhìn thế giới",
+          "examples": [
+            {
+              "en": "Traveling broadened her worldview.",
+              "vi": "Đi du lịch mở rộng thế giới quan của cô ấy."
+            },
+            {
+              "en": "Our worldview is shaped by family, culture, and experience.",
+              "vi": "Thế giới quan được hình thành từ gia đình, văn hóa và trải nghiệm."
+            },
+            {
+              "en": "His scientific worldview leaves no room for superstition.",
+              "vi": "Thế giới quan khoa học của anh ấy không chỗ cho mê tín."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outlook", "perspective (taken)", "philosophy"],
+      "antonyms": [],
+      "collocations": [
+        "broaden your worldview",
+        "shape a worldview",
+        "scientific worldview",
+        "different worldview",
+        "shared worldview"
+      ],
+      "etymology_hint": "Calque of German 'Weltanschauung' (= world-view) — entered English through 19th-century philosophy.",
+      "mnemonic_vi": "WORLD (thế giới) + VIEW (cách nhìn) = thế giới quan. Broaden your worldview = mở rộng thế giới quan."
+    },
+    {
+      "word": "self-image",
+      "lemma": "self-image",
+      "ipa": "/ˌselfˈɪmɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way you see yourself, including your strengths and weaknesses",
+          "meaning_vi": "hình ảnh bản thân (cách bạn nhìn mình)",
+          "examples": [
+            {
+              "en": "Social media affects teenagers' self-image.",
+              "vi": "Mạng xã hội ảnh hưởng tới hình ảnh bản thân của thiếu niên."
+            },
+            {
+              "en": "She works on her self-image through therapy.",
+              "vi": "Cô ấy chăm sóc hình ảnh bản thân qua trị liệu."
+            },
+            {
+              "en": "A poor self-image holds people back.",
+              "vi": "Hình ảnh bản thân tiêu cực kìm hãm con người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-perception", "self-view"],
+      "antonyms": [],
+      "collocations": [
+        "positive self-image",
+        "poor self-image",
+        "improve self-image",
+        "distort self-image",
+        "negative self-image"
+      ],
+      "etymology_hint": "Compound: 'self' + 'image' — psychology term established mid-20th century.",
+      "mnemonic_vi": "SELF (bản thân) + IMAGE (hình ảnh) = hình ảnh bản thân. Poor self-image = hình ảnh bản thân tiêu cực."
+    },
+    {
+      "word": "self-esteem",
+      "lemma": "self-esteem",
+      "ipa": "/ˌselfɪˈstiːm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the value and respect you have for yourself",
+          "meaning_vi": "lòng tự trọng, sự tự tin vào bản thân",
+          "examples": [
+            {
+              "en": "Compliments from her boss boosted her self-esteem.",
+              "vi": "Lời khen từ sếp nâng lòng tự trọng của cô ấy."
+            },
+            {
+              "en": "Children with low self-esteem struggle in school.",
+              "vi": "Trẻ có lòng tự trọng thấp gặp khó khăn ở trường."
+            },
+            {
+              "en": "Healthy self-esteem comes from real achievement.",
+              "vi": "Lòng tự trọng lành mạnh đến từ thành tựu thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["self-worth", "self-confidence"],
+      "antonyms": ["self-loathing", "insecurity"],
+      "collocations": [
+        "high self-esteem",
+        "low self-esteem",
+        "boost self-esteem",
+        "build self-esteem",
+        "healthy self-esteem"
+      ],
+      "etymology_hint": "From 'esteem' (Latin 'aestimare' = to value) — psychological term popularized by Nathaniel Branden in 1960s.",
+      "mnemonic_vi": "SELF (bản thân) + ESTEEM (quý trọng) = tự quý mình. Boost self-esteem = nâng lòng tự trọng."
+    },
+    {
+      "word": "self-aware",
+      "lemma": "self-aware",
+      "ipa": "/ˌselfəˈweə/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to recognize your own emotions, behaviors, and effect on others",
+          "meaning_vi": "tự nhận thức, hiểu rõ chính mình",
+          "examples": [
+            {
+              "en": "Self-aware leaders ask for feedback regularly.",
+              "vi": "Lãnh đạo tự nhận thức thường xuyên xin phản hồi."
+            },
+            {
+              "en": "She's self-aware enough to admit her weaknesses.",
+              "vi": "Cô ấy đủ tự nhận thức để thừa nhận điểm yếu."
+            },
+            {
+              "en": "Becoming self-aware is the first step to change.",
+              "vi": "Tự nhận thức là bước đầu để thay đổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mindful", "reflective", "perceptive"],
+      "antonyms": ["oblivious", "self-unaware"],
+      "collocations": [
+        "highly self-aware",
+        "become self-aware",
+        "self-aware leader",
+        "lacking self-awareness",
+        "deeply self-aware"
+      ],
+      "etymology_hint": "Compound: 'self' + 'aware' (Old English 'gewær' = watchful) — modern psychology usage from 20th century.",
+      "mnemonic_vi": "SELF (bản thân) + AWARE (nhận thức) = nhận thức về mình. Highly self-aware = rất tự nhận thức."
+    },
+    {
+      "word": "humility",
+      "lemma": "humility",
+      "ipa": "/hjuːˈmɪləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the quality of being modest and not thinking you are better than others",
+          "meaning_vi": "sự khiêm tốn, lòng khiêm nhường",
+          "examples": [
+            {
+              "en": "Despite his fame, he still treats people with humility.",
+              "vi": "Dù nổi tiếng, anh ấy vẫn đối xử với mọi người bằng sự khiêm tốn."
+            },
+            {
+              "en": "Humility is a sign of true strength.",
+              "vi": "Khiêm tốn là dấu hiệu của sức mạnh thật."
+            },
+            {
+              "en": "She accepted the award with quiet humility.",
+              "vi": "Cô ấy nhận giải bằng sự khiêm tốn lặng lẽ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["modesty", "meekness"],
+      "antonyms": ["arrogance", "pride"],
+      "collocations": [
+        "show humility",
+        "true humility",
+        "with humility",
+        "lack of humility",
+        "act with humility"
+      ],
+      "etymology_hint": "From Latin 'humilitas' = lowness — root 'humus' (ground), so 'staying close to the ground'.",
+      "mnemonic_vi": "HUMIL (đất) + ITY = sự gần đất, khiêm tốn. Show humility = thể hiện sự khiêm tốn."
+    },
+    {
+      "word": "reputation",
+      "lemma": "reputation",
+      "ipa": "/ˌrepjʊˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the opinion that people generally have about someone or something",
+          "meaning_vi": "danh tiếng, tiếng tăm",
+          "examples": [
+            {
+              "en": "It takes years to build a good reputation, seconds to lose it.",
+              "vi": "Mất nhiều năm để xây danh tiếng, mất vài giây để hỏng."
+            },
+            {
+              "en": "She has a reputation for being fair and honest.",
+              "vi": "Cô ấy nổi tiếng công bằng và trung thực."
+            },
+            {
+              "en": "The scandal damaged the company's reputation.",
+              "vi": "Vụ bê bối làm tổn hại danh tiếng công ty."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["name", "image", "standing"],
+      "antonyms": ["disrepute", "infamy"],
+      "collocations": [
+        "build a reputation",
+        "good reputation",
+        "damage a reputation",
+        "international reputation",
+        "ruin a reputation"
+      ],
+      "etymology_hint": "From Latin 'reputatio' = consideration — 're-' (again) + 'putare' (think, reckon).",
+      "mnemonic_vi": "REPU (lại được nhắc) + TATION = sự được nhắc đến. Build a reputation = xây danh tiếng."
+    },
+    {
+      "word": "narrative",
+      "lemma": "narrative",
+      "ipa": "/ˈnærətɪv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the story a person or group tells about themselves or their experience",
+          "meaning_vi": "câu chuyện kể về bản thân, lối kể chuyện",
+          "examples": [
+            {
+              "en": "She rewrote the narrative of her early failures into lessons.",
+              "vi": "Cô ấy viết lại narrative về thất bại đầu đời thành bài học."
+            },
+            {
+              "en": "The media controls the narrative around politicians.",
+              "vi": "Truyền thông kiểm soát narrative quanh các chính trị gia."
+            },
+            {
+              "en": "Every brand needs a clear narrative.",
+              "vi": "Mọi thương hiệu cần một narrative rõ ràng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["story", "account", "tale"],
+      "antonyms": [],
+      "collocations": [
+        "personal narrative",
+        "change the narrative",
+        "shape the narrative",
+        "media narrative",
+        "dominant narrative"
+      ],
+      "etymology_hint": "From Latin 'narrare' = to tell — same root as 'narrate'.",
+      "mnemonic_vi": "NARR (kể) + ATIVE = sự kể. Change the narrative = đổi câu chuyện kể."
+    }
+  ]
+}
