@@ -1,0 +1,763 @@
+{
+  "slug": "freelance-remote",
+  "name": "Freelance & Remote Work",
+  "description": "Làm việc tự do và từ xa B1 — contractor, gig, invoice, async và 16 từ cho dân digital nomad.",
+  "order_index": 13,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "contractor",
+      "lemma": "contractor",
+      "ipa": "/kənˈtræktə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person hired for a specific project, not as a permanent employee",
+          "meaning_vi": "người làm theo hợp đồng dự án",
+          "examples": [
+            {
+              "en": "We hired a contractor to build the website in six weeks.",
+              "vi": "Chúng tôi thuê một contractor làm website trong 6 tuần."
+            },
+            {
+              "en": "Independent contractors handle their own taxes.",
+              "vi": "Contractor độc lập tự lo thuế."
+            },
+            {
+              "en": "Vietnamese contractors are popular with US startups.",
+              "vi": "Contractor Việt được startup Mỹ ưa chuộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["freelancer", "consultant"],
+      "antonyms": ["employee", "staff"],
+      "collocations": [
+        "independent contractor",
+        "hire a contractor",
+        "contractor agreement",
+        "external contractor",
+        "long-term contractor"
+      ],
+      "etymology_hint": "From Latin 'contrahere' = to draw together — agent of one who 'pulls in' an agreement.",
+      "mnemonic_vi": "CONTRACT (hợp đồng) + OR (người) = người làm hợp đồng. Independent contractor = contractor độc lập."
+    },
+    {
+      "word": "gig",
+      "lemma": "gig",
+      "ipa": "/ɡɪɡ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short-term job, especially one done as a freelancer or musician",
+          "meaning_vi": "công việc ngắn hạn, gig (kèo)",
+          "examples": [
+            {
+              "en": "She took a translation gig for the weekend.",
+              "vi": "Cô ấy nhận gig dịch thuật cuối tuần."
+            },
+            {
+              "en": "The gig economy in Vietnam is growing fast.",
+              "vi": "Nền kinh tế gig ở Việt Nam tăng nhanh."
+            },
+            {
+              "en": "His main income comes from small design gigs.",
+              "vi": "Thu nhập chính của anh ấy từ các gig design nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["short-term job", "engagement"],
+      "antonyms": ["permanent job", "salaried role"],
+      "collocations": ["gig economy", "freelance gig", "music gig", "land a gig", "side gig"],
+      "etymology_hint": "1920s jazz slang for a musician's engagement — broadened to any short-term job in 2000s gig economy.",
+      "mnemonic_vi": "GIG đọc 'ghíc' — ghi gọn việc nhanh. Gig economy = kinh tế gig."
+    },
+    {
+      "word": "retainer",
+      "lemma": "retainer",
+      "ipa": "/rɪˈteɪnə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a regular fee paid to a freelancer or professional to keep them available",
+          "meaning_vi": "phí giữ chỗ, retainer (trả định kỳ giữ dịch vụ)",
+          "examples": [
+            {
+              "en": "She charges a $2,000 monthly retainer.",
+              "vi": "Cô ấy tính 2.000 USD retainer mỗi tháng."
+            },
+            {
+              "en": "Retainer agreements give freelancers stable income.",
+              "vi": "Hợp đồng retainer cho freelancer thu nhập ổn định."
+            },
+            {
+              "en": "Our lawyer is on retainer for legal questions.",
+              "vi": "Luật sư của chúng tôi đang được giữ retainer cho các câu hỏi pháp lý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recurring fee", "retainer fee"],
+      "antonyms": ["one-off payment"],
+      "collocations": [
+        "monthly retainer",
+        "retainer fee",
+        "retainer agreement",
+        "on retainer",
+        "negotiate a retainer"
+      ],
+      "etymology_hint": "From Old French 'retenir' = to hold back, keep — retainer 'retains' the professional's availability.",
+      "mnemonic_vi": "RETAIN (giữ) + ER = thứ giữ. Monthly retainer = retainer tháng."
+    },
+    {
+      "word": "deliverable",
+      "lemma": "deliverable",
+      "ipa": "/dɪˈlɪvərəbl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a specific item or task that must be completed and handed over as part of a project",
+          "meaning_vi": "sản phẩm/hạng mục cần bàn giao trong dự án",
+          "examples": [
+            {
+              "en": "List all deliverables in the contract.",
+              "vi": "Liệt kê tất cả deliverable trong hợp đồng."
+            },
+            {
+              "en": "The main deliverable is a working prototype.",
+              "vi": "Deliverable chính là một prototype hoạt động."
+            },
+            {
+              "en": "She missed the deliverable by two days.",
+              "vi": "Cô ấy giao deliverable trễ 2 ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["output", "deliverable item"],
+      "antonyms": ["abstract goal"],
+      "collocations": [
+        "project deliverable",
+        "key deliverable",
+        "list of deliverables",
+        "miss a deliverable",
+        "final deliverable"
+      ],
+      "etymology_hint": "From 'deliver' (Latin 'liberare' = set free) + '-able' — project-management jargon since 1980s.",
+      "mnemonic_vi": "DELIVER (giao) + ABLE (có thể) = thứ có thể giao. Final deliverable = deliverable cuối."
+    },
+    {
+      "word": "invoice",
+      "lemma": "invoice",
+      "ipa": "/ˈɪnvɔɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a document listing the products or services provided and the amount owed",
+          "meaning_vi": "hóa đơn yêu cầu thanh toán",
+          "examples": [
+            {
+              "en": "Send the invoice by Friday so I can pay you.",
+              "vi": "Gửi hóa đơn trước thứ Sáu để tôi thanh toán."
+            },
+            {
+              "en": "Vietnamese tax law requires properly formatted invoices.",
+              "vi": "Luật thuế Việt yêu cầu hóa đơn đúng định dạng."
+            },
+            {
+              "en": "Always invoice promptly after a project ends.",
+              "vi": "Luôn xuất hóa đơn ngay sau khi xong dự án."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bill", "statement"],
+      "antonyms": ["receipt"],
+      "collocations": [
+        "send an invoice",
+        "issue an invoice",
+        "monthly invoice",
+        "invoice number",
+        "overdue invoice"
+      ],
+      "etymology_hint": "From Old French 'envoier' = to send — early 16th century commercial term.",
+      "mnemonic_vi": "INVOICE đọc 'in-voi-s' — in voi to giấy đòi tiền. Send an invoice = gửi hóa đơn."
+    },
+    {
+      "word": "scope",
+      "lemma": "scope",
+      "ipa": "/skəʊp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the range of work that a project covers; what's included and what's not",
+          "meaning_vi": "phạm vi công việc (của dự án)",
+          "examples": [
+            {
+              "en": "Agree on the scope before starting.",
+              "vi": "Thống nhất phạm vi trước khi bắt đầu."
+            },
+            {
+              "en": "Scope creep happens when clients add features without paying more.",
+              "vi": "Scope creep xảy ra khi khách thêm tính năng mà không trả thêm."
+            },
+            {
+              "en": "That request is outside the scope of the contract.",
+              "vi": "Yêu cầu đó nằm ngoài phạm vi hợp đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["range", "extent", "boundaries"],
+      "antonyms": ["unlimited", "boundless"],
+      "collocations": [
+        "project scope",
+        "scope of work",
+        "scope creep",
+        "out of scope",
+        "define the scope"
+      ],
+      "etymology_hint": "From Greek 'skopos' = aim, target — meaning expanded to 'range of view, range of activity'.",
+      "mnemonic_vi": "SCOPE đọc 'sờ-cô-p' — sờ cô-bao trùm. Scope creep = phình phạm vi."
+    },
+    {
+      "word": "async",
+      "lemma": "async",
+      "ipa": "/ˈeɪsɪŋk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "happening at different times rather than at the same time (especially of remote-team communication)",
+          "meaning_vi": "không đồng bộ (làm việc lệch giờ)",
+          "examples": [
+            {
+              "en": "Our team works fully async across three time zones.",
+              "vi": "Team chúng tôi làm việc async hoàn toàn qua 3 múi giờ."
+            },
+            {
+              "en": "Async communication respects deep work.",
+              "vi": "Giao tiếp async tôn trọng công việc tập trung."
+            },
+            {
+              "en": "Send an async update so we don't need a meeting.",
+              "vi": "Gửi cập nhật async để khỏi cần họp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["asynchronous", "non-real-time"],
+      "antonyms": ["sync", "synchronous", "real-time"],
+      "collocations": [
+        "async communication",
+        "fully async",
+        "async update",
+        "async work",
+        "go async"
+      ],
+      "etymology_hint": "Shortened from 'asynchronous' (Greek 'a-' not + 'syn' together + 'chronos' time) — remote-work usage popularized 2010s.",
+      "mnemonic_vi": "ASYNC đọc 'ây-sinh' — ây, không đồng nhịp. Async update = cập nhật async."
+    },
+    {
+      "word": "timezone",
+      "lemma": "timezone",
+      "ipa": "/ˈtaɪmzəʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a region of the world where the same standard time is used",
+          "meaning_vi": "múi giờ",
+          "examples": [
+            {
+              "en": "Vietnam is in the GMT+7 timezone.",
+              "vi": "Việt Nam ở múi giờ GMT+7."
+            },
+            {
+              "en": "Remote work means juggling multiple timezones daily.",
+              "vi": "Làm remote nghĩa là xoay xở nhiều múi giờ mỗi ngày."
+            },
+            {
+              "en": "She moved her standup meeting to overlap timezones.",
+              "vi": "Cô ấy đổi giờ standup để khớp các múi giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["time region"],
+      "antonyms": [],
+      "collocations": [
+        "different timezone",
+        "across timezones",
+        "timezone overlap",
+        "shift timezone",
+        "manage timezones"
+      ],
+      "etymology_hint": "Compound: 'time' + 'zone' — standardized globally in 1884 by International Meridian Conference.",
+      "mnemonic_vi": "TIME (giờ) + ZONE (vùng) = vùng giờ. Across timezones = qua các múi giờ."
+    },
+    {
+      "word": "productivity",
+      "lemma": "productivity",
+      "ipa": "/ˌprɒdʌkˈtɪvəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the rate at which someone produces useful work",
+          "meaning_vi": "năng suất làm việc",
+          "examples": [
+            {
+              "en": "My productivity drops after lunch every day.",
+              "vi": "Năng suất tôi giảm sau bữa trưa mỗi ngày."
+            },
+            {
+              "en": "Remote workers often report higher productivity.",
+              "vi": "Người làm remote thường báo cáo năng suất cao hơn."
+            },
+            {
+              "en": "Track productivity, not hours worked.",
+              "vi": "Đo năng suất, đừng đo số giờ làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["efficiency", "output"],
+      "antonyms": ["laziness", "inefficiency"],
+      "collocations": [
+        "boost productivity",
+        "high productivity",
+        "personal productivity",
+        "productivity tools",
+        "productivity hack"
+      ],
+      "etymology_hint": "From 'productive' + '-ity' — Latin 'producere' = bring forth.",
+      "mnemonic_vi": "PRODUCT (sản phẩm) + IVITY = khả năng sản xuất. Boost productivity = tăng năng suất."
+    },
+    {
+      "word": "workspace",
+      "lemma": "workspace",
+      "ipa": "/ˈwɜːkspeɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the area where you work, especially a desk setup at home or in an office",
+          "meaning_vi": "không gian làm việc, góc làm việc",
+          "examples": [
+            {
+              "en": "A clean workspace boosts focus.",
+              "vi": "Không gian làm việc gọn gàng tăng tập trung."
+            },
+            {
+              "en": "She set up a quiet workspace in the bedroom corner.",
+              "vi": "Cô ấy lập góc làm việc yên tĩnh ở góc phòng ngủ."
+            },
+            {
+              "en": "Standing desks make a more flexible workspace.",
+              "vi": "Bàn đứng tạo workspace linh hoạt hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["work area", "desk space"],
+      "antonyms": ["off-duty area"],
+      "collocations": [
+        "dedicated workspace",
+        "home workspace",
+        "quiet workspace",
+        "set up a workspace",
+        "shared workspace"
+      ],
+      "etymology_hint": "Compound: 'work' + 'space' — popularized with rise of home-office culture in 2000s.",
+      "mnemonic_vi": "WORK (làm việc) + SPACE (không gian) = không gian làm việc. Dedicated workspace = workspace riêng."
+    },
+    {
+      "word": "billable",
+      "lemma": "billable",
+      "ipa": "/ˈbɪləbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to be charged to a client (used for hours worked or expenses)",
+          "meaning_vi": "có thể tính phí cho khách (giờ làm hoặc chi phí)",
+          "examples": [
+            {
+              "en": "I logged 30 billable hours this week.",
+              "vi": "Tuần này tôi ghi nhận 30 giờ tính phí khách."
+            },
+            {
+              "en": "Travel time isn't always billable.",
+              "vi": "Thời gian di chuyển không phải lúc nào cũng tính được."
+            },
+            {
+              "en": "Lawyers track billable hours in six-minute units.",
+              "vi": "Luật sư ghi giờ tính phí theo đơn vị 6 phút."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chargeable"],
+      "antonyms": ["non-billable", "free"],
+      "collocations": [
+        "billable hours",
+        "billable rate",
+        "billable time",
+        "non-billable",
+        "track billable hours"
+      ],
+      "etymology_hint": "From 'bill' (Old French 'bille' = invoice) + '-able' — accounting/professional services term.",
+      "mnemonic_vi": "BILL (hóa đơn) + ABLE (có thể) = có thể vào hóa đơn. Billable hours = giờ tính phí."
+    },
+    {
+      "word": "downtime",
+      "lemma": "downtime",
+      "ipa": "/ˈdaʊntaɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "time when you are resting and not working, or when a system isn't running",
+          "meaning_vi": "thời gian nghỉ ngơi / lúc ngừng hoạt động",
+          "examples": [
+            {
+              "en": "Freelancers need downtime to avoid burnout.",
+              "vi": "Freelancer cần downtime để khỏi kiệt sức."
+            },
+            {
+              "en": "Schedule downtime like you schedule work.",
+              "vi": "Lên lịch nghỉ như lên lịch làm việc."
+            },
+            {
+              "en": "Server downtime cost the company millions.",
+              "vi": "Downtime server tốn công ty hàng triệu USD."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rest period", "break", "idle time"],
+      "antonyms": ["work time", "active time"],
+      "collocations": [
+        "much-needed downtime",
+        "scheduled downtime",
+        "downtime between projects",
+        "use downtime wisely",
+        "system downtime"
+      ],
+      "etymology_hint": "Compound: 'down' (not running) + 'time' — originated in factory/industrial usage, broadened to personal rest.",
+      "mnemonic_vi": "DOWN (xuống) + TIME (giờ) = giờ xuống nghỉ. Much-needed downtime = nghỉ rất cần."
+    },
+    {
+      "word": "sabbatical",
+      "lemma": "sabbatical",
+      "ipa": "/səˈbætɪkl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an extended break from work, often paid, for rest, travel, or study",
+          "meaning_vi": "kỳ nghỉ dài (thường có lương, để nghỉ ngơi/học)",
+          "examples": [
+            {
+              "en": "She took a 3-month sabbatical to travel Southeast Asia.",
+              "vi": "Cô ấy nghỉ sabbatical 3 tháng đi khắp Đông Nam Á."
+            },
+            {
+              "en": "His company offers a sabbatical every seven years.",
+              "vi": "Công ty anh ấy cho sabbatical mỗi 7 năm."
+            },
+            {
+              "en": "Sabbaticals prevent long-term burnout.",
+              "vi": "Sabbatical ngăn kiệt sức dài hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extended leave", "career break"],
+      "antonyms": ["continuous work"],
+      "collocations": [
+        "take a sabbatical",
+        "paid sabbatical",
+        "sabbatical leave",
+        "year-long sabbatical",
+        "sabbatical policy"
+      ],
+      "etymology_hint": "From Hebrew 'shabbat' = rest — biblical land rest every 7 years, applied to academia from 19th century.",
+      "mnemonic_vi": "SABBATICAL đọc 'sa-bát-i-cồ' — sa, bắt nghỉ dài. Take a sabbatical = nghỉ sabbatical."
+    },
+    {
+      "word": "coworking",
+      "lemma": "coworking",
+      "ipa": "/ˈkəʊwɜːkɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the practice of working in a shared space alongside other independent professionals",
+          "meaning_vi": "làm việc chung trong không gian chia sẻ",
+          "examples": [
+            {
+              "en": "Saigon has dozens of coworking spaces popular with nomads.",
+              "vi": "Sài Gòn có hàng chục coworking space đông dân nomad."
+            },
+            {
+              "en": "Coworking helps freelancers fight loneliness.",
+              "vi": "Coworking giúp freelancer chống cô đơn."
+            },
+            {
+              "en": "She rents a coworking desk for $150 a month.",
+              "vi": "Cô ấy thuê bàn coworking 150 USD/tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shared workspace"],
+      "antonyms": ["solo home office"],
+      "collocations": [
+        "coworking space",
+        "coworking desk",
+        "coworking membership",
+        "popular coworking",
+        "join a coworking space"
+      ],
+      "etymology_hint": "Prefix 'co-' (together) + 'working' — term coined 2005 in San Francisco, global by 2010.",
+      "mnemonic_vi": "CO (cùng) + WORKING (làm việc) = làm chung. Coworking space = không gian làm việc chung."
+    },
+    {
+      "word": "self-employed",
+      "lemma": "self-employed",
+      "ipa": "/ˌselfɪmˈplɔɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "working for yourself rather than for a company",
+          "meaning_vi": "tự kinh doanh / tự làm chủ",
+          "examples": [
+            {
+              "en": "She's been self-employed for five years.",
+              "vi": "Cô ấy đã tự làm chủ được 5 năm."
+            },
+            {
+              "en": "Self-employed people in Vietnam file taxes quarterly.",
+              "vi": "Người tự kinh doanh ở Việt Nam khai thuế mỗi quý."
+            },
+            {
+              "en": "Becoming self-employed requires financial buffer.",
+              "vi": "Trở thành self-employed cần đệm tài chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["independent", "freelance"],
+      "antonyms": ["employed", "salaried"],
+      "collocations": [
+        "self-employed person",
+        "go self-employed",
+        "registered self-employed",
+        "self-employed income",
+        "self-employed tax"
+      ],
+      "etymology_hint": "Compound: 'self' + 'employed' — term standardized in tax law in early 20th century.",
+      "mnemonic_vi": "SELF (bản thân) + EMPLOYED (được thuê) = tự thuê chính mình. Go self-employed = chuyển sang tự làm chủ."
+    },
+    {
+      "word": "solopreneur",
+      "lemma": "solopreneur",
+      "ipa": "/ˌsəʊləʊprəˈnɜː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who runs a business completely on their own without employees",
+          "meaning_vi": "doanh nhân một mình (không có nhân viên)",
+          "examples": [
+            {
+              "en": "Solopreneurs wear every hat in the business.",
+              "vi": "Solopreneur ôm hết mọi vai trong doanh nghiệp."
+            },
+            {
+              "en": "Many solopreneurs earn six figures from a single niche product.",
+              "vi": "Nhiều solopreneur kiếm 6 chữ số từ 1 sản phẩm ngách."
+            },
+            {
+              "en": "Being a solopreneur means less overhead, more focus.",
+              "vi": "Làm solopreneur tức là chi phí ít, tập trung nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one-person business", "indie founder"],
+      "antonyms": ["team-based founder"],
+      "collocations": [
+        "successful solopreneur",
+        "solopreneur lifestyle",
+        "solopreneur business",
+        "become a solopreneur",
+        "online solopreneur"
+      ],
+      "etymology_hint": "Blend of 'solo' (alone) + 'entrepreneur' — coined late 1990s, popularized 2010s by indie maker movement.",
+      "mnemonic_vi": "SOLO (một mình) + (ENTRE)PRENEUR (doanh nhân) = doanh nhân một mình. Successful solopreneur = solopreneur thành công."
+    },
+    {
+      "word": "telework",
+      "lemma": "telework",
+      "ipa": "/ˈteliwɜːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "working from a location away from the main office, using technology to stay connected",
+          "meaning_vi": "làm việc từ xa qua công nghệ",
+          "examples": [
+            {
+              "en": "Telework reduces commute time and pollution.",
+              "vi": "Telework giảm thời gian đi lại và ô nhiễm."
+            },
+            {
+              "en": "The pandemic forced widespread telework adoption.",
+              "vi": "Đại dịch buộc telework lan rộng."
+            },
+            {
+              "en": "She teleworks two days a week from Đà Nẵng.",
+              "vi": "Cô ấy telework 2 ngày/tuần từ Đà Nẵng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["telecommute", "work from anywhere"],
+      "antonyms": ["on-site work"],
+      "collocations": [
+        "telework policy",
+        "full-time telework",
+        "telework arrangement",
+        "telework setup",
+        "support telework"
+      ],
+      "etymology_hint": "Coined 1973 by US engineer Jack Nilles — 'tele-' (Greek for far) + 'work'.",
+      "mnemonic_vi": "TELE (xa) + WORK (làm việc) = làm việc từ xa. Telework policy = chính sách làm việc từ xa."
+    },
+    {
+      "word": "home-office",
+      "lemma": "home-office",
+      "ipa": "/ˌhəʊmˈɒfɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a room or area in your home that you use as an office",
+          "meaning_vi": "văn phòng tại nhà",
+          "examples": [
+            {
+              "en": "She converted her spare bedroom into a home-office.",
+              "vi": "Cô ấy biến phòng ngủ phụ thành home-office."
+            },
+            {
+              "en": "A good home-office setup is worth investing in.",
+              "vi": "Setup home-office tốt đáng để đầu tư."
+            },
+            {
+              "en": "Tax authorities sometimes allow home-office deductions.",
+              "vi": "Cục thuế đôi khi cho khấu trừ home-office."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["home workspace", "home study"],
+      "antonyms": ["corporate office"],
+      "collocations": [
+        "home-office setup",
+        "home-office deduction",
+        "build a home-office",
+        "dedicated home-office",
+        "small home-office"
+      ],
+      "etymology_hint": "Compound: 'home' + 'office' — usage rose with broadband internet in 2000s.",
+      "mnemonic_vi": "HOME (nhà) + OFFICE (văn phòng) = văn phòng nhà. Home-office setup = setup văn phòng nhà."
+    },
+    {
+      "word": "brief",
+      "lemma": "brief",
+      "ipa": "/briːf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short document explaining what a project needs and what's expected",
+          "meaning_vi": "bản tóm tắt yêu cầu (cho freelancer/agency)",
+          "examples": [
+            {
+              "en": "Send me a detailed brief before I quote.",
+              "vi": "Gửi cho tôi bản brief chi tiết trước khi tôi báo giá."
+            },
+            {
+              "en": "A vague brief leads to endless revisions.",
+              "vi": "Brief mơ hồ dẫn đến sửa đi sửa lại."
+            },
+            {
+              "en": "The design brief specified two color palettes.",
+              "vi": "Design brief chỉ định 2 bảng màu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["specification", "project outline"],
+      "antonyms": ["full document"],
+      "collocations": [
+        "design brief",
+        "creative brief",
+        "detailed brief",
+        "send a brief",
+        "follow the brief"
+      ],
+      "etymology_hint": "From Latin 'brevis' = short — meaning 'concise document' in business contexts since 16th century.",
+      "mnemonic_vi": "BRIEF đọc 'brí-f' — bí kíp ngắn. Design brief = brief thiết kế."
+    },
+    {
+      "word": "side-gig",
+      "lemma": "side-gig",
+      "ipa": "/ˈsaɪdɡɪɡ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a job done in addition to your main job, usually for extra income",
+          "meaning_vi": "nghề tay trái",
+          "examples": [
+            {
+              "en": "Her side-gig as a tutor earns more than her day job.",
+              "vi": "Side-gig dạy kèm của cô ấy kiếm hơn job chính."
+            },
+            {
+              "en": "Most successful businesses started as a side-gig.",
+              "vi": "Hầu hết doanh nghiệp thành công bắt đầu là side-gig."
+            },
+            {
+              "en": "Pick a side-gig that uses skills you already have.",
+              "vi": "Chọn side-gig dùng kỹ năng bạn đã sẵn có."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["side hustle", "moonlighting"],
+      "antonyms": ["main job", "full-time job"],
+      "collocations": [
+        "profitable side-gig",
+        "start a side-gig",
+        "side-gig income",
+        "weekend side-gig",
+        "creative side-gig"
+      ],
+      "etymology_hint": "Compound: 'side' (extra) + 'gig' (jazz slang for engagement) — 2010s gig-economy usage.",
+      "mnemonic_vi": "SIDE (bên cạnh) + GIG (việc nhỏ) = việc bên. Profitable side-gig = side-gig có lời."
+    }
+  ]
+}

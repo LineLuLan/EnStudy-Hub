@@ -1,0 +1,769 @@
+{
+  "slug": "literature-genres",
+  "name": "Literature & Genres",
+  "description": "Văn học và thể loại B1 — novel, fiction, memoir, metaphor và 16 từ cho mọt sách.",
+  "order_index": 10,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "novel",
+      "lemma": "novel",
+      "ipa": "/ˈnɒvl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long fictional story published as a book",
+          "meaning_vi": "tiểu thuyết",
+          "examples": [
+            {
+              "en": "She wrote her first novel at sixteen.",
+              "vi": "Cô ấy viết tiểu thuyết đầu tay năm 16 tuổi."
+            },
+            {
+              "en": "Vietnamese literature has produced many great novels.",
+              "vi": "Văn học Việt sản sinh nhiều tiểu thuyết hay."
+            },
+            {
+              "en": "Reading a novel a month builds vocabulary fast.",
+              "vi": "Đọc 1 tiểu thuyết/tháng giúp tăng từ vựng nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["book", "fiction work"],
+      "antonyms": ["short story", "nonfiction"],
+      "collocations": [
+        "graphic novel",
+        "historical novel",
+        "write a novel",
+        "novel adaptation",
+        "best-selling novel"
+      ],
+      "etymology_hint": "From Italian 'novella' = new tale — meaning 'new long story' since 16th-17th century.",
+      "mnemonic_vi": "NOVEL đọc 'nâ-vồ' — nâng vẻ kể câu chuyện dài. Historical novel = tiểu thuyết lịch sử."
+    },
+    {
+      "word": "fiction",
+      "lemma": "fiction",
+      "ipa": "/ˈfɪkʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "writing about imaginary events and people, not facts",
+          "meaning_vi": "tiểu thuyết, hư cấu (sách kể chuyện tưởng tượng)",
+          "examples": [
+            {
+              "en": "She prefers fiction to biographies.",
+              "vi": "Cô ấy thích hư cấu hơn tiểu sử."
+            },
+            {
+              "en": "Modern Vietnamese fiction explores war and memory.",
+              "vi": "Hư cấu Việt hiện đại khai thác chiến tranh và ký ức."
+            },
+            {
+              "en": "Truth can be stranger than fiction.",
+              "vi": "Sự thật có thể lạ hơn cả hư cấu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fictional writing", "made-up story"],
+      "antonyms": ["nonfiction", "fact"],
+      "collocations": [
+        "science fiction",
+        "literary fiction",
+        "young adult fiction",
+        "work of fiction",
+        "fiction writer"
+      ],
+      "etymology_hint": "From Latin 'fingere' = to form, mold — same root as 'figment', 'feign'.",
+      "mnemonic_vi": "FICTION đọc 'phíc-shần' — phích nước tưởng tượng. Science fiction = hư cấu khoa học."
+    },
+    {
+      "word": "nonfiction",
+      "lemma": "nonfiction",
+      "ipa": "/ˌnɒnˈfɪkʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "writing about real facts, events, or people",
+          "meaning_vi": "phi hư cấu (sách thật, không tưởng tượng)",
+          "examples": [
+            {
+              "en": "His nonfiction book about climate change won an award.",
+              "vi": "Sách phi hư cấu về biến đổi khí hậu của anh ấy được giải."
+            },
+            {
+              "en": "Nonfiction now outsells fiction in many countries.",
+              "vi": "Phi hư cấu hiện bán chạy hơn hư cấu ở nhiều nước."
+            },
+            {
+              "en": "Memoirs are a popular form of nonfiction.",
+              "vi": "Hồi ký là một dạng phi hư cấu phổ biến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["factual writing"],
+      "antonyms": ["fiction", "novel"],
+      "collocations": [
+        "creative nonfiction",
+        "narrative nonfiction",
+        "nonfiction writer",
+        "nonfiction book",
+        "popular nonfiction"
+      ],
+      "etymology_hint": "Compound: prefix 'non-' (not) + 'fiction' — coined late 19th century to label factual works.",
+      "mnemonic_vi": "NON (không) + FICTION (hư cấu) = không hư cấu. Creative nonfiction = phi hư cấu sáng tạo."
+    },
+    {
+      "word": "fantasy",
+      "lemma": "fantasy",
+      "ipa": "/ˈfæntəsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a genre with magic, mythical creatures, or imaginary worlds",
+          "meaning_vi": "thể loại fantasy (kỳ ảo, ma thuật, thế giới tưởng tượng)",
+          "examples": [
+            {
+              "en": "Lord of the Rings is the most famous fantasy novel.",
+              "vi": "Chúa tể những chiếc nhẫn là tiểu thuyết fantasy nổi tiếng nhất."
+            },
+            {
+              "en": "Vietnamese fantasy often draws on folk legends.",
+              "vi": "Fantasy Việt thường lấy từ truyền thuyết dân gian."
+            },
+            {
+              "en": "Fantasy readers love rich world-building.",
+              "vi": "Người đọc fantasy thích thế giới được xây dựng kỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["imagination", "make-believe"],
+      "antonyms": ["realism", "documentary"],
+      "collocations": [
+        "epic fantasy",
+        "urban fantasy",
+        "fantasy novel",
+        "fantasy world",
+        "high fantasy"
+      ],
+      "etymology_hint": "From Greek 'phantasia' = imagination — same root as 'phantom'.",
+      "mnemonic_vi": "FANTASY đọc 'phen-tâ-si' — phen tâm sự tưởng tượng. Epic fantasy = fantasy hùng tráng."
+    },
+    {
+      "word": "sci-fi",
+      "lemma": "sci-fi",
+      "ipa": "/ˈsaɪfaɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "science fiction — stories about future technology, space, or alternative realities",
+          "meaning_vi": "khoa học viễn tưởng",
+          "examples": [
+            {
+              "en": "Sci-fi predicts technology decades ahead.",
+              "vi": "Sci-fi dự đoán công nghệ trước hàng chục năm."
+            },
+            {
+              "en": "His sci-fi short stories explore AI ethics.",
+              "vi": "Các truyện sci-fi ngắn của anh ấy khai thác đạo đức AI."
+            },
+            {
+              "en": "Vietnamese sci-fi is a growing niche.",
+              "vi": "Sci-fi Việt đang là ngách phát triển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["science fiction", "speculative fiction"],
+      "antonyms": ["realism"],
+      "collocations": [
+        "sci-fi novel",
+        "hard sci-fi",
+        "soft sci-fi",
+        "sci-fi fan",
+        "classic sci-fi"
+      ],
+      "etymology_hint": "Coined 1954 by US fan Forrest Ackerman — shortened from 'science fiction', echoes 'hi-fi' (high fidelity).",
+      "mnemonic_vi": "SCI (khoa học) + FI (giả tưởng) = khoa học giả tưởng. Sci-fi novel = tiểu thuyết khoa học viễn tưởng."
+    },
+    {
+      "word": "mystery",
+      "lemma": "mystery",
+      "ipa": "/ˈmɪstri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a genre involving puzzles, crimes, or unexplained events to be solved",
+          "meaning_vi": "thể loại trinh thám, bí ẩn",
+          "examples": [
+            {
+              "en": "Agatha Christie wrote dozens of bestselling mysteries.",
+              "vi": "Agatha Christie viết hàng chục tiểu thuyết trinh thám bán chạy."
+            },
+            {
+              "en": "Mystery readers love trying to guess the killer.",
+              "vi": "Người đọc trinh thám thích đoán hung thủ."
+            },
+            {
+              "en": "Vietnamese mystery novels are gaining popularity.",
+              "vi": "Tiểu thuyết trinh thám Việt ngày càng được yêu thích."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["whodunit", "detective story"],
+      "antonyms": ["clear-cut"],
+      "collocations": [
+        "murder mystery",
+        "cozy mystery",
+        "mystery novel",
+        "solve a mystery",
+        "mystery writer"
+      ],
+      "etymology_hint": "From Greek 'mysterion' = secret rite — narrowed to 'puzzle to solve' in literary usage.",
+      "mnemonic_vi": "MYSTERY đọc 'mít-sờ-tri' — mịt mù tìm. Murder mystery = trinh thám giết người."
+    },
+    {
+      "word": "biography",
+      "lemma": "biography",
+      "ipa": "/baɪˈɒɡrəfi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a written account of someone's life by another person",
+          "meaning_vi": "tiểu sử (ai đó viết)",
+          "examples": [
+            {
+              "en": "Walter Isaacson's biography of Steve Jobs sold millions.",
+              "vi": "Tiểu sử Steve Jobs của Walter Isaacson bán cả triệu bản."
+            },
+            {
+              "en": "Vietnamese biographies of Hồ Chí Minh fill libraries.",
+              "vi": "Tiểu sử về Hồ Chí Minh chất đầy thư viện Việt."
+            },
+            {
+              "en": "Reading biographies teaches lessons from real lives.",
+              "vi": "Đọc tiểu sử cho ta bài học từ những cuộc đời thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["life story"],
+      "antonyms": ["autobiography"],
+      "collocations": [
+        "authorized biography",
+        "unauthorized biography",
+        "biography of",
+        "write a biography",
+        "celebrity biography"
+      ],
+      "etymology_hint": "From Greek 'bios' (life) + 'graphein' (write) — life-writing.",
+      "mnemonic_vi": "BIO (đời) + GRAPHY (viết) = viết về đời. Authorized biography = tiểu sử được uỷ quyền."
+    },
+    {
+      "word": "memoir",
+      "lemma": "memoir",
+      "ipa": "/ˈmemwɑː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a book in which a person writes about their own life or experiences",
+          "meaning_vi": "hồi ký (tự viết về đời mình)",
+          "examples": [
+            {
+              "en": "Michelle Obama's memoir became an instant bestseller.",
+              "vi": "Hồi ký của Michelle Obama lập tức bán chạy."
+            },
+            {
+              "en": "His war memoir captures the chaos of 1975 Saigon.",
+              "vi": "Hồi ký chiến tranh của ông ấy ghi lại hỗn loạn Sài Gòn 1975."
+            },
+            {
+              "en": "Writing a memoir requires honest self-reflection.",
+              "vi": "Viết hồi ký cần tự nhìn lại trung thực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["autobiography (similar)", "personal account"],
+      "antonyms": ["biography (about someone else)"],
+      "collocations": [
+        "personal memoir",
+        "war memoir",
+        "publish a memoir",
+        "memoir of",
+        "bestselling memoir"
+      ],
+      "etymology_hint": "From French 'mémoire' = memory — note silent 'r' in pronunciation.",
+      "mnemonic_vi": "MEMOIR đọc 'mem-uoa' — mềm môi kể đời mình. Personal memoir = hồi ký cá nhân."
+    },
+    {
+      "word": "poetry",
+      "lemma": "poetry",
+      "ipa": "/ˈpəʊətri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "writing in verse, often using rhythm, imagery, and emotion",
+          "meaning_vi": "thơ ca, thi ca",
+          "examples": [
+            {
+              "en": "She published her first book of poetry at twenty.",
+              "vi": "Cô ấy xuất bản tập thơ đầu tiên năm 20 tuổi."
+            },
+            {
+              "en": "Vietnamese poetry has a 1000-year-old tradition.",
+              "vi": "Thi ca Việt Nam có truyền thống hơn 1000 năm."
+            },
+            {
+              "en": "Reading poetry aloud reveals its music.",
+              "vi": "Đọc thơ to lên mới thấy nhạc tính của nó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["verse", "poems"],
+      "antonyms": ["prose"],
+      "collocations": [
+        "modern poetry",
+        "classical poetry",
+        "poetry collection",
+        "love poetry",
+        "spoken-word poetry"
+      ],
+      "etymology_hint": "From Greek 'poiesis' = a making — root 'poiein' (to make).",
+      "mnemonic_vi": "POET (nhà thơ) + RY = thi ca. Modern poetry = thơ hiện đại."
+    },
+    {
+      "word": "satire",
+      "lemma": "satire",
+      "ipa": "/ˈsætaɪə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "writing that uses humor and exaggeration to criticize people, ideas, or society",
+          "meaning_vi": "trào phúng, châm biếm (văn học)",
+          "examples": [
+            {
+              "en": "Animal Farm is famous political satire.",
+              "vi": "Trại Súc Vật là tác phẩm trào phúng chính trị nổi tiếng."
+            },
+            {
+              "en": "Vietnamese satire flourished during the colonial era.",
+              "vi": "Văn trào phúng Việt nở rộ thời thuộc địa."
+            },
+            {
+              "en": "Some readers missed the satire and took it seriously.",
+              "vi": "Một số độc giả không nhận ra trào phúng và tin là thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["parody", "lampoon", "irony"],
+      "antonyms": ["earnest writing"],
+      "collocations": [
+        "political satire",
+        "biting satire",
+        "social satire",
+        "satire of",
+        "literary satire"
+      ],
+      "etymology_hint": "From Latin 'satura' = medley, mixture — a 'dish' of mixed criticism.",
+      "mnemonic_vi": "SATIRE đọc 'sa-tai-ơ' — sa tai nghe lời mỉa. Political satire = trào phúng chính trị."
+    },
+    {
+      "word": "allegory",
+      "lemma": "allegory",
+      "ipa": "/ˈæləɡəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a story whose characters and events represent deeper ideas or moral lessons",
+          "meaning_vi": "truyện ngụ ngôn, ẩn dụ (truyện có tầng nghĩa sâu)",
+          "examples": [
+            {
+              "en": "The Great Gatsby is an allegory of the American Dream.",
+              "vi": "Đại Gia Gatsby là ẩn dụ về Giấc Mơ Mỹ."
+            },
+            {
+              "en": "Vietnamese folk tales often work as moral allegories.",
+              "vi": "Truyện cổ Việt thường vận hành như ngụ ngôn đạo đức."
+            },
+            {
+              "en": "She wrote a children's allegory about kindness.",
+              "vi": "Cô ấy viết một ngụ ngôn cho trẻ về lòng tử tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["parable", "fable", "extended metaphor"],
+      "antonyms": ["literal story"],
+      "collocations": [
+        "political allegory",
+        "moral allegory",
+        "religious allegory",
+        "allegory of",
+        "read as allegory"
+      ],
+      "etymology_hint": "From Greek 'allos' (other) + 'agoreuein' (speak publicly) — 'speaking otherwise', saying one thing meaning another.",
+      "mnemonic_vi": "ALLE (khác) + GORY (nói) = nói cái khác. Moral allegory = ngụ ngôn đạo đức."
+    },
+    {
+      "word": "protagonist",
+      "lemma": "protagonist",
+      "ipa": "/prəˈtæɡənɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the main character of a story, novel, or film",
+          "meaning_vi": "nhân vật chính",
+          "examples": [
+            {
+              "en": "The protagonist must change by the end of the story.",
+              "vi": "Nhân vật chính phải thay đổi đến cuối truyện."
+            },
+            {
+              "en": "Frodo is the protagonist of Lord of the Rings.",
+              "vi": "Frodo là nhân vật chính của Chúa Tể Những Chiếc Nhẫn."
+            },
+            {
+              "en": "A weak protagonist sinks the whole novel.",
+              "vi": "Nhân vật chính yếu sẽ kéo chìm cả tiểu thuyết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["main character", "hero", "lead"],
+      "antonyms": ["antagonist", "side character"],
+      "collocations": [
+        "main protagonist",
+        "female protagonist",
+        "complex protagonist",
+        "anti-hero protagonist",
+        "protagonist of the novel"
+      ],
+      "etymology_hint": "From Greek 'protagonistes' = first actor — 'protos' (first) + 'agonistes' (actor in a contest).",
+      "mnemonic_vi": "PROTO (đầu) + AGON (đấu) + IST (người) = người đấu đầu tiên. Main protagonist = nhân vật chính."
+    },
+    {
+      "word": "antagonist",
+      "lemma": "antagonist",
+      "ipa": "/ænˈtæɡənɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the main character or force that opposes the protagonist",
+          "meaning_vi": "nhân vật phản diện, đối thủ chính",
+          "examples": [
+            {
+              "en": "The antagonist's motives should feel believable.",
+              "vi": "Động cơ của nhân vật phản diện phải tin được."
+            },
+            {
+              "en": "Sauron is the antagonist behind everything in Tolkien's world.",
+              "vi": "Sauron là phản diện đứng sau mọi thứ trong thế giới Tolkien."
+            },
+            {
+              "en": "Sometimes the antagonist is an inner fear, not a person.",
+              "vi": "Đôi khi phản diện là nỗi sợ trong lòng, không phải một người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["villain", "rival", "opponent"],
+      "antonyms": ["protagonist", "ally"],
+      "collocations": [
+        "main antagonist",
+        "complex antagonist",
+        "ruthless antagonist",
+        "antagonist of",
+        "internal antagonist"
+      ],
+      "etymology_hint": "From Greek 'ant-' (against) + 'agonistes' (actor) — the opposing actor.",
+      "mnemonic_vi": "ANT (chống) + AGON (đấu) + IST (người) = người đấu lại. Main antagonist = phản diện chính."
+    },
+    {
+      "word": "metaphor",
+      "lemma": "metaphor",
+      "ipa": "/ˈmetəfə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a way of describing something by saying it is something else, to show similarity",
+          "meaning_vi": "ẩn dụ (so sánh ngầm, không dùng 'như')",
+          "examples": [
+            {
+              "en": "'Time is money' is a famous metaphor.",
+              "vi": "'Thời gian là tiền bạc' là một ẩn dụ kinh điển."
+            },
+            {
+              "en": "Vietnamese poetry is rich in nature metaphors.",
+              "vi": "Thi ca Việt giàu ẩn dụ về thiên nhiên."
+            },
+            {
+              "en": "Good writers stretch a metaphor across paragraphs.",
+              "vi": "Nhà văn giỏi kéo dài ẩn dụ qua nhiều đoạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["figure of speech", "comparison"],
+      "antonyms": ["literal expression"],
+      "collocations": [
+        "extended metaphor",
+        "mixed metaphor",
+        "powerful metaphor",
+        "use a metaphor",
+        "running metaphor"
+      ],
+      "etymology_hint": "From Greek 'metaphora' = transfer — 'meta' (across) + 'pherein' (carry).",
+      "mnemonic_vi": "META (chuyển) + PHOR (mang) = chuyển ý sang. Powerful metaphor = ẩn dụ mạnh."
+    },
+    {
+      "word": "simile",
+      "lemma": "simile",
+      "ipa": "/ˈsɪməli/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a comparison using 'like' or 'as' to show two things share a quality",
+          "meaning_vi": "so sánh (dùng từ 'như', 'tựa')",
+          "examples": [
+            {
+              "en": "'Brave as a lion' is a classic simile.",
+              "vi": "'Dũng cảm như sư tử' là so sánh kinh điển."
+            },
+            {
+              "en": "Children love similes — they make ideas concrete.",
+              "vi": "Trẻ con thích so sánh — khiến ý cụ thể."
+            },
+            {
+              "en": "Writers vary similes to avoid clichés.",
+              "vi": "Nhà văn biến tấu so sánh để tránh sáo mòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["comparison"],
+      "antonyms": ["literal description"],
+      "collocations": [
+        "vivid simile",
+        "fresh simile",
+        "famous simile",
+        "use a simile",
+        "extended simile"
+      ],
+      "etymology_hint": "From Latin 'similis' = like — same root as 'similar'.",
+      "mnemonic_vi": "SIMI (giống) + LE = giống nhau. Vivid simile = so sánh sống động."
+    },
+    {
+      "word": "prose",
+      "lemma": "prose",
+      "ipa": "/prəʊz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "ordinary written or spoken language, without the rhythm of poetry",
+          "meaning_vi": "văn xuôi",
+          "examples": [
+            {
+              "en": "His prose is clean, simple, and powerful.",
+              "vi": "Văn xuôi của anh ấy gọn, đơn giản và mạnh mẽ."
+            },
+            {
+              "en": "Vietnamese novels are written in prose, not verse.",
+              "vi": "Tiểu thuyết Việt viết bằng văn xuôi, không phải thơ."
+            },
+            {
+              "en": "Some poets struggle when switching to prose.",
+              "vi": "Một số nhà thơ chật vật khi chuyển sang văn xuôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["writing", "narrative"],
+      "antonyms": ["poetry", "verse"],
+      "collocations": [
+        "elegant prose",
+        "clear prose",
+        "literary prose",
+        "prose style",
+        "purple prose"
+      ],
+      "etymology_hint": "From Latin 'prorsus' = straightforward, direct — versus 'versus' (verse, lit. 'a turning').",
+      "mnemonic_vi": "PROSE đọc 'prô-z' — phơ rộ kể thẳng. Elegant prose = văn xuôi đẹp."
+    },
+    {
+      "word": "dialogue",
+      "lemma": "dialogue",
+      "ipa": "/ˈdaɪəlɒɡ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "conversation between characters in a book, play, or film",
+          "meaning_vi": "đoạn đối thoại (giữa các nhân vật)",
+          "examples": [
+            {
+              "en": "Snappy dialogue keeps the reader turning pages.",
+              "vi": "Đối thoại sắc khiến độc giả lật trang liên tục."
+            },
+            {
+              "en": "Writing realistic dialogue is harder than it looks.",
+              "vi": "Viết đối thoại thật khó hơn nhìn thấy."
+            },
+            {
+              "en": "Read dialogue aloud to test if it flows.",
+              "vi": "Đọc đối thoại to lên để xem có trôi không."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conversation", "exchange"],
+      "antonyms": ["monologue", "narration"],
+      "collocations": [
+        "snappy dialogue",
+        "natural dialogue",
+        "write dialogue",
+        "dialogue tag",
+        "internal dialogue"
+      ],
+      "etymology_hint": "From Greek 'dialogos' = conversation — 'dia-' (across) + 'logos' (speech).",
+      "mnemonic_vi": "DIA (qua lại) + LOGUE (lời) = lời qua lại. Snappy dialogue = đối thoại sắc."
+    },
+    {
+      "word": "climax",
+      "lemma": "climax",
+      "ipa": "/ˈklaɪmæks/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the most exciting or important moment in a story, usually near the end",
+          "meaning_vi": "cao trào (đỉnh điểm của truyện)",
+          "examples": [
+            {
+              "en": "The climax of the novel left readers breathless.",
+              "vi": "Cao trào của tiểu thuyết khiến độc giả nín thở."
+            },
+            {
+              "en": "Every act builds toward the climax.",
+              "vi": "Mỗi hồi đều đẩy về phía cao trào."
+            },
+            {
+              "en": "Don't reveal the climax in the trailer.",
+              "vi": "Đừng tiết lộ cao trào trong trailer."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["peak moment", "high point"],
+      "antonyms": ["anticlimax"],
+      "collocations": [
+        "dramatic climax",
+        "reach a climax",
+        "story climax",
+        "emotional climax",
+        "build to a climax"
+      ],
+      "etymology_hint": "From Greek 'klimax' = ladder — meaning 'highest rung', then 'peak moment'.",
+      "mnemonic_vi": "CLIMAX đọc 'clai-mặc' — clay leo lên đỉnh. Dramatic climax = cao trào kịch tính."
+    },
+    {
+      "word": "foreshadow",
+      "lemma": "foreshadow",
+      "ipa": "/fɔːˈʃædəʊ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give hints early in a story about something that will happen later",
+          "meaning_vi": "ám chỉ trước, báo hiệu sự kiện sắp tới",
+          "examples": [
+            {
+              "en": "The dark cloud foreshadows tragedy in chapter ten.",
+              "vi": "Đám mây đen ám chỉ thảm kịch ở chương 10."
+            },
+            {
+              "en": "Foreshadowing rewards readers who pay attention.",
+              "vi": "Ám chỉ trước thưởng cho độc giả chú ý."
+            },
+            {
+              "en": "Subtle foreshadowing beats obvious hints.",
+              "vi": "Ám chỉ tinh tế thắng gợi ý rõ ràng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hint at", "presage", "prefigure"],
+      "antonyms": ["surprise without warning"],
+      "collocations": [
+        "foreshadow tragedy",
+        "subtle foreshadowing",
+        "foreshadow events",
+        "heavy foreshadowing",
+        "foreshadow the ending"
+      ],
+      "etymology_hint": "Compound: 'fore-' (before) + 'shadow' (Old English 'sceadu') — literally 'shadow cast ahead'.",
+      "mnemonic_vi": "FORE (trước) + SHADOW (bóng) = bóng đổ trước. Foreshadow tragedy = báo trước bi kịch."
+    },
+    {
+      "word": "manuscript",
+      "lemma": "manuscript",
+      "ipa": "/ˈmænjʊskrɪpt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the written or typed version of a book before it is published",
+          "meaning_vi": "bản thảo (chưa xuất bản)",
+          "examples": [
+            {
+              "en": "She finished the manuscript after two years of writing.",
+              "vi": "Cô ấy hoàn thành bản thảo sau 2 năm viết."
+            },
+            {
+              "en": "Submit the manuscript to three publishers at once.",
+              "vi": "Gửi bản thảo cho 3 nhà xuất bản cùng lúc."
+            },
+            {
+              "en": "Old manuscripts in Hán Nôm script fill Vietnam's archives.",
+              "vi": "Bản thảo Hán Nôm cổ chất đầy lưu trữ Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["draft", "typescript"],
+      "antonyms": ["published book"],
+      "collocations": [
+        "finish a manuscript",
+        "submit a manuscript",
+        "rejected manuscript",
+        "manuscript page",
+        "original manuscript"
+      ],
+      "etymology_hint": "From Latin 'manu' (by hand) + 'scriptus' (written) — literally 'written by hand'.",
+      "mnemonic_vi": "MANU (tay) + SCRIPT (viết) = viết tay. Submit a manuscript = nộp bản thảo."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "slug": "cooking-techniques",
+  "name": "Cooking Techniques",
+  "description": "Kỹ thuật nấu ăn B1 — simmer, sauté, marinate, knead và 16 từ cho người mê bếp.",
+  "order_index": 18,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "simmer",
+      "lemma": "simmer",
+      "ipa": "/ˈsɪmə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook food gently in liquid just below the boiling point",
+          "meaning_vi": "ninh, hầm nhỏ lửa",
+          "examples": [
+            {
+              "en": "Simmer the broth for two hours until rich.",
+              "vi": "Ninh nước dùng 2 tiếng cho ngọt đậm."
+            },
+            {
+              "en": "Phở Hà Nội simmers from dawn at every street stall.",
+              "vi": "Phở Hà Nội ninh từ tờ mờ sáng ở mọi hàng quán vỉa hè."
+            },
+            {
+              "en": "Reduce heat and let the curry simmer slowly.",
+              "vi": "Hạ lửa cho cà ri ninh từ từ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stew", "poach gently"],
+      "antonyms": ["boil rapidly"],
+      "collocations": [
+        "simmer gently",
+        "simmer for hours",
+        "let it simmer",
+        "simmer the sauce",
+        "low simmer"
+      ],
+      "etymology_hint": "From Middle English 'simperen' = to make a hissing sound — onomatopoeic origin.",
+      "mnemonic_vi": "SIMMER đọc 'sim-mơ' — sim sím nồi lửa nhỏ. Simmer gently = ninh nhẹ nhàng."
+    },
+    {
+      "word": "sauté",
+      "lemma": "sauté",
+      "ipa": "/ˈsəʊteɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook food quickly in a small amount of hot fat",
+          "meaning_vi": "xào nhanh trên lửa lớn với ít dầu",
+          "examples": [
+            {
+              "en": "Sauté the garlic until golden, about 30 seconds.",
+              "vi": "Xào tỏi đến khi vàng, khoảng 30 giây."
+            },
+            {
+              "en": "She sautéed the morning glory with a splash of fish sauce.",
+              "vi": "Cô ấy xào rau muống với chút nước mắm."
+            },
+            {
+              "en": "Sautéing locks in flavor better than boiling.",
+              "vi": "Xào giữ vị tốt hơn luộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pan-fry quickly", "stir-fry"],
+      "antonyms": ["deep-fry", "boil"],
+      "collocations": [
+        "sauté the onions",
+        "sauté in butter",
+        "sauté pan",
+        "sauté over high heat",
+        "lightly sauté"
+      ],
+      "etymology_hint": "From French 'sauter' = to jump — refers to food jumping in the pan when tossed.",
+      "mnemonic_vi": "SAUTÉ đọc 'sô-tê' — nhảy 'số tê' trên chảo. Sauté in butter = xào với bơ."
+    },
+    {
+      "word": "marinate",
+      "lemma": "marinate",
+      "ipa": "/ˈmærɪneɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to soak food in a flavored liquid before cooking to add taste and tenderness",
+          "meaning_vi": "ướp gia vị (cho thấm)",
+          "examples": [
+            {
+              "en": "Marinate the chicken overnight for the best flavor.",
+              "vi": "Ướp gà qua đêm để có vị ngon nhất."
+            },
+            {
+              "en": "Bò bít tết Việt thường được marinate với nước tương và tỏi.",
+              "vi": "Beef steak Việt thường được ướp với xì dầu và tỏi."
+            },
+            {
+              "en": "Even 30 minutes of marinating makes a difference.",
+              "vi": "Ướp 30 phút thôi cũng đã thấy khác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["soak", "season (different lesson)"],
+      "antonyms": ["cook plain"],
+      "collocations": [
+        "marinate overnight",
+        "marinate in soy sauce",
+        "marinate the meat",
+        "marinating liquid",
+        "well marinated"
+      ],
+      "etymology_hint": "From French 'mariner' = to pickle in brine — Italian 'marinare' (= 'of the sea'), originally seawater pickling.",
+      "mnemonic_vi": "MARI (biển) + NATE = ngâm nước biển → ướp. Marinate overnight = ướp qua đêm."
+    },
+    {
+      "word": "knead",
+      "lemma": "knead",
+      "ipa": "/niːd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to press, fold, and stretch dough until smooth and elastic",
+          "meaning_vi": "nhào bột",
+          "examples": [
+            {
+              "en": "Knead the dough for ten minutes by hand.",
+              "vi": "Nhào bột 10 phút bằng tay."
+            },
+            {
+              "en": "Vietnamese bánh mì requires firm kneading for crispness.",
+              "vi": "Bánh mì Việt cần nhào mạnh để giòn vỏ."
+            },
+            {
+              "en": "If you knead too little, the bread won't rise properly.",
+              "vi": "Nhào ít quá thì bánh không nở đều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["work the dough", "press"],
+      "antonyms": ["leave untouched"],
+      "collocations": [
+        "knead the dough",
+        "knead for ten minutes",
+        "knead until smooth",
+        "knead by hand",
+        "knead vigorously"
+      ],
+      "etymology_hint": "From Old English 'cnedan' = to press, mold — silent 'k' preserved from Germanic root.",
+      "mnemonic_vi": "KNEAD đọc 'nít' (im k) — nít chặt nhào bột. Knead the dough = nhào bột."
+    },
+    {
+      "word": "whisk",
+      "lemma": "whisk",
+      "ipa": "/wɪsk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to beat eggs, cream, or sauce quickly with a wire tool to add air",
+          "meaning_vi": "đánh trứng / kem (làm bông xốp)",
+          "examples": [
+            {
+              "en": "Whisk the eggs until pale and frothy.",
+              "vi": "Đánh trứng đến khi nhạt màu và nổi bọt."
+            },
+            {
+              "en": "Use a fork if you don't have a whisk.",
+              "vi": "Dùng nĩa thay nếu không có cây đánh trứng."
+            },
+            {
+              "en": "Whisk constantly to prevent lumps.",
+              "vi": "Đánh đều tay để không bị vón cục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beat", "whip"],
+      "antonyms": ["stir slowly"],
+      "collocations": [
+        "whisk the eggs",
+        "whisk vigorously",
+        "whisk together",
+        "whisk until smooth",
+        "wire whisk"
+      ],
+      "etymology_hint": "From Old Norse 'visk' = bundle of straw — early whisks were bundled twigs for beating.",
+      "mnemonic_vi": "WHISK đọc 'huýt' — huýt đầu phất cây đánh trứng. Whisk vigorously = đánh mạnh tay."
+    },
+    {
+      "word": "blanch",
+      "lemma": "blanch",
+      "ipa": "/blɑːntʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to briefly boil vegetables, then cool them in ice water to keep color and crispness",
+          "meaning_vi": "chần qua (luộc nhanh rồi ngâm nước lạnh)",
+          "examples": [
+            {
+              "en": "Blanch the broccoli for 30 seconds, then dunk it in ice water.",
+              "vi": "Chần bông cải 30 giây rồi nhúng vào nước đá."
+            },
+            {
+              "en": "Vietnamese spring rolls use blanched rice noodles.",
+              "vi": "Gỏi cuốn Việt dùng bún đã chần qua."
+            },
+            {
+              "en": "Blanching keeps vegetables bright green.",
+              "vi": "Chần qua giúp rau giữ màu xanh tươi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["scald briefly", "parboil"],
+      "antonyms": ["overcook"],
+      "collocations": [
+        "blanch the vegetables",
+        "blanch briefly",
+        "blanch in salt water",
+        "blanch and shock",
+        "lightly blanch"
+      ],
+      "etymology_hint": "From Old French 'blanchir' = to whiten — refers to vegetables losing color when shocked.",
+      "mnemonic_vi": "BLANCH đọc 'blân-ch' — bùng nhanh trong nồi. Blanch the vegetables = chần rau."
+    },
+    {
+      "word": "braise",
+      "lemma": "braise",
+      "ipa": "/breɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook meat slowly in a small amount of liquid in a covered pot",
+          "meaning_vi": "om, kho (nấu lâu trong nồi đậy)",
+          "examples": [
+            {
+              "en": "Braise the beef cheek for three hours until fall-apart tender.",
+              "vi": "Om má bò 3 tiếng đến khi nhừ ra."
+            },
+            {
+              "en": "Cá kho tộ is essentially a Vietnamese braise.",
+              "vi": "Cá kho tộ thực chất là món om kiểu Việt."
+            },
+            {
+              "en": "Cheap cuts braise beautifully into rich stews.",
+              "vi": "Thịt rẻ tiền om lên thành món đậm đà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pot-roast", "stew"],
+      "antonyms": ["grill quickly"],
+      "collocations": [
+        "braise the meat",
+        "slow-braise",
+        "braising liquid",
+        "braise in wine",
+        "braised short ribs"
+      ],
+      "etymology_hint": "From French 'braiser' = to cook over embers — root 'braise' (embers).",
+      "mnemonic_vi": "BRAISE đọc 'brây-z' — bay khói om lâu. Braise the meat = om/kho thịt."
+    },
+    {
+      "word": "garnish",
+      "lemma": "garnish",
+      "ipa": "/ˈɡɑːnɪʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to decorate a dish with small amounts of food for color or flavor",
+          "meaning_vi": "trang trí món ăn (rau thơm, lát chanh, v.v.)",
+          "examples": [
+            {
+              "en": "Garnish the soup with chopped coriander.",
+              "vi": "Trang trí súp với rau mùi băm."
+            },
+            {
+              "en": "A lime wedge garnishes most Vietnamese noodle dishes.",
+              "vi": "Lát chanh trang trí phần lớn món bún phở Việt."
+            },
+            {
+              "en": "Don't garnish too much — let the food speak.",
+              "vi": "Đừng trang trí quá tay — để món ăn lên tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["decorate", "top with"],
+      "antonyms": ["serve plain"],
+      "collocations": [
+        "garnish with herbs",
+        "garnish the plate",
+        "edible garnish",
+        "garnish lightly",
+        "fresh garnish"
+      ],
+      "etymology_hint": "From Old French 'garnir' = to provide, equip — shared root with 'garrison'.",
+      "mnemonic_vi": "GARNISH đọc 'gá-nít' — gài lên nhánh rau. Garnish with herbs = rắc rau thơm."
+    },
+    {
+      "word": "roast",
+      "lemma": "roast",
+      "ipa": "/rəʊst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook food, especially meat or vegetables, in dry heat in an oven",
+          "meaning_vi": "nướng (trong lò) hoặc quay",
+          "examples": [
+            {
+              "en": "Roast the duck for 90 minutes at 180°C.",
+              "vi": "Quay vịt 90 phút ở 180°C."
+            },
+            {
+              "en": "Vietnamese roasted pork belly is crispy and addictive.",
+              "vi": "Heo quay Việt giòn rụm gây nghiện."
+            },
+            {
+              "en": "Roast vegetables bring out their natural sweetness.",
+              "vi": "Quay rau làm rau ngọt tự nhiên hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bake (different lesson)", "oven-cook"],
+      "antonyms": ["boil", "steam"],
+      "collocations": [
+        "roast a chicken",
+        "roast vegetables",
+        "slow-roast",
+        "roast in the oven",
+        "perfectly roasted"
+      ],
+      "etymology_hint": "From Old French 'rostir' — Germanic root meaning 'to dry-cook over fire'.",
+      "mnemonic_vi": "ROAST đọc 'rồ-stờ' — rồ lửa lò quay. Roast a chicken = quay gà."
+    },
+    {
+      "word": "grill",
+      "lemma": "grill",
+      "ipa": "/ɡrɪl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook food on a metal frame over direct heat, usually fire or charcoal",
+          "meaning_vi": "nướng (trên lửa than)",
+          "examples": [
+            {
+              "en": "Grill the prawns for 3 minutes per side.",
+              "vi": "Nướng tôm 3 phút mỗi mặt."
+            },
+            {
+              "en": "Bún chả requires grilling pork over charcoal.",
+              "vi": "Bún chả phải nướng thịt trên than hoa."
+            },
+            {
+              "en": "Grilled chicken is healthier than fried.",
+              "vi": "Gà nướng tốt cho sức khỏe hơn gà chiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["barbecue", "char-grill"],
+      "antonyms": ["boil", "stew"],
+      "collocations": [
+        "grill the meat",
+        "grill over charcoal",
+        "grill marks",
+        "grill outdoors",
+        "perfectly grilled"
+      ],
+      "etymology_hint": "From French 'gril' — from Latin 'craticula' = small gridiron.",
+      "mnemonic_vi": "GRILL đọc 'grin' — gờn gợn vết nướng. Grill over charcoal = nướng than."
+    },
+    {
+      "word": "deep-fry",
+      "lemma": "deep-fry",
+      "ipa": "/ˌdiːpˈfraɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook food by fully submerging it in very hot oil",
+          "meaning_vi": "chiên ngập dầu",
+          "examples": [
+            {
+              "en": "Deep-fry the spring rolls until golden brown.",
+              "vi": "Chiên ngập dầu chả giò đến vàng nâu."
+            },
+            {
+              "en": "Bánh xèo isn't deep-fried — it's pan-fried with crispy edges.",
+              "vi": "Bánh xèo không chiên ngập dầu — áp chảo cho rìa giòn."
+            },
+            {
+              "en": "Deep-frying needs oil hot enough to seal quickly.",
+              "vi": "Chiên ngập dầu cần dầu đủ nóng để khoá nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["submerge in oil"],
+      "antonyms": ["air-fry", "shallow-fry"],
+      "collocations": [
+        "deep-fry the chicken",
+        "deep-fry in oil",
+        "deep-fried snacks",
+        "deep-frying temperature",
+        "lightly deep-fry"
+      ],
+      "etymology_hint": "Compound: 'deep' (immersed) + 'fry' (Old English 'frigan' = roast) — distinct from shallow-frying since 18th century.",
+      "mnemonic_vi": "DEEP (sâu) + FRY (chiên) = chiên trong dầu sâu. Deep-fry the spring rolls = chiên ngập dầu chả giò."
+    },
+    {
+      "word": "steam",
+      "lemma": "steam",
+      "ipa": "/stiːm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook food by exposing it to the vapor from boiling water",
+          "meaning_vi": "hấp (bằng hơi nước)",
+          "examples": [
+            {
+              "en": "Steam the fish for 12 minutes with ginger and scallions.",
+              "vi": "Hấp cá 12 phút cùng gừng và hành lá."
+            },
+            {
+              "en": "Bánh bao is steamed, not baked.",
+              "vi": "Bánh bao hấp chứ không nướng."
+            },
+            {
+              "en": "Steaming preserves nutrients better than boiling.",
+              "vi": "Hấp giữ dinh dưỡng tốt hơn luộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["steam-cook"],
+      "antonyms": ["fry", "grill"],
+      "collocations": [
+        "steam the dumplings",
+        "steam over water",
+        "steamed vegetables",
+        "bamboo steamer",
+        "steam gently"
+      ],
+      "etymology_hint": "From Old English 'steam' = vapor — cooking sense secondary, original meaning was visible water vapor.",
+      "mnemonic_vi": "STEAM đọc 'sờ-tim' — tim đập theo hơi nước. Steam the dumplings = hấp bánh bao."
+    },
+    {
+      "word": "mince",
+      "lemma": "mince",
+      "ipa": "/mɪns/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to chop food into very small pieces, especially meat or garlic",
+          "meaning_vi": "băm nhuyễn",
+          "examples": [
+            {
+              "en": "Mince three cloves of garlic finely.",
+              "vi": "Băm nhuyễn 3 tép tỏi."
+            },
+            {
+              "en": "Use minced pork for the spring roll filling.",
+              "vi": "Dùng thịt heo băm cho nhân chả giò."
+            },
+            {
+              "en": "A good knife makes mincing much faster.",
+              "vi": "Dao tốt làm việc băm nhanh hơn nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finely chop", "grind"],
+      "antonyms": ["leave whole"],
+      "collocations": [
+        "minced garlic",
+        "minced meat",
+        "mince finely",
+        "freshly minced",
+        "mince the herbs"
+      ],
+      "etymology_hint": "From Old French 'mincier' = make small — Latin root 'minutia' (smallness).",
+      "mnemonic_vi": "MINCE đọc 'min' — min-ti-nhỏ. Minced garlic = tỏi băm."
+    },
+    {
+      "word": "dice",
+      "lemma": "dice",
+      "ipa": "/daɪs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cut food into small, regular cube-shaped pieces",
+          "meaning_vi": "cắt hạt lựu",
+          "examples": [
+            {
+              "en": "Dice the onion into half-centimeter cubes.",
+              "vi": "Cắt hành tây hạt lựu nửa cm."
+            },
+            {
+              "en": "Diced carrots cook faster than sliced ones.",
+              "vi": "Cà rốt cắt hạt lựu chín nhanh hơn thái lát."
+            },
+            {
+              "en": "She diced the tomatoes for the salsa.",
+              "vi": "Cô ấy cắt hạt lựu cà chua cho salsa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cube", "chop into cubes"],
+      "antonyms": ["slice", "leave whole"],
+      "collocations": [
+        "dice the onion",
+        "finely diced",
+        "diced tomatoes",
+        "dice into cubes",
+        "evenly dice"
+      ],
+      "etymology_hint": "From plural of 'die' (cube) — same root as gambling dice, both meaning small cube.",
+      "mnemonic_vi": "DICE đọc 'đai-s' — đai cắt vuông như xúc xắc. Dice the onion = cắt hạt lựu hành."
+    },
+    {
+      "word": "sear",
+      "lemma": "sear",
+      "ipa": "/sɪə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cook the surface of meat at very high heat to brown and lock in juices",
+          "meaning_vi": "áp chảo nhanh / cháy cạnh (giữ nước thịt)",
+          "examples": [
+            {
+              "en": "Sear the steak for 90 seconds per side.",
+              "vi": "Áp chảo bò 90 giây mỗi mặt."
+            },
+            {
+              "en": "Good searing creates a tasty brown crust.",
+              "vi": "Áp chảo tốt tạo lớp vỏ nâu thơm."
+            },
+            {
+              "en": "Sear the duck breast skin-side down first.",
+              "vi": "Áp da ức vịt xuống trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brown", "scorch"],
+      "antonyms": ["slow-cook"],
+      "collocations": [
+        "sear the meat",
+        "sear over high heat",
+        "pan-sear",
+        "quickly sear",
+        "perfectly seared"
+      ],
+      "etymology_hint": "From Old English 'sēarian' = to wither, dry up — meaning shifted to 'scorch surface' by 14th century.",
+      "mnemonic_vi": "SEAR đọc 'si-ơ' — si vào chảo lửa. Sear the steak = áp chảo bò."
+    },
+    {
+      "word": "glaze",
+      "lemma": "glaze",
+      "ipa": "/ɡleɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to coat food with a shiny, sweet or savory liquid before or after cooking",
+          "meaning_vi": "phết lớp bóng (mật, sốt) lên món ăn",
+          "examples": [
+            {
+              "en": "Glaze the ham with honey and mustard.",
+              "vi": "Phết mật ong và mù tạt lên giăm bông."
+            },
+            {
+              "en": "A balsamic glaze finishes the salad beautifully.",
+              "vi": "Lớp sốt balsamic phết lên hoàn thiện salad đẹp mắt."
+            },
+            {
+              "en": "Brush the pastry with egg to glaze it before baking.",
+              "vi": "Phết trứng lên bột để bóng trước khi nướng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coat", "varnish"],
+      "antonyms": ["leave matte"],
+      "collocations": [
+        "glaze the ham",
+        "honey glaze",
+        "balsamic glaze",
+        "glaze brushed on",
+        "shiny glaze"
+      ],
+      "etymology_hint": "From Old English 'glas' (glass) — both meaning shiny, glass-like surface.",
+      "mnemonic_vi": "GLAZE đọc 'gờ-lây-z' — lớp men bóng như kính. Honey glaze = lớp mật ong."
+    },
+    {
+      "word": "baste",
+      "lemma": "baste",
+      "ipa": "/beɪst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to pour fat or juice over meat while it cooks to keep it moist",
+          "meaning_vi": "tưới nước mỡ/sốt lên thịt trong khi nướng",
+          "examples": [
+            {
+              "en": "Baste the turkey every 30 minutes.",
+              "vi": "Tưới mỡ gà tây mỗi 30 phút."
+            },
+            {
+              "en": "Constant basting keeps the meat juicy.",
+              "vi": "Tưới mỡ liên tục giữ thịt mọng nước."
+            },
+            {
+              "en": "Use a brush or spoon to baste the chicken.",
+              "vi": "Dùng cọ hoặc thìa tưới mỡ lên gà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spoon over", "moisten"],
+      "antonyms": ["leave dry"],
+      "collocations": [
+        "baste the meat",
+        "baste with butter",
+        "frequent basting",
+        "baste the turkey",
+        "baste in juices"
+      ],
+      "etymology_hint": "Middle English origin uncertain, possibly from Old French 'basser' = to soak — cooking sense from 15th century.",
+      "mnemonic_vi": "BASTE đọc 'bây-st' — bay mỡ lên thịt. Baste the meat = tưới mỡ lên thịt."
+    },
+    {
+      "word": "julienne",
+      "lemma": "julienne",
+      "ipa": "/ˌdʒuːliˈen/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cut vegetables or fruit into long, thin matchstick strips",
+          "meaning_vi": "cắt sợi nhỏ dài (kiểu que diêm)",
+          "examples": [
+            {
+              "en": "Julienne the carrots for the spring rolls.",
+              "vi": "Cắt sợi cà rốt cho chả giò."
+            },
+            {
+              "en": "A mandoline makes julienning fast and uniform.",
+              "vi": "Bào chuyên dụng giúp cắt sợi nhanh và đều."
+            },
+            {
+              "en": "Vietnamese gỏi salads use julienned green papaya.",
+              "vi": "Gỏi Việt dùng đu đủ xanh cắt sợi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["matchstick", "shred finely"],
+      "antonyms": ["dice", "chunk"],
+      "collocations": [
+        "julienne the carrots",
+        "finely julienne",
+        "julienned vegetables",
+        "julienne strips",
+        "thin julienne"
+      ],
+      "etymology_hint": "From French chef's name 'Julienne' (uncertain) — became culinary term in late 17th century.",
+      "mnemonic_vi": "JULIENNE đọc 'giu-li-en' — giu nhỏ thành sợi. Julienned carrots = cà rốt cắt sợi."
+    },
+    {
+      "word": "chop",
+      "lemma": "chop",
+      "ipa": "/tʃɒp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cut food into pieces with quick, heavy strokes of a knife",
+          "meaning_vi": "băm, chặt (bằng dao)",
+          "examples": [
+            {
+              "en": "Chop the herbs roughly with a sharp knife.",
+              "vi": "Băm thô rau thơm bằng dao sắc."
+            },
+            {
+              "en": "She chopped the lemongrass into thin rings.",
+              "vi": "Cô ấy băm sả thành lát mỏng."
+            },
+            {
+              "en": "Chop the chicken into bite-sized pieces.",
+              "vi": "Chặt gà thành miếng vừa ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cut", "hack"],
+      "antonyms": ["leave whole"],
+      "collocations": [
+        "chop the onion",
+        "finely chopped",
+        "chop roughly",
+        "chop the herbs",
+        "chop into pieces"
+      ],
+      "etymology_hint": "Middle English 'choppen' = to cut with a blow — likely imitative of the sound.",
+      "mnemonic_vi": "CHOP đọc 'chốp' — chốp chốp dao chặt. Finely chopped = băm nhuyễn."
+    },
+    {
+      "word": "stir",
+      "lemma": "stir",
+      "ipa": "/stɜː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to mix liquid or food with a circular motion using a spoon",
+          "meaning_vi": "khuấy, đảo",
+          "examples": [
+            {
+              "en": "Stir the rice porridge so it doesn't stick.",
+              "vi": "Khuấy cháo cho khỏi dính nồi."
+            },
+            {
+              "en": "Stir-fry needs constant stirring over high heat.",
+              "vi": "Xào cần đảo liên tục trên lửa lớn."
+            },
+            {
+              "en": "Stir in the chocolate until fully melted.",
+              "vi": "Khuấy chocolate đến khi tan hết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mix", "agitate"],
+      "antonyms": ["let settle"],
+      "collocations": [
+        "stir constantly",
+        "stir-fry",
+        "stir in",
+        "stir gently",
+        "stir until smooth"
+      ],
+      "etymology_hint": "From Old English 'styrian' = to move, agitate — same root as 'storm'.",
+      "mnemonic_vi": "STIR đọc 'stơ' — sờ tay khuấy đều. Stir constantly = khuấy liên tục."
+    }
+  ]
+}
