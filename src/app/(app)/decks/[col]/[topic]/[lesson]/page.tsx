@@ -79,9 +79,9 @@ export default async function LessonPage({
           </p>
         </div>
       ) : (
-        <ul className="mt-6 grid items-start gap-3 lg:grid-cols-2">
+        <ul className="mt-6 gap-3 lg:columns-2 lg:gap-3">
           {detail.cards.map((card) => (
-            <li key={card.id}>
+            <li key={card.id} className="mb-3 break-inside-avoid lg:mb-3">
               <CardPreview
                 card={card}
                 userMeta={userMetaByCard.get(card.id)}
