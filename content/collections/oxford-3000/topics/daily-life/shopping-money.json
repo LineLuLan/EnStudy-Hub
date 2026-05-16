@@ -1,0 +1,733 @@
+{
+  "slug": "shopping-money",
+  "name": "Shopping & Money",
+  "description": "Từ vựng A2 về mua sắm và thanh toán — từ giá cả, giảm giá đến hóa đơn, giỏ hàng, khách hàng.",
+  "order_index": 10,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "purchase",
+      "lemma": "purchase",
+      "ipa": "/ˈpɜːtʃəs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to buy something, especially something expensive or official",
+          "meaning_vi": "mua (thường là món có giá trị, mua trang trọng)",
+          "examples": [
+            {
+              "en": "I purchased this laptop at FPT Shop last week.",
+              "vi": "Tôi đã mua chiếc laptop này ở FPT Shop tuần trước."
+            },
+            {
+              "en": "Tickets can be purchased online or at the counter.",
+              "vi": "Vé có thể được mua online hoặc tại quầy."
+            },
+            {
+              "en": "She purchased a small apartment in Vinhomes Smart City.",
+              "vi": "Cô ấy đã mua một căn hộ nhỏ ở Vinhomes Smart City."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["buy", "acquire"],
+      "antonyms": ["sell"],
+      "collocations": [
+        "purchase a ticket",
+        "purchase online",
+        "make a purchase",
+        "purchase price",
+        "purchase order"
+      ],
+      "etymology_hint": "From Old French 'porchacier' meaning 'to seek to obtain' — original sense was 'pursue, chase after'.",
+      "mnemonic_vi": "PURCHASE = 'pơ-chợt' — 'pơ chợ' đi mua. Trang trọng hơn 'buy' chút."
+    },
+    {
+      "word": "sell",
+      "lemma": "sell",
+      "ipa": "/sel/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to give something to someone in exchange for money",
+          "meaning_vi": "bán",
+          "examples": [
+            {
+              "en": "They sell bánh mì on every corner in Sài Gòn.",
+              "vi": "Họ bán bánh mì ở mọi góc phố tại Sài Gòn."
+            },
+            {
+              "en": "I want to sell my old motorbike on chợ tốt.",
+              "vi": "Tôi muốn bán chiếc xe máy cũ trên chợ tốt."
+            },
+            {
+              "en": "This shop sells products from Hà Giang.",
+              "vi": "Cửa hàng này bán sản phẩm từ Hà Giang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vend", "trade"],
+      "antonyms": ["buy", "purchase"],
+      "collocations": ["sell out", "sell off", "sell well", "sell online", "sell at a discount"],
+      "etymology_hint": "From Old English 'sellan' meaning 'to give' — sense of 'exchange for money' developed in Middle English.",
+      "mnemonic_vi": "SELL = 'sèo' — 'sèo' tay đưa hàng, lấy tiền. Đối của buy."
+    },
+    {
+      "word": "price",
+      "lemma": "price",
+      "ipa": "/praɪs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the amount of money you must pay for something",
+          "meaning_vi": "giá, giá tiền",
+          "examples": [
+            {
+              "en": "What's the price of this áo dài?",
+              "vi": "Áo dài này giá bao nhiêu?"
+            },
+            {
+              "en": "The price of petrol keeps going up in Việt Nam.",
+              "vi": "Giá xăng ở Việt Nam cứ tăng mãi."
+            },
+            {
+              "en": "She got a fair price for her bicycle.",
+              "vi": "Cô ấy bán xe đạp được giá hợp lý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cost", "fee", "charge"],
+      "antonyms": [],
+      "collocations": ["high price", "low price", "fair price", "price tag", "at any price"],
+      "etymology_hint": "From Old French 'pris' meaning 'value, reward' — from Latin 'pretium'.",
+      "mnemonic_vi": "PRICE = 'prais' — 'pờ rại' đắt đỏ. Price tag = nhãn giá."
+    },
+    {
+      "word": "cost",
+      "lemma": "cost",
+      "ipa": "/kɒst/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to require a specific amount of money to buy or do something",
+          "meaning_vi": "có giá, tốn (bao nhiêu tiền)",
+          "examples": [
+            {
+              "en": "How much does this phở bò cost?",
+              "vi": "Tô phở bò này giá bao nhiêu?"
+            },
+            {
+              "en": "Studying abroad costs a lot of money.",
+              "vi": "Du học tốn rất nhiều tiền."
+            },
+            {
+              "en": "A coffee in Highlands costs about 50,000 VND.",
+              "vi": "Một ly cà phê ở Highlands giá khoảng 50.000 đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["amount to", "be priced at"],
+      "antonyms": [],
+      "collocations": [
+        "cost a fortune",
+        "cost nothing",
+        "at any cost",
+        "cost of living",
+        "low-cost"
+      ],
+      "etymology_hint": "From Latin 'constare' meaning 'to stand together, stand at a price' — via Old French 'coster'.",
+      "mnemonic_vi": "COST = 'cót' — 'có' tốn bao nhiêu? How much does it cost = giá bao nhiêu."
+    },
+    {
+      "word": "discount",
+      "lemma": "discount",
+      "ipa": "/ˈdɪskaʊnt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a reduction in the usual price of something",
+          "meaning_vi": "giảm giá, chiết khấu",
+          "examples": [
+            {
+              "en": "Shopee is offering a 50% discount on Black Friday.",
+              "vi": "Shopee đang giảm giá 50% vào Black Friday."
+            },
+            {
+              "en": "Students get a 10% discount at this bookstore.",
+              "vi": "Sinh viên được giảm giá 10% tại nhà sách này."
+            },
+            {
+              "en": "I bought this áo khoác at a big discount.",
+              "vi": "Tôi mua chiếc áo khoác này được giảm giá nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reduction", "markdown"],
+      "antonyms": ["markup", "surcharge"],
+      "collocations": [
+        "big discount",
+        "give a discount",
+        "at a discount",
+        "discount code",
+        "student discount"
+      ],
+      "etymology_hint": "From Old Italian 'discontare' meaning 'to count off' — sense of 'reduce price' developed in 17th century English.",
+      "mnemonic_vi": "DISCOUNT = DIS + COUNT → 'đếm trừ đi'. Bớt một phần ra khỏi giá gốc."
+    },
+    {
+      "word": "sale",
+      "lemma": "sale",
+      "ipa": "/seɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a period when shops sell things at lower prices than usual",
+          "meaning_vi": "đợt giảm giá, khuyến mại",
+          "examples": [
+            {
+              "en": "Vincom is having a sale this weekend.",
+              "vi": "Vincom đang có đợt sale cuối tuần này."
+            },
+            {
+              "en": "I got these sneakers on sale at Adidas.",
+              "vi": "Tôi mua đôi giày này khi Adidas đang sale."
+            },
+            {
+              "en": "The summer sale starts next Monday.",
+              "vi": "Đợt sale mùa hè bắt đầu thứ Hai tới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["promotion", "clearance"],
+      "antonyms": [],
+      "collocations": ["on sale", "for sale", "sale price", "summer sale", "flash sale"],
+      "etymology_hint": "From Old English 'sala' meaning 'a selling' — borrowed from Old Norse 'sala'.",
+      "mnemonic_vi": "SALE = 'sêu' — đi 'sêu' là đi sale, săn deal giảm giá."
+    },
+    {
+      "word": "bargain",
+      "lemma": "bargain",
+      "ipa": "/ˈbɑːɡɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "something you buy for less money than its real value; a good deal",
+          "meaning_vi": "món hời, mua được giá hời",
+          "examples": [
+            {
+              "en": "This jacket was a real bargain — only 200,000 VND.",
+              "vi": "Cái áo này quá hời — chỉ 200.000 đồng."
+            },
+            {
+              "en": "You can find bargains at chợ Bến Thành if you bargain well.",
+              "vi": "Bạn có thể tìm được hàng hời ở chợ Bến Thành nếu biết trả giá."
+            },
+            {
+              "en": "It's a bargain compared to other shops.",
+              "vi": "So với các tiệm khác thì đây là giá quá hời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deal", "steal"],
+      "antonyms": ["rip-off"],
+      "collocations": [
+        "good bargain",
+        "real bargain",
+        "bargain hunter",
+        "bargain price",
+        "drive a hard bargain"
+      ],
+      "etymology_hint": "From Old French 'bargaignier' meaning 'to haggle' — possibly from Frankish 'borgan' (to borrow).",
+      "mnemonic_vi": "BARGAIN = 'bá-gân' — 'bá gân' trả giá ở chợ, gân cổ cãi để được giá hời."
+    },
+    {
+      "word": "receipt",
+      "lemma": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of paper that proves you have paid for something",
+          "meaning_vi": "biên lai, hóa đơn (tờ giấy chứng nhận đã trả tiền)",
+          "examples": [
+            {
+              "en": "Keep the receipt if you want to return the item.",
+              "vi": "Giữ lại biên lai nếu bạn muốn đổi trả hàng."
+            },
+            {
+              "en": "The cashier at Lotte Mart printed two receipts.",
+              "vi": "Thu ngân ở Lotte Mart in ra hai biên lai."
+            },
+            {
+              "en": "I lost the receipt for my new headphones.",
+              "vi": "Tôi đánh mất biên lai mua tai nghe mới rồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["invoice", "proof of purchase"],
+      "antonyms": [],
+      "collocations": [
+        "keep the receipt",
+        "ask for a receipt",
+        "print a receipt",
+        "receipt number",
+        "lost the receipt"
+      ],
+      "etymology_hint": "From Old French 'recete' meaning 'a thing received' — silent 'p' added later to mimic Latin 'recepta'.",
+      "mnemonic_vi": "RECEIPT = 'ri-sít' — chữ 'p' câm. RE (lại) + CEIPT (nhận) → giấy chứng nhận đã nhận tiền."
+    },
+    {
+      "word": "cash",
+      "lemma": "cash",
+      "ipa": "/kæʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "money in the form of coins or banknotes, not cards or cheques",
+          "meaning_vi": "tiền mặt",
+          "examples": [
+            {
+              "en": "Do you take cash or only Momo here?",
+              "vi": "Ở đây nhận tiền mặt hay chỉ nhận Momo?"
+            },
+            {
+              "en": "I don't have enough cash — let me use my Vietcombank card.",
+              "vi": "Tôi không đủ tiền mặt — để tôi quẹt thẻ Vietcombank."
+            },
+            {
+              "en": "Most chợ vendors only accept cash.",
+              "vi": "Hầu hết người bán ở chợ chỉ nhận tiền mặt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["money", "currency"],
+      "antonyms": ["credit", "check"],
+      "collocations": ["pay in cash", "cash only", "cash machine", "cash back", "short of cash"],
+      "etymology_hint": "From Old French 'casse' meaning 'money box' — from Latin 'capsa' (case, chest).",
+      "mnemonic_vi": "CASH = 'kéch' — nghe như tiếng máy tính tiền 'kéch kéch'. Tiền mặt cash, không phải thẻ."
+    },
+    {
+      "word": "basket",
+      "lemma": "basket",
+      "ipa": "/ˈbɑːskɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a container made of thin strips of wood or wire, used to carry or hold things",
+          "meaning_vi": "giỏ, rổ (đi mua hàng)",
+          "examples": [
+            {
+              "en": "I picked up a basket at the entrance of Co.opmart.",
+              "vi": "Tôi lấy một cái giỏ ở lối vào Co.opmart."
+            },
+            {
+              "en": "She put eggs and milk in her shopping basket.",
+              "vi": "Cô ấy bỏ trứng và sữa vào giỏ mua hàng."
+            },
+            {
+              "en": "Add this item to your basket and check out later.",
+              "vi": "Thêm món này vào giỏ rồi thanh toán sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hamper", "cart"],
+      "antonyms": [],
+      "collocations": [
+        "shopping basket",
+        "in the basket",
+        "add to basket",
+        "fruit basket",
+        "empty basket"
+      ],
+      "etymology_hint": "From Old French or Anglo-Latin 'baskettum' — ultimate origin uncertain, possibly Celtic.",
+      "mnemonic_vi": "BASKET = 'bát-skịt' — hình dung 'bát' to để đựng đồ đi siêu thị."
+    },
+    {
+      "word": "trolley",
+      "lemma": "trolley",
+      "ipa": "/ˈtrɒli/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large metal cart with wheels used in supermarkets for carrying goods",
+          "meaning_vi": "xe đẩy (siêu thị)",
+          "examples": [
+            {
+              "en": "Take a trolley if you plan to buy a lot at AEON.",
+              "vi": "Lấy xe đẩy nếu bạn định mua nhiều ở AEON."
+            },
+            {
+              "en": "Her trolley was full of Tết shopping.",
+              "vi": "Xe đẩy của cô ấy đầy đồ mua Tết."
+            },
+            {
+              "en": "Park your trolley near the cashier.",
+              "vi": "Để xe đẩy gần quầy thu ngân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cart", "buggy"],
+      "antonyms": [],
+      "collocations": [
+        "shopping trolley",
+        "push a trolley",
+        "trolley full of",
+        "park the trolley",
+        "return the trolley"
+      ],
+      "etymology_hint": "From English 'troll' meaning 'to roll' — first used in 19th century for small wheeled vehicles.",
+      "mnemonic_vi": "TROLLEY = 'trồ-li' — 'trồ lì' đẩy hoài không mệt. Xe đẩy siêu thị."
+    },
+    {
+      "word": "cashier",
+      "lemma": "cashier",
+      "ipa": "/kæˈʃɪə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who takes payments from customers in a shop, restaurant, or bank",
+          "meaning_vi": "thu ngân, người tính tiền",
+          "examples": [
+            {
+              "en": "The cashier at WinMart was very friendly.",
+              "vi": "Cô thu ngân ở WinMart rất thân thiện."
+            },
+            {
+              "en": "Please pay the cashier at the front counter.",
+              "vi": "Vui lòng thanh toán với thu ngân ở quầy trước."
+            },
+            {
+              "en": "She works as a cashier on weekends.",
+              "vi": "Cô ấy làm thu ngân vào cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["teller", "checker"],
+      "antonyms": [],
+      "collocations": [
+        "pay the cashier",
+        "cashier desk",
+        "head cashier",
+        "ask the cashier",
+        "bank cashier"
+      ],
+      "etymology_hint": "From French 'caissier' meaning 'one in charge of the cash box' — same root as 'cash'.",
+      "mnemonic_vi": "CASHIER = CASH + IER → người làm việc với 'cash'. Thu ngân = giữ tiền mặt."
+    },
+    {
+      "word": "brand",
+      "lemma": "brand",
+      "ipa": "/brænd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a type of product made by a particular company under a specific name",
+          "meaning_vi": "thương hiệu, nhãn hàng",
+          "examples": [
+            {
+              "en": "What's your favourite phone brand — Apple or Samsung?",
+              "vi": "Thương hiệu điện thoại bạn thích là gì — Apple hay Samsung?"
+            },
+            {
+              "en": "Trung Nguyên is a well-known Vietnamese coffee brand.",
+              "vi": "Trung Nguyên là thương hiệu cà phê Việt Nam nổi tiếng."
+            },
+            {
+              "en": "She prefers local brands to imported ones.",
+              "vi": "Cô ấy thích thương hiệu nội địa hơn hàng nhập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["label", "make"],
+      "antonyms": ["generic"],
+      "collocations": [
+        "famous brand",
+        "luxury brand",
+        "brand name",
+        "local brand",
+        "build a brand"
+      ],
+      "etymology_hint": "From Old English 'brand' meaning 'burning piece of wood' — originally referred to marks burned onto cattle to show ownership.",
+      "mnemonic_vi": "BRAND = 'brand' — 'brand' đóng dấu lên hàng. Logo + tên = thương hiệu."
+    },
+    {
+      "word": "customer",
+      "lemma": "customer",
+      "ipa": "/ˈkʌstəmə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who buys goods or services from a shop or business",
+          "meaning_vi": "khách hàng",
+          "examples": [
+            {
+              "en": "The customer is always right.",
+              "vi": "Khách hàng luôn đúng."
+            },
+            {
+              "en": "Highlands Coffee has loyal customers all over Việt Nam.",
+              "vi": "Highlands Coffee có nhiều khách hàng trung thành khắp Việt Nam."
+            },
+            {
+              "en": "The shop offers free wrapping to customers during Tết.",
+              "vi": "Cửa hàng gói quà miễn phí cho khách hàng trong dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["client", "buyer", "shopper"],
+      "antonyms": ["seller", "vendor"],
+      "collocations": [
+        "regular customer",
+        "loyal customer",
+        "customer service",
+        "satisfy customers",
+        "potential customer"
+      ],
+      "etymology_hint": "From Anglo-French 'custumer' meaning 'one who follows a custom' — i.e. regularly does business with a particular seller.",
+      "mnemonic_vi": "CUSTOMER = CUSTOM + ER → người có 'thói quen' mua. Khách quen của tiệm."
+    },
+    {
+      "word": "afford",
+      "lemma": "afford",
+      "ipa": "/əˈfɔːd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to have enough money or time to do or buy something",
+          "meaning_vi": "đủ khả năng (mua, làm), kham nổi",
+          "examples": [
+            {
+              "en": "I can't afford an iPhone 15 right now.",
+              "vi": "Hiện tại tôi không đủ tiền mua iPhone 15."
+            },
+            {
+              "en": "Can you afford to take a week off work?",
+              "vi": "Bạn có đủ khả năng nghỉ làm một tuần không?"
+            },
+            {
+              "en": "Many students can't afford to live in Hà Nội city center.",
+              "vi": "Nhiều sinh viên không đủ tiền sống ở trung tâm Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["manage", "have means for"],
+      "antonyms": [],
+      "collocations": [
+        "can afford",
+        "can't afford",
+        "afford to buy",
+        "afford the time",
+        "barely afford"
+      ],
+      "etymology_hint": "From Old English 'geforðian' meaning 'to put forth, provide' — sense of 'have means to' developed in Middle English.",
+      "mnemonic_vi": "AFFORD = 'a-ford' — 'a, fọt' (đủ tiền). Can't afford = không kham nổi."
+    },
+    {
+      "word": "offer",
+      "lemma": "offer",
+      "ipa": "/ˈɒfə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a special deal where you can buy something cheaper or get something free",
+          "meaning_vi": "ưu đãi, lời chào giá",
+          "examples": [
+            {
+              "en": "There's a special offer at Big C this week — buy 2 get 1 free.",
+              "vi": "Có ưu đãi đặc biệt ở Big C tuần này — mua 2 tặng 1."
+            },
+            {
+              "en": "I made him an offer of 5 million for the bike.",
+              "vi": "Tôi đề nghị mua chiếc xe với giá 5 triệu."
+            },
+            {
+              "en": "This offer is valid until the end of the month.",
+              "vi": "Ưu đãi này có hiệu lực đến hết tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deal", "promotion", "proposal"],
+      "antonyms": [],
+      "collocations": [
+        "special offer",
+        "make an offer",
+        "accept an offer",
+        "best offer",
+        "limited offer"
+      ],
+      "etymology_hint": "From Latin 'offerre' meaning 'to bring before, present' — religious sense (offering) preceded commercial sense.",
+      "mnemonic_vi": "OFFER = 'op-phờ' — 'ọp phơ' tặng quà rẻ. Special offer = ưu đãi đặc biệt."
+    },
+    {
+      "word": "coupon",
+      "lemma": "coupon",
+      "ipa": "/ˈkuːpɒn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small piece of paper or code that allows you to buy something at a lower price or get something free",
+          "meaning_vi": "phiếu giảm giá, mã giảm giá",
+          "examples": [
+            {
+              "en": "Use this coupon for 30% off at GS25.",
+              "vi": "Dùng phiếu này để giảm 30% tại GS25."
+            },
+            {
+              "en": "I got a Grab coupon worth 50,000 VND.",
+              "vi": "Tôi được tặng mã Grab trị giá 50.000 đồng."
+            },
+            {
+              "en": "Don't forget to apply your coupon at checkout.",
+              "vi": "Đừng quên áp dụng mã giảm giá khi thanh toán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["voucher", "promo code"],
+      "antonyms": [],
+      "collocations": [
+        "discount coupon",
+        "use a coupon",
+        "apply a coupon",
+        "coupon code",
+        "expired coupon"
+      ],
+      "etymology_hint": "From French 'couper' meaning 'to cut' — original coupons were physically cut from sheets.",
+      "mnemonic_vi": "COUPON = 'cu-pon' — 'cụp' cắt ra dùng. Phiếu giảm giá, mã code."
+    },
+    {
+      "word": "stock",
+      "lemma": "stock",
+      "ipa": "/stɒk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the amount of a product that a shop has available to sell",
+          "meaning_vi": "hàng tồn, hàng còn (trong kho)",
+          "examples": [
+            {
+              "en": "Sorry, that size is out of stock.",
+              "vi": "Xin lỗi, size đó đã hết hàng."
+            },
+            {
+              "en": "We have a good stock of Tết hampers at MM Mega Market.",
+              "vi": "Chúng tôi có nhiều giỏ quà Tết tại MM Mega Market."
+            },
+            {
+              "en": "The new iPhone is back in stock.",
+              "vi": "iPhone mới đã có hàng trở lại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supply", "inventory"],
+      "antonyms": [],
+      "collocations": ["in stock", "out of stock", "in good stock", "stock up", "stock control"],
+      "etymology_hint": "From Old English 'stocc' meaning 'tree trunk, post' — commercial sense 'supply available' developed in 17th century.",
+      "mnemonic_vi": "STOCK = 'stók' — 'sờ tóc' đếm còn nhiêu. In stock = còn hàng, out of stock = hết."
+    },
+    {
+      "word": "deliver",
+      "lemma": "deliver",
+      "ipa": "/dɪˈlɪvə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to take goods to a person or place",
+          "meaning_vi": "giao (hàng), chuyển đến",
+          "examples": [
+            {
+              "en": "Shopee Express can deliver in 2 hours in Hà Nội.",
+              "vi": "Shopee Express có thể giao trong 2 giờ ở Hà Nội."
+            },
+            {
+              "en": "Please deliver this package to District 1.",
+              "vi": "Vui lòng giao gói hàng này đến Quận 1."
+            },
+            {
+              "en": "GrabFood delivers hot phở to your door.",
+              "vi": "GrabFood giao phở nóng đến tận cửa nhà bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bring", "send", "ship"],
+      "antonyms": ["collect", "pick up"],
+      "collocations": [
+        "deliver a package",
+        "deliver on time",
+        "deliver to your door",
+        "free delivery",
+        "deliver food"
+      ],
+      "etymology_hint": "From Old French 'délivrer' meaning 'to set free, hand over' — from Latin 'liberare'.",
+      "mnemonic_vi": "DELIVER = DE + LIVER → 'gan' (liver) đi giao? Nhớ: 'đi-li-vơ' giao tới tận nơi."
+    },
+    {
+      "word": "fit",
+      "lemma": "fit",
+      "ipa": "/fɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be the right size or shape for someone or something",
+          "meaning_vi": "vừa (size, kích cỡ)",
+          "examples": [
+            {
+              "en": "These jeans fit me perfectly.",
+              "vi": "Quần jeans này vừa với tôi quá."
+            },
+            {
+              "en": "The size M doesn't fit — can I try L?",
+              "vi": "Size M không vừa — tôi thử size L được không?"
+            },
+            {
+              "en": "These shoes won't fit in my suitcase.",
+              "vi": "Đôi giày này không vừa vali của tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suit"],
+      "antonyms": ["misfit"],
+      "collocations": ["fit perfectly", "fit well", "fit in", "fit into", "doesn't fit"],
+      "etymology_hint": "Middle English 'fitten' meaning 'to be suitable' — origin uncertain, possibly Old Norse.",
+      "mnemonic_vi": "FIT = 'phít' — mặc vào nghe 'phít' vừa khít. Doesn't fit = không vừa."
+    }
+  ]
+}

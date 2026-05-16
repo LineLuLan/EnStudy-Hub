@@ -1,0 +1,745 @@
+{
+  "slug": "email-communication",
+  "name": "Email & Communication",
+  "description": "Từ vựng A2 về email và giao tiếp công sở — reply, forward, attachment, inbox, subject và 15 từ khác.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "reply",
+      "lemma": "reply",
+      "ipa": "/rɪˈplaɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to answer someone, especially by email, message, or letter",
+          "meaning_vi": "trả lời, phản hồi",
+          "examples": [
+            {
+              "en": "Please reply to my email by Friday.",
+              "vi": "Vui lòng trả lời email của tôi trước thứ Sáu."
+            },
+            {
+              "en": "She replied to all the customer complaints quickly.",
+              "vi": "Cô ấy trả lời tất cả khiếu nại khách hàng nhanh chóng."
+            },
+            {
+              "en": "I haven't replied to my mum's Zalo message yet.",
+              "vi": "Tôi vẫn chưa trả lời tin nhắn Zalo của mẹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["respond", "answer"],
+      "antonyms": ["ignore"],
+      "collocations": ["reply to", "quick reply", "reply all", "no reply", "reply by email"],
+      "etymology_hint": "From Old French 'replier' meaning 'to fold back' — sense of 'answer' developed in Middle English.",
+      "mnemonic_vi": "REPLY = RE + PLY → 'gấp ngược lại'. Trả lại lời. Reply all = trả lời tất cả."
+    },
+    {
+      "word": "forward",
+      "lemma": "forward",
+      "ipa": "/ˈfɔːwəd/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to send a received message or email on to another person",
+          "meaning_vi": "chuyển tiếp (email, tin nhắn)",
+          "examples": [
+            {
+              "en": "Can you forward this email to the HR team?",
+              "vi": "Bạn chuyển tiếp email này đến phòng HR được không?"
+            },
+            {
+              "en": "I'll forward the meeting invite to my manager.",
+              "vi": "Tôi sẽ chuyển tiếp lời mời họp đến sếp."
+            },
+            {
+              "en": "She forwarded the funny meme to her whole team.",
+              "vi": "Cô ấy chuyển cái meme buồn cười cho cả team."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["send on", "pass on"],
+      "antonyms": [],
+      "collocations": [
+        "forward an email",
+        "forward to",
+        "look forward to",
+        "forward a message",
+        "kindly forward"
+      ],
+      "etymology_hint": "From Old English 'forweard' meaning 'toward the front' — sense of 'send on' developed in commercial English.",
+      "mnemonic_vi": "FORWARD = FOR + WARD → 'hướng về trước'. Đẩy email đi tới."
+    },
+    {
+      "word": "attach",
+      "lemma": "attach",
+      "ipa": "/əˈtætʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to add a file or document to an email",
+          "meaning_vi": "đính kèm (file vào email)",
+          "examples": [
+            {
+              "en": "Please attach your CV to the application email.",
+              "vi": "Vui lòng đính kèm CV vào email ứng tuyển."
+            },
+            {
+              "en": "I forgot to attach the report — sending again now.",
+              "vi": "Tôi quên đính kèm báo cáo — gửi lại ngay đây."
+            },
+            {
+              "en": "Attach a photo of your ID to verify your account.",
+              "vi": "Đính kèm ảnh CMND để xác minh tài khoản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enclose", "include"],
+      "antonyms": ["detach", "remove"],
+      "collocations": [
+        "attach a file",
+        "attach a document",
+        "please find attached",
+        "attach to",
+        "attach a photo"
+      ],
+      "etymology_hint": "From Old French 'atachier' meaning 'to fasten' — original sense of 'fasten with a stake'.",
+      "mnemonic_vi": "ATTACH = A + TACH → 'a, dính'. Đính file vào email."
+    },
+    {
+      "word": "attachment",
+      "lemma": "attachment",
+      "ipa": "/əˈtætʃmənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a file or document sent with an email",
+          "meaning_vi": "tệp đính kèm",
+          "examples": [
+            {
+              "en": "The attachment is too big to send via email.",
+              "vi": "Tệp đính kèm quá lớn để gửi qua email."
+            },
+            {
+              "en": "Don't open attachments from unknown senders.",
+              "vi": "Đừng mở tệp đính kèm từ người gửi lạ."
+            },
+            {
+              "en": "She sent the PDF as an attachment.",
+              "vi": "Cô ấy gửi file PDF dưới dạng tệp đính kèm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enclosure", "annex"],
+      "antonyms": [],
+      "collocations": [
+        "email attachment",
+        "open the attachment",
+        "send an attachment",
+        "see attachment",
+        "large attachment"
+      ],
+      "etymology_hint": "From 'attach' + '-ment' — modern computing sense developed in 1990s with email.",
+      "mnemonic_vi": "ATTACHMENT = ATTACH + MENT → 'cái được đính kèm'. File gửi cùng email."
+    },
+    {
+      "word": "subject",
+      "lemma": "subject",
+      "ipa": "/ˈsʌbdʒɪkt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the title or main topic of an email or message",
+          "meaning_vi": "tiêu đề (email), chủ đề",
+          "examples": [
+            {
+              "en": "What's the subject of your email?",
+              "vi": "Tiêu đề email của bạn là gì?"
+            },
+            {
+              "en": "Write a clear subject line so I know what it's about.",
+              "vi": "Viết tiêu đề rõ ràng để tôi biết về việc gì."
+            },
+            {
+              "en": "The subject of today's meeting is the new project.",
+              "vi": "Chủ đề cuộc họp hôm nay là dự án mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["topic", "title"],
+      "antonyms": [],
+      "collocations": [
+        "subject line",
+        "email subject",
+        "change the subject",
+        "subject matter",
+        "on the subject"
+      ],
+      "etymology_hint": "From Latin 'subjectus' meaning 'lying under' — sense of 'topic' developed in Middle English from grammatical use.",
+      "mnemonic_vi": "SUBJECT = SUB + JECT → 'ném xuống dưới'. Đặt ý chính ngay đầu email."
+    },
+    {
+      "word": "inbox",
+      "lemma": "inbox",
+      "ipa": "/ˈɪnbɒks/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the place in your email account where new messages arrive",
+          "meaning_vi": "hộp thư đến",
+          "examples": [
+            {
+              "en": "My inbox has 200 unread emails — I need to clean it up.",
+              "vi": "Hộp thư đến của tôi có 200 email chưa đọc — cần dọn dẹp."
+            },
+            {
+              "en": "Check your inbox for the confirmation email.",
+              "vi": "Kiểm tra hộp thư đến để nhận email xác nhận."
+            },
+            {
+              "en": "An empty inbox feels so satisfying!",
+              "vi": "Hộp thư trống cảm giác thoả mãn ghê!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mailbox"],
+      "antonyms": ["outbox"],
+      "collocations": [
+        "check your inbox",
+        "empty inbox",
+        "inbox zero",
+        "clean inbox",
+        "full inbox"
+      ],
+      "etymology_hint": "Compound of 'in' + 'box' — originally physical box for incoming mail in offices, adopted by email in 1980s.",
+      "mnemonic_vi": "INBOX = IN + BOX → 'hộp vào'. Email đến nằm trong inbox."
+    },
+    {
+      "word": "spam",
+      "lemma": "spam",
+      "ipa": "/spæm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "unwanted emails or messages sent to many people, usually advertising",
+          "meaning_vi": "thư rác, tin nhắn rác",
+          "examples": [
+            {
+              "en": "Move this email to the spam folder.",
+              "vi": "Chuyển email này vào thư mục spam."
+            },
+            {
+              "en": "I get so much spam about crypto every day.",
+              "vi": "Tôi nhận quá nhiều spam về crypto mỗi ngày."
+            },
+            {
+              "en": "Gmail filters spam automatically.",
+              "vi": "Gmail tự động lọc thư rác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["junk mail"],
+      "antonyms": [],
+      "collocations": ["spam folder", "spam email", "block spam", "filter spam", "mark as spam"],
+      "etymology_hint": "From a Monty Python comedy sketch — became internet slang in 1990s for unwanted bulk messages.",
+      "mnemonic_vi": "SPAM = 'spam' — như thịt hộp Spam ai cũng có nhưng không ai cần. Email rác."
+    },
+    {
+      "word": "draft",
+      "lemma": "draft",
+      "ipa": "/drɑːft/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a first version of an email or document that you may change later",
+          "meaning_vi": "bản nháp",
+          "examples": [
+            {
+              "en": "I saved the email as a draft to send tomorrow.",
+              "vi": "Tôi lưu email dưới dạng bản nháp để mai gửi."
+            },
+            {
+              "en": "Can you read the first draft of my essay?",
+              "vi": "Bạn đọc bản nháp đầu tiên bài luận của tôi nhé?"
+            },
+            {
+              "en": "The contract is still in draft form.",
+              "vi": "Hợp đồng vẫn đang ở dạng bản nháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rough copy", "outline"],
+      "antonyms": ["final version"],
+      "collocations": ["first draft", "rough draft", "save as draft", "draft email", "final draft"],
+      "etymology_hint": "From Middle English 'draught' meaning 'a drawing or pulling' — sense of 'preliminary sketch' developed in 16th century.",
+      "mnemonic_vi": "DRAFT = 'drápt' — 'đờ ráp' chưa hoàn thiện. Bản nháp viết tay rồi sửa."
+    },
+    {
+      "word": "recipient",
+      "lemma": "recipient",
+      "ipa": "/rɪˈsɪpiənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who receives something, especially an email or letter",
+          "meaning_vi": "người nhận",
+          "examples": [
+            {
+              "en": "Make sure the recipient's email address is correct.",
+              "vi": "Đảm bảo địa chỉ email người nhận đúng."
+            },
+            {
+              "en": "She was the recipient of the best employee award.",
+              "vi": "Cô ấy là người nhận giải nhân viên xuất sắc."
+            },
+            {
+              "en": "Add multiple recipients in the CC field.",
+              "vi": "Thêm nhiều người nhận vào ô CC."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["receiver", "addressee"],
+      "antonyms": ["sender"],
+      "collocations": [
+        "email recipient",
+        "intended recipient",
+        "multiple recipients",
+        "award recipient",
+        "recipient list"
+      ],
+      "etymology_hint": "From Latin 'recipiens' meaning 'receiving' — present participle of 'recipere' (to receive).",
+      "mnemonic_vi": "RECIPIENT = RECIPI + ENT → người 'reception' (lễ tân) nhận. Người nhận email."
+    },
+    {
+      "word": "urgent",
+      "lemma": "urgent",
+      "ipa": "/ˈɜːdʒənt/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "needing immediate attention or action",
+          "meaning_vi": "khẩn cấp, gấp",
+          "examples": [
+            {
+              "en": "This is an urgent email — please reply ASAP.",
+              "vi": "Đây là email khẩn — vui lòng trả lời gấp."
+            },
+            {
+              "en": "I have an urgent meeting in 5 minutes.",
+              "vi": "Tôi có cuộc họp gấp trong 5 phút nữa."
+            },
+            {
+              "en": "Mark the message as urgent if it's important.",
+              "vi": "Đánh dấu tin nhắn là urgent nếu quan trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pressing", "critical"],
+      "antonyms": ["unimportant", "trivial"],
+      "collocations": [
+        "urgent matter",
+        "urgent message",
+        "extremely urgent",
+        "urgent need",
+        "mark as urgent"
+      ],
+      "etymology_hint": "From Latin 'urgens' meaning 'pressing, driving' — from 'urgere' (to press, push).",
+      "mnemonic_vi": "URGENT = 'ơ-dợnt' — 'ơ, gấp' cần làm ngay. Urgent ! = đỏ rực."
+    },
+    {
+      "word": "signature",
+      "lemma": "signature",
+      "ipa": "/ˈsɪɡnətʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "your name written by yourself, or the contact info added at the end of emails",
+          "meaning_vi": "chữ ký, phần ký cuối email",
+          "examples": [
+            {
+              "en": "I need your signature on this contract.",
+              "vi": "Tôi cần chữ ký của bạn trên hợp đồng này."
+            },
+            {
+              "en": "Set up your email signature with your phone and title.",
+              "vi": "Tạo chữ ký email với số điện thoại và chức danh."
+            },
+            {
+              "en": "Her signature is beautiful and elegant.",
+              "vi": "Chữ ký của cô ấy đẹp và sang trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["autograph"],
+      "antonyms": [],
+      "collocations": [
+        "email signature",
+        "sign your signature",
+        "digital signature",
+        "signature required",
+        "set up signature"
+      ],
+      "etymology_hint": "From Latin 'signare' meaning 'to mark with a sign' — from 'signum' (sign, mark).",
+      "mnemonic_vi": "SIGNATURE = SIGN + NATURE → 'dấu thiên nhiên' của bạn. Mỗi người 1 chữ ký riêng."
+    },
+    {
+      "word": "sincerely",
+      "lemma": "sincerely",
+      "ipa": "/sɪnˈsɪəli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in a way that is honest and from your heart; used to end formal emails",
+          "meaning_vi": "trân trọng, chân thành (dùng kết email trang trọng)",
+          "examples": [
+            {
+              "en": "Yours sincerely, Nguyễn Văn A.",
+              "vi": "Trân trọng, Nguyễn Văn A."
+            },
+            {
+              "en": "I sincerely apologize for the delay.",
+              "vi": "Tôi chân thành xin lỗi vì sự chậm trễ."
+            },
+            {
+              "en": "She sincerely hopes you get the job.",
+              "vi": "Cô ấy chân thành hy vọng bạn được nhận việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["honestly", "genuinely"],
+      "antonyms": ["insincerely"],
+      "collocations": [
+        "yours sincerely",
+        "sincerely apologize",
+        "sincerely hope",
+        "sincerely thank",
+        "speak sincerely"
+      ],
+      "etymology_hint": "From Latin 'sincerus' meaning 'pure, clean' — possibly from 'sine cera' (without wax, i.e. unpatched).",
+      "mnemonic_vi": "SINCERELY = 'sin-sia-li' — 'xin-xin lưu' chân thành. Yours sincerely = trân trọng."
+    },
+    {
+      "word": "regards",
+      "lemma": "regards",
+      "ipa": "/rɪˈɡɑːdz/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "good wishes — used to end semi-formal emails or messages",
+          "meaning_vi": "lời chào kính trọng (kết email)",
+          "examples": [
+            {
+              "en": "Best regards, Mai.",
+              "vi": "Trân trọng, Mai."
+            },
+            {
+              "en": "Give my regards to your family.",
+              "vi": "Cho tôi gửi lời thăm gia đình bạn."
+            },
+            {
+              "en": "Kind regards from everyone in the Hà Nội office.",
+              "vi": "Lời chào trân trọng từ tất cả văn phòng Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["greetings", "best wishes"],
+      "antonyms": [],
+      "collocations": [
+        "best regards",
+        "kind regards",
+        "warm regards",
+        "give my regards",
+        "with regards to"
+      ],
+      "etymology_hint": "From Old French 'regarder' meaning 'to look at, consider' — sense of 'esteem, respect' developed in Middle English.",
+      "mnemonic_vi": "REGARDS = RE + GARDS → 're-guard' (giữ trong lòng). Best regards = trân trọng."
+    },
+    {
+      "word": "delete",
+      "lemma": "delete",
+      "ipa": "/dɪˈliːt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to remove something, especially from a computer or email account",
+          "meaning_vi": "xóa, hủy bỏ",
+          "examples": [
+            {
+              "en": "I deleted all the old emails to free up space.",
+              "vi": "Tôi xóa hết email cũ để giải phóng dung lượng."
+            },
+            {
+              "en": "Please delete this message and don't reply.",
+              "vi": "Vui lòng xóa tin nhắn này và đừng trả lời."
+            },
+            {
+              "en": "She accidentally deleted her draft.",
+              "vi": "Cô ấy lỡ tay xóa bản nháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["remove", "erase"],
+      "antonyms": ["add", "insert", "restore"],
+      "collocations": [
+        "delete a file",
+        "delete an email",
+        "permanently delete",
+        "delete account",
+        "delete by mistake"
+      ],
+      "etymology_hint": "From Latin 'deletus' meaning 'destroyed, wiped out' — past participle of 'delere' (to destroy).",
+      "mnemonic_vi": "DELETE = 'đi-lít' — 'đi-líp' nhấn nút xóa. Bỏ qua, bay vào sọt rác."
+    },
+    {
+      "word": "chat",
+      "lemma": "chat",
+      "ipa": "/tʃæt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to talk in a friendly, informal way, especially online",
+          "meaning_vi": "trò chuyện, chat (đặc biệt online)",
+          "examples": [
+            {
+              "en": "We chatted on Zalo for an hour last night.",
+              "vi": "Chúng tôi chat trên Zalo cả tiếng tối qua."
+            },
+            {
+              "en": "I love chatting with my cousin in Đà Nẵng.",
+              "vi": "Tôi thích chat với chị họ ở Đà Nẵng."
+            },
+            {
+              "en": "Let's chat over coffee tomorrow.",
+              "vi": "Mai mình chat tâm sự bên ly cà phê nhé."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talk", "converse"],
+      "antonyms": [],
+      "collocations": ["chat with", "have a chat", "online chat", "chat room", "chat about"],
+      "etymology_hint": "Shortening of Middle English 'chatter' meaning 'to talk rapidly' — imitative of bird sounds.",
+      "mnemonic_vi": "CHAT = 'chát' — 'chát chát' tay đánh phím. Chat = nói chuyện online."
+    },
+    {
+      "word": "message",
+      "lemma": "message",
+      "ipa": "/ˈmesɪdʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a written or spoken piece of information sent from one person to another",
+          "meaning_vi": "tin nhắn, thông điệp",
+          "examples": [
+            {
+              "en": "I sent you a message on Messenger.",
+              "vi": "Tôi đã gửi tin nhắn cho bạn trên Messenger."
+            },
+            {
+              "en": "Did you get my voice message?",
+              "vi": "Bạn nhận được tin nhắn thoại của tôi chưa?"
+            },
+            {
+              "en": "Leave a message after the beep.",
+              "vi": "Để lại tin nhắn sau tiếng bíp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["note", "text"],
+      "antonyms": [],
+      "collocations": [
+        "send a message",
+        "leave a message",
+        "text message",
+        "voice message",
+        "get the message"
+      ],
+      "etymology_hint": "From Old French 'message' meaning 'communication sent' — from Vulgar Latin 'missaticum' (something sent).",
+      "mnemonic_vi": "MESSAGE = MESS + AGE → thời 'mess'. Tin nhắn lộn xộn từ bao người."
+    },
+    {
+      "word": "sender",
+      "lemma": "sender",
+      "ipa": "/ˈsendə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the person who sends an email, message, or package",
+          "meaning_vi": "người gửi",
+          "examples": [
+            {
+              "en": "Always check the sender's address before opening.",
+              "vi": "Luôn kiểm tra địa chỉ người gửi trước khi mở."
+            },
+            {
+              "en": "The package was returned to sender.",
+              "vi": "Gói hàng đã được trả lại người gửi."
+            },
+            {
+              "en": "Don't reply if the sender looks suspicious.",
+              "vi": "Đừng trả lời nếu người gửi trông đáng ngờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["recipient", "receiver"],
+      "collocations": [
+        "email sender",
+        "return to sender",
+        "unknown sender",
+        "sender address",
+        "block sender"
+      ],
+      "etymology_hint": "From Old English 'sendan' (to send) + '-er' agent suffix.",
+      "mnemonic_vi": "SENDER = SEND + ER → người 'send'. Đầu kia của recipient."
+    },
+    {
+      "word": "request",
+      "lemma": "request",
+      "ipa": "/rɪˈkwest/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the act of asking for something, often politely or formally",
+          "meaning_vi": "yêu cầu, lời đề nghị",
+          "examples": [
+            {
+              "en": "I have a small request — can you cc me on that email?",
+              "vi": "Tôi có yêu cầu nhỏ — bạn cc tôi vào email đó nhé?"
+            },
+            {
+              "en": "Your request for time off has been approved.",
+              "vi": "Yêu cầu nghỉ phép của bạn đã được duyệt."
+            },
+            {
+              "en": "Please make your request in writing.",
+              "vi": "Vui lòng gửi yêu cầu bằng văn bản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["appeal", "petition"],
+      "antonyms": [],
+      "collocations": [
+        "make a request",
+        "polite request",
+        "by request",
+        "request for",
+        "fulfill a request"
+      ],
+      "etymology_hint": "From Old French 'requeste' meaning 'a request, demand' — from Latin 'requirere' (to seek out).",
+      "mnemonic_vi": "REQUEST = RE + QUEST → 'tìm lại'. Yêu cầu cái mình cần."
+    },
+    {
+      "word": "confirm",
+      "lemma": "confirm",
+      "ipa": "/kənˈfɜːm/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to say or show that something is true or definite",
+          "meaning_vi": "xác nhận",
+          "examples": [
+            {
+              "en": "Please confirm your attendance by Thursday.",
+              "vi": "Vui lòng xác nhận tham dự trước thứ Năm."
+            },
+            {
+              "en": "The hotel confirmed my booking by email.",
+              "vi": "Khách sạn đã xác nhận đặt phòng qua email."
+            },
+            {
+              "en": "Can you confirm the meeting room number?",
+              "vi": "Bạn xác nhận giúp số phòng họp được không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["verify", "validate"],
+      "antonyms": ["deny", "cancel"],
+      "collocations": [
+        "confirm booking",
+        "confirm attendance",
+        "please confirm",
+        "confirm receipt",
+        "confirm by email"
+      ],
+      "etymology_hint": "From Latin 'confirmare' meaning 'to make firm' — from 'con-' (with) + 'firmus' (strong).",
+      "mnemonic_vi": "CONFIRM = CON + FIRM → 'cùng chắc'. Xác nhận cho chắc."
+    },
+    {
+      "word": "link",
+      "lemma": "link",
+      "ipa": "/lɪŋk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a clickable address that takes you to a webpage or file online",
+          "meaning_vi": "đường dẫn, liên kết",
+          "examples": [
+            {
+              "en": "Click this link to download the file.",
+              "vi": "Nhấn vào link này để tải file."
+            },
+            {
+              "en": "I sent you a link to my LinkedIn profile.",
+              "vi": "Tôi đã gửi bạn link đến hồ sơ LinkedIn của tôi."
+            },
+            {
+              "en": "Don't click suspicious links in emails.",
+              "vi": "Đừng nhấn vào link đáng ngờ trong email."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["URL", "hyperlink"],
+      "antonyms": [],
+      "collocations": [
+        "click the link",
+        "send a link",
+        "broken link",
+        "share a link",
+        "useful link"
+      ],
+      "etymology_hint": "From Old Norse 'hlekkr' meaning 'chain link' — modern web sense from 'hyperlink' coined by Ted Nelson in 1965.",
+      "mnemonic_vi": "LINK = 'lin-k' — 'lính' nối hai đầu. Đường dẫn web."
+    }
+  ]
+}
