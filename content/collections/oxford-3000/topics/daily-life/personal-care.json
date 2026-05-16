@@ -1,0 +1,751 @@
+{
+  "slug": "personal-care",
+  "name": "Personal Care",
+  "description": "Vệ sinh và chăm sóc cá nhân A2 — toothpaste, shampoo, lotion, makeup, sunscreen và 15 từ về personal items.",
+  "order_index": 14,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "toothpaste",
+      "lemma": "toothpaste",
+      "ipa": "/ˈtuːθpeɪst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance you use to clean your teeth with a brush",
+          "meaning_vi": "kem đánh răng",
+          "examples": [
+            {
+              "en": "P/S and Colgate are popular toothpaste brands in Việt Nam.",
+              "vi": "P/S và Colgate là các thương hiệu kem đánh răng phổ biến ở Việt Nam."
+            },
+            {
+              "en": "Use only a pea-sized amount of toothpaste.",
+              "vi": "Chỉ dùng lượng kem đánh răng bằng hạt đậu."
+            },
+            {
+              "en": "We're out of toothpaste — buy some at WinMart.",
+              "vi": "Chúng ta hết kem đánh răng — mua ở WinMart đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "tube of toothpaste",
+        "use toothpaste",
+        "whitening toothpaste",
+        "out of toothpaste",
+        "fresh toothpaste"
+      ],
+      "etymology_hint": "Compound of 'tooth' + 'paste' — coined in late 19th century when modern toothpaste tubes were invented.",
+      "mnemonic_vi": "TOOTHPASTE = TOOTH + PASTE → 'bột nhão răng'. P/S = kem đánh răng VN."
+    },
+    {
+      "word": "shampoo",
+      "lemma": "shampoo",
+      "ipa": "/ʃæmˈpuː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a liquid soap that you use to wash your hair",
+          "meaning_vi": "dầu gội đầu",
+          "examples": [
+            {
+              "en": "Sunsilk shampoo smells like Vietnamese flowers.",
+              "vi": "Dầu gội Sunsilk thơm như hoa Việt Nam."
+            },
+            {
+              "en": "Apply shampoo and massage your scalp.",
+              "vi": "Thoa dầu gội và massage da đầu."
+            },
+            {
+              "en": "This shampoo is good for oily hair.",
+              "vi": "Dầu gội này tốt cho tóc dầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "use shampoo",
+        "wash with shampoo",
+        "natural shampoo",
+        "bottle of shampoo",
+        "shampoo and conditioner"
+      ],
+      "etymology_hint": "From Hindi 'champi' meaning 'head massage' — brought to English by Bengali entrepreneur Sake Dean Mahomed in 18th century.",
+      "mnemonic_vi": "SHAMPOO = 'sam-pu' — 'sờ ma-pu' bọt đầu. Sham = hindi massage."
+    },
+    {
+      "word": "conditioner",
+      "lemma": "conditioner",
+      "ipa": "/kənˈdɪʃənə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a liquid put on hair after shampoo to make it soft and smooth",
+          "meaning_vi": "dầu xả tóc",
+          "examples": [
+            {
+              "en": "Use conditioner after shampoo for soft hair.",
+              "vi": "Dùng dầu xả sau dầu gội để tóc mềm."
+            },
+            {
+              "en": "Leave the conditioner on for 3 minutes.",
+              "vi": "Để dầu xả 3 phút trên tóc."
+            },
+            {
+              "en": "Air conditioner is different from hair conditioner!",
+              "vi": "Air conditioner (máy lạnh) khác hair conditioner (dầu xả) đấy!"
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "hair conditioner",
+        "leave-in conditioner",
+        "shampoo and conditioner",
+        "apply conditioner",
+        "natural conditioner"
+      ],
+      "etymology_hint": "From 'condition' + '-er' — sense of 'hair treatment' developed in 1940s.",
+      "mnemonic_vi": "CONDITIONER = CONDITION + ER → 'làm cho điều kiện tốt'. Dầu xả mềm tóc."
+    },
+    {
+      "word": "lotion",
+      "lemma": "lotion",
+      "ipa": "/ˈləʊʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a thick liquid that you put on your skin to keep it soft",
+          "meaning_vi": "kem dưỡng (da, tay, body)",
+          "examples": [
+            {
+              "en": "Apply body lotion after the shower.",
+              "vi": "Thoa kem dưỡng body sau khi tắm."
+            },
+            {
+              "en": "Hand lotion is necessary in dry weather.",
+              "vi": "Kem dưỡng tay cần thiết trong thời tiết hanh khô."
+            },
+            {
+              "en": "She uses Vaseline lotion every night.",
+              "vi": "Cô ấy dùng Vaseline lotion mỗi tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cream", "moisturizer"],
+      "antonyms": [],
+      "collocations": [
+        "body lotion",
+        "hand lotion",
+        "apply lotion",
+        "face lotion",
+        "scented lotion"
+      ],
+      "etymology_hint": "From Latin 'lotio' meaning 'a washing' — from 'lavere' (to wash); originally medicinal washes.",
+      "mnemonic_vi": "LOTION = 'lô-shờn' — 'lông-sờn' xoa da. Body lotion = kem body."
+    },
+    {
+      "word": "deodorant",
+      "lemma": "deodorant",
+      "ipa": "/diˈəʊdərənt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance used on your body to prevent bad smells",
+          "meaning_vi": "lăn khử mùi",
+          "examples": [
+            {
+              "en": "Wear deodorant in hot Vietnamese weather.",
+              "vi": "Dùng khử mùi trong thời tiết nóng Việt Nam."
+            },
+            {
+              "en": "She prefers natural deodorant without aluminum.",
+              "vi": "Cô ấy thích khử mùi tự nhiên không nhôm."
+            },
+            {
+              "en": "Pack deodorant for your trip to Đà Nẵng.",
+              "vi": "Mang theo lăn khử mùi cho chuyến đi Đà Nẵng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["antiperspirant"],
+      "antonyms": [],
+      "collocations": [
+        "wear deodorant",
+        "apply deodorant",
+        "roll-on deodorant",
+        "spray deodorant",
+        "natural deodorant"
+      ],
+      "etymology_hint": "From 'de-' (remove) + 'odorant' (smell) — coined in 19th century from Latin 'odor' (smell).",
+      "mnemonic_vi": "DEODORANT = DE + ODOR → 'khử mùi'. ODOR = mùi. Lăn nách."
+    },
+    {
+      "word": "comb",
+      "lemma": "comb",
+      "ipa": "/kəʊm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a tool with teeth used to make your hair tidy",
+          "meaning_vi": "cái lược",
+          "examples": [
+            {
+              "en": "Use a wide-tooth comb for curly hair.",
+              "vi": "Dùng lược răng to cho tóc xoăn."
+            },
+            {
+              "en": "I lost my comb in the bathroom.",
+              "vi": "Tôi mất cái lược trong nhà tắm."
+            },
+            {
+              "en": "She combs her hair 100 times before bed.",
+              "vi": "Cô ấy chải tóc 100 lần trước khi ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hair brush"],
+      "antonyms": [],
+      "collocations": [
+        "use a comb",
+        "wide-tooth comb",
+        "fine comb",
+        "comb your hair",
+        "plastic comb"
+      ],
+      "etymology_hint": "From Old English 'camb' — Germanic root, related to German 'Kamm'.",
+      "mnemonic_vi": "COMB = 'cô-um' — 'b' câm. Comb = lược chải tóc."
+    },
+    {
+      "word": "makeup",
+      "lemma": "makeup",
+      "ipa": "/ˈmeɪkʌp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "powder, cream, or paint used on the face to make it look more attractive",
+          "meaning_vi": "đồ trang điểm, makeup",
+          "examples": [
+            {
+              "en": "She wears light makeup to the office.",
+              "vi": "Cô ấy makeup nhẹ đi làm."
+            },
+            {
+              "en": "Vietnamese brides spend hours on wedding makeup.",
+              "vi": "Cô dâu Việt mất nhiều giờ trang điểm cưới."
+            },
+            {
+              "en": "He doesn't like girls who wear too much makeup.",
+              "vi": "Anh ấy không thích con gái trang điểm quá đậm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cosmetics"],
+      "antonyms": [],
+      "collocations": [
+        "wear makeup",
+        "put on makeup",
+        "remove makeup",
+        "heavy makeup",
+        "light makeup"
+      ],
+      "etymology_hint": "Compound of 'make' + 'up' — sense of 'cosmetic preparation' from 19th century theatrical use.",
+      "mnemonic_vi": "MAKEUP = MAKE + UP → 'làm cho đẹp lên'. Trang điểm."
+    },
+    {
+      "word": "perfume",
+      "lemma": "perfume",
+      "ipa": "/ˈpɜːfjuːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a liquid with a pleasant smell that you put on your skin or clothes",
+          "meaning_vi": "nước hoa",
+          "examples": [
+            {
+              "en": "She wore French perfume to the wedding.",
+              "vi": "Cô ấy dùng nước hoa Pháp đến đám cưới."
+            },
+            {
+              "en": "His perfume smells like ocean breeze.",
+              "vi": "Nước hoa anh ấy thơm như gió biển."
+            },
+            {
+              "en": "Don't put perfume directly on your clothes.",
+              "vi": "Đừng xịt nước hoa thẳng vào quần áo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cologne", "fragrance"],
+      "antonyms": [],
+      "collocations": [
+        "wear perfume",
+        "apply perfume",
+        "bottle of perfume",
+        "French perfume",
+        "expensive perfume"
+      ],
+      "etymology_hint": "From Latin 'per' (through) + 'fumare' (to smoke) — originally referred to incense smoke used to scent rooms.",
+      "mnemonic_vi": "PERFUME = PER + FUME → 'khói thơm xuyên qua'. Nước hoa."
+    },
+    {
+      "word": "razor",
+      "lemma": "razor",
+      "ipa": "/ˈreɪzə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a sharp blade used for shaving hair from your skin",
+          "meaning_vi": "dao cạo (râu, lông)",
+          "examples": [
+            {
+              "en": "He shaves with an electric razor every morning.",
+              "vi": "Anh ấy cạo râu bằng dao điện mỗi sáng."
+            },
+            {
+              "en": "Be careful — that razor is very sharp.",
+              "vi": "Cẩn thận — dao cạo đó rất sắc."
+            },
+            {
+              "en": "Gillette razors are popular in Việt Nam.",
+              "vi": "Dao cạo Gillette phổ biến ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shaver"],
+      "antonyms": [],
+      "collocations": [
+        "electric razor",
+        "disposable razor",
+        "sharp razor",
+        "use a razor",
+        "razor blade"
+      ],
+      "etymology_hint": "From Old French 'rasor' meaning 'a scraper' — from Latin 'radere' (to scrape, shave).",
+      "mnemonic_vi": "RAZOR = 'rê-zơ' — 'rế dao' sắc. Electric razor = dao điện."
+    },
+    {
+      "word": "toothbrush",
+      "lemma": "toothbrush",
+      "ipa": "/ˈtuːθbrʌʃ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small brush used for cleaning your teeth",
+          "meaning_vi": "bàn chải đánh răng",
+          "examples": [
+            {
+              "en": "Change your toothbrush every 3 months.",
+              "vi": "Đổi bàn chải đánh răng mỗi 3 tháng."
+            },
+            {
+              "en": "I forgot my toothbrush at the hotel.",
+              "vi": "Tôi để quên bàn chải ở khách sạn."
+            },
+            {
+              "en": "Electric toothbrushes clean better.",
+              "vi": "Bàn chải điện đánh sạch hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "electric toothbrush",
+        "soft toothbrush",
+        "new toothbrush",
+        "use a toothbrush",
+        "toothbrush holder"
+      ],
+      "etymology_hint": "Compound of 'tooth' + 'brush' — invented in China in 1498 with hog hair, modernized with nylon in 1938.",
+      "mnemonic_vi": "TOOTHBRUSH = TOOTH + BRUSH → 'chải răng'. Đi đôi với toothpaste."
+    },
+    {
+      "word": "soap",
+      "lemma": "soap",
+      "ipa": "/səʊp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance used with water for washing your body or things",
+          "meaning_vi": "xà phòng, xà bông",
+          "examples": [
+            {
+              "en": "Wash your hands with soap to prevent flu.",
+              "vi": "Rửa tay với xà phòng để tránh cúm."
+            },
+            {
+              "en": "Lifebuoy soap is very common in Việt Nam.",
+              "vi": "Xà phòng Lifebuoy rất phổ biến ở Việt Nam."
+            },
+            {
+              "en": "Don't get soap in your eyes!",
+              "vi": "Đừng để xà phòng vào mắt!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["detergent"],
+      "antonyms": [],
+      "collocations": [
+        "bar of soap",
+        "liquid soap",
+        "hand soap",
+        "wash with soap",
+        "soap and water"
+      ],
+      "etymology_hint": "From Old English 'sāpe' — Germanic root, possibly from Latin 'sapo' (originally used by Gauls for hair-dyeing).",
+      "mnemonic_vi": "SOAP = 'sốp' — 'xốp' nổi bọt. Bar of soap = cục xà phòng."
+    },
+    {
+      "word": "nail",
+      "lemma": "nail",
+      "ipa": "/neɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the hard covering at the end of your fingers and toes",
+          "meaning_vi": "móng (tay, chân)",
+          "examples": [
+            {
+              "en": "Cut your nails before the interview.",
+              "vi": "Cắt móng tay trước phỏng vấn."
+            },
+            {
+              "en": "Vietnamese nail salons are famous worldwide.",
+              "vi": "Tiệm nail người Việt nổi tiếng toàn cầu."
+            },
+            {
+              "en": "She paints her nails red for Tết.",
+              "vi": "Cô ấy sơn móng đỏ dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["cut your nails", "nail polish", "nail salon", "long nails", "paint nails"],
+      "etymology_hint": "From Old English 'nægl' — Germanic root for both 'fingernail' and 'metal nail', sharing 'hard pointed thing'.",
+      "mnemonic_vi": "NAIL = 'nêu' — 'nêu' cứng đầu ngón tay. Nail salon = tiệm nail."
+    },
+    {
+      "word": "cream",
+      "lemma": "cream",
+      "ipa": "/kriːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a thick smooth substance you put on your skin to keep it healthy",
+          "meaning_vi": "kem (bôi da, dưỡng da)",
+          "examples": [
+            {
+              "en": "Apply face cream every morning and night.",
+              "vi": "Bôi kem mặt sáng và tối."
+            },
+            {
+              "en": "Use cream on dry hands during winter.",
+              "vi": "Dùng kem tay khi tay khô mùa đông."
+            },
+            {
+              "en": "She bought eye cream at Watsons.",
+              "vi": "Cô ấy mua kem mắt ở Watsons."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lotion", "ointment"],
+      "antonyms": [],
+      "collocations": [
+        "face cream",
+        "hand cream",
+        "eye cream",
+        "apply cream",
+        "moisturizing cream"
+      ],
+      "etymology_hint": "From Old French 'cresme' meaning 'cream of milk' — applied to thick cosmetic preparations resembling cream.",
+      "mnemonic_vi": "CREAM = 'crim' — 'krem' kem. Face cream = kem mặt."
+    },
+    {
+      "word": "spray",
+      "lemma": "spray",
+      "ipa": "/spreɪ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "liquid that comes out of a container as tiny drops",
+          "meaning_vi": "bình xịt, dạng xịt",
+          "examples": [
+            {
+              "en": "Use mosquito spray before sleeping.",
+              "vi": "Dùng bình xịt muỗi trước khi ngủ."
+            },
+            {
+              "en": "Hair spray keeps her style all day.",
+              "vi": "Keo xịt tóc giữ kiểu cô ấy cả ngày."
+            },
+            {
+              "en": "Body spray is lighter than perfume.",
+              "vi": "Xịt body nhẹ hơn nước hoa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["hair spray", "body spray", "spray bottle", "use spray", "spray on"],
+      "etymology_hint": "From Middle Dutch 'spraeyen' meaning 'to sprinkle' — sense of spray bottle developed in early 20th century.",
+      "mnemonic_vi": "SPRAY = 'sprê' — 'sphế' xịt. Spray on = xịt lên."
+    },
+    {
+      "word": "tissue",
+      "lemma": "tissue",
+      "ipa": "/ˈtɪʃuː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "soft paper used for blowing your nose or cleaning",
+          "meaning_vi": "khăn giấy",
+          "examples": [
+            {
+              "en": "Pass me a tissue, please.",
+              "vi": "Đưa cho tôi tờ khăn giấy."
+            },
+            {
+              "en": "Vietnamese restaurants put tissue on every table.",
+              "vi": "Quán ăn Việt để khăn giấy mỗi bàn."
+            },
+            {
+              "en": "She cried so much she used the whole tissue box.",
+              "vi": "Cô ấy khóc nhiều đến hết cả hộp giấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["paper towel"],
+      "antonyms": [],
+      "collocations": [
+        "tissue paper",
+        "box of tissues",
+        "facial tissue",
+        "wet tissue",
+        "soft tissue"
+      ],
+      "etymology_hint": "From Old French 'tissu' meaning 'woven cloth' — sense of 'soft paper' developed from thin fabric appearance.",
+      "mnemonic_vi": "TISSUE = 'tí-shu' — 'tỉ-su' mềm mại. Box of tissues = hộp khăn giấy."
+    },
+    {
+      "word": "cotton",
+      "lemma": "cotton",
+      "ipa": "/ˈkɒtn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "soft fluffy material from a plant, used in pads or to make clothes",
+          "meaning_vi": "bông (gòn, vải)",
+          "examples": [
+            {
+              "en": "Use cotton balls to remove makeup.",
+              "vi": "Dùng bông tẩy trang."
+            },
+            {
+              "en": "Cotton T-shirts are best for Sài Gòn heat.",
+              "vi": "Áo cotton tốt nhất cho nắng Sài Gòn."
+            },
+            {
+              "en": "Apply alcohol with a cotton pad.",
+              "vi": "Thoa cồn bằng bông gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["synthetic"],
+      "collocations": ["cotton ball", "cotton pad", "cotton swab", "100% cotton", "soft cotton"],
+      "etymology_hint": "From Arabic 'qutn' meaning 'cotton plant' — came to Europe via Italian 'cotone' during medieval trade.",
+      "mnemonic_vi": "COTTON = 'cốt-tơn' — 'cốt' sợi mềm. Cotton ball = bông gòn."
+    },
+    {
+      "word": "lipstick",
+      "lemma": "lipstick",
+      "ipa": "/ˈlɪpstɪk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "coloured paste in a small tube, used on lips",
+          "meaning_vi": "son môi",
+          "examples": [
+            {
+              "en": "Red lipstick looks great on Vietnamese skin.",
+              "vi": "Son đỏ hợp với da Việt."
+            },
+            {
+              "en": "She owns 30 lipsticks in different colours.",
+              "vi": "Cô ấy có 30 thỏi son đủ màu."
+            },
+            {
+              "en": "Don't forget to reapply lipstick after eating.",
+              "vi": "Đừng quên tô lại son sau khi ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "red lipstick",
+        "matte lipstick",
+        "apply lipstick",
+        "wear lipstick",
+        "favorite lipstick"
+      ],
+      "etymology_hint": "Compound of 'lip' + 'stick' — coined in early 20th century when modern tube design appeared (1915).",
+      "mnemonic_vi": "LIPSTICK = LIP + STICK → 'que cho môi'. Son đỏ = red lipstick."
+    },
+    {
+      "word": "sunscreen",
+      "lemma": "sunscreen",
+      "ipa": "/ˈsʌnskriːn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a cream that protects your skin from the sun's harmful rays",
+          "meaning_vi": "kem chống nắng",
+          "examples": [
+            {
+              "en": "Wear sunscreen SPF 50 in tropical Việt Nam.",
+              "vi": "Dùng kem chống nắng SPF 50 ở Việt Nam nhiệt đới."
+            },
+            {
+              "en": "Reapply sunscreen every 2 hours at the beach.",
+              "vi": "Bôi lại kem chống nắng mỗi 2 giờ ở biển."
+            },
+            {
+              "en": "Anessa is a popular sunscreen brand in Asia.",
+              "vi": "Anessa là thương hiệu kem chống nắng nổi tiếng ở châu Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sunblock"],
+      "antonyms": [],
+      "collocations": [
+        "apply sunscreen",
+        "SPF sunscreen",
+        "wear sunscreen",
+        "reapply sunscreen",
+        "waterproof sunscreen"
+      ],
+      "etymology_hint": "Compound of 'sun' + 'screen' (block) — modern product term from 1944 when Coppertone was invented.",
+      "mnemonic_vi": "SUNSCREEN = SUN + SCREEN → 'chắn nắng'. SPF càng cao càng tốt."
+    },
+    {
+      "word": "shave",
+      "lemma": "shave",
+      "ipa": "/ʃeɪv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to remove hair from your face or body with a razor",
+          "meaning_vi": "cạo (râu, lông)",
+          "examples": [
+            {
+              "en": "He shaves his face every morning before work.",
+              "vi": "Anh ấy cạo râu mỗi sáng trước khi đi làm."
+            },
+            {
+              "en": "She shaves her legs once a week.",
+              "vi": "Cô ấy cạo lông chân tuần 1 lần."
+            },
+            {
+              "en": "Use shaving cream to prevent skin irritation.",
+              "vi": "Dùng kem cạo râu để tránh kích ứng da."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trim"],
+      "antonyms": [],
+      "collocations": [
+        "shave your beard",
+        "shave your legs",
+        "clean shave",
+        "shaving cream",
+        "shave with a razor"
+      ],
+      "etymology_hint": "From Old English 'scafan' meaning 'to scrape, plane' — Germanic root, related to German 'schaben'.",
+      "mnemonic_vi": "SHAVE = 'shêi-v' — 'sờ vù' nhẹ qua da. Shave the beard = cạo râu."
+    },
+    {
+      "word": "haircut",
+      "lemma": "haircut",
+      "ipa": "/ˈheəkʌt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an act of cutting your hair, usually at a salon or barber",
+          "meaning_vi": "việc cắt tóc, kiểu cắt tóc",
+          "examples": [
+            {
+              "en": "I need a haircut — my hair's too long.",
+              "vi": "Tôi cần cắt tóc — tóc dài quá."
+            },
+            {
+              "en": "A men's haircut in Hà Nội costs only 50,000 VND.",
+              "vi": "Cắt tóc nam ở Hà Nội chỉ 50.000 đồng."
+            },
+            {
+              "en": "She got a new haircut for the wedding.",
+              "vi": "Cô ấy cắt tóc mới cho đám cưới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trim"],
+      "antonyms": [],
+      "collocations": [
+        "get a haircut",
+        "need a haircut",
+        "new haircut",
+        "short haircut",
+        "haircut salon"
+      ],
+      "etymology_hint": "Compound of 'hair' + 'cut' — straightforward English construction from 19th century.",
+      "mnemonic_vi": "HAIRCUT = HAIR + CUT → 'cắt tóc'. Get a haircut = đi cắt tóc."
+    }
+  ]
+}

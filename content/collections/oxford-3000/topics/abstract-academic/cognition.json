@@ -1,0 +1,769 @@
+{
+  "slug": "cognition",
+  "name": "Cognition",
+  "description": "Tư duy và nhận thức A2 — recognize, perceive, identify, observe, evaluate và 15 từ về quá trình nhận thức.",
+  "order_index": 4,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "recognize",
+      "lemma": "recognize",
+      "ipa": "/ˈrekəɡnaɪz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to know someone or something because you have seen them before",
+          "meaning_vi": "nhận ra (đã từng biết)",
+          "examples": [
+            {
+              "en": "I didn't recognize her with the new haircut.",
+              "vi": "Tôi không nhận ra cô ấy với kiểu tóc mới."
+            },
+            {
+              "en": "Do you recognize this song?",
+              "vi": "Bạn có nhận ra bài hát này không?"
+            },
+            {
+              "en": "Vietnamese diplomas are recognized in many countries.",
+              "vi": "Bằng cấp Việt Nam được công nhận ở nhiều nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["identify", "know"],
+      "antonyms": [],
+      "collocations": [
+        "recognize someone",
+        "easily recognize",
+        "recognize the voice",
+        "recognize the value",
+        "officially recognize"
+      ],
+      "etymology_hint": "From Latin 'recognoscere' meaning 'to know again' — from 're-' (again) + 'cognoscere' (to know).",
+      "mnemonic_vi": "RECOGNIZE = RE + COGNIZE → 'biết lại'. Nhận ra ai/cái đã quen."
+    },
+    {
+      "word": "perceive",
+      "lemma": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to notice or understand something using your senses or mind",
+          "meaning_vi": "nhận thức, cảm nhận",
+          "examples": [
+            {
+              "en": "She perceived danger in his voice.",
+              "vi": "Cô ấy cảm nhận được nguy hiểm trong giọng anh ấy."
+            },
+            {
+              "en": "Different people perceive the world differently.",
+              "vi": "Người khác nhau nhận thức thế giới khác nhau."
+            },
+            {
+              "en": "He's perceived as a kind person by everyone.",
+              "vi": "Anh ấy được mọi người cảm nhận là người tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["notice", "sense"],
+      "antonyms": [],
+      "collocations": [
+        "perceive as",
+        "perceive danger",
+        "widely perceived",
+        "perceive the world",
+        "clearly perceive"
+      ],
+      "etymology_hint": "From Latin 'percipere' meaning 'to seize, understand' — from 'per-' (thoroughly) + 'capere' (to take).",
+      "mnemonic_vi": "PERCEIVE = PER + CEIVE → 'nhận lấy hoàn toàn'. Cảm nhận sâu."
+    },
+    {
+      "word": "identify",
+      "lemma": "identify",
+      "ipa": "/aɪˈdentɪfaɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to say who or what something is, especially after looking carefully",
+          "meaning_vi": "xác định, nhận diện",
+          "examples": [
+            {
+              "en": "The police identified the suspect from CCTV.",
+              "vi": "Cảnh sát xác định nghi phạm qua CCTV."
+            },
+            {
+              "en": "Identify the main idea of each paragraph.",
+              "vi": "Xác định ý chính của mỗi đoạn."
+            },
+            {
+              "en": "Can you identify this Vietnamese fruit?",
+              "vi": "Bạn có nhận ra trái cây Việt này không?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recognize", "determine"],
+      "antonyms": [],
+      "collocations": [
+        "identify a suspect",
+        "identify the problem",
+        "easily identify",
+        "identify yourself",
+        "identify with"
+      ],
+      "etymology_hint": "From Latin 'identitas' (sameness) + '-fy' (make) — coined in 17th century to mean 'make identical or recognized'.",
+      "mnemonic_vi": "IDENTIFY = IDENTI + FY → 'làm cho biết là ai'. ID = thẻ nhận diện."
+    },
+    {
+      "word": "distinguish",
+      "lemma": "distinguish",
+      "ipa": "/dɪˈstɪŋɡwɪʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to see or hear the difference between things",
+          "meaning_vi": "phân biệt",
+          "examples": [
+            {
+              "en": "Can you distinguish phở Bắc from phở Nam?",
+              "vi": "Bạn có thể phân biệt phở Bắc với phở Nam không?"
+            },
+            {
+              "en": "Twins are sometimes hard to distinguish.",
+              "vi": "Cặp song sinh đôi khi khó phân biệt."
+            },
+            {
+              "en": "Distinguish facts from opinions when reading news.",
+              "vi": "Phân biệt sự thật với ý kiến khi đọc tin tức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["differentiate", "tell apart"],
+      "antonyms": ["confuse"],
+      "collocations": [
+        "distinguish between",
+        "distinguish from",
+        "clearly distinguish",
+        "hard to distinguish",
+        "distinguish fact from fiction"
+      ],
+      "etymology_hint": "From Latin 'distinguere' meaning 'to separate, mark off' — from 'dis-' (apart) + 'stinguere' (to prick).",
+      "mnemonic_vi": "DISTINGUISH = DI + STINGUISH → 'tách ra'. Distinct = riêng biệt."
+    },
+    {
+      "word": "observe",
+      "lemma": "observe",
+      "ipa": "/əbˈzɜːv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to watch carefully to learn about something",
+          "meaning_vi": "quan sát (kỹ)",
+          "examples": [
+            {
+              "en": "Scientists observe wildlife in Cát Tiên forest.",
+              "vi": "Các nhà khoa học quan sát động vật ở rừng Cát Tiên."
+            },
+            {
+              "en": "Observe how the master chef cooks phở.",
+              "vi": "Quan sát cách đầu bếp bậc thầy nấu phở."
+            },
+            {
+              "en": "Children observe and copy adult behaviour.",
+              "vi": "Trẻ con quan sát và bắt chước hành vi người lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["watch", "monitor"],
+      "antonyms": ["ignore"],
+      "collocations": [
+        "carefully observe",
+        "observe behaviour",
+        "observe a rule",
+        "observe nature",
+        "closely observe"
+      ],
+      "etymology_hint": "From Latin 'observare' meaning 'to watch over' — from 'ob-' (toward) + 'servare' (to keep, watch).",
+      "mnemonic_vi": "OBSERVE = OB + SERVE → 'phục vụ nhìn'. Observe = quan sát kỹ."
+    },
+    {
+      "word": "examine",
+      "lemma": "examine",
+      "ipa": "/ɪɡˈzæmɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to look at something carefully to learn more about it",
+          "meaning_vi": "kiểm tra, khám xét (kỹ)",
+          "examples": [
+            {
+              "en": "The doctor examined my throat.",
+              "vi": "Bác sĩ khám họng tôi."
+            },
+            {
+              "en": "Examine the evidence before deciding.",
+              "vi": "Kiểm tra bằng chứng trước khi quyết định."
+            },
+            {
+              "en": "She examined the contract carefully before signing.",
+              "vi": "Cô ấy xem xét hợp đồng kỹ trước khi ký."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["inspect", "investigate"],
+      "antonyms": [],
+      "collocations": [
+        "carefully examine",
+        "examine evidence",
+        "examine a patient",
+        "examine closely",
+        "examine the data"
+      ],
+      "etymology_hint": "From Latin 'examinare' meaning 'to weigh, test' — from 'examen' (the tongue of a balance).",
+      "mnemonic_vi": "EXAMINE = EX + AMINE → 'cân, đo'. Examine = khám kỹ."
+    },
+    {
+      "word": "evaluate",
+      "lemma": "evaluate",
+      "ipa": "/ɪˈvæljueɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to think carefully about something to decide how good or important it is",
+          "meaning_vi": "đánh giá",
+          "examples": [
+            {
+              "en": "Teachers evaluate students' essays.",
+              "vi": "Giáo viên đánh giá bài luận của học sinh."
+            },
+            {
+              "en": "Evaluate your options before making a big decision.",
+              "vi": "Đánh giá các lựa chọn trước khi quyết định lớn."
+            },
+            {
+              "en": "The company evaluates employee performance yearly.",
+              "vi": "Công ty đánh giá hiệu suất nhân viên hàng năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assess", "judge"],
+      "antonyms": [],
+      "collocations": [
+        "evaluate performance",
+        "carefully evaluate",
+        "evaluate options",
+        "evaluate the impact",
+        "evaluate results"
+      ],
+      "etymology_hint": "From French 'évaluer' — from Old French 'es-' (out) + 'value' (worth).",
+      "mnemonic_vi": "EVALUATE = E + VALUATE → 'đo giá trị'. Evaluate = đánh giá xem."
+    },
+    {
+      "word": "consider",
+      "lemma": "consider",
+      "ipa": "/kənˈsɪdə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to think carefully about something, especially before making a decision",
+          "meaning_vi": "cân nhắc, xem xét",
+          "examples": [
+            {
+              "en": "Consider all the options before you choose.",
+              "vi": "Cân nhắc mọi lựa chọn trước khi chọn."
+            },
+            {
+              "en": "I'm considering buying a new motorbike.",
+              "vi": "Tôi đang cân nhắc mua xe máy mới."
+            },
+            {
+              "en": "Please consider the impact on the environment.",
+              "vi": "Vui lòng cân nhắc tác động đến môi trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["think about", "weigh"],
+      "antonyms": ["ignore"],
+      "collocations": [
+        "carefully consider",
+        "consider an option",
+        "consider seriously",
+        "consider the consequences",
+        "all things considered"
+      ],
+      "etymology_hint": "From Latin 'considerare' meaning 'to look at carefully' — possibly from 'sidus' (star), as in stargazing for omens.",
+      "mnemonic_vi": "CONSIDER = CON + SIDER → 'nhìn sao'. Cân nhắc kỹ như xem sao."
+    },
+    {
+      "word": "imagine",
+      "lemma": "imagine",
+      "ipa": "/ɪˈmædʒɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to form a picture of something in your mind",
+          "meaning_vi": "tưởng tượng",
+          "examples": [
+            {
+              "en": "Imagine yourself on a Phú Quốc beach.",
+              "vi": "Tưởng tượng bạn đang trên bãi biển Phú Quốc."
+            },
+            {
+              "en": "I can't imagine life without my smartphone.",
+              "vi": "Tôi không tưởng tượng được sống thiếu điện thoại."
+            },
+            {
+              "en": "She imagined what her future would look like.",
+              "vi": "Cô ấy tưởng tượng tương lai mình sẽ ra sao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["picture", "envision"],
+      "antonyms": [],
+      "collocations": [
+        "imagine yourself",
+        "hard to imagine",
+        "imagine doing",
+        "vividly imagine",
+        "just imagine"
+      ],
+      "etymology_hint": "From Latin 'imaginari' meaning 'to picture in mind' — from 'imago' (image, likeness).",
+      "mnemonic_vi": "IMAGINE = IMAGE + INE → 'tạo hình'. Imagine = vẽ hình trong đầu."
+    },
+    {
+      "word": "interpret",
+      "lemma": "interpret",
+      "ipa": "/ɪnˈtɜːprɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to explain the meaning of something or translate between languages",
+          "meaning_vi": "diễn giải, dịch (ngữ nghĩa)",
+          "examples": [
+            {
+              "en": "How do you interpret this poem?",
+              "vi": "Bạn diễn giải bài thơ này thế nào?"
+            },
+            {
+              "en": "She interprets between Vietnamese and Japanese.",
+              "vi": "Cô ấy phiên dịch giữa tiếng Việt và Nhật."
+            },
+            {
+              "en": "Don't interpret his silence as agreement.",
+              "vi": "Đừng diễn giải sự im lặng của anh là đồng ý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["translate", "explain"],
+      "antonyms": [],
+      "collocations": [
+        "interpret a dream",
+        "interpret data",
+        "interpret correctly",
+        "interpret the law",
+        "freely interpret"
+      ],
+      "etymology_hint": "From Latin 'interpretari' meaning 'to explain' — from 'interpres' (agent between two parties).",
+      "mnemonic_vi": "INTERPRET = INTER + PRET → 'giữa diễn'. Interpret = phiên dịch."
+    },
+    {
+      "word": "notice",
+      "lemma": "notice",
+      "ipa": "/ˈnəʊtɪs/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to see or be aware of something",
+          "meaning_vi": "chú ý, nhận thấy",
+          "examples": [
+            {
+              "en": "I noticed she was wearing a new áo dài.",
+              "vi": "Tôi nhận thấy cô ấy mặc áo dài mới."
+            },
+            {
+              "en": "Did you notice the typo in the email?",
+              "vi": "Bạn có nhận thấy lỗi đánh máy trong email không?"
+            },
+            {
+              "en": "Notice how Vietnamese drivers honk constantly.",
+              "vi": "Chú ý cách tài xế Việt bóp còi liên tục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["see", "observe"],
+      "antonyms": ["ignore", "miss"],
+      "collocations": [
+        "notice the difference",
+        "barely notice",
+        "fail to notice",
+        "notice immediately",
+        "carefully notice"
+      ],
+      "etymology_hint": "From Latin 'notitia' meaning 'a knowing, becoming acquainted' — from 'noscere' (to know).",
+      "mnemonic_vi": "NOTICE = 'nốt-tịt' — 'nốt tít' để ý. Notice = nhận ra chi tiết."
+    },
+    {
+      "word": "realize",
+      "lemma": "realize",
+      "ipa": "/ˈrɪəlaɪz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to understand or become aware of something",
+          "meaning_vi": "nhận ra, hiểu ra (bất ngờ)",
+          "examples": [
+            {
+              "en": "I realized I forgot my phone at home.",
+              "vi": "Tôi nhận ra quên điện thoại ở nhà."
+            },
+            {
+              "en": "She realized she was in love with him.",
+              "vi": "Cô ấy nhận ra mình đã yêu anh ấy."
+            },
+            {
+              "en": "He didn't realize how much it meant to her.",
+              "vi": "Anh ấy không hiểu điều đó quan trọng với cô ấy thế nào."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["understand", "recognize"],
+      "antonyms": [],
+      "collocations": [
+        "suddenly realize",
+        "realize the truth",
+        "realize too late",
+        "fully realize",
+        "begin to realize"
+      ],
+      "etymology_hint": "From French 'réaliser' meaning 'to make real' — from 'réel' (real); sense of 'understand' developed later.",
+      "mnemonic_vi": "REALIZE = REAL + IZE → 'làm cho thật'. Nhận ra cái thật là gì."
+    },
+    {
+      "word": "predict",
+      "lemma": "predict",
+      "ipa": "/prɪˈdɪkt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to say what you think will happen in the future",
+          "meaning_vi": "dự đoán, tiên đoán",
+          "examples": [
+            {
+              "en": "Experts predict GDP growth will reach 7% in 2025.",
+              "vi": "Chuyên gia dự đoán tăng trưởng GDP sẽ đạt 7% năm 2025."
+            },
+            {
+              "en": "It's hard to predict the weather in Sài Gòn.",
+              "vi": "Khó dự đoán thời tiết ở Sài Gòn."
+            },
+            {
+              "en": "Who can predict the lottery numbers?",
+              "vi": "Ai có thể dự đoán số xổ số?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forecast", "foretell"],
+      "antonyms": [],
+      "collocations": [
+        "predict the future",
+        "hard to predict",
+        "accurately predict",
+        "predict the outcome",
+        "predict weather"
+      ],
+      "etymology_hint": "From Latin 'praedicere' meaning 'to say before' — from 'prae-' (before) + 'dicere' (to say).",
+      "mnemonic_vi": "PREDICT = PRE + DICT → 'nói trước'. Predict = nói tương lai."
+    },
+    {
+      "word": "infer",
+      "lemma": "infer",
+      "ipa": "/ɪnˈfɜː(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to guess based on what you know or have seen",
+          "meaning_vi": "suy luận, suy ra",
+          "examples": [
+            {
+              "en": "From her smile, I infer she likes the gift.",
+              "vi": "Từ nụ cười cô ấy, tôi suy ra cô thích món quà."
+            },
+            {
+              "en": "We can infer the cause from these clues.",
+              "vi": "Ta có thể suy ra nguyên nhân từ các manh mối."
+            },
+            {
+              "en": "Don't infer too much from a single email.",
+              "vi": "Đừng suy diễn quá nhiều từ một email."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deduce", "conclude"],
+      "antonyms": [],
+      "collocations": [
+        "infer from",
+        "infer meaning",
+        "reasonably infer",
+        "infer correctly",
+        "safely infer"
+      ],
+      "etymology_hint": "From Latin 'inferre' meaning 'to bring in, conclude' — from 'in-' (in) + 'ferre' (to carry).",
+      "mnemonic_vi": "INFER = IN + FER → 'mang vào trong'. Suy luận từ thông tin có sẵn."
+    },
+    {
+      "word": "compare",
+      "lemma": "compare",
+      "ipa": "/kəmˈpeə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to think about how things are similar or different",
+          "meaning_vi": "so sánh",
+          "examples": [
+            {
+              "en": "Compare prices on Shopee and Lazada before buying.",
+              "vi": "So sánh giá Shopee và Lazada trước khi mua."
+            },
+            {
+              "en": "Don't compare yourself to others.",
+              "vi": "Đừng so sánh mình với người khác."
+            },
+            {
+              "en": "Sài Gòn and Hà Nội are often compared.",
+              "vi": "Sài Gòn và Hà Nội thường được đem so sánh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contrast"],
+      "antonyms": [],
+      "collocations": [
+        "compare with",
+        "compare to",
+        "compare prices",
+        "compare and contrast",
+        "directly compare"
+      ],
+      "etymology_hint": "From Latin 'comparare' meaning 'to pair, match' — from 'com-' (with) + 'par' (equal).",
+      "mnemonic_vi": "COMPARE = COM + PARE → 'cùng đặt'. Đặt 2 cái cạnh nhau xem khác gì."
+    },
+    {
+      "word": "contrast",
+      "lemma": "contrast",
+      "ipa": "/ˈkɒntrɑːst/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to show or focus on the differences between things",
+          "meaning_vi": "đối chiếu, làm nổi bật khác biệt",
+          "examples": [
+            {
+              "en": "Vietnamese food contrasts sharply with Western food.",
+              "vi": "Đồ ăn Việt khác hẳn so với đồ Tây."
+            },
+            {
+              "en": "Contrast the two essays to find which is better.",
+              "vi": "Đối chiếu hai bài luận để tìm bài hay hơn."
+            },
+            {
+              "en": "His honesty contrasts with their lies.",
+              "vi": "Sự trung thực của anh nổi bật so với lời nói dối của họ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compare", "differ"],
+      "antonyms": ["resemble"],
+      "collocations": [
+        "in contrast",
+        "by contrast",
+        "sharp contrast",
+        "stark contrast",
+        "contrast with"
+      ],
+      "etymology_hint": "From Italian 'contrastare' meaning 'to stand against' — from 'contra-' (against) + 'stare' (to stand).",
+      "mnemonic_vi": "CONTRAST = CON + TRAST → 'đứng ngược'. Làm nổi bật cái khác."
+    },
+    {
+      "word": "recall",
+      "lemma": "recall",
+      "ipa": "/rɪˈkɔːl/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to remember something from the past",
+          "meaning_vi": "nhớ lại, hồi tưởng",
+          "examples": [
+            {
+              "en": "I can't recall her name right now.",
+              "vi": "Tôi không nhớ tên cô ấy lúc này."
+            },
+            {
+              "en": "She recalled her childhood in Hội An fondly.",
+              "vi": "Cô ấy nhớ lại tuổi thơ ở Hội An với tình cảm."
+            },
+            {
+              "en": "Recall the formula we learned last week.",
+              "vi": "Nhớ lại công thức tuần trước chúng ta học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["remember", "recollect"],
+      "antonyms": ["forget"],
+      "collocations": [
+        "vividly recall",
+        "recall a name",
+        "recall a memory",
+        "easily recall",
+        "as I recall"
+      ],
+      "etymology_hint": "Compound of 're-' (back) + 'call' — original sense of 'calling back to mind'.",
+      "mnemonic_vi": "RECALL = RE + CALL → 'gọi lại'. Recall = gọi ký ức quay về."
+    },
+    {
+      "word": "process",
+      "lemma": "process",
+      "ipa": "/ˈprəʊses/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to think about or understand information carefully",
+          "meaning_vi": "xử lý (thông tin, suy nghĩ)",
+          "examples": [
+            {
+              "en": "Give me time to process this news.",
+              "vi": "Cho tôi thời gian xử lý tin này."
+            },
+            {
+              "en": "The brain processes thousands of images each day.",
+              "vi": "Não xử lý hàng nghìn hình ảnh mỗi ngày."
+            },
+            {
+              "en": "I'm still processing what she said.",
+              "vi": "Tôi vẫn đang suy nghĩ về điều cô ấy nói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["analyze", "digest"],
+      "antonyms": [],
+      "collocations": [
+        "process information",
+        "process data",
+        "fully process",
+        "mentally process",
+        "process emotions"
+      ],
+      "etymology_hint": "From Latin 'processus' meaning 'a going forward' — from 'pro-' (forward) + 'cedere' (to go).",
+      "mnemonic_vi": "PROCESS = PRO + CESS → 'tiến tới'. Process = quá trình xử lý."
+    },
+    {
+      "word": "classify",
+      "lemma": "classify",
+      "ipa": "/ˈklæsɪfaɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to arrange things into groups based on shared features",
+          "meaning_vi": "phân loại",
+          "examples": [
+            {
+              "en": "Classify these vocabulary words by topic.",
+              "vi": "Phân loại các từ vựng theo chủ đề."
+            },
+            {
+              "en": "Books in the library are classified by subject.",
+              "vi": "Sách trong thư viện được phân loại theo chủ đề."
+            },
+            {
+              "en": "How do you classify Vietnamese music genres?",
+              "vi": "Bạn phân loại các thể loại nhạc Việt như nào?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["categorize", "sort"],
+      "antonyms": [],
+      "collocations": [
+        "classify into",
+        "classify by",
+        "officially classify",
+        "classify information",
+        "classify species"
+      ],
+      "etymology_hint": "From Latin 'classis' (class, group) + '-fy' (make) — coined in 18th century with rise of scientific taxonomy.",
+      "mnemonic_vi": "CLASSIFY = CLASS + IFY → 'làm thành lớp'. Phân thành nhóm."
+    },
+    {
+      "word": "estimate",
+      "lemma": "estimate",
+      "ipa": "/ˈestɪmeɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to guess the size, value, or amount of something",
+          "meaning_vi": "ước tính, ước lượng",
+          "examples": [
+            {
+              "en": "Can you estimate how much the trip will cost?",
+              "vi": "Bạn ước tính chuyến đi sẽ tốn bao nhiêu?"
+            },
+            {
+              "en": "Experts estimate 5 million tourists visit Việt Nam.",
+              "vi": "Chuyên gia ước tính 5 triệu du khách đến Việt Nam."
+            },
+            {
+              "en": "I estimated the meeting would take 30 minutes.",
+              "vi": "Tôi ước cuộc họp sẽ mất 30 phút."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["guess", "approximate"],
+      "antonyms": [],
+      "collocations": [
+        "estimate the cost",
+        "rough estimate",
+        "estimate the size",
+        "accurately estimate",
+        "estimate the time"
+      ],
+      "etymology_hint": "From Latin 'aestimare' meaning 'to value, appraise' — same root as 'esteem'.",
+      "mnemonic_vi": "ESTIMATE = ESTIM + ATE → 'định giá'. Estimate = ước tính trước."
+    }
+  ]
+}
