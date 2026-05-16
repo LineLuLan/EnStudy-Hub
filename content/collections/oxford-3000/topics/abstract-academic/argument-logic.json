@@ -1,0 +1,676 @@
+{
+  "slug": "argument-logic",
+  "name": "Argument & Logic",
+  "description": "Lập luận và logic B1 — rebuttal, premise, fallacy, valid, refute và 15 từ về tư duy phản biện.",
+  "order_index": 10,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "rebuttal",
+      "lemma": "rebuttal",
+      "ipa": "/rɪˈbʌtl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an argument or evidence that proves something is wrong",
+          "meaning_vi": "lập luận phản bác",
+          "examples": [
+            {
+              "en": "She offered a strong rebuttal in the debate.",
+              "vi": "Cô ấy đưa lập luận phản bác mạnh trong debate."
+            },
+            {
+              "en": "Prepare a rebuttal to counter the argument.",
+              "vi": "Chuẩn bị phản bác để chống lại lập luận."
+            },
+            {
+              "en": "His rebuttal silenced the critics.",
+              "vi": "Lập luận phản bác của anh làm im miệng phê bình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["counter", "refutation"],
+      "antonyms": [],
+      "collocations": [
+        "strong rebuttal",
+        "offer a rebuttal",
+        "in rebuttal",
+        "rebuttal speech",
+        "effective rebuttal"
+      ],
+      "etymology_hint": "From 'rebut' + '-al' — from Anglo-French 'reboter' (to push back).",
+      "mnemonic_vi": "REBUTTAL = REBUT + AL → 'sự phản bác'. Strong rebuttal = phản bác mạnh."
+    },
+    {
+      "word": "premise",
+      "lemma": "premise",
+      "ipa": "/ˈpremɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statement that is the basis for an argument",
+          "meaning_vi": "tiền đề (lập luận)",
+          "examples": [
+            {
+              "en": "The premise of the argument is flawed.",
+              "vi": "Tiền đề của lập luận có lỗi."
+            },
+            { "en": "Start with a clear premise.", "vi": "Bắt đầu với tiền đề rõ." },
+            {
+              "en": "On the premise that he's honest, I trust him.",
+              "vi": "Với tiền đề anh ấy trung thực, tôi tin anh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assumption", "basis"],
+      "antonyms": ["conclusion"],
+      "collocations": [
+        "main premise",
+        "basic premise",
+        "false premise",
+        "on the premise that",
+        "starting premise"
+      ],
+      "etymology_hint": "From Latin 'praemissa' meaning 'set before' — from 'prae-' (before) + 'mittere' (to send).",
+      "mnemonic_vi": "PREMISE = PRE + MISE → 'đặt trước'. Premise = tiền đề lập luận."
+    },
+    {
+      "word": "assumption",
+      "lemma": "assumption",
+      "ipa": "/əˈsʌmpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something you accept as true without proof",
+          "meaning_vi": "giả định, sự cho rằng",
+          "examples": [
+            { "en": "Don't make assumptions about others.", "vi": "Đừng giả định về người khác." },
+            { "en": "Her assumption was wrong.", "vi": "Giả định của cô ấy sai." },
+            { "en": "Test your assumptions with data.", "vi": "Kiểm tra giả định bằng dữ liệu." }
+          ]
+        }
+      ],
+      "synonyms": ["presumption", "premise"],
+      "antonyms": ["fact"],
+      "collocations": [
+        "false assumption",
+        "underlying assumption",
+        "make an assumption",
+        "common assumption",
+        "wrong assumption"
+      ],
+      "etymology_hint": "From Latin 'assumere' meaning 'to take up' — from 'ad-' (to) + 'sumere' (to take).",
+      "mnemonic_vi": "ASSUMPTION = ASSUM + PTION → 'sự nhận lên'. Assumption = giả định."
+    },
+    {
+      "word": "fallacy",
+      "lemma": "fallacy",
+      "ipa": "/ˈfæləsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a wrong idea or argument that many people believe",
+          "meaning_vi": "ngụy biện, sai lầm logic",
+          "examples": [
+            {
+              "en": "It's a fallacy that money brings happiness.",
+              "vi": "Nói tiền mang lại hạnh phúc là ngụy biện."
+            },
+            {
+              "en": "Spot common fallacies in advertising.",
+              "vi": "Tìm ngụy biện phổ biến trong quảng cáo."
+            },
+            {
+              "en": "Logical fallacies weaken arguments.",
+              "vi": "Ngụy biện logic làm yếu lập luận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["misconception", "myth"],
+      "antonyms": ["truth"],
+      "collocations": [
+        "logical fallacy",
+        "common fallacy",
+        "expose a fallacy",
+        "false fallacy",
+        "spot fallacies"
+      ],
+      "etymology_hint": "From Latin 'fallacia' meaning 'deception' — from 'fallere' (to deceive).",
+      "mnemonic_vi": "FALLACY = FALL + ACY → 'sự rơi vào sai'. Logical fallacy = ngụy biện logic."
+    },
+    {
+      "word": "valid",
+      "lemma": "valid",
+      "ipa": "/ˈvælɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "based on truth or reason; legally acceptable",
+          "meaning_vi": "có giá trị, hợp lệ",
+          "examples": [
+            { "en": "Your visa is valid for 90 days.", "vi": "Visa của bạn hợp lệ 90 ngày." },
+            { "en": "She makes valid points.", "vi": "Cô ấy đưa ra điểm hợp lý." },
+            { "en": "Is this email address still valid?", "vi": "Email này còn dùng được không?" }
+          ]
+        }
+      ],
+      "synonyms": ["sound", "legitimate"],
+      "antonyms": ["invalid"],
+      "collocations": [
+        "valid point",
+        "valid argument",
+        "valid until",
+        "valid reason",
+        "still valid"
+      ],
+      "etymology_hint": "From Latin 'validus' meaning 'strong, effective' — from 'valere' (to be strong).",
+      "mnemonic_vi": "VALID = 'vá-lít' — 'vẫn' đúng. Valid point = điểm hợp lý."
+    },
+    {
+      "word": "invalid",
+      "lemma": "invalid",
+      "ipa": "/ɪnˈvælɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not acceptable or not based on truth",
+          "meaning_vi": "không hợp lệ, không có giá trị",
+          "examples": [
+            { "en": "Your password is invalid.", "vi": "Mật khẩu không hợp lệ." },
+            { "en": "An expired ID is invalid.", "vi": "CMND hết hạn là không hợp lệ." },
+            { "en": "His argument is invalid.", "vi": "Lập luận anh ấy không hợp lý." }
+          ]
+        }
+      ],
+      "synonyms": ["void"],
+      "antonyms": ["valid"],
+      "collocations": [
+        "invalid password",
+        "invalid ID",
+        "invalid argument",
+        "invalid input",
+        "declared invalid"
+      ],
+      "etymology_hint": "From Latin 'invalidus' meaning 'not strong' — from 'in-' (not) + 'validus'.",
+      "mnemonic_vi": "INVALID = IN + VALID → 'không hợp lệ'. Invalid password = mật khẩu sai."
+    },
+    {
+      "word": "sound",
+      "lemma": "sound",
+      "ipa": "/saʊnd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "based on good reason or strong evidence",
+          "meaning_vi": "vững chắc, hợp lý (lập luận)",
+          "examples": [
+            {
+              "en": "She gave sound advice on investing.",
+              "vi": "Cô ấy cho lời khuyên đầu tư hợp lý."
+            },
+            { "en": "His arguments are sound.", "vi": "Lập luận của anh vững chắc." },
+            { "en": "Make sound financial decisions.", "vi": "Đưa quyết định tài chính vững chắc." }
+          ]
+        }
+      ],
+      "synonyms": ["valid", "logical"],
+      "antonyms": ["unsound"],
+      "collocations": [
+        "sound advice",
+        "sound argument",
+        "sound reasoning",
+        "sound judgment",
+        "sound decision"
+      ],
+      "etymology_hint": "From Old English 'gesund' meaning 'healthy' — Germanic root, same as German 'gesund'.",
+      "mnemonic_vi": "SOUND = 'sao-nd' — 'soạn' chắc chắn. Sound argument = lập luận chắc."
+    },
+    {
+      "word": "reasoning",
+      "lemma": "reasoning",
+      "ipa": "/ˈriːzənɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of thinking clearly to make decisions",
+          "meaning_vi": "lập luận, lý lẽ",
+          "examples": [
+            {
+              "en": "Explain your reasoning step by step.",
+              "vi": "Giải thích lập luận từng bước."
+            },
+            {
+              "en": "Clear reasoning leads to good decisions.",
+              "vi": "Lập luận rõ dẫn đến quyết định tốt."
+            },
+            { "en": "His reasoning was flawed.", "vi": "Lập luận của anh có lỗ hổng." }
+          ]
+        }
+      ],
+      "synonyms": ["thinking", "logic"],
+      "antonyms": [],
+      "collocations": [
+        "clear reasoning",
+        "logical reasoning",
+        "flawed reasoning",
+        "deductive reasoning",
+        "sound reasoning"
+      ],
+      "etymology_hint": "From 'reason' + '-ing' — Latin 'ratio' meaning 'calculation, reason'.",
+      "mnemonic_vi": "REASONING = REASON + ING → 'sự lập luận'. Logical reasoning = lập luận logic."
+    },
+    {
+      "word": "deduce",
+      "lemma": "deduce",
+      "ipa": "/dɪˈdjuːs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to reach a conclusion based on facts you have",
+          "meaning_vi": "suy luận, suy ra (từ sự kiện)",
+          "examples": [
+            {
+              "en": "Sherlock Holmes deduces who the killer is.",
+              "vi": "Sherlock Holmes suy ra ai là kẻ giết người."
+            },
+            {
+              "en": "From these clues, we can deduce the truth.",
+              "vi": "Từ các manh mối, ta suy ra sự thật."
+            },
+            {
+              "en": "Police deduced the suspect's motive.",
+              "vi": "Cảnh sát suy ra động cơ nghi phạm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["infer", "conclude"],
+      "antonyms": [],
+      "collocations": [
+        "deduce from",
+        "logically deduce",
+        "deduce the answer",
+        "easily deduce",
+        "deduce the cause"
+      ],
+      "etymology_hint": "From Latin 'deducere' meaning 'to lead down' — from 'de-' (down) + 'ducere' (to lead).",
+      "mnemonic_vi": "DEDUCE = DE + DUCE → 'dẫn xuống'. Deduce from = suy ra từ."
+    },
+    {
+      "word": "prove",
+      "lemma": "prove",
+      "ipa": "/pruːv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show that something is true",
+          "meaning_vi": "chứng minh",
+          "examples": [
+            {
+              "en": "Prove your point with evidence.",
+              "vi": "Chứng minh ý của bạn bằng bằng chứng."
+            },
+            {
+              "en": "Math problems require you to prove answers.",
+              "vi": "Bài toán yêu cầu bạn chứng minh đáp án."
+            },
+            { "en": "Time will prove I'm right.", "vi": "Thời gian sẽ chứng minh tôi đúng." }
+          ]
+        }
+      ],
+      "synonyms": ["demonstrate", "show"],
+      "antonyms": ["disprove"],
+      "collocations": [
+        "prove your point",
+        "prove a theory",
+        "prove right",
+        "prove wrong",
+        "hard to prove"
+      ],
+      "etymology_hint": "From Latin 'probare' meaning 'to test, demonstrate' — from 'probus' (good, honest).",
+      "mnemonic_vi": "PROVE = 'prúp' — 'prô' chứng. Prove a point = chứng minh ý."
+    },
+    {
+      "word": "disprove",
+      "lemma": "disprove",
+      "ipa": "/dɪsˈpruːv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show that something is false",
+          "meaning_vi": "phản chứng, bác bỏ",
+          "examples": [
+            {
+              "en": "Scientists disproved the old theory.",
+              "vi": "Khoa học gia bác bỏ lý thuyết cũ."
+            },
+            {
+              "en": "He disproved her claim with data.",
+              "vi": "Anh ấy bác bỏ lập luận cô ấy bằng dữ liệu."
+            },
+            { "en": "Hard to disprove a negative.", "vi": "Khó bác bỏ điều phủ định." }
+          ]
+        }
+      ],
+      "synonyms": ["refute"],
+      "antonyms": ["prove"],
+      "collocations": [
+        "disprove a theory",
+        "disprove a claim",
+        "disprove evidence",
+        "completely disprove",
+        "scientifically disprove"
+      ],
+      "etymology_hint": "From Old French 'desprover' meaning 'to disprove' — from 'des-' (apart) + 'prover' (to prove).",
+      "mnemonic_vi": "DISPROVE = DIS + PROVE → 'không chứng minh'. Disprove = bác bỏ."
+    },
+    {
+      "word": "contradict",
+      "lemma": "contradict",
+      "ipa": "/ˌkɒntrəˈdɪkt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say or be the opposite of something",
+          "meaning_vi": "mâu thuẫn, trái ngược",
+          "examples": [
+            {
+              "en": "His actions contradict his words.",
+              "vi": "Hành động của anh trái với lời nói."
+            },
+            { "en": "The two reports contradict each other.", "vi": "Hai báo cáo mâu thuẫn nhau." },
+            {
+              "en": "Don't contradict your teacher in class.",
+              "vi": "Đừng cãi giáo viên trong lớp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["oppose", "deny"],
+      "antonyms": ["agree", "confirm"],
+      "collocations": [
+        "contradict yourself",
+        "directly contradict",
+        "evidence contradicts",
+        "contradict the claim",
+        "two statements contradict"
+      ],
+      "etymology_hint": "From Latin 'contradicere' meaning 'to speak against' — from 'contra-' (against) + 'dicere' (to say).",
+      "mnemonic_vi": "CONTRADICT = CONTRA + DICT → 'nói ngược'. Contradict = nói trái."
+    },
+    {
+      "word": "imply",
+      "lemma": "imply",
+      "ipa": "/ɪmˈplaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to suggest something without saying it directly",
+          "meaning_vi": "ngụ ý",
+          "examples": [
+            { "en": "His silence implied agreement.", "vi": "Sự im lặng của anh ngụ ý đồng ý." },
+            { "en": "Are you implying I'm wrong?", "vi": "Bạn ngụ ý tôi sai à?" },
+            { "en": "The data implies a clear trend.", "vi": "Dữ liệu ngụ ý một xu hướng rõ." }
+          ]
+        }
+      ],
+      "synonyms": ["suggest", "indicate"],
+      "antonyms": ["state"],
+      "collocations": [
+        "strongly imply",
+        "imply that",
+        "imply guilt",
+        "data implies",
+        "imply agreement"
+      ],
+      "etymology_hint": "From Latin 'implicare' meaning 'to fold in' — from 'in-' (in) + 'plicare' (to fold).",
+      "mnemonic_vi": "IMPLY = IM + PLY → 'gấp vào'. Imply = ngụ ý gấp ý vào."
+    },
+    {
+      "word": "assertion",
+      "lemma": "assertion",
+      "ipa": "/əˈsɜːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strong statement that something is true",
+          "meaning_vi": "khẳng định, tuyên bố",
+          "examples": [
+            {
+              "en": "His assertion that the Earth is flat is wrong.",
+              "vi": "Tuyên bố Trái Đất phẳng của anh ấy sai."
+            },
+            {
+              "en": "Back up your assertions with evidence.",
+              "vi": "Hỗ trợ khẳng định bằng bằng chứng."
+            },
+            { "en": "Bold assertions need proof.", "vi": "Khẳng định mạnh cần chứng cứ." }
+          ]
+        }
+      ],
+      "synonyms": ["claim", "declaration"],
+      "antonyms": ["denial"],
+      "collocations": [
+        "bold assertion",
+        "make an assertion",
+        "support an assertion",
+        "false assertion",
+        "factual assertion"
+      ],
+      "etymology_hint": "From Latin 'assertio' meaning 'a claim' — from 'asserere' (to claim).",
+      "mnemonic_vi": "ASSERTION = ASSERT + ION → 'sự khẳng định'. Make an assertion = đưa khẳng định."
+    },
+    {
+      "word": "bias",
+      "lemma": "bias",
+      "ipa": "/ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an unfair preference for or against something",
+          "meaning_vi": "thiên kiến, định kiến",
+          "examples": [
+            { "en": "Be aware of your own biases.", "vi": "Nhận thức định kiến của bản thân." },
+            { "en": "News should report without bias.", "vi": "Tin tức nên đưa không thiên kiến." },
+            {
+              "en": "Confirmation bias makes us see what we want.",
+              "vi": "Thiên kiến xác nhận khiến ta thấy điều mình muốn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prejudice"],
+      "antonyms": ["fairness"],
+      "collocations": [
+        "personal bias",
+        "confirmation bias",
+        "gender bias",
+        "media bias",
+        "free from bias"
+      ],
+      "etymology_hint": "From Old French 'biais' meaning 'slant, slope' — sense of 'prejudice' developed in 16th century.",
+      "mnemonic_vi": "BIAS = 'bai-ợs' — 'bai' nghiêng. Personal bias = định kiến cá nhân."
+    },
+    {
+      "word": "objective",
+      "lemma": "objective",
+      "ipa": "/əbˈdʒektɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "based on facts, not influenced by personal feelings",
+          "meaning_vi": "khách quan",
+          "examples": [
+            { "en": "Try to be objective when judging.", "vi": "Hãy khách quan khi đánh giá." },
+            { "en": "Objective analysis is hard.", "vi": "Phân tích khách quan khó." },
+            { "en": "Journalists should be objective.", "vi": "Nhà báo nên khách quan." }
+          ]
+        }
+      ],
+      "synonyms": ["unbiased", "neutral"],
+      "antonyms": ["subjective"],
+      "collocations": [
+        "objective analysis",
+        "objective view",
+        "be objective",
+        "objective truth",
+        "objective evidence"
+      ],
+      "etymology_hint": "From Latin 'objectivus' meaning 'pertaining to an object' — from 'objicere' (to throw against).",
+      "mnemonic_vi": "OBJECTIVE = OBJECT + IVE → 'thuộc vật khách quan'. Objective view = nhìn khách quan."
+    },
+    {
+      "word": "subjective",
+      "lemma": "subjective",
+      "ipa": "/səbˈdʒektɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "based on personal feelings or opinions",
+          "meaning_vi": "chủ quan",
+          "examples": [
+            { "en": "Taste in food is subjective.", "vi": "Gu ăn uống là chủ quan." },
+            { "en": "Beauty is subjective.", "vi": "Vẻ đẹp là chủ quan." },
+            {
+              "en": "Subjective judgments differ between people.",
+              "vi": "Đánh giá chủ quan khác nhau giữa người với người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["personal", "biased"],
+      "antonyms": ["objective"],
+      "collocations": [
+        "subjective view",
+        "subjective opinion",
+        "purely subjective",
+        "highly subjective",
+        "subjective judgment"
+      ],
+      "etymology_hint": "From Latin 'subiectivus' meaning 'pertaining to the subject' — opposite construction to 'objective'.",
+      "mnemonic_vi": "SUBJECTIVE = SUBJECT + IVE → 'thuộc chủ thể'. Subjective = chủ quan."
+    },
+    {
+      "word": "refute",
+      "lemma": "refute",
+      "ipa": "/rɪˈfjuːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to prove that something is wrong",
+          "meaning_vi": "bác bỏ, phản bác (bằng chứng)",
+          "examples": [
+            {
+              "en": "She refuted the accusation with evidence.",
+              "vi": "Cô ấy bác bỏ cáo buộc bằng bằng chứng."
+            },
+            {
+              "en": "Hard to refute a well-researched paper.",
+              "vi": "Khó bác bỏ bài nghiên cứu kỹ."
+            },
+            { "en": "Scientists refute the theory.", "vi": "Khoa học gia bác bỏ lý thuyết." }
+          ]
+        }
+      ],
+      "synonyms": ["disprove", "rebut"],
+      "antonyms": ["confirm"],
+      "collocations": [
+        "refute a claim",
+        "refute evidence",
+        "easily refute",
+        "scientifically refute",
+        "refute the argument"
+      ],
+      "etymology_hint": "From Latin 'refutare' meaning 'to drive back' — from 're-' (back) + 'futare' (to beat).",
+      "mnemonic_vi": "REFUTE = RE + FUTE → 'đẩy lùi'. Refute a claim = bác bỏ lập luận."
+    },
+    {
+      "word": "justify",
+      "lemma": "justify",
+      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give a good reason for something",
+          "meaning_vi": "biện minh, biện hộ",
+          "examples": [
+            {
+              "en": "Can you justify your decision?",
+              "vi": "Bạn có thể biện minh cho quyết định không?"
+            },
+            { "en": "Nothing justifies violence.", "vi": "Không gì biện minh được bạo lực." },
+            { "en": "Justify spending with results.", "vi": "Biện minh chi tiêu bằng kết quả." }
+          ]
+        }
+      ],
+      "synonyms": ["defend", "vindicate"],
+      "antonyms": ["condemn"],
+      "collocations": [
+        "justify a decision",
+        "justify the means",
+        "fully justify",
+        "hard to justify",
+        "justify spending"
+      ],
+      "etymology_hint": "From Latin 'justificare' meaning 'to do justice to' — from 'justus' (just) + 'facere' (to make).",
+      "mnemonic_vi": "JUSTIFY = JUST + IFY → 'làm cho đúng'. Justify = biện minh."
+    },
+    {
+      "word": "counter",
+      "lemma": "counter",
+      "ipa": "/ˈkaʊntə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to argue against something or do the opposite",
+          "meaning_vi": "phản công, đáp trả",
+          "examples": [
+            {
+              "en": "She countered his argument quickly.",
+              "vi": "Cô ấy đáp trả lập luận anh nhanh."
+            },
+            { "en": "Counter fake news with facts.", "vi": "Phản công tin giả bằng sự thật." },
+            {
+              "en": "He countered with a better offer.",
+              "vi": "Anh ấy phản ứng bằng đề nghị tốt hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["oppose", "respond"],
+      "antonyms": ["agree"],
+      "collocations": [
+        "counter an argument",
+        "counter-attack",
+        "counter-offer",
+        "counter-strategy",
+        "successfully counter"
+      ],
+      "etymology_hint": "From Latin 'contra' meaning 'against' — direct adoption in Middle English.",
+      "mnemonic_vi": "COUNTER = 'caon-tơ' — 'cản' ngược lại. Counter-argument = phản lập luận."
+    }
+  ]
+}

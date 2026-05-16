@@ -1,0 +1,631 @@
+{
+  "slug": "aging-life-stages",
+  "name": "Aging & Life Stages",
+  "description": "Tuổi tác và giai đoạn cuộc đời B1 — mature, prime, retirement, milestone, legacy và 15 từ về cuộc đời.",
+  "order_index": 17,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "mature",
+      "lemma": "mature",
+      "ipa": "/məˈtʃʊə(r)/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "fully grown or behaving like an adult",
+          "meaning_vi": "trưởng thành, chín chắn",
+          "examples": [
+            { "en": "She's very mature for her age.", "vi": "Cô ấy chín chắn so với tuổi." },
+            { "en": "Mature wine tastes better.", "vi": "Rượu lâu năm ngon hơn." },
+            { "en": "Be mature about the breakup.", "vi": "Hãy chín chắn về việc chia tay." }
+          ]
+        }
+      ],
+      "synonyms": ["grown-up", "developed"],
+      "antonyms": ["immature"],
+      "collocations": [
+        "mature adult",
+        "mature for age",
+        "fully mature",
+        "emotionally mature",
+        "mature attitude"
+      ],
+      "etymology_hint": "From Latin 'maturus' meaning 'ripe, timely' — original sense of fruit ripening.",
+      "mnemonic_vi": "MATURE = MA + TURE → 'chín'. Emotionally mature = chín chắn cảm xúc."
+    },
+    {
+      "word": "prime",
+      "lemma": "prime",
+      "ipa": "/praɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the time in life when someone is strongest or most successful",
+          "meaning_vi": "thời kỳ đỉnh cao",
+          "examples": [
+            {
+              "en": "Athletes peak in their prime.",
+              "vi": "Vận động viên đạt đỉnh ở thời kỳ sung sức."
+            },
+            { "en": "She's in her prime at 30.", "vi": "Cô ấy đỉnh cao ở tuổi 30." },
+            {
+              "en": "Past her prime, the singer retired.",
+              "vi": "Qua thời đỉnh cao, ca sĩ giải nghệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["peak", "best"],
+      "antonyms": ["decline"],
+      "collocations": [
+        "in your prime",
+        "past your prime",
+        "prime of life",
+        "prime time",
+        "prime age"
+      ],
+      "etymology_hint": "From Latin 'primus' meaning 'first' — sense of 'best/peak' developed from 'first quality'.",
+      "mnemonic_vi": "PRIME = 'prai-m' — 'prai' tốt nhất. In your prime = đỉnh cao."
+    },
+    {
+      "word": "youth",
+      "lemma": "youth",
+      "ipa": "/juːθ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the time when you are young, or young people in general",
+          "meaning_vi": "tuổi trẻ; thanh thiếu niên",
+          "examples": [
+            { "en": "Vietnam's youth are tech-savvy.", "vi": "Thanh niên Việt rành công nghệ." },
+            { "en": "I spent my youth in Hà Nội.", "vi": "Tôi trải qua tuổi trẻ ở Hà Nội." },
+            { "en": "Youth is wasted on the young.", "vi": "Tuổi trẻ phí cho người trẻ." }
+          ]
+        }
+      ],
+      "synonyms": ["adolescence"],
+      "antonyms": ["old age"],
+      "collocations": [
+        "misspent youth",
+        "youth culture",
+        "in my youth",
+        "youth movement",
+        "youth group"
+      ],
+      "etymology_hint": "From Old English 'geoguð' — Germanic root, related to 'young'.",
+      "mnemonic_vi": "YOUTH = 'iú-th' — 'i út' trẻ. Youth culture = văn hóa giới trẻ."
+    },
+    {
+      "word": "infant",
+      "lemma": "infant",
+      "ipa": "/ˈɪnfənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a very young child or baby",
+          "meaning_vi": "trẻ sơ sinh, em bé nhỏ",
+          "examples": [
+            { "en": "Infants need lots of sleep.", "vi": "Trẻ sơ sinh cần ngủ nhiều." },
+            { "en": "Vaccinate your infant on time.", "vi": "Tiêm chủng cho trẻ đúng hạn." },
+            {
+              "en": "Infant mortality has dropped in Vietnam.",
+              "vi": "Tỷ lệ tử vong trẻ sơ sinh giảm ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["baby"],
+      "antonyms": ["adult"],
+      "collocations": [
+        "newborn infant",
+        "infant mortality",
+        "infant care",
+        "infant formula",
+        "premature infant"
+      ],
+      "etymology_hint": "From Latin 'infans' meaning 'not speaking' — from 'in-' (not) + 'fans' (speaking).",
+      "mnemonic_vi": "INFANT = IN + FANT → 'chưa nói'. Infant = trẻ chưa biết nói."
+    },
+    {
+      "word": "toddler",
+      "lemma": "toddler",
+      "ipa": "/ˈtɒdlə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a child between 1 and 3 years old who is learning to walk",
+          "meaning_vi": "trẻ chập chững (1-3 tuổi)",
+          "examples": [
+            { "en": "Toddlers are full of energy.", "vi": "Trẻ chập chững đầy năng lượng." },
+            { "en": "My toddler loves Peppa Pig.", "vi": "Trẻ nhà tôi thích Peppa Pig." },
+            { "en": "Toddlers learn fast.", "vi": "Trẻ chập chững học nhanh." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "young toddler",
+        "toddler tantrum",
+        "toddler clothes",
+        "toddler car seat",
+        "active toddler"
+      ],
+      "etymology_hint": "From 'toddle' (walk unsteadily) + '-er' — coined in 18th century English.",
+      "mnemonic_vi": "TODDLER = TODDLE + R → 'người chập chững'. Toddler tantrum = ăn vạ."
+    },
+    {
+      "word": "teen",
+      "lemma": "teen",
+      "ipa": "/tiːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a teenager (13-19 years old)",
+          "meaning_vi": "tuổi teen (13-19)",
+          "examples": [
+            {
+              "en": "Teens spend hours on social media.",
+              "vi": "Teen dành nhiều giờ trên mạng xã hội."
+            },
+            { "en": "Vietnamese teens love K-pop.", "vi": "Teen Việt thích K-pop." },
+            { "en": "Teen years can be confusing.", "vi": "Tuổi teen có thể bối rối." }
+          ]
+        }
+      ],
+      "synonyms": ["teenager"],
+      "antonyms": [],
+      "collocations": ["teen years", "teen fashion", "teen drama", "teen culture", "early teen"],
+      "etymology_hint": "Short for 'teenager' — from English numbers ending in '-teen' (13-19).",
+      "mnemonic_vi": "TEEN = 'tin' — 'tuổi teen' 13-19. Teen drama = phim tuổi teen."
+    },
+    {
+      "word": "adolescence",
+      "lemma": "adolescence",
+      "ipa": "/ˌædəˈlesns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the period when a child becomes an adult",
+          "meaning_vi": "tuổi thiếu niên, vị thành niên",
+          "examples": [
+            { "en": "Adolescence is full of changes.", "vi": "Tuổi vị thành niên đầy thay đổi." },
+            { "en": "Acne is common in adolescence.", "vi": "Mụn phổ biến ở tuổi thiếu niên." },
+            {
+              "en": "Adolescence shapes our identity.",
+              "vi": "Tuổi vị thành niên hình thành bản sắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["puberty"],
+      "antonyms": [],
+      "collocations": [
+        "during adolescence",
+        "early adolescence",
+        "late adolescence",
+        "adolescence challenges",
+        "complete adolescence"
+      ],
+      "etymology_hint": "From Latin 'adolescens' meaning 'growing up' — from 'adolescere' (to grow up).",
+      "mnemonic_vi": "ADOLESCENCE = ADOL + ESCENCE → 'sự lớn lên'. Adolescence = thiếu niên."
+    },
+    {
+      "word": "adulthood",
+      "lemma": "adulthood",
+      "ipa": "/ˈædʌlthʊd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the time when you are a grown adult",
+          "meaning_vi": "tuổi trưởng thành",
+          "examples": [
+            {
+              "en": "Adulthood brings responsibility.",
+              "vi": "Tuổi trưởng thành mang trách nhiệm."
+            },
+            { "en": "I reached adulthood at 18.", "vi": "Tôi vào tuổi trưởng thành ở 18." },
+            {
+              "en": "Vietnamese adulthood begins at 18 legally.",
+              "vi": "Tuổi trưởng thành Việt bắt đầu 18 theo luật."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["childhood"],
+      "collocations": [
+        "reach adulthood",
+        "early adulthood",
+        "young adulthood",
+        "into adulthood",
+        "responsibilities of adulthood"
+      ],
+      "etymology_hint": "From 'adult' + '-hood' (state of) — modern English construction.",
+      "mnemonic_vi": "ADULTHOOD = ADULT + HOOD → 'trạng thái lớn'. Reach adulthood = đạt tuổi trưởng thành."
+    },
+    {
+      "word": "midlife",
+      "lemma": "midlife",
+      "ipa": "/ˈmɪdlaɪf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the middle period of someone's life, around 40-60",
+          "meaning_vi": "tuổi trung niên",
+          "examples": [
+            {
+              "en": "Some have a midlife crisis at 40.",
+              "vi": "Một số người có khủng hoảng trung niên ở 40."
+            },
+            { "en": "Midlife is a time to reflect.", "vi": "Trung niên là thời gian suy ngẫm." },
+            {
+              "en": "He started a business in midlife.",
+              "vi": "Ông khởi nghiệp ở tuổi trung niên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["middle age"],
+      "antonyms": [],
+      "collocations": [
+        "midlife crisis",
+        "in midlife",
+        "midlife career change",
+        "approach midlife",
+        "midlife transition"
+      ],
+      "etymology_hint": "Compound of 'mid' + 'life' — modern English, sense of 'middle of life' from early 20th century.",
+      "mnemonic_vi": "MIDLIFE = MID + LIFE → 'giữa đời'. Midlife crisis = khủng hoảng trung niên."
+    },
+    {
+      "word": "retirement",
+      "lemma": "retirement",
+      "ipa": "/rɪˈtaɪəmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the time after you stop working, usually in old age",
+          "meaning_vi": "hưu trí, nghỉ hưu",
+          "examples": [
+            { "en": "Save for retirement from young age.", "vi": "Tiết kiệm cho hưu trí từ trẻ." },
+            { "en": "Vietnamese retirement age is 60-62.", "vi": "Tuổi hưu Việt là 60-62." },
+            { "en": "Enjoy retirement with hobbies.", "vi": "Tận hưởng hưu trí với sở thích." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "retirement age",
+        "retirement fund",
+        "early retirement",
+        "happy retirement",
+        "plan for retirement"
+      ],
+      "etymology_hint": "From French 'retirement' meaning 'withdrawal' — from 'retirer' (to withdraw).",
+      "mnemonic_vi": "RETIREMENT = RETIRE + MENT → 'sự rút lui'. Retirement = nghỉ hưu."
+    },
+    {
+      "word": "pension",
+      "lemma": "pension",
+      "ipa": "/ˈpenʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money paid regularly to someone after they retire",
+          "meaning_vi": "lương hưu",
+          "examples": [
+            { "en": "She receives a monthly pension.", "vi": "Cô ấy nhận lương hưu hàng tháng." },
+            { "en": "Vietnamese pension is modest.", "vi": "Lương hưu Việt khiêm tốn." },
+            { "en": "Save for private pension.", "vi": "Tiết kiệm cho lương hưu cá nhân." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "state pension",
+        "private pension",
+        "pension fund",
+        "draw a pension",
+        "monthly pension"
+      ],
+      "etymology_hint": "From Latin 'pensio' meaning 'payment' — from 'pendere' (to weigh, pay).",
+      "mnemonic_vi": "PENSION = 'pén-shờn' — 'pen' tiền hưu. State pension = lương hưu nhà nước."
+    },
+    {
+      "word": "aging",
+      "lemma": "aging",
+      "ipa": "/ˈeɪdʒɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of growing older",
+          "meaning_vi": "sự lão hóa",
+          "examples": [
+            {
+              "en": "Vietnam is facing an aging population.",
+              "vi": "Việt Nam đối mặt dân số lão hóa."
+            },
+            { "en": "Anti-aging creams are popular.", "vi": "Kem chống lão hóa phổ biến." },
+            { "en": "Healthy lifestyle slows aging.", "vi": "Lối sống lành chậm lão hóa." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["youth"],
+      "collocations": [
+        "aging process",
+        "anti-aging",
+        "aging population",
+        "premature aging",
+        "aging gracefully"
+      ],
+      "etymology_hint": "From 'age' + '-ing' — modern English usage from 19th century.",
+      "mnemonic_vi": "AGING = AGE + ING → 'sự già'. Anti-aging = chống lão hóa."
+    },
+    {
+      "word": "wrinkle",
+      "lemma": "wrinkle",
+      "ipa": "/ˈrɪŋkl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small line in skin or fabric from age or folding",
+          "meaning_vi": "nếp nhăn (da, vải)",
+          "examples": [
+            { "en": "Wrinkles appear as we age.", "vi": "Nếp nhăn xuất hiện khi ta già." },
+            { "en": "Iron out the wrinkles on the shirt.", "vi": "Ủi cho hết nếp nhăn áo." },
+            { "en": "Sun causes early wrinkles.", "vi": "Nắng gây nếp nhăn sớm." }
+          ]
+        }
+      ],
+      "synonyms": ["crease"],
+      "antonyms": [],
+      "collocations": [
+        "fine wrinkle",
+        "deep wrinkle",
+        "wrinkle cream",
+        "iron out wrinkles",
+        "appear wrinkles"
+      ],
+      "etymology_hint": "From Old English 'wrincle' meaning 'to twist' — Germanic root, related to 'wring'.",
+      "mnemonic_vi": "WRINKLE = 'rin-cồ' — 'rịn cồ' nhăn. Wrinkle cream = kem chống nhăn."
+    },
+    {
+      "word": "birthday",
+      "lemma": "birthday",
+      "ipa": "/ˈbɜːθdeɪ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the day each year you celebrate the day you were born",
+          "meaning_vi": "sinh nhật",
+          "examples": [
+            { "en": "Happy birthday to you!", "vi": "Chúc mừng sinh nhật bạn!" },
+            {
+              "en": "Vietnamese celebrate 1st birthday big.",
+              "vi": "Người Việt mừng sinh nhật 1 tuổi to."
+            },
+            {
+              "en": "Don't forget her birthday next week.",
+              "vi": "Đừng quên sinh nhật cô ấy tuần sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "happy birthday",
+        "birthday party",
+        "birthday cake",
+        "birthday present",
+        "celebrate birthday"
+      ],
+      "etymology_hint": "Compound of 'birth' + 'day' — Middle English construction.",
+      "mnemonic_vi": "BIRTHDAY = BIRTH + DAY → 'ngày sinh'. Happy birthday = mừng SN."
+    },
+    {
+      "word": "milestone",
+      "lemma": "milestone",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an important event or stage in life",
+          "meaning_vi": "cột mốc (cuộc đời, sự kiện)",
+          "examples": [
+            { "en": "Graduation is a major milestone.", "vi": "Tốt nghiệp là cột mốc lớn." },
+            { "en": "Celebrate small milestones.", "vi": "Mừng các cột mốc nhỏ." },
+            {
+              "en": "Vietnam's reunification was a national milestone.",
+              "vi": "Thống nhất Việt Nam là cột mốc quốc gia."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["landmark"],
+      "antonyms": [],
+      "collocations": [
+        "reach a milestone",
+        "major milestone",
+        "important milestone",
+        "career milestone",
+        "life milestone"
+      ],
+      "etymology_hint": "Compound of 'mile' + 'stone' — original stones marking distances on roads.",
+      "mnemonic_vi": "MILESTONE = MILE + STONE → 'cột đá đo dặm'. Life milestone = cột mốc đời."
+    },
+    {
+      "word": "lifespan",
+      "lemma": "lifespan",
+      "ipa": "/ˈlaɪfspæn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the length of time someone or something lives",
+          "meaning_vi": "tuổi thọ",
+          "examples": [
+            { "en": "Vietnamese average lifespan is 73.", "vi": "Tuổi thọ trung bình Việt là 73." },
+            { "en": "Healthy habits extend lifespan.", "vi": "Thói quen lành kéo dài tuổi thọ." },
+            { "en": "Phones have a 3-year lifespan.", "vi": "Điện thoại có tuổi thọ 3 năm." }
+          ]
+        }
+      ],
+      "synonyms": ["life expectancy"],
+      "antonyms": [],
+      "collocations": [
+        "average lifespan",
+        "extend lifespan",
+        "human lifespan",
+        "product lifespan",
+        "shortened lifespan"
+      ],
+      "etymology_hint": "Compound of 'life' + 'span' — modern English biomedical term.",
+      "mnemonic_vi": "LIFESPAN = LIFE + SPAN → 'khoảng đời'. Average lifespan = tuổi thọ TB."
+    },
+    {
+      "word": "ancient",
+      "lemma": "ancient",
+      "ipa": "/ˈeɪnʃənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "very old; from a long time ago",
+          "meaning_vi": "cổ xưa, cổ đại",
+          "examples": [
+            { "en": "Hội An has ancient houses.", "vi": "Hội An có nhà cổ." },
+            {
+              "en": "Ancient Vietnamese kings ruled from Thăng Long.",
+              "vi": "Vua Việt cổ trị từ Thăng Long."
+            },
+            { "en": "Ancient Egypt fascinated tourists.", "vi": "Ai Cập cổ đại hấp dẫn du khách." }
+          ]
+        }
+      ],
+      "synonyms": ["old", "antique"],
+      "antonyms": ["modern", "new"],
+      "collocations": [
+        "ancient times",
+        "ancient history",
+        "ancient civilization",
+        "ancient temple",
+        "ancient text"
+      ],
+      "etymology_hint": "From Old French 'ancien' meaning 'former, old' — from Latin 'antianus' (former).",
+      "mnemonic_vi": "ANCIENT = 'ên-shờnt' — 'ếnh' xưa. Ancient temple = đền cổ."
+    },
+    {
+      "word": "juvenile",
+      "lemma": "juvenile",
+      "ipa": "/ˈdʒuːvənaɪl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "for or about young people; childish",
+          "meaning_vi": "vị thành niên; trẻ con (ám chỉ chưa chín)",
+          "examples": [
+            { "en": "Juvenile crime is a concern.", "vi": "Tội phạm vị thành niên đáng lo." },
+            {
+              "en": "His humor is too juvenile for me.",
+              "vi": "Hài của anh ấy quá trẻ con với tôi."
+            },
+            { "en": "Juvenile court handles teens.", "vi": "Tòa vị thành niên xử teen." }
+          ]
+        }
+      ],
+      "synonyms": ["childish", "young"],
+      "antonyms": ["mature", "adult"],
+      "collocations": [
+        "juvenile crime",
+        "juvenile court",
+        "juvenile behavior",
+        "juvenile delinquent",
+        "act juvenile"
+      ],
+      "etymology_hint": "From Latin 'juvenilis' meaning 'youthful' — from 'juvenis' (young person).",
+      "mnemonic_vi": "JUVENILE = JUVEN + ILE → 'thuộc tuổi trẻ'. Juvenile crime = tội vị thành niên."
+    },
+    {
+      "word": "nostalgic",
+      "lemma": "nostalgic",
+      "ipa": "/nɒˈstældʒɪk/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "feeling sweet sadness when remembering the past",
+          "meaning_vi": "nhớ nhung (quá khứ), hoài niệm",
+          "examples": [
+            { "en": "Old songs make me nostalgic.", "vi": "Bài hát cũ khiến tôi hoài niệm." },
+            {
+              "en": "She's nostalgic for her childhood in Hà Nội.",
+              "vi": "Cô ấy hoài niệm tuổi thơ Hà Nội."
+            },
+            { "en": "The film is wonderfully nostalgic.", "vi": "Phim đầy hoài niệm tuyệt vời." }
+          ]
+        }
+      ],
+      "synonyms": ["wistful", "sentimental"],
+      "antonyms": [],
+      "collocations": [
+        "feel nostalgic",
+        "nostalgic about",
+        "nostalgic memory",
+        "nostalgic music",
+        "deeply nostalgic"
+      ],
+      "etymology_hint": "From Greek 'nostos' (return home) + 'algos' (pain) — coined in 1688 to describe homesickness.",
+      "mnemonic_vi": "NOSTALGIC = NOST + ALGIC → 'đau nhớ quê'. Feel nostalgic = hoài niệm."
+    },
+    {
+      "word": "legacy",
+      "lemma": "legacy",
+      "ipa": "/ˈleɡəsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something important that you leave behind after you die",
+          "meaning_vi": "di sản, dấu ấn để lại",
+          "examples": [
+            { "en": "Steve Jobs left a tech legacy.", "vi": "Steve Jobs để lại di sản công nghệ." },
+            { "en": "What legacy do you want to leave?", "vi": "Bạn muốn để lại di sản gì?" },
+            { "en": "Hồ Chí Minh's legacy lives on.", "vi": "Di sản Hồ Chí Minh sống mãi." }
+          ]
+        }
+      ],
+      "synonyms": ["heritage", "inheritance"],
+      "antonyms": [],
+      "collocations": [
+        "lasting legacy",
+        "leave a legacy",
+        "cultural legacy",
+        "family legacy",
+        "build a legacy"
+      ],
+      "etymology_hint": "From Latin 'legatia' meaning 'mission' — from 'legare' (to send as deputy).",
+      "mnemonic_vi": "LEGACY = LEG + ACY → 'cái di chuyển lại'. Leave a legacy = để lại di sản."
+    }
+  ]
+}

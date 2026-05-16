@@ -1,0 +1,709 @@
+{
+  "slug": "streaming-media",
+  "name": "Streaming & Media",
+  "description": "Streaming và truyền thông B1 — original, trailer, spoiler, binge, sequel và 15 từ về Netflix culture.",
+  "order_index": 8,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "original",
+      "lemma": "original",
+      "ipa": "/əˈrɪdʒənl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "made by a streaming service, not a TV channel",
+          "meaning_vi": "phim/show gốc (Netflix Original, etc.)",
+          "examples": [
+            {
+              "en": "Netflix Originals dominate the platform.",
+              "vi": "Netflix Originals chiếm sóng nền tảng."
+            },
+            { "en": "Squid Game is a Netflix Original.", "vi": "Squid Game là phim Netflix gốc." },
+            {
+              "en": "Vietnamese originals are gaining popularity.",
+              "vi": "Phim Việt gốc đang nổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exclusive"],
+      "antonyms": ["adaptation"],
+      "collocations": [
+        "Netflix Original",
+        "original content",
+        "original series",
+        "stream originals",
+        "exclusive original"
+      ],
+      "etymology_hint": "From Latin 'originalis' meaning 'from the beginning' — streaming sense from 2010s with Netflix-produced content.",
+      "mnemonic_vi": "ORIGINAL = ORIGIN + AL → 'thuộc nguồn gốc'. Netflix Original = phim gốc Netflix."
+    },
+    {
+      "word": "trailer",
+      "lemma": "trailer",
+      "ipa": "/ˈtreɪlə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short video that promotes a movie or show",
+          "meaning_vi": "trailer phim (đoạn giới thiệu)",
+          "examples": [
+            {
+              "en": "Watch the trailer before deciding to see the movie.",
+              "vi": "Xem trailer trước khi quyết xem phim."
+            },
+            { "en": "The Avengers trailer broke records.", "vi": "Trailer Avengers phá kỷ lục." },
+            {
+              "en": "Trailers reveal too much sometimes.",
+              "vi": "Trailer đôi khi tiết lộ quá nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["preview"],
+      "antonyms": [],
+      "collocations": [
+        "watch a trailer",
+        "official trailer",
+        "movie trailer",
+        "release a trailer",
+        "teaser trailer"
+      ],
+      "etymology_hint": "From 'trail' + '-er' — originally promotional reels shown after (trailing) movies in 1910s.",
+      "mnemonic_vi": "TRAILER = TRAIL + ER → 'cái theo sau'. Movie trailer = trailer phim."
+    },
+    {
+      "word": "spoiler",
+      "lemma": "spoiler",
+      "ipa": "/ˈspɔɪlə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "information that reveals the surprise of a movie or show",
+          "meaning_vi": "spoiler, tiết lộ nội dung",
+          "examples": [
+            {
+              "en": "No spoilers — I haven't watched it yet!",
+              "vi": "Đừng spoiler — tôi chưa xem!"
+            },
+            { "en": "Avoid Twitter to dodge spoilers.", "vi": "Tránh Twitter để né spoiler." },
+            {
+              "en": "Spoiler alert: she dies in the end.",
+              "vi": "Cảnh báo spoiler: cô ấy chết ở cuối."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "no spoilers",
+        "spoiler alert",
+        "avoid spoilers",
+        "major spoiler",
+        "spoiler-free"
+      ],
+      "etymology_hint": "From 'spoil' + '-er' — modern entertainment sense from late 1990s internet culture.",
+      "mnemonic_vi": "SPOILER = SPOIL + ER → 'kẻ phá hỏng'. Spoiler alert = cảnh báo spoiler."
+    },
+    {
+      "word": "binge",
+      "lemma": "binge",
+      "ipa": "/bɪndʒ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to watch many episodes of a show in a row",
+          "meaning_vi": "xem liên tục, cày phim",
+          "examples": [
+            {
+              "en": "I binged the entire season in one weekend.",
+              "vi": "Tôi cày cả mùa trong 1 cuối tuần."
+            },
+            { "en": "Don't binge — get some sleep!", "vi": "Đừng cày phim — ngủ chút đi!" },
+            { "en": "Netflix encourages binge-watching.", "vi": "Netflix khuyến khích cày phim." }
+          ]
+        }
+      ],
+      "synonyms": ["marathon"],
+      "antonyms": [],
+      "collocations": [
+        "binge-watch",
+        "binge a show",
+        "Netflix binge",
+        "weekend binge",
+        "binge-worthy"
+      ],
+      "etymology_hint": "From English dialect 'binge' meaning 'to soak' — original drinking sense extended to consumption habits.",
+      "mnemonic_vi": "BINGE = 'bin-dz' — 'binh' xem liên tục. Binge-watch = cày phim."
+    },
+    {
+      "word": "finale",
+      "lemma": "finale",
+      "ipa": "/fɪˈnɑːli/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the last episode of a TV show or season",
+          "meaning_vi": "tập cuối, đêm chung kết",
+          "examples": [
+            { "en": "The series finale was emotional.", "vi": "Tập cuối loạt phim cảm động." },
+            { "en": "Season finale always has a twist.", "vi": "Tập cuối mùa luôn có twist." },
+            {
+              "en": "Game of Thrones' finale disappointed many.",
+              "vi": "Tập cuối GoT thất vọng nhiều người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conclusion"],
+      "antonyms": ["premiere"],
+      "collocations": [
+        "series finale",
+        "season finale",
+        "grand finale",
+        "shocking finale",
+        "epic finale"
+      ],
+      "etymology_hint": "From Italian 'finale' meaning 'final' — adopted into English from music/opera in 18th century.",
+      "mnemonic_vi": "FINALE = 'fi-ná-li' — Italian 'cuối'. Series finale = tập cuối phim."
+    },
+    {
+      "word": "cliffhanger",
+      "lemma": "cliffhanger",
+      "ipa": "/ˈklɪfhæŋə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an ending that leaves you wanting to know what happens next",
+          "meaning_vi": "kết treo, kết lửng",
+          "examples": [
+            {
+              "en": "The cliffhanger made me wait a year for season 2.",
+              "vi": "Cliffhanger khiến tôi đợi 1 năm mùa 2."
+            },
+            {
+              "en": "Don't end with a cliffhanger every time!",
+              "vi": "Đừng lúc nào cũng kết treo!"
+            },
+            { "en": "Cliffhangers keep viewers hooked.", "vi": "Cliffhanger giữ người xem dính." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["closure"],
+      "collocations": [
+        "leave on a cliffhanger",
+        "shocking cliffhanger",
+        "ended with a cliffhanger",
+        "season cliffhanger",
+        "annoying cliffhanger"
+      ],
+      "etymology_hint": "Compound of 'cliff' + 'hanger' — from old silent films where hero literally hung from cliff at episode end.",
+      "mnemonic_vi": "CLIFFHANGER = CLIFF + HANGER → 'người treo trên vách'. Cliffhanger = kết treo lửng."
+    },
+    {
+      "word": "cast",
+      "lemma": "cast",
+      "ipa": "/kɑːst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "all the actors in a movie or show",
+          "meaning_vi": "dàn diễn viên",
+          "examples": [
+            {
+              "en": "The Avengers cast includes 20+ stars.",
+              "vi": "Dàn Avengers có hơn 20 ngôi sao."
+            },
+            {
+              "en": "Vietnamese cast performed amazingly.",
+              "vi": "Dàn diễn viên Việt diễn xuất sắc."
+            },
+            { "en": "Meet the cast at the premiere.", "vi": "Gặp dàn diễn viên ở buổi ra mắt." }
+          ]
+        }
+      ],
+      "synonyms": ["ensemble"],
+      "antonyms": [],
+      "collocations": [
+        "main cast",
+        "supporting cast",
+        "all-star cast",
+        "cast reunion",
+        "cast member"
+      ],
+      "etymology_hint": "From Old Norse 'kasta' meaning 'to throw' — theatrical sense from 'casting' actors into roles.",
+      "mnemonic_vi": "CAST = 'cást' — 'cát' nhóm diễn. Main cast = dàn chính."
+    },
+    {
+      "word": "reboot",
+      "lemma": "reboot",
+      "ipa": "/ˌriːˈbuːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a new version of an old movie or show",
+          "meaning_vi": "phiên bản làm lại (phim cũ)",
+          "examples": [
+            { "en": "The Spider-Man reboot was popular.", "vi": "Reboot Spider-Man rất hot." },
+            {
+              "en": "Hollywood loves rebooting classics.",
+              "vi": "Hollywood thích reboot phim kinh điển."
+            },
+            { "en": "Vietnamese movies see fewer reboots.", "vi": "Phim Việt ít reboot hơn." }
+          ]
+        }
+      ],
+      "synonyms": ["remake"],
+      "antonyms": ["original"],
+      "collocations": [
+        "movie reboot",
+        "successful reboot",
+        "franchise reboot",
+        "modern reboot",
+        "live-action reboot"
+      ],
+      "etymology_hint": "Computer term meaning 'restart' — entertainment sense from 2000s for refreshed franchises.",
+      "mnemonic_vi": "REBOOT = RE + BOOT → 'khởi động lại'. Movie reboot = phim làm lại."
+    },
+    {
+      "word": "sequel",
+      "lemma": "sequel",
+      "ipa": "/ˈsiːkwəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a movie or book that continues a story from an earlier one",
+          "meaning_vi": "phần tiếp theo (phim, sách)",
+          "examples": [
+            {
+              "en": "Avatar 2 was a sequel to the 2009 hit.",
+              "vi": "Avatar 2 là phần tiếp của bộ 2009."
+            },
+            {
+              "en": "Sequels rarely beat the original.",
+              "vi": "Phần tiếp ít khi hay hơn bản gốc."
+            },
+            { "en": "Squid Game has a sequel coming.", "vi": "Squid Game sắp có phần tiếp." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["prequel"],
+      "collocations": [
+        "movie sequel",
+        "long-awaited sequel",
+        "book sequel",
+        "make a sequel",
+        "successful sequel"
+      ],
+      "etymology_hint": "From Latin 'sequela' meaning 'consequence, that which follows' — from 'sequi' (to follow).",
+      "mnemonic_vi": "SEQUEL = SEQU + EL → 'cái theo sau'. Movie sequel = phim phần 2."
+    },
+    {
+      "word": "prequel",
+      "lemma": "prequel",
+      "ipa": "/ˈpriːkwəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a movie or book that tells events from before the original",
+          "meaning_vi": "phần trước (phim, sách — trước bản gốc)",
+          "examples": [
+            {
+              "en": "Star Wars prequels tell young Vader's story.",
+              "vi": "Prequel Star Wars kể chuyện Vader trẻ."
+            },
+            {
+              "en": "House of the Dragon is a Game of Thrones prequel.",
+              "vi": "House of the Dragon là prequel GoT."
+            },
+            { "en": "Prequels can spoil the original.", "vi": "Prequel có thể spoil phim gốc." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["sequel"],
+      "collocations": [
+        "movie prequel",
+        "prequel trilogy",
+        "TV prequel",
+        "anticipated prequel",
+        "release a prequel"
+      ],
+      "etymology_hint": "Compound of 'pre-' (before) + 'sequel' — coined in 1958 by Anthony Boucher.",
+      "mnemonic_vi": "PREQUEL = PRE + QUEL → 'cái có trước sequel'. Prequel = phần kể chuyện trước."
+    },
+    {
+      "word": "spinoff",
+      "lemma": "spinoff",
+      "ipa": "/ˈspɪnɒf/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a new show featuring characters from an existing one",
+          "meaning_vi": "spin-off (phim/show tách ra)",
+          "examples": [
+            {
+              "en": "Better Call Saul is a Breaking Bad spinoff.",
+              "vi": "Better Call Saul là spinoff của Breaking Bad."
+            },
+            {
+              "en": "Spinoffs let fans see more of favorite characters.",
+              "vi": "Spinoff cho fan thấy thêm nhân vật yêu thích."
+            },
+            {
+              "en": "Some spinoffs become bigger than the original.",
+              "vi": "Một số spinoff lớn hơn phim gốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["offshoot"],
+      "antonyms": [],
+      "collocations": [
+        "TV spinoff",
+        "successful spinoff",
+        "create a spinoff",
+        "spinoff series",
+        "anime spinoff"
+      ],
+      "etymology_hint": "Compound of 'spin' + 'off' — original business sense for company subsidiaries, extended to entertainment.",
+      "mnemonic_vi": "SPINOFF = SPIN + OFF → 'tách ra'. TV spinoff = show tách từ phim gốc."
+    },
+    {
+      "word": "crossover",
+      "lemma": "crossover",
+      "ipa": "/ˈkrɒsəʊvə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an event where characters from different shows meet",
+          "meaning_vi": "crossover (nhân vật từ phim khác gặp nhau)",
+          "examples": [
+            {
+              "en": "The Avengers crossover united heroes.",
+              "vi": "Crossover Avengers gộp nhiều siêu anh hùng."
+            },
+            { "en": "Fans love crossover episodes.", "vi": "Fan thích tập crossover." },
+            {
+              "en": "Crossovers boost ratings of both shows.",
+              "vi": "Crossover tăng rating cả 2 phim."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "crossover episode",
+        "epic crossover",
+        "anime crossover",
+        "crossover event",
+        "rare crossover"
+      ],
+      "etymology_hint": "Compound of 'cross' + 'over' — modern entertainment usage from 1990s comics and TV.",
+      "mnemonic_vi": "CROSSOVER = CROSS + OVER → 'qua giao nhau'. Crossover episode = tập crossover."
+    },
+    {
+      "word": "thriller",
+      "lemma": "thriller",
+      "ipa": "/ˈθrɪlə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an exciting movie or book full of suspense and action",
+          "meaning_vi": "phim gay cấn, ly kỳ",
+          "examples": [
+            { "en": "Thrillers keep me on edge.", "vi": "Phim ly kỳ giữ tôi căng thẳng." },
+            {
+              "en": "Michael Jackson's 'Thriller' is iconic.",
+              "vi": "'Thriller' của MJ là biểu tượng."
+            },
+            { "en": "Vietnamese thrillers are improving.", "vi": "Phim ly kỳ Việt đang cải thiện." }
+          ]
+        }
+      ],
+      "synonyms": ["suspense"],
+      "antonyms": ["comedy"],
+      "collocations": [
+        "psychological thriller",
+        "spy thriller",
+        "action thriller",
+        "crime thriller",
+        "watch a thriller"
+      ],
+      "etymology_hint": "From 'thrill' + '-er' — coined in early 20th century for exciting fiction.",
+      "mnemonic_vi": "THRILLER = THRILL + ER → 'phim gây thrill'. Thriller = phim ly kỳ."
+    },
+    {
+      "word": "sitcom",
+      "lemma": "sitcom",
+      "ipa": "/ˈsɪtkɒm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a funny TV show with the same characters in each episode",
+          "meaning_vi": "phim hài tình huống",
+          "examples": [
+            { "en": "Friends is a classic sitcom.", "vi": "Friends là sitcom kinh điển." },
+            {
+              "en": "Vietnamese sitcoms are growing on YouTube.",
+              "vi": "Sitcom Việt tăng trên YouTube."
+            },
+            {
+              "en": "Sitcoms typically have laugh tracks.",
+              "vi": "Sitcom thường có tiếng cười nền."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "classic sitcom",
+        "popular sitcom",
+        "American sitcom",
+        "family sitcom",
+        "watch a sitcom"
+      ],
+      "etymology_hint": "Short for 'situation comedy' — coined in 1953 by US TV magazine.",
+      "mnemonic_vi": "SITCOM = SIT + COM → 'situation comedy'. Sitcom = hài tình huống."
+    },
+    {
+      "word": "soundtrack",
+      "lemma": "soundtrack",
+      "ipa": "/ˈsaʊndtræk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the music used in a movie or show",
+          "meaning_vi": "nhạc phim",
+          "examples": [
+            {
+              "en": "Interstellar's soundtrack is unforgettable.",
+              "vi": "Nhạc phim Interstellar không thể quên."
+            },
+            {
+              "en": "I bought the Avengers soundtrack on Spotify.",
+              "vi": "Tôi mua soundtrack Avengers trên Spotify."
+            },
+            {
+              "en": "A good soundtrack makes a movie better.",
+              "vi": "Soundtrack hay làm phim hay hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["score", "OST"],
+      "antonyms": [],
+      "collocations": [
+        "movie soundtrack",
+        "original soundtrack",
+        "great soundtrack",
+        "soundtrack album",
+        "iconic soundtrack"
+      ],
+      "etymology_hint": "Compound of 'sound' + 'track' — coined in 1929 with rise of synchronized sound films.",
+      "mnemonic_vi": "SOUNDTRACK = SOUND + TRACK → 'rãnh âm thanh'. Movie soundtrack = nhạc phim."
+    },
+    {
+      "word": "subscriber",
+      "lemma": "subscriber",
+      "ipa": "/səbˈskraɪbə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who pays to use a service or follow a channel",
+          "meaning_vi": "người đăng ký",
+          "examples": [
+            {
+              "en": "Netflix has 230 million subscribers.",
+              "vi": "Netflix có 230 triệu người đăng ký."
+            },
+            {
+              "en": "She has 1 million YouTube subscribers.",
+              "vi": "Cô ấy có 1 triệu sub YouTube."
+            },
+            {
+              "en": "Subscribers get exclusive content.",
+              "vi": "Người đăng ký được nội dung độc quyền."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Netflix subscriber",
+        "YouTube subscriber",
+        "paid subscriber",
+        "subscriber count",
+        "loyal subscriber"
+      ],
+      "etymology_hint": "From 'subscribe' + '-er' — modern digital sense from 2000s subscription services.",
+      "mnemonic_vi": "SUBSCRIBER = SUBSCRIBE + R → 'người đăng ký'. YouTube subscriber = sub YT."
+    },
+    {
+      "word": "rating",
+      "lemma": "rating",
+      "ipa": "/ˈreɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a score that shows how good or popular something is",
+          "meaning_vi": "đánh giá, xếp hạng",
+          "examples": [
+            { "en": "This movie has a 9/10 rating on IMDb.", "vi": "Phim này 9/10 trên IMDb." },
+            {
+              "en": "Higher ratings attract more viewers.",
+              "vi": "Xếp hạng cao thu hút thêm người xem."
+            },
+            {
+              "en": "She gave the restaurant 5 stars in her rating.",
+              "vi": "Cô ấy đánh giá 5 sao cho nhà hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["score", "ranking"],
+      "antonyms": [],
+      "collocations": ["high rating", "IMDb rating", "TV rating", "5-star rating", "rating system"],
+      "etymology_hint": "From 'rate' + '-ing' — sense of evaluation/score from 19th century commercial usage.",
+      "mnemonic_vi": "RATING = RATE + ING → 'sự xếp hạng'. IMDb rating = đánh giá IMDb."
+    },
+    {
+      "word": "documentary",
+      "lemma": "documentary",
+      "ipa": "/ˌdɒkjuˈmentri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a movie or show about real people and events",
+          "meaning_vi": "phim tài liệu",
+          "examples": [
+            {
+              "en": "Netflix has great nature documentaries.",
+              "vi": "Netflix có phim tài liệu thiên nhiên hay."
+            },
+            {
+              "en": "She watches a documentary every night.",
+              "vi": "Cô ấy xem phim tài liệu mỗi tối."
+            },
+            {
+              "en": "Vietnamese documentaries explore local culture.",
+              "vi": "Phim tài liệu Việt khám phá văn hóa địa phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doc"],
+      "antonyms": ["fiction"],
+      "collocations": [
+        "nature documentary",
+        "watch a documentary",
+        "documentary film",
+        "true crime documentary",
+        "documentary series"
+      ],
+      "etymology_hint": "From 'document' + '-ary' — film term coined in 1926 by John Grierson.",
+      "mnemonic_vi": "DOCUMENTARY = DOCUMENT + ARY → 'thuộc tài liệu'. Nature documentary = phim TL thiên nhiên."
+    },
+    {
+      "word": "showrunner",
+      "lemma": "showrunner",
+      "ipa": "/ˈʃəʊrʌnə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the person in charge of writing and producing a TV show",
+          "meaning_vi": "showrunner (người điều hành show)",
+          "examples": [
+            {
+              "en": "Vince Gilligan is the showrunner of Breaking Bad.",
+              "vi": "Vince Gilligan là showrunner Breaking Bad."
+            },
+            {
+              "en": "Showrunners shape the entire series.",
+              "vi": "Showrunner định hình cả loạt phim."
+            },
+            {
+              "en": "A new showrunner often changes the tone.",
+              "vi": "Showrunner mới thường đổi phong cách."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "TV showrunner",
+        "famous showrunner",
+        "showrunner deal",
+        "new showrunner",
+        "veteran showrunner"
+      ],
+      "etymology_hint": "Compound of 'show' + 'runner' — coined in 1990s American TV industry.",
+      "mnemonic_vi": "SHOWRUNNER = SHOW + RUNNER → 'người chạy show'. Người đứng đầu sản xuất TV."
+    },
+    {
+      "word": "playlist",
+      "lemma": "playlist",
+      "ipa": "/ˈpleɪlɪst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a list of songs or videos chosen to play in order",
+          "meaning_vi": "playlist (danh sách phát)",
+          "examples": [
+            {
+              "en": "My morning playlist has K-pop and lo-fi.",
+              "vi": "Playlist sáng của tôi có K-pop và lo-fi."
+            },
+            {
+              "en": "Spotify recommends weekly playlists.",
+              "vi": "Spotify gợi ý playlist hàng tuần."
+            },
+            {
+              "en": "She shared her workout playlist with friends.",
+              "vi": "Cô ấy chia sẻ playlist tập với bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "create a playlist",
+        "workout playlist",
+        "shared playlist",
+        "Spotify playlist",
+        "favorite playlist"
+      ],
+      "etymology_hint": "Compound of 'play' + 'list' — coined in 1980s with rise of CD players and digital music.",
+      "mnemonic_vi": "PLAYLIST = PLAY + LIST → 'danh sách phát'. Workout playlist = playlist tập."
+    }
+  ]
+}
