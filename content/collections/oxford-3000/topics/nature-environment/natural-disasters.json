@@ -1,0 +1,769 @@
+{
+  "slug": "natural-disasters",
+  "name": "Natural Disasters",
+  "description": "Thiên tai B1 — earthquake, eruption, evacuation, rescue và 16 từ về thảm họa và phản ứng cứu trợ.",
+  "order_index": 10,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "earthquake",
+      "lemma": "earthquake",
+      "ipa": "/ˈɜːθkweɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a sudden violent shaking of the ground caused by movement in the Earth's crust",
+          "meaning_vi": "động đất",
+          "examples": [
+            {
+              "en": "Japan experiences thousands of small earthquakes each year.",
+              "vi": "Nhật Bản hứng chịu hàng nghìn trận động đất nhỏ mỗi năm."
+            },
+            {
+              "en": "The 2011 earthquake triggered a massive tsunami.",
+              "vi": "Trận động đất năm 2011 gây ra sóng thần khổng lồ."
+            },
+            {
+              "en": "Earthquakes are rare but possible in northern Vietnam.",
+              "vi": "Động đất hiếm nhưng có thể xảy ra ở miền Bắc Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quake", "tremor", "seismic event"],
+      "antonyms": [],
+      "collocations": [
+        "powerful earthquake",
+        "earthquake hits",
+        "earthquake-resistant",
+        "major earthquake",
+        "earthquake zone"
+      ],
+      "etymology_hint": "Compound: 'earth' + 'quake' (to shake) — both Old English roots, formed by 14th century.",
+      "mnemonic_vi": "EARTH (đất) + QUAKE (rung) = đất rung. Earthquake hits = động đất ập đến."
+    },
+    {
+      "word": "eruption",
+      "lemma": "eruption",
+      "ipa": "/ɪˈrʌpʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the sudden release of lava, ash, or gas from a volcano",
+          "meaning_vi": "sự phun trào (núi lửa)",
+          "examples": [
+            {
+              "en": "The volcanic eruption forced 10,000 people to flee.",
+              "vi": "Vụ phun trào buộc 10.000 người phải sơ tán."
+            },
+            {
+              "en": "Krakatoa's 1883 eruption was heard 3,000 miles away.",
+              "vi": "Vụ phun trào Krakatoa 1883 nghe được từ 4.800km."
+            },
+            {
+              "en": "Scientists predicted the eruption days in advance.",
+              "vi": "Nhà khoa học dự báo vụ phun trào trước nhiều ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["explosion", "outburst"],
+      "antonyms": ["dormancy", "stillness"],
+      "collocations": [
+        "volcanic eruption",
+        "major eruption",
+        "eruption warning",
+        "violent eruption",
+        "ongoing eruption"
+      ],
+      "etymology_hint": "From Latin 'eruptio' = a breaking out — 'e-' (out) + 'rumpere' (break).",
+      "mnemonic_vi": "E (ra) + RUPT (vỡ) + ION = sự vỡ ra. Volcanic eruption = phun trào núi lửa."
+    },
+    {
+      "word": "wildfire",
+      "lemma": "wildfire",
+      "ipa": "/ˈwaɪldfaɪə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large, uncontrolled fire that spreads quickly through forest or grassland",
+          "meaning_vi": "cháy rừng dữ dội",
+          "examples": [
+            {
+              "en": "Australian wildfires burned for months in 2020.",
+              "vi": "Cháy rừng Úc cháy nhiều tháng trong năm 2020."
+            },
+            {
+              "en": "Climate change is making wildfires more frequent.",
+              "vi": "Biến đổi khí hậu khiến cháy rừng xảy ra thường xuyên hơn."
+            },
+            {
+              "en": "The wildfire destroyed thousands of homes.",
+              "vi": "Vụ cháy rừng phá hủy hàng nghìn căn nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forest fire", "bushfire", "brushfire"],
+      "antonyms": ["controlled burn"],
+      "collocations": [
+        "massive wildfire",
+        "wildfire season",
+        "spread like wildfire",
+        "wildfire smoke",
+        "battle a wildfire"
+      ],
+      "etymology_hint": "Compound: 'wild' + 'fire' — 14th-century term originally meaning 'Greek fire' (incendiary weapon).",
+      "mnemonic_vi": "WILD (hoang) + FIRE (lửa) = lửa hoang. Spread like wildfire = lan như lửa rừng."
+    },
+    {
+      "word": "blizzard",
+      "lemma": "blizzard",
+      "ipa": "/ˈblɪzəd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a severe snowstorm with strong winds and heavy snowfall",
+          "meaning_vi": "bão tuyết",
+          "examples": [
+            {
+              "en": "The blizzard shut down all highways for two days.",
+              "vi": "Cơn bão tuyết đóng tất cả đường cao tốc trong 2 ngày."
+            },
+            {
+              "en": "Visibility dropped to zero in the blizzard.",
+              "vi": "Tầm nhìn về 0 trong bão tuyết."
+            },
+            {
+              "en": "Vietnam's Sa Pa rarely sees a real blizzard.",
+              "vi": "Sa Pa của Việt Nam hiếm khi có bão tuyết thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["snowstorm", "whiteout"],
+      "antonyms": ["calm weather", "clear skies"],
+      "collocations": [
+        "severe blizzard",
+        "blizzard warning",
+        "blizzard conditions",
+        "blizzard hits",
+        "snowed in by blizzard"
+      ],
+      "etymology_hint": "American English from 1820s, possibly imitative of a sudden, violent blow — popularized after 1888 'Great Blizzard'.",
+      "mnemonic_vi": "BLIZZARD đọc 'bli-zợt' — bị 'zợt' bởi tuyết. Severe blizzard = bão tuyết dữ."
+    },
+    {
+      "word": "avalanche",
+      "lemma": "avalanche",
+      "ipa": "/ˈævəlɑːnʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large amount of snow, ice, or rock that falls suddenly down a mountainside",
+          "meaning_vi": "lở tuyết, lở đất đá (núi)",
+          "examples": [
+            {
+              "en": "Three climbers were buried by the avalanche.",
+              "vi": "Ba người leo núi bị chôn vùi trong vụ lở tuyết."
+            },
+            {
+              "en": "Avalanche warnings are issued daily in the Alps.",
+              "vi": "Cảnh báo lở tuyết được phát hàng ngày ở dãy Alps."
+            },
+            {
+              "en": "The loud noise triggered an avalanche above us.",
+              "vi": "Tiếng động lớn gây ra vụ lở tuyết phía trên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["snowslide", "landslide (similar)"],
+      "antonyms": [],
+      "collocations": [
+        "trigger an avalanche",
+        "avalanche warning",
+        "deadly avalanche",
+        "buried by an avalanche",
+        "avalanche risk"
+      ],
+      "etymology_hint": "From French Alpine dialect 'avalantse' = a descent — from Latin 'ad vallem' = to the valley.",
+      "mnemonic_vi": "AVALANCHE đọc 'a-và-lân' — a, và lăn ầm xuống. Trigger an avalanche = gây lở tuyết."
+    },
+    {
+      "word": "landslide",
+      "lemma": "landslide",
+      "ipa": "/ˈlændslaɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the sudden movement of a mass of earth or rock down a slope",
+          "meaning_vi": "lở đất, sạt lở",
+          "examples": [
+            {
+              "en": "Heavy rains caused a landslide in Lào Cai.",
+              "vi": "Mưa lớn gây sạt lở ở Lào Cai."
+            },
+            {
+              "en": "The landslide buried the road for weeks.",
+              "vi": "Vụ sạt lở vùi lấp con đường nhiều tuần."
+            },
+            {
+              "en": "Deforestation makes landslides much more likely.",
+              "vi": "Phá rừng làm sạt lở dễ xảy ra hơn nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mudslide", "rockslide"],
+      "antonyms": [],
+      "collocations": [
+        "trigger a landslide",
+        "deadly landslide",
+        "landslide warning",
+        "landslide victim",
+        "prevent landslides"
+      ],
+      "etymology_hint": "Compound: 'land' + 'slide' — 19th-century English, also used metaphorically for big election wins.",
+      "mnemonic_vi": "LAND (đất) + SLIDE (trượt) = đất trượt. Trigger a landslide = gây sạt lở."
+    },
+    {
+      "word": "tornado",
+      "lemma": "tornado",
+      "ipa": "/tɔːˈneɪdəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a violently rotating column of air that touches the ground, very destructive",
+          "meaning_vi": "vòi rồng, lốc xoáy mạnh",
+          "examples": [
+            {
+              "en": "The tornado destroyed an entire neighborhood.",
+              "vi": "Vòi rồng phá hủy cả một khu dân cư."
+            },
+            {
+              "en": "Tornado Alley in the US sees hundreds each year.",
+              "vi": "Tornado Alley ở Mỹ có hàng trăm vòi rồng mỗi năm."
+            },
+            {
+              "en": "Take shelter immediately when a tornado warning sounds.",
+              "vi": "Trú ẩn ngay lập tức khi có cảnh báo vòi rồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["twister", "cyclone (similar)", "whirlwind"],
+      "antonyms": [],
+      "collocations": [
+        "tornado warning",
+        "tornado watch",
+        "violent tornado",
+        "tornado damage",
+        "tornado season"
+      ],
+      "etymology_hint": "From Spanish 'tronada' = thunderstorm — Anglicized in 16th century, narrowed in meaning by 19th century.",
+      "mnemonic_vi": "TORNADO = 'tó-nây-đô' — tó nó nề đỗ cả nhà. Tornado warning = cảnh báo vòi rồng."
+    },
+    {
+      "word": "monsoon",
+      "lemma": "monsoon",
+      "ipa": "/mɒnˈsuːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a season of heavy rain in South and Southeast Asia, often causing floods",
+          "meaning_vi": "mùa mưa nhiệt đới (gió mùa)",
+          "examples": [
+            {
+              "en": "The monsoon turns Hà Nội streets into rivers.",
+              "vi": "Mùa mưa biến đường phố Hà Nội thành sông."
+            },
+            {
+              "en": "Vietnam's rice harvest depends on a steady monsoon.",
+              "vi": "Vụ lúa Việt Nam phụ thuộc vào mùa mưa ổn định."
+            },
+            {
+              "en": "A late monsoon can cause crop failures.",
+              "vi": "Mùa mưa đến muộn có thể gây mất mùa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rainy season", "wet season"],
+      "antonyms": ["dry season"],
+      "collocations": [
+        "monsoon season",
+        "heavy monsoon",
+        "monsoon rains",
+        "late monsoon",
+        "monsoon flooding"
+      ],
+      "etymology_hint": "From Arabic 'mawsim' = season — via Portuguese 'monção', referring to seasonal winds in the Indian Ocean.",
+      "mnemonic_vi": "MONSOON đọc 'mon-sún' — mưa mon men suốt. Monsoon season = mùa mưa."
+    },
+    {
+      "word": "tremor",
+      "lemma": "tremor",
+      "ipa": "/ˈtremə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small earthquake or shaking, often before or after a bigger one",
+          "meaning_vi": "rung chấn, dư chấn nhỏ",
+          "examples": [
+            {
+              "en": "A small tremor woke residents at 3 a.m.",
+              "vi": "Một rung chấn nhỏ đánh thức người dân lúc 3 giờ sáng."
+            },
+            {
+              "en": "Tremors continued for days after the main earthquake.",
+              "vi": "Dư chấn tiếp diễn nhiều ngày sau trận động đất chính."
+            },
+            {
+              "en": "Sensors picked up a tremor too small to feel.",
+              "vi": "Cảm biến phát hiện rung chấn quá nhỏ để cảm nhận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quiver", "shake", "vibration"],
+      "antonyms": ["stillness"],
+      "collocations": [
+        "minor tremor",
+        "felt a tremor",
+        "tremor zone",
+        "aftershock tremor",
+        "ground tremor"
+      ],
+      "etymology_hint": "From Latin 'tremere' = to tremble — same root as 'tremble' and 'terror'.",
+      "mnemonic_vi": "TREMOR đọc 'tre-mơ' — tre rung lắc nhẹ. Minor tremor = rung chấn nhỏ."
+    },
+    {
+      "word": "magnitude",
+      "lemma": "magnitude",
+      "ipa": "/ˈmæɡnɪtjuːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the size or strength of an earthquake, measured on a scientific scale",
+          "meaning_vi": "cường độ (động đất)",
+          "examples": [
+            {
+              "en": "The earthquake had a magnitude of 7.2.",
+              "vi": "Trận động đất có cường độ 7,2."
+            },
+            {
+              "en": "Anything above magnitude 6 causes serious damage.",
+              "vi": "Bất kỳ cường độ trên 6 đều gây thiệt hại nghiêm trọng."
+            },
+            {
+              "en": "Scientists measure magnitude using the Richter scale.",
+              "vi": "Nhà khoa học đo cường độ bằng thang Richter."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["size", "intensity", "scale"],
+      "antonyms": [],
+      "collocations": [
+        "earthquake magnitude",
+        "magnitude scale",
+        "high magnitude",
+        "measure magnitude",
+        "order of magnitude"
+      ],
+      "etymology_hint": "From Latin 'magnitudo' = greatness — 'magnus' (great) + '-tudo' (state of).",
+      "mnemonic_vi": "MAGNI (lớn) + TUDE = sự lớn. Earthquake magnitude = cường độ động đất."
+    },
+    {
+      "word": "epicenter",
+      "lemma": "epicenter",
+      "ipa": "/ˈepɪsentə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the point on the Earth's surface directly above the origin of an earthquake",
+          "meaning_vi": "tâm chấn (động đất)",
+          "examples": [
+            {
+              "en": "The epicenter was located 50km offshore.",
+              "vi": "Tâm chấn nằm cách bờ 50km."
+            },
+            {
+              "en": "Damage was worst near the epicenter.",
+              "vi": "Thiệt hại nặng nhất gần tâm chấn."
+            },
+            {
+              "en": "Reporters rushed to the epicenter to film the aftermath.",
+              "vi": "Phóng viên đổ về tâm chấn để quay hậu quả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["center", "ground zero"],
+      "antonyms": ["periphery"],
+      "collocations": [
+        "earthquake epicenter",
+        "near the epicenter",
+        "locate the epicenter",
+        "epicenter of the quake",
+        "exact epicenter"
+      ],
+      "etymology_hint": "From Greek 'epi-' (upon) + 'kentron' (center) — coined in 19th century by seismologists.",
+      "mnemonic_vi": "EPI (trên) + CENTER (trung tâm) = tâm chấn trên mặt đất. Earthquake epicenter = tâm chấn."
+    },
+    {
+      "word": "aftermath",
+      "lemma": "aftermath",
+      "ipa": "/ˈɑːftəmæθ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the situation after a disaster or major event, usually difficult or destructive",
+          "meaning_vi": "hậu quả, sau cơn thảm họa",
+          "examples": [
+            {
+              "en": "In the aftermath of the flood, thousands needed shelter.",
+              "vi": "Sau cơn lũ, hàng nghìn người cần nơi trú ẩn."
+            },
+            {
+              "en": "The aftermath of the typhoon lasted months.",
+              "vi": "Hậu quả của bão kéo dài hàng tháng."
+            },
+            {
+              "en": "She wrote a book about the aftermath of the war.",
+              "vi": "Cô ấy viết cuốn sách về hậu quả chiến tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consequence", "wake", "result"],
+      "antonyms": ["prelude", "build-up"],
+      "collocations": [
+        "in the aftermath",
+        "immediate aftermath",
+        "deal with the aftermath",
+        "aftermath of the storm",
+        "long-term aftermath"
+      ],
+      "etymology_hint": "Originally an agricultural term: 'after' + 'math' (mowing) — 'second crop' grown after the first mowing.",
+      "mnemonic_vi": "AFTER (sau) + MATH (mùa cắt) = sau mùa thu hoạch → sau biến cố. In the aftermath = sau hậu quả."
+    },
+    {
+      "word": "evacuation",
+      "lemma": "evacuation",
+      "ipa": "/ɪˌvækjuˈeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of moving people from a dangerous place to safety",
+          "meaning_vi": "sự sơ tán",
+          "examples": [
+            {
+              "en": "The evacuation saved thousands of lives before the typhoon.",
+              "vi": "Cuộc sơ tán đã cứu hàng nghìn mạng trước cơn bão."
+            },
+            {
+              "en": "Mandatory evacuation orders were issued for coastal towns.",
+              "vi": "Lệnh sơ tán bắt buộc được ban cho các thị trấn ven biển."
+            },
+            {
+              "en": "The evacuation went smoothly thanks to good planning.",
+              "vi": "Cuộc sơ tán diễn ra suôn sẻ nhờ kế hoạch tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["withdrawal", "removal", "exodus"],
+      "antonyms": ["return", "occupation"],
+      "collocations": [
+        "mass evacuation",
+        "evacuation order",
+        "evacuation plan",
+        "mandatory evacuation",
+        "emergency evacuation"
+      ],
+      "etymology_hint": "From Latin 'evacuare' = empty out — 'e-' (out) + 'vacuus' (empty).",
+      "mnemonic_vi": "EVAC (rỗng) + UATION = làm rỗng vùng. Evacuation order = lệnh sơ tán."
+    },
+    {
+      "word": "devastation",
+      "lemma": "devastation",
+      "ipa": "/ˌdevəˈsteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "complete destruction and ruin caused by a disaster",
+          "meaning_vi": "sự tàn phá nặng nề",
+          "examples": [
+            {
+              "en": "The typhoon left widespread devastation in central Vietnam.",
+              "vi": "Cơn bão để lại sự tàn phá rộng khắp miền Trung Việt Nam."
+            },
+            {
+              "en": "Rescuers wept at the devastation they saw.",
+              "vi": "Đội cứu hộ rớt nước mắt trước cảnh tàn phá."
+            },
+            {
+              "en": "Climate change is causing more frequent devastation.",
+              "vi": "Biến đổi khí hậu gây tàn phá ngày càng thường xuyên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["destruction", "ruin", "havoc"],
+      "antonyms": ["preservation", "restoration"],
+      "collocations": [
+        "widespread devastation",
+        "total devastation",
+        "cause devastation",
+        "scenes of devastation",
+        "environmental devastation"
+      ],
+      "etymology_hint": "From Latin 'devastare' = lay waste — 'de-' (down) + 'vastus' (empty, waste).",
+      "mnemonic_vi": "DEVAST (phá) + ATION = sự phá. Widespread devastation = tàn phá lan rộng."
+    },
+    {
+      "word": "debris",
+      "lemma": "debris",
+      "ipa": "/ˈdebriː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "scattered pieces of rubbish or remains, especially after destruction",
+          "meaning_vi": "đống đổ nát, mảnh vỡ",
+          "examples": [
+            {
+              "en": "Rescue teams searched the debris for survivors.",
+              "vi": "Đội cứu hộ tìm kiếm người sống sót trong đống đổ nát."
+            },
+            {
+              "en": "Flood debris blocked the main road.",
+              "vi": "Mảnh vỡ do lũ chặn đường chính."
+            },
+            {
+              "en": "Workers cleared debris for weeks after the storm.",
+              "vi": "Công nhân dọn đổ nát nhiều tuần sau cơn bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wreckage", "rubble", "remains"],
+      "antonyms": [],
+      "collocations": [
+        "clear the debris",
+        "flood debris",
+        "search through debris",
+        "debris field",
+        "scattered debris"
+      ],
+      "etymology_hint": "From French 'débris' = remains, from 'débriser' = break to pieces. Note: pronounced silent 's'.",
+      "mnemonic_vi": "DEBRIS đọc 'đe-bri' — đe dọa bằng đống bri-c-a-brac vỡ. Clear the debris = dọn đổ nát."
+    },
+    {
+      "word": "rescue",
+      "lemma": "rescue",
+      "ipa": "/ˈreskjuː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to save someone from a dangerous or harmful situation",
+          "meaning_vi": "cứu, giải cứu",
+          "examples": [
+            {
+              "en": "Firefighters rescued the family from the burning house.",
+              "vi": "Lính cứu hỏa giải cứu gia đình khỏi căn nhà cháy."
+            },
+            {
+              "en": "Helicopters rescued villagers stranded by the flood.",
+              "vi": "Trực thăng giải cứu dân làng mắc kẹt vì lũ."
+            },
+            {
+              "en": "Volunteers rescued over a hundred animals.",
+              "vi": "Tình nguyện viên cứu hơn 100 con vật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["save", "free", "extricate"],
+      "antonyms": ["abandon", "leave behind"],
+      "collocations": [
+        "rescue team",
+        "rescue operation",
+        "rescue mission",
+        "rescue victims",
+        "rescue effort"
+      ],
+      "etymology_hint": "From Old French 'rescourre' = to take back — Latin 're-' (again) + 'excutere' (shake out).",
+      "mnemonic_vi": "RESCUE đọc 'res-kiu' — rét-kiêu cứu người. Rescue team = đội cứu hộ."
+    },
+    {
+      "word": "hazard",
+      "lemma": "hazard",
+      "ipa": "/ˈhæzəd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something that could cause harm, danger, or injury",
+          "meaning_vi": "mối nguy hiểm, hiểm họa",
+          "examples": [
+            {
+              "en": "Loose wires are a fire hazard.",
+              "vi": "Dây điện hở là mối nguy cháy."
+            },
+            {
+              "en": "Climate change creates new health hazards every year.",
+              "vi": "Biến đổi khí hậu tạo ra mối nguy sức khỏe mới mỗi năm."
+            },
+            {
+              "en": "Workers must report any hazard immediately.",
+              "vi": "Công nhân phải báo cáo bất kỳ mối nguy nào ngay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["danger", "risk", "threat"],
+      "antonyms": ["safety", "security"],
+      "collocations": [
+        "fire hazard",
+        "health hazard",
+        "occupational hazard",
+        "potential hazard",
+        "natural hazard"
+      ],
+      "etymology_hint": "From Arabic 'az-zahr' = the dice — entered English via French as 'game of chance', meaning shifted to 'risk' by 16th century.",
+      "mnemonic_vi": "HAZARD đọc 'hơ-zợt' — hơi hơi sợt sợt. Health hazard = mối nguy sức khỏe."
+    },
+    {
+      "word": "casualty",
+      "lemma": "casualty",
+      "ipa": "/ˈkæʒuəlti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person killed or injured in an accident, disaster, or war",
+          "meaning_vi": "người thương vong, nạn nhân",
+          "examples": [
+            {
+              "en": "The flood caused 50 casualties, most from drowning.",
+              "vi": "Vụ lũ gây 50 thương vong, phần lớn do đuối nước."
+            },
+            {
+              "en": "Authorities reported low casualties thanks to early warnings.",
+              "vi": "Chính quyền báo cáo thương vong thấp nhờ cảnh báo sớm."
+            },
+            {
+              "en": "Small businesses became economic casualties of the storm.",
+              "vi": "Doanh nghiệp nhỏ trở thành nạn nhân kinh tế của cơn bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["victim", "fatality (deaths only)", "loss"],
+      "antonyms": ["survivor"],
+      "collocations": [
+        "casualty count",
+        "civilian casualty",
+        "heavy casualties",
+        "casualty figures",
+        "casualty report"
+      ],
+      "etymology_hint": "From Latin 'casus' = a falling, chance event — originally meant 'accident'; military 'killed/wounded' sense from 17th century.",
+      "mnemonic_vi": "CASUAL (tình cờ) + TY = người gặp chuyện tình cờ. Casualty figures = số thương vong."
+    },
+    {
+      "word": "shelter",
+      "lemma": "shelter",
+      "ipa": "/ˈʃeltə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a structure that gives protection from danger, weather, or attack",
+          "meaning_vi": "nơi trú ẩn, chỗ trú",
+          "examples": [
+            {
+              "en": "The community center became an emergency shelter.",
+              "vi": "Trung tâm cộng đồng trở thành nơi trú khẩn cấp."
+            },
+            {
+              "en": "Hundreds took shelter from the typhoon in schools.",
+              "vi": "Hàng trăm người trú bão trong trường học."
+            },
+            {
+              "en": "Animal shelters were overwhelmed after the wildfire.",
+              "vi": "Nơi trú động vật quá tải sau cháy rừng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refuge", "haven", "sanctuary"],
+      "antonyms": ["exposure"],
+      "collocations": [
+        "take shelter",
+        "emergency shelter",
+        "seek shelter",
+        "shelter from the storm",
+        "temporary shelter"
+      ],
+      "etymology_hint": "From Old English 'scyldtruma' = shield troop — protection-from-attack sense extended to weather and disaster.",
+      "mnemonic_vi": "SHELT (chỗ) + ER = chỗ trú. Take shelter = tìm nơi trú."
+    },
+    {
+      "word": "alert",
+      "lemma": "alert",
+      "ipa": "/əˈlɜːt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a warning signal telling people about possible danger",
+          "meaning_vi": "cảnh báo, tín hiệu báo nguy",
+          "examples": [
+            {
+              "en": "A tsunami alert was issued along the coast.",
+              "vi": "Cảnh báo sóng thần được phát dọc bờ biển."
+            },
+            {
+              "en": "Phone alerts woke everyone at 4 a.m.",
+              "vi": "Cảnh báo điện thoại đánh thức mọi người lúc 4 giờ sáng."
+            },
+            {
+              "en": "Ignore an alert at your own risk.",
+              "vi": "Bỏ qua cảnh báo là tự gánh rủi ro."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["warning", "alarm", "notice"],
+      "antonyms": ["all-clear", "calm"],
+      "collocations": [
+        "issue an alert",
+        "tsunami alert",
+        "weather alert",
+        "high alert",
+        "amber alert"
+      ],
+      "etymology_hint": "From Italian 'all'erta' = on the watch (literally 'to the height') — military lookout term, broadened to civilian use.",
+      "mnemonic_vi": "ALERT đọc 'a-lợt' — a, lớn báo nguy. Issue an alert = phát cảnh báo."
+    }
+  ]
+}
