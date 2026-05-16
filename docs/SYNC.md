@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `c2bf721`               | base                   | 2026-05-17 (`c2bf721`) | CardPreview polish + theme tokens + masonry layout        |
-| be     | `ae75f85`               | 2026-05-17 (`ae75f85`) | 2026-05-16 (`82dc173`) | sync UI polish round 2 — gates green                      |
-| fe     | `c9fe61a`               | 2026-05-17 (`3d507f2`) | 2026-05-17 (`c9fe61a`) | CardPreview restyle + theme accent + masonry — 179/179    |
+| dev    | `09a3db8`               | base                   | 2026-05-17 (`09a3db8`) | P7a A2 expansion — 5 lessons / 100 cards merged           |
+| be     | `eb4c659`               | 2026-05-17 (`c32fc1e`) | 2026-05-17 (`eb4c659`) | P7a content commit on be                                  |
+| fe     | `f9bed4d`               | 2026-05-17 (`f9bed4d`) | 2026-05-17 (`c9fe61a`) | sync P7a content — 1440 cards live on Supabase            |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -225,3 +225,9 @@ git checkout fe
 | 2026-05-17 | commit | (masonry) → fe       | `c9fe61a` | feat(ui): lesson cards masonry layout (CSS columns)                       |
 | 2026-05-17 | merge  | fe → dev             | `c2bf721` | merge: fe → dev (CardPreview polish + theme tokens + masonry)             |
 | 2026-05-17 | sync   | dev → be             | `ae75f85` | sync: dev → be (CardPreview polish + theme tokens + masonry)              |
+| 2026-05-17 | commit | (docs round 2) → dev | `6085d0b` | docs(handoff): CardPreview polish + theme tokens + masonry ship           |
+| 2026-05-17 | sync   | dev → fe             | `a96a1f4` | sync: dev → fe (docs handoff round 2)                                     |
+| 2026-05-17 | sync   | dev → be             | `c32fc1e` | sync: dev → be (docs handoff round 2)                                     |
+| 2026-05-17 | commit | (P7a content) → be   | `eb4c659` | feat(content): P7a A2 expansion — 5 lessons (100 cards)                   |
+| 2026-05-17 | merge  | be → dev             | `09a3db8` | merge: be → dev (P7a A2 expansion — 5 lessons / 100 cards)                |
+| 2026-05-17 | sync   | dev → fe             | `f9bed4d` | sync: dev → fe (P7a content) — 1440 cards seeded live                     |

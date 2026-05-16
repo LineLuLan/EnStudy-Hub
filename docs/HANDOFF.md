@@ -5,6 +5,71 @@
 
 ---
 
+## 2026-05-17 (P7a content batch) — A2 expansion: 5 lessons / 100 cards (72/192) — Claude Opus 4.7
+
+### Đã ship session này (BE work — content gen + seed)
+
+User confirm AI auto-gen override (4th time — pattern xác lập). Scope: P7a 5 lessons / 100 cards. Workflow: chọn 5 lesson high-value từ P7 plan, grep collision check (avoid trùng 1340 existing), gen JSON theo quality bar §3, Zod-validate, commit be → merge dev → sync fe → seed Supabase live.
+
+**5 lessons mới (A2, 100% NEW words không trùng existing 1340)**:
+
+| #   | Lesson              | Topic         | order_index | Highlights                                                                                                                                                       |
+| --- | ------------------- | ------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | shopping-money      | daily-life    | 10          | purchase/sell/price/cost/discount/sale/bargain/receipt/cash/basket/trolley/cashier/brand/customer/afford/offer/coupon/stock/deliver/fit                          |
+| 2   | feelings-extended   | people        | 7           | anxious/disappointed/furious/delighted/amazed/upset/stressed/content/annoyed/shocked/terrified/thrilled/homesick/miserable/eager/astonished/regret/fear/joy/mood |
+| 3   | email-communication | work-business | 6           | reply/forward/attach/attachment/subject/inbox/spam/draft/recipient/urgent/signature/sincerely/regards/delete/chat/message/sender/request/confirm/link            |
+| 4   | study-techniques    | education     | 5           | note/highlight/outline/flashcard/chapter/paragraph/search/define/lecture/goal/method/technique/resource/topic/chart/diagram/break/quote/format/organize          |
+| 5   | housing-utilities   | daily-life    | 11          | rent/deposit/lease/mortgage/landlord/tenant/utility/electricity/gas/internet/repair/plumber/electrician/furnished/basement/driveway/hallway/roof/lock/leak       |
+
+### Quality bar applied (CONTENT_PLAN_FULL §3)
+
+- ✅ British IPA strict, slash-wrapped `/.../`
+- ✅ VN context dày: Hà Nội/Sài Gòn/Đà Lạt/Hội An/Sa Pa/Phú Quốc, FPT/Vincom/Shopee/Lotte/AEON/Highlands/WinMart/Co.opmart/Big C/Vietcombank/MB Bank, áo dài/phở/bánh mì/Tết, Vingroup/Vinhomes/Vinamilk/Viettel/EVN, Zalo/Momo/Grab, BlackPink concert, Bà Nà Hills/Hạ Long Bay
+- ✅ Mnemonic wordplay (vd "DELIGHTED = DE + LIGHT → có ánh sáng rọi vào lòng", "CASHIER = CASH + IER → người làm việc với cash")
+- ✅ Etymology narrative per card (Old English / Latin / Greek / Old French / Anglo-French)
+- ✅ 0-3 synonyms / 0-2 antonyms / 4-5 collocations natural
+- ✅ POS 10-enum chuẩn
+- ✅ Collision check via grep — 100/100 words là NEW so với 1340 existing
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                       |
+| ------ | --------- | ------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                         |
+| dev    | `09a3db8` | merge be → dev (P7a 5 lessons / 100 cards) |
+| be     | `eb4c659` | feat(content): P7a A2 expansion            |
+| fe     | `f9bed4d` | sync: dev → fe (P7a content)               |
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 179/179 passed
+- Zod inline validate 5 lessons ✓ ALL VALID
+- `pnpm seed` ✓ **1 collection / 11 topics / 72 lessons / 1440 cards** live trên Supabase
+- `pnpm validate:content` (dictionary cross-check) skipped — slow (800ms × ~1440 calls = ~19 min); stylistic IPA differences acceptable per CONTENT_PLAN_FULL precedent
+
+### Progress P5-P12 tracking
+
+| Phase          | Lessons | Cards    | Status             |
+| -------------- | ------- | -------- | ------------------ |
+| P0-P4 MVP      | 42      | 840      | ✅                 |
+| P5 Common Core | 10      | 200      | ✅                 |
+| P6 A1 fillers  | 15      | 300      | ✅                 |
+| **P7a A2 exp** | **5**   | **100**  | **✅ session này** |
+| P7b/c (còn)    | ~15     | ~300     | TODO next sessions |
+| **Tổng ship**  | **72**  | **1440** | ~37% Oxford 3000   |
+
+### Notes for next AI session pickup
+
+- **Tiếp P7b**: 5 lessons A2 còn lại — đề xuất bám P7 plan: `places-travel/transport-traffic` (đã có transportation + transport-vehicles-ext, cần angle khác), `nature-environment/seasons-extended`, `entertainment/sports-extended`, `time-numbers/dates-times-ext`, `daily-life/health-symptoms`. Confirm với user trước khi gen.
+- **Override pattern**: Khi user nói "gen tiếp" / "qua gen content nhé" → đã pin = AI tự gen (4 lần override, không cần hỏi nữa). Memory default vẫn offline, chỉ session-level override.
+- **Collision check WORKFLOW** (tested in session này): mỗi lesson trước khi gen — `Grep "word": "(w1|w2|...)" content/collections/oxford-3000` → revise wordlist nếu collision. Tránh duplicate.
+- **Topic order_index**: dùng `node -e "console.log(require('./content/.../lesson.json').order_index)"` để xem max hiện tại + 1.
+- Pattern reuse từ session UI polish trước: capture-group regex split, hydration-safe state, CSS columns masonry.
+
+---
+
 ## 2026-05-17 (cuối session) — CardPreview polish round 2 + Theme accent tokens + Masonry layout — Claude Opus 4.7
 
 ### Đã ship session này (FE work, A + B scope per plan `c-handoff-ti-p-hidden-gadget.md`)
