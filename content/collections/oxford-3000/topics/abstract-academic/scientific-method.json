@@ -1,0 +1,763 @@
+{
+  "slug": "scientific-method",
+  "name": "Scientific Method",
+  "description": "Phương pháp khoa học B1 — observation, variable, peer-review, placebo và 16 từ cho nhà nghiên cứu.",
+  "order_index": 13,
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "word": "observation",
+      "lemma": "observation",
+      "ipa": "/ˌɒbzəˈveɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of watching and recording what happens, often as the first step in research",
+          "meaning_vi": "sự quan sát (bước đầu nghiên cứu)",
+          "examples": [
+            {
+              "en": "Careful observation revealed a pattern.",
+              "vi": "Quan sát kỹ phát hiện một quy luật."
+            },
+            {
+              "en": "Field observation lasts six months.",
+              "vi": "Quan sát thực địa kéo dài 6 tháng."
+            },
+            {
+              "en": "Observation is the foundation of science.",
+              "vi": "Quan sát là nền tảng của khoa học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["watching", "noticing"],
+      "antonyms": ["assumption"],
+      "collocations": [
+        "careful observation",
+        "field observation",
+        "direct observation",
+        "make an observation",
+        "scientific observation"
+      ],
+      "etymology_hint": "From Latin 'observare' = to watch — 'ob-' (toward) + 'servare' (keep, attend).",
+      "mnemonic_vi": "OBSERVE (quan sát) + ATION = sự quan sát. Careful observation = quan sát kỹ."
+    },
+    {
+      "word": "variable",
+      "lemma": "variable",
+      "ipa": "/ˈveəriəbl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something in an experiment that can change and be measured",
+          "meaning_vi": "biến số (đại lượng có thể thay đổi)",
+          "examples": [
+            {
+              "en": "Temperature is the independent variable here.",
+              "vi": "Nhiệt độ là biến độc lập ở đây."
+            },
+            {
+              "en": "Control all other variables.",
+              "vi": "Kiểm soát mọi biến khác."
+            },
+            {
+              "en": "Too many variables make data noisy.",
+              "vi": "Quá nhiều biến làm dữ liệu nhiễu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["factor"],
+      "antonyms": ["constant"],
+      "collocations": [
+        "independent variable",
+        "dependent variable",
+        "control the variables",
+        "key variable",
+        "random variable"
+      ],
+      "etymology_hint": "From Latin 'variabilis' = changeable — root 'variare' (to differ).",
+      "mnemonic_vi": "VARI (thay đổi) + ABLE (có thể) = thứ có thể đổi. Independent variable = biến độc lập."
+    },
+    {
+      "word": "replication",
+      "lemma": "replication",
+      "ipa": "/ˌreplɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of repeating an experiment to check the result",
+          "meaning_vi": "việc lặp lại thí nghiệm (để kiểm chứng)",
+          "examples": [
+            {
+              "en": "Replication failed in two out of three labs.",
+              "vi": "Lặp lại thí nghiệm thất bại ở 2 trong 3 lab."
+            },
+            {
+              "en": "Without replication, findings stay weak.",
+              "vi": "Không có lặp lại thì kết quả còn yếu."
+            },
+            {
+              "en": "Science has a replication crisis in psychology.",
+              "vi": "Khoa học gặp khủng hoảng lặp lại trong tâm lý học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["repetition", "reproduction"],
+      "antonyms": ["one-off"],
+      "collocations": [
+        "replication study",
+        "successful replication",
+        "replication crisis",
+        "failed replication",
+        "independent replication"
+      ],
+      "etymology_hint": "From Latin 'replicatio' = a folding back — 're-' + 'plicare' (fold).",
+      "mnemonic_vi": "REPLICATE (lặp) + ION = sự lặp. Replication study = nghiên cứu lặp lại."
+    },
+    {
+      "word": "peer-review",
+      "lemma": "peer-review",
+      "ipa": "/ˌpɪə rɪˈvjuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process where other experts check a research paper before it's published",
+          "meaning_vi": "phản biện đồng nghiệp (trước khi đăng paper)",
+          "examples": [
+            {
+              "en": "Peer-review takes 3-12 months.",
+              "vi": "Peer-review mất 3-12 tháng."
+            },
+            {
+              "en": "Top journals have strict peer-review.",
+              "vi": "Tạp chí top có peer-review nghiêm."
+            },
+            {
+              "en": "Anonymous peer-review reduces bias.",
+              "vi": "Peer-review ẩn danh giảm thiên kiến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expert review"],
+      "antonyms": ["self-publication"],
+      "collocations": [
+        "peer-review process",
+        "blind peer-review",
+        "peer-review journal",
+        "rigorous peer-review",
+        "fast-track peer-review"
+      ],
+      "etymology_hint": "Compound: 'peer' (Latin 'par' = equal) + 'review' (Old French 'reveuē') — formalized in academia by 1830s.",
+      "mnemonic_vi": "PEER (đồng nghiệp) + REVIEW (xem xét) = đồng nghiệp xem xét. Peer-review process = quy trình peer-review."
+    },
+    {
+      "word": "falsifiable",
+      "lemma": "falsifiable",
+      "ipa": "/ˈfɔːlsɪfaɪəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "able to be proven false by an experiment — a key feature of scientific claims",
+          "meaning_vi": "có thể chứng minh sai (đặc tính của tuyên bố khoa học)",
+          "examples": [
+            {
+              "en": "A scientific theory must be falsifiable.",
+              "vi": "Lý thuyết khoa học phải falsifiable."
+            },
+            {
+              "en": "'All swans are white' is falsifiable.",
+              "vi": "'Mọi thiên nga đều trắng' là falsifiable."
+            },
+            {
+              "en": "Non-falsifiable claims aren't science.",
+              "vi": "Tuyên bố không falsifiable không phải khoa học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["testable", "refutable"],
+      "antonyms": ["unfalsifiable", "untestable"],
+      "collocations": [
+        "falsifiable claim",
+        "falsifiable hypothesis",
+        "scientifically falsifiable",
+        "easily falsifiable",
+        "not falsifiable"
+      ],
+      "etymology_hint": "Concept introduced by Karl Popper (1934) — from 'falsify' (Latin 'falsus' = false) + '-able'.",
+      "mnemonic_vi": "FALSIFY (chứng sai) + ABLE = có thể chứng sai. Falsifiable claim = tuyên bố falsifiable."
+    },
+    {
+      "word": "repeatable",
+      "lemma": "repeatable",
+      "ipa": "/rɪˈpiːtəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of an experiment or result) able to be done again with the same outcome",
+          "meaning_vi": "có thể lặp lại (cho kết quả như cũ)",
+          "examples": [
+            {
+              "en": "Good experiments must be repeatable.",
+              "vi": "Thí nghiệm tốt phải repeatable."
+            },
+            {
+              "en": "Repeatable results build trust.",
+              "vi": "Kết quả lặp được xây niềm tin."
+            },
+            {
+              "en": "Lab procedures need to be highly repeatable.",
+              "vi": "Quy trình lab phải repeatable cao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reproducible"],
+      "antonyms": ["one-time", "non-repeatable"],
+      "collocations": [
+        "repeatable experiment",
+        "highly repeatable",
+        "repeatable result",
+        "easily repeatable",
+        "fully repeatable"
+      ],
+      "etymology_hint": "From 'repeat' (Latin 're-' + 'petere' = seek) + '-able'.",
+      "mnemonic_vi": "REPEAT (lặp) + ABLE = lặp được. Repeatable experiment = thí nghiệm repeatable."
+    },
+    {
+      "word": "data",
+      "lemma": "data",
+      "ipa": "/ˈdeɪtə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "facts and numbers collected during research for analysis",
+          "meaning_vi": "dữ liệu (thu thập từ nghiên cứu)",
+          "examples": [
+            {
+              "en": "Clean your data before analysis.",
+              "vi": "Làm sạch dữ liệu trước khi phân tích."
+            },
+            {
+              "en": "Big data drives modern science.",
+              "vi": "Dữ liệu lớn dẫn dắt khoa học hiện đại."
+            },
+            {
+              "en": "She collected data from 1,000 participants.",
+              "vi": "Cô ấy thu dữ liệu từ 1.000 người tham gia."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["information", "figures"],
+      "antonyms": ["guess"],
+      "collocations": ["raw data", "collect data", "data analysis", "big data", "data set"],
+      "etymology_hint": "Latin plural of 'datum' = something given — original technical use from 17th-century math.",
+      "mnemonic_vi": "DATA đọc 'đây-tà' — đây thông tin. Collect data = thu dữ liệu."
+    },
+    {
+      "word": "treatment",
+      "lemma": "treatment",
+      "ipa": "/ˈtriːtmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the procedure or substance applied to the test group in an experiment",
+          "meaning_vi": "phương pháp can thiệp (cho nhóm thử nghiệm)",
+          "examples": [
+            {
+              "en": "The treatment group received the real drug.",
+              "vi": "Nhóm treatment nhận thuốc thật."
+            },
+            {
+              "en": "Each treatment lasts six weeks.",
+              "vi": "Mỗi đợt treatment kéo dài 6 tuần."
+            },
+            {
+              "en": "Compare treatment vs control to see effect.",
+              "vi": "So sánh treatment với control để thấy tác dụng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intervention"],
+      "antonyms": ["control (no treatment)"],
+      "collocations": [
+        "treatment group",
+        "treatment effect",
+        "experimental treatment",
+        "compare treatments",
+        "treatment protocol"
+      ],
+      "etymology_hint": "From 'treat' (Latin 'tractare' = to handle) + '-ment' — clinical sense from 17th century.",
+      "mnemonic_vi": "TREAT (xử lý) + MENT = sự xử lý. Treatment group = nhóm treatment."
+    },
+    {
+      "word": "dependent",
+      "lemma": "dependent",
+      "ipa": "/dɪˈpendənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a variable) the one being measured, whose value depends on another variable",
+          "meaning_vi": "(biến) phụ thuộc — đo lường, phụ thuộc biến khác",
+          "examples": [
+            {
+              "en": "Plant growth is the dependent variable.",
+              "vi": "Sự phát triển cây là biến phụ thuộc."
+            },
+            {
+              "en": "Identify the dependent variable first.",
+              "vi": "Xác định biến phụ thuộc trước."
+            },
+            {
+              "en": "Some studies have multiple dependent variables.",
+              "vi": "Vài nghiên cứu có nhiều biến phụ thuộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outcome variable"],
+      "antonyms": ["independent"],
+      "collocations": [
+        "dependent variable",
+        "dependent measure",
+        "dependent on",
+        "dependent outcome",
+        "key dependent variable"
+      ],
+      "etymology_hint": "From Latin 'dependere' = to hang from — meaning 'whose value hangs on another'.",
+      "mnemonic_vi": "DEPEND (phụ thuộc) + ENT = phụ thuộc. Dependent variable = biến phụ thuộc."
+    },
+    {
+      "word": "independent",
+      "lemma": "independent",
+      "ipa": "/ˌɪndɪˈpendənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a variable) the one researchers change to see how it affects another",
+          "meaning_vi": "(biến) độc lập — biến mà nhà nghiên cứu thay đổi",
+          "examples": [
+            {
+              "en": "Sunlight is the independent variable.",
+              "vi": "Ánh nắng là biến độc lập."
+            },
+            {
+              "en": "Manipulate the independent variable carefully.",
+              "vi": "Điều chỉnh biến độc lập cẩn thận."
+            },
+            {
+              "en": "Studies often have one independent variable.",
+              "vi": "Nghiên cứu thường có 1 biến độc lập."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["predictor variable"],
+      "antonyms": ["dependent"],
+      "collocations": [
+        "independent variable",
+        "manipulate the independent",
+        "independent measure",
+        "key independent",
+        "independent factor"
+      ],
+      "etymology_hint": "Prefix 'in-' (not) + 'dependent' — research-methodology sense from 19th-century statistics.",
+      "mnemonic_vi": "IN (không) + DEPENDENT (phụ thuộc) = độc lập. Independent variable = biến độc lập."
+    },
+    {
+      "word": "reproducible",
+      "lemma": "reproducible",
+      "ipa": "/ˌriːprəˈdjuːsəbl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a study) able to be done again by other researchers and get the same result",
+          "meaning_vi": "có thể tái lập (nghiên cứu khác làm lại được)",
+          "examples": [
+            {
+              "en": "Reproducible research is the gold standard.",
+              "vi": "Nghiên cứu tái lập được là tiêu chuẩn vàng."
+            },
+            {
+              "en": "Share your code to make results reproducible.",
+              "vi": "Chia sẻ code để kết quả tái lập được."
+            },
+            {
+              "en": "Many findings turned out not to be reproducible.",
+              "vi": "Nhiều kết quả hóa ra không tái lập được."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["repeatable"],
+      "antonyms": ["irreproducible", "one-off"],
+      "collocations": [
+        "reproducible research",
+        "reproducible results",
+        "fully reproducible",
+        "reproducible methods",
+        "reproducible workflow"
+      ],
+      "etymology_hint": "Prefix 're-' (again) + 'producible' (Latin 'producere' = bring forth).",
+      "mnemonic_vi": "RE (lại) + PRODUCE (tạo) + IBLE = có thể tạo lại. Reproducible research = nghiên cứu tái lập được."
+    },
+    {
+      "word": "measurement",
+      "lemma": "measurement",
+      "ipa": "/ˈmeʒəmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act or process of finding the size, amount, or value of something",
+          "meaning_vi": "việc đo lường",
+          "examples": [
+            {
+              "en": "Take three measurements and average them.",
+              "vi": "Đo 3 lần rồi lấy trung bình."
+            },
+            {
+              "en": "Precise measurement is critical in chemistry.",
+              "vi": "Đo chính xác là quan trọng trong hóa học."
+            },
+            {
+              "en": "Modern sensors give real-time measurements.",
+              "vi": "Cảm biến hiện đại đo theo thời gian thực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assessment"],
+      "antonyms": ["estimate"],
+      "collocations": [
+        "precise measurement",
+        "take a measurement",
+        "measurement error",
+        "scientific measurement",
+        "real-time measurement"
+      ],
+      "etymology_hint": "From 'measure' (Latin 'mensura' = a measuring) + '-ment'.",
+      "mnemonic_vi": "MEASURE (đo) + MENT = sự đo. Precise measurement = đo chính xác."
+    },
+    {
+      "word": "prediction",
+      "lemma": "prediction",
+      "ipa": "/prɪˈdɪkʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statement about what will happen, often based on a theory or data",
+          "meaning_vi": "lời tiên đoán (dựa trên lý thuyết / dữ liệu)",
+          "examples": [
+            {
+              "en": "The theory makes testable predictions.",
+              "vi": "Lý thuyết đưa ra các tiên đoán kiểm tra được."
+            },
+            {
+              "en": "Climate predictions guide policy decisions.",
+              "vi": "Dự báo khí hậu dẫn quyết định chính sách."
+            },
+            {
+              "en": "Her prediction came true within a year.",
+              "vi": "Lời tiên đoán của cô ấy thành sự thật trong 1 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forecast", "projection"],
+      "antonyms": ["hindsight"],
+      "collocations": [
+        "accurate prediction",
+        "testable prediction",
+        "make a prediction",
+        "wrong prediction",
+        "scientific prediction"
+      ],
+      "etymology_hint": "From Latin 'praedicere' = to say beforehand — 'prae-' (before) + 'dicere' (say).",
+      "mnemonic_vi": "PRE (trước) + DICTION (nói) = nói trước. Make a prediction = đưa ra tiên đoán."
+    },
+    {
+      "word": "trial",
+      "lemma": "trial",
+      "ipa": "/ˈtraɪəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a test of a method, drug, or product to see how well it works",
+          "meaning_vi": "thử nghiệm, đợt thử (thuốc, phương pháp)",
+          "examples": [
+            {
+              "en": "The clinical trial enrolled 500 patients.",
+              "vi": "Đợt thử nghiệm lâm sàng có 500 bệnh nhân tham gia."
+            },
+            {
+              "en": "Phase 3 trials confirm safety and effect.",
+              "vi": "Thử nghiệm Pha 3 xác nhận an toàn và hiệu quả."
+            },
+            {
+              "en": "Free trial periods help convince customers.",
+              "vi": "Đợt thử miễn phí giúp thuyết phục khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["test", "experiment"],
+      "antonyms": [],
+      "collocations": [
+        "clinical trial",
+        "trial period",
+        "controlled trial",
+        "trial run",
+        "field trial"
+      ],
+      "etymology_hint": "From Anglo-French 'trier' = to test — medical sense 'drug experiment' established mid-20th century.",
+      "mnemonic_vi": "TRIAL đọc 'trai-ồ' — trai ô thử. Clinical trial = thử nghiệm lâm sàng."
+    },
+    {
+      "word": "null",
+      "lemma": "null",
+      "ipa": "/nʌl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a hypothesis) stating that there is no effect or difference, used as a baseline",
+          "meaning_vi": "(giả thuyết) không (không có khác biệt) — giả thuyết nền",
+          "examples": [
+            {
+              "en": "Statistics tests reject or fail to reject the null hypothesis.",
+              "vi": "Thống kê bác bỏ hoặc không bác bỏ giả thuyết null."
+            },
+            {
+              "en": "The null hypothesis says the drug has no effect.",
+              "vi": "Giả thuyết null nói thuốc không có tác dụng."
+            },
+            {
+              "en": "If p < 0.05, reject the null.",
+              "vi": "Nếu p < 0.05, bác bỏ null."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["zero-effect"],
+      "antonyms": ["alternative (hypothesis)"],
+      "collocations": [
+        "null hypothesis",
+        "reject the null",
+        "fail to reject null",
+        "null result",
+        "null effect"
+      ],
+      "etymology_hint": "From Latin 'nullus' = none, no — statistical sense from R.A. Fisher (1935).",
+      "mnemonic_vi": "NULL đọc 'nan' — nan, không có. Null hypothesis = giả thuyết null."
+    },
+    {
+      "word": "inference",
+      "lemma": "inference",
+      "ipa": "/ˈɪnfərəns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a conclusion you reach based on evidence and reasoning",
+          "meaning_vi": "suy luận (kết luận dựa trên bằng chứng + lý lẽ)",
+          "examples": [
+            {
+              "en": "From the data, we draw an inference about behavior.",
+              "vi": "Từ dữ liệu, ta rút ra suy luận về hành vi."
+            },
+            {
+              "en": "Statistical inference requires sample size.",
+              "vi": "Suy luận thống kê đòi hỏi cỡ mẫu."
+            },
+            {
+              "en": "Be careful: inference is not certainty.",
+              "vi": "Cẩn thận: suy luận không phải chắc chắn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deduction", "conclusion (informal)"],
+      "antonyms": ["fact", "observation"],
+      "collocations": [
+        "logical inference",
+        "draw an inference",
+        "statistical inference",
+        "valid inference",
+        "causal inference"
+      ],
+      "etymology_hint": "From Latin 'inferre' = to bring in — 'in-' + 'ferre' (carry).",
+      "mnemonic_vi": "IN (vào) + FER (mang) + ENCE = mang vào kết luận. Statistical inference = suy luận thống kê."
+    },
+    {
+      "word": "double-blind",
+      "lemma": "double-blind",
+      "ipa": "/ˌdʌbl ˈblaɪnd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a study) where neither the participants nor the researchers know who gets the treatment",
+          "meaning_vi": "(nghiên cứu) mù đôi — không ai biết ai nhận thuốc thật",
+          "examples": [
+            {
+              "en": "Double-blind trials prevent bias.",
+              "vi": "Thử nghiệm mù đôi ngăn thiên kiến."
+            },
+            {
+              "en": "Vaccine trials are usually double-blind.",
+              "vi": "Thử nghiệm vaccine thường mù đôi."
+            },
+            {
+              "en": "Double-blind is the gold standard in medicine.",
+              "vi": "Mù đôi là tiêu chuẩn vàng trong y học."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["open-label"],
+      "collocations": [
+        "double-blind trial",
+        "double-blind study",
+        "randomized double-blind",
+        "double-blind design",
+        "double-blind procedure"
+      ],
+      "etymology_hint": "Compound: 'double' + 'blind' — coined in 1950s clinical-trial methodology.",
+      "mnemonic_vi": "DOUBLE (đôi) + BLIND (mù) = mù đôi. Double-blind trial = thử nghiệm mù đôi."
+    },
+    {
+      "word": "placebo",
+      "lemma": "placebo",
+      "ipa": "/pləˈsiːbəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a fake treatment given to a control group to compare against the real treatment",
+          "meaning_vi": "giả dược (cho nhóm đối chứng)",
+          "examples": [
+            {
+              "en": "Half got the drug, half got a placebo.",
+              "vi": "Nửa nhận thuốc, nửa nhận placebo."
+            },
+            {
+              "en": "The placebo effect can be surprisingly strong.",
+              "vi": "Hiệu ứng placebo có thể mạnh đáng kinh ngạc."
+            },
+            {
+              "en": "Sugar pills are common placebos.",
+              "vi": "Viên đường là placebo phổ biến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dummy treatment", "sugar pill"],
+      "antonyms": ["active drug"],
+      "collocations": [
+        "placebo effect",
+        "placebo group",
+        "active placebo",
+        "placebo-controlled",
+        "placebo response"
+      ],
+      "etymology_hint": "Latin = 'I will please' — original meaning 'a treatment meant to please rather than heal'.",
+      "mnemonic_vi": "PLACEBO đọc 'pla-sí-bồ' — phải sai bồ thuốc. Placebo effect = hiệu ứng placebo."
+    },
+    {
+      "word": "replicate",
+      "lemma": "replicate",
+      "ipa": "/ˈreplɪkeɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to do an experiment again exactly to check the original result",
+          "meaning_vi": "lặp lại (thí nghiệm) chính xác như cũ",
+          "examples": [
+            {
+              "en": "Three labs failed to replicate the finding.",
+              "vi": "Ba lab thất bại khi cố lặp lại kết quả."
+            },
+            {
+              "en": "Replicate the experiment before publishing.",
+              "vi": "Lặp lại thí nghiệm trước khi đăng bài."
+            },
+            {
+              "en": "We replicated her study on Vietnamese subjects.",
+              "vi": "Chúng tôi lặp lại nghiên cứu của cô ấy trên đối tượng Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reproduce", "duplicate"],
+      "antonyms": ["originate"],
+      "collocations": [
+        "replicate the study",
+        "fail to replicate",
+        "independently replicate",
+        "replicate findings",
+        "replicate exactly"
+      ],
+      "etymology_hint": "From Latin 'replicare' = to fold back — 're-' + 'plicare' (fold).",
+      "mnemonic_vi": "REPLICATE đọc 'rép-li-cây-t' — rép lại tất cả. Fail to replicate = thất bại lặp lại."
+    },
+    {
+      "word": "protocol",
+      "lemma": "protocol",
+      "ipa": "/ˈprəʊtəkɒl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of strict rules or steps for carrying out an experiment or procedure",
+          "meaning_vi": "quy trình chuẩn (cho thí nghiệm)",
+          "examples": [
+            {
+              "en": "Follow the protocol exactly or results vary.",
+              "vi": "Theo đúng quy trình hoặc kết quả sẽ lệch."
+            },
+            {
+              "en": "Hospital protocols save lives.",
+              "vi": "Quy trình bệnh viện cứu mạng người."
+            },
+            {
+              "en": "She wrote the protocol for the new trial.",
+              "vi": "Cô ấy viết quy trình cho thử nghiệm mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["procedure", "guidelines"],
+      "antonyms": ["improvisation"],
+      "collocations": [
+        "research protocol",
+        "follow the protocol",
+        "experimental protocol",
+        "standard protocol",
+        "safety protocol"
+      ],
+      "etymology_hint": "From Greek 'prōtokollon' = first sheet glued to a document — meaning shifted to 'set of rules'.",
+      "mnemonic_vi": "PROTO (đầu) + COL (dán) = trang đầu (quy định). Research protocol = quy trình nghiên cứu."
+    }
+  ]
+}

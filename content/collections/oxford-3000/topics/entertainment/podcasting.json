@@ -1,0 +1,757 @@
+{
+  "slug": "podcasting",
+  "name": "Podcasting",
+  "description": "Làm podcast B1 — RSS, microphone, monetize, cohost và 16 từ cho dân podcaster.",
+  "order_index": 12,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "RSS",
+      "lemma": "RSS",
+      "ipa": "/ˌɑːresˈes/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Really Simple Syndication — a feed format that lets people subscribe to podcasts or blogs",
+          "meaning_vi": "RSS, định dạng feed cho podcast / blog",
+          "examples": [
+            {
+              "en": "Submit your RSS to Apple Podcasts.",
+              "vi": "Nộp RSS của bạn cho Apple Podcasts."
+            },
+            {
+              "en": "Every podcast needs a valid RSS feed.",
+              "vi": "Mọi podcast cần một RSS feed hợp lệ."
+            },
+            {
+              "en": "Spotify auto-fetches new episodes via RSS.",
+              "vi": "Spotify tự tải tập mới qua RSS."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["feed format"],
+      "antonyms": [],
+      "collocations": ["RSS feed", "podcast RSS", "submit RSS", "RSS aggregator", "RSS subscriber"],
+      "etymology_hint": "Acronym standardized 1999 — went from blogs to podcasts in 2004 with iTunes integration.",
+      "mnemonic_vi": "RSS = 'a-rét-ét' — Really Simple Syndication. RSS feed = nguồn cấp RSS."
+    },
+    {
+      "word": "microphone",
+      "lemma": "microphone",
+      "ipa": "/ˈmaɪkrəfəʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a device that converts sound into electrical signals for recording or broadcasting",
+          "meaning_vi": "micrô (thu âm)",
+          "examples": [
+            {
+              "en": "She speaks into the microphone with confidence.",
+              "vi": "Cô ấy nói vào micrô đầy tự tin."
+            },
+            {
+              "en": "USB microphones are perfect for podcasters.",
+              "vi": "Micrô USB rất hợp cho podcaster."
+            },
+            {
+              "en": "Good microphone technique improves audio quality.",
+              "vi": "Kỹ thuật dùng mic tốt cải thiện chất lượng âm thanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mic"],
+      "antonyms": [],
+      "collocations": [
+        "USB microphone",
+        "speak into the microphone",
+        "professional microphone",
+        "wireless microphone",
+        "studio microphone"
+      ],
+      "etymology_hint": "From Greek 'mikros' (small) + 'phone' (sound) — first microphones were experimental devices in 1820s.",
+      "mnemonic_vi": "MICRO (nhỏ) + PHONE (âm) = micrô nhỏ thu âm. USB microphone = mic USB."
+    },
+    {
+      "word": "recording",
+      "lemma": "recording",
+      "ipa": "/rɪˈkɔːdɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "audio or video captured electronically that can be played back later",
+          "meaning_vi": "bản thu âm / thu hình",
+          "examples": [
+            {
+              "en": "The recording of the interview is two hours long.",
+              "vi": "Bản thu cuộc phỏng vấn dài 2 tiếng."
+            },
+            {
+              "en": "Save the recording in WAV format for editing.",
+              "vi": "Lưu bản thu định dạng WAV để biên tập."
+            },
+            {
+              "en": "Vietnamese podcasters often record at home.",
+              "vi": "Podcaster Việt thường thu âm tại nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["audio file", "tape"],
+      "antonyms": ["live broadcast"],
+      "collocations": [
+        "audio recording",
+        "video recording",
+        "high-quality recording",
+        "start a recording",
+        "edit a recording"
+      ],
+      "etymology_hint": "Gerund of 'record' (Latin 'recordari' = call to mind) — meaning 'captured sound' since Edison's 1877 phonograph.",
+      "mnemonic_vi": "RECORD (ghi) + ING = bản ghi. Audio recording = bản thu âm."
+    },
+    {
+      "word": "edit",
+      "lemma": "edit",
+      "ipa": "/ˈedɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to change or improve a recording, document, or video before publishing",
+          "meaning_vi": "biên tập, chỉnh sửa (file/bản thu)",
+          "examples": [
+            {
+              "en": "She edits her own podcasts to save money.",
+              "vi": "Cô ấy tự biên tập podcast để tiết kiệm tiền."
+            },
+            {
+              "en": "Editing takes longer than recording.",
+              "vi": "Biên tập tốn thời gian hơn thu âm."
+            },
+            {
+              "en": "Audacity is free software to edit audio.",
+              "vi": "Audacity là phần mềm miễn phí để biên tập audio."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["revise", "modify"],
+      "antonyms": ["leave raw"],
+      "collocations": [
+        "edit a podcast",
+        "edit audio",
+        "professionally edit",
+        "edit out",
+        "final edit"
+      ],
+      "etymology_hint": "Back-formation from 'editor' (Latin 'edere' = put forth) — verb sense from 1791.",
+      "mnemonic_vi": "EDIT = chỉnh sửa. Edit a podcast = biên tập podcast."
+    },
+    {
+      "word": "patron",
+      "lemma": "patron",
+      "ipa": "/ˈpeɪtrən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who supports an artist or creator with regular money, often via platforms like Patreon",
+          "meaning_vi": "người tài trợ định kỳ cho creator (qua Patreon, v.v.)",
+          "examples": [
+            {
+              "en": "Her podcast has 500 monthly patrons.",
+              "vi": "Podcast của cô ấy có 500 patron mỗi tháng."
+            },
+            {
+              "en": "Patrons get bonus episodes.",
+              "vi": "Patron được tập bonus."
+            },
+            {
+              "en": "Becoming a patron costs $5 a month minimum.",
+              "vi": "Làm patron tốn tối thiểu 5 USD/tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supporter", "backer"],
+      "antonyms": ["free listener"],
+      "collocations": [
+        "loyal patron",
+        "monthly patron",
+        "become a patron",
+        "patron support",
+        "patron tier"
+      ],
+      "etymology_hint": "From Latin 'patronus' = protector — modern crowdfunding usage popularized by Patreon (founded 2013).",
+      "mnemonic_vi": "PATRON đọc 'pây-trồn' — patron tài trợ. Monthly patron = patron tháng."
+    },
+    {
+      "word": "monetize",
+      "lemma": "monetize",
+      "ipa": "/ˈmʌnɪtaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make money from content, such as ads, sponsorships, or paid features",
+          "meaning_vi": "kiếm tiền từ nội dung (quảng cáo, tài trợ, v.v.)",
+          "examples": [
+            {
+              "en": "Most podcasters monetize through sponsors.",
+              "vi": "Phần lớn podcaster kiếm tiền qua nhà tài trợ."
+            },
+            {
+              "en": "It took her two years to monetize her show.",
+              "vi": "Mất 2 năm cô ấy mới kiếm tiền từ show."
+            },
+            {
+              "en": "YouTubers monetize via ads and merch.",
+              "vi": "YouTuber kiếm tiền qua quảng cáo và merchandise."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["profit from", "commercialize"],
+      "antonyms": ["give away free"],
+      "collocations": [
+        "monetize content",
+        "monetize a podcast",
+        "monetize through ads",
+        "fully monetize",
+        "monetization strategy"
+      ],
+      "etymology_hint": "From 'monetary' (Latin 'moneta' = mint) + '-ize' — modern creator-economy term from 2000s.",
+      "mnemonic_vi": "MONEY (tiền) + IZE = biến thành tiền. Monetize content = kiếm tiền từ nội dung."
+    },
+    {
+      "word": "podcaster",
+      "lemma": "podcaster",
+      "ipa": "/ˈpɒdkɑːstə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who creates and hosts a podcast",
+          "meaning_vi": "podcaster (người làm podcast)",
+          "examples": [
+            {
+              "en": "Top podcasters earn six figures a year.",
+              "vi": "Podcaster hàng đầu kiếm 6 chữ số mỗi năm."
+            },
+            {
+              "en": "Vietnamese podcasters cover everything from finance to comedy.",
+              "vi": "Podcaster Việt làm đủ chủ đề từ tài chính đến hài."
+            },
+            {
+              "en": "Becoming a podcaster requires consistency.",
+              "vi": "Trở thành podcaster cần sự nhất quán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["audio creator"],
+      "antonyms": ["listener"],
+      "collocations": [
+        "indie podcaster",
+        "popular podcaster",
+        "become a podcaster",
+        "Vietnamese podcaster",
+        "freelance podcaster"
+      ],
+      "etymology_hint": "From 'podcast' (blend of 'iPod' + 'broadcast', coined 2004) + agent suffix '-er'.",
+      "mnemonic_vi": "PODCAST + ER = người làm podcast. Indie podcaster = podcaster độc lập."
+    },
+    {
+      "word": "audio",
+      "lemma": "audio",
+      "ipa": "/ˈɔːdiəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "sound that has been recorded or transmitted, as opposed to video",
+          "meaning_vi": "âm thanh (đã thu hoặc phát)",
+          "examples": [
+            {
+              "en": "Clean audio matters more than video for podcasts.",
+              "vi": "Âm thanh sạch quan trọng hơn video trong podcast."
+            },
+            {
+              "en": "Background audio ruined the recording.",
+              "vi": "Âm thanh nền phá bản thu."
+            },
+            {
+              "en": "She added background audio to set the mood.",
+              "vi": "Cô ấy thêm nhạc nền để tạo cảm xúc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sound"],
+      "antonyms": ["video", "image"],
+      "collocations": [
+        "audio quality",
+        "background audio",
+        "audio file",
+        "clear audio",
+        "audio engineer"
+      ],
+      "etymology_hint": "From Latin 'audire' = to hear — same root as 'audience' and 'audition'.",
+      "mnemonic_vi": "AUDIO đọc 'ô-đi-ô' — ố đi-ô tiếng. Audio quality = chất lượng âm thanh."
+    },
+    {
+      "word": "headphones",
+      "lemma": "headphones",
+      "ipa": "/ˈhedfəʊnz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "small speakers worn on or in your ears to listen privately",
+          "meaning_vi": "tai nghe (chụp tai)",
+          "examples": [
+            {
+              "en": "Use headphones while editing to catch every detail.",
+              "vi": "Đeo tai nghe khi biên tập để bắt mọi chi tiết."
+            },
+            {
+              "en": "Wireless headphones are convenient but pricier.",
+              "vi": "Tai nghe không dây tiện nhưng đắt hơn."
+            },
+            {
+              "en": "Vietnamese commuters wear headphones on every bus.",
+              "vi": "Người Việt đi làm đeo tai nghe trên mọi chuyến bus."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["earphones (in-ear)"],
+      "antonyms": ["speakers"],
+      "collocations": [
+        "wireless headphones",
+        "noise-canceling headphones",
+        "wear headphones",
+        "studio headphones",
+        "Bluetooth headphones"
+      ],
+      "etymology_hint": "Compound: 'head' + 'phones' (short for 'telephones') — original meaning 'phone receivers worn on head', 1898.",
+      "mnemonic_vi": "HEAD (đầu) + PHONES (âm) = tai nghe đầu. Wireless headphones = tai nghe không dây."
+    },
+    {
+      "word": "playback",
+      "lemma": "playback",
+      "ipa": "/ˈpleɪbæk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the action of playing recorded audio or video back to listen or watch it",
+          "meaning_vi": "việc phát lại bản ghi",
+          "examples": [
+            {
+              "en": "Check playback before publishing.",
+              "vi": "Kiểm tra phát lại trước khi xuất bản."
+            },
+            {
+              "en": "She listens to the playback at 1.5x speed.",
+              "vi": "Cô ấy nghe phát lại tốc độ 1.5x."
+            },
+            {
+              "en": "Smooth playback requires good bandwidth.",
+              "vi": "Phát lại mượt cần băng thông tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["replay"],
+      "antonyms": ["live recording"],
+      "collocations": [
+        "audio playback",
+        "smooth playback",
+        "playback speed",
+        "playback issue",
+        "playback button"
+      ],
+      "etymology_hint": "Compound: 'play' + 'back' — audio sense from 1920s recording industry.",
+      "mnemonic_vi": "PLAY (phát) + BACK (lại) = phát lại. Playback speed = tốc độ phát lại."
+    },
+    {
+      "word": "intro",
+      "lemma": "intro",
+      "ipa": "/ˈɪntrəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the short introduction at the beginning of a podcast, video, or song",
+          "meaning_vi": "đoạn mở đầu (intro)",
+          "examples": [
+            {
+              "en": "Keep the intro under 30 seconds.",
+              "vi": "Giữ intro dưới 30 giây."
+            },
+            {
+              "en": "Their intro has a catchy jingle.",
+              "vi": "Intro của họ có nhạc hiệu bắt tai."
+            },
+            {
+              "en": "A boring intro loses listeners fast.",
+              "vi": "Intro nhạt mất người nghe nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["introduction", "opener"],
+      "antonyms": ["outro", "conclusion"],
+      "collocations": [
+        "podcast intro",
+        "short intro",
+        "catchy intro",
+        "skip the intro",
+        "intro music"
+      ],
+      "etymology_hint": "Shortened from 'introduction' (Latin 'introducere' = lead in) — informal use from 1923.",
+      "mnemonic_vi": "INTRO đọc 'in-trô' — vào lò bài. Podcast intro = mở đầu podcast."
+    },
+    {
+      "word": "outro",
+      "lemma": "outro",
+      "ipa": "/ˈaʊtrəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the closing part of a podcast, video, or song",
+          "meaning_vi": "đoạn kết (outro)",
+          "examples": [
+            {
+              "en": "She asks for reviews in every outro.",
+              "vi": "Cô ấy xin review ở mọi outro."
+            },
+            {
+              "en": "A strong outro keeps people coming back.",
+              "vi": "Outro mạnh kéo người nghe quay lại."
+            },
+            {
+              "en": "The outro lists where to find the show.",
+              "vi": "Outro liệt kê nơi tìm show."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["closing", "ending"],
+      "antonyms": ["intro"],
+      "collocations": [
+        "podcast outro",
+        "show outro",
+        "musical outro",
+        "outro script",
+        "skip the outro"
+      ],
+      "etymology_hint": "Modeled on 'intro' — coined 1965, taking 'out-' + the '-ro' ending by analogy.",
+      "mnemonic_vi": "OUTRO đọc 'au-trô' — au ra phần kết. Podcast outro = kết podcast."
+    },
+    {
+      "word": "production",
+      "lemma": "production",
+      "ipa": "/prəˈdʌkʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of making something, especially a podcast, film, or show",
+          "meaning_vi": "việc sản xuất (podcast / video / show)",
+          "examples": [
+            {
+              "en": "High production quality sets you apart.",
+              "vi": "Chất lượng sản xuất cao tạo khác biệt."
+            },
+            {
+              "en": "Production takes most of the week.",
+              "vi": "Sản xuất tốn phần lớn tuần."
+            },
+            {
+              "en": "Vietnamese podcast production is improving rapidly.",
+              "vi": "Sản xuất podcast Việt đang tiến bộ nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["making", "creation"],
+      "antonyms": [],
+      "collocations": [
+        "production quality",
+        "podcast production",
+        "in production",
+        "production team",
+        "post-production"
+      ],
+      "etymology_hint": "From Latin 'productio' = a bringing forth — 'pro-' + 'ducere' (to lead).",
+      "mnemonic_vi": "PRODUCE (sản xuất) + TION = sự sản xuất. Production quality = chất lượng sản xuất."
+    },
+    {
+      "word": "airtime",
+      "lemma": "airtime",
+      "ipa": "/ˈeətaɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the amount of time a podcast, show, or speaker is broadcast or featured",
+          "meaning_vi": "thời lượng phát sóng / xuất hiện",
+          "examples": [
+            {
+              "en": "Each cohost gets equal airtime.",
+              "vi": "Mỗi cohost có thời lượng phát ngang nhau."
+            },
+            {
+              "en": "Airtime on top shows costs thousands of dollars.",
+              "vi": "Airtime trên show top tốn hàng nghìn USD."
+            },
+            {
+              "en": "Don't waste airtime on tangents.",
+              "vi": "Đừng phí airtime cho chuyện lạc đề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["broadcast time"],
+      "antonyms": ["off air"],
+      "collocations": [
+        "equal airtime",
+        "buy airtime",
+        "airtime cost",
+        "limited airtime",
+        "fair airtime"
+      ],
+      "etymology_hint": "Compound: 'air' (broadcast medium) + 'time' — broadcasting industry term from 1920s.",
+      "mnemonic_vi": "AIR (sóng) + TIME (giờ) = giờ phát sóng. Equal airtime = thời lượng đều."
+    },
+    {
+      "word": "cohost",
+      "lemma": "cohost",
+      "ipa": "/ˌkəʊˈhəʊst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who hosts a podcast or show together with another host",
+          "meaning_vi": "đồng dẫn (chương trình)",
+          "examples": [
+            {
+              "en": "She found a cohost on Reddit.",
+              "vi": "Cô ấy tìm được cohost qua Reddit."
+            },
+            {
+              "en": "A good cohost adds chemistry to the show.",
+              "vi": "Cohost giỏi tạo hóa học cho show."
+            },
+            {
+              "en": "Many podcasts have two or three cohosts.",
+              "vi": "Nhiều podcast có 2-3 cohost."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["co-presenter"],
+      "antonyms": ["solo host"],
+      "collocations": [
+        "find a cohost",
+        "permanent cohost",
+        "guest cohost",
+        "cohost dynamic",
+        "rotating cohost"
+      ],
+      "etymology_hint": "Prefix 'co-' (together) + 'host' (Latin 'hospes' = guest/host).",
+      "mnemonic_vi": "CO (cùng) + HOST (dẫn) = cùng dẫn. Find a cohost = tìm cohost."
+    },
+    {
+      "word": "feed",
+      "lemma": "feed",
+      "ipa": "/fiːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the stream of new podcast episodes or updates that subscribers receive",
+          "meaning_vi": "feed (luồng tập mới podcast)",
+          "examples": [
+            {
+              "en": "Subscribe to the feed for new episodes weekly.",
+              "vi": "Đăng ký feed để có tập mới hàng tuần."
+            },
+            {
+              "en": "The feed updates automatically when she uploads.",
+              "vi": "Feed cập nhật tự động khi cô ấy upload."
+            },
+            {
+              "en": "Test your feed in a podcast app before launch.",
+              "vi": "Thử feed trên app podcast trước khi ra mắt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["channel", "stream"],
+      "antonyms": [],
+      "collocations": [
+        "subscribe to a feed",
+        "podcast feed",
+        "RSS feed",
+        "broken feed",
+        "feed URL"
+      ],
+      "etymology_hint": "From Old English 'fēdan' = to give food — internet sense 'continuous data stream' from 1990s.",
+      "mnemonic_vi": "FEED = nuôi/cấp — feed cấp nội dung mới. Subscribe to a feed = đăng ký feed."
+    },
+    {
+      "word": "mic",
+      "lemma": "mic",
+      "ipa": "/maɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "short form of microphone, used informally by podcasters and musicians",
+          "meaning_vi": "mic (cách viết ngắn của microphone)",
+          "examples": [
+            {
+              "en": "Drop the mic, that was perfect.",
+              "vi": "Bỏ mic xuống, hoàn hảo."
+            },
+            {
+              "en": "She bought a $200 podcast mic.",
+              "vi": "Cô ấy mua mic podcast 200 USD."
+            },
+            {
+              "en": "Mute your mic when not speaking.",
+              "vi": "Tắt mic khi không nói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["microphone"],
+      "antonyms": [],
+      "collocations": ["drop the mic", "mic check", "mute the mic", "open mic", "USB mic"],
+      "etymology_hint": "Informal shortening of 'microphone' — spelled with -c, not -k, since 1920s broadcasting slang.",
+      "mnemonic_vi": "MIC = vần ngắn của microphone. Drop the mic = thả mic (kết thúc hoành tráng)."
+    },
+    {
+      "word": "archive",
+      "lemma": "archive",
+      "ipa": "/ˈɑːkaɪv/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a collection of older episodes or recordings kept for reference",
+          "meaning_vi": "kho lưu trữ (các tập cũ)",
+          "examples": [
+            {
+              "en": "Listeners explore the archive of 200 episodes.",
+              "vi": "Người nghe khám phá kho 200 tập."
+            },
+            {
+              "en": "Archive your old shows in cloud storage.",
+              "vi": "Lưu các show cũ trên cloud."
+            },
+            {
+              "en": "The podcast archive grows every week.",
+              "vi": "Kho podcast tăng mỗi tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["library", "back catalog"],
+      "antonyms": ["latest release"],
+      "collocations": [
+        "podcast archive",
+        "episode archive",
+        "browse the archive",
+        "complete archive",
+        "search the archive"
+      ],
+      "etymology_hint": "From Greek 'archeion' = government record office — root 'archē' (beginning, source).",
+      "mnemonic_vi": "ARCHIVE đọc 'a-cai-v' — anh cai vớ kho lưu. Podcast archive = kho podcast."
+    },
+    {
+      "word": "soundcheck",
+      "lemma": "soundcheck",
+      "ipa": "/ˈsaʊndtʃek/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a test of microphones and audio equipment before recording or performing",
+          "meaning_vi": "kiểm tra âm thanh (trước khi thu)",
+          "examples": [
+            {
+              "en": "Always do a soundcheck before the guest joins.",
+              "vi": "Luôn soundcheck trước khi khách vào."
+            },
+            {
+              "en": "The soundcheck caught a buzzing cable.",
+              "vi": "Soundcheck phát hiện dây cáp rè."
+            },
+            {
+              "en": "Concert soundchecks happen hours before showtime.",
+              "vi": "Soundcheck concert diễn ra nhiều tiếng trước show."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["audio test"],
+      "antonyms": ["live recording without check"],
+      "collocations": [
+        "do a soundcheck",
+        "quick soundcheck",
+        "soundcheck the mic",
+        "before the soundcheck",
+        "skip the soundcheck"
+      ],
+      "etymology_hint": "Compound: 'sound' + 'check' — standard music industry term from 1960s touring practice.",
+      "mnemonic_vi": "SOUND (âm) + CHECK (kiểm) = kiểm tra âm. Do a soundcheck = thử âm."
+    },
+    {
+      "word": "pilot",
+      "lemma": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the first test episode of a podcast or show, used to see if the idea works",
+          "meaning_vi": "tập thử (đầu tiên) để thử ý tưởng",
+          "examples": [
+            {
+              "en": "We recorded a pilot before launching the series.",
+              "vi": "Chúng tôi thu pilot trước khi ra series."
+            },
+            {
+              "en": "The pilot got 5,000 downloads in a week.",
+              "vi": "Tập pilot đạt 5.000 lượt tải trong 1 tuần."
+            },
+            {
+              "en": "Most pilots never become full shows.",
+              "vi": "Phần lớn pilot không thành show đầy đủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["test episode"],
+      "antonyms": ["full series"],
+      "collocations": [
+        "pilot episode",
+        "shoot a pilot",
+        "pilot season",
+        "rejected pilot",
+        "promising pilot"
+      ],
+      "etymology_hint": "From Italian 'piloto' = navigator — TV/radio sense 'test episode that guides series development' from 1940s.",
+      "mnemonic_vi": "PILOT đọc 'pai-lốt' — phi công thử bay. Pilot episode = tập thử."
+    }
+  ]
+}
