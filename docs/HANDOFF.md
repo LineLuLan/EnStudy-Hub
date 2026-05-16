@@ -5,6 +5,77 @@
 
 ---
 
+## 2026-05-17 (P7d content batch + P7 CLOSED) — A2 expansion final 5 lessons / 100 cards (87/192) — Claude Opus 4.7
+
+### Đã ship session này (BE work — content gen + seed + P7 CLOSE)
+
+5 lessons A2 cuối cùng để **đóng P7 (20/20 lessons / 400 cards)**. User confirm "gen tiếp P7d" → AI auto-gen (7th override). Workflow giống P7a/P7b/P7c. P7 hoàn thành đúng day target.
+
+**5 lessons mới (A2, 100% NEW words không trùng existing 1640)**:
+
+| #   | Lesson              | Topic              | order_index | Highlights                                                                                                                                                                 |
+| --- | ------------------- | ------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | personal-care       | daily-life         | 14          | toothpaste/shampoo/conditioner/lotion/deodorant/comb/makeup/perfume/razor/toothbrush/soap/nail/cream/spray/tissue/cotton/lipstick/sunscreen/shave/haircut                  |
+| 2   | online-learning     | education          | 6           | mooc/webinar/livestream/podcast/tutorial/course/badge/enroll/register/module/app/digital/online/virtual/video/instructor/session/login/zoom/platform                       |
+| 3   | tourism-experiences | places-travel      | 8           | souvenir/guide/tour/attraction/landmark/brochure/itinerary/postcard/tourist/tourism/destination/cruise/backpack/hostel/map/exotic/local/adventure/explore/wander           |
+| 4   | farm-rural          | nature-environment | 6           | crop/livestock/plough/barn/field/soil/irrigation/scarecrow/farmhouse/orchard/paddy/cattle/dairy/herd/graze/fertilizer/tractor/countryside/pasture/stable                   |
+| 5   | cognition           | abstract-academic  | 4           | recognize/perceive/identify/distinguish/observe/examine/evaluate/consider/imagine/interpret/notice/realize/predict/infer/compare/contrast/recall/process/classify/estimate |
+
+### Quality bar applied (CONTENT_PLAN_FULL §3)
+
+- ✅ British IPA strict, slash-wrapped `/.../`
+- ✅ VN context dày: P/S/Sunsilk/Lifebuoy/Vinamilk/Watsons/Anessa (personal-care), Coursera/Udemy/Vietcetera/British Council/Khan Academy/Duolingo (online-learning), Bà Nà Hills/Hoàn Kiếm/Sapa/Bến Tre/Mai Châu/Mu Cang Chai/Mộc Châu/Cát Tiên, bún chả/áo dài/phở/trà sữa/bánh xèo
+- ✅ Mnemonic wordplay (vd "FERTILIZER = FERTILE + IZER → làm đất phì nhiêu", "RECOGNIZE = RE + COGNIZE → biết lại")
+- ✅ Etymology narrative per card (Latin / Greek / Old English / Old French / French / Hindi cho 'shampoo' / Malay cho 'paddy')
+- ✅ 0-3 synonyms / 0-2 antonyms / 4-5 collocations natural
+- ✅ POS 10-enum chuẩn
+- ✅ Collision check via grep — 100/100 NEW so với 1640 existing
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                           |
+| ------ | --------- | ---------------------------------------------- |
+| main   | `eb18493` | v0.2.0 (không đổi)                             |
+| dev    | `17e4728` | merge be → dev (P7d — P7 CLOSED 20/20 lessons) |
+| be     | `ae3af76` | feat(content): P7d A2 expansion — P7 CLOSED    |
+| fe     | `c98c46d` | sync: dev → fe (P7d content — P7 CLOSED)       |
+
+### Verify đã chạy
+
+- Zod inline validate 5 lessons ✓ ALL VALID
+- `pnpm seed` ✓ **1 collection / 11 topics / 87 lessons / 1740 cards** live trên Supabase
+- Commitlint: pass on first attempt
+
+### Progress P5-P12 tracking
+
+| Phase          | Lessons | Cards    | Status             |
+| -------------- | ------- | -------- | ------------------ |
+| P0-P4 MVP      | 42      | 840      | ✅                 |
+| P5 Common Core | 10      | 200      | ✅                 |
+| P6 A1 fillers  | 15      | 300      | ✅                 |
+| P7a A2 exp     | 5       | 100      | ✅                 |
+| P7b A2 exp     | 5       | 100      | ✅                 |
+| P7c A2 exp     | 5       | 100      | ✅                 |
+| **P7d A2 exp** | **5**   | **100**  | **✅ session này** |
+| **P7 TOTAL**   | **20**  | **400**  | **✅ CLOSED**      |
+| P8 B1 part 1   | ~25     | ~500     | TODO next sessions |
+| **Tổng ship**  | **87**  | **1740** | ~45% Oxford 3000   |
+
+### Notes for next AI session pickup
+
+- **P7 đã đóng day cùng** (5 batches P7a/b/c/d trong 1 day, 20 lessons / 400 cards / ~+8% coverage).
+- **Tiếp P8 B1 part 1**: 25 lessons / 500 cards. Plan §4 list 4 candidate topics:
+  - `abstract/quality-quantity` (degree, amount, level, scale, range)
+  - `abstract/change-process` (alter, transform, develop, evolve, gradual, sudden)
+  - `society/social-issues` (poverty, inequality, opportunity)
+  - `technology/digital-life` (cần new angle vì online-learning đã cover app/digital)
+  - Plus ~20 B1 topics khác. Confirm với user breakdown trước khi gen P8.
+- **Vì P8 = 25 lessons** (vs P7 = 20), nên chia 5 batches × 5 lessons (P8a/b/c/d/e). Pattern 5 lessons/batch giữ quality cao nhất.
+- **Override pattern xác lập** (7 overrides, 100% consistency): "gen tiếp" → AI auto-gen. Hoàn toàn không cần hỏi nữa.
+- **Topic exhaustion alert**: Some topics đang đầy (daily-life đã 14 lessons, common-core đã 13). P8 sẽ cần mở topics MỚI (technology, science, health sub-domains). Có thể tạo topic meta mới.
+
+---
+
 ## 2026-05-17 (P7c content batch) — A2 expansion: 5 more lessons / 100 cards (82/192) — Claude Opus 4.7
 
 ### Đã ship session này (BE work — content gen + seed)
