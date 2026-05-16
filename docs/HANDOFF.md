@@ -5,6 +5,59 @@
 
 ---
 
+## 2026-05-17 (P9c content batch) — B1: 5 lessons / 100 cards (127/192, ~66%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 tiếp nối P9b. User confirm "tiếp tục P9c" → override #15. Quality bar duy trì.
+
+**5 lessons mới (B1, 100/100 NEW so với 2440 existing)**:
+
+| #   | Lesson                 | Topic         | order |
+| --- | ---------------------- | ------------- | ----- |
+| 1   | home-renovation        | daily-life    | 19    |
+| 2   | visual-arts            | entertainment | 11    |
+| 3   | relationships-conflict | people        | 7     |
+| 4   | study-abroad           | education     | 6     |
+| 5   | parenting              | daily-life    | 20    |
+
+### Scope pivot
+
+L5: HANDOFF P9b đề xuất `seasons-extreme` nhưng weather-seasons/weather-seasons-ext/natural-disasters đã cover hết các từ chính (typhoon, drought, flood, hurricane). Pivot sang `daily-life/parenting` — concrete topic mới, complementary với cooking-techniques + home-renovation đã có ở daily-life.
+
+### SHA cuối session (P9c)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `2ed7135` (P9c merge)
+- be `4d17ebe` (P9c content)
+- fe `b9cb9e8` (sync P9c)
+
+### Verify
+
+- Zod ALL VALID 5 files.
+- Validate flags: 9+15+15+16+8 = 63/100 IPA notation variations.
+- All 5 files exactly 20 cards (lesson learned từ P9b applied).
+
+### PICKUP cho session sau — P9d (5 lessons B1)
+
+P9 đang 15/25. Còn 10 lessons để đóng P9. Đề xuất P9d topic candidates:
+
+- `places-travel/road-trip` — pit-stop, gas-station, RV, detour, map-out, mileage, fuel, breakdown
+- `entertainment/podcasting` — host, episode, podcast, download, RSS, interview (careful: subscriber, transcript taken)
+- `work-business/customer-service` — complaint, refund, replacement, ticket, queue, support, helpdesk, agent, satisfaction
+- `nature-environment/oceans-deep` — depths, trench, deep-sea, submarine, sonar, abyss, pressure
+- `abstract-academic/scientific-method` — observation, hypothesis (taken), experiment, control-group, variable, replication, peer-review
+
+Grep collision warnings rất cao ở P9d+ — coverage 66%. Tăng chú ý replace + pivot topic khi cần.
+
+### Files state khi handoff (P9c)
+
+- All branches pushed to origin.
+- Docs updated.
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (P9b content batch) — B1: 5 lessons / 100 cards (122/192, ~64%) — Claude Opus 4.7
 
 ### Đã ship
