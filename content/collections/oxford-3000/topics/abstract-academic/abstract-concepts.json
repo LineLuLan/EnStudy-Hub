@@ -1,0 +1,757 @@
+{
+  "slug": "abstract-concepts",
+  "name": "Abstract Concepts",
+  "description": "Khái niệm trừu tượng B1 — concept, principle, framework, context, approach và 15 từ về tư duy học thuật.",
+  "order_index": 9,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "concept",
+      "lemma": "concept",
+      "ipa": "/ˈkɒnsept/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an idea or general thought about something",
+          "meaning_vi": "khái niệm, ý tưởng",
+          "examples": [
+            {
+              "en": "The concept of time is hard to define.",
+              "vi": "Khái niệm thời gian khó định nghĩa."
+            },
+            {
+              "en": "Vingroup's smart city concept is impressive.",
+              "vi": "Khái niệm thành phố thông minh của Vingroup ấn tượng."
+            },
+            {
+              "en": "She introduced a new business concept.",
+              "vi": "Cô ấy giới thiệu khái niệm kinh doanh mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["idea", "notion"],
+      "antonyms": [],
+      "collocations": [
+        "new concept",
+        "basic concept",
+        "concept of",
+        "grasp a concept",
+        "abstract concept"
+      ],
+      "etymology_hint": "From Latin 'conceptus' meaning 'a thing conceived' — from 'concipere' (to take in, conceive).",
+      "mnemonic_vi": "CONCEPT = CON + CEPT → 'cùng nắm bắt'. Concept = khái niệm chung."
+    },
+    {
+      "word": "principle",
+      "lemma": "principle",
+      "ipa": "/ˈprɪnsəpl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a basic rule or belief that guides behavior",
+          "meaning_vi": "nguyên tắc",
+          "examples": [
+            {
+              "en": "Honesty is one of her core principles.",
+              "vi": "Trung thực là một trong các nguyên tắc cốt lõi của cô."
+            },
+            {
+              "en": "Newton's principles changed physics.",
+              "vi": "Các nguyên tắc của Newton thay đổi vật lý."
+            },
+            {
+              "en": "Live by your principles.",
+              "vi": "Sống theo nguyên tắc của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rule", "ethic"],
+      "antonyms": [],
+      "collocations": [
+        "basic principle",
+        "in principle",
+        "guiding principle",
+        "moral principle",
+        "core principle"
+      ],
+      "etymology_hint": "From Latin 'principium' meaning 'beginning, foundation' — from 'princeps' (first, leader).",
+      "mnemonic_vi": "PRINCIPLE = PRINCIPI + LE → 'cái đầu tiên'. Principle = nguyên tắc nền."
+    },
+    {
+      "word": "paradigm",
+      "lemma": "paradigm",
+      "ipa": "/ˈpærədaɪm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a typical example or model of how things are done",
+          "meaning_vi": "mô hình điển hình, hệ chuẩn",
+          "examples": [
+            {
+              "en": "Vingroup is a paradigm of Vietnamese business success.",
+              "vi": "Vingroup là mô hình thành công kinh doanh Việt."
+            },
+            {
+              "en": "AI represents a paradigm shift in technology.",
+              "vi": "AI đại diện cho thay đổi mô hình trong công nghệ."
+            },
+            {
+              "en": "The old paradigm doesn't apply anymore.",
+              "vi": "Mô hình cũ không còn áp dụng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["model", "example"],
+      "antonyms": [],
+      "collocations": [
+        "paradigm shift",
+        "dominant paradigm",
+        "new paradigm",
+        "follow a paradigm",
+        "challenge the paradigm"
+      ],
+      "etymology_hint": "From Greek 'paradeigma' meaning 'pattern, example' — popularized in 1962 by Thomas Kuhn in 'The Structure of Scientific Revolutions'.",
+      "mnemonic_vi": "PARADIGM = PARA + DIGM → 'hình bên cạnh để theo'. Paradigm shift = thay mô hình."
+    },
+    {
+      "word": "framework",
+      "lemma": "framework",
+      "ipa": "/ˈfreɪmwɜːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a basic structure of ideas or rules used to plan or organize",
+          "meaning_vi": "khung, cơ cấu",
+          "examples": [
+            {
+              "en": "We need a framework for the new project.",
+              "vi": "Chúng tôi cần khung cho dự án mới."
+            },
+            {
+              "en": "The legal framework protects consumers.",
+              "vi": "Khung pháp lý bảo vệ người tiêu dùng."
+            },
+            {
+              "en": "React is a popular JavaScript framework.",
+              "vi": "React là framework JavaScript phổ biến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["structure", "system"],
+      "antonyms": [],
+      "collocations": [
+        "legal framework",
+        "theoretical framework",
+        "build a framework",
+        "within the framework",
+        "policy framework"
+      ],
+      "etymology_hint": "Compound of 'frame' + 'work' — original sense of physical frames built to hold structures.",
+      "mnemonic_vi": "FRAMEWORK = FRAME + WORK → 'khung làm việc'. Legal framework = khung pháp lý."
+    },
+    {
+      "word": "notion",
+      "lemma": "notion",
+      "ipa": "/ˈnəʊʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an idea or opinion, often vague",
+          "meaning_vi": "ý niệm, ý tưởng mơ hồ",
+          "examples": [
+            {
+              "en": "She has a notion that he likes her.",
+              "vi": "Cô ấy có ý nghĩ là anh ấy thích cô."
+            },
+            {
+              "en": "I have no notion what time it is.",
+              "vi": "Tôi không biết bây giờ mấy giờ."
+            },
+            {
+              "en": "The notion of equality is universal.",
+              "vi": "Ý niệm về bình đẳng là phổ quát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["idea", "concept"],
+      "antonyms": [],
+      "collocations": [
+        "no notion",
+        "vague notion",
+        "preconceived notion",
+        "common notion",
+        "abstract notion"
+      ],
+      "etymology_hint": "From Latin 'notio' meaning 'a thing known, idea' — from 'noscere' (to know).",
+      "mnemonic_vi": "NOTION = NOT + ION → 'sự biết'. Notion = ý niệm mơ hồ."
+    },
+    {
+      "word": "essence",
+      "lemma": "essence",
+      "ipa": "/ˈesns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the most important quality or basic nature of something",
+          "meaning_vi": "bản chất, cốt lõi",
+          "examples": [
+            {
+              "en": "The essence of phở is the broth.",
+              "vi": "Bản chất của phở là nước dùng."
+            },
+            {
+              "en": "In essence, we agree.",
+              "vi": "Về cơ bản, chúng tôi đồng ý."
+            },
+            {
+              "en": "Honesty is the essence of friendship.",
+              "vi": "Trung thực là cốt lõi của tình bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["core", "heart"],
+      "antonyms": [],
+      "collocations": [
+        "in essence",
+        "essence of",
+        "capture the essence",
+        "true essence",
+        "essence of the matter"
+      ],
+      "etymology_hint": "From Latin 'essentia' meaning 'being, nature' — coined as Latin equivalent of Greek 'ousia'.",
+      "mnemonic_vi": "ESSENCE = 'é-sồns' — 'ét' cốt lõi. In essence = về cơ bản."
+    },
+    {
+      "word": "aspect",
+      "lemma": "aspect",
+      "ipa": "/ˈæspekt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one part or feature of something",
+          "meaning_vi": "khía cạnh, mặt",
+          "examples": [
+            {
+              "en": "Consider every aspect before deciding.",
+              "vi": "Cân nhắc mọi khía cạnh trước khi quyết."
+            },
+            {
+              "en": "The cultural aspect of language is important.",
+              "vi": "Khía cạnh văn hóa của ngôn ngữ quan trọng."
+            },
+            {
+              "en": "I love every aspect of Vietnamese food.",
+              "vi": "Tôi yêu mọi khía cạnh đồ ăn Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["feature", "facet"],
+      "antonyms": [],
+      "collocations": [
+        "every aspect",
+        "important aspect",
+        "cultural aspect",
+        "different aspect",
+        "key aspect"
+      ],
+      "etymology_hint": "From Latin 'aspectus' meaning 'a looking at, view' — from 'aspicere' (to look at).",
+      "mnemonic_vi": "ASPECT = AS + PECT → 'nhìn về'. Every aspect = mọi khía cạnh."
+    },
+    {
+      "word": "context",
+      "lemma": "context",
+      "ipa": "/ˈkɒntekst/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the situation around something that helps you understand it",
+          "meaning_vi": "ngữ cảnh, bối cảnh",
+          "examples": [
+            {
+              "en": "Understand the word in context.",
+              "vi": "Hiểu từ trong ngữ cảnh."
+            },
+            {
+              "en": "Vietnamese history needs cultural context.",
+              "vi": "Lịch sử Việt cần bối cảnh văn hóa."
+            },
+            {
+              "en": "Don't quote me out of context.",
+              "vi": "Đừng trích tôi ngoài ngữ cảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["background", "setting"],
+      "antonyms": [],
+      "collocations": [
+        "in context",
+        "out of context",
+        "social context",
+        "historical context",
+        "cultural context"
+      ],
+      "etymology_hint": "From Latin 'contextus' meaning 'a joining together, sequence' — from 'contexere' (to weave together).",
+      "mnemonic_vi": "CONTEXT = CON + TEXT → 'dệt cùng văn'. Context = bối cảnh."
+    },
+    {
+      "word": "approach",
+      "lemma": "approach",
+      "ipa": "/əˈprəʊtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a way of dealing with a problem or doing something",
+          "meaning_vi": "cách tiếp cận, phương pháp",
+          "examples": [
+            {
+              "en": "Try a different approach to learning English.",
+              "vi": "Thử cách tiếp cận khác để học tiếng Anh."
+            },
+            {
+              "en": "Her approach to work is very systematic.",
+              "vi": "Cách tiếp cận công việc của cô ấy rất có hệ thống."
+            },
+            {
+              "en": "A holistic approach treats body and mind.",
+              "vi": "Cách tiếp cận toàn diện trị cả thân và tâm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["method", "way"],
+      "antonyms": [],
+      "collocations": [
+        "new approach",
+        "different approach",
+        "systematic approach",
+        "balanced approach",
+        "approach to"
+      ],
+      "etymology_hint": "From Old French 'aprochier' meaning 'to come nearer' — from Latin 'appropiare' (to draw near).",
+      "mnemonic_vi": "APPROACH = AP + PROACH → 'tới gần'. New approach = cách tiếp cận mới."
+    },
+    {
+      "word": "model",
+      "lemma": "model",
+      "ipa": "/ˈmɒdl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small or simple version of something, or an ideal example",
+          "meaning_vi": "mô hình, mẫu",
+          "examples": [
+            {
+              "en": "She built a model of the new building.",
+              "vi": "Cô ấy xây mô hình tòa nhà mới."
+            },
+            {
+              "en": "Vietnam follows the East Asian growth model.",
+              "vi": "Việt Nam theo mô hình tăng trưởng Đông Á."
+            },
+            {
+              "en": "She's a role model for young women.",
+              "vi": "Cô ấy là hình mẫu cho phụ nữ trẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["example", "pattern"],
+      "antonyms": [],
+      "collocations": [
+        "role model",
+        "business model",
+        "model of",
+        "follow a model",
+        "build a model"
+      ],
+      "etymology_hint": "From French 'modèle' — from Italian 'modello' (mold, pattern), from Latin 'modulus' (small measure).",
+      "mnemonic_vi": "MODEL = 'mó-đồ' — 'mô đề'. Role model = hình mẫu."
+    },
+    {
+      "word": "system",
+      "lemma": "system",
+      "ipa": "/ˈsɪstəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a set of connected things or rules that work together",
+          "meaning_vi": "hệ thống",
+          "examples": [
+            {
+              "en": "Vietnam's education system has changed.",
+              "vi": "Hệ thống giáo dục Việt đã thay đổi."
+            },
+            {
+              "en": "The metro system in Hà Nội is expanding.",
+              "vi": "Hệ thống metro Hà Nội đang mở rộng."
+            },
+            {
+              "en": "Our digestive system breaks down food.",
+              "vi": "Hệ tiêu hóa của ta phân hủy thức ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["network", "framework"],
+      "antonyms": [],
+      "collocations": [
+        "education system",
+        "computer system",
+        "support system",
+        "immune system",
+        "build a system"
+      ],
+      "etymology_hint": "From Greek 'systēma' meaning 'whole compounded of parts' — from 'syn-' (together) + 'histanai' (to set up).",
+      "mnemonic_vi": "SYSTEM = SYS + TEM → 'tập hợp đặt cùng'. Education system = hệ thống giáo dục."
+    },
+    {
+      "word": "structure",
+      "lemma": "structure",
+      "ipa": "/ˈstrʌktʃə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the way parts are arranged to form a whole",
+          "meaning_vi": "cấu trúc, kết cấu",
+          "examples": [
+            {
+              "en": "The structure of an essay has 3 parts.",
+              "vi": "Cấu trúc bài luận có 3 phần."
+            },
+            {
+              "en": "Vietnamese sentence structure is SVO.",
+              "vi": "Cấu trúc câu Việt là CVT."
+            },
+            {
+              "en": "Landmark 81 has a strong steel structure.",
+              "vi": "Landmark 81 có kết cấu thép vững."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["framework", "form"],
+      "antonyms": [],
+      "collocations": [
+        "essay structure",
+        "social structure",
+        "build a structure",
+        "structure of",
+        "rigid structure"
+      ],
+      "etymology_hint": "From Latin 'structura' meaning 'a fitting together' — from 'struere' (to pile up, build).",
+      "mnemonic_vi": "STRUCTURE = STRUCT + URE → 'sự xây'. Sentence structure = cấu trúc câu."
+    },
+    {
+      "word": "nature",
+      "lemma": "nature",
+      "ipa": "/ˈneɪtʃə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the basic qualities of someone or something; or the world of plants and animals",
+          "meaning_vi": "bản chất; thiên nhiên",
+          "examples": [
+            {
+              "en": "It's not in his nature to lie.",
+              "vi": "Nói dối không phải bản chất anh ấy."
+            },
+            {
+              "en": "Vietnam's nature is beautiful and diverse.",
+              "vi": "Thiên nhiên Việt Nam đẹp và đa dạng."
+            },
+            {
+              "en": "Human nature is curious and creative.",
+              "vi": "Bản chất con người tò mò và sáng tạo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["character", "essence"],
+      "antonyms": [],
+      "collocations": ["human nature", "by nature", "in nature", "true nature", "nature of"],
+      "etymology_hint": "From Latin 'natura' meaning 'birth, nature' — from 'natus' (born), past participle of 'nasci' (to be born).",
+      "mnemonic_vi": "NATURE = NAT + URE → 'sự sinh ra'. Human nature = bản tính người."
+    },
+    {
+      "word": "truth",
+      "lemma": "truth",
+      "ipa": "/truːθ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the real facts about something",
+          "meaning_vi": "sự thật",
+          "examples": [
+            {
+              "en": "Tell me the truth.",
+              "vi": "Nói thật với tôi đi."
+            },
+            {
+              "en": "The truth always comes out.",
+              "vi": "Sự thật rồi cũng lộ ra."
+            },
+            {
+              "en": "There's some truth in what she said.",
+              "vi": "Có chút sự thật trong điều cô ấy nói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fact", "reality"],
+      "antonyms": ["lie", "falsehood"],
+      "collocations": [
+        "tell the truth",
+        "the whole truth",
+        "naked truth",
+        "in truth",
+        "truth or lie"
+      ],
+      "etymology_hint": "From Old English 'trēowth' meaning 'faithfulness, fidelity' — same Germanic root as 'true' and 'trust'.",
+      "mnemonic_vi": "TRUTH = 'thrúth' — 'thrú' đúng. Truth = sự thật."
+    },
+    {
+      "word": "value",
+      "lemma": "value",
+      "ipa": "/ˈvæljuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "how much something is worth, or what you believe is important",
+          "meaning_vi": "giá trị",
+          "examples": [
+            {
+              "en": "Family values are important in Vietnam.",
+              "vi": "Giá trị gia đình quan trọng ở Việt Nam."
+            },
+            {
+              "en": "Gold has high value.",
+              "vi": "Vàng có giá trị cao."
+            },
+            {
+              "en": "Education has lasting value.",
+              "vi": "Giáo dục có giá trị bền vững."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["worth", "importance"],
+      "antonyms": ["worthlessness"],
+      "collocations": ["value of", "good value", "core values", "value for money", "add value"],
+      "etymology_hint": "From Old French 'value' meaning 'worth, price' — from Latin 'valere' (to be strong, worth).",
+      "mnemonic_vi": "VALUE = 'vá-liu' — 'vá liêu' giá trị. Family values = giá trị gia đình."
+    },
+    {
+      "word": "property",
+      "lemma": "property",
+      "ipa": "/ˈprɒpəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a quality or feature of something; or land/buildings you own",
+          "meaning_vi": "đặc tính; tài sản (nhà đất)",
+          "examples": [
+            {
+              "en": "Water has unique properties.",
+              "vi": "Nước có đặc tính độc đáo."
+            },
+            {
+              "en": "Vinhomes sells luxury properties.",
+              "vi": "Vinhomes bán bất động sản cao cấp."
+            },
+            {
+              "en": "Land is the best property in Việt Nam.",
+              "vi": "Đất là tài sản tốt nhất ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["asset", "characteristic"],
+      "antonyms": [],
+      "collocations": [
+        "chemical property",
+        "private property",
+        "real property",
+        "buy property",
+        "property value"
+      ],
+      "etymology_hint": "From Latin 'proprietas' meaning 'ownership' — from 'proprius' (one's own).",
+      "mnemonic_vi": "PROPERTY = PROPER + TY → 'cái thuộc về mình'. Property value = giá BĐS."
+    },
+    {
+      "word": "feature",
+      "lemma": "feature",
+      "ipa": "/ˈfiːtʃə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an important or interesting part of something",
+          "meaning_vi": "đặc điểm, tính năng",
+          "examples": [
+            {
+              "en": "The new iPhone has many features.",
+              "vi": "iPhone mới có nhiều tính năng."
+            },
+            {
+              "en": "Stilt houses are a feature of Vietnamese highlands.",
+              "vi": "Nhà sàn là đặc điểm vùng cao Việt."
+            },
+            {
+              "en": "Her main feature is her bright smile.",
+              "vi": "Đặc điểm chính của cô ấy là nụ cười tươi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aspect", "characteristic"],
+      "antonyms": [],
+      "collocations": [
+        "key feature",
+        "main feature",
+        "feature of",
+        "special feature",
+        "common feature"
+      ],
+      "etymology_hint": "From Old French 'faiture' meaning 'form, shape' — from Latin 'factura' (a making).",
+      "mnemonic_vi": "FEATURE = FEAT + URE → 'sự tạo'. Main feature = đặc điểm chính."
+    },
+    {
+      "word": "characteristic",
+      "lemma": "characteristic",
+      "ipa": "/ˌkærəktəˈrɪstɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a quality or feature that makes someone or something special",
+          "meaning_vi": "đặc trưng",
+          "examples": [
+            {
+              "en": "Honesty is a key characteristic of leaders.",
+              "vi": "Trung thực là đặc trưng then chốt của lãnh đạo."
+            },
+            {
+              "en": "Vietnamese cuisine has unique characteristics.",
+              "vi": "Ẩm thực Việt có đặc trưng riêng."
+            },
+            {
+              "en": "Patience is a characteristic of good teachers.",
+              "vi": "Kiên nhẫn là đặc trưng của giáo viên giỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["trait", "feature"],
+      "antonyms": [],
+      "collocations": [
+        "key characteristic",
+        "main characteristic",
+        "common characteristic",
+        "personal characteristic",
+        "physical characteristic"
+      ],
+      "etymology_hint": "From Greek 'kharaktēristikos' meaning 'distinctive' — from 'kharaktēr' (engraved mark).",
+      "mnemonic_vi": "CHARACTERISTIC = CHARACTER + ISTIC → 'đặc trưng'. Đặc điểm riêng."
+    },
+    {
+      "word": "component",
+      "lemma": "component",
+      "ipa": "/kəmˈpəʊnənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one of the parts that make up a whole",
+          "meaning_vi": "bộ phận, thành phần",
+          "examples": [
+            {
+              "en": "A computer has many components.",
+              "vi": "Máy tính có nhiều bộ phận."
+            },
+            {
+              "en": "Trust is a key component of marriage.",
+              "vi": "Tin tưởng là thành phần then chốt của hôn nhân."
+            },
+            {
+              "en": "Replace the broken component.",
+              "vi": "Thay bộ phận hỏng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["part", "element"],
+      "antonyms": ["whole"],
+      "collocations": [
+        "key component",
+        "main component",
+        "essential component",
+        "broken component",
+        "component of"
+      ],
+      "etymology_hint": "From Latin 'componens' meaning 'putting together' — from 'componere' (to compose).",
+      "mnemonic_vi": "COMPONENT = COMPON + ENT → 'cùng tạo'. Component = thành phần."
+    },
+    {
+      "word": "trait",
+      "lemma": "trait",
+      "ipa": "/treɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a particular quality of a person's character",
+          "meaning_vi": "đặc điểm tính cách",
+          "examples": [
+            {
+              "en": "Kindness is her best trait.",
+              "vi": "Tốt bụng là đặc điểm tốt nhất của cô ấy."
+            },
+            {
+              "en": "Vietnamese people value modesty as a trait.",
+              "vi": "Người Việt coi khiêm tốn là đặc tính."
+            },
+            {
+              "en": "Genetic traits pass from parents to children.",
+              "vi": "Đặc tính di truyền truyền từ bố mẹ sang con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["characteristic", "feature"],
+      "antonyms": [],
+      "collocations": [
+        "personality trait",
+        "genetic trait",
+        "character trait",
+        "common trait",
+        "positive trait"
+      ],
+      "etymology_hint": "From French 'trait' meaning 'a line, stroke' — from Latin 'tractus' (a drawing out).",
+      "mnemonic_vi": "TRAIT = 'trêi-t' — 'trẹt' nét đặc trưng. Personality trait = đặc điểm tính cách."
+    }
+  ]
+}

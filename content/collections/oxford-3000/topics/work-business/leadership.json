@@ -1,0 +1,769 @@
+{
+  "slug": "leadership",
+  "name": "Leadership",
+  "description": "Lãnh đạo B1 — motivate, inspire, vision, integrity, authority và 15 từ về kỹ năng lãnh đạo.",
+  "order_index": 10,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "motivate",
+      "lemma": "motivate",
+      "ipa": "/ˈməʊtɪveɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make someone want to do something",
+          "meaning_vi": "động viên, truyền động lực",
+          "examples": [
+            {
+              "en": "Good leaders motivate their teams.",
+              "vi": "Lãnh đạo giỏi tạo động lực cho team."
+            },
+            {
+              "en": "Money doesn't always motivate people.",
+              "vi": "Tiền không phải lúc nào cũng động viên."
+            },
+            {
+              "en": "She motivates me to try harder.",
+              "vi": "Cô ấy động viên tôi cố hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["encourage", "inspire"],
+      "antonyms": ["discourage"],
+      "collocations": [
+        "motivate the team",
+        "highly motivated",
+        "motivate yourself",
+        "motivate others",
+        "feel motivated"
+      ],
+      "etymology_hint": "From Latin 'motivus' meaning 'moving' — from 'movere' (to move).",
+      "mnemonic_vi": "MOTIVATE = MOTI + VATE → 'làm cho di chuyển'. Motivate the team = động viên team."
+    },
+    {
+      "word": "inspire",
+      "lemma": "inspire",
+      "ipa": "/ɪnˈspaɪə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make someone feel excited and able to do great things",
+          "meaning_vi": "truyền cảm hứng",
+          "examples": [
+            {
+              "en": "Hồ Chí Minh inspires Vietnamese youth.",
+              "vi": "Hồ Chí Minh truyền cảm hứng cho giới trẻ Việt."
+            },
+            {
+              "en": "Her speech inspired the audience.",
+              "vi": "Bài phát biểu cô ấy truyền cảm hứng cho khán giả."
+            },
+            {
+              "en": "Travel inspires creativity.",
+              "vi": "Du lịch truyền cảm hứng sáng tạo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motivate", "encourage"],
+      "antonyms": ["discourage"],
+      "collocations": [
+        "inspire others",
+        "inspire confidence",
+        "deeply inspire",
+        "inspire change",
+        "inspire trust"
+      ],
+      "etymology_hint": "From Latin 'inspirare' meaning 'to breathe into' — from 'in-' (into) + 'spirare' (to breathe).",
+      "mnemonic_vi": "INSPIRE = IN + SPIRE → 'thổi vào'. Inspire = truyền cảm hứng."
+    },
+    {
+      "word": "vision",
+      "lemma": "vision",
+      "ipa": "/ˈvɪʒn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an idea or plan for the future",
+          "meaning_vi": "tầm nhìn",
+          "examples": [
+            {
+              "en": "VinFast has a vision of global expansion.",
+              "vi": "VinFast có tầm nhìn mở rộng toàn cầu."
+            },
+            {
+              "en": "Great leaders share their vision.",
+              "vi": "Lãnh đạo lớn chia sẻ tầm nhìn."
+            },
+            {
+              "en": "Her vision for the company inspired everyone.",
+              "vi": "Tầm nhìn của cô về công ty truyền cảm hứng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dream", "foresight"],
+      "antonyms": [],
+      "collocations": [
+        "share a vision",
+        "long-term vision",
+        "company vision",
+        "clear vision",
+        "vision and mission"
+      ],
+      "etymology_hint": "From Latin 'visio' meaning 'sight, view' — from 'videre' (to see).",
+      "mnemonic_vi": "VISION = VIS + ION → 'sự nhìn'. Long-term vision = tầm nhìn dài hạn."
+    },
+    {
+      "word": "mission",
+      "lemma": "mission",
+      "ipa": "/ˈmɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an important task or the main purpose of an organization",
+          "meaning_vi": "sứ mệnh, nhiệm vụ",
+          "examples": [
+            {
+              "en": "Our mission is to improve education.",
+              "vi": "Sứ mệnh chúng tôi là cải thiện giáo dục."
+            },
+            {
+              "en": "The mission was successful.",
+              "vi": "Nhiệm vụ đã thành công."
+            },
+            {
+              "en": "Vingroup's mission is to serve the community.",
+              "vi": "Sứ mệnh Vingroup là phục vụ cộng đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["purpose", "task"],
+      "antonyms": [],
+      "collocations": [
+        "complete a mission",
+        "rescue mission",
+        "mission statement",
+        "on a mission",
+        "company mission"
+      ],
+      "etymology_hint": "From Latin 'missio' meaning 'a sending' — from 'mittere' (to send).",
+      "mnemonic_vi": "MISSION = MISS + ION → 'sự gửi đi'. Mission statement = tuyên bố sứ mệnh."
+    },
+    {
+      "word": "empower",
+      "lemma": "empower",
+      "ipa": "/ɪmˈpaʊə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give someone the power or confidence to do something",
+          "meaning_vi": "trao quyền, làm vững mạnh",
+          "examples": [
+            {
+              "en": "Education empowers women.",
+              "vi": "Giáo dục trao quyền cho phụ nữ."
+            },
+            {
+              "en": "We empower employees to make decisions.",
+              "vi": "Chúng tôi trao quyền cho nhân viên quyết định."
+            },
+            {
+              "en": "Empower yourself with knowledge.",
+              "vi": "Trao quyền cho mình bằng tri thức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enable", "authorize"],
+      "antonyms": ["weaken"],
+      "collocations": [
+        "empower women",
+        "empower yourself",
+        "empower the team",
+        "empower communities",
+        "empower people"
+      ],
+      "etymology_hint": "Compound of 'em-' (in, into) + 'power' — coined in 17th century English.",
+      "mnemonic_vi": "EMPOWER = EM + POWER → 'làm có quyền lực'. Empower = trao quyền."
+    },
+    {
+      "word": "charisma",
+      "lemma": "charisma",
+      "ipa": "/kəˈrɪzmə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a special quality that makes people like and admire you",
+          "meaning_vi": "sức hút, sức quyến rũ (cá nhân)",
+          "examples": [
+            {
+              "en": "Sơn Tùng has natural charisma on stage.",
+              "vi": "Sơn Tùng có sức hút tự nhiên trên sân khấu."
+            },
+            {
+              "en": "Great leaders need charisma.",
+              "vi": "Lãnh đạo giỏi cần sức hút."
+            },
+            {
+              "en": "Her charisma fills the room.",
+              "vi": "Sức hút của cô ấy lan khắp phòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["magnetism", "appeal"],
+      "antonyms": [],
+      "collocations": [
+        "natural charisma",
+        "personal charisma",
+        "lots of charisma",
+        "lack charisma",
+        "have charisma"
+      ],
+      "etymology_hint": "From Greek 'kharisma' meaning 'divine gift' — from 'kharis' (grace, favor).",
+      "mnemonic_vi": "CHARISMA = 'kha-rít-mơ' — 'kha rít' hấp dẫn. Sức hút trời cho."
+    },
+    {
+      "word": "integrity",
+      "lemma": "integrity",
+      "ipa": "/ɪnˈteɡrəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the quality of being honest and having strong moral principles",
+          "meaning_vi": "sự liêm chính, trung thực",
+          "examples": [
+            {
+              "en": "She's a leader of great integrity.",
+              "vi": "Cô ấy là lãnh đạo có liêm chính cao."
+            },
+            {
+              "en": "Integrity matters more than success.",
+              "vi": "Liêm chính quan trọng hơn thành công."
+            },
+            {
+              "en": "Personal integrity is hard to fake.",
+              "vi": "Liêm chính cá nhân khó giả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["honesty", "ethics"],
+      "antonyms": ["dishonesty"],
+      "collocations": [
+        "personal integrity",
+        "moral integrity",
+        "professional integrity",
+        "show integrity",
+        "lack of integrity"
+      ],
+      "etymology_hint": "From Latin 'integritas' meaning 'wholeness, completeness' — from 'integer' (whole, intact).",
+      "mnemonic_vi": "INTEGRITY = INTEGER + ITY → 'sự nguyên vẹn'. Personal integrity = liêm chính."
+    },
+    {
+      "word": "accountability",
+      "lemma": "accountability",
+      "ipa": "/əˌkaʊntəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the fact of being responsible and able to explain your actions",
+          "meaning_vi": "tính chịu trách nhiệm",
+          "examples": [
+            {
+              "en": "Leaders must have accountability.",
+              "vi": "Lãnh đạo phải có tính chịu trách nhiệm."
+            },
+            {
+              "en": "Vietnam aims to improve government accountability.",
+              "vi": "Việt Nam mục tiêu cải thiện trách nhiệm chính phủ."
+            },
+            {
+              "en": "There's no accountability without transparency.",
+              "vi": "Không có trách nhiệm nếu không có minh bạch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["responsibility"],
+      "antonyms": [],
+      "collocations": [
+        "personal accountability",
+        "lack of accountability",
+        "demand accountability",
+        "public accountability",
+        "full accountability"
+      ],
+      "etymology_hint": "From 'accountable' + '-ity' — modern political/business sense from late 20th century governance discourse.",
+      "mnemonic_vi": "ACCOUNTABILITY = ACCOUNT + ABILITY → 'khả năng giải trình'. Trách nhiệm giải trình."
+    },
+    {
+      "word": "authority",
+      "lemma": "authority",
+      "ipa": "/ɔːˈθɒrəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the power to make decisions or give orders",
+          "meaning_vi": "quyền lực, thẩm quyền",
+          "examples": [
+            {
+              "en": "She has the authority to approve budgets.",
+              "vi": "Cô ấy có thẩm quyền duyệt ngân sách."
+            },
+            {
+              "en": "Don't question the authority of the principal.",
+              "vi": "Đừng nghi ngờ thẩm quyền của hiệu trưởng."
+            },
+            {
+              "en": "Vietnamese authorities arrested the suspect.",
+              "vi": "Cơ quan chức năng Việt Nam bắt nghi phạm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["power", "command"],
+      "antonyms": [],
+      "collocations": [
+        "have authority",
+        "abuse authority",
+        "central authority",
+        "in authority",
+        "authority figure"
+      ],
+      "etymology_hint": "From Latin 'auctoritas' meaning 'invention, advice, command' — from 'auctor' (originator, leader).",
+      "mnemonic_vi": "AUTHORITY = AUTHOR + ITY → 'sự là tác giả'. Authority = thẩm quyền."
+    },
+    {
+      "word": "command",
+      "lemma": "command",
+      "ipa": "/kəˈmɑːnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to officially tell someone to do something",
+          "meaning_vi": "ra lệnh, chỉ huy",
+          "examples": [
+            {
+              "en": "The general commanded the army.",
+              "vi": "Tướng chỉ huy quân đội."
+            },
+            {
+              "en": "She commands respect from her team.",
+              "vi": "Cô ấy được team kính trọng."
+            },
+            {
+              "en": "Don't command people — ask politely.",
+              "vi": "Đừng ra lệnh — hỏi lịch sự."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["order", "direct"],
+      "antonyms": ["obey"],
+      "collocations": [
+        "command respect",
+        "command an army",
+        "in command",
+        "take command",
+        "chain of command"
+      ],
+      "etymology_hint": "From Old French 'comander' meaning 'to order' — from Latin 'commendare' (to entrust).",
+      "mnemonic_vi": "COMMAND = COM + MAND → 'cùng giao'. Take command = nhận chỉ huy."
+    },
+    {
+      "word": "direct",
+      "lemma": "direct",
+      "ipa": "/dəˈrekt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to manage, guide, or be in charge of something",
+          "meaning_vi": "chỉ đạo, điều hành",
+          "examples": [
+            {
+              "en": "She directs the marketing team.",
+              "vi": "Cô ấy chỉ đạo team marketing."
+            },
+            {
+              "en": "Trần Anh Hùng directs Vietnamese films.",
+              "vi": "Trần Anh Hùng đạo diễn phim Việt."
+            },
+            {
+              "en": "Direct your energy toward your goals.",
+              "vi": "Hướng năng lượng vào mục tiêu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lead", "manage"],
+      "antonyms": [],
+      "collocations": [
+        "direct a film",
+        "direct the team",
+        "direct your attention",
+        "directly responsible",
+        "direct traffic"
+      ],
+      "etymology_hint": "From Latin 'directus' meaning 'straight' — from 'dirigere' (to set straight, guide).",
+      "mnemonic_vi": "DIRECT = DI + RECT → 'thẳng tới'. Direct the team = chỉ đạo team."
+    },
+    {
+      "word": "oversee",
+      "lemma": "oversee",
+      "ipa": "/ˌəʊvəˈsiː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to watch over and direct an activity or group of people",
+          "meaning_vi": "giám sát, quản lý",
+          "examples": [
+            {
+              "en": "She oversees 5 departments.",
+              "vi": "Cô ấy giám sát 5 phòng ban."
+            },
+            {
+              "en": "The CEO oversees all operations.",
+              "vi": "CEO giám sát mọi hoạt động."
+            },
+            {
+              "en": "Who oversees this project?",
+              "vi": "Ai giám sát dự án này?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supervise", "manage"],
+      "antonyms": [],
+      "collocations": [
+        "oversee a project",
+        "oversee operations",
+        "personally oversee",
+        "oversee the team",
+        "oversee progress"
+      ],
+      "etymology_hint": "Compound of 'over' + 'see' — Middle English sense of 'watch over from above'.",
+      "mnemonic_vi": "OVERSEE = OVER + SEE → 'nhìn từ trên'. Oversee the team = giám sát."
+    },
+    {
+      "word": "supervise",
+      "lemma": "supervise",
+      "ipa": "/ˈsuːpəvaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to watch a person or activity to make sure things are done correctly",
+          "meaning_vi": "giám sát, trông coi",
+          "examples": [
+            {
+              "en": "Parents supervise children online.",
+              "vi": "Phụ huynh giám sát con online."
+            },
+            {
+              "en": "She supervises 10 staff members.",
+              "vi": "Cô ấy giám sát 10 nhân viên."
+            },
+            {
+              "en": "Don't leave kids unsupervised.",
+              "vi": "Đừng để trẻ không có giám sát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["oversee", "monitor"],
+      "antonyms": [],
+      "collocations": [
+        "supervise the work",
+        "closely supervise",
+        "supervise children",
+        "supervise staff",
+        "supervise an exam"
+      ],
+      "etymology_hint": "From Latin 'super' (over) + 'videre' (to see) — same root as 'supervisor'.",
+      "mnemonic_vi": "SUPERVISE = SUPER + VISE → 'nhìn từ trên'. Supervise the work = giám sát công việc."
+    },
+    {
+      "word": "govern",
+      "lemma": "govern",
+      "ipa": "/ˈɡʌvn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to officially control a country or organization",
+          "meaning_vi": "quản trị, cai trị (đất nước)",
+          "examples": [
+            {
+              "en": "The Communist Party governs Vietnam.",
+              "vi": "Đảng Cộng sản quản trị Việt Nam."
+            },
+            {
+              "en": "Self-government means people govern themselves.",
+              "vi": "Tự trị nghĩa là dân tự quản."
+            },
+            {
+              "en": "Laws govern social behavior.",
+              "vi": "Luật điều chỉnh hành vi xã hội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rule", "administer"],
+      "antonyms": [],
+      "collocations": [
+        "govern a country",
+        "govern by",
+        "self-govern",
+        "govern fairly",
+        "govern the rules"
+      ],
+      "etymology_hint": "From Latin 'gubernare' meaning 'to steer a ship' — Greek root 'kybernan'.",
+      "mnemonic_vi": "GOVERN = GO + VERN → 'lái thuyền'. Govern a country = trị quốc."
+    },
+    {
+      "word": "dominate",
+      "lemma": "dominate",
+      "ipa": "/ˈdɒmɪneɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to be the strongest or most important",
+          "meaning_vi": "thống trị, chiếm ưu thế",
+          "examples": [
+            {
+              "en": "Apple dominates the phone market.",
+              "vi": "Apple thống trị thị trường điện thoại."
+            },
+            {
+              "en": "She dominates every meeting.",
+              "vi": "Cô ấy chiếm ưu thế mọi cuộc họp."
+            },
+            {
+              "en": "Don't let one person dominate the conversation.",
+              "vi": "Đừng để 1 người chiếm cuộc trò chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rule", "control"],
+      "antonyms": [],
+      "collocations": [
+        "dominate the market",
+        "completely dominate",
+        "dominate the conversation",
+        "dominate the field",
+        "dominate the world"
+      ],
+      "etymology_hint": "From Latin 'dominari' meaning 'to be lord over' — from 'dominus' (master, lord).",
+      "mnemonic_vi": "DOMINATE = DOMIN + ATE → 'làm chủ'. Dominate market = thống trị thị trường."
+    },
+    {
+      "word": "control",
+      "lemma": "control",
+      "ipa": "/kənˈtrəʊl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to have power over something or someone",
+          "meaning_vi": "kiểm soát, điều khiển",
+          "examples": [
+            {
+              "en": "Police control traffic during Tết.",
+              "vi": "Cảnh sát kiểm soát giao thông dịp Tết."
+            },
+            {
+              "en": "Control your emotions in arguments.",
+              "vi": "Kiểm soát cảm xúc khi cãi nhau."
+            },
+            {
+              "en": "I can't control the weather.",
+              "vi": "Tôi không thể điều khiển thời tiết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["regulate", "manage"],
+      "antonyms": [],
+      "collocations": [
+        "control yourself",
+        "lose control",
+        "remote control",
+        "self-control",
+        "out of control"
+      ],
+      "etymology_hint": "From Old French 'contrerolle' meaning 'a counter-roll' — original sense of checking records against duplicates.",
+      "mnemonic_vi": "CONTROL = CON + TROL → 'cuộn cùng'. Self-control = tự kiểm soát."
+    },
+    {
+      "word": "discipline",
+      "lemma": "discipline",
+      "ipa": "/ˈdɪsəplɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the practice of training your mind and body to follow rules",
+          "meaning_vi": "kỷ luật, sự rèn luyện",
+          "examples": [
+            {
+              "en": "Athletes need strong discipline.",
+              "vi": "Vận động viên cần kỷ luật mạnh."
+            },
+            {
+              "en": "Self-discipline leads to success.",
+              "vi": "Kỷ luật bản thân dẫn đến thành công."
+            },
+            {
+              "en": "Military discipline is very strict.",
+              "vi": "Kỷ luật quân đội rất nghiêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["control", "training"],
+      "antonyms": ["chaos"],
+      "collocations": [
+        "self-discipline",
+        "strict discipline",
+        "military discipline",
+        "lack of discipline",
+        "iron discipline"
+      ],
+      "etymology_hint": "From Latin 'disciplina' meaning 'instruction, knowledge' — from 'discipulus' (pupil).",
+      "mnemonic_vi": "DISCIPLINE = DISCIP + LINE → 'theo đường lối'. Self-discipline = kỷ luật bản thân."
+    },
+    {
+      "word": "encourage",
+      "lemma": "encourage",
+      "ipa": "/ɪnˈkʌrɪdʒ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give someone confidence or support to do something",
+          "meaning_vi": "khuyến khích, động viên",
+          "examples": [
+            {
+              "en": "Parents should encourage their children.",
+              "vi": "Phụ huynh nên khuyến khích con."
+            },
+            {
+              "en": "Her teacher encouraged her to apply for scholarship.",
+              "vi": "Giáo viên khuyến khích cô xin học bổng."
+            },
+            {
+              "en": "We encourage open discussion.",
+              "vi": "Chúng tôi khuyến khích thảo luận mở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motivate", "support"],
+      "antonyms": ["discourage"],
+      "collocations": [
+        "encourage someone to",
+        "strongly encourage",
+        "encourage participation",
+        "encourage growth",
+        "always encourage"
+      ],
+      "etymology_hint": "From Old French 'encoragier' meaning 'to make strong, hearten' — from 'en-' (in) + 'corage' (courage).",
+      "mnemonic_vi": "ENCOURAGE = EN + COURAGE → 'làm có dũng khí'. Encourage = động viên."
+    },
+    {
+      "word": "visionary",
+      "lemma": "visionary",
+      "ipa": "/ˈvɪʒənri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person with strong original ideas about the future",
+          "meaning_vi": "người có tầm nhìn xa, thấu thị",
+          "examples": [
+            {
+              "en": "Steve Jobs was a tech visionary.",
+              "vi": "Steve Jobs là người có tầm nhìn công nghệ."
+            },
+            {
+              "en": "Phạm Nhật Vượng is a Vietnamese business visionary.",
+              "vi": "Phạm Nhật Vượng là doanh nhân có tầm nhìn ở Việt Nam."
+            },
+            {
+              "en": "Visionaries change the world.",
+              "vi": "Người có tầm nhìn thay đổi thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dreamer", "innovator"],
+      "antonyms": [],
+      "collocations": [
+        "true visionary",
+        "business visionary",
+        "tech visionary",
+        "creative visionary",
+        "visionary leader"
+      ],
+      "etymology_hint": "From 'vision' + '-ary' (relating to) — sense of 'person with vision' developed in 17th century.",
+      "mnemonic_vi": "VISIONARY = VISION + ARY → 'người có tầm nhìn'. Visionary leader = lãnh đạo có tầm nhìn."
+    },
+    {
+      "word": "delegate",
+      "lemma": "delegate",
+      "ipa": "/ˈdelɪɡət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person chosen to represent a group at a meeting or conference",
+          "meaning_vi": "đại biểu (cuộc họp, hội nghị)",
+          "examples": [
+            {
+              "en": "Vietnamese delegates attended the UN summit.",
+              "vi": "Đại biểu Việt Nam dự hội nghị LHQ."
+            },
+            {
+              "en": "Each company sent 2 delegates.",
+              "vi": "Mỗi công ty cử 2 đại biểu."
+            },
+            {
+              "en": "She was elected delegate to Congress.",
+              "vi": "Cô ấy được bầu đại biểu vào Quốc hội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["representative"],
+      "antonyms": [],
+      "collocations": [
+        "send a delegate",
+        "elected delegate",
+        "conference delegate",
+        "UN delegate",
+        "delegate to"
+      ],
+      "etymology_hint": "From Latin 'delegatus' meaning 'sent away' — same root as verb 'delegate' (to entrust).",
+      "mnemonic_vi": "DELEGATE = DE + LEGATE → 'gửi đi'. Conference delegate = đại biểu hội nghị."
+    }
+  ]
+}
