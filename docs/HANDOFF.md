@@ -5,6 +5,55 @@
 
 ---
 
+## 2026-05-17 (P9d content batch) — B1: 5 lessons / 100 cards (132/192, ~69%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons B1 tiếp nối P9c. User "tiếp đi" → override #16. Quality bar duy trì.
+
+**5 lessons mới (B1, 100/100 NEW so với 2540 existing)**:
+
+| #   | Lesson            | Topic              | order |
+| --- | ----------------- | ------------------ | ----- |
+| 1   | road-trip         | places-travel      | 9     |
+| 2   | podcasting        | entertainment      | 12    |
+| 3   | customer-service  | work-business      | 15    |
+| 4   | oceans-deep       | nature-environment | 12    |
+| 5   | scientific-method | abstract-academic  | 13    |
+
+### SHA cuối session (P9d)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `8dcdbc7` (P9d merge)
+- be `7dcffaf` (P9d content)
+- fe `693b5af` (sync P9d)
+
+### Verify
+
+- Zod ALL VALID 5 files. Tất cả đúng 20 cards.
+- Validate flags: 16+11+12+9+16 = 64/100 IPA notation variations.
+- Collision check rất chặt do coverage 66%+ — cần 3 round greps + 1 lesson pivot tránh trùng.
+
+### PICKUP cho session sau — P9e (5 lessons cuối đóng P9 25/25)
+
+P9 đang 20/25. Còn 5 lessons để đóng. Đề xuất P9e topic candidates:
+
+- `daily-life/personal-finance` — budget, save, invest (có thể taken), debt, loan, mortgage, interest-rate, emergency-fund, retirement, frugal, splurge
+- `entertainment/board-games` — pawn, dice (taken cooking? no), strategy, chess, checkers, opponent, turn, roll, score, win, lose, draw
+- `people/networking` — connect, contact, business-card, reach-out, intro, mentor (taken), warm-lead, follow-up (taken), small-talk, conference
+- `work-business/data-analysis` — dataset, dashboard (taken road-trip!), chart, graph, visualize, KPI, insight, trend, regression, correlation
+- `places-travel/airport-procedures` — boarding, check-in, security, layover, terminal, gate, baggage-claim, customs (taken), duty-free
+
+Lưu ý collision rất cao. Cân nhắc pivot 1-2 topic nếu nhiều trùng.
+
+### Files state khi handoff (P9d)
+
+- All branches pushed to origin.
+- Docs updated.
+- No uncommitted changes sau docs commit.
+
+---
+
 ## 2026-05-17 (P9c content batch) — B1: 5 lessons / 100 cards (127/192, ~66%) — Claude Opus 4.7
 
 ### Đã ship
