@@ -1,0 +1,769 @@
+{
+  "slug": "study-abroad",
+  "name": "Study Abroad",
+  "description": "Du học B1 — application, IELTS, stipend, homesickness và 16 từ cho dân du học sinh.",
+  "order_index": 6,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "application",
+      "lemma": "application",
+      "ipa": "/ˌæplɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a formal written request to study at a school or for a program",
+          "meaning_vi": "đơn đăng ký, hồ sơ ứng tuyển",
+          "examples": [
+            {
+              "en": "Her Harvard application took six months to prepare.",
+              "vi": "Hồ sơ Harvard của cô ấy mất 6 tháng chuẩn bị."
+            },
+            {
+              "en": "Submit your application by January 1st.",
+              "vi": "Nộp đơn trước ngày 1 tháng 1."
+            },
+            {
+              "en": "Strong applications include genuine personal essays.",
+              "vi": "Hồ sơ mạnh gồm bài luận cá nhân chân thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["submission"],
+      "antonyms": ["rejection"],
+      "collocations": [
+        "submit an application",
+        "application form",
+        "application deadline",
+        "strong application",
+        "university application"
+      ],
+      "etymology_hint": "From Latin 'applicare' = to attach — 'ad-' (to) + 'plicare' (fold).",
+      "mnemonic_vi": "APPLY (đăng ký) + ATION = sự đăng ký. University application = hồ sơ đại học."
+    },
+    {
+      "word": "orientation",
+      "lemma": "orientation",
+      "ipa": "/ˌɔːriənˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an introduction program for new students or employees",
+          "meaning_vi": "buổi định hướng, chương trình giới thiệu",
+          "examples": [
+            {
+              "en": "Orientation week helped her meet other Vietnamese students.",
+              "vi": "Tuần định hướng giúp cô ấy gặp các sinh viên Việt khác."
+            },
+            {
+              "en": "Skip orientation at your own risk.",
+              "vi": "Bỏ định hướng là tự gánh rủi ro."
+            },
+            {
+              "en": "Orientation covers campus, classes, and visas.",
+              "vi": "Định hướng nói về trường, lớp và visa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["induction", "welcome program"],
+      "antonyms": [],
+      "collocations": [
+        "orientation week",
+        "new student orientation",
+        "attend orientation",
+        "international orientation",
+        "orientation session"
+      ],
+      "etymology_hint": "From Latin 'oriens' (rising sun, east) — meaning 'finding direction', then 'introduction'.",
+      "mnemonic_vi": "ORIENT (hướng) + ATION = sự định hướng. Orientation week = tuần định hướng."
+    },
+    {
+      "word": "overseas",
+      "lemma": "overseas",
+      "ipa": "/ˌəʊvəˈsiːz/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "in or to a foreign country across the sea",
+          "meaning_vi": "ở/sang nước ngoài (qua biển)",
+          "examples": [
+            {
+              "en": "Many Vietnamese students go overseas for college.",
+              "vi": "Nhiều sinh viên Việt đi du học ở nước ngoài."
+            },
+            {
+              "en": "Working overseas changes your worldview.",
+              "vi": "Làm việc ở nước ngoài đổi thế giới quan của bạn."
+            },
+            {
+              "en": "She lived overseas for ten years.",
+              "vi": "Cô ấy sống ở nước ngoài 10 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["abroad", "foreign country"],
+      "antonyms": ["domestic", "home"],
+      "collocations": [
+        "study overseas",
+        "go overseas",
+        "work overseas",
+        "live overseas",
+        "overseas experience"
+      ],
+      "etymology_hint": "Compound: 'over' (across) + 'seas' — literal sense from age of sail.",
+      "mnemonic_vi": "OVER (qua) + SEAS (biển) = qua biển. Study overseas = học ở nước ngoài."
+    },
+    {
+      "word": "semester",
+      "lemma": "semester",
+      "ipa": "/sɪˈmestə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "one of two main periods in a school year, usually six months",
+          "meaning_vi": "học kỳ (thường 6 tháng)",
+          "examples": [
+            {
+              "en": "Spring semester ends in May.",
+              "vi": "Học kỳ xuân kết thúc tháng 5."
+            },
+            {
+              "en": "She took five courses last semester.",
+              "vi": "Cô ấy học 5 môn học kỳ trước."
+            },
+            {
+              "en": "A semester abroad changed her career.",
+              "vi": "Một học kỳ du học đổi sự nghiệp cô ấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["term"],
+      "antonyms": ["full year", "break"],
+      "collocations": [
+        "fall semester",
+        "spring semester",
+        "semester abroad",
+        "next semester",
+        "semester break"
+      ],
+      "etymology_hint": "From Latin 'semestris' = of six months — 'sex' (six) + 'mensis' (month).",
+      "mnemonic_vi": "SEMESTER đọc 'si-mét-tơ' — sí mé sáu tháng. Semester abroad = học kỳ du học."
+    },
+    {
+      "word": "accommodation",
+      "lemma": "accommodation",
+      "ipa": "/əˌkɒməˈdeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a place to live, especially while studying or traveling",
+          "meaning_vi": "chỗ ở (du học sinh, du khách)",
+          "examples": [
+            {
+              "en": "Student accommodation is cheaper near campus.",
+              "vi": "Chỗ ở sinh viên rẻ hơn gần trường."
+            },
+            {
+              "en": "She booked her accommodation three months early.",
+              "vi": "Cô ấy đặt chỗ ở trước 3 tháng."
+            },
+            {
+              "en": "On-campus accommodation guarantees a community.",
+              "vi": "Ở trong campus đảm bảo có cộng đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lodging", "housing"],
+      "antonyms": ["homelessness"],
+      "collocations": [
+        "student accommodation",
+        "find accommodation",
+        "shared accommodation",
+        "off-campus accommodation",
+        "affordable accommodation"
+      ],
+      "etymology_hint": "From Latin 'accommodare' = to fit one thing to another — 'ad-' + 'commodus' (suitable).",
+      "mnemonic_vi": "ACCOMMODATE (chứa) + ION = chỗ chứa. Student accommodation = chỗ ở sinh viên."
+    },
+    {
+      "word": "stipend",
+      "lemma": "stipend",
+      "ipa": "/ˈstaɪpend/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a fixed amount of money paid regularly to students or trainees for living costs",
+          "meaning_vi": "khoản trợ cấp (cho sinh viên/học viên)",
+          "examples": [
+            {
+              "en": "The scholarship comes with a monthly stipend.",
+              "vi": "Học bổng đi kèm trợ cấp hàng tháng."
+            },
+            {
+              "en": "Her stipend covers rent and groceries.",
+              "vi": "Trợ cấp của cô ấy đủ thuê nhà và đi chợ."
+            },
+            {
+              "en": "PhD stipends vary widely across countries.",
+              "vi": "Trợ cấp tiến sĩ khác nhau lớn giữa các nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["allowance", "grant"],
+      "antonyms": ["salary (regular work)"],
+      "collocations": [
+        "monthly stipend",
+        "scholarship stipend",
+        "research stipend",
+        "modest stipend",
+        "PhD stipend"
+      ],
+      "etymology_hint": "From Latin 'stipendium' = soldier's pay — root 'stips' (small coin) + 'pendere' (weigh, pay).",
+      "mnemonic_vi": "STIPEND đọc 'stai-pen-d' — sai pent đầy túi nhỏ. Monthly stipend = trợ cấp tháng."
+    },
+    {
+      "word": "homesickness",
+      "lemma": "homesickness",
+      "ipa": "/ˈhəʊmsɪknəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the sad feeling of missing home when you are away",
+          "meaning_vi": "nỗi nhớ nhà",
+          "examples": [
+            {
+              "en": "Homesickness hit her hardest at Tết.",
+              "vi": "Nỗi nhớ nhà ập đến mạnh nhất vào Tết."
+            },
+            {
+              "en": "Video calls help reduce homesickness.",
+              "vi": "Gọi video giúp giảm nhớ nhà."
+            },
+            {
+              "en": "Severe homesickness can affect grades.",
+              "vi": "Nhớ nhà nặng có thể ảnh hưởng điểm số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["home longing", "nostalgia for home"],
+      "antonyms": ["feeling at home"],
+      "collocations": [
+        "severe homesickness",
+        "fight homesickness",
+        "first homesickness",
+        "overcome homesickness",
+        "manage homesickness"
+      ],
+      "etymology_hint": "Compound: 'home' + 'sick' + '-ness' — 18th-century coinage, originally a medical condition.",
+      "mnemonic_vi": "HOME (nhà) + SICK (ốm/nhớ) + NESS = sự nhớ nhà. Severe homesickness = nhớ nhà nặng."
+    },
+    {
+      "word": "adjustment",
+      "lemma": "adjustment",
+      "ipa": "/əˈdʒʌstmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of getting used to a new place, situation, or routine",
+          "meaning_vi": "sự thích nghi, điều chỉnh",
+          "examples": [
+            {
+              "en": "Adjustment to British weather took her a winter.",
+              "vi": "Thích nghi thời tiết Anh mất cả mùa đông."
+            },
+            {
+              "en": "Cultural adjustment is harder than academic adjustment.",
+              "vi": "Thích nghi văn hóa khó hơn thích nghi học tập."
+            },
+            {
+              "en": "Give yourself 6-12 months for full adjustment.",
+              "vi": "Cho bản thân 6-12 tháng để thích nghi hoàn toàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["adaptation", "acclimatization"],
+      "antonyms": ["resistance"],
+      "collocations": [
+        "cultural adjustment",
+        "period of adjustment",
+        "smooth adjustment",
+        "difficult adjustment",
+        "make adjustments"
+      ],
+      "etymology_hint": "From verb 'adjust' (Latin 'ad-' to + 'iuxta' near) + '-ment'.",
+      "mnemonic_vi": "ADJUST (điều chỉnh) + MENT = sự điều chỉnh. Cultural adjustment = thích nghi văn hóa."
+    },
+    {
+      "word": "exchange-program",
+      "lemma": "exchange-program",
+      "ipa": "/ɪksˈtʃeɪndʒˌprəʊɡræm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a program where students study in another country for a semester or year",
+          "meaning_vi": "chương trình trao đổi sinh viên",
+          "examples": [
+            {
+              "en": "She joined an exchange-program in Tokyo.",
+              "vi": "Cô ấy tham gia exchange-program ở Tokyo."
+            },
+            {
+              "en": "Erasmus is Europe's biggest exchange-program.",
+              "vi": "Erasmus là exchange-program lớn nhất châu Âu."
+            },
+            {
+              "en": "Exchange-programs build lifelong international friendships.",
+              "vi": "Exchange-program xây tình bạn quốc tế suốt đời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["study exchange"],
+      "antonyms": [],
+      "collocations": [
+        "join an exchange-program",
+        "exchange-program participant",
+        "Erasmus exchange-program",
+        "popular exchange-program",
+        "exchange-program coordinator"
+      ],
+      "etymology_hint": "Compound: 'exchange' (swap) + 'program' (Greek 'prographein' = write before).",
+      "mnemonic_vi": "EXCHANGE (trao đổi) + PROGRAM = chương trình trao đổi. Join an exchange-program = tham gia chương trình."
+    },
+    {
+      "word": "foreign-language",
+      "lemma": "foreign-language",
+      "ipa": "/ˌfɒrən ˈlæŋɡwɪdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a language not spoken in your home country",
+          "meaning_vi": "ngoại ngữ",
+          "examples": [
+            {
+              "en": "Learning a foreign-language opens job markets.",
+              "vi": "Học ngoại ngữ mở thị trường việc làm."
+            },
+            {
+              "en": "Vietnamese kids start a foreign-language at age 6.",
+              "vi": "Trẻ Việt bắt đầu học ngoại ngữ từ 6 tuổi."
+            },
+            {
+              "en": "Living abroad is the fastest foreign-language teacher.",
+              "vi": "Sống ở nước ngoài là thầy dạy ngoại ngữ nhanh nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["second language"],
+      "antonyms": ["mother tongue", "native language"],
+      "collocations": [
+        "foreign-language skills",
+        "learn a foreign-language",
+        "foreign-language teacher",
+        "foreign-language requirement",
+        "foreign-language fluency"
+      ],
+      "etymology_hint": "Compound: 'foreign' (Old French 'forain' = outside) + 'language' (Latin 'lingua' = tongue).",
+      "mnemonic_vi": "FOREIGN (nước ngoài) + LANGUAGE (ngôn ngữ) = ngoại ngữ. Foreign-language skills = kỹ năng ngoại ngữ."
+    },
+    {
+      "word": "international",
+      "lemma": "international",
+      "ipa": "/ˌɪntəˈnæʃnəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "involving more than one country; (of students) from another country",
+          "meaning_vi": "quốc tế (sinh viên nước ngoài, sự kiện quốc tế)",
+          "examples": [
+            {
+              "en": "International students pay higher tuition.",
+              "vi": "Sinh viên quốc tế trả học phí cao hơn."
+            },
+            {
+              "en": "She joined an international club to meet others.",
+              "vi": "Cô ấy tham gia club quốc tế để gặp người khác."
+            },
+            {
+              "en": "RMIT Vietnam attracts international students from 30 countries.",
+              "vi": "RMIT Việt Nam hút sinh viên quốc tế từ 30 nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["global", "worldwide"],
+      "antonyms": ["domestic", "national"],
+      "collocations": [
+        "international student",
+        "international experience",
+        "international community",
+        "international tuition",
+        "international office"
+      ],
+      "etymology_hint": "Prefix 'inter-' (between) + 'national' — coined 1780 by Jeremy Bentham.",
+      "mnemonic_vi": "INTER (giữa) + NATIONAL (quốc gia) = giữa các nước. International student = sinh viên quốc tế."
+    },
+    {
+      "word": "IELTS",
+      "lemma": "IELTS",
+      "ipa": "/ˈaɪelts/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "International English Language Testing System — a standardized English exam for university and immigration",
+          "meaning_vi": "IELTS (kỳ thi tiếng Anh chuẩn quốc tế)",
+          "examples": [
+            {
+              "en": "She scored 7.5 on the IELTS.",
+              "vi": "Cô ấy đạt 7.5 IELTS."
+            },
+            {
+              "en": "Most UK universities require IELTS 6.5 or above.",
+              "vi": "Phần lớn trường UK yêu cầu IELTS 6.5 trở lên."
+            },
+            {
+              "en": "IELTS scores are valid for two years.",
+              "vi": "Điểm IELTS có giá trị 2 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["English proficiency test"],
+      "antonyms": [],
+      "collocations": [
+        "take IELTS",
+        "IELTS score",
+        "IELTS preparation",
+        "IELTS Academic",
+        "IELTS speaking"
+      ],
+      "etymology_hint": "Acronym launched 1989 by Cambridge English Assessment + British Council + IDP.",
+      "mnemonic_vi": "IELTS = 'ai-eo-tì' — kỳ thi tiếng Anh quốc tế. IELTS score = điểm IELTS."
+    },
+    {
+      "word": "TOEFL",
+      "lemma": "TOEFL",
+      "ipa": "/ˈtəʊfl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "Test of English as a Foreign Language — a standardized English exam mainly for US universities",
+          "meaning_vi": "TOEFL (kỳ thi tiếng Anh chuẩn của Mỹ)",
+          "examples": [
+            {
+              "en": "US schools prefer TOEFL over IELTS.",
+              "vi": "Trường Mỹ thường ưa TOEFL hơn IELTS."
+            },
+            {
+              "en": "TOEFL is taken on a computer, not paper.",
+              "vi": "TOEFL thi máy tính, không phải giấy."
+            },
+            {
+              "en": "She got 105 on the TOEFL out of 120.",
+              "vi": "Cô ấy được 105/120 TOEFL."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["English proficiency test"],
+      "antonyms": [],
+      "collocations": [
+        "TOEFL iBT",
+        "TOEFL score",
+        "take the TOEFL",
+        "TOEFL preparation",
+        "TOEFL requirement"
+      ],
+      "etymology_hint": "Acronym created 1964 by Educational Testing Service (ETS) in the US.",
+      "mnemonic_vi": "TOEFL = 'tô-phồ' / 'tô-phừn' — kỳ thi tiếng Anh Mỹ. TOEFL score = điểm TOEFL."
+    },
+    {
+      "word": "host-country",
+      "lemma": "host-country",
+      "ipa": "/ˈhəʊst ˌkʌntri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the country where you live and study as a foreigner",
+          "meaning_vi": "nước sở tại (nước du học sinh đang học)",
+          "examples": [
+            {
+              "en": "Respect the host-country's customs.",
+              "vi": "Tôn trọng phong tục nước sở tại."
+            },
+            {
+              "en": "Australia became her host-country for three years.",
+              "vi": "Úc thành nước sở tại của cô ấy 3 năm."
+            },
+            {
+              "en": "Adjusting to your host-country takes time.",
+              "vi": "Thích nghi nước sở tại cần thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["foreign destination"],
+      "antonyms": ["home country"],
+      "collocations": [
+        "respect host-country",
+        "host-country culture",
+        "host-country language",
+        "rules in host-country",
+        "host-country regulations"
+      ],
+      "etymology_hint": "Compound: 'host' (Latin 'hospes' = guest/host) + 'country' (Old French 'cuntree').",
+      "mnemonic_vi": "HOST (chủ) + COUNTRY (nước) = nước chủ. Host-country culture = văn hóa nước sở tại."
+    },
+    {
+      "word": "language-test",
+      "lemma": "language-test",
+      "ipa": "/ˈlæŋɡwɪdʒ test/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a standardized exam to measure language ability, often required for study abroad",
+          "meaning_vi": "kỳ thi đánh giá ngôn ngữ (yêu cầu khi du học)",
+          "examples": [
+            {
+              "en": "The university accepts three different language-tests.",
+              "vi": "Trường chấp nhận 3 kỳ thi ngôn ngữ khác nhau."
+            },
+            {
+              "en": "Schedule the language-test six months before applying.",
+              "vi": "Đặt lịch thi ngôn ngữ 6 tháng trước khi nộp hồ sơ."
+            },
+            {
+              "en": "Pass the language-test to qualify for the program.",
+              "vi": "Thi đậu kỳ thi ngôn ngữ để đủ điều kiện vào chương trình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["proficiency exam"],
+      "antonyms": [],
+      "collocations": [
+        "pass the language-test",
+        "take a language-test",
+        "language-test requirement",
+        "official language-test",
+        "language-test result"
+      ],
+      "etymology_hint": "Compound: 'language' (Latin 'lingua') + 'test' (Latin 'testum' = earthen pot for assaying metals).",
+      "mnemonic_vi": "LANGUAGE (ngôn ngữ) + TEST (thi) = thi ngôn ngữ. Pass the language-test = đậu kỳ thi ngôn ngữ."
+    },
+    {
+      "word": "study-permit",
+      "lemma": "study-permit",
+      "ipa": "/ˈstʌdi ˌpɜːmɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an official document allowing a foreign student to study in a country",
+          "meaning_vi": "giấy phép du học (cho phép học tại nước ngoài)",
+          "examples": [
+            {
+              "en": "Apply for a study-permit before booking flights.",
+              "vi": "Xin giấy phép du học trước khi đặt vé bay."
+            },
+            {
+              "en": "Canada's study-permit takes 3-6 months.",
+              "vi": "Giấy phép du học Canada mất 3-6 tháng."
+            },
+            {
+              "en": "Your study-permit must remain valid the whole program.",
+              "vi": "Giấy phép du học phải còn hạn suốt chương trình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["student visa"],
+      "antonyms": ["tourist visa"],
+      "collocations": [
+        "apply for study-permit",
+        "study-permit application",
+        "renew study-permit",
+        "study-permit denied",
+        "study-permit approval"
+      ],
+      "etymology_hint": "Compound: 'study' (Latin 'studere' = strive) + 'permit' (Latin 'permittere' = allow).",
+      "mnemonic_vi": "STUDY (học) + PERMIT (giấy phép) = giấy phép học. Apply for study-permit = xin giấy phép du học."
+    },
+    {
+      "word": "exchange-student",
+      "lemma": "exchange-student",
+      "ipa": "/ɪksˈtʃeɪndʒ ˌstjuːdənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a student studying temporarily in another country as part of a program",
+          "meaning_vi": "sinh viên trao đổi",
+          "examples": [
+            {
+              "en": "She hosted an exchange-student from Japan.",
+              "vi": "Cô ấy đón sinh viên trao đổi từ Nhật."
+            },
+            {
+              "en": "Exchange-students often become lifelong friends.",
+              "vi": "Sinh viên trao đổi thường thành bạn cả đời."
+            },
+            {
+              "en": "He was an exchange-student in Seoul for one year.",
+              "vi": "Anh ấy làm sinh viên trao đổi ở Seoul một năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["visiting student"],
+      "antonyms": ["domestic student"],
+      "collocations": [
+        "host exchange-student",
+        "exchange-student program",
+        "former exchange-student",
+        "exchange-student experience",
+        "international exchange-student"
+      ],
+      "etymology_hint": "Compound: 'exchange' (swap) + 'student' (Latin 'studens' = learner).",
+      "mnemonic_vi": "EXCHANGE + STUDENT = sinh viên trao đổi. Host exchange-student = đón sinh viên trao đổi."
+    },
+    {
+      "word": "placement",
+      "lemma": "placement",
+      "ipa": "/ˈpleɪsmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a temporary job or position arranged as part of a course",
+          "meaning_vi": "kỳ thực tập / vị trí được sắp xếp",
+          "examples": [
+            {
+              "en": "Her placement at the consulate boosted her CV.",
+              "vi": "Kỳ thực tập của cô ấy ở lãnh sự quán làm CV mạnh hơn."
+            },
+            {
+              "en": "Some placements are paid, others volunteer.",
+              "vi": "Vài kỳ thực tập có lương, vài kỳ tình nguyện."
+            },
+            {
+              "en": "Placement helped her decide on a career.",
+              "vi": "Kỳ thực tập giúp cô ấy chọn nghề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["internship placement", "work placement"],
+      "antonyms": [],
+      "collocations": [
+        "work placement",
+        "industry placement",
+        "secure a placement",
+        "placement year",
+        "placement opportunity"
+      ],
+      "etymology_hint": "From 'place' (Latin 'platea' = open space) + '-ment' — meaning shifted to 'job assignment'.",
+      "mnemonic_vi": "PLACE (đặt vào vị trí) + MENT = sự đặt vào. Work placement = kỳ thực tập."
+    },
+    {
+      "word": "recommendation",
+      "lemma": "recommendation",
+      "ipa": "/ˌrekəmenˈdeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a letter or statement from a teacher or employer supporting your application",
+          "meaning_vi": "thư giới thiệu (giáo viên / sếp viết)",
+          "examples": [
+            {
+              "en": "She got three strong recommendations from her professors.",
+              "vi": "Cô ấy có 3 thư giới thiệu mạnh từ giáo sư."
+            },
+            {
+              "en": "Ask for recommendations months in advance.",
+              "vi": "Xin thư giới thiệu trước nhiều tháng."
+            },
+            {
+              "en": "Generic recommendations don't help applications.",
+              "vi": "Thư giới thiệu chung chung không giúp hồ sơ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reference letter", "endorsement"],
+      "antonyms": [],
+      "collocations": [
+        "letter of recommendation",
+        "strong recommendation",
+        "request a recommendation",
+        "personal recommendation",
+        "academic recommendation"
+      ],
+      "etymology_hint": "From Latin 'recommendare' = entrust — 're-' + 'commendare' (praise, entrust).",
+      "mnemonic_vi": "RECOMMEND (giới thiệu) + ATION = sự giới thiệu. Letter of recommendation = thư giới thiệu."
+    },
+    {
+      "word": "cross-cultural",
+      "lemma": "cross-cultural",
+      "ipa": "/ˌkrɒs ˈkʌltʃərəl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "involving or comparing more than one culture",
+          "meaning_vi": "đa văn hóa, liên văn hóa",
+          "examples": [
+            {
+              "en": "Study abroad builds cross-cultural skills.",
+              "vi": "Du học xây kỹ năng đa văn hóa."
+            },
+            {
+              "en": "Cross-cultural teams handle global clients better.",
+              "vi": "Team đa văn hóa phục vụ khách toàn cầu tốt hơn."
+            },
+            {
+              "en": "Cross-cultural communication needs patience.",
+              "vi": "Giao tiếp đa văn hóa cần kiên nhẫn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intercultural"],
+      "antonyms": ["monocultural"],
+      "collocations": [
+        "cross-cultural communication",
+        "cross-cultural skills",
+        "cross-cultural understanding",
+        "cross-cultural training",
+        "cross-cultural friendship"
+      ],
+      "etymology_hint": "Compound: 'cross-' (between, across) + 'cultural' — academic anthropology term from 1930s.",
+      "mnemonic_vi": "CROSS (qua) + CULTURAL (văn hóa) = qua văn hóa. Cross-cultural skills = kỹ năng đa văn hóa."
+    }
+  ]
+}

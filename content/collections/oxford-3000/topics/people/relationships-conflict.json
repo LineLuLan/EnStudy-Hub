@@ -1,0 +1,769 @@
+{
+  "slug": "relationships-conflict",
+  "name": "Relationships & Conflict",
+  "description": "Mâu thuẫn trong quan hệ B1 — conflict, reconcile, betray, ultimatum và 16 từ cho khi cãi nhau.",
+  "order_index": 7,
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "word": "conflict",
+      "lemma": "conflict",
+      "ipa": "/ˈkɒnflɪkt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a serious disagreement between people or groups",
+          "meaning_vi": "mâu thuẫn, xung đột",
+          "examples": [
+            {
+              "en": "Family conflicts often involve money or expectations.",
+              "vi": "Mâu thuẫn gia đình thường liên quan đến tiền bạc hoặc kỳ vọng."
+            },
+            {
+              "en": "She avoids conflict by staying silent.",
+              "vi": "Cô ấy né mâu thuẫn bằng cách im lặng."
+            },
+            {
+              "en": "Healthy relationships handle conflict openly.",
+              "vi": "Mối quan hệ lành mạnh xử lý mâu thuẫn cởi mở."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disagreement", "dispute", "clash"],
+      "antonyms": ["harmony", "peace"],
+      "collocations": [
+        "avoid conflict",
+        "resolve conflict",
+        "family conflict",
+        "workplace conflict",
+        "open conflict"
+      ],
+      "etymology_hint": "From Latin 'conflictus' = a striking together — 'com-' (together) + 'fligere' (to strike).",
+      "mnemonic_vi": "CON (cùng) + FLICT (đánh) = cùng va chạm. Family conflict = mâu thuẫn gia đình."
+    },
+    {
+      "word": "forgive",
+      "lemma": "forgive",
+      "ipa": "/fəˈɡɪv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop being angry about someone's mistake and let it go",
+          "meaning_vi": "tha thứ",
+          "examples": [
+            {
+              "en": "She forgave him but didn't forget.",
+              "vi": "Cô ấy tha thứ nhưng không quên."
+            },
+            {
+              "en": "Forgiving yourself is often the hardest part.",
+              "vi": "Tha thứ cho bản thân thường là phần khó nhất."
+            },
+            {
+              "en": "Vietnamese culture values forgiveness in families.",
+              "vi": "Văn hóa Việt coi trọng sự tha thứ trong gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pardon", "let go", "absolve"],
+      "antonyms": ["hold a grudge", "resent"],
+      "collocations": [
+        "forgive someone",
+        "forgive and forget",
+        "forgive yourself",
+        "easily forgive",
+        "ask for forgiveness"
+      ],
+      "etymology_hint": "From Old English 'forgiefan' = give completely — 'for-' (completely) + 'giefan' (give).",
+      "mnemonic_vi": "FOR (vì) + GIVE (cho) = cho qua. Forgive and forget = tha thứ và quên."
+    },
+    {
+      "word": "grudge",
+      "lemma": "grudge",
+      "ipa": "/ɡrʌdʒ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a long-lasting feeling of anger toward someone for something they did",
+          "meaning_vi": "lòng oán hận, hờn dai",
+          "examples": [
+            {
+              "en": "She holds a grudge against her sister for years.",
+              "vi": "Cô ấy giữ hờn em gái nhiều năm trời."
+            },
+            {
+              "en": "Letting go of a grudge frees you, not them.",
+              "vi": "Buông bỏ lòng oán giải phóng bạn, không phải họ."
+            },
+            {
+              "en": "He's not the type to bear a grudge.",
+              "vi": "Anh ấy không phải kiểu người để bụng lâu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resentment", "bitterness"],
+      "antonyms": ["forgiveness"],
+      "collocations": [
+        "hold a grudge",
+        "bear a grudge",
+        "personal grudge",
+        "long-standing grudge",
+        "let go of a grudge"
+      ],
+      "etymology_hint": "From Middle English 'grucchen' = to grumble — same root as 'grouchy'.",
+      "mnemonic_vi": "GRUDGE đọc 'grắc' — gắt hằn lâu. Hold a grudge = giữ hờn."
+    },
+    {
+      "word": "reconcile",
+      "lemma": "reconcile",
+      "ipa": "/ˈrekənsaɪl/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make peace with someone after a fight or disagreement",
+          "meaning_vi": "làm lành, hòa giải",
+          "examples": [
+            {
+              "en": "After a year apart, they reconciled.",
+              "vi": "Sau một năm xa cách, họ làm lành."
+            },
+            {
+              "en": "Reconciling takes effort from both sides.",
+              "vi": "Làm lành đòi hỏi nỗ lực từ cả hai phía."
+            },
+            {
+              "en": "She reconciled with her father before his death.",
+              "vi": "Cô ấy hòa giải với bố trước khi ông mất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["make up", "make peace"],
+      "antonyms": ["fall out", "separate"],
+      "collocations": [
+        "reconcile with",
+        "fully reconcile",
+        "reconcile differences",
+        "reconcile and move on",
+        "reconcile after a fight"
+      ],
+      "etymology_hint": "From Latin 'reconciliare' = to bring together again — 're-' + 'conciliare' (unite).",
+      "mnemonic_vi": "RE (lại) + CONCILE (hợp) = lại hợp với nhau. Reconcile with = làm lành với."
+    },
+    {
+      "word": "mediate",
+      "lemma": "mediate",
+      "ipa": "/ˈmiːdieɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to help two sides reach an agreement in a dispute",
+          "meaning_vi": "làm trung gian hòa giải",
+          "examples": [
+            {
+              "en": "A counselor mediated between the couple.",
+              "vi": "Chuyên gia tư vấn làm trung gian cho cặp đôi."
+            },
+            {
+              "en": "HR mediated the workplace dispute.",
+              "vi": "HR làm trung gian cho mâu thuẫn nơi làm việc."
+            },
+            {
+              "en": "Older siblings often mediate between younger ones.",
+              "vi": "Anh chị thường làm trung gian cho các em."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intervene", "arbitrate"],
+      "antonyms": ["take sides"],
+      "collocations": [
+        "mediate a dispute",
+        "mediate between",
+        "professionally mediate",
+        "mediate a conflict",
+        "third party mediates"
+      ],
+      "etymology_hint": "From Latin 'mediare' = to be in the middle — root 'medius' (middle).",
+      "mnemonic_vi": "MEDI (giữa) + ATE = đứng giữa. Mediate a dispute = hòa giải tranh chấp."
+    },
+    {
+      "word": "fallout",
+      "lemma": "fallout",
+      "ipa": "/ˈfɔːlaʊt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the negative consequences or aftermath of an argument or event",
+          "meaning_vi": "hệ lụy, hậu quả tiêu cực (sau xung đột)",
+          "examples": [
+            {
+              "en": "The fallout from their fight lasted months.",
+              "vi": "Hệ lụy từ trận cãi nhau kéo dài nhiều tháng."
+            },
+            {
+              "en": "She managed the fallout with a public apology.",
+              "vi": "Cô ấy xử lý hậu quả bằng lời xin lỗi công khai."
+            },
+            {
+              "en": "Family fallout often spreads to other relatives.",
+              "vi": "Hệ lụy trong gia đình thường lan đến họ hàng khác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aftermath", "consequence"],
+      "antonyms": ["resolution"],
+      "collocations": [
+        "political fallout",
+        "personal fallout",
+        "lasting fallout",
+        "manage the fallout",
+        "fallout from"
+      ],
+      "etymology_hint": "Compound: 'fall' + 'out' — originally nuclear-debris term from 1950s, broadened to any negative aftermath.",
+      "mnemonic_vi": "FALL (rơi) + OUT (ra) = rơi rớt ra. Personal fallout = hệ lụy cá nhân."
+    },
+    {
+      "word": "tension",
+      "lemma": "tension",
+      "ipa": "/ˈtenʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of stress or anxiety between people who don't get along",
+          "meaning_vi": "căng thẳng (giữa các cá nhân)",
+          "examples": [
+            {
+              "en": "You could cut the tension with a knife.",
+              "vi": "Căng thẳng tới mức cắt được bằng dao."
+            },
+            {
+              "en": "Tension between the two families is long-standing.",
+              "vi": "Căng thẳng giữa hai gia đình đã lâu."
+            },
+            {
+              "en": "Sleep poorly when there's tension at home.",
+              "vi": "Mất ngủ khi nhà có căng thẳng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["friction", "strain"],
+      "antonyms": ["harmony", "peace"],
+      "collocations": [
+        "ease the tension",
+        "rising tension",
+        "tension between",
+        "family tension",
+        "underlying tension"
+      ],
+      "etymology_hint": "From Latin 'tendere' = to stretch — meaning shifted from physical stretch to emotional strain.",
+      "mnemonic_vi": "TENS (căng) + ION = sự căng. Ease the tension = giảm căng thẳng."
+    },
+    {
+      "word": "escalate",
+      "lemma": "escalate",
+      "ipa": "/ˈeskəleɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become more intense or serious, especially in a bad way",
+          "meaning_vi": "leo thang, gia tăng (thường xấu đi)",
+          "examples": [
+            {
+              "en": "The argument escalated into shouting.",
+              "vi": "Cuộc cãi vã leo thang thành gào thét."
+            },
+            {
+              "en": "Conflicts escalate fast on social media.",
+              "vi": "Mâu thuẫn leo thang nhanh trên mạng xã hội."
+            },
+            {
+              "en": "Step back before things escalate further.",
+              "vi": "Lùi lại trước khi mọi chuyện leo thang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["intensify", "worsen"],
+      "antonyms": ["de-escalate", "calm"],
+      "collocations": [
+        "escalate quickly",
+        "escalate into",
+        "escalate the situation",
+        "rapidly escalate",
+        "escalate further"
+      ],
+      "etymology_hint": "Back-formation from 'escalator' (early 20th century) — implies a step-up process.",
+      "mnemonic_vi": "ESCALAT(OR) = thang cuốn. Escalate = lên thang dần. Escalate the situation = đẩy tình hình leo thang."
+    },
+    {
+      "word": "deescalate",
+      "lemma": "deescalate",
+      "ipa": "/diːˈeskəleɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make a tense or violent situation calmer",
+          "meaning_vi": "hạ nhiệt, giảm căng thẳng",
+          "examples": [
+            {
+              "en": "A calm voice helps deescalate fights.",
+              "vi": "Giọng bình tĩnh giúp hạ nhiệt cãi nhau."
+            },
+            {
+              "en": "Police trained to deescalate tense encounters.",
+              "vi": "Cảnh sát được huấn luyện hạ nhiệt tình huống căng."
+            },
+            {
+              "en": "Apologizing can deescalate quickly.",
+              "vi": "Xin lỗi có thể hạ nhiệt nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["calm", "defuse"],
+      "antonyms": ["escalate", "inflame"],
+      "collocations": [
+        "deescalate the situation",
+        "deescalate tensions",
+        "deescalate quickly",
+        "help deescalate",
+        "deescalate the fight"
+      ],
+      "etymology_hint": "Prefix 'de-' (down, reverse) + 'escalate' — modern compound from conflict-resolution training.",
+      "mnemonic_vi": "DE (xuống) + ESCALATE (leo thang) = hạ thang. Deescalate the situation = hạ nhiệt tình huống."
+    },
+    {
+      "word": "misunderstanding",
+      "lemma": "misunderstanding",
+      "ipa": "/ˌmɪsʌndəˈstændɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a failure to understand something or someone correctly",
+          "meaning_vi": "sự hiểu lầm",
+          "examples": [
+            {
+              "en": "It was all a misunderstanding — she wasn't angry.",
+              "vi": "Tất cả chỉ là hiểu lầm — cô ấy không giận."
+            },
+            {
+              "en": "Most fights start with a small misunderstanding.",
+              "vi": "Phần lớn cãi nhau bắt đầu từ hiểu lầm nhỏ."
+            },
+            {
+              "en": "Cross-cultural misunderstandings happen often abroad.",
+              "vi": "Hiểu lầm văn hóa hay xảy ra khi ở nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mix-up", "confusion"],
+      "antonyms": ["understanding", "clarity"],
+      "collocations": [
+        "clear up a misunderstanding",
+        "minor misunderstanding",
+        "cultural misunderstanding",
+        "complete misunderstanding",
+        "avoid misunderstanding"
+      ],
+      "etymology_hint": "Prefix 'mis-' (wrong) + 'understanding' — straightforward compound meaning 'wrong reading'.",
+      "mnemonic_vi": "MIS (sai) + UNDERSTAND (hiểu) + ING = sự hiểu sai. Clear up a misunderstanding = giải hiểu lầm."
+    },
+    {
+      "word": "accusation",
+      "lemma": "accusation",
+      "ipa": "/ˌækjʊˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a statement saying someone has done something wrong",
+          "meaning_vi": "lời buộc tội, cáo buộc",
+          "examples": [
+            {
+              "en": "She denied the accusation immediately.",
+              "vi": "Cô ấy phủ nhận lời buộc tội ngay."
+            },
+            {
+              "en": "False accusations damage reputations.",
+              "vi": "Cáo buộc sai làm hỏng danh tiếng."
+            },
+            {
+              "en": "Don't make accusations without proof.",
+              "vi": "Đừng buộc tội khi chưa có bằng chứng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["allegation", "charge"],
+      "antonyms": ["defense", "exoneration"],
+      "collocations": [
+        "false accusation",
+        "make an accusation",
+        "deny the accusation",
+        "serious accusation",
+        "accusation against"
+      ],
+      "etymology_hint": "From Latin 'accusatio' — 'ad-' (to) + 'causa' (cause, lawsuit).",
+      "mnemonic_vi": "ACCUS (buộc tội) + ATION = sự buộc tội. False accusation = cáo buộc sai."
+    },
+    {
+      "word": "blame",
+      "lemma": "blame",
+      "ipa": "/bleɪm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say or think that someone is responsible for something bad",
+          "meaning_vi": "đổ lỗi cho",
+          "examples": [
+            {
+              "en": "Don't blame me for traffic — I left on time.",
+              "vi": "Đừng đổ lỗi cho tôi vì kẹt xe — tôi đi đúng giờ."
+            },
+            {
+              "en": "She blames herself for the failed project.",
+              "vi": "Cô ấy đổ lỗi cho bản thân vì dự án thất bại."
+            },
+            {
+              "en": "Blaming others keeps you stuck.",
+              "vi": "Đổ lỗi người khác khiến bạn dậm chân tại chỗ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fault", "hold responsible"],
+      "antonyms": ["praise", "credit"],
+      "collocations": [
+        "blame someone for",
+        "blame yourself",
+        "unfairly blame",
+        "shift the blame",
+        "take the blame"
+      ],
+      "etymology_hint": "From Old French 'blasmer' — Latin 'blasphemare' (to speak ill of).",
+      "mnemonic_vi": "BLAME đọc 'blêm' — bờ-lậm trách. Take the blame = chịu trách nhiệm."
+    },
+    {
+      "word": "betray",
+      "lemma": "betray",
+      "ipa": "/bɪˈtreɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hurt someone who trusts you by breaking their trust",
+          "meaning_vi": "phản bội",
+          "examples": [
+            {
+              "en": "He betrayed her by sharing her secret.",
+              "vi": "Anh ấy phản bội cô ấy bằng cách kể bí mật."
+            },
+            {
+              "en": "Trust takes years to build, seconds to betray.",
+              "vi": "Niềm tin xây nhiều năm, phản bội chỉ vài giây."
+            },
+            {
+              "en": "She felt betrayed by the layoff.",
+              "vi": "Cô ấy cảm thấy bị phản bội bởi vụ sa thải."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["double-cross", "let down"],
+      "antonyms": ["stay loyal", "honor"],
+      "collocations": [
+        "betray trust",
+        "feel betrayed",
+        "betray a friend",
+        "betray a secret",
+        "deeply betrayed"
+      ],
+      "etymology_hint": "From Old French 'trahir' = to deliver up — Latin 'tradere' (to hand over).",
+      "mnemonic_vi": "BETRAY đọc 'bi-trê' — bị trê 'phản'. Betray trust = phản bội niềm tin."
+    },
+    {
+      "word": "vent",
+      "lemma": "vent",
+      "ipa": "/vent/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to express strong emotion, especially anger or frustration, by talking about it",
+          "meaning_vi": "trút giận, xả cảm xúc bằng lời",
+          "examples": [
+            {
+              "en": "She vented to her best friend after the meeting.",
+              "vi": "Cô ấy trút giận với bạn thân sau buổi họp."
+            },
+            {
+              "en": "Don't vent on social media — you'll regret it.",
+              "vi": "Đừng trút giận trên mạng xã hội — sẽ hối hận."
+            },
+            {
+              "en": "Sometimes you just need to vent without advice.",
+              "vi": "Đôi khi bạn chỉ cần xả, không cần lời khuyên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["let off steam", "unload"],
+      "antonyms": ["bottle up", "suppress"],
+      "collocations": [
+        "vent to",
+        "vent frustration",
+        "vent your anger",
+        "need to vent",
+        "vent online"
+      ],
+      "etymology_hint": "From Old French 'fenestre' through air-passage sense — verb meaning 'release through an opening'.",
+      "mnemonic_vi": "VENT đọc 'vent' — vẹn lời. Need to vent = cần xả cảm xúc."
+    },
+    {
+      "word": "sulk",
+      "lemma": "sulk",
+      "ipa": "/sʌlk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stay silent and unhappy because you're upset, refusing to talk it out",
+          "meaning_vi": "hờn dỗi, im lặng giận hờn",
+          "examples": [
+            {
+              "en": "He sulked for hours after losing the game.",
+              "vi": "Anh ấy hờn dỗi nhiều giờ sau khi thua game."
+            },
+            {
+              "en": "Sulking doesn't solve anything.",
+              "vi": "Hờn dỗi không giải quyết được gì."
+            },
+            {
+              "en": "Stop sulking and let's talk about it.",
+              "vi": "Đừng hờn nữa, mình nói chuyện đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pout", "brood"],
+      "antonyms": ["talk openly", "communicate"],
+      "collocations": [
+        "sulk in silence",
+        "stop sulking",
+        "sulk for hours",
+        "go off and sulk",
+        "moody sulk"
+      ],
+      "etymology_hint": "Possibly back-formation from 'sulky' (Old English 'solcen' = lazy, sullen).",
+      "mnemonic_vi": "SULK đọc 'sấc' — sấc mặt giận. Stop sulking = thôi hờn dỗi."
+    },
+    {
+      "word": "bicker",
+      "lemma": "bicker",
+      "ipa": "/ˈbɪkə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to argue about small, unimportant things",
+          "meaning_vi": "cãi vặt, lèm bèm",
+          "examples": [
+            {
+              "en": "They bicker over who does the dishes.",
+              "vi": "Họ cãi vặt chuyện ai rửa bát."
+            },
+            {
+              "en": "Couples bicker about money more than anything.",
+              "vi": "Các cặp đôi cãi vặt về tiền hơn bất cứ chuyện gì khác."
+            },
+            {
+              "en": "Stop bickering — pick one and move on.",
+              "vi": "Thôi cãi vặt — chọn một cái rồi đi tiếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["squabble", "quarrel"],
+      "antonyms": ["agree calmly"],
+      "collocations": [
+        "bicker over",
+        "constantly bicker",
+        "bicker like siblings",
+        "petty bickering",
+        "stop bickering"
+      ],
+      "etymology_hint": "Middle English 'bikeren' = to attack — imitative origin, suggesting quick small jabs.",
+      "mnemonic_vi": "BICKER đọc 'bíc-cờ' — bí mà cứ cãi vặt. Petty bickering = cãi vặt vớ vẩn."
+    },
+    {
+      "word": "ultimatum",
+      "lemma": "ultimatum",
+      "ipa": "/ˌʌltɪˈmeɪtəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a final demand with a threat if it's not accepted",
+          "meaning_vi": "tối hậu thư, lời đe dọa cuối cùng",
+          "examples": [
+            {
+              "en": "She gave him an ultimatum: change or leave.",
+              "vi": "Cô ấy đưa tối hậu thư: đổi hoặc đi."
+            },
+            {
+              "en": "Ultimatums often backfire in relationships.",
+              "vi": "Tối hậu thư thường phản tác dụng trong quan hệ."
+            },
+            {
+              "en": "Don't issue an ultimatum you're not ready to follow through.",
+              "vi": "Đừng đưa tối hậu thư mà chưa sẵn sàng thực hiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["final demand"],
+      "antonyms": ["compromise"],
+      "collocations": [
+        "give an ultimatum",
+        "issue an ultimatum",
+        "final ultimatum",
+        "ultimatum to",
+        "respond to an ultimatum"
+      ],
+      "etymology_hint": "From Latin 'ultimus' = last — neuter form 'last thing'.",
+      "mnemonic_vi": "ULTIM (cuối) + ATUM = tối hậu. Give an ultimatum = đưa tối hậu thư."
+    },
+    {
+      "word": "heartbreak",
+      "lemma": "heartbreak",
+      "ipa": "/ˈhɑːtbreɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "deep emotional pain caused by losing a loved one or relationship",
+          "meaning_vi": "nỗi đau lòng (mất người thương)",
+          "examples": [
+            {
+              "en": "Heartbreak hurts physically too.",
+              "vi": "Đau lòng còn đau cả về thể xác."
+            },
+            {
+              "en": "Time heals most heartbreaks.",
+              "vi": "Thời gian chữa lành phần lớn nỗi đau lòng."
+            },
+            {
+              "en": "She wrote her best songs after a heartbreak.",
+              "vi": "Cô ấy viết những bài hay nhất sau lần đau lòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["heartache", "grief"],
+      "antonyms": ["joy", "love"],
+      "collocations": [
+        "deep heartbreak",
+        "first heartbreak",
+        "heal from heartbreak",
+        "heartbreak song",
+        "heartbreak story"
+      ],
+      "etymology_hint": "Compound: 'heart' + 'break' — metaphor for emotional shattering, in English since 14th century.",
+      "mnemonic_vi": "HEART (tim) + BREAK (vỡ) = vỡ tim. Heal from heartbreak = lành lại sau đau lòng."
+    },
+    {
+      "word": "jealousy",
+      "lemma": "jealousy",
+      "ipa": "/ˈdʒeləsi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the unhappy feeling that someone has or might take what is yours",
+          "meaning_vi": "sự ghen tuông, ghen tị",
+          "examples": [
+            {
+              "en": "Jealousy ruined their friendship.",
+              "vi": "Sự ghen tị phá vỡ tình bạn của họ."
+            },
+            {
+              "en": "A little jealousy is normal — too much is toxic.",
+              "vi": "Ghen một chút là bình thường — nhiều quá là độc hại."
+            },
+            {
+              "en": "Her jealousy showed in subtle comments.",
+              "vi": "Sự ghen tuông của cô ấy lộ ra qua những lời bình kín."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["envy", "possessiveness"],
+      "antonyms": ["trust", "contentment"],
+      "collocations": [
+        "intense jealousy",
+        "petty jealousy",
+        "feel jealousy",
+        "professional jealousy",
+        "overcome jealousy"
+      ],
+      "etymology_hint": "From Old French 'jalousie' — Greek 'zelos' (zeal, rivalry).",
+      "mnemonic_vi": "JEALOUS (ghen) + Y = sự ghen. Intense jealousy = ghen tuông dữ dội."
+    },
+    {
+      "word": "separate",
+      "lemma": "separate",
+      "ipa": "/ˈsepəreɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop living together as a couple, possibly before divorce",
+          "meaning_vi": "ly thân (sống xa) — bước trước ly hôn",
+          "examples": [
+            {
+              "en": "They separated for six months before reconciling.",
+              "vi": "Họ ly thân 6 tháng trước khi làm lành."
+            },
+            {
+              "en": "Separating can give space to think clearly.",
+              "vi": "Ly thân có thể cho không gian suy nghĩ rõ ràng."
+            },
+            {
+              "en": "Some couples separate but never divorce.",
+              "vi": "Vài cặp ly thân mà không ly hôn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["split up", "part"],
+      "antonyms": ["reconcile", "stay together"],
+      "collocations": [
+        "separate from",
+        "legally separate",
+        "separate temporarily",
+        "separate permanently",
+        "couple separates"
+      ],
+      "etymology_hint": "From Latin 'separare' = to put apart — 'se-' (apart) + 'parare' (prepare).",
+      "mnemonic_vi": "SE (chia) + PARATE (chuẩn bị) = chia ra. Legally separate = ly thân hợp pháp."
+    }
+  ]
+}
