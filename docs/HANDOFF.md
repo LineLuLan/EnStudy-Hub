@@ -5,6 +5,99 @@
 
 ---
 
+## 2026-05-17 (cuối session) — CardPreview polish round 2 + Theme accent tokens + Masonry layout — Claude Opus 4.7
+
+### Đã ship session này (FE work, A + B scope per plan `c-handoff-ti-p-hidden-gadget.md`)
+
+**A.9 Theme accent tokens** (`src/app/globals.css`):
+
+- Thêm `--accent`, `--accent-soft`, `--highlight` cho cả `:root` và `.dark`.
+- Light: study4-inspired blue/yellow (`oklch(0.55 0.18 257)` blue-600 + `oklch(0.87 0.18 95)` yellow-300).
+- Dark: low-chroma soft sage/cream (`oklch(0.72 0.11 155)` sage + `oklch(0.88 0.06 85)` cream) — KHÔNG neon per user yêu cầu eye-friendly.
+- **Swap `@media (prefers-color-scheme: dark)` → `.dark` selector** — next-themes dùng `attribute="class"` (xác nhận trong `layout.tsx`), trước đây CSS vars không react theo toggle, giờ đã fix.
+
+**A.1-A.8 + A.10 CardPreview restyle** (`src/components/decks/card-preview.tsx`):
+
+- **A.1 Typography EN/VI**: VN `italic text-zinc-500 dark:text-zinc-400`, EN `text-zinc-900 dark:text-zinc-50`. Giảm cognitive load.
+- **A.2 Bold target word**: helper `highlightWord(text, word, lemma)` với regex escape (xử lý phrasal verbs có space như `lead to`). Capture-group `String.split` → wrap `<strong className="text-[var(--accent)]">`. Match `card.word` HOẶC `card.lemma` (case-insensitive).
+- **A.3 Glassmorphism badges**: POS/CEFR/Note/suspend đều `backdrop-blur-sm bg-white/60 dark:bg-black/30 ring-1 ring-zinc-200/60`. CEFR và suspend dùng accent variant.
+- **A.4 Section dividers**: `divide-y divide-zinc-100 dark:divide-zinc-900` giữa def / syn-ant-col / mnemonic / etymology.
+- **A.5 Mnemonic blockquote**: dashed `border-[var(--highlight)]/60` + gradient `bg-gradient-to-br from-highlight/10 to-accent-soft/30` + floating "💡 Mẹo nhớ" label absolute top-left.
+- **A.6 Audio TTS**: `Volume2` icon cạnh IPA. `speechSynthesis.speak(SpeechSynthesisUtterance(card.word))` với `lang='en-GB' rate=0.9`. `try/catch` silent fail. `e.stopPropagation()` để không trigger toggle. **Hydration-safe**: `ttsSupported` state, set trong `useEffect` sau mount (tránh SSR mismatch).
+- **A.7 Hover lift closed**: `!open && hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-sm`.
+- **A.8 Open soft glow** (thay amber solid): `border-[var(--accent)]/40 shadow-lg shadow-[var(--accent)]/10 ring-2 ring-[var(--accent)]/30`. Smooth `duration-300`.
+- **A.10 Relabel suspend**: badge text "Tạm dừng" → "Đã thuộc", icon `PauseCircle` → `CheckCircle2`. Title tooltip update tương ứng. Note badge label cũng update "Note" → "Ghi chú" cho consistency Vietnamese.
+
+**B.11 Masonry layout** (`src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx`):
+
+- Switch từ CSS grid `lg:grid-cols-2 items-start` → CSS columns `lg:columns-2` + `break-inside-avoid` mỗi `<li>`.
+- Eliminates row-height artifacts khi 2 cards same row có uneven heights (1 cái có Note badge, 1 cái không, hoặc khác số định nghĩa).
+- True masonry, cards flow tự nhiên.
+
+### SHA cuối session
+
+| Branch | SHA       | Note                                                         |
+| ------ | --------- | ------------------------------------------------------------ |
+| main   | `eb18493` | v0.2.0 (không đổi)                                           |
+| dev    | `c2bf721` | merge fe → dev (CardPreview polish + theme tokens + masonry) |
+| be     | `ae75f85` | sync dev → be                                                |
+| fe     | `c9fe61a` | feat(ui): lesson cards masonry layout (sau `d6cc9bc` polish) |
+
+### Verify đã chạy
+
+- `pnpm typecheck` ✓ 0 errors
+- `pnpm lint` ✓ 0 warnings
+- `pnpm test` ✓ 179/179 passed (test logic không thay đổi — UI-only commits)
+
+### Files thay đổi
+
+- `src/app/globals.css` (+12 / -10 lines) — accent tokens + `.dark` swap
+- `src/components/decks/card-preview.tsx` (+141 / -40 lines) — full restyle
+- `src/app/(app)/decks/[col]/[topic]/[lesson]/page.tsx` (+2 / -2 lines) — masonry layout
+
+### Defer (chưa làm — đẩy session sau)
+
+- "Lưu từ" bookmark — cần DB migration `user_cards.bookmarked` + server action + UI
+- "Báo lỗi" — cần feature mới (form + table report)
+- Theme accent apply vào dashboard / stats / topbar (currently scope chỉ deck/card)
+- Conjugation matching cho bold target word (vd `accountant` vs `accountants` — Phase 1 dùng exact word boundary, ~90% case OK)
+
+### USER TODOs cũ (chưa close v1.0.0)
+
+1. Add `BACKUP_DATABASE_URL` GitHub secret (Supabase Direct URL 5432)
+2. Manual run backup workflow verify
+3. Live golden path test với DB thật
+4. Lighthouse audit
+5. Supabase RLS smoke test
+6. `git checkout main && git merge dev --no-ff -m "release: v1.0.0"` + tag + GitHub Release
+
+### USER TODO mới (manual visual QA round 2)
+
+Sau khi pull `dev` về và `pnpm dev`:
+
+1. Mở `/decks/oxford-3000/work-business/jobs-occupations` (1 trong sample lessons có 20 cards).
+2. **Toggle theme** `/settings` Light ↔ Dark — verify CSS vars thực sự đổi (blue → sage), KHÔNG flash, KHÔNG neon.
+3. **Click `Volume2` icon** cạnh IPA → kiểm tra speechSynthesis phát âm British. Click không expand card.
+4. **Hover thẻ đóng** → nâng nhẹ `-translate-y-0.5` + shadow.
+5. **Click mở thẻ** → smooth scroll center + soft accent glow (KHÔNG amber).
+6. **Examples**: kiểm EN bold target word đúng (regex match `accountant`, `accountants` vẫn match qua lemma share?), VN dim italic.
+7. **Masonry layout**: 2 cột không bị align row-height awkward.
+8. **Suspend 1 card** (qua review session → suspend toggle) → quay lại deck page, kiểm badge "Đã thuộc" với CheckCircle2 icon.
+9. Nếu OK → close v1.0.0 ship blockers cũ.
+
+### Notes for next AI session pickup
+
+- Plan đầy đủ ở `~/.claude/plans/c-handoff-ti-p-hidden-gadget.md` (đã exit plan mode, file saved).
+- Workflow: branch `fe` → dev → be, all merged. SYNC.md + TRACKER.md đã update với section "Post-MVP UI Revamp".
+- **Pattern reuse highlights** từ session này:
+  - **Capture-group regex split** cho text highlighting — pattern reuse được cho "search highlight" hoặc "keyword tagging" trong các text-rich UIs khác.
+  - **Hydration-safe capability check**: `useState(false)` + `useEffect(() => setState('feature' in window), [])` — pattern dùng được cho mọi browser API check (clipboard, share, geolocation, etc.).
+  - **CSS columns + break-inside-avoid** = true masonry zero JS, no virtualization needed cho <100 cards.
+  - **Accent tokens via CSS vars** + Tailwind arbitrary `bg-[var(--accent)]` cleaner hơn config-based custom Tailwind colors khi cần runtime theme switching.
+- **Hot-take**: nếu user muốn extend theme tokens sang `/dashboard, /stats, topbar` (defer item), pattern đã sẵn — chỉ cần replace hard-coded `sky` / `emerald` / `amber` bằng `var(--accent)` / `var(--highlight)`.
+
+---
+
 ## 2026-05-16 (cuối session) — UI Revamp /decks + TODO CardPreview polish + theme accent — Claude Opus 4.7
 
 ### Đã ship session này (FE work)

@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `da7216c`               | base                   | 2026-05-16 (`da7216c`) | P6 CLOSED — 15 lessons / 300 cards — 1340 total seeded    |
-| be     | `0fee06d`               | 2026-05-16 (`0fee06d`) | 2026-05-16 (`0fee06d`) | P6c A1 fillers (1 commit, 5 lessons) — P6 closed          |
-| fe     | `16d8c8b`               | 2026-05-16 (`16d8c8b`) | 2026-05-16 (`16d8c8b`) | sync P6c — gates green (typecheck/lint/179 tests)         |
+| dev    | `c2bf721`               | base                   | 2026-05-17 (`c2bf721`) | CardPreview polish + theme tokens + masonry layout        |
+| be     | `ae75f85`               | 2026-05-17 (`ae75f85`) | 2026-05-16 (`82dc173`) | sync UI polish round 2 — gates green                      |
+| fe     | `c9fe61a`               | 2026-05-17 (`3d507f2`) | 2026-05-17 (`c9fe61a`) | CardPreview restyle + theme accent + masonry — 179/179    |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
@@ -220,3 +220,8 @@ git checkout fe
 | 2026-05-15 | commit | (P3 partial) → be    | `717d886` | feat(content): P3 partial — 9 lessons (180 cards) + meta work-business    |
 | 2026-05-15 | merge  | be → dev             | `42f5660` | bring P3 partial to dev — user truncate P3 at work-business done          |
 | 2026-05-15 | sync   | dev → fe             | `4d4c0be` | sync P3 partial xuống fe — gates green (179/179 tests, lint 0)            |
+| 2026-05-17 | sync   | dev → fe             | `3d507f2` | sync: dev → fe (pickup UI polish round 2)                                 |
+| 2026-05-17 | commit | (ui polish) → fe     | `d6cc9bc` | feat(ui): CardPreview polish + theme accent tokens                        |
+| 2026-05-17 | commit | (masonry) → fe       | `c9fe61a` | feat(ui): lesson cards masonry layout (CSS columns)                       |
+| 2026-05-17 | merge  | fe → dev             | `c2bf721` | merge: fe → dev (CardPreview polish + theme tokens + masonry)             |
+| 2026-05-17 | sync   | dev → be             | `ae75f85` | sync: dev → be (CardPreview polish + theme tokens + masonry)              |
