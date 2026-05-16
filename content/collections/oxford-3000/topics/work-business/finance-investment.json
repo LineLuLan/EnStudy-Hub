@@ -1,0 +1,673 @@
+{
+  "slug": "finance-investment",
+  "name": "Finance & Investment",
+  "description": "Tài chính và đầu tư B1 — bond, asset, portfolio, dividend và 16 từ về thế giới đầu tư.",
+  "order_index": 11,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "bond",
+      "lemma": "bond",
+      "ipa": "/bɒnd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a way of lending money to a government or company that pays you interest",
+          "meaning_vi": "trái phiếu",
+          "examples": [
+            {
+              "en": "Government bonds are safer than stocks.",
+              "vi": "Trái phiếu chính phủ an toàn hơn cổ phiếu."
+            },
+            { "en": "She invests in 10-year bonds.", "vi": "Cô ấy đầu tư trái phiếu 10 năm." },
+            { "en": "Vietnamese bonds pay 5% interest.", "vi": "Trái phiếu Việt trả lãi 5%." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "government bond",
+        "corporate bond",
+        "bond market",
+        "bond yield",
+        "issue a bond"
+      ],
+      "etymology_hint": "From Old English 'bond' meaning 'tie, fastening' — financial sense developed in 16th century.",
+      "mnemonic_vi": "BOND = 'bond' — 'bồn' giữ tiền. Government bond = trái phiếu chính phủ."
+    },
+    {
+      "word": "asset",
+      "lemma": "asset",
+      "ipa": "/ˈæset/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something valuable that a person or company owns",
+          "meaning_vi": "tài sản",
+          "examples": [
+            { "en": "Real estate is a long-term asset.", "vi": "Bất động sản là tài sản dài hạn." },
+            {
+              "en": "Vingroup's assets exceed $20 billion.",
+              "vi": "Tài sản Vingroup vượt 20 tỷ USD."
+            },
+            {
+              "en": "Honesty is your greatest asset.",
+              "vi": "Trung thực là tài sản lớn nhất của bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resource", "property"],
+      "antonyms": ["liability"],
+      "collocations": [
+        "valuable asset",
+        "fixed asset",
+        "digital asset",
+        "company assets",
+        "personal asset"
+      ],
+      "etymology_hint": "From Latin 'ad satis' meaning 'to enough' — financial sense from 16th century 'enough to pay debts'.",
+      "mnemonic_vi": "ASSET = 'á-sét' — 'á' của bạn. Valuable asset = tài sản giá trị."
+    },
+    {
+      "word": "portfolio",
+      "lemma": "portfolio",
+      "ipa": "/pɔːtˈfəʊliəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a collection of investments owned by a person or company",
+          "meaning_vi": "danh mục đầu tư",
+          "examples": [
+            {
+              "en": "Diversify your portfolio to reduce risk.",
+              "vi": "Đa dạng danh mục để giảm rủi ro."
+            },
+            {
+              "en": "Her portfolio includes stocks and bonds.",
+              "vi": "Danh mục của cô có cả cổ phiếu và trái phiếu."
+            },
+            { "en": "A designer needs a strong portfolio.", "vi": "Designer cần portfolio mạnh." }
+          ]
+        }
+      ],
+      "synonyms": ["collection"],
+      "antonyms": [],
+      "collocations": [
+        "investment portfolio",
+        "diverse portfolio",
+        "build a portfolio",
+        "portfolio manager",
+        "design portfolio"
+      ],
+      "etymology_hint": "From Italian 'portafoglio' meaning 'leaf carrier' — originally a case for loose papers.",
+      "mnemonic_vi": "PORTFOLIO = PORT + FOLIO → 'túi chứa giấy'. Investment portfolio = danh mục đầu tư."
+    },
+    {
+      "word": "dividend",
+      "lemma": "dividend",
+      "ipa": "/ˈdɪvɪdend/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a payment made by a company to its shareholders",
+          "meaning_vi": "cổ tức",
+          "examples": [
+            {
+              "en": "Vinamilk pays high dividends to investors.",
+              "vi": "Vinamilk trả cổ tức cao cho nhà đầu tư."
+            },
+            {
+              "en": "Reinvest dividends to grow your wealth.",
+              "vi": "Tái đầu tư cổ tức để tăng tài sản."
+            },
+            { "en": "Annual dividends arrive in March.", "vi": "Cổ tức năm về tháng 3." }
+          ]
+        }
+      ],
+      "synonyms": ["payout"],
+      "antonyms": [],
+      "collocations": [
+        "pay dividends",
+        "dividend yield",
+        "annual dividend",
+        "reinvest dividends",
+        "high dividend"
+      ],
+      "etymology_hint": "From Latin 'dividendum' meaning 'thing to be divided' — from 'dividere' (to divide).",
+      "mnemonic_vi": "DIVIDEND = DIVIDE + END → 'cái chia ra cuối'. Cổ tức = phần lợi chia."
+    },
+    {
+      "word": "investor",
+      "lemma": "investor",
+      "ipa": "/ɪnˈvestə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person or organization that puts money into businesses to earn more",
+          "meaning_vi": "nhà đầu tư",
+          "examples": [
+            { "en": "Vietnamese investors love real estate.", "vi": "Nhà đầu tư Việt thích BĐS." },
+            {
+              "en": "Foreign investors pour billions into Việt Nam.",
+              "vi": "Nhà đầu tư ngoại đổ tỷ USD vào Việt Nam."
+            },
+            {
+              "en": "Shark Tank investors hear startup pitches.",
+              "vi": "NĐT Shark Tank nghe pitch startup."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["backer"],
+      "antonyms": [],
+      "collocations": [
+        "foreign investor",
+        "private investor",
+        "angel investor",
+        "find investors",
+        "attract investors"
+      ],
+      "etymology_hint": "From 'invest' + '-or' — Italian 'investire' meant 'to clothe with' (financial sense via 'investing money').",
+      "mnemonic_vi": "INVESTOR = INVEST + OR → 'người đầu tư'. Angel investor = nhà đầu tư thiên thần."
+    },
+    {
+      "word": "investment",
+      "lemma": "investment",
+      "ipa": "/ɪnˈvestmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money put into a business or activity to earn more later",
+          "meaning_vi": "khoản đầu tư",
+          "examples": [
+            {
+              "en": "Education is the best investment.",
+              "vi": "Giáo dục là khoản đầu tư tốt nhất."
+            },
+            { "en": "Vietnam attracts foreign direct investment.", "vi": "Việt Nam thu hút FDI." },
+            {
+              "en": "His investment paid off in 5 years.",
+              "vi": "Khoản đầu tư của anh sinh lời sau 5 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["funding"],
+      "antonyms": [],
+      "collocations": [
+        "foreign investment",
+        "long-term investment",
+        "good investment",
+        "investment opportunity",
+        "make an investment"
+      ],
+      "etymology_hint": "From 'invest' + '-ment' — sense of 'placing money to earn return' from 17th century English.",
+      "mnemonic_vi": "INVESTMENT = INVEST + MENT → 'sự đầu tư'. Long-term investment = đầu tư dài hạn."
+    },
+    {
+      "word": "equity",
+      "lemma": "equity",
+      "ipa": "/ˈekwəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the value of shares in a company, or the value of property after debts",
+          "meaning_vi": "vốn chủ sở hữu, cổ phần",
+          "examples": [
+            {
+              "en": "She owns 10% equity in the startup.",
+              "vi": "Cô ấy sở hữu 10% cổ phần startup."
+            },
+            {
+              "en": "Build home equity by paying mortgage.",
+              "vi": "Xây vốn chủ sở hữu nhà bằng trả mortgage."
+            },
+            { "en": "Private equity firms buy companies.", "vi": "Quỹ private equity mua công ty." }
+          ]
+        }
+      ],
+      "synonyms": ["shares", "stake"],
+      "antonyms": [],
+      "collocations": [
+        "home equity",
+        "private equity",
+        "equity stake",
+        "equity holders",
+        "equity capital"
+      ],
+      "etymology_hint": "From Latin 'aequitas' meaning 'fairness, equality' — financial sense developed from 'fair share'.",
+      "mnemonic_vi": "EQUITY = EQU + ITY → 'sự công bằng'. Equity = phần công bằng sở hữu."
+    },
+    {
+      "word": "fund",
+      "lemma": "fund",
+      "ipa": "/fʌnd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an amount of money saved or set aside for a specific purpose",
+          "meaning_vi": "quỹ",
+          "examples": [
+            { "en": "The retirement fund is important.", "vi": "Quỹ hưu trí quan trọng." },
+            { "en": "Mutual funds suit beginners.", "vi": "Quỹ tương hỗ hợp người mới." },
+            {
+              "en": "Vietnam has a sovereign wealth fund.",
+              "vi": "Việt Nam có quỹ tài sản quốc gia."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reserve", "pool"],
+      "antonyms": [],
+      "collocations": [
+        "mutual fund",
+        "pension fund",
+        "emergency fund",
+        "raise funds",
+        "fund manager"
+      ],
+      "etymology_hint": "From Latin 'fundus' meaning 'bottom, foundation' — financial sense from base capital.",
+      "mnemonic_vi": "FUND = 'phần' — 'phần' tiền chung. Mutual fund = quỹ tương hỗ."
+    },
+    {
+      "word": "capital",
+      "lemma": "capital",
+      "ipa": "/ˈkæpɪtl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money used to start a business or invest",
+          "meaning_vi": "vốn",
+          "examples": [
+            { "en": "Startups need seed capital.", "vi": "Startup cần vốn hạt giống." },
+            { "en": "Foreign capital flows into Việt Nam.", "vi": "Vốn ngoại đổ vào Việt Nam." },
+            {
+              "en": "Working capital keeps the business running.",
+              "vi": "Vốn lưu động giữ kinh doanh chạy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["funds", "money"],
+      "antonyms": [],
+      "collocations": [
+        "working capital",
+        "seed capital",
+        "venture capital",
+        "raise capital",
+        "capital investment"
+      ],
+      "etymology_hint": "From Latin 'capitalis' meaning 'of the head' — main/principal sum.",
+      "mnemonic_vi": "CAPITAL = CAPIT + AL → 'phần đầu'. Capital = vốn chính."
+    },
+    {
+      "word": "broker",
+      "lemma": "broker",
+      "ipa": "/ˈbrəʊkə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who buys and sells things like stocks or property for others",
+          "meaning_vi": "môi giới (chứng khoán, BĐS)",
+          "examples": [
+            { "en": "Hire a broker to manage stocks.", "vi": "Thuê môi giới để quản chứng khoán." },
+            { "en": "Real estate brokers earn commission.", "vi": "Môi giới BĐS kiếm hoa hồng." },
+            {
+              "en": "Online brokers are cheaper than traditional ones.",
+              "vi": "Môi giới online rẻ hơn truyền thống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agent", "dealer"],
+      "antonyms": [],
+      "collocations": [
+        "stock broker",
+        "real estate broker",
+        "online broker",
+        "insurance broker",
+        "broker fee"
+      ],
+      "etymology_hint": "From Anglo-French 'brocour' meaning 'small trader, agent' — possibly from 'broc' (jug, for measuring wine).",
+      "mnemonic_vi": "BROKER = 'brâu-cơ' — 'bờ rộn' giúp giao dịch. Stock broker = môi giới CK."
+    },
+    {
+      "word": "trader",
+      "lemma": "trader",
+      "ipa": "/ˈtreɪdə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person who buys and sells stocks or other things to make money",
+          "meaning_vi": "trader, người giao dịch",
+          "examples": [
+            {
+              "en": "Day traders watch markets all day.",
+              "vi": "Day trader theo dõi thị trường cả ngày."
+            },
+            { "en": "Vietnamese stock traders use SSI app.", "vi": "Trader Việt dùng app SSI." },
+            { "en": "Crypto traders saw big losses in 2022.", "vi": "Trader crypto thua lớn 2022." }
+          ]
+        }
+      ],
+      "synonyms": ["dealer"],
+      "antonyms": [],
+      "collocations": [
+        "day trader",
+        "stock trader",
+        "crypto trader",
+        "trader account",
+        "active trader"
+      ],
+      "etymology_hint": "From 'trade' + '-er' — Germanic root meaning 'a path, course'.",
+      "mnemonic_vi": "TRADER = TRADE + R → 'người giao dịch'. Crypto trader = trader crypto."
+    },
+    {
+      "word": "finance",
+      "lemma": "finance",
+      "ipa": "/ˈfaɪnæns/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the management of money by people, businesses, or governments",
+          "meaning_vi": "tài chính",
+          "examples": [
+            { "en": "She works in corporate finance.", "vi": "Cô ấy làm tài chính doanh nghiệp." },
+            {
+              "en": "Personal finance is important from young age.",
+              "vi": "Tài chính cá nhân quan trọng từ trẻ."
+            },
+            {
+              "en": "Finance Minister announced tax cuts.",
+              "vi": "Bộ trưởng Tài chính công bố giảm thuế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["money management"],
+      "antonyms": [],
+      "collocations": [
+        "personal finance",
+        "corporate finance",
+        "public finance",
+        "finance department",
+        "Minister of Finance"
+      ],
+      "etymology_hint": "From Old French 'finance' meaning 'end, settlement' — from Latin 'finis' (end). Settling debts.",
+      "mnemonic_vi": "FINANCE = 'fai-nâns' — 'phai năng' tiền. Personal finance = tài chính cá nhân."
+    },
+    {
+      "word": "savings",
+      "lemma": "savings",
+      "ipa": "/ˈseɪvɪŋz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "money you have saved over time, often in a bank",
+          "meaning_vi": "tiền tiết kiệm",
+          "examples": [
+            { "en": "Put 20% of salary into savings.", "vi": "Để 20% lương vào tiết kiệm." },
+            {
+              "en": "She used her savings to buy a motorbike.",
+              "vi": "Cô dùng tiết kiệm để mua xe máy."
+            },
+            { "en": "Vietnamese love saving for Tết.", "vi": "Người Việt thích tiết kiệm cho Tết." }
+          ]
+        }
+      ],
+      "synonyms": ["savings account"],
+      "antonyms": ["spending"],
+      "collocations": [
+        "life savings",
+        "savings account",
+        "build savings",
+        "personal savings",
+        "savings rate"
+      ],
+      "etymology_hint": "From 'save' + '-ings' — Germanic root meaning 'to deliver, protect'.",
+      "mnemonic_vi": "SAVINGS = SAVE + INGS → 'cái đã tiết kiệm'. Savings account = tài khoản tiết kiệm."
+    },
+    {
+      "word": "inflation",
+      "lemma": "inflation",
+      "ipa": "/ɪnˈfleɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the rise in prices of goods and services over time",
+          "meaning_vi": "lạm phát",
+          "examples": [
+            {
+              "en": "Vietnam's inflation rate is around 4%.",
+              "vi": "Lạm phát Việt Nam khoảng 4%."
+            },
+            {
+              "en": "Inflation hurts savings if rate is low.",
+              "vi": "Lạm phát hại tiết kiệm nếu lãi thấp."
+            },
+            { "en": "High inflation reduces buying power.", "vi": "Lạm phát cao giảm sức mua." }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["deflation"],
+      "collocations": [
+        "inflation rate",
+        "high inflation",
+        "control inflation",
+        "rising inflation",
+        "annual inflation"
+      ],
+      "etymology_hint": "From Latin 'inflatio' meaning 'a swelling' — from 'inflare' (to blow up). Economic sense from 19th century.",
+      "mnemonic_vi": "INFLATION = IN + FLATION → 'thổi phồng'. Inflation = giá phồng lên."
+    },
+    {
+      "word": "recession",
+      "lemma": "recession",
+      "ipa": "/rɪˈseʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a period when the economy is bad and many people lose jobs",
+          "meaning_vi": "suy thoái kinh tế",
+          "examples": [
+            {
+              "en": "The 2008 recession affected the whole world.",
+              "vi": "Suy thoái 2008 ảnh hưởng cả thế giới."
+            },
+            {
+              "en": "Save during boom, prepare for recession.",
+              "vi": "Tiết kiệm thời boom, chuẩn bị recession."
+            },
+            { "en": "Vietnam avoided recession in 2020.", "vi": "Việt Nam tránh suy thoái 2020." }
+          ]
+        }
+      ],
+      "synonyms": ["downturn", "slump"],
+      "antonyms": ["boom"],
+      "collocations": [
+        "economic recession",
+        "global recession",
+        "avoid a recession",
+        "deep recession",
+        "recession-proof"
+      ],
+      "etymology_hint": "From Latin 'recessio' meaning 'a going back' — from 'recedere' (to recede).",
+      "mnemonic_vi": "RECESSION = RE + CESSION → 'đi lùi'. Economic recession = suy thoái KT."
+    },
+    {
+      "word": "yield",
+      "lemma": "yield",
+      "ipa": "/jiːld/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the profit or return from an investment",
+          "meaning_vi": "lợi suất, lợi nhuận thu được",
+          "examples": [
+            {
+              "en": "Bonds have lower yield than stocks.",
+              "vi": "Trái phiếu có lợi suất thấp hơn cổ phiếu."
+            },
+            { "en": "Vinamilk's dividend yield is 6%.", "vi": "Lợi suất cổ tức Vinamilk 6%." },
+            {
+              "en": "High-yield investments carry more risk.",
+              "vi": "Đầu tư lợi suất cao có nhiều rủi ro hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "profit"],
+      "antonyms": [],
+      "collocations": ["dividend yield", "high yield", "bond yield", "yield curve", "annual yield"],
+      "etymology_hint": "From Old English 'gieldan' meaning 'to pay, repay' — same Germanic root as 'guilt' and 'gold'.",
+      "mnemonic_vi": "YIELD = 'yild' — 'yìu' sinh lời. Dividend yield = lợi suất cổ tức."
+    },
+    {
+      "word": "liquidity",
+      "lemma": "liquidity",
+      "ipa": "/lɪˈkwɪdəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "how easily you can convert assets to cash",
+          "meaning_vi": "tính thanh khoản",
+          "examples": [
+            { "en": "Cash has the highest liquidity.", "vi": "Tiền mặt có thanh khoản cao nhất." },
+            { "en": "Real estate has low liquidity.", "vi": "BĐS có thanh khoản thấp." },
+            {
+              "en": "Banks need liquidity to pay customers.",
+              "vi": "Ngân hàng cần thanh khoản trả khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "high liquidity",
+        "low liquidity",
+        "market liquidity",
+        "cash liquidity",
+        "liquidity crisis"
+      ],
+      "etymology_hint": "From Latin 'liquidus' meaning 'fluid' — financial sense developed in 19th century.",
+      "mnemonic_vi": "LIQUIDITY = LIQUID + ITY → 'tính lỏng'. Liquidity = dễ chuyển sang tiền mặt."
+    },
+    {
+      "word": "bull",
+      "lemma": "bull",
+      "ipa": "/bʊl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a market where prices are rising (or an adult male cow)",
+          "meaning_vi": "thị trường tăng giá (bull market)",
+          "examples": [
+            {
+              "en": "Vietnam's stock market is in a bull run.",
+              "vi": "TTCK Việt đang trong đợt tăng giá."
+            },
+            {
+              "en": "Bull markets last longer than bear markets.",
+              "vi": "Bull market kéo dài hơn bear market."
+            },
+            {
+              "en": "Wall Street has a famous bull statue.",
+              "vi": "Wall Street có bức tượng bò nổi tiếng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["bear"],
+      "collocations": ["bull market", "bull run", "raging bull", "bull case", "bullish"],
+      "etymology_hint": "Stock sense from 17th century London — possibly from charging upward motion of bulls.",
+      "mnemonic_vi": "BULL = 'bun' — 'bull' bò tót. Bull market = thị trường tăng."
+    },
+    {
+      "word": "hedge",
+      "lemma": "hedge",
+      "ipa": "/hedʒ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to protect yourself from losing money by investing in different things",
+          "meaning_vi": "phòng hộ (đầu tư)",
+          "examples": [
+            {
+              "en": "Hedge your portfolio against inflation.",
+              "vi": "Phòng hộ danh mục trước lạm phát."
+            },
+            {
+              "en": "Gold is used to hedge against currency drops.",
+              "vi": "Vàng dùng để phòng hộ tiền tệ giảm."
+            },
+            { "en": "Smart investors always hedge.", "vi": "Nhà đầu tư thông minh luôn phòng hộ." }
+          ]
+        }
+      ],
+      "synonyms": ["protect"],
+      "antonyms": [],
+      "collocations": [
+        "hedge fund",
+        "hedge against",
+        "hedge your bets",
+        "hedge risk",
+        "hedge currency"
+      ],
+      "etymology_hint": "From Old English 'hecg' meaning 'fence' — financial sense from 'fencing in' risk.",
+      "mnemonic_vi": "HEDGE = 'hét' — 'hé' che. Hedge fund = quỹ phòng hộ."
+    },
+    {
+      "word": "gain",
+      "lemma": "gain",
+      "ipa": "/ɡeɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an increase in amount or value, especially in money",
+          "meaning_vi": "lợi nhuận, gia tăng",
+          "examples": [
+            {
+              "en": "Capital gains tax applies in many countries.",
+              "vi": "Thuế lợi nhuận vốn áp ở nhiều nước."
+            },
+            {
+              "en": "She made a big gain on her Apple stock.",
+              "vi": "Cô lãi lớn từ cổ phiếu Apple."
+            },
+            { "en": "No pain, no gain.", "vi": "Không khổ, không có lợi." }
+          ]
+        }
+      ],
+      "synonyms": ["profit", "increase"],
+      "antonyms": ["loss"],
+      "collocations": ["capital gain", "make a gain", "weight gain", "personal gain", "net gain"],
+      "etymology_hint": "From Old French 'gagner' meaning 'to win, earn' — Frankish root.",
+      "mnemonic_vi": "GAIN = 'gên' — 'gân' thêm. Capital gain = lãi vốn."
+    }
+  ]
+}
