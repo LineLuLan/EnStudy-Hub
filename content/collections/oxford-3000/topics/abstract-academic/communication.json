@@ -1,0 +1,763 @@
+{
+  "slug": "communication",
+  "name": "Communication Verbs",
+  "description": "Động từ giao tiếp B1 — debate, declare, announce, persuade, negotiate và 15 từ về cách nói khác nhau.",
+  "order_index": 7,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "debate",
+      "lemma": "debate",
+      "ipa": "/dɪˈbeɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to discuss something formally, often with different opinions",
+          "meaning_vi": "tranh luận, thảo luận chính thức",
+          "examples": [
+            {
+              "en": "The National Assembly debated the new law.",
+              "vi": "Quốc hội tranh luận luật mới."
+            },
+            {
+              "en": "Students debate climate change in class.",
+              "vi": "Sinh viên tranh luận về biến đổi khí hậu trong lớp."
+            },
+            {
+              "en": "We debated for hours but couldn't decide.",
+              "vi": "Chúng tôi tranh luận hàng giờ mà không quyết được."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["discuss", "argue"],
+      "antonyms": [],
+      "collocations": [
+        "debate a topic",
+        "fierce debate",
+        "debate the issue",
+        "open to debate",
+        "presidential debate"
+      ],
+      "etymology_hint": "From Old French 'debatre' meaning 'to fight, contend' — from 'de-' (down) + 'battre' (to beat).",
+      "mnemonic_vi": "DEBATE = DE + BATE → 'đánh đập'. Debate = tranh luận căng."
+    },
+    {
+      "word": "declare",
+      "lemma": "declare",
+      "ipa": "/dɪˈkleə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say something officially or formally",
+          "meaning_vi": "tuyên bố, khai báo",
+          "examples": [
+            {
+              "en": "Vietnam declared independence on September 2, 1945.",
+              "vi": "Việt Nam tuyên bố độc lập ngày 2/9/1945."
+            },
+            {
+              "en": "Declare your goods at customs.",
+              "vi": "Khai báo hàng hóa tại hải quan."
+            },
+            {
+              "en": "The judge declared him guilty.",
+              "vi": "Quan tòa tuyên anh ấy có tội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["announce", "proclaim"],
+      "antonyms": ["conceal"],
+      "collocations": [
+        "declare independence",
+        "declare war",
+        "officially declare",
+        "declare goods",
+        "publicly declare"
+      ],
+      "etymology_hint": "From Latin 'declarare' meaning 'to make clear' — from 'de-' (thoroughly) + 'clarare' (to make clear).",
+      "mnemonic_vi": "DECLARE = DE + CLARE → 'làm cho rõ'. Declare independence = tuyên độc lập."
+    },
+    {
+      "word": "state",
+      "lemma": "state",
+      "ipa": "/steɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say something officially or clearly",
+          "meaning_vi": "nêu rõ, phát biểu (chính thức)",
+          "examples": [
+            {
+              "en": "Please state your name and address.",
+              "vi": "Vui lòng nêu rõ tên và địa chỉ."
+            },
+            {
+              "en": "The contract clearly states the rules.",
+              "vi": "Hợp đồng nêu rõ các quy định."
+            },
+            {
+              "en": "She stated her opinion firmly.",
+              "vi": "Cô ấy phát biểu ý kiến dứt khoát."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["say", "declare"],
+      "antonyms": [],
+      "collocations": [
+        "clearly state",
+        "state an opinion",
+        "officially state",
+        "state your name",
+        "as stated"
+      ],
+      "etymology_hint": "From Latin 'status' meaning 'condition, position' — verb sense developed from 'set forth a position formally'.",
+      "mnemonic_vi": "STATE = 'stếu-t' — 'sờ tét' phát biểu. State your case = nêu vấn đề."
+    },
+    {
+      "word": "announce",
+      "lemma": "announce",
+      "ipa": "/əˈnaʊns/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make something known publicly",
+          "meaning_vi": "thông báo, công bố",
+          "examples": [
+            {
+              "en": "They announced their wedding on Facebook.",
+              "vi": "Họ thông báo đám cưới trên Facebook."
+            },
+            {
+              "en": "The CEO announced new products at the event.",
+              "vi": "CEO công bố sản phẩm mới tại sự kiện."
+            },
+            {
+              "en": "Flight delays will be announced soon.",
+              "vi": "Trễ chuyến bay sẽ được thông báo sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["declare", "reveal"],
+      "antonyms": ["conceal"],
+      "collocations": [
+        "announce a decision",
+        "publicly announce",
+        "officially announce",
+        "announce results",
+        "proudly announce"
+      ],
+      "etymology_hint": "From Latin 'annuntiare' meaning 'to bring news' — from 'ad-' (to) + 'nuntius' (messenger).",
+      "mnemonic_vi": "ANNOUNCE = AN + NOUNCE → 'báo tin'. Announce a wedding = công bố cưới."
+    },
+    {
+      "word": "warn",
+      "lemma": "warn",
+      "ipa": "/wɔːn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to tell someone about possible danger or problems",
+          "meaning_vi": "cảnh báo",
+          "examples": [
+            {
+              "en": "I warned him about the traffic jam.",
+              "vi": "Tôi cảnh báo anh ấy về kẹt xe."
+            },
+            {
+              "en": "Doctors warn against eating too much salt.",
+              "vi": "Bác sĩ cảnh báo về ăn quá nhiều muối."
+            },
+            {
+              "en": "Don't say I didn't warn you!",
+              "vi": "Đừng nói tôi không cảnh báo bạn!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["caution", "alert"],
+      "antonyms": [],
+      "collocations": [
+        "warn against",
+        "warn someone",
+        "strongly warn",
+        "warn of danger",
+        "stern warning"
+      ],
+      "etymology_hint": "From Old English 'warnian' meaning 'to take heed, give notice' — Germanic root.",
+      "mnemonic_vi": "WARN = 'won' — 'oản' nguy hiểm. Warn against = cảnh báo phòng."
+    },
+    {
+      "word": "insist",
+      "lemma": "insist",
+      "ipa": "/ɪnˈsɪst/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to demand something strongly and not give up",
+          "meaning_vi": "khăng khăng đòi, nhất quyết",
+          "examples": [
+            {
+              "en": "She insisted on paying for dinner.",
+              "vi": "Cô ấy khăng khăng trả tiền bữa tối."
+            },
+            {
+              "en": "He insists that his answer is correct.",
+              "vi": "Anh ấy khăng khăng câu trả lời của mình đúng."
+            },
+            {
+              "en": "If you insist, I'll come along.",
+              "vi": "Nếu bạn khăng khăng, tôi sẽ đi cùng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["demand", "stress"],
+      "antonyms": ["concede"],
+      "collocations": [
+        "insist on",
+        "strongly insist",
+        "insist that",
+        "if you insist",
+        "politely insist"
+      ],
+      "etymology_hint": "From Latin 'insistere' meaning 'to stand on, persist' — from 'in-' (on) + 'sistere' (to stand).",
+      "mnemonic_vi": "INSIST = IN + SIST → 'đứng vững trong'. Insist on = nhất quyết."
+    },
+    {
+      "word": "deny",
+      "lemma": "deny",
+      "ipa": "/dɪˈnaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say something is not true; to refuse to give something",
+          "meaning_vi": "phủ nhận, chối",
+          "examples": [
+            {
+              "en": "He denied stealing the money.",
+              "vi": "Anh ấy phủ nhận lấy cắp tiền."
+            },
+            {
+              "en": "She denied that she was tired.",
+              "vi": "Cô ấy phủ nhận mình mệt."
+            },
+            {
+              "en": "Don't deny the truth.",
+              "vi": "Đừng chối sự thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["refuse", "reject"],
+      "antonyms": ["admit", "confirm"],
+      "collocations": [
+        "flatly deny",
+        "deny responsibility",
+        "deny the truth",
+        "categorically deny",
+        "no one can deny"
+      ],
+      "etymology_hint": "From Latin 'denegare' meaning 'to refuse, deny' — from 'de-' (away) + 'negare' (to say no).",
+      "mnemonic_vi": "DENY = 'đi-nai' — 'đi-nay' không công nhận. Deny the truth = chối sự thật."
+    },
+    {
+      "word": "admit",
+      "lemma": "admit",
+      "ipa": "/ədˈmɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say that something is true, especially when it's not good",
+          "meaning_vi": "thừa nhận",
+          "examples": [
+            {
+              "en": "He admitted his mistake honestly.",
+              "vi": "Anh ấy thừa nhận lỗi của mình thành thật."
+            },
+            {
+              "en": "I admit I was wrong.",
+              "vi": "Tôi thừa nhận tôi đã sai."
+            },
+            {
+              "en": "She admitted feeling jealous.",
+              "vi": "Cô ấy thừa nhận có ghen tị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["confess", "acknowledge"],
+      "antonyms": ["deny"],
+      "collocations": [
+        "admit a mistake",
+        "freely admit",
+        "admit defeat",
+        "have to admit",
+        "openly admit"
+      ],
+      "etymology_hint": "From Latin 'admittere' meaning 'to allow to enter' — from 'ad-' (to) + 'mittere' (to send).",
+      "mnemonic_vi": "ADMIT = AD + MIT → 'cho phép vào'. Admit a mistake = thừa nhận lỗi."
+    },
+    {
+      "word": "express",
+      "lemma": "express",
+      "ipa": "/ɪkˈspres/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to show or tell your feelings or thoughts in words or actions",
+          "meaning_vi": "diễn đạt, bày tỏ",
+          "examples": [
+            {
+              "en": "It's hard to express my feelings in English.",
+              "vi": "Khó diễn đạt cảm xúc bằng tiếng Anh."
+            },
+            {
+              "en": "She expressed her gratitude with a thank-you note.",
+              "vi": "Cô ấy bày tỏ lòng biết ơn qua thư cảm ơn."
+            },
+            {
+              "en": "Don't be afraid to express your opinion.",
+              "vi": "Đừng sợ bày tỏ quan điểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["convey", "show"],
+      "antonyms": ["suppress"],
+      "collocations": [
+        "express feelings",
+        "express an opinion",
+        "clearly express",
+        "express gratitude",
+        "express concern"
+      ],
+      "etymology_hint": "From Latin 'exprimere' meaning 'to press out' — from 'ex-' (out) + 'premere' (to press).",
+      "mnemonic_vi": "EXPRESS = EX + PRESS → 'ép ra ngoài'. Express feelings = bày tỏ cảm xúc."
+    },
+    {
+      "word": "describe",
+      "lemma": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to tell or write what someone or something is like",
+          "meaning_vi": "miêu tả, mô tả",
+          "examples": [
+            {
+              "en": "Can you describe the man you saw?",
+              "vi": "Bạn có thể tả người đàn ông bạn thấy không?"
+            },
+            {
+              "en": "She described her trip to Sapa beautifully.",
+              "vi": "Cô ấy miêu tả chuyến đi Sapa đẹp."
+            },
+            {
+              "en": "Describe the symptoms to the doctor.",
+              "vi": "Mô tả triệu chứng cho bác sĩ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["portray", "depict"],
+      "antonyms": [],
+      "collocations": [
+        "describe in detail",
+        "briefly describe",
+        "describe yourself",
+        "describe how",
+        "accurately describe"
+      ],
+      "etymology_hint": "From Latin 'describere' meaning 'to copy off, write down' — from 'de-' (down) + 'scribere' (to write).",
+      "mnemonic_vi": "DESCRIBE = DE + SCRIBE → 'viết xuống'. Describe = mô tả."
+    },
+    {
+      "word": "complain",
+      "lemma": "complain",
+      "ipa": "/kəmˈpleɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say that you are unhappy about something",
+          "meaning_vi": "phàn nàn, kêu ca",
+          "examples": [
+            {
+              "en": "Customers complained about the slow service.",
+              "vi": "Khách hàng phàn nàn về phục vụ chậm."
+            },
+            {
+              "en": "Don't complain — just fix the problem.",
+              "vi": "Đừng kêu ca — hãy sửa vấn đề."
+            },
+            {
+              "en": "He always complains about the weather.",
+              "vi": "Anh ấy luôn than về thời tiết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grumble", "moan"],
+      "antonyms": ["praise"],
+      "collocations": [
+        "complain about",
+        "loudly complain",
+        "constantly complain",
+        "no right to complain",
+        "complain to"
+      ],
+      "etymology_hint": "From Latin 'complangere' meaning 'to lament' — from 'com-' (with) + 'plangere' (to beat one's breast).",
+      "mnemonic_vi": "COMPLAIN = COM + PLAIN → 'kêu khắp nơi'. Complain about = phàn nàn về."
+    },
+    {
+      "word": "criticize",
+      "lemma": "criticize",
+      "ipa": "/ˈkrɪtɪsaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say what is wrong with someone or something",
+          "meaning_vi": "chỉ trích, phê bình",
+          "examples": [
+            {
+              "en": "Critics criticized the new movie.",
+              "vi": "Các nhà phê bình chỉ trích phim mới."
+            },
+            {
+              "en": "Don't criticize others without trying yourself.",
+              "vi": "Đừng chỉ trích người khác khi chưa tự thử."
+            },
+            {
+              "en": "The government criticized the protest.",
+              "vi": "Chính phủ chỉ trích cuộc biểu tình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fault", "blame"],
+      "antonyms": ["praise"],
+      "collocations": [
+        "harshly criticize",
+        "publicly criticize",
+        "openly criticize",
+        "be quick to criticize",
+        "criticize a decision"
+      ],
+      "etymology_hint": "From Greek 'kritikos' meaning 'able to judge' — from 'krinein' (to separate, decide).",
+      "mnemonic_vi": "CRITICIZE = CRITIC + IZE → 'làm chuyện phê bình'. Phê phán."
+    },
+    {
+      "word": "praise",
+      "lemma": "praise",
+      "ipa": "/preɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say good things about someone or something",
+          "meaning_vi": "khen ngợi",
+          "examples": [
+            {
+              "en": "She praised her students for hard work.",
+              "vi": "Cô ấy khen học sinh chăm chỉ."
+            },
+            {
+              "en": "Critics praised the chef's new dish.",
+              "vi": "Phê bình khen món mới của đầu bếp."
+            },
+            {
+              "en": "Don't praise children too often.",
+              "vi": "Đừng khen trẻ con quá nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compliment", "commend"],
+      "antonyms": ["criticize"],
+      "collocations": [
+        "highly praise",
+        "praise someone",
+        "praise to the skies",
+        "deserve praise",
+        "praise generously"
+      ],
+      "etymology_hint": "From Old French 'preisier' meaning 'to estimate, value' — from Latin 'pretiare' (to value).",
+      "mnemonic_vi": "PRAISE = 'prêi-z' — 'prây' khen. Praise children = khen trẻ con."
+    },
+    {
+      "word": "respond",
+      "lemma": "respond",
+      "ipa": "/rɪˈspɒnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give an answer or reaction",
+          "meaning_vi": "đáp lại, phản hồi",
+          "examples": [
+            {
+              "en": "Please respond to my email soon.",
+              "vi": "Vui lòng phản hồi email của tôi sớm."
+            },
+            {
+              "en": "How did she respond to your question?",
+              "vi": "Cô ấy đáp thế nào câu hỏi của bạn?"
+            },
+            {
+              "en": "The body responds to exercise by building muscle.",
+              "vi": "Cơ thể đáp ứng tập luyện bằng xây cơ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reply", "react"],
+      "antonyms": ["ignore"],
+      "collocations": [
+        "respond to",
+        "quickly respond",
+        "fail to respond",
+        "respond positively",
+        "respond well"
+      ],
+      "etymology_hint": "From Latin 'respondere' meaning 'to promise in return' — from 're-' (back) + 'spondere' (to pledge).",
+      "mnemonic_vi": "RESPOND = RE + SPOND → 'hứa lại'. Respond to email = phản hồi email."
+    },
+    {
+      "word": "whisper",
+      "lemma": "whisper",
+      "ipa": "/ˈwɪspə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to speak very quietly so only people near can hear",
+          "meaning_vi": "thì thầm",
+          "examples": [
+            {
+              "en": "She whispered the secret in my ear.",
+              "vi": "Cô ấy thì thầm bí mật vào tai tôi."
+            },
+            {
+              "en": "Don't whisper in the library — speak normally!",
+              "vi": "Đừng thì thầm trong thư viện — nói bình thường!"
+            },
+            {
+              "en": "He whispered 'I love you' softly.",
+              "vi": "Anh ấy thì thầm 'tôi yêu em' nhẹ nhàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["murmur"],
+      "antonyms": ["shout"],
+      "collocations": [
+        "whisper to",
+        "softly whisper",
+        "whisper a secret",
+        "whisper in the ear",
+        "barely whisper"
+      ],
+      "etymology_hint": "From Old English 'hwisprian' — imitative of soft sound, related to 'hwistle' (whistle).",
+      "mnemonic_vi": "WHISPER = 'whi-spơ' — 'wí-sơ' nhẹ. Whisper a secret = thì thầm bí mật."
+    },
+    {
+      "word": "shout",
+      "lemma": "shout",
+      "ipa": "/ʃaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to speak in a very loud voice",
+          "meaning_vi": "hét, la to",
+          "examples": [
+            {
+              "en": "Don't shout at the kids!",
+              "vi": "Đừng hét vào trẻ con!"
+            },
+            {
+              "en": "Fans shouted with excitement at the concert.",
+              "vi": "Fan hét vì phấn khích tại concert."
+            },
+            {
+              "en": "She shouted across the street to her friend.",
+              "vi": "Cô ấy gọi to qua đường cho bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["yell", "scream"],
+      "antonyms": ["whisper"],
+      "collocations": ["shout at", "shout out", "loudly shout", "shout for help", "shout with joy"],
+      "etymology_hint": "Origin uncertain — Middle English 'shouten', possibly imitative of the loud sound.",
+      "mnemonic_vi": "SHOUT = 'shau-t' — 'sờ-hấu' hét lớn. Shout for help = kêu cứu."
+    },
+    {
+      "word": "persuade",
+      "lemma": "persuade",
+      "ipa": "/pəˈsweɪd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make someone do something or believe something by giving good reasons",
+          "meaning_vi": "thuyết phục (làm gì đó)",
+          "examples": [
+            {
+              "en": "She persuaded me to try bún bò Huế.",
+              "vi": "Cô ấy thuyết phục tôi thử bún bò Huế."
+            },
+            {
+              "en": "He's hard to persuade once he decides.",
+              "vi": "Anh ấy khó thuyết phục khi đã quyết."
+            },
+            {
+              "en": "Ads persuade us to buy things we don't need.",
+              "vi": "Quảng cáo thuyết phục ta mua đồ không cần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["convince", "talk into"],
+      "antonyms": ["dissuade"],
+      "collocations": [
+        "persuade someone to",
+        "easily persuade",
+        "persuade yourself",
+        "hard to persuade",
+        "fail to persuade"
+      ],
+      "etymology_hint": "From Latin 'persuadere' meaning 'to advise, urge' — from 'per-' (thoroughly) + 'suadere' (to advise).",
+      "mnemonic_vi": "PERSUADE = PER + SUADE → 'khuyên kỹ'. Persuade to buy = thuyết phục mua."
+    },
+    {
+      "word": "convince",
+      "lemma": "convince",
+      "ipa": "/kənˈvɪns/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make someone believe that something is true",
+          "meaning_vi": "thuyết phục, làm ai tin",
+          "examples": [
+            {
+              "en": "She convinced me that yoga is helpful.",
+              "vi": "Cô ấy làm tôi tin yoga có ích."
+            },
+            {
+              "en": "I'm convinced he's telling the truth.",
+              "vi": "Tôi tin chắc anh ấy nói sự thật."
+            },
+            {
+              "en": "Their data convinced the investors.",
+              "vi": "Dữ liệu của họ thuyết phục các nhà đầu tư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["persuade", "satisfy"],
+      "antonyms": ["doubt"],
+      "collocations": [
+        "convince someone",
+        "fully convinced",
+        "convince yourself",
+        "convince the court",
+        "hard to convince"
+      ],
+      "etymology_hint": "From Latin 'convincere' meaning 'to overcome' — from 'con-' (with) + 'vincere' (to conquer).",
+      "mnemonic_vi": "CONVINCE = CON + VINCE → 'chiến thắng cùng'. Làm ai tin theo."
+    },
+    {
+      "word": "negotiate",
+      "lemma": "negotiate",
+      "ipa": "/nɪˈɡəʊʃieɪt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to discuss with others to reach an agreement",
+          "meaning_vi": "đàm phán, thương lượng",
+          "examples": [
+            {
+              "en": "Vietnamese and Korean companies negotiated a deal.",
+              "vi": "Công ty Việt và Hàn đàm phán hợp đồng."
+            },
+            {
+              "en": "Negotiate the price at the market.",
+              "vi": "Thương lượng giá ở chợ."
+            },
+            {
+              "en": "Diplomats negotiate peace treaties.",
+              "vi": "Nhà ngoại giao đàm phán hiệp ước hòa bình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bargain", "discuss"],
+      "antonyms": [],
+      "collocations": [
+        "negotiate a deal",
+        "negotiate a price",
+        "negotiate with",
+        "successfully negotiate",
+        "negotiate terms"
+      ],
+      "etymology_hint": "From Latin 'negotiari' meaning 'to do business' — from 'neg-' (not) + 'otium' (leisure).",
+      "mnemonic_vi": "NEGOTIATE = NEG + OTIATE → 'không ngơi nghỉ'. Negotiate price = thương lượng giá."
+    },
+    {
+      "word": "inform",
+      "lemma": "inform",
+      "ipa": "/ɪnˈfɔːm/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to tell someone about something officially",
+          "meaning_vi": "thông báo (chính thức)",
+          "examples": [
+            {
+              "en": "Please inform us of any changes.",
+              "vi": "Vui lòng thông báo cho chúng tôi mọi thay đổi."
+            },
+            {
+              "en": "We were informed about the meeting yesterday.",
+              "vi": "Chúng tôi được thông báo về cuộc họp hôm qua."
+            },
+            {
+              "en": "Keep me informed of the progress.",
+              "vi": "Cho tôi biết tiến độ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["notify", "tell"],
+      "antonyms": ["conceal"],
+      "collocations": [
+        "inform someone",
+        "keep informed",
+        "officially inform",
+        "inform the public",
+        "duly inform"
+      ],
+      "etymology_hint": "From Latin 'informare' meaning 'to give form to' — from 'in-' (into) + 'formare' (to shape).",
+      "mnemonic_vi": "INFORM = IN + FORM → 'cho hình dạng vào'. Inform = thông báo."
+    }
+  ]
+}
