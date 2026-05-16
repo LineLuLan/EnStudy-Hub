@@ -1,0 +1,751 @@
+{
+  "slug": "online-learning",
+  "name": "Online Learning",
+  "description": "Học online A2 — mooc, webinar, podcast, tutorial, course và 15 từ về e-learning hiện đại.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "mooc",
+      "lemma": "mooc",
+      "ipa": "/muːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a free or cheap online course that many people can join (Massive Open Online Course)",
+          "meaning_vi": "khóa học online mở (MOOC)",
+          "examples": [
+            {
+              "en": "Coursera offers MOOCs from Harvard and Stanford.",
+              "vi": "Coursera cung cấp MOOC từ Harvard và Stanford."
+            },
+            {
+              "en": "I took a free MOOC on machine learning.",
+              "vi": "Tôi học MOOC miễn phí về machine learning."
+            },
+            {
+              "en": "MOOCs make university courses available worldwide.",
+              "vi": "MOOC giúp khoá học đại học có khắp thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["online course"],
+      "antonyms": [],
+      "collocations": [
+        "take a MOOC",
+        "free MOOC",
+        "complete a MOOC",
+        "MOOC platform",
+        "MOOC certificate"
+      ],
+      "etymology_hint": "Acronym 'Massive Open Online Course' coined in 2008 by Dave Cormier — represents democratization of education.",
+      "mnemonic_vi": "MOOC = M+O+O+C → 'Massive Open Online Course'. Khóa học online lớn cho ai cũng học được."
+    },
+    {
+      "word": "webinar",
+      "lemma": "webinar",
+      "ipa": "/ˈwebɪnɑː(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a seminar or class given live on the internet",
+          "meaning_vi": "hội thảo / lớp học trực tuyến (live)",
+          "examples": [
+            {
+              "en": "Join the marketing webinar next Friday.",
+              "vi": "Tham gia webinar marketing thứ Sáu tuần sau."
+            },
+            {
+              "en": "FPT hosts webinars on AI every month.",
+              "vi": "FPT tổ chức webinar về AI mỗi tháng."
+            },
+            {
+              "en": "The webinar had 500 attendees from across Asia.",
+              "vi": "Webinar có 500 người tham gia từ khắp châu Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["online seminar"],
+      "antonyms": [],
+      "collocations": [
+        "attend a webinar",
+        "host a webinar",
+        "free webinar",
+        "live webinar",
+        "register for webinar"
+      ],
+      "etymology_hint": "Blend of 'web' + 'seminar' — coined in late 1990s with rise of online conferencing tools.",
+      "mnemonic_vi": "WEBINAR = WEB + SEMINAR → 'hội thảo web'. Hội thảo online."
+    },
+    {
+      "word": "livestream",
+      "lemma": "livestream",
+      "ipa": "/ˈlaɪvstriːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a video shown on the internet at the same time as it is being recorded",
+          "meaning_vi": "phát trực tiếp, livestream",
+          "examples": [
+            {
+              "en": "Vietnamese sellers do livestream every night on Facebook.",
+              "vi": "Người bán Việt livestream mỗi tối trên Facebook."
+            },
+            {
+              "en": "The university lecture is on livestream.",
+              "vi": "Bài giảng đại học có livestream."
+            },
+            {
+              "en": "I watched the K-pop concert livestream from home.",
+              "vi": "Tôi xem livestream concert K-pop tại nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["live broadcast"],
+      "antonyms": ["recording"],
+      "collocations": [
+        "watch a livestream",
+        "do a livestream",
+        "livestream shopping",
+        "Facebook livestream",
+        "live streaming event"
+      ],
+      "etymology_hint": "Compound of 'live' + 'stream' — coined in early 2000s with rise of YouTube and Twitch.",
+      "mnemonic_vi": "LIVESTREAM = LIVE + STREAM → 'phát trực tiếp'. Live = trực tiếp."
+    },
+    {
+      "word": "podcast",
+      "lemma": "podcast",
+      "ipa": "/ˈpɒdkɑːst/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an audio show you can download and listen to anytime",
+          "meaning_vi": "podcast, chương trình âm thanh online",
+          "examples": [
+            {
+              "en": "I listen to English podcasts on my commute.",
+              "vi": "Tôi nghe podcast tiếng Anh khi đi làm."
+            },
+            {
+              "en": "Vietcetera has popular Vietnamese podcasts.",
+              "vi": "Vietcetera có podcast tiếng Việt nổi tiếng."
+            },
+            {
+              "en": "Subscribe to her podcast on Spotify.",
+              "vi": "Đăng ký podcast của cô ấy trên Spotify."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "listen to a podcast",
+        "podcast episode",
+        "subscribe to a podcast",
+        "popular podcast",
+        "produce a podcast"
+      ],
+      "etymology_hint": "Blend of 'iPod' + 'broadcast' — coined in 2004 by Ben Hammersley in The Guardian newspaper.",
+      "mnemonic_vi": "PODCAST = POD + CAST → 'iPod broadcast'. Đài radio online."
+    },
+    {
+      "word": "tutorial",
+      "lemma": "tutorial",
+      "ipa": "/tjuːˈtɔːriəl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a video or written guide that teaches you how to do something",
+          "meaning_vi": "bài hướng dẫn (video/text)",
+          "examples": [
+            {
+              "en": "I learned to cook bún chả from a YouTube tutorial.",
+              "vi": "Tôi học nấu bún chả từ tutorial YouTube."
+            },
+            {
+              "en": "The app has step-by-step tutorials for beginners.",
+              "vi": "App có hướng dẫn từng bước cho người mới."
+            },
+            {
+              "en": "Follow this Photoshop tutorial to edit photos.",
+              "vi": "Theo tutorial Photoshop này để chỉnh ảnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["guide", "how-to"],
+      "antonyms": [],
+      "collocations": [
+        "video tutorial",
+        "online tutorial",
+        "follow a tutorial",
+        "tutorial series",
+        "beginner tutorial"
+      ],
+      "etymology_hint": "From Latin 'tutor' (guardian, teacher) + '-ial' (relating to) — academic sense for one-on-one teaching.",
+      "mnemonic_vi": "TUTORIAL = TUTOR + IAL → 'bài của tutor'. Hướng dẫn từng bước."
+    },
+    {
+      "word": "course",
+      "lemma": "course",
+      "ipa": "/kɔːs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a series of classes or lessons on a particular subject",
+          "meaning_vi": "khóa học",
+          "examples": [
+            {
+              "en": "I'm taking an English course at British Council.",
+              "vi": "Tôi đang học khóa tiếng Anh tại British Council."
+            },
+            {
+              "en": "The IELTS course lasts 3 months.",
+              "vi": "Khóa IELTS kéo dài 3 tháng."
+            },
+            {
+              "en": "She enrolled in an online cooking course.",
+              "vi": "Cô ấy đăng ký khóa nấu ăn online."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["class", "program"],
+      "antonyms": [],
+      "collocations": [
+        "take a course",
+        "online course",
+        "course material",
+        "complete a course",
+        "advanced course"
+      ],
+      "etymology_hint": "From Old French 'cours' meaning 'a running' — academic sense from 'course of study' (a path through learning).",
+      "mnemonic_vi": "COURSE = 'cors' — 'cờ rồ' lộ trình học. Online course = khóa online."
+    },
+    {
+      "word": "badge",
+      "lemma": "badge",
+      "ipa": "/bædʒ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small icon or symbol you earn for completing a task online",
+          "meaning_vi": "huy hiệu (online learning, app)",
+          "examples": [
+            {
+              "en": "Earn a Duolingo badge for 30-day streak.",
+              "vi": "Nhận huy hiệu Duolingo cho streak 30 ngày."
+            },
+            {
+              "en": "She collected 50 badges on Khan Academy.",
+              "vi": "Cô ấy thu thập 50 huy hiệu trên Khan Academy."
+            },
+            {
+              "en": "Badges motivate learners to keep studying.",
+              "vi": "Huy hiệu động viên học viên tiếp tục học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["medal", "icon"],
+      "antonyms": [],
+      "collocations": [
+        "earn a badge",
+        "digital badge",
+        "achievement badge",
+        "collect badges",
+        "badge of honor"
+      ],
+      "etymology_hint": "Middle English 'bage' meaning 'distinctive emblem' — gamification sense from video games carried into education.",
+      "mnemonic_vi": "BADGE = 'bát' — 'bát' huy hiệu nhỏ. Digital badge = huy hiệu số."
+    },
+    {
+      "word": "enroll",
+      "lemma": "enroll",
+      "ipa": "/ɪnˈrəʊl/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to officially join a course, school, or program",
+          "meaning_vi": "đăng ký, ghi danh (khóa học)",
+          "examples": [
+            {
+              "en": "Enroll in this course before the deadline.",
+              "vi": "Đăng ký khóa này trước hạn."
+            },
+            {
+              "en": "10,000 students enrolled at FTU last year.",
+              "vi": "10.000 sinh viên ghi danh FTU năm ngoái."
+            },
+            {
+              "en": "I enrolled in a Vietnamese cooking class.",
+              "vi": "Tôi đăng ký lớp nấu ăn Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["register", "sign up"],
+      "antonyms": ["withdraw"],
+      "collocations": [
+        "enroll in a course",
+        "enroll at a school",
+        "enroll students",
+        "enrollment fee",
+        "enroll online"
+      ],
+      "etymology_hint": "From Old French 'enroller' meaning 'to put on a roll' — original sense of adding name to a list (roll of parchment).",
+      "mnemonic_vi": "ENROLL = EN + ROLL → 'cuộn vào danh sách'. Đăng ký ghi tên."
+    },
+    {
+      "word": "register",
+      "lemma": "register",
+      "ipa": "/ˈredʒɪstə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to officially add your name to a list to use a service or attend",
+          "meaning_vi": "đăng ký (dịch vụ, sự kiện)",
+          "examples": [
+            {
+              "en": "Register for the workshop on the website.",
+              "vi": "Đăng ký workshop trên website."
+            },
+            {
+              "en": "I registered a new Gmail account.",
+              "vi": "Tôi đăng ký tài khoản Gmail mới."
+            },
+            {
+              "en": "Don't forget to register your motorbike.",
+              "vi": "Đừng quên đăng ký xe máy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enroll", "sign up"],
+      "antonyms": ["cancel"],
+      "collocations": [
+        "register for",
+        "register online",
+        "register an account",
+        "register to vote",
+        "register early"
+      ],
+      "etymology_hint": "From Medieval Latin 'registrum' meaning 'list, record' — sense of 'enter into a record' developed in Middle English.",
+      "mnemonic_vi": "REGISTER = REGIS + TER → 'ghi vào sổ'. Đăng ký = sign up."
+    },
+    {
+      "word": "module",
+      "lemma": "module",
+      "ipa": "/ˈmɒdjuːl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "one part or section of a course or program",
+          "meaning_vi": "module, học phần",
+          "examples": [
+            {
+              "en": "Complete all 5 modules to get the certificate.",
+              "vi": "Hoàn thành cả 5 module để nhận chứng chỉ."
+            },
+            {
+              "en": "Module 3 is the hardest in this course.",
+              "vi": "Module 3 khó nhất khóa học này."
+            },
+            {
+              "en": "Each module takes about 2 hours.",
+              "vi": "Mỗi module mất khoảng 2 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unit", "section"],
+      "antonyms": [],
+      "collocations": [
+        "complete a module",
+        "first module",
+        "training module",
+        "online module",
+        "next module"
+      ],
+      "etymology_hint": "From Latin 'modulus' meaning 'small measure' — computing/educational sense from interchangeable parts.",
+      "mnemonic_vi": "MODULE = 'mô-điun' — 'mô' đo nhỏ. Học theo từng module."
+    },
+    {
+      "word": "app",
+      "lemma": "app",
+      "ipa": "/æp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a software program that you can use on a phone or tablet",
+          "meaning_vi": "ứng dụng (app điện thoại)",
+          "examples": [
+            {
+              "en": "Download the Duolingo app to learn English.",
+              "vi": "Tải app Duolingo để học tiếng Anh."
+            },
+            {
+              "en": "Grab, Momo, Zalo are the most-used apps in Việt Nam.",
+              "vi": "Grab, Momo, Zalo là các app dùng nhiều nhất ở Việt Nam."
+            },
+            {
+              "en": "This app is free for students.",
+              "vi": "App này miễn phí cho sinh viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["application"],
+      "antonyms": [],
+      "collocations": ["download an app", "open the app", "mobile app", "free app", "use an app"],
+      "etymology_hint": "Shortened form of 'application' — popularized in 2008 with Apple App Store launch.",
+      "mnemonic_vi": "APP = 'áp' — viết tắt 'application'. Tải app = download ứng dụng."
+    },
+    {
+      "word": "digital",
+      "lemma": "digital",
+      "ipa": "/ˈdɪdʒɪtl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "stored on a computer or used by computers, not physical",
+          "meaning_vi": "kỹ thuật số, số hóa",
+          "examples": [
+            {
+              "en": "Digital books are cheaper than printed ones.",
+              "vi": "Sách số rẻ hơn sách in."
+            },
+            {
+              "en": "Việt Nam has a strong digital economy.",
+              "vi": "Việt Nam có nền kinh tế số mạnh."
+            },
+            {
+              "en": "I prefer digital notes over paper notes.",
+              "vi": "Tôi thích note số hơn note giấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["electronic", "online"],
+      "antonyms": ["analog", "physical"],
+      "collocations": [
+        "digital camera",
+        "digital marketing",
+        "digital age",
+        "digital technology",
+        "go digital"
+      ],
+      "etymology_hint": "From Latin 'digitus' meaning 'finger' — original computing sense from binary digits (0 and 1).",
+      "mnemonic_vi": "DIGITAL = 'đí-dí-tồ' — 'đí gì' số. Digital = số = computer-related."
+    },
+    {
+      "word": "online",
+      "lemma": "online",
+      "ipa": "/ˌɒnˈlaɪn/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "connected to the internet; happening on the internet",
+          "meaning_vi": "online, trên mạng",
+          "examples": [
+            {
+              "en": "Many students study online during the pandemic.",
+              "vi": "Nhiều sinh viên học online trong đại dịch."
+            },
+            {
+              "en": "I buy clothes online at Shopee.",
+              "vi": "Tôi mua quần áo online ở Shopee."
+            },
+            {
+              "en": "She's been online all day.",
+              "vi": "Cô ấy online cả ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["on the internet"],
+      "antonyms": ["offline"],
+      "collocations": [
+        "online class",
+        "online shopping",
+        "online banking",
+        "online game",
+        "go online"
+      ],
+      "etymology_hint": "Compound of 'on' + 'line' — original sense from telegraph operators 'on the line', extended to internet in 1990s.",
+      "mnemonic_vi": "ONLINE = ON + LINE → 'trên đường dây'. Online = kết nối mạng."
+    },
+    {
+      "word": "virtual",
+      "lemma": "virtual",
+      "ipa": "/ˈvɜːtʃuəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening or existing on a computer rather than in real life",
+          "meaning_vi": "ảo, qua mạng",
+          "examples": [
+            {
+              "en": "We had a virtual meeting on Zoom.",
+              "vi": "Chúng tôi có cuộc họp ảo trên Zoom."
+            },
+            {
+              "en": "Virtual reality games are very immersive.",
+              "vi": "Game thực tế ảo rất sống động."
+            },
+            {
+              "en": "Take a virtual tour of the British Museum online.",
+              "vi": "Tham quan ảo Bảo tàng Anh quốc qua mạng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["online", "digital"],
+      "antonyms": ["physical", "in-person"],
+      "collocations": [
+        "virtual meeting",
+        "virtual reality",
+        "virtual classroom",
+        "virtual tour",
+        "virtual assistant"
+      ],
+      "etymology_hint": "From Latin 'virtus' meaning 'strength, power' — modern computing sense from 'virtually existing' (effective in essence).",
+      "mnemonic_vi": "VIRTUAL = 'vớt-chu-ồ' — 'vớt' ảo. Virtual = không thực, qua máy tính."
+    },
+    {
+      "word": "video",
+      "lemma": "video",
+      "ipa": "/ˈvɪdiəʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a recording of moving pictures and sound",
+          "meaning_vi": "video, đoạn phim",
+          "examples": [
+            {
+              "en": "Watch this YouTube video to learn Excel.",
+              "vi": "Xem video YouTube này để học Excel."
+            },
+            {
+              "en": "TikTok videos are usually under 60 seconds.",
+              "vi": "Video TikTok thường dưới 60 giây."
+            },
+            {
+              "en": "Make a video birthday card for your friend.",
+              "vi": "Làm video chúc mừng sinh nhật cho bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clip", "footage"],
+      "antonyms": [],
+      "collocations": ["watch a video", "video call", "video lesson", "music video", "video game"],
+      "etymology_hint": "From Latin 'videre' meaning 'to see' — first person 'I see' became term for moving images in early 20th century.",
+      "mnemonic_vi": "VIDEO = VID + EO → 'thấy' (videre). Video call = gọi có hình."
+    },
+    {
+      "word": "instructor",
+      "lemma": "instructor",
+      "ipa": "/ɪnˈstrʌktə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who teaches a particular subject or skill",
+          "meaning_vi": "người dạy, huấn luyện viên",
+          "examples": [
+            {
+              "en": "My yoga instructor is from Hà Nội.",
+              "vi": "Huấn luyện viên yoga của tôi đến từ Hà Nội."
+            },
+            {
+              "en": "The driving instructor is patient with new learners.",
+              "vi": "Người dạy lái xe rất kiên nhẫn với học viên mới."
+            },
+            {
+              "en": "She works as an English instructor online.",
+              "vi": "Cô ấy làm giáo viên tiếng Anh online."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["teacher", "trainer"],
+      "antonyms": ["student"],
+      "collocations": [
+        "yoga instructor",
+        "driving instructor",
+        "online instructor",
+        "qualified instructor",
+        "course instructor"
+      ],
+      "etymology_hint": "From Latin 'instructor' meaning 'preparer' — from 'instruere' (to build, equip with knowledge).",
+      "mnemonic_vi": "INSTRUCTOR = INSTRUCT + OR → 'người dạy chỉ'. Instructor = giảng viên thực hành."
+    },
+    {
+      "word": "session",
+      "lemma": "session",
+      "ipa": "/ˈseʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a period of time spent doing one activity, like a class or meeting",
+          "meaning_vi": "buổi (học, tập, họp)",
+          "examples": [
+            {
+              "en": "Today's session covers grammar tenses.",
+              "vi": "Buổi học hôm nay về thì ngữ pháp."
+            },
+            {
+              "en": "We have a 1-hour Zoom session at 3pm.",
+              "vi": "Chúng ta có buổi Zoom 1 tiếng lúc 3 giờ chiều."
+            },
+            {
+              "en": "Book a 1-on-1 session with the tutor.",
+              "vi": "Đặt buổi học 1 kèm 1 với gia sư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["class", "meeting"],
+      "antonyms": [],
+      "collocations": [
+        "training session",
+        "study session",
+        "live session",
+        "book a session",
+        "private session"
+      ],
+      "etymology_hint": "From Latin 'sessio' meaning 'a sitting' — from 'sedere' (to sit), originally a meeting where people sat.",
+      "mnemonic_vi": "SESSION = 'sé-shờn' — 'sét sờn' ngồi học. Live session = buổi trực tiếp."
+    },
+    {
+      "word": "login",
+      "lemma": "login",
+      "ipa": "/ˈlɒɡɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to enter your username and password to access a website or app",
+          "meaning_vi": "đăng nhập",
+          "examples": [
+            {
+              "en": "Login to access your course materials.",
+              "vi": "Đăng nhập để xem tài liệu khóa học."
+            },
+            {
+              "en": "I can't login — my password is wrong.",
+              "vi": "Tôi không đăng nhập được — sai mật khẩu."
+            },
+            {
+              "en": "Use Google to login to most apps.",
+              "vi": "Dùng Google để đăng nhập vào hầu hết app."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sign in", "log in"],
+      "antonyms": ["logout"],
+      "collocations": [
+        "login with",
+        "login page",
+        "failed login",
+        "login credentials",
+        "login screen"
+      ],
+      "etymology_hint": "Compound of 'log' + 'in' — computing term from 1960s mainframe systems where users 'logged' their entry in a record book.",
+      "mnemonic_vi": "LOGIN = LOG + IN → 'ghi vào'. Login = đăng nhập."
+    },
+    {
+      "word": "zoom",
+      "lemma": "zoom",
+      "ipa": "/zuːm/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make an image larger or smaller on a screen; or to have a Zoom video call",
+          "meaning_vi": "phóng to / thu nhỏ; gọi Zoom video",
+          "examples": [
+            {
+              "en": "Zoom in to see the text more clearly.",
+              "vi": "Phóng to để nhìn chữ rõ hơn."
+            },
+            {
+              "en": "Let's zoom tonight at 8pm.",
+              "vi": "Tối nay zoom lúc 8 giờ nhé."
+            },
+            {
+              "en": "I zoom out to see the whole picture.",
+              "vi": "Tôi thu nhỏ để xem cả bức hình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["magnify", "video call"],
+      "antonyms": [],
+      "collocations": ["zoom in", "zoom out", "zoom call", "zoom meeting", "zoom lens"],
+      "etymology_hint": "Imitative — early use for fast movement, then applied to camera lenses, then to Zoom video platform (founded 2011).",
+      "mnemonic_vi": "ZOOM = 'zum' — 'zù' nhanh. Zoom in = phóng to. Zoom meeting = họp online."
+    },
+    {
+      "word": "platform",
+      "lemma": "platform",
+      "ipa": "/ˈplætfɔːm/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a website or app where you can do a particular activity online",
+          "meaning_vi": "nền tảng (website/app)",
+          "examples": [
+            {
+              "en": "Udemy is a popular learning platform.",
+              "vi": "Udemy là nền tảng học phổ biến."
+            },
+            {
+              "en": "TikTok is a video-sharing platform.",
+              "vi": "TikTok là nền tảng chia sẻ video."
+            },
+            {
+              "en": "Choose the right platform for your business.",
+              "vi": "Chọn nền tảng phù hợp cho doanh nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["website", "service"],
+      "antonyms": [],
+      "collocations": [
+        "online platform",
+        "social media platform",
+        "learning platform",
+        "platform user",
+        "build a platform"
+      ],
+      "etymology_hint": "From French 'plate-forme' meaning 'flat shape' — railroad sense (raised station) extended to digital 'flat space for activity'.",
+      "mnemonic_vi": "PLATFORM = PLAT + FORM → 'nền phẳng'. Platform = nền tảng web/app."
+    }
+  ]
+}

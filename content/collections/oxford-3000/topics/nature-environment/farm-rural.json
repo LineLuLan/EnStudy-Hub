@@ -1,0 +1,739 @@
+{
+  "slug": "farm-rural",
+  "name": "Farm & Rural Life",
+  "description": "Đồng quê và nông trại A2 — crop, livestock, barn, field, irrigation, paddy và 14 từ về life ở quê.",
+  "order_index": 6,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "crop",
+      "lemma": "crop",
+      "ipa": "/krɒp/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "plants that farmers grow for food, like rice or coffee",
+          "meaning_vi": "mùa màng, cây trồng (nông sản)",
+          "examples": [
+            {
+              "en": "Rice is Việt Nam's most important crop.",
+              "vi": "Lúa là cây trồng quan trọng nhất của Việt Nam."
+            },
+            {
+              "en": "The crop was destroyed by the flood.",
+              "vi": "Mùa màng bị hủy bởi lũ lụt."
+            },
+            {
+              "en": "Farmers in Đắk Lắk grow coffee as their main crop.",
+              "vi": "Nông dân Đắk Lắk trồng cà phê làm cây chủ lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["harvest"],
+      "antonyms": [],
+      "collocations": ["grow crops", "main crop", "rice crop", "good crop", "failed crop"],
+      "etymology_hint": "From Old English 'cropp' meaning 'craw, head of a plant' — original sense of the top part of a plant.",
+      "mnemonic_vi": "CROP = 'crốp' — 'cốp' đầu cây. Rice crop = mùa lúa."
+    },
+    {
+      "word": "livestock",
+      "lemma": "livestock",
+      "ipa": "/ˈlaɪvstɒk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "animals like cows, pigs, and chickens kept on a farm",
+          "meaning_vi": "gia súc, vật nuôi (nông trại)",
+          "examples": [
+            {
+              "en": "Vietnamese farmers raise livestock for meat and milk.",
+              "vi": "Nông dân Việt nuôi gia súc lấy thịt và sữa."
+            },
+            {
+              "en": "The big flood killed thousands of livestock.",
+              "vi": "Lũ lớn đã làm chết hàng nghìn gia súc."
+            },
+            {
+              "en": "Livestock farming is important in the highlands.",
+              "vi": "Chăn nuôi gia súc quan trọng ở vùng cao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cattle", "farm animals"],
+      "antonyms": [],
+      "collocations": [
+        "raise livestock",
+        "livestock farming",
+        "livestock market",
+        "feed livestock",
+        "lose livestock"
+      ],
+      "etymology_hint": "Compound of 'live' + 'stock' — 'stock' meant 'supply, store', so 'living supply' (as opposed to crops).",
+      "mnemonic_vi": "LIVESTOCK = LIVE + STOCK → 'kho sống'. Gia súc nuôi để bán."
+    },
+    {
+      "word": "plough",
+      "lemma": "plough",
+      "ipa": "/plaʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a tool pulled by an animal or machine to turn the soil before planting",
+          "meaning_vi": "cái cày",
+          "examples": [
+            {
+              "en": "Old Vietnamese farmers used a buffalo to pull the plough.",
+              "vi": "Nông dân Việt xưa dùng trâu kéo cày."
+            },
+            {
+              "en": "Modern farms use machine ploughs.",
+              "vi": "Nông trại hiện đại dùng cày máy."
+            },
+            {
+              "en": "The farmer ploughs the field before planting rice.",
+              "vi": "Nông dân cày ruộng trước khi trồng lúa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plow"],
+      "antonyms": [],
+      "collocations": [
+        "plough the field",
+        "horse-drawn plough",
+        "modern plough",
+        "iron plough",
+        "use a plough"
+      ],
+      "etymology_hint": "From Old English 'plōg' — Germanic root, possibly from Old Norse 'plógr'. American spelling 'plow'.",
+      "mnemonic_vi": "PLOUGH = 'plau' — 'phẳng lui' lật đất. Plough = cày ruộng."
+    },
+    {
+      "word": "barn",
+      "lemma": "barn",
+      "ipa": "/bɑːn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large building on a farm where animals or crops are kept",
+          "meaning_vi": "kho thóc, nhà kho (nông trại)",
+          "examples": [
+            {
+              "en": "The cows sleep in the barn at night.",
+              "vi": "Đàn bò ngủ trong nhà kho ban đêm."
+            },
+            {
+              "en": "The old barn stores rice and farming tools.",
+              "vi": "Nhà kho cũ chứa lúa và dụng cụ nông."
+            },
+            {
+              "en": "Children love playing hide-and-seek in the barn.",
+              "vi": "Trẻ con thích chơi trốn tìm trong nhà kho."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["old barn", "dairy barn", "barn yard", "in the barn", "wooden barn"],
+      "etymology_hint": "From Old English 'bere-ærn' meaning 'barley house' — original storage building for barley grain.",
+      "mnemonic_vi": "BARN = 'bán' — 'bán bã' nhà kho. Cow in the barn = bò trong chuồng."
+    },
+    {
+      "word": "field",
+      "lemma": "field",
+      "ipa": "/fiːld/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of land used for growing crops or keeping animals",
+          "meaning_vi": "cánh đồng, ruộng",
+          "examples": [
+            {
+              "en": "The rice fields in Mai Châu are beautiful in autumn.",
+              "vi": "Cánh đồng lúa Mai Châu đẹp vào mùa thu."
+            },
+            {
+              "en": "Cows graze in the field all day.",
+              "vi": "Đàn bò gặm cỏ trên cánh đồng cả ngày."
+            },
+            {
+              "en": "Mu Cang Chai is famous for its rice fields.",
+              "vi": "Mù Cang Chải nổi tiếng với những cánh đồng lúa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meadow", "land"],
+      "antonyms": [],
+      "collocations": ["rice field", "open field", "across the field", "field of", "fertile field"],
+      "etymology_hint": "From Old English 'feld' — Germanic root, originally 'open land cleared of trees'.",
+      "mnemonic_vi": "FIELD = 'fíeld' — 'phi-eld' rộng mở. Rice field = ruộng lúa."
+    },
+    {
+      "word": "soil",
+      "lemma": "soil",
+      "ipa": "/sɔɪl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the brown substance plants grow in; earth",
+          "meaning_vi": "đất (trồng trọt)",
+          "examples": [
+            {
+              "en": "Mekong Delta has very fertile soil.",
+              "vi": "Đồng bằng sông Cửu Long có đất phù sa rất tốt."
+            },
+            {
+              "en": "Test the soil before planting tomatoes.",
+              "vi": "Kiểm tra đất trước khi trồng cà chua."
+            },
+            {
+              "en": "Healthy soil is full of worms and microbes.",
+              "vi": "Đất khỏe đầy giun và vi sinh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["earth", "dirt"],
+      "antonyms": [],
+      "collocations": ["fertile soil", "rich soil", "dry soil", "good soil", "topsoil"],
+      "etymology_hint": "From Anglo-French 'soille' — possibly from Latin 'solum' (ground, floor).",
+      "mnemonic_vi": "SOIL = 'soi-l' — 'sòi' đất. Fertile soil = đất phù sa."
+    },
+    {
+      "word": "irrigation",
+      "lemma": "irrigation",
+      "ipa": "/ˌɪrɪˈɡeɪʃn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the act of bringing water to crops to help them grow",
+          "meaning_vi": "tưới tiêu, hệ thống tưới",
+          "examples": [
+            {
+              "en": "Rice farmers depend on irrigation systems.",
+              "vi": "Nông dân trồng lúa phụ thuộc vào hệ thống tưới tiêu."
+            },
+            {
+              "en": "Modern irrigation saves water.",
+              "vi": "Tưới tiêu hiện đại tiết kiệm nước."
+            },
+            {
+              "en": "Drip irrigation works well for coffee plants.",
+              "vi": "Tưới nhỏ giọt hợp với cây cà phê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["watering"],
+      "antonyms": [],
+      "collocations": [
+        "irrigation system",
+        "drip irrigation",
+        "irrigation canal",
+        "modern irrigation",
+        "improve irrigation"
+      ],
+      "etymology_hint": "From Latin 'irrigare' meaning 'to lead water to' — from 'in-' (into) + 'rigare' (to wet).",
+      "mnemonic_vi": "IRRIGATION = IR + RIG → 'dẫn nước vào'. Irrigation system = hệ thống tưới."
+    },
+    {
+      "word": "scarecrow",
+      "lemma": "scarecrow",
+      "ipa": "/ˈskeəkrəʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a figure of a person made from clothes and straw, used to scare birds from a field",
+          "meaning_vi": "bù nhìn đuổi chim",
+          "examples": [
+            {
+              "en": "The scarecrow in the rice field wears an old shirt.",
+              "vi": "Bù nhìn trên ruộng lúa mặc áo cũ."
+            },
+            {
+              "en": "Scarecrows don't always scare modern birds.",
+              "vi": "Bù nhìn không phải lúc nào cũng dọa được chim hiện đại."
+            },
+            {
+              "en": "The Wizard of Oz scarecrow has no brain.",
+              "vi": "Bù nhìn trong Phù thủy xứ Oz không có não."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "make a scarecrow",
+        "old scarecrow",
+        "scarecrow in the field",
+        "stuffed scarecrow",
+        "build a scarecrow"
+      ],
+      "etymology_hint": "Compound of 'scare' + 'crow' — coined in 16th century English to describe figures used to keep crows from grain.",
+      "mnemonic_vi": "SCARECROW = SCARE + CROW → 'dọa quạ'. Bù nhìn ruộng lúa."
+    },
+    {
+      "word": "farmhouse",
+      "lemma": "farmhouse",
+      "ipa": "/ˈfɑːmhaʊs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the main house on a farm where the farmer lives",
+          "meaning_vi": "nhà của chủ trại, nông trang",
+          "examples": [
+            {
+              "en": "The farmhouse has a big garden full of vegetables.",
+              "vi": "Nhà nông trại có vườn lớn đầy rau."
+            },
+            {
+              "en": "We stayed in a traditional farmhouse in Sapa.",
+              "vi": "Chúng tôi ở nhà nông trại truyền thống ở Sapa."
+            },
+            {
+              "en": "The farmhouse roof needs repair after the storm.",
+              "vi": "Mái nhà nông trại cần sửa sau bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "old farmhouse",
+        "traditional farmhouse",
+        "farmhouse kitchen",
+        "stay in a farmhouse",
+        "wooden farmhouse"
+      ],
+      "etymology_hint": "Compound of 'farm' + 'house' — straightforward English construction from late 16th century.",
+      "mnemonic_vi": "FARMHOUSE = FARM + HOUSE → 'nhà trang trại'. Nông trại sinh sống."
+    },
+    {
+      "word": "orchard",
+      "lemma": "orchard",
+      "ipa": "/ˈɔːtʃəd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of land where fruit trees are grown",
+          "meaning_vi": "vườn cây ăn quả",
+          "examples": [
+            {
+              "en": "Bến Tre is famous for coconut orchards.",
+              "vi": "Bến Tre nổi tiếng vườn dừa."
+            },
+            {
+              "en": "We picked apples in the orchard.",
+              "vi": "Chúng tôi hái táo trong vườn."
+            },
+            {
+              "en": "Vietnamese orchards have many tropical fruits.",
+              "vi": "Vườn quả Việt Nam có nhiều trái cây nhiệt đới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grove"],
+      "antonyms": [],
+      "collocations": [
+        "apple orchard",
+        "fruit orchard",
+        "in the orchard",
+        "small orchard",
+        "family orchard"
+      ],
+      "etymology_hint": "From Old English 'ortgeard' meaning 'plant garden' — compound of 'wort' (plant) + 'geard' (yard).",
+      "mnemonic_vi": "ORCHARD = OR + CHARD → 'vườn cây'. Apple orchard = vườn táo."
+    },
+    {
+      "word": "paddy",
+      "lemma": "paddy",
+      "ipa": "/ˈpædi/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a wet field where rice grows",
+          "meaning_vi": "ruộng lúa (nước)",
+          "examples": [
+            {
+              "en": "Mu Cang Chai's terraced rice paddies are stunning.",
+              "vi": "Ruộng bậc thang Mù Cang Chải đẹp ngỡ ngàng."
+            },
+            {
+              "en": "Water buffalo work in the paddy fields.",
+              "vi": "Trâu nước làm việc trên ruộng lúa."
+            },
+            {
+              "en": "Asian countries depend on paddy rice.",
+              "vi": "Các nước châu Á phụ thuộc gạo từ ruộng nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rice field"],
+      "antonyms": [],
+      "collocations": [
+        "rice paddy",
+        "paddy field",
+        "terraced paddy",
+        "flooded paddy",
+        "paddy farmer"
+      ],
+      "etymology_hint": "From Malay 'padi' meaning 'rice plant' — adopted into English from Southeast Asian trade in 17th century.",
+      "mnemonic_vi": "PADDY = 'pá-đi' — 'pa-đi' lúa nước. Rice paddy = ruộng lúa."
+    },
+    {
+      "word": "cattle",
+      "lemma": "cattle",
+      "ipa": "/ˈkætl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "large farm animals, especially cows, kept for milk or meat",
+          "meaning_vi": "gia súc lớn (bò, trâu)",
+          "examples": [
+            {
+              "en": "Many cattle graze in the highlands of Mộc Châu.",
+              "vi": "Nhiều gia súc gặm cỏ ở cao nguyên Mộc Châu."
+            },
+            {
+              "en": "Cattle farming is profitable in the north.",
+              "vi": "Chăn nuôi gia súc có lời ở miền Bắc."
+            },
+            {
+              "en": "The farmer owns 100 head of cattle.",
+              "vi": "Người nông dân sở hữu 100 con bò."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cows", "livestock"],
+      "antonyms": [],
+      "collocations": [
+        "head of cattle",
+        "raise cattle",
+        "cattle farm",
+        "dairy cattle",
+        "beef cattle"
+      ],
+      "etymology_hint": "From Anglo-French 'catel' meaning 'property' — originally any moveable property, narrowed to 'farm animals'.",
+      "mnemonic_vi": "CATTLE = 'cát-tồ' — 'cát tồ' đàn bò. Dairy cattle = bò sữa."
+    },
+    {
+      "word": "dairy",
+      "lemma": "dairy",
+      "ipa": "/ˈdeəri/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "relating to milk and milk products like cheese, butter, and yogurt",
+          "meaning_vi": "thuộc về sữa, ngành sữa",
+          "examples": [
+            {
+              "en": "Vinamilk is the biggest dairy company in Việt Nam.",
+              "vi": "Vinamilk là công ty sữa lớn nhất Việt Nam."
+            },
+            {
+              "en": "I'm allergic to dairy products.",
+              "vi": "Tôi dị ứng với các sản phẩm từ sữa."
+            },
+            {
+              "en": "Mộc Châu dairy farms produce fresh milk daily.",
+              "vi": "Trại sữa Mộc Châu sản xuất sữa tươi hằng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["dairy farm", "dairy products", "dairy cow", "dairy industry", "dairy free"],
+      "etymology_hint": "From Middle English 'deye' meaning 'female servant in charge of dairy' — Old English 'dæge' (kneader of bread).",
+      "mnemonic_vi": "DAIRY = 'đe-ri' — 'đề ri' sữa. Dairy product = sản phẩm sữa."
+    },
+    {
+      "word": "herd",
+      "lemma": "herd",
+      "ipa": "/hɜːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large group of the same kind of animals living together",
+          "meaning_vi": "đàn (gia súc)",
+          "examples": [
+            {
+              "en": "A herd of cows blocked the road in Đắk Lắk.",
+              "vi": "Một đàn bò chặn đường ở Đắk Lắk."
+            },
+            {
+              "en": "The herd of buffalo moves together.",
+              "vi": "Đàn trâu di chuyển cùng nhau."
+            },
+            {
+              "en": "A small herd of goats grazed on the hill.",
+              "vi": "Một đàn dê nhỏ gặm cỏ trên đồi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flock", "pack"],
+      "antonyms": [],
+      "collocations": [
+        "herd of cows",
+        "herd of cattle",
+        "large herd",
+        "herd mentality",
+        "small herd"
+      ],
+      "etymology_hint": "From Old English 'heord' — Germanic root, related to German 'Herde' (flock, herd).",
+      "mnemonic_vi": "HERD = 'hớt' — 'hớt' đám đông. Herd of cows = đàn bò."
+    },
+    {
+      "word": "graze",
+      "lemma": "graze",
+      "ipa": "/ɡreɪz/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "(of cows, sheep, etc.) to eat grass slowly in a field",
+          "meaning_vi": "gặm cỏ (động vật ăn cỏ)",
+          "examples": [
+            {
+              "en": "The cows graze peacefully all afternoon.",
+              "vi": "Đàn bò gặm cỏ yên bình cả buổi chiều."
+            },
+            {
+              "en": "Sheep graze on the hills of Đà Lạt.",
+              "vi": "Cừu gặm cỏ trên đồi Đà Lạt."
+            },
+            {
+              "en": "Don't let the goat graze in the flower garden!",
+              "vi": "Đừng cho dê gặm cỏ trong vườn hoa!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["feed", "pasture"],
+      "antonyms": [],
+      "collocations": [
+        "graze on grass",
+        "cattle graze",
+        "graze freely",
+        "graze peacefully",
+        "graze in the field"
+      ],
+      "etymology_hint": "From Old English 'grasian' meaning 'to feed on grass' — from 'græs' (grass).",
+      "mnemonic_vi": "GRAZE = 'grêi-z' — 'grờ ăn' cỏ. Graze on grass = gặm cỏ."
+    },
+    {
+      "word": "fertilizer",
+      "lemma": "fertilizer",
+      "ipa": "/ˈfɜːtəlaɪzə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a substance added to soil to help plants grow better",
+          "meaning_vi": "phân bón",
+          "examples": [
+            {
+              "en": "Use organic fertilizer for healthy vegetables.",
+              "vi": "Dùng phân hữu cơ cho rau khỏe."
+            },
+            {
+              "en": "Too much fertilizer hurts the soil.",
+              "vi": "Quá nhiều phân bón hại đất."
+            },
+            {
+              "en": "Cow manure is a natural fertilizer.",
+              "vi": "Phân bò là phân bón tự nhiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["manure", "compost"],
+      "antonyms": [],
+      "collocations": [
+        "organic fertilizer",
+        "chemical fertilizer",
+        "apply fertilizer",
+        "natural fertilizer",
+        "use fertilizer"
+      ],
+      "etymology_hint": "From 'fertilize' + '-er' — from Latin 'fertilis' (productive). Modern term coined in 19th century.",
+      "mnemonic_vi": "FERTILIZER = FERTILE + IZER → 'làm đất phì nhiêu'. Phân bón."
+    },
+    {
+      "word": "tractor",
+      "lemma": "tractor",
+      "ipa": "/ˈtræktə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large vehicle used on farms for pulling equipment",
+          "meaning_vi": "máy kéo, máy cày",
+          "examples": [
+            {
+              "en": "The tractor pulls the plough across the field.",
+              "vi": "Máy kéo kéo cày qua cánh đồng."
+            },
+            {
+              "en": "Vietnamese farms now use small tractors.",
+              "vi": "Nông trại Việt giờ dùng máy kéo nhỏ."
+            },
+            {
+              "en": "Driving a tractor needs special skills.",
+              "vi": "Lái máy kéo cần kỹ năng đặc biệt."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "drive a tractor",
+        "farm tractor",
+        "old tractor",
+        "tractor engine",
+        "small tractor"
+      ],
+      "etymology_hint": "From Latin 'trahere' meaning 'to pull' — 'tractor' literally means 'thing that pulls'.",
+      "mnemonic_vi": "TRACTOR = TRACT + OR → 'cái kéo'. Tractor = máy kéo nông."
+    },
+    {
+      "word": "countryside",
+      "lemma": "countryside",
+      "ipa": "/ˈkʌntrisaɪd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "areas of land that are away from cities, with fields and farms",
+          "meaning_vi": "vùng nông thôn, miền quê",
+          "examples": [
+            {
+              "en": "She grew up in the countryside near Huế.",
+              "vi": "Cô ấy lớn lên ở miền quê gần Huế."
+            },
+            {
+              "en": "Vietnamese countryside is peaceful and green.",
+              "vi": "Vùng quê Việt Nam yên bình và xanh."
+            },
+            {
+              "en": "I love weekend trips to the countryside.",
+              "vi": "Tôi thích đi chơi cuối tuần ở vùng quê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rural area"],
+      "antonyms": ["city", "urban area"],
+      "collocations": [
+        "in the countryside",
+        "Vietnamese countryside",
+        "beautiful countryside",
+        "live in the countryside",
+        "countryside walk"
+      ],
+      "etymology_hint": "Compound of 'country' + 'side' — original sense of 'the side of a region opposite the town'.",
+      "mnemonic_vi": "COUNTRYSIDE = COUNTRY + SIDE → 'phía quê'. Vùng quê yên bình."
+    },
+    {
+      "word": "pasture",
+      "lemma": "pasture",
+      "ipa": "/ˈpɑːstʃə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an area of land covered with grass for animals to eat",
+          "meaning_vi": "đồng cỏ chăn nuôi",
+          "examples": [
+            {
+              "en": "Cows enjoy the green pasture in spring.",
+              "vi": "Bò thích đồng cỏ xanh vào mùa xuân."
+            },
+            {
+              "en": "Mộc Châu has wide pastures for dairy farms.",
+              "vi": "Mộc Châu có đồng cỏ rộng cho trại bò sữa."
+            },
+            {
+              "en": "Move the sheep to a new pasture every week.",
+              "vi": "Đổi cừu sang đồng cỏ mới mỗi tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meadow", "grassland"],
+      "antonyms": [],
+      "collocations": [
+        "green pasture",
+        "open pasture",
+        "in the pasture",
+        "lush pasture",
+        "pasture land"
+      ],
+      "etymology_hint": "From Old French 'pasture' meaning 'food for animals' — from Latin 'pastura' (a grazing place).",
+      "mnemonic_vi": "PASTURE = 'pást-chơ' — 'pásức' đồng cỏ. Green pasture = đồng cỏ xanh."
+    },
+    {
+      "word": "stable",
+      "lemma": "stable",
+      "ipa": "/ˈsteɪbl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a building where horses are kept",
+          "meaning_vi": "chuồng ngựa",
+          "examples": [
+            {
+              "en": "The horses are sleeping in the stable.",
+              "vi": "Đàn ngựa đang ngủ trong chuồng."
+            },
+            {
+              "en": "Clean the stable every morning.",
+              "vi": "Dọn chuồng ngựa mỗi sáng."
+            },
+            {
+              "en": "There's a small stable at the riding school.",
+              "vi": "Có chuồng ngựa nhỏ ở trường cưỡi ngựa."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "horse stable",
+        "in the stable",
+        "old stable",
+        "stable boy",
+        "muck out a stable"
+      ],
+      "etymology_hint": "From Old French 'estable' meaning 'standing place' — from Latin 'stabulum' (stall, fold).",
+      "mnemonic_vi": "STABLE = 'stếb-l' — 'sờ tép' chuồng ngựa. Stable = nơi ngựa ngủ."
+    }
+  ]
+}
