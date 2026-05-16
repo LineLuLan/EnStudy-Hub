@@ -1,0 +1,757 @@
+{
+  "slug": "teamwork",
+  "name": "Teamwork",
+  "description": "Tinh thần đồng đội A2 — collaborate, cooperate, contribute, role, task và 15 từ về làm việc nhóm.",
+  "order_index": 7,
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "word": "collaborate",
+      "lemma": "collaborate",
+      "ipa": "/kəˈlæbəreɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to work together with others on a project or task",
+          "meaning_vi": "cộng tác, hợp tác làm việc",
+          "examples": [
+            {
+              "en": "Our team collaborates with Singapore weekly.",
+              "vi": "Team chúng tôi cộng tác với Singapore hàng tuần."
+            },
+            {
+              "en": "She loves collaborating with creative people.",
+              "vi": "Cô ấy thích cộng tác với người sáng tạo."
+            },
+            {
+              "en": "Vingroup and FPT collaborated on the smart city project.",
+              "vi": "Vingroup và FPT đã cộng tác dự án thành phố thông minh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cooperate", "team up"],
+      "antonyms": [],
+      "collocations": [
+        "collaborate with",
+        "collaborate on",
+        "collaborate closely",
+        "international collaboration",
+        "team collaboration"
+      ],
+      "etymology_hint": "From Latin 'collaborare' meaning 'to work with' — from 'com-' (together) + 'laborare' (to work).",
+      "mnemonic_vi": "COLLABORATE = COL + LABOR → 'cùng lao động'. Cộng tác làm việc."
+    },
+    {
+      "word": "role",
+      "lemma": "role",
+      "ipa": "/rəʊl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the position or function someone has in a group, job, or activity",
+          "meaning_vi": "vai trò",
+          "examples": [
+            {
+              "en": "What's your role on this project?",
+              "vi": "Vai trò của bạn trong dự án này là gì?"
+            },
+            {
+              "en": "She has a key role in the marketing team.",
+              "vi": "Cô ấy có vai trò then chốt trong team marketing."
+            },
+            {
+              "en": "Each member knows their role clearly.",
+              "vi": "Mỗi thành viên biết rõ vai trò của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["position", "function", "part"],
+      "antonyms": [],
+      "collocations": ["key role", "play a role", "role model", "main role", "leadership role"],
+      "etymology_hint": "From French 'rôle' meaning 'roll' — original sense from rolled parchment containing an actor's lines.",
+      "mnemonic_vi": "ROLE = 'rôu' — 'rồ' đóng vai. Role model = hình mẫu."
+    },
+    {
+      "word": "task",
+      "lemma": "task",
+      "ipa": "/tɑːsk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a piece of work that you must do",
+          "meaning_vi": "nhiệm vụ, công việc cụ thể",
+          "examples": [
+            {
+              "en": "I have 3 tasks to finish before lunch.",
+              "vi": "Tôi có 3 nhiệm vụ phải xong trước trưa."
+            },
+            {
+              "en": "Break big tasks into smaller ones.",
+              "vi": "Chia nhiệm vụ lớn thành những nhiệm vụ nhỏ."
+            },
+            {
+              "en": "Use Trello to manage your team's tasks.",
+              "vi": "Dùng Trello để quản lý nhiệm vụ team."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["job", "assignment", "duty"],
+      "antonyms": [],
+      "collocations": [
+        "daily task",
+        "complete a task",
+        "assign a task",
+        "task list",
+        "task manager"
+      ],
+      "etymology_hint": "From Old French 'tasque' (work assigned) — from Vulgar Latin 'tasca' (a duty, tax).",
+      "mnemonic_vi": "TASK = 'tátsk' — 'tác' việc cần làm. Task list = danh sách việc."
+    },
+    {
+      "word": "contribute",
+      "lemma": "contribute",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to give something (time, money, or ideas) to help a group succeed",
+          "meaning_vi": "đóng góp",
+          "examples": [
+            {
+              "en": "Everyone contributed ideas to the brainstorm.",
+              "vi": "Mọi người đóng góp ý tưởng cho buổi brainstorm."
+            },
+            {
+              "en": "She contributes 1 million VND to charity each month.",
+              "vi": "Cô ấy đóng góp 1 triệu VND cho từ thiện mỗi tháng."
+            },
+            {
+              "en": "How can I contribute to this project?",
+              "vi": "Tôi có thể đóng góp gì cho dự án này?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["donate", "add"],
+      "antonyms": [],
+      "collocations": [
+        "contribute to",
+        "contribute ideas",
+        "contribute time",
+        "contribute money",
+        "contribute significantly"
+      ],
+      "etymology_hint": "From Latin 'contribuere' meaning 'to bring together' — from 'com-' (together) + 'tribuere' (to give).",
+      "mnemonic_vi": "CONTRIBUTE = CON + TRIBUTE → 'cùng cống nạp'. Đóng góp công sức."
+    },
+    {
+      "word": "cooperate",
+      "lemma": "cooperate",
+      "ipa": "/kəʊˈɒpəreɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to work helpfully together to achieve something",
+          "meaning_vi": "hợp tác, cùng làm",
+          "examples": [
+            {
+              "en": "We need to cooperate to finish on time.",
+              "vi": "Chúng ta cần hợp tác để xong đúng hạn."
+            },
+            {
+              "en": "He doesn't cooperate well with others.",
+              "vi": "Anh ấy không hợp tác tốt với người khác."
+            },
+            {
+              "en": "Vietnamese and Korean companies cooperate often.",
+              "vi": "Công ty Việt và Hàn thường hợp tác."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["collaborate", "work together"],
+      "antonyms": ["compete", "conflict"],
+      "collocations": [
+        "cooperate with",
+        "fully cooperate",
+        "refuse to cooperate",
+        "cooperate closely",
+        "cooperate effectively"
+      ],
+      "etymology_hint": "From Latin 'cooperari' meaning 'to work with' — from 'co-' (together) + 'operari' (to work).",
+      "mnemonic_vi": "COOPERATE = CO + OPERATE → 'cùng vận hành'. Hợp tác làm việc."
+    },
+    {
+      "word": "delegate",
+      "lemma": "delegate",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to give part of your work to someone else to do",
+          "meaning_vi": "giao quyền, ủy thác (việc cho người khác)",
+          "examples": [
+            {
+              "en": "Good managers delegate tasks to their team.",
+              "vi": "Quản lý giỏi giao việc cho team."
+            },
+            {
+              "en": "She delegated the design to her junior.",
+              "vi": "Cô ấy giao thiết kế cho junior."
+            },
+            {
+              "en": "Don't try to do everything yourself — delegate!",
+              "vi": "Đừng cố làm tất cả một mình — giao việc đi!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assign", "entrust"],
+      "antonyms": ["micromanage"],
+      "collocations": [
+        "delegate tasks",
+        "delegate responsibility",
+        "delegate work",
+        "ability to delegate",
+        "delegate to"
+      ],
+      "etymology_hint": "From Latin 'delegare' meaning 'to send away' — from 'de-' (down) + 'legare' (to send).",
+      "mnemonic_vi": "DELEGATE = DE + LEGATE → 'gửi xuống'. Giao việc cho cấp dưới."
+    },
+    {
+      "word": "assign",
+      "lemma": "assign",
+      "ipa": "/əˈsaɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to give a task or job to someone officially",
+          "meaning_vi": "phân công, giao việc",
+          "examples": [
+            {
+              "en": "The manager assigned me a new project.",
+              "vi": "Sếp phân công tôi dự án mới."
+            },
+            {
+              "en": "Tasks are assigned via Asana every Monday.",
+              "vi": "Việc được phân công qua Asana mỗi thứ Hai."
+            },
+            {
+              "en": "Please assign someone to take notes.",
+              "vi": "Vui lòng cử ai đó ghi chú."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["allocate", "designate"],
+      "antonyms": [],
+      "collocations": [
+        "assign a task",
+        "assign work",
+        "assign someone",
+        "assign responsibility",
+        "newly assigned"
+      ],
+      "etymology_hint": "From Old French 'assigner' meaning 'to set aside, allot' — from Latin 'assignare' (to mark out).",
+      "mnemonic_vi": "ASSIGN = 'a-sài-n' — 'a sai' giao cho. Phân công nhiệm vụ."
+    },
+    {
+      "word": "achieve",
+      "lemma": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to succeed in doing or getting something through effort",
+          "meaning_vi": "đạt được",
+          "examples": [
+            {
+              "en": "She achieved her IELTS 8.0 dream.",
+              "vi": "Cô ấy đạt được giấc mơ IELTS 8.0."
+            },
+            {
+              "en": "Vietnam achieved 6% GDP growth last year.",
+              "vi": "Việt Nam đạt 6% tăng trưởng GDP năm ngoái."
+            },
+            {
+              "en": "You can achieve anything with hard work.",
+              "vi": "Bạn có thể đạt mọi thứ với nỗ lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accomplish", "attain"],
+      "antonyms": ["fail"],
+      "collocations": [
+        "achieve a goal",
+        "achieve success",
+        "achieve results",
+        "hard to achieve",
+        "achieve great things"
+      ],
+      "etymology_hint": "From Old French 'achever' meaning 'to bring to a head' — from 'a chef' (to the end).",
+      "mnemonic_vi": "ACHIEVE = A + CHIEVE → 'đến đỉnh' (chef = head). Đạt mục tiêu."
+    },
+    {
+      "word": "accomplish",
+      "lemma": "accomplish",
+      "ipa": "/əˈkʌmplɪʃ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to finish or complete something successfully",
+          "meaning_vi": "hoàn thành (thành công)",
+          "examples": [
+            {
+              "en": "She accomplished a lot in her first year at FPT.",
+              "vi": "Cô ấy hoàn thành nhiều việc trong năm đầu ở FPT."
+            },
+            {
+              "en": "We accomplished the project ahead of schedule.",
+              "vi": "Chúng tôi hoàn thành dự án sớm hơn lịch."
+            },
+            {
+              "en": "Setting daily goals helps me accomplish more.",
+              "vi": "Đặt mục tiêu hàng ngày giúp tôi hoàn thành nhiều hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["achieve", "complete"],
+      "antonyms": ["fail"],
+      "collocations": [
+        "accomplish a task",
+        "accomplish goals",
+        "successfully accomplish",
+        "much to accomplish",
+        "feel accomplished"
+      ],
+      "etymology_hint": "From Latin 'ad-' (to) + 'complere' (to fill up) — meaning 'to fully achieve'.",
+      "mnemonic_vi": "ACCOMPLISH = AC + COMPLISH → 'làm cho đầy'. Hoàn thành xong xuôi."
+    },
+    {
+      "word": "teamwork",
+      "lemma": "teamwork",
+      "ipa": "/ˈtiːmwɜːk/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "people working together as a group to achieve something",
+          "meaning_vi": "tinh thần làm việc nhóm",
+          "examples": [
+            {
+              "en": "Great teamwork made the project succeed.",
+              "vi": "Tinh thần đồng đội tuyệt vời khiến dự án thành công."
+            },
+            {
+              "en": "Vietnamese football needs better teamwork.",
+              "vi": "Bóng đá Việt cần phối hợp đồng đội tốt hơn."
+            },
+            {
+              "en": "Teamwork makes the dream work!",
+              "vi": "Đồng đội mạnh thì giấc mơ thành sự thật!"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["collaboration"],
+      "antonyms": [],
+      "collocations": [
+        "good teamwork",
+        "teamwork skills",
+        "promote teamwork",
+        "value teamwork",
+        "lack of teamwork"
+      ],
+      "etymology_hint": "Compound of 'team' + 'work' — coined in 19th century, popularized in business management literature in 20th century.",
+      "mnemonic_vi": "TEAMWORK = TEAM + WORK → 'cùng team làm'. Tinh thần đồng đội."
+    },
+    {
+      "word": "unity",
+      "lemma": "unity",
+      "ipa": "/ˈjuːnəti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being joined together or in agreement as one",
+          "meaning_vi": "sự đoàn kết, thống nhất",
+          "examples": [
+            {
+              "en": "Vietnam's strength is its national unity.",
+              "vi": "Sức mạnh Việt Nam là sự đoàn kết dân tộc."
+            },
+            {
+              "en": "The team showed great unity under pressure.",
+              "vi": "Đội thể hiện đoàn kết tuyệt vời dưới áp lực."
+            },
+            {
+              "en": "Unity is power.",
+              "vi": "Đoàn kết là sức mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["solidarity", "harmony"],
+      "antonyms": ["division", "discord"],
+      "collocations": ["national unity", "team unity", "in unity", "promote unity", "show unity"],
+      "etymology_hint": "From Latin 'unitas' meaning 'oneness' — from 'unus' (one), same root as 'unite' and 'union'.",
+      "mnemonic_vi": "UNITY = UNI + TY → 'sự là một'. Đoàn kết, thống nhất."
+    },
+    {
+      "word": "division",
+      "lemma": "division",
+      "ipa": "/dɪˈvɪʒn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a part or section of a large company; or the act of separating",
+          "meaning_vi": "bộ phận, phòng ban; sự phân chia",
+          "examples": [
+            {
+              "en": "I work in the marketing division at Viettel.",
+              "vi": "Tôi làm ở phòng marketing Viettel."
+            },
+            {
+              "en": "Fair division of work keeps the team happy.",
+              "vi": "Phân chia công việc công bằng giúp team vui."
+            },
+            {
+              "en": "The Asia division has 500 employees.",
+              "vi": "Bộ phận châu Á có 500 nhân viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["department", "section"],
+      "antonyms": ["unity"],
+      "collocations": [
+        "marketing division",
+        "sales division",
+        "division of work",
+        "internal division",
+        "head of division"
+      ],
+      "etymology_hint": "From Latin 'divisio' meaning 'a division, separation' — from 'dividere' (to divide).",
+      "mnemonic_vi": "DIVISION = DIVIS + ION → 'sự chia ra'. Bộ phận, phòng ban."
+    },
+    {
+      "word": "resolve",
+      "lemma": "resolve",
+      "ipa": "/rɪˈzɒlv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to find a solution to a problem or argument",
+          "meaning_vi": "giải quyết (vấn đề, mâu thuẫn)",
+          "examples": [
+            {
+              "en": "We resolved the bug in 2 hours.",
+              "vi": "Chúng tôi giải quyết bug trong 2 tiếng."
+            },
+            {
+              "en": "Let's sit and resolve this misunderstanding.",
+              "vi": "Cùng ngồi giải quyết hiểu lầm này."
+            },
+            {
+              "en": "Most arguments can be resolved through talking.",
+              "vi": "Hầu hết mâu thuẫn có thể giải quyết qua nói chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["solve", "settle"],
+      "antonyms": ["create"],
+      "collocations": [
+        "resolve a problem",
+        "resolve a conflict",
+        "fully resolve",
+        "resolve an issue",
+        "resolve a dispute"
+      ],
+      "etymology_hint": "From Latin 'resolvere' meaning 'to loosen, untie' — from 're-' (again) + 'solvere' (to loosen).",
+      "mnemonic_vi": "RESOLVE = RE + SOLVE → 'giải lại'. Resolve a bug = sửa bug."
+    },
+    {
+      "word": "consensus",
+      "lemma": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "general agreement among a group of people",
+          "meaning_vi": "sự đồng thuận, nhất trí",
+          "examples": [
+            {
+              "en": "We reached a consensus after 2 hours of debate.",
+              "vi": "Chúng tôi đồng thuận sau 2 giờ tranh luận."
+            },
+            {
+              "en": "The team consensus is to launch next month.",
+              "vi": "Đồng thuận của team là ra mắt tháng sau."
+            },
+            {
+              "en": "There's no consensus on the design yet.",
+              "vi": "Vẫn chưa có sự đồng thuận về thiết kế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["agreement", "accord"],
+      "antonyms": ["disagreement"],
+      "collocations": [
+        "reach a consensus",
+        "team consensus",
+        "general consensus",
+        "build consensus",
+        "lack of consensus"
+      ],
+      "etymology_hint": "From Latin 'consensus' meaning 'agreement' — from 'com-' (together) + 'sentire' (to feel).",
+      "mnemonic_vi": "CONSENSUS = CON + SENSUS → 'cùng cảm nhận'. Sự đồng thuận."
+    },
+    {
+      "word": "coordinate",
+      "lemma": "coordinate",
+      "ipa": "/kəʊˈɔːdɪneɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to organize people or things so they work together well",
+          "meaning_vi": "phối hợp, điều phối",
+          "examples": [
+            {
+              "en": "She coordinates the event for 200 people.",
+              "vi": "Cô ấy điều phối sự kiện cho 200 người."
+            },
+            {
+              "en": "Multiple teams need to coordinate for this launch.",
+              "vi": "Nhiều team cần phối hợp cho buổi ra mắt."
+            },
+            {
+              "en": "Coordinate with HR about the new hire.",
+              "vi": "Phối hợp với HR về việc tuyển mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organize", "harmonize"],
+      "antonyms": [],
+      "collocations": [
+        "coordinate with",
+        "coordinate efforts",
+        "coordinate a project",
+        "coordinate teams",
+        "carefully coordinate"
+      ],
+      "etymology_hint": "From Latin 'co-' (together) + 'ordinare' (to arrange in order) — sense of 'arranging together'.",
+      "mnemonic_vi": "COORDINATE = CO + ORDINATE → 'cùng sắp xếp'. Phối hợp nhịp nhàng."
+    },
+    {
+      "word": "align",
+      "lemma": "align",
+      "ipa": "/əˈlaɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to bring things into agreement or arrange them in a straight line",
+          "meaning_vi": "đồng bộ, căn chỉnh, cùng hướng",
+          "examples": [
+            {
+              "en": "Our goals align well with the company's vision.",
+              "vi": "Mục tiêu của chúng tôi đồng bộ với tầm nhìn công ty."
+            },
+            {
+              "en": "Align the team before starting the project.",
+              "vi": "Đồng bộ team trước khi bắt đầu dự án."
+            },
+            {
+              "en": "Make sure your slides are aligned with the speech.",
+              "vi": "Đảm bảo slide đồng bộ với bài nói."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["match", "synchronize"],
+      "antonyms": ["misalign"],
+      "collocations": [
+        "align with",
+        "align goals",
+        "align teams",
+        "fully aligned",
+        "alignment meeting"
+      ],
+      "etymology_hint": "From French 'aligner' meaning 'to put in a line' — from 'à' (to) + 'ligne' (line).",
+      "mnemonic_vi": "ALIGN = A + LIGN → 'theo đường'. Đồng bộ, cùng hướng."
+    },
+    {
+      "word": "responsibility",
+      "lemma": "responsibility",
+      "ipa": "/rɪˌspɒnsəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the duty to take care of something or someone",
+          "meaning_vi": "trách nhiệm",
+          "examples": [
+            {
+              "en": "Time management is your responsibility.",
+              "vi": "Quản lý thời gian là trách nhiệm của bạn."
+            },
+            {
+              "en": "She takes responsibility for her team's mistakes.",
+              "vi": "Cô ấy chịu trách nhiệm cho lỗi của team."
+            },
+            {
+              "en": "Parents have a big responsibility raising kids.",
+              "vi": "Phụ huynh có trách nhiệm lớn nuôi con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["duty", "obligation"],
+      "antonyms": [],
+      "collocations": [
+        "take responsibility",
+        "accept responsibility",
+        "personal responsibility",
+        "big responsibility",
+        "share responsibility"
+      ],
+      "etymology_hint": "From Latin 'respondere' (to respond) + '-ibility' — 'the ability to respond/answer for one's actions'.",
+      "mnemonic_vi": "RESPONSIBILITY = RESPONSE + IBILITY → 'khả năng đáp trả'. Phải chịu trách nhiệm."
+    },
+    {
+      "word": "mutual",
+      "lemma": "mutual",
+      "ipa": "/ˈmjuːtʃuəl/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "shared by two or more people; felt by both sides equally",
+          "meaning_vi": "lẫn nhau, hai chiều",
+          "examples": [
+            {
+              "en": "We have mutual respect for each other.",
+              "vi": "Chúng tôi tôn trọng lẫn nhau."
+            },
+            {
+              "en": "Vietnam and Japan have mutual trade benefits.",
+              "vi": "Việt Nam và Nhật có lợi ích thương mại hai chiều."
+            },
+            {
+              "en": "It's a mutual friend who introduced us.",
+              "vi": "Một người bạn chung đã giới thiệu chúng tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shared", "reciprocal"],
+      "antonyms": ["one-sided"],
+      "collocations": [
+        "mutual respect",
+        "mutual friend",
+        "mutual benefit",
+        "mutual understanding",
+        "mutual agreement"
+      ],
+      "etymology_hint": "From Latin 'mutuus' meaning 'borrowed, exchanged' — from 'mutare' (to change).",
+      "mnemonic_vi": "MUTUAL = 'miu-chu-ồ' — 'mí chú' hai bên. Mutual respect = tôn trọng đôi bên."
+    },
+    {
+      "word": "commit",
+      "lemma": "commit",
+      "ipa": "/kəˈmɪt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to promise to do something or be devoted to it",
+          "meaning_vi": "cam kết, dấn thân",
+          "examples": [
+            {
+              "en": "She committed to learning English daily.",
+              "vi": "Cô ấy cam kết học tiếng Anh mỗi ngày."
+            },
+            {
+              "en": "Are you committed to this project?",
+              "vi": "Bạn có cam kết với dự án này không?"
+            },
+            {
+              "en": "Don't commit if you can't follow through.",
+              "vi": "Đừng cam kết nếu không thể theo đến cùng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pledge", "dedicate"],
+      "antonyms": [],
+      "collocations": [
+        "commit to",
+        "fully commit",
+        "commit a crime",
+        "commit time",
+        "commit suicide"
+      ],
+      "etymology_hint": "From Latin 'committere' meaning 'to bring together' — from 'com-' (together) + 'mittere' (to send).",
+      "mnemonic_vi": "COMMIT = COM + MIT → 'cùng gửi'. Git commit = cam kết thay đổi code."
+    },
+    {
+      "word": "complete",
+      "lemma": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to finish doing or making something",
+          "meaning_vi": "hoàn thành",
+          "examples": [
+            {
+              "en": "Please complete the form before submitting.",
+              "vi": "Vui lòng hoàn thành form trước khi gửi."
+            },
+            {
+              "en": "She completed her degree in 4 years.",
+              "vi": "Cô ấy hoàn thành bằng đại học trong 4 năm."
+            },
+            {
+              "en": "We need to complete this task by Friday.",
+              "vi": "Chúng tôi cần hoàn thành việc này trước thứ Sáu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finish", "accomplish"],
+      "antonyms": ["start", "begin"],
+      "collocations": [
+        "complete a task",
+        "complete a form",
+        "successfully complete",
+        "complete on time",
+        "fail to complete"
+      ],
+      "etymology_hint": "From Latin 'completus' meaning 'filled up' — past participle of 'complere' (to fill).",
+      "mnemonic_vi": "COMPLETE = COM + PLETE → 'làm đầy'. Hoàn thành nhiệm vụ."
+    }
+  ]
+}
