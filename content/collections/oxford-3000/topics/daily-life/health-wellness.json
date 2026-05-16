@@ -1,0 +1,757 @@
+{
+  "slug": "health-wellness",
+  "name": "Health & Wellness",
+  "description": "Sức khỏe và lối sống lành B1 — mental, stress, therapy, nutrition, immune và 15 từ về wellness hiện đại.",
+  "order_index": 15,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "mental",
+      "lemma": "mental",
+      "ipa": "/ˈmentl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relating to the mind or thinking",
+          "meaning_vi": "thuộc về tinh thần, tâm thần",
+          "examples": [
+            {
+              "en": "Mental health is as important as physical health.",
+              "vi": "Sức khỏe tinh thần quan trọng như thể chất."
+            },
+            {
+              "en": "Vietnam needs more mental health awareness.",
+              "vi": "Việt Nam cần thêm nhận thức về sức khỏe tinh thần."
+            },
+            {
+              "en": "She does mental math very quickly.",
+              "vi": "Cô ấy tính nhẩm rất nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["psychological"],
+      "antonyms": ["physical"],
+      "collocations": [
+        "mental health",
+        "mental illness",
+        "mental ability",
+        "mental state",
+        "mental math"
+      ],
+      "etymology_hint": "From Latin 'mentalis' meaning 'of the mind' — from 'mens' (mind).",
+      "mnemonic_vi": "MENTAL = 'mén-tồ' — 'mén tâm'. Mental health = sức khỏe tinh thần."
+    },
+    {
+      "word": "stress",
+      "lemma": "stress",
+      "ipa": "/stres/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "mental or emotional strain caused by demanding situations",
+          "meaning_vi": "căng thẳng, áp lực (danh từ)",
+          "examples": [
+            {
+              "en": "Reduce stress with yoga and meditation.",
+              "vi": "Giảm stress với yoga và thiền."
+            },
+            {
+              "en": "Sài Gòn traffic causes me lots of stress.",
+              "vi": "Giao thông Sài Gòn gây tôi nhiều stress."
+            },
+            {
+              "en": "Stress hurts both body and mind.",
+              "vi": "Stress hại cả thân và tâm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tension", "pressure"],
+      "antonyms": ["calm"],
+      "collocations": [
+        "reduce stress",
+        "stress level",
+        "under stress",
+        "work stress",
+        "stress out"
+      ],
+      "etymology_hint": "From Old French 'estresse' meaning 'narrowness, oppression' — modern psychological sense popularized in 1950s.",
+      "mnemonic_vi": "STRESS = 'strét' — 'sờ-rét' căng. Reduce stress = giảm căng."
+    },
+    {
+      "word": "anxiety",
+      "lemma": "anxiety",
+      "ipa": "/æŋˈzaɪəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the feeling of being very worried about something",
+          "meaning_vi": "sự lo âu, lo lắng (kéo dài)",
+          "examples": [
+            {
+              "en": "Many young people suffer from anxiety.",
+              "vi": "Nhiều người trẻ bị lo âu."
+            },
+            {
+              "en": "Anxiety before exams is common.",
+              "vi": "Lo âu trước thi là điều bình thường."
+            },
+            {
+              "en": "She sees a therapist for her anxiety.",
+              "vi": "Cô ấy gặp nhà trị liệu vì lo âu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["worry", "unease"],
+      "antonyms": ["calm"],
+      "collocations": [
+        "suffer from anxiety",
+        "social anxiety",
+        "anxiety disorder",
+        "reduce anxiety",
+        "exam anxiety"
+      ],
+      "etymology_hint": "From Latin 'anxietas' meaning 'troubled state of mind' — from 'angere' (to choke, distress).",
+      "mnemonic_vi": "ANXIETY = ANXIOUS + ITY → 'sự lo âu'. Social anxiety = lo âu xã hội."
+    },
+    {
+      "word": "therapy",
+      "lemma": "therapy",
+      "ipa": "/ˈθerəpi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "treatment to help with mental or physical problems",
+          "meaning_vi": "trị liệu, liệu pháp",
+          "examples": [
+            {
+              "en": "She started therapy after losing her job.",
+              "vi": "Cô ấy bắt đầu trị liệu sau khi mất việc."
+            },
+            {
+              "en": "Music therapy helps children with autism.",
+              "vi": "Liệu pháp âm nhạc giúp trẻ tự kỷ."
+            },
+            {
+              "en": "Therapy is becoming more accepted in Việt Nam.",
+              "vi": "Trị liệu đang được chấp nhận hơn ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["treatment", "counseling"],
+      "antonyms": [],
+      "collocations": [
+        "in therapy",
+        "group therapy",
+        "physical therapy",
+        "music therapy",
+        "art therapy"
+      ],
+      "etymology_hint": "From Greek 'therapeia' meaning 'healing, attending to' — from 'therapeuein' (to take care of).",
+      "mnemonic_vi": "THERAPY = THERA + PY → 'sự chăm sóc'. Music therapy = liệu pháp nhạc."
+    },
+    {
+      "word": "meditation",
+      "lemma": "meditation",
+      "ipa": "/ˌmedɪˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the practice of sitting quietly to clear your mind",
+          "meaning_vi": "thiền, sự tĩnh tâm",
+          "examples": [
+            {
+              "en": "Meditation reduces stress and anxiety.",
+              "vi": "Thiền giảm stress và lo âu."
+            },
+            {
+              "en": "Vietnamese Buddhists practice meditation daily.",
+              "vi": "Phật tử Việt thiền hàng ngày."
+            },
+            {
+              "en": "Try the Calm app for guided meditation.",
+              "vi": "Thử app Calm cho thiền có hướng dẫn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mindfulness", "contemplation"],
+      "antonyms": [],
+      "collocations": [
+        "practice meditation",
+        "daily meditation",
+        "guided meditation",
+        "meditation app",
+        "deep meditation"
+      ],
+      "etymology_hint": "From Latin 'meditatio' meaning 'a thinking over' — from 'meditari' (to think on, ponder).",
+      "mnemonic_vi": "MEDITATION = MEDIT + ATION → 'suy nghĩ sâu'. Thiền = meditate."
+    },
+    {
+      "word": "nutrition",
+      "lemma": "nutrition",
+      "ipa": "/njuˈtrɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the food you need to stay healthy and grow",
+          "meaning_vi": "dinh dưỡng",
+          "examples": [
+            {
+              "en": "Good nutrition is key to good health.",
+              "vi": "Dinh dưỡng tốt là chìa khóa sức khỏe."
+            },
+            {
+              "en": "Read nutrition labels before buying food.",
+              "vi": "Đọc nhãn dinh dưỡng trước khi mua thức ăn."
+            },
+            {
+              "en": "Vietnamese cuisine has great nutrition.",
+              "vi": "Ẩm thực Việt có dinh dưỡng tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["diet", "nourishment"],
+      "antonyms": [],
+      "collocations": [
+        "good nutrition",
+        "nutrition label",
+        "balanced nutrition",
+        "nutrition advice",
+        "child nutrition"
+      ],
+      "etymology_hint": "From Latin 'nutrire' meaning 'to feed, nourish' — same root as 'nurse' and 'nurture'.",
+      "mnemonic_vi": "NUTRITION = NUTRIT + ION → 'sự nuôi dưỡng'. Good nutrition = dinh dưỡng tốt."
+    },
+    {
+      "word": "vitamin",
+      "lemma": "vitamin",
+      "ipa": "/ˈvɪtəmɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a natural substance in food that you need for good health",
+          "meaning_vi": "vitamin",
+          "examples": [
+            {
+              "en": "Oranges are rich in vitamin C.",
+              "vi": "Cam giàu vitamin C."
+            },
+            {
+              "en": "Take a vitamin every morning.",
+              "vi": "Uống vitamin mỗi sáng."
+            },
+            {
+              "en": "Vitamin D comes from sunlight.",
+              "vi": "Vitamin D từ ánh nắng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nutrient"],
+      "antonyms": [],
+      "collocations": [
+        "vitamin C",
+        "take vitamins",
+        "vitamin supplement",
+        "vitamin deficiency",
+        "essential vitamin"
+      ],
+      "etymology_hint": "Coined in 1912 by Polish biochemist Casimir Funk — from 'vital' (essential) + 'amine' (chemical group).",
+      "mnemonic_vi": "VITAMIN = VITAL + MIN → 'thiết yếu'. Vitamin C = bổ sung."
+    },
+    {
+      "word": "calorie",
+      "lemma": "calorie",
+      "ipa": "/ˈkæləri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a unit measuring how much energy food gives you",
+          "meaning_vi": "calo (đơn vị năng lượng thức ăn)",
+          "examples": [
+            {
+              "en": "One bowl of phở has about 400 calories.",
+              "vi": "Một tô phở có khoảng 400 calo."
+            },
+            {
+              "en": "Count your calories to lose weight.",
+              "vi": "Đếm calo để giảm cân."
+            },
+            {
+              "en": "Burn calories with daily exercise.",
+              "vi": "Đốt calo bằng tập thể dục mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "count calories",
+        "burn calories",
+        "low-calorie",
+        "empty calories",
+        "calorie intake"
+      ],
+      "etymology_hint": "From French 'calorie' — coined in 1825 by Nicolas Clément, from Latin 'calor' (heat).",
+      "mnemonic_vi": "CALORIE = 'cá-lơ-ri' — 'ca lo' nhiệt. Burn calories = đốt calo."
+    },
+    {
+      "word": "immune",
+      "lemma": "immune",
+      "ipa": "/ɪˈmjuːn/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "protected from disease by your body's defense system",
+          "meaning_vi": "miễn dịch",
+          "examples": [
+            {
+              "en": "Once you've had chickenpox, you're immune.",
+              "vi": "Bị thủy đậu một lần là miễn dịch."
+            },
+            {
+              "en": "A strong immune system fights diseases.",
+              "vi": "Hệ miễn dịch mạnh chống bệnh."
+            },
+            {
+              "en": "Vitamin C boosts immune health.",
+              "vi": "Vitamin C tăng cường miễn dịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resistant"],
+      "antonyms": ["vulnerable"],
+      "collocations": [
+        "immune system",
+        "immune to",
+        "boost immune",
+        "weak immune",
+        "immune response"
+      ],
+      "etymology_hint": "From Latin 'immunis' meaning 'free from duty' — sense of 'protected from disease' developed in 19th century medicine.",
+      "mnemonic_vi": "IMMUNE = IM + MUNE → 'tránh khỏi'. Immune system = hệ miễn dịch."
+    },
+    {
+      "word": "recovery",
+      "lemma": "recovery",
+      "ipa": "/rɪˈkʌvəri/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of getting better after illness or injury",
+          "meaning_vi": "sự hồi phục",
+          "examples": [
+            {
+              "en": "Her recovery from surgery was quick.",
+              "vi": "Cô ấy hồi phục nhanh sau phẫu thuật."
+            },
+            {
+              "en": "Rest is essential for recovery.",
+              "vi": "Nghỉ ngơi cần thiết cho hồi phục."
+            },
+            {
+              "en": "Vietnam saw economic recovery after COVID.",
+              "vi": "Việt Nam thấy hồi phục kinh tế sau COVID."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["healing"],
+      "antonyms": ["deterioration"],
+      "collocations": [
+        "full recovery",
+        "speedy recovery",
+        "make a recovery",
+        "recovery time",
+        "economic recovery"
+      ],
+      "etymology_hint": "From Old French 'recoverir' meaning 'to get back' — from Latin 'recuperare' (to get again).",
+      "mnemonic_vi": "RECOVERY = RECOVER + Y → 'sự lấy lại'. Speedy recovery = hồi phục nhanh."
+    },
+    {
+      "word": "wellness",
+      "lemma": "wellness",
+      "ipa": "/ˈwelnəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of being healthy in body and mind",
+          "meaning_vi": "sức khỏe tổng thể, wellness",
+          "examples": [
+            {
+              "en": "Yoga centers focus on wellness.",
+              "vi": "Trung tâm yoga tập trung wellness."
+            },
+            {
+              "en": "Wellness is a lifestyle, not a goal.",
+              "vi": "Wellness là lối sống, không phải mục tiêu."
+            },
+            {
+              "en": "She works as a wellness coach.",
+              "vi": "Cô ấy làm huấn luyện viên wellness."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wellbeing", "health"],
+      "antonyms": ["illness"],
+      "collocations": [
+        "wellness program",
+        "wellness centre",
+        "personal wellness",
+        "wellness coach",
+        "wellness trend"
+      ],
+      "etymology_hint": "Coined in 1654 from 'well' + '-ness' — modern lifestyle sense popularized in 1970s American counterculture.",
+      "mnemonic_vi": "WELLNESS = WELL + NESS → 'sự khỏe'. Wellness = lối sống lành."
+    },
+    {
+      "word": "wellbeing",
+      "lemma": "wellbeing",
+      "ipa": "/ˌwelˈbiːɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the state of feeling healthy and happy",
+          "meaning_vi": "hạnh phúc, an sinh",
+          "examples": [
+            {
+              "en": "Money doesn't always bring wellbeing.",
+              "vi": "Tiền không phải lúc nào cũng mang lại hạnh phúc."
+            },
+            {
+              "en": "Mental wellbeing is key to happiness.",
+              "vi": "An lành tinh thần là chìa khóa hạnh phúc."
+            },
+            {
+              "en": "The company cares about employee wellbeing.",
+              "vi": "Công ty quan tâm phúc lợi nhân viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["welfare", "happiness"],
+      "antonyms": [],
+      "collocations": [
+        "mental wellbeing",
+        "physical wellbeing",
+        "personal wellbeing",
+        "sense of wellbeing",
+        "improve wellbeing"
+      ],
+      "etymology_hint": "Compound of 'well' + 'being' — 'being well', coined in 16th century English.",
+      "mnemonic_vi": "WELLBEING = WELL + BEING → 'tồn tại tốt'. Mental wellbeing = an lành tinh thần."
+    },
+    {
+      "word": "diet",
+      "lemma": "diet",
+      "ipa": "/ˈdaɪət/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the food you eat regularly, or eating less to lose weight",
+          "meaning_vi": "chế độ ăn, ăn kiêng",
+          "examples": [
+            {
+              "en": "A balanced diet includes vegetables.",
+              "vi": "Chế độ ăn cân đối có rau."
+            },
+            {
+              "en": "She's on a strict diet to lose weight.",
+              "vi": "Cô ấy ăn kiêng nghiêm để giảm cân."
+            },
+            {
+              "en": "Vietnamese diet is generally healthy.",
+              "vi": "Chế độ ăn của người Việt nhìn chung lành mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nutrition"],
+      "antonyms": [],
+      "collocations": ["balanced diet", "go on a diet", "healthy diet", "strict diet", "diet plan"],
+      "etymology_hint": "From Latin 'diaeta' meaning 'way of life' — from Greek 'diaita' (mode of living).",
+      "mnemonic_vi": "DIET = 'đai-ợt' — 'đại' ăn. On a diet = đang ăn kiêng."
+    },
+    {
+      "word": "hydration",
+      "lemma": "hydration",
+      "ipa": "/haɪˈdreɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the act of drinking enough water to keep your body healthy",
+          "meaning_vi": "sự cấp nước, uống đủ nước",
+          "examples": [
+            {
+              "en": "Proper hydration is vital in hot weather.",
+              "vi": "Cấp nước đúng quan trọng trong thời tiết nóng."
+            },
+            {
+              "en": "Carry water for hydration during hikes.",
+              "vi": "Mang nước để uống khi leo núi."
+            },
+            {
+              "en": "Dehydration causes headaches.",
+              "vi": "Mất nước gây đau đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["dehydration"],
+      "collocations": [
+        "proper hydration",
+        "stay hydrated",
+        "hydration level",
+        "good hydration",
+        "lack of hydration"
+      ],
+      "etymology_hint": "From Greek 'hydor' meaning 'water' — scientific term coined in 19th century.",
+      "mnemonic_vi": "HYDRATION = HYDR + ATION → 'sự cấp nước'. Stay hydrated = uống đủ nước."
+    },
+    {
+      "word": "protein",
+      "lemma": "protein",
+      "ipa": "/ˈprəʊtiːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a substance in food like meat, eggs, and beans, needed to grow muscle",
+          "meaning_vi": "đạm, protein",
+          "examples": [
+            {
+              "en": "Eggs are rich in protein.",
+              "vi": "Trứng giàu protein."
+            },
+            {
+              "en": "Athletes need lots of protein.",
+              "vi": "Vận động viên cần nhiều protein."
+            },
+            {
+              "en": "Beans are a good source of plant protein.",
+              "vi": "Đậu là nguồn protein thực vật tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "protein source",
+        "high in protein",
+        "protein powder",
+        "plant protein",
+        "animal protein"
+      ],
+      "etymology_hint": "From Greek 'proteios' meaning 'first quality' — coined in 1838 by Dutch chemist Mulder.",
+      "mnemonic_vi": "PROTEIN = 'prô-tin' — 'pro' đầu tiên. Đạm cơ bản."
+    },
+    {
+      "word": "carb",
+      "lemma": "carb",
+      "ipa": "/kɑːb/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "short for carbohydrate; food like rice, bread, or pasta",
+          "meaning_vi": "tinh bột (carbohydrate)",
+          "examples": [
+            {
+              "en": "Vietnamese rice is the main carb source.",
+              "vi": "Cơm Việt là nguồn tinh bột chính."
+            },
+            {
+              "en": "Low-carb diets are popular.",
+              "vi": "Chế độ ăn ít tinh bột phổ biến."
+            },
+            {
+              "en": "Carbs give you quick energy.",
+              "vi": "Tinh bột cho năng lượng nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["carbohydrate"],
+      "antonyms": [],
+      "collocations": [
+        "low-carb diet",
+        "complex carbs",
+        "simple carbs",
+        "carb intake",
+        "carb-free"
+      ],
+      "etymology_hint": "Abbreviation of 'carbohydrate' — from Latin 'carbo' (coal, carbon) + Greek 'hydōr' (water).",
+      "mnemonic_vi": "CARB = 'cáp' — 'cấp' năng lượng. Low-carb = ít tinh bột."
+    },
+    {
+      "word": "cardio",
+      "lemma": "cardio",
+      "ipa": "/ˈkɑːdiəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "exercise like running or cycling that makes your heart beat fast",
+          "meaning_vi": "bài tập tim mạch (cardio)",
+          "examples": [
+            {
+              "en": "I do 30 minutes of cardio every day.",
+              "vi": "Tôi tập cardio 30 phút mỗi ngày."
+            },
+            {
+              "en": "Running is a great cardio workout.",
+              "vi": "Chạy là cardio rất tốt."
+            },
+            {
+              "en": "Cardio improves heart health.",
+              "vi": "Cardio cải thiện sức khỏe tim."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aerobic exercise"],
+      "antonyms": [],
+      "collocations": [
+        "do cardio",
+        "cardio workout",
+        "cardio exercise",
+        "low-intensity cardio",
+        "cardio session"
+      ],
+      "etymology_hint": "From Greek 'kardia' meaning 'heart' — short form of 'cardiovascular'.",
+      "mnemonic_vi": "CARDIO = 'cá-đi-ô' — 'cá đi-ô' tim đập. Cardio = tập tim."
+    },
+    {
+      "word": "mindful",
+      "lemma": "mindful",
+      "ipa": "/ˈmaɪndfl/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "aware of what you are doing or feeling right now",
+          "meaning_vi": "có ý thức (sống chánh niệm)",
+          "examples": [
+            {
+              "en": "Be mindful when you eat — chew slowly.",
+              "vi": "Hãy chánh niệm khi ăn — nhai chậm."
+            },
+            {
+              "en": "Mindful breathing reduces anxiety.",
+              "vi": "Thở chánh niệm giảm lo âu."
+            },
+            {
+              "en": "Be mindful of your spending habits.",
+              "vi": "Hãy ý thức về thói quen chi tiêu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aware", "attentive"],
+      "antonyms": ["mindless"],
+      "collocations": [
+        "be mindful of",
+        "mindful eating",
+        "mindful breathing",
+        "mindful living",
+        "stay mindful"
+      ],
+      "etymology_hint": "Compound of 'mind' + '-ful' (full of) — modern Buddhist sense from Pali 'sati' (mindfulness).",
+      "mnemonic_vi": "MINDFUL = MIND + FUL → 'đầy tâm trí'. Mindful = chánh niệm."
+    },
+    {
+      "word": "healing",
+      "lemma": "healing",
+      "ipa": "/ˈhiːlɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the process of getting better after injury or illness",
+          "meaning_vi": "sự chữa lành, hồi phục",
+          "examples": [
+            {
+              "en": "Time is the best healing.",
+              "vi": "Thời gian là sự chữa lành tốt nhất."
+            },
+            {
+              "en": "Vietnamese traditional medicine focuses on healing.",
+              "vi": "Y học cổ truyền Việt tập trung vào chữa lành."
+            },
+            {
+              "en": "Emotional healing takes time.",
+              "vi": "Chữa lành cảm xúc cần thời gian."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recovery", "cure"],
+      "antonyms": [],
+      "collocations": [
+        "healing process",
+        "natural healing",
+        "spiritual healing",
+        "emotional healing",
+        "healing power"
+      ],
+      "etymology_hint": "From Old English 'hælan' meaning 'to make whole' — same Germanic root as 'whole' and 'holy'.",
+      "mnemonic_vi": "HEALING = HEAL + ING → 'sự chữa'. Healing process = quá trình chữa."
+    },
+    {
+      "word": "nap",
+      "lemma": "nap",
+      "ipa": "/næp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short sleep, especially during the day",
+          "meaning_vi": "giấc ngủ ngắn (ban ngày)",
+          "examples": [
+            {
+              "en": "Vietnamese culture loves the afternoon nap.",
+              "vi": "Văn hóa Việt yêu giấc ngủ trưa."
+            },
+            {
+              "en": "A 20-minute nap boosts energy.",
+              "vi": "Giấc ngủ 20 phút tăng năng lượng."
+            },
+            {
+              "en": "Take a nap when you're tired.",
+              "vi": "Ngủ chợp mắt khi mệt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["snooze", "doze"],
+      "antonyms": [],
+      "collocations": ["take a nap", "afternoon nap", "power nap", "quick nap", "need a nap"],
+      "etymology_hint": "From Old English 'hnappian' meaning 'to doze' — Germanic root, related to Norse 'hnipa'.",
+      "mnemonic_vi": "NAP = 'náp' — 'náp' ngủ ngắn. Take a nap = chợp mắt."
+    }
+  ]
+}

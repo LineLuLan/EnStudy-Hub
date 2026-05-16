@@ -1,0 +1,745 @@
+{
+  "slug": "science-basics",
+  "name": "Science Basics",
+  "description": "Khoa học cơ bản B1 — gravity, energy, atom, universe, planet và 15 từ về vật lý, hóa học, vũ trụ.",
+  "order_index": 7,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "gravity",
+      "lemma": "gravity",
+      "ipa": "/ˈɡrævəti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the force that pulls things toward the Earth or other planets",
+          "meaning_vi": "lực hấp dẫn, trọng lực",
+          "examples": [
+            {
+              "en": "Newton discovered gravity when an apple fell on his head.",
+              "vi": "Newton phát hiện trọng lực khi quả táo rơi trúng đầu."
+            },
+            {
+              "en": "Astronauts feel no gravity in space.",
+              "vi": "Phi hành gia không cảm thấy trọng lực ngoài không gian."
+            },
+            {
+              "en": "Gravity keeps us on the ground.",
+              "vi": "Trọng lực giữ chúng ta trên mặt đất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pull"],
+      "antonyms": [],
+      "collocations": [
+        "force of gravity",
+        "law of gravity",
+        "zero gravity",
+        "defy gravity",
+        "Earth's gravity"
+      ],
+      "etymology_hint": "From Latin 'gravitas' meaning 'heaviness' — Newton popularized the scientific sense in 1687 with Principia Mathematica.",
+      "mnemonic_vi": "GRAVITY = 'grá-vi-ti' — 'gra-vi' kéo xuống. Trọng lực giữ chân ta."
+    },
+    {
+      "word": "energy",
+      "lemma": "energy",
+      "ipa": "/ˈenədʒi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the power needed to do work or make things happen",
+          "meaning_vi": "năng lượng, sức",
+          "examples": [
+            {
+              "en": "Solar energy is renewable and clean.",
+              "vi": "Năng lượng mặt trời tái tạo và sạch."
+            },
+            {
+              "en": "I don't have energy to exercise today.",
+              "vi": "Hôm nay tôi không có sức tập thể dục."
+            },
+            {
+              "en": "Vietnam invests in wind energy.",
+              "vi": "Việt Nam đầu tư năng lượng gió."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["power", "force"],
+      "antonyms": ["exhaustion"],
+      "collocations": [
+        "solar energy",
+        "renewable energy",
+        "save energy",
+        "energy source",
+        "full of energy"
+      ],
+      "etymology_hint": "From Greek 'energeia' meaning 'activity, operation' — from 'en-' (in) + 'ergon' (work).",
+      "mnemonic_vi": "ENERGY = 'én-ơ-ji' — 'én ơi' đầy sức. Solar energy = năng lượng mặt trời."
+    },
+    {
+      "word": "force",
+      "lemma": "force",
+      "ipa": "/fɔːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "strength or power that makes something move or change",
+          "meaning_vi": "lực, sức mạnh (vật lý)",
+          "examples": [
+            {
+              "en": "Newton's three laws describe force.",
+              "vi": "Ba định luật Newton mô tả lực."
+            },
+            {
+              "en": "The wind force was strong during the typhoon.",
+              "vi": "Sức gió mạnh trong cơn bão."
+            },
+            {
+              "en": "Don't use force — it's a fragile vase.",
+              "vi": "Đừng dùng sức — đó là bình mong manh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["power", "strength"],
+      "antonyms": [],
+      "collocations": [
+        "physical force",
+        "force of nature",
+        "use force",
+        "magnetic force",
+        "armed forces"
+      ],
+      "etymology_hint": "From Latin 'fortis' meaning 'strong' — same root as 'fort' and 'fortitude'.",
+      "mnemonic_vi": "FORCE = 'fớs' — 'phọc' mạnh. Force of gravity = lực hấp dẫn."
+    },
+    {
+      "word": "mass",
+      "lemma": "mass",
+      "ipa": "/mæs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the amount of matter in an object",
+          "meaning_vi": "khối lượng (vật lý)",
+          "examples": [
+            {
+              "en": "The mass of the Earth is huge.",
+              "vi": "Khối lượng Trái đất rất lớn."
+            },
+            {
+              "en": "Mass and weight are different things.",
+              "vi": "Khối lượng và cân nặng là 2 thứ khác nhau."
+            },
+            {
+              "en": "Mass-produced goods are cheaper.",
+              "vi": "Hàng sản xuất hàng loạt rẻ hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bulk", "quantity"],
+      "antonyms": [],
+      "collocations": [
+        "mass of",
+        "mass production",
+        "critical mass",
+        "mass and weight",
+        "body mass"
+      ],
+      "etymology_hint": "From Latin 'massa' meaning 'lump, dough' — physics sense formalized by Newton.",
+      "mnemonic_vi": "MASS = 'mát' — 'mạt' tổng lượng. Mass production = sx hàng loạt."
+    },
+    {
+      "word": "atom",
+      "lemma": "atom",
+      "ipa": "/ˈætəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the smallest unit of an element",
+          "meaning_vi": "nguyên tử",
+          "examples": [
+            {
+              "en": "Everything is made of atoms.",
+              "vi": "Mọi vật được tạo từ nguyên tử."
+            },
+            {
+              "en": "Hydrogen is the simplest atom.",
+              "vi": "Hydro là nguyên tử đơn giản nhất."
+            },
+            {
+              "en": "Atomic bombs release massive energy.",
+              "vi": "Bom nguyên tử giải phóng năng lượng khổng lồ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "atomic structure",
+        "atomic energy",
+        "split the atom",
+        "atomic bomb",
+        "hydrogen atom"
+      ],
+      "etymology_hint": "From Greek 'atomos' meaning 'indivisible' — from 'a-' (not) + 'tomos' (cuttable). Once thought to be smallest, now we know smaller parts.",
+      "mnemonic_vi": "ATOM = 'á-tồm' — 'a' không cắt được. Nhỏ nhất."
+    },
+    {
+      "word": "molecule",
+      "lemma": "molecule",
+      "ipa": "/ˈmɒlɪkjuːl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a group of atoms joined together",
+          "meaning_vi": "phân tử",
+          "examples": [
+            {
+              "en": "Water molecules contain 2 hydrogen and 1 oxygen.",
+              "vi": "Phân tử nước có 2 hydro và 1 oxy."
+            },
+            {
+              "en": "Sugar molecules give energy.",
+              "vi": "Phân tử đường cho năng lượng."
+            },
+            {
+              "en": "DNA is a complex molecule.",
+              "vi": "DNA là phân tử phức tạp."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "water molecule",
+        "complex molecule",
+        "molecular structure",
+        "DNA molecule",
+        "molecular biology"
+      ],
+      "etymology_hint": "From French 'molécule' — diminutive of Latin 'moles' (mass), meaning 'tiny mass'.",
+      "mnemonic_vi": "MOLECULE = MOLE + CULE → 'cục nhỏ'. Phân tử = nhiều atoms ghép."
+    },
+    {
+      "word": "particle",
+      "lemma": "particle",
+      "ipa": "/ˈpɑːtɪkl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a very small piece of something",
+          "meaning_vi": "hạt, vi hạt",
+          "examples": [
+            {
+              "en": "Dust particles fill Hà Nội's air.",
+              "vi": "Hạt bụi đầy không khí Hà Nội."
+            },
+            {
+              "en": "Scientists study subatomic particles.",
+              "vi": "Khoa học gia nghiên cứu hạt hạ nguyên tử."
+            },
+            {
+              "en": "Tiny particles cause air pollution.",
+              "vi": "Hạt nhỏ gây ô nhiễm không khí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bit", "speck"],
+      "antonyms": [],
+      "collocations": [
+        "dust particle",
+        "tiny particle",
+        "particle physics",
+        "subatomic particle",
+        "fine particle"
+      ],
+      "etymology_hint": "From Latin 'particula' meaning 'little part' — diminutive of 'pars' (part).",
+      "mnemonic_vi": "PARTICLE = PART + ICLE → 'phần nhỏ'. Dust particle = hạt bụi."
+    },
+    {
+      "word": "experiment",
+      "lemma": "experiment",
+      "ipa": "/ɪkˈsperɪmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a scientific test to learn something or prove an idea",
+          "meaning_vi": "thí nghiệm",
+          "examples": [
+            {
+              "en": "We did a chemistry experiment in class.",
+              "vi": "Chúng tôi làm thí nghiệm hóa học trong lớp."
+            },
+            {
+              "en": "The experiment failed the first time.",
+              "vi": "Thí nghiệm thất bại lần đầu."
+            },
+            {
+              "en": "Scientists conduct experiments to test theories.",
+              "vi": "Khoa học gia thực hiện thí nghiệm để kiểm tra lý thuyết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["test", "trial"],
+      "antonyms": [],
+      "collocations": [
+        "conduct an experiment",
+        "scientific experiment",
+        "do an experiment",
+        "experiment with",
+        "failed experiment"
+      ],
+      "etymology_hint": "From Latin 'experimentum' meaning 'a trial' — from 'experiri' (to try out).",
+      "mnemonic_vi": "EXPERIMENT = EX + PERI + MENT → 'thử ra'. Conduct experiment = làm thí nghiệm."
+    },
+    {
+      "word": "cell",
+      "lemma": "cell",
+      "ipa": "/sel/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the smallest part of a living thing",
+          "meaning_vi": "tế bào",
+          "examples": [
+            {
+              "en": "All living things are made of cells.",
+              "vi": "Mọi sinh vật được tạo từ tế bào."
+            },
+            {
+              "en": "Blood cells carry oxygen.",
+              "vi": "Tế bào máu vận chuyển oxy."
+            },
+            {
+              "en": "Cancer cells grow uncontrollably.",
+              "vi": "Tế bào ung thư phát triển không kiểm soát."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["blood cell", "stem cell", "cell membrane", "living cell", "cell division"],
+      "etymology_hint": "From Latin 'cella' meaning 'small room' — coined by Robert Hooke in 1665 when he saw plant cells under microscope.",
+      "mnemonic_vi": "CELL = 'sel' — 'sờ-el' phòng nhỏ. Blood cell = tế bào máu."
+    },
+    {
+      "word": "element",
+      "lemma": "element",
+      "ipa": "/ˈelɪmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a basic substance like oxygen or iron",
+          "meaning_vi": "nguyên tố (hóa học), thành phần",
+          "examples": [
+            {
+              "en": "Oxygen is element number 8.",
+              "vi": "Oxy là nguyên tố số 8."
+            },
+            {
+              "en": "The periodic table shows 118 elements.",
+              "vi": "Bảng tuần hoàn có 118 nguyên tố."
+            },
+            {
+              "en": "Trust is a key element of friendship.",
+              "vi": "Tin tưởng là yếu tố then chốt của tình bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["component", "ingredient"],
+      "antonyms": [],
+      "collocations": [
+        "chemical element",
+        "key element",
+        "essential element",
+        "element of surprise",
+        "periodic element"
+      ],
+      "etymology_hint": "From Latin 'elementum' meaning 'first principle' — original sense of basic parts that make up everything.",
+      "mnemonic_vi": "ELEMENT = 'é-lì-mơnt' — 'ê-li' cơ bản. Chemical element = nguyên tố."
+    },
+    {
+      "word": "matter",
+      "lemma": "matter",
+      "ipa": "/ˈmætə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "physical substance that everything is made of",
+          "meaning_vi": "vật chất",
+          "examples": [
+            {
+              "en": "Matter exists in 3 states: solid, liquid, gas.",
+              "vi": "Vật chất tồn tại ở 3 trạng thái: rắn, lỏng, khí."
+            },
+            {
+              "en": "Dark matter is invisible but real.",
+              "vi": "Vật chất tối vô hình nhưng có thật."
+            },
+            {
+              "en": "Money matters less than happiness.",
+              "vi": "Tiền quan trọng kém hơn hạnh phúc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["substance"],
+      "antonyms": [],
+      "collocations": [
+        "subject matter",
+        "dark matter",
+        "state of matter",
+        "matter of fact",
+        "no matter"
+      ],
+      "etymology_hint": "From Latin 'materia' meaning 'substance' — original sense of 'wood as building material'.",
+      "mnemonic_vi": "MATTER = 'má-tơ' — 'mát tơ' vật chất. State of matter = trạng thái vật chất."
+    },
+    {
+      "word": "universe",
+      "lemma": "universe",
+      "ipa": "/ˈjuːnɪvɜːs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "everything that exists, including all stars and planets",
+          "meaning_vi": "vũ trụ",
+          "examples": [
+            {
+              "en": "The universe is 13.8 billion years old.",
+              "vi": "Vũ trụ đã 13,8 tỷ năm tuổi."
+            },
+            {
+              "en": "Is there life elsewhere in the universe?",
+              "vi": "Có sự sống ở nơi khác trong vũ trụ không?"
+            },
+            {
+              "en": "She wants to explore the universe.",
+              "vi": "Cô ấy muốn khám phá vũ trụ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cosmos"],
+      "antonyms": [],
+      "collocations": [
+        "explore the universe",
+        "across the universe",
+        "vast universe",
+        "expanding universe",
+        "parallel universe"
+      ],
+      "etymology_hint": "From Latin 'universum' meaning 'all together' — from 'unus' (one) + 'versus' (turned).",
+      "mnemonic_vi": "UNIVERSE = UNI + VERSE → 'một bài thơ'. Cả vũ trụ là một."
+    },
+    {
+      "word": "space",
+      "lemma": "space",
+      "ipa": "/speɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the area outside Earth where stars and planets are",
+          "meaning_vi": "không gian, vũ trụ ngoài",
+          "examples": [
+            {
+              "en": "Vietnam launched its first satellite into space.",
+              "vi": "Việt Nam phóng vệ tinh đầu tiên vào không gian."
+            },
+            {
+              "en": "I dream of traveling to space someday.",
+              "vi": "Tôi mơ một ngày được du hành vào không gian."
+            },
+            {
+              "en": "Space is mostly empty and cold.",
+              "vi": "Không gian chủ yếu là trống và lạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cosmos", "void"],
+      "antonyms": [],
+      "collocations": [
+        "outer space",
+        "space travel",
+        "space station",
+        "explore space",
+        "deep space"
+      ],
+      "etymology_hint": "From Latin 'spatium' meaning 'extent, area' — extended sense for 'cosmic void' developed with astronomy.",
+      "mnemonic_vi": "SPACE = 'spêis' — 'sờ-pêi' rộng vô tận. Outer space = không gian ngoài."
+    },
+    {
+      "word": "planet",
+      "lemma": "planet",
+      "ipa": "/ˈplænɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large round object in space that goes around a star",
+          "meaning_vi": "hành tinh",
+          "examples": [
+            {
+              "en": "Mars is the red planet.",
+              "vi": "Sao Hỏa là hành tinh đỏ."
+            },
+            {
+              "en": "Our planet needs protection.",
+              "vi": "Hành tinh chúng ta cần bảo vệ."
+            },
+            {
+              "en": "Eight planets orbit the Sun.",
+              "vi": "Tám hành tinh quay quanh Mặt Trời."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "planet Earth",
+        "save the planet",
+        "inhabit a planet",
+        "distant planet",
+        "small planet"
+      ],
+      "etymology_hint": "From Greek 'planētēs' meaning 'wanderer' — ancient Greeks observed planets moving among stars.",
+      "mnemonic_vi": "PLANET = 'plá-nịt' — 'planet' đi vòng. Planet Earth = hành tinh Trái đất."
+    },
+    {
+      "word": "earth",
+      "lemma": "earth",
+      "ipa": "/ɜːθ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the planet we live on; or soil/ground",
+          "meaning_vi": "Trái Đất; đất",
+          "examples": [
+            {
+              "en": "Earth is our only home.",
+              "vi": "Trái Đất là ngôi nhà duy nhất của ta."
+            },
+            {
+              "en": "Plant the seed deep in the earth.",
+              "vi": "Trồng hạt sâu trong đất."
+            },
+            {
+              "en": "Earth Day is on April 22.",
+              "vi": "Ngày Trái Đất là 22 tháng 4."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["world", "globe"],
+      "antonyms": [],
+      "collocations": ["planet Earth", "down to earth", "Earth Day", "Earth's surface", "on earth"],
+      "etymology_hint": "From Old English 'eorþe' — Germanic root for both 'ground' and 'world'.",
+      "mnemonic_vi": "EARTH = 'ớth' — 'ớ' Trái Đất. Save the Earth = cứu Trái Đất."
+    },
+    {
+      "word": "moon",
+      "lemma": "moon",
+      "ipa": "/muːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the round object that goes around Earth and shines at night",
+          "meaning_vi": "Mặt Trăng",
+          "examples": [
+            {
+              "en": "The moon is beautiful tonight.",
+              "vi": "Mặt Trăng đêm nay đẹp."
+            },
+            {
+              "en": "Vietnam celebrates Mid-Autumn under the full moon.",
+              "vi": "Việt Nam đón Trung Thu dưới trăng tròn."
+            },
+            {
+              "en": "Apollo 11 landed on the moon in 1969.",
+              "vi": "Apollo 11 đáp Mặt Trăng năm 1969."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["full moon", "new moon", "land on the moon", "moonlight", "moon orbit"],
+      "etymology_hint": "From Old English 'mōna' — Germanic root, related to 'month' (lunar months).",
+      "mnemonic_vi": "MOON = 'mun' — 'mún' Trăng. Full moon = trăng tròn."
+    },
+    {
+      "word": "star",
+      "lemma": "star",
+      "ipa": "/stɑː(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large ball of burning gas in space that shines at night",
+          "meaning_vi": "ngôi sao",
+          "examples": [
+            {
+              "en": "Stars look small but are huge.",
+              "vi": "Sao trông nhỏ nhưng thực ra to."
+            },
+            {
+              "en": "We can see millions of stars in Sapa.",
+              "vi": "Có thể thấy hàng triệu sao ở Sapa."
+            },
+            {
+              "en": "The Sun is the closest star to Earth.",
+              "vi": "Mặt Trời là sao gần Trái Đất nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "bright star",
+        "shooting star",
+        "star light",
+        "movie star",
+        "reach for the stars"
+      ],
+      "etymology_hint": "From Old English 'steorra' — Germanic root, related to Greek 'astēr' (star) and Latin 'stella'.",
+      "mnemonic_vi": "STAR = 'sta' — 'sờ-ta' sáng. Shooting star = sao băng."
+    },
+    {
+      "word": "galaxy",
+      "lemma": "galaxy",
+      "ipa": "/ˈɡæləksi/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a very large group of stars in space",
+          "meaning_vi": "thiên hà, dải ngân hà",
+          "examples": [
+            {
+              "en": "Our galaxy is called the Milky Way.",
+              "vi": "Thiên hà chúng ta gọi là Dải Ngân Hà."
+            },
+            {
+              "en": "There are billions of galaxies in the universe.",
+              "vi": "Có hàng tỷ thiên hà trong vũ trụ."
+            },
+            {
+              "en": "She named her dog 'Galaxy'.",
+              "vi": "Cô ấy đặt tên chó là 'Galaxy'."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "Milky Way galaxy",
+        "distant galaxy",
+        "galaxy of stars",
+        "spiral galaxy",
+        "explore galaxies"
+      ],
+      "etymology_hint": "From Greek 'galaxias' meaning 'milky' — referring to the Milky Way's milky appearance.",
+      "mnemonic_vi": "GALAXY = 'gá-lắc-si' — 'galaxy' to lớn. Milky Way = Ngân hà."
+    },
+    {
+      "word": "orbit",
+      "lemma": "orbit",
+      "ipa": "/ˈɔːbɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the path one object takes around another in space",
+          "meaning_vi": "quỹ đạo",
+          "examples": [
+            {
+              "en": "The Moon orbits the Earth.",
+              "vi": "Mặt Trăng quay quanh Trái Đất."
+            },
+            {
+              "en": "The satellite is in orbit around Earth.",
+              "vi": "Vệ tinh đang ở quỹ đạo quanh Trái Đất."
+            },
+            {
+              "en": "Earth's orbit takes 365 days.",
+              "vi": "Quỹ đạo Trái Đất mất 365 ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["path"],
+      "antonyms": [],
+      "collocations": ["in orbit", "Earth's orbit", "satellite orbit", "low orbit", "lunar orbit"],
+      "etymology_hint": "From Latin 'orbita' meaning 'wheel track' — extended to celestial paths in 17th century.",
+      "mnemonic_vi": "ORBIT = 'ó-bịt' — 'ờ-bít' vòng quanh. Earth's orbit = quỹ đạo Trái Đất."
+    },
+    {
+      "word": "equation",
+      "lemma": "equation",
+      "ipa": "/ɪˈkweɪʒn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a math or science statement with an equal sign",
+          "meaning_vi": "phương trình",
+          "examples": [
+            {
+              "en": "Einstein's most famous equation is E=mc².",
+              "vi": "Phương trình nổi tiếng nhất của Einstein là E=mc²."
+            },
+            {
+              "en": "Solve the equation step by step.",
+              "vi": "Giải phương trình từng bước."
+            },
+            {
+              "en": "Math is full of equations.",
+              "vi": "Toán đầy phương trình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["formula"],
+      "antonyms": [],
+      "collocations": [
+        "solve an equation",
+        "math equation",
+        "chemical equation",
+        "simple equation",
+        "balance an equation"
+      ],
+      "etymology_hint": "From Latin 'aequatio' meaning 'an equalizing' — from 'aequare' (to make equal).",
+      "mnemonic_vi": "EQUATION = EQUAL + TION → 'sự bằng nhau'. E=mc² là phương trình."
+    }
+  ]
+}

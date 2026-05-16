@@ -1,0 +1,763 @@
+{
+  "slug": "marketing-sales",
+  "name": "Marketing & Sales",
+  "description": "Marketing và bán hàng B1 — advertise, campaign, target, conversion, sponsor và 15 từ về kinh doanh hiện đại.",
+  "order_index": 9,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "advertise",
+      "lemma": "advertise",
+      "ipa": "/ˈædvətaɪz/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make products known to customers through ads",
+          "meaning_vi": "quảng cáo",
+          "examples": [
+            {
+              "en": "VinFast advertises on Facebook and TV.",
+              "vi": "VinFast quảng cáo trên Facebook và TV."
+            },
+            {
+              "en": "Don't advertise illegal products.",
+              "vi": "Đừng quảng cáo sản phẩm trái phép."
+            },
+            {
+              "en": "We need to advertise our new café.",
+              "vi": "Chúng ta cần quảng cáo quán cà phê mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["promote", "market"],
+      "antonyms": [],
+      "collocations": [
+        "advertise on",
+        "advertise online",
+        "advertise a job",
+        "advertise heavily",
+        "advertise widely"
+      ],
+      "etymology_hint": "From Old French 'advertir' meaning 'to warn, notify' — from Latin 'advertere' (to turn toward).",
+      "mnemonic_vi": "ADVERTISE = AD + VERTISE → 'làm cho hướng tới'. Advertise = quảng cáo."
+    },
+    {
+      "word": "target",
+      "lemma": "target",
+      "ipa": "/ˈtɑːɡɪt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the people you want to sell to, or a goal you aim for",
+          "meaning_vi": "đối tượng mục tiêu, chỉ tiêu",
+          "examples": [
+            {
+              "en": "Young people are our target market.",
+              "vi": "Người trẻ là thị trường mục tiêu."
+            },
+            {
+              "en": "We hit our sales target this month.",
+              "vi": "Chúng tôi đạt chỉ tiêu bán tháng này."
+            },
+            {
+              "en": "Vietnam's target is 8% GDP growth.",
+              "vi": "Mục tiêu Việt Nam là tăng GDP 8%."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["goal", "aim"],
+      "antonyms": [],
+      "collocations": [
+        "target audience",
+        "target market",
+        "sales target",
+        "hit a target",
+        "easy target"
+      ],
+      "etymology_hint": "From Old French 'targette' meaning 'small shield' — sense of 'aim' from archery practice.",
+      "mnemonic_vi": "TARGET = 'tá-gịt' — 'tá gì' nhắm. Target market = thị trường mục tiêu."
+    },
+    {
+      "word": "campaign",
+      "lemma": "campaign",
+      "ipa": "/kæmˈpeɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a series of planned actions to achieve a goal, especially in marketing",
+          "meaning_vi": "chiến dịch (marketing, chính trị)",
+          "examples": [
+            {
+              "en": "Tiki launched a Tết shopping campaign.",
+              "vi": "Tiki triển khai chiến dịch mua sắm Tết."
+            },
+            {
+              "en": "The election campaign starts next month.",
+              "vi": "Chiến dịch bầu cử bắt đầu tháng sau."
+            },
+            {
+              "en": "Their campaign reached 1 million people.",
+              "vi": "Chiến dịch của họ tiếp cận 1 triệu người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["drive", "operation"],
+      "antonyms": [],
+      "collocations": [
+        "marketing campaign",
+        "ad campaign",
+        "launch a campaign",
+        "campaign manager",
+        "successful campaign"
+      ],
+      "etymology_hint": "From French 'campagne' meaning 'open countryside, military campaign' — sense of 'organized effort' from military origins.",
+      "mnemonic_vi": "CAMPAIGN = 'cam-pên' — 'cắm pen' chiến dịch. Ad campaign = chiến dịch quảng cáo."
+    },
+    {
+      "word": "sales",
+      "lemma": "sales",
+      "ipa": "/seɪlz/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the number of things sold, or the activity of selling",
+          "meaning_vi": "doanh số, bán hàng",
+          "examples": [
+            {
+              "en": "VinFast sales grew 50% last year.",
+              "vi": "Doanh số VinFast tăng 50% năm ngoái."
+            },
+            {
+              "en": "She works in sales at FPT Shop.",
+              "vi": "Cô ấy làm bán hàng ở FPT Shop."
+            },
+            {
+              "en": "Sales drop during summer months.",
+              "vi": "Doanh số giảm trong tháng hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["selling", "revenue"],
+      "antonyms": [],
+      "collocations": ["sales team", "sales target", "increase sales", "sales rep", "online sales"],
+      "etymology_hint": "Plural of 'sale' — from Old English 'sala' (a selling), Germanic root.",
+      "mnemonic_vi": "SALES = 'sêu-z' — 'sêu' bán nhiều. Sales team = đội bán."
+    },
+    {
+      "word": "segment",
+      "lemma": "segment",
+      "ipa": "/ˈseɡmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a part of something larger, especially a group of customers",
+          "meaning_vi": "phân khúc, đoạn",
+          "examples": [
+            {
+              "en": "We target the young customer segment.",
+              "vi": "Chúng tôi nhắm phân khúc khách trẻ."
+            },
+            {
+              "en": "VinFast covers all car segments.",
+              "vi": "VinFast bao phủ mọi phân khúc xe."
+            },
+            {
+              "en": "The luxury segment is growing in Việt Nam.",
+              "vi": "Phân khúc xa xỉ phát triển ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["section", "part"],
+      "antonyms": ["whole"],
+      "collocations": [
+        "market segment",
+        "customer segment",
+        "luxury segment",
+        "target segment",
+        "small segment"
+      ],
+      "etymology_hint": "From Latin 'segmentum' meaning 'a piece cut off' — from 'secare' (to cut).",
+      "mnemonic_vi": "SEGMENT = SEG + MENT → 'phần cắt'. Market segment = phân khúc thị trường."
+    },
+    {
+      "word": "launch",
+      "lemma": "launch",
+      "ipa": "/lɔːntʃ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to start selling a new product or begin a new activity",
+          "meaning_vi": "ra mắt, khởi động",
+          "examples": [
+            {
+              "en": "Apple launches new iPhones every year.",
+              "vi": "Apple ra iPhone mới mỗi năm."
+            },
+            {
+              "en": "Vinhomes launched a new project in Hà Nội.",
+              "vi": "Vinhomes ra mắt dự án mới ở Hà Nội."
+            },
+            {
+              "en": "We're launching a startup next month.",
+              "vi": "Chúng tôi khởi nghiệp tháng sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["start", "introduce"],
+      "antonyms": ["end"],
+      "collocations": [
+        "launch a product",
+        "launch a campaign",
+        "launch date",
+        "successful launch",
+        "official launch"
+      ],
+      "etymology_hint": "From Old French 'lancier' meaning 'to throw, hurl' — from Latin 'lancea' (lance, spear).",
+      "mnemonic_vi": "LAUNCH = 'lon-chờ' — 'lao' ra. Product launch = ra mắt sản phẩm."
+    },
+    {
+      "word": "product",
+      "lemma": "product",
+      "ipa": "/ˈprɒdʌkt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "something made to be sold",
+          "meaning_vi": "sản phẩm",
+          "examples": [
+            {
+              "en": "Made-in-Vietnam products are popular.",
+              "vi": "Sản phẩm Made-in-Vietnam được ưa chuộng."
+            },
+            {
+              "en": "This is our best-selling product.",
+              "vi": "Đây là sản phẩm bán chạy nhất."
+            },
+            {
+              "en": "Test products before mass production.",
+              "vi": "Thử sản phẩm trước khi sản xuất hàng loạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["item", "goods"],
+      "antonyms": [],
+      "collocations": [
+        "new product",
+        "product line",
+        "best-selling product",
+        "launch a product",
+        "product range"
+      ],
+      "etymology_hint": "From Latin 'productum' meaning 'something brought forth' — from 'producere' (to bring forth).",
+      "mnemonic_vi": "PRODUCT = PRODUC + T → 'sản phẩm'. New product = sản phẩm mới."
+    },
+    {
+      "word": "service",
+      "lemma": "service",
+      "ipa": "/ˈsɜːvɪs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "work or help provided by a business or person",
+          "meaning_vi": "dịch vụ, sự phục vụ",
+          "examples": [
+            {
+              "en": "Grab provides ride and food services.",
+              "vi": "Grab cung cấp dịch vụ đi xe và đồ ăn."
+            },
+            {
+              "en": "Customer service at Vinpearl is excellent.",
+              "vi": "Dịch vụ khách hàng tại Vinpearl xuất sắc."
+            },
+            {
+              "en": "The waiter gave great service.",
+              "vi": "Người phục vụ phục vụ tốt."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "customer service",
+        "good service",
+        "service provider",
+        "online service",
+        "service industry"
+      ],
+      "etymology_hint": "From Latin 'servitium' meaning 'slavery, service' — same root as 'servant' and 'serve'.",
+      "mnemonic_vi": "SERVICE = SERV + ICE → 'sự phục vụ'. Customer service = dịch vụ khách."
+    },
+    {
+      "word": "client",
+      "lemma": "client",
+      "ipa": "/ˈklaɪənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person or company that uses your services",
+          "meaning_vi": "khách hàng (dùng dịch vụ)",
+          "examples": [
+            {
+              "en": "Our biggest client is Vingroup.",
+              "vi": "Khách hàng lớn nhất của ta là Vingroup."
+            },
+            {
+              "en": "Meet the client at 10am tomorrow.",
+              "vi": "Gặp khách hàng lúc 10 giờ mai."
+            },
+            {
+              "en": "Lawyers protect client information.",
+              "vi": "Luật sư bảo vệ thông tin khách hàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["customer"],
+      "antonyms": [],
+      "collocations": [
+        "loyal client",
+        "potential client",
+        "client meeting",
+        "client base",
+        "VIP client"
+      ],
+      "etymology_hint": "From Latin 'cliens' meaning 'follower, dependent' — original sense of one under protection of a patron.",
+      "mnemonic_vi": "CLIENT = 'clai-ợnt' — 'clai-ơn' khách. Client meeting = họp khách."
+    },
+    {
+      "word": "revenue",
+      "lemma": "revenue",
+      "ipa": "/ˈrevənjuː/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the money a business earns from sales",
+          "meaning_vi": "doanh thu",
+          "examples": [
+            {
+              "en": "VinFast revenue exceeded $1 billion.",
+              "vi": "Doanh thu VinFast vượt 1 tỷ USD."
+            },
+            {
+              "en": "Online sales boost annual revenue.",
+              "vi": "Bán online tăng doanh thu năm."
+            },
+            {
+              "en": "Tourism is a major revenue source.",
+              "vi": "Du lịch là nguồn doanh thu lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["income", "earnings"],
+      "antonyms": ["expense"],
+      "collocations": [
+        "annual revenue",
+        "increase revenue",
+        "revenue stream",
+        "tax revenue",
+        "generate revenue"
+      ],
+      "etymology_hint": "From French 'revenu' meaning 'return, income' — past participle of 'revenir' (to come back).",
+      "mnemonic_vi": "REVENUE = RE + VENUE → 'cái quay lại'. Revenue = tiền vào."
+    },
+    {
+      "word": "loyalty",
+      "lemma": "loyalty",
+      "ipa": "/ˈlɔɪəlti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "support and faithfulness to someone or something",
+          "meaning_vi": "lòng trung thành, sự trung thành",
+          "examples": [
+            {
+              "en": "Customer loyalty is important for growth.",
+              "vi": "Lòng trung thành khách hàng quan trọng cho phát triển."
+            },
+            {
+              "en": "His loyalty to the company is admirable.",
+              "vi": "Sự trung thành với công ty của anh đáng ngưỡng mộ."
+            },
+            {
+              "en": "Loyalty programs reward regular customers.",
+              "vi": "Chương trình tích điểm thưởng khách quen."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["faithfulness"],
+      "antonyms": ["disloyalty"],
+      "collocations": [
+        "customer loyalty",
+        "brand loyalty",
+        "loyalty program",
+        "loyalty card",
+        "show loyalty"
+      ],
+      "etymology_hint": "From Old French 'loialté' meaning 'faithfulness' — from Latin 'legalis' (lawful).",
+      "mnemonic_vi": "LOYALTY = LOYAL + TY → 'sự trung thành'. Loyalty program = thẻ tích điểm."
+    },
+    {
+      "word": "niche",
+      "lemma": "niche",
+      "ipa": "/niːʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small specific area of the market",
+          "meaning_vi": "ngách (thị trường nhỏ chuyên biệt)",
+          "examples": [
+            {
+              "en": "She found a niche market for handmade gifts.",
+              "vi": "Cô ấy tìm thị trường ngách cho quà thủ công."
+            },
+            {
+              "en": "Vegan food is a growing niche in Việt Nam.",
+              "vi": "Đồ ăn chay là ngách đang phát triển ở Việt Nam."
+            },
+            {
+              "en": "Find your niche and excel in it.",
+              "vi": "Tìm ngách của bạn và xuất sắc trong đó."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["specialty"],
+      "antonyms": ["mass market"],
+      "collocations": [
+        "niche market",
+        "find a niche",
+        "niche product",
+        "small niche",
+        "niche audience"
+      ],
+      "etymology_hint": "From Italian 'nicchia' meaning 'recess in a wall' — sense of 'special place' developed in modern business.",
+      "mnemonic_vi": "NICHE = 'nít-sh' — 'nít' nhỏ riêng. Niche market = ngách thị trường."
+    },
+    {
+      "word": "pitch",
+      "lemma": "pitch",
+      "ipa": "/pɪtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short presentation to persuade someone to buy or invest",
+          "meaning_vi": "bài giới thiệu thuyết phục (sales/đầu tư)",
+          "examples": [
+            {
+              "en": "Prepare your sales pitch carefully.",
+              "vi": "Chuẩn bị pitch bán hàng kỹ."
+            },
+            {
+              "en": "Shark Tank investors hear startup pitches.",
+              "vi": "Nhà đầu tư Shark Tank nghe pitch startup."
+            },
+            {
+              "en": "Her elevator pitch lasted 30 seconds.",
+              "vi": "Pitch ngắn của cô ấy kéo dài 30 giây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["presentation"],
+      "antonyms": [],
+      "collocations": [
+        "sales pitch",
+        "elevator pitch",
+        "make a pitch",
+        "perfect pitch",
+        "pitch deck"
+      ],
+      "etymology_hint": "From Middle English 'picchen' meaning 'to throw, drive in' — sales sense from baseball pitching.",
+      "mnemonic_vi": "PITCH = 'pítch' — 'pích' ném ý tưởng. Sales pitch = bài bán hàng."
+    },
+    {
+      "word": "competitor",
+      "lemma": "competitor",
+      "ipa": "/kəmˈpetɪtə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a person or company you are trying to beat or sell more than",
+          "meaning_vi": "đối thủ cạnh tranh",
+          "examples": [
+            {
+              "en": "Grab's biggest competitor is Gojek.",
+              "vi": "Đối thủ lớn nhất của Grab là Gojek."
+            },
+            {
+              "en": "Know your competitors well.",
+              "vi": "Hiểu rõ đối thủ cạnh tranh."
+            },
+            {
+              "en": "Olympic competitors train daily.",
+              "vi": "Vận động viên Olympic luyện tập hàng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rival", "opponent"],
+      "antonyms": [],
+      "collocations": [
+        "main competitor",
+        "direct competitor",
+        "beat the competitor",
+        "global competitor",
+        "fierce competitor"
+      ],
+      "etymology_hint": "From Latin 'competitor' meaning 'rival' — from 'competere' (to seek together).",
+      "mnemonic_vi": "COMPETITOR = COMPETE + OR → 'người thi đấu'. Đối thủ."
+    },
+    {
+      "word": "demographic",
+      "lemma": "demographic",
+      "ipa": "/ˌdeməˈɡræfɪk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a group of people with shared age, gender, or other features",
+          "meaning_vi": "nhóm nhân khẩu học",
+          "examples": [
+            {
+              "en": "Gen Z is our target demographic.",
+              "vi": "Gen Z là nhóm khách mục tiêu."
+            },
+            {
+              "en": "Different demographics buy different products.",
+              "vi": "Các nhóm nhân khẩu khác nhau mua đồ khác nhau."
+            },
+            {
+              "en": "Vietnam has a young demographic.",
+              "vi": "Việt Nam có nhân khẩu trẻ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["group"],
+      "antonyms": [],
+      "collocations": [
+        "target demographic",
+        "demographic group",
+        "key demographic",
+        "young demographic",
+        "demographic data"
+      ],
+      "etymology_hint": "From Greek 'dēmos' (people) + 'graphein' (to write) — coined in 19th century for population studies.",
+      "mnemonic_vi": "DEMOGRAPHIC = DEMO + GRAPHIC → 'mô tả người dân'. Target demographic = nhóm mục tiêu."
+    },
+    {
+      "word": "engagement",
+      "lemma": "engagement",
+      "ipa": "/ɪnˈɡeɪdʒmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the level of interest people show in your content",
+          "meaning_vi": "mức độ tương tác (mạng xã hội, content)",
+          "examples": [
+            {
+              "en": "Her TikToks have high engagement.",
+              "vi": "TikTok của cô ấy tương tác cao."
+            },
+            {
+              "en": "Engagement rate matters more than followers.",
+              "vi": "Tỷ lệ tương tác quan trọng hơn số follower."
+            },
+            {
+              "en": "Increase engagement with polls.",
+              "vi": "Tăng tương tác bằng poll."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["interaction"],
+      "antonyms": [],
+      "collocations": [
+        "high engagement",
+        "engagement rate",
+        "user engagement",
+        "boost engagement",
+        "social engagement"
+      ],
+      "etymology_hint": "From French 'engagement' meaning 'pledge, promise' — modern marketing sense from social media analytics.",
+      "mnemonic_vi": "ENGAGEMENT = ENGAGE + MENT → 'sự tham gia'. High engagement = tương tác cao."
+    },
+    {
+      "word": "conversion",
+      "lemma": "conversion",
+      "ipa": "/kənˈvɜːʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "when a visitor becomes a customer; or changing one thing into another",
+          "meaning_vi": "chuyển đổi (khách → mua)",
+          "examples": [
+            {
+              "en": "Our website's conversion rate is 5%.",
+              "vi": "Tỷ lệ chuyển đổi web của ta là 5%."
+            },
+            {
+              "en": "Track conversions in Google Analytics.",
+              "vi": "Theo dõi chuyển đổi trên Google Analytics."
+            },
+            {
+              "en": "Higher conversion means more sales.",
+              "vi": "Chuyển đổi cao hơn = doanh số nhiều hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["transformation"],
+      "antonyms": [],
+      "collocations": [
+        "conversion rate",
+        "conversion funnel",
+        "increase conversions",
+        "high conversion",
+        "low conversion"
+      ],
+      "etymology_hint": "From Latin 'conversio' meaning 'a turning around' — from 'convertere' (to turn around).",
+      "mnemonic_vi": "CONVERSION = CONVERT + ION → 'sự chuyển'. Conversion rate = tỷ lệ mua."
+    },
+    {
+      "word": "sponsor",
+      "lemma": "sponsor",
+      "ipa": "/ˈspɒnsə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to pay for a person, event, or program to support them",
+          "meaning_vi": "tài trợ",
+          "examples": [
+            {
+              "en": "Vinamilk sponsors many youth sports.",
+              "vi": "Vinamilk tài trợ nhiều thể thao thanh thiếu niên."
+            },
+            {
+              "en": "Heineken sponsored the music festival.",
+              "vi": "Heineken tài trợ lễ hội âm nhạc."
+            },
+            {
+              "en": "Brands sponsor influencers for promotion.",
+              "vi": "Thương hiệu tài trợ influencer để quảng bá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fund", "back"],
+      "antonyms": [],
+      "collocations": [
+        "main sponsor",
+        "official sponsor",
+        "sponsor an event",
+        "corporate sponsor",
+        "find a sponsor"
+      ],
+      "etymology_hint": "From Latin 'spondere' meaning 'to promise solemnly' — original sense of one who guarantees another.",
+      "mnemonic_vi": "SPONSOR = 'spon-sơ' — 'sờ pô' tài trợ. Main sponsor = nhà tài trợ chính."
+    },
+    {
+      "word": "endorse",
+      "lemma": "endorse",
+      "ipa": "/ɪnˈdɔːs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to publicly support a product, person, or idea",
+          "meaning_vi": "ủng hộ công khai, làm đại sứ thương hiệu",
+          "examples": [
+            {
+              "en": "Sơn Tùng endorses Oppo phones.",
+              "vi": "Sơn Tùng làm đại sứ Oppo."
+            },
+            {
+              "en": "Doctors endorse this vitamin brand.",
+              "vi": "Bác sĩ ủng hộ thương hiệu vitamin này."
+            },
+            {
+              "en": "She refuses to endorse fake products.",
+              "vi": "Cô ấy từ chối quảng bá sản phẩm giả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["support", "back"],
+      "antonyms": ["oppose"],
+      "collocations": [
+        "endorse a product",
+        "officially endorse",
+        "endorse a candidate",
+        "celebrity endorsement",
+        "fully endorse"
+      ],
+      "etymology_hint": "From Old French 'endosser' meaning 'to put on the back' — original sense of signing the back of a document.",
+      "mnemonic_vi": "ENDORSE = EN + DORSE → 'lên lưng'. Endorsement = quảng bá."
+    },
+    {
+      "word": "slogan",
+      "lemma": "slogan",
+      "ipa": "/ˈsləʊɡən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a short, easy-to-remember phrase used in advertising",
+          "meaning_vi": "khẩu hiệu, slogan",
+          "examples": [
+            {
+              "en": "Nike's slogan is 'Just Do It'.",
+              "vi": "Slogan Nike là 'Just Do It'."
+            },
+            {
+              "en": "A great slogan stays in customers' minds.",
+              "vi": "Slogan hay nằm trong tâm trí khách."
+            },
+            {
+              "en": "Write a catchy slogan for the campaign.",
+              "vi": "Viết slogan bắt tai cho chiến dịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motto", "catchphrase"],
+      "antonyms": [],
+      "collocations": [
+        "catchy slogan",
+        "ad slogan",
+        "company slogan",
+        "famous slogan",
+        "memorable slogan"
+      ],
+      "etymology_hint": "From Scottish Gaelic 'sluagh-ghairm' meaning 'army cry' — original war cry, became advertising term in 18th century.",
+      "mnemonic_vi": "SLOGAN = 'slô-gồn' — 'slổ gân' nhớ ngay. Slogan = khẩu hiệu."
+    }
+  ]
+}
