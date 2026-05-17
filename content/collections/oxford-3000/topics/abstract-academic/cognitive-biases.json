@@ -1,0 +1,665 @@
+{
+  "slug": "cognitive-biases",
+  "name": "Cognitive Biases",
+  "description": "Thiên kiến nhận thức B2 — confirmation-bias, anchoring, halo-effect, groupthink và 20 thuật ngữ tâm lý hành vi.",
+  "order_index": 17,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "confirmation-bias",
+      "lemma": "confirmation-bias",
+      "ipa": "/ˌkɒnfəˈmeɪʃn ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tendency to seek, interpret, and remember information in ways that confirm what one already believes",
+          "meaning_vi": "thiên kiến xác nhận (xu hướng tìm kiếm/diễn giải/nhớ thông tin theo cách xác nhận điều mình đã tin)",
+          "examples": [
+            {
+              "en": "Confirmation bias is why social media feeds reinforce, not challenge, our views.",
+              "vi": "Confirmation-bias là lý do feed mạng xã hội củng cố, không thách thức, quan điểm của ta."
+            },
+            {
+              "en": "Scientists fight confirmation bias by deliberately seeking evidence against their hypothesis.",
+              "vi": "Nhà khoa học chống confirmation-bias bằng cách chủ động tìm bằng chứng phản hypothesis."
+            },
+            {
+              "en": "Vietnamese investors often suffer confirmation bias by reading only bullish news on their stocks.",
+              "vi": "Nhà đầu tư Việt thường bị confirmation-bias khi chỉ đọc tin tích cực về cổ phiếu của mình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["confirmatory bias"],
+      "antonyms": ["disconfirmation seeking"],
+      "collocations": [
+        "fall victim to confirmation bias",
+        "fight confirmation bias",
+        "confirmation-bias trap"
+      ],
+      "mnemonic_vi": "CONFIRMATION (xác nhận) + BIAS (thiên kiến) = thiên kiến tìm xác nhận. Chỉ muốn nghe điều mình đã tin."
+    },
+    {
+      "word": "anchoring",
+      "lemma": "anchoring",
+      "ipa": "/ˈæŋkərɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cognitive bias where people rely too heavily on the first piece of information offered (the 'anchor') when making decisions",
+          "meaning_vi": "thiên kiến mỏ neo (xu hướng dựa quá nhiều vào thông tin đầu tiên khi ra quyết định)",
+          "examples": [
+            {
+              "en": "Salespeople use anchoring by showing the most expensive option first.",
+              "vi": "Người bán dùng anchoring bằng cách cho xem lựa chọn đắt nhất trước."
+            },
+            {
+              "en": "Anchoring makes restaurant menus print high-priced items to make others seem cheap.",
+              "vi": "Anchoring khiến menu nhà hàng in món giá cao để các món khác có vẻ rẻ."
+            },
+            {
+              "en": "Vietnamese street vendors often anchor with a high starting price during bargaining.",
+              "vi": "Người bán hàng rong Việt thường anchor với giá khởi cao khi mặc cả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anchoring bias", "anchor effect"],
+      "antonyms": [],
+      "collocations": ["anchoring effect", "anchoring bias", "anchoring in negotiation"],
+      "mnemonic_vi": "ANCHOR (mỏ neo) + ING = bị neo chặt vào con số đầu. Anchoring = bám vào ấn tượng giá/số đầu tiên."
+    },
+    {
+      "word": "availability-heuristic",
+      "lemma": "availability-heuristic",
+      "ipa": "/əˈveɪləbəlɪti hjʊˈrɪstɪk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a mental shortcut that judges the likelihood of an event by how easily examples come to mind, often distorting actual probability",
+          "meaning_vi": "heuristic sẵn có (lối tắt tư duy đánh giá xác suất qua việc ví dụ dễ nhớ ra mức nào, thường méo xác suất thực)",
+          "examples": [
+            {
+              "en": "After watching shark attack news, people overestimate shark risk due to the availability heuristic.",
+              "vi": "Sau khi xem tin cá mập tấn công, người ta đánh giá quá cao nguy cơ cá mập do availability-heuristic."
+            },
+            {
+              "en": "Plane crashes get massive media coverage, so availability heuristic makes us fear flying.",
+              "vi": "Tai nạn máy bay được truyền thông phủ rộng, nên availability-heuristic làm ta sợ bay."
+            },
+            {
+              "en": "Vietnamese investors recall recent stock crashes vividly, biasing them via availability heuristic.",
+              "vi": "Nhà đầu tư Việt nhớ rõ các cú sập gần đây, gây bias qua availability-heuristic."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["availability bias"],
+      "antonyms": [],
+      "collocations": ["availability heuristic effect", "fall for availability heuristic"],
+      "mnemonic_vi": "AVAILABILITY (sẵn có) + HEURISTIC (lối tắt) = lối tắt 'cái gì dễ nhớ là dễ xảy ra'. Sai lệch xác suất."
+    },
+    {
+      "word": "dunning-kruger",
+      "lemma": "dunning-kruger",
+      "ipa": "/ˈdʌnɪŋ ˈkruːɡə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cognitive bias in which people with low ability at a task overestimate their ability, while experts underestimate theirs",
+          "meaning_vi": "hiệu ứng Dunning-Kruger (người yếu thì tự đánh giá quá cao, người giỏi lại đánh giá thấp khả năng mình)",
+          "examples": [
+            {
+              "en": "The Dunning-Kruger effect is why beginners think they're experts after one YouTube tutorial.",
+              "vi": "Dunning-Kruger là lý do người mới nghĩ mình expert sau một video YouTube."
+            },
+            {
+              "en": "Experienced doctors humbly say 'I don't know' more often than first-year residents.",
+              "vi": "Bác sĩ kinh nghiệm khiêm tốn nói 'tôi không biết' nhiều hơn bác sĩ năm nhất."
+            },
+            {
+              "en": "Dunning-Kruger explains why some Vietnamese amateur traders feel like Warren Buffett.",
+              "vi": "Dunning-Kruger giải thích vì sao một số trader nghiệp dư Việt cảm thấy như Warren Buffett."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overconfidence effect"],
+      "antonyms": ["expert humility"],
+      "collocations": ["Dunning-Kruger effect", "fall into Dunning-Kruger", "Dunning-Kruger curve"],
+      "mnemonic_vi": "Tên David DUNNING và Justin KRUGER (1999). Người dốt thì kiêu, người giỏi thì khiêm. Hiệu ứng Dunning-Kruger."
+    },
+    {
+      "word": "sunk-cost",
+      "lemma": "sunk-cost",
+      "ipa": "/ˈsʌŋk kɒst/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the bias of continuing to invest time, money, or effort into a losing course of action because of what has already been spent, ignoring future value",
+          "meaning_vi": "chi phí chìm (thiên kiến cứ tiếp tục đầu tư thời gian/tiền/công vào việc thất bại vì 'đã lỡ bỏ ra' rồi, bỏ qua giá trị tương lai)",
+          "examples": [
+            {
+              "en": "She sat through the boring 3-hour movie because of the sunk-cost fallacy.",
+              "vi": "Cô ấy ngồi hết phim chán 3 tiếng vì sunk-cost fallacy."
+            },
+            {
+              "en": "Smart entrepreneurs cut failing projects, refusing to be trapped by sunk costs.",
+              "vi": "Entrepreneur thông minh cắt dự án thất bại, từ chối bị mắc kẹt bởi sunk-cost."
+            },
+            {
+              "en": "Many Vietnamese real estate owners hold underwater properties because of sunk-cost thinking.",
+              "vi": "Nhiều chủ nhà đất Việt giữ tài sản dưới nước vì tư duy sunk-cost."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sunk-cost fallacy"],
+      "antonyms": ["forward-looking decision"],
+      "collocations": ["sunk-cost fallacy", "fall for sunk cost", "avoid the sunk-cost trap"],
+      "mnemonic_vi": "SUNK (chìm) + COST (chi phí) = chi phí đã chìm. Tiền đã đổ rồi, đừng đổ thêm chỉ vì tiếc."
+    },
+    {
+      "word": "framing-effect",
+      "lemma": "framing-effect",
+      "ipa": "/ˈfreɪmɪŋ ɪˌfekt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the bias where people react differently to the same information depending on how it is presented or 'framed'",
+          "meaning_vi": "hiệu ứng framing (cùng thông tin nhưng phản ứng khác nhau tùy cách trình bày/diễn đạt)",
+          "examples": [
+            {
+              "en": "'95% survival' sounds much better than '5% mortality' — that's the framing effect.",
+              "vi": "'Tỷ lệ sống 95%' nghe đỡ hơn nhiều so với 'tỷ lệ chết 5%' — đó là framing-effect."
+            },
+            {
+              "en": "Politicians exploit framing effects by choosing emotive words for the same policies.",
+              "vi": "Chính trị gia khai thác framing-effect bằng cách chọn từ ngữ giàu cảm xúc cho cùng chính sách."
+            },
+            {
+              "en": "Vietnamese ads use framing effects: '30 phút chờ chỉ 1 lần' hấp dẫn hơn 'chỉ 1 lần trễ'.",
+              "vi": "Quảng cáo Việt dùng framing-effect: '30 phút chờ chỉ 1 lần' hấp dẫn hơn 'chỉ 1 lần bị trễ'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["framing bias"],
+      "antonyms": [],
+      "collocations": ["framing effect", "positive framing", "negative framing"],
+      "mnemonic_vi": "FRAMING (đóng khung) + EFFECT (hiệu ứng) = cách đóng khung ảnh hưởng. Cùng dữ liệu, khung khác = cảm nhận khác."
+    },
+    {
+      "word": "halo-effect",
+      "lemma": "halo-effect",
+      "ipa": "/ˈheɪləʊ ɪˌfekt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the bias where a positive impression in one area leads us to assume positive qualities in unrelated areas about the same person or thing",
+          "meaning_vi": "hiệu ứng vầng hào quang (ấn tượng tốt ở một mặt khiến ta giả định mặt khác cũng tốt, dù không liên quan)",
+          "examples": [
+            {
+              "en": "Attractive people often get higher salaries due to the halo effect in hiring.",
+              "vi": "Người đẹp thường được trả lương cao hơn do halo-effect khi tuyển dụng."
+            },
+            {
+              "en": "Apple's design halo effect makes people assume their non-design features are also superior.",
+              "vi": "Halo-effect thiết kế của Apple khiến người ta tin tính năng không-thiết-kế cũng vượt trội."
+            },
+            {
+              "en": "Vietnamese consumers extend halo effects from celebrity endorsements to unrelated products.",
+              "vi": "Người tiêu dùng Việt mở rộng halo-effect từ celebrity endorsement sang sản phẩm không liên quan."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["halo bias"],
+      "antonyms": ["horn effect"],
+      "collocations": ["halo effect in hiring", "brand halo effect", "fall for the halo effect"],
+      "mnemonic_vi": "HALO (vầng hào quang trên đầu thiên thần) + EFFECT = thấy hào quang một chỗ thì tưởng cả người tỏa sáng."
+    },
+    {
+      "word": "hindsight-bias",
+      "lemma": "hindsight-bias",
+      "ipa": "/ˈhaɪndsaɪt ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tendency to see past events as having been more predictable than they actually were at the time",
+          "meaning_vi": "thiên kiến nhìn lại (xu hướng tin rằng sự kiện đã qua dễ đoán hơn thực tế lúc đó)",
+          "examples": [
+            {
+              "en": "After a stock crashes, hindsight bias makes everyone claim they 'knew it was coming'.",
+              "vi": "Sau khi cổ phiếu sập, hindsight-bias làm ai cũng bảo 'tôi biết trước sẽ vậy'."
+            },
+            {
+              "en": "Hindsight bias makes us unfairly judge people who made decisions without our current information.",
+              "vi": "Hindsight-bias khiến ta đánh giá bất công người ra quyết định không có thông tin ta đang có."
+            },
+            {
+              "en": "Vietnamese commentators show hindsight bias when reviewing past national football coaches.",
+              "vi": "Bình luận viên Việt thể hiện hindsight-bias khi nhìn lại các HLV bóng đá quốc gia trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["I-knew-it-all-along effect"],
+      "antonyms": ["foresight"],
+      "collocations": [
+        "fall victim to hindsight bias",
+        "strong hindsight bias",
+        "hindsight is 20/20"
+      ],
+      "mnemonic_vi": "HINDSIGHT (nhìn lại) + BIAS (thiên kiến) = bias khi nhìn lại. 'Tôi biết trước mà!' — sai sự thật."
+    },
+    {
+      "word": "in-group-bias",
+      "lemma": "in-group-bias",
+      "ipa": "/ɪn ɡruːp ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tendency to favor members of one's own group over outsiders, even on arbitrary group lines",
+          "meaning_vi": "thiên kiến nhóm-mình (xu hướng ưu ái thành viên nhóm mình hơn người ngoài, dù tiêu chí nhóm có thể tùy tiện)",
+          "examples": [
+            {
+              "en": "In-group bias is why we trust people from our hometown more easily.",
+              "vi": "In-group-bias là lý do ta tin người cùng quê dễ hơn."
+            },
+            {
+              "en": "Studies show even random group assignments produce in-group bias within minutes.",
+              "vi": "Nghiên cứu cho thấy ngay cả gán nhóm ngẫu nhiên cũng tạo in-group-bias trong vài phút."
+            },
+            {
+              "en": "Vietnamese workplaces sometimes show in-group bias along regional lines (Hà Nội vs Sài Gòn).",
+              "vi": "Nơi làm việc Việt đôi khi thể hiện in-group-bias theo vùng (Hà Nội vs Sài Gòn)."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in-group favoritism"],
+      "antonyms": ["out-group prejudice"],
+      "collocations": ["in-group bias", "strong in-group bias", "overcome in-group bias"],
+      "mnemonic_vi": "IN-GROUP (nhóm trong) + BIAS = thiên về nhóm mình. Ngược lại là out-group bias (phân biệt người ngoài)."
+    },
+    {
+      "word": "status-quo-bias",
+      "lemma": "status-quo-bias",
+      "ipa": "/ˌsteɪtəs kwəʊ ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tendency to prefer existing conditions, settings, or choices over making changes, even when change would be beneficial",
+          "meaning_vi": "thiên kiến giữ nguyên hiện trạng (xu hướng thích giữ điều đang có, ngại thay đổi dù thay đổi có thể tốt hơn)",
+          "examples": [
+            {
+              "en": "Status-quo bias makes people stick with their default phone settings for years.",
+              "vi": "Status-quo-bias khiến người ta giữ thiết lập mặc định trên điện thoại nhiều năm."
+            },
+            {
+              "en": "Pension default options exploit status-quo bias to encourage savings.",
+              "vi": "Tùy chọn mặc định trong lương hưu khai thác status-quo-bias để khuyến khích tiết kiệm."
+            },
+            {
+              "en": "Vietnamese workers often stay at the same company for decades due to status-quo bias.",
+              "vi": "Người lao động Việt thường ở cùng công ty nhiều thập kỷ do status-quo-bias."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["default bias"],
+      "antonyms": ["change-seeking"],
+      "collocations": [
+        "strong status-quo bias",
+        "fall for status-quo bias",
+        "challenge the status-quo bias"
+      ],
+      "mnemonic_vi": "STATUS QUO (Latin: tình trạng đang có) + BIAS = thiên về giữ nguyên. Lười thay đổi dù tốt hơn."
+    },
+    {
+      "word": "recency-bias",
+      "lemma": "recency-bias",
+      "ipa": "/ˈriːsənsi ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tendency to weight recent events more heavily than older ones when making judgments or predictions",
+          "meaning_vi": "thiên kiến gần đây (xu hướng đề cao sự kiện gần hơn sự kiện cũ khi đánh giá hoặc dự đoán)",
+          "examples": [
+            {
+              "en": "Recency bias makes investors believe last quarter's winners will keep winning.",
+              "vi": "Recency-bias làm nhà đầu tư tin các 'người thắng' quý trước sẽ tiếp tục thắng."
+            },
+            {
+              "en": "Recency bias affects performance reviews when managers remember only the last month.",
+              "vi": "Recency-bias ảnh hưởng đánh giá hiệu suất khi quản lý chỉ nhớ tháng cuối."
+            },
+            {
+              "en": "Vietnamese sports fans show recency bias by judging teams on their latest match alone.",
+              "vi": "Cổ động viên thể thao Việt thể hiện recency-bias khi đánh giá đội chỉ qua trận gần nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recency effect"],
+      "antonyms": ["primacy bias"],
+      "collocations": ["recency bias in investing", "avoid recency bias", "strong recency bias"],
+      "mnemonic_vi": "RECENCY (gần đây) + BIAS = thiên về cái gần. Chỉ nhớ và đánh giá quá cao sự kiện mới."
+    },
+    {
+      "word": "survivorship-bias",
+      "lemma": "survivorship-bias",
+      "ipa": "/səˈvaɪvəʃɪp ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the logical error of focusing on successful examples that 'survived' while ignoring the many failures, leading to false conclusions about cause and effect",
+          "meaning_vi": "thiên kiến người sống sót (sai logic khi chỉ chú ý các ví dụ thành công 'sống sót', bỏ qua nhiều thất bại — dẫn đến kết luận sai về nhân quả)",
+          "examples": [
+            {
+              "en": "Survivorship bias makes 'how to succeed like Steve Jobs' books misleading.",
+              "vi": "Survivorship-bias khiến sách 'làm sao thành công như Steve Jobs' bị lệch."
+            },
+            {
+              "en": "The phrase 'all college dropouts become billionaires' ignores millions who didn't.",
+              "vi": "Câu 'bỏ học đại học đều thành tỷ phú' bỏ qua hàng triệu người không."
+            },
+            {
+              "en": "Vietnamese startup media often shows survivorship bias by featuring only successful founders.",
+              "vi": "Truyền thông startup Việt thường thể hiện survivorship-bias khi chỉ giới thiệu founder thành công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["survival bias"],
+      "antonyms": [],
+      "collocations": [
+        "fall for survivorship bias",
+        "survivorship bias in research",
+        "classic survivorship bias"
+      ],
+      "mnemonic_vi": "SURVIVOR (người sống sót) + SHIP + BIAS = thiên về người sống sót. Bỏ qua bao kẻ thất bại không kể chuyện."
+    },
+    {
+      "word": "negativity-bias",
+      "lemma": "negativity-bias",
+      "ipa": "/ˌneɡəˈtɪvəti ˈbaɪəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the psychological tendency to register negative events and emotions more strongly than positive ones of equal intensity",
+          "meaning_vi": "thiên kiến tiêu cực (xu hướng tâm lý ghi nhận sự kiện/cảm xúc tiêu cực mạnh hơn tích cực cùng mức)",
+          "examples": [
+            {
+              "en": "Negativity bias means one bad review feels heavier than five good ones.",
+              "vi": "Negativity-bias nghĩa là một đánh giá xấu cảm thấy nặng hơn năm đánh giá tốt."
+            },
+            {
+              "en": "Negativity bias evolved to help our ancestors detect threats faster than rewards.",
+              "vi": "Negativity-bias tiến hóa để giúp tổ tiên phát hiện đe dọa nhanh hơn phần thưởng."
+            },
+            {
+              "en": "Vietnamese news consumers may develop pessimism from constant negativity-bias in feeds.",
+              "vi": "Người đọc tin Việt có thể trở nên bi quan từ negativity-bias liên tục trong feed."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["negativity effect"],
+      "antonyms": ["positivity bias"],
+      "collocations": [
+        "negativity bias in news",
+        "counter negativity bias",
+        "natural negativity bias"
+      ],
+      "mnemonic_vi": "NEGATIVITY (tiêu cực) + BIAS = thiên về tiêu cực. Não chú ý cái xấu mạnh hơn cái tốt (tiến hóa để tránh nguy hiểm)."
+    },
+    {
+      "word": "loss-aversion",
+      "lemma": "loss-aversion",
+      "ipa": "/ˌlɒs əˈvɜːʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cognitive bias in which people feel the pain of a loss roughly twice as strongly as the pleasure of an equivalent gain",
+          "meaning_vi": "ác cảm mất mát (thiên kiến: cảm giác đau khi mất mạnh gấp đôi cảm giác vui khi được tương đương)",
+          "examples": [
+            {
+              "en": "Loss aversion explains why people hold losing stocks too long, hoping to break even.",
+              "vi": "Loss-aversion giải thích vì sao người ta giữ cổ phiếu lỗ quá lâu, hy vọng hòa vốn."
+            },
+            {
+              "en": "Marketers exploit loss aversion with 'limited offer' and 'don't miss out' messaging.",
+              "vi": "Marketer khai thác loss-aversion bằng thông điệp 'limited offer' và 'don't miss out'."
+            },
+            {
+              "en": "Loss aversion makes Vietnamese savers prefer guaranteed bank deposits over riskier stocks.",
+              "vi": "Loss-aversion khiến người tiết kiệm Việt ưa tiền gửi đảm bảo hơn cổ phiếu rủi ro."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["loss-avoidance"],
+      "antonyms": ["risk-seeking"],
+      "collocations": ["loss aversion bias", "strong loss aversion", "exploit loss aversion"],
+      "mnemonic_vi": "LOSS (mất) + AVERSION (ghét) = ghét mất gấp đôi yêu được. Kahneman-Tversky chứng minh."
+    },
+    {
+      "word": "overconfidence",
+      "lemma": "overconfidence",
+      "ipa": "/ˌəʊvəˈkɒnfɪdəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cognitive bias of being more certain about one's judgments, knowledge, or abilities than the evidence warrants",
+          "meaning_vi": "tự tin thái quá (thiên kiến chắc chắn về phán đoán/kiến thức/khả năng mình hơn mức bằng chứng cho phép)",
+          "examples": [
+            {
+              "en": "Overconfidence causes startup founders to underestimate competition and overestimate their odds.",
+              "vi": "Overconfidence khiến founder startup đánh giá thấp đối thủ và đánh giá quá cao cơ hội mình."
+            },
+            {
+              "en": "Studies show 80% of drivers consider themselves above-average — pure overconfidence.",
+              "vi": "Nghiên cứu cho thấy 80% tài xế tự cho mình trên trung bình — overconfidence rõ rệt."
+            },
+            {
+              "en": "Vietnamese day-traders often show overconfidence after a few winning weeks.",
+              "vi": "Day-trader Việt thường thể hiện overconfidence sau vài tuần thắng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overestimation"],
+      "antonyms": ["underconfidence"],
+      "collocations": [
+        "overconfidence bias",
+        "executive overconfidence",
+        "investor overconfidence"
+      ],
+      "mnemonic_vi": "OVER (quá) + CONFIDENCE (tự tin) = quá tự tin. Tự tin vượt mức bằng chứng cho phép."
+    },
+    {
+      "word": "groupthink",
+      "lemma": "groupthink",
+      "ipa": "/ˈɡruːpθɪŋk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the psychological phenomenon where group members suppress dissenting views to maintain harmony, often leading to poor collective decisions",
+          "meaning_vi": "tư duy nhóm (hiện tượng tâm lý khi thành viên kìm nén ý kiến trái chiều để giữ hòa khí, dẫn đến quyết định tập thể tồi)",
+          "examples": [
+            {
+              "en": "The Bay of Pigs invasion is a famous example of groupthink in US foreign policy.",
+              "vi": "Cuộc đổ bộ Vịnh Con Heo là ví dụ nổi tiếng về groupthink trong chính sách đối ngoại Mỹ."
+            },
+            {
+              "en": "Healthy teams encourage dissent to avoid groupthink in major decisions.",
+              "vi": "Đội nhóm lành mạnh khuyến khích dissent để tránh groupthink trong quyết định lớn."
+            },
+            {
+              "en": "Vietnamese corporate cultures sometimes promote groupthink by valuing hierarchy over debate.",
+              "vi": "Văn hóa doanh nghiệp Việt đôi khi thúc đẩy groupthink khi coi trọng thứ bậc hơn tranh luận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["collective conformity"],
+      "antonyms": ["independent thinking"],
+      "collocations": ["fall into groupthink", "avoid groupthink", "classic groupthink"],
+      "etymology_hint": "Coined by Irving Janis in 1972 from 'group' + 'think' — modeled on Orwell's 'doublethink'.",
+      "mnemonic_vi": "GROUP (nhóm) + THINK (nghĩ) = nghĩ theo nhóm (mất ý kiến riêng). Irving Janis 1972 — lấy cảm hứng 'doublethink' của Orwell."
+    },
+    {
+      "word": "herd-mentality",
+      "lemma": "herd-mentality",
+      "ipa": "/ˈhɜːd menˈtæləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tendency of people to think, act, or invest the same way as a large group, often without independent analysis",
+          "meaning_vi": "tâm lý bầy đàn (xu hướng nghĩ/hành động/đầu tư giống đám đông, thường không phân tích độc lập)",
+          "examples": [
+            {
+              "en": "Herd mentality drives stock bubbles when everyone rushes in fearing they'll miss out.",
+              "vi": "Herd-mentality dẫn đến bong bóng cổ phiếu khi mọi người đổ xô vào vì sợ bỏ lỡ."
+            },
+            {
+              "en": "Crypto markets show extreme herd mentality during both rallies and crashes.",
+              "vi": "Thị trường crypto thể hiện herd-mentality cực đoan trong cả tăng lẫn sập."
+            },
+            {
+              "en": "Vietnamese investors famously displayed herd mentality during the 2007 stock bubble.",
+              "vi": "Nhà đầu tư Việt nổi tiếng thể hiện herd-mentality trong bong bóng chứng khoán 2007."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["herd behavior", "mob mentality"],
+      "antonyms": ["independent judgment"],
+      "collocations": [
+        "fall into herd mentality",
+        "strong herd mentality",
+        "resist herd mentality"
+      ],
+      "mnemonic_vi": "HERD (bầy đàn, đàn bò) + MENTALITY (tâm lý) = tâm lý bầy đàn. Đi theo đám đông không nghĩ."
+    },
+    {
+      "word": "attribution",
+      "lemma": "attribution",
+      "ipa": "/ˌætrɪˈbjuːʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cognitive process of assigning causes to events or behavior; in psychology, often distorted by self-serving biases",
+          "meaning_vi": "quy gán (quá trình tâm lý gán nguyên nhân cho sự kiện/hành vi; trong tâm lý thường bị lệch theo hướng có lợi cho mình)",
+          "examples": [
+            {
+              "en": "Self-serving attribution makes us credit success to skill and blame failure on bad luck.",
+              "vi": "Self-serving attribution khiến ta gán thành công cho kỹ năng và thất bại cho rủi ro."
+            },
+            {
+              "en": "The fundamental attribution error is blaming others' character but our own circumstances.",
+              "vi": "Fundamental attribution error là đổ lỗi tính cách người khác nhưng hoàn cảnh của mình."
+            },
+            {
+              "en": "Vietnamese sports fans show attribution bias by crediting Vietnam's wins to skill and losses to refs.",
+              "vi": "Cổ động viên Việt thể hiện attribution-bias khi gán chiến thắng cho kỹ năng và thất bại cho trọng tài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["causal assignment"],
+      "antonyms": [],
+      "collocations": [
+        "attribution bias",
+        "fundamental attribution error",
+        "self-serving attribution",
+        "causal attribution"
+      ],
+      "etymology_hint": "From Latin 'attribuere' (to assign to) — 'ad-' (to) + 'tribuere' (to allot).",
+      "mnemonic_vi": "AT (tới) + TRIBUTE (đóng góp, gán cho) + ION = gán nguyên nhân cho. Attribution = quy gán nguyên nhân."
+    },
+    {
+      "word": "stereotyping",
+      "lemma": "stereotype",
+      "ipa": "/ˈsteriətaɪpɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cognitive shortcut of applying generalized beliefs about a group to every individual member, often inaccurately",
+          "meaning_vi": "rập khuôn (lối tắt tư duy áp niềm tin chung về một nhóm vào từng cá nhân, thường thiếu chính xác)",
+          "examples": [
+            {
+              "en": "Stereotyping all engineers as introverts ignores huge personality diversity in the field.",
+              "vi": "Stereotyping mọi kỹ sư là hướng nội bỏ qua sự đa dạng tính cách lớn trong ngành."
+            },
+            {
+              "en": "Stereotypes save mental effort but often lead to unfair judgments and discrimination.",
+              "vi": "Stereotype tiết kiệm công sức tinh thần nhưng thường dẫn đến phán đoán bất công và phân biệt."
+            },
+            {
+              "en": "Foreign tourists sometimes hold outdated stereotypes about Vietnam from war-era media.",
+              "vi": "Du khách nước ngoài đôi khi giữ stereotype lỗi thời về Việt Nam từ truyền thông thời chiến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["generalization", "labeling"],
+      "antonyms": ["individuation"],
+      "collocations": ["harmful stereotyping", "cultural stereotyping", "challenge stereotyping"],
+      "etymology_hint": "From Greek 'stereos' (solid) + 'typos' (impression) — originally a printing plate, a 'solid' fixed image.",
+      "mnemonic_vi": "STEREO (cứng nhắc) + TYPE (kiểu) + ING = áp khuôn cứng. Stereotyping = đóng khung mọi người theo nhóm."
+    },
+    {
+      "word": "priming",
+      "lemma": "prime",
+      "ipa": "/ˈpraɪmɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the psychological process by which exposure to one stimulus influences how a person responds to a later, related stimulus, often unconsciously",
+          "meaning_vi": "kích hoạt sẵn (quá trình tâm lý khi tiếp xúc một kích thích ảnh hưởng phản ứng tới kích thích sau, thường vô thức)",
+          "examples": [
+            {
+              "en": "Priming participants with money-related words makes them act more individualistically afterward.",
+              "vi": "Priming người tham gia với từ liên quan tiền làm họ hành xử cá nhân hơn sau đó."
+            },
+            {
+              "en": "Marketing relies heavily on priming through colors, music, and ad placement.",
+              "vi": "Marketing dựa nhiều vào priming qua màu, nhạc và vị trí quảng cáo."
+            },
+            {
+              "en": "Vietnamese supermarkets prime customers with Tết music to boost holiday spending.",
+              "vi": "Siêu thị Việt prime khách hàng bằng nhạc Tết để tăng chi tiêu dịp lễ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pre-activation"],
+      "antonyms": [],
+      "collocations": ["subliminal priming", "priming effect", "semantic priming"],
+      "mnemonic_vi": "PRIME (chuẩn bị, kích sẵn) + ING = đang kích sẵn. Priming = tạo bối cảnh sẵn để não phản ứng theo."
+    }
+  ]
+}
