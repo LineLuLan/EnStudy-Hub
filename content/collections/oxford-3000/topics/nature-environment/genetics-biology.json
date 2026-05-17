@@ -1,0 +1,694 @@
+{
+  "slug": "genetics-biology",
+  "name": "Genetics & Molecular Biology",
+  "description": "Sinh học phân tử & di truyền B2 — DNA, gene, chromosome, mutation và 20 thuật ngữ cho học sinh, sinh viên y-sinh.",
+  "order_index": 14,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "DNA",
+      "lemma": "DNA",
+      "ipa": "/ˌdiː en ˈeɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "deoxyribonucleic acid, the double-helix molecule that carries the genetic instructions of all known living organisms",
+          "meaning_vi": "ADN (phân tử xoắn kép mang thông tin di truyền của mọi sinh vật)",
+          "examples": [
+            {
+              "en": "Watson and Crick proposed the double-helix structure of DNA in 1953.",
+              "vi": "Watson và Crick đề xuất cấu trúc xoắn kép của DNA vào năm 1953."
+            },
+            {
+              "en": "Forensic teams use DNA evidence to identify suspects with very high accuracy.",
+              "vi": "Đội pháp y dùng bằng chứng DNA để xác định nghi phạm với độ chính xác rất cao."
+            },
+            {
+              "en": "23andMe and similar services analyze your DNA to trace ancestry, including Vietnamese roots.",
+              "vi": "23andMe và các dịch vụ tương tự phân tích DNA để truy gốc tổ tiên, kể cả nguồn Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deoxyribonucleic acid"],
+      "antonyms": [],
+      "collocations": [
+        "DNA sequence",
+        "DNA test",
+        "DNA evidence",
+        "double-helix DNA",
+        "DNA replication"
+      ],
+      "mnemonic_vi": "D(eoxyribo) + N(ucleic) + A(cid) = DNA = ADN. Ghép 3 chữ cái đầu — nhớ là 'mã di truyền'."
+    },
+    {
+      "word": "gene",
+      "lemma": "gene",
+      "ipa": "/dʒiːn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a unit of heredity, a specific segment of DNA that codes for a particular trait or biological function",
+          "meaning_vi": "gen (đơn vị di truyền, đoạn DNA mã hóa cho một đặc tính hoặc chức năng)",
+          "examples": [
+            {
+              "en": "The gene responsible for blue eyes is recessive in most populations.",
+              "vi": "Gen quyết định mắt xanh là gen lặn ở đa số dân số."
+            },
+            {
+              "en": "Scientists can now edit genes using CRISPR technology with unprecedented precision.",
+              "vi": "Nhà khoa học giờ có thể chỉnh sửa gen bằng công nghệ CRISPR với độ chính xác chưa từng có."
+            },
+            {
+              "en": "Vietnamese researchers study rice genes to develop drought-resistant strains for the Mekong Delta.",
+              "vi": "Nhà nghiên cứu Việt nghiên cứu gen lúa để phát triển giống chịu hạn cho Đồng bằng sông Cửu Long."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hereditary unit"],
+      "antonyms": [],
+      "collocations": [
+        "gene expression",
+        "gene therapy",
+        "dominant gene",
+        "gene editing",
+        "gene pool"
+      ],
+      "etymology_hint": "From German 'Gen' (1909), short for 'Pangen', from Greek 'genos' (race, kind).",
+      "mnemonic_vi": "GENE = 'gốc' (genesis = khởi nguồn). Gen là gốc di truyền. Genesis, genealogy đều cùng họ."
+    },
+    {
+      "word": "chromosome",
+      "lemma": "chromosome",
+      "ipa": "/ˈkrəʊməsəʊm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a thread-like structure of DNA and proteins found in the nucleus of cells, carrying genetic information",
+          "meaning_vi": "nhiễm sắc thể (cấu trúc dạng sợi của DNA và protein trong nhân tế bào, mang thông tin di truyền)",
+          "examples": [
+            {
+              "en": "Humans have 23 pairs of chromosomes, including the X and Y sex chromosomes.",
+              "vi": "Người có 23 cặp nhiễm sắc thể, gồm cả nhiễm sắc thể giới tính X và Y."
+            },
+            {
+              "en": "Down syndrome is caused by an extra copy of chromosome 21.",
+              "vi": "Hội chứng Down do có thêm một bản sao của nhiễm sắc thể 21."
+            },
+            {
+              "en": "Dogs have 39 pairs of chromosomes, more than humans.",
+              "vi": "Chó có 39 cặp nhiễm sắc thể, nhiều hơn người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["genetic carrier"],
+      "antonyms": [],
+      "collocations": [
+        "sex chromosome",
+        "chromosome pair",
+        "chromosome abnormality",
+        "X chromosome"
+      ],
+      "etymology_hint": "From Greek 'khrōma' (color) + 'sōma' (body) — they readily absorb dyes for microscopy.",
+      "mnemonic_vi": "CHROMO (màu) + SOME (thân) = thân thể có màu (khi nhuộm). Nhiễm = nhuộm + sắc thể."
+    },
+    {
+      "word": "mutation",
+      "lemma": "mutation",
+      "ipa": "/mjuːˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a permanent change in the DNA sequence of an organism, which may produce new traits or diseases",
+          "meaning_vi": "đột biến (thay đổi vĩnh viễn trong trình tự DNA, có thể tạo đặc tính mới hoặc bệnh)",
+          "examples": [
+            {
+              "en": "Random mutations are the raw material of biological evolution.",
+              "vi": "Đột biến ngẫu nhiên là nguyên liệu thô của tiến hóa sinh học."
+            },
+            {
+              "en": "BRCA1 mutations significantly increase the risk of breast cancer in women.",
+              "vi": "Đột biến BRCA1 tăng đáng kể nguy cơ ung thư vú ở phụ nữ."
+            },
+            {
+              "en": "The Omicron variant of COVID-19 had many mutations on the spike protein.",
+              "vi": "Biến thể Omicron của COVID-19 có nhiều đột biến trên protein gai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["genetic alteration"],
+      "antonyms": [],
+      "collocations": [
+        "random mutation",
+        "point mutation",
+        "harmful mutation",
+        "spontaneous mutation",
+        "mutation rate"
+      ],
+      "etymology_hint": "From Latin 'mutare' (to change) — the same root as 'mutate' and 'commute'.",
+      "mnemonic_vi": "MUTA (đổi) + TION = sự thay đổi. Mutation = đột biến = thay đổi gen."
+    },
+    {
+      "word": "allele",
+      "lemma": "allele",
+      "ipa": "/əˈliːl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "one of two or more alternative forms of a gene that occupy the same position on a chromosome",
+          "meaning_vi": "alen (biến thể của cùng một gen, nằm cùng vị trí trên nhiễm sắc thể)",
+          "examples": [
+            {
+              "en": "You inherit one allele from your mother and one from your father for each gene.",
+              "vi": "Bạn nhận một alen từ mẹ và một từ cha cho mỗi gen."
+            },
+            {
+              "en": "The allele for brown eyes is dominant over the allele for blue eyes.",
+              "vi": "Alen mắt nâu trội hơn alen mắt xanh."
+            },
+            {
+              "en": "ABO blood group is determined by three alleles: A, B, and O.",
+              "vi": "Nhóm máu ABO được xác định bởi ba alen: A, B và O."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gene variant"],
+      "antonyms": [],
+      "collocations": ["dominant allele", "recessive allele"],
+      "etymology_hint": "From German 'Allel', short for 'Allelomorph', from Greek 'allelon' (of one another).",
+      "mnemonic_vi": "AL (other, alter) + LELE = dạng khác của một gen. Allele = biến thể khác = alen."
+    },
+    {
+      "word": "hereditary",
+      "lemma": "hereditary",
+      "ipa": "/həˈredɪtri/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "passed from parent to offspring through genes",
+          "meaning_vi": "di truyền (truyền từ cha mẹ sang con qua gen)",
+          "examples": [
+            {
+              "en": "Hemophilia is a hereditary blood disorder mostly affecting males.",
+              "vi": "Bệnh máu khó đông là rối loạn hereditary chủ yếu ảnh hưởng nam giới."
+            },
+            {
+              "en": "Some types of high cholesterol are hereditary and require lifelong treatment.",
+              "vi": "Một số dạng cholesterol cao là hereditary và cần điều trị suốt đời."
+            },
+            {
+              "en": "Vietnamese families often watch for hereditary diseases like thalassemia.",
+              "vi": "Các gia đình Việt thường theo dõi bệnh hereditary như tan máu bẩm sinh thalassemia."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["genetic", "inherited"],
+      "antonyms": ["acquired"],
+      "collocations": [
+        "hereditary disease",
+        "hereditary trait",
+        "hereditary condition",
+        "hereditary cancer"
+      ],
+      "etymology_hint": "From Latin 'hereditarius' from 'heres' (heir) — passed down like an inheritance.",
+      "mnemonic_vi": "HEREDIT (kế thừa, như 'heritage') + ARY = thuộc về kế thừa. Hereditary = di truyền."
+    },
+    {
+      "word": "genome",
+      "lemma": "genome",
+      "ipa": "/ˈdʒiːnəʊm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the complete set of genetic material in an organism, including all of its genes and non-coding sequences",
+          "meaning_vi": "hệ gen (toàn bộ vật chất di truyền của một sinh thể)",
+          "examples": [
+            {
+              "en": "The Human Genome Project mapped all 3 billion base pairs of human DNA by 2003.",
+              "vi": "Dự án Bộ gen Người đã ánh xạ cả 3 tỷ cặp base của DNA người vào năm 2003."
+            },
+            {
+              "en": "Sequencing a personal genome now costs less than a thousand US dollars.",
+              "vi": "Giải trình tự genome cá nhân hiện tốn dưới một nghìn đô la Mỹ."
+            },
+            {
+              "en": "Vietnamese scientists have begun sequencing genomes of native rice varieties.",
+              "vi": "Nhà khoa học Việt đã bắt đầu giải trình tự genome các giống lúa bản địa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["genetic blueprint"],
+      "antonyms": [],
+      "collocations": [
+        "human genome",
+        "genome sequencing",
+        "complete genome",
+        "genome project",
+        "genome editing"
+      ],
+      "etymology_hint": "Coined 1920 by blending 'gene' and 'chromosome' — the full genetic 'book' of an organism.",
+      "mnemonic_vi": "GENE (gen) + OME (bộ, toàn bộ, như 'tome') = bộ gen. Genome = toàn bộ vốn gen."
+    },
+    {
+      "word": "transcription",
+      "lemma": "transcription",
+      "ipa": "/trænˈskrɪpʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the biological process by which information stored in DNA is copied into a messenger RNA molecule",
+          "meaning_vi": "phiên mã (quá trình sao chép thông tin từ DNA sang phân tử mRNA)",
+          "examples": [
+            {
+              "en": "Transcription is the first step in turning a gene into a functional protein.",
+              "vi": "Phiên mã là bước đầu để biến một gen thành protein chức năng."
+            },
+            {
+              "en": "RNA polymerase is the enzyme that carries out transcription in the nucleus.",
+              "vi": "ARN polymerase là enzyme thực hiện quá trình transcription trong nhân."
+            },
+            {
+              "en": "Errors during transcription can lead to faulty proteins and disease.",
+              "vi": "Lỗi trong transcription có thể dẫn đến protein khiếm khuyết và bệnh tật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["DNA copying", "gene transcription"],
+      "antonyms": ["translation"],
+      "collocations": [
+        "gene transcription",
+        "transcription factor",
+        "transcription error",
+        "reverse transcription"
+      ],
+      "etymology_hint": "From Latin 'transcribere' (to copy out) — DNA's instructions are 'copied out' into RNA.",
+      "mnemonic_vi": "TRANS (qua) + SCRIPT (viết) + ION = chép qua. Transcription = phiên mã = chép qua từ DNA → RNA."
+    },
+    {
+      "word": "genotype",
+      "lemma": "genotype",
+      "ipa": "/ˈdʒenətaɪp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the genetic makeup of an organism, the specific combination of alleles it carries for one or more genes",
+          "meaning_vi": "kiểu gen (tổ hợp alen cụ thể của một sinh vật cho một hoặc nhiều gen)",
+          "examples": [
+            {
+              "en": "A pea plant with genotype TT will be tall, while tt will be short.",
+              "vi": "Cây đậu có genotype TT sẽ cao, còn tt sẽ thấp."
+            },
+            {
+              "en": "Identical twins share the same genotype but can develop different phenotypes.",
+              "vi": "Cặp sinh đôi cùng trứng có cùng genotype nhưng có thể phát triển phenotype khác nhau."
+            },
+            {
+              "en": "Doctors test for specific genotypes to predict drug response in personalized medicine.",
+              "vi": "Bác sĩ xét nghiệm genotype cụ thể để dự đoán đáp ứng thuốc trong y học cá nhân hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["genetic constitution"],
+      "antonyms": ["phenotype"],
+      "collocations": ["homozygous genotype", "heterozygous genotype", "genotype test"],
+      "mnemonic_vi": "GENO (gen) + TYPE (kiểu) = kiểu gen. Cặp với phenotype (kiểu hình)."
+    },
+    {
+      "word": "phenotype",
+      "lemma": "phenotype",
+      "ipa": "/ˈfiːnətaɪp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the observable physical or behavioral traits of an organism, resulting from interaction of its genotype and environment",
+          "meaning_vi": "kiểu hình (các đặc điểm biểu hiện bên ngoài, do gen và môi trường quyết định)",
+          "examples": [
+            {
+              "en": "Eye color, height, and skin tone are all parts of a person's phenotype.",
+              "vi": "Màu mắt, chiều cao và sắc da đều là phần của phenotype của một người."
+            },
+            {
+              "en": "Identical genotypes can produce different phenotypes if raised in different environments.",
+              "vi": "Cùng genotype có thể tạo phenotype khác nhau nếu lớn lên trong môi trường khác."
+            },
+            {
+              "en": "Vietnamese children growing up abroad often show a taller phenotype due to nutrition.",
+              "vi": "Trẻ em Việt lớn lên ở nước ngoài thường có phenotype cao hơn nhờ dinh dưỡng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["observable traits"],
+      "antonyms": ["genotype"],
+      "collocations": ["physical phenotype", "phenotype expression", "extended phenotype"],
+      "mnemonic_vi": "PHENO (xuất hiện, như 'phenomenon') + TYPE (kiểu) = kiểu xuất hiện. Phenotype = kiểu hình."
+    },
+    {
+      "word": "dominant",
+      "lemma": "dominant",
+      "ipa": "/ˈdɒmɪnənt/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing an allele whose trait is expressed in the organism even when paired with a different allele",
+          "meaning_vi": "trội (alen có tính trạng biểu hiện ngay cả khi cặp với alen khác)",
+          "examples": [
+            {
+              "en": "The allele for brown eyes is dominant over the allele for blue eyes.",
+              "vi": "Alen mắt nâu trội hơn alen mắt xanh."
+            },
+            {
+              "en": "Huntington's disease is caused by a single dominant allele inherited from one parent.",
+              "vi": "Bệnh Huntington gây bởi một alen trội duy nhất thừa hưởng từ một trong hai cha mẹ."
+            },
+            {
+              "en": "If a trait is dominant, only one copy of the allele is needed to show it.",
+              "vi": "Nếu tính trạng là trội, chỉ cần một bản alen là biểu hiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overriding"],
+      "antonyms": ["recessive"],
+      "collocations": ["dominant allele", "dominant trait", "dominant gene", "autosomal dominant"],
+      "etymology_hint": "From Latin 'dominari' (to rule, master) — dominant alleles 'rule over' recessive ones.",
+      "mnemonic_vi": "DOMIN (thống trị, như 'dominate') + ANT = kẻ thống trị. Dominant allele = alen 'thắng'."
+    },
+    {
+      "word": "recessive",
+      "lemma": "recessive",
+      "ipa": "/rɪˈsesɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing an allele whose trait is expressed only when paired with an identical recessive allele",
+          "meaning_vi": "lặn (alen chỉ biểu hiện tính trạng khi cặp với một alen lặn giống hệt)",
+          "examples": [
+            {
+              "en": "Blue eyes are caused by a recessive allele, requiring both parents to pass it on.",
+              "vi": "Mắt xanh do alen lặn, đòi hỏi cả cha lẫn mẹ phải truyền."
+            },
+            {
+              "en": "Cystic fibrosis is a recessive genetic disorder caused by two recessive alleles.",
+              "vi": "Xơ nang là rối loạn di truyền lặn do hai alen lặn gây ra."
+            },
+            {
+              "en": "Recessive traits can skip generations if they are masked by dominant alleles.",
+              "vi": "Tính trạng lặn có thể bỏ qua thế hệ nếu bị che bởi alen trội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hidden", "masked"],
+      "antonyms": ["dominant"],
+      "collocations": [
+        "recessive allele",
+        "recessive trait",
+        "autosomal recessive",
+        "recessive disorder"
+      ],
+      "etymology_hint": "From Latin 'recedere' (to go back, recede) — the trait 'recedes' behind the dominant one.",
+      "mnemonic_vi": "RECESS (lùi lại, recess giờ ra chơi) + IVE = lùi lại phía sau. Recessive = lặn (lùi, bị che)."
+    },
+    {
+      "word": "enzyme",
+      "lemma": "enzyme",
+      "ipa": "/ˈenzaɪm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a biological protein that acts as a catalyst, speeding up biochemical reactions inside living organisms",
+          "meaning_vi": "enzyme (protein xúc tác phản ứng sinh hóa trong cơ thể sống)",
+          "examples": [
+            {
+              "en": "Digestive enzymes break down food in the stomach and small intestine.",
+              "vi": "Enzyme tiêu hóa phân giải thức ăn trong dạ dày và ruột non."
+            },
+            {
+              "en": "Some Vietnamese herbal medicines claim to support liver enzyme function.",
+              "vi": "Một số thuốc thảo dược Việt được cho là hỗ trợ chức năng enzyme gan."
+            },
+            {
+              "en": "PCR tests rely on a heat-stable enzyme called Taq polymerase.",
+              "vi": "Xét nghiệm PCR phụ thuộc vào enzyme bền nhiệt tên là Taq polymerase."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["biological catalyst"],
+      "antonyms": ["inhibitor"],
+      "collocations": ["digestive enzyme", "enzyme activity", "enzyme deficiency", "liver enzyme"],
+      "etymology_hint": "From Greek 'en' (in) + 'zymē' (leaven, yeast) — first observed catalyzing fermentation in yeast.",
+      "mnemonic_vi": "EN (trong) + ZYME (men, như 'enzyme tiêu hóa') = chất men trong cơ thể. Enzyme = men sinh học."
+    },
+    {
+      "word": "mitosis",
+      "lemma": "mitosis",
+      "ipa": "/maɪˈtəʊsɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the type of cell division that produces two genetically identical daughter cells from one parent cell",
+          "meaning_vi": "phân bào nguyên nhiễm (một tế bào tạo thành hai tế bào con giống hệt nhau)",
+          "examples": [
+            {
+              "en": "Mitosis is how skin cells regenerate after a cut heals.",
+              "vi": "Mitosis là cách tế bào da tái tạo sau khi vết cắt lành."
+            },
+            {
+              "en": "Cancer cells undergo uncontrolled mitosis, forming tumors.",
+              "vi": "Tế bào ung thư trải qua mitosis không kiểm soát, tạo khối u."
+            },
+            {
+              "en": "Students often draw the phases of mitosis: prophase, metaphase, anaphase, telophase.",
+              "vi": "Học sinh thường vẽ các pha của mitosis: kỳ đầu, kỳ giữa, kỳ sau, kỳ cuối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cell division"],
+      "antonyms": ["meiosis"],
+      "collocations": ["phases of mitosis", "mitosis and meiosis", "uncontrolled mitosis"],
+      "etymology_hint": "From Greek 'mitos' (thread) — chromosomes form thread-like shapes visible during division.",
+      "mnemonic_vi": "MITO (sợi, thread) + SIS (quá trình) = quá trình sợi NST. Mitosis = phân bào sợi-thấy-rõ."
+    },
+    {
+      "word": "meiosis",
+      "lemma": "meiosis",
+      "ipa": "/maɪˈəʊsɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the type of cell division that produces gametes (sperm or eggs) with half the chromosome count of the parent",
+          "meaning_vi": "phân bào giảm nhiễm (tạo giao tử với một nửa số NST của tế bào mẹ)",
+          "examples": [
+            {
+              "en": "Meiosis produces gametes with 23 chromosomes in humans, half of the normal 46.",
+              "vi": "Meiosis tạo giao tử với 23 NST ở người, một nửa của 46 NST thông thường."
+            },
+            {
+              "en": "Genetic variation arises during meiosis through crossing over of chromosomes.",
+              "vi": "Sự đa dạng di truyền nảy sinh trong meiosis nhờ trao đổi chéo NST."
+            },
+            {
+              "en": "Errors in meiosis can lead to chromosomal disorders like Down syndrome.",
+              "vi": "Lỗi trong meiosis có thể dẫn đến rối loạn NST như hội chứng Down."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reduction division"],
+      "antonyms": ["mitosis"],
+      "collocations": ["meiosis I and II", "crossover meiosis", "errors in meiosis"],
+      "etymology_hint": "From Greek 'meiōsis' (a lessening) — chromosome number is 'lessened' by half.",
+      "mnemonic_vi": "MEIO (giảm, less) + SIS = quá trình giảm. Meiosis = giảm nhiễm (chia đôi NST)."
+    },
+    {
+      "word": "ribosome",
+      "lemma": "ribosome",
+      "ipa": "/ˈraɪbəsəʊm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a cellular structure that synthesizes proteins by translating messenger RNA into chains of amino acids",
+          "meaning_vi": "ribosome (cấu trúc tế bào tổng hợp protein bằng cách dịch mRNA thành chuỗi axit amin)",
+          "examples": [
+            {
+              "en": "Ribosomes are sometimes called the 'protein factories' of the cell.",
+              "vi": "Ribosome đôi khi được gọi là 'nhà máy protein' của tế bào."
+            },
+            {
+              "en": "Antibiotics like erythromycin work by attacking bacterial ribosomes.",
+              "vi": "Kháng sinh như erythromycin hoạt động bằng cách tấn công ribosome vi khuẩn."
+            },
+            {
+              "en": "Each human cell contains millions of ribosomes working continuously.",
+              "vi": "Mỗi tế bào người chứa hàng triệu ribosome hoạt động liên tục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["protein factory"],
+      "antonyms": [],
+      "collocations": ["ribosome assembly", "free ribosome", "bound ribosome"],
+      "etymology_hint": "From 'ribo' (in ribonucleic acid) + Greek 'sōma' (body) — a 'body' made of ribosomal RNA.",
+      "mnemonic_vi": "RIBO (ARN) + SOME (thân) = thân ARN. Ribosome = nhà máy đọc mRNA → protein."
+    },
+    {
+      "word": "amino-acid",
+      "lemma": "amino-acid",
+      "ipa": "/əˌmiːnəʊ ˈæsɪd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an organic compound that serves as the basic building block of proteins, containing an amino group and an acid group",
+          "meaning_vi": "axit amin (hợp chất hữu cơ là đơn vị cấu thành protein)",
+          "examples": [
+            {
+              "en": "There are 20 standard amino acids that combine to form all proteins in our body.",
+              "vi": "Có 20 axit amin chuẩn kết hợp để tạo mọi protein trong cơ thể."
+            },
+            {
+              "en": "Essential amino acids must come from the diet, since the body cannot make them.",
+              "vi": "Axit amin thiết yếu phải lấy từ thực phẩm, vì cơ thể không tự tổng hợp được."
+            },
+            {
+              "en": "Vietnamese fish sauce is rich in amino acids, giving it its umami flavor.",
+              "vi": "Nước mắm Việt giàu axit amin, tạo nên vị umami đặc trưng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["protein building block"],
+      "antonyms": [],
+      "collocations": [
+        "essential amino acid",
+        "amino acid sequence",
+        "amino acid chain",
+        "free amino acid"
+      ],
+      "mnemonic_vi": "AMINO (nhóm amin -NH2) + ACID (nhóm axit -COOH) = chất có cả hai nhóm. Đơn vị tạo protein."
+    },
+    {
+      "word": "helix",
+      "lemma": "helix",
+      "ipa": "/ˈhiːlɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a three-dimensional spiral shape, famously found in the double-helix structure of DNA",
+          "meaning_vi": "chuỗi xoắn (hình xoắn ốc 3 chiều, như cấu trúc xoắn kép của DNA)",
+          "examples": [
+            {
+              "en": "The DNA double helix resembles a twisted ladder with rungs of base pairs.",
+              "vi": "Xoắn kép DNA giống như một chiếc thang xoắn với các bậc là cặp base."
+            },
+            {
+              "en": "Alpha helices are a common secondary structure of proteins.",
+              "vi": "Xoắn alpha là cấu trúc bậc hai phổ biến của protein."
+            },
+            {
+              "en": "A spiral staircase is essentially a giant architectural helix.",
+              "vi": "Cầu thang xoắn về cơ bản là một helix kiến trúc khổng lồ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spiral"],
+      "antonyms": [],
+      "collocations": ["double helix", "alpha helix", "DNA helix"],
+      "etymology_hint": "From Greek 'helix' (spiral, twist) — the same root as helicopter (twisting wing).",
+      "mnemonic_vi": "HELI (xoắn, như 'helicopter') + X = hình xoắn. DNA double helix = xoắn kép."
+    },
+    {
+      "word": "nucleotide",
+      "lemma": "nucleotide",
+      "ipa": "/ˈnjuːkliətaɪd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the basic building block of nucleic acids like DNA or RNA, consisting of a sugar, a phosphate group, and a nitrogenous base",
+          "meaning_vi": "nucleotit (đơn vị cấu tạo DNA/RNA, gồm đường, gốc photphat và một base nitơ)",
+          "examples": [
+            {
+              "en": "Each strand of DNA is a long chain of nucleotides linked end to end.",
+              "vi": "Mỗi mạch DNA là một chuỗi dài các nucleotide nối đuôi nhau."
+            },
+            {
+              "en": "The four DNA nucleotides contain bases A, T, G, and C.",
+              "vi": "Bốn nucleotide của DNA chứa các base A, T, G và C."
+            },
+            {
+              "en": "A point mutation is the change of a single nucleotide in a gene.",
+              "vi": "Đột biến điểm là sự thay đổi một nucleotide đơn lẻ trong gen."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["DNA building block"],
+      "antonyms": [],
+      "collocations": ["nucleotide sequence", "nucleotide base", "single nucleotide"],
+      "etymology_hint": "From 'nucleus' (Latin 'nucleus' = little nut, kernel) + chemical suffix '-ide'.",
+      "mnemonic_vi": "NUCLEO (nhân, nucleus) + TIDE = thuộc về nhân. Nucleotide = viên gạch của DNA trong nhân."
+    },
+    {
+      "word": "mitochondria",
+      "lemma": "mitochondrion",
+      "ipa": "/ˌmaɪtəˈkɒndriə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "organelles found in nearly all eukaryotic cells that generate most of the cell's energy through cellular respiration; often called the 'powerhouse of the cell'",
+          "meaning_vi": "ty thể (bào quan sinh năng lượng cho tế bào qua hô hấp; 'nhà máy điện' của tế bào)",
+          "examples": [
+            {
+              "en": "Mitochondria convert glucose into ATP, the energy currency of the cell.",
+              "vi": "Mitochondria chuyển glucose thành ATP, đơn vị năng lượng của tế bào."
+            },
+            {
+              "en": "Mitochondria have their own small genome, inherited only from the mother.",
+              "vi": "Mitochondria có genome riêng nhỏ, chỉ thừa hưởng từ mẹ."
+            },
+            {
+              "en": "Muscle cells contain many more mitochondria than skin cells, supplying intense energy needs.",
+              "vi": "Tế bào cơ chứa nhiều mitochondria hơn tế bào da, đáp ứng nhu cầu năng lượng lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["powerhouse of the cell"],
+      "antonyms": [],
+      "collocations": ["mitochondrial DNA", "mitochondria function", "damaged mitochondria"],
+      "etymology_hint": "From Greek 'mitos' (thread) + 'khondrion' (small granule) — they look like thread-like granules.",
+      "mnemonic_vi": "MITO (sợi) + CHONDRIA (hạt) = hạt sợi nhỏ. Ty thể = nhà máy điện hình hạt."
+    }
+  ]
+}
