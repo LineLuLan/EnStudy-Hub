@@ -5,6 +5,87 @@
 
 ---
 
+## 2026-05-17 (P10b content batch — token-efficient triage levers ON, P10 10/25) — B2: 5 lessons / 100 cards (147/192, ~77%) — Claude Opus 4.7
+
+### Context
+
+User báo P9 (5 batch, 25 lessons B1) ngốn ~20% weekly Claude Code token quota. Yêu cầu: "giảm 1 chút token nha chứ bạn mới gen có P9 mà hết 20% token tuần". User cho phép AI tự chọn levers tiết kiệm token miễn không ảnh hưởng quality bar (`feedback_raised_quality_bar` memory).
+
+### Root cause P9 spike (~205K tokens / 5 sub-batches)
+
+1. **Etymology phình ở B1** — A2 avg 44 ký tự vs B1 avg 94 ký tự (gấp 2.1×). Rule "bắt buộc khi có nguồn gốc thú vị" áp dụng quá liberal.
+2. **Collocations flat 5/card** cho B1 vs 4/card A2 — high-freq simple words bị nhồi filler.
+3. **Marathon multi-batch grep overhead** — 5 sub-batches/ngày × 2-3 round grep collision = 30-75K tokens accumulated.
+
+### Đã ship — 5 lessons B2 batch 2 (P10b)
+
+Áp dụng 3 levers token-efficient, vẫn giữ quality bar:
+
+- **Lever D — Etymology selective**: chỉ gen khi từ có gốc Latin/Greek/Old French insightful. Skip compounds modern, acronyms, Germanic thuần. P10b: 22/100 cards bỏ etymology.
+- **Lever E — Collocation triage 3-5**: high-freq simple = 3, mid = 4, academic/polysemous = 5. P10b: ~20 cards có 3 collocations (allele, mitosis, helix, oxymoron, pun, foreshadowing, denouement, catharsis, anachronism, nuclear-treaty, arms-race, soft-power, sphere-of-influence, border-dispute, annexation, isolationism, realpolitik, detente, par-value, capital-gain, index-fund, short-selling).
+- **Lever C SKIP** (smaller batch): giữ 5 lessons/batch vì B2 collisions ít hơn B1 (round 2 grep đủ).
+- **Lever B postpone** (prompt template tighten): session sau làm riêng.
+
+**5 lessons mới (B2, 100/100 NEW so với 2840 existing)**:
+
+| #   | Lesson             | Topic              | order |
+| --- | ------------------ | ------------------ | ----- |
+| 1   | finance-advanced   | work-business      | 18    |
+| 2   | linguistics        | abstract-academic  | 15    |
+| 3   | genetics-biology   | nature-environment | 14    |
+| 4   | literary-criticism | entertainment      | 15    |
+| 5   | geopolitics        | places-travel      | 12    |
+
+### Collision pivots
+
+Round 1 grep tìm thấy nhiều collision với existing lessons. Đã pivot:
+
+- **finance-advanced**: drop bond/asset/portfolio/dividend/equity/inflation/recession/yield/liquidity/hedge (finance-investment.json) + leverage (corporate-strategy) + mortgage (housing-utilities) → 12 word swap.
+- **linguistics**: drop `linguistics` (subjects-academic) + `dialect` (cultural-immersion).
+- **genetics-biology**: drop trait (abstract-concepts) + cell (science-basics) + replication (scientific-method) + protein (health-wellness).
+- **literary-criticism**: drop paradox (philosophy), narrative (identity-self), irony (communication-styles), genre (movies-tv), satire/allegory/protagonist/antagonist/metaphor/simile (literature-genres) — biggest pivot batch.
+- **geopolitics**: drop sovereignty (governance-systems), embassy/treaty/summit/coalition (politics-government), frontier (extreme-travel), autonomy (identity-self).
+
+Round 2 grep trên 100 candidate words mới → **ZERO collision**.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files, 20 cards each.
+- IPA notation flags: 15 + 17 + 15 + 19 + 17 = **83/100 cards** — same range với P10a (66/100). Tolerated per quality bar (dictionaryapi.dev notation variants).
+- Lint-staged prettier reformat 5 JSON files khi commit (no manual intervention).
+- File sizes: 32-36 KB/lesson, avg ~33 KB — tương đương P10a (~31 KB), không phình.
+
+### SHA cuối session (P10b)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `[dev-docs-sha TBD]` (P10b merge + docs commit)
+- be `0390931` (P10b content) → sẽ sync sau khi docs xong
+- fe `6a4b1c1` (P10a docs) → sẽ sync sau khi docs xong
+
+### Memory persist
+
+User explicit cho phép AI tự chọn levers "không ảnh hưởng chất lượng". Memory `feedback_raised_quality_bar.md` được update với 2 rule mới ("Etymology selective", "Collocation triage 3-5") để persist sang P10c/P11/P12.
+
+### PICKUP cho session sau — P10c (5 lessons B2)
+
+Đề xuất topic candidates B2 (cần grep collision kỹ — society-culture + abstract-academic đã saturate):
+
+- `society-culture/social-movements` — civil-rights, suffrage (taken in governance-systems), abolition, march, protest, boycott, activism (taken global-issues), petition
+- `daily-life/sustainable-living` — minimalism, decluttering, ethical-consumption, carbon-footprint, recycling-program, zero-waste, eco-friendly
+- `work-business/legal-business` — contract, liability, breach, intellectual-property, patent, trademark, copyright, lawsuit
+- `abstract-academic/research-methodology` — hypothesis, methodology, peer-review (taken scientific-method), citation, literature-review, longitudinal-study, qualitative, quantitative
+- `entertainment/streaming-economy` — subscription (taken personal-finance), paywall, exclusive, freemium, microtransaction, ad-supported
+
+Lưu ý nhiều collision pre-flag — round 1 grep sẽ buộc pivot 1-2 topic.
+
+### Files state khi handoff (P10b)
+
+- All 3 branches will be pushed to origin after docs commit + sync.
+- Docs updated (HANDOFF, TRACKER, SYNC).
+- Memory `feedback_raised_quality_bar.md` updated.
+
+---
+
 ## 2026-05-17 (P10a content batch — P10 opens, lần đầu B2) — B2: 5 lessons / 100 cards (142/192, ~74%) — Claude Opus 4.7
 
 ### Đã ship
