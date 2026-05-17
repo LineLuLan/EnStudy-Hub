@@ -489,6 +489,14 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P10d B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `87e2d73` → merge `f967e39`) — P10 20/25, token-efficient triage levers ON:
+    - `time-numbers/historical-eras` — antiquity, medieval, renaissance, enlightenment, industrial-age, postwar, modern-era, prehistoric, millennium, epoch, colonial-era, cold-war, gilded-age, reformation, crusades, baroque, bronze-age, iron-age, victorian-era, atomic-age
+    - `people/leadership-styles` — autocratic, democratic, transformational, charismatic, hands-off, micromanage, servant-leader, authoritarian, laissez-faire, inspirational, figurehead, directive, adaptive, emotional-intelligence, bureaucratic, pacesetting, coercive, affiliative, transactional, decisive
+    - `daily-life/mental-health` — depression, mindfulness, burnout, self-care, cognitive, behavioral, trauma, panic-attack, counseling, psychiatrist, empathy, resilience, coping, grief, loneliness, gaslighting, mood-disorder, PTSD, vulnerability, overwhelmed
+    - `work-business/startup-ecosystem` — accelerator, pre-seed, seed-round, series-A, pitch-deck, term-sheet, cap-table, equity-stake, venture-capital, angel-investor, burn-rate, product-market-fit, MVP, vesting, bridge-round, early-stage, venture-fund, syndicate, liquidation-preference, dilution
+    - `abstract-academic/cognitive-biases` — confirmation-bias, anchoring, availability-heuristic, dunning-kruger, sunk-cost, framing-effect, halo-effect, hindsight-bias, in-group-bias, status-quo-bias, recency-bias, survivorship-bias, negativity-bias, loss-aversion, overconfidence, groupthink, herd-mentality, attribution, stereotyping, priming
+    - Collision pivots: 4 historical-eras (century/decade/contemporary/era), 6 leadership-styles (mentor/delegate/consensus/empower/visionary/coach), 5 mental-health (anxiety/therapy/wellbeing/stigma/self-esteem) + 1 round-2 swap (meditation→gaslighting), 7 startup-ecosystem (valuation/unicorn/exit/cofounder/runway/incubator/due-diligence); **cognitive-biases ZERO collision** (entire 20-word set free on round 1).
+    - **Lever D etymology**: ~60 cards skip (compound modern dominant in P10d — historical-eras has many _-age compounds, startup-ecosystem nearly all acronyms/compounds, cognitive-biases nearly all _-bias/\_-effect compounds). **Lever E collocation triage 3-5** applied. Zod schema green all 5. IPA flags 87/100 (startup-ecosystem 20/20 due to acronyms/compounds). Seed live: **pending user manual run** (target 157 lessons / 3140 cards).
   - [x] **P10c B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `2843b9e` → merge `fdb67e8`) — P10 15/25, token-efficient triage levers ON:
     - `society-culture/social-movements` — civil-rights, abolition, march, boycott, demonstration, strike, picket, uprising, revolution, emancipation, segregation, solidarity, mobilize, whistleblower, dissent, nonviolence, rally, militant, collective-bargaining, unionize
     - `daily-life/sustainable-living` — minimalism, decluttering, carbon-footprint, upcycle, secondhand, reusable, veganism, ethical-consumption, fast-fashion, slow-fashion, thrift, refill, capsule-wardrobe, meal-prep, staycation, carbon-neutral, locally-sourced, offset, conscious-consumer, low-waste
@@ -555,11 +563,11 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a/b/c done (15/25), TODO P10d/e
+- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a/b/c/d done (20/25), TODO P10e
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 152/192 lessons (79%), 3040/3840 cards (79%), ~79% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 15/25 (B2 đang gen, levers D+E ON)**, next: P10d (5 lessons).
+**Progress**: 157/192 lessons (82%), 3140/3840 cards (82%), ~82% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 20/25 (B2 đang gen, levers D+E ON)**, next: P10e (5 lessons để đóng P10 25/25).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 

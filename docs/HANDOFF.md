@@ -5,6 +5,68 @@
 
 ---
 
+## 2026-05-17 (P10d content batch — Levers D+E persistent, P10 20/25) — B2: 5 lessons / 100 cards (157/192, ~82%) — Claude Opus 4.7
+
+### Đã ship
+
+User "tiếp P10d đi" → AI gen tiếp 5 lessons B2 batch 4 (P10d). Memory `feedback_raised_quality_bar` Levers D+E vẫn áp dụng. Còn duy nhất P10e (5 lessons) để đóng P10 25/25.
+
+**5 lessons mới (B2, 100/100 NEW so với 3040 existing)** — historical + leadership + mental-health + startup + psychology:
+
+| #   | Lesson            | Topic             | order |
+| --- | ----------------- | ----------------- | ----- |
+| 1   | historical-eras   | time-numbers      | 6     |
+| 2   | leadership-styles | people            | 10    |
+| 3   | mental-health     | daily-life        | 24    |
+| 4   | startup-ecosystem | work-business     | 20    |
+| 5   | cognitive-biases  | abstract-academic | 17    |
+
+### Collision pivots
+
+Round 1 grep: 22 collisions trên 120 candidate ban đầu. Pivot:
+
+- **historical-eras** (4 drops): century + decade (time-dates), contemporary (visual-arts), era (life-stages). Đổi sang antiquity, medieval, baroque, gilded-age, victorian-era, etc.
+- **leadership-styles** (6 drops): mentor (career), delegate + consensus (teamwork), empower + visionary (leadership), coach (sports-games). Pivot mạnh nhất P10d. Đổi sang bureaucratic, pacesetting, coercive, affiliative, transactional, decisive.
+- **mental-health** (5 drops + 1 round-2 swap): anxiety + therapy + wellbeing (health-wellness), stigma (global-issues), self-esteem (identity-self) + meditation (health-wellness phát hiện ở round 2 → swap sang gaslighting).
+- **startup-ecosystem** (7 drops): valuation + unicorn + exit + cofounder + runway + incubator (entrepreneurship — overlap nặng nhất P10d), due-diligence (legal-business). Đổi sang accelerator, pre-seed, seed-round, series-A, pitch-deck, term-sheet, etc.
+- **cognitive-biases** (**ZERO drops** — round 1 trả về No matches cho cả 20 candidates). Lesson "sạch nhất" trong P10d.
+
+Round 2 grep trên 100 wordlist final: **ZERO collision**.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files, 20 cards each.
+- IPA notation flags: 18 + 15 + 16 + **20** + 18 = **87/100** — startup-ecosystem 20/20 do toàn từ acronym/compound (MVP, PMF, series-A, pre-seed, etc) dictionaryapi.dev không nhận diện được. Tolerated.
+- Lint-staged prettier reformat 5 JSON files khi commit.
+- File sizes: 32-35 KB/lesson, avg ~33.7 KB.
+- Etymology drop rate: ~60/100 cards (cao nhất trong các batch P10 — historical-eras + startup-ecosystem + cognitive-biases đều dày compound modern).
+
+### SHA cuối session (P10d)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `95c9917` (P10d docs commit — partial, follow-up commit pending để fix HANDOFF + Progress)
+- be `87e2d73` (P10d content) → sẽ sync sau khi docs hoàn tất
+- fe `05de2dc` (P10c sync) → sẽ sync sau khi docs hoàn tất
+
+### PICKUP cho session sau — P10e ĐÓNG P10 25/25 (5 lessons B2 cuối)
+
+Đề xuất topic candidates B2 (cần grep collision):
+
+- `nature-environment/space-astronomy` — galaxy, nebula, supernova, exoplanet, black-hole, light-year, gravity (check), telescope (check), constellation, dwarf-planet, cosmic-microwave-background, big-bang, dark-matter, dark-energy
+- `daily-life/digital-wellbeing` — screen-time, digital-detox, doom-scrolling, notification-fatigue, blue-light, social-comparison, fomo, jomo, app-blocker, dopamine-loop
+- `entertainment/gaming-culture` — esports, streamer-economy, raid (check), guild, tournament, prize-pool, twitch (proper noun?), speedrun, lan-party, modding, cosmetic-item
+- `society-culture/migration-flows` — refugee, asylum (taken global-issues), expatriate (check), remittance, brain-drain, brain-gain, repatriation, integration, naturalization, citizenship-by-investment
+- `work-business/remote-work-culture` — async-communication, hybrid-model, work-from-home, digital-nomad, time-zone-overlap, virtual-meeting, slack-fatigue, zoom-fatigue, in-office-day, presenteeism (taken? check)
+
+Sau P10e → P11 (15 phrasal & compound) + P12 (15 final fill) = **35 lessons remaining** để đóng 100% Oxford 3000 (192/192).
+
+### Files state khi handoff (P10d)
+
+- All 3 branches will be pushed to origin after docs follow-up commit + sync.
+- Docs updated (HANDOFF, TRACKER, SYNC).
+
+---
+
 ## 2026-05-17 (P10c content batch — Levers D+E persistent, P10 15/25) — B2: 5 lessons / 100 cards (152/192, ~79%) — Claude Opus 4.7
 
 ### Đã ship
