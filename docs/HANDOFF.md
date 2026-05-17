@@ -5,6 +5,31 @@
 
 ---
 
+## 2026-05-17 (P11b phrasal verbs — P11 10/15) — Multi-word: 5 lessons / 100 cards (172/192, ~90%) — Claude Opus 4.7
+
+### Đã ship
+
+5 lessons phrasal verbs tiếp theo trong common-core: phrasal-call-check, phrasal-break-build, phrasal-pick-pull, phrasal-hand-hold, phrasal-cut-keep. P11 đang 10/15.
+
+**Bug fix**: phrasal-pick-pull có duplicate pile-up + placeholder pull-off-2 → fix inline trước commit, swap card 20 thành pull-back.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files.
+- IPA flags: ~100/100 (expected cho phrasal verbs).
+- Lint-staged prettier reformat 5 files khi commit.
+
+### SHA cuối session (P11b)
+
+- main `eb18493`, dev `[TBD docs]`, be `354f567`, fe sẽ sync sau.
+
+### PICKUP — P11c rồi P12 (CLOSE 100%)
+
+- **P11c** (5 lessons CLOSE P11): set-phrases-1, set-phrases-2, compound-services, compound-misc-1, compound-misc-2.
+- **P12** (15 lessons): final fill specialized vocab → 192/192 = 100% Oxford 3000.
+
+---
+
 ## 2026-05-17 (P11a phrasal verbs — P11 5/15) — Multi-word: 5 lessons / 100 cards (167/192, ~87%) — Claude Opus 4.7
 
 ### Đã ship — P11 mở (5/15 phrasal verbs)
