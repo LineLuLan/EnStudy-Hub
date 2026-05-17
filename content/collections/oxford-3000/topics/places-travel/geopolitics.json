@@ -1,0 +1,710 @@
+{
+  "slug": "geopolitics",
+  "name": "Geopolitics",
+  "description": "Địa chính trị B2 — alliance, sanctions, diplomacy, hegemony và 20 thuật ngữ cho người đọc tin quốc tế.",
+  "order_index": 12,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "alliance",
+      "lemma": "alliance",
+      "ipa": "/əˈlaɪəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a formal agreement or partnership between nations or groups for mutual benefit, often military or economic",
+          "meaning_vi": "liên minh (thỏa thuận chính thức giữa các nước/nhóm vì lợi ích chung, thường quân sự hoặc kinh tế)",
+          "examples": [
+            {
+              "en": "NATO is the most powerful military alliance in modern history.",
+              "vi": "NATO là liên minh quân sự hùng mạnh nhất lịch sử hiện đại."
+            },
+            {
+              "en": "Vietnam has built strategic alliances with Russia, India, and Japan.",
+              "vi": "Việt Nam đã xây dựng các liên minh chiến lược với Nga, Ấn Độ và Nhật."
+            },
+            {
+              "en": "Tech giants often form alliances to set industry standards together.",
+              "vi": "Các ông lớn công nghệ thường lập liên minh để cùng đặt chuẩn ngành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coalition", "partnership"],
+      "antonyms": ["enmity", "opposition"],
+      "collocations": [
+        "military alliance",
+        "strategic alliance",
+        "form an alliance",
+        "alliance with",
+        "broken alliance"
+      ],
+      "etymology_hint": "From Old French 'aliance' from Latin 'alligare' (to bind to) — partners 'bound together'.",
+      "mnemonic_vi": "AL (tới) + LI (buộc, ligature) + ANCE = buộc lại với nhau. Alliance = liên minh = buộc chung."
+    },
+    {
+      "word": "soft-power",
+      "lemma": "soft-power",
+      "ipa": "/ˌsɒft ˈpaʊə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to influence other countries through culture, diplomacy, and persuasion rather than military or economic coercion",
+          "meaning_vi": "quyền lực mềm (ảnh hưởng qua văn hóa, ngoại giao thay vì ép buộc quân sự/kinh tế)",
+          "examples": [
+            {
+              "en": "K-pop and Korean dramas have become major soft-power tools for South Korea.",
+              "vi": "K-pop và phim Hàn đã trở thành công cụ soft-power lớn của Hàn Quốc."
+            },
+            {
+              "en": "Vietnam's phở and bánh mì quietly project soft-power around the world.",
+              "vi": "Phở và bánh mì Việt âm thầm thể hiện soft-power khắp thế giới."
+            },
+            {
+              "en": "American Hollywood films have been the country's most enduring soft-power asset.",
+              "vi": "Phim Hollywood Mỹ là tài sản soft-power bền vững nhất của nước này."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cultural influence"],
+      "antonyms": ["hard power", "military power"],
+      "collocations": ["soft-power tool", "exercise soft-power", "soft-power asset"],
+      "mnemonic_vi": "SOFT (mềm) + POWER (quyền lực) = quyền lực mềm. Joseph Nye đặt 1990. Dụ chứ không ép."
+    },
+    {
+      "word": "sphere-of-influence",
+      "lemma": "sphere-of-influence",
+      "ipa": "/ˌsfɪər əv ˈɪnfluəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a geographical region where one nation exerts significant cultural, economic, military, or political influence",
+          "meaning_vi": "phạm vi ảnh hưởng (khu vực địa lý nơi một quốc gia có ảnh hưởng lớn)",
+          "examples": [
+            {
+              "en": "During the Cold War, Eastern Europe was firmly in the Soviet sphere of influence.",
+              "vi": "Trong Chiến tranh Lạnh, Đông Âu nằm chắc trong sphere-of-influence của Liên Xô."
+            },
+            {
+              "en": "Southeast Asia has long been contested in the sphere of influence between China and the US.",
+              "vi": "Đông Nam Á lâu nay bị tranh giành sphere-of-influence giữa Trung Quốc và Mỹ."
+            },
+            {
+              "en": "Vietnam tries to balance multiple spheres of influence rather than aligning with one.",
+              "vi": "Việt Nam cố cân bằng nhiều sphere-of-influence thay vì nghiêng về một bên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["zone of influence", "area of control"],
+      "antonyms": [],
+      "collocations": [
+        "expand sphere-of-influence",
+        "Soviet sphere-of-influence",
+        "contested sphere-of-influence"
+      ],
+      "mnemonic_vi": "SPHERE (quả cầu, vùng) + OF + INFLUENCE (ảnh hưởng) = vùng ảnh hưởng. Như chiếc ô bao trùm."
+    },
+    {
+      "word": "border-dispute",
+      "lemma": "border-dispute",
+      "ipa": "/ˈbɔːdə(r) dɪˌspjuːt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a disagreement between two or more nations over the exact location or sovereignty of their shared boundary",
+          "meaning_vi": "tranh chấp biên giới (bất đồng giữa các nước về vị trí hoặc chủ quyền đường biên chung)",
+          "examples": [
+            {
+              "en": "India and China have a long-standing border dispute in the Himalayan region.",
+              "vi": "Ấn Độ và Trung Quốc có border-dispute lâu năm ở khu vực Himalaya."
+            },
+            {
+              "en": "The South China Sea border disputes involve Vietnam, the Philippines, and several other nations.",
+              "vi": "Tranh chấp Biển Đông liên quan Việt Nam, Philippines và một số nước khác."
+            },
+            {
+              "en": "Border disputes are often inherited from colonial-era map-making.",
+              "vi": "Border-dispute thường thừa hưởng từ việc vẽ bản đồ thời thực dân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["territorial dispute", "boundary conflict"],
+      "antonyms": [],
+      "collocations": [
+        "resolve a border dispute",
+        "long-standing border dispute",
+        "armed border dispute"
+      ],
+      "mnemonic_vi": "BORDER (biên) + DISPUTE (tranh chấp) = tranh chấp biên. Đơn giản ghép 2 từ là rõ."
+    },
+    {
+      "word": "sanctions",
+      "lemma": "sanction",
+      "ipa": "/ˈsæŋkʃnz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "official restrictions or penalties imposed by countries on other countries, organizations, or individuals as a coercive measure",
+          "meaning_vi": "biện pháp trừng phạt (cấm vận, hạn chế kinh tế/ngoại giao do nước này áp lên nước khác)",
+          "examples": [
+            {
+              "en": "Western sanctions against Russia targeted oil exports and major banks.",
+              "vi": "Sanctions phương Tây nhắm vào xuất khẩu dầu và các ngân hàng lớn của Nga."
+            },
+            {
+              "en": "The US lifted its embargo and sanctions against Vietnam in 1994.",
+              "vi": "Mỹ dỡ bỏ cấm vận và sanctions với Việt Nam vào năm 1994."
+            },
+            {
+              "en": "Smart sanctions try to hit elites instead of harming ordinary citizens.",
+              "vi": "Smart sanctions nhắm vào giới tinh hoa thay vì gây hại cho dân thường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["penalties", "embargo"],
+      "antonyms": ["incentives"],
+      "collocations": [
+        "economic sanctions",
+        "impose sanctions",
+        "lift sanctions",
+        "targeted sanctions",
+        "violate sanctions"
+      ],
+      "etymology_hint": "From Latin 'sanctio' (a binding ordinance) from 'sancire' (to ratify, make sacred).",
+      "mnemonic_vi": "SANC (thiêng, như 'sanctuary') + TIONS = sắc lệnh thiêng. Sanctions = lệnh trừng phạt chính thức."
+    },
+    {
+      "word": "diplomacy",
+      "lemma": "diplomacy",
+      "ipa": "/dɪˈpləʊməsi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of managing international relations through negotiation, dialogue, and tactful communication rather than force",
+          "meaning_vi": "ngoại giao (quản lý quan hệ quốc tế qua đàm phán, đối thoại, khôn khéo thay vì vũ lực)",
+          "examples": [
+            {
+              "en": "Quiet diplomacy often resolves conflicts that public ultimatums cannot.",
+              "vi": "Ngoại giao thầm lặng thường giải quyết được những xung đột mà tối hậu thư công khai không làm được."
+            },
+            {
+              "en": "Vietnam practices 'bamboo diplomacy' — flexible but rooted, bending without breaking.",
+              "vi": "Việt Nam thực hành 'ngoại giao cây tre' — linh hoạt nhưng có gốc, uốn mà không gãy."
+            },
+            {
+              "en": "Modern diplomacy increasingly happens on social media, not just in embassies.",
+              "vi": "Ngoại giao hiện đại ngày càng diễn ra trên mạng xã hội, không chỉ trong đại sứ quán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["statecraft", "negotiation"],
+      "antonyms": ["warfare"],
+      "collocations": [
+        "shuttle diplomacy",
+        "public diplomacy",
+        "quiet diplomacy",
+        "bamboo diplomacy",
+        "diplomatic channel"
+      ],
+      "etymology_hint": "From French 'diplomatie' from Greek 'diploma' (folded paper) — official document folded in two.",
+      "mnemonic_vi": "DIPLOMA (văn bản gấp, bằng) + CY = nghệ thuật trao văn bản chính thức. Diplomacy = ngoại giao."
+    },
+    {
+      "word": "annexation",
+      "lemma": "annexation",
+      "ipa": "/ˌænekˈseɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the formal incorporation of a territory by a state, often by force or without the consent of the existing population",
+          "meaning_vi": "sự sáp nhập lãnh thổ (đặc biệt bằng vũ lực hoặc không có sự đồng thuận)",
+          "examples": [
+            {
+              "en": "Russia's annexation of Crimea in 2014 was condemned by most Western governments.",
+              "vi": "Việc Nga sáp nhập (annexation) Crimea năm 2014 bị đa số chính phủ phương Tây lên án."
+            },
+            {
+              "en": "The annexation of Hawaii by the United States happened in 1898.",
+              "vi": "Annexation Hawaii bởi Mỹ diễn ra năm 1898."
+            },
+            {
+              "en": "Most countries refuse to recognize annexations made through military force.",
+              "vi": "Đa số nước từ chối công nhận annexation bằng vũ lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["incorporation", "takeover"],
+      "antonyms": ["secession"],
+      "collocations": ["forcible annexation", "annexation of territory", "illegal annexation"],
+      "etymology_hint": "From Latin 'annexus' (joined to) from 'annectere' — territories 'joined' to a larger state.",
+      "mnemonic_vi": "AN (tới) + NEX (buộc, như 'connect') + ATION = buộc thêm vào. Annexation = thôn tính lãnh thổ."
+    },
+    {
+      "word": "hegemony",
+      "lemma": "hegemony",
+      "ipa": "/hɪˈɡeməni/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "dominance or leadership of one state, group, or culture over others, especially in international politics or economy",
+          "meaning_vi": "bá quyền (ưu thế áp đảo, sự dẫn dắt của một quốc gia/nhóm)",
+          "examples": [
+            {
+              "en": "American hegemony shaped the global order from 1945 to roughly 2010.",
+              "vi": "Hegemony của Mỹ định hình trật tự toàn cầu từ 1945 đến khoảng 2010."
+            },
+            {
+              "en": "Some analysts argue we are entering a period without clear hegemony.",
+              "vi": "Một số chuyên gia cho rằng chúng ta đang vào giai đoạn không có hegemony rõ ràng."
+            },
+            {
+              "en": "China's growing economic hegemony in Asia is a hot topic in Vietnamese newspapers.",
+              "vi": "Hegemony kinh tế đang lớn của Trung Quốc ở châu Á là chủ đề nóng trên báo Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dominance", "supremacy"],
+      "antonyms": ["balance of power"],
+      "collocations": [
+        "global hegemony",
+        "cultural hegemony",
+        "economic hegemony",
+        "regional hegemony"
+      ],
+      "etymology_hint": "From Greek 'hēgemonia' (leadership) from 'hēgeisthai' (to lead).",
+      "mnemonic_vi": "HEGE (dẫn dắt) + MONY = sự dẫn dắt áp đảo. Hegemony = bá quyền = vị thế thống soái."
+    },
+    {
+      "word": "multilateral",
+      "lemma": "multilateral",
+      "ipa": "/ˌmʌltiˈlætərəl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "involving more than two nations or parties acting together",
+          "meaning_vi": "đa phương (có sự tham gia của nhiều bên/quốc gia)",
+          "examples": [
+            {
+              "en": "The UN is the world's most important multilateral institution.",
+              "vi": "Liên Hợp Quốc là tổ chức multilateral quan trọng nhất thế giới."
+            },
+            {
+              "en": "Multilateral trade agreements like CPTPP boost Vietnam's exports significantly.",
+              "vi": "Hiệp định thương mại multilateral như CPTPP giúp xuất khẩu Việt tăng mạnh."
+            },
+            {
+              "en": "Climate change can only be solved through multilateral cooperation.",
+              "vi": "Biến đổi khí hậu chỉ có thể giải quyết bằng hợp tác multilateral."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["multi-party"],
+      "antonyms": ["unilateral", "bilateral"],
+      "collocations": [
+        "multilateral agreement",
+        "multilateral institution",
+        "multilateral cooperation",
+        "multilateral talks",
+        "multilateral trade"
+      ],
+      "etymology_hint": "From Latin 'multi' (many) + 'lateralis' (sided) — 'many-sided'.",
+      "mnemonic_vi": "MULTI (nhiều) + LATERAL (bên) = nhiều bên. Multilateral = đa phương."
+    },
+    {
+      "word": "unilateral",
+      "lemma": "unilateral",
+      "ipa": "/ˌjuːnɪˈlætərəl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "performed by or affecting only one side, without consultation or agreement of others",
+          "meaning_vi": "đơn phương (chỉ một bên hành động, không bàn bạc với bên kia)",
+          "examples": [
+            {
+              "en": "The US made a unilateral decision to withdraw troops from Afghanistan in 2021.",
+              "vi": "Mỹ đưa ra quyết định unilateral rút quân khỏi Afghanistan năm 2021."
+            },
+            {
+              "en": "Unilateral sanctions are often less effective than multilateral ones.",
+              "vi": "Unilateral sanctions thường kém hiệu quả hơn sanctions multilateral."
+            },
+            {
+              "en": "Vietnam generally avoids unilateral actions in regional disputes.",
+              "vi": "Việt Nam nói chung tránh hành động unilateral trong tranh chấp khu vực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one-sided"],
+      "antonyms": ["bilateral", "multilateral"],
+      "collocations": [
+        "unilateral action",
+        "unilateral decision",
+        "unilateral withdrawal",
+        "unilateral sanctions"
+      ],
+      "etymology_hint": "From Latin 'uni' (one) + 'lateralis' (sided) — 'one-sided'.",
+      "mnemonic_vi": "UNI (một) + LATERAL (bên) = một bên. Unilateral = đơn phương."
+    },
+    {
+      "word": "proliferation",
+      "lemma": "proliferation",
+      "ipa": "/prəˌlɪfəˈreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the rapid increase or spread of something, especially weapons, nuclear technology, or harmful materials",
+          "meaning_vi": "sự phổ biến, lan rộng (đặc biệt vũ khí hạt nhân, công nghệ nguy hiểm)",
+          "examples": [
+            {
+              "en": "Nuclear proliferation remains one of the biggest threats to global security.",
+              "vi": "Proliferation hạt nhân vẫn là một trong những mối đe dọa lớn nhất với an ninh toàn cầu."
+            },
+            {
+              "en": "The proliferation of fake news has changed political campaigns worldwide.",
+              "vi": "Sự proliferation của tin giả đã thay đổi các chiến dịch chính trị trên toàn thế giới."
+            },
+            {
+              "en": "Vietnam joined the Non-Proliferation Treaty in 1982.",
+              "vi": "Việt Nam tham gia Hiệp ước Không Phổ biến Hạt nhân (Non-Proliferation Treaty) năm 1982."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spread", "rapid increase"],
+      "antonyms": ["containment"],
+      "collocations": [
+        "nuclear proliferation",
+        "weapons proliferation",
+        "non-proliferation treaty",
+        "stem proliferation"
+      ],
+      "etymology_hint": "From Latin 'proles' (offspring) + 'ferre' (to bear) — 'bearing offspring', spreading rapidly.",
+      "mnemonic_vi": "PROLI (con cái) + FER (mang) + ATION = sinh sôi nhân lên. Proliferation = lan rộng."
+    },
+    {
+      "word": "neutrality",
+      "lemma": "neutrality",
+      "ipa": "/njuːˈtræləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the state of not supporting either side in a conflict, war, or international dispute",
+          "meaning_vi": "sự trung lập (không thiên về bên nào trong xung đột hoặc tranh chấp)",
+          "examples": [
+            {
+              "en": "Switzerland has maintained strict neutrality for more than two centuries.",
+              "vi": "Thụy Sĩ duy trì neutrality nghiêm ngặt suốt hơn hai thế kỷ."
+            },
+            {
+              "en": "Vietnam's foreign policy emphasizes independence and neutrality between great powers.",
+              "vi": "Chính sách đối ngoại của Việt Nam nhấn mạnh độc lập và neutrality giữa các cường quốc."
+            },
+            {
+              "en": "Tech platforms face hard questions about political neutrality in moderation.",
+              "vi": "Các nền tảng công nghệ đối mặt câu hỏi khó về neutrality chính trị khi kiểm duyệt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["impartiality", "non-alignment"],
+      "antonyms": ["partisanship", "alignment"],
+      "collocations": [
+        "strict neutrality",
+        "armed neutrality",
+        "maintain neutrality",
+        "political neutrality"
+      ],
+      "etymology_hint": "From Latin 'neuter' (neither) — taking neither side.",
+      "mnemonic_vi": "NEUTR (không cả hai, như 'neutral gear') + ALITY = trạng thái không bên nào. Neutrality = trung lập."
+    },
+    {
+      "word": "geopolitics",
+      "lemma": "geopolitics",
+      "ipa": "/ˌdʒiːəʊˈpɒlətɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the study of how geography, economics, and politics interact to shape international relations and power",
+          "meaning_vi": "địa chính trị (nghiên cứu cách địa lý, kinh tế và chính trị tương tác trên trường quốc tế)",
+          "examples": [
+            {
+              "en": "Energy geopolitics explains why pipeline routes spark major international disputes.",
+              "vi": "Geopolitics năng lượng giải thích vì sao tuyến đường ống dầu khí gây tranh chấp lớn."
+            },
+            {
+              "en": "Vietnam's geopolitics is shaped by its location between China and Southeast Asia.",
+              "vi": "Geopolitics của Việt Nam được định hình bởi vị trí giữa Trung Quốc và Đông Nam Á."
+            },
+            {
+              "en": "Semiconductor geopolitics now drives major investment decisions across Asia.",
+              "vi": "Geopolitics ngành bán dẫn nay dẫn dắt các quyết định đầu tư lớn khắp châu Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["international politics"],
+      "antonyms": [],
+      "collocations": [
+        "global geopolitics",
+        "regional geopolitics",
+        "energy geopolitics",
+        "shifting geopolitics"
+      ],
+      "etymology_hint": "From Greek 'geō' (earth) + 'politikos' (political) — 'earth-politics'.",
+      "mnemonic_vi": "GEO (đất, như 'geography') + POLITICS (chính trị) = chính trị đất đai. Geopolitics = địa chính trị."
+    },
+    {
+      "word": "nuclear-treaty",
+      "lemma": "nuclear-treaty",
+      "ipa": "/ˌnjuːkliə ˈtriːti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a formal agreement between nations regulating nuclear weapons, testing, or technology",
+          "meaning_vi": "hiệp ước hạt nhân (thỏa thuận chính thức giữa các nước về vũ khí hoặc công nghệ hạt nhân)",
+          "examples": [
+            {
+              "en": "The 1968 Non-Proliferation Treaty is the most signed nuclear treaty in history.",
+              "vi": "Hiệp ước Không Phổ biến năm 1968 là nuclear-treaty được ký nhiều nhất lịch sử."
+            },
+            {
+              "en": "The US and Russia have stepped away from several Cold War-era nuclear treaties.",
+              "vi": "Mỹ và Nga đã rời khỏi nhiều nuclear-treaty thời Chiến tranh Lạnh."
+            },
+            {
+              "en": "A new nuclear treaty would face huge resistance in today's tense geopolitical climate.",
+              "vi": "Một nuclear-treaty mới sẽ vấp phải kháng cự lớn trong bầu không khí địa chính trị căng thẳng hiện nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nuclear agreement"],
+      "antonyms": [],
+      "collocations": [
+        "sign a nuclear treaty",
+        "withdraw from a nuclear treaty",
+        "ratify a nuclear treaty"
+      ],
+      "mnemonic_vi": "NUCLEAR (hạt nhân) + TREATY (hiệp ước) = hiệp ước hạt nhân. Ghép 2 từ là rõ nghĩa."
+    },
+    {
+      "word": "arms-race",
+      "lemma": "arms-race",
+      "ipa": "/ˈɑːmz reɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a competition between nations to develop and stockpile more powerful weapons than their rivals",
+          "meaning_vi": "cuộc chạy đua vũ trang (đua nhau phát triển và tích trữ vũ khí mạnh hơn đối thủ)",
+          "examples": [
+            {
+              "en": "The Cold War arms race nearly bankrupted the Soviet Union.",
+              "vi": "Arms-race thời Chiến tranh Lạnh suýt làm Liên Xô phá sản."
+            },
+            {
+              "en": "Analysts worry about a new arms race in hypersonic missiles between major powers.",
+              "vi": "Chuyên gia lo về một arms-race mới về tên lửa siêu thanh giữa các cường quốc."
+            },
+            {
+              "en": "AI development is sometimes called the new arms race of the 21st century.",
+              "vi": "Phát triển AI đôi khi được gọi là arms-race mới của thế kỷ 21."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["weapons competition"],
+      "antonyms": ["disarmament"],
+      "collocations": ["nuclear arms race", "new arms race", "fuel an arms race"],
+      "mnemonic_vi": "ARMS (vũ khí) + RACE (đua) = đua vũ khí. Arms-race = chạy đua vũ trang."
+    },
+    {
+      "word": "nation-state",
+      "lemma": "nation-state",
+      "ipa": "/ˌneɪʃn ˈsteɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a sovereign state whose citizens are largely united by a common language, culture, history, or descent",
+          "meaning_vi": "quốc gia - dân tộc (nhà nước có chủ quyền với dân chia sẻ ngôn ngữ, văn hóa, lịch sử)",
+          "examples": [
+            {
+              "en": "France is often cited as a classic European nation-state.",
+              "vi": "Pháp thường được nhắc đến như một nation-state châu Âu kinh điển."
+            },
+            {
+              "en": "Vietnam emerged as a unified nation-state after centuries of resistance and reunification.",
+              "vi": "Việt Nam trở thành nation-state thống nhất sau hàng thế kỷ kháng chiến và thống nhất."
+            },
+            {
+              "en": "Some scholars argue the nation-state model is weakening in the age of globalization.",
+              "vi": "Một số học giả cho rằng mô hình nation-state đang yếu đi trong thời đại toàn cầu hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sovereign state"],
+      "antonyms": ["empire", "city-state"],
+      "collocations": ["modern nation-state", "rise of the nation-state", "nation-state system"],
+      "mnemonic_vi": "NATION (dân tộc) + STATE (nhà nước) = dân tộc + nhà nước. Nation-state = quốc gia-dân tộc."
+    },
+    {
+      "word": "bilateral",
+      "lemma": "bilateral",
+      "ipa": "/ˌbaɪˈlætərəl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "involving two parties, particularly two nations, in agreements, trade, or negotiations",
+          "meaning_vi": "song phương (giữa hai bên, đặc biệt hai quốc gia)",
+          "examples": [
+            {
+              "en": "Vietnam signed a major bilateral trade agreement with the US in 2000.",
+              "vi": "Việt Nam ký một bilateral thương mại lớn với Mỹ năm 2000."
+            },
+            {
+              "en": "Bilateral relations between India and Vietnam have grown rapidly since 2007.",
+              "vi": "Quan hệ bilateral giữa Ấn Độ và Việt Nam tăng nhanh từ 2007."
+            },
+            {
+              "en": "Bilateral talks often produce faster results than multilateral negotiations.",
+              "vi": "Đàm phán bilateral thường ra kết quả nhanh hơn đàm phán multilateral."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["two-sided"],
+      "antonyms": ["unilateral", "multilateral"],
+      "collocations": [
+        "bilateral agreement",
+        "bilateral trade",
+        "bilateral relations",
+        "bilateral talks",
+        "bilateral treaty"
+      ],
+      "etymology_hint": "From Latin 'bi' (two) + 'lateralis' (sided) — 'two-sided'.",
+      "mnemonic_vi": "BI (hai) + LATERAL (bên) = hai bên. Bilateral = song phương."
+    },
+    {
+      "word": "isolationism",
+      "lemma": "isolationism",
+      "ipa": "/ˌaɪsəˈleɪʃənɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a foreign policy of avoiding involvement in other countries' affairs, alliances, or conflicts",
+          "meaning_vi": "chủ nghĩa biệt lập (chính sách ngoại giao tránh dính líu chuyện nước khác)",
+          "examples": [
+            {
+              "en": "The US embraced isolationism before being pulled into World War II.",
+              "vi": "Mỹ ôm chính sách isolationism trước khi bị cuốn vào Thế chiến II."
+            },
+            {
+              "en": "North Korea has practiced extreme isolationism for decades.",
+              "vi": "Triều Tiên thực hành isolationism cực đoan suốt nhiều thập kỷ."
+            },
+            {
+              "en": "Isolationism is rarely sustainable in an interconnected global economy.",
+              "vi": "Isolationism hiếm khi bền vững trong nền kinh tế toàn cầu kết nối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["non-interventionism"],
+      "antonyms": ["internationalism", "interventionism"],
+      "collocations": ["policy of isolationism", "return to isolationism", "rising isolationism"],
+      "etymology_hint": "From 'isolation' (Latin 'insula' = island) + '-ism' — 'island-mindedness'.",
+      "mnemonic_vi": "ISOLATION (cô lập, như đảo, 'insula') + ISM = chủ nghĩa cô lập. Isolationism = đóng cửa với thế giới."
+    },
+    {
+      "word": "realpolitik",
+      "lemma": "realpolitik",
+      "ipa": "/reɪˈɑːlpɒliˌtiːk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a politics based on practical considerations, power, and material interests rather than ideology or moral principles",
+          "meaning_vi": "chính trị thực dụng (dựa trên lợi ích và quyền lực thực tế, không phải lý tưởng hay đạo đức)",
+          "examples": [
+            {
+              "en": "Henry Kissinger was famous for practicing cold-blooded realpolitik.",
+              "vi": "Henry Kissinger nổi tiếng vì thực hành realpolitik máu lạnh."
+            },
+            {
+              "en": "Some critics say realpolitik ignores human rights for the sake of stability.",
+              "vi": "Một số chỉ trích nói realpolitik bỏ qua nhân quyền để giữ ổn định."
+            },
+            {
+              "en": "Vietnam's foreign policy balances values and realpolitik with skill.",
+              "vi": "Chính sách đối ngoại Việt Nam cân bằng giá trị và realpolitik một cách khéo léo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pragmatic politics", "power politics"],
+      "antonyms": ["idealism"],
+      "collocations": ["cold realpolitik", "practice realpolitik", "realpolitik approach"],
+      "etymology_hint": "From German 'real' (realistic) + 'Politik' (politics) — coined by Ludwig von Rochau in 1853.",
+      "mnemonic_vi": "REAL (thực) + POLITIK (chính trị tiếng Đức) = chính trị thực tế. Realpolitik = chơi theo lợi ích thật."
+    },
+    {
+      "word": "detente",
+      "lemma": "detente",
+      "ipa": "/ˈdeɪtɒnt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the easing of strained relations or hostility between countries, especially political rivals",
+          "meaning_vi": "sự hòa hoãn (giảm căng thẳng giữa các nước đối địch)",
+          "examples": [
+            {
+              "en": "The 1970s saw a brief detente between the US and the Soviet Union.",
+              "vi": "Thập niên 1970 chứng kiến một detente ngắn giữa Mỹ và Liên Xô."
+            },
+            {
+              "en": "Diplomats hope quiet talks will lead to detente between the two rival capitals.",
+              "vi": "Các nhà ngoại giao hy vọng đối thoại thầm lặng sẽ dẫn đến detente giữa hai thủ đô đối địch."
+            },
+            {
+              "en": "Detente can collapse quickly if either side feels provoked.",
+              "vi": "Detente có thể sụp đổ nhanh chóng nếu một bên cảm thấy bị khiêu khích."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thawing of relations", "easing of tensions"],
+      "antonyms": ["escalation"],
+      "collocations": ["policy of detente", "achieve detente", "fragile detente"],
+      "etymology_hint": "From French 'détente' from 'détendre' (to relax, ease) — 'releasing the bowstring'.",
+      "mnemonic_vi": "DE (tháo) + TENTE (căng, từ 'tendere' Latin) = tháo căng. Detente = giảm căng = hòa hoãn."
+    }
+  ]
+}

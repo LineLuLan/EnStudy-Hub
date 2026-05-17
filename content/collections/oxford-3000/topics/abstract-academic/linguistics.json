@@ -1,0 +1,735 @@
+{
+  "slug": "linguistics",
+  "name": "Linguistics",
+  "description": "Ngôn ngữ học B2 — morphology, phonology, syntax, pragmatics và 20 thuật ngữ cho người yêu ngôn ngữ.",
+  "order_index": 15,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "morphology",
+      "lemma": "morphology",
+      "ipa": "/mɔːˈfɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the linguistic study of how words are formed from smaller meaningful units called morphemes",
+          "meaning_vi": "hình thái học (nghiên cứu cách từ được cấu tạo từ các đơn vị nghĩa nhỏ hơn)",
+          "examples": [
+            {
+              "en": "English morphology is relatively simple compared to Latin's complex case system.",
+              "vi": "Hình thái học tiếng Anh khá đơn giản so với hệ cách phức tạp của Latin."
+            },
+            {
+              "en": "Vietnamese has no inflectional morphology, relying entirely on word order and particles.",
+              "vi": "Tiếng Việt không có hình thái biến tố, phụ thuộc hoàn toàn vào trật tự từ và tiểu từ."
+            },
+            {
+              "en": "Students of morphology learn to split words like 'unhappiness' into un-, happy, -ness.",
+              "vi": "Sinh viên morphology học cách tách 'unhappiness' thành un-, happy, -ness."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["word formation"],
+      "antonyms": [],
+      "collocations": [
+        "inflectional morphology",
+        "derivational morphology",
+        "verb morphology",
+        "morphology and syntax",
+        "comparative morphology"
+      ],
+      "etymology_hint": "From Greek 'morphē' (form) + 'logia' (study) — literally 'the study of form'.",
+      "mnemonic_vi": "MORPHO (hình, như 'metamorphosis') + LOGY (học) = học về hình từ. Hình thái = morphology."
+    },
+    {
+      "word": "semantics",
+      "lemma": "semantics",
+      "ipa": "/sɪˈmæntɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of linguistics concerned with the meaning of words, phrases, and sentences",
+          "meaning_vi": "ngữ nghĩa học (nghiên cứu nghĩa của từ, cụm từ và câu)",
+          "examples": [
+            {
+              "en": "The semantics of 'love' differs subtly across English, Vietnamese, and Greek.",
+              "vi": "Ngữ nghĩa của từ 'love' khác nhau tinh tế giữa tiếng Anh, tiếng Việt và Hy Lạp."
+            },
+            {
+              "en": "Lexical semantics studies how individual word meanings are stored mentally.",
+              "vi": "Ngữ nghĩa từ vựng nghiên cứu cách nghĩa của từ được lưu trong trí não."
+            },
+            {
+              "en": "Their argument was really about semantics, not the underlying facts.",
+              "vi": "Cuộc tranh cãi của họ thực ra là về câu chữ (semantics), không phải về sự thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meaning study"],
+      "antonyms": [],
+      "collocations": [
+        "lexical semantics",
+        "formal semantics",
+        "argue over semantics",
+        "semantics and pragmatics",
+        "compositional semantics"
+      ],
+      "etymology_hint": "From Greek 'sēmantikos' (significant) from 'sēma' (sign) — the study of signs and meaning.",
+      "mnemonic_vi": "SEMA (dấu hiệu, sign) + NTICS = nghiên cứu dấu hiệu ngôn ngữ. Sign → semantics → nghĩa."
+    },
+    {
+      "word": "pragmatics",
+      "lemma": "pragmatics",
+      "ipa": "/præɡˈmætɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of linguistics that studies how context affects meaning, including speaker intent and implicature",
+          "meaning_vi": "ngữ dụng học (nghiên cứu cách ngữ cảnh ảnh hưởng đến nghĩa và ý định người nói)",
+          "examples": [
+            {
+              "en": "Pragmatics explains why 'Can you pass the salt?' is a request, not a literal question.",
+              "vi": "Pragmatics giải thích tại sao 'Can you pass the salt?' là một lời nhờ, không phải câu hỏi đúng nghĩa."
+            },
+            {
+              "en": "Vietnamese politeness markers like 'ạ' are studied in cross-cultural pragmatics.",
+              "vi": "Các từ thể hiện sự lễ phép tiếng Việt như 'ạ' được nghiên cứu trong pragmatics liên văn hóa."
+            },
+            {
+              "en": "Pragmatics also covers irony, sarcasm, and figurative language interpretation.",
+              "vi": "Pragmatics còn bao gồm việc hiểu mỉa mai, châm biếm và ngôn ngữ ẩn dụ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["language-use study"],
+      "antonyms": [],
+      "collocations": [
+        "speech-act pragmatics",
+        "cross-cultural pragmatics",
+        "discourse pragmatics",
+        "pragmatic competence",
+        "pragmatic inference"
+      ],
+      "etymology_hint": "From Greek 'pragma' (action, deed) — pragmatics studies language in action, not in isolation.",
+      "mnemonic_vi": "PRAGMA (hành động, thực dụng) + TICS = nghiên cứu ngôn ngữ trong hành động. Pragmatic = thực tế."
+    },
+    {
+      "word": "phoneme",
+      "lemma": "phoneme",
+      "ipa": "/ˈfəʊniːm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the smallest unit of sound in a language that can distinguish one word from another",
+          "meaning_vi": "âm vị (đơn vị âm thanh nhỏ nhất phân biệt được nghĩa của từ)",
+          "examples": [
+            {
+              "en": "English has roughly 44 phonemes, while Vietnamese has around 35 plus six tones.",
+              "vi": "Tiếng Anh có khoảng 44 phoneme, trong khi tiếng Việt có khoảng 35 cộng với 6 thanh điệu."
+            },
+            {
+              "en": "The phonemes /p/ and /b/ distinguish 'pat' from 'bat' in English.",
+              "vi": "Hai phoneme /p/ và /b/ phân biệt 'pat' và 'bat' trong tiếng Anh."
+            },
+            {
+              "en": "Vietnamese learners often struggle with English phonemes like /θ/ in 'think'.",
+              "vi": "Người Việt học tiếng Anh thường vật lộn với phoneme /θ/ trong 'think'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sound unit"],
+      "antonyms": [],
+      "collocations": [
+        "vowel phoneme",
+        "consonant phoneme",
+        "phoneme inventory",
+        "minimal pair phoneme",
+        "phoneme awareness"
+      ],
+      "etymology_hint": "From Greek 'phōnēma' (sound, utterance) from 'phōnein' (to speak).",
+      "mnemonic_vi": "PHONE (âm thanh, điện thoại) + ME (đơn vị) = đơn vị âm thanh. Phoneme = âm vị."
+    },
+    {
+      "word": "syntax",
+      "lemma": "syntax",
+      "ipa": "/ˈsɪntæks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the set of rules governing how words combine to form phrases and sentences in a language",
+          "meaning_vi": "cú pháp (hệ thống quy tắc kết hợp từ thành cụm và câu)",
+          "examples": [
+            {
+              "en": "English syntax follows a Subject-Verb-Object pattern in most simple sentences.",
+              "vi": "Cú pháp tiếng Anh theo mẫu Chủ-Động-Tân trong hầu hết câu đơn giản."
+            },
+            {
+              "en": "Vietnamese syntax allows topic-comment structures that confuse English learners.",
+              "vi": "Cú pháp tiếng Việt cho phép cấu trúc chủ đề-bình luận khiến người học tiếng Anh bối rối."
+            },
+            {
+              "en": "Programming languages also have strict syntax rules, like punctuation in code.",
+              "vi": "Ngôn ngữ lập trình cũng có quy tắc syntax nghiêm ngặt, như dấu câu trong code."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sentence structure", "grammar rules"],
+      "antonyms": [],
+      "collocations": [
+        "syntax tree",
+        "complex syntax",
+        "syntax error",
+        "generative syntax",
+        "syntax and morphology"
+      ],
+      "etymology_hint": "From Greek 'syn' (together) + 'tassein' (to arrange) — literally 'arranging together'.",
+      "mnemonic_vi": "SYN (cùng) + TAX (sắp, ngẫm như 'taxi' arranged?) = sắp xếp cùng nhau. Syntax = trật tự câu."
+    },
+    {
+      "word": "lexicon",
+      "lemma": "lexicon",
+      "ipa": "/ˈleksɪkən/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the complete vocabulary of a language, a field, or an individual speaker's mental dictionary",
+          "meaning_vi": "từ vựng, kho từ (toàn bộ vốn từ của một ngôn ngữ hoặc một người)",
+          "examples": [
+            {
+              "en": "The medical lexicon contains thousands of specialized Latin and Greek terms.",
+              "vi": "Lexicon y học chứa hàng nghìn thuật ngữ chuyên ngành gốc Latin và Hy Lạp."
+            },
+            {
+              "en": "Vietnamese has borrowed extensively from the Chinese lexicon throughout history.",
+              "vi": "Tiếng Việt đã vay mượn nhiều từ lexicon Hán suốt chiều dài lịch sử."
+            },
+            {
+              "en": "A child's lexicon expands rapidly between ages two and five.",
+              "vi": "Lexicon của trẻ mở rộng nhanh trong khoảng từ 2 đến 5 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["vocabulary", "word stock"],
+      "antonyms": [],
+      "collocations": [
+        "mental lexicon",
+        "specialized lexicon",
+        "expand the lexicon",
+        "lexicon entry"
+      ],
+      "etymology_hint": "From Greek 'lexikon (biblion)' = '(book) of words', from 'lexis' (word).",
+      "mnemonic_vi": "LEXI (từ, like 'Alexa') + CON (tập hợp) = tập hợp từ. Lexicon = kho từ."
+    },
+    {
+      "word": "cognate",
+      "lemma": "cognate",
+      "ipa": "/ˈkɒɡneɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a word that shares a common origin with a word in another language, typically with similar form and meaning",
+          "meaning_vi": "từ cùng gốc (giống dạng và nghĩa qua các ngôn ngữ vì cùng tổ tiên ngôn ngữ)",
+          "examples": [
+            {
+              "en": "English 'mother', German 'Mutter', and Sanskrit 'mātṛ' are cognates.",
+              "vi": "Tiếng Anh 'mother', Đức 'Mutter' và Phạn 'mātṛ' là các cognate."
+            },
+            {
+              "en": "Spanish learners benefit from thousands of English-Spanish cognates like 'animal' or 'doctor'.",
+              "vi": "Người học tiếng Tây Ban Nha hưởng lợi từ hàng ngàn cognate Anh-Tây như 'animal' hay 'doctor'."
+            },
+            {
+              "en": "Some cognates are false friends, like English 'embarrassed' vs Spanish 'embarazada' (pregnant).",
+              "vi": "Một số cognate là bạn giả, như 'embarrassed' tiếng Anh vs 'embarazada' tiếng Tây (= có thai)."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["related word"],
+      "antonyms": ["false friend"],
+      "collocations": ["true cognate", "false cognate", "cognate language", "cognate pair"],
+      "etymology_hint": "From Latin 'cognatus' = 'related by birth', from 'co-' (together) + 'gnatus' (born).",
+      "mnemonic_vi": "CO (cùng) + GNATE (sinh ra) = sinh cùng một gốc. Cognate = từ 'anh em' giữa các ngôn ngữ."
+    },
+    {
+      "word": "inflection",
+      "lemma": "inflection",
+      "ipa": "/ɪnˈflekʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the modification of a word to express grammatical features like tense, number, person, or case",
+          "meaning_vi": "biến tố (biến đổi hình thái của từ để diễn tả thì, số, ngôi, cách)",
+          "examples": [
+            {
+              "en": "English inflection is limited mainly to plurals, possessives, and verb tenses.",
+              "vi": "Biến tố tiếng Anh chủ yếu giới hạn ở số nhiều, sở hữu và thì động từ."
+            },
+            {
+              "en": "Latin has rich inflection, with verbs taking up to 100 different forms.",
+              "vi": "Tiếng Latin có biến tố phong phú, động từ có thể có tới 100 hình thái khác nhau."
+            },
+            {
+              "en": "Vietnamese expresses tense without any inflection, using time words instead.",
+              "vi": "Tiếng Việt diễn tả thì mà không cần biến tố, dùng từ chỉ thời gian thay thế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["word modification"],
+      "antonyms": [],
+      "collocations": [
+        "verb inflection",
+        "noun inflection",
+        "inflection paradigm",
+        "rich inflection"
+      ],
+      "etymology_hint": "From Latin 'inflectere' (to bend) — words are 'bent' into different grammatical forms.",
+      "mnemonic_vi": "IN (vào) + FLECT (uốn, như 'reflect') + ION = uốn cong dạng từ. Inflection = uốn từ theo ngữ pháp."
+    },
+    {
+      "word": "orthography",
+      "lemma": "orthography",
+      "ipa": "/ɔːˈθɒɡrəfi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the conventional spelling system of a language, including rules for writing and punctuation",
+          "meaning_vi": "chính tả (hệ thống chữ viết và quy tắc của một ngôn ngữ)",
+          "examples": [
+            {
+              "en": "English orthography is notoriously irregular, full of silent letters and exceptions.",
+              "vi": "Orthography tiếng Anh nổi tiếng bất quy tắc, đầy chữ câm và ngoại lệ."
+            },
+            {
+              "en": "Vietnamese orthography was reformed in the 17th century to use the Latin alphabet.",
+              "vi": "Chính tả tiếng Việt được cải cách thế kỷ 17 để dùng bảng chữ Latin."
+            },
+            {
+              "en": "Phonemic orthographies, like Spanish, match spelling closely to pronunciation.",
+              "vi": "Chính tả theo âm vị, như tiếng Tây Ban Nha, ghép chữ sát với cách phát âm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spelling system", "writing system"],
+      "antonyms": [],
+      "collocations": [
+        "English orthography",
+        "phonemic orthography",
+        "orthographic reform",
+        "irregular orthography"
+      ],
+      "etymology_hint": "From Greek 'orthos' (correct) + 'graphia' (writing) — literally 'correct writing'.",
+      "mnemonic_vi": "ORTHO (đúng, như 'orthodontist' chỉnh răng) + GRAPHY (viết) = viết đúng = chính tả."
+    },
+    {
+      "word": "phonetic",
+      "lemma": "phonetic",
+      "ipa": "/fəˈnetɪk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to the actual sounds of human speech and how they are produced and perceived",
+          "meaning_vi": "thuộc ngữ âm (mô tả âm thanh lời nói thực tế)",
+          "examples": [
+            {
+              "en": "The International Phonetic Alphabet (IPA) is used to transcribe sounds of every language.",
+              "vi": "Bảng IPA được dùng để phiên âm âm thanh của mọi ngôn ngữ."
+            },
+            {
+              "en": "Phonetic spelling shows how a word sounds, not how it is conventionally written.",
+              "vi": "Phiên âm phonetic thể hiện cách từ được phát âm, không phải cách viết quy ước."
+            },
+            {
+              "en": "Vietnamese is largely phonetic — words are usually spelled the way they sound.",
+              "vi": "Tiếng Việt khá phonetic — từ thường được viết đúng như cách đọc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pronunciation-based"],
+      "antonyms": ["orthographic"],
+      "collocations": [
+        "phonetic alphabet",
+        "phonetic transcription",
+        "phonetic spelling",
+        "phonetic features",
+        "phonetic symbol"
+      ],
+      "etymology_hint": "From Greek 'phōnētikos' from 'phōnē' (sound, voice).",
+      "mnemonic_vi": "PHONE (âm) + TIC = thuộc về âm. Phonetic = thuộc ngữ âm. Phonetic alphabet = bảng phiên âm."
+    },
+    {
+      "word": "allophone",
+      "lemma": "allophone",
+      "ipa": "/ˈæləfəʊn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "one of several possible pronunciations of a single phoneme, varying by context but not changing meaning",
+          "meaning_vi": "biến thể âm vị (cách phát âm khác nhau của cùng một âm vị, không đổi nghĩa)",
+          "examples": [
+            {
+              "en": "The aspirated [pʰ] in 'pin' and unaspirated [p] in 'spin' are allophones of /p/.",
+              "vi": "Âm bật hơi [pʰ] trong 'pin' và không bật hơi [p] trong 'spin' là allophone của /p/."
+            },
+            {
+              "en": "Allophones do not distinguish meaning the way phonemes do.",
+              "vi": "Allophone không phân biệt nghĩa như phoneme."
+            },
+            {
+              "en": "Native speakers usually don't notice the allophones they produce automatically.",
+              "vi": "Người bản ngữ thường không để ý các allophone họ phát ra một cách tự động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sound variant"],
+      "antonyms": [],
+      "collocations": [
+        "allophone of a phoneme",
+        "free-variation allophone",
+        "complementary-distribution allophone"
+      ],
+      "etymology_hint": "From Greek 'allos' (other) + 'phōnē' (sound) — literally 'another sound' for the same unit.",
+      "mnemonic_vi": "ALLO (khác, other) + PHONE (âm) = âm khác của cùng âm vị. Biến thể của phoneme."
+    },
+    {
+      "word": "morpheme",
+      "lemma": "morpheme",
+      "ipa": "/ˈmɔːfiːm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the smallest meaningful unit of language, such as a root, prefix, or suffix",
+          "meaning_vi": "hình vị (đơn vị nhỏ nhất có nghĩa của ngôn ngữ — gốc, tiền tố, hậu tố)",
+          "examples": [
+            {
+              "en": "The word 'unhappiness' contains three morphemes: un-, happy, and -ness.",
+              "vi": "Từ 'unhappiness' chứa ba morpheme: un-, happy, và -ness."
+            },
+            {
+              "en": "Free morphemes like 'dog' can stand alone, while bound morphemes like '-s' cannot.",
+              "vi": "Morpheme tự do như 'dog' đứng độc lập được, còn morpheme phụ thuộc như '-s' thì không."
+            },
+            {
+              "en": "Vietnamese mostly uses free morphemes, since each syllable is typically meaningful.",
+              "vi": "Tiếng Việt chủ yếu dùng morpheme tự do, vì mỗi âm tiết thường có nghĩa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meaning unit"],
+      "antonyms": [],
+      "collocations": ["free morpheme", "bound morpheme", "morpheme analysis", "lexical morpheme"],
+      "etymology_hint": "From Greek 'morphē' (form) + '-eme' (linguistic unit suffix, like phoneme).",
+      "mnemonic_vi": "MORPH (hình) + EME (đơn vị) = đơn vị có hình + nghĩa. Morpheme = hình vị (so với phoneme = âm vị)."
+    },
+    {
+      "word": "syllable",
+      "lemma": "syllable",
+      "ipa": "/ˈsɪləbl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a unit of pronunciation consisting of a vowel sound, with or without surrounding consonants",
+          "meaning_vi": "âm tiết (đơn vị phát âm gồm một nguyên âm, có thể kèm phụ âm)",
+          "examples": [
+            {
+              "en": "'Banana' has three syllables: ba-na-na.",
+              "vi": "'Banana' có ba âm tiết: ba-na-na."
+            },
+            {
+              "en": "Vietnamese is a monosyllabic language — each word is usually one syllable.",
+              "vi": "Tiếng Việt đơn âm tiết — mỗi từ thường là một âm tiết."
+            },
+            {
+              "en": "Stress falls on different syllables in 'rebel' (noun) vs 'rebel' (verb).",
+              "vi": "Trọng âm rơi vào âm tiết khác nhau trong 'rebel' (danh từ) vs 'rebel' (động từ)."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sound unit"],
+      "antonyms": [],
+      "collocations": [
+        "stressed syllable",
+        "open syllable",
+        "syllable structure",
+        "first syllable"
+      ],
+      "etymology_hint": "From Greek 'syllabē' (a 'taking together', a group of letters/sounds).",
+      "mnemonic_vi": "SYL (cùng) + LABLE (lấy) = lấy chùm âm. Âm tiết = chùm âm nói cùng một nhịp."
+    },
+    {
+      "word": "intonation",
+      "lemma": "intonation",
+      "ipa": "/ˌɪntəˈneɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the rise and fall of pitch in spoken language, used to convey grammatical meaning or emotion",
+          "meaning_vi": "ngữ điệu (sự lên xuống của giọng nói để truyền đạt ngữ pháp hoặc cảm xúc)",
+          "examples": [
+            {
+              "en": "Rising intonation at the end of a sentence usually signals a yes-no question in English.",
+              "vi": "Ngữ điệu lên cuối câu thường báo hiệu câu hỏi yes-no trong tiếng Anh."
+            },
+            {
+              "en": "Vietnamese tones are different from intonation — tones change word meaning entirely.",
+              "vi": "Thanh điệu tiếng Việt khác ngữ điệu — thanh điệu đổi nghĩa từ hoàn toàn."
+            },
+            {
+              "en": "Sarcasm is often expressed through intonation rather than word choice.",
+              "vi": "Mỉa mai thường được thể hiện qua ngữ điệu hơn là lựa chọn từ ngữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pitch pattern"],
+      "antonyms": [],
+      "collocations": [
+        "rising intonation",
+        "falling intonation",
+        "natural intonation",
+        "intonation pattern"
+      ],
+      "etymology_hint": "From Latin 'intonare' (to thunder, to sound), via French 'intonation' — the 'tone' in speech.",
+      "mnemonic_vi": "IN (vào) + TONA (tone, âm) + TION = đưa tone vào lời nói. Intonation = ngữ điệu."
+    },
+    {
+      "word": "discourse",
+      "lemma": "discourse",
+      "ipa": "/ˈdɪskɔːs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a structured stretch of language above the sentence level, such as a conversation, speech, or text",
+          "meaning_vi": "diễn ngôn, ngôn bản (đơn vị ngôn ngữ trên cấp câu — hội thoại, bài viết)",
+          "examples": [
+            {
+              "en": "Political discourse in Vietnam has evolved significantly with social media.",
+              "vi": "Diễn ngôn chính trị ở Việt Nam đã biến chuyển đáng kể nhờ mạng xã hội."
+            },
+            {
+              "en": "Discourse analysis examines how language is used in social context.",
+              "vi": "Phân tích diễn ngôn xem xét cách ngôn ngữ được dùng trong bối cảnh xã hội."
+            },
+            {
+              "en": "Academic discourse follows different conventions from casual conversation.",
+              "vi": "Diễn ngôn học thuật theo quy ước khác hẳn hội thoại thông thường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["text", "language in use"],
+      "antonyms": [],
+      "collocations": [
+        "discourse analysis",
+        "political discourse",
+        "academic discourse",
+        "public discourse",
+        "discourse marker"
+      ],
+      "etymology_hint": "From Latin 'discursus' (a running about, conversation), from 'dis-' (apart) + 'currere' (to run).",
+      "mnemonic_vi": "DIS (đi khắp) + COURSE (đường, dòng chảy) = dòng chảy ngôn ngữ. Discourse = diễn ngôn."
+    },
+    {
+      "word": "corpus",
+      "lemma": "corpus",
+      "ipa": "/ˈkɔːpəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large, structured collection of texts or speech used as data for linguistic analysis",
+          "meaning_vi": "ngữ liệu (tập văn bản hoặc lời nói lớn dùng làm dữ liệu phân tích ngôn ngữ)",
+          "examples": [
+            {
+              "en": "The British National Corpus contains 100 million words of English from various sources.",
+              "vi": "Corpus Quốc gia Anh chứa 100 triệu từ tiếng Anh từ nhiều nguồn."
+            },
+            {
+              "en": "Linguists query a corpus to see how often specific phrases occur in real usage.",
+              "vi": "Nhà ngôn ngữ học tra corpus để xem cụm từ cụ thể xuất hiện bao nhiêu lần trong thực tế."
+            },
+            {
+              "en": "A Vietnamese corpus is being built by linguists at VNU and HUS.",
+              "vi": "Một corpus tiếng Việt đang được xây dựng bởi các nhà ngôn ngữ học ở VNU và HUS."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["text collection", "language database"],
+      "antonyms": [],
+      "collocations": ["corpus linguistics", "spoken corpus", "parallel corpus", "build a corpus"],
+      "etymology_hint": "From Latin 'corpus' (body) — a 'body' of texts gathered together.",
+      "mnemonic_vi": "CORPUS = thân thể (Latin). Thân thể chữ = tập văn bản. Corpus linguistics = ngôn ngữ học theo corpus."
+    },
+    {
+      "word": "phonology",
+      "lemma": "phonology",
+      "ipa": "/fəˈnɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the branch of linguistics that studies how sounds function and pattern within particular languages",
+          "meaning_vi": "âm vị học (nghiên cứu cách âm thanh vận hành và tổ chức trong từng ngôn ngữ)",
+          "examples": [
+            {
+              "en": "English phonology has 44 phonemes organized into vowels, consonants, and diphthongs.",
+              "vi": "Phonology tiếng Anh có 44 âm vị tổ chức thành nguyên âm, phụ âm và nguyên âm đôi."
+            },
+            {
+              "en": "Vietnamese phonology is famous for its rich tone system with six contrastive tones.",
+              "vi": "Phonology tiếng Việt nổi tiếng vì hệ thanh điệu phong phú với 6 thanh đối lập."
+            },
+            {
+              "en": "Phonology differs from phonetics: it focuses on patterns, not raw sound production.",
+              "vi": "Phonology khác phonetics: tập trung vào quy luật, không phải cách phát âm thô."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sound-pattern study"],
+      "antonyms": [],
+      "collocations": [
+        "comparative phonology",
+        "historical phonology",
+        "phonology and phonetics",
+        "tonal phonology",
+        "phonology rules"
+      ],
+      "etymology_hint": "From Greek 'phōnē' (sound) + 'logia' (study) — 'the study of sound'.",
+      "mnemonic_vi": "PHONO (âm) + LOGY (học) = học về âm thanh. Phonology = âm vị học (so với phonetics = ngữ âm học)."
+    },
+    {
+      "word": "sociolinguistics",
+      "lemma": "sociolinguistics",
+      "ipa": "/ˌsəʊsiəʊlɪŋˈɡwɪstɪks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the study of how language varies and changes in different social groups, regions, or contexts",
+          "meaning_vi": "ngôn ngữ xã hội học (nghiên cứu sự biến đổi ngôn ngữ theo nhóm xã hội, vùng miền)",
+          "examples": [
+            {
+              "en": "Sociolinguistics explores why teenagers use slang their parents don't understand.",
+              "vi": "Sociolinguistics tìm hiểu vì sao tuổi teen dùng tiếng lóng mà cha mẹ không hiểu."
+            },
+            {
+              "en": "Vietnamese sociolinguistics studies how Northern and Southern dialects differ.",
+              "vi": "Sociolinguistics tiếng Việt nghiên cứu sự khác biệt giữa giọng Bắc và Nam."
+            },
+            {
+              "en": "Code-switching between English and Vietnamese is a hot topic in sociolinguistics today.",
+              "vi": "Chuyển mã giữa tiếng Anh và Việt là chủ đề nóng trong sociolinguistics hiện nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["social linguistics"],
+      "antonyms": [],
+      "collocations": [
+        "urban sociolinguistics",
+        "variationist sociolinguistics",
+        "sociolinguistic interview",
+        "sociolinguistic variation"
+      ],
+      "mnemonic_vi": "SOCIO (xã hội) + LINGUISTICS (ngôn ngữ học) = ngôn ngữ học xã hội. Ghép 2 chữ là rõ nghĩa."
+    },
+    {
+      "word": "grapheme",
+      "lemma": "grapheme",
+      "ipa": "/ˈɡræfiːm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the smallest distinctive unit in a writing system, such as a single letter or a fixed combination of letters",
+          "meaning_vi": "tự vị (đơn vị viết nhỏ nhất phân biệt được — một chữ cái hoặc tổ hợp cố định)",
+          "examples": [
+            {
+              "en": "In English, the grapheme 'ch' represents a single sound in 'church'.",
+              "vi": "Trong tiếng Anh, grapheme 'ch' thể hiện một âm trong từ 'church'."
+            },
+            {
+              "en": "Chinese uses logographic graphemes, where each character represents a word or morpheme.",
+              "vi": "Tiếng Trung dùng grapheme biểu tượng, mỗi ký tự đại diện một từ hoặc hình vị."
+            },
+            {
+              "en": "Vietnamese tone marks are graphemes that distinguish 'ma', 'má', 'mả', 'mạ', 'mã', 'mà'.",
+              "vi": "Dấu thanh tiếng Việt là grapheme phân biệt 'ma', 'má', 'mả', 'mạ', 'mã', 'mà'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["written unit"],
+      "antonyms": [],
+      "collocations": ["grapheme-phoneme correspondence", "complex grapheme"],
+      "etymology_hint": "From Greek 'graphē' (writing) + '-eme' (linguistic unit suffix) — parallel to phoneme and morpheme.",
+      "mnemonic_vi": "GRAPH (viết, như 'graphic') + EME (đơn vị) = đơn vị viết. Grapheme = tự vị."
+    },
+    {
+      "word": "philology",
+      "lemma": "philology",
+      "ipa": "/fɪˈlɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the historical study of language and its development, especially through ancient literary texts",
+          "meaning_vi": "ngữ văn học, ngôn ngữ học lịch sử (nghiên cứu ngôn ngữ qua văn bản cổ)",
+          "examples": [
+            {
+              "en": "J.R.R. Tolkien was a professor of philology before he wrote 'The Lord of the Rings'.",
+              "vi": "J.R.R. Tolkien là giáo sư philology trước khi viết 'Chúa Tể Những Chiếc Nhẫn'."
+            },
+            {
+              "en": "Classical philology focuses on Greek and Latin texts to trace language evolution.",
+              "vi": "Philology cổ điển tập trung vào văn bản Hy Lạp và Latin để truy nguồn gốc ngôn ngữ."
+            },
+            {
+              "en": "Vietnamese philology examines old Chữ Nôm texts to understand language history.",
+              "vi": "Philology tiếng Việt nghiên cứu văn bản Chữ Nôm cổ để hiểu lịch sử ngôn ngữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["historical linguistics", "textual scholarship"],
+      "antonyms": [],
+      "collocations": [
+        "classical philology",
+        "comparative philology",
+        "professor of philology",
+        "philology and literature"
+      ],
+      "etymology_hint": "From Greek 'philos' (loving) + 'logos' (word) — literally 'love of words'.",
+      "mnemonic_vi": "PHILO (yêu, như 'philosophy') + LOGY (học, lời) = yêu lời nói cổ. Philology = ngữ văn học cổ."
+    }
+  ]
+}

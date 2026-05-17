@@ -1,0 +1,753 @@
+{
+  "slug": "finance-advanced",
+  "name": "Advanced Finance",
+  "description": "Tài chính nâng cao B2 — phái sinh, arbitrage, volatility, fiscal/monetary và 20 thuật ngữ cho trader & nhà phân tích.",
+  "order_index": 18,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "derivative",
+      "lemma": "derivative",
+      "ipa": "/dɪˈrɪvətɪv/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a financial contract whose value depends on the price of an underlying asset such as a stock, bond, or commodity",
+          "meaning_vi": "công cụ phái sinh (giá trị phụ thuộc vào tài sản gốc — cổ phiếu, trái phiếu, hàng hóa)",
+          "examples": [
+            {
+              "en": "Futures and options are the two most common derivatives in modern markets.",
+              "vi": "Hợp đồng tương lai và quyền chọn là hai phái sinh phổ biến nhất trong thị trường hiện đại."
+            },
+            {
+              "en": "She trades equity derivatives at a hedge fund in Hong Kong.",
+              "vi": "Cô ấy giao dịch phái sinh cổ phiếu tại một quỹ đầu cơ ở Hồng Kông."
+            },
+            {
+              "en": "Vietnamese banks now offer derivative products to large corporate clients.",
+              "vi": "Ngân hàng Việt giờ đã chào bán sản phẩm phái sinh cho doanh nghiệp lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["futures contract", "options contract"],
+      "antonyms": ["underlying asset"],
+      "collocations": [
+        "exotic derivative",
+        "trade derivatives",
+        "credit derivative",
+        "derivative market",
+        "derivative pricing"
+      ],
+      "etymology_hint": "From Latin 'derivare' (to draw off, divert from a source) — value is derived from another asset.",
+      "mnemonic_vi": "DERIVE (suy ra) + ATIVE = công cụ có giá trị suy ra từ tài sản khác. Phái sinh = 'phải sinh ra' từ gốc."
+    },
+    {
+      "word": "arbitrage",
+      "lemma": "arbitrage",
+      "ipa": "/ˈɑːbɪtrɑːʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of buying an asset in one market and selling it almost simultaneously in another to profit from price differences",
+          "meaning_vi": "kinh doanh chênh lệch giá (mua thấp ở thị trường này, bán cao ở thị trường khác gần như cùng lúc)",
+          "examples": [
+            {
+              "en": "Crypto arbitrage between exchanges can yield small but very quick profits.",
+              "vi": "Arbitrage tiền số giữa các sàn cho lợi nhuận nhỏ nhưng rất nhanh."
+            },
+            {
+              "en": "High-frequency traders use algorithms to exploit arbitrage opportunities in milliseconds.",
+              "vi": "Trader HFT dùng thuật toán để tận dụng cơ hội arbitrage trong vài mili-giây."
+            },
+            {
+              "en": "Saigon-based traders sometimes arbitrage Vietnamese stocks against their US ADR listings.",
+              "vi": "Trader Sài Gòn đôi khi arbitrage cổ phiếu Việt với mã ADR niêm yết tại Mỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["price-difference trading"],
+      "antonyms": [],
+      "collocations": [
+        "regulatory arbitrage",
+        "currency arbitrage",
+        "arbitrage opportunity",
+        "arbitrage profit",
+        "statistical arbitrage"
+      ],
+      "etymology_hint": "From French 'arbitrage' = arbitration, judgment — in finance: judging price differences between markets.",
+      "mnemonic_vi": "ARBI (giữa) + TRAGE (giao dịch) = giao dịch ở giữa các thị trường. Hãy nghĩ 'trọng tài giá' đứng giữa 2 sàn."
+    },
+    {
+      "word": "volatility",
+      "lemma": "volatility",
+      "ipa": "/ˌvɒləˈtɪləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the degree of variation of a trading price over time, typically measured by standard deviation of returns",
+          "meaning_vi": "độ biến động (mức tăng/giảm giá mạnh và nhanh, đo bằng độ lệch chuẩn)",
+          "examples": [
+            {
+              "en": "Bitcoin's extreme volatility scares conservative investors away from the asset class.",
+              "vi": "Độ biến động cực lớn của Bitcoin làm nhà đầu tư bảo thủ tránh xa lớp tài sản này."
+            },
+            {
+              "en": "Implied volatility is a key input in option pricing models like Black-Scholes.",
+              "vi": "Volatility ngầm là biến số chính trong mô hình định giá quyền chọn như Black-Scholes."
+            },
+            {
+              "en": "VN-Index showed unusually high volatility during the 2022 correction.",
+              "vi": "VN-Index biến động mạnh bất thường trong đợt điều chỉnh năm 2022."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fluctuation", "price instability"],
+      "antonyms": ["stability"],
+      "collocations": [
+        "market volatility",
+        "implied volatility",
+        "high volatility",
+        "volatility index",
+        "volatility spike"
+      ],
+      "etymology_hint": "From Latin 'volare' (to fly) — prices that 'fly' up and down.",
+      "mnemonic_vi": "VOLA (bay, volare Latin) + TILITY = sự bay lên bay xuống của giá. 'Volatile' = dễ bay = dễ biến động."
+    },
+    {
+      "word": "par-value",
+      "lemma": "par-value",
+      "ipa": "/pɑː ˈvæljuː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the face value of a bond or stock as stated on the certificate, often different from market value",
+          "meaning_vi": "mệnh giá (giá danh nghĩa in trên chứng khoán, thường khác giá thị trường)",
+          "examples": [
+            {
+              "en": "A corporate bond may have a par value of $1,000 but trade at $980 on the secondary market.",
+              "vi": "Trái phiếu doanh nghiệp có par value $1,000 nhưng giao dịch $980 trên thị trường thứ cấp."
+            },
+            {
+              "en": "Vietnamese stocks have traditionally been issued at a par value of 10,000 VND per share.",
+              "vi": "Cổ phiếu Việt theo truyền thống phát hành với par value 10,000 đồng mỗi cổ."
+            },
+            {
+              "en": "Trading below par means a bond is selling for less than its face value.",
+              "vi": "Giao dịch dưới mệnh giá (below par) nghĩa là trái phiếu đang bán thấp hơn giá ghi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["face value", "nominal value"],
+      "antonyms": ["market value"],
+      "collocations": ["at par value", "below par value", "par value of a bond"],
+      "mnemonic_vi": "PAR (ngang bằng) + VALUE = giá ngang đúng giấy tờ. Trader nói 'par' = đúng giá định danh."
+    },
+    {
+      "word": "capital-gain",
+      "lemma": "capital-gain",
+      "ipa": "/ˈkæpɪtl ɡeɪn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the profit earned from selling an asset for more than its purchase price",
+          "meaning_vi": "lãi vốn (chênh lệch giữa giá bán và giá mua của một tài sản)",
+          "examples": [
+            {
+              "en": "She paid 20% federal tax on her capital gains from selling Apple shares.",
+              "vi": "Cô ấy đóng 20% thuế liên bang trên lãi vốn từ bán cổ phiếu Apple."
+            },
+            {
+              "en": "Vietnam taxes capital gains on residential real estate at 2% of the total sale price.",
+              "vi": "Việt Nam đánh thuế lãi vốn bất động sản nhà ở mức 2% giá bán."
+            },
+            {
+              "en": "Long-term capital gains are usually taxed at lower rates than short-term ones.",
+              "vi": "Lãi vốn dài hạn thường được đánh thuế thấp hơn so với ngắn hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["investment profit", "realized gain"],
+      "antonyms": ["capital loss"],
+      "collocations": ["capital gains tax", "long-term capital gain", "short-term capital gain"],
+      "mnemonic_vi": "CAPITAL (vốn) + GAIN (lãi) = lãi từ vốn đầu tư. Bán nhà có lời = capital gain."
+    },
+    {
+      "word": "amortization",
+      "lemma": "amortization",
+      "ipa": "/əˌmɔːtaɪˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the gradual reduction of a debt or intangible asset over time through scheduled payments",
+          "meaning_vi": "khấu hao dần (giảm dần nợ hoặc tài sản vô hình theo lịch trả định kỳ)",
+          "examples": [
+            {
+              "en": "Mortgage amortization schedules show how each monthly payment reduces principal versus interest.",
+              "vi": "Lịch amortization vay nhà cho thấy mỗi tháng giảm bao nhiêu gốc, bao nhiêu lãi."
+            },
+            {
+              "en": "Software companies typically amortize their R&D costs over five years for tax purposes.",
+              "vi": "Công ty phần mềm thường amortize chi phí R&D trong 5 năm cho mục đích thuế."
+            },
+            {
+              "en": "Vingroup uses standard amortization tables for its long-term bond issuances.",
+              "vi": "Vingroup dùng bảng amortization chuẩn cho các đợt phát hành trái phiếu dài hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["debt repayment schedule", "gradual write-off"],
+      "antonyms": [],
+      "collocations": [
+        "amortization schedule",
+        "loan amortization",
+        "negative amortization",
+        "amortize a loan"
+      ],
+      "etymology_hint": "From Old French 'amortir' (to deaden, kill) — 'killing off' the debt gradually each period.",
+      "mnemonic_vi": "A + MORT (chết, như 'mortuary') + IZATION = giết dần khoản nợ. Mỗi tháng giết một ít = amortization."
+    },
+    {
+      "word": "depreciation",
+      "lemma": "depreciation",
+      "ipa": "/dɪˌpriːʃiˈeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the decrease in value of a physical asset over time due to wear, use, or obsolescence",
+          "meaning_vi": "khấu hao (giảm giá trị tài sản hữu hình theo thời gian do hao mòn, lỗi thời)",
+          "examples": [
+            {
+              "en": "A brand-new car typically depreciates 20% in its first year of ownership.",
+              "vi": "Xe mới thường mất 20% giá trị (depreciation) ngay trong năm đầu sở hữu."
+            },
+            {
+              "en": "Real estate in Vietnam often appreciates rather than depreciates, unlike vehicles.",
+              "vi": "Bất động sản ở Việt Nam thường tăng giá thay vì depreciation như xe cộ."
+            },
+            {
+              "en": "Depreciation expense reduces taxable income for businesses each fiscal year.",
+              "vi": "Chi phí depreciation giúp doanh nghiệp giảm thu nhập chịu thuế mỗi năm tài khóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["value loss", "devaluation"],
+      "antonyms": ["appreciation"],
+      "collocations": [
+        "straight-line depreciation",
+        "depreciation expense",
+        "currency depreciation",
+        "rapid depreciation"
+      ],
+      "etymology_hint": "From Latin 'depretiare' (to lower the price), from 'pretium' (price).",
+      "mnemonic_vi": "DE (xuống) + PRECI (giá, 'precious') + ATION = giá xuống. Xe cũ depreciation = mất giá."
+    },
+    {
+      "word": "fiscal",
+      "lemma": "fiscal",
+      "ipa": "/ˈfɪskl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to government revenue, especially taxes, spending, and budgets",
+          "meaning_vi": "thuộc tài khóa, thuộc ngân sách (liên quan thuế và chi tiêu của chính phủ)",
+          "examples": [
+            {
+              "en": "The fiscal year in Vietnam runs from January 1 to December 31.",
+              "vi": "Năm tài khóa ở Việt Nam chạy từ 1/1 đến 31/12."
+            },
+            {
+              "en": "Fiscal policy aims to control inflation, unemployment, and economic growth.",
+              "vi": "Chính sách tài khóa nhằm kiểm soát lạm phát, thất nghiệp và tăng trưởng kinh tế."
+            },
+            {
+              "en": "Heavy fiscal deficits often lead to rising public debt over the long term.",
+              "vi": "Thâm hụt tài khóa lớn thường dẫn đến nợ công tăng trong dài hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["budgetary", "tax-related"],
+      "antonyms": ["monetary"],
+      "collocations": [
+        "fiscal year",
+        "fiscal policy",
+        "fiscal deficit",
+        "fiscal stimulus",
+        "fiscal responsibility"
+      ],
+      "etymology_hint": "From Latin 'fiscus' (basket, treasury) — originally the emperor's purse.",
+      "mnemonic_vi": "FISC (kho bạc Latin) + AL = thuộc ngân khố. Fiscal year = năm của kho bạc."
+    },
+    {
+      "word": "monetary",
+      "lemma": "monetary",
+      "ipa": "/ˈmʌnɪtri/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to money, currency, or the policies of central banks regarding money supply and interest rates",
+          "meaning_vi": "thuộc tiền tệ (liên quan tiền, lãi suất, chính sách của ngân hàng trung ương)",
+          "examples": [
+            {
+              "en": "The State Bank of Vietnam sets monetary policy for the dong.",
+              "vi": "Ngân hàng Nhà nước Việt Nam điều hành chính sách tiền tệ cho đồng VND."
+            },
+            {
+              "en": "Tight monetary policy raises interest rates to fight inflation.",
+              "vi": "Chính sách tiền tệ thắt chặt nâng lãi suất để chống lạm phát."
+            },
+            {
+              "en": "Monetary union is the political foundation of the Eurozone.",
+              "vi": "Liên minh tiền tệ là nền tảng chính trị của khu vực đồng Euro."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["financial", "currency-related"],
+      "antonyms": ["fiscal"],
+      "collocations": [
+        "monetary policy",
+        "monetary union",
+        "monetary tightening",
+        "monetary easing",
+        "monetary base"
+      ],
+      "etymology_hint": "From Latin 'moneta' = mint, originally an epithet of the goddess Juno whose temple housed Rome's mint.",
+      "mnemonic_vi": "MONE (money) + TARY = thuộc tiền. Monetary policy = chính sách tiền (lãi suất)."
+    },
+    {
+      "word": "forex",
+      "lemma": "forex",
+      "ipa": "/ˈfɒreks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the global decentralized market for trading currencies, short for 'foreign exchange'",
+          "meaning_vi": "thị trường ngoại hối (mua bán tiền tệ giữa các nước, viết tắt của foreign exchange)",
+          "examples": [
+            {
+              "en": "Forex is the largest financial market in the world by daily trading volume.",
+              "vi": "Forex là thị trường tài chính lớn nhất thế giới theo khối lượng giao dịch hằng ngày."
+            },
+            {
+              "en": "She trades forex from her apartment in Da Nang during the London session.",
+              "vi": "Cô ấy giao dịch forex từ căn hộ ở Đà Nẵng vào phiên London."
+            },
+            {
+              "en": "Forex traders watch the USD/VND pair closely after Federal Reserve announcements.",
+              "vi": "Forex trader theo dõi sát cặp USD/VND sau các tuyên bố của Cục Dự trữ Liên bang Mỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["FX", "foreign exchange"],
+      "antonyms": [],
+      "collocations": [
+        "forex market",
+        "forex trading",
+        "forex broker",
+        "forex pair",
+        "forex volatility"
+      ],
+      "mnemonic_vi": "FOR (FOReign) + EX (EXchange) = FOREX = ngoại hối. Ghép 2 chữ đầu lại là nhớ."
+    },
+    {
+      "word": "commodity",
+      "lemma": "commodity",
+      "ipa": "/kəˈmɒdəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a raw material or primary agricultural product that can be bought and sold, such as oil, gold, coffee, or rice",
+          "meaning_vi": "hàng hóa cơ bản (nguyên liệu thô như dầu, vàng, cà phê, lúa — giao dịch trên sàn)",
+          "examples": [
+            {
+              "en": "Vietnam is the world's second-largest coffee commodity exporter after Brazil.",
+              "vi": "Việt Nam là nước xuất khẩu commodity cà phê lớn thứ hai thế giới sau Brazil."
+            },
+            {
+              "en": "Oil prices influence virtually every other commodity market on Earth.",
+              "vi": "Giá dầu ảnh hưởng tới hầu như mọi thị trường commodity khác trên hành tinh."
+            },
+            {
+              "en": "Gold is a traditional safe-haven commodity that investors flock to during crises.",
+              "vi": "Vàng là commodity trú ẩn truyền thống mà nhà đầu tư đổ vào khi có khủng hoảng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["raw material", "good"],
+      "antonyms": ["service"],
+      "collocations": [
+        "commodity market",
+        "commodity trading",
+        "soft commodity",
+        "commodity price",
+        "commodity index"
+      ],
+      "etymology_hint": "From Latin 'commoditas' (convenience, profit) — what is useful and tradeable.",
+      "mnemonic_vi": "COM (cùng) + MODI (cách) + TY = thứ ai cũng cần. Hàng hóa cơ bản = commodity."
+    },
+    {
+      "word": "securities",
+      "lemma": "security",
+      "ipa": "/sɪˈkjʊərətiz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "financial instruments such as stocks, bonds, or notes that have monetary value and can be traded on markets",
+          "meaning_vi": "chứng khoán (cổ phiếu, trái phiếu, các công cụ tài chính có thể giao dịch)",
+          "examples": [
+            {
+              "en": "The SEC regulates the trading and issuance of securities throughout the United States.",
+              "vi": "Ủy ban SEC quản lý việc phát hành và giao dịch chứng khoán trên toàn nước Mỹ."
+            },
+            {
+              "en": "Vietnamese securities are increasingly attracting foreign institutional capital.",
+              "vi": "Chứng khoán Việt ngày càng thu hút vốn của tổ chức nước ngoài."
+            },
+            {
+              "en": "Mortgage-backed securities became infamous after the 2008 global financial crisis.",
+              "vi": "Chứng khoán bảo đảm bằng tài sản thế chấp trở nên tai tiếng sau khủng hoảng 2008."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["financial instruments", "tradable assets"],
+      "antonyms": [],
+      "collocations": [
+        "treasury securities",
+        "mortgage-backed securities",
+        "trade securities",
+        "securities firm",
+        "asset-backed securities"
+      ],
+      "etymology_hint": "From Latin 'securitas' (freedom from care) — originally a written guarantee of payment.",
+      "mnemonic_vi": "SECURE (bảo đảm) + ITIES = giấy bảo đảm tài chính. Securities = chứng khoán = giấy đảm bảo."
+    },
+    {
+      "word": "benchmark",
+      "lemma": "benchmark",
+      "ipa": "/ˈbentʃmɑːk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a standard or reference point against which performance, prices, or rates can be measured and compared",
+          "meaning_vi": "chuẩn so sánh, mốc tham chiếu (để đánh giá hiệu suất hoặc giá)",
+          "examples": [
+            {
+              "en": "The S&P 500 is the standard benchmark for US large-cap stocks.",
+              "vi": "S&P 500 là benchmark chuẩn cho cổ phiếu vốn hóa lớn ở Mỹ."
+            },
+            {
+              "en": "Many Vietnamese mutual funds benchmark themselves against the VN-Index.",
+              "vi": "Nhiều quỹ tương hỗ ở Việt Nam benchmark mình theo VN-Index."
+            },
+            {
+              "en": "Interest rate benchmarks like LIBOR have been replaced by SOFR globally.",
+              "vi": "Các benchmark lãi suất như LIBOR đã được thay bằng SOFR trên toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["standard", "reference point"],
+      "antonyms": [],
+      "collocations": [
+        "benchmark index",
+        "industry benchmark",
+        "beat the benchmark",
+        "benchmark interest rate"
+      ],
+      "mnemonic_vi": "BENCH (ghế, mốc) + MARK (dấu) = dấu chuẩn trên ghế thợ. Benchmark = mốc chuẩn."
+    },
+    {
+      "word": "index-fund",
+      "lemma": "index-fund",
+      "ipa": "/ˈɪndeks fʌnd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a mutual fund or ETF designed to track the performance of a specific market index like the S&P 500",
+          "meaning_vi": "quỹ chỉ số (quỹ đầu tư mô phỏng theo một chỉ số thị trường như S&P 500)",
+          "examples": [
+            {
+              "en": "Vanguard popularized low-cost index funds for retail investors in the 1970s.",
+              "vi": "Vanguard phổ biến quỹ chỉ số chi phí thấp cho nhà đầu tư cá nhân từ thập niên 1970."
+            },
+            {
+              "en": "Index funds tend to outperform most actively managed funds over a 10-year horizon.",
+              "vi": "Quỹ chỉ số thường vượt mặt đa số quỹ chủ động trong chu kỳ 10 năm."
+            },
+            {
+              "en": "FUEVFVND is a Vietnam-based ETF that functions as an index fund tracking VN30.",
+              "vi": "FUEVFVND là quỹ ETF Việt hoạt động như index fund mô phỏng VN30."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["passive fund", "tracker fund"],
+      "antonyms": ["actively managed fund"],
+      "collocations": ["low-cost index fund", "index fund investing", "S&P 500 index fund"],
+      "mnemonic_vi": "INDEX (chỉ số) + FUND (quỹ) = quỹ theo chỉ số. Mua index fund = mua cả rổ chỉ số."
+    },
+    {
+      "word": "short-selling",
+      "lemma": "short-selling",
+      "ipa": "/ˌʃɔːt ˈselɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "selling a borrowed asset with the intent of buying it back later at a lower price to profit from the decline",
+          "meaning_vi": "bán khống (bán tài sản đi vay, mua lại sau ở giá thấp hơn để hưởng chênh lệch)",
+          "examples": [
+            {
+              "en": "Short-selling generates profit when stock prices fall, opposite of traditional buying.",
+              "vi": "Short-selling tạo lợi nhuận khi giá cổ phiếu giảm, ngược với mua truyền thống."
+            },
+            {
+              "en": "Many regulators temporarily banned short-selling during the March 2020 crash.",
+              "vi": "Nhiều cơ quan quản lý cấm tạm short-selling trong đợt sụp đổ tháng 3 năm 2020."
+            },
+            {
+              "en": "Vietnam's regulators remain cautious about allowing wide retail short-selling.",
+              "vi": "Cơ quan quản lý Việt vẫn thận trọng với việc cho phép short-selling rộng rãi với nhà đầu tư cá nhân."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shorting"],
+      "antonyms": ["going long", "buying long"],
+      "collocations": ["short-selling ban", "naked short-selling", "short-selling strategy"],
+      "mnemonic_vi": "SHORT (ngắn, thiếu) + SELLING (bán) = bán thứ mình chưa có. Short = bán khống = bán thiếu."
+    },
+    {
+      "word": "margin",
+      "lemma": "margin",
+      "ipa": "/ˈmɑːdʒɪn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "money borrowed from a broker to trade financial assets, increasing both potential profit and potential loss",
+          "meaning_vi": "tiền ký quỹ, vay đòn bẩy (vay broker để giao dịch, khuếch đại cả lãi lẫn lỗ)",
+          "examples": [
+            {
+              "en": "He blew up his entire account by trading on excessive margin during the rally.",
+              "vi": "Anh ấy mất sạch tài khoản vì giao dịch margin quá mức trong đợt tăng."
+            },
+            {
+              "en": "Margin calls force traders to add cash when their losses pile up beyond a threshold.",
+              "vi": "Margin call buộc trader nạp thêm tiền khi lỗ vượt ngưỡng."
+            },
+            {
+              "en": "Vietnamese brokers offer up to 1:3 margin leverage for blue-chip stocks.",
+              "vi": "Broker Việt cho margin tới 1:3 cho cổ phiếu blue-chip."
+            }
+          ]
+        },
+        {
+          "meaning_en": "the difference between revenue and cost, expressed as a ratio or percentage of profit",
+          "meaning_vi": "biên lợi nhuận (chênh lệch giữa doanh thu và chi phí, tính theo tỷ lệ phần trăm)",
+          "examples": [
+            {
+              "en": "Apple's gross margin is one of the highest in the technology industry.",
+              "vi": "Biên lợi nhuận gộp của Apple thuộc nhóm cao nhất ngành công nghệ."
+            },
+            {
+              "en": "Independent coffee shops in Saigon often operate on very thin margins.",
+              "vi": "Quán cà phê độc lập ở Sài Gòn thường hoạt động với biên lợi nhuận rất mỏng."
+            },
+            {
+              "en": "Improving margins requires either raising prices or cutting costs systematically.",
+              "vi": "Cải thiện biên lợi nhuận đòi hỏi tăng giá hoặc cắt chi phí một cách hệ thống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leverage funds", "profit ratio"],
+      "antonyms": [],
+      "collocations": ["margin call", "trading margin", "profit margin", "operating margin"],
+      "etymology_hint": "From Latin 'margo' (edge, border) — the 'edge' of capital available for leverage or profit.",
+      "mnemonic_vi": "MARGIN = lề (như lề trang giấy). Lề tiền = tiền lề bên = ký quỹ HOẶC lề lợi nhuận."
+    },
+    {
+      "word": "collateral",
+      "lemma": "collateral",
+      "ipa": "/kəˈlætərəl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an asset pledged as security for a loan, which the lender can seize if the borrower defaults on repayment",
+          "meaning_vi": "tài sản thế chấp (vật bảo đảm cho khoản vay, ngân hàng được tịch thu nếu không trả)",
+          "examples": [
+            {
+              "en": "She used her house as collateral for a small business loan from Vietcombank.",
+              "vi": "Cô ấy dùng nhà làm collateral để vay vốn kinh doanh từ Vietcombank."
+            },
+            {
+              "en": "Without any collateral, getting a bank loan in Vietnam is extremely difficult.",
+              "vi": "Không có collateral, vay ngân hàng ở Việt Nam cực kỳ khó."
+            },
+            {
+              "en": "Crypto exchanges accept BTC as collateral for loans denominated in stablecoins.",
+              "vi": "Các sàn crypto chấp nhận BTC làm collateral cho vay bằng stablecoin."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["security", "pledged asset"],
+      "antonyms": ["unsecured loan"],
+      "collocations": [
+        "post collateral",
+        "loan collateral",
+        "high-quality collateral",
+        "collateral requirement",
+        "collateral damage"
+      ],
+      "etymology_hint": "From Latin 'col-' (together) + 'lateralis' (side) — 'side by side' with the loan as parallel security.",
+      "mnemonic_vi": "COL (cùng) + LATERAL (bên) = đặt bên cạnh khoản vay. Tài sản 'kèm bên' = thế chấp."
+    },
+    {
+      "word": "maturity",
+      "lemma": "maturity",
+      "ipa": "/məˈtʃʊərəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the date when a financial obligation, such as a bond or loan, becomes due for full payment",
+          "meaning_vi": "ngày đáo hạn (ngày phải thanh toán đầy đủ một khoản nợ/trái phiếu)",
+          "examples": [
+            {
+              "en": "This 10-year bond reaches maturity in 2030, when the principal will be repaid in full.",
+              "vi": "Trái phiếu 10 năm này đáo hạn vào năm 2030, lúc đó toàn bộ gốc sẽ được hoàn trả."
+            },
+            {
+              "en": "Short-maturity bonds are less sensitive to interest rate changes than long-maturity ones.",
+              "vi": "Trái phiếu đáo hạn ngắn ít nhạy với thay đổi lãi suất hơn so với dài hạn."
+            },
+            {
+              "en": "Banks in Vietnam offer term deposits with maturities ranging from 1 to 36 months.",
+              "vi": "Ngân hàng Việt cung cấp tiền gửi kỳ hạn từ 1 đến 36 tháng (maturity)."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["due date", "expiration"],
+      "antonyms": ["issuance"],
+      "collocations": ["bond maturity", "maturity date", "yield to maturity", "term to maturity"],
+      "etymology_hint": "From Latin 'maturitas' (ripeness) — when the fruit (and the loan) is 'ripe' to be collected.",
+      "mnemonic_vi": "MATURE (chín) + ITY = chín muồi, đến lúc thu. Maturity = ngày 'chín' = đáo hạn."
+    },
+    {
+      "word": "premium",
+      "lemma": "premium",
+      "ipa": "/ˈpriːmiəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the amount paid regularly to maintain an insurance policy",
+          "meaning_vi": "phí bảo hiểm (tiền đóng định kỳ để duy trì hợp đồng bảo hiểm)",
+          "examples": [
+            {
+              "en": "Her car insurance premium went up significantly after the minor accident last year.",
+              "vi": "Phí bảo hiểm xe của cô ấy tăng đáng kể sau vụ tai nạn nhỏ năm ngoái."
+            },
+            {
+              "en": "Health insurance premiums in Vietnam are heavily subsidized for state employees.",
+              "vi": "Phí bảo hiểm y tế ở Việt Nam được trợ giá mạnh cho công chức nhà nước."
+            },
+            {
+              "en": "Lower monthly premiums usually mean higher deductibles when you make a claim.",
+              "vi": "Phí hàng tháng thấp thường đi với mức tự chi trả cao khi bạn yêu cầu bồi thường."
+            }
+          ]
+        },
+        {
+          "meaning_en": "the extra amount paid above the standard or face value, indicating higher quality or scarcity",
+          "meaning_vi": "phụ phí, giá cao hơn chuẩn (do chất lượng cao hoặc khan hiếm)",
+          "examples": [
+            {
+              "en": "iPhones sell at a noticeable premium in Vietnam compared to the US market.",
+              "vi": "iPhone bán giá premium đáng kể ở Việt Nam so với thị trường Mỹ."
+            },
+            {
+              "en": "Bond investors paid a premium for the new issuance because of its high credit rating.",
+              "vi": "Nhà đầu tư trái phiếu trả premium cho đợt phát hành mới vì xếp hạng tín dụng cao."
+            },
+            {
+              "en": "Vingroup positions itself as a premium real estate developer in Southeast Asia.",
+              "vi": "Vingroup định vị mình là nhà phát triển bất động sản premium tại Đông Nam Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fee", "surcharge"],
+      "antonyms": ["discount"],
+      "collocations": [
+        "insurance premium",
+        "at a premium",
+        "premium service",
+        "risk premium",
+        "premium brand"
+      ],
+      "etymology_hint": "From Latin 'praemium' (reward, prize) — 'prae' (before) + 'emere' (to buy) — something paid before/extra.",
+      "mnemonic_vi": "PRE (trước) + MIUM (mua, emere) = trả trước. Premium = phí trả trước (bảo hiểm) hoặc thưởng thêm (chất lượng cao)."
+    },
+    {
+      "word": "spread",
+      "lemma": "spread",
+      "ipa": "/spred/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the difference between two related prices, rates, or yields in a financial market, such as bid-ask or yield spread",
+          "meaning_vi": "chênh lệch (giữa giá mua-giá bán, hoặc giữa hai lợi suất trên thị trường tài chính)",
+          "examples": [
+            {
+              "en": "The bid-ask spread on illiquid penny stocks can be unusually wide.",
+              "vi": "Spread mua-bán trên cổ phiếu thanh khoản kém có thể rộng bất thường."
+            },
+            {
+              "en": "Corporate credit spreads widened dramatically during the 2020 pandemic panic.",
+              "vi": "Spread tín dụng doanh nghiệp mở rộng mạnh trong cơn hoảng loạn đại dịch 2020."
+            },
+            {
+              "en": "Forex spreads on VND currency pairs are typically wider than on major pairs like EUR/USD.",
+              "vi": "Spread forex các cặp VND thường rộng hơn các cặp chính như EUR/USD."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["differential", "gap"],
+      "antonyms": [],
+      "collocations": ["bid-ask spread", "yield spread", "credit spread", "tight spread"],
+      "mnemonic_vi": "SPREAD (trải rộng) = khoảng cách trải ra giữa 2 giá/lãi suất. Spread rộng = chênh lệch lớn."
+    }
+  ]
+}
