@@ -1,0 +1,703 @@
+{
+  "slug": "historical-eras",
+  "name": "Historical Eras",
+  "description": "Các thời kỳ lịch sử B2 — antiquity, medieval, renaissance, enlightenment và 20 thuật ngữ cho người yêu sử.",
+  "order_index": 6,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "antiquity",
+      "lemma": "antiquity",
+      "ipa": "/ænˈtɪkwəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ancient past, especially the period before the Middle Ages and before the fall of the Roman Empire",
+          "meaning_vi": "thời cổ đại (đặc biệt trước Trung Cổ và trước sự sụp đổ của Đế chế La Mã)",
+          "examples": [
+            {
+              "en": "Classical antiquity gave us philosophy, democracy, and dramatic theater.",
+              "vi": "Antiquity cổ điển cho chúng ta triết học, dân chủ và kịch nghệ."
+            },
+            {
+              "en": "Many Greek temples have survived from antiquity to the present day.",
+              "vi": "Nhiều đền Hy Lạp đã tồn tại từ antiquity đến ngày nay."
+            },
+            {
+              "en": "Vietnamese students study Chinese antiquity to understand regional cultural roots.",
+              "vi": "Học sinh Việt học antiquity Trung Hoa để hiểu gốc văn hóa khu vực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ancient times", "classical era"],
+      "antonyms": ["modernity"],
+      "collocations": [
+        "classical antiquity",
+        "from antiquity",
+        "Roman antiquity",
+        "Greek antiquity"
+      ],
+      "etymology_hint": "From Latin 'antiquus' (ancient, old) — same root as 'antique'.",
+      "mnemonic_vi": "ANTIQUE (cổ) + ITY = sự cổ xưa. Antiquity = thời cổ đại. Đồ antique = đồ cổ."
+    },
+    {
+      "word": "medieval",
+      "lemma": "medieval",
+      "ipa": "/ˌmediˈiːvl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to the Middle Ages, roughly from the 5th to the late 15th century in European history",
+          "meaning_vi": "thuộc Trung Cổ (thời kỳ giữa, khoảng thế kỷ 5 đến cuối thế kỷ 15 ở châu Âu)",
+          "examples": [
+            {
+              "en": "Medieval castles still stand across France and England.",
+              "vi": "Lâu đài medieval vẫn đứng vững khắp Pháp và Anh."
+            },
+            {
+              "en": "Medieval Vietnam was shaped by the Lý and Trần dynasties.",
+              "vi": "Việt Nam thời medieval được định hình bởi triều Lý và Trần."
+            },
+            {
+              "en": "Game of Thrones drew heavily from medieval European history and politics.",
+              "vi": "Game of Thrones lấy nhiều cảm hứng từ lịch sử và chính trị medieval châu Âu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["middle ages"],
+      "antonyms": ["modern"],
+      "collocations": [
+        "medieval times",
+        "medieval castle",
+        "medieval Europe",
+        "medieval manuscript",
+        "medieval period"
+      ],
+      "etymology_hint": "From Latin 'medium aevum' (middle age) — 'medium' (middle) + 'aevum' (age, era).",
+      "mnemonic_vi": "MEDI (giữa, middle) + EVAL (thời, aevum) = thời giữa. Medieval = Trung Cổ (giữa cổ đại và hiện đại)."
+    },
+    {
+      "word": "renaissance",
+      "lemma": "renaissance",
+      "ipa": "/rɪˈneɪsns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cultural rebirth in Europe from the 14th to 17th century, marked by renewed interest in art, science, and classical learning",
+          "meaning_vi": "thời Phục Hưng (sự tái sinh văn hóa châu Âu thế kỷ 14-17, nở rộ nghệ thuật, khoa học, học thuật cổ điển)",
+          "examples": [
+            {
+              "en": "The Italian Renaissance produced Leonardo da Vinci and Michelangelo.",
+              "vi": "Renaissance Ý sản sinh Leonardo da Vinci và Michelangelo."
+            },
+            {
+              "en": "We sometimes call a personal comeback a 'career renaissance'.",
+              "vi": "Đôi khi ta gọi sự trở lại của một người là 'career renaissance'."
+            },
+            {
+              "en": "Vietnamese pho is experiencing a culinary renaissance abroad.",
+              "vi": "Phở Việt đang trải qua một renaissance ẩm thực ở nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rebirth", "revival"],
+      "antonyms": ["decline"],
+      "collocations": [
+        "Italian Renaissance",
+        "cultural renaissance",
+        "Renaissance art",
+        "Renaissance painter"
+      ],
+      "etymology_hint": "From French 'renaissance' (rebirth) — 're-' (again) + 'naissance' (birth).",
+      "mnemonic_vi": "RE (lại) + NAISSANCE (sinh, naissance Pháp) = tái sinh. Renaissance = Phục Hưng = sinh lại."
+    },
+    {
+      "word": "enlightenment",
+      "lemma": "enlightenment",
+      "ipa": "/ɪnˈlaɪtnmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an 18th-century European intellectual movement emphasizing reason, science, individual rights, and skepticism of tradition and authority",
+          "meaning_vi": "thời Khai Sáng (phong trào tri thức châu Âu thế kỷ 18, đề cao lý trí, khoa học, quyền cá nhân)",
+          "examples": [
+            {
+              "en": "The Enlightenment thinkers inspired the American and French revolutions.",
+              "vi": "Các nhà tư tưởng Enlightenment truyền cảm hứng cho cách mạng Mỹ và Pháp."
+            },
+            {
+              "en": "Voltaire and Rousseau are central figures of the Enlightenment.",
+              "vi": "Voltaire và Rousseau là nhân vật trung tâm của Enlightenment."
+            },
+            {
+              "en": "Vietnamese intellectuals in the 1920s drew on Enlightenment ideas to push for reform.",
+              "vi": "Trí thức Việt thập niên 1920 dùng tư tưởng Enlightenment để đẩy cải cách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["Age of Reason"],
+      "antonyms": ["Dark Ages"],
+      "collocations": [
+        "the Enlightenment",
+        "Enlightenment thinker",
+        "Enlightenment ideals",
+        "European Enlightenment"
+      ],
+      "etymology_hint": "From English 'enlighten' (to give light to) — metaphor: bringing 'light' of reason into a 'dark' age.",
+      "mnemonic_vi": "EN + LIGHT (ánh sáng) + EN + MENT = thắp sáng. Enlightenment = Khai Sáng (mở/khai ánh sáng cho tâm trí)."
+    },
+    {
+      "word": "industrial-age",
+      "lemma": "industrial-age",
+      "ipa": "/ɪnˈdʌstriəl eɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the period from the late 18th to early 20th century when industrial manufacturing transformed economies and societies",
+          "meaning_vi": "thời đại công nghiệp (từ cuối thế kỷ 18 đến đầu thế kỷ 20, sản xuất công nghiệp biến đổi kinh tế-xã hội)",
+          "examples": [
+            {
+              "en": "The Industrial Age began in Britain with steam engines and textile mills.",
+              "vi": "Industrial-age bắt đầu ở Anh với máy hơi nước và nhà máy dệt."
+            },
+            {
+              "en": "Cities grew explosively during the Industrial Age as workers left farms.",
+              "vi": "Thành phố bùng nổ trong industrial-age khi công nhân rời nông trại."
+            },
+            {
+              "en": "Vietnam entered its industrial age decades later than the West.",
+              "vi": "Việt Nam bước vào industrial-age muộn hơn phương Tây nhiều thập kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["industrial era", "machine age"],
+      "antonyms": ["agricultural age", "information age"],
+      "collocations": [
+        "during the Industrial Age",
+        "Industrial Age innovation",
+        "end of the Industrial Age"
+      ],
+      "mnemonic_vi": "INDUSTRIAL (công nghiệp) + AGE (thời đại) = thời đại công nghiệp. Ghép từ là rõ. Máy móc thay sức người."
+    },
+    {
+      "word": "postwar",
+      "lemma": "postwar",
+      "ipa": "/ˌpəʊstˈwɔː(r)/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "occurring or existing in the period immediately following a war, especially after World War II",
+          "meaning_vi": "hậu chiến (xảy ra hoặc tồn tại ngay sau chiến tranh, đặc biệt sau Thế chiến II)",
+          "examples": [
+            {
+              "en": "The postwar economic boom transformed Japan and West Germany.",
+              "vi": "Bùng nổ kinh tế postwar đã biến đổi Nhật và Tây Đức."
+            },
+            {
+              "en": "Postwar Vietnam faced enormous reconstruction challenges after 1975.",
+              "vi": "Việt Nam postwar đối mặt thách thức tái thiết khổng lồ sau 1975."
+            },
+            {
+              "en": "The postwar generation grew up with rising prosperity but Cold War anxieties.",
+              "vi": "Thế hệ postwar lớn lên với thịnh vượng tăng nhưng lo âu Chiến tranh Lạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["post-war"],
+      "antonyms": ["prewar", "wartime"],
+      "collocations": [
+        "postwar era",
+        "postwar boom",
+        "postwar generation",
+        "postwar reconstruction"
+      ],
+      "mnemonic_vi": "POST (sau) + WAR (chiến tranh) = sau chiến tranh. Postwar = hậu chiến. Compound đơn giản."
+    },
+    {
+      "word": "modern-era",
+      "lemma": "modern-era",
+      "ipa": "/ˈmɒdn ˈɪərə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the historical period from roughly 1500 CE to the present, characterized by industrialization, globalization, and rapid technological change",
+          "meaning_vi": "thời kỳ hiện đại (từ khoảng 1500 đến nay, đặc trưng bởi công nghiệp hóa, toàn cầu hóa, công nghệ phát triển nhanh)",
+          "examples": [
+            {
+              "en": "The modern era began with the Age of Exploration and the printing press.",
+              "vi": "Modern-era bắt đầu với Kỷ nguyên Khám phá và máy in."
+            },
+            {
+              "en": "Some historians divide the modern era into early-modern and late-modern phases.",
+              "vi": "Một số sử gia chia modern-era thành early-modern và late-modern."
+            },
+            {
+              "en": "Vietnam entered the modern era through French colonial influence in the 19th century.",
+              "vi": "Việt Nam bước vào modern-era qua ảnh hưởng thuộc địa Pháp thế kỷ 19."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["modern times", "modernity"],
+      "antonyms": ["pre-modern"],
+      "collocations": ["early modern era", "late modern era", "in the modern era"],
+      "mnemonic_vi": "MODERN (hiện đại) + ERA (thời kỳ) = thời kỳ hiện đại. Ghép từ trực tiếp."
+    },
+    {
+      "word": "prehistoric",
+      "lemma": "prehistoric",
+      "ipa": "/ˌpriːhɪˈstɒrɪk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to the time before written records existed, when human history is known only through archaeology",
+          "meaning_vi": "tiền sử (trước khi có chữ viết, lịch sử chỉ biết qua khảo cổ)",
+          "examples": [
+            {
+              "en": "Prehistoric cave paintings in France date back over 30,000 years.",
+              "vi": "Tranh hang prehistoric ở Pháp có niên đại hơn 30,000 năm."
+            },
+            {
+              "en": "Prehistoric humans crossed land bridges to reach North America.",
+              "vi": "Con người prehistoric đã đi qua các cầu đất để đến Bắc Mỹ."
+            },
+            {
+              "en": "Vietnamese prehistory is documented through bronze drums and stone tools.",
+              "vi": "Prehistoric Việt Nam được ghi nhận qua trống đồng và công cụ đá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pre-literate", "ancient"],
+      "antonyms": ["historic"],
+      "collocations": [
+        "prehistoric era",
+        "prehistoric times",
+        "prehistoric humans",
+        "prehistoric art"
+      ],
+      "mnemonic_vi": "PRE (trước) + HISTORIC (sử) = trước sử. Prehistoric = tiền sử (trước có chữ viết)."
+    },
+    {
+      "word": "millennium",
+      "lemma": "millennium",
+      "ipa": "/mɪˈleniəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a period of one thousand years, often used to mark a major historical or symbolic milestone",
+          "meaning_vi": "thiên niên kỷ (1000 năm, thường đánh dấu mốc lịch sử/biểu tượng lớn)",
+          "examples": [
+            {
+              "en": "The world celebrated the new millennium with massive fireworks on Y2K.",
+              "vi": "Thế giới mừng millennium mới bằng pháo hoa hoành tráng vào Y2K."
+            },
+            {
+              "en": "The Roman Empire dominated the Mediterranean for nearly a millennium.",
+              "vi": "Đế chế La Mã thống trị Địa Trung Hải gần một millennium."
+            },
+            {
+              "en": "Vietnam celebrated its millennium of Hanoi capital status in 2010.",
+              "vi": "Việt Nam mừng millennium thủ đô Hà Nội năm 2010."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thousand years"],
+      "antonyms": [],
+      "collocations": [
+        "new millennium",
+        "third millennium",
+        "millennium goals",
+        "for a millennium"
+      ],
+      "etymology_hint": "From Latin 'mille' (thousand) + 'annus' (year) — 'thousand years'.",
+      "mnemonic_vi": "MILLE (nghìn) + ANNIUM (năm, annus) = nghìn năm. Millennium = thiên niên kỷ. So với decade (10) và century (100)."
+    },
+    {
+      "word": "epoch",
+      "lemma": "epoch",
+      "ipa": "/ˈiːpɒk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a particular period of time in history or in a person's life, often marked by distinctive characteristics or events",
+          "meaning_vi": "kỷ nguyên, thời kỳ (giai đoạn lịch sử/đời người có đặc điểm/sự kiện riêng biệt)",
+          "examples": [
+            {
+              "en": "The launch of the iPhone marked a new epoch in personal computing.",
+              "vi": "Sự ra mắt iPhone đánh dấu epoch mới trong điện toán cá nhân."
+            },
+            {
+              "en": "Geologists divide Earth's history into epochs lasting millions of years.",
+              "vi": "Nhà địa chất chia lịch sử Trái Đất thành các epoch kéo dài hàng triệu năm."
+            },
+            {
+              "en": "The reunification of Vietnam in 1975 began a new epoch for the country.",
+              "vi": "Sự thống nhất Việt Nam 1975 mở ra một epoch mới cho đất nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["era", "age", "period"],
+      "antonyms": [],
+      "collocations": ["new epoch", "historical epoch", "epoch-making", "the epoch of"],
+      "etymology_hint": "From Greek 'epokhē' (stopping point, fixed time) — a point in time from which we measure.",
+      "mnemonic_vi": "EPOCH = một dấu mốc cố định để tính từ đó. Như point 0 của lịch sử mới."
+    },
+    {
+      "word": "colonial-era",
+      "lemma": "colonial-era",
+      "ipa": "/kəˈləʊniəl ˈɪərə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the historical period when European powers established and ruled colonies overseas, roughly 16th to mid-20th century",
+          "meaning_vi": "thời thuộc địa (khi các cường quốc châu Âu lập và cai trị thuộc địa ở nước ngoài, thế kỷ 16 đến giữa 20)",
+          "examples": [
+            {
+              "en": "The colonial era left lasting effects on borders, languages, and economies across Asia and Africa.",
+              "vi": "Colonial-era để lại tác động lâu dài lên biên giới, ngôn ngữ, kinh tế khắp Á-Phi."
+            },
+            {
+              "en": "Architecture from the colonial era still defines parts of Hanoi and Saigon.",
+              "vi": "Kiến trúc từ colonial-era vẫn định hình một phần Hà Nội và Sài Gòn."
+            },
+            {
+              "en": "The end of the colonial era unleashed waves of independence movements in the 1950s-60s.",
+              "vi": "Sự kết thúc colonial-era mở ra làn sóng phong trào độc lập thập niên 1950-60."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["colonial period"],
+      "antonyms": ["postcolonial era"],
+      "collocations": [
+        "during the colonial era",
+        "end of the colonial era",
+        "French colonial era",
+        "colonial-era architecture"
+      ],
+      "mnemonic_vi": "COLONIAL (thuộc địa) + ERA (thời) = thời thuộc địa. Pháp ở Việt Nam là colonial-era 1858-1954."
+    },
+    {
+      "word": "cold-war",
+      "lemma": "cold-war",
+      "ipa": "/ˌkəʊld ˈwɔː(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the period of political and military tension between the United States and the Soviet Union from roughly 1947 to 1991, without direct large-scale fighting",
+          "meaning_vi": "Chiến tranh Lạnh (giai đoạn căng thẳng chính trị-quân sự giữa Mỹ và Liên Xô từ 1947 đến 1991, không đánh nhau trực tiếp lớn)",
+          "examples": [
+            {
+              "en": "The Berlin Wall was the most iconic symbol of the Cold War.",
+              "vi": "Bức tường Berlin là biểu tượng iconic nhất của Cold-war."
+            },
+            {
+              "en": "Vietnam was a major hot conflict within the broader Cold War.",
+              "vi": "Việt Nam là xung đột nóng lớn trong cold-war rộng hơn."
+            },
+            {
+              "en": "Many analysts say we're entering a new Cold War between the US and China.",
+              "vi": "Nhiều nhà phân tích nói chúng ta đang vào cold-war mới giữa Mỹ và Trung Quốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ideological war"],
+      "antonyms": ["hot war"],
+      "collocations": ["Cold War era", "during the Cold War", "Cold War tension", "new Cold War"],
+      "mnemonic_vi": "COLD (lạnh) + WAR (chiến tranh) = chiến tranh lạnh (không đánh trực tiếp nhưng căng thẳng). Mỹ vs Liên Xô."
+    },
+    {
+      "word": "gilded-age",
+      "lemma": "gilded-age",
+      "ipa": "/ˌɡɪldɪd ˈeɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the late 19th-century period in US history marked by rapid economic growth, wealth inequality, and political corruption, named after Mark Twain's novel",
+          "meaning_vi": "thời Gilded (cuối thế kỷ 19 Mỹ, tăng trưởng nhanh nhưng bất bình đẳng và tham nhũng, đặt tên theo tiểu thuyết Mark Twain)",
+          "examples": [
+            {
+              "en": "Rockefeller and Carnegie made their fortunes during the Gilded Age.",
+              "vi": "Rockefeller và Carnegie làm giàu trong gilded-age."
+            },
+            {
+              "en": "The Gilded Age looked golden on the surface but hid deep social problems.",
+              "vi": "Gilded-age nhìn vàng bên ngoài nhưng giấu nhiều vấn đề xã hội sâu."
+            },
+            {
+              "en": "Some economists compare today's tech-billionaire era to a new Gilded Age.",
+              "vi": "Một số kinh tế gia so sánh thời đại tỷ phú công nghệ hôm nay với gilded-age mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["age of robber barons"],
+      "antonyms": [],
+      "collocations": [
+        "American Gilded Age",
+        "Gilded Age mansion",
+        "new Gilded Age",
+        "Gilded Age robber barons"
+      ],
+      "mnemonic_vi": "GILDED (mạ vàng) + AGE = thời mạ vàng. Bên ngoài lấp lánh nhưng bên trong là gỗ thường. Mark Twain đặt tên 1873."
+    },
+    {
+      "word": "reformation",
+      "lemma": "reformation",
+      "ipa": "/ˌrefəˈmeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the 16th-century European religious movement that broke from the Roman Catholic Church and created Protestant denominations",
+          "meaning_vi": "Cải cách Tin Lành (phong trào tôn giáo thế kỷ 16 ly khai khỏi Công Giáo La Mã, lập các nhánh Tin Lành)",
+          "examples": [
+            {
+              "en": "Martin Luther sparked the Reformation by posting his 95 Theses in 1517.",
+              "vi": "Martin Luther châm ngòi Reformation bằng cách đăng 95 luận đề năm 1517."
+            },
+            {
+              "en": "The Reformation split European Christianity and reshaped the continent's politics.",
+              "vi": "Reformation chia rẽ Cơ Đốc giáo châu Âu và định hình lại chính trị châu lục."
+            },
+            {
+              "en": "Vietnamese Protestant communities trace their faith back to the Reformation tradition.",
+              "vi": "Cộng đồng Tin Lành Việt truy đức tin về truyền thống Reformation."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["Protestant Reformation"],
+      "antonyms": ["Counter-Reformation"],
+      "collocations": [
+        "Protestant Reformation",
+        "during the Reformation",
+        "spark a reformation",
+        "Reformation era"
+      ],
+      "etymology_hint": "From Latin 'reformare' (to form again, restore) — 're-' (again) + 'formare' (to shape).",
+      "mnemonic_vi": "RE (lại) + FORM (hình thành) + ATION = hình thành lại. Reformation = cải cách hình thành lại đạo."
+    },
+    {
+      "word": "crusades",
+      "lemma": "crusade",
+      "ipa": "/kruːˈseɪdz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a series of religious wars launched by European Christians between 1095 and 1291 to capture the Holy Land from Muslim control",
+          "meaning_vi": "Thập Tự Chinh (loạt chiến tranh tôn giáo của Cơ Đốc châu Âu 1095-1291 nhằm chiếm Đất Thánh khỏi tay Hồi giáo)",
+          "examples": [
+            {
+              "en": "The Crusades reshaped relations between Christian Europe and the Muslim world.",
+              "vi": "Crusades định hình lại quan hệ giữa châu Âu Cơ Đốc và thế giới Hồi giáo."
+            },
+            {
+              "en": "Knights from many European countries joined the Crusades.",
+              "vi": "Hiệp sĩ từ nhiều nước châu Âu tham gia crusades."
+            },
+            {
+              "en": "Today, 'crusade' is also used metaphorically for any moral campaign.",
+              "vi": "Ngày nay 'crusade' cũng dùng ẩn dụ cho bất kỳ chiến dịch đạo đức nào."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["holy war"],
+      "antonyms": [],
+      "collocations": [
+        "the First Crusade",
+        "Crusades history",
+        "Crusades period",
+        "launch the Crusades"
+      ],
+      "etymology_hint": "From Latin 'crux' (cross) — crusaders bore the Christian cross on their tunics.",
+      "mnemonic_vi": "CRU (thập tự, crux) + SADE = chinh chiến. Crusades = Thập Tự Chinh, mang dấu thập trên ngực."
+    },
+    {
+      "word": "baroque",
+      "lemma": "baroque",
+      "ipa": "/bəˈrɒk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to the highly ornate style of art, architecture, and music in Europe from about 1600 to 1750",
+          "meaning_vi": "thuộc trường phái Baroque (phong cách nghệ thuật, kiến trúc, âm nhạc rất cầu kỳ ở châu Âu khoảng 1600-1750)",
+          "examples": [
+            {
+              "en": "Baroque churches feature dramatic light, gold ornaments, and twisting columns.",
+              "vi": "Nhà thờ baroque đặc trưng bởi ánh sáng kịch tính, vàng và cột xoắn."
+            },
+            {
+              "en": "Bach and Vivaldi composed in the Baroque musical tradition.",
+              "vi": "Bach và Vivaldi sáng tác theo truyền thống âm nhạc baroque."
+            },
+            {
+              "en": "Notre Dame Saigon was built in a French neo-Gothic style, not baroque.",
+              "vi": "Nhà thờ Đức Bà Sài Gòn xây theo phong cách tân Gothic Pháp, không phải baroque."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ornate", "elaborate"],
+      "antonyms": ["minimalist"],
+      "collocations": [
+        "Baroque architecture",
+        "Baroque music",
+        "Baroque period",
+        "Baroque painting"
+      ],
+      "etymology_hint": "From Portuguese 'barocco' (irregular pearl) — originally a derogatory term for the style's irregularity.",
+      "mnemonic_vi": "BAROQUE từ 'barocco' (ngọc trai không tròn) — ban đầu là từ chê bai (méo mó). Giờ chỉ phong cách cầu kỳ."
+    },
+    {
+      "word": "bronze-age",
+      "lemma": "bronze-age",
+      "ipa": "/ˈbrɒnz eɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the period of human prehistory characterized by the use of bronze tools and weapons, roughly 3300 to 1200 BCE in the Near East",
+          "meaning_vi": "thời đại Đồng (thời tiền sử khi con người dùng công cụ và vũ khí đồng, khoảng 3300-1200 TCN ở Cận Đông)",
+          "examples": [
+            {
+              "en": "Bronze Age civilizations included ancient Egypt and Mesopotamia.",
+              "vi": "Văn minh bronze-age gồm Ai Cập cổ và Mesopotamia."
+            },
+            {
+              "en": "Vietnam's Bronze Age is famous for the Đông Sơn drums.",
+              "vi": "Bronze-age của Việt Nam nổi tiếng với trống đồng Đông Sơn."
+            },
+            {
+              "en": "The Bronze Age ended with the collapse of major civilizations around 1200 BCE.",
+              "vi": "Bronze-age kết thúc với sự sụp đổ của các nền văn minh lớn khoảng 1200 TCN."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["Iron Age"],
+      "collocations": ["Bronze Age civilization", "early Bronze Age", "Bronze Age collapse"],
+      "mnemonic_vi": "BRONZE (đồng) + AGE = thời đại đồng. Trống đồng Đông Sơn là biểu tượng bronze-age Việt."
+    },
+    {
+      "word": "iron-age",
+      "lemma": "iron-age",
+      "ipa": "/ˈaɪən eɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the prehistoric period following the Bronze Age when iron working became widespread, roughly 1200 BCE onward in different regions",
+          "meaning_vi": "thời đại Sắt (sau bronze-age, khi nghề rèn sắt phổ biến, từ khoảng 1200 TCN tùy vùng)",
+          "examples": [
+            {
+              "en": "Iron Age tools were stronger and cheaper than bronze, transforming agriculture.",
+              "vi": "Công cụ iron-age mạnh hơn và rẻ hơn đồng, biến đổi nông nghiệp."
+            },
+            {
+              "en": "The Celts thrived during the European Iron Age.",
+              "vi": "Người Celt phát triển trong iron-age châu Âu."
+            },
+            {
+              "en": "Vietnam's Iron Age overlapped with the late Đông Sơn culture.",
+              "vi": "Iron-age của Việt Nam trùng với hậu kỳ văn hóa Đông Sơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["Bronze Age"],
+      "collocations": ["Iron Age tools", "early Iron Age", "Iron Age settlement"],
+      "mnemonic_vi": "IRON (sắt) + AGE = thời đại sắt. Sau bronze-age. Sắt rẻ + bền hơn đồng."
+    },
+    {
+      "word": "victorian-era",
+      "lemma": "victorian-era",
+      "ipa": "/vɪkˈtɔːriən ˈɪərə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the period of Queen Victoria's reign in Britain from 1837 to 1901, associated with industrial expansion, empire, and strict social moral codes",
+          "meaning_vi": "thời Victoria (triều Nữ hoàng Victoria Anh 1837-1901, gắn với mở rộng công nghiệp, đế chế, và đạo đức xã hội nghiêm khắc)",
+          "examples": [
+            {
+              "en": "Victorian-era novels include works by Dickens, Brontë, and Eliot.",
+              "vi": "Tiểu thuyết victorian-era gồm tác phẩm của Dickens, Brontë và Eliot."
+            },
+            {
+              "en": "Britain reached the peak of its empire during the Victorian era.",
+              "vi": "Anh đạt đỉnh đế chế trong victorian-era."
+            },
+            {
+              "en": "Vietnam was under French rule, not British, during the Victorian era.",
+              "vi": "Việt Nam dưới ách Pháp, không phải Anh, trong victorian-era."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["Victorian period"],
+      "antonyms": ["Edwardian era"],
+      "collocations": ["Victorian-era novel", "Victorian-era house", "during the Victorian era"],
+      "mnemonic_vi": "VICTORIA (Nữ hoàng Anh) + ERA = thời Nữ hoàng Victoria. 1837-1901. Đế chế Anh ở đỉnh cao."
+    },
+    {
+      "word": "atomic-age",
+      "lemma": "atomic-age",
+      "ipa": "/əˈtɒmɪk eɪdʒ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the historical period beginning around 1945 with the first nuclear weapons and the development of atomic energy",
+          "meaning_vi": "thời đại nguyên tử (bắt đầu khoảng 1945 với vũ khí hạt nhân đầu tiên và sự phát triển năng lượng nguyên tử)",
+          "examples": [
+            {
+              "en": "The Atomic Age began with the bombings of Hiroshima and Nagasaki in 1945.",
+              "vi": "Atomic-age bắt đầu với vụ ném bom Hiroshima và Nagasaki năm 1945."
+            },
+            {
+              "en": "Cold War anxieties shaped culture throughout the Atomic Age.",
+              "vi": "Lo âu Cold War định hình văn hóa suốt atomic-age."
+            },
+            {
+              "en": "Vietnam pursued peaceful nuclear research starting in the late Atomic Age.",
+              "vi": "Việt Nam theo đuổi nghiên cứu hạt nhân hòa bình bắt đầu cuối atomic-age."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nuclear age"],
+      "antonyms": [],
+      "collocations": ["dawn of the Atomic Age", "Atomic Age architecture", "Atomic Age fears"],
+      "mnemonic_vi": "ATOMIC (nguyên tử) + AGE = thời nguyên tử. Sau 1945, bom hạt nhân và năng lượng hạt nhân định hình thế kỷ 20."
+    }
+  ]
+}

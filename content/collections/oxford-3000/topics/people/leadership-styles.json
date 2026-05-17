@@ -1,0 +1,701 @@
+{
+  "slug": "leadership-styles",
+  "name": "Leadership Styles",
+  "description": "Phong cách lãnh đạo B2 — autocratic, democratic, transformational, charismatic và 20 thuật ngữ cho quản lý/HR.",
+  "order_index": 10,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "autocratic",
+      "lemma": "autocratic",
+      "ipa": "/ˌɔːtəˈkrætɪk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "having or exercising sole, unchecked power, often without consulting others",
+          "meaning_vi": "độc đoán (nắm quyền tuyệt đối, không tham vấn ai)",
+          "examples": [
+            {
+              "en": "An autocratic boss makes every decision alone, leaving employees frustrated.",
+              "vi": "Sếp autocratic tự quyết mọi việc, khiến nhân viên bất mãn."
+            },
+            {
+              "en": "Crisis situations sometimes call for a brief autocratic approach.",
+              "vi": "Tình huống khủng hoảng đôi khi cần cách tiếp cận autocratic ngắn hạn."
+            },
+            {
+              "en": "Older Vietnamese family businesses often run with an autocratic founder at the top.",
+              "vi": "Doanh nghiệp gia đình Việt cũ thường chạy với người sáng lập autocratic ở đỉnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dictatorial", "authoritarian"],
+      "antonyms": ["democratic", "consultative"],
+      "collocations": [
+        "autocratic leader",
+        "autocratic style",
+        "autocratic regime",
+        "highly autocratic"
+      ],
+      "etymology_hint": "From Greek 'autos' (self) + 'kratos' (power, rule) — one who rules by self alone.",
+      "mnemonic_vi": "AUTO (tự) + CRATIC (cai trị, kratos) = tự cai trị. Autocratic = độc đoán, một mình quyết hết."
+    },
+    {
+      "word": "democratic",
+      "lemma": "democratic",
+      "ipa": "/ˌdeməˈkrætɪk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "based on the principle that all members have equal say in decisions, often through voting or discussion",
+          "meaning_vi": "dân chủ (mọi thành viên có tiếng nói bình đẳng trong quyết định, thường qua bỏ phiếu/thảo luận)",
+          "examples": [
+            {
+              "en": "A democratic leader invites the team to vote on major directions.",
+              "vi": "Một lãnh đạo democratic mời cả đội bỏ phiếu cho hướng đi lớn."
+            },
+            {
+              "en": "Democratic leadership tends to slow down decisions but raise commitment.",
+              "vi": "Lãnh đạo democratic thường chậm quyết định hơn nhưng tăng cam kết."
+            },
+            {
+              "en": "Vietnamese startup co-founders often try to keep early decisions democratic.",
+              "vi": "Đồng sáng lập startup Việt thường giữ quyết định ban đầu theo democratic."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["participative", "consultative"],
+      "antonyms": ["autocratic", "dictatorial"],
+      "collocations": [
+        "democratic leadership",
+        "democratic process",
+        "democratic decision-making",
+        "highly democratic"
+      ],
+      "etymology_hint": "From Greek 'demos' (people) + 'kratos' (power) — power of the people.",
+      "mnemonic_vi": "DEMO (dân) + CRATIC (quyền) = quyền dân. Democratic = dân chủ, mọi người có tiếng nói."
+    },
+    {
+      "word": "transformational",
+      "lemma": "transformational",
+      "ipa": "/ˌtrænsfəˈmeɪʃənl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a leadership style that inspires followers to embrace change, exceed their own expectations, and pursue a shared vision",
+          "meaning_vi": "biến đổi (phong cách lãnh đạo truyền cảm hứng để theo đuổi tầm nhìn chung, vượt qua giới hạn cá nhân)",
+          "examples": [
+            {
+              "en": "Steve Jobs is often cited as a transformational leader of the tech era.",
+              "vi": "Steve Jobs thường được nhắc là lãnh đạo transformational của thời đại tech."
+            },
+            {
+              "en": "Transformational leaders focus on long-term vision over short-term results.",
+              "vi": "Lãnh đạo transformational tập trung vào tầm nhìn dài hạn hơn kết quả ngắn hạn."
+            },
+            {
+              "en": "Phạm Nhật Vượng has been called a transformational figure in Vietnamese business.",
+              "vi": "Phạm Nhật Vượng được gọi là nhân vật transformational trong kinh doanh Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["visionary"],
+      "antonyms": ["transactional", "status-quo"],
+      "collocations": [
+        "transformational leader",
+        "transformational leadership",
+        "transformational change",
+        "transformational vision"
+      ],
+      "etymology_hint": "From Latin 'transformare' — 'trans-' (across) + 'formare' (to shape) — shape-shifting across boundaries.",
+      "mnemonic_vi": "TRANSFORM (biến đổi) + ATIONAL = thuộc biến đổi. Transformational = biến đổi tầm nhìn, người và tổ chức."
+    },
+    {
+      "word": "charismatic",
+      "lemma": "charismatic",
+      "ipa": "/ˌkærɪzˈmætɪk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "exercising a compelling charm that inspires devotion in others, often through personality and presence",
+          "meaning_vi": "có sức hút (sức cuốn hút khiến người khác ngưỡng mộ và đi theo qua nhân cách và sự hiện diện)",
+          "examples": [
+            {
+              "en": "Charismatic leaders can rally people around bold ideas with just a speech.",
+              "vi": "Lãnh đạo charismatic có thể tập hợp người quanh ý tưởng táo bạo chỉ bằng một bài phát biểu."
+            },
+            {
+              "en": "JFK and Obama are often described as charismatic political figures.",
+              "vi": "JFK và Obama thường được mô tả là nhân vật chính trị charismatic."
+            },
+            {
+              "en": "Sơn Tùng M-TP's charismatic stage presence drives a huge Vietnamese fanbase.",
+              "vi": "Sự hiện diện sân khấu charismatic của Sơn Tùng M-TP nuôi fanbase Việt khổng lồ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["magnetic", "compelling"],
+      "antonyms": ["dull", "uninspiring"],
+      "collocations": [
+        "charismatic leader",
+        "charismatic personality",
+        "highly charismatic",
+        "charismatic speaker"
+      ],
+      "etymology_hint": "From Greek 'kharisma' (favor, divine gift) — originally a 'gift of grace'.",
+      "mnemonic_vi": "CHARISMA (sức hút trời ban) + TIC = mang charisma. Charismatic = có duyên cuốn hút trời cho."
+    },
+    {
+      "word": "hands-off",
+      "lemma": "hands-off",
+      "ipa": "/ˌhændz ˈɒf/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a management approach that gives employees autonomy and avoids close supervision or interference",
+          "meaning_vi": "không can thiệp sát (phong cách quản lý cho nhân viên tự chủ, ít giám sát chi tiết)",
+          "examples": [
+            {
+              "en": "A hands-off manager trusts the team to solve problems on their own.",
+              "vi": "Một quản lý hands-off tin đội tự giải quyết vấn đề."
+            },
+            {
+              "en": "Hands-off works well with experienced teams but can fail with juniors.",
+              "vi": "Hands-off hợp với đội kinh nghiệm nhưng có thể thất bại với người mới."
+            },
+            {
+              "en": "Vietnamese remote teams often request a more hands-off leadership style.",
+              "vi": "Đội remote Việt thường yêu cầu phong cách lãnh đạo hands-off hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["non-interventionist", "laissez-faire"],
+      "antonyms": ["hands-on", "micromanaging"],
+      "collocations": ["hands-off approach", "hands-off management", "hands-off style"],
+      "mnemonic_vi": "HANDS (tay) + OFF (rời) = không đặt tay vào. Hands-off = không can thiệp, để nhân viên tự làm."
+    },
+    {
+      "word": "micromanage",
+      "lemma": "micromanage",
+      "ipa": "/ˈmaɪkrəʊˌmænɪdʒ/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to manage or control every small detail of an employee's work, often excessively and to their frustration",
+          "meaning_vi": "quản lý vi mô, soi mói (kiểm soát mọi chi tiết nhỏ trong công việc của nhân viên, thường quá mức)",
+          "examples": [
+            {
+              "en": "Bosses who micromanage often lose their best employees to competitors.",
+              "vi": "Sếp hay micromanage thường mất nhân viên giỏi vào tay đối thủ."
+            },
+            {
+              "en": "Stop micromanaging me — I know how to do my own job.",
+              "vi": "Đừng micromanage tôi nữa — tôi biết cách làm việc của mình."
+            },
+            {
+              "en": "Vietnamese employees often complain about bosses who micromanage even bathroom breaks.",
+              "vi": "Nhân viên Việt thường phàn nàn về sếp micromanage cả giờ đi toilet."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["over-supervise"],
+      "antonyms": ["delegate", "trust"],
+      "collocations": ["stop micromanaging", "micromanage every detail", "tend to micromanage"],
+      "mnemonic_vi": "MICRO (nhỏ) + MANAGE (quản lý) = quản lý nhỏ nhặt. Micromanage = soi mói từng chi tiết."
+    },
+    {
+      "word": "servant-leader",
+      "lemma": "servant-leader",
+      "ipa": "/ˈsɜːvənt ˌliːdə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a leader who prioritizes the growth, wellbeing, and needs of their team members above their own authority or ego",
+          "meaning_vi": "lãnh đạo phục vụ (ưu tiên sự phát triển và lợi ích của thành viên hơn quyền lực hay cái tôi của mình)",
+          "examples": [
+            {
+              "en": "A servant-leader asks 'How can I help you succeed?' before giving orders.",
+              "vi": "Servant-leader hỏi 'Tôi giúp gì để bạn thành công?' trước khi ra lệnh."
+            },
+            {
+              "en": "Servant-leadership has become popular in modern tech and nonprofit sectors.",
+              "vi": "Servant-leader trở nên phổ biến ở tech hiện đại và phi lợi nhuận."
+            },
+            {
+              "en": "Some Vietnamese teachers practice servant-leadership by mentoring after school.",
+              "vi": "Một số thầy cô Việt thực hành servant-leader bằng cách kèm cặp sau giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["supportive leader"],
+      "antonyms": ["autocratic leader"],
+      "collocations": ["true servant-leader", "servant-leader mindset", "servant-leadership style"],
+      "mnemonic_vi": "SERVANT (người phục vụ) + LEADER (lãnh đạo) = lãnh đạo phục vụ. Phục vụ team trước, dẫn dắt sau."
+    },
+    {
+      "word": "authoritarian",
+      "lemma": "authoritarian",
+      "ipa": "/ɔːˌθɒrɪˈteəriən/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "demanding strict obedience to authority at the expense of personal freedom or input",
+          "meaning_vi": "độc tài, độc đoán (đòi tuân thủ nghiêm ngặt theo quyền lực, hi sinh tự do và tiếng nói cá nhân)",
+          "examples": [
+            {
+              "en": "Authoritarian regimes often suppress dissent and free press.",
+              "vi": "Chế độ authoritarian thường đàn áp dissent và báo chí tự do."
+            },
+            {
+              "en": "Authoritarian parenting demands obedience without explaining reasons.",
+              "vi": "Authoritarian parenting đòi vâng lời mà không giải thích lý do."
+            },
+            {
+              "en": "Vietnamese culture has shifted away from authoritarian classroom styles toward dialogue.",
+              "vi": "Văn hóa Việt đã chuyển khỏi authoritarian lớp học sang đối thoại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["autocratic", "dictatorial"],
+      "antonyms": ["democratic", "permissive"],
+      "collocations": [
+        "authoritarian regime",
+        "authoritarian leader",
+        "authoritarian parenting",
+        "highly authoritarian"
+      ],
+      "etymology_hint": "From Latin 'auctor' (originator, master) — same root as 'author' and 'authority'.",
+      "mnemonic_vi": "AUTHOR (tác giả, người có quyền) + ITARIAN = thuộc quyền tuyệt đối. Authoritarian = độc tài."
+    },
+    {
+      "word": "laissez-faire",
+      "lemma": "laissez-faire",
+      "ipa": "/ˌleseɪ ˈfeə(r)/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a hands-off approach in management or policy that allows people or markets to operate with minimal interference",
+          "meaning_vi": "buông lỏng (cách tiếp cận quản lý/chính sách để mọi người/thị trường tự vận hành, ít can thiệp)",
+          "examples": [
+            {
+              "en": "Laissez-faire economics argues governments should not regulate markets heavily.",
+              "vi": "Kinh tế laissez-faire lập luận chính phủ không nên quản chặt thị trường."
+            },
+            {
+              "en": "A laissez-faire boss can empower or abandon depending on team experience.",
+              "vi": "Sếp laissez-faire có thể trao quyền hoặc bỏ rơi tùy kinh nghiệm đội."
+            },
+            {
+              "en": "Vietnam's early Đổi Mới policies were not strictly laissez-faire but loosened state control.",
+              "vi": "Chính sách Đổi Mới sớm của Việt Nam không hoàn toàn laissez-faire nhưng nới lỏng kiểm soát nhà nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hands-off"],
+      "antonyms": ["interventionist"],
+      "collocations": [
+        "laissez-faire economics",
+        "laissez-faire approach",
+        "laissez-faire leadership"
+      ],
+      "mnemonic_vi": "LAISSEZ (để cho, French) + FAIRE (làm, French) = 'để mặc cho làm'. Buông lỏng quản lý."
+    },
+    {
+      "word": "inspirational",
+      "lemma": "inspirational",
+      "ipa": "/ˌɪnspəˈreɪʃənl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "providing or arousing inspiration; making others feel motivated, hopeful, or eager to act",
+          "meaning_vi": "truyền cảm hứng (khiến người khác cảm thấy có động lực, hy vọng, muốn hành động)",
+          "examples": [
+            {
+              "en": "An inspirational leader makes people believe in a bigger future.",
+              "vi": "Một lãnh đạo inspirational khiến người ta tin vào tương lai lớn hơn."
+            },
+            {
+              "en": "TED Talks are famous for delivering inspirational stories in 18 minutes.",
+              "vi": "TED Talks nổi tiếng vì kể câu chuyện inspirational trong 18 phút."
+            },
+            {
+              "en": "Vietnamese Olympic athletes inspirational stories rally national pride.",
+              "vi": "Câu chuyện inspirational của vận động viên Olympic Việt khơi dậy niềm tự hào dân tộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["motivational", "uplifting"],
+      "antonyms": ["uninspiring", "demoralizing"],
+      "collocations": [
+        "inspirational leader",
+        "inspirational speech",
+        "inspirational story",
+        "deeply inspirational"
+      ],
+      "etymology_hint": "From Latin 'inspirare' (to breathe into) — same root as 'spirit', breathing life into others.",
+      "mnemonic_vi": "IN (vào) + SPIRA (thở, spirit) + TIONAL = thổi tinh thần vào. Inspirational = truyền cảm hứng."
+    },
+    {
+      "word": "figurehead",
+      "lemma": "figurehead",
+      "ipa": "/ˈfɪɡəhed/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a nominal leader who holds a title or position but has no real power or decision-making authority",
+          "meaning_vi": "lãnh đạo bù nhìn (nắm danh xưng/chức vụ nhưng không có quyền lực thực sự)",
+          "examples": [
+            {
+              "en": "The queen is a figurehead in modern British politics, with no real legislative power.",
+              "vi": "Nữ hoàng là figurehead trong chính trị Anh hiện đại, không có quyền lập pháp thực."
+            },
+            {
+              "en": "The CEO became a figurehead after the board reassigned his executive duties.",
+              "vi": "Vị CEO trở thành figurehead sau khi hội đồng tước nhiệm vụ điều hành."
+            },
+            {
+              "en": "Some Vietnamese family business chairmen are essentially figureheads now.",
+              "vi": "Một số chủ tịch doanh nghiệp gia đình Việt giờ về cơ bản là figurehead."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nominal leader", "puppet"],
+      "antonyms": ["real leader", "decision-maker"],
+      "collocations": ["mere figurehead", "ceremonial figurehead", "reduced to a figurehead"],
+      "mnemonic_vi": "FIGURE (hình, tượng) + HEAD (đầu) = tượng đầu thuyền (xưa khắc ở mũi tàu). Tượng trưng thôi, không lái thuyền. Figurehead = bù nhìn."
+    },
+    {
+      "word": "directive",
+      "lemma": "directive",
+      "ipa": "/dəˈrektɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "involving or giving clear, specific instructions or commands to others, often top-down",
+          "meaning_vi": "chỉ thị, mệnh lệnh rõ ràng (đưa hướng dẫn cụ thể từ trên xuống)",
+          "examples": [
+            {
+              "en": "A directive leadership style works well in emergencies when speed matters.",
+              "vi": "Phong cách lãnh đạo directive hiệu quả trong khẩn cấp khi tốc độ quan trọng."
+            },
+            {
+              "en": "He took a directive approach with the new interns to set clear expectations.",
+              "vi": "Anh ấy dùng cách directive với intern mới để đặt kỳ vọng rõ."
+            },
+            {
+              "en": "Vietnamese state-owned enterprises often follow a directive top-down management style.",
+              "vi": "Doanh nghiệp nhà nước Việt thường theo phong cách directive từ trên xuống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["commanding", "instructional"],
+      "antonyms": ["non-directive", "advisory"],
+      "collocations": ["directive style", "directive leadership", "directive approach"],
+      "etymology_hint": "From Latin 'directus' (straight, direct) — same root as 'direct' and 'director'.",
+      "mnemonic_vi": "DIRECT (chỉ đạo) + IVE = mang tính chỉ đạo. Directive = chỉ thị, mệnh lệnh rõ ràng."
+    },
+    {
+      "word": "adaptive",
+      "lemma": "adaptive",
+      "ipa": "/əˈdæptɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "able to adjust easily to new conditions, situations, or environments, especially in leadership and strategy",
+          "meaning_vi": "thích nghi (có khả năng điều chỉnh dễ dàng với điều kiện/tình huống mới)",
+          "examples": [
+            {
+              "en": "Adaptive leaders change their style based on team needs and context.",
+              "vi": "Lãnh đạo adaptive thay đổi phong cách dựa trên nhu cầu đội và bối cảnh."
+            },
+            {
+              "en": "Adaptive companies survived the pandemic by quickly shifting to remote work.",
+              "vi": "Công ty adaptive sống sót đại dịch bằng cách chuyển sang remote work nhanh."
+            },
+            {
+              "en": "Vietnamese small businesses showed remarkable adaptive capacity during 2020-2021.",
+              "vi": "Doanh nghiệp nhỏ Việt cho thấy khả năng adaptive đáng nể trong 2020-2021."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flexible", "responsive"],
+      "antonyms": ["rigid", "inflexible"],
+      "collocations": [
+        "adaptive leadership",
+        "adaptive strategy",
+        "highly adaptive",
+        "adaptive capacity"
+      ],
+      "etymology_hint": "From Latin 'adaptare' (to fit) — 'ad-' (to) + 'aptare' (to make fit).",
+      "mnemonic_vi": "ADAPT (thích nghi) + IVE = mang tính thích nghi. Adaptive = thích nghi linh hoạt."
+    },
+    {
+      "word": "emotional-intelligence",
+      "lemma": "emotional-intelligence",
+      "ipa": "/ɪˈməʊʃənl ɪnˈtelɪdʒəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to recognize, understand, and manage one's own emotions, as well as the emotions of others, especially in leadership and relationships",
+          "meaning_vi": "trí tuệ cảm xúc (nhận biết, hiểu và quản lý cảm xúc của mình và người khác — quan trọng trong lãnh đạo)",
+          "examples": [
+            {
+              "en": "Leaders with high emotional intelligence build stronger, more loyal teams.",
+              "vi": "Lãnh đạo có emotional-intelligence cao xây đội mạnh và trung thành hơn."
+            },
+            {
+              "en": "Emotional intelligence is often called EQ to contrast with IQ.",
+              "vi": "Emotional-intelligence thường gọi là EQ để đối lập với IQ."
+            },
+            {
+              "en": "Vietnamese HR training programs increasingly emphasize emotional intelligence.",
+              "vi": "Chương trình đào tạo HR Việt ngày càng nhấn mạnh emotional-intelligence."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["EQ"],
+      "antonyms": [],
+      "collocations": [
+        "high emotional intelligence",
+        "low emotional intelligence",
+        "develop emotional intelligence",
+        "emotional-intelligence training"
+      ],
+      "mnemonic_vi": "EMOTIONAL (cảm xúc) + INTELLIGENCE (trí thông minh) = thông minh cảm xúc. EQ = thông minh về xúc cảm."
+    },
+    {
+      "word": "bureaucratic",
+      "lemma": "bureaucratic",
+      "ipa": "/ˌbjʊərəˈkrætɪk/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "characterized by strict procedures, formal rules, and complex hierarchies, often slowing down decisions and innovation",
+          "meaning_vi": "quan liêu (đặc trưng bởi thủ tục cứng, quy tắc chính thức, hệ thống thứ bậc phức tạp — thường làm chậm quyết định)",
+          "examples": [
+            {
+              "en": "Large bureaucratic organizations often struggle to innovate quickly.",
+              "vi": "Tổ chức bureaucratic lớn thường khó đổi mới nhanh."
+            },
+            {
+              "en": "Vietnamese public-sector offices are reforming to become less bureaucratic.",
+              "vi": "Cơ quan công Việt đang cải cách để bớt bureaucratic."
+            },
+            {
+              "en": "A bureaucratic process can take weeks to approve a simple expense.",
+              "vi": "Quy trình bureaucratic có thể mất hàng tuần để duyệt một chi phí đơn giản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["red-tape-laden", "procedural"],
+      "antonyms": ["agile", "streamlined"],
+      "collocations": [
+        "bureaucratic process",
+        "bureaucratic organization",
+        "highly bureaucratic",
+        "bureaucratic hurdle"
+      ],
+      "etymology_hint": "From French 'bureau' (office, desk) + Greek 'kratos' (power) — 'rule by office'.",
+      "mnemonic_vi": "BUREAU (văn phòng) + CRATIC (cai trị) = cai trị bằng văn phòng/giấy tờ. Bureaucratic = quan liêu, nặng thủ tục."
+    },
+    {
+      "word": "pacesetting",
+      "lemma": "pacesetting",
+      "ipa": "/ˈpeɪsˌsetɪŋ/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a leadership style where the leader sets high performance standards and expects others to match the pace, often by personal example",
+          "meaning_vi": "tạo nhịp (phong cách lãnh đạo đặt chuẩn cao, kỳ vọng người khác theo nhịp, làm gương cá nhân)",
+          "examples": [
+            {
+              "en": "A pacesetting leader works extra hours and expects everyone else to do the same.",
+              "vi": "Lãnh đạo pacesetting làm thêm giờ và mong mọi người cũng làm vậy."
+            },
+            {
+              "en": "Pacesetting works in sprints but burns out teams over the long term.",
+              "vi": "Pacesetting hiệu quả trong sprint nhưng làm đội kiệt sức về lâu dài."
+            },
+            {
+              "en": "Many Vietnamese tech founders practice pacesetting in early-stage startups.",
+              "vi": "Nhiều founder tech Việt thực hành pacesetting trong startup giai đoạn đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["performance-driven"],
+      "antonyms": ["laissez-faire"],
+      "collocations": ["pacesetting style", "pacesetting leader", "pacesetting approach"],
+      "mnemonic_vi": "PACE (nhịp) + SETTING (đặt) = đặt nhịp. Pacesetting = đặt nhịp đua, mọi người theo cho kịp."
+    },
+    {
+      "word": "coercive",
+      "lemma": "coercive",
+      "ipa": "/kəʊˈɜːsɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "using force, threats, or pressure to compel obedience or compliance, often against someone's will",
+          "meaning_vi": "cưỡng ép (dùng vũ lực, đe dọa, áp lực để buộc người khác tuân theo)",
+          "examples": [
+            {
+              "en": "Coercive leadership creates short-term compliance but long-term resentment.",
+              "vi": "Lãnh đạo coercive tạo tuân thủ ngắn hạn nhưng phẫn uất dài hạn."
+            },
+            {
+              "en": "Coercive measures should be a last resort, not a default management tool.",
+              "vi": "Biện pháp coercive nên là phương án cuối, không phải công cụ quản lý mặc định."
+            },
+            {
+              "en": "Vietnamese labor laws prohibit coercive contracts that exploit workers.",
+              "vi": "Luật lao động Việt cấm hợp đồng coercive bóc lột người lao động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forceful", "compulsive"],
+      "antonyms": ["voluntary", "consensual"],
+      "collocations": [
+        "coercive style",
+        "coercive measures",
+        "coercive control",
+        "coercive tactics"
+      ],
+      "etymology_hint": "From Latin 'coercere' (to confine, restrain) — 'co-' (together) + 'arcere' (to enclose).",
+      "mnemonic_vi": "CO (cùng) + ERCE (vây, arcere) = vây ép. Coercive = ép buộc, không cho lựa chọn."
+    },
+    {
+      "word": "affiliative",
+      "lemma": "affiliative",
+      "ipa": "/əˈfɪliətɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a leadership style focused on building emotional bonds, harmony, and a sense of belonging within a team",
+          "meaning_vi": "kết nối tình cảm (phong cách lãnh đạo tập trung xây dựng gắn kết cảm xúc, hòa khí và cảm giác thuộc về)",
+          "examples": [
+            {
+              "en": "Affiliative leaders praise often and prioritize team morale.",
+              "vi": "Lãnh đạo affiliative khen nhiều và ưu tiên tinh thần đội."
+            },
+            {
+              "en": "Affiliative style works well after a stressful crisis to heal the team.",
+              "vi": "Phong cách affiliative hiệu quả sau khủng hoảng để chữa lành đội."
+            },
+            {
+              "en": "Vietnamese workplaces value affiliative leaders who care about employee families.",
+              "vi": "Nơi làm việc Việt coi trọng lãnh đạo affiliative quan tâm gia đình nhân viên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relationship-oriented", "supportive"],
+      "antonyms": ["task-oriented", "distant"],
+      "collocations": ["affiliative leadership", "affiliative style", "affiliative approach"],
+      "etymology_hint": "From Latin 'ad' (to) + 'filius' (son) — making others 'sons/daughters' of the family.",
+      "mnemonic_vi": "AFFILIATE (liên kết, gia nhập) + IVE = thuộc liên kết. Affiliative = lãnh đạo bằng gắn kết tình cảm."
+    },
+    {
+      "word": "transactional",
+      "lemma": "transactional",
+      "ipa": "/trænˈzækʃənl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "based on a clear exchange of rewards for performance, where leaders give incentives in return for meeting specific goals",
+          "meaning_vi": "giao dịch, đổi chác (dựa trên trao đổi rõ ràng — thưởng cho kết quả, phạt cho thất bại)",
+          "examples": [
+            {
+              "en": "Transactional leadership works well for routine tasks but rarely sparks innovation.",
+              "vi": "Lãnh đạo transactional hiệu quả cho công việc lặp lại nhưng hiếm khi khơi đổi mới."
+            },
+            {
+              "en": "Many sales teams operate on a clear transactional reward structure.",
+              "vi": "Nhiều đội bán hàng vận hành theo cơ chế thưởng transactional rõ ràng."
+            },
+            {
+              "en": "Vietnamese factory KPIs often follow a transactional bonus model.",
+              "vi": "KPI nhà máy Việt thường theo mô hình thưởng transactional."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exchange-based"],
+      "antonyms": ["transformational"],
+      "collocations": [
+        "transactional leader",
+        "transactional style",
+        "transactional reward",
+        "transactional relationship"
+      ],
+      "etymology_hint": "From Latin 'trans-' (across) + 'agere' (to do, drive) — 'doing across' parties, an exchange.",
+      "mnemonic_vi": "TRANSACT (giao dịch) + IONAL = thuộc giao dịch. Transactional = đổi chác (thưởng cho output)."
+    },
+    {
+      "word": "decisive",
+      "lemma": "decisive",
+      "ipa": "/dɪˈsaɪsɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "able to make decisions quickly and confidently, without excessive hesitation or second-guessing",
+          "meaning_vi": "quyết đoán (ra quyết định nhanh và tự tin, không do dự hay nghĩ đi nghĩ lại quá nhiều)",
+          "examples": [
+            {
+              "en": "Decisive leaders are valued in fast-moving industries like tech and finance.",
+              "vi": "Lãnh đạo decisive được coi trọng trong ngành nhanh như tech và tài chính."
+            },
+            {
+              "en": "Being decisive doesn't mean being reckless — it means committing after thinking.",
+              "vi": "Decisive không có nghĩa là liều lĩnh — là cam kết sau khi suy nghĩ."
+            },
+            {
+              "en": "Vietnamese leaders during the Đổi Mới reforms had to be decisive under uncertainty.",
+              "vi": "Lãnh đạo Việt thời Đổi Mới phải decisive trong bất định."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resolute", "firm"],
+      "antonyms": ["indecisive", "hesitant"],
+      "collocations": ["decisive leader", "decisive action", "decisive moment", "highly decisive"],
+      "etymology_hint": "From Latin 'decidere' (to cut off, decide) — 'de-' (away) + 'caedere' (to cut).",
+      "mnemonic_vi": "DECIDE (quyết định) + IVE = mang tính quyết định. Decisive = quyết đoán, dứt khoát."
+    }
+  ]
+}

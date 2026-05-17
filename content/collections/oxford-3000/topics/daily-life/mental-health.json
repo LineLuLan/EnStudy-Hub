@@ -1,0 +1,717 @@
+{
+  "slug": "mental-health",
+  "name": "Mental Health",
+  "description": "Sức khỏe tinh thần B2 — depression, burnout, resilience, mindfulness và 20 thuật ngữ cho người chăm sóc tâm trí.",
+  "order_index": 24,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "depression",
+      "lemma": "depression",
+      "ipa": "/dɪˈpreʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a mental health condition characterized by persistent sadness, loss of interest, and difficulty functioning, often requiring treatment",
+          "meaning_vi": "trầm cảm (rối loạn tâm thần với buồn dai dẳng, mất hứng thú, khó hoạt động bình thường)",
+          "examples": [
+            {
+              "en": "Clinical depression affects roughly 280 million people worldwide.",
+              "vi": "Depression lâm sàng ảnh hưởng khoảng 280 triệu người trên thế giới."
+            },
+            {
+              "en": "Therapy and medication together often work better than either alone for depression.",
+              "vi": "Therapy và thuốc kết hợp thường hiệu quả hơn từng cái riêng lẻ cho depression."
+            },
+            {
+              "en": "Awareness of depression is growing among young Vietnamese, especially in big cities.",
+              "vi": "Nhận thức về depression đang tăng trong giới trẻ Việt, đặc biệt ở các thành phố lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clinical depression", "major depressive disorder"],
+      "antonyms": ["euphoria"],
+      "collocations": [
+        "clinical depression",
+        "treat depression",
+        "suffer from depression",
+        "post-partum depression",
+        "depression symptoms"
+      ],
+      "etymology_hint": "From Latin 'deprimere' (to press down) — the feeling of being 'pressed down' emotionally.",
+      "mnemonic_vi": "DE (xuống) + PRESS (ép) + ION = bị ép xuống. Depression = trầm cảm = bị nén xuống về tinh thần."
+    },
+    {
+      "word": "mindfulness",
+      "lemma": "mindfulness",
+      "ipa": "/ˈmaɪndflnəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of paying focused, non-judgmental attention to the present moment, often used to reduce stress and anxiety",
+          "meaning_vi": "chánh niệm (thực hành tập trung vào hiện tại, không phán xét, để giảm stress và lo âu)",
+          "examples": [
+            {
+              "en": "Mindfulness apps like Headspace have made meditation accessible to millions.",
+              "vi": "App mindfulness như Headspace đã giúp thiền dễ tiếp cận với hàng triệu người."
+            },
+            {
+              "en": "Five minutes of daily mindfulness can lower anxiety over a few weeks.",
+              "vi": "Năm phút mindfulness mỗi ngày có thể giảm lo âu trong vài tuần."
+            },
+            {
+              "en": "Vietnamese Buddhist tradition has practiced mindfulness for over a thousand years.",
+              "vi": "Truyền thống Phật giáo Việt đã thực hành mindfulness hơn nghìn năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["present-moment awareness"],
+      "antonyms": ["distraction", "mindlessness"],
+      "collocations": [
+        "practice mindfulness",
+        "mindfulness meditation",
+        "mindfulness app",
+        "daily mindfulness"
+      ],
+      "mnemonic_vi": "MIND (tâm) + FUL (đầy) + NESS = đầy tâm trí trong khoảnh khắc. Mindfulness = chánh niệm."
+    },
+    {
+      "word": "burnout",
+      "lemma": "burnout",
+      "ipa": "/ˈbɜːnaʊt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a state of physical, emotional, and mental exhaustion caused by prolonged stress, especially from work",
+          "meaning_vi": "kiệt sức (suy kiệt thể chất, cảm xúc, tinh thần do căng thẳng kéo dài, đặc biệt từ công việc)",
+          "examples": [
+            {
+              "en": "Doctors and nurses face high rates of burnout, especially after the pandemic.",
+              "vi": "Bác sĩ và y tá đối mặt với tỷ lệ burnout cao, đặc biệt sau đại dịch."
+            },
+            {
+              "en": "Recovering from burnout requires more than a long weekend off.",
+              "vi": "Phục hồi từ burnout đòi hỏi hơn một kỳ cuối tuần dài nghỉ ngơi."
+            },
+            {
+              "en": "Vietnamese tech workers report rising burnout as 12-hour days become common.",
+              "vi": "Người làm tech Việt báo cáo burnout tăng khi ngày làm 12 giờ trở nên phổ biến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exhaustion", "fatigue"],
+      "antonyms": ["energized state"],
+      "collocations": [
+        "experience burnout",
+        "workplace burnout",
+        "recover from burnout",
+        "burnout symptoms"
+      ],
+      "mnemonic_vi": "BURN (cháy) + OUT (hết) = cháy hết. Burnout = kiệt sức như đèn cháy hết dầu."
+    },
+    {
+      "word": "self-care",
+      "lemma": "self-care",
+      "ipa": "/ˌself ˈkeə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "deliberate activities taken to maintain or improve one's own physical, mental, or emotional health and wellbeing",
+          "meaning_vi": "chăm sóc bản thân (hoạt động có chủ đích để duy trì/cải thiện sức khỏe thể chất, tinh thần, cảm xúc của mình)",
+          "examples": [
+            {
+              "en": "Self-care includes basics like sleep and exercise, not just bubble baths and candles.",
+              "vi": "Self-care gồm những điều cơ bản như ngủ và tập, không chỉ là tắm bồn và nến."
+            },
+            {
+              "en": "Burnout often comes from neglecting self-care for months.",
+              "vi": "Burnout thường đến từ việc bỏ bê self-care trong nhiều tháng."
+            },
+            {
+              "en": "Vietnamese influencers have popularized self-care routines on TikTok.",
+              "vi": "Influencer Việt đã phổ biến thói quen self-care trên TikTok."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["personal care", "self-maintenance"],
+      "antonyms": ["self-neglect"],
+      "collocations": [
+        "practice self-care",
+        "self-care routine",
+        "self-care day",
+        "essential self-care"
+      ],
+      "mnemonic_vi": "SELF (bản thân) + CARE (chăm sóc) = chăm chính mình. Self-care = chăm sóc bản thân."
+    },
+    {
+      "word": "cognitive",
+      "lemma": "cognitive",
+      "ipa": "/ˈkɒɡnətɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to the mental processes of thinking, knowing, learning, memory, and problem-solving",
+          "meaning_vi": "thuộc nhận thức (liên quan đến quá trình tư duy, hiểu biết, học, trí nhớ, giải quyết vấn đề)",
+          "examples": [
+            {
+              "en": "Cognitive behavioral therapy is one of the most evidence-based treatments for anxiety.",
+              "vi": "Liệu pháp cognitive behavioral là một trong những điều trị có chứng cứ nhất cho lo âu."
+            },
+            {
+              "en": "Sleep deprivation severely impairs cognitive function within just a few days.",
+              "vi": "Thiếu ngủ làm suy giảm nghiêm trọng chức năng cognitive chỉ trong vài ngày."
+            },
+            {
+              "en": "Vietnamese researchers study cognitive decline among the elderly population.",
+              "vi": "Nhà nghiên cứu Việt nghiên cứu suy giảm cognitive ở người cao tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mental", "intellectual"],
+      "antonyms": ["emotional", "physical"],
+      "collocations": [
+        "cognitive function",
+        "cognitive ability",
+        "cognitive decline",
+        "cognitive therapy",
+        "cognitive bias"
+      ],
+      "etymology_hint": "From Latin 'cognoscere' (to know, recognize) — same root as 'recognize'.",
+      "mnemonic_vi": "COGN (biết, recognize) + ITIVE = liên quan đến biết. Cognitive = thuộc nhận thức tâm trí."
+    },
+    {
+      "word": "behavioral",
+      "lemma": "behavioral",
+      "ipa": "/bɪˈheɪvjərəl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to observable patterns of behavior or actions, especially in psychology and therapy",
+          "meaning_vi": "thuộc hành vi (liên quan đến mẫu hành vi quan sát được, đặc biệt trong tâm lý và therapy)",
+          "examples": [
+            {
+              "en": "Behavioral therapy focuses on changing actions rather than just thoughts.",
+              "vi": "Behavioral therapy tập trung thay đổi hành động hơn là chỉ suy nghĩ."
+            },
+            {
+              "en": "Schools track behavioral patterns to identify students who need support.",
+              "vi": "Trường theo dõi mẫu behavioral để xác định học sinh cần hỗ trợ."
+            },
+            {
+              "en": "Vietnamese parents are learning behavioral techniques for managing toddler tantrums.",
+              "vi": "Phụ huynh Việt đang học kỹ thuật behavioral để xử lý cơn tantrum của trẻ tập đi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conduct-related"],
+      "antonyms": ["cognitive (in some contrast)"],
+      "collocations": [
+        "behavioral therapy",
+        "behavioral pattern",
+        "behavioral change",
+        "behavioral problem"
+      ],
+      "mnemonic_vi": "BEHAVIOR (hành vi) + AL = thuộc hành vi. Behavioral = về hành vi quan sát được."
+    },
+    {
+      "word": "trauma",
+      "lemma": "trauma",
+      "ipa": "/ˈtrɔːmə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a deeply distressing or disturbing experience that has lasting psychological impact on a person",
+          "meaning_vi": "sang chấn, tổn thương (trải nghiệm gây đau khổ sâu sắc, để lại ảnh hưởng tâm lý lâu dài)",
+          "examples": [
+            {
+              "en": "Childhood trauma can shape adult behavior decades later.",
+              "vi": "Trauma thời thơ ấu có thể định hình hành vi người lớn nhiều thập kỷ sau."
+            },
+            {
+              "en": "Veterans often live with trauma from combat for the rest of their lives.",
+              "vi": "Cựu binh thường sống với trauma từ chiến đấu suốt phần đời còn lại."
+            },
+            {
+              "en": "Many Vietnamese families carry intergenerational trauma from wartime experiences.",
+              "vi": "Nhiều gia đình Việt mang trauma liên thế hệ từ trải nghiệm chiến tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["psychological injury", "shock"],
+      "antonyms": [],
+      "collocations": [
+        "childhood trauma",
+        "process trauma",
+        "intergenerational trauma",
+        "trauma therapy",
+        "deal with trauma"
+      ],
+      "etymology_hint": "From Greek 'trauma' (wound) — originally a physical wound, now also used for psychological wounds.",
+      "mnemonic_vi": "TRAUMA = vết thương (Hy Lạp). Vết thương tâm hồn. Trauma = sang chấn tâm lý sâu sắc."
+    },
+    {
+      "word": "panic-attack",
+      "lemma": "panic-attack",
+      "ipa": "/ˈpænɪk əˌtæk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a sudden episode of intense fear or anxiety, often with physical symptoms like racing heart, chest pain, and difficulty breathing",
+          "meaning_vi": "cơn hoảng loạn (giai đoạn đột ngột của sợ hãi/lo âu dữ dội, kèm tim đập nhanh, đau ngực, khó thở)",
+          "examples": [
+            {
+              "en": "Her first panic attack happened on a crowded Saigon bus.",
+              "vi": "Cơn panic-attack đầu tiên của cô ấy xảy ra trên xe buýt đông ở Sài Gòn."
+            },
+            {
+              "en": "Panic attacks usually peak within 10 minutes but feel much longer.",
+              "vi": "Panic-attack thường đạt đỉnh trong 10 phút nhưng cảm giác lâu hơn nhiều."
+            },
+            {
+              "en": "Breathing techniques can shorten and ease a panic attack significantly.",
+              "vi": "Kỹ thuật thở có thể rút ngắn và giảm panic-attack đáng kể."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anxiety attack"],
+      "antonyms": [],
+      "collocations": ["have a panic attack", "severe panic attack", "manage panic attacks"],
+      "mnemonic_vi": "PANIC (hoảng loạn) + ATTACK (cơn) = cơn hoảng loạn. Compound trực tiếp."
+    },
+    {
+      "word": "counseling",
+      "lemma": "counseling",
+      "ipa": "/ˈkaʊnsəlɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "professional guidance and support given by a trained therapist or counselor to help someone work through emotional, mental, or life challenges",
+          "meaning_vi": "tham vấn (sự hướng dẫn và hỗ trợ chuyên nghiệp từ chuyên gia trị liệu để giúp giải quyết vấn đề cảm xúc/tâm thần/cuộc sống)",
+          "examples": [
+            {
+              "en": "Marriage counseling can help couples communicate before reaching divorce.",
+              "vi": "Counseling hôn nhân có thể giúp các cặp đôi giao tiếp trước khi đến mức ly hôn."
+            },
+            {
+              "en": "Universities now offer free counseling to students dealing with academic stress.",
+              "vi": "Các trường đại học giờ cung cấp counseling miễn phí cho sinh viên bị stress học."
+            },
+            {
+              "en": "Vietnamese teenagers increasingly seek online counseling through Zalo and Facebook.",
+              "vi": "Tuổi teen Việt ngày càng tìm counseling online qua Zalo và Facebook."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["therapy", "advisory"],
+      "antonyms": [],
+      "collocations": [
+        "marriage counseling",
+        "career counseling",
+        "seek counseling",
+        "professional counseling",
+        "online counseling"
+      ],
+      "etymology_hint": "From Latin 'consilium' (deliberation, advice) — same root as 'council' and 'consult'.",
+      "mnemonic_vi": "COUNSEL (lời khuyên) + ING = sự cho lời khuyên. Counseling = tham vấn chuyên nghiệp."
+    },
+    {
+      "word": "psychiatrist",
+      "lemma": "psychiatrist",
+      "ipa": "/saɪˈkaɪətrɪst/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a medical doctor who specializes in diagnosing and treating mental illnesses, and who can prescribe medication",
+          "meaning_vi": "bác sĩ tâm thần (bác sĩ y khoa chuyên chẩn đoán và điều trị bệnh tâm thần, được kê thuốc)",
+          "examples": [
+            {
+              "en": "A psychiatrist can prescribe antidepressants while a therapist usually cannot.",
+              "vi": "Psychiatrist được kê thuốc chống trầm cảm trong khi therapist thường không."
+            },
+            {
+              "en": "He saw a psychiatrist weekly for two years before fully recovering from PTSD.",
+              "vi": "Anh ấy gặp psychiatrist mỗi tuần suốt 2 năm trước khi hồi phục hoàn toàn từ PTSD."
+            },
+            {
+              "en": "Vietnam still has very few psychiatrists per capita compared to developed countries.",
+              "vi": "Việt Nam vẫn có rất ít psychiatrist trên đầu dân so với các nước phát triển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mental health doctor"],
+      "antonyms": [],
+      "collocations": [
+        "see a psychiatrist",
+        "consult a psychiatrist",
+        "licensed psychiatrist",
+        "child psychiatrist"
+      ],
+      "etymology_hint": "From Greek 'psyche' (soul, mind) + 'iatros' (healer) — 'healer of the mind'.",
+      "mnemonic_vi": "PSYCHE (tâm trí) + IATR (chữa, healer) + IST = người chữa tâm. Psychiatrist = bác sĩ tâm thần."
+    },
+    {
+      "word": "empathy",
+      "lemma": "empathy",
+      "ipa": "/ˈempəθi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to understand and share another person's feelings as if they were one's own",
+          "meaning_vi": "đồng cảm (khả năng hiểu và chia sẻ cảm xúc của người khác như của chính mình)",
+          "examples": [
+            {
+              "en": "Empathy is what distinguishes a good listener from a great therapist.",
+              "vi": "Empathy là điều phân biệt người nghe tốt với therapist xuất sắc."
+            },
+            {
+              "en": "Children develop empathy gradually through observation of caregivers.",
+              "vi": "Trẻ phát triển empathy dần qua quan sát người chăm sóc."
+            },
+            {
+              "en": "Vietnamese culture values empathy through expressions like 'thông cảm' and 'đồng cảm'.",
+              "vi": "Văn hóa Việt coi trọng empathy qua các cụm 'thông cảm' và 'đồng cảm'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compassion", "fellow-feeling"],
+      "antonyms": ["apathy", "indifference"],
+      "collocations": ["show empathy", "feel empathy", "lack of empathy", "deep empathy"],
+      "etymology_hint": "From Greek 'empatheia' (in + feeling) — 'feeling into' another's experience.",
+      "mnemonic_vi": "EM (vào) + PATHY (cảm, như 'sympathy') = cảm vào người khác. Empathy = đồng cảm sâu sắc."
+    },
+    {
+      "word": "resilience",
+      "lemma": "resilience",
+      "ipa": "/rɪˈzɪliəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ability to recover quickly from difficulties, adversity, or trauma and adapt to challenging circumstances",
+          "meaning_vi": "khả năng phục hồi, kiên cường (hồi phục nhanh từ khó khăn, nghịch cảnh, sang chấn và thích nghi với hoàn cảnh thử thách)",
+          "examples": [
+            {
+              "en": "Resilience is built over time through facing and overcoming small setbacks.",
+              "vi": "Resilience được xây dần qua việc đối mặt và vượt qua các trở ngại nhỏ."
+            },
+            {
+              "en": "Resilience is not about avoiding stress but bouncing back from it.",
+              "vi": "Resilience không phải tránh stress mà là bật lại sau stress."
+            },
+            {
+              "en": "Vietnamese workers have shown remarkable resilience through wars and economic shocks.",
+              "vi": "Người lao động Việt đã thể hiện resilience đáng nể qua chiến tranh và cú sốc kinh tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["toughness", "elasticity"],
+      "antonyms": ["fragility", "vulnerability"],
+      "collocations": [
+        "build resilience",
+        "emotional resilience",
+        "show resilience",
+        "remarkable resilience"
+      ],
+      "etymology_hint": "From Latin 'resilire' (to leap back, rebound) — 're-' (back) + 'salire' (to jump).",
+      "mnemonic_vi": "RE (lại) + SILI (nhảy, salire) + ENCE = nhảy lại được. Resilience = bật lại sau cú đánh."
+    },
+    {
+      "word": "coping",
+      "lemma": "coping",
+      "ipa": "/ˈkəʊpɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of dealing with stress, problems, or emotional pain through specific strategies or behaviors",
+          "meaning_vi": "đối phó (hành động xử lý stress, vấn đề, đau khổ cảm xúc bằng các chiến lược hoặc hành vi cụ thể)",
+          "examples": [
+            {
+              "en": "Healthy coping includes exercise and talking; unhealthy coping includes alcohol and avoidance.",
+              "vi": "Coping lành mạnh gồm tập và nói chuyện; coping không lành mạnh gồm rượu và né tránh."
+            },
+            {
+              "en": "Each person develops their own coping mechanisms over time.",
+              "vi": "Mỗi người phát triển coping mechanism riêng theo thời gian."
+            },
+            {
+              "en": "Vietnamese families coping with elderly care often lean on extended relatives.",
+              "vi": "Gia đình Việt coping với chăm sóc người già thường dựa vào họ hàng mở rộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["managing", "handling"],
+      "antonyms": ["being overwhelmed"],
+      "collocations": ["coping mechanism", "coping strategy", "healthy coping", "coping skill"],
+      "mnemonic_vi": "COPE (đối phó) + ING = sự đối phó. Coping = cách xử lý stress. Healthy coping vs unhealthy coping."
+    },
+    {
+      "word": "grief",
+      "lemma": "grief",
+      "ipa": "/ɡriːf/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "deep sorrow caused by loss, especially the death of a loved one or the end of a significant relationship",
+          "meaning_vi": "nỗi đau buồn (đau khổ sâu sắc do mất mát, đặc biệt mất người thân hoặc kết thúc một mối quan hệ quan trọng)",
+          "examples": [
+            {
+              "en": "Grief has no fixed timeline — some people recover in months, others take years.",
+              "vi": "Grief không có lịch trình cố định — có người hồi phục trong tháng, có người phải nhiều năm."
+            },
+            {
+              "en": "The five stages of grief include denial, anger, bargaining, depression, and acceptance.",
+              "vi": "Năm giai đoạn của grief gồm chối bỏ, tức giận, mặc cả, trầm cảm và chấp nhận."
+            },
+            {
+              "en": "Vietnamese families often process grief through tang lễ rituals and ancestor worship.",
+              "vi": "Gia đình Việt thường xử lý grief qua nghi lễ tang lễ và thờ cúng tổ tiên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sorrow", "mourning"],
+      "antonyms": ["joy"],
+      "collocations": [
+        "deep grief",
+        "process grief",
+        "grief counseling",
+        "stages of grief",
+        "overwhelmed by grief"
+      ],
+      "etymology_hint": "From Old French 'grief' (suffering, wrong) from Latin 'gravis' (heavy) — grief is a 'heavy' burden.",
+      "mnemonic_vi": "GRIEF từ 'gravis' (nặng nề) — nỗi đau nặng nề. Grief = đau buồn sâu sắc do mất mát."
+    },
+    {
+      "word": "loneliness",
+      "lemma": "loneliness",
+      "ipa": "/ˈləʊnlinəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the feeling of being alone, isolated, or disconnected from others, which can affect both mental and physical health",
+          "meaning_vi": "cô đơn (cảm giác bị cô lập, không kết nối với người khác, ảnh hưởng cả sức khỏe tinh thần và thể chất)",
+          "examples": [
+            {
+              "en": "Studies show chronic loneliness can be as harmful as smoking 15 cigarettes a day.",
+              "vi": "Nghiên cứu cho thấy loneliness mãn tính có thể hại như hút 15 điếu thuốc mỗi ngày."
+            },
+            {
+              "en": "Loneliness has risen among young adults despite constant social media use.",
+              "vi": "Loneliness đã tăng trong giới trẻ dù dùng mạng xã hội liên tục."
+            },
+            {
+              "en": "Elderly Vietnamese living alone in cities often experience deep loneliness.",
+              "vi": "Người già Việt sống một mình ở thành phố thường trải qua loneliness sâu sắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["isolation", "solitude (neutral)"],
+      "antonyms": ["companionship", "connection"],
+      "collocations": [
+        "chronic loneliness",
+        "feel loneliness",
+        "combat loneliness",
+        "deep loneliness"
+      ],
+      "mnemonic_vi": "LONELY (cô đơn) + NESS = sự cô đơn. Loneliness = cảm giác một mình giữa đám đông cũng có."
+    },
+    {
+      "word": "gaslighting",
+      "lemma": "gaslight",
+      "ipa": "/ˈɡæsˌlaɪtɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a form of psychological manipulation in which one person makes another doubt their own memory, perception, or sanity over time",
+          "meaning_vi": "thao túng tâm lý (khiến người khác nghi ngờ trí nhớ, nhận thức, hoặc sự tỉnh táo của chính họ)",
+          "examples": [
+            {
+              "en": "Gaslighting often happens in abusive relationships and toxic workplaces.",
+              "vi": "Gaslighting thường xảy ra trong quan hệ độc hại và môi trường làm việc toxic."
+            },
+            {
+              "en": "Signs of gaslighting include constant denial of events you clearly remember.",
+              "vi": "Dấu hiệu gaslighting gồm liên tục phủ nhận sự kiện bạn nhớ rõ."
+            },
+            {
+              "en": "Vietnamese online communities have begun naming gaslighting to help victims recognize it.",
+              "vi": "Cộng đồng online Việt đã bắt đầu đặt tên gaslighting để giúp nạn nhân nhận ra."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["psychological manipulation"],
+      "antonyms": [],
+      "collocations": ["victim of gaslighting", "subtle gaslighting", "recognize gaslighting"],
+      "mnemonic_vi": "Tên từ phim 'Gaslight' (1944) — chồng làm vợ tưởng mình điên bằng cách chỉnh đèn ga rồi phủ nhận. Gaslighting = thao túng tâm lý."
+    },
+    {
+      "word": "mood-disorder",
+      "lemma": "mood-disorder",
+      "ipa": "/ˈmuːd dɪsˌɔːdə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a category of mental health conditions, including depression and bipolar disorder, where a person's emotional state is persistently disturbed",
+          "meaning_vi": "rối loạn tâm trạng (nhóm bệnh tâm thần gồm trầm cảm và lưỡng cực — trạng thái cảm xúc bị rối loạn dai dẳng)",
+          "examples": [
+            {
+              "en": "Mood disorders affect roughly 5-7% of adults at some point in their lives.",
+              "vi": "Mood-disorder ảnh hưởng khoảng 5-7% người lớn tại một thời điểm trong đời."
+            },
+            {
+              "en": "Bipolar disorder is one of the most well-known mood disorders.",
+              "vi": "Rối loạn lưỡng cực là một trong những mood-disorder nổi tiếng nhất."
+            },
+            {
+              "en": "Vietnamese psychiatrists are now better trained to diagnose mood disorders early.",
+              "vi": "Bác sĩ tâm thần Việt giờ được đào tạo tốt hơn để chẩn đoán mood-disorder sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["affective disorder"],
+      "antonyms": [],
+      "collocations": [
+        "diagnose a mood disorder",
+        "treat a mood disorder",
+        "chronic mood disorder"
+      ],
+      "mnemonic_vi": "MOOD (tâm trạng) + DISORDER (rối loạn) = rối loạn tâm trạng. Compound ghép trực tiếp."
+    },
+    {
+      "word": "PTSD",
+      "lemma": "PTSD",
+      "ipa": "/ˌpiː tiː es ˈdiː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "post-traumatic stress disorder, a mental health condition triggered by experiencing or witnessing a terrifying event, often involving flashbacks and severe anxiety",
+          "meaning_vi": "PTSD (rối loạn căng thẳng sau sang chấn — bệnh tâm thần do trải qua/chứng kiến sự kiện kinh hoàng, thường có flashback và lo âu nặng)",
+          "examples": [
+            {
+              "en": "Combat veterans, first responders, and abuse survivors are at high risk for PTSD.",
+              "vi": "Cựu binh, lực lượng cấp cứu và người sống sót lạm dụng có nguy cơ PTSD cao."
+            },
+            {
+              "en": "PTSD treatment has advanced significantly with EMDR and trauma-focused therapy.",
+              "vi": "Điều trị PTSD đã tiến bộ đáng kể với EMDR và therapy tập trung trauma."
+            },
+            {
+              "en": "Vietnamese war veterans on both sides have lived with untreated PTSD for decades.",
+              "vi": "Cựu binh chiến tranh Việt Nam ở cả hai phía đã sống với PTSD không được điều trị suốt nhiều thập kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["post-traumatic stress disorder"],
+      "antonyms": [],
+      "collocations": ["suffer from PTSD", "diagnosed with PTSD", "PTSD symptoms", "treat PTSD"],
+      "mnemonic_vi": "P(ost) T(raumatic) S(tress) D(isorder) = PTSD. Sau-sang chấn = rối loạn căng thẳng. Cựu binh, nạn nhân hay bị."
+    },
+    {
+      "word": "vulnerability",
+      "lemma": "vulnerability",
+      "ipa": "/ˌvʌlnərəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being open to emotional or physical harm; in psychology, also the willingness to share one's true feelings or weaknesses",
+          "meaning_vi": "sự dễ tổn thương (trạng thái có thể bị hại; trong tâm lý: sự sẵn lòng chia sẻ cảm xúc/điểm yếu thật)",
+          "examples": [
+            {
+              "en": "Brené Brown's research made vulnerability a popular topic in self-help.",
+              "vi": "Nghiên cứu của Brené Brown đã biến vulnerability thành chủ đề tự giúp phổ biến."
+            },
+            {
+              "en": "Showing vulnerability in leadership can build trust, not weaken authority.",
+              "vi": "Thể hiện vulnerability trong lãnh đạo có thể xây dựng niềm tin, không làm yếu quyền lực."
+            },
+            {
+              "en": "Vietnamese culture is slowly making space for men to express vulnerability without shame.",
+              "vi": "Văn hóa Việt đang dần tạo không gian cho đàn ông thể hiện vulnerability không xấu hổ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["openness", "fragility"],
+      "antonyms": ["invulnerability"],
+      "collocations": [
+        "emotional vulnerability",
+        "show vulnerability",
+        "embrace vulnerability",
+        "feel vulnerable"
+      ],
+      "etymology_hint": "From Latin 'vulnus' (wound) — being open to being wounded, literally or emotionally.",
+      "mnemonic_vi": "VULN (vết thương, vulnus) + ABILITY = khả năng bị thương. Vulnerability = dễ tổn thương."
+    },
+    {
+      "word": "overwhelmed",
+      "lemma": "overwhelm",
+      "ipa": "/ˌəʊvəˈwelmd/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "feeling deeply affected, helpless, or unable to cope due to too much stress, emotion, or workload",
+          "meaning_vi": "quá tải (cảm thấy bị áp đảo, bất lực, không xử lý nổi do quá nhiều stress, cảm xúc, hoặc khối lượng công việc)",
+          "examples": [
+            {
+              "en": "She felt overwhelmed by the demands of motherhood and a full-time job.",
+              "vi": "Cô ấy cảm thấy overwhelmed bởi yêu cầu của làm mẹ và công việc toàn thời gian."
+            },
+            {
+              "en": "When overwhelmed, breaking tasks into smaller chunks helps regain control.",
+              "vi": "Khi overwhelmed, chia nhỏ công việc giúp lấy lại kiểm soát."
+            },
+            {
+              "en": "Vietnamese university entrance exam season leaves many students feeling overwhelmed.",
+              "vi": "Mùa thi đại học Việt khiến nhiều học sinh cảm thấy overwhelmed."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["swamped", "snowed under"],
+      "antonyms": ["in control", "calm"],
+      "collocations": [
+        "feel overwhelmed",
+        "completely overwhelmed",
+        "easily overwhelmed",
+        "overwhelmed by"
+      ],
+      "mnemonic_vi": "OVER (quá) + WHELM (bao trùm) + ED = bị bao trùm hoàn toàn. Overwhelmed = quá tải, không xử lý nổi."
+    }
+  ]
+}

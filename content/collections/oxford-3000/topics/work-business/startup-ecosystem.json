@@ -1,0 +1,697 @@
+{
+  "slug": "startup-ecosystem",
+  "name": "Startup Ecosystem",
+  "description": "Hệ sinh thái startup B2 — accelerator, seed-round, MVP, term-sheet và 20 thuật ngữ cho founder và VC.",
+  "order_index": 20,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "accelerator",
+      "lemma": "accelerator",
+      "ipa": "/əkˈseləreɪtə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a structured program that helps early-stage startups grow rapidly through mentorship, networking, and seed funding, usually over 3-6 months",
+          "meaning_vi": "chương trình tăng tốc startup (chương trình giúp startup giai đoạn đầu phát triển nhanh qua mentor, networking và vốn hạt giống, thường 3-6 tháng)",
+          "examples": [
+            {
+              "en": "Y Combinator is the world's most famous startup accelerator.",
+              "vi": "Y Combinator là accelerator startup nổi tiếng nhất thế giới."
+            },
+            {
+              "en": "Accelerators take equity in return for mentorship and small seed investment.",
+              "vi": "Accelerator lấy cổ phần đổi lấy mentor và vốn seed nhỏ."
+            },
+            {
+              "en": "Vietnamese startups like Got It and Logivan went through accelerators in Singapore.",
+              "vi": "Startup Việt như Got It và Logivan đã qua accelerator ở Singapore."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["startup program"],
+      "antonyms": [],
+      "collocations": [
+        "startup accelerator",
+        "join an accelerator",
+        "accelerator program",
+        "accelerator graduate"
+      ],
+      "etymology_hint": "From Latin 'accelerare' (to hasten) — 'ad-' (to) + 'celer' (swift).",
+      "mnemonic_vi": "ACCELER (tăng tốc) + ATOR = thứ tăng tốc. Accelerator = chương trình tăng tốc startup."
+    },
+    {
+      "word": "pre-seed",
+      "lemma": "pre-seed",
+      "ipa": "/ˌpriː ˈsiːd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the earliest stage of startup funding, often from founders, family, or angel investors, before any formal seed round",
+          "meaning_vi": "pre-seed (vòng gọi vốn sớm nhất của startup, thường từ founder, gia đình, hoặc angel — trước seed-round chính thức)",
+          "examples": [
+            {
+              "en": "They raised $200K in pre-seed to build the first prototype.",
+              "vi": "Họ gọi $200K pre-seed để xây prototype đầu tiên."
+            },
+            {
+              "en": "Pre-seed checks are usually small but critical for going from idea to MVP.",
+              "vi": "Séc pre-seed thường nhỏ nhưng quan trọng để đi từ ý tưởng đến MVP."
+            },
+            {
+              "en": "Vietnamese pre-seed deals often come from successful entrepreneur networks in Saigon.",
+              "vi": "Pre-seed Việt thường đến từ mạng lưới entrepreneur thành công ở Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["friends-and-family round"],
+      "antonyms": ["growth round"],
+      "collocations": ["pre-seed round", "pre-seed funding", "pre-seed check"],
+      "mnemonic_vi": "PRE (trước) + SEED (hạt giống) = trước hạt giống. Pre-seed = vòng vốn trước cả seed-round."
+    },
+    {
+      "word": "seed-round",
+      "lemma": "seed-round",
+      "ipa": "/ˈsiːd raʊnd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the first formal equity round in a startup, typically used to validate product-market fit and grow the team",
+          "meaning_vi": "vòng gọi vốn hạt giống (vòng gọi vốn cổ phần chính thức đầu tiên, thường dùng để xác nhận product-market fit và mở rộng đội)",
+          "examples": [
+            {
+              "en": "Their seed round raised $1.5 million from regional VCs and angel investors.",
+              "vi": "Seed-round của họ gọi được 1.5 triệu đô từ VC khu vực và angel."
+            },
+            {
+              "en": "Seed-round investors expect a working product and some early customer signal.",
+              "vi": "Nhà đầu tư seed-round mong có sản phẩm hoạt động và tín hiệu khách hàng sớm."
+            },
+            {
+              "en": "Vietnamese seed-round sizes have grown from $500K to $2M average in five years.",
+              "vi": "Quy mô seed-round Việt đã tăng từ $500K lên $2M trung bình trong 5 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["seed funding"],
+      "antonyms": ["growth round"],
+      "collocations": [
+        "raise a seed round",
+        "close a seed round",
+        "seed-round investor",
+        "seed-round valuation"
+      ],
+      "mnemonic_vi": "SEED (hạt giống) + ROUND (vòng) = vòng gieo hạt. Seed-round = vòng vốn đầu tiên trồng startup."
+    },
+    {
+      "word": "series-A",
+      "lemma": "series-A",
+      "ipa": "/ˌsɪəriːz ˈeɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a startup's first major round of venture capital funding after seed, used to scale a proven product and grow revenue",
+          "meaning_vi": "vòng series-A (vòng vốn VC lớn đầu tiên sau seed, dùng để mở rộng sản phẩm đã chứng minh và tăng doanh thu)",
+          "examples": [
+            {
+              "en": "A series-A typically ranges from $5M to $20M in today's Asian market.",
+              "vi": "Series-A thường dao động từ 5 đến 20 triệu đô trong thị trường châu Á hiện nay."
+            },
+            {
+              "en": "Their series-A was led by a top-tier Singapore fund.",
+              "vi": "Series-A của họ được dẫn dắt bởi một quỹ top ở Singapore."
+            },
+            {
+              "en": "Vingroup Ventures has led several Vietnamese series-A rounds in recent years.",
+              "vi": "Vingroup Ventures đã dẫn dắt nhiều series-A Việt trong các năm gần đây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["A-round"],
+      "antonyms": ["seed round"],
+      "collocations": [
+        "raise a series-A",
+        "close a series-A",
+        "series-A round",
+        "series-A valuation"
+      ],
+      "mnemonic_vi": "SERIES (chuỗi) + A (thứ nhất) = vòng A. Sau seed: Series A, B, C, D...   Mỗi vòng lớn hơn."
+    },
+    {
+      "word": "pitch-deck",
+      "lemma": "pitch-deck",
+      "ipa": "/ˈpɪtʃ dek/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a short slide presentation founders use to introduce their startup, problem, solution, market, and team to investors",
+          "meaning_vi": "pitch-deck (bộ slide ngắn founder dùng để giới thiệu startup, vấn đề, giải pháp, thị trường và đội cho nhà đầu tư)",
+          "examples": [
+            {
+              "en": "A great pitch deck has 10-12 slides and tells a clear story in 5 minutes.",
+              "vi": "Một pitch-deck tốt có 10-12 slide và kể câu chuyện rõ ràng trong 5 phút."
+            },
+            {
+              "en": "Airbnb's original pitch deck is studied as a classic example.",
+              "vi": "Pitch-deck gốc của Airbnb được nghiên cứu như ví dụ kinh điển."
+            },
+            {
+              "en": "Vietnamese founders pitch in both Vietnamese and English depending on the investor base.",
+              "vi": "Founder Việt pitch cả tiếng Việt và Anh tùy đối tượng nhà đầu tư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["investor deck", "slide deck"],
+      "antonyms": [],
+      "collocations": [
+        "send the pitch deck",
+        "investor pitch deck",
+        "polish the pitch deck",
+        "review a pitch deck"
+      ],
+      "mnemonic_vi": "PITCH (chào hàng, thuyết phục) + DECK (bộ slide) = bộ slide thuyết phục VC. Pitch-deck."
+    },
+    {
+      "word": "term-sheet",
+      "lemma": "term-sheet",
+      "ipa": "/ˈtɜːm ʃiːt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a non-binding document outlining the key terms and conditions of an investment, used as the basis for a formal investment agreement",
+          "meaning_vi": "term-sheet (văn bản không ràng buộc nêu các điều khoản chính của khoản đầu tư, làm nền cho hợp đồng đầu tư chính thức)",
+          "examples": [
+            {
+              "en": "The term sheet specified a $10M valuation and 20% equity for the lead investor.",
+              "vi": "Term-sheet nêu valuation 10 triệu đô và 20% cổ phần cho nhà đầu tư dẫn dắt."
+            },
+            {
+              "en": "Founders should have a lawyer review every term sheet line by line.",
+              "vi": "Founder nên có luật sư xem term-sheet từng dòng một."
+            },
+            {
+              "en": "A Vietnamese term sheet now usually follows the standard global VC template.",
+              "vi": "Term-sheet Việt giờ thường theo mẫu chuẩn của VC toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["letter of intent"],
+      "antonyms": [],
+      "collocations": [
+        "sign a term sheet",
+        "negotiate the term sheet",
+        "term-sheet stage",
+        "non-binding term sheet"
+      ],
+      "mnemonic_vi": "TERM (điều khoản) + SHEET (tờ giấy) = tờ điều khoản. Term-sheet = bản tóm điều khoản đầu tư."
+    },
+    {
+      "word": "cap-table",
+      "lemma": "cap-table",
+      "ipa": "/ˈkæp ˌteɪbl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a capitalization table showing the ownership structure of a startup, including who owns how many shares, options, and warrants",
+          "meaning_vi": "bảng vốn (cap-table — bảng cơ cấu sở hữu startup, ghi rõ ai có bao nhiêu cổ phần, quyền chọn, warrant)",
+          "examples": [
+            {
+              "en": "A messy cap table can scare off institutional investors at series A.",
+              "vi": "Cap-table rối có thể làm nhà đầu tư tổ chức sợ ở series-A."
+            },
+            {
+              "en": "Tools like Carta automate cap-table management for modern startups.",
+              "vi": "Công cụ như Carta tự động hóa quản lý cap-table cho startup hiện đại."
+            },
+            {
+              "en": "Vietnamese accelerators teach founders to keep clean cap tables from day one.",
+              "vi": "Accelerator Việt dạy founder giữ cap-table sạch từ ngày đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["capitalization table"],
+      "antonyms": [],
+      "collocations": ["clean cap table", "cap-table management", "review the cap table"],
+      "mnemonic_vi": "CAP (capital, vốn) + TABLE (bảng) = bảng vốn. Cap-table = ai sở hữu cổ phần nào trong startup."
+    },
+    {
+      "word": "equity-stake",
+      "lemma": "equity-stake",
+      "ipa": "/ˈekwəti steɪk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the percentage of ownership a person or entity holds in a company, usually in the form of shares or stock",
+          "meaning_vi": "tỷ lệ sở hữu cổ phần (phần trăm sở hữu một cá nhân/tổ chức nắm trong công ty, thường ở dạng cổ phần)",
+          "examples": [
+            {
+              "en": "Most early employees receive a small equity stake as part of their compensation.",
+              "vi": "Đa số nhân viên đầu thường nhận equity-stake nhỏ trong gói lương."
+            },
+            {
+              "en": "The VC took a 20% equity stake in the company after the series A.",
+              "vi": "Quỹ VC lấy 20% equity-stake trong công ty sau series-A."
+            },
+            {
+              "en": "Vietnamese founders typically hold 50-70% equity stake before institutional rounds.",
+              "vi": "Founder Việt thường giữ 50-70% equity-stake trước các vòng đầu tư tổ chức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ownership stake", "share"],
+      "antonyms": [],
+      "collocations": ["majority equity stake", "minority equity stake", "take an equity stake"],
+      "mnemonic_vi": "EQUITY (cổ phần) + STAKE (phần cọc) = phần cọc trong cổ phần. Equity-stake = phần sở hữu."
+    },
+    {
+      "word": "venture-capital",
+      "lemma": "venture-capital",
+      "ipa": "/ˌventʃə ˈkæpɪtl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "private investment funding provided to high-growth-potential startups in exchange for equity, typically over multiple rounds",
+          "meaning_vi": "vốn đầu tư mạo hiểm (vốn tư nhân đầu tư vào startup có tiềm năng tăng trưởng cao, đổi lấy cổ phần qua nhiều vòng)",
+          "examples": [
+            {
+              "en": "Venture capital fuels the highest-growth segments of the global tech industry.",
+              "vi": "Venture-capital nuôi các phân khúc tăng trưởng cao nhất của ngành tech toàn cầu."
+            },
+            {
+              "en": "VCs typically aim for 10x returns over 7-10 years.",
+              "vi": "VC thường nhắm lợi nhuận 10x trong 7-10 năm."
+            },
+            {
+              "en": "Vietnamese venture capital has grown rapidly with the rise of tech and fintech.",
+              "vi": "Venture-capital Việt đã tăng trưởng nhanh cùng sự lên ngôi của tech và fintech."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["VC funding"],
+      "antonyms": ["bootstrap funding"],
+      "collocations": [
+        "raise venture capital",
+        "venture capital firm",
+        "venture-capital fund",
+        "Series A venture capital"
+      ],
+      "etymology_hint": "From Latin 'adventurus' (about to happen) + 'capital' (head money) — capital for risky 'adventures'.",
+      "mnemonic_vi": "VENTURE (mạo hiểm) + CAPITAL (vốn) = vốn mạo hiểm. Venture-capital = VC, đặt cược vào startup."
+    },
+    {
+      "word": "angel-investor",
+      "lemma": "angel-investor",
+      "ipa": "/ˈeɪndʒl ɪnˌvestə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a wealthy individual who provides early-stage capital to startups, often in exchange for equity or convertible debt",
+          "meaning_vi": "angel investor, nhà đầu tư thiên thần (cá nhân giàu cấp vốn giai đoạn đầu cho startup, thường lấy cổ phần hoặc nợ chuyển đổi)",
+          "examples": [
+            {
+              "en": "Angel investors often bring industry expertise along with their checks.",
+              "vi": "Angel-investor thường mang theo kinh nghiệm ngành cùng với séc đầu tư."
+            },
+            {
+              "en": "Y Combinator alumni form a tight angel-investor network for new graduates.",
+              "vi": "Cựu sinh viên YC tạo mạng lưới angel-investor chặt cho lứa mới ra."
+            },
+            {
+              "en": "Vietnamese angel investors increasingly include returning Silicon Valley alumni.",
+              "vi": "Angel-investor Việt ngày càng có nhiều cựu Silicon Valley trở về."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["angel", "private investor"],
+      "antonyms": [],
+      "collocations": [
+        "angel-investor network",
+        "raise from angel investors",
+        "active angel investor"
+      ],
+      "mnemonic_vi": "ANGEL (thiên thần) + INVESTOR (nhà đầu tư) = thiên thần đầu tư. Đến cứu startup khi chưa có ai tin."
+    },
+    {
+      "word": "burn-rate",
+      "lemma": "burn-rate",
+      "ipa": "/ˈbɜːn reɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the rate at which a startup spends its cash reserves, usually measured in dollars per month",
+          "meaning_vi": "tốc độ đốt vốn (tốc độ startup tiêu cạn tiền dự trữ, thường tính theo đô/tháng)",
+          "examples": [
+            {
+              "en": "With a $200K monthly burn rate and $4M in the bank, they have 20 months of runway.",
+              "vi": "Với burn-rate $200K/tháng và $4M trong ngân hàng, họ có 20 tháng runway."
+            },
+            {
+              "en": "Startups often slash burn rate before economic downturns hit.",
+              "vi": "Startup thường cắt burn-rate trước khi suy thoái kinh tế ập đến."
+            },
+            {
+              "en": "Vietnamese startups generally maintain lower burn rates than their US counterparts.",
+              "vi": "Startup Việt nhìn chung duy trì burn-rate thấp hơn các đối tác Mỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cash burn"],
+      "antonyms": ["cash-positive operation"],
+      "collocations": [
+        "monthly burn rate",
+        "reduce burn rate",
+        "high burn rate",
+        "burn-rate spreadsheet"
+      ],
+      "mnemonic_vi": "BURN (đốt) + RATE (tốc độ) = tốc độ đốt. Burn-rate = tiền chảy ra khỏi két mỗi tháng."
+    },
+    {
+      "word": "product-market-fit",
+      "lemma": "product-market-fit",
+      "ipa": "/ˌprɒdʌkt ˈmɑːkɪt fɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the stage at which a startup's product satisfies strong market demand, evidenced by rapid user growth, retention, and word-of-mouth",
+          "meaning_vi": "product-market fit (giai đoạn sản phẩm startup đáp ứng nhu cầu thị trường mạnh — biểu hiện qua tăng trưởng nhanh, retention và truyền miệng)",
+          "examples": [
+            {
+              "en": "Product-market fit is often called the only thing that really matters for early startups.",
+              "vi": "Product-market-fit thường được gọi là điều duy nhất thực sự quan trọng với startup đầu."
+            },
+            {
+              "en": "You'll know you have product-market fit when users beg for more features.",
+              "vi": "Bạn biết mình có product-market-fit khi user xin thêm tính năng."
+            },
+            {
+              "en": "Vietnamese super apps like MoMo achieved product-market fit by solving real local payment pain.",
+              "vi": "Super app Việt như MoMo đạt product-market-fit bằng cách giải đau thanh toán địa phương thực sự."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["PMF"],
+      "antonyms": [],
+      "collocations": [
+        "achieve product-market fit",
+        "search for product-market fit",
+        "before product-market fit"
+      ],
+      "mnemonic_vi": "PRODUCT (sản phẩm) + MARKET (thị trường) + FIT (vừa) = sản phẩm vừa khít thị trường. Holy grail của startup."
+    },
+    {
+      "word": "MVP",
+      "lemma": "MVP",
+      "ipa": "/ˌem viː ˈpiː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "minimum viable product, the simplest version of a product that can be released to test market demand and gather user feedback",
+          "meaning_vi": "MVP (sản phẩm tối thiểu khả thi — phiên bản đơn giản nhất để thử thị trường và lấy phản hồi)",
+          "examples": [
+            {
+              "en": "Dropbox launched its MVP as a simple demo video before writing real software.",
+              "vi": "Dropbox tung MVP đầu là video demo đơn giản trước khi viết phần mềm thật."
+            },
+            {
+              "en": "Build an MVP in 2 months, not 12 — speed beats perfection at this stage.",
+              "vi": "Xây MVP trong 2 tháng, không phải 12 — tốc độ hơn hoàn hảo ở giai đoạn này."
+            },
+            {
+              "en": "Vietnamese startups iterate quickly to ship MVPs and validate ideas fast.",
+              "vi": "Startup Việt lặp nhanh để ship MVP và xác thực ý tưởng nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["minimum viable product"],
+      "antonyms": ["full product"],
+      "collocations": ["build an MVP", "ship an MVP", "validate with an MVP", "MVP stage"],
+      "mnemonic_vi": "M(inimum) V(iable) P(roduct) = MVP. Sản phẩm tối thiểu nhưng vẫn dùng được. Đừng nhầm MVP bóng rổ!"
+    },
+    {
+      "word": "vesting",
+      "lemma": "vesting",
+      "ipa": "/ˈvestɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process by which an employee or founder gradually earns full ownership of granted shares or stock options over time, usually with a cliff and monthly schedule",
+          "meaning_vi": "lộ trình nhận cổ phần (quá trình nhân viên/founder dần thuộc về cổ phần hoặc quyền chọn được cấp, thường có cliff và lịch hằng tháng)",
+          "examples": [
+            {
+              "en": "Standard vesting is 4 years with a 1-year cliff before any shares vest.",
+              "vi": "Vesting chuẩn là 4 năm với cliff 1 năm trước khi cổ phần đầu tiên thuộc về bạn."
+            },
+            {
+              "en": "Founder vesting protects co-founders if one leaves the company early.",
+              "vi": "Vesting cho founder bảo vệ co-founder nếu một người rời công ty sớm."
+            },
+            {
+              "en": "Vietnamese startup employees are now familiar with vesting schedules from US-style ESOPs.",
+              "vi": "Nhân viên startup Việt giờ quen thuộc với lịch vesting từ ESOP kiểu Mỹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["share-earning"],
+      "antonyms": [],
+      "collocations": ["vesting schedule", "vesting cliff", "fully vested", "vesting period"],
+      "etymology_hint": "From Latin 'vestire' (to clothe, dress) — being 'clothed' with rights of ownership.",
+      "mnemonic_vi": "VEST (áo, được mặc quyền sở hữu) + ING = đang được trao quyền. Vesting = nhận cổ phần dần."
+    },
+    {
+      "word": "bridge-round",
+      "lemma": "bridge-round",
+      "ipa": "/ˈbrɪdʒ raʊnd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a smaller, short-term funding round used to extend a startup's runway between two larger rounds, often when the next major round is delayed",
+          "meaning_vi": "vòng cầu nối (vòng vốn nhỏ ngắn hạn để kéo dài runway giữa hai vòng lớn, thường khi vòng kế bị trễ)",
+          "examples": [
+            {
+              "en": "They raised a bridge round of $2M to reach product-market fit before series A.",
+              "vi": "Họ gọi bridge-round $2M để đạt product-market-fit trước series-A."
+            },
+            {
+              "en": "Bridge rounds often come from existing investors rather than new ones.",
+              "vi": "Bridge-round thường đến từ nhà đầu tư hiện tại hơn là người mới."
+            },
+            {
+              "en": "Several Vietnamese startups needed bridge rounds during the 2023 funding slowdown.",
+              "vi": "Nhiều startup Việt cần bridge-round trong giai đoạn chậm vốn 2023."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["bridge financing"],
+      "antonyms": [],
+      "collocations": ["raise a bridge round", "internal bridge round", "bridge-round investor"],
+      "mnemonic_vi": "BRIDGE (cầu) + ROUND (vòng) = vòng cầu nối. Bridge-round = nối từ seed/series-A đến vòng tiếp."
+    },
+    {
+      "word": "early-stage",
+      "lemma": "early-stage",
+      "ipa": "/ˌɜːli ˈsteɪdʒ/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a startup in its first phases of development, typically pre-seed, seed, or series-A, before significant revenue or scale",
+          "meaning_vi": "giai đoạn đầu (mô tả startup ở các giai đoạn đầu — pre-seed, seed, series-A — trước khi có doanh thu/quy mô lớn)",
+          "examples": [
+            {
+              "en": "Early-stage investors focus more on the team than on financial projections.",
+              "vi": "Nhà đầu tư early-stage tập trung vào đội hơn là dự phóng tài chính."
+            },
+            {
+              "en": "Working at an early-stage startup means wearing many different hats.",
+              "vi": "Làm ở startup early-stage nghĩa là đội nhiều mũ khác nhau."
+            },
+            {
+              "en": "Vietnamese early-stage startups received over $300M in funding in 2023.",
+              "vi": "Startup Việt early-stage nhận hơn $300M vốn năm 2023."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pre-growth"],
+      "antonyms": ["late-stage", "mature"],
+      "collocations": [
+        "early-stage startup",
+        "early-stage investor",
+        "early-stage funding",
+        "early-stage company"
+      ],
+      "mnemonic_vi": "EARLY (sớm) + STAGE (giai đoạn) = giai đoạn sớm. Early-stage = startup mới sinh."
+    },
+    {
+      "word": "venture-fund",
+      "lemma": "venture-fund",
+      "ipa": "/ˈventʃə fʌnd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a pooled investment vehicle that collects money from limited partners and invests it in early- to growth-stage startups for high returns",
+          "meaning_vi": "quỹ đầu tư mạo hiểm (quỹ gom tiền từ LP và đầu tư vào startup giai đoạn đầu đến tăng trưởng để tìm lợi nhuận cao)",
+          "examples": [
+            {
+              "en": "A typical venture fund has a 10-year life cycle from raise to full exit.",
+              "vi": "Một venture-fund điển hình có vòng đời 10 năm từ gọi vốn đến exit toàn bộ."
+            },
+            {
+              "en": "Sequoia and Andreessen Horowitz are among the world's most famous venture funds.",
+              "vi": "Sequoia và Andreessen Horowitz là những venture-fund nổi tiếng nhất thế giới."
+            },
+            {
+              "en": "Vietnam Investment Group and 500 Startups Vietnam are active venture funds.",
+              "vi": "Vietnam Investment Group và 500 Startups Vietnam là venture-fund đang hoạt động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["VC fund"],
+      "antonyms": [],
+      "collocations": ["raise a venture fund", "venture-fund manager", "regional venture fund"],
+      "mnemonic_vi": "VENTURE (mạo hiểm) + FUND (quỹ) = quỹ đầu tư mạo hiểm. Venture-fund tổng hợp tiền của LP để đầu tư."
+    },
+    {
+      "word": "syndicate",
+      "lemma": "syndicate",
+      "ipa": "/ˈsɪndɪkət/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a group of investors that joins together to invest in a startup deal collectively, often led by one lead investor",
+          "meaning_vi": "syndicate (nhóm nhà đầu tư hợp tác cùng đầu tư vào một thương vụ startup, thường có nhà đầu tư dẫn dắt)",
+          "examples": [
+            {
+              "en": "AngelList syndicates let smaller angels co-invest alongside experienced leads.",
+              "vi": "Syndicate AngelList cho angel nhỏ đầu tư cùng các lead có kinh nghiệm."
+            },
+            {
+              "en": "The startup closed its round with a syndicate of 12 angel investors.",
+              "vi": "Startup đóng vòng với syndicate 12 angel-investor."
+            },
+            {
+              "en": "Vietnamese syndicates are forming via private Telegram and Zalo groups.",
+              "vi": "Syndicate Việt đang hình thành qua nhóm Telegram và Zalo riêng tư."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["investor group"],
+      "antonyms": ["solo investor"],
+      "collocations": [
+        "investor syndicate",
+        "lead a syndicate",
+        "join a syndicate",
+        "AngelList syndicate"
+      ],
+      "etymology_hint": "From Greek 'sundikos' (one assisting in court, advocate) — a group acting together.",
+      "mnemonic_vi": "SYN (cùng) + DICATE (chỉ ra, advocate) = hành động cùng nhau. Syndicate = nhóm cùng đầu tư."
+    },
+    {
+      "word": "liquidation-preference",
+      "lemma": "liquidation-preference",
+      "ipa": "/ˌlɪkwɪˈdeɪʃn ˈprefrəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a clause in venture financing that gives investors the right to receive their investment back before common shareholders in case of a sale or liquidation",
+          "meaning_vi": "ưu tiên thanh lý (điều khoản trong vốn VC cho nhà đầu tư nhận lại tiền trước cổ đông thường khi bán/thanh lý công ty)",
+          "examples": [
+            {
+              "en": "A 1x liquidation preference means investors get their money back first, then split the rest.",
+              "vi": "Liquidation-preference 1x nghĩa là nhà đầu tư nhận lại tiền trước, rồi chia phần còn lại."
+            },
+            {
+              "en": "Aggressive liquidation preferences can leave founders with nothing in a low exit.",
+              "vi": "Liquidation-preference khắc nghiệt có thể khiến founder không còn gì khi exit thấp."
+            },
+            {
+              "en": "Vietnamese term sheets now often include standard 1x non-participating liquidation preference.",
+              "vi": "Term-sheet Việt giờ thường có liquidation-preference 1x không tham gia chuẩn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["liq pref"],
+      "antonyms": [],
+      "collocations": [
+        "1x liquidation preference",
+        "participating liquidation preference",
+        "non-participating liquidation preference",
+        "negotiate liquidation preference"
+      ],
+      "mnemonic_vi": "LIQUIDATION (thanh lý) + PREFERENCE (ưu tiên) = ưu tiên khi thanh lý. Nhà đầu tư nhận tiền trước."
+    },
+    {
+      "word": "dilution",
+      "lemma": "dilution",
+      "ipa": "/daɪˈluːʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the reduction of existing shareholders' ownership percentage when a company issues new shares, typically during fundraising",
+          "meaning_vi": "pha loãng cổ phần (giảm tỷ lệ sở hữu của cổ đông hiện tại khi công ty phát hành cổ phần mới, thường khi gọi vốn)",
+          "examples": [
+            {
+              "en": "Each funding round typically causes 15-25% dilution for existing shareholders.",
+              "vi": "Mỗi vòng vốn thường gây dilution 15-25% cho cổ đông hiện tại."
+            },
+            {
+              "en": "Founders accept dilution because new capital grows the pie much larger.",
+              "vi": "Founder chấp nhận dilution vì vốn mới làm 'chiếc bánh' lớn hơn nhiều."
+            },
+            {
+              "en": "Vietnamese founders watch dilution carefully to maintain meaningful equity through series B and C.",
+              "vi": "Founder Việt theo dõi dilution kỹ để giữ cổ phần có ý nghĩa qua series B và C."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["share dilution"],
+      "antonyms": ["concentration"],
+      "collocations": [
+        "founder dilution",
+        "anti-dilution clause",
+        "heavy dilution",
+        "calculate dilution"
+      ],
+      "etymology_hint": "From Latin 'diluere' (to wash away, dissolve) — diluting concentration of ownership.",
+      "mnemonic_vi": "DI (đi) + LUTE (rửa, dilute) + ION = rửa loãng. Dilution = pha loãng cổ phần khi có cổ phần mới."
+    }
+  ]
+}
