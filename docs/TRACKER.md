@@ -489,6 +489,7 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P11b phrasal verbs** (5 lessons / 100 cards, 2026-05-17, commit `354f567` → merge `c68502d`) — P11 10/15: call-check, break-build, pick-pull, hand-hold, cut-keep — 100 phrasal verbs từ Oxford 3000 wordlist. Bug fix: phrasal-pick-pull có duplicate pile-up + placeholder pull-off-2 đã fix trước commit.
   - [x] **P11a phrasal verbs** (5 lessons / 100 cards, 2026-05-17, commit `bf3ce79` → merge `2e43495`) — P11 5/15:
     - `common-core/phrasal-get-give` — get-up, get-out, get-back, get-on, get-off, get-by, get-in, get-into, get-away, get-over, get-through, get-around, give-up, give-back, give-in, give-out, give-away, give-off, get-along, get-rid-of
     - `common-core/phrasal-go-come` — go-on, go-off, go-out, go-back, go-up, go-down, go-through, go-by, go-ahead, go-with, come-in, come-out, come-back, come-on, come-down, come-from, come-up, come-off, come-across, come-round
@@ -579,10 +580,10 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
 - [x] **P10 B2 expansion** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P11 Phrasal & Compound** (15 lessons / 300 cards) — P11a done (5/15), TODO P11b/c
+- [~] **P11 Phrasal & Compound** (15 lessons / 300 cards) — P11a/b done (10/15), TODO P11c
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 167/192 lessons (87%), 3340/3840 cards (87%), ~87% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 CLOSED (25/25)**, **P11 5/15 (phrasal verbs)**, next: P11b (5 lessons).
+**Progress**: 172/192 lessons (90%), 3440/3840 cards (90%), ~90% Oxford 3000 coverage. **P7-P10 CLOSED**, **P11 10/15 (phrasal verbs)**, next: P11c (set phrases + compounds — 5 lessons để đóng P11).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
