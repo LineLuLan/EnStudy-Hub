@@ -1,0 +1,733 @@
+{
+  "slug": "research-methodology",
+  "name": "Research Methodology",
+  "description": "Phương pháp nghiên cứu B2 — methodology, qualitative, longitudinal, meta-analysis và 20 thuật ngữ cho sinh viên/nhà nghiên cứu.",
+  "order_index": 16,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "methodology",
+      "lemma": "methodology",
+      "ipa": "/ˌmeθəˈdɒlədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the system of methods and principles used in a particular field of research or study",
+          "meaning_vi": "phương pháp luận (hệ thống các phương pháp và nguyên tắc dùng trong một lĩnh vực nghiên cứu)",
+          "examples": [
+            {
+              "en": "A clearly written methodology section is essential in any scientific paper.",
+              "vi": "Phần methodology viết rõ ràng là thiết yếu trong mọi bài khoa học."
+            },
+            {
+              "en": "Critics of the study questioned its methodology rather than its conclusions.",
+              "vi": "Người phản biện chất vấn methodology của nghiên cứu hơn là kết luận."
+            },
+            {
+              "en": "Vietnamese researchers are adopting Western experimental methodology in social sciences.",
+              "vi": "Nhà nghiên cứu Việt đang áp dụng methodology thực nghiệm phương Tây trong khoa học xã hội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["methodological approach"],
+      "antonyms": [],
+      "collocations": [
+        "research methodology",
+        "scientific methodology",
+        "describe the methodology",
+        "flawed methodology",
+        "methodology section"
+      ],
+      "etymology_hint": "From Greek 'methodos' (pursuit of knowledge) + 'logia' (study) — 'the study of methods'.",
+      "mnemonic_vi": "METHOD (phương pháp) + OLOGY (học) = học về phương pháp. Methodology = phương pháp luận."
+    },
+    {
+      "word": "citation",
+      "lemma": "citation",
+      "ipa": "/saɪˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a reference to a source of information in an academic or research work, giving credit to the original author",
+          "meaning_vi": "trích dẫn (tham chiếu nguồn thông tin trong bài học thuật, ghi công tác giả gốc)",
+          "examples": [
+            {
+              "en": "Every claim in a research paper should be backed by a proper citation.",
+              "vi": "Mỗi tuyên bố trong bài nghiên cứu phải có citation phù hợp."
+            },
+            {
+              "en": "Google Scholar tracks how many citations each paper receives from others.",
+              "vi": "Google Scholar theo dõi mỗi bài nhận bao nhiêu citation từ các bài khác."
+            },
+            {
+              "en": "Vietnamese university theses now follow APA or IEEE citation styles.",
+              "vi": "Luận văn đại học Việt giờ theo phong cách citation APA hoặc IEEE."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reference", "source attribution"],
+      "antonyms": ["plagiarism"],
+      "collocations": [
+        "citation count",
+        "in-text citation",
+        "citation style",
+        "highly cited paper"
+      ],
+      "etymology_hint": "From Latin 'citare' (to summon, set in motion) — 'summoning' a source to support your argument.",
+      "mnemonic_vi": "CIT (gọi, mời) + ATION = mời nguồn đến. Citation = trích dẫn = mời tác giả gốc làm chứng."
+    },
+    {
+      "word": "literature-review",
+      "lemma": "literature-review",
+      "ipa": "/ˈlɪtərətʃə(r) rɪˌvjuː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a systematic survey and analysis of existing scholarly work on a specific topic, usually written as a section of a research paper or thesis",
+          "meaning_vi": "tổng quan tài liệu (khảo sát có hệ thống các công trình đã có về một chủ đề)",
+          "examples": [
+            {
+              "en": "A literature review identifies gaps that justify the new research.",
+              "vi": "Literature-review xác định khoảng trống biện minh cho nghiên cứu mới."
+            },
+            {
+              "en": "Writing a good literature review can take weeks of careful reading.",
+              "vi": "Viết một literature-review tốt có thể mất nhiều tuần đọc cẩn thận."
+            },
+            {
+              "en": "Many master's theses in Vietnam dedicate one full chapter to the literature review.",
+              "vi": "Nhiều luận văn thạc sĩ ở Việt Nam dành cả một chương cho literature-review."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lit review"],
+      "antonyms": [],
+      "collocations": [
+        "systematic literature review",
+        "write a literature review",
+        "literature review chapter"
+      ],
+      "mnemonic_vi": "LITERATURE (tài liệu, văn học) + REVIEW (xem lại) = xem lại tài liệu đã có. Lit-review = tổng quan tài liệu."
+    },
+    {
+      "word": "longitudinal-study",
+      "lemma": "longitudinal-study",
+      "ipa": "/ˌlɒndʒɪˈtjuːdɪnl ˈstʌdi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a research study that observes the same subjects repeatedly over a long period of time to track changes",
+          "meaning_vi": "nghiên cứu theo chiều dọc (nghiên cứu cùng đối tượng lặp lại trong thời gian dài để theo dõi thay đổi)",
+          "examples": [
+            {
+              "en": "The Framingham heart study is a famous longitudinal study spanning over 70 years.",
+              "vi": "Nghiên cứu tim Framingham là longitudinal-study nổi tiếng kéo dài hơn 70 năm."
+            },
+            {
+              "en": "Longitudinal studies are expensive but yield insights cross-sectional ones cannot.",
+              "vi": "Longitudinal-study tốn kém nhưng cho hiểu biết mà cross-sectional không có được."
+            },
+            {
+              "en": "A longitudinal study of Vietnamese students could track learning outcomes for decades.",
+              "vi": "Một longitudinal-study trên học sinh Việt có thể theo dõi kết quả học tập nhiều thập kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cohort study (loose)"],
+      "antonyms": ["cross-sectional study"],
+      "collocations": [
+        "longitudinal-study design",
+        "run a longitudinal study",
+        "longitudinal-study results"
+      ],
+      "mnemonic_vi": "LONGITUDINAL (dọc, theo chiều dài) + STUDY = nghiên cứu theo chiều dài thời gian. Theo dõi cùng nhóm nhiều năm."
+    },
+    {
+      "word": "qualitative",
+      "lemma": "qualitative",
+      "ipa": "/ˈkwɒlɪtətɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing research that focuses on qualities, meanings, and detailed descriptions rather than numerical data",
+          "meaning_vi": "định tính (nghiên cứu tập trung vào chất lượng, ý nghĩa, mô tả chi tiết thay vì số liệu)",
+          "examples": [
+            {
+              "en": "Qualitative interviews captured the lived experience of immigrant workers.",
+              "vi": "Phỏng vấn qualitative ghi lại trải nghiệm sống của lao động nhập cư."
+            },
+            {
+              "en": "Mixed-methods research combines qualitative and quantitative approaches.",
+              "vi": "Nghiên cứu mixed-methods kết hợp qualitative và quantitative."
+            },
+            {
+              "en": "Vietnamese sociologists often use qualitative methods to study rural-urban migration.",
+              "vi": "Nhà xã hội học Việt thường dùng phương pháp qualitative để nghiên cứu di cư nông thôn-đô thị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["descriptive", "interpretive"],
+      "antonyms": ["quantitative"],
+      "collocations": [
+        "qualitative research",
+        "qualitative data",
+        "qualitative analysis",
+        "qualitative interview",
+        "qualitative method"
+      ],
+      "etymology_hint": "From Latin 'qualitas' (quality) — about the 'quality' or nature of things, not their quantity.",
+      "mnemonic_vi": "QUALITY (chất lượng) + TATIVE = thuộc về chất. Qualitative = định tính (về chất, không phải số)."
+    },
+    {
+      "word": "quantitative",
+      "lemma": "quantitative",
+      "ipa": "/ˈkwɒntɪtətɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing research or analysis that focuses on numerical data, measurements, and statistical relationships",
+          "meaning_vi": "định lượng (nghiên cứu tập trung vào số liệu, đo lường, quan hệ thống kê)",
+          "examples": [
+            {
+              "en": "Quantitative analysis requires a sufficient sample size for statistical power.",
+              "vi": "Phân tích quantitative cần sample-size đủ lớn để có sức mạnh thống kê."
+            },
+            {
+              "en": "Economists rely heavily on quantitative methods to model the economy.",
+              "vi": "Nhà kinh tế phụ thuộc mạnh vào phương pháp quantitative để mô hình hóa nền kinh tế."
+            },
+            {
+              "en": "Quantitative surveys of Vietnamese consumers reveal clear preferences for local brands.",
+              "vi": "Survey quantitative người tiêu dùng Việt cho thấy ưa rõ thương hiệu nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["numerical", "statistical"],
+      "antonyms": ["qualitative"],
+      "collocations": [
+        "quantitative research",
+        "quantitative data",
+        "quantitative analysis",
+        "quantitative method"
+      ],
+      "etymology_hint": "From Latin 'quantitas' (quantity) — about 'how much', measurable in numbers.",
+      "mnemonic_vi": "QUANTITY (số lượng) + TATIVE = thuộc về số. Quantitative = định lượng (về số đo)."
+    },
+    {
+      "word": "survey",
+      "lemma": "survey",
+      "ipa": "/ˈsɜːveɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a research method that collects information from a group of respondents through questionnaires or interviews, usually to study opinions, behaviors, or characteristics",
+          "meaning_vi": "khảo sát (phương pháp thu thập dữ liệu từ nhiều người qua bảng hỏi hoặc phỏng vấn)",
+          "examples": [
+            {
+              "en": "The Pew survey of 5,000 adults revealed shifting attitudes toward AI.",
+              "vi": "Survey của Pew trên 5,000 người lớn cho thấy thay đổi thái độ với AI."
+            },
+            {
+              "en": "Online surveys are cheaper but may underrepresent elderly respondents.",
+              "vi": "Survey online rẻ hơn nhưng có thể không đại diện đủ người cao tuổi."
+            },
+            {
+              "en": "Vietnamese marketers use SurveyMonkey to gather consumer insights quickly.",
+              "vi": "Marketer Việt dùng SurveyMonkey để thu thập thông tin tiêu dùng nhanh chóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["questionnaire", "poll"],
+      "antonyms": [],
+      "collocations": [
+        "online survey",
+        "conduct a survey",
+        "survey respondents",
+        "national survey",
+        "anonymous survey"
+      ],
+      "etymology_hint": "From Old French 'surveeir' (to look over) — 'looking over' a group to gather information.",
+      "mnemonic_vi": "SUR (qua, over) + VEY (nhìn) = nhìn qua toàn cảnh. Survey = khảo sát = nhìn qua nhiều người."
+    },
+    {
+      "word": "focus-group",
+      "lemma": "focus-group",
+      "ipa": "/ˈfəʊkəs ɡruːp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a small, demographically selected group of people whose discussion is observed to gain insights about a product, idea, or issue",
+          "meaning_vi": "nhóm thảo luận trọng tâm (nhóm nhỏ được chọn theo nhân khẩu, thảo luận để thu insight về sản phẩm/ý tưởng)",
+          "examples": [
+            {
+              "en": "Marketers ran a focus group of teens before launching the new soft drink.",
+              "vi": "Marketer chạy focus-group thanh thiếu niên trước khi tung nước ngọt mới."
+            },
+            {
+              "en": "Focus group findings inspired the redesign of the product packaging.",
+              "vi": "Phát hiện từ focus-group đã truyền cảm hứng thiết kế lại bao bì sản phẩm."
+            },
+            {
+              "en": "Vietnamese agencies often hold focus groups in both Hanoi and Saigon to capture regional differences.",
+              "vi": "Agency Việt thường tổ chức focus-group ở cả Hà Nội và Sài Gòn để bắt khác biệt vùng miền."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["group interview"],
+      "antonyms": [],
+      "collocations": [
+        "focus-group session",
+        "run a focus group",
+        "focus-group participant",
+        "focus-group findings"
+      ],
+      "mnemonic_vi": "FOCUS (tập trung) + GROUP (nhóm) = nhóm tập trung thảo luận. Focus-group = nhóm 8-10 người."
+    },
+    {
+      "word": "sample-size",
+      "lemma": "sample-size",
+      "ipa": "/ˈsɑːmpl saɪz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the number of participants, observations, or data points included in a study, which affects the reliability of conclusions",
+          "meaning_vi": "cỡ mẫu (số người tham gia/quan sát trong nghiên cứu, ảnh hưởng độ tin cậy của kết luận)",
+          "examples": [
+            {
+              "en": "A sample size of just 50 people is too small to generalize about a whole country.",
+              "vi": "Sample-size chỉ 50 người là quá nhỏ để khái quát cho cả nước."
+            },
+            {
+              "en": "Researchers use power analysis to calculate the minimum sample size needed.",
+              "vi": "Nhà nghiên cứu dùng power analysis để tính sample-size tối thiểu cần thiết."
+            },
+            {
+              "en": "Large sample sizes are easier to obtain through Vietnamese online panels than door-to-door surveys.",
+              "vi": "Sample-size lớn dễ đạt qua panel online Việt hơn so với survey tận nhà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["n-size", "participant count"],
+      "antonyms": [],
+      "collocations": [
+        "adequate sample size",
+        "small sample size",
+        "increase sample size",
+        "calculate sample size"
+      ],
+      "mnemonic_vi": "SAMPLE (mẫu) + SIZE (kích thước) = kích thước mẫu. Sample-size n=100 nghĩa là 100 người tham gia."
+    },
+    {
+      "word": "causation",
+      "lemma": "causation",
+      "ipa": "/kɔːˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the relationship between cause and effect, where one event directly produces another, as distinct from mere correlation",
+          "meaning_vi": "nhân quả (mối quan hệ trong đó một sự kiện trực tiếp gây ra một sự kiện khác, khác correlation)",
+          "examples": [
+            {
+              "en": "Correlation does not imply causation — a famous warning in statistics class.",
+              "vi": "Correlation không có nghĩa là causation — một cảnh báo nổi tiếng trong lớp thống kê."
+            },
+            {
+              "en": "Establishing causation requires controlled experiments, not just observation.",
+              "vi": "Chứng minh causation đòi hỏi thí nghiệm có đối chứng, không chỉ quan sát."
+            },
+            {
+              "en": "Vietnamese epidemiologists studied air pollution and lung disease to confirm causation.",
+              "vi": "Nhà dịch tễ học Việt nghiên cứu ô nhiễm không khí và bệnh phổi để xác nhận causation."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cause-and-effect"],
+      "antonyms": ["correlation"],
+      "collocations": [
+        "establish causation",
+        "prove causation",
+        "causation vs correlation",
+        "direct causation"
+      ],
+      "etymology_hint": "From Latin 'causa' (cause, reason) — the study of true causes, not coincidences.",
+      "mnemonic_vi": "CAUSE (nguyên nhân) + ATION = sự gây ra. Causation = nhân quả. KHÔNG giống correlation (chỉ trùng hợp)."
+    },
+    {
+      "word": "control-group",
+      "lemma": "control-group",
+      "ipa": "/kənˈtrəʊl ɡruːp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the group in an experiment that does not receive the treatment being tested, used as a baseline to measure the effect on the treatment group",
+          "meaning_vi": "nhóm đối chứng (nhóm không nhận can thiệp trong thí nghiệm, dùng làm chuẩn so sánh)",
+          "examples": [
+            {
+              "en": "The control group received a placebo while the treatment group got the real vaccine.",
+              "vi": "Control-group nhận giả dược trong khi nhóm điều trị nhận vaccine thật."
+            },
+            {
+              "en": "Without a control group, you can't tell if results come from the treatment or chance.",
+              "vi": "Không có control-group, bạn không thể biết kết quả đến từ điều trị hay ngẫu nhiên."
+            },
+            {
+              "en": "Vietnamese clinical trials are required to use control groups for new drug approval.",
+              "vi": "Thử nghiệm lâm sàng Việt yêu cầu dùng control-group để cấp phép thuốc mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["comparison group"],
+      "antonyms": ["treatment group", "experimental group"],
+      "collocations": [
+        "use a control group",
+        "compared with the control group",
+        "control group received"
+      ],
+      "mnemonic_vi": "CONTROL (kiểm soát, chuẩn) + GROUP (nhóm) = nhóm chuẩn. Control-group = nhóm đối chứng."
+    },
+    {
+      "word": "confounding",
+      "lemma": "confounding",
+      "ipa": "/kənˈfaʊndɪŋ/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing an extra variable that distorts the apparent relationship between two other variables in a study",
+          "meaning_vi": "gây nhiễu (biến số ẩn làm méo mối quan hệ giữa hai biến khác trong nghiên cứu)",
+          "examples": [
+            {
+              "en": "Age is a common confounding variable in health studies of diet and disease.",
+              "vi": "Tuổi là confounding variable thường gặp trong nghiên cứu sức khỏe về ăn uống và bệnh."
+            },
+            {
+              "en": "Good study design controls for confounding factors through randomization.",
+              "vi": "Thiết kế nghiên cứu tốt kiểm soát yếu tố confounding bằng ngẫu nhiên hóa."
+            },
+            {
+              "en": "Ignoring confounding variables can lead to dangerously wrong medical advice.",
+              "vi": "Bỏ qua biến confounding có thể dẫn đến lời khuyên y khoa sai nguy hiểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["distorting", "lurking"],
+      "antonyms": [],
+      "collocations": ["confounding variable", "confounding factor", "control for confounding"],
+      "etymology_hint": "From Latin 'confundere' (to mix together) — confounding variables 'mix up' the true relationship.",
+      "mnemonic_vi": "CONFOUND (lẫn lộn) + ING = đang gây lẫn lộn. Confounding = biến số làm rối kết quả."
+    },
+    {
+      "word": "validity",
+      "lemma": "validity",
+      "ipa": "/vəˈlɪdəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the degree to which a study, test, or measurement accurately reflects what it is intended to assess",
+          "meaning_vi": "tính giá trị, tính hợp lệ (mức độ một nghiên cứu/đo lường thực sự đo đúng cái cần đo)",
+          "examples": [
+            {
+              "en": "Internal validity asks whether the experiment truly tested the hypothesis.",
+              "vi": "Internal validity hỏi liệu thí nghiệm có thực sự kiểm tra hypothesis hay không."
+            },
+            {
+              "en": "External validity asks whether the findings generalize beyond the lab.",
+              "vi": "External validity hỏi liệu kết quả có khái quát được ngoài phòng thí nghiệm."
+            },
+            {
+              "en": "Vietnamese standardized tests are debated for their validity in measuring real ability.",
+              "vi": "Bài thi chuẩn hóa Việt đang được tranh luận về validity trong đo lường năng lực thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["soundness", "accuracy"],
+      "antonyms": ["invalidity"],
+      "collocations": [
+        "internal validity",
+        "external validity",
+        "questionable validity",
+        "establish validity"
+      ],
+      "etymology_hint": "From Latin 'validus' (strong, effective) — a study with validity is 'strong' in its claims.",
+      "mnemonic_vi": "VALID (hợp lệ, mạnh) + ITY = sự hợp lệ. Validity = đo đúng cái cần đo."
+    },
+    {
+      "word": "reliability",
+      "lemma": "reliability",
+      "ipa": "/rɪˌlaɪəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the consistency of a measurement, test, or research result when repeated under the same conditions",
+          "meaning_vi": "độ tin cậy (sự nhất quán của đo lường khi lặp lại trong điều kiện như nhau)",
+          "examples": [
+            {
+              "en": "A reliable test gives the same result if administered twice to the same person.",
+              "vi": "Một bài thi reliability cho kết quả giống nhau nếu cho cùng người làm hai lần."
+            },
+            {
+              "en": "Reliability and validity are different: a test can be reliable but invalid.",
+              "vi": "Reliability và validity khác nhau: một bài có thể reliable nhưng invalid."
+            },
+            {
+              "en": "Vietnamese university researchers test reliability with Cronbach's alpha statistics.",
+              "vi": "Nhà nghiên cứu đại học Việt kiểm tra reliability bằng thống kê Cronbach's alpha."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consistency", "dependability"],
+      "antonyms": ["unreliability"],
+      "collocations": [
+        "test-retest reliability",
+        "high reliability",
+        "reliability coefficient",
+        "ensure reliability"
+      ],
+      "etymology_hint": "From Old French 'reliier' (to bind, fasten) via 'rely' — something we can 'rely' on consistently.",
+      "mnemonic_vi": "RELY (tin cậy) + ABILITY = khả năng tin cậy. Reliability = lặp lại nhiều lần vẫn ra kết quả nhất quán."
+    },
+    {
+      "word": "ethics-board",
+      "lemma": "ethics-board",
+      "ipa": "/ˈeθɪks bɔːd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a committee at a research institution that reviews and approves studies involving humans or animals to ensure they meet ethical standards",
+          "meaning_vi": "hội đồng đạo đức (ủy ban tại viện nghiên cứu duyệt các nghiên cứu trên người/động vật để đảm bảo đạo đức)",
+          "examples": [
+            {
+              "en": "All medical experiments on humans require approval from an ethics board first.",
+              "vi": "Mọi thí nghiệm y học trên người cần ethics-board duyệt trước."
+            },
+            {
+              "en": "The ethics board flagged the study for inadequate participant consent procedures.",
+              "vi": "Ethics-board đánh dấu nghiên cứu vì quy trình đồng thuận của người tham gia chưa đủ."
+            },
+            {
+              "en": "Vietnamese universities are strengthening their ethics boards as research grows internationally.",
+              "vi": "Đại học Việt đang củng cố ethics-board khi nghiên cứu mở rộng quốc tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["IRB", "institutional review board"],
+      "antonyms": [],
+      "collocations": [
+        "ethics-board approval",
+        "ethics-board review",
+        "submit to the ethics board"
+      ],
+      "mnemonic_vi": "ETHICS (đạo đức) + BOARD (hội đồng) = hội đồng đạo đức. Duyệt nghiên cứu có 'người tham gia'."
+    },
+    {
+      "word": "cross-sectional",
+      "lemma": "cross-sectional",
+      "ipa": "/ˌkrɒs ˈsekʃənl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a study that observes a group of subjects at a single point in time, comparing different individuals rather than tracking changes",
+          "meaning_vi": "cắt ngang (nghiên cứu quan sát một nhóm tại một thời điểm duy nhất, so sánh các cá thể khác nhau)",
+          "examples": [
+            {
+              "en": "A cross-sectional study surveyed people of different ages on the same day.",
+              "vi": "Một cross-sectional study khảo sát người ở các độ tuổi khác nhau trong cùng một ngày."
+            },
+            {
+              "en": "Cross-sectional designs are faster and cheaper than longitudinal alternatives.",
+              "vi": "Thiết kế cross-sectional nhanh và rẻ hơn longitudinal."
+            },
+            {
+              "en": "Vietnamese national health surveys are mostly cross-sectional snapshots.",
+              "vi": "Survey y tế quốc gia Việt chủ yếu là ảnh chụp cross-sectional."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one-time", "snapshot"],
+      "antonyms": ["longitudinal"],
+      "collocations": [
+        "cross-sectional study",
+        "cross-sectional design",
+        "cross-sectional survey",
+        "cross-sectional data"
+      ],
+      "mnemonic_vi": "CROSS (ngang) + SECTIONAL (mặt cắt) = lát cắt ngang. Cross-sectional = chụp ảnh tại 1 thời điểm."
+    },
+    {
+      "word": "meta-analysis",
+      "lemma": "meta-analysis",
+      "ipa": "/ˌmetə əˈnæləsɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a statistical technique that combines results from multiple independent studies on the same topic to reach a more reliable conclusion",
+          "meaning_vi": "phân tích tổng hợp (kỹ thuật thống kê kết hợp kết quả từ nhiều nghiên cứu độc lập để đưa ra kết luận tin cậy hơn)",
+          "examples": [
+            {
+              "en": "A meta-analysis of 50 vaccine trials gives stronger evidence than any single trial.",
+              "vi": "Meta-analysis 50 thử nghiệm vaccine cho bằng chứng mạnh hơn bất kỳ trial đơn lẻ nào."
+            },
+            {
+              "en": "Cochrane reviews are gold-standard meta-analyses in medical research.",
+              "vi": "Cochrane review là meta-analysis chuẩn vàng trong nghiên cứu y học."
+            },
+            {
+              "en": "A meta-analysis of Vietnamese student performance data revealed regional disparities.",
+              "vi": "Meta-analysis dữ liệu kết quả học của sinh viên Việt cho thấy chênh lệch giữa các vùng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pooled analysis"],
+      "antonyms": ["single study"],
+      "collocations": [
+        "conduct a meta-analysis",
+        "meta-analysis of studies",
+        "systematic review and meta-analysis"
+      ],
+      "etymology_hint": "From Greek 'meta' (beyond, after) + 'analysis' — 'analysis beyond' the individual studies.",
+      "mnemonic_vi": "META (vượt trên, beyond) + ANALYSIS = phân tích trên các phân tích. Meta-analysis = tổng hợp nhiều studies."
+    },
+    {
+      "word": "ethnography",
+      "lemma": "ethnography",
+      "ipa": "/eθˈnɒɡrəfi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the systematic study of people and cultures from the inside, through immersive observation and detailed description",
+          "meaning_vi": "dân tộc chí (nghiên cứu có hệ thống về người và văn hóa qua quan sát thâm nhập)",
+          "examples": [
+            {
+              "en": "Anthropologists often live for years among a community to write a thorough ethnography.",
+              "vi": "Nhà nhân học thường sống nhiều năm trong cộng đồng để viết ethnography đầy đủ."
+            },
+            {
+              "en": "Digital ethnography studies online communities like Reddit and Discord.",
+              "vi": "Digital ethnography nghiên cứu cộng đồng online như Reddit và Discord."
+            },
+            {
+              "en": "An ethnography of Vietnamese street vendors revealed an informal credit network.",
+              "vi": "Một ethnography về người bán hàng rong Việt cho thấy mạng lưới tín dụng không chính thức."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cultural study"],
+      "antonyms": [],
+      "collocations": [
+        "ethnography of",
+        "write an ethnography",
+        "digital ethnography",
+        "classic ethnography"
+      ],
+      "etymology_hint": "From Greek 'ethnos' (people, nation) + 'graphein' (to write) — 'writing about a people'.",
+      "mnemonic_vi": "ETHNO (dân tộc, người) + GRAPHY (viết) = viết về một nhóm người. Ethnography = dân tộc chí."
+    },
+    {
+      "word": "case-study",
+      "lemma": "case-study",
+      "ipa": "/ˈkeɪs ˌstʌdi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an in-depth analysis of a single person, organization, event, or situation, used to draw broader insights",
+          "meaning_vi": "nghiên cứu trường hợp (phân tích sâu một người/tổ chức/sự kiện/tình huống cụ thể để rút ra insight rộng hơn)",
+          "examples": [
+            {
+              "en": "Harvard Business School built its reputation on the case-study teaching method.",
+              "vi": "Trường Kinh doanh Harvard xây danh tiếng dựa trên phương pháp case-study."
+            },
+            {
+              "en": "A case study of Vingroup's rise illustrates Vietnam's private-sector growth.",
+              "vi": "Một case-study về sự lên của Vingroup minh họa tăng trưởng khu vực tư của Việt Nam."
+            },
+            {
+              "en": "Case studies are great for theory building but weak for statistical generalization.",
+              "vi": "Case-study tốt để xây lý thuyết nhưng yếu để khái quát thống kê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in-depth analysis"],
+      "antonyms": [],
+      "collocations": [
+        "case-study approach",
+        "single case study",
+        "case-study method",
+        "in-depth case study"
+      ],
+      "mnemonic_vi": "CASE (trường hợp) + STUDY (nghiên cứu) = nghiên cứu một trường hợp cụ thể. Đào sâu 1 ca."
+    },
+    {
+      "word": "mixed-methods",
+      "lemma": "mixed-methods",
+      "ipa": "/ˌmɪkst ˈmeθədz/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing research that combines both qualitative and quantitative approaches in a single study to gain a richer understanding",
+          "meaning_vi": "phương pháp hỗn hợp (nghiên cứu kết hợp cả qualitative và quantitative trong cùng một nghiên cứu)",
+          "examples": [
+            {
+              "en": "A mixed-methods study can survey 1,000 people and interview 20 in depth.",
+              "vi": "Một mixed-methods study có thể survey 1,000 người và phỏng vấn sâu 20 người."
+            },
+            {
+              "en": "Mixed-methods designs are increasingly popular in health and education research.",
+              "vi": "Thiết kế mixed-methods ngày càng phổ biến trong nghiên cứu y tế và giáo dục."
+            },
+            {
+              "en": "Vietnamese PhD students often choose mixed-methods to balance numbers with stories.",
+              "vi": "Nghiên cứu sinh Việt thường chọn mixed-methods để cân bằng số liệu với câu chuyện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["combined methods"],
+      "antonyms": ["mono-method"],
+      "collocations": [
+        "mixed-methods study",
+        "mixed-methods research",
+        "mixed-methods design",
+        "mixed-methods approach"
+      ],
+      "mnemonic_vi": "MIXED (trộn) + METHODS (phương pháp) = trộn phương pháp. Mixed-methods = vừa qualitative vừa quantitative."
+    }
+  ]
+}

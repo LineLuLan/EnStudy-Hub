@@ -1,0 +1,702 @@
+{
+  "slug": "streaming-economy",
+  "name": "Streaming Economy",
+  "description": "Kinh tế streaming B2 — paywall, freemium, monetization, royalties và 20 thuật ngữ cho creator và viewer thời đại Netflix.",
+  "order_index": 16,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "paywall",
+      "lemma": "paywall",
+      "ipa": "/ˈpeɪwɔːl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a digital barrier that restricts access to online content, requiring users to pay or subscribe to view it",
+          "meaning_vi": "bức tường trả phí (rào chắn online buộc người dùng trả tiền hoặc đăng ký mới được xem)",
+          "examples": [
+            {
+              "en": "The New York Times paywall lets readers see only ten free articles per month.",
+              "vi": "Paywall của New York Times cho đọc giả xem chỉ 10 bài miễn phí mỗi tháng."
+            },
+            {
+              "en": "Soft paywalls allow some content free while reserving premium pieces for subscribers.",
+              "vi": "Paywall mềm cho phép xem một số nội dung miễn phí, dành bài premium cho subscriber."
+            },
+            {
+              "en": "Vietnamese news sites have started experimenting with paywalls in the last few years.",
+              "vi": "Báo Việt đã bắt đầu thử nghiệm paywall trong vài năm qua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pay barrier", "subscription wall"],
+      "antonyms": ["open access", "ad-supported model"],
+      "collocations": ["hit the paywall", "soft paywall", "hard paywall", "metered paywall"],
+      "mnemonic_vi": "PAY (trả) + WALL (tường) = tường trả phí. Paywall = bức tường, qua thì trả tiền mới xem được."
+    },
+    {
+      "word": "exclusive",
+      "lemma": "exclusive",
+      "ipa": "/ɪkˈskluːsɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "available only on one specific platform, service, or to a limited audience, not shared with competitors",
+          "meaning_vi": "độc quyền (chỉ có trên một nền tảng/dịch vụ cụ thể, không chia sẻ với đối thủ)",
+          "examples": [
+            {
+              "en": "Disney+ launched as the exclusive home of Marvel and Star Wars streaming content.",
+              "vi": "Disney+ ra mắt là nơi exclusive cho nội dung streaming Marvel và Star Wars."
+            },
+            {
+              "en": "Spotify pays artists for exclusive podcasts available only on its platform.",
+              "vi": "Spotify trả cho nghệ sĩ vì podcast exclusive chỉ có trên nền tảng này."
+            },
+            {
+              "en": "Sơn Tùng M-TP released a song exclusively on Zing MP3 for Vietnamese fans.",
+              "vi": "Sơn Tùng M-TP phát hành ca khúc exclusive trên Zing MP3 cho fan Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["limited", "proprietary"],
+      "antonyms": ["shared", "common"],
+      "collocations": [
+        "platform exclusive",
+        "exclusive content",
+        "exclusive deal",
+        "Netflix exclusive",
+        "exclusive rights"
+      ],
+      "etymology_hint": "From Latin 'excludere' (to shut out) — exclusive content 'shuts out' other platforms from carrying it.",
+      "mnemonic_vi": "EX (ra) + CLUSIVE (đóng, như 'close') = đóng cửa với người khác. Exclusive = chỉ chỗ này có."
+    },
+    {
+      "word": "freemium",
+      "lemma": "freemium",
+      "ipa": "/ˈfriːmiəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a business model that offers a basic service free of charge while charging for premium features or content",
+          "meaning_vi": "mô hình freemium (miễn phí phần cơ bản, tính tiền cho tính năng/nội dung cao cấp)",
+          "examples": [
+            {
+              "en": "Spotify, YouTube, and Duolingo all use the freemium model to acquire users.",
+              "vi": "Spotify, YouTube và Duolingo đều dùng mô hình freemium để thu hút người dùng."
+            },
+            {
+              "en": "Freemium works when 2-5% of users convert to paid plans.",
+              "vi": "Freemium hoạt động khi 2-5% người dùng chuyển sang gói trả phí."
+            },
+            {
+              "en": "Many Vietnamese SaaS startups copied the freemium playbook from Western tech.",
+              "vi": "Nhiều startup SaaS Việt sao chép sách lược freemium từ tech phương Tây."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["free-to-paid model"],
+      "antonyms": ["paid-only", "premium-only"],
+      "collocations": ["freemium model", "freemium app", "freemium business", "freemium tier"],
+      "etymology_hint": "Portmanteau coined 2006 from 'free' + 'premium' — both halves of the business model in one word.",
+      "mnemonic_vi": "FREE (miễn phí) + PREMIUM (cao cấp) = FREEMIUM. Tài khoản free cơ bản, trả tiền nâng cấp lên premium."
+    },
+    {
+      "word": "microtransaction",
+      "lemma": "microtransaction",
+      "ipa": "/ˌmaɪkrəʊtrænˈzækʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a small purchase, usually within a game, app, or platform, that unlocks features, items, or content for a low individual price",
+          "meaning_vi": "giao dịch vi mô (khoản chi nhỏ trong game/app để mở tính năng, vật phẩm, nội dung)",
+          "examples": [
+            {
+              "en": "Mobile games make billions through microtransactions for skins and power-ups.",
+              "vi": "Game di động kiếm tỷ đô qua microtransaction cho skin và item nâng cấp."
+            },
+            {
+              "en": "Critics argue microtransactions exploit psychological hooks in young players.",
+              "vi": "Người phê bình lập luận microtransaction lợi dụng móc tâm lý ở người chơi trẻ."
+            },
+            {
+              "en": "Vietnamese parents are increasingly concerned about microtransactions on their kids' phones.",
+              "vi": "Phụ huynh Việt ngày càng lo lắng về microtransaction trên điện thoại con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in-app purchase", "IAP"],
+      "antonyms": [],
+      "collocations": [
+        "in-game microtransaction",
+        "microtransaction model",
+        "spend on microtransactions"
+      ],
+      "etymology_hint": "From Greek 'mikros' (small) + Latin 'transactio' (a doing through) — 'small transaction'.",
+      "mnemonic_vi": "MICRO (nhỏ) + TRANSACTION (giao dịch) = giao dịch nhỏ. Microtransaction = mua vặt vài chục nghìn trong game."
+    },
+    {
+      "word": "ad-supported",
+      "lemma": "ad-supported",
+      "ipa": "/ˌæd səˈpɔːtɪd/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a service or content that is free to users because revenue comes from advertisements rather than direct payment",
+          "meaning_vi": "có quảng cáo tài trợ (dịch vụ/nội dung miễn phí với người dùng, doanh thu từ quảng cáo)",
+          "examples": [
+            {
+              "en": "YouTube remains primarily an ad-supported platform for casual viewers.",
+              "vi": "YouTube vẫn chủ yếu là nền tảng ad-supported cho người xem thông thường."
+            },
+            {
+              "en": "Netflix launched an ad-supported tier in 2022 to attract budget-conscious viewers.",
+              "vi": "Netflix ra mắt gói ad-supported năm 2022 để thu hút người xem tiết kiệm."
+            },
+            {
+              "en": "Free Vietnamese music apps are mostly ad-supported with banner and audio ads.",
+              "vi": "App nhạc Việt miễn phí chủ yếu ad-supported với quảng cáo banner và audio."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["AVOD", "advertising-funded"],
+      "antonyms": ["subscription-based", "premium"],
+      "collocations": [
+        "ad-supported tier",
+        "ad-supported streaming",
+        "ad-supported model",
+        "ad-supported service"
+      ],
+      "mnemonic_vi": "AD (quảng cáo) + SUPPORTED (được hỗ trợ) = quảng cáo hỗ trợ. Bạn xem miễn phí, quảng cáo trả tiền."
+    },
+    {
+      "word": "cord-cutting",
+      "lemma": "cord-cutting",
+      "ipa": "/ˈkɔːd ˌkʌtɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of canceling traditional cable or satellite television subscriptions in favor of streaming services",
+          "meaning_vi": "cắt cáp (hủy đăng ký truyền hình cáp/vệ tinh truyền thống, chuyển sang streaming)",
+          "examples": [
+            {
+              "en": "American cord-cutting accelerated dramatically during the streaming boom of the 2020s.",
+              "vi": "Cord-cutting ở Mỹ tăng tốc mạnh trong làn sóng streaming thập niên 2020."
+            },
+            {
+              "en": "Cord-cutters save money but often end up paying for several streaming services.",
+              "vi": "Người cord-cutting tiết kiệm tiền nhưng thường vẫn trả cho nhiều dịch vụ streaming."
+            },
+            {
+              "en": "Vietnamese households are slowly cord-cutting cable TV as fiber internet improves.",
+              "vi": "Hộ gia đình Việt dần cord-cutting truyền hình cáp khi internet cáp quang cải thiện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cable cancellation"],
+      "antonyms": ["cable retention"],
+      "collocations": ["cord-cutting trend", "wave of cord-cutting", "cord-cutting consumer"],
+      "mnemonic_vi": "CORD (dây cáp) + CUTTING (cắt) = cắt dây cáp truyền hình. Đập cái cap tivi đi xem Netflix."
+    },
+    {
+      "word": "binge-watching",
+      "lemma": "binge-watch",
+      "ipa": "/ˈbɪndʒ ˌwɒtʃɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of watching multiple episodes of a TV series in rapid succession, typically over a single sitting",
+          "meaning_vi": "xem liên tù tì (xem nhiều tập của một series liên tục trong một lần ngồi)",
+          "examples": [
+            {
+              "en": "Netflix popularized binge-watching by releasing entire seasons at once.",
+              "vi": "Netflix phổ biến binge-watching bằng cách phát cả mùa cùng lúc."
+            },
+            {
+              "en": "She finished the 8-episode K-drama in a single weekend binge-watching session.",
+              "vi": "Cô ấy xem hết K-drama 8 tập trong một buổi cuối tuần binge-watching."
+            },
+            {
+              "en": "Vietnamese students often binge-watch English shows to improve listening skills.",
+              "vi": "Sinh viên Việt thường binge-watching show tiếng Anh để cải thiện kỹ năng nghe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["marathon-watching"],
+      "antonyms": ["weekly viewing"],
+      "collocations": ["binge-watch a series", "binge-watching session", "binge-watch all night"],
+      "mnemonic_vi": "BINGE (ngấu nghiến) + WATCHING (xem) = xem ngấu nghiến. 'Cày' show trọn vẹn một mạch."
+    },
+    {
+      "word": "simulcast",
+      "lemma": "simulcast",
+      "ipa": "/ˈsɪmlkɑːst/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a broadcast transmitted simultaneously across multiple platforms, channels, or countries at the same time",
+          "meaning_vi": "phát đồng thời (phát sóng cùng lúc trên nhiều nền tảng/kênh/quốc gia)",
+          "examples": [
+            {
+              "en": "The Oscars are now a simulcast on ABC, ABC.com, and Hulu Live.",
+              "vi": "Lễ Oscars giờ là simulcast trên ABC, ABC.com và Hulu Live."
+            },
+            {
+              "en": "Crunchyroll simulcasts new anime episodes within hours of their Japan air date.",
+              "vi": "Crunchyroll simulcast tập anime mới chỉ vài giờ sau khi phát ở Nhật."
+            },
+            {
+              "en": "Vietnamese football fans love simulcasts that bring Premier League matches in real time.",
+              "vi": "Fan bóng đá Việt yêu thích simulcast đưa các trận Premier League trực tiếp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["live broadcast"],
+      "antonyms": ["delayed broadcast"],
+      "collocations": ["simulcast on multiple platforms", "global simulcast", "anime simulcast"],
+      "etymology_hint": "Portmanteau of 'simultaneous' + 'broadcast' — coined in radio era to describe synchronized transmission.",
+      "mnemonic_vi": "SIMUL (cùng lúc, như 'simultaneous') + CAST (phát) = phát cùng lúc. Simulcast = phát đồng thời."
+    },
+    {
+      "word": "on-demand",
+      "lemma": "on-demand",
+      "ipa": "/ˌɒn dɪˈmɑːnd/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "available to be accessed or watched at any time chosen by the user, rather than at a fixed broadcast schedule",
+          "meaning_vi": "theo yêu cầu (truy cập/xem bất kỳ lúc nào người dùng muốn, không theo lịch phát cố định)",
+          "examples": [
+            {
+              "en": "Netflix pioneered on-demand viewing for general audiences in the 2010s.",
+              "vi": "Netflix tiên phong xem on-demand cho đại chúng từ thập niên 2010."
+            },
+            {
+              "en": "On-demand workout videos let you exercise at 5 AM or midnight equally easily.",
+              "vi": "Video tập gym on-demand cho phép bạn tập lúc 5 giờ sáng hay nửa đêm đều dễ."
+            },
+            {
+              "en": "Vietnamese parents use on-demand cartoons to keep kids entertained on long bus rides.",
+              "vi": "Phụ huynh Việt dùng phim hoạt hình on-demand để giữ trẻ giải trí trong xe khách đường dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["VOD", "anytime access"],
+      "antonyms": ["scheduled", "live-only"],
+      "collocations": [
+        "on-demand video",
+        "video on-demand",
+        "on-demand service",
+        "on-demand streaming"
+      ],
+      "mnemonic_vi": "ON (theo) + DEMAND (yêu cầu) = theo yêu cầu. On-demand = bạn muốn xem khi nào cũng được."
+    },
+    {
+      "word": "content-creator",
+      "lemma": "content-creator",
+      "ipa": "/ˈkɒntent kriˌeɪtə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who produces digital media such as videos, podcasts, articles, or social posts for online platforms, often as a profession",
+          "meaning_vi": "người sáng tạo nội dung (người làm video, podcast, bài viết online, thường là nghề chính)",
+          "examples": [
+            {
+              "en": "Full-time content creators on YouTube can earn salaries higher than many traditional jobs.",
+              "vi": "Content-creator toàn thời gian trên YouTube có thể kiếm lương cao hơn nhiều công việc truyền thống."
+            },
+            {
+              "en": "Brands now allocate budgets to partner with content creators rather than just running TV ads.",
+              "vi": "Các thương hiệu giờ phân bổ ngân sách hợp tác với content-creator thay vì chỉ chạy quảng cáo TV."
+            },
+            {
+              "en": "Vietnamese content creators on TikTok have built audiences of millions in just a few years.",
+              "vi": "Content-creator Việt trên TikTok đã xây khán giả hàng triệu chỉ trong vài năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["creator", "digital producer"],
+      "antonyms": ["consumer"],
+      "collocations": [
+        "full-time content creator",
+        "content-creator economy",
+        "successful content creator"
+      ],
+      "mnemonic_vi": "CONTENT (nội dung) + CREATOR (người tạo) = người tạo nội dung. Vlogger, TikToker, podcaster đều là content-creator."
+    },
+    {
+      "word": "monetization",
+      "lemma": "monetization",
+      "ipa": "/ˌmʌnɪtaɪˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of generating revenue from a product, service, audience, or asset, especially digital content",
+          "meaning_vi": "việc kiếm tiền, thương mại hóa (biến sản phẩm/khán giả/tài sản thành nguồn doanh thu)",
+          "examples": [
+            {
+              "en": "YouTube monetization requires at least 1,000 subscribers and 4,000 watch hours.",
+              "vi": "Monetization YouTube đòi hỏi ít nhất 1,000 subscriber và 4,000 giờ xem."
+            },
+            {
+              "en": "Free apps often struggle with monetization until they hit critical mass.",
+              "vi": "App miễn phí thường vật lộn với monetization đến khi đạt khối lượng tới hạn."
+            },
+            {
+              "en": "Vietnamese podcasts are exploring sponsor deals as their main monetization strategy.",
+              "vi": "Podcast Việt đang thăm dò hợp đồng tài trợ làm chiến lược monetization chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["revenue generation"],
+      "antonyms": [],
+      "collocations": [
+        "content monetization",
+        "monetization strategy",
+        "platform monetization",
+        "monetization model"
+      ],
+      "etymology_hint": "From Latin 'moneta' (mint, money) — turning something into 'money'.",
+      "mnemonic_vi": "MONE (tiền, money) + TIZATION = quá trình biến thành tiền. Monetization = kiếm tiền từ thứ mình có."
+    },
+    {
+      "word": "watchlist",
+      "lemma": "watchlist",
+      "ipa": "/ˈwɒtʃlɪst/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a list of movies, shows, or content saved by a user on a streaming platform to view later",
+          "meaning_vi": "danh sách xem sau (mục lưu phim/show trên nền tảng streaming để xem sau)",
+          "examples": [
+            {
+              "en": "Her Netflix watchlist has 200 titles she'll probably never get to.",
+              "vi": "Watchlist Netflix của cô ấy có 200 phim mà có lẽ sẽ không bao giờ xem hết."
+            },
+            {
+              "en": "Adding shows to a watchlist often triggers personalized recommendations later.",
+              "vi": "Thêm show vào watchlist thường kích hoạt recommendation cá nhân hóa về sau."
+            },
+            {
+              "en": "Vietnamese viewers maintain separate watchlists for K-dramas, anime, and Hollywood.",
+              "vi": "Người xem Việt duy trì watchlist riêng cho K-drama, anime và Hollywood."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["queue", "saved list"],
+      "antonyms": [],
+      "collocations": ["add to watchlist", "personal watchlist", "clear the watchlist"],
+      "mnemonic_vi": "WATCH (xem) + LIST (danh sách) = danh sách xem. Watchlist = lưu lại để xem sau."
+    },
+    {
+      "word": "royalties",
+      "lemma": "royalty",
+      "ipa": "/ˈrɔɪəltiz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "payments made to creators, artists, or rights holders each time their work is used, streamed, sold, or licensed",
+          "meaning_vi": "tiền bản quyền (thanh toán cho tác giả/nghệ sĩ mỗi khi tác phẩm của họ được dùng/phát/bán)",
+          "examples": [
+            {
+              "en": "Songwriters earn royalties every time a track plays on Spotify or radio.",
+              "vi": "Người viết nhạc nhận royalties mỗi lần ca khúc phát trên Spotify hay radio."
+            },
+            {
+              "en": "Streaming royalties remain controversially low for many independent musicians.",
+              "vi": "Royalties streaming vẫn thấp gây tranh cãi cho nhiều nhạc sĩ độc lập."
+            },
+            {
+              "en": "Vietnamese composers now receive international royalties through PROs and digital platforms.",
+              "vi": "Nhạc sĩ Việt giờ nhận royalties quốc tế qua PRO và nền tảng số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["licensing fees"],
+      "antonyms": [],
+      "collocations": [
+        "earn royalties",
+        "streaming royalties",
+        "royalty payment",
+        "book royalties",
+        "music royalties"
+      ],
+      "etymology_hint": "From Old French 'roialte' (royal right) — originally a king's share of mining or trade, now creator's share of usage.",
+      "mnemonic_vi": "ROYAL (hoàng gia) + TY = quyền hoàng gia. Xưa vua thu phần — nay tác giả thu phần mỗi lần dùng."
+    },
+    {
+      "word": "licensing",
+      "lemma": "license",
+      "ipa": "/ˈlaɪsənsɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the legal granting of permission to use intellectual property, software, or media in exchange for payment or under specific conditions",
+          "meaning_vi": "cấp phép (việc cho phép pháp lý dùng IP/phần mềm/media để đổi lấy tiền hoặc theo điều kiện cụ thể)",
+          "examples": [
+            {
+              "en": "Disney earns billions from licensing its characters to toy and clothing makers.",
+              "vi": "Disney kiếm tỷ đô từ licensing nhân vật cho hãng đồ chơi và quần áo."
+            },
+            {
+              "en": "Music licensing for films requires negotiating with both publishers and labels.",
+              "vi": "Licensing nhạc cho phim đòi hỏi đàm phán với cả nhà xuất bản và hãng đĩa."
+            },
+            {
+              "en": "Vietnamese broadcasters need licensing agreements to air major sports events.",
+              "vi": "Đài Việt cần thỏa thuận licensing để phát các sự kiện thể thao lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["permitting", "authorization"],
+      "antonyms": ["piracy", "unauthorized use"],
+      "collocations": [
+        "licensing agreement",
+        "music licensing",
+        "content licensing",
+        "exclusive licensing",
+        "licensing deal"
+      ],
+      "etymology_hint": "From Latin 'licentia' (freedom, permission) — formal 'permission' to use something owned by another.",
+      "mnemonic_vi": "LICENSE (giấy phép) + ING = sự cấp phép. Licensing = bán quyền sử dụng cho người khác."
+    },
+    {
+      "word": "piracy",
+      "lemma": "piracy",
+      "ipa": "/ˈpaɪrəsi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the unauthorized copying, distribution, or use of digital content, software, or other intellectual property",
+          "meaning_vi": "vi phạm bản quyền, sao chép lậu (sao chép/phát tán/dùng nội dung số không có phép)",
+          "examples": [
+            {
+              "en": "Online piracy of movies and music cost the entertainment industry billions annually.",
+              "vi": "Piracy phim và nhạc online làm ngành giải trí thiệt hại hàng tỷ đô mỗi năm."
+            },
+            {
+              "en": "Anti-piracy laws have grown stricter as streaming has expanded globally.",
+              "vi": "Luật chống piracy ngày càng nghiêm khi streaming mở rộng toàn cầu."
+            },
+            {
+              "en": "Vietnam is improving anti-piracy enforcement to meet international trade requirements.",
+              "vi": "Việt Nam đang cải thiện thực thi chống piracy để đáp ứng yêu cầu thương mại quốc tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["copyright infringement", "bootlegging"],
+      "antonyms": ["licensing", "fair use"],
+      "collocations": [
+        "online piracy",
+        "anti-piracy",
+        "music piracy",
+        "software piracy",
+        "combat piracy"
+      ],
+      "etymology_hint": "From Greek 'peirates' (one who attacks ships) — same root as 'pirate', stealing intellectual property like maritime raiders.",
+      "mnemonic_vi": "PIRACY = cướp biển (pirate). Piracy số = cướp nội dung không trả tiền. Cùng gốc với pirate."
+    },
+    {
+      "word": "ad-blocker",
+      "lemma": "ad-blocker",
+      "ipa": "/ˈæd blɒkə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a software tool or browser extension that prevents online advertisements from being displayed to the user",
+          "meaning_vi": "phần mềm chặn quảng cáo (công cụ ngăn không cho quảng cáo online hiển thị)",
+          "examples": [
+            {
+              "en": "Over 30% of internet users worldwide now use an ad-blocker regularly.",
+              "vi": "Hơn 30% người dùng internet toàn cầu giờ dùng ad-blocker thường xuyên."
+            },
+            {
+              "en": "Some news sites detect ad-blockers and ask users to whitelist them or subscribe.",
+              "vi": "Một số trang tin phát hiện ad-blocker và yêu cầu user whitelist hoặc đăng ký."
+            },
+            {
+              "en": "Young Vietnamese internet users heavily install ad-blockers on Chrome and mobile browsers.",
+              "vi": "Người Việt trẻ dùng internet cài ad-blocker rất nhiều trên Chrome và trình duyệt mobile."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ad blocker"],
+      "antonyms": [],
+      "collocations": ["install an ad-blocker", "ad-blocker software", "disable the ad-blocker"],
+      "mnemonic_vi": "AD (quảng cáo) + BLOCKER (chặn) = chặn quảng cáo. AdBlock, uBlock Origin là các ad-blocker phổ biến."
+    },
+    {
+      "word": "creator-economy",
+      "lemma": "creator-economy",
+      "ipa": "/kriˈeɪtə(r) ɪˌkɒnəmi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the ecosystem of independent content creators, platforms, and tools that enable individuals to earn income directly from their audiences online",
+          "meaning_vi": "kinh tế người sáng tạo (hệ sinh thái creator độc lập, nền tảng và công cụ giúp cá nhân kiếm tiền từ khán giả online)",
+          "examples": [
+            {
+              "en": "The creator economy now supports over 200 million independent earners worldwide.",
+              "vi": "Creator-economy giờ nuôi hơn 200 triệu người kiếm tiền độc lập toàn cầu."
+            },
+            {
+              "en": "Patreon and Substack became central tools of the creator economy.",
+              "vi": "Patreon và Substack thành công cụ trung tâm của creator-economy."
+            },
+            {
+              "en": "Vietnam's creator economy is growing fastest in beauty, gaming, and finance niches.",
+              "vi": "Creator-economy Việt tăng nhanh nhất trong ngách làm đẹp, gaming và tài chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["passion economy"],
+      "antonyms": ["traditional media economy"],
+      "collocations": [
+        "creator-economy boom",
+        "join the creator economy",
+        "creator-economy platform"
+      ],
+      "mnemonic_vi": "CREATOR (người sáng tạo) + ECONOMY (kinh tế) = kinh tế của creator. Mỗi vlogger là một doanh nghiệp 1 người."
+    },
+    {
+      "word": "platform-exclusive",
+      "lemma": "platform-exclusive",
+      "ipa": "/ˈplætfɔːm ɪkˌskluːsɪv/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing content, games, or features available only on one specific platform, not accessible elsewhere",
+          "meaning_vi": "độc quyền nền tảng (nội dung/game/tính năng chỉ có trên một nền tảng cụ thể, không có ở nơi khác)",
+          "examples": [
+            {
+              "en": "God of War was a platform-exclusive PlayStation title before its PC release.",
+              "vi": "God of War là tựa game platform-exclusive PlayStation trước khi phát hành PC."
+            },
+            {
+              "en": "Platform-exclusive shows drive subscriptions to specific streaming services.",
+              "vi": "Show platform-exclusive thúc đẩy đăng ký các dịch vụ streaming cụ thể."
+            },
+            {
+              "en": "Vietnamese streaming services have started commissioning platform-exclusive dramas.",
+              "vi": "Các dịch vụ streaming Việt đã bắt đầu đặt hàng phim drama platform-exclusive."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exclusive to one platform"],
+      "antonyms": ["multi-platform"],
+      "collocations": [
+        "platform-exclusive game",
+        "platform-exclusive show",
+        "platform-exclusive content"
+      ],
+      "mnemonic_vi": "PLATFORM (nền tảng) + EXCLUSIVE (độc quyền) = độc quyền nền tảng. Muốn xem thì phải có nền tảng đó."
+    },
+    {
+      "word": "engagement-rate",
+      "lemma": "engagement-rate",
+      "ipa": "/ɪnˈɡeɪdʒmənt reɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a metric measuring how actively an audience interacts with content, typically calculated as likes, comments, and shares divided by reach or followers",
+          "meaning_vi": "tỷ lệ tương tác (chỉ số đo mức độ khán giả tương tác với nội dung — like, comment, share chia cho reach)",
+          "examples": [
+            {
+              "en": "An Instagram post with 5% engagement rate is considered excellent.",
+              "vi": "Một bài Instagram với engagement-rate 5% được coi là xuất sắc."
+            },
+            {
+              "en": "Brands choose influencers by engagement rate, not just follower count.",
+              "vi": "Thương hiệu chọn influencer theo engagement-rate, không chỉ số follower."
+            },
+            {
+              "en": "Vietnamese TikTok creators often have higher engagement rates than older platforms.",
+              "vi": "Creator TikTok Việt thường có engagement-rate cao hơn các nền tảng cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["interaction rate"],
+      "antonyms": [],
+      "collocations": [
+        "high engagement rate",
+        "average engagement rate",
+        "engagement-rate metric",
+        "boost engagement rate"
+      ],
+      "mnemonic_vi": "ENGAGEMENT (tương tác) + RATE (tỷ lệ) = tỷ lệ người ta tương tác. Like + comment / lượt thấy = engagement-rate."
+    },
+    {
+      "word": "ad-revenue",
+      "lemma": "ad-revenue",
+      "ipa": "/ˈæd ˌrevənjuː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "income earned by a platform, website, or creator from displaying advertisements to its audience",
+          "meaning_vi": "doanh thu quảng cáo (thu nhập từ việc hiển thị quảng cáo cho khán giả)",
+          "examples": [
+            {
+              "en": "Google's ad revenue accounts for more than 80% of its total income.",
+              "vi": "Ad-revenue của Google chiếm hơn 80% tổng thu nhập."
+            },
+            {
+              "en": "Small YouTubers earn modest ad revenue but rely on sponsorships for the bigger income.",
+              "vi": "YouTuber nhỏ kiếm ad-revenue khiêm tốn nhưng dựa vào sponsor cho thu nhập chính."
+            },
+            {
+              "en": "Vietnamese news websites have seen ad revenue shift from print to digital banners.",
+              "vi": "Trang tin Việt thấy ad-revenue chuyển từ báo in sang banner số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advertising income"],
+      "antonyms": ["subscription revenue"],
+      "collocations": [
+        "ad-revenue share",
+        "generate ad revenue",
+        "ad-revenue model",
+        "decline in ad revenue"
+      ],
+      "mnemonic_vi": "AD (quảng cáo) + REVENUE (doanh thu) = doanh thu từ quảng cáo. Mỗi click ads = một xu vào pocket."
+    }
+  ]
+}
