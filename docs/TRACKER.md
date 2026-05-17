@@ -489,6 +489,14 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P10b B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `0390931` → merge `7567909`) — P10 10/25, token-efficient triage levers ON:
+    - `work-business/finance-advanced` — derivative, arbitrage, volatility, par-value, capital-gain, amortization, depreciation, fiscal, monetary, forex, commodity, securities, benchmark, index-fund, short-selling, margin (2-def), collateral, maturity, premium (2-def), spread
+    - `abstract-academic/linguistics` — morphology, semantics, pragmatics, phoneme, syntax, lexicon, cognate, inflection, orthography, phonetic, allophone, morpheme, syllable, intonation, discourse, corpus, phonology, sociolinguistics, grapheme, philology
+    - `nature-environment/genetics-biology` — DNA, gene, chromosome, mutation, allele, hereditary, genome, transcription, genotype, phenotype, dominant, recessive, enzyme, mitosis, meiosis, ribosome, amino-acid, helix, nucleotide, mitochondria
+    - `entertainment/literary-criticism` — symbolism, motif, archetype, hyperbole, juxtaposition, personification, denouement, catharsis, anachronism, allusion, foreshadowing, imagery, diction, alliteration, onomatopoeia, oxymoron, epiphany, pun, trope, parody
+    - `places-travel/geopolitics` — alliance, soft-power, sphere-of-influence, border-dispute, sanctions, diplomacy, annexation, hegemony, multilateral, unilateral, proliferation, neutrality, geopolitics, nuclear-treaty, arms-race, nation-state, bilateral, isolationism, realpolitik, detente
+    - **Lever D (etymology selective)**: 22/100 cards bỏ etymology (compounds modern, acronyms DNA/forex, từ Germanic/Latin không insightful). **Lever E (collocation triage 3-5)**: cards specialized 3 collo (allele, mitosis, helix, oxymoron…). **Lever C (smaller batch) SKIP**: B2 collisions ít → giữ 5 lessons/batch. **Lever B (prompt tighten)**: postpone.
+    - Zero collision sau Round 1 + Round 2 grep. Zod schema green tất cả 5. IPA flags 15-19/20 mỗi file (83/100 total — same range với P10a). Lint-staged prettier reformat 5 files khi commit. Seed live: **pending user manual run** (target 147 lessons / 2940 cards).
   - [x] **P10a B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `c62d88f` → merge `a376d79` → sync `c69b4a4`) — P10 mở 5/25, lần đầu B2:
     - `abstract-academic/philosophy` — existentialism, dichotomy, paradigm-shift, epistemology, ontology, metaphysics, dualism, monism, nihilism, stoicism, dialectic, syllogism, ethics, morality, virtue, free-will, determinism, consciousness, relativism, paradox
     - `work-business/corporate-strategy` — diversification, synergy, vertical-integration, horizontal-integration, monopoly, oligopoly, conglomerate, holding-company, divestment, takeover, restructuring, downsize, outsource, merger, acquisition, market-share, consolidation, antitrust, shareholder, leverage
@@ -539,11 +547,11 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a done (5/25), TODO P10b-e
+- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a/b done (10/25), TODO P10c-e
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 142/192 lessons (74%), 2840/3840 cards (74%), ~74% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 mở 5/25 (lần đầu B2)**, next: P10b (5 lessons).
+**Progress**: 147/192 lessons (77%), 2940/3840 cards (77%), ~77% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 10/25 (B2 đang gen, levers D+E ON)**, next: P10c (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
