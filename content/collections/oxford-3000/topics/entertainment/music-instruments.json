@@ -1,0 +1,483 @@
+{
+  "slug": "music-instruments",
+  "name": "Music Instruments (Extended)",
+  "description": "Nhạc cụ A2-B1 — saxophone, cello, trumpet, harp — 20 nhạc cụ phổ biến và đặc biệt.",
+  "order_index": 18,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "saxophone",
+      "ipa": "/ˈsæksəfəʊn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a metal wind instrument with a curved body, played in jazz and pop music",
+          "meaning_vi": "kèn saxophone (nhạc cụ hơi kim loại thân cong, dùng trong jazz và pop)",
+          "examples": [
+            {
+              "en": "Kenny G is a famous saxophone player.",
+              "vi": "Kenny G là người chơi saxophone nổi tiếng."
+            },
+            {
+              "en": "Saigon jazz bars often feature saxophone soloists.",
+              "vi": "Quán jazz Sài Gòn thường có nghệ sĩ saxophone solo."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the saxophone", "jazz saxophone"],
+      "mnemonic_vi": "SAXOPHONE = saxophone. Adolphe Sax (Bỉ) phát minh 1840. Đặc trưng jazz."
+    },
+    {
+      "word": "trumpet",
+      "ipa": "/ˈtrʌmpɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a brass wind instrument with a flared bell and three valves, common in jazz and classical music",
+          "meaning_vi": "kèn trumpet (nhạc cụ hơi đồng, thân ống, loa loe, 3 van — trong jazz và cổ điển)",
+          "examples": [
+            {
+              "en": "Miles Davis revolutionized trumpet playing.",
+              "vi": "Miles Davis cách mạng cách chơi trumpet."
+            },
+            {
+              "en": "Vietnamese military bands use trumpets in parades.",
+              "vi": "Đội nhạc quân đội Việt dùng trumpet trong diễu hành."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the trumpet", "trumpet player"],
+      "mnemonic_vi": "TRUMPET = kèn trumpet. Tiếng vang to, bass cao."
+    },
+    {
+      "word": "cello",
+      "ipa": "/ˈtʃeləʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large stringed instrument of the violin family, played sitting with the instrument between the knees",
+          "meaning_vi": "đàn cello (nhạc cụ dây lớn họ violin, chơi khi ngồi, đặt giữa hai đầu gối)",
+          "examples": [
+            {
+              "en": "Yo-Yo Ma is the world's most famous cello player.",
+              "vi": "Yo-Yo Ma là người chơi cello nổi tiếng nhất thế giới."
+            },
+            {
+              "en": "Vietnamese symphony orchestras need cello players.",
+              "vi": "Dàn nhạc giao hưởng Việt cần người chơi cello."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the cello", "cello solo"],
+      "mnemonic_vi": "CELLO = đàn cello. To hơn violin, chơi ngồi."
+    },
+    {
+      "word": "harp",
+      "ipa": "/hɑːp/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large triangular stringed instrument with vertical strings plucked by the fingers",
+          "meaning_vi": "đàn hạc (nhạc cụ dây tam giác lớn, dây dọc, gảy bằng ngón tay)",
+          "examples": [
+            { "en": "The harp produces a heavenly sound.", "vi": "Harp tạo âm thanh thiên thần." },
+            {
+              "en": "Vietnamese đàn tranh resembles a horizontal harp.",
+              "vi": "Đàn tranh Việt giống harp nằm ngang."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the harp", "concert harp"],
+      "mnemonic_vi": "HARP = đàn hạc. Tiếng thiên thần. Đàn tranh VN cũng kiểu harp."
+    },
+    {
+      "word": "accordion",
+      "ipa": "/əˈkɔːdiən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a portable wind instrument with bellows and keys, played by squeezing and pulling",
+          "meaning_vi": "đàn accordion (nhạc cụ hơi xách tay có bễ và phím, chơi bằng kéo-ép)",
+          "examples": [
+            {
+              "en": "The accordion is famous in French street music.",
+              "vi": "Accordion nổi tiếng trong nhạc đường phố Pháp."
+            },
+            {
+              "en": "Vietnamese folk artists sometimes play the accordion.",
+              "vi": "Nghệ sĩ dân ca Việt đôi khi chơi accordion."
+            }
+          ]
+        }
+      ],
+      "collocations": ["accordion player", "play the accordion"],
+      "mnemonic_vi": "ACCORDION = phong cầm. Như cây đàn xếp tay, kéo ép tạo âm."
+    },
+    {
+      "word": "keyboard",
+      "ipa": "/ˈkiːbɔːd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an electronic musical instrument with keys like a piano; also a computer typing input device",
+          "meaning_vi": "đàn keyboard (nhạc cụ điện tử có phím như piano); cũng là bàn phím máy tính",
+          "examples": [
+            { "en": "She plays keyboard in a band.", "vi": "Cô ấy chơi keyboard trong ban nhạc." },
+            {
+              "en": "Vietnamese music schools teach both piano and keyboard.",
+              "vi": "Trường nhạc Việt dạy cả piano và keyboard."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the keyboard", "electronic keyboard"],
+      "mnemonic_vi": "KEY (phím) + BOARD (bảng) = bảng phím. Keyboard = đàn phím."
+    },
+    {
+      "word": "synthesizer",
+      "ipa": "/ˈsɪnθəsaɪzə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an electronic instrument that generates and modifies sounds using electronic signals",
+          "meaning_vi": "synth, đàn tổng hợp (nhạc cụ điện tử tạo và biến đổi âm thanh bằng tín hiệu điện tử)",
+          "examples": [
+            {
+              "en": "80s pop heavily used synthesizers.",
+              "vi": "Nhạc pop 80s dùng nhiều synthesizer."
+            },
+            {
+              "en": "Vietnamese electronic music producers love synthesizers.",
+              "vi": "Producer nhạc điện tử Việt yêu synthesizer."
+            }
+          ]
+        }
+      ],
+      "collocations": ["analog synthesizer", "play synthesizer"],
+      "mnemonic_vi": "SYNTHESIZE (tổng hợp) + R = thiết bị tổng hợp âm. Synthesizer = synth."
+    },
+    {
+      "word": "ukulele",
+      "ipa": "/ˌjuːkəˈleɪli/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small four-stringed instrument resembling a guitar, originally from Hawaii",
+          "meaning_vi": "đàn ukulele (đàn nhỏ 4 dây giống guitar, xuất xứ Hawaii)",
+          "examples": [
+            {
+              "en": "Ukulele is easy to learn for beginners.",
+              "vi": "Ukulele dễ học cho người mới."
+            },
+            {
+              "en": "Vietnamese cafés often have ukulele open mic nights.",
+              "vi": "Quán cà phê Việt thường có đêm ukulele mở mic."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the ukulele", "ukulele chord"],
+      "mnemonic_vi": "UKULELE = ukulele. Hawaii. 4 dây. Dễ học hơn guitar."
+    },
+    {
+      "word": "banjo",
+      "ipa": "/ˈbændʒəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a stringed instrument with a round body and long neck, used in country and folk music",
+          "meaning_vi": "đàn banjo (đàn dây thân tròn, cần dài, dùng trong country và folk)",
+          "examples": [
+            {
+              "en": "The banjo is central to American country music.",
+              "vi": "Banjo trung tâm trong nhạc country Mỹ."
+            },
+            {
+              "en": "Few Vietnamese learn the banjo — guitar is more popular.",
+              "vi": "Ít người Việt học banjo — guitar phổ biến hơn."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the banjo", "bluegrass banjo"],
+      "mnemonic_vi": "BANJO = banjo. Thân tròn, cần dài. Nhạc country Mỹ."
+    },
+    {
+      "word": "harmonica",
+      "ipa": "/hɑːˈmɒnɪkə/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small portable wind instrument played by blowing and sucking air through holes",
+          "meaning_vi": "kèn harmonica (nhạc cụ hơi nhỏ xách tay, chơi bằng thổi và hít qua các lỗ)",
+          "examples": [
+            {
+              "en": "Bob Dylan often plays harmonica on stage.",
+              "vi": "Bob Dylan thường chơi harmonica trên sân khấu."
+            },
+            {
+              "en": "Vietnamese street performers sometimes play harmonica.",
+              "vi": "Người biểu diễn đường phố Việt đôi khi chơi harmonica."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the harmonica", "blues harmonica"],
+      "mnemonic_vi": "HARMONICA = harmonica. Nhỏ gọn, thổi-hít. Blues, folk dùng nhiều."
+    },
+    {
+      "word": "tambourine",
+      "ipa": "/ˌtæmbəˈriːn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small drum with small metal disks around the edge, played by shaking or hitting",
+          "meaning_vi": "lục lạc tambourine (trống nhỏ có đĩa kim loại quanh viền, chơi bằng lắc hoặc đập)",
+          "examples": [
+            {
+              "en": "She shook the tambourine to the beat.",
+              "vi": "Cô ấy lắc tambourine theo nhịp."
+            },
+            {
+              "en": "Vietnamese Christmas choirs use tambourines.",
+              "vi": "Ban hát Giáng Sinh Việt dùng tambourine."
+            }
+          ]
+        }
+      ],
+      "collocations": ["shake the tambourine", "tambourine rhythm"],
+      "mnemonic_vi": "TAMBOURINE = lục lạc cầm tay. Lắc + đập tạo nhịp."
+    },
+    {
+      "word": "xylophone",
+      "ipa": "/ˈzaɪləfəʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a percussion instrument with wooden bars of different lengths struck with mallets",
+          "meaning_vi": "đàn xylophone (gõ nhạc cụ với các thanh gỗ độ dài khác nhau, gõ bằng dùi)",
+          "examples": [
+            {
+              "en": "Kids learn xylophone in primary music classes.",
+              "vi": "Trẻ em học xylophone ở lớp nhạc tiểu học."
+            },
+            {
+              "en": "The Vietnamese đàn tơ-rưng is similar to the xylophone.",
+              "vi": "Đàn tơ-rưng Việt giống xylophone."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the xylophone", "wooden xylophone"],
+      "mnemonic_vi": "XYLO (gỗ) + PHONE (âm) = âm gỗ. Xylophone = đàn gõ thanh gỗ. Tơ-rưng VN tương tự."
+    },
+    {
+      "word": "gong",
+      "ipa": "/ɡɒŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a flat metal disk that produces a deep resonant sound when struck",
+          "meaning_vi": "cồng, chiêng (đĩa kim loại phẳng tạo âm trầm khi gõ)",
+          "examples": [
+            {
+              "en": "The gong announced the start of the ceremony.",
+              "vi": "Cồng báo bắt đầu buổi lễ."
+            },
+            {
+              "en": "Vietnamese highland communities are famous for gong culture (cồng chiêng).",
+              "vi": "Cộng đồng Tây Nguyên Việt nổi tiếng với văn hóa cồng chiêng."
+            }
+          ]
+        }
+      ],
+      "collocations": ["strike a gong", "gong sound"],
+      "mnemonic_vi": "GONG = cồng chiêng. Văn hóa cồng chiêng Tây Nguyên Việt là di sản UNESCO."
+    },
+    {
+      "word": "mandolin",
+      "ipa": "/ˈmændəlɪn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a small stringed instrument with a rounded back, played with a pick",
+          "meaning_vi": "đàn mandolin (nhạc cụ nhỏ thân tròn, gảy bằng pick)",
+          "examples": [
+            {
+              "en": "The mandolin is common in Italian folk music.",
+              "vi": "Mandolin phổ biến trong nhạc folk Ý."
+            },
+            {
+              "en": "Few Vietnamese musicians play the mandolin.",
+              "vi": "Ít nhạc sĩ Việt chơi mandolin."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the mandolin", "Italian mandolin"],
+      "mnemonic_vi": "MANDOLIN = mandolin. Nhỏ, tròn, gảy pick. Nhạc Ý."
+    },
+    {
+      "word": "trombone",
+      "ipa": "/trɒmˈbəʊn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a brass wind instrument with a sliding U-shaped tube that changes pitch",
+          "meaning_vi": "kèn trombone (kèn đồng có ống chữ U trượt để đổi cao độ)",
+          "examples": [
+            {
+              "en": "The trombone has a unique sliding sound.",
+              "vi": "Trombone có âm thanh trượt độc đáo."
+            },
+            {
+              "en": "Vietnamese marching bands often include trombones.",
+              "vi": "Đội kèn diễu hành Việt thường có trombone."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the trombone"],
+      "mnemonic_vi": "TROMBONE = kèn trombone. Có ống trượt — đặc trưng."
+    },
+    {
+      "word": "clarinet",
+      "ipa": "/ˌklærəˈnet/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a wind instrument with a single reed, cylindrical bore, and keys",
+          "meaning_vi": "kèn clarinet (kèn hơi với một lưỡi gà, ống trụ và phím)",
+          "examples": [
+            {
+              "en": "The clarinet is common in classical and jazz music.",
+              "vi": "Clarinet phổ biến trong nhạc cổ điển và jazz."
+            },
+            {
+              "en": "Vietnamese music conservatories teach clarinet.",
+              "vi": "Nhạc viện Việt dạy clarinet."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the clarinet"],
+      "mnemonic_vi": "CLARINET = clarinet. Kèn dài đen với một lưỡi gà."
+    },
+    {
+      "word": "flute",
+      "ipa": "/fluːt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a high-pitched wind instrument played by blowing across an opening at one end",
+          "meaning_vi": "sáo, kèn flute (nhạc cụ hơi cao độ, thổi qua miệng lỗ)",
+          "examples": [
+            {
+              "en": "She plays flute in the school orchestra.",
+              "vi": "Cô ấy chơi flute trong dàn nhạc trường."
+            },
+            {
+              "en": "Vietnamese sáo trúc (bamboo flute) has a similar sound to Western flute.",
+              "vi": "Sáo trúc Việt có âm gần với flute phương Tây."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the flute", "wooden flute"],
+      "mnemonic_vi": "FLUTE = sáo. Tiếng cao, mảnh. Sáo trúc VN cũng là flute."
+    },
+    {
+      "word": "tuba",
+      "ipa": "/ˈtjuːbə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large brass wind instrument that produces deep bass sounds",
+          "meaning_vi": "kèn tuba (kèn đồng lớn tạo âm bass trầm)",
+          "examples": [
+            {
+              "en": "The tuba provides the bass line in brass bands.",
+              "vi": "Tuba cung cấp bè bass trong ban kèn đồng."
+            },
+            {
+              "en": "Few Vietnamese musicians specialize in tuba.",
+              "vi": "Ít nhạc sĩ Việt chuyên về tuba."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the tuba"],
+      "mnemonic_vi": "TUBA = kèn tuba. To, trầm. Bass của ban kèn đồng."
+    },
+    {
+      "word": "bagpipes",
+      "ipa": "/ˈbæɡpaɪps/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a traditional Scottish wind instrument with a leather bag and several pipes, producing a distinctive droning sound",
+          "meaning_vi": "kèn túi (nhạc cụ truyền thống Scotland, có túi da và nhiều ống, âm trầm vang đặc trưng)",
+          "examples": [
+            {
+              "en": "Bagpipes are iconic of Scottish culture.",
+              "vi": "Bagpipes là biểu tượng văn hóa Scotland."
+            },
+            {
+              "en": "Vietnamese music students rarely encounter bagpipes.",
+              "vi": "Học sinh nhạc Việt ít gặp bagpipes."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the bagpipes", "Scottish bagpipes"],
+      "mnemonic_vi": "BAG (túi) + PIPES (ống) = ống có túi. Bagpipes = kèn túi Scotland."
+    },
+    {
+      "word": "didgeridoo",
+      "ipa": "/ˌdɪdʒəriˈduː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a long wooden wind instrument from Aboriginal Australia, producing a low droning sound",
+          "meaning_vi": "kèn didgeridoo (nhạc cụ hơi gỗ dài của thổ dân Úc, âm trầm vang)",
+          "examples": [
+            {
+              "en": "Didgeridoos are central to Aboriginal Australian music.",
+              "vi": "Didgeridoo trung tâm trong nhạc thổ dân Úc."
+            },
+            {
+              "en": "Vietnamese audiences are often fascinated by didgeridoo demonstrations.",
+              "vi": "Khán giả Việt thường mê demo didgeridoo."
+            }
+          ]
+        }
+      ],
+      "collocations": ["play the didgeridoo"],
+      "mnemonic_vi": "DIDGERIDOO = didgeridoo. Ống dài gỗ. Âm vang trầm. Văn hóa thổ dân Úc."
+    }
+  ]
+}

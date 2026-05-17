@@ -1,0 +1,468 @@
+{
+  "slug": "birds-extended",
+  "name": "Birds (Extended)",
+  "description": "Các loài chim A2-B1 — crow, sparrow, flamingo, swan — 20 loài chim phổ biến và đặc biệt.",
+  "order_index": 16,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "crow",
+      "ipa": "/krəʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large black bird known for its harsh cawing sound and high intelligence",
+          "meaning_vi": "quạ (loài chim đen lớn có tiếng kêu khàn và rất thông minh)",
+          "examples": [
+            {
+              "en": "Crows are smart enough to use tools.",
+              "vi": "Crow đủ thông minh để dùng công cụ."
+            },
+            {
+              "en": "Vietnamese folklore often features crows as ominous symbols.",
+              "vi": "Văn hóa dân gian Việt thường coi crow là biểu tượng điềm xấu."
+            }
+          ]
+        }
+      ],
+      "collocations": ["black crow", "smart as a crow"],
+      "mnemonic_vi": "CROW = quạ. Đen, kêu 'caw caw'."
+    },
+    {
+      "word": "dove",
+      "ipa": "/dʌv/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small white or grey bird symbolizing peace and love",
+          "meaning_vi": "chim bồ câu (chim nhỏ trắng/xám, biểu tượng hòa bình và tình yêu)",
+          "examples": [
+            {
+              "en": "A dove is the universal symbol of peace.",
+              "vi": "Dove là biểu tượng hòa bình toàn cầu."
+            },
+            {
+              "en": "Vietnamese weddings sometimes release doves.",
+              "vi": "Đám cưới Việt đôi khi thả dove."
+            }
+          ]
+        }
+      ],
+      "collocations": ["peace dove", "white dove"],
+      "mnemonic_vi": "DOVE = bồ câu. Biểu tượng hòa bình. Trắng/xám."
+    },
+    {
+      "word": "sparrow",
+      "ipa": "/ˈspærəʊ/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a small brown bird commonly found in urban and rural areas",
+          "meaning_vi": "chim sẻ (chim nâu nhỏ, có ở cả đô thị lẫn nông thôn)",
+          "examples": [
+            {
+              "en": "Sparrows are common in Vietnamese gardens.",
+              "vi": "Sparrow phổ biến ở vườn Việt."
+            },
+            { "en": "She fed the sparrows bread crumbs.", "vi": "Cô ấy cho sparrow ăn vụn bánh." }
+          ]
+        }
+      ],
+      "collocations": ["small sparrow", "house sparrow"],
+      "mnemonic_vi": "SPARROW = chim sẻ. Nhỏ, nâu, khắp nơi."
+    },
+    {
+      "word": "robin",
+      "ipa": "/ˈrɒbɪn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small bird with a distinctive red or orange breast, common in Europe and North America",
+          "meaning_vi": "chim cổ đỏ (chim nhỏ có ngực màu đỏ/cam đặc trưng, có ở châu Âu và Bắc Mỹ)",
+          "examples": [
+            {
+              "en": "Robins are a sign of spring in England.",
+              "vi": "Robin là dấu hiệu của mùa xuân ở Anh."
+            },
+            {
+              "en": "Vietnamese birds rarely include robins natively.",
+              "vi": "Chim Việt hiếm khi bao gồm robin bản địa."
+            }
+          ]
+        }
+      ],
+      "collocations": ["red robin", "robin's nest"],
+      "mnemonic_vi": "ROBIN = cổ đỏ. Ngực đỏ. Biểu tượng mùa xuân ở Anh."
+    },
+    {
+      "word": "swallow",
+      "ipa": "/ˈswɒləʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a small migrating bird with pointed wings and a forked tail, famous for graceful flight",
+          "meaning_vi": "chim én (chim nhỏ di cư, cánh nhọn, đuôi chẻ, bay duyên dáng)",
+          "examples": [
+            { "en": "Swallows return in spring.", "vi": "Swallow trở về mùa xuân." },
+            {
+              "en": "Vietnamese spring poetry features swallows.",
+              "vi": "Thơ xuân Việt có swallow."
+            }
+          ]
+        }
+      ],
+      "collocations": ["swift swallow", "swallow's nest"],
+      "mnemonic_vi": "SWALLOW = én. Cũng nghĩa 'nuốt'. Én = swallow trong thơ mùa xuân."
+    },
+    {
+      "word": "pigeon",
+      "ipa": "/ˈpɪdʒɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a common grey bird often seen in city squares and parks",
+          "meaning_vi": "bồ câu xám (chim xám phổ biến ở quảng trường và công viên đô thị)",
+          "examples": [
+            {
+              "en": "Pigeons gather in Saigon's parks.",
+              "vi": "Pigeon tụ tập ở công viên Sài Gòn."
+            },
+            {
+              "en": "Tourists feed pigeons at Notre Dame Saigon.",
+              "vi": "Du khách cho pigeon ăn tại Nhà thờ Đức Bà Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "collocations": ["city pigeon", "feed pigeons"],
+      "mnemonic_vi": "PIGEON = bồ câu thành thị. Xám, gặp khắp công viên."
+    },
+    {
+      "word": "ostrich",
+      "ipa": "/ˈɒstrɪtʃ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the world's largest flightless bird, native to Africa, known for fast running",
+          "meaning_vi": "đà điểu (chim lớn nhất thế giới, không bay được, gốc châu Phi, chạy nhanh)",
+          "examples": [
+            {
+              "en": "Ostriches can run faster than horses.",
+              "vi": "Ostrich có thể chạy nhanh hơn ngựa."
+            },
+            { "en": "Vietnamese zoos have ostrich exhibits.", "vi": "Sở thú Việt có khu ostrich." }
+          ]
+        }
+      ],
+      "collocations": ["wild ostrich", "ostrich farm"],
+      "mnemonic_vi": "OSTRICH = đà điểu. Chim to nhất, không bay, chạy nhanh."
+    },
+    {
+      "word": "penguin",
+      "ipa": "/ˈpeŋɡwɪn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a flightless aquatic bird with black-and-white plumage, found mainly in Antarctica",
+          "meaning_vi": "chim cánh cụt (chim không bay sống nước, lông đen trắng, chủ yếu ở Nam Cực)",
+          "examples": [
+            { "en": "Penguins waddle when they walk.", "vi": "Penguin đi lạch bạch." },
+            {
+              "en": "Vietnamese kids love penguin documentaries.",
+              "vi": "Trẻ em Việt yêu phim tài liệu penguin."
+            }
+          ]
+        }
+      ],
+      "collocations": ["emperor penguin", "baby penguin"],
+      "mnemonic_vi": "PENGUIN = cánh cụt. Đen trắng, Nam Cực, đi lạch bạch."
+    },
+    {
+      "word": "flamingo",
+      "ipa": "/fləˈmɪŋɡəʊ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a tall pink bird with long thin legs that stands on one leg, found in tropical wetlands",
+          "meaning_vi": "chim hồng hạc (chim cao hồng chân dài, đứng một chân, ở vùng đầm lầy nhiệt đới)",
+          "examples": [
+            {
+              "en": "Flamingos are pink because of their diet.",
+              "vi": "Flamingo hồng vì chế độ ăn."
+            },
+            {
+              "en": "Vietnamese tourists love photographing flamingos in zoos.",
+              "vi": "Du khách Việt thích chụp ảnh flamingo ở sở thú."
+            }
+          ]
+        }
+      ],
+      "collocations": ["pink flamingo", "flock of flamingos"],
+      "mnemonic_vi": "FLAMINGO = hồng hạc. Hồng vì ăn tôm. Đứng 1 chân."
+    },
+    {
+      "word": "hummingbird",
+      "ipa": "/ˈhʌmɪŋbɜːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a tiny bird that hovers in the air by flapping its wings extremely fast, feeding on nectar",
+          "meaning_vi": "chim ruồi (chim cực nhỏ lơ lửng trong không bằng cách vẫy cánh siêu nhanh, ăn mật)",
+          "examples": [
+            {
+              "en": "Hummingbirds beat their wings 50 times per second.",
+              "vi": "Hummingbird vẫy cánh 50 lần/giây."
+            },
+            {
+              "en": "Vietnam doesn't have hummingbirds — only sunbirds.",
+              "vi": "Việt Nam không có hummingbird — chỉ có chim hút mật."
+            }
+          ]
+        }
+      ],
+      "collocations": ["tiny hummingbird"],
+      "mnemonic_vi": "HUMMING (rì rì) + BIRD = chim rì rì (do cánh vẫy nhanh). Hummingbird = chim ruồi."
+    },
+    {
+      "word": "woodpecker",
+      "ipa": "/ˈwʊdpekə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a bird that drills holes in tree trunks with its strong beak to find insects",
+          "meaning_vi": "chim gõ kiến (chim đục lỗ thân cây bằng mỏ chắc khỏe để bắt sâu)",
+          "examples": [
+            {
+              "en": "You can hear woodpeckers tapping in the forest.",
+              "vi": "Bạn nghe woodpecker gõ trong rừng."
+            },
+            {
+              "en": "Vietnamese forests have several woodpecker species.",
+              "vi": "Rừng Việt có vài loài woodpecker."
+            }
+          ]
+        }
+      ],
+      "collocations": ["red-headed woodpecker"],
+      "mnemonic_vi": "WOOD (gỗ) + PECKER (gõ) = gõ gỗ. Woodpecker = gõ kiến."
+    },
+    {
+      "word": "vulture",
+      "ipa": "/ˈvʌltʃə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large bird of prey that mainly eats dead animals (carrion)",
+          "meaning_vi": "kền kền (chim săn lớn chủ yếu ăn xác động vật chết)",
+          "examples": [
+            {
+              "en": "Vultures play an important ecological role.",
+              "vi": "Vulture đóng vai trò sinh thái quan trọng."
+            },
+            {
+              "en": "Vietnamese countryside vultures are now rare.",
+              "vi": "Vulture đồng quê Việt giờ rất hiếm."
+            }
+          ]
+        }
+      ],
+      "collocations": ["scavenging vulture"],
+      "mnemonic_vi": "VULTURE = kền kền. Ăn xác. Bay vòng vòng tìm thức ăn."
+    },
+    {
+      "word": "hawk",
+      "ipa": "/hɔːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a medium-sized bird of prey with sharp eyes and curved claws for hunting",
+          "meaning_vi": "diều hâu (chim săn cỡ vừa, mắt sắc, móng cong để săn mồi)",
+          "examples": [
+            { "en": "Hawks have excellent vision.", "vi": "Hawk có thị lực tuyệt vời." },
+            {
+              "en": "Vietnamese mountain hawks hunt small mammals.",
+              "vi": "Hawk núi Việt săn động vật nhỏ."
+            }
+          ]
+        }
+      ],
+      "collocations": ["hawk-eyed", "wild hawk"],
+      "mnemonic_vi": "HAWK = diều hâu. Mắt sắc. 'Hawk-eyed' = tinh mắt."
+    },
+    {
+      "word": "falcon",
+      "ipa": "/ˈfɔːlkən/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a fast bird of prey with pointed wings, often trained for hunting (falconry)",
+          "meaning_vi": "chim ưng (chim săn nhanh, cánh nhọn, thường được huấn luyện để săn — falconry)",
+          "examples": [
+            {
+              "en": "Peregrine falcons can dive at 320 km/h.",
+              "vi": "Falcon hành tinh có thể lao xuống 320 km/h."
+            },
+            {
+              "en": "Falconry is traditional in Middle Eastern cultures.",
+              "vi": "Falconry là truyền thống văn hóa Trung Đông."
+            }
+          ]
+        }
+      ],
+      "collocations": ["peregrine falcon", "trained falcon"],
+      "mnemonic_vi": "FALCON = chim ưng. Nhanh nhất hành tinh. Falconry = nghệ thuật săn bằng chim ưng."
+    },
+    {
+      "word": "swan",
+      "ipa": "/swɒn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a large elegant water bird with a long curved neck, usually white",
+          "meaning_vi": "thiên nga (chim nước lớn, cổ cong dài, thường trắng)",
+          "examples": [
+            {
+              "en": "Swans are symbols of grace and elegance.",
+              "vi": "Swan là biểu tượng duyên dáng."
+            },
+            {
+              "en": "Vietnamese parks sometimes have swan boats.",
+              "vi": "Công viên Việt đôi khi có thuyền swan."
+            }
+          ]
+        }
+      ],
+      "collocations": ["white swan", "graceful swan"],
+      "mnemonic_vi": "SWAN = thiên nga. Trắng, cổ dài cong. Biểu tượng duyên dáng."
+    },
+    {
+      "word": "rooster",
+      "ipa": "/ˈruːstə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a male chicken known for crowing at dawn",
+          "meaning_vi": "gà trống (gà đực, gáy lúc rạng đông)",
+          "examples": [
+            {
+              "en": "The rooster wakes the village at 5 a.m.",
+              "vi": "Rooster đánh thức làng lúc 5 giờ sáng."
+            },
+            {
+              "en": "The Year of the Rooster is in the Vietnamese zodiac.",
+              "vi": "Năm gà trống có trong hoàng đạo Việt."
+            }
+          ]
+        }
+      ],
+      "collocations": ["crowing rooster", "Year of the Rooster"],
+      "mnemonic_vi": "ROOSTER = gà trống. Mỹ dùng (Anh: cock). Gáy ò ó o."
+    },
+    {
+      "word": "goose",
+      "ipa": "/ɡuːs/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a large water bird with a long neck and webbed feet, often kept for meat or feathers",
+          "meaning_vi": "ngỗng (chim nước lớn, cổ dài, chân có màng, nuôi lấy thịt/lông)",
+          "examples": [
+            { "en": "Geese fly in V-formations.", "vi": "Goose bay theo đội hình V." },
+            {
+              "en": "Vietnamese roast goose is a delicacy in some northern provinces.",
+              "vi": "Goose quay Việt là đặc sản ở một số tỉnh Bắc."
+            }
+          ]
+        }
+      ],
+      "collocations": ["wild goose", "Christmas goose"],
+      "mnemonic_vi": "GOOSE = ngỗng. Số nhiều = geese (bất quy tắc). Bay đội hình V."
+    },
+    {
+      "word": "stork",
+      "ipa": "/stɔːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a tall wading bird with long legs and a long beak, mythically said to deliver babies",
+          "meaning_vi": "cò (chim lội nước cao, chân và mỏ dài, truyền thuyết kể đem trẻ sơ sinh)",
+          "examples": [
+            {
+              "en": "Storks nest on rooftops in Europe.",
+              "vi": "Stork làm tổ trên mái nhà ở châu Âu."
+            },
+            {
+              "en": "Vietnamese fields used to be full of storks.",
+              "vi": "Đồng ruộng Việt xưa đầy stork."
+            }
+          ]
+        }
+      ],
+      "collocations": ["white stork", "stork's nest"],
+      "mnemonic_vi": "STORK = cò. Mỏ dài, chân dài. Truyền thuyết stork đem em bé."
+    },
+    {
+      "word": "seagull",
+      "ipa": "/ˈsiːɡʌl/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a common seabird with white and grey feathers, often seen at coasts and beaches",
+          "meaning_vi": "hải âu (chim biển phổ biến, lông trắng-xám, thường ở bờ biển)",
+          "examples": [
+            { "en": "Seagulls follow fishing boats.", "vi": "Seagull theo thuyền cá." },
+            {
+              "en": "Vietnamese coastal cities like Vũng Tàu have many seagulls.",
+              "vi": "Thành phố ven biển Việt như Vũng Tàu có nhiều seagull."
+            }
+          ]
+        }
+      ],
+      "collocations": ["screeching seagull", "flock of seagulls"],
+      "mnemonic_vi": "SEA (biển) + GULL (hải âu) = hải âu biển. Seagull = chim biển trắng-xám."
+    },
+    {
+      "word": "kingfisher",
+      "ipa": "/ˈkɪŋfɪʃə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a colorful small bird that dives into water to catch fish, common near rivers and lakes",
+          "meaning_vi": "chim bói cá (chim nhỏ nhiều màu, lao xuống nước bắt cá, có ở sông hồ)",
+          "examples": [
+            {
+              "en": "Kingfishers are stunning with their blue and orange feathers.",
+              "vi": "Kingfisher đẹp với lông xanh và cam."
+            },
+            {
+              "en": "Vietnamese rivers host several kingfisher species.",
+              "vi": "Sông Việt có vài loài kingfisher."
+            }
+          ]
+        }
+      ],
+      "collocations": ["blue kingfisher", "common kingfisher"],
+      "mnemonic_vi": "KING (vua) + FISHER (câu cá) = vua câu cá. Kingfisher = bói cá."
+    }
+  ]
+}
