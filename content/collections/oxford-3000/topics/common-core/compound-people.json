@@ -1,0 +1,620 @@
+{
+  "slug": "compound-people",
+  "name": "Compound Nouns: People & Relations",
+  "description": "Danh từ ghép về người A2-B1 — in-laws, grandparent, roommate, businesswoman — 20 vai trò và mối quan hệ.",
+  "order_index": 24,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "son-in-law",
+      "lemma": "son-in-law",
+      "ipa": "/ˈsʌn ɪn lɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the husband of one's daughter",
+          "meaning_vi": "con rể (chồng của con gái mình)",
+          "examples": [
+            {
+              "en": "My son-in-law is a software engineer.",
+              "vi": "Son-in-law tôi là kỹ sư phần mềm."
+            },
+            { "en": "She gets along well with her son-in-law.", "vi": "Cô ấy hợp với son-in-law." },
+            {
+              "en": "Vietnamese mothers traditionally test future sons-in-law during family meals.",
+              "vi": "Mẹ Việt truyền thống thử son-in-law tương lai qua bữa cơm gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["daughter-in-law"],
+      "collocations": ["future son-in-law", "good son-in-law"],
+      "mnemonic_vi": "SON (con trai) + IN-LAW (theo luật) = con trai theo luật. Son-in-law = con rể."
+    },
+    {
+      "word": "daughter-in-law",
+      "lemma": "daughter-in-law",
+      "ipa": "/ˈdɔːtə(r) ɪn lɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the wife of one's son",
+          "meaning_vi": "con dâu (vợ của con trai mình)",
+          "examples": [
+            {
+              "en": "My daughter-in-law cooks delicious Vietnamese food.",
+              "vi": "Daughter-in-law tôi nấu đồ Việt ngon."
+            },
+            {
+              "en": "Many Vietnamese daughters-in-law live with their husband's parents.",
+              "vi": "Nhiều daughter-in-law Việt sống cùng cha mẹ chồng."
+            },
+            {
+              "en": "She's a wonderful daughter-in-law to my parents.",
+              "vi": "Cô ấy là daughter-in-law tuyệt vời với cha mẹ tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["son-in-law"],
+      "collocations": ["future daughter-in-law", "respectful daughter-in-law"],
+      "mnemonic_vi": "DAUGHTER (con gái) + IN-LAW (theo luật) = con gái theo luật. Daughter-in-law = con dâu."
+    },
+    {
+      "word": "brother-in-law",
+      "lemma": "brother-in-law",
+      "ipa": "/ˈbrʌðə(r) ɪn lɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the brother of one's spouse, or the husband of one's sibling",
+          "meaning_vi": "anh/em rể, anh/em vợ chồng (anh trai vợ/chồng, hoặc chồng của anh chị em mình)",
+          "examples": [
+            {
+              "en": "My brother-in-law owns a restaurant.",
+              "vi": "Brother-in-law tôi sở hữu nhà hàng."
+            },
+            {
+              "en": "He plays football with his brother-in-law every Sunday.",
+              "vi": "Anh ấy đá bóng với brother-in-law mỗi Chủ Nhật."
+            },
+            {
+              "en": "Vietnamese tradition celebrates close ties with brothers-in-law.",
+              "vi": "Truyền thống Việt coi trọng quan hệ thân thiết với brother-in-law."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["sister-in-law"],
+      "collocations": ["close brother-in-law"],
+      "mnemonic_vi": "BROTHER (anh em) + IN-LAW = anh em theo luật. Brother-in-law = anh/em rể."
+    },
+    {
+      "word": "sister-in-law",
+      "lemma": "sister-in-law",
+      "ipa": "/ˈsɪstə(r) ɪn lɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the sister of one's spouse, or the wife of one's sibling",
+          "meaning_vi": "chị/em dâu, chị/em vợ chồng (chị em của vợ/chồng, hoặc vợ của anh chị em)",
+          "examples": [
+            {
+              "en": "My sister-in-law just had a baby.",
+              "vi": "Sister-in-law tôi vừa sinh em bé."
+            },
+            {
+              "en": "She and her sister-in-law go shopping together.",
+              "vi": "Cô ấy và sister-in-law cùng đi mua sắm."
+            },
+            {
+              "en": "Vietnamese sisters-in-law often share recipes.",
+              "vi": "Sister-in-law Việt thường chia sẻ công thức nấu ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["brother-in-law"],
+      "collocations": ["close sister-in-law"],
+      "mnemonic_vi": "SISTER (chị em) + IN-LAW = chị em theo luật. Sister-in-law = chị/em dâu."
+    },
+    {
+      "word": "mother-in-law",
+      "lemma": "mother-in-law",
+      "ipa": "/ˈmʌðə(r) ɪn lɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the mother of one's spouse",
+          "meaning_vi": "mẹ chồng/vợ (mẹ của vợ/chồng mình)",
+          "examples": [
+            {
+              "en": "I get along great with my mother-in-law.",
+              "vi": "Tôi hợp tuyệt vời với mother-in-law."
+            },
+            {
+              "en": "Vietnamese mother-in-law relationships are famous in folklore.",
+              "vi": "Quan hệ mother-in-law Việt nổi tiếng trong văn hóa dân gian."
+            },
+            {
+              "en": "Her mother-in-law taught her to cook phở.",
+              "vi": "Mother-in-law dạy cô ấy nấu phở."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["father-in-law"],
+      "collocations": ["strict mother-in-law", "future mother-in-law"],
+      "mnemonic_vi": "MOTHER (mẹ) + IN-LAW = mẹ theo luật. Mother-in-law = mẹ chồng/vợ."
+    },
+    {
+      "word": "father-in-law",
+      "lemma": "father-in-law",
+      "ipa": "/ˈfɑːðə(r) ɪn lɔː/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "the father of one's spouse",
+          "meaning_vi": "cha chồng/vợ (cha của vợ/chồng mình)",
+          "examples": [
+            {
+              "en": "My father-in-law is a retired teacher.",
+              "vi": "Father-in-law tôi là giáo viên về hưu."
+            },
+            {
+              "en": "He took his father-in-law fishing.",
+              "vi": "Anh ấy đưa father-in-law đi câu cá."
+            },
+            {
+              "en": "Vietnamese fathers-in-law often offer wisdom about life and business.",
+              "vi": "Father-in-law Việt thường chia sẻ kinh nghiệm về đời và kinh doanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["mother-in-law"],
+      "collocations": ["respect father-in-law"],
+      "mnemonic_vi": "FATHER (cha) + IN-LAW = cha theo luật. Father-in-law = cha chồng/vợ."
+    },
+    {
+      "word": "grandson",
+      "lemma": "grandson",
+      "ipa": "/ˈɡrænsʌn/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a son of one's son or daughter",
+          "meaning_vi": "cháu trai (con trai của con mình)",
+          "examples": [
+            {
+              "en": "Their grandson is starting school next month.",
+              "vi": "Grandson của họ vào trường tháng sau."
+            },
+            { "en": "She has three grandsons.", "vi": "Bà ấy có 3 grandson." },
+            {
+              "en": "Vietnamese grandparents adore their grandsons.",
+              "vi": "Ông bà Việt yêu grandson của họ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["granddaughter"],
+      "collocations": ["proud grandson", "spoil the grandson"],
+      "mnemonic_vi": "GRAND (lớn) + SON (con trai) = cháu trai. Grandson = cháu nội/ngoại trai."
+    },
+    {
+      "word": "granddaughter",
+      "lemma": "granddaughter",
+      "ipa": "/ˈɡrændɔːtə(r)/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "a daughter of one's son or daughter",
+          "meaning_vi": "cháu gái (con gái của con mình)",
+          "examples": [
+            {
+              "en": "His granddaughter just graduated college.",
+              "vi": "Granddaughter của ông ấy vừa tốt nghiệp đại học."
+            },
+            {
+              "en": "She visits her granddaughter every weekend.",
+              "vi": "Bà ấy thăm granddaughter mỗi cuối tuần."
+            },
+            {
+              "en": "Vietnamese folk songs are sung to granddaughters at bedtime.",
+              "vi": "Dân ca Việt được hát cho granddaughter khi đi ngủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["grandson"],
+      "collocations": ["beloved granddaughter"],
+      "mnemonic_vi": "GRAND (lớn) + DAUGHTER (con gái) = cháu gái. Granddaughter = cháu nội/ngoại gái."
+    },
+    {
+      "word": "grandparent",
+      "lemma": "grandparent",
+      "ipa": "/ˈɡrænpeərənt/",
+      "pos": "noun",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "the parent of one's father or mother; a grandfather or grandmother",
+          "meaning_vi": "ông/bà (cha/mẹ của cha mẹ mình)",
+          "examples": [
+            {
+              "en": "I'm visiting my grandparents this weekend.",
+              "vi": "Tôi sẽ thăm grandparent cuối tuần này."
+            },
+            {
+              "en": "Both my grandparents are still alive.",
+              "vi": "Cả hai grandparent tôi đều còn sống."
+            },
+            {
+              "en": "Vietnamese grandparents traditionally live with their adult children.",
+              "vi": "Grandparent Việt truyền thống sống với con trưởng thành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["grandfather/grandmother"],
+      "antonyms": ["grandchild"],
+      "collocations": ["loving grandparent", "great-grandparent"],
+      "mnemonic_vi": "GRAND (lớn) + PARENT (cha mẹ) = cha mẹ lớn (đời trước). Grandparent = ông bà."
+    },
+    {
+      "word": "godfather",
+      "lemma": "godfather",
+      "ipa": "/ˈɡɒdfɑːðə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a man who acts as a sponsor at a child's baptism, traditionally taking interest in their upbringing; also a powerful figure (slang)",
+          "meaning_vi": "cha đỡ đầu (người đàn ông bảo trợ tại lễ rửa tội, quan tâm nuôi dạy trẻ; cũng có nghĩa người quyền lực — slang)",
+          "examples": [
+            {
+              "en": "His godfather gave him a watch for graduation.",
+              "vi": "Godfather tặng anh ấy đồng hồ tốt nghiệp."
+            },
+            {
+              "en": "The Godfather is a classic American film.",
+              "vi": "'The Godfather' là phim Mỹ kinh điển."
+            },
+            {
+              "en": "Vietnamese Christian families choose godfathers carefully.",
+              "vi": "Gia đình Cơ Đốc Việt chọn godfather cẩn thận."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["godmother"],
+      "collocations": ["proud godfather", "the Godfather of"],
+      "mnemonic_vi": "GOD (Chúa) + FATHER (cha) = cha trước Chúa. Godfather = cha đỡ đầu."
+    },
+    {
+      "word": "godmother",
+      "lemma": "godmother",
+      "ipa": "/ˈɡɒdmʌðə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a woman who acts as a sponsor at a child's baptism, traditionally taking interest in their spiritual upbringing",
+          "meaning_vi": "mẹ đỡ đầu (người phụ nữ bảo trợ tại lễ rửa tội, quan tâm nuôi dạy tâm linh trẻ)",
+          "examples": [
+            {
+              "en": "Her godmother flew in from Australia for the wedding.",
+              "vi": "Godmother bay từ Úc về dự đám cưới."
+            },
+            {
+              "en": "The fairy godmother granted three wishes.",
+              "vi": "Bà tiên godmother ban 3 điều ước."
+            },
+            {
+              "en": "Vietnamese Catholic families pair godmothers and goddaughters for life.",
+              "vi": "Gia đình Công giáo Việt ghép godmother và con đỡ đầu suốt đời."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["godfather"],
+      "collocations": ["fairy godmother", "loving godmother"],
+      "mnemonic_vi": "GOD (Chúa) + MOTHER (mẹ) = mẹ trước Chúa. Godmother = mẹ đỡ đầu."
+    },
+    {
+      "word": "roommate",
+      "lemma": "roommate",
+      "ipa": "/ˈruːmmeɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who shares a room or apartment with someone, especially a student or young adult",
+          "meaning_vi": "bạn cùng phòng (người chia sẻ phòng/căn hộ, đặc biệt sinh viên/người trẻ)",
+          "examples": [
+            { "en": "My roommate is from Hanoi.", "vi": "Roommate tôi đến từ Hà Nội." },
+            {
+              "en": "Good roommates make university life better.",
+              "vi": "Roommate tốt làm đời sinh viên tuyệt vời hơn."
+            },
+            {
+              "en": "Vietnamese students often have multiple roommates to save on rent.",
+              "vi": "Sinh viên Việt thường có nhiều roommate để tiết kiệm tiền thuê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flatmate"],
+      "antonyms": [],
+      "collocations": ["college roommate", "great roommate"],
+      "mnemonic_vi": "ROOM (phòng) + MATE (bạn) = bạn cùng phòng. Roommate."
+    },
+    {
+      "word": "schoolmate",
+      "lemma": "schoolmate",
+      "ipa": "/ˈskuːlmeɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person who attends or attended the same school as another",
+          "meaning_vi": "bạn học (người cùng học hoặc đã học cùng trường)",
+          "examples": [
+            {
+              "en": "I met my old schoolmate at the airport.",
+              "vi": "Tôi gặp schoolmate cũ ở sân bay."
+            },
+            {
+              "en": "Schoolmates stay in touch via Zalo groups.",
+              "vi": "Schoolmate giữ liên lạc qua nhóm Zalo."
+            },
+            {
+              "en": "Vietnamese schoolmates often celebrate reunions every 5 years.",
+              "vi": "Schoolmate Việt thường tổ chức họp lớp mỗi 5 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["classmate"],
+      "antonyms": [],
+      "collocations": ["old schoolmate", "former schoolmate"],
+      "mnemonic_vi": "SCHOOL (trường) + MATE (bạn) = bạn trường. Schoolmate."
+    },
+    {
+      "word": "teammate",
+      "lemma": "teammate",
+      "ipa": "/ˈtiːmmeɪt/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a member of the same team as someone else, in sports or work",
+          "meaning_vi": "đồng đội (thành viên cùng đội, trong thể thao hoặc công việc)",
+          "examples": [
+            {
+              "en": "He trusts his teammates completely.",
+              "vi": "Anh ấy tin tuyệt đối các teammate."
+            },
+            {
+              "en": "Great teammates make winning easier.",
+              "vi": "Teammate giỏi làm việc thắng dễ hơn."
+            },
+            {
+              "en": "Vietnamese football teammates often grew up playing together.",
+              "vi": "Teammate bóng đá Việt thường lớn lên cùng đá bóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["opponent"],
+      "collocations": ["good teammate", "trust teammates"],
+      "mnemonic_vi": "TEAM (đội) + MATE (bạn) = bạn đội. Teammate = đồng đội."
+    },
+    {
+      "word": "businesswoman",
+      "lemma": "businesswoman",
+      "ipa": "/ˈbɪznəswʊmən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a woman who works in business or commerce, often in a senior or entrepreneurial role",
+          "meaning_vi": "nữ doanh nhân (phụ nữ làm kinh doanh/thương mại, thường ở vị trí cao hoặc tự doanh)",
+          "examples": [
+            {
+              "en": "She's a successful businesswoman in Ho Chi Minh City.",
+              "vi": "Cô ấy là businesswoman thành công ở TP HCM."
+            },
+            {
+              "en": "The forum honored Vietnam's top businesswomen.",
+              "vi": "Diễn đàn vinh danh các businesswoman hàng đầu Việt Nam."
+            },
+            {
+              "en": "Female businesswomen are rising in Vietnamese tech.",
+              "vi": "Businesswoman đang lên trong tech Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["entrepreneur"],
+      "antonyms": ["businessman"],
+      "collocations": ["successful businesswoman"],
+      "mnemonic_vi": "BUSINESS + WOMAN = phụ nữ kinh doanh. Businesswoman = nữ doanh nhân."
+    },
+    {
+      "word": "businessman",
+      "lemma": "businessman",
+      "ipa": "/ˈbɪznəsmən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a man who works in business or commerce, often in a senior or entrepreneurial role",
+          "meaning_vi": "doanh nhân nam (đàn ông làm kinh doanh, thường ở vị trí cao hoặc tự doanh)",
+          "examples": [
+            {
+              "en": "Phạm Nhật Vượng is Vietnam's most famous businessman.",
+              "vi": "Phạm Nhật Vượng là businessman nổi tiếng nhất Việt Nam."
+            },
+            {
+              "en": "He's a self-made businessman from Hai Phong.",
+              "vi": "Anh ấy là businessman tự lập từ Hải Phòng."
+            },
+            {
+              "en": "Many Vietnamese businessmen invest in their hometowns.",
+              "vi": "Nhiều businessman Việt đầu tư về quê."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["entrepreneur"],
+      "antonyms": ["businesswoman"],
+      "collocations": ["self-made businessman", "Vietnamese businessman"],
+      "mnemonic_vi": "BUSINESS + MAN = đàn ông kinh doanh. Businessman = doanh nhân."
+    },
+    {
+      "word": "sportsman",
+      "lemma": "sportsman",
+      "ipa": "/ˈspɔːtsmən/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a man who plays sports professionally or recreationally, especially with good sportsmanship",
+          "meaning_vi": "vận động viên nam (nam chơi thể thao chuyên nghiệp/giải trí, thường có tinh thần thể thao)",
+          "examples": [
+            {
+              "en": "He's a true sportsman — never argues with the referee.",
+              "vi": "Anh ấy là sportsman thật — không cãi trọng tài."
+            },
+            {
+              "en": "Many Vietnamese sportsmen rise from village football clubs.",
+              "vi": "Nhiều sportsman Việt lên từ câu lạc bộ bóng đá làng."
+            },
+            {
+              "en": "The Olympic sportsman trained for 12 years.",
+              "vi": "Sportsman Olympic luyện tập 12 năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["athlete"],
+      "antonyms": ["sportswoman"],
+      "collocations": ["true sportsman", "Olympic sportsman"],
+      "mnemonic_vi": "SPORTS + MAN = đàn ông thể thao. Sportsman = vận động viên nam."
+    },
+    {
+      "word": "breadwinner",
+      "lemma": "breadwinner",
+      "ipa": "/ˈbredwɪnə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "the member of a family who earns the main income and supports the household financially",
+          "meaning_vi": "trụ cột (thành viên gia đình kiếm thu nhập chính, lo tài chính cho cả nhà)",
+          "examples": [
+            {
+              "en": "She's the breadwinner of the family.",
+              "vi": "Cô ấy là breadwinner gia đình."
+            },
+            {
+              "en": "Many Vietnamese fathers are still the primary breadwinners.",
+              "vi": "Nhiều cha Việt vẫn là breadwinner chính."
+            },
+            {
+              "en": "Increasing women becoming breadwinners is changing Vietnamese society.",
+              "vi": "Phụ nữ ngày càng làm breadwinner đang thay đổi xã hội Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["main earner"],
+      "antonyms": ["dependent"],
+      "collocations": ["sole breadwinner", "main breadwinner"],
+      "mnemonic_vi": "BREAD (bánh mì) + WINNER (người thắng) = người kiếm bánh mì. Breadwinner = trụ cột kinh tế."
+    },
+    {
+      "word": "housewife",
+      "lemma": "housewife",
+      "ipa": "/ˈhaʊswaɪf/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a woman whose main occupation is managing the home and caring for the family, not working outside",
+          "meaning_vi": "nội trợ (phụ nữ chính trông coi nhà cửa, chăm sóc gia đình, không đi làm ngoài)",
+          "examples": [
+            {
+              "en": "She was a housewife until her children went to college.",
+              "vi": "Cô ấy là housewife đến khi con vào đại học."
+            },
+            {
+              "en": "Modern housewives also run small businesses online.",
+              "vi": "Housewife hiện đại cũng kinh doanh nhỏ online."
+            },
+            {
+              "en": "Vietnamese housewives often manage family finances strictly.",
+              "vi": "Housewife Việt thường quản lý tài chính gia đình chặt chẽ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["homemaker"],
+      "antonyms": [],
+      "collocations": ["full-time housewife", "Vietnamese housewife"],
+      "mnemonic_vi": "HOUSE (nhà) + WIFE (vợ) = vợ trong nhà. Housewife = nội trợ."
+    },
+    {
+      "word": "babysitter",
+      "lemma": "babysitter",
+      "ipa": "/ˈbeɪbiːsɪtə(r)/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a person, usually a teenager or part-time worker, who takes care of children while the parents are away",
+          "meaning_vi": "người giữ trẻ (người, thường teen hoặc làm tay ngang, trông trẻ khi cha mẹ vắng)",
+          "examples": [
+            {
+              "en": "We need to hire a babysitter for Saturday.",
+              "vi": "Cần thuê babysitter cho thứ Bảy."
+            },
+            {
+              "en": "Babysitters in big cities charge by the hour.",
+              "vi": "Babysitter ở thành phố lớn tính theo giờ."
+            },
+            {
+              "en": "Vietnamese students earn pocket money as babysitters.",
+              "vi": "Sinh viên Việt kiếm tiền tiêu vặt làm babysitter."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nanny"],
+      "antonyms": [],
+      "collocations": ["hire a babysitter", "trusted babysitter"],
+      "mnemonic_vi": "BABY (em bé) + SITTER (người ngồi) = người ngồi giữ em bé. Babysitter = giữ trẻ."
+    }
+  ]
+}

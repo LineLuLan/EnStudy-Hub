@@ -1,0 +1,575 @@
+{
+  "slug": "set-phrases-time",
+  "name": "Set Phrases: Time & Degree",
+  "description": "Cụm cố định thời gian/mức độ B1 — at last, in time, sooner or later, on the spot — 20 cụm thường dùng.",
+  "order_index": 22,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "at-last",
+      "lemma": "at last",
+      "ipa": "/ət ˈlɑːst/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "finally, after a long time of waiting or trying",
+          "meaning_vi": "cuối cùng (sau thời gian dài chờ đợi/cố gắng)",
+          "examples": [
+            { "en": "At last, the rain stopped.", "vi": "At-last, mưa tạnh." },
+            {
+              "en": "She graduated at last after seven years.",
+              "vi": "Cô ấy tốt nghiệp at-last sau 7 năm."
+            },
+            {
+              "en": "At last, Vietnam won the SEA Games gold medal.",
+              "vi": "At-last, Việt Nam giành huy chương vàng SEA Games."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finally", "eventually"],
+      "antonyms": [],
+      "collocations": ["at last, ..."],
+      "mnemonic_vi": "AT + LAST (cuối) = ở cuối. At-last = cuối cùng (sau chờ đợi)."
+    },
+    {
+      "word": "at-first",
+      "lemma": "at first",
+      "ipa": "/ət ˈfɜːst/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in the beginning; initially before changing",
+          "meaning_vi": "lúc đầu (ban đầu trước khi thay đổi)",
+          "examples": [
+            {
+              "en": "At first I didn't like spicy food, but now I love it.",
+              "vi": "At-first tôi không thích đồ cay, giờ tôi thích."
+            },
+            { "en": "She seemed shy at first.", "vi": "Cô ấy có vẻ nhút nhát at-first." },
+            {
+              "en": "At first, Vietnamese coffee tasted too strong for me.",
+              "vi": "At-first, cà phê Việt quá mạnh với tôi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["initially"],
+      "antonyms": ["at last"],
+      "collocations": ["at first sight", "at first glance"],
+      "mnemonic_vi": "AT + FIRST (đầu) = ở đầu. At-first = lúc đầu."
+    },
+    {
+      "word": "at-least",
+      "lemma": "at least",
+      "ipa": "/ət ˈliːst/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not less than a certain amount; at the minimum; used to introduce a positive aspect",
+          "meaning_vi": "ít nhất, dù sao thì (không dưới một số lượng; ít ra; nhấn mạnh điểm tích cực)",
+          "examples": [
+            { "en": "Sleep at least 7 hours every night.", "vi": "Ngủ at-least 7 giờ mỗi đêm." },
+            { "en": "At least we tried.", "vi": "At-least chúng ta đã thử." },
+            {
+              "en": "At least Saigon has good food, even in the rain.",
+              "vi": "At-least Sài Gòn có đồ ăn ngon, dù mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["minimum"],
+      "antonyms": ["at most"],
+      "collocations": ["at least once", "at least 50%", "or at least"],
+      "mnemonic_vi": "AT + LEAST (ít nhất) = ở mức ít nhất. At-least = tối thiểu."
+    },
+    {
+      "word": "at-most",
+      "lemma": "at most",
+      "ipa": "/ət ˈməʊst/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not more than a certain amount; at the maximum",
+          "meaning_vi": "tối đa, nhiều nhất (không hơn một số lượng)",
+          "examples": [
+            { "en": "It'll take 30 minutes at most.", "vi": "Mất at-most 30 phút." },
+            { "en": "I have 50 dollars at most.", "vi": "Tôi có at-most 50 đô." },
+            {
+              "en": "Vietnamese street vendors charge 50,000 VND at most for a meal.",
+              "vi": "Hàng rong Việt tính at-most 50,000 đồng cho một bữa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["maximum"],
+      "antonyms": ["at least"],
+      "collocations": ["at most 10", "at the most"],
+      "mnemonic_vi": "AT + MOST (nhiều nhất) = mức nhiều nhất. At-most = tối đa."
+    },
+    {
+      "word": "at-once",
+      "lemma": "at once",
+      "ipa": "/ət ˈwʌns/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "immediately, without delay; at the same time",
+          "meaning_vi": "ngay lập tức, cùng lúc (không trì hoãn; cùng thời điểm)",
+          "examples": [
+            { "en": "Come here at once!", "vi": "Đến đây at-once!" },
+            {
+              "en": "She felt many emotions at once.",
+              "vi": "Cô ấy cảm thấy nhiều cảm xúc at-once."
+            },
+            {
+              "en": "Vietnamese teachers expect students to answer at once.",
+              "vi": "Giáo viên Việt mong học sinh trả lời at-once."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["immediately", "simultaneously"],
+      "antonyms": [],
+      "collocations": ["all at once", "at once and forever"],
+      "mnemonic_vi": "AT + ONCE (một lần) = một lần. At-once = ngay lập tức HOẶC cùng lúc."
+    },
+    {
+      "word": "in-time",
+      "lemma": "in time",
+      "ipa": "/ɪn ˈtaɪm/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "early enough; eventually after a period",
+          "meaning_vi": "kịp giờ, dần dần (đủ sớm; cuối cùng theo thời gian)",
+          "examples": [
+            {
+              "en": "I arrived just in time for the meeting.",
+              "vi": "Tôi đến vừa in-time cho cuộc họp."
+            },
+            {
+              "en": "In time, you'll forget this pain.",
+              "vi": "In-time, bạn sẽ quên cơn đau này."
+            },
+            {
+              "en": "Vietnamese trains usually arrive in time.",
+              "vi": "Tàu Việt thường đến in-time."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["punctually", "eventually"],
+      "antonyms": ["late"],
+      "collocations": ["in time for", "just in time"],
+      "mnemonic_vi": "IN + TIME = đúng thời. In-time = kịp giờ HOẶC dần dần."
+    },
+    {
+      "word": "on-time",
+      "lemma": "on time",
+      "ipa": "/ɒn ˈtaɪm/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "exactly at the scheduled or expected time, neither early nor late",
+          "meaning_vi": "đúng giờ (chính xác giờ đã hẹn, không sớm không trễ)",
+          "examples": [
+            {
+              "en": "Please arrive on time for the interview.",
+              "vi": "Vui lòng đến on-time cho phỏng vấn."
+            },
+            {
+              "en": "The flight took off right on time.",
+              "vi": "Chuyến bay cất cánh đúng on-time."
+            },
+            {
+              "en": "Vietnamese clinics rarely run on time, expect delays.",
+              "vi": "Phòng khám Việt hiếm khi on-time, nên chờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["punctual"],
+      "antonyms": ["late"],
+      "collocations": ["arrive on time", "always on time", "right on time"],
+      "mnemonic_vi": "ON + TIME (giờ) = đúng giờ. On-time = đúng giờ chính xác."
+    },
+    {
+      "word": "in-the-end",
+      "lemma": "in the end",
+      "ipa": "/ɪn ði ˈend/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "finally, as the eventual outcome after considering all things",
+          "meaning_vi": "cuối cùng (kết cục sau khi cân nhắc mọi thứ)",
+          "examples": [
+            {
+              "en": "In the end, she chose the smaller apartment.",
+              "vi": "In-the-end, cô ấy chọn căn nhỏ hơn."
+            },
+            {
+              "en": "We tried many recipes, but in the end stuck with phở.",
+              "vi": "Ta thử nhiều công thức nhưng in-the-end vẫn theo phở."
+            },
+            {
+              "en": "In the end, hard work matters more than talent.",
+              "vi": "In-the-end, chăm chỉ quan trọng hơn tài năng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["eventually", "ultimately"],
+      "antonyms": ["at first"],
+      "collocations": ["in the end, ..."],
+      "mnemonic_vi": "IN + THE + END (cuối) = vào cuối. In-the-end = rốt cuộc."
+    },
+    {
+      "word": "all-of-a-sudden",
+      "lemma": "all of a sudden",
+      "ipa": "/ˌɔːl əv ə ˈsʌdn/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "suddenly and unexpectedly; without warning",
+          "meaning_vi": "đột ngột (bất ngờ; không báo trước)",
+          "examples": [
+            { "en": "All of a sudden, the lights went out.", "vi": "All-of-a-sudden, đèn tắt." },
+            { "en": "She quit her job all of a sudden.", "vi": "Cô ấy nghỉ việc all-of-a-sudden." },
+            {
+              "en": "All of a sudden, Saigon's sky filled with rain.",
+              "vi": "All-of-a-sudden, trời Sài Gòn ngập mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suddenly", "abruptly"],
+      "antonyms": ["gradually"],
+      "collocations": ["happen all of a sudden"],
+      "mnemonic_vi": "ALL + OF + A + SUDDEN (đột ngột) = tất cả đột ngột. All-of-a-sudden = bỗng nhiên."
+    },
+    {
+      "word": "sooner-or-later",
+      "lemma": "sooner or later",
+      "ipa": "/ˌsuːnər ɔː ˈleɪtə(r)/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "eventually; certainly at some future time, even if uncertain when",
+          "meaning_vi": "sớm hay muộn (cuối cùng cũng sẽ; chắc chắn sẽ xảy ra)",
+          "examples": [
+            {
+              "en": "Sooner or later, the truth will come out.",
+              "vi": "Sooner-or-later, sự thật sẽ lộ ra."
+            },
+            { "en": "We'll meet sooner or later.", "vi": "Ta sẽ gặp nhau sooner-or-later." },
+            {
+              "en": "Sooner or later, Vietnamese drivers must switch to EVs.",
+              "vi": "Sooner-or-later, tài xế Việt phải chuyển sang xe điện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["eventually"],
+      "antonyms": ["never"],
+      "collocations": ["sooner or later, ..."],
+      "mnemonic_vi": "SOONER (sớm) + OR + LATER (trễ) = sớm hay muộn. Sooner-or-later = rốt cuộc."
+    },
+    {
+      "word": "from-now-on",
+      "lemma": "from now on",
+      "ipa": "/frəm ˈnaʊ ɒn/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "starting from this moment and continuing in the future",
+          "meaning_vi": "từ giờ trở đi (bắt đầu từ khoảnh khắc này, tiếp tục về sau)",
+          "examples": [
+            {
+              "en": "From now on, I'll exercise every morning.",
+              "vi": "From-now-on, tôi sẽ tập mỗi sáng."
+            },
+            {
+              "en": "From now on, all meetings will be virtual.",
+              "vi": "From-now-on, mọi cuộc họp sẽ là ảo."
+            },
+            {
+              "en": "From now on, Vietnamese students must learn coding from grade 6.",
+              "vi": "From-now-on, học sinh Việt phải học code từ lớp 6."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["henceforth"],
+      "antonyms": [],
+      "collocations": ["from now on, ..."],
+      "mnemonic_vi": "FROM + NOW + ON = từ bây giờ trở đi. From-now-on = từ giờ về sau."
+    },
+    {
+      "word": "in-advance",
+      "lemma": "in advance",
+      "ipa": "/ɪn ədˈvɑːns/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "before a particular time or event; ahead of time",
+          "meaning_vi": "trước (trước thời điểm/sự kiện cụ thể)",
+          "examples": [
+            { "en": "Book your tickets a month in advance.", "vi": "Đặt vé một tháng in-advance." },
+            {
+              "en": "Pay in advance to avoid the queue.",
+              "vi": "Trả in-advance để khỏi xếp hàng."
+            },
+            {
+              "en": "Vietnamese families plan Tết travel weeks in advance.",
+              "vi": "Gia đình Việt lên kế hoạch về Tết nhiều tuần in-advance."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beforehand", "ahead"],
+      "antonyms": ["afterwards"],
+      "collocations": ["book in advance", "pay in advance", "well in advance"],
+      "mnemonic_vi": "IN + ADVANCE (trước) = trước. In-advance = đặt/làm trước thời điểm."
+    },
+    {
+      "word": "in-the-meantime",
+      "lemma": "in the meantime",
+      "ipa": "/ɪn ðə ˈmiːntaɪm/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "during the time between two events or until something else happens",
+          "meaning_vi": "trong khi đó (giữa 2 sự kiện hoặc đến khi điều khác xảy ra)",
+          "examples": [
+            {
+              "en": "The pizza will be ready in 20 minutes. In the meantime, let's chat.",
+              "vi": "Pizza sẽ xong trong 20 phút. In-the-meantime, ta nói chuyện."
+            },
+            {
+              "en": "She's looking for a job. In the meantime, she's freelancing.",
+              "vi": "Cô ấy đang tìm việc. In-the-meantime, cô làm freelance."
+            },
+            {
+              "en": "Vietnamese students wait for university results. In the meantime, they travel.",
+              "vi": "Học sinh Việt chờ kết quả đại học. In-the-meantime, các em đi du lịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meanwhile"],
+      "antonyms": [],
+      "collocations": ["in the meantime, ..."],
+      "mnemonic_vi": "IN + THE + MEANTIME (giữa thời gian) = trong khoảng thời gian giữa. In-the-meantime = trong khi đó."
+    },
+    {
+      "word": "for-now",
+      "lemma": "for now",
+      "ipa": "/fə ˈnaʊ/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "temporarily; for the present time but possibly changing later",
+          "meaning_vi": "tạm thời (hiện tại, có thể thay đổi sau)",
+          "examples": [
+            { "en": "For now, let's focus on the launch.", "vi": "For-now, tập trung vào ra mắt." },
+            { "en": "I'll stay with my parents for now.", "vi": "Tôi sẽ ở với cha mẹ for-now." },
+            {
+              "en": "For now, Vietnamese pho remains my favorite food.",
+              "vi": "For-now, phở Việt vẫn là món tôi yêu nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["temporarily"],
+      "antonyms": ["forever"],
+      "collocations": ["for now, ..."],
+      "mnemonic_vi": "FOR + NOW (giờ) = cho giờ này. For-now = tạm thời thôi."
+    },
+    {
+      "word": "for-ages",
+      "lemma": "for ages",
+      "ipa": "/fər ˈeɪdʒɪz/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(informal) for a very long time",
+          "meaning_vi": "lâu lắm rồi (informal: trong khoảng thời gian rất dài)",
+          "examples": [
+            { "en": "I haven't seen you for ages!", "vi": "Tôi không gặp bạn for-ages!" },
+            {
+              "en": "She's been working on this project for ages.",
+              "vi": "Cô ấy làm dự án này for-ages."
+            },
+            {
+              "en": "Vietnamese families have lived in this village for ages.",
+              "vi": "Gia đình Việt sống ở làng này for-ages."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forever", "for a long time"],
+      "antonyms": [],
+      "collocations": ["for ages and ages", "haven't done X for ages"],
+      "mnemonic_vi": "FOR + AGES (nhiều thời đại) = qua nhiều đời. For-ages = rất lâu rồi."
+    },
+    {
+      "word": "in-a-moment",
+      "lemma": "in a moment",
+      "ipa": "/ɪn ə ˈməʊmənt/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "very soon, in a very short time",
+          "meaning_vi": "trong khoảnh khắc, ngay tí nữa (rất sớm)",
+          "examples": [
+            { "en": "I'll be with you in a moment.", "vi": "Tôi sẽ tới chỗ bạn in-a-moment." },
+            {
+              "en": "The doctor will see you in a moment.",
+              "vi": "Bác sĩ sẽ khám bạn in-a-moment."
+            },
+            {
+              "en": "Vietnamese servers say 'một chút' meaning 'in a moment'.",
+              "vi": "Người phục vụ Việt nói 'một chút' nghĩa là in-a-moment."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shortly", "soon"],
+      "antonyms": ["later"],
+      "collocations": ["just a moment"],
+      "mnemonic_vi": "IN + A + MOMENT (khoảnh khắc) = trong khoảnh khắc. In-a-moment = sắp tới rồi."
+    },
+    {
+      "word": "just-in-case",
+      "lemma": "just in case",
+      "ipa": "/dʒʌst ɪn ˈkeɪs/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "as a precaution; in the event that something might happen",
+          "meaning_vi": "phòng khi (đề phòng; nếu chẳng may có chuyện)",
+          "examples": [
+            { "en": "Bring an umbrella just in case.", "vi": "Mang dù just-in-case." },
+            {
+              "en": "I'll save some money just in case.",
+              "vi": "Tôi sẽ tiết kiệm tiền just-in-case."
+            },
+            {
+              "en": "Vietnamese travelers carry passport copies just in case.",
+              "vi": "Người Việt đi du lịch mang bản sao hộ chiếu just-in-case."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["as a precaution"],
+      "antonyms": [],
+      "collocations": ["just in case it rains", "just in case anything happens"],
+      "mnemonic_vi": "JUST + IN + CASE (trường hợp) = chỉ trong trường hợp. Just-in-case = phòng khi."
+    },
+    {
+      "word": "on-the-spot",
+      "lemma": "on the spot",
+      "ipa": "/ɒn ðə ˈspɒt/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "immediately, at the place and time something happens; instantly",
+          "meaning_vi": "ngay tại chỗ, lập tức (tại nơi và lúc sự việc xảy ra)",
+          "examples": [
+            { "en": "She was fired on the spot.", "vi": "Cô ấy bị sa thải on-the-spot." },
+            { "en": "He paid on the spot in cash.", "vi": "Anh ấy trả on-the-spot bằng tiền mặt." },
+            {
+              "en": "Vietnamese police can issue on-the-spot fines for traffic violations.",
+              "vi": "Cảnh sát Việt có thể phạt on-the-spot cho vi phạm giao thông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["immediately", "instantly"],
+      "antonyms": [],
+      "collocations": ["on-the-spot fine", "decide on the spot", "hired on the spot"],
+      "mnemonic_vi": "ON + THE + SPOT (chỗ) = tại chỗ. On-the-spot = ngay tại nơi đó."
+    },
+    {
+      "word": "all-the-time",
+      "lemma": "all the time",
+      "ipa": "/ˌɔːl ðə ˈtaɪm/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "continuously, very often; throughout an entire period",
+          "meaning_vi": "luôn luôn, suốt thời gian (liên tục; xuyên suốt một giai đoạn)",
+          "examples": [
+            {
+              "en": "She checks her phone all the time.",
+              "vi": "Cô ấy xem điện thoại all-the-time."
+            },
+            {
+              "en": "It rained all the time during our vacation.",
+              "vi": "Mưa all-the-time trong kỳ nghỉ của ta."
+            },
+            {
+              "en": "Vietnamese mothers worry about their children all the time.",
+              "vi": "Mẹ Việt lo cho con all-the-time."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["constantly", "always"],
+      "antonyms": ["never"],
+      "collocations": ["all the time, every time"],
+      "mnemonic_vi": "ALL + THE + TIME (thời gian) = mọi thời gian. All-the-time = luôn luôn."
+    },
+    {
+      "word": "at-the-same-time",
+      "lemma": "at the same time",
+      "ipa": "/ət ðə ˌseɪm ˈtaɪm/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "simultaneously; during the same period of time; on the other hand (introducing a contrast)",
+          "meaning_vi": "cùng lúc, đồng thời (cùng thời điểm; mặt khác — giới thiệu đối lập)",
+          "examples": [
+            {
+              "en": "I can't do two things at the same time.",
+              "vi": "Tôi không thể làm hai việc at-the-same-time."
+            },
+            {
+              "en": "She's kind. At the same time, she's strict.",
+              "vi": "Cô ấy tốt bụng. At-the-same-time, cũng nghiêm."
+            },
+            {
+              "en": "Vietnamese tourists can shop and sightsee at the same time in Bến Thành.",
+              "vi": "Du khách Việt có thể mua sắm và tham quan at-the-same-time ở Bến Thành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["simultaneously"],
+      "antonyms": [],
+      "collocations": ["happen at the same time", "but at the same time"],
+      "mnemonic_vi": "AT + THE + SAME (cùng) + TIME (thời gian) = cùng thời gian. At-the-same-time = cùng lúc."
+    }
+  ]
+}
