@@ -1,0 +1,590 @@
+{
+  "slug": "phrasal-break-build",
+  "name": "Phrasal Verbs: Break & Build",
+  "description": "Phrasal verbs với BREAK, BUILD, BURN, BURST — 20 cụm cho phá vỡ, xây dựng, và nổ tung.",
+  "order_index": 17,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "break-down",
+      "lemma": "break down",
+      "ipa": "/ˌbreɪk ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "(of a vehicle or machine) to stop working; to lose emotional control; to analyze something into smaller parts",
+          "meaning_vi": "hỏng, suy sụp, phân tích (xe/máy hỏng; mất kiểm soát cảm xúc; chia nhỏ phân tích)",
+          "examples": [
+            { "en": "Our car broke down on the highway.", "vi": "Xe ta break-down trên cao tốc." },
+            {
+              "en": "She broke down crying when she heard the news.",
+              "vi": "Cô ấy break-down khóc khi nghe tin."
+            },
+            {
+              "en": "Let me break down the cost for you.",
+              "vi": "Để tôi break-down chi phí cho bạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fail", "collapse", "analyze"],
+      "antonyms": ["work", "stay strong"],
+      "collocations": ["car broke down", "break down crying", "break down the numbers"],
+      "mnemonic_vi": "BREAK (vỡ) + DOWN (xuống) = vỡ xuống. Break-down = hỏng, suy sụp, hoặc phân tích."
+    },
+    {
+      "word": "break-in",
+      "lemma": "break in",
+      "ipa": "/ˌbreɪk ˈɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to enter a building illegally; to interrupt a conversation; to break new shoes/equipment in gently",
+          "meaning_vi": "đột nhập, ngắt lời, tập làm quen (vào nhà trái phép; chen ngang nói; tập đi giày/dùng đồ mới)",
+          "examples": [
+            { "en": "Thieves broke in through the window.", "vi": "Trộm break-in qua cửa sổ." },
+            {
+              "en": "Sorry to break in, but the boss is calling.",
+              "vi": "Xin lỗi break-in, sếp đang gọi."
+            },
+            {
+              "en": "It takes time to break in new running shoes.",
+              "vi": "Cần thời gian để break-in giày chạy mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["burglarize", "interrupt"],
+      "antonyms": [],
+      "collocations": ["break in to a house", "break in to a conversation", "break in shoes"],
+      "mnemonic_vi": "BREAK (phá) + IN (vào) = phá vào. Break-in = đột nhập, ngắt lời."
+    },
+    {
+      "word": "break-up",
+      "lemma": "break up",
+      "ipa": "/ˌbreɪk ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to end a romantic relationship; to break into pieces; to disperse or scatter",
+          "meaning_vi": "chia tay, vỡ vụn (kết thúc tình yêu; vỡ thành mảnh; tan rã)",
+          "examples": [
+            {
+              "en": "They broke up after three years together.",
+              "vi": "Họ break-up sau 3 năm bên nhau."
+            },
+            { "en": "The ice broke up in spring.", "vi": "Băng break-up vào mùa xuân." },
+            {
+              "en": "Vietnamese couples often go viral when they break up publicly.",
+              "vi": "Cặp Việt thường viral khi break-up công khai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["split up", "shatter"],
+      "antonyms": ["get together"],
+      "collocations": ["break up with someone", "break up a fight", "break-up song"],
+      "mnemonic_vi": "BREAK (vỡ) + UP (lên) = vỡ tung. Break-up = chia tay, vỡ vụn."
+    },
+    {
+      "word": "break-out",
+      "lemma": "break out",
+      "ipa": "/ˌbreɪk ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to escape from confinement; to suddenly begin (war, fire, disease); to develop a skin condition like acne",
+          "meaning_vi": "thoát ra, bùng phát, nổi mụn (trốn khỏi; đột nhiên xảy ra chiến tranh/cháy/bệnh; bị mụn)",
+          "examples": [
+            {
+              "en": "Several prisoners broke out of the jail.",
+              "vi": "Vài tù nhân break-out khỏi nhà tù."
+            },
+            {
+              "en": "War broke out unexpectedly in 1939.",
+              "vi": "Chiến tranh break-out bất ngờ năm 1939."
+            },
+            {
+              "en": "Teenagers often break out before important events.",
+              "vi": "Tuổi teen thường break-out (nổi mụn) trước sự kiện quan trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["escape", "erupt"],
+      "antonyms": ["confine"],
+      "collocations": ["break out of prison", "war breaks out", "break out in spots"],
+      "mnemonic_vi": "BREAK (phá) + OUT (ra) = phá ra. Break-out = thoát ra, bùng phát."
+    },
+    {
+      "word": "break-off",
+      "lemma": "break off",
+      "ipa": "/ˌbreɪk ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to end a relationship, agreement, or discussion suddenly; to separate a piece from the whole",
+          "meaning_vi": "chấm dứt, bẻ rời (kết thúc đột ngột mối quan hệ/thoả thuận/đối thoại; tách mảnh rời)",
+          "examples": [
+            {
+              "en": "She broke off her engagement last month.",
+              "vi": "Cô ấy break-off đính hôn tháng trước."
+            },
+            {
+              "en": "Break off a piece of chocolate for me.",
+              "vi": "Break-off mảnh socola cho tôi."
+            },
+            {
+              "en": "Vietnam broke off diplomatic ties briefly with Khmer Rouge in 1978.",
+              "vi": "Việt Nam break-off quan hệ với Khmer Đỏ năm 1978."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["end", "snap off"],
+      "antonyms": ["continue"],
+      "collocations": ["break off relations", "break off engagement", "break off a piece"],
+      "mnemonic_vi": "BREAK (phá) + OFF (rời) = phá rời. Break-off = chấm dứt HOẶC bẻ rời."
+    },
+    {
+      "word": "build-up",
+      "lemma": "build up",
+      "ipa": "/ˌbɪld ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to gradually increase or accumulate (strength, business, traffic); to praise someone in advance",
+          "meaning_vi": "tích lũy, ca ngợi trước (tăng dần sức/doanh nghiệp/giao thông; khen ai trước khi gặp)",
+          "examples": [
+            {
+              "en": "Build up your savings before the trip.",
+              "vi": "Build-up tiền tiết kiệm trước chuyến đi."
+            },
+            {
+              "en": "Traffic builds up on Friday evenings in Saigon.",
+              "vi": "Giao thông build-up vào tối thứ Sáu ở Sài Gòn."
+            },
+            {
+              "en": "My friends had built her up so much before I met her.",
+              "vi": "Bạn bè đã build-up cô ấy nhiều trước khi tôi gặp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accumulate", "increase"],
+      "antonyms": ["reduce"],
+      "collocations": ["build up muscle", "build up traffic", "build up reputation"],
+      "mnemonic_vi": "BUILD (xây) + UP (lên) = xây lên. Build-up = tích lũy dần."
+    },
+    {
+      "word": "burn-down",
+      "lemma": "burn down",
+      "ipa": "/ˌbɜːn ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a building) to be destroyed completely by fire; (of a candle) to burn until almost gone",
+          "meaning_vi": "cháy rụi (toà nhà cháy hết; nến cháy gần hết)",
+          "examples": [
+            {
+              "en": "The old wooden temple burned down in 1965.",
+              "vi": "Ngôi chùa gỗ cũ burn-down năm 1965."
+            },
+            {
+              "en": "The candles burned down to stubs by morning.",
+              "vi": "Nến burn-down còn lại gốc vào buổi sáng."
+            },
+            {
+              "en": "Many Vietnamese homes have burned down due to bad wiring during Tết.",
+              "vi": "Nhiều nhà Việt burn-down do dây điện kém dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["incinerate"],
+      "antonyms": ["preserve"],
+      "collocations": ["burn down the house", "candles burn down", "completely burn down"],
+      "mnemonic_vi": "BURN (cháy) + DOWN (xuống) = cháy xuống. Burn-down = cháy rụi."
+    },
+    {
+      "word": "burst-into",
+      "lemma": "burst into",
+      "ipa": "/ˌbɜːst ˈɪntə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to enter a place suddenly and forcefully; to suddenly begin (tears, laughter, song, flames)",
+          "meaning_vi": "xông vào, đột nhiên (vào nhanh và mạnh; bỗng nhiên khóc/cười/hát/bốc cháy)",
+          "examples": [
+            {
+              "en": "She burst into the room without knocking.",
+              "vi": "Cô ấy burst-into phòng không gõ cửa."
+            },
+            { "en": "The baby burst into tears.", "vi": "Em bé burst-into khóc." },
+            {
+              "en": "The crowd burst into applause when the team scored.",
+              "vi": "Đám đông burst-into vỗ tay khi đội ghi bàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["suddenly start"],
+      "antonyms": [],
+      "collocations": ["burst into tears", "burst into the room", "burst into flames"],
+      "mnemonic_vi": "BURST (bùng nổ) + INTO (vào) = bùng vào. Burst-into = bùng nổ vào."
+    },
+    {
+      "word": "burst-out",
+      "lemma": "burst out",
+      "ipa": "/ˌbɜːst ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to say something suddenly and loudly; to begin doing something (crying, laughing) abruptly",
+          "meaning_vi": "thốt ra, bùng phát (đột nhiên nói lớn; bùng phát khóc/cười)",
+          "examples": [
+            {
+              "en": "He burst out laughing at the joke.",
+              "vi": "Anh ấy burst-out cười với câu đùa."
+            },
+            {
+              "en": "She burst out 'That's not fair!'",
+              "vi": "Cô ấy burst-out 'Không công bằng!'"
+            },
+            {
+              "en": "Vietnamese street singers can make crowds burst out singing along.",
+              "vi": "Ca sĩ đường phố Việt làm đám đông burst-out hát theo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exclaim", "erupt"],
+      "antonyms": ["hold back"],
+      "collocations": ["burst out laughing", "burst out crying", "burst out angrily"],
+      "mnemonic_vi": "BURST (bùng) + OUT (ra) = bùng ra. Burst-out = bùng phát ra."
+    },
+    {
+      "word": "back-up",
+      "lemma": "back up",
+      "ipa": "/ˌbæk ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to support someone or something; to save data as a duplicate; to move backwards",
+          "meaning_vi": "ủng hộ, sao lưu, lùi (hỗ trợ ai; lưu dữ liệu dự phòng; lùi xe)",
+          "examples": [
+            {
+              "en": "My team backed me up during the meeting.",
+              "vi": "Đội của tôi back-up tôi trong cuộc họp."
+            },
+            {
+              "en": "Always back up your important files.",
+              "vi": "Luôn back-up các tệp quan trọng."
+            },
+            {
+              "en": "Back up your car a little — there's a motorbike behind.",
+              "vi": "Back-up xe lùi một chút — có xe máy phía sau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["support", "duplicate"],
+      "antonyms": ["abandon"],
+      "collocations": ["back up the data", "back up a friend", "back up the car"],
+      "mnemonic_vi": "BACK (sau) + UP (lên) = đứng đằng sau. Back-up = ủng hộ HOẶC sao lưu HOẶC lùi xe."
+    },
+    {
+      "word": "base-on",
+      "lemma": "base on",
+      "ipa": "/ˌbeɪs ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to use something as the foundation or starting point for a decision, story, theory, or action",
+          "meaning_vi": "dựa trên (dùng làm nền tảng hoặc xuất phát điểm cho quyết định/câu chuyện/lý thuyết)",
+          "examples": [
+            { "en": "The movie is based on a true story.", "vi": "Phim base-on chuyện có thật." },
+            {
+              "en": "Decisions should be based on data, not gut feeling.",
+              "vi": "Quyết định nên base-on dữ liệu, không phải cảm tính."
+            },
+            {
+              "en": "Vietnamese language reform was based on the Latin alphabet.",
+              "vi": "Cải cách tiếng Việt base-on bảng chữ Latin."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["found on", "ground in"],
+      "antonyms": [],
+      "collocations": ["based on a true story", "based on evidence", "based on research"],
+      "mnemonic_vi": "BASE (nền) + ON (trên) = nền trên. Base-on = lấy làm nền tảng."
+    },
+    {
+      "word": "beat-up",
+      "lemma": "beat up",
+      "ipa": "/ˌbiːt ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hit someone repeatedly and badly; (adj) old and worn-out (a beat-up car)",
+          "meaning_vi": "đánh đập, cũ nát (đánh ai liên tục mạnh; tính từ: cũ tàn — xe beat-up)",
+          "examples": [
+            {
+              "en": "Three men beat up the victim in the alley.",
+              "vi": "Ba người beat-up nạn nhân trong hẻm."
+            },
+            {
+              "en": "He drives a beat-up old Honda.",
+              "vi": "Anh ấy lái một con Honda beat-up cũ."
+            },
+            {
+              "en": "Vietnamese police regularly catch gangs that beat up rivals.",
+              "vi": "Cảnh sát Việt thường bắt các nhóm beat-up đối thủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assault", "worn-out"],
+      "antonyms": ["protect", "brand-new"],
+      "collocations": ["beat up a victim", "beat-up car", "get beaten up"],
+      "mnemonic_vi": "BEAT (đánh) + UP (mạnh) = đánh mạnh. Beat-up = đánh đập HOẶC cũ tàn."
+    },
+    {
+      "word": "believe-in",
+      "lemma": "believe in",
+      "ipa": "/bɪˌliːv ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be sure that someone or something exists; to have faith or confidence in someone's abilities",
+          "meaning_vi": "tin vào, tin tưởng (tin ai/cái gì tồn tại; có niềm tin vào ai)",
+          "examples": [
+            { "en": "Do you believe in ghosts?", "vi": "Bạn believe-in ma không?" },
+            {
+              "en": "I believe in you — you can do this.",
+              "vi": "Tôi believe-in bạn — bạn làm được."
+            },
+            {
+              "en": "Vietnamese ancestral worship reflects belief in ancestors watching over family.",
+              "vi": "Thờ cúng tổ tiên Việt phản ánh believe-in tổ tiên trông coi gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["have faith in"],
+      "antonyms": ["doubt"],
+      "collocations": ["believe in yourself", "believe in God", "strongly believe in"],
+      "mnemonic_vi": "BELIEVE (tin) + IN (vào) = tin vào. Believe-in = tin vào ai/cái gì."
+    },
+    {
+      "word": "belong-to",
+      "lemma": "belong to",
+      "ipa": "/bɪˌlɒŋ ˈtə/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be owned by someone; to be a member of a group; to be in the correct place",
+          "meaning_vi": "thuộc về (sở hữu của ai; là thành viên của nhóm; ở đúng chỗ)",
+          "examples": [
+            { "en": "This phone belongs to my sister.", "vi": "Điện thoại này belong-to chị tôi." },
+            {
+              "en": "She belongs to several professional networks.",
+              "vi": "Cô ấy belong-to nhiều mạng lưới chuyên nghiệp."
+            },
+            {
+              "en": "Vietnamese traditional clothes belong to special occasions like Tết.",
+              "vi": "Áo dài truyền thống Việt belong-to dịp đặc biệt như Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["be owned by"],
+      "antonyms": [],
+      "collocations": ["belong to a club", "this belongs to me", "where do you belong"],
+      "mnemonic_vi": "BELONG (thuộc) + TO (về) = thuộc về. Belong-to = sở hữu/là thành viên."
+    },
+    {
+      "word": "blow-up",
+      "lemma": "blow up",
+      "ipa": "/ˌbləʊ ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to explode or destroy by explosion; to inflate with air; to become very angry suddenly",
+          "meaning_vi": "nổ tung, bơm phồng, nổi giận (làm nổ; bơm khí; tức điên đột ngột)",
+          "examples": [
+            {
+              "en": "Terrorists tried to blow up the building.",
+              "vi": "Khủng bố cố blow-up toà nhà."
+            },
+            {
+              "en": "Blow up the balloons before the party.",
+              "vi": "Blow-up bóng bay trước tiệc."
+            },
+            {
+              "en": "My boss blew up when he saw the mistake.",
+              "vi": "Sếp tôi blow-up khi thấy lỗi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["explode", "inflate", "rage"],
+      "antonyms": ["deflate", "calm down"],
+      "collocations": ["blow up balloons", "blow up in anger", "blow up the bridge"],
+      "mnemonic_vi": "BLOW (thổi) + UP (lên) = thổi tung lên. Blow-up = nổ, bơm phồng, hoặc nổi giận."
+    },
+    {
+      "word": "blow-out",
+      "lemma": "blow out",
+      "ipa": "/ˌbləʊ ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to extinguish a flame by blowing; (of a tire) to burst suddenly; to defeat decisively in sports",
+          "meaning_vi": "thổi tắt, nổ lốp, thắng cách biệt (thổi cho lửa tắt; lốp xe nổ bất ngờ; thắng đậm)",
+          "examples": [
+            {
+              "en": "Blow out the birthday candles before making a wish.",
+              "vi": "Blow-out nến sinh nhật trước khi ước."
+            },
+            { "en": "Our tire blew out on the highway.", "vi": "Lốp xe ta blow-out trên cao tốc." },
+            {
+              "en": "The Vietnamese team blew out their rivals 5-0.",
+              "vi": "Đội Việt blow-out đối thủ 5-0."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extinguish", "burst"],
+      "antonyms": ["light"],
+      "collocations": ["blow out candles", "tire blowout", "blow out the competition"],
+      "mnemonic_vi": "BLOW (thổi) + OUT (ra) = thổi ra. Blow-out = thổi tắt, nổ lốp, thắng đậm."
+    },
+    {
+      "word": "breathe-in",
+      "lemma": "breathe in",
+      "ipa": "/ˌbriːð ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to take air into the lungs through the nose or mouth",
+          "meaning_vi": "hít vào (lấy không khí vào phổi qua mũi/miệng)",
+          "examples": [
+            { "en": "Breathe in slowly through your nose.", "vi": "Breathe-in chậm qua mũi." },
+            { "en": "Don't breathe in the smoke!", "vi": "Đừng breathe-in khói!" },
+            {
+              "en": "Vietnamese tai chi classes emphasize breathing in fresh air.",
+              "vi": "Lớp thái cực quyền Việt nhấn mạnh breathe-in không khí trong lành."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["inhale"],
+      "antonyms": ["breathe out"],
+      "collocations": ["breathe in deeply", "breathe in fresh air"],
+      "mnemonic_vi": "BREATHE (thở) + IN (vào) = thở vào. Breathe-in = hít vào."
+    },
+    {
+      "word": "breathe-out",
+      "lemma": "breathe out",
+      "ipa": "/ˌbriːð ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to expel air from the lungs through the nose or mouth",
+          "meaning_vi": "thở ra (đẩy không khí khỏi phổi qua mũi/miệng)",
+          "examples": [
+            { "en": "Breathe out and relax your shoulders.", "vi": "Breathe-out và thả lỏng vai." },
+            { "en": "Yoga teaches you to breathe out slowly.", "vi": "Yoga dạy breathe-out chậm." },
+            {
+              "en": "Many Vietnamese smokers struggle to breathe out without coughing.",
+              "vi": "Nhiều người Việt hút thuốc vật lộn để breathe-out mà không ho."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exhale"],
+      "antonyms": ["breathe in"],
+      "collocations": ["breathe out slowly", "breathe out deeply"],
+      "mnemonic_vi": "BREATHE (thở) + OUT (ra) = thở ra. Breathe-out = thở ra (xả khí)."
+    },
+    {
+      "word": "bend-down",
+      "lemma": "bend down",
+      "ipa": "/ˌbend ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to lower the upper body by curving the back and waist toward the ground",
+          "meaning_vi": "cúi xuống (hạ phần trên cơ thể bằng cách cong lưng/eo xuống)",
+          "examples": [
+            { "en": "Bend down and pick up the coin.", "vi": "Bend-down và nhặt đồng xu." },
+            {
+              "en": "Don't bend down too quickly — you might pull a muscle.",
+              "vi": "Đừng bend-down quá nhanh — có thể đau cơ."
+            },
+            {
+              "en": "Vietnamese children bend down to greet elders respectfully.",
+              "vi": "Trẻ em Việt bend-down chào người lớn tỏ ý kính trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stoop", "lean down"],
+      "antonyms": ["stand up"],
+      "collocations": ["bend down quickly", "bend down to pick up", "carefully bend down"],
+      "mnemonic_vi": "BEND (cong) + DOWN (xuống) = cong xuống. Bend-down = cúi xuống."
+    },
+    {
+      "word": "back-down",
+      "lemma": "back down",
+      "ipa": "/ˌbæk ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to withdraw from a position, claim, or argument, often after pressure or realization",
+          "meaning_vi": "rút lui, nhượng bộ (rút khỏi lập trường/đòi hỏi/tranh luận, thường sau áp lực hoặc nhận ra)",
+          "examples": [
+            {
+              "en": "She refused to back down from her position.",
+              "vi": "Cô ấy từ chối back-down lập trường."
+            },
+            {
+              "en": "The government finally backed down after public protests.",
+              "vi": "Chính phủ cuối cùng back-down sau biểu tình."
+            },
+            {
+              "en": "Vietnamese negotiators rarely back down on key principles.",
+              "vi": "Đàm phán viên Việt hiếm khi back-down nguyên tắc chính."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["retreat", "concede"],
+      "antonyms": ["stand firm"],
+      "collocations": ["back down from a fight", "refuse to back down", "back down gracefully"],
+      "mnemonic_vi": "BACK (sau) + DOWN (xuống) = lùi xuống. Back-down = rút lui, nhượng bộ."
+    }
+  ]
+}
