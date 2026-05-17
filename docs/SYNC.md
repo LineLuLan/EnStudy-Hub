@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `fdb67e8`               | base                   | 2026-05-17 (`fdb67e8`) | P10c B2 — 5 lessons / 100 cards merged (P10 15/25)        |
-| be     | `2843b9e`               | 2026-05-17 (`069a42c`) | 2026-05-17 (`2843b9e`) | P10c B2 content commit on be (lint-staged prettier ran)   |
-| fe     | `13ab12b`               | 2026-05-17 (`13ab12b`) | —                      | P10b docs sync — pending P10c sync sau docs commit dev    |
+| dev    | `f967e39`               | base                   | 2026-05-17 (`f967e39`) | P10d B2 — 5 lessons / 100 cards merged (P10 20/25)        |
+| be     | `87e2d73`               | 2026-05-17 (`bdc6ef2`) | 2026-05-17 (`87e2d73`) | P10d B2 content commit on be (lint-staged prettier ran)   |
+| fe     | `05de2dc`               | 2026-05-17 (`05de2dc`) | —                      | P10c sync — pending P10d sync sau docs commit dev         |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
