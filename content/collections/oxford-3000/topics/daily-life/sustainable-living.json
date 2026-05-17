@@ -1,0 +1,664 @@
+{
+  "slug": "sustainable-living",
+  "name": "Sustainable Living",
+  "description": "Lối sống bền vững B2 — minimalism, decluttering, carbon-footprint, upcycle và 20 thuật ngữ cho người tiêu dùng có ý thức.",
+  "order_index": 23,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "minimalism",
+      "lemma": "minimalism",
+      "ipa": "/ˈmɪnɪməlɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a lifestyle or design philosophy that values simplicity and owning only what is necessary",
+          "meaning_vi": "lối sống tối giản (triết lý sống chỉ giữ những gì thực sự cần, ưa đơn giản)",
+          "examples": [
+            {
+              "en": "Marie Kondo's books made minimalism a global phenomenon in the 2010s.",
+              "vi": "Sách của Marie Kondo biến minimalism thành hiện tượng toàn cầu thập niên 2010."
+            },
+            {
+              "en": "Young Vietnamese in big cities are embracing minimalism to escape clutter and stress.",
+              "vi": "Người Việt trẻ ở thành phố lớn đang đón nhận minimalism để thoát khỏi bừa bộn và căng thẳng."
+            },
+            {
+              "en": "Minimalism in interior design often features neutral colors and uncluttered spaces.",
+              "vi": "Minimalism trong nội thất thường có màu trung tính và không gian gọn gàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["simple living"],
+      "antonyms": ["maximalism", "consumerism"],
+      "collocations": [
+        "embrace minimalism",
+        "digital minimalism",
+        "minimalism lifestyle",
+        "Japanese minimalism"
+      ],
+      "etymology_hint": "From Latin 'minimus' (smallest) + '-ism' — a philosophy of 'smallest amount needed'.",
+      "mnemonic_vi": "MINIMAL (tối thiểu) + ISM = chủ nghĩa tối thiểu. Sống tối giản = chỉ giữ thứ cần."
+    },
+    {
+      "word": "decluttering",
+      "lemma": "declutter",
+      "ipa": "/ˌdiːˈklʌtərɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of removing unnecessary items from a space to make it cleaner and more organized",
+          "meaning_vi": "việc dọn bớt đồ thừa (loại bỏ vật không cần để không gian gọn hơn)",
+          "examples": [
+            {
+              "en": "Weekend decluttering can dramatically improve how a small apartment feels.",
+              "vi": "Decluttering cuối tuần có thể cải thiện rõ rệt cảm giác của một căn hộ nhỏ."
+            },
+            {
+              "en": "Digital decluttering — deleting old emails and apps — is just as important as physical decluttering.",
+              "vi": "Decluttering kỹ thuật số — xóa email và app cũ — cũng quan trọng như decluttering vật chất."
+            },
+            {
+              "en": "Saigon's narrow tube houses benefit enormously from regular decluttering.",
+              "vi": "Nhà ống hẹp Sài Gòn hưởng lợi lớn từ decluttering thường xuyên."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tidying", "clearing out"],
+      "antonyms": ["hoarding"],
+      "collocations": ["digital decluttering", "decluttering process", "weekend decluttering"],
+      "mnemonic_vi": "DE (gỡ) + CLUTTER (lộn xộn) + ING = gỡ lộn xộn. Decluttering = dọn bớt đồ thừa."
+    },
+    {
+      "word": "carbon-footprint",
+      "lemma": "carbon-footprint",
+      "ipa": "/ˌkɑːbən ˈfʊtprɪnt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the total amount of greenhouse gases produced directly or indirectly by an individual, organization, product, or event",
+          "meaning_vi": "dấu chân carbon (tổng lượng khí nhà kính một cá nhân/tổ chức/sản phẩm sinh ra)",
+          "examples": [
+            {
+              "en": "Flying is one of the largest contributors to a personal carbon footprint.",
+              "vi": "Đi máy bay là một trong các nguồn lớn nhất của carbon-footprint cá nhân."
+            },
+            {
+              "en": "Switching from beef to chicken can cut your food carbon footprint by half.",
+              "vi": "Chuyển từ bò sang gà có thể cắt một nửa carbon-footprint từ đồ ăn."
+            },
+            {
+              "en": "Vietnamese cities are starting to measure citizen carbon footprints in public campaigns.",
+              "vi": "Các thành phố Việt bắt đầu đo carbon-footprint công dân qua các chiến dịch công khai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["carbon emissions", "CO2 footprint"],
+      "antonyms": [],
+      "collocations": [
+        "reduce carbon footprint",
+        "personal carbon footprint",
+        "calculate carbon footprint",
+        "carbon footprint label"
+      ],
+      "mnemonic_vi": "CARBON (khí thải) + FOOTPRINT (dấu chân) = dấu chân khí thải. Bạn để lại bao nhiêu CO2 trên Trái Đất."
+    },
+    {
+      "word": "upcycle",
+      "lemma": "upcycle",
+      "ipa": "/ˈʌpˌsaɪkl/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to transform discarded or unwanted items into something of higher quality, value, or use",
+          "meaning_vi": "tái chế nâng cấp (biến đồ bỏ đi thành thứ có giá trị cao hơn)",
+          "examples": [
+            {
+              "en": "She upcycles old glass jars into hanging lamps for her café.",
+              "vi": "Cô ấy upcycle lọ thủy tinh cũ thành đèn treo cho quán cà phê."
+            },
+            {
+              "en": "Upcycling differs from recycling: it adds value rather than breaking material down.",
+              "vi": "Upcycle khác recycling: nó thêm giá trị thay vì phân giải vật liệu."
+            },
+            {
+              "en": "Vietnamese designers upcycle traditional áo dài fabric into modern jackets.",
+              "vi": "Nhà thiết kế Việt upcycle vải áo dài truyền thống thành áo khoác hiện đại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["repurpose"],
+      "antonyms": ["downcycle", "discard"],
+      "collocations": ["upcycle furniture", "upcycle clothing", "creative upcycle"],
+      "mnemonic_vi": "UP (lên) + CYCLE (chu trình) = chu trình đi LÊN giá trị (không như recycle chỉ tái sử dụng)."
+    },
+    {
+      "word": "secondhand",
+      "lemma": "secondhand",
+      "ipa": "/ˌsekəndˈhænd/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "previously owned or used by someone else before being sold or given again",
+          "meaning_vi": "đã qua sử dụng (đồ cũ đã có chủ trước khi được bán lại)",
+          "examples": [
+            {
+              "en": "Buying secondhand clothes reduces both waste and your shopping budget.",
+              "vi": "Mua đồ secondhand giúp giảm cả rác thải lẫn ngân sách mua sắm."
+            },
+            {
+              "en": "Tokyo's secondhand bookshops are famous tourist destinations themselves.",
+              "vi": "Hiệu sách secondhand ở Tokyo nổi tiếng là điểm đến du lịch."
+            },
+            {
+              "en": "Vietnamese 'hàng si' shops sell secondhand brand-name clothing imported from Japan and Korea.",
+              "vi": "Cửa hàng 'hàng si' Việt bán đồ secondhand hàng hiệu nhập từ Nhật và Hàn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["used", "pre-owned"],
+      "antonyms": ["brand-new", "first-hand"],
+      "collocations": ["secondhand clothes", "secondhand shop", "buy secondhand"],
+      "mnemonic_vi": "SECOND (thứ hai) + HAND (tay) = qua tay thứ hai = đã có chủ trước. Secondhand = đồ cũ."
+    },
+    {
+      "word": "reusable",
+      "lemma": "reusable",
+      "ipa": "/riːˈjuːzəbl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "able to be used more than once, often as an alternative to single-use disposable items",
+          "meaning_vi": "có thể dùng lại nhiều lần (thay cho đồ dùng một lần)",
+          "examples": [
+            {
+              "en": "A reusable water bottle can replace hundreds of plastic bottles each year.",
+              "vi": "Một bình nước reusable có thể thay hàng trăm chai nhựa mỗi năm."
+            },
+            {
+              "en": "Bring a reusable shopping bag to the market instead of accepting plastic ones.",
+              "vi": "Mang theo túi reusable đi chợ thay vì nhận túi nylon."
+            },
+            {
+              "en": "Cafés in Hanoi now offer discounts for customers who bring reusable cups.",
+              "vi": "Quán cà phê ở Hà Nội giờ giảm giá cho khách mang cốc reusable."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["multi-use"],
+      "antonyms": ["disposable", "single-use"],
+      "collocations": ["reusable bag", "reusable bottle", "reusable container"],
+      "mnemonic_vi": "RE (lại) + USABLE (dùng được) = dùng lại được. Reusable = dùng nhiều lần."
+    },
+    {
+      "word": "veganism",
+      "lemma": "veganism",
+      "ipa": "/ˈviːɡənɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of not eating or using any animal products, including meat, dairy, eggs, leather, and wool",
+          "meaning_vi": "chủ nghĩa thuần chay (không ăn/dùng bất kỳ sản phẩm từ động vật)",
+          "examples": [
+            {
+              "en": "Veganism has grown rapidly among young people for ethical and environmental reasons.",
+              "vi": "Veganism phát triển nhanh trong giới trẻ vì lý do đạo đức và môi trường."
+            },
+            {
+              "en": "Vietnamese Buddhist cuisine offers easy entry points into veganism for beginners.",
+              "vi": "Ẩm thực chay Phật giáo Việt là điểm vào dễ với veganism cho người mới."
+            },
+            {
+              "en": "Strict veganism requires reading every label carefully for hidden animal ingredients.",
+              "vi": "Veganism nghiêm ngặt đòi hỏi đọc kỹ mọi nhãn để tìm thành phần động vật ẩn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["plant-based diet (loose)"],
+      "antonyms": ["carnivory", "omnivory"],
+      "collocations": [
+        "embrace veganism",
+        "strict veganism",
+        "ethical veganism",
+        "rise of veganism"
+      ],
+      "etymology_hint": "Coined 1944 by Donald Watson from 'vegetarian' — the 'first three letters and the last two', meaning a strict vegetarian.",
+      "mnemonic_vi": "VEGAN (thuần chay) + ISM = chủ nghĩa thuần chay. Donald Watson ghép VEG-AN từ VEGetariAN (1944)."
+    },
+    {
+      "word": "ethical-consumption",
+      "lemma": "ethical-consumption",
+      "ipa": "/ˌeθɪkl kənˈsʌmpʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of buying products and services produced with regard for environmental, social, and labor standards",
+          "meaning_vi": "tiêu dùng có đạo đức (mua sản phẩm/dịch vụ chú trọng môi trường, xã hội, lao động)",
+          "examples": [
+            {
+              "en": "Ethical consumption pressures brands to disclose their supply-chain practices.",
+              "vi": "Ethical-consumption gây áp lực buộc thương hiệu công khai chuỗi cung ứng."
+            },
+            {
+              "en": "Critics argue ethical consumption is a privilege only the middle class can afford.",
+              "vi": "Người chỉ trích lập luận ethical-consumption là đặc quyền chỉ trung lưu mới gánh được."
+            },
+            {
+              "en": "Vietnamese consumers are slowly adopting ethical consumption habits when buying coffee and seafood.",
+              "vi": "Người tiêu dùng Việt đang dần áp dụng thói quen ethical-consumption khi mua cà phê và hải sản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conscious consumerism"],
+      "antonyms": ["mindless consumerism"],
+      "collocations": [
+        "ethical-consumption movement",
+        "practice ethical consumption",
+        "ethical consumption choices"
+      ],
+      "mnemonic_vi": "ETHICAL (đạo đức) + CONSUMPTION (tiêu dùng) = tiêu dùng có đạo đức. Ghép từ là rõ."
+    },
+    {
+      "word": "fast-fashion",
+      "lemma": "fast-fashion",
+      "ipa": "/ˌfɑːst ˈfæʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "inexpensive clothing produced rapidly by mass-market retailers in response to the latest trends, often with environmental and labor concerns",
+          "meaning_vi": "thời trang nhanh (quần áo giá rẻ sản xuất nhanh theo mốt, gây hại môi trường/lao động)",
+          "examples": [
+            {
+              "en": "Zara and H&M built empires on the fast-fashion business model.",
+              "vi": "Zara và H&M xây đế chế trên mô hình fast-fashion."
+            },
+            {
+              "en": "Fast fashion encourages buying clothes you wear only two or three times.",
+              "vi": "Fast-fashion khuyến khích mua quần áo bạn chỉ mặc hai ba lần."
+            },
+            {
+              "en": "Vietnamese garment factories supply much of the world's fast-fashion brands.",
+              "vi": "Nhà máy may Việt cung ứng phần lớn cho các thương hiệu fast-fashion thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disposable fashion", "throwaway fashion"],
+      "antonyms": ["slow-fashion"],
+      "collocations": ["fast-fashion brand", "fast-fashion industry", "boycott fast fashion"],
+      "mnemonic_vi": "FAST (nhanh) + FASHION (thời trang) = thời trang nhanh. Cho thấy ngay vấn đề: nhanh = thải nhiều."
+    },
+    {
+      "word": "slow-fashion",
+      "lemma": "slow-fashion",
+      "ipa": "/ˌsləʊ ˈfæʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an approach to clothing that emphasizes quality, longevity, ethical labor, and sustainable materials over rapid trend cycles",
+          "meaning_vi": "thời trang chậm (chú trọng chất lượng, độ bền, lao động đạo đức, vật liệu bền vững)",
+          "examples": [
+            {
+              "en": "Slow fashion encourages buying fewer pieces but wearing them for years.",
+              "vi": "Slow-fashion khuyến khích mua ít món hơn nhưng mặc nhiều năm."
+            },
+            {
+              "en": "Independent Vietnamese designers are leading a slow-fashion revival with handwoven fabric.",
+              "vi": "Các nhà thiết kế Việt độc lập đang dẫn dắt phục hồi slow-fashion với vải dệt tay."
+            },
+            {
+              "en": "Slow fashion brands often cost more upfront but save money long-term.",
+              "vi": "Thương hiệu slow-fashion thường đắt ban đầu nhưng tiết kiệm về dài hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ethical fashion", "sustainable fashion"],
+      "antonyms": ["fast-fashion"],
+      "collocations": ["slow-fashion movement", "slow-fashion brand", "slow-fashion principles"],
+      "mnemonic_vi": "SLOW (chậm) + FASHION = thời trang chậm. Đối nghịch fast-fashion. Mặc lâu, chất lượng cao."
+    },
+    {
+      "word": "thrift",
+      "lemma": "thrift",
+      "ipa": "/θrɪft/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "careful management of money and resources to avoid waste, often involving buying inexpensive secondhand goods",
+          "meaning_vi": "tính tiết kiệm, đời sống tiết kiệm (quản lý tiền và đồ dùng cẩn thận, thường mua đồ cũ)",
+          "examples": [
+            {
+              "en": "Her grandmother taught her the value of thrift during the post-war years.",
+              "vi": "Bà ngoại dạy cô ấy giá trị của thrift trong những năm hậu chiến."
+            },
+            {
+              "en": "Thrift shopping has become trendy among Gen Z searching for unique pieces.",
+              "vi": "Thrift shopping trở nên hợp mốt với Gen Z săn lùng món đồ độc đáo."
+            },
+            {
+              "en": "Vietnamese parents who lived through the bao cấp era still practice strict thrift today.",
+              "vi": "Cha mẹ Việt sống qua thời bao cấp vẫn thực hành thrift nghiêm ngặt đến nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["frugality", "economy"],
+      "antonyms": ["extravagance", "waste"],
+      "collocations": ["thrift shop", "thrift store", "practice thrift", "thrift shopping"],
+      "etymology_hint": "From Old Norse 'þrift' (prosperity) — originally meant thriving, then shifted to careful saving as the way to thrive.",
+      "mnemonic_vi": "THRIFT từ 'thrive' (phát đạt) — người 'thrive' ngày xưa = người biết tiết kiệm. Thrift = tiết kiệm."
+    },
+    {
+      "word": "refill",
+      "lemma": "refill",
+      "ipa": "/ˌriːˈfɪl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a replacement amount of a product, such as shampoo, soap, or coffee, that allows you to reuse the original container",
+          "meaning_vi": "phần thay thế (lượng sản phẩm dùng cho lần tiếp theo trong cùng vỏ chứa)",
+          "examples": [
+            {
+              "en": "Buying refills instead of new bottles cuts plastic waste by up to 80%.",
+              "vi": "Mua refill thay vì chai mới cắt rác nhựa đến 80%."
+            },
+            {
+              "en": "Some Saigon shops now offer bulk refill stations for detergent and shampoo.",
+              "vi": "Một số cửa hàng ở Sài Gòn giờ có refill số lượng lớn cho nước giặt và dầu gội."
+            },
+            {
+              "en": "Free coffee refills are common in American diners but rare in Vietnam.",
+              "vi": "Refill cà phê miễn phí phổ biến ở quán Mỹ nhưng hiếm ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["top-up", "replenishment"],
+      "antonyms": [],
+      "collocations": ["refill station", "refill pack", "free refill"],
+      "mnemonic_vi": "RE (lại) + FILL (đổ đầy) = đổ đầy lại. Refill = lần thay tiếp theo trong cùng vỏ."
+    },
+    {
+      "word": "capsule-wardrobe",
+      "lemma": "capsule-wardrobe",
+      "ipa": "/ˈkæpsjuːl ˌwɔːdrəʊb/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a small collection of versatile clothing items that can be mixed and matched to create many outfits",
+          "meaning_vi": "tủ đồ tinh giản (bộ sưu tập quần áo nhỏ, đa năng, dễ phối)",
+          "examples": [
+            {
+              "en": "A 30-piece capsule wardrobe can carry you through every season of the year.",
+              "vi": "Capsule-wardrobe 30 món có thể đủ cho cả bốn mùa trong năm."
+            },
+            {
+              "en": "Building a capsule wardrobe forces you to question every purchase.",
+              "vi": "Xây capsule-wardrobe buộc bạn phải tự hỏi về mỗi lần mua."
+            },
+            {
+              "en": "Hanoi influencers often share capsule-wardrobe lookbooks for tropical climates.",
+              "vi": "Các influencer Hà Nội thường chia sẻ lookbook capsule-wardrobe cho khí hậu nhiệt đới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["minimalist wardrobe"],
+      "antonyms": ["overflowing closet"],
+      "collocations": [
+        "build a capsule wardrobe",
+        "capsule wardrobe essentials",
+        "seasonal capsule wardrobe"
+      ],
+      "mnemonic_vi": "CAPSULE (viên nang nhỏ gọn) + WARDROBE (tủ) = tủ đồ nhỏ gọn. Mặc cả tuần với ít đồ thôi."
+    },
+    {
+      "word": "meal-prep",
+      "lemma": "meal-prep",
+      "ipa": "/ˈmiːl prep/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of preparing meals or meal components in advance, often for the week, to save time, money, and food waste",
+          "meaning_vi": "chuẩn bị bữa ăn trước (nấu sẵn cho cả tuần để tiết kiệm thời gian, tiền và giảm lãng phí)",
+          "examples": [
+            {
+              "en": "Sunday meal prep saves her 5 hours of cooking during the busy workweek.",
+              "vi": "Meal-prep chủ nhật giúp cô ấy tiết kiệm 5 giờ nấu nướng trong tuần làm việc bận."
+            },
+            {
+              "en": "Meal prep dramatically reduces takeaway orders and household food waste.",
+              "vi": "Meal-prep giảm mạnh đơn đặt đồ ăn ngoài và rác thực phẩm trong nhà."
+            },
+            {
+              "en": "Vietnamese cơm văn phòng meal-prep often includes rice, fish, and pickled vegetables.",
+              "vi": "Meal-prep cơm văn phòng Việt thường có cơm, cá và rau ngâm chua."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["batch cooking"],
+      "antonyms": [],
+      "collocations": ["Sunday meal prep", "weekly meal prep", "meal prep containers"],
+      "mnemonic_vi": "MEAL (bữa ăn) + PREP (chuẩn bị) = chuẩn bị sẵn bữa ăn. Ghép từ rõ luôn."
+    },
+    {
+      "word": "staycation",
+      "lemma": "staycation",
+      "ipa": "/steɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a vacation spent at home or nearby instead of traveling far, often to save money and reduce environmental impact",
+          "meaning_vi": "kỳ nghỉ tại chỗ (nghỉ ở nhà hoặc gần nhà, không đi xa, tiết kiệm và ít gây hại môi trường)",
+          "examples": [
+            {
+              "en": "She chose a staycation in Da Nang instead of flying to Thailand this summer.",
+              "vi": "Cô ấy chọn staycation ở Đà Nẵng thay vì bay sang Thái Lan hè này."
+            },
+            {
+              "en": "Staycations boomed during the pandemic when international travel was restricted.",
+              "vi": "Staycation bùng nổ trong đại dịch khi du lịch quốc tế bị hạn chế."
+            },
+            {
+              "en": "A staycation can be as relaxing as a tropical resort if you really unplug.",
+              "vi": "Một staycation có thể thư giãn như resort nhiệt đới nếu bạn thực sự ngắt kết nối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["home vacation"],
+      "antonyms": ["trip abroad"],
+      "collocations": ["weekend staycation", "luxury staycation", "plan a staycation"],
+      "mnemonic_vi": "STAY (ở lại) + VACATION (kỳ nghỉ) = STAYCATION = nghỉ tại chỗ. Portmanteau từ ghép hay."
+    },
+    {
+      "word": "carbon-neutral",
+      "lemma": "carbon-neutral",
+      "ipa": "/ˌkɑːbən ˈnjuːtrəl/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "achieving net zero carbon emissions by balancing the amount of carbon released with the amount removed from the atmosphere",
+          "meaning_vi": "trung hòa carbon (cân bằng lượng CO2 thải ra và lượng được hấp thụ/loại bỏ)",
+          "examples": [
+            {
+              "en": "Apple aims to make its entire supply chain carbon-neutral by 2030.",
+              "vi": "Apple đặt mục tiêu carbon-neutral toàn bộ chuỗi cung ứng vào 2030."
+            },
+            {
+              "en": "Becoming carbon-neutral requires both reducing emissions and offsetting the rest.",
+              "vi": "Trở thành carbon-neutral đòi hỏi cả giảm phát thải lẫn bù trừ phần còn lại."
+            },
+            {
+              "en": "Vietnam pledged to be carbon-neutral by 2050 at the Glasgow climate summit.",
+              "vi": "Việt Nam cam kết carbon-neutral vào 2050 tại hội nghị khí hậu Glasgow."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["net-zero", "climate-neutral"],
+      "antonyms": ["carbon-intensive"],
+      "collocations": ["carbon-neutral company", "carbon-neutral pledge", "go carbon-neutral"],
+      "mnemonic_vi": "CARBON (khí thải) + NEUTRAL (trung hòa) = trung hòa khí thải. Bù trừ đầy đủ = 0."
+    },
+    {
+      "word": "locally-sourced",
+      "lemma": "locally-sourced",
+      "ipa": "/ˌləʊkəli ˈsɔːst/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "produced or obtained from nearby producers, often within the same region or country, reducing transport emissions",
+          "meaning_vi": "có nguồn gốc địa phương (sản phẩm từ nhà sản xuất gần đó, giảm phát thải vận chuyển)",
+          "examples": [
+            {
+              "en": "The restaurant features locally-sourced vegetables from farms within 50 kilometers.",
+              "vi": "Nhà hàng có rau locally-sourced từ trang trại trong vòng 50 km."
+            },
+            {
+              "en": "Locally-sourced coffee in Da Lat tastes fresher than imported beans roasted abroad.",
+              "vi": "Cà phê locally-sourced ở Đà Lạt thơm hơn hạt nhập rang ở nước ngoài."
+            },
+            {
+              "en": "Choosing locally-sourced products supports nearby farmers and small businesses.",
+              "vi": "Chọn sản phẩm locally-sourced ủng hộ nông dân và doanh nghiệp nhỏ địa phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["regional", "local-origin"],
+      "antonyms": ["imported", "globally-sourced"],
+      "collocations": [
+        "locally-sourced ingredients",
+        "locally-sourced food",
+        "locally-sourced produce"
+      ],
+      "mnemonic_vi": "LOCALLY (địa phương) + SOURCED (có nguồn) = nguồn địa phương. Đồ ăn từ nhà gần = ngon + sạch + ít CO2."
+    },
+    {
+      "word": "offset",
+      "lemma": "offset",
+      "ipa": "/ˈɒfset/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to counteract or compensate for an effect, especially by investing in projects that absorb or reduce equivalent amounts of carbon",
+          "meaning_vi": "bù trừ (cân lại tác động xấu, đặc biệt bằng cách đầu tư vào dự án hấp thụ CO2 tương đương)",
+          "examples": [
+            {
+              "en": "Many airlines now let passengers offset their flight emissions by paying a small fee.",
+              "vi": "Nhiều hãng bay giờ cho khách offset phát thải chuyến bay bằng phí nhỏ."
+            },
+            {
+              "en": "Companies offset their carbon footprint by planting trees or investing in renewable energy.",
+              "vi": "Công ty offset carbon-footprint bằng trồng cây hoặc đầu tư năng lượng tái tạo."
+            },
+            {
+              "en": "Critics argue that carbon offsets let polluters keep polluting with a clear conscience.",
+              "vi": "Người chỉ trích nói offset carbon để kẻ gây ô nhiễm tiếp tục thải mà yên tâm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["counterbalance", "compensate"],
+      "antonyms": [],
+      "collocations": ["carbon offset", "offset emissions", "fully offset", "offset the impact"],
+      "etymology_hint": "From English 'off' + 'set' — 'set off' against, balancing one quantity with another.",
+      "mnemonic_vi": "OFF + SET = đặt lệch sang bên = cân lại. Offset = bù trừ. Carbon offset = bù carbon."
+    },
+    {
+      "word": "conscious-consumer",
+      "lemma": "conscious-consumer",
+      "ipa": "/ˌkɒnʃəs kənˈsjuːmə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who actively considers the environmental, social, and ethical impact of their purchases before buying",
+          "meaning_vi": "người tiêu dùng có ý thức (cân nhắc tác động môi trường, xã hội, đạo đức trước khi mua)",
+          "examples": [
+            {
+              "en": "Conscious consumers read labels and research brands before they shop.",
+              "vi": "Conscious-consumer đọc nhãn và tìm hiểu thương hiệu trước khi mua sắm."
+            },
+            {
+              "en": "The rise of conscious consumers is pushing brands toward transparency in supply chains.",
+              "vi": "Sự lên ngôi của conscious-consumer buộc thương hiệu minh bạch chuỗi cung ứng."
+            },
+            {
+              "en": "Young Vietnamese are increasingly identifying themselves as conscious consumers of food and fashion.",
+              "vi": "Người Việt trẻ ngày càng nhận mình là conscious-consumer trong đồ ăn và thời trang."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ethical consumer", "mindful buyer"],
+      "antonyms": ["impulse buyer", "mindless consumer"],
+      "collocations": [
+        "conscious-consumer movement",
+        "become a conscious consumer",
+        "conscious-consumer trend"
+      ],
+      "mnemonic_vi": "CONSCIOUS (có ý thức) + CONSUMER (người tiêu dùng) = người mua có suy nghĩ. Mỗi đồng tiền là 1 lá phiếu."
+    },
+    {
+      "word": "low-waste",
+      "lemma": "low-waste",
+      "ipa": "/ˌləʊ ˈweɪst/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "producing very little waste, especially trash that goes to landfill or incineration, through reuse, refill, and careful purchasing",
+          "meaning_vi": "ít thải (tạo rất ít rác đến bãi chôn lấp, nhờ tái sử dụng, refill và mua sắm cẩn thận)",
+          "examples": [
+            {
+              "en": "She runs a low-waste household by composting, reusing, and shopping in bulk.",
+              "vi": "Cô ấy giữ một gia đình low-waste bằng compost, tái sử dụng và mua số lượng lớn."
+            },
+            {
+              "en": "Low-waste living is hard in Saigon where street food comes in plastic everything.",
+              "vi": "Sống low-waste khó ở Sài Gòn nơi đồ ăn vặt đều bọc nhựa."
+            },
+            {
+              "en": "A low-waste lifestyle is more realistic than zero-waste for most beginners.",
+              "vi": "Lối sống low-waste khả thi hơn zero-waste với hầu hết người mới bắt đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["minimal-waste"],
+      "antonyms": ["high-waste", "wasteful"],
+      "collocations": ["low-waste lifestyle", "low-waste shopping", "low-waste home"],
+      "mnemonic_vi": "LOW (thấp) + WASTE (rác) = rác thấp. Low-waste = ít rác. Cấp 'beginner' trước zero-waste."
+    }
+  ]
+}
