@@ -5,6 +5,72 @@
 
 ---
 
+## 2026-05-17 (P10c content batch — Levers D+E persistent, P10 15/25) — B2: 5 lessons / 100 cards (152/192, ~79%) — Claude Opus 4.7
+
+### Đã ship
+
+User "tiếp P10c đi" → AI gen tiếp 5 lessons B2 batch 3 (P10c). Memory `feedback_raised_quality_bar` (Levers D+E) áp dụng tự động không cần re-prompt — rule persist từ P10b ship.
+
+**5 lessons mới (B2, 100/100 NEW so với 2940 existing)** — domain mới (xã hội/lối sống/pháp lý/học thuật/streaming):
+
+| #   | Lesson               | Topic             | order |
+| --- | -------------------- | ----------------- | ----- |
+| 1   | social-movements     | society-culture   | 8     |
+| 2   | sustainable-living   | daily-life        | 23    |
+| 3   | legal-business       | work-business     | 19    |
+| 4   | research-methodology | abstract-academic | 16    |
+| 5   | streaming-economy    | entertainment     | 16    |
+
+### Collision pivots (heaviest từ trước đến nay)
+
+Round 1 grep tìm 34 collision trên 120 candidate words ban đầu — bao gồm cả overlap với topics đã saturate:
+
+- **social-movements** (9 drops): reform (change-process), activism + grassroots (global-issues), suffrage (governance-systems), inequality + equality + protest + discrimination + petition (social-issues — topic gần saturate cho B1-B2 vocab).
+- **sustainable-living** (10 drops): reduce (change-process), sustainable + eco-friendly (climate-env), donate (social-issues), organic + compost + biodegradable + recyclable + plant-based + zero-waste (nature-environment/sustainability — heavy overlap topic, phải pivot mạnh sang lifestyle words như minimalism, decluttering, capsule-wardrobe).
+- **legal-business** (2 drops): contract (career), jurisdiction (governance-systems).
+- **research-methodology** (8 drops): interview (career), correlation (data-analysis), bias (argument-logic), empirical (critical-thinking), hypothesis (thinking-knowledge), variable + peer-review + inference (scientific-method — đặc biệt overlap với scientific-method từ P4).
+- **streaming-economy** (5 drops): influencer (news-media), recommendation (study-abroad), subscription (personal-finance), stream (social-media), algorithm (digital-culture).
+
+Sau 100 candidates mới (sau pivot), round 2 grep: **ZERO collision**.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files, 20 cards each.
+- IPA notation flags: 16 + 17 + 16 + 17 + 19 = **85/100 cards** — same range với P10b (83/100), P10a (66/100). Tolerated per quality bar.
+- Lint-staged prettier reformat 5 JSON files khi commit.
+- File sizes: 32-35 KB/lesson, avg ~33.7 KB — tương đương P10b (~33 KB).
+- Etymology drop rate: **49/100 cards** (lớn nhất từ trước đến nay) — do P10c có nhiều compound modern (carbon-footprint, paywall, freemium, ad-supported, content-creator, etc) và acronyms (NDA-style).
+
+### SHA cuối session (P10c)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `[dev-docs-sha TBD]` (P10c merge + docs commit)
+- be `2843b9e` (P10c content) → sẽ sync sau khi docs xong
+- fe `13ab12b` (P10b sync) → sẽ sync sau khi docs xong
+
+### Commit message typo note
+
+Title commit be `2843b9e` ghi "P10b" thay vì "P10c" (typo nhỏ, body và counts đều đúng — P10 15/25). Audit trail rõ ràng trong HANDOFF + TRACKER + git merge message.
+
+### PICKUP cho session sau — P10d (5 lessons B2)
+
+Đề xuất topic candidates B2 (còn 10 lessons để đóng P10 25/25):
+
+- `time-numbers/historical-eras` — antiquity, medieval, renaissance, enlightenment, industrial-age, postwar, modern-era, contemporary, prehistoric, decade
+- `people/leadership-styles` — autocratic, democratic, transformational, charismatic, hands-off, micromanage, delegate (taken? check), visionary, mentor, coach
+- `daily-life/mental-health` — anxiety (check), depression (check), therapy, mindfulness, burnout (check), wellbeing, stigma, self-care, cognitive, behavioral
+- `work-business/startup-ecosystem` — accelerator, incubator, pre-seed, seed-round, series-A, valuation (taken in entrepreneurship), unicorn (taken), exit (taken), pitch-deck, term-sheet (cần check entrepreneurship đã có 12-15 từ tương tự)
+- `abstract-academic/cognitive-biases` — confirmation-bias, anchoring, availability-heuristic, dunning-kruger, sunk-cost, framing-effect, halo-effect, hindsight-bias, in-group-bias, status-quo-bias
+
+Collision pre-flag với P9 entrepreneurship (unicorn/exit/IPO/valuation/runway) và critical-thinking/scientific-method (bias). Cần round 1 grep kỹ, có thể phải pivot tới 30% wordlist.
+
+### Files state khi handoff (P10c)
+
+- All 3 branches will be pushed to origin after docs commit + sync.
+- Docs updated (HANDOFF, TRACKER, SYNC).
+
+---
+
 ## 2026-05-17 (P10b content batch — token-efficient triage levers ON, P10 10/25) — B2: 5 lessons / 100 cards (147/192, ~77%) — Claude Opus 4.7
 
 ### Context
