@@ -1,0 +1,447 @@
+{
+  "slug": "shapes-3d",
+  "name": "3D Shapes & Advanced Geometry",
+  "description": "Hình khối 3D và hình học nâng cao A2-B1 — sphere, cube, hexagon, ellipse — 20 hình thường gặp trong toán.",
+  "order_index": 26,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "sphere",
+      "ipa": "/sfɪə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a perfectly round three-dimensional shape like a ball",
+          "meaning_vi": "hình cầu (3D tròn hoàn hảo như quả bóng)",
+          "examples": [
+            { "en": "The earth is a sphere.", "vi": "Trái đất là sphere." },
+            {
+              "en": "Vietnamese kids learn sphere in 5th-grade math.",
+              "vi": "Trẻ em Việt học sphere ở lớp 5."
+            }
+          ]
+        }
+      ],
+      "collocations": ["perfect sphere", "sphere of influence"],
+      "mnemonic_vi": "SPHERE = quả cầu. Tròn 3D."
+    },
+    {
+      "word": "cube",
+      "ipa": "/kjuːb/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a three-dimensional shape with six equal square sides",
+          "meaning_vi": "khối lập phương (3D với 6 mặt vuông)",
+          "examples": [
+            { "en": "A dice is a cube.", "vi": "Xúc xắc là cube." },
+            {
+              "en": "Rubik's cube is a popular puzzle in Vietnam.",
+              "vi": "Rubik cube là trò đố phổ biến ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "collocations": ["ice cube", "Rubik's cube", "sugar cube"],
+      "mnemonic_vi": "CUBE = lập phương. 6 mặt vuông bằng nhau."
+    },
+    {
+      "word": "cylinder",
+      "ipa": "/ˈsɪlɪndə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a 3D shape with circular ends and straight parallel sides, like a can or pipe",
+          "meaning_vi": "hình trụ (3D đầu tròn, cạnh thẳng song song như lon/ống)",
+          "examples": [
+            { "en": "A soda can is a cylinder.", "vi": "Lon nước ngọt là cylinder." },
+            { "en": "Engine cylinders are crucial.", "vi": "Cylinder động cơ quan trọng." }
+          ]
+        }
+      ],
+      "collocations": ["engine cylinder", "gas cylinder"],
+      "mnemonic_vi": "CYLINDER = trụ tròn. Lon, ống, xi-lanh xe."
+    },
+    {
+      "word": "cone",
+      "ipa": "/kəʊn/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a 3D shape with a circular base that narrows to a point at the top",
+          "meaning_vi": "hình nón (3D đáy tròn nhọn lên đỉnh)",
+          "examples": [
+            { "en": "She bought an ice cream cone.", "vi": "Cô ấy mua ice cream cone." },
+            { "en": "Vietnamese conical hats (nón lá) are cones.", "vi": "Nón lá Việt là cone." }
+          ]
+        }
+      ],
+      "collocations": ["ice cream cone", "traffic cone", "pine cone"],
+      "mnemonic_vi": "CONE = nón. Hình nón đáy tròn nhọn lên."
+    },
+    {
+      "word": "pyramid",
+      "ipa": "/ˈpɪrəmɪd/",
+      "pos": "noun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a 3D shape with a polygonal base and triangular sides meeting at a point",
+          "meaning_vi": "kim tự tháp (3D đáy đa giác, mặt tam giác chụm đỉnh)",
+          "examples": [
+            {
+              "en": "Egyptian pyramids are over 4500 years old.",
+              "vi": "Pyramid Ai Cập hơn 4500 năm."
+            },
+            {
+              "en": "Food pyramid shows healthy eating habits.",
+              "vi": "Food pyramid cho thấy ăn uống lành mạnh."
+            }
+          ]
+        }
+      ],
+      "collocations": ["food pyramid", "Egyptian pyramid"],
+      "mnemonic_vi": "PYRAMID = kim tự tháp. Đỉnh nhọn, đáy đa giác."
+    },
+    {
+      "word": "prism",
+      "ipa": "/ˈprɪzəm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a transparent geometric solid (often glass) that splits light into a spectrum",
+          "meaning_vi": "lăng kính (khối hình học trong suốt, thường thủy tinh, tách ánh sáng thành phổ)",
+          "examples": [
+            {
+              "en": "A prism splits white light into a rainbow.",
+              "vi": "Prism tách ánh sáng trắng thành cầu vồng."
+            },
+            {
+              "en": "Vietnamese physics labs have many prisms.",
+              "vi": "Phòng vật lý Việt có nhiều prism."
+            }
+          ]
+        }
+      ],
+      "collocations": ["triangular prism", "optical prism"],
+      "mnemonic_vi": "PRISM = lăng kính. Tách ánh sáng. Newton dùng prism khám phá quang phổ."
+    },
+    {
+      "word": "polygon",
+      "ipa": "/ˈpɒlɪɡən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a closed 2D shape with at least three straight sides and angles",
+          "meaning_vi": "đa giác (hình 2D khép có ≥3 cạnh thẳng)",
+          "examples": [
+            {
+              "en": "A triangle is the simplest polygon.",
+              "vi": "Tam giác là polygon đơn giản nhất."
+            },
+            {
+              "en": "Hexagons and octagons are polygons.",
+              "vi": "Lục giác và bát giác là polygon."
+            }
+          ]
+        }
+      ],
+      "collocations": ["regular polygon", "complex polygon"],
+      "mnemonic_vi": "POLY (nhiều) + GON (góc) = nhiều góc. Polygon = đa giác."
+    },
+    {
+      "word": "hexagon",
+      "ipa": "/ˈheksəɡən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a polygon with six sides and six angles",
+          "meaning_vi": "lục giác (đa giác 6 cạnh, 6 góc)",
+          "examples": [
+            { "en": "Bee honeycombs are made of hexagons.", "vi": "Tổ ong làm bằng hexagon." },
+            {
+              "en": "Vietnamese stop signs are octagons, not hexagons.",
+              "vi": "Biển dừng Việt là bát giác, không phải hexagon."
+            }
+          ]
+        }
+      ],
+      "collocations": ["regular hexagon"],
+      "mnemonic_vi": "HEXA (6) + GON (góc) = 6 góc. Hexagon = lục giác. Tổ ong."
+    },
+    {
+      "word": "octagon",
+      "ipa": "/ˈɒktəɡən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a polygon with eight sides and eight angles",
+          "meaning_vi": "bát giác (đa giác 8 cạnh, 8 góc)",
+          "examples": [
+            { "en": "Stop signs are red octagons.", "vi": "Biển dừng là octagon đỏ." },
+            {
+              "en": "Some Vietnamese pavilions have octagonal floor plans.",
+              "vi": "Một số đình Việt có mặt bằng octagon."
+            }
+          ]
+        }
+      ],
+      "collocations": ["regular octagon", "octagon shape"],
+      "mnemonic_vi": "OCTA (8) + GON (góc) = 8 góc. Octagon = bát giác."
+    },
+    {
+      "word": "pentagon",
+      "ipa": "/ˈpentəɡən/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a polygon with five sides and five angles; also the US defense headquarters in Washington",
+          "meaning_vi": "ngũ giác (đa giác 5 cạnh, 5 góc; cũng là trụ sở quốc phòng Mỹ)",
+          "examples": [
+            {
+              "en": "Soccer balls combine pentagons and hexagons.",
+              "vi": "Bóng đá kết hợp pentagon và hexagon."
+            },
+            {
+              "en": "The Pentagon in Washington is shaped like a pentagon.",
+              "vi": "Tòa Pentagon ở Washington có hình pentagon."
+            }
+          ]
+        }
+      ],
+      "collocations": ["regular pentagon"],
+      "mnemonic_vi": "PENTA (5) + GON (góc) = 5 góc. Pentagon = ngũ giác."
+    },
+    {
+      "word": "dome",
+      "ipa": "/dəʊm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a rounded roof or ceiling that resembles half of a sphere",
+          "meaning_vi": "vòm (mái/trần tròn như nửa sphere)",
+          "examples": [
+            {
+              "en": "The Pantheon in Rome has a famous dome.",
+              "vi": "Đền Pantheon Rome có dome nổi tiếng."
+            },
+            {
+              "en": "Saigon's Notre Dame has a beautiful dome.",
+              "vi": "Nhà thờ Đức Bà Sài Gòn có dome đẹp."
+            }
+          ]
+        }
+      ],
+      "collocations": ["church dome", "geodesic dome"],
+      "mnemonic_vi": "DOME = vòm tròn. Nửa quả cầu úp lên."
+    },
+    {
+      "word": "arc",
+      "ipa": "/ɑːk/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a curved line forming part of a circle's edge or any curved path",
+          "meaning_vi": "cung (đường cong là phần đường tròn hoặc lối cong)",
+          "examples": [
+            {
+              "en": "The arc of the rainbow stretched across the sky.",
+              "vi": "Arc cầu vồng kéo dài qua bầu trời."
+            },
+            {
+              "en": "Vietnamese students calculate arc length in geometry.",
+              "vi": "Học sinh Việt tính độ dài arc trong hình học."
+            }
+          ]
+        }
+      ],
+      "collocations": ["arc length", "story arc"],
+      "mnemonic_vi": "ARC = cung tròn. Đường cong một phần của vòng tròn."
+    },
+    {
+      "word": "spiral",
+      "ipa": "/ˈspaɪrəl/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a curve that winds around a center point, growing closer or farther from it",
+          "meaning_vi": "đường xoắn ốc (cong quanh tâm, gần hoặc xa dần khỏi tâm)",
+          "examples": [
+            { "en": "Galaxies often have spiral shapes.", "vi": "Thiên hà thường có dạng spiral." },
+            { "en": "A snail's shell forms a perfect spiral.", "vi": "Vỏ ốc tạo spiral hoàn hảo." }
+          ]
+        }
+      ],
+      "collocations": ["downward spiral", "spiral notebook", "spiral staircase"],
+      "mnemonic_vi": "SPIRAL = xoắn ốc. Như vỏ ốc, ốc vít."
+    },
+    {
+      "word": "crescent",
+      "ipa": "/ˈkresnt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a curved shape with two points, like the new moon or a banana",
+          "meaning_vi": "hình lưỡi liềm (cong 2 đầu nhọn như trăng non hoặc chuối)",
+          "examples": [
+            { "en": "The crescent moon shines softly.", "vi": "Trăng crescent chiếu sáng dịu." },
+            { "en": "The Islamic flag has a crescent.", "vi": "Cờ Hồi giáo có crescent." }
+          ]
+        }
+      ],
+      "collocations": ["crescent moon", "crescent shape"],
+      "mnemonic_vi": "CRESCENT = lưỡi liềm. Trăng non, banh quẫy."
+    },
+    {
+      "word": "cuboid",
+      "ipa": "/ˈkjuːbɔɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a three-dimensional shape with six rectangular faces, like a box",
+          "meaning_vi": "hình hộp chữ nhật (3D với 6 mặt hình chữ nhật, như cái hộp)",
+          "examples": [
+            { "en": "A shoebox is a cuboid.", "vi": "Hộp giày là cuboid." },
+            {
+              "en": "Vietnamese students calculate cuboid volume in geometry.",
+              "vi": "Học sinh Việt tính thể tích cuboid trong hình học."
+            }
+          ]
+        }
+      ],
+      "collocations": ["rectangular cuboid"],
+      "mnemonic_vi": "CUBOID = hộp chữ nhật. Như cube nhưng các mặt là chữ nhật (không vuông)."
+    },
+    {
+      "word": "tetrahedron",
+      "ipa": "/ˌtetrəˈhiːdrən/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a three-dimensional shape with four triangular faces; the simplest 3D polyhedron",
+          "meaning_vi": "tứ diện (3D với 4 mặt tam giác — đa diện đơn giản nhất)",
+          "examples": [
+            {
+              "en": "A tetrahedron is the simplest 3D shape with flat faces.",
+              "vi": "Tetrahedron là hình 3D đơn giản nhất với mặt phẳng."
+            },
+            {
+              "en": "Some Vietnamese math olympiad problems involve tetrahedra.",
+              "vi": "Một số bài toán Olympic Việt liên quan tetrahedron."
+            }
+          ]
+        }
+      ],
+      "collocations": ["regular tetrahedron"],
+      "mnemonic_vi": "TETRA (4) + HEDRON (mặt) = 4 mặt. Tetrahedron = tứ diện."
+    },
+    {
+      "word": "ellipse",
+      "ipa": "/ɪˈlɪps/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "an oval-shaped closed curve where the sum of distances from any point to two fixed points is constant",
+          "meaning_vi": "hình elip (đường cong khép kín hình bầu dục, tổng khoảng cách từ một điểm đến 2 tiêu điểm là hằng số)",
+          "examples": [
+            {
+              "en": "Planet orbits are ellipses, not circles.",
+              "vi": "Quỹ đạo hành tinh là ellipse, không phải vòng tròn."
+            },
+            {
+              "en": "An ellipse looks like a stretched circle.",
+              "vi": "Ellipse trông như vòng tròn bị kéo dài."
+            }
+          ]
+        }
+      ],
+      "collocations": ["elliptical orbit"],
+      "mnemonic_vi": "ELLIPSE = bầu dục. Vòng tròn bị kéo dài."
+    },
+    {
+      "word": "trapezoid",
+      "ipa": "/ˈtræpəzɔɪd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a four-sided shape with at least one pair of parallel sides",
+          "meaning_vi": "hình thang (tứ giác có ít nhất 1 cặp cạnh song song)",
+          "examples": [
+            { "en": "A trapezoid has two parallel bases.", "vi": "Trapezoid có 2 đáy song song." },
+            {
+              "en": "Vietnamese students learn trapezoid area formula in middle school.",
+              "vi": "Học sinh Việt học công thức diện tích trapezoid ở cấp 2."
+            }
+          ]
+        }
+      ],
+      "collocations": ["isosceles trapezoid"],
+      "mnemonic_vi": "TRAPEZOID = hình thang. Có 2 cạnh song song."
+    },
+    {
+      "word": "rhombus",
+      "ipa": "/ˈrɒmbəs/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a four-sided shape with all sides of equal length, like a tilted square",
+          "meaning_vi": "hình thoi (tứ giác 4 cạnh bằng nhau, như hình vuông nghiêng)",
+          "examples": [
+            {
+              "en": "A diamond shape on cards is a rhombus.",
+              "vi": "Hình rô trên bài là rhombus."
+            },
+            {
+              "en": "The Vietnamese coat-of-arms includes geometric rhombus patterns.",
+              "vi": "Quốc huy Việt có hoa văn rhombus hình học."
+            }
+          ]
+        }
+      ],
+      "collocations": ["regular rhombus"],
+      "mnemonic_vi": "RHOMBUS = hình thoi. 4 cạnh bằng nhau, không vuông góc."
+    },
+    {
+      "word": "parallelogram",
+      "ipa": "/ˌpærəˈleləɡræm/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a four-sided shape with two pairs of parallel sides",
+          "meaning_vi": "hình bình hành (tứ giác có 2 cặp cạnh song song)",
+          "examples": [
+            {
+              "en": "Squares and rectangles are special parallelograms.",
+              "vi": "Hình vuông và chữ nhật là parallelogram đặc biệt."
+            },
+            {
+              "en": "Vietnamese geometry students calculate parallelogram area.",
+              "vi": "Học sinh hình học Việt tính diện tích parallelogram."
+            }
+          ]
+        }
+      ],
+      "collocations": ["parallelogram area"],
+      "mnemonic_vi": "PARALLEL (song song) + GRAM (vẽ) = vẽ song song. Parallelogram = bình hành."
+    }
+  ]
+}

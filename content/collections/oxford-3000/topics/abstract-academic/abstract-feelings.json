@@ -1,0 +1,474 @@
+{
+  "slug": "abstract-feelings",
+  "name": "Abstract Feelings",
+  "description": "Cảm xúc trừu tượng B1-B2 — nostalgia, awe, frustration, gratitude — 20 từ chỉ trạng thái cảm xúc sâu sắc.",
+  "order_index": 18,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "yearning",
+      "ipa": "/ˈjɜːnɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a strong feeling of longing for something or someone",
+          "meaning_vi": "khao khát (cảm xúc mạnh mẽ thèm muốn ai/cái gì)",
+          "examples": [
+            {
+              "en": "She felt a yearning for her hometown.",
+              "vi": "Cô ấy cảm thấy yearning quê hương."
+            },
+            {
+              "en": "His yearning for adventure took him to Vietnam.",
+              "vi": "Yearning phiêu lưu đưa anh ấy đến Việt Nam."
+            }
+          ]
+        }
+      ],
+      "collocations": ["deep yearning", "yearning for home"],
+      "mnemonic_vi": "YEARN (khao khát) + ING = sự khao khát. Yearning = nỗi mong nhớ."
+    },
+    {
+      "word": "longing",
+      "ipa": "/ˈlɒŋɪŋ/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a strong desire, especially for something difficult to attain",
+          "meaning_vi": "khao khát, ao ước (mong muốn mạnh, đặc biệt cho điều khó đạt)",
+          "examples": [
+            {
+              "en": "She felt a longing to travel the world.",
+              "vi": "Cô ấy có longing đi du lịch thế giới."
+            },
+            {
+              "en": "Vietnamese immigrants often feel longing for their homeland.",
+              "vi": "Người Việt nhập cư thường longing quê hương."
+            }
+          ]
+        }
+      ],
+      "collocations": ["longing for", "deep longing"],
+      "mnemonic_vi": "LONG (dài) + ING = nỗi nhớ dài. Longing = mong mỏi."
+    },
+    {
+      "word": "nostalgia",
+      "ipa": "/nɒˈstældʒə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a sentimental longing for the past",
+          "meaning_vi": "hoài niệm (nỗi nhớ xúc động về quá khứ)",
+          "examples": [
+            {
+              "en": "Vietnamese 1990s songs trigger nostalgia for many.",
+              "vi": "Nhạc Việt thập niên 90 gợi nostalgia với nhiều người."
+            },
+            {
+              "en": "Old photos filled her with nostalgia.",
+              "vi": "Ảnh cũ làm cô ấy đầy nostalgia."
+            }
+          ]
+        }
+      ],
+      "collocations": ["wave of nostalgia", "feel nostalgia"],
+      "mnemonic_vi": "NOSTOS (về nhà, Hy Lạp) + ALGIA (đau) = đau nhớ nhà. Nostalgia = hoài niệm."
+    },
+    {
+      "word": "melancholy",
+      "ipa": "/ˈmelənkəli/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a deep, lasting feeling of sadness, often without a clear cause",
+          "meaning_vi": "u sầu (nỗi buồn sâu kéo dài, thường không rõ lý do)",
+          "examples": [
+            {
+              "en": "The rainy day brought a sense of melancholy.",
+              "vi": "Ngày mưa mang lại melancholy."
+            },
+            {
+              "en": "Vietnamese folk songs often express melancholy.",
+              "vi": "Dân ca Việt thường thể hiện melancholy."
+            }
+          ]
+        }
+      ],
+      "collocations": ["deep melancholy", "tinge of melancholy"],
+      "mnemonic_vi": "MELAN (đen) + CHOLY (mật) = mật đen (Y học cổ Hy Lạp tin u sầu do mật đen). Melancholy = u sầu."
+    },
+    {
+      "word": "bliss",
+      "ipa": "/blɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "perfect happiness; supreme joy",
+          "meaning_vi": "hạnh phúc tột đỉnh (vui sướng tuyệt đối)",
+          "examples": [
+            {
+              "en": "A cup of phở on a cold morning is bliss.",
+              "vi": "Một bát phở sáng lạnh là bliss."
+            },
+            {
+              "en": "Their wedding day was pure bliss.",
+              "vi": "Ngày cưới của họ là bliss thuần khiết."
+            }
+          ]
+        }
+      ],
+      "collocations": ["pure bliss", "wedded bliss"],
+      "mnemonic_vi": "BLISS = hạnh phúc tột đỉnh. Cao hơn happy."
+    },
+    {
+      "word": "ecstasy",
+      "ipa": "/ˈekstəsi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an overwhelming feeling of happiness or joyful excitement",
+          "meaning_vi": "ngất ngây (cảm giác hạnh phúc/vui mừng tột độ)",
+          "examples": [
+            {
+              "en": "She danced in ecstasy after winning.",
+              "vi": "Cô ấy nhảy múa trong ecstasy sau khi thắng."
+            },
+            {
+              "en": "Vietnamese fans went into ecstasy at the AFF Cup win.",
+              "vi": "Fan Việt vào ecstasy khi thắng AFF Cup."
+            }
+          ]
+        }
+      ],
+      "collocations": ["pure ecstasy", "in ecstasy"],
+      "mnemonic_vi": "ECSTASY = ngất ngây. Trạng thái 'ra khỏi mình' vì vui."
+    },
+    {
+      "word": "euphoria",
+      "ipa": "/juːˈfɔːriə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a strong feeling of happiness, excitement, or wellbeing",
+          "meaning_vi": "phấn khích (cảm giác hạnh phúc, hứng khởi, khỏe khoắn mạnh)",
+          "examples": [
+            {
+              "en": "Euphoria swept the stadium when Vietnam scored.",
+              "vi": "Euphoria lan khắp sân khi Việt Nam ghi bàn."
+            },
+            {
+              "en": "Drugs can cause artificial euphoria.",
+              "vi": "Thuốc có thể gây euphoria nhân tạo."
+            }
+          ]
+        }
+      ],
+      "collocations": ["sense of euphoria", "post-victory euphoria"],
+      "mnemonic_vi": "EU (tốt) + PHORIA (mang) = mang đến điều tốt. Euphoria = phấn khích."
+    },
+    {
+      "word": "dread",
+      "ipa": "/dred/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "great fear or apprehension about something that will happen",
+          "meaning_vi": "sợ hãi, lo lắng (sợ lớn về điều sắp xảy ra)",
+          "examples": [
+            { "en": "He felt dread before the exam.", "vi": "Anh ấy cảm thấy dread trước kỳ thi." },
+            {
+              "en": "Vietnamese students dread the gaokao-style university entrance exam.",
+              "vi": "Học sinh Việt dread kỳ thi đại học kiểu Gaokao."
+            }
+          ]
+        }
+      ],
+      "collocations": ["sense of dread", "filled with dread"],
+      "mnemonic_vi": "DREAD = sợ hãi sâu. Lo điều xấu sắp đến."
+    },
+    {
+      "word": "terror",
+      "ipa": "/ˈterə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "extreme fear; violence used to intimidate (terrorism)",
+          "meaning_vi": "sự khiếp sợ; khủng bố (sợ cực độ; bạo lực để đe dọa)",
+          "examples": [
+            { "en": "She screamed in terror.", "vi": "Cô ấy hét lên trong terror." },
+            {
+              "en": "Vietnam fought terror in resistance wars.",
+              "vi": "Việt Nam chiến đấu terror trong các cuộc kháng chiến."
+            }
+          ]
+        }
+      ],
+      "collocations": ["sheer terror", "war on terror"],
+      "mnemonic_vi": "TERROR = khiếp sợ. Sợ cực độ. Cùng họ terrible, terrify."
+    },
+    {
+      "word": "awe",
+      "ipa": "/ɔː/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of great respect, wonder, or admiration mixed with fear",
+          "meaning_vi": "sự kính phục, choáng ngợp (cảm giác tôn trọng/ngỡ ngàng/ngưỡng mộ pha sợ)",
+          "examples": [
+            {
+              "en": "She stood in awe of Mount Fansipan.",
+              "vi": "Cô ấy đứng trong awe trước núi Fansipan."
+            },
+            {
+              "en": "Visitors are in awe of Hạ Long Bay.",
+              "vi": "Du khách in awe trước Vịnh Hạ Long."
+            }
+          ]
+        }
+      ],
+      "collocations": ["stand in awe", "awe-inspiring"],
+      "mnemonic_vi": "AWE = kính phục choáng ngợp. Awesome = đáng nể."
+    },
+    {
+      "word": "pity",
+      "ipa": "/ˈpɪti/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of sorrow and compassion for the suffering or misfortune of others",
+          "meaning_vi": "thương xót (cảm giác đau lòng và thông cảm cho ai đó đau khổ/bất hạnh)",
+          "examples": [
+            {
+              "en": "She felt pity for the homeless dog.",
+              "vi": "Cô ấy thấy pity con chó vô gia cư."
+            },
+            {
+              "en": "Vietnamese culture teaches pity for the less fortunate.",
+              "vi": "Văn hóa Việt dạy pity với người kém may mắn."
+            }
+          ]
+        }
+      ],
+      "collocations": ["feel pity", "what a pity"],
+      "mnemonic_vi": "PITY = thương xót. 'What a pity!' = 'Thật đáng tiếc!'"
+    },
+    {
+      "word": "amazement",
+      "ipa": "/əˈmeɪzmənt/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of great surprise and admiration",
+          "meaning_vi": "sự kinh ngạc (cảm giác ngạc nhiên và ngưỡng mộ lớn)",
+          "examples": [
+            {
+              "en": "To my amazement, she finished in 2 minutes.",
+              "vi": "Tôi amazement, cô ấy xong trong 2 phút."
+            },
+            {
+              "en": "Vietnamese tech founders inspire amazement abroad.",
+              "vi": "Founder tech Việt gây amazement ở nước ngoài."
+            }
+          ]
+        }
+      ],
+      "collocations": ["to my amazement", "look of amazement"],
+      "mnemonic_vi": "AMAZE (kinh ngạc) + MENT = sự kinh ngạc. Amazement."
+    },
+    {
+      "word": "indignation",
+      "ipa": "/ˌɪndɪɡˈneɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "anger or annoyance at unfair treatment or wrongdoing",
+          "meaning_vi": "phẫn nộ (giận về sự đối xử bất công/hành vi sai)",
+          "examples": [
+            {
+              "en": "The scandal sparked public indignation.",
+              "vi": "Scandal gây indignation công chúng."
+            },
+            { "en": "Her indignation was visible.", "vi": "Indignation của cô ấy lộ rõ." }
+          ]
+        }
+      ],
+      "collocations": ["righteous indignation", "public indignation"],
+      "mnemonic_vi": "IN (không) + DIGNATION (xứng đáng) = không xứng đáng. Indignation = phẫn nộ vì bất công."
+    },
+    {
+      "word": "resentment",
+      "ipa": "/rɪˈzentmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "bitter anger or displeasure caused by perceived unfair treatment",
+          "meaning_vi": "uất ức, oán giận (giận đắng do bị đối xử bất công)",
+          "examples": [
+            {
+              "en": "She harbored resentment for years.",
+              "vi": "Cô ấy nuôi resentment nhiều năm."
+            },
+            {
+              "en": "Workplace resentment kills team morale.",
+              "vi": "Resentment công sở giết tinh thần đội."
+            }
+          ]
+        }
+      ],
+      "collocations": ["deep resentment", "harbor resentment"],
+      "mnemonic_vi": "RE (lại) + SENTIMENT (cảm xúc) = cảm xúc lặp lại. Resentment = oán giận âm ỉ."
+    },
+    {
+      "word": "frustration",
+      "ipa": "/frʌˈstreɪʃn/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of being upset or annoyed when something doesn't go as planned",
+          "meaning_vi": "thất vọng, bực bội (cảm thấy khó chịu khi việc không theo ý)",
+          "examples": [
+            {
+              "en": "Saigon traffic causes daily frustration.",
+              "vi": "Giao thông Sài Gòn gây frustration hằng ngày."
+            },
+            {
+              "en": "She showed her frustration at the slow Wi-Fi.",
+              "vi": "Cô ấy thể hiện frustration với Wi-Fi chậm."
+            }
+          ]
+        }
+      ],
+      "collocations": ["sheer frustration", "show frustration"],
+      "mnemonic_vi": "FRUSTRATE (làm hỏng) + TION = sự bị làm hỏng. Frustration = bực bội."
+    },
+    {
+      "word": "exhilaration",
+      "ipa": "/ɪɡˌzɪləˈreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of excitement, happiness, and energy",
+          "meaning_vi": "hào hứng (cảm giác hứng khởi, hạnh phúc và đầy năng lượng)",
+          "examples": [
+            {
+              "en": "She felt exhilaration at the top of Mount Bà Đen.",
+              "vi": "Cô ấy cảm thấy exhilaration trên đỉnh núi Bà Đen."
+            },
+            {
+              "en": "Speed bikes give riders exhilaration.",
+              "vi": "Xe đua tốc độ cho người chạy exhilaration."
+            }
+          ]
+        }
+      ],
+      "collocations": ["sense of exhilaration", "pure exhilaration"],
+      "mnemonic_vi": "EX + HILAR (vui) + ATION = sự vui hứng khởi. Exhilaration."
+    },
+    {
+      "word": "contentment",
+      "ipa": "/kənˈtentmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a state of happiness and satisfaction",
+          "meaning_vi": "sự mãn nguyện (trạng thái vui và hài lòng)",
+          "examples": [
+            {
+              "en": "Vietnamese village life has its own contentment.",
+              "vi": "Đời sống làng Việt có contentment riêng."
+            },
+            {
+              "en": "He found contentment in simple things.",
+              "vi": "Anh ấy tìm contentment ở điều giản dị."
+            }
+          ]
+        }
+      ],
+      "collocations": ["quiet contentment", "find contentment"],
+      "mnemonic_vi": "CONTENT (hài lòng) + MENT = sự hài lòng. Contentment = mãn nguyện."
+    },
+    {
+      "word": "serenity",
+      "ipa": "/səˈrenəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being calm, peaceful, and untroubled",
+          "meaning_vi": "thanh thản (trạng thái bình yên, không lo âu)",
+          "examples": [
+            { "en": "The temple offers a sense of serenity.", "vi": "Ngôi đền mang serenity." },
+            {
+              "en": "Vietnamese pagodas provide serenity in busy cities.",
+              "vi": "Chùa Việt cung cấp serenity giữa thành phố bận."
+            }
+          ]
+        }
+      ],
+      "collocations": ["inner serenity", "moment of serenity"],
+      "mnemonic_vi": "SEREN (yên tĩnh) + ITY = sự yên tĩnh. Serenity = thanh thản."
+    },
+    {
+      "word": "despair",
+      "ipa": "/dɪˈspeə(r)/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "complete loss of hope",
+          "meaning_vi": "tuyệt vọng (mất hết hy vọng hoàn toàn)",
+          "examples": [
+            {
+              "en": "She fell into despair after the loss.",
+              "vi": "Cô ấy rơi vào despair sau mất mát."
+            },
+            { "en": "Don't give in to despair.", "vi": "Đừng nhường cho despair." }
+          ]
+        }
+      ],
+      "collocations": ["deep despair", "in despair"],
+      "mnemonic_vi": "DE (không) + SPAIR (hy vọng, từ Latin sperare) = không hy vọng. Despair = tuyệt vọng."
+    },
+    {
+      "word": "gratitude",
+      "ipa": "/ˈɡrætɪtjuːd/",
+      "pos": "noun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a feeling of being thankful and appreciative",
+          "meaning_vi": "lòng biết ơn (cảm giác biết ơn và trân trọng)",
+          "examples": [
+            {
+              "en": "She expressed gratitude to her teachers.",
+              "vi": "Cô ấy bày tỏ gratitude với thầy cô."
+            },
+            {
+              "en": "Vietnamese culture deeply values gratitude.",
+              "vi": "Văn hóa Việt coi trọng sâu sắc gratitude."
+            }
+          ]
+        }
+      ],
+      "collocations": ["deep gratitude", "express gratitude"],
+      "mnemonic_vi": "GRAT (ơn, grace) + ITUDE = sự ơn. Gratitude = biết ơn. Cùng họ gratis (miễn phí)."
+    }
+  ]
+}
