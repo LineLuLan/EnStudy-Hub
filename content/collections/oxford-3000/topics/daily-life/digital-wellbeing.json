@@ -1,0 +1,652 @@
+{
+  "slug": "digital-wellbeing",
+  "name": "Digital Wellbeing",
+  "description": "Sức khỏe số B2 — screen-time, digital-detox, fomo, doom-scrolling và 20 thuật ngữ cho thời đại smartphone.",
+  "order_index": 25,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "screen-time",
+      "lemma": "screen-time",
+      "ipa": "/ˈskriːn taɪm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the total amount of time a person spends using devices with screens, such as phones, computers, and televisions, often tracked daily",
+          "meaning_vi": "thời gian dùng màn hình (tổng thời gian dùng thiết bị có màn hình như điện thoại, máy tính, TV — thường tính theo ngày)",
+          "examples": [
+            {
+              "en": "iOS and Android both report weekly screen-time summaries automatically.",
+              "vi": "iOS và Android đều báo cáo tóm tắt screen-time hằng tuần tự động."
+            },
+            {
+              "en": "Studies link excessive screen-time in children to sleep and attention problems.",
+              "vi": "Nghiên cứu liên kết screen-time quá nhiều ở trẻ với vấn đề giấc ngủ và chú ý."
+            },
+            {
+              "en": "Vietnamese parents are starting to set daily screen-time limits for their kids.",
+              "vi": "Phụ huynh Việt đang bắt đầu đặt giới hạn screen-time hằng ngày cho con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["device time"],
+      "antonyms": ["offline time"],
+      "collocations": [
+        "daily screen time",
+        "limit screen time",
+        "screen-time report",
+        "average screen time"
+      ],
+      "mnemonic_vi": "SCREEN (màn hình) + TIME (thời gian) = thời gian màn hình. Ghép từ rõ luôn."
+    },
+    {
+      "word": "digital-detox",
+      "lemma": "digital-detox",
+      "ipa": "/ˈdɪdʒɪtl ˈdiːtɒks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a period of deliberately abstaining from digital devices and online activity to reduce stress and reconnect with the offline world",
+          "meaning_vi": "cai nghiện số (giai đoạn cố tình kiêng thiết bị số và hoạt động online để giảm stress và kết nối lại đời thực)",
+          "examples": [
+            {
+              "en": "She took a weekend digital detox at a quiet retreat in Đà Lạt.",
+              "vi": "Cô ấy đi digital-detox cuối tuần tại một khu retreat yên tĩnh ở Đà Lạt."
+            },
+            {
+              "en": "Even a one-day digital detox can dramatically improve sleep quality.",
+              "vi": "Chỉ một ngày digital-detox cũng có thể cải thiện đáng kể chất lượng giấc ngủ."
+            },
+            {
+              "en": "Some Vietnamese resorts now market 'digital-detox getaways' as a wellness package.",
+              "vi": "Một số khu nghỉ Việt giờ marketing 'digital-detox getaway' như gói wellness."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["device fast"],
+      "antonyms": ["online binge"],
+      "collocations": ["weekend digital detox", "do a digital detox", "digital-detox retreat"],
+      "etymology_hint": "From English 'digital' + 'detox' (short for detoxification, from Latin 'de-' + Greek 'toxikon' = poison).",
+      "mnemonic_vi": "DIGITAL (số) + DETOX (cai/thải độc) = cai độc số. Như cai rượu/thuốc, nhưng cho điện thoại."
+    },
+    {
+      "word": "doom-scrolling",
+      "lemma": "doom-scroll",
+      "ipa": "/ˈduːm ˌskrəʊlɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the compulsive consumption of large quantities of negative online news, often in bed at night, leaving the user anxious and exhausted",
+          "meaning_vi": "doom-scrolling (cuộn xem tin tiêu cực liên tục, thường vào đêm trên giường, để lại lo âu và kiệt sức)",
+          "examples": [
+            {
+              "en": "Doom-scrolling spiked during the pandemic as everyone tracked case numbers obsessively.",
+              "vi": "Doom-scrolling tăng vọt trong đại dịch khi ai cũng theo dõi số ca ám ảnh."
+            },
+            {
+              "en": "Putting your phone in another room before bed stops most doom-scrolling.",
+              "vi": "Đặt điện thoại sang phòng khác trước khi ngủ dập tắt phần lớn doom-scrolling."
+            },
+            {
+              "en": "Vietnamese Gen Z coined the term 'cuộn ác mộng' as a casual translation of doom-scrolling.",
+              "vi": "Gen Z Việt đặt cụm 'cuộn ác mộng' để dịch nôm na doom-scrolling."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["doomsurfing"],
+      "antonyms": ["mindful reading"],
+      "collocations": ["stop doom-scrolling", "late-night doom-scrolling", "doom-scrolling habit"],
+      "mnemonic_vi": "DOOM (số phận, tin xấu) + SCROLLING (cuộn) = cuộn tin xấu. Doom-scrolling = lướt tin tận thế lúc 2 giờ sáng."
+    },
+    {
+      "word": "notification-fatigue",
+      "lemma": "notification-fatigue",
+      "ipa": "/ˌnəʊtɪfɪˈkeɪʃn fəˈtiːɡ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the mental exhaustion and stress caused by receiving too many notifications from apps, emails, and devices throughout the day",
+          "meaning_vi": "mệt mỏi vì thông báo (kiệt tinh thần do nhận quá nhiều notification từ app, email, thiết bị suốt ngày)",
+          "examples": [
+            {
+              "en": "Notification fatigue makes people miss important messages because they ignore all alerts.",
+              "vi": "Notification-fatigue khiến người ta bỏ lỡ tin quan trọng vì phớt lờ mọi cảnh báo."
+            },
+            {
+              "en": "Turning off non-essential app notifications is the easiest fix for notification fatigue.",
+              "vi": "Tắt thông báo app không cần thiết là cách dễ nhất để chữa notification-fatigue."
+            },
+            {
+              "en": "Vietnamese workers report severe notification fatigue from Zalo and Telegram group spam.",
+              "vi": "Người lao động Việt báo notification-fatigue nặng từ spam nhóm Zalo và Telegram."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["alert overload"],
+      "antonyms": [],
+      "collocations": ["suffer notification fatigue", "reduce notification fatigue"],
+      "mnemonic_vi": "NOTIFICATION (thông báo) + FATIGUE (mệt) = mệt vì thông báo. Tắt bớt = chữa được."
+    },
+    {
+      "word": "blue-light",
+      "lemma": "blue-light",
+      "ipa": "/ˌbluː ˈlaɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the short-wavelength blue portion of visible light emitted by screens, which can disrupt sleep when viewed at night",
+          "meaning_vi": "ánh sáng xanh (phần ánh sáng bước sóng ngắn từ màn hình, có thể phá giấc ngủ khi xem vào đêm)",
+          "examples": [
+            {
+              "en": "Phones emit blue light that suppresses melatonin and delays sleep onset.",
+              "vi": "Điện thoại phát blue-light ức chế melatonin và làm giấc ngủ đến chậm."
+            },
+            {
+              "en": "Blue-light glasses became trendy among office workers during the pandemic.",
+              "vi": "Kính lọc blue-light trở thành mốt với dân văn phòng trong đại dịch."
+            },
+            {
+              "en": "Vietnamese students often use night-mode on phones to filter out blue light.",
+              "vi": "Học sinh Việt thường dùng night-mode trên điện thoại để lọc blue-light."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["red light"],
+      "collocations": [
+        "blue-light filter",
+        "blue-light glasses",
+        "harmful blue light",
+        "reduce blue light"
+      ],
+      "mnemonic_vi": "BLUE (xanh) + LIGHT (ánh sáng) = ánh sáng xanh. Bước sóng ngắn, phá giấc ngủ nếu xem đêm."
+    },
+    {
+      "word": "social-comparison",
+      "lemma": "social-comparison",
+      "ipa": "/ˈsəʊʃl kəmˈpærɪsn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the psychological tendency to judge one's own value, abilities, or life against those of others, especially intensified by social media",
+          "meaning_vi": "so sánh xã hội (xu hướng tâm lý đánh giá giá trị/khả năng/cuộc sống của mình so với người khác, nhất là khi xem mạng xã hội)",
+          "examples": [
+            {
+              "en": "Instagram drives constant social comparison through curated highlight reels.",
+              "vi": "Instagram đẩy social-comparison liên tục qua các highlight đã chọn lọc."
+            },
+            {
+              "en": "Cutting back on social media reduces social comparison and improves mood.",
+              "vi": "Giảm dùng mạng xã hội giảm social-comparison và cải thiện tâm trạng."
+            },
+            {
+              "en": "Vietnamese young women report high social comparison from beauty influencers on TikTok.",
+              "vi": "Phụ nữ trẻ Việt báo social-comparison cao từ beauty influencer trên TikTok."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["peer comparison"],
+      "antonyms": ["self-acceptance"],
+      "collocations": [
+        "social-comparison trap",
+        "constant social comparison",
+        "social-comparison theory"
+      ],
+      "mnemonic_vi": "SOCIAL (xã hội) + COMPARISON (so sánh) = so sánh với người ta. Bệnh thời mạng xã hội."
+    },
+    {
+      "word": "fomo",
+      "lemma": "FOMO",
+      "ipa": "/ˈfəʊməʊ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "Fear Of Missing Out — the anxiety that exciting events, social connections, or opportunities are happening elsewhere without you",
+          "meaning_vi": "FOMO (Fear Of Missing Out — lo âu rằng sự kiện thú vị, kết nối, cơ hội đang xảy ra ở chỗ khác mà mình bỏ lỡ)",
+          "examples": [
+            {
+              "en": "FOMO drives people to check Instagram even at midnight just to see what they missed.",
+              "vi": "FOMO khiến người ta check Instagram cả nửa đêm chỉ để xem mình bỏ lỡ gì."
+            },
+            {
+              "en": "Crypto traders famously suffer FOMO when prices spike without them.",
+              "vi": "Trader crypto nổi tiếng vì bị FOMO khi giá tăng vọt mà họ không có mặt."
+            },
+            {
+              "en": "Vietnamese students often feel FOMO during Tết about friends posting from fancier locations.",
+              "vi": "Học sinh Việt thường cảm thấy FOMO dịp Tết khi bạn bè đăng từ nơi sang hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fear of missing out"],
+      "antonyms": ["JOMO"],
+      "collocations": ["suffer from FOMO", "FOMO marketing", "trigger FOMO"],
+      "mnemonic_vi": "F(ear) O(f) M(issing) O(ut) = FOMO. Lo bỏ lỡ → check phone liên tục. Đối lập JOMO (Joy of Missing Out)."
+    },
+    {
+      "word": "jomo",
+      "lemma": "JOMO",
+      "ipa": "/ˈdʒəʊməʊ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "Joy Of Missing Out — the contentment felt from intentionally disconnecting from social activities, news, or online life",
+          "meaning_vi": "JOMO (Joy Of Missing Out — niềm vui từ việc chủ động bỏ lỡ hoạt động xã hội, tin tức, đời sống online)",
+          "examples": [
+            {
+              "en": "JOMO is the satisfying opposite of FOMO — choosing rest over restless connection.",
+              "vi": "JOMO là cái đối lập sảng khoái của FOMO — chọn nghỉ ngơi thay vì kết nối bất an."
+            },
+            {
+              "en": "Embracing JOMO means turning off the phone and enjoying a quiet evening alone.",
+              "vi": "Đón nhận JOMO nghĩa là tắt điện thoại và tận hưởng một buổi tối yên tĩnh một mình."
+            },
+            {
+              "en": "Some Vietnamese remote workers schedule weekly JOMO Saturdays to recharge.",
+              "vi": "Một số nhân viên remote Việt lên lịch JOMO thứ Bảy hằng tuần để nạp lại năng lượng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["joy of missing out"],
+      "antonyms": ["FOMO"],
+      "collocations": ["embrace JOMO", "JOMO mindset", "JOMO weekend"],
+      "mnemonic_vi": "J(oy) O(f) M(issing) O(ut) = JOMO. Đối lập FOMO. Vui vì bỏ lỡ — yên tĩnh, thoải mái."
+    },
+    {
+      "word": "app-blocker",
+      "lemma": "app-blocker",
+      "ipa": "/ˈæp ˌblɒkə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a software tool or built-in setting that limits or prevents access to specific apps during chosen times to reduce distraction",
+          "meaning_vi": "trình chặn app (phần mềm hoặc cài đặt sẵn để hạn chế hoặc chặn truy cập app trong khoảng thời gian được chọn — giảm phân tâm)",
+          "examples": [
+            {
+              "en": "Apps like Freedom and Cold Turkey work as cross-device app-blockers.",
+              "vi": "App như Freedom và Cold Turkey hoạt động như app-blocker đa thiết bị."
+            },
+            {
+              "en": "Setting an app-blocker for Instagram between 10pm and 7am improves sleep dramatically.",
+              "vi": "Đặt app-blocker cho Instagram từ 10 giờ tối đến 7 giờ sáng cải thiện giấc ngủ rõ rệt."
+            },
+            {
+              "en": "Vietnamese students preparing for the gaokao-style exams often use app-blockers.",
+              "vi": "Học sinh Việt ôn thi đại học thường dùng app-blocker."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["focus app"],
+      "antonyms": [],
+      "collocations": ["install an app-blocker", "app-blocker schedule", "use an app-blocker"],
+      "mnemonic_vi": "APP (ứng dụng) + BLOCKER (chặn) = chặn app. Khóa Instagram/TikTok lúc cần tập trung."
+    },
+    {
+      "word": "dopamine-loop",
+      "lemma": "dopamine-loop",
+      "ipa": "/ˈdəʊpəmiːn luːp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a behavioral cycle in which apps and platforms deliver small dopamine hits through likes, notifications, or rewards to keep users coming back",
+          "meaning_vi": "vòng lặp dopamine (chu kỳ hành vi khi app/nền tảng phát dopamine nhỏ qua like, thông báo, phần thưởng để giữ người dùng quay lại)",
+          "examples": [
+            {
+              "en": "Slot machines and social media use the same dopamine-loop design principles.",
+              "vi": "Máy đánh bạc và mạng xã hội dùng cùng nguyên tắc thiết kế dopamine-loop."
+            },
+            {
+              "en": "Breaking a dopamine loop often requires removing the trigger entirely.",
+              "vi": "Phá vỡ dopamine-loop thường đòi hỏi loại bỏ trigger hoàn toàn."
+            },
+            {
+              "en": "Vietnamese tech ethics talks now warn parents about dopamine loops in kids' games.",
+              "vi": "Các buổi đạo đức tech Việt giờ cảnh báo phụ huynh về dopamine-loop trong game trẻ em."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reward loop"],
+      "antonyms": [],
+      "collocations": ["break a dopamine loop", "engineered dopamine loop", "dopamine-loop design"],
+      "mnemonic_vi": "DOPAMINE (chất hưng phấn não) + LOOP (vòng lặp) = vòng phát dopamine nhỏ giọt. Cơ chế gây nghiện app."
+    },
+    {
+      "word": "attention-span",
+      "lemma": "attention-span",
+      "ipa": "/əˈtenʃn spæn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the length of time a person can stay focused on a single task or piece of information before getting distracted",
+          "meaning_vi": "khả năng tập trung (thời gian một người có thể tập trung vào một việc/thông tin trước khi bị phân tâm)",
+          "examples": [
+            {
+              "en": "Studies suggest average attention-span has shrunk in the smartphone era.",
+              "vi": "Nghiên cứu cho thấy attention-span trung bình đã giảm trong thời smartphone."
+            },
+            {
+              "en": "TikTok favors short clips because viewers' attention-spans are getting shorter.",
+              "vi": "TikTok ưu tiên clip ngắn vì attention-span người xem đang ngắn lại."
+            },
+            {
+              "en": "Vietnamese schools worry about declining attention-spans in elementary students.",
+              "vi": "Trường Việt lo về attention-span giảm ở học sinh tiểu học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["focus span"],
+      "antonyms": [],
+      "collocations": ["short attention span", "improve attention span", "attention-span training"],
+      "mnemonic_vi": "ATTENTION (chú ý) + SPAN (khoảng) = khoảng thời gian chú ý. Cá vàng 3 giây, người ngày nay không hơn nhiều."
+    },
+    {
+      "word": "info-overload",
+      "lemma": "info-overload",
+      "ipa": "/ˈɪnfəʊ ˌəʊvəlˌəʊd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being overwhelmed by receiving more information than one can process, leading to fatigue, confusion, or poor decisions",
+          "meaning_vi": "quá tải thông tin (nhận nhiều thông tin hơn khả năng xử lý, dẫn đến mệt mỏi, nhầm lẫn, quyết định kém)",
+          "examples": [
+            {
+              "en": "Info-overload makes consumers freeze rather than buy when given too many options.",
+              "vi": "Info-overload làm người tiêu dùng đông cứng thay vì mua khi có quá nhiều lựa chọn."
+            },
+            {
+              "en": "Journalists feel chronic info-overload trying to follow breaking news streams.",
+              "vi": "Nhà báo cảm thấy info-overload mãn tính khi theo dõi luồng tin nóng."
+            },
+            {
+              "en": "Vietnamese stock traders combat info-overload by curating a small list of trusted sources.",
+              "vi": "Trader chứng khoán Việt chống info-overload bằng cách giữ danh sách nhỏ nguồn tin tin cậy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["information overload"],
+      "antonyms": ["information diet"],
+      "collocations": ["suffer info-overload", "info-overload era", "manage info-overload"],
+      "mnemonic_vi": "INFO (thông tin) + OVERLOAD (quá tải) = quá tải thông tin. Ghép từ rõ luôn."
+    },
+    {
+      "word": "tech-balance",
+      "lemma": "tech-balance",
+      "ipa": "/ˈtek ˌbæləns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a healthy equilibrium between time spent on technology and time spent in offline activities, relationships, and self-care",
+          "meaning_vi": "cân bằng công nghệ (sự cân đối lành mạnh giữa thời gian dùng tech và thời gian offline, quan hệ, chăm sóc bản thân)",
+          "examples": [
+            {
+              "en": "Achieving tech-balance is harder for knowledge workers whose jobs require constant connectivity.",
+              "vi": "Đạt tech-balance khó hơn với người làm tri thức vì công việc cần kết nối liên tục."
+            },
+            {
+              "en": "Setting tech-free zones at home, like the dinner table, helps families maintain tech-balance.",
+              "vi": "Đặt vùng tech-free trong nhà, như bàn ăn, giúp gia đình giữ tech-balance."
+            },
+            {
+              "en": "Vietnamese wellness coaches now sell tech-balance plans for tired urban professionals.",
+              "vi": "Coach wellness Việt giờ bán kế hoạch tech-balance cho dân chuyên nghiệp thành thị mệt mỏi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["digital balance"],
+      "antonyms": [],
+      "collocations": ["find tech-balance", "tech-balance plan", "maintain tech-balance"],
+      "mnemonic_vi": "TECH (công nghệ) + BALANCE (cân bằng) = cân bằng tech và đời thực."
+    },
+    {
+      "word": "grayscale",
+      "lemma": "grayscale",
+      "ipa": "/ˈɡreɪskeɪl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a display mode that shows everything in shades of gray instead of color, often used to make a phone less visually appealing and reduce overuse",
+          "meaning_vi": "chế độ thang xám (chế độ hiển thị bằng các sắc xám thay vì màu, thường dùng để làm điện thoại bớt hấp dẫn và giảm dùng quá mức)",
+          "examples": [
+            {
+              "en": "Setting your phone to grayscale can cut daily screen time by 20-30%.",
+              "vi": "Đặt điện thoại sang grayscale có thể cắt screen-time hằng ngày 20-30%."
+            },
+            {
+              "en": "Apps look much less attractive in grayscale, including TikTok and Instagram.",
+              "vi": "App nhìn kém hấp dẫn hơn hẳn trong grayscale, kể cả TikTok và Instagram."
+            },
+            {
+              "en": "Vietnamese productivity coaches recommend grayscale mode during study hours.",
+              "vi": "Coach năng suất Việt khuyên dùng chế độ grayscale trong giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["greyscale", "monochrome mode"],
+      "antonyms": ["color mode"],
+      "collocations": ["grayscale mode", "switch to grayscale", "grayscale filter"],
+      "mnemonic_vi": "GRAY (xám) + SCALE (thang) = thang xám. Mọi thứ thành đen-trắng. Giảm hấp dẫn của app."
+    },
+    {
+      "word": "focus-mode",
+      "lemma": "focus-mode",
+      "ipa": "/ˈfəʊkəs məʊd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a phone or app setting that silences distractions, allows only essential apps, and helps the user concentrate on a task for a set period",
+          "meaning_vi": "chế độ tập trung (cài đặt điện thoại/app để tắt phân tâm, chỉ cho phép app thiết yếu, giúp tập trung trong khoảng thời gian đặt sẵn)",
+          "examples": [
+            {
+              "en": "iOS Focus mode lets you create custom modes for work, sleep, or driving.",
+              "vi": "Focus-mode iOS cho phép bạn tạo các mode tùy chỉnh cho work, sleep, hoặc lái xe."
+            },
+            {
+              "en": "Activate focus mode during deep-work sessions to silence Slack and email.",
+              "vi": "Kích hoạt focus-mode trong phiên deep-work để tắt Slack và email."
+            },
+            {
+              "en": "Vietnamese exam-prep apps now include built-in focus modes with pomodoro timers.",
+              "vi": "App luyện thi Việt giờ tích hợp focus-mode với đồng hồ pomodoro."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["concentration mode"],
+      "antonyms": [],
+      "collocations": ["enable focus mode", "focus-mode timer", "set up focus mode"],
+      "mnemonic_vi": "FOCUS (tập trung) + MODE (chế độ) = chế độ tập trung. Tắt tiếng app khác để học/làm việc."
+    },
+    {
+      "word": "mindless-scrolling",
+      "lemma": "mindless-scroll",
+      "ipa": "/ˌmaɪndləs ˈskrəʊlɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the habit of scrolling through social media or apps without conscious purpose or attention, often passing time without gaining real value",
+          "meaning_vi": "lướt vô thức (thói quen cuộn mạng xã hội không mục đích, không chú ý, thường giết thời gian mà không nhận giá trị thực)",
+          "examples": [
+            {
+              "en": "Mindless scrolling in bed is one of the worst habits for sleep quality.",
+              "vi": "Mindless-scrolling trên giường là một trong những thói quen tệ nhất cho giấc ngủ."
+            },
+            {
+              "en": "Catch yourself in mindless scrolling and ask: 'What was I actually looking for?'.",
+              "vi": "Bắt mình đang mindless-scrolling và hỏi: 'Mình thực ra đang tìm gì?'."
+            },
+            {
+              "en": "Vietnamese office workers often mindless-scroll for 30 minutes during lunch breaks.",
+              "vi": "Nhân viên văn phòng Việt thường mindless-scroll 30 phút trong giờ trưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["passive scrolling"],
+      "antonyms": ["intentional browsing"],
+      "collocations": [
+        "stop mindless scrolling",
+        "hours of mindless scrolling",
+        "break the mindless-scrolling habit"
+      ],
+      "mnemonic_vi": "MINDLESS (vô thức) + SCROLLING (cuộn) = cuộn vô thức. Lướt như zombie không nhớ mình vừa đọc gì."
+    },
+    {
+      "word": "night-mode",
+      "lemma": "night-mode",
+      "ipa": "/ˈnaɪt məʊd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a display setting that shifts colors to warmer tones at night to reduce blue-light exposure and minimize sleep disruption",
+          "meaning_vi": "chế độ ban đêm (cài đặt hiển thị chuyển màu sang tông ấm vào ban đêm để giảm blue-light và ít phá giấc ngủ)",
+          "examples": [
+            {
+              "en": "Most modern phones auto-enable night mode after sunset.",
+              "vi": "Đa số điện thoại hiện đại tự bật night-mode sau hoàng hôn."
+            },
+            {
+              "en": "Apple calls it Night Shift; Android calls it Night Light — both are night-mode.",
+              "vi": "Apple gọi là Night Shift; Android gọi là Night Light — đều là night-mode."
+            },
+            {
+              "en": "Vietnamese students who study late benefit from night mode on their laptops too.",
+              "vi": "Học sinh Việt học khuya cũng hưởng lợi từ night-mode trên laptop."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["night shift", "night light"],
+      "antonyms": ["day mode"],
+      "collocations": ["enable night mode", "automatic night mode", "night-mode schedule"],
+      "mnemonic_vi": "NIGHT (đêm) + MODE (chế độ) = chế độ đêm. Màn hình chuyển sang tông ấm vàng, dễ ngủ hơn."
+    },
+    {
+      "word": "airplane-mode",
+      "lemma": "airplane-mode",
+      "ipa": "/ˈeəpleɪn məʊd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a phone setting that disables all wireless transmission — cellular, Wi-Fi, and Bluetooth — originally required for flights but also useful for digital detox",
+          "meaning_vi": "chế độ máy bay (cài đặt điện thoại tắt mọi sóng vô tuyến — di động, Wi-Fi, Bluetooth — ban đầu cho chuyến bay, giờ cũng dùng để digital-detox)",
+          "examples": [
+            {
+              "en": "Turn on airplane mode at night to avoid waking up to notifications.",
+              "vi": "Bật airplane-mode ban đêm để tránh thức giấc vì notification."
+            },
+            {
+              "en": "Airplane mode lets you keep using offline features like the camera and notes.",
+              "vi": "Airplane-mode vẫn cho dùng tính năng offline như camera và notes."
+            },
+            {
+              "en": "Vietnamese hikers in remote areas often run their phones in airplane mode to save battery.",
+              "vi": "Người leo núi Việt ở vùng xa thường để điện thoại ở airplane-mode để tiết kiệm pin."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["flight mode"],
+      "antonyms": [],
+      "collocations": ["turn on airplane mode", "airplane-mode setting", "in airplane mode"],
+      "mnemonic_vi": "AIRPLANE (máy bay) + MODE (chế độ) = chế độ máy bay. Tắt mọi sóng. Cũng để cai nghiện điện thoại đêm."
+    },
+    {
+      "word": "do-not-disturb",
+      "lemma": "do-not-disturb",
+      "ipa": "/ˌduː nɒt dɪˈstɜːb/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a phone or app setting that silences all incoming calls, messages, and notifications except for chosen exceptions, helping the user focus or rest",
+          "meaning_vi": "không làm phiền (cài đặt điện thoại tắt mọi cuộc gọi, tin nhắn, thông báo trừ ngoại lệ được chọn — giúp tập trung hoặc nghỉ ngơi)",
+          "examples": [
+            {
+              "en": "Schedule do-not-disturb from 10pm to 7am for guaranteed quiet sleep.",
+              "vi": "Đặt lịch do-not-disturb từ 10 giờ tối đến 7 giờ sáng để có giấc ngủ yên tĩnh."
+            },
+            {
+              "en": "Do-not-disturb allows urgent calls through if the same person calls twice in a row.",
+              "vi": "Do-not-disturb cho phép cuộc gọi khẩn qua nếu cùng người gọi 2 lần liên tiếp."
+            },
+            {
+              "en": "Vietnamese remote workers heavily use do-not-disturb during cross-timezone meetings.",
+              "vi": "Người làm remote Việt dùng nhiều do-not-disturb trong họp đa múi giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["DND", "silent mode"],
+      "antonyms": [],
+      "collocations": ["enable do-not-disturb", "do-not-disturb schedule", "set do-not-disturb"],
+      "mnemonic_vi": "DO NOT DISTURB = không làm phiền. Đặt biển treo cửa khách sạn → chế độ điện thoại."
+    },
+    {
+      "word": "tech-addiction",
+      "lemma": "tech-addiction",
+      "ipa": "/ˈtek əˌdɪkʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a compulsive overuse of technology, especially smartphones and social media, that interferes with daily life, sleep, and relationships",
+          "meaning_vi": "nghiện công nghệ (dùng tech quá mức cưỡng chế, đặc biệt smartphone và mạng xã hội, ảnh hưởng cuộc sống, giấc ngủ, quan hệ)",
+          "examples": [
+            {
+              "en": "Tech addiction in teenagers is now recognized as a real public health concern.",
+              "vi": "Tech-addiction ở tuổi teen giờ được công nhận là vấn đề sức khỏe cộng đồng thật sự."
+            },
+            {
+              "en": "Treatment for tech addiction often combines therapy, app limits, and lifestyle changes.",
+              "vi": "Điều trị tech-addiction thường kết hợp therapy, giới hạn app và thay đổi lối sống."
+            },
+            {
+              "en": "Vietnamese parents are increasingly seeking counseling for children with tech addiction.",
+              "vi": "Phụ huynh Việt ngày càng tìm counseling cho con bị tech-addiction."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["digital addiction", "smartphone addiction"],
+      "antonyms": [],
+      "collocations": [
+        "tech-addiction treatment",
+        "signs of tech addiction",
+        "overcome tech addiction"
+      ],
+      "mnemonic_vi": "TECH (công nghệ) + ADDICTION (nghiện) = nghiện tech. Như nghiện rượu/thuốc nhưng cho điện thoại."
+    }
+  ]
+}

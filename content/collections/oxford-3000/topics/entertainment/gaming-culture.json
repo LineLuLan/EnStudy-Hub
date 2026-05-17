@@ -1,0 +1,650 @@
+{
+  "slug": "gaming-culture",
+  "name": "Gaming Culture",
+  "description": "Văn hóa game B2 — raid, guild, speedrun, battle-royale, modding và 20 thuật ngữ cho gamer và streamer.",
+  "order_index": 17,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "raid",
+      "lemma": "raid",
+      "ipa": "/reɪd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large-scale, coordinated group activity in online games where players team up to defeat powerful bosses or complete tough objectives",
+          "meaning_vi": "raid (hoạt động nhóm lớn có phối hợp trong game online — đội cùng đánh boss mạnh hoặc hoàn thành nhiệm vụ khó)",
+          "examples": [
+            {
+              "en": "World of Warcraft raids typically require 10 to 25 players working together.",
+              "vi": "Raid trong World of Warcraft thường cần 10 đến 25 người chơi phối hợp."
+            },
+            {
+              "en": "A successful raid can last several hours and demands voice-chat coordination.",
+              "vi": "Một raid thành công có thể kéo dài nhiều giờ và đòi hỏi phối hợp qua voice-chat."
+            },
+            {
+              "en": "Vietnamese guilds in MMO games often schedule raids late at night for working players.",
+              "vi": "Guild Việt trong game MMO thường lên lịch raid đêm muộn cho người chơi đi làm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dungeon raid", "boss raid"],
+      "antonyms": [],
+      "collocations": ["raid boss", "join a raid", "clear a raid", "raid mechanics"],
+      "mnemonic_vi": "RAID (cướp, đột kích) → trong game = nhóm tấn công boss khó. Nhớ raid trong game ≠ raid công an."
+    },
+    {
+      "word": "guild",
+      "lemma": "guild",
+      "ipa": "/ɡɪld/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an organized group of players in an online game who join forces for raids, social interaction, and shared progression",
+          "meaning_vi": "guild (nhóm người chơi có tổ chức trong game online cùng đánh raid, giao lưu và cùng tiến cấp)",
+          "examples": [
+            {
+              "en": "Joining a guild transforms an MMO from a solo game into a social one.",
+              "vi": "Vào guild biến MMO từ game solo thành game xã hội."
+            },
+            {
+              "en": "Top competitive guilds race to clear new raids first when expansions launch.",
+              "vi": "Các guild cạnh tranh đua nhau clear raid mới đầu tiên khi expansion ra mắt."
+            },
+            {
+              "en": "Vietnamese guilds in Genshin Impact often hold real-life meetups around Tết.",
+              "vi": "Guild Việt trong Genshin Impact thường tổ chức gặp mặt ngoài đời quanh dịp Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["clan"],
+      "antonyms": ["solo player"],
+      "collocations": [
+        "guild leader",
+        "join a guild",
+        "guild chat",
+        "guild raid",
+        "top-ranked guild"
+      ],
+      "etymology_hint": "From Old English 'gild' (payment, fellowship) — medieval guilds were craftsmen unions; modern gaming borrowed the term.",
+      "mnemonic_vi": "GUILD = phường thợ thời trung cổ → trong game = phường người chơi. Tổ chức có lãnh đạo, có thành viên."
+    },
+    {
+      "word": "prize-pool",
+      "lemma": "prize-pool",
+      "ipa": "/ˈpraɪz puːl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the total amount of money or rewards available to winners in a competition, often funded by sponsors, entry fees, or in-game purchases",
+          "meaning_vi": "tổng giải thưởng (tổng tiền hoặc phần thưởng cho người thắng trong giải đấu, thường từ tài trợ, phí tham gia, hoặc mua trong game)",
+          "examples": [
+            {
+              "en": "Dota 2's International tournament once had a prize pool of over 40 million dollars.",
+              "vi": "Giải The International của Dota 2 từng có prize-pool hơn 40 triệu đô."
+            },
+            {
+              "en": "Fans can boost the prize pool by buying in-game cosmetics.",
+              "vi": "Fan có thể tăng prize-pool bằng cách mua đồ cosmetic trong game."
+            },
+            {
+              "en": "Vietnamese esports tournaments now offer prize pools above 1 billion VND for top titles.",
+              "vi": "Giải esports Việt giờ có prize-pool trên 1 tỷ VND cho các tựa hàng đầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prize fund"],
+      "antonyms": [],
+      "collocations": ["total prize pool", "split the prize pool", "growing prize pool"],
+      "mnemonic_vi": "PRIZE (giải thưởng) + POOL (hồ, gộp) = hồ giải. Prize-pool = tổng tiền thưởng gom lại."
+    },
+    {
+      "word": "speedrun",
+      "lemma": "speedrun",
+      "ipa": "/ˈspiːdrʌn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a playthrough of a video game completed as quickly as possible, often using glitches, optimized strategies, or precise inputs to beat world records",
+          "meaning_vi": "speedrun (chơi game phá đảo nhanh nhất có thể, thường dùng lỗi game, chiến thuật tối ưu, thao tác chính xác để phá kỷ lục thế giới)",
+          "examples": [
+            {
+              "en": "The Super Mario Bros speedrun record is now under five minutes.",
+              "vi": "Kỷ lục speedrun Super Mario Bros giờ dưới 5 phút."
+            },
+            {
+              "en": "Charity events like 'Games Done Quick' showcase speedruns and raise millions.",
+              "vi": "Sự kiện từ thiện như 'Games Done Quick' giới thiệu speedrun và quyên góp hàng triệu đô."
+            },
+            {
+              "en": "Vietnamese speedrunners are becoming competitive in classic JRPG categories.",
+              "vi": "Speedrunner Việt đang cạnh tranh tốt ở thể loại JRPG cổ điển."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["casual playthrough"],
+      "collocations": [
+        "world-record speedrun",
+        "any% speedrun",
+        "100% speedrun",
+        "speedrun category"
+      ],
+      "mnemonic_vi": "SPEED (tốc độ) + RUN (chạy) = chạy nhanh. Speedrun = phá đảo game cực nhanh."
+    },
+    {
+      "word": "lan-party",
+      "lemma": "lan-party",
+      "ipa": "/ˈlæn ˌpɑːti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a gathering where players bring their computers and connect them through a local-area network to play multiplayer games together in the same room",
+          "meaning_vi": "lan-party (buổi tụ tập người chơi mang máy tính, kết nối qua mạng nội bộ LAN để chơi multiplayer cùng phòng)",
+          "examples": [
+            {
+              "en": "Counter-Strike LAN parties defined the early 2000s gaming culture.",
+              "vi": "LAN-party Counter-Strike định hình văn hóa game đầu thập niên 2000."
+            },
+            {
+              "en": "LAN parties have largely been replaced by online play, but nostalgic ones still happen.",
+              "vi": "LAN-party phần lớn bị thay bằng chơi online, nhưng các buổi hoài niệm vẫn diễn ra."
+            },
+            {
+              "en": "Vietnamese internet cafés (tiệm net) ran de facto LAN parties for decades.",
+              "vi": "Tiệm net Việt thực tế là LAN-party suốt nhiều thập kỷ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["online play"],
+      "collocations": ["host a LAN party", "weekend LAN party", "LAN-party tournament"],
+      "mnemonic_vi": "LAN (mạng nội bộ) + PARTY (tiệc) = tiệc LAN. Cắm dây mạng vào nhau, chơi game trực tiếp trong phòng."
+    },
+    {
+      "word": "modding",
+      "lemma": "mod",
+      "ipa": "/ˈmɒdɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of creating, installing, or sharing modifications that change the gameplay, graphics, or content of a video game",
+          "meaning_vi": "modding (tạo, cài đặt, hoặc chia sẻ các mod thay đổi gameplay, đồ họa, hoặc nội dung game)",
+          "examples": [
+            {
+              "en": "Skyrim's modding scene has extended the game's life by more than a decade.",
+              "vi": "Cộng đồng modding Skyrim đã kéo dài tuổi đời game thêm hơn một thập kỷ."
+            },
+            {
+              "en": "Minecraft built its empire on user-friendly modding tools.",
+              "vi": "Minecraft xây đế chế dựa trên công cụ modding thân thiện với người dùng."
+            },
+            {
+              "en": "Vietnamese modders translate popular Western games into Vietnamese voluntarily.",
+              "vi": "Modder Việt tình nguyện dịch các game phương Tây phổ biến sang tiếng Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["game modification"],
+      "antonyms": [],
+      "collocations": ["modding community", "modding tools", "popular mod", "install a mod"],
+      "mnemonic_vi": "MOD (sửa, modify) + DING = sửa game. Modding = tự sửa, thêm tính năng vào game gốc."
+    },
+    {
+      "word": "cosmetic-item",
+      "lemma": "cosmetic-item",
+      "ipa": "/kɒzˈmetɪk ˈaɪtəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an in-game item that changes a character's appearance — like skins, outfits, or emotes — without affecting gameplay or power",
+          "meaning_vi": "đồ cosmetic (vật phẩm trong game đổi vẻ ngoài nhân vật — skin, trang phục, emote — không ảnh hưởng gameplay)",
+          "examples": [
+            {
+              "en": "Fortnite makes billions from cosmetic items even though the base game is free.",
+              "vi": "Fortnite kiếm hàng tỷ đô từ cosmetic-item dù game gốc miễn phí."
+            },
+            {
+              "en": "Rare cosmetic items can sell for thousands of dollars on third-party markets.",
+              "vi": "Cosmetic-item hiếm có thể bán hàng nghìn đô trên thị trường bên thứ ba."
+            },
+            {
+              "en": "Vietnamese Liên Quân Mobile players often spend on cosmetic items rather than gameplay boosts.",
+              "vi": "Người chơi Liên Quân Mobile Việt thường chi cho cosmetic-item hơn là boost gameplay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["skin", "outfit"],
+      "antonyms": ["pay-to-win item"],
+      "collocations": ["buy a cosmetic item", "rare cosmetic item", "cosmetic-item store"],
+      "mnemonic_vi": "COSMETIC (mỹ phẩm) + ITEM (vật) = đồ làm đẹp. Cosmetic-item = đồ trang trí trong game, không ảnh hưởng sức mạnh."
+    },
+    {
+      "word": "battle-royale",
+      "lemma": "battle-royale",
+      "ipa": "/ˌbætl rɔɪˈæl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a video game genre where many players fight on a shrinking map until only one player or team remains, popularized by PUBG and Fortnite",
+          "meaning_vi": "battle-royale (thể loại game nhiều người đấu trên bản đồ thu hẹp dần đến khi chỉ còn 1 người/đội — phổ biến nhờ PUBG, Fortnite)",
+          "examples": [
+            {
+              "en": "PUBG launched the modern battle-royale boom in 2017.",
+              "vi": "PUBG khởi đầu cơn sốt battle-royale hiện đại năm 2017."
+            },
+            {
+              "en": "Battle-royale games typically support 100 players per match.",
+              "vi": "Game battle-royale thường hỗ trợ 100 người chơi mỗi trận."
+            },
+            {
+              "en": "Vietnamese players helped make Free Fire one of the top battle-royale games in Southeast Asia.",
+              "vi": "Người chơi Việt giúp Free Fire thành một trong những battle-royale hàng đầu Đông Nam Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["BR"],
+      "antonyms": [],
+      "collocations": ["battle-royale game", "battle-royale map", "win a battle royale"],
+      "etymology_hint": "From French 'bataille royale' (royal battle) — popularized by the Japanese film 'Battle Royale' (2000).",
+      "mnemonic_vi": "BATTLE (trận đánh) + ROYALE (hoàng gia, lớn) = trận đánh hoành tráng. 100 người, chỉ 1 sống sót."
+    },
+    {
+      "word": "player-base",
+      "lemma": "player-base",
+      "ipa": "/ˈpleɪə(r) beɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the total community of active players of a particular video game, used as a measure of the game's popularity and health",
+          "meaning_vi": "lượng người chơi (cộng đồng người chơi đang chơi tích cực một game, dùng để đo độ phổ biến và sức khỏe game)",
+          "examples": [
+            {
+              "en": "League of Legends has maintained a player base of over 100 million for years.",
+              "vi": "League of Legends duy trì player-base trên 100 triệu suốt nhiều năm."
+            },
+            {
+              "en": "A shrinking player base usually signals trouble for live-service games.",
+              "vi": "Player-base giảm thường báo hiệu rắc rối cho game live-service."
+            },
+            {
+              "en": "Vietnamese mobile games often grow their player base through TikTok ads.",
+              "vi": "Game di động Việt thường tăng player-base qua quảng cáo TikTok."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["user base"],
+      "antonyms": [],
+      "collocations": ["growing player base", "shrinking player base", "global player base"],
+      "mnemonic_vi": "PLAYER (người chơi) + BASE (nền) = nền tảng người chơi. Cộng đồng nuôi game."
+    },
+    {
+      "word": "loot-box",
+      "lemma": "loot-box",
+      "ipa": "/ˈluːt bɒks/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an in-game purchase that gives random rewards, often criticized for resembling gambling, especially when sold to young players",
+          "meaning_vi": "loot-box (vật phẩm mua trong game cho phần thưởng ngẫu nhiên — bị chỉ trích giống đánh bạc, đặc biệt khi bán cho trẻ)",
+          "examples": [
+            {
+              "en": "Several countries have banned or regulated loot boxes as a form of gambling.",
+              "vi": "Một số quốc gia cấm hoặc quản loot-box như một hình thức đánh bạc."
+            },
+            {
+              "en": "Loot-box outrage in Star Wars Battlefront II forced EA to redesign monetization.",
+              "vi": "Phẫn nộ về loot-box trong Star Wars Battlefront II buộc EA thiết kế lại monetization."
+            },
+            {
+              "en": "Vietnamese mobile games often disguise loot boxes as 'lucky chests'.",
+              "vi": "Game di động Việt thường ngụy trang loot-box thành 'rương may mắn'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gacha", "lucky chest"],
+      "antonyms": [],
+      "collocations": ["open a loot box", "loot-box odds", "ban loot boxes", "rare loot box"],
+      "mnemonic_vi": "LOOT (chiến lợi phẩm) + BOX (hộp) = hộp chiến lợi phẩm. Mở ra hên xui — như đánh bạc."
+    },
+    {
+      "word": "matchmaking",
+      "lemma": "matchmaking",
+      "ipa": "/ˈmætʃˌmeɪkɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the automated system that pairs players of similar skill levels together for online matches to keep games fair and competitive",
+          "meaning_vi": "matchmaking (hệ thống tự động ghép người chơi cùng trình độ vào trận online để giữ trận đấu công bằng và cạnh tranh)",
+          "examples": [
+            {
+              "en": "Bad matchmaking puts beginners against pros, ruining the experience.",
+              "vi": "Matchmaking tệ ghép người mới với pro, hủy hoại trải nghiệm."
+            },
+            {
+              "en": "Ranked matchmaking uses ELO-style rating to find balanced opponents.",
+              "vi": "Matchmaking xếp hạng dùng điểm kiểu ELO để tìm đối thủ cân bằng."
+            },
+            {
+              "en": "Vietnamese players complain when matchmaking pairs them with players from much faster server regions.",
+              "vi": "Người chơi Việt phàn nàn khi matchmaking ghép họ với người ở server tốc độ cao hơn nhiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["player pairing"],
+      "antonyms": [],
+      "collocations": [
+        "ranked matchmaking",
+        "skill-based matchmaking",
+        "matchmaking queue",
+        "matchmaking algorithm"
+      ],
+      "mnemonic_vi": "MATCH (trận, ghép cặp) + MAKING (tạo) = tạo cặp đấu. Matchmaking = mai mối trong game."
+    },
+    {
+      "word": "leaderboard",
+      "lemma": "leaderboard",
+      "ipa": "/ˈliːdəbɔːd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a ranked list showing top players or teams in a game based on score, wins, or skill rating, often updated in real time",
+          "meaning_vi": "bảng xếp hạng (danh sách xếp hạng người chơi/đội theo điểm, thắng, hoặc trình độ — thường cập nhật thời gian thực)",
+          "examples": [
+            {
+              "en": "Climbing the global leaderboard is the long-term goal of most competitive players.",
+              "vi": "Leo leaderboard toàn cầu là mục tiêu dài hạn của đa số người chơi cạnh tranh."
+            },
+            {
+              "en": "Seasonal leaderboards reset every few months to give new players a chance.",
+              "vi": "Leaderboard mùa reset mỗi vài tháng để cho người mới cơ hội."
+            },
+            {
+              "en": "Vietnamese players have reached top-100 global leaderboards in League of Legends.",
+              "vi": "Người chơi Việt đã lên top-100 leaderboard toàn cầu League of Legends."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ranking board"],
+      "antonyms": [],
+      "collocations": ["top of the leaderboard", "global leaderboard", "climb the leaderboard"],
+      "mnemonic_vi": "LEADER (dẫn đầu) + BOARD (bảng) = bảng dẫn đầu. Leaderboard = bảng top."
+    },
+    {
+      "word": "grind",
+      "lemma": "grind",
+      "ipa": "/ɡraɪnd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of repeatedly performing tedious in-game tasks to gain experience, items, or progress slowly toward a goal",
+          "meaning_vi": "grind (lặp lại nhiệm vụ nhàm chán trong game để lấy kinh nghiệm, vật phẩm hoặc tiến chậm tới mục tiêu)",
+          "examples": [
+            {
+              "en": "Korean MMOs are notorious for their endless grind to level up.",
+              "vi": "MMO Hàn nổi tiếng vì grind không hồi kết để lên cấp."
+            },
+            {
+              "en": "Some players love the grind for relaxation; others find it tedious.",
+              "vi": "Một số người chơi yêu grind để thư giãn; người khác thấy nhàm chán."
+            },
+            {
+              "en": "Vietnamese gamers use the word 'cày' as the equivalent of grind in English.",
+              "vi": "Game thủ Việt dùng từ 'cày' tương đương grind tiếng Anh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["farming"],
+      "antonyms": [],
+      "collocations": ["daily grind", "endless grind", "grind for XP", "level-up grind"],
+      "mnemonic_vi": "GRIND (xay, lặp lại) → trong game = cày. Cày kinh nghiệm/items lặp đi lặp lại."
+    },
+    {
+      "word": "respawn",
+      "lemma": "respawn",
+      "ipa": "/ˌriːˈspɔːn/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to come back to life after being defeated in a video game, usually at a designated spawn point or after a timed delay",
+          "meaning_vi": "respawn (hồi sinh sau khi bị giết trong game, thường tại điểm spawn được đặt sẵn hoặc sau khoảng thời gian chờ)",
+          "examples": [
+            {
+              "en": "In Call of Duty, you respawn within seconds and rejoin the firefight.",
+              "vi": "Trong Call of Duty, bạn respawn trong vài giây và quay lại trận đấu súng."
+            },
+            {
+              "en": "Hardcore mode disables respawning, so one death ends the game.",
+              "vi": "Chế độ hardcore tắt respawn, một lần chết là hết game."
+            },
+            {
+              "en": "Vietnamese gamers shout 'respawn nhanh!' when waiting for the count-down.",
+              "vi": "Game thủ Việt thường la 'respawn nhanh!' khi chờ đếm ngược."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["revive"],
+      "antonyms": ["permadeath"],
+      "collocations": ["respawn timer", "respawn point", "instant respawn"],
+      "mnemonic_vi": "RE (lại) + SPAWN (sinh) = sinh lại. Respawn = hồi sinh trong game."
+    },
+    {
+      "word": "cheat-code",
+      "lemma": "cheat-code",
+      "ipa": "/ˈtʃiːt kəʊd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a special sequence of inputs or commands that unlocks hidden features, abilities, or items in a game — often outside normal gameplay rules",
+          "meaning_vi": "cheat-code (chuỗi lệnh đặc biệt mở khóa tính năng, sức mạnh, vật phẩm ẩn trong game — thường ngoài luật chơi thường)",
+          "examples": [
+            {
+              "en": "The classic Konami code (up-up-down-down-left-right-left-right-B-A) is the most famous cheat code in history.",
+              "vi": "Konami code kinh điển (up-up-down-down-left-right-left-right-B-A) là cheat-code nổi tiếng nhất lịch sử."
+            },
+            {
+              "en": "GTA games are famous for their hundreds of fun cheat codes.",
+              "vi": "Game GTA nổi tiếng với hàng trăm cheat-code thú vị."
+            },
+            {
+              "en": "Vietnamese kids used to memorize cheat codes from gaming magazines in the 2000s.",
+              "vi": "Trẻ em Việt từng học thuộc cheat-code từ tạp chí game thập niên 2000."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cheat"],
+      "antonyms": ["fair play"],
+      "collocations": ["enter a cheat code", "secret cheat code", "famous cheat code"],
+      "mnemonic_vi": "CHEAT (gian lận) + CODE (mã) = mã gian lận. Cheat-code = mã bí mật unlock vô địch."
+    },
+    {
+      "word": "console",
+      "lemma": "console",
+      "ipa": "/ˈkɒnsəʊl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a dedicated gaming device, such as PlayStation, Xbox, or Nintendo Switch, designed primarily to run video games",
+          "meaning_vi": "máy chơi game (thiết bị chuyên chơi game như PlayStation, Xbox, Nintendo Switch)",
+          "examples": [
+            {
+              "en": "PlayStation 5 sold out for over a year after its 2020 launch.",
+              "vi": "Console PlayStation 5 cháy hàng hơn một năm sau khi ra mắt 2020."
+            },
+            {
+              "en": "Console gaming competes with PC and mobile platforms for player attention.",
+              "vi": "Chơi console cạnh tranh với PC và di động để giành sự chú ý người chơi."
+            },
+            {
+              "en": "Vietnamese console gamers often import consoles from Singapore or Japan.",
+              "vi": "Game thủ console Việt thường nhập console từ Singapore hoặc Nhật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gaming machine"],
+      "antonyms": ["PC", "mobile"],
+      "collocations": ["gaming console", "next-gen console", "console exclusive", "console launch"],
+      "etymology_hint": "From French 'console' (cabinet) — originally a piece of furniture, then any small control unit.",
+      "mnemonic_vi": "CONSOLE = bảng điều khiển → máy chơi game cũng là bảng điều khiển. PS, Xbox đều là console."
+    },
+    {
+      "word": "gamertag",
+      "lemma": "gamertag",
+      "ipa": "/ˈɡeɪmətæɡ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a player's chosen unique username or handle in online gaming, used as their identity across servers, leaderboards, and friend lists",
+          "meaning_vi": "gamertag (tên người chơi tự chọn duy nhất trong game online, là định danh trên server, leaderboard, danh sách bạn)",
+          "examples": [
+            {
+              "en": "Picking a good gamertag is like picking a stage name — it sticks with you.",
+              "vi": "Chọn gamertag tốt giống chọn nghệ danh — nó dính với bạn."
+            },
+            {
+              "en": "Xbox once let players change their gamertag only for a fee.",
+              "vi": "Xbox từng chỉ cho phép đổi gamertag khi trả phí."
+            },
+            {
+              "en": "Vietnamese players often add 'VN' or '_vn' to their gamertags for visibility.",
+              "vi": "Người chơi Việt thường thêm 'VN' hoặc '_vn' vào gamertag để dễ nhận diện."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["username", "handle"],
+      "antonyms": ["real name"],
+      "collocations": ["choose a gamertag", "change gamertag", "unique gamertag"],
+      "mnemonic_vi": "GAMER (game thủ) + TAG (nhãn) = nhãn người chơi. Gamertag = tên hiệu trong game."
+    },
+    {
+      "word": "nerf",
+      "lemma": "nerf",
+      "ipa": "/nɜːf/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to weaken a character, weapon, or ability in a game through an update to make the game more balanced",
+          "meaning_vi": "nerf (làm yếu nhân vật/vũ khí/kỹ năng qua bản cập nhật để game cân bằng hơn)",
+          "examples": [
+            {
+              "en": "Riot nerfed the overpowered champion right after pro players started abusing him.",
+              "vi": "Riot nerf vị tướng quá mạnh ngay sau khi tuyển thủ pro bắt đầu lạm dụng."
+            },
+            {
+              "en": "Players often rage on Reddit when their favorite weapon gets nerfed.",
+              "vi": "Người chơi thường nổi giận trên Reddit khi vũ khí yêu thích bị nerf."
+            },
+            {
+              "en": "Vietnamese Liên Quân forums explode every time a hero gets nerfed.",
+              "vi": "Forum Liên Quân Việt phát nổ mỗi khi một hero bị nerf."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["weaken"],
+      "antonyms": ["buff"],
+      "collocations": ["get nerfed", "nerf hammer", "nerf an item"],
+      "etymology_hint": "From the toy brand 'NERF' (soft foam darts) — to nerf is to make something soft/weak like a foam toy.",
+      "mnemonic_vi": "NERF từ thương hiệu súng đồ chơi mút mềm. Nerf = làm yếu đi, mềm đi (như súng mút)."
+    },
+    {
+      "word": "buff",
+      "lemma": "buff",
+      "ipa": "/bʌf/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to make a character, weapon, or ability stronger in a game through an update or in-game effect, opposite of nerf",
+          "meaning_vi": "buff (làm mạnh hơn nhân vật/vũ khí/kỹ năng qua bản cập nhật hoặc hiệu ứng trong game, đối lập với nerf)",
+          "examples": [
+            {
+              "en": "The patch buffed the warrior class, making them viable again in raids.",
+              "vi": "Patch đã buff class warrior, cho họ khả thi lại trong raid."
+            },
+            {
+              "en": "Drink a potion to buff your speed before the boss fight.",
+              "vi": "Uống potion để buff tốc độ trước khi đánh boss."
+            },
+            {
+              "en": "Vietnamese MOBA players cheer when their main hero gets buffed.",
+              "vi": "Người chơi MOBA Việt reo lên khi hero chính của họ được buff."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["strengthen", "boost"],
+      "antonyms": ["nerf"],
+      "collocations": ["get buffed", "buff a hero", "stat buff", "temporary buff"],
+      "mnemonic_vi": "BUFF (đánh bóng, tăng cường) — trong game = tăng cường sức mạnh. Đối lập nerf."
+    },
+    {
+      "word": "noob",
+      "lemma": "noob",
+      "ipa": "/nuːb/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an inexperienced or beginner player in a game, sometimes used insultingly to mock poor performance",
+          "meaning_vi": "noob (người chơi mới hoặc thiếu kinh nghiệm; đôi khi dùng xúc phạm để chế nhạo người chơi kém)",
+          "examples": [
+            {
+              "en": "Everyone starts as a noob — even professional players were once beginners.",
+              "vi": "Ai cũng bắt đầu từ noob — ngay cả pro player cũng từng là người mới."
+            },
+            {
+              "en": "Toxic players calling teammates 'noobs' ruin online gaming culture.",
+              "vi": "Game thủ toxic gọi đồng đội là 'noob' làm hỏng văn hóa game online."
+            },
+            {
+              "en": "Vietnamese gamers also use 'gà' to mean a noob, with a similar slightly mocking tone.",
+              "vi": "Game thủ Việt cũng dùng 'gà' nghĩa là noob, với sắc thái hơi chế nhạo tương tự."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["newbie", "beginner"],
+      "antonyms": ["pro", "veteran"],
+      "collocations": ["total noob", "noob mistake", "noob-friendly"],
+      "etymology_hint": "Slang derivation of 'newbie' (new + suffix) — internet gaming culture from early 2000s.",
+      "mnemonic_vi": "NOOB = newbie → người mới. Slang game thủ. Đừng dùng xúc phạm — ai cũng từng là noob."
+    }
+  ]
+}
