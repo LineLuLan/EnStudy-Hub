@@ -489,6 +489,13 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P11a phrasal verbs** (5 lessons / 100 cards, 2026-05-17, commit `bf3ce79` → merge `2e43495`) — P11 5/15:
+    - `common-core/phrasal-get-give` — get-up, get-out, get-back, get-on, get-off, get-by, get-in, get-into, get-away, get-over, get-through, get-around, give-up, give-back, give-in, give-out, give-away, give-off, get-along, get-rid-of
+    - `common-core/phrasal-go-come` — go-on, go-off, go-out, go-back, go-up, go-down, go-through, go-by, go-ahead, go-with, come-in, come-out, come-back, come-on, come-down, come-from, come-up, come-off, come-across, come-round
+    - `common-core/phrasal-look-find` — look-after, look-for, look-up, look-out, look-into, look-through, look-up-to, look-down-on, look-forward-to, look-back, find-out, figure-out, work-out, sort-out, watch-out, look-on, look-round, fill-in, fill-out, fill-up
+    - `common-core/phrasal-take-bring` — take-off, take-on, take-over, take-out, take-up, take-back, take-in, take-care-of, take-part-in, take-after, take-down, take-aback, bring-back, bring-down, bring-up, bring-out, bring-in, bring-about, bring-along, bring-forward
+    - `common-core/phrasal-put-set` — put-on, put-off, put-up, put-down, put-away, put-back, put-out, put-into, put-up-with, put-together, set-up, set-off, set-out, set-down, put-forward, set-back, shut-down, plug-in, switch-on, switch-off
+    - Collision pivot: set-aside → put-forward (set-aside taken in personal-finance). Zod schema green all 5. IPA flags 100/100 (phrasal verbs not indexed in dictionaryapi.dev). Seed live: **pending user manual run** (target 167 lessons / 3340 cards).
   - [x] **P10e B2 expansion — P10 CLOSED 25/25** (5 lessons / 100 cards, 2026-05-17, commit `9bc8b35` → merge `ef3c57e`):
     - `nature-environment/space-astronomy` — nebula, supernova, exoplanet, black-hole, light-year, telescope, constellation, dwarf-planet, big-bang, dark-matter, dark-energy, comet, asteroid, meteor, cosmos, stellar, redshift, event-horizon, pulsar, antimatter
     - `daily-life/digital-wellbeing` — screen-time, digital-detox, doom-scrolling, notification-fatigue, blue-light, social-comparison, fomo, jomo, app-blocker, dopamine-loop, attention-span, info-overload, tech-balance, grayscale, focus-mode, mindless-scrolling, night-mode, airplane-mode, do-not-disturb, tech-addiction
@@ -572,10 +579,10 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
 - [x] **P10 B2 expansion** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO (next phase)
+- [~] **P11 Phrasal & Compound** (15 lessons / 300 cards) — P11a done (5/15), TODO P11b/c
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 162/192 lessons (84%), 3240/3840 cards (84%), ~84% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 CLOSED (25/25)**, next: **P11 phrasal & compound** (15 lessons).
+**Progress**: 167/192 lessons (87%), 3340/3840 cards (87%), ~87% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 CLOSED (25/25)**, **P11 5/15 (phrasal verbs)**, next: P11b (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 
