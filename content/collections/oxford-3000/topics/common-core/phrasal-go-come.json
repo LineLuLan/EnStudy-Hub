@@ -1,0 +1,629 @@
+{
+  "slug": "phrasal-go-come",
+  "name": "Phrasal Verbs: Go & Come",
+  "description": "Phrasal verbs với GO và COME — 20 cụm cốt lõi cho di chuyển và sự kiện.",
+  "order_index": 12,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "go-on",
+      "lemma": "go on",
+      "ipa": "/ˌɡəʊ ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to continue doing something; to happen; to encourage someone to do something",
+          "meaning_vi": "tiếp tục, diễn ra, khích lệ (cứ làm tiếp; xảy ra; bảo ai cứ thử)",
+          "examples": [
+            {
+              "en": "Go on — I'm listening.",
+              "vi": "Go-on đi — tôi đang nghe."
+            },
+            {
+              "en": "What's going on in the meeting room?",
+              "vi": "Cái gì đang go-on trong phòng họp?"
+            },
+            {
+              "en": "Vietnamese coffee chats often go on for hours.",
+              "vi": "Cuộc tán dóc cà phê Việt thường go-on hàng giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["continue", "proceed"],
+      "antonyms": ["stop", "pause"],
+      "collocations": ["go on talking", "what's going on", "go on with"],
+      "mnemonic_vi": "GO (đi) + ON (tiếp) = đi tiếp. Go-on = tiếp tục hoặc xảy ra."
+    },
+    {
+      "word": "go-off",
+      "lemma": "go off",
+      "ipa": "/ˌɡəʊ ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to ring or sound suddenly (alarm, bomb); to spoil (food); to leave a place",
+          "meaning_vi": "reo lên, nổ, hỏng (chuông kêu, bom nổ, đồ ăn ôi); cũng nghĩa rời đi",
+          "examples": [
+            {
+              "en": "My alarm goes off at 6 a.m. every morning.",
+              "vi": "Báo thức của tôi go-off lúc 6 giờ mỗi sáng."
+            },
+            {
+              "en": "This milk has gone off — it smells sour.",
+              "vi": "Sữa này đã go-off — có mùi chua."
+            },
+            {
+              "en": "Saigon fireworks go off at midnight on Tết Eve.",
+              "vi": "Pháo hoa Sài Gòn go-off lúc nửa đêm Giao Thừa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ring", "explode", "spoil"],
+      "antonyms": ["silence", "stay fresh"],
+      "collocations": ["alarm goes off", "food goes off", "go off early"],
+      "mnemonic_vi": "GO (đi) + OFF (ra/hỏng) = bật ra. Go-off = chuông reo, bom nổ, hoặc đồ ăn hỏng."
+    },
+    {
+      "word": "go-out",
+      "lemma": "go out",
+      "ipa": "/ˌɡəʊ ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to leave home for a social activity; to date someone; to stop burning or shining",
+          "meaning_vi": "đi ra ngoài, hẹn hò, tắt (ra ngoài giải trí; hẹn hò; đèn/lửa tắt)",
+          "examples": [
+            {
+              "en": "Let's go out for coffee this Saturday.",
+              "vi": "Cuối tuần này go-out uống cà phê đi."
+            },
+            {
+              "en": "They've been going out for two years.",
+              "vi": "Họ đã go-out (hẹn hò) được hai năm."
+            },
+            {
+              "en": "The candles went out when the wind blew through the room.",
+              "vi": "Nến go-out khi gió thổi qua phòng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["socialize", "date"],
+      "antonyms": ["stay in", "stay home"],
+      "collocations": ["go out tonight", "go out with", "lights go out"],
+      "mnemonic_vi": "GO (đi) + OUT (ra) = đi ra. Go-out = ra ngoài chơi, hẹn hò, hoặc tắt lửa/đèn."
+    },
+    {
+      "word": "go-back",
+      "lemma": "go back",
+      "ipa": "/ˌɡəʊ ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return to a place or to a previous state; to date back to a time in history",
+          "meaning_vi": "trở về, có từ (quay lại nơi/trạng thái cũ; có lịch sử lâu)",
+          "examples": [
+            {
+              "en": "I need to go back home — I forgot my wallet.",
+              "vi": "Tôi cần go-back về nhà — tôi quên ví."
+            },
+            {
+              "en": "Their friendship goes back to elementary school.",
+              "vi": "Tình bạn của họ go-back tới tiểu học."
+            },
+            {
+              "en": "Hà Nội's Old Quarter goes back over a thousand years.",
+              "vi": "Phố Cổ Hà Nội go-back hơn nghìn năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "date back"],
+      "antonyms": ["leave", "depart"],
+      "collocations": ["go back home", "go back to", "go back in time"],
+      "mnemonic_vi": "GO (đi) + BACK (lại) = đi lại. Go-back = quay về."
+    },
+    {
+      "word": "go-up",
+      "lemma": "go up",
+      "ipa": "/ˌɡəʊ ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to increase in level, price, or amount; to be built or constructed",
+          "meaning_vi": "tăng lên, mọc lên (giá/mức tăng; tòa nhà được xây)",
+          "examples": [
+            {
+              "en": "Rent in Saigon went up by 20% last year.",
+              "vi": "Tiền thuê ở Sài Gòn go-up 20% năm ngoái."
+            },
+            {
+              "en": "New skyscrapers are going up in District 2 every month.",
+              "vi": "Nhà chọc trời mới go-up ở Quận 2 mỗi tháng."
+            },
+            {
+              "en": "Temperatures in Hanoi go up to 40°C in summer.",
+              "vi": "Nhiệt độ Hà Nội go-up đến 40°C vào hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rise", "increase"],
+      "antonyms": ["go down", "decrease"],
+      "collocations": ["prices go up", "go up the stairs", "buildings go up"],
+      "mnemonic_vi": "GO (đi) + UP (lên) = đi lên. Go-up = tăng giá hoặc xây dựng lên."
+    },
+    {
+      "word": "go-down",
+      "lemma": "go down",
+      "ipa": "/ˌɡəʊ ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to decrease in level, price, or amount; to be remembered or recorded (in history)",
+          "meaning_vi": "giảm xuống, đi vào (lịch sử)",
+          "examples": [
+            {
+              "en": "Oil prices went down sharply last quarter.",
+              "vi": "Giá dầu go-down mạnh quý trước."
+            },
+            {
+              "en": "The 2018 Vietnamese football victory will go down in history.",
+              "vi": "Chiến thắng bóng đá Việt 2018 sẽ go-down lịch sử."
+            },
+            {
+              "en": "The fever should go down within a few days.",
+              "vi": "Cơn sốt sẽ go-down trong vài ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["decrease", "drop"],
+      "antonyms": ["go up", "rise"],
+      "collocations": ["prices go down", "go down in history", "fever goes down"],
+      "mnemonic_vi": "GO (đi) + DOWN (xuống) = đi xuống. Go-down = giảm hoặc được ghi vào sử."
+    },
+    {
+      "word": "go-through",
+      "lemma": "go through",
+      "ipa": "/ˌɡəʊ ˈθruː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to experience a difficult time or process; to examine or search carefully",
+          "meaning_vi": "trải qua, kiểm tra kỹ (trải qua giai đoạn khó; xem xét/tìm cẩn thận)",
+          "examples": [
+            {
+              "en": "She's going through a tough breakup right now.",
+              "vi": "Cô ấy đang go-through một cuộc chia tay khó khăn."
+            },
+            {
+              "en": "The lawyer went through every clause of the contract.",
+              "vi": "Luật sư go-through từng điều khoản hợp đồng."
+            },
+            {
+              "en": "Vietnamese students go through 12 years of compulsory schooling.",
+              "vi": "Học sinh Việt go-through 12 năm học bắt buộc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["experience", "examine"],
+      "antonyms": ["skip", "avoid"],
+      "collocations": ["go through a phase", "go through documents", "go through hell"],
+      "mnemonic_vi": "GO (đi) + THROUGH (xuyên qua) = đi xuyên. Go-through = trải qua HOẶC xem kỹ."
+    },
+    {
+      "word": "go-by",
+      "lemma": "go by",
+      "ipa": "/ˌɡəʊ ˈbaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to pass (time, opportunity); to be known or called by a name",
+          "meaning_vi": "trôi qua, được gọi là (thời gian/cơ hội qua đi; được biết với một tên)",
+          "examples": [
+            {
+              "en": "The years go by faster as you get older.",
+              "vi": "Năm tháng go-by nhanh hơn khi bạn lớn tuổi."
+            },
+            {
+              "en": "She goes by 'Mia' even though her name is Maria.",
+              "vi": "Cô ấy go-by 'Mia' dù tên thật là Maria."
+            },
+            {
+              "en": "Don't let this opportunity go by — apply today.",
+              "vi": "Đừng để cơ hội này go-by — đăng ký ngay hôm nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pass", "elapse"],
+      "antonyms": ["seize", "grasp"],
+      "collocations": ["time goes by", "go by quickly", "go by the name of"],
+      "mnemonic_vi": "GO (đi) + BY (qua) = đi qua. Go-by = trôi qua HOẶC được gọi là."
+    },
+    {
+      "word": "go-ahead",
+      "lemma": "go ahead",
+      "ipa": "/ˌɡəʊ əˈhed/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to proceed with a plan or action; permission to begin",
+          "meaning_vi": "tiến hành, cho phép bắt đầu",
+          "examples": [
+            {
+              "en": "Go ahead — start without me.",
+              "vi": "Go-ahead đi — bắt đầu không cần đợi tôi."
+            },
+            {
+              "en": "The board gave us the go-ahead for the new project.",
+              "vi": "Hội đồng cho ta go-ahead làm dự án mới."
+            },
+            {
+              "en": "Vietnamese highway construction won't go ahead without environmental approval.",
+              "vi": "Xây cao tốc Việt sẽ không go-ahead nếu chưa được duyệt môi trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["proceed", "continue"],
+      "antonyms": ["halt", "wait"],
+      "collocations": ["give the go-ahead", "go ahead with", "go-ahead approval"],
+      "mnemonic_vi": "GO (đi) + AHEAD (trước) = đi trước. Go-ahead = cứ tiến hành, được phép."
+    },
+    {
+      "word": "go-with",
+      "lemma": "go with",
+      "ipa": "/ˌɡəʊ ˈwɪð/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to choose or select an option; to match or look good together",
+          "meaning_vi": "chọn, đi đôi với (chọn một lựa chọn; hợp nhau)",
+          "examples": [
+            {
+              "en": "I'll go with the chicken phở, please.",
+              "vi": "Cho tôi go-with phở gà nhé."
+            },
+            {
+              "en": "This blue scarf goes with your eyes.",
+              "vi": "Khăn xanh này go-with màu mắt bạn."
+            },
+            {
+              "en": "Vietnamese fish sauce goes with almost any savory dish.",
+              "vi": "Nước mắm Việt go-with hầu như mọi món mặn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["choose", "match"],
+      "antonyms": ["clash", "reject"],
+      "collocations": ["go with the flow", "go with your gut", "go with the option"],
+      "mnemonic_vi": "GO (đi) + WITH (cùng) = đi cùng. Go-with = chọn HOẶC hợp với."
+    },
+    {
+      "word": "come-in",
+      "lemma": "come in",
+      "ipa": "/ˌkʌm ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to enter a place; to arrive (mail, news, money); to become available",
+          "meaning_vi": "vào, đến (vào trong; nhận được thư/tin/tiền; có sẵn)",
+          "examples": [
+            {
+              "en": "Come in — the door is open.",
+              "vi": "Come-in đi — cửa mở rồi."
+            },
+            {
+              "en": "The new iPhone comes in three colors.",
+              "vi": "iPhone mới come-in ba màu."
+            },
+            {
+              "en": "Vietnamese mango imports come in mostly from June to August.",
+              "vi": "Xoài Việt xuất khẩu come-in chủ yếu từ tháng 6 đến tháng 8."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enter", "arrive"],
+      "antonyms": ["go out", "leave"],
+      "collocations": ["come in here", "come in three sizes", "come in handy"],
+      "mnemonic_vi": "COME (đến) + IN (vào) = đến vào. Come-in = vào trong HOẶC đến nơi/có sẵn."
+    },
+    {
+      "word": "come-out",
+      "lemma": "come out",
+      "ipa": "/ˌkʌm ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be released or published; to leave a place; to be revealed",
+          "meaning_vi": "ra mắt, lộ ra (được phát hành; rời nơi; bị tiết lộ)",
+          "examples": [
+            {
+              "en": "Her new album comes out next Friday.",
+              "vi": "Album mới của cô ấy come-out thứ Sáu tuần sau."
+            },
+            {
+              "en": "The truth always comes out eventually.",
+              "vi": "Sự thật rốt cuộc cũng come-out."
+            },
+            {
+              "en": "Vietnamese students come out of high school at 18.",
+              "vi": "Học sinh Việt come-out trung học lúc 18 tuổi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["be released", "emerge"],
+      "antonyms": ["go in"],
+      "collocations": ["come out next week", "truth comes out", "come out well"],
+      "mnemonic_vi": "COME (đến) + OUT (ra) = đến ra ngoài. Come-out = ra mắt, lộ ra."
+    },
+    {
+      "word": "come-back",
+      "lemma": "come back",
+      "ipa": "/ˌkʌm ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return to a place; to return to popularity after a period of absence",
+          "meaning_vi": "trở lại (quay về nơi; trở lại nổi tiếng sau khi vắng bóng)",
+          "examples": [
+            {
+              "en": "When are you coming back from your trip?",
+              "vi": "Bạn come-back từ chuyến đi khi nào?"
+            },
+            {
+              "en": "Bell-bottom jeans have come back in fashion.",
+              "vi": "Quần ống loe đã come-back trong thời trang."
+            },
+            {
+              "en": "Many overseas Vietnamese come back during Tết to visit family.",
+              "vi": "Nhiều Việt kiều come-back dịp Tết thăm gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return"],
+      "antonyms": ["leave"],
+      "collocations": ["come back home", "make a comeback", "come back later"],
+      "mnemonic_vi": "COME (đến) + BACK (lại) = đến lại = trở về. Come-back = trở lại."
+    },
+    {
+      "word": "come-on",
+      "lemma": "come on",
+      "ipa": "/ˌkʌm ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "an expression urging someone to hurry or try harder; to start working (lights, machines)",
+          "meaning_vi": "thôi nào, lên (giục ai nhanh hoặc cố hơn); cũng nghĩa bật lên (đèn/máy)",
+          "examples": [
+            {
+              "en": "Come on — we're going to miss the bus!",
+              "vi": "Come-on — ta sắp lỡ xe buýt!"
+            },
+            {
+              "en": "The lights came on at exactly 6 p.m.",
+              "vi": "Đèn come-on đúng 6 giờ chiều."
+            },
+            {
+              "en": "Vietnamese parents say 'Come on, eat more!' at every family meal.",
+              "vi": "Cha mẹ Việt nói 'Come-on, ăn thêm đi!' mỗi bữa cơm gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hurry up", "begin"],
+      "antonyms": ["slow down"],
+      "collocations": ["come on now", "come on quickly", "lights come on"],
+      "mnemonic_vi": "COME (đến) + ON (tiếp) = đến đi. Come-on = thôi nào, lên đi."
+    },
+    {
+      "word": "come-down",
+      "lemma": "come down",
+      "ipa": "/ˌkʌm ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to fall, drop, or decrease; to descend from a higher place; for rain or snow to fall",
+          "meaning_vi": "rơi xuống, giảm (giảm giá/mức; xuống từ trên cao; mưa/tuyết rơi)",
+          "examples": [
+            {
+              "en": "Coffee prices have come down this month.",
+              "vi": "Giá cà phê come-down tháng này."
+            },
+            {
+              "en": "Heavy rain came down during the storm.",
+              "vi": "Mưa lớn come-down trong cơn bão."
+            },
+            {
+              "en": "After Tết, prices in Vietnamese markets come down quickly.",
+              "vi": "Sau Tết, giá ở chợ Việt come-down nhanh chóng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["fall", "decrease"],
+      "antonyms": ["go up", "rise"],
+      "collocations": ["come down in price", "come down to", "rain comes down"],
+      "mnemonic_vi": "COME (đến) + DOWN (xuống) = đến xuống. Come-down = rơi/giảm/đi xuống."
+    },
+    {
+      "word": "come-from",
+      "lemma": "come from",
+      "ipa": "/ˌkʌm ˈfrəm/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to be born or originate from a place; to be derived or sourced from something",
+          "meaning_vi": "đến từ, có nguồn từ (sinh ra/xuất xứ từ; được lấy từ)",
+          "examples": [
+            {
+              "en": "Where do you come from?",
+              "vi": "Bạn come-from đâu?"
+            },
+            {
+              "en": "These mangoes come from the Mekong Delta.",
+              "vi": "Những trái xoài này come-from Đồng bằng sông Cửu Long."
+            },
+            {
+              "en": "Many Vietnamese family recipes come from grandmothers' kitchens.",
+              "vi": "Nhiều công thức gia đình Việt come-from bếp của bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["originate from", "be from"],
+      "antonyms": [],
+      "collocations": ["come from a family of", "where do you come from", "come from far"],
+      "mnemonic_vi": "COME (đến) + FROM (từ) = đến từ. Come-from = xuất xứ từ đâu."
+    },
+    {
+      "word": "come-up",
+      "lemma": "come up",
+      "ipa": "/ˌkʌm ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to be mentioned, arise, or occur; to approach in time or space",
+          "meaning_vi": "được nhắc đến, xảy ra, đến gần (vấn đề nảy sinh; thời gian/không gian đến gần)",
+          "examples": [
+            {
+              "en": "Something urgent came up at work — I have to cancel.",
+              "vi": "Có việc gấp come-up ở công ty — tôi phải hủy."
+            },
+            {
+              "en": "Tết is coming up — let's plan our family visits.",
+              "vi": "Tết come-up rồi — lên kế hoạch về thăm gia đình thôi."
+            },
+            {
+              "en": "Vietnamese students often have surprise tests come up unannounced.",
+              "vi": "Học sinh Việt thường có bài kiểm tra bất ngờ come-up không báo trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["arise", "approach"],
+      "antonyms": ["pass", "be over"],
+      "collocations": ["come up with", "come up soon", "come up against"],
+      "mnemonic_vi": "COME (đến) + UP (lên) = nổi lên. Come-up = nảy sinh, sắp đến."
+    },
+    {
+      "word": "come-off",
+      "lemma": "come off",
+      "ipa": "/ˌkʌm ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to be removed or detached (button, label, paint); to succeed or be carried out",
+          "meaning_vi": "rời ra, thành công (nút áo/nhãn/sơn bong; cũng nghĩa diễn ra thành công)",
+          "examples": [
+            {
+              "en": "The button came off my shirt during the meeting.",
+              "vi": "Nút áo come-off trong cuộc họp."
+            },
+            {
+              "en": "The plan came off without a hitch.",
+              "vi": "Kế hoạch come-off không trục trặc."
+            },
+            {
+              "en": "Vietnamese street vendor stickers come off easily in the rainy season.",
+              "vi": "Nhãn dán của xe đẩy Việt come-off dễ trong mùa mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["detach", "succeed"],
+      "antonyms": ["stick", "fail"],
+      "collocations": ["come off the wall", "come off well", "come off second-best"],
+      "mnemonic_vi": "COME (đến) + OFF (rời) = đến chỗ rời. Come-off = rời ra HOẶC kế hoạch thành công."
+    },
+    {
+      "word": "come-across",
+      "lemma": "come across",
+      "ipa": "/ˌkʌm əˈkrɒs/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to find something or someone unexpectedly; to give a particular impression",
+          "meaning_vi": "tình cờ gặp, để lại ấn tượng (tình cờ thấy; tạo ấn tượng cách nào đó)",
+          "examples": [
+            {
+              "en": "I came across an old photo in the drawer.",
+              "vi": "Tôi come-across một bức ảnh cũ trong ngăn kéo."
+            },
+            {
+              "en": "He comes across as confident but is actually quite shy.",
+              "vi": "Anh ấy come-across tự tin nhưng thực ra khá nhút nhát."
+            },
+            {
+              "en": "Vietnamese hiking trips often come across unexpected scenic spots.",
+              "vi": "Chuyến trekking Việt thường come-across điểm đẹp bất ngờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["encounter", "appear"],
+      "antonyms": [],
+      "collocations": ["come across as", "come across by chance", "come across the road"],
+      "mnemonic_vi": "COME (đến) + ACROSS (ngang qua) = đến ngang. Come-across = tình cờ gặp HOẶC trông như."
+    },
+    {
+      "word": "come-round",
+      "lemma": "come round",
+      "ipa": "/ˌkʌm ˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to visit someone's home casually; to regain consciousness; to change one's opinion to agree",
+          "meaning_vi": "ghé chơi, tỉnh lại, đổi ý (đến chơi nhà; tỉnh lại sau ngất; chuyển sang đồng ý)",
+          "examples": [
+            {
+              "en": "Come round for dinner this Saturday.",
+              "vi": "Come-round ăn tối thứ Bảy này."
+            },
+            {
+              "en": "She came round after fainting in the heat.",
+              "vi": "Cô ấy come-round sau khi ngất vì nóng."
+            },
+            {
+              "en": "He'll come round to the idea once he understands the benefits.",
+              "vi": "Anh ấy sẽ come-round với ý tưởng khi hiểu rõ lợi ích."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["visit", "regain consciousness"],
+      "antonyms": [],
+      "collocations": ["come round for tea", "come round to my view", "come round after fainting"],
+      "mnemonic_vi": "COME (đến) + ROUND (vòng) = đến vòng. Come-round = ghé qua, tỉnh lại, hoặc đổi ý."
+    }
+  ]
+}

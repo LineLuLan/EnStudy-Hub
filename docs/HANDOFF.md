@@ -5,6 +5,36 @@
 
 ---
 
+## 2026-05-17 (P11a phrasal verbs — P11 5/15) — Multi-word: 5 lessons / 100 cards (167/192, ~87%) — Claude Opus 4.7
+
+### Đã ship — P11 mở (5/15 phrasal verbs)
+
+User authorized AI tự động tiếp tục đến 100% Oxford 3000. AI bắt đầu P11 (15 lessons phrasal & compound). P11a là batch đầu — 5 lessons phrasal verbs cơ bản trong `common-core/`.
+
+**5 lessons (100 phrasal verbs A2-B1)**: phrasal-get-give (order 11), phrasal-go-come (12), phrasal-look-find (13), phrasal-take-bring (14), phrasal-put-set (15).
+
+### Collision pivot
+
+Round 1+2 grep cho 100 phrasal verbs: chỉ 1 collision (`set-aside` taken P9e personal-finance) → swap `put-forward`. Còn lại ZERO collision.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files, 20 cards each.
+- IPA flags: ~100/100 expected — dictionaryapi.dev không index phrasal verbs.
+- File sizes: 28-32 KB/lesson (ngắn hơn B2 nhờ less etymology + ngắn examples).
+
+### SHA cuối session (P11a)
+
+- main `eb18493`, dev `90fc4c8` (P11a docs), be `bf3ce79` (P11a content) → sync sau docs, fe `55d4a19` → sync sau docs.
+
+### PICKUP — P11b/c rồi P12
+
+- **P11b** (5 lessons): phrasal-call-check, phrasal-break-build, phrasal-pick-pull, phrasal-hand-hold, phrasal-cut-keep
+- **P11c** (5 lessons): set-phrases-1, set-phrases-2, compound-nouns-home, compound-nouns-services, compound-adjectives
+- **P12** (15 lessons): final fill specialized vocab → 192/192 = 100% Oxford 3000
+
+---
+
 ## 2026-05-17 (P10e content batch — P10 CLOSED 25/25) — B2: 5 lessons / 100 cards (162/192, ~84%) — Claude Opus 4.7
 
 ### Đã ship — P10 ĐÓNG (25 lessons / 500 cards B2)
