@@ -1,0 +1,637 @@
+{
+  "slug": "phrasal-take-bring",
+  "name": "Phrasal Verbs: Take & Bring",
+  "description": "Phrasal verbs với TAKE và BRING — 20 cụm cho di chuyển, đảm nhận, và tiến trình.",
+  "order_index": 14,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "take-off",
+      "lemma": "take off",
+      "ipa": "/ˌteɪk ˈɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to leave the ground (of aircraft); to remove an item of clothing; to become suddenly successful",
+          "meaning_vi": "cất cánh, cởi, đột phá (máy bay rời đất; cởi đồ; thành công đột ngột)",
+          "examples": [
+            {
+              "en": "Our flight takes off at 7 a.m.",
+              "vi": "Chuyến bay của chúng tôi take-off lúc 7 giờ sáng."
+            },
+            {
+              "en": "Take off your shoes before entering a Vietnamese home.",
+              "vi": "Take-off giày trước khi vào nhà Việt."
+            },
+            {
+              "en": "His startup really took off after a viral TikTok post.",
+              "vi": "Startup của anh ấy take-off mạnh sau một bài TikTok viral."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["depart", "remove", "succeed"],
+      "antonyms": ["land", "put on"],
+      "collocations": ["take off clothes", "plane takes off", "career takes off"],
+      "mnemonic_vi": "TAKE (lấy) + OFF (rời/khỏi) = rời ra. Take-off = cất cánh, cởi đồ, đột phá."
+    },
+    {
+      "word": "take-on",
+      "lemma": "take on",
+      "ipa": "/ˌteɪk ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to accept a responsibility or task; to hire someone; to challenge an opponent",
+          "meaning_vi": "đảm nhận, thuê, đối đầu (nhận trách nhiệm; thuê người; thi đấu)",
+          "examples": [
+            {
+              "en": "She took on the role of project manager last month.",
+              "vi": "Cô ấy take-on vai trò quản lý dự án tháng trước."
+            },
+            {
+              "en": "The startup is taking on five new engineers this quarter.",
+              "vi": "Startup take-on 5 kỹ sư mới quý này."
+            },
+            {
+              "en": "Vietnam takes on Thailand in the AFF Cup final tonight.",
+              "vi": "Việt Nam take-on Thái Lan trong chung kết AFF Cup tối nay."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accept", "hire", "challenge"],
+      "antonyms": ["refuse"],
+      "collocations": ["take on responsibility", "take on staff", "take on a challenge"],
+      "mnemonic_vi": "TAKE (lấy) + ON (lên người) = nhận vào. Take-on = đảm nhận, thuê, đối đầu."
+    },
+    {
+      "word": "take-over",
+      "lemma": "take over",
+      "ipa": "/ˌteɪk ˈəʊvə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to take control of a business, country, or situation, often from someone else",
+          "meaning_vi": "tiếp quản, thâu tóm (nắm quyền kiểm soát công ty/quốc gia/tình huống, thường từ người khác)",
+          "examples": [
+            {
+              "en": "Microsoft tried to take over LinkedIn in 2016.",
+              "vi": "Microsoft đã take-over LinkedIn năm 2016."
+            },
+            {
+              "en": "His son will take over the family restaurant next year.",
+              "vi": "Con trai ông ấy sẽ take-over nhà hàng gia đình năm sau."
+            },
+            {
+              "en": "Vietnamese conglomerates have started taking over regional rivals.",
+              "vi": "Các tập đoàn Việt đã bắt đầu take-over đối thủ khu vực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["acquire", "assume control"],
+      "antonyms": ["relinquish"],
+      "collocations": ["hostile takeover", "take over a company", "take over the world"],
+      "mnemonic_vi": "TAKE (lấy) + OVER (qua) = lấy qua. Take-over = tiếp quản, thâu tóm."
+    },
+    {
+      "word": "take-out",
+      "lemma": "take out",
+      "ipa": "/ˌteɪk ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to remove something from a place; to order food to eat elsewhere; to obtain (a loan, insurance)",
+          "meaning_vi": "lấy ra, mua mang về, đăng ký (vay/bảo hiểm)",
+          "examples": [
+            {
+              "en": "Take out the trash before bed, please.",
+              "vi": "Take-out rác trước khi ngủ giùm."
+            },
+            {
+              "en": "We're going to take out some bánh mì for dinner.",
+              "vi": "Ta sẽ take-out vài ổ bánh mì cho tối."
+            },
+            {
+              "en": "He took out a 30-year mortgage on the apartment.",
+              "vi": "Anh ấy take-out khoản vay nhà 30 năm cho căn hộ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["remove", "order takeaway"],
+      "antonyms": ["put in", "dine in"],
+      "collocations": ["take out the trash", "take out food", "take out a loan"],
+      "mnemonic_vi": "TAKE (lấy) + OUT (ra) = lấy ra. Take-out = lấy ra HOẶC mua mang về HOẶC ký vay."
+    },
+    {
+      "word": "take-up",
+      "lemma": "take up",
+      "ipa": "/ˌteɪk ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to start a new hobby, sport, or job; to occupy time or space",
+          "meaning_vi": "bắt đầu (sở thích/môn thể thao/công việc); chiếm thời gian/không gian",
+          "examples": [
+            {
+              "en": "She took up yoga during the pandemic.",
+              "vi": "Cô ấy take-up yoga trong đại dịch."
+            },
+            {
+              "en": "This sofa takes up half the living room.",
+              "vi": "Cái ghế sofa này take-up nửa phòng khách."
+            },
+            {
+              "en": "Many Vietnamese expats take up Vietnamese cooking classes abroad.",
+              "vi": "Nhiều Việt kiều take-up lớp nấu ăn Việt ở nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["start", "occupy"],
+      "antonyms": ["give up"],
+      "collocations": ["take up a hobby", "take up space", "take up a position"],
+      "mnemonic_vi": "TAKE (lấy) + UP (lên) = lấy lên. Take-up = bắt đầu (sở thích) HOẶC chiếm chỗ."
+    },
+    {
+      "word": "take-back",
+      "lemma": "take back",
+      "ipa": "/ˌteɪk ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to return something to where it came from; to retract a statement",
+          "meaning_vi": "trả lại, rút lời (trả vật về nơi cũ; rút lại lời nói)",
+          "examples": [
+            {
+              "en": "I need to take this shirt back — it's the wrong size.",
+              "vi": "Tôi cần take-back áo này — sai size."
+            },
+            {
+              "en": "Take back what you said about my mom!",
+              "vi": "Take-back câu nói về mẹ tôi đi!"
+            },
+            {
+              "en": "Vietnamese e-commerce sites usually let customers take back items within 7 days.",
+              "vi": "Trang TMĐT Việt thường cho khách take-back hàng trong 7 ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "retract"],
+      "antonyms": ["keep", "stand by"],
+      "collocations": ["take back an item", "take back what you said", "take back to store"],
+      "mnemonic_vi": "TAKE (lấy) + BACK (lại) = lấy lại. Take-back = trả lại HOẶC rút lời."
+    },
+    {
+      "word": "take-in",
+      "lemma": "take in",
+      "ipa": "/ˌteɪk ˈɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to absorb or understand information; to provide shelter for someone; to deceive",
+          "meaning_vi": "tiếp thu, cưu mang, lừa (hiểu thông tin; cho ai ở nhờ; lừa gạt)",
+          "examples": [
+            {
+              "en": "There's too much to take in during the first day at a new job.",
+              "vi": "Có quá nhiều thứ để take-in trong ngày đầu việc mới."
+            },
+            {
+              "en": "The family took in three refugee children.",
+              "vi": "Gia đình take-in ba trẻ tị nạn."
+            },
+            {
+              "en": "Don't be taken in by online scams promising fast money.",
+              "vi": "Đừng để bị take-in bởi lừa đảo online hứa làm giàu nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["absorb", "deceive"],
+      "antonyms": ["miss", "reject"],
+      "collocations": ["take in information", "take in a stray", "be taken in by"],
+      "mnemonic_vi": "TAKE (lấy) + IN (vào) = lấy vào. Take-in = tiếp thu, cưu mang, hoặc bị lừa."
+    },
+    {
+      "word": "take-care-of",
+      "lemma": "take care of",
+      "ipa": "/ˌteɪk ˈkeə(r) əv/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be responsible for or to look after someone or something; to handle a task or problem",
+          "meaning_vi": "chăm sóc, xử lý (chịu trách nhiệm trông nom ai/cái gì; giải quyết việc)",
+          "examples": [
+            {
+              "en": "Take care of yourself when you're abroad.",
+              "vi": "Take-care-of bản thân khi ở nước ngoài."
+            },
+            {
+              "en": "Don't worry — I'll take care of the bill.",
+              "vi": "Đừng lo — tôi sẽ take-care-of hóa đơn."
+            },
+            {
+              "en": "Vietnamese elders are usually taken care of by their adult children.",
+              "vi": "Người già Việt thường được con trưởng thành take-care-of."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["look after", "handle"],
+      "antonyms": ["neglect"],
+      "collocations": ["take care of yourself", "take care of business", "take good care of"],
+      "mnemonic_vi": "TAKE (nhận) + CARE (quan tâm) + OF (cho) = nhận quan tâm cho. Take-care-of = chăm sóc."
+    },
+    {
+      "word": "take-part-in",
+      "lemma": "take part in",
+      "ipa": "/ˌteɪk ˈpɑːt ɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to participate or be involved in an activity, event, or competition",
+          "meaning_vi": "tham gia (góp mặt, dự một hoạt động/sự kiện/cuộc thi)",
+          "examples": [
+            {
+              "en": "Will you take part in the marathon this Sunday?",
+              "vi": "Bạn sẽ take-part-in marathon chủ nhật này không?"
+            },
+            {
+              "en": "Many Vietnamese students take part in international robotics contests.",
+              "vi": "Nhiều học sinh Việt take-part-in cuộc thi robotics quốc tế."
+            },
+            {
+              "en": "Everyone is welcome to take part in our community cleanup.",
+              "vi": "Ai cũng được mời take-part-in buổi dọn dẹp cộng đồng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["participate", "join"],
+      "antonyms": ["abstain"],
+      "collocations": [
+        "take part in a contest",
+        "actively take part in",
+        "take part in the discussion"
+      ],
+      "mnemonic_vi": "TAKE (nhận) + PART (phần) + IN (trong) = nhận phần trong. Take-part-in = tham gia."
+    },
+    {
+      "word": "take-after",
+      "lemma": "take after",
+      "ipa": "/ˌteɪk ˈɑːftə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to look or behave like an older relative, especially a parent",
+          "meaning_vi": "giống (về ngoại hình/tính cách với người họ hàng lớn tuổi, đặc biệt cha mẹ)",
+          "examples": [
+            {
+              "en": "She really takes after her grandmother in personality.",
+              "vi": "Cô ấy take-after bà ngoại về tính cách."
+            },
+            {
+              "en": "He takes after his father — both are stubborn engineers.",
+              "vi": "Anh ấy take-after bố — cả hai đều là kỹ sư cứng đầu."
+            },
+            {
+              "en": "Many Vietnamese kids take after their mothers in cooking skills.",
+              "vi": "Nhiều trẻ em Việt take-after mẹ về kỹ năng nấu ăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resemble"],
+      "antonyms": [],
+      "collocations": ["take after his father", "take after the family", "really take after"],
+      "mnemonic_vi": "TAKE (lấy) + AFTER (theo) = lấy theo. Take-after = giống theo người nhà."
+    },
+    {
+      "word": "take-down",
+      "lemma": "take down",
+      "ipa": "/ˌteɪk ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to remove something from a higher position; to write down what someone says; to defeat or destroy",
+          "meaning_vi": "tháo xuống, ghi chép, hạ gục (lấy xuống từ trên cao; chép lại lời nói; đánh bại)",
+          "examples": [
+            {
+              "en": "Take down the Christmas decorations before January 6.",
+              "vi": "Take-down trang trí Giáng Sinh trước ngày 6/1."
+            },
+            {
+              "en": "Let me take down your phone number.",
+              "vi": "Để tôi take-down số điện thoại của bạn."
+            },
+            {
+              "en": "Vietnamese street vendors must take down stalls before police inspections.",
+              "vi": "Hàng rong Việt phải take-down sạp trước khi cảnh sát kiểm tra."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["remove", "note down", "defeat"],
+      "antonyms": ["put up"],
+      "collocations": ["take down notes", "take down a website", "take down the curtain"],
+      "mnemonic_vi": "TAKE (lấy) + DOWN (xuống) = lấy xuống. Take-down = tháo, ghi, hoặc hạ gục."
+    },
+    {
+      "word": "take-aback",
+      "lemma": "take aback",
+      "ipa": "/ˌteɪk əˈbæk/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to surprise or shock someone so much that they don't know how to react, usually in passive form",
+          "meaning_vi": "làm sửng sốt (khiến ai bất ngờ đến mức không phản ứng được, thường dùng bị động)",
+          "examples": [
+            {
+              "en": "I was taken aback by her honesty.",
+              "vi": "Tôi take-aback bởi sự thẳng thắn của cô ấy."
+            },
+            {
+              "en": "He was taken aback when his manager praised him publicly.",
+              "vi": "Anh ấy take-aback khi sếp khen công khai."
+            },
+            {
+              "en": "Vietnamese tourists are often taken aback by Japan's silent trains.",
+              "vi": "Du khách Việt thường take-aback bởi tàu Nhật im phăng phắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["surprise", "stun"],
+      "antonyms": [],
+      "collocations": ["be taken aback by", "completely taken aback"],
+      "mnemonic_vi": "TAKE (lấy) + ABACK (lùi lại, từ tiếng Anh cũ) = bị đẩy lùi lại. Take-aback = sốc."
+    },
+    {
+      "word": "bring-back",
+      "lemma": "bring back",
+      "ipa": "/ˌbrɪŋ ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return something to its original place; to revive a memory, custom, or trend",
+          "meaning_vi": "mang về, khôi phục (trả về chỗ cũ; làm sống lại kỷ niệm/phong tục/xu hướng)",
+          "examples": [
+            {
+              "en": "Bring back my book when you finish reading.",
+              "vi": "Bring-back sách của tôi khi đọc xong."
+            },
+            {
+              "en": "This song brings back so many memories.",
+              "vi": "Bài hát này bring-back nhiều kỷ niệm."
+            },
+            {
+              "en": "Vietnamese cafés are bringing back old-style decor from the 1980s.",
+              "vi": "Quán cà phê Việt đang bring-back nội thất cũ thập niên 1980."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "revive"],
+      "antonyms": ["take away"],
+      "collocations": ["bring back memories", "bring back a trend", "bring back home"],
+      "mnemonic_vi": "BRING (mang) + BACK (lại) = mang lại. Bring-back = trả về HOẶC làm sống lại."
+    },
+    {
+      "word": "bring-down",
+      "lemma": "bring down",
+      "ipa": "/ˌbrɪŋ ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cause something to fall or decrease; to depress someone's mood; to overthrow a government or system",
+          "meaning_vi": "hạ xuống, làm buồn, lật đổ (làm rơi/giảm; làm tâm trạng kém; lật đổ chính quyền)",
+          "examples": [
+            {
+              "en": "The central bank brought down interest rates last week.",
+              "vi": "Ngân hàng trung ương bring-down lãi suất tuần trước."
+            },
+            {
+              "en": "Don't let one bad review bring you down.",
+              "vi": "Đừng để một review xấu bring-down bạn."
+            },
+            {
+              "en": "Citizen protests can sometimes bring down corrupt governments.",
+              "vi": "Biểu tình công dân đôi khi có thể bring-down chính quyền tham nhũng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lower", "depress", "overthrow"],
+      "antonyms": ["raise"],
+      "collocations": ["bring down prices", "bring down the government", "bring down morale"],
+      "mnemonic_vi": "BRING (mang) + DOWN (xuống) = mang xuống. Bring-down = hạ xuống, làm chùng, lật đổ."
+    },
+    {
+      "word": "bring-up",
+      "lemma": "bring up",
+      "ipa": "/ˌbrɪŋ ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to raise children to adulthood; to mention or introduce a topic in conversation",
+          "meaning_vi": "nuôi dạy, nhắc đến (nuôi con đến lớn; mở ra một chủ đề trong câu chuyện)",
+          "examples": [
+            {
+              "en": "She was brought up by her grandparents in Đà Nẵng.",
+              "vi": "Cô ấy được bring-up bởi ông bà ở Đà Nẵng."
+            },
+            {
+              "en": "Don't bring up politics at the family dinner.",
+              "vi": "Đừng bring-up chính trị tại bữa cơm gia đình."
+            },
+            {
+              "en": "Vietnamese parents often bring up children with strict Confucian values.",
+              "vi": "Cha mẹ Việt thường bring-up con với giá trị Khổng giáo nghiêm khắc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["raise", "mention"],
+      "antonyms": ["neglect", "avoid"],
+      "collocations": ["bring up a child", "bring up a topic", "well brought up"],
+      "mnemonic_vi": "BRING (mang) + UP (lên) = mang lên. Bring-up = nuôi lớn HOẶC nêu lên (chủ đề)."
+    },
+    {
+      "word": "bring-out",
+      "lemma": "bring out",
+      "ipa": "/ˌbrɪŋ ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to release or publish a product; to make a quality more noticeable in someone",
+          "meaning_vi": "ra mắt sản phẩm, làm nổi bật (phát hành; làm nổi đặc điểm của ai)",
+          "examples": [
+            {
+              "en": "Apple brings out a new iPhone every September.",
+              "vi": "Apple bring-out iPhone mới mỗi tháng 9."
+            },
+            {
+              "en": "Travel really brings out her adventurous side.",
+              "vi": "Du lịch thật sự bring-out tính phiêu lưu của cô ấy."
+            },
+            {
+              "en": "Vietnamese cosmetics brands bring out new lipstick shades for Tết.",
+              "vi": "Thương hiệu mỹ phẩm Việt bring-out màu son mới cho Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["release", "highlight"],
+      "antonyms": [],
+      "collocations": ["bring out a new product", "bring out the best in", "bring out a book"],
+      "mnemonic_vi": "BRING (mang) + OUT (ra) = mang ra. Bring-out = ra mắt HOẶC làm nổi bật."
+    },
+    {
+      "word": "bring-in",
+      "lemma": "bring in",
+      "ipa": "/ˌbrɪŋ ˈɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to introduce something new (law, person); to earn money or generate income",
+          "meaning_vi": "đưa vào, mang lại (giới thiệu cái mới; kiếm tiền)",
+          "examples": [
+            {
+              "en": "The new policy will bring in stricter food safety standards.",
+              "vi": "Chính sách mới sẽ bring-in chuẩn an toàn thực phẩm chặt hơn."
+            },
+            {
+              "en": "Her side business brings in an extra $1,000 a month.",
+              "vi": "Việc phụ của cô ấy bring-in thêm $1,000 mỗi tháng."
+            },
+            {
+              "en": "Vietnamese tech companies bring in foreign experts for advanced training.",
+              "vi": "Công ty tech Việt bring-in chuyên gia ngoại cho đào tạo nâng cao."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["introduce", "earn"],
+      "antonyms": ["remove"],
+      "collocations": ["bring in revenue", "bring in a law", "bring in talent"],
+      "mnemonic_vi": "BRING (mang) + IN (vào) = mang vào. Bring-in = giới thiệu HOẶC kiếm tiền vào."
+    },
+    {
+      "word": "bring-about",
+      "lemma": "bring about",
+      "ipa": "/ˌbrɪŋ əˈbaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to cause something to happen, often a change or important event",
+          "meaning_vi": "gây ra, dẫn tới (làm điều gì đó xảy ra, thường là sự thay đổi/sự kiện quan trọng)",
+          "examples": [
+            {
+              "en": "The pandemic brought about major changes in how we work.",
+              "vi": "Đại dịch bring-about thay đổi lớn trong cách làm việc."
+            },
+            {
+              "en": "Đổi Mới reforms brought about Vietnam's economic boom.",
+              "vi": "Cải cách Đổi Mới bring-about bùng nổ kinh tế Việt Nam."
+            },
+            {
+              "en": "Small daily habits can bring about huge long-term changes.",
+              "vi": "Thói quen nhỏ hằng ngày có thể bring-about thay đổi lớn dài hạn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cause", "create"],
+      "antonyms": ["prevent"],
+      "collocations": ["bring about change", "bring about reform", "bring about a revolution"],
+      "mnemonic_vi": "BRING (mang) + ABOUT (về) = mang về (kết quả). Bring-about = gây ra, dẫn tới."
+    },
+    {
+      "word": "bring-along",
+      "lemma": "bring along",
+      "ipa": "/ˌbrɪŋ əˈlɒŋ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to take someone or something with you to a place or event",
+          "meaning_vi": "đem theo (mang ai/vật đi cùng đến một nơi/sự kiện)",
+          "examples": [
+            {
+              "en": "Bring along an umbrella — it might rain.",
+              "vi": "Bring-along dù — có thể mưa."
+            },
+            {
+              "en": "Feel free to bring along a friend to the party.",
+              "vi": "Cứ tự nhiên bring-along bạn đến tiệc."
+            },
+            {
+              "en": "Vietnamese parents always bring along snacks for long bus rides.",
+              "vi": "Cha mẹ Việt luôn bring-along đồ ăn vặt cho chuyến xe khách dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["take along"],
+      "antonyms": ["leave behind"],
+      "collocations": ["bring along a friend", "bring along supplies", "bring along the kids"],
+      "mnemonic_vi": "BRING (mang) + ALONG (cùng) = mang cùng. Bring-along = đem theo."
+    },
+    {
+      "word": "bring-forward",
+      "lemma": "bring forward",
+      "ipa": "/ˌbrɪŋ ˈfɔːwəd/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to move an event or appointment to an earlier date or time; to present an idea or proposal",
+          "meaning_vi": "dời lên sớm hơn, đề xuất (chuyển sự kiện/hẹn đến sớm hơn; trình bày ý kiến)",
+          "examples": [
+            {
+              "en": "Can we bring forward the meeting to Monday?",
+              "vi": "Ta có thể bring-forward cuộc họp lên thứ Hai không?"
+            },
+            {
+              "en": "She brought forward a new proposal at the board meeting.",
+              "vi": "Cô ấy bring-forward đề xuất mới tại cuộc họp hội đồng."
+            },
+            {
+              "en": "Vietnamese government often brings forward Tết bonuses to support workers.",
+              "vi": "Chính phủ Việt thường bring-forward thưởng Tết để hỗ trợ người lao động."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["advance", "propose"],
+      "antonyms": ["postpone"],
+      "collocations": [
+        "bring forward a meeting",
+        "bring forward a proposal",
+        "bring forward the date"
+      ],
+      "mnemonic_vi": "BRING (mang) + FORWARD (trước) = mang lên trước. Bring-forward = dời sớm hơn HOẶC đề xuất."
+    }
+  ]
+}
