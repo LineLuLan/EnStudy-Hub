@@ -1,0 +1,629 @@
+{
+  "slug": "phrasal-get-give",
+  "name": "Phrasal Verbs: Get & Give",
+  "description": "Phrasal verbs với GET và GIVE — 20 cụm cốt lõi cho hội thoại hằng ngày.",
+  "order_index": 11,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "get-up",
+      "lemma": "get up",
+      "ipa": "/ˌɡet ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to rise from bed after sleeping; to stand up from a sitting or lying position",
+          "meaning_vi": "thức dậy, đứng dậy (rời khỏi giường sau khi ngủ; đứng lên từ tư thế ngồi/nằm)",
+          "examples": [
+            {
+              "en": "I usually get up at 6 a.m. on weekdays.",
+              "vi": "Tôi thường get-up lúc 6 giờ sáng các ngày trong tuần."
+            },
+            {
+              "en": "Get up early tomorrow — we have a long drive ahead.",
+              "vi": "Get-up sớm mai nhé — ta có chặng lái dài phía trước."
+            },
+            {
+              "en": "Vietnamese students often get up at 5:30 to study before school.",
+              "vi": "Học sinh Việt thường get-up lúc 5:30 để học trước khi đến trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wake up", "rise"],
+      "antonyms": ["lie down", "go to bed"],
+      "collocations": ["get up early", "get up late", "have to get up"],
+      "mnemonic_vi": "GET (lấy) + UP (lên) = lấy mình lên (khỏi giường). Get-up = thức dậy."
+    },
+    {
+      "word": "get-out",
+      "lemma": "get out",
+      "ipa": "/ˌɡet ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to leave a place, vehicle, or situation; to escape from somewhere",
+          "meaning_vi": "ra khỏi, thoát ra (rời khỏi một nơi, xe, hoặc tình huống)",
+          "examples": [
+            {
+              "en": "Get out of the car — we're at the airport.",
+              "vi": "Get-out khỏi xe đi — ta đến sân bay rồi."
+            },
+            {
+              "en": "She wants to get out of this boring job.",
+              "vi": "Cô ấy muốn get-out khỏi công việc nhàm chán này."
+            },
+            {
+              "en": "Vietnamese expats sometimes feel a need to get out and explore the city.",
+              "vi": "Người Việt xa xứ đôi khi muốn get-out và khám phá thành phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leave", "exit"],
+      "antonyms": ["stay", "get in"],
+      "collocations": ["get out of", "get out fast", "get out of bed"],
+      "mnemonic_vi": "GET (đi) + OUT (ra) = đi ra. Get-out = thoát ra, rời đi."
+    },
+    {
+      "word": "get-back",
+      "lemma": "get back",
+      "ipa": "/ˌɡet ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return to a place, person, or activity; to receive something back that one had before",
+          "meaning_vi": "trở về, nhận lại (quay về một nơi/người/hoạt động; nhận lại thứ đã có)",
+          "examples": [
+            {
+              "en": "When did you get back from Da Nang?",
+              "vi": "Bạn get-back từ Đà Nẵng khi nào?"
+            },
+            {
+              "en": "I'll get back to you tomorrow with the answer.",
+              "vi": "Tôi sẽ get-back với bạn ngày mai cùng câu trả lời."
+            },
+            {
+              "en": "After Tết holidays, Vietnamese workers struggle to get back into routine.",
+              "vi": "Sau Tết, người Việt vật lộn để get-back vào nhịp làm việc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "come back"],
+      "antonyms": ["leave", "depart"],
+      "collocations": ["get back to", "get back home", "get back into"],
+      "mnemonic_vi": "GET (đi) + BACK (lại) = đi lại = trở về. Get-back = quay về hoặc nhận lại."
+    },
+    {
+      "word": "get-on",
+      "lemma": "get on",
+      "ipa": "/ˌɡet ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to board a vehicle (bus, train, plane); also informally to have a friendly relationship with someone",
+          "meaning_vi": "lên xe/tàu/máy bay; cũng có nghĩa hòa hợp với ai đó",
+          "examples": [
+            {
+              "en": "Get on the bus quickly — it's leaving in 30 seconds.",
+              "vi": "Get-on xe buýt nhanh lên — sắp đi trong 30 giây nữa."
+            },
+            {
+              "en": "She gets on well with her new coworkers.",
+              "vi": "Cô ấy get-on tốt với đồng nghiệp mới."
+            },
+            {
+              "en": "Foreign tourists love getting on Saigon's motorbike taxis (xe ôm).",
+              "vi": "Du khách nước ngoài thích get-on xe ôm Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["board", "mount"],
+      "antonyms": ["get off"],
+      "collocations": ["get on a bus", "get on well with", "get on a plane"],
+      "mnemonic_vi": "GET (lên) + ON (trên) = lên trên (xe). Get-on = lên xe. HOẶC get on with = hợp với."
+    },
+    {
+      "word": "get-off",
+      "lemma": "get off",
+      "ipa": "/ˌɡet ˈɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to leave a vehicle (bus, train, plane); to escape consequences or be released from work",
+          "meaning_vi": "xuống xe/tàu/máy bay; cũng nghĩa thoát hậu quả hoặc được tan ca",
+          "examples": [
+            {
+              "en": "Get off at the next stop — that's the museum.",
+              "vi": "Get-off ở trạm tiếp — đó là bảo tàng."
+            },
+            {
+              "en": "I get off work at 6 p.m. on Fridays.",
+              "vi": "Tôi get-off công việc lúc 6 giờ tối thứ Sáu."
+            },
+            {
+              "en": "Vietnamese commuters get off at District 1 stations during rush hour.",
+              "vi": "Người đi làm Việt get-off ở các trạm Quận 1 vào giờ cao điểm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disembark", "finish"],
+      "antonyms": ["get on", "start"],
+      "collocations": ["get off the bus", "get off work", "get off lightly"],
+      "mnemonic_vi": "GET (đi) + OFF (xuống/khỏi) = xuống. Get-off = xuống xe HOẶC hết giờ làm."
+    },
+    {
+      "word": "get-by",
+      "lemma": "get by",
+      "ipa": "/ˌɡet ˈbaɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to manage to live or survive with limited resources, money, or skill",
+          "meaning_vi": "xoay sở, sống được (cố gắng tồn tại với nguồn lực/tiền/kỹ năng hạn chế)",
+          "examples": [
+            {
+              "en": "She gets by on a small freelance income.",
+              "vi": "Cô ấy get-by với thu nhập freelance nhỏ."
+            },
+            {
+              "en": "Tourists can usually get by with basic Vietnamese phrases in Hanoi.",
+              "vi": "Du khách thường get-by với vài câu tiếng Việt cơ bản ở Hà Nội."
+            },
+            {
+              "en": "Many Vietnamese students get by on instant noodles during exam weeks.",
+              "vi": "Nhiều sinh viên Việt get-by bằng mì gói trong tuần thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["manage", "scrape by"],
+      "antonyms": ["thrive"],
+      "collocations": ["get by on", "just get by"],
+      "mnemonic_vi": "GET (đi) + BY (qua) = đi qua được. Get-by = sống qua ngày, xoay sở được."
+    },
+    {
+      "word": "get-in",
+      "lemma": "get in",
+      "ipa": "/ˌɡet ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to enter a vehicle, building, or place; to arrive home; to be accepted into a school or organization",
+          "meaning_vi": "vào trong (xe, tòa nhà, nơi); về đến nhà; được nhận vào trường/tổ chức",
+          "examples": [
+            {
+              "en": "Get in the car — we're running late.",
+              "vi": "Get-in xe đi — ta đang trễ."
+            },
+            {
+              "en": "What time did you get in last night?",
+              "vi": "Bạn get-in lúc mấy giờ tối qua?"
+            },
+            {
+              "en": "She got in to Harvard with a full scholarship.",
+              "vi": "Cô ấy get-in Harvard với học bổng toàn phần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["enter", "arrive"],
+      "antonyms": ["get out", "leave"],
+      "collocations": ["get in the car", "get in late", "get in to"],
+      "mnemonic_vi": "GET (đi) + IN (vào) = đi vào. Get-in = vào trong xe/nhà/trường."
+    },
+    {
+      "word": "get-into",
+      "lemma": "get into",
+      "ipa": "/ˌɡet ˈɪntə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to become involved or interested in something; to be admitted into a place or activity",
+          "meaning_vi": "tham gia, dấn thân, đam mê (trở nên quan tâm/dấn vào điều gì đó)",
+          "examples": [
+            {
+              "en": "He got into K-pop after watching one BTS video.",
+              "vi": "Anh ấy get-into K-pop sau khi xem một video BTS."
+            },
+            {
+              "en": "She got into trouble for missing the deadline.",
+              "vi": "Cô ấy get-into rắc rối vì lỡ deadline."
+            },
+            {
+              "en": "Many Vietnamese teens got into TikTok within weeks of its launch.",
+              "vi": "Nhiều teen Việt get-into TikTok trong vài tuần sau khi ra mắt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["become interested in", "enter"],
+      "antonyms": ["lose interest in"],
+      "collocations": ["get into trouble", "get into a habit", "get into a routine"],
+      "mnemonic_vi": "GET (đi) + INTO (vào trong) = đi sâu vào. Get-into = dấn thân, trở nên quan tâm."
+    },
+    {
+      "word": "get-away",
+      "lemma": "get away",
+      "ipa": "/ˌɡet əˈweɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to escape from a place or situation; to leave for a short trip or holiday",
+          "meaning_vi": "trốn thoát, đi nghỉ ngắn (rời khỏi một nơi/tình huống; đi chơi/du lịch ngắn)",
+          "examples": [
+            {
+              "en": "The thieves got away before the police arrived.",
+              "vi": "Bọn trộm get-away trước khi cảnh sát đến."
+            },
+            {
+              "en": "We need to get away for the weekend — somewhere quiet.",
+              "vi": "Ta cần get-away cuối tuần này — đâu đó yên tĩnh."
+            },
+            {
+              "en": "Hanoians often get away to Sa Pa to escape summer heat.",
+              "vi": "Người Hà Nội thường get-away lên Sa Pa để trốn nóng hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["escape", "flee"],
+      "antonyms": ["stay", "be caught"],
+      "collocations": ["get away with", "weekend getaway", "get away from"],
+      "mnemonic_vi": "GET (đi) + AWAY (đi xa) = đi xa. Get-away = trốn đi xa hoặc đi nghỉ ngắn."
+    },
+    {
+      "word": "get-over",
+      "lemma": "get over",
+      "ipa": "/ˌɡet ˈəʊvə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to recover from an illness, disappointment, or difficult experience",
+          "meaning_vi": "vượt qua, hồi phục (khỏi bệnh, thất vọng, hoặc trải nghiệm khó khăn)",
+          "examples": [
+            {
+              "en": "It took her months to get over the breakup.",
+              "vi": "Cô ấy mất nhiều tháng để get-over cuộc chia tay."
+            },
+            {
+              "en": "I can't get over how good this phở tastes.",
+              "vi": "Tôi không thể get-over phở này ngon thế nào."
+            },
+            {
+              "en": "Vietnamese workers need a few days to get over post-Tết blues.",
+              "vi": "Người lao động Việt cần vài ngày để get-over nỗi buồn hậu Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recover from", "overcome"],
+      "antonyms": ["dwell on"],
+      "collocations": ["get over an illness", "get over someone", "hard to get over"],
+      "mnemonic_vi": "GET (đi) + OVER (qua khỏi) = qua khỏi. Get-over = vượt qua, hồi phục."
+    },
+    {
+      "word": "get-through",
+      "lemma": "get through",
+      "ipa": "/ˌɡet ˈθruː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to successfully finish a difficult experience or task; to reach someone by phone",
+          "meaning_vi": "vượt qua, làm xong (hoàn thành thử thách/nhiệm vụ khó); liên lạc được qua điện thoại",
+          "examples": [
+            {
+              "en": "She got through her PhD thanks to a supportive supervisor.",
+              "vi": "Cô ấy get-through PhD nhờ một supervisor hỗ trợ."
+            },
+            {
+              "en": "I couldn't get through to the hotline — the line was always busy.",
+              "vi": "Tôi không get-through được hotline — máy luôn bận."
+            },
+            {
+              "en": "Vietnamese students must get through nine years of basic education.",
+              "vi": "Học sinh Việt phải get-through 9 năm giáo dục cơ bản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complete", "endure"],
+      "antonyms": ["fail", "give up"],
+      "collocations": ["get through to", "get through the day", "hard to get through"],
+      "mnemonic_vi": "GET (đi) + THROUGH (xuyên qua) = xuyên qua. Get-through = vượt qua hoặc liên lạc được."
+    },
+    {
+      "word": "get-around",
+      "lemma": "get around",
+      "ipa": "/ˌɡet əˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to move from one place to another, often referring to ease of travel in a city; also to avoid a rule or problem",
+          "meaning_vi": "đi lại (di chuyển trong một khu vực, thường về sự dễ đi); cũng có nghĩa lách luật/né vấn đề",
+          "examples": [
+            {
+              "en": "It's easy to get around Saigon by Grab motorbike.",
+              "vi": "Dễ get-around Sài Gòn bằng Grab xe máy."
+            },
+            {
+              "en": "Some companies try to get around tax laws with offshore accounts.",
+              "vi": "Vài công ty cố get-around luật thuế bằng tài khoản nước ngoài."
+            },
+            {
+              "en": "News of the scandal got around quickly on Vietnamese social media.",
+              "vi": "Tin về scandal get-around nhanh trên mạng xã hội Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["travel", "circumvent"],
+      "antonyms": ["stay put"],
+      "collocations": ["get around the city", "get around the rules", "news gets around"],
+      "mnemonic_vi": "GET (đi) + AROUND (vòng quanh) = đi vòng quanh. Get-around = đi lại HOẶC lách luật."
+    },
+    {
+      "word": "give-up",
+      "lemma": "give up",
+      "ipa": "/ˌɡɪv ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to stop trying to do something; to abandon a habit, activity, or hope",
+          "meaning_vi": "từ bỏ (ngừng cố gắng làm điều gì; bỏ một thói quen, hoạt động, hoặc hy vọng)",
+          "examples": [
+            {
+              "en": "Don't give up — you're almost there!",
+              "vi": "Đừng give-up — bạn sắp đến rồi!"
+            },
+            {
+              "en": "He gave up smoking after his doctor's warning.",
+              "vi": "Anh ấy give-up hút thuốc sau cảnh báo của bác sĩ."
+            },
+            {
+              "en": "Many Vietnamese students give up calligraphy after primary school.",
+              "vi": "Nhiều học sinh Việt give-up thư pháp sau tiểu học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["quit", "abandon"],
+      "antonyms": ["persist", "continue"],
+      "collocations": ["give up smoking", "never give up", "give up hope"],
+      "mnemonic_vi": "GIVE (đưa) + UP (lên, từ bỏ) = bỏ tay lên đầu hàng. Give-up = từ bỏ."
+    },
+    {
+      "word": "give-back",
+      "lemma": "give back",
+      "ipa": "/ˌɡɪv ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return something that was borrowed, taken, or owned by another person",
+          "meaning_vi": "trả lại (đưa lại thứ đã mượn, lấy, hoặc thuộc người khác)",
+          "examples": [
+            {
+              "en": "Please give back the book when you finish reading.",
+              "vi": "Vui lòng give-back cuốn sách khi bạn đọc xong."
+            },
+            {
+              "en": "Successful entrepreneurs often want to give back to their communities.",
+              "vi": "Doanh nhân thành công thường muốn give-back cho cộng đồng."
+            },
+            {
+              "en": "Vietnamese alumni often give back to their old schools through scholarships.",
+              "vi": "Cựu sinh viên Việt thường give-back trường cũ qua học bổng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "restore"],
+      "antonyms": ["take", "keep"],
+      "collocations": ["give back to society", "give back the money", "give back to the community"],
+      "mnemonic_vi": "GIVE (đưa) + BACK (lại) = đưa lại. Give-back = trả lại HOẶC đóng góp lại cho cộng đồng."
+    },
+    {
+      "word": "give-in",
+      "lemma": "give in",
+      "ipa": "/ˌɡɪv ˈɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop resisting and accept what someone wants, especially after struggling against it",
+          "meaning_vi": "nhường, đầu hàng (ngừng kháng cự và chấp nhận điều người khác muốn, sau khi đã chống lại)",
+          "examples": [
+            {
+              "en": "After hours of arguing, he finally gave in to her demands.",
+              "vi": "Sau nhiều giờ cãi nhau, anh ấy cuối cùng give-in trước yêu sách của cô."
+            },
+            {
+              "en": "Don't give in to peer pressure — make your own choice.",
+              "vi": "Đừng give-in trước áp lực bạn bè — tự quyết định."
+            },
+            {
+              "en": "Vietnamese grandparents often give in to grandkids' wishes for sweets.",
+              "vi": "Ông bà Việt thường give-in cho cháu xin kẹo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["surrender", "yield"],
+      "antonyms": ["resist", "hold out"],
+      "collocations": ["give in to pressure", "give in to temptation", "refuse to give in"],
+      "mnemonic_vi": "GIVE (đưa) + IN (vào) = đưa tay đầu hàng. Give-in = nhường, đầu hàng."
+    },
+    {
+      "word": "give-out",
+      "lemma": "give out",
+      "ipa": "/ˌɡɪv ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to distribute something to many people; also to stop working or run out (of supplies or energy)",
+          "meaning_vi": "phát ra, phân phát (chia cho nhiều người); cũng nghĩa hỏng/hết (nguồn cung hoặc sức lực)",
+          "examples": [
+            {
+              "en": "Volunteers gave out free meals to flood victims.",
+              "vi": "Tình nguyện viên give-out bữa miễn phí cho nạn nhân lũ lụt."
+            },
+            {
+              "en": "My legs gave out after running for an hour.",
+              "vi": "Chân tôi give-out sau khi chạy một tiếng."
+            },
+            {
+              "en": "Vietnamese pagodas often give out free vegetarian food on the 1st and 15th lunar days.",
+              "vi": "Chùa Việt thường give-out đồ chay miễn phí ngày mùng 1 và 15 âm lịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["distribute", "hand out"],
+      "antonyms": ["collect"],
+      "collocations": ["give out free samples", "give out leaflets", "legs give out"],
+      "mnemonic_vi": "GIVE (đưa) + OUT (ra) = đưa ra. Give-out = phân phát ra HOẶC hết sức/hỏng."
+    },
+    {
+      "word": "give-away",
+      "lemma": "give away",
+      "ipa": "/ˌɡɪv əˈweɪ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give something for free; to reveal a secret or surprise unintentionally",
+          "meaning_vi": "tặng miễn phí; cũng nghĩa tiết lộ (bí mật/bất ngờ một cách vô tình)",
+          "examples": [
+            {
+              "en": "She gave away most of her old clothes to charity.",
+              "vi": "Cô ấy give-away phần lớn quần áo cũ cho từ thiện."
+            },
+            {
+              "en": "Don't give away the ending — I haven't seen the movie yet!",
+              "vi": "Đừng give-away cái kết — tôi chưa xem phim!"
+            },
+            {
+              "en": "Vietnamese brands often give away samples in front of supermarkets.",
+              "vi": "Thương hiệu Việt thường give-away mẫu thử trước siêu thị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["donate", "reveal"],
+      "antonyms": ["keep", "hide"],
+      "collocations": ["give away for free", "give away the secret", "give away the plot"],
+      "mnemonic_vi": "GIVE (đưa) + AWAY (đi xa) = đưa đi xa. Give-away = tặng đi HOẶC lộ bí mật."
+    },
+    {
+      "word": "give-off",
+      "lemma": "give off",
+      "ipa": "/ˌɡɪv ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to produce or emit (heat, smell, light, an impression, or vibe)",
+          "meaning_vi": "tỏa ra, phát ra (nhiệt, mùi, ánh sáng, ấn tượng, hoặc cảm giác)",
+          "examples": [
+            {
+              "en": "The candle gives off a warm vanilla scent.",
+              "vi": "Cây nến give-off mùi vani ấm."
+            },
+            {
+              "en": "He gives off a calm, confident vibe in interviews.",
+              "vi": "Anh ấy give-off cảm giác bình tĩnh, tự tin khi phỏng vấn."
+            },
+            {
+              "en": "Phở pots give off an incredible aroma in early morning Saigon markets.",
+              "vi": "Nồi phở give-off hương thơm khó cưỡng ở chợ Sài Gòn sáng sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["emit", "release"],
+      "antonyms": ["absorb"],
+      "collocations": ["give off heat", "give off a smell", "give off vibes"],
+      "mnemonic_vi": "GIVE (đưa) + OFF (ra ngoài) = phát ra. Give-off = tỏa ra (mùi/ánh/cảm giác)."
+    },
+    {
+      "word": "get-along",
+      "lemma": "get along",
+      "ipa": "/ˌɡet əˈlɒŋ/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to have a friendly relationship with someone; also to manage in a situation",
+          "meaning_vi": "hòa thuận, hợp nhau (có quan hệ tốt với ai); cũng nghĩa xoay sở được",
+          "examples": [
+            {
+              "en": "She gets along really well with her new roommate.",
+              "vi": "Cô ấy get-along rất tốt với bạn cùng phòng mới."
+            },
+            {
+              "en": "How are you getting along with your studies?",
+              "vi": "Bạn đang get-along thế nào với việc học?"
+            },
+            {
+              "en": "Vietnamese in-laws and daughters-in-law don't always get along easily.",
+              "vi": "Mẹ chồng và nàng dâu Việt không phải lúc nào cũng get-along dễ dàng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["coexist", "manage"],
+      "antonyms": ["argue", "clash"],
+      "collocations": ["get along with", "get along well", "hard to get along with"],
+      "mnemonic_vi": "GET (đi) + ALONG (cùng) = đi cùng nhau. Get-along = hợp nhau, đi cùng đường."
+    },
+    {
+      "word": "get-rid-of",
+      "lemma": "get rid of",
+      "ipa": "/ˌɡet ˈrɪd əv/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to remove or throw away something unwanted; to free oneself from a person, problem, or feeling",
+          "meaning_vi": "loại bỏ, vứt đi (bỏ thứ không muốn; thoát khỏi người/vấn đề/cảm xúc)",
+          "examples": [
+            {
+              "en": "Time to get rid of these old shoes — they're falling apart.",
+              "vi": "Đến lúc get-rid-of đôi giày cũ này — chúng đang rách."
+            },
+            {
+              "en": "I can't get rid of this cold no matter what I try.",
+              "vi": "Tôi không thể get-rid-of cơn cảm này dù thử cách gì."
+            },
+            {
+              "en": "Vietnamese families do a deep clean to get rid of bad luck before Tết.",
+              "vi": "Gia đình Việt dọn dẹp lớn để get-rid-of vận xui trước Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dispose of", "eliminate"],
+      "antonyms": ["keep", "retain"],
+      "collocations": ["get rid of clutter", "get rid of stress", "hard to get rid of"],
+      "mnemonic_vi": "GET RID OF = thoát khỏi. Get + rid (thoát) + of (khỏi) = loại bỏ. Quan trọng phải nhớ cả cụm."
+    }
+  ]
+}

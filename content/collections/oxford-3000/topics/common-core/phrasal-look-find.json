@@ -1,0 +1,633 @@
+{
+  "slug": "phrasal-look-find",
+  "name": "Phrasal Verbs: Look & Find",
+  "description": "Phrasal verbs với LOOK, FIND, WORK, SORT — 20 cụm cho tìm kiếm, suy nghĩ và xử lý vấn đề.",
+  "order_index": 13,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "look-after",
+      "lemma": "look after",
+      "ipa": "/ˌlʊk ˈɑːftə(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to take care of someone or something; to be responsible for their wellbeing",
+          "meaning_vi": "chăm sóc, trông nom (chịu trách nhiệm về sức khỏe/đời sống của ai/cái gì)",
+          "examples": [
+            {
+              "en": "Can you look after my dog while I'm in Da Nang?",
+              "vi": "Bạn look-after chó giùm tôi khi tôi đi Đà Nẵng không?"
+            },
+            {
+              "en": "Vietnamese grandparents often look after grandchildren during the school year.",
+              "vi": "Ông bà Việt thường look-after cháu trong năm học."
+            },
+            {
+              "en": "Look after yourself — you've been working too hard.",
+              "vi": "Look-after bản thân đi — bạn làm việc nhiều quá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["take care of", "watch over"],
+      "antonyms": ["neglect"],
+      "collocations": ["look after the kids", "look after yourself", "look after a pet"],
+      "mnemonic_vi": "LOOK (nhìn) + AFTER (theo) = trông theo. Look-after = chăm sóc, trông coi."
+    },
+    {
+      "word": "look-for",
+      "lemma": "look for",
+      "ipa": "/ˌlʊk ˈfɔː(r)/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to search or try to find someone or something",
+          "meaning_vi": "tìm kiếm (cố tìm ai/cái gì)",
+          "examples": [
+            {
+              "en": "I'm looking for my keys — have you seen them?",
+              "vi": "Tôi đang look-for chìa khóa — bạn thấy không?"
+            },
+            {
+              "en": "Many young Vietnamese look for jobs on LinkedIn now.",
+              "vi": "Nhiều người trẻ Việt look-for việc trên LinkedIn bây giờ."
+            },
+            {
+              "en": "What are you looking for in a new apartment?",
+              "vi": "Bạn look-for gì ở căn hộ mới?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["search for", "seek"],
+      "antonyms": ["find"],
+      "collocations": ["look for work", "look for help", "actively look for"],
+      "mnemonic_vi": "LOOK (nhìn) + FOR (vì) = nhìn vì. Look-for = tìm kiếm."
+    },
+    {
+      "word": "look-up",
+      "lemma": "look up",
+      "ipa": "/ˌlʊk ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to search for information in a book, dictionary, or online; to improve",
+          "meaning_vi": "tra cứu, cải thiện (tìm thông tin trong sách/từ điển/online; trở nên tốt hơn)",
+          "examples": [
+            {
+              "en": "Look up the word in the dictionary if you don't understand.",
+              "vi": "Look-up từ trong từ điển nếu bạn không hiểu."
+            },
+            {
+              "en": "Things are finally looking up for the Vietnamese economy.",
+              "vi": "Tình hình cuối cùng cũng look-up cho kinh tế Việt."
+            },
+            {
+              "en": "Vietnamese students look up English idioms on YouTube videos.",
+              "vi": "Học sinh Việt look-up idiom tiếng Anh qua video YouTube."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["search", "improve"],
+      "antonyms": ["worsen"],
+      "collocations": ["look up a word", "look it up online", "things are looking up"],
+      "mnemonic_vi": "LOOK (nhìn) + UP (lên) = nhìn lên. Look-up = tra cứu HOẶC tình hình khá lên."
+    },
+    {
+      "word": "look-out",
+      "lemma": "look out",
+      "ipa": "/ˌlʊk ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be careful or watch for danger; an exclamation warning someone of imminent risk",
+          "meaning_vi": "cẩn thận, coi chừng (chú ý đến nguy hiểm; câu cảnh báo)",
+          "examples": [
+            {
+              "en": "Look out! There's a motorbike coming.",
+              "vi": "Look-out! Có xe máy đang tới."
+            },
+            {
+              "en": "Look out for pickpockets in crowded Saigon markets.",
+              "vi": "Look-out cho móc túi ở chợ đông Sài Gòn."
+            },
+            {
+              "en": "Older siblings in Vietnamese families look out for younger ones.",
+              "vi": "Anh chị lớn trong gia đình Việt look-out cho em nhỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["watch out", "beware"],
+      "antonyms": ["ignore"],
+      "collocations": ["look out for", "look out below", "look out for trouble"],
+      "mnemonic_vi": "LOOK (nhìn) + OUT (ra) = nhìn ra. Look-out = coi chừng, cẩn thận."
+    },
+    {
+      "word": "look-into",
+      "lemma": "look into",
+      "ipa": "/ˌlʊk ˈɪntə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to investigate or examine a matter carefully",
+          "meaning_vi": "điều tra, xem xét (kiểm tra một vấn đề cẩn thận)",
+          "examples": [
+            {
+              "en": "The police are looking into the cause of the accident.",
+              "vi": "Cảnh sát đang look-into nguyên nhân tai nạn."
+            },
+            {
+              "en": "Vietnamese journalists are looking into corruption claims at the agency.",
+              "vi": "Nhà báo Việt đang look-into cáo buộc tham nhũng ở cơ quan."
+            },
+            {
+              "en": "I'll look into the issue and get back to you soon.",
+              "vi": "Tôi sẽ look-into vấn đề và phản hồi sớm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["investigate", "examine"],
+      "antonyms": ["ignore"],
+      "collocations": ["look into a problem", "look into allegations", "thoroughly look into"],
+      "mnemonic_vi": "LOOK (nhìn) + INTO (vào trong) = nhìn sâu vào. Look-into = điều tra kỹ."
+    },
+    {
+      "word": "look-through",
+      "lemma": "look through",
+      "ipa": "/ˌlʊk ˈθruː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to examine or read something quickly; to search through items one by one",
+          "meaning_vi": "lướt xem, soát qua (đọc/xem nhanh; tìm qua từng thứ)",
+          "examples": [
+            {
+              "en": "Let me look through your notes before the exam.",
+              "vi": "Để tôi look-through ghi chú của bạn trước kỳ thi."
+            },
+            {
+              "en": "I looked through old photos and got nostalgic.",
+              "vi": "Tôi look-through ảnh cũ và thấy hoài niệm."
+            },
+            {
+              "en": "Vietnamese parents look through their kids' school bags daily.",
+              "vi": "Phụ huynh Việt look-through cặp sách con hằng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["browse", "skim"],
+      "antonyms": ["overlook"],
+      "collocations": ["look through documents", "look through old photos", "quickly look through"],
+      "mnemonic_vi": "LOOK (nhìn) + THROUGH (xuyên qua) = nhìn xuyên. Look-through = soát qua, lướt xem."
+    },
+    {
+      "word": "look-up-to",
+      "lemma": "look up to",
+      "ipa": "/ˌlʊk ˈʌp tə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to admire and respect someone, often as a role model",
+          "meaning_vi": "ngưỡng mộ, kính trọng (xem ai là tấm gương)",
+          "examples": [
+            {
+              "en": "She looks up to her older sister for career advice.",
+              "vi": "Cô ấy look-up-to chị gái về lời khuyên sự nghiệp."
+            },
+            {
+              "en": "Many Vietnamese students look up to overseas alumni.",
+              "vi": "Nhiều sinh viên Việt look-up-to cựu sinh viên du học."
+            },
+            {
+              "en": "Children look up to teachers more than they realize.",
+              "vi": "Trẻ em look-up-to giáo viên nhiều hơn chúng nhận ra."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["admire", "respect"],
+      "antonyms": ["look down on"],
+      "collocations": ["look up to your parents", "someone to look up to", "really look up to"],
+      "mnemonic_vi": "LOOK (nhìn) + UP TO (lên tới) = ngước lên. Look-up-to = ngưỡng mộ, xem là gương."
+    },
+    {
+      "word": "look-down-on",
+      "lemma": "look down on",
+      "ipa": "/ˌlʊk ˈdaʊn ɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to consider someone or something as inferior; to feel superior to others",
+          "meaning_vi": "coi thường, khinh (cho rằng kém hơn; tự thấy mình cao hơn)",
+          "examples": [
+            {
+              "en": "Don't look down on people just because they earn less.",
+              "vi": "Đừng look-down-on người ta chỉ vì họ kiếm ít hơn."
+            },
+            {
+              "en": "Some urban Vietnamese look down on rural traditions unfairly.",
+              "vi": "Một số người Việt thành thị look-down-on truyền thống thôn quê bất công."
+            },
+            {
+              "en": "Looking down on others reveals more about you than them.",
+              "vi": "Look-down-on người khác cho thấy nhiều về bạn hơn về họ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["despise", "belittle"],
+      "antonyms": ["look up to", "respect"],
+      "collocations": ["look down on others", "tend to look down on", "look down on the poor"],
+      "mnemonic_vi": "LOOK (nhìn) + DOWN ON (xuống) = nhìn xuống. Look-down-on = khinh thường."
+    },
+    {
+      "word": "look-forward-to",
+      "lemma": "look forward to",
+      "ipa": "/ˌlʊk ˈfɔːwəd tə/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to feel happy and excited about something that is going to happen",
+          "meaning_vi": "trông đợi (cảm thấy vui và hào hứng về điều sắp xảy ra)",
+          "examples": [
+            {
+              "en": "I'm looking forward to the Tết holidays.",
+              "vi": "Tôi look-forward-to kỳ nghỉ Tết."
+            },
+            {
+              "en": "She looks forward to seeing her family next month.",
+              "vi": "Cô ấy look-forward-to gặp gia đình tháng sau."
+            },
+            {
+              "en": "Vietnamese students look forward to summer vacation all year.",
+              "vi": "Học sinh Việt look-forward-to nghỉ hè suốt cả năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anticipate eagerly"],
+      "antonyms": ["dread"],
+      "collocations": [
+        "look forward to seeing you",
+        "look forward to the weekend",
+        "really look forward to"
+      ],
+      "mnemonic_vi": "LOOK (nhìn) + FORWARD (trước) + TO (đến) = nhìn về phía trước. Look-forward-to = trông đợi."
+    },
+    {
+      "word": "look-back",
+      "lemma": "look back",
+      "ipa": "/ˌlʊk ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to think about something in the past; to reflect on previous experiences",
+          "meaning_vi": "nhìn lại (suy nghĩ về quá khứ; chiêm nghiệm)",
+          "examples": [
+            {
+              "en": "Looking back, I should have studied harder for that exam.",
+              "vi": "Look-back, tôi nên học chăm hơn cho kỳ thi đó."
+            },
+            {
+              "en": "She looks back on her childhood with fond memories.",
+              "vi": "Cô ấy look-back tuổi thơ với kỷ niệm đẹp."
+            },
+            {
+              "en": "Vietnamese families look back on shared meals as their happiest times.",
+              "vi": "Gia đình Việt look-back bữa cơm chung là khoảnh khắc hạnh phúc nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reflect", "reminisce"],
+      "antonyms": ["look ahead"],
+      "collocations": ["look back on", "looking back now", "no looking back"],
+      "mnemonic_vi": "LOOK (nhìn) + BACK (sau) = nhìn lại. Look-back = nhớ lại quá khứ."
+    },
+    {
+      "word": "find-out",
+      "lemma": "find out",
+      "ipa": "/ˌfaɪnd ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to discover information; to learn the truth about something",
+          "meaning_vi": "phát hiện, tìm ra (khám phá thông tin; biết được sự thật)",
+          "examples": [
+            {
+              "en": "How did you find out about the news?",
+              "vi": "Bạn find-out tin đó bằng cách nào?"
+            },
+            {
+              "en": "I need to find out where this bus stops.",
+              "vi": "Tôi cần find-out xe buýt này dừng ở đâu."
+            },
+            {
+              "en": "Vietnamese parents always find out when their kids skip school.",
+              "vi": "Phụ huynh Việt luôn find-out khi con trốn học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["discover", "learn"],
+      "antonyms": ["remain ignorant"],
+      "collocations": ["find out the truth", "find out about", "easy to find out"],
+      "mnemonic_vi": "FIND (tìm) + OUT (ra) = tìm ra. Find-out = phát hiện ra, biết được."
+    },
+    {
+      "word": "figure-out",
+      "lemma": "figure out",
+      "ipa": "/ˌfɪɡə ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to understand or solve something by thinking carefully",
+          "meaning_vi": "hiểu ra, giải quyết (suy nghĩ cẩn thận để hiểu hoặc giải)",
+          "examples": [
+            {
+              "en": "I can't figure out why my computer keeps crashing.",
+              "vi": "Tôi không figure-out tại sao máy tính cứ treo."
+            },
+            {
+              "en": "Let's figure out a plan together.",
+              "vi": "Cùng figure-out kế hoạch nào."
+            },
+            {
+              "en": "Vietnamese tech founders often figure out problems through late-night brainstorms.",
+              "vi": "Founder tech Việt thường figure-out vấn đề qua brainstorm khuya."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["solve", "comprehend"],
+      "antonyms": ["misunderstand"],
+      "collocations": ["figure out the answer", "figure out a solution", "try to figure out"],
+      "mnemonic_vi": "FIGURE (hình, con số) + OUT (ra) = vẽ ra. Figure-out = hiểu ra, giải ra."
+    },
+    {
+      "word": "work-out",
+      "lemma": "work out",
+      "ipa": "/ˌwɜːk ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to exercise physically; to solve a problem; to have a successful outcome",
+          "meaning_vi": "tập thể dục, giải quyết, thành công (tập gym; giải vấn đề; có kết quả tốt)",
+          "examples": [
+            {
+              "en": "I work out at the gym three times a week.",
+              "vi": "Tôi work-out ở gym ba lần mỗi tuần."
+            },
+            {
+              "en": "Things didn't work out between them.",
+              "vi": "Mọi chuyện không work-out giữa họ."
+            },
+            {
+              "en": "Vietnamese yoga studios are popular places to work out in big cities.",
+              "vi": "Studio yoga Việt là nơi work-out phổ biến ở thành phố lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exercise", "succeed", "solve"],
+      "antonyms": ["fail"],
+      "collocations": ["work out at the gym", "work out a solution", "things work out"],
+      "mnemonic_vi": "WORK (làm) + OUT (ra) = làm ra. Work-out = tập thể dục, giải ra, hoặc kết quả tốt."
+    },
+    {
+      "word": "sort-out",
+      "lemma": "sort out",
+      "ipa": "/ˌsɔːt ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to organize or arrange things; to solve or resolve a problem or conflict",
+          "meaning_vi": "sắp xếp, giải quyết (tổ chức đồ; giải vấn đề/xung đột)",
+          "examples": [
+            {
+              "en": "I need to sort out my paperwork before the audit.",
+              "vi": "Tôi cần sort-out giấy tờ trước khi kiểm toán."
+            },
+            {
+              "en": "Let's sort out our misunderstanding over coffee.",
+              "vi": "Hãy sort-out hiểu lầm bên tách cà phê."
+            },
+            {
+              "en": "Vietnamese visa applicants must sort out documents months in advance.",
+              "vi": "Người xin visa Việt phải sort-out giấy tờ trước nhiều tháng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organize", "resolve"],
+      "antonyms": ["mess up"],
+      "collocations": ["sort out the mess", "sort out a problem", "sort out documents"],
+      "mnemonic_vi": "SORT (phân loại) + OUT (ra) = phân ra. Sort-out = sắp xếp lại HOẶC giải quyết."
+    },
+    {
+      "word": "watch-out",
+      "lemma": "watch out",
+      "ipa": "/ˌwɒtʃ ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to be careful, especially when there is danger or risk; often used as a warning",
+          "meaning_vi": "coi chừng (cẩn thận, đặc biệt khi có nguy hiểm; thường dùng làm câu cảnh báo)",
+          "examples": [
+            {
+              "en": "Watch out — the floor is slippery!",
+              "vi": "Watch-out — sàn trơn!"
+            },
+            {
+              "en": "Watch out for scammers on social media.",
+              "vi": "Watch-out kẻ lừa đảo trên mạng xã hội."
+            },
+            {
+              "en": "Vietnamese mothers always tell children to watch out when crossing the street.",
+              "vi": "Mẹ Việt luôn dặn con watch-out khi qua đường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["beware", "be careful"],
+      "antonyms": [],
+      "collocations": ["watch out for", "watch out below", "watch out for trouble"],
+      "mnemonic_vi": "WATCH (xem) + OUT (ra) = xem ra. Watch-out = coi chừng."
+    },
+    {
+      "word": "look-on",
+      "lemma": "look on",
+      "ipa": "/ˌlʊk ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to watch something without participating; to regard or consider something in a particular way",
+          "meaning_vi": "đứng nhìn, coi như (xem mà không tham gia; cho rằng thế nào đó)",
+          "examples": [
+            {
+              "en": "Crowds looked on as the parade passed through Saigon.",
+              "vi": "Đám đông look-on khi đoàn diễu hành đi qua Sài Gòn."
+            },
+            {
+              "en": "She looks on her mentor as a second mother.",
+              "vi": "Cô ấy look-on người mentor như mẹ thứ hai."
+            },
+            {
+              "en": "Many Vietnamese look on Đà Lạt as the most romantic city in the country.",
+              "vi": "Nhiều người Việt look-on Đà Lạt là thành phố lãng mạn nhất nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["observe", "regard"],
+      "antonyms": ["participate"],
+      "collocations": ["stand and look on", "look on as a friend", "passive look on"],
+      "mnemonic_vi": "LOOK (nhìn) + ON (trên) = đứng nhìn. Look-on = chứng kiến, hoặc xem là."
+    },
+    {
+      "word": "look-round",
+      "lemma": "look round",
+      "ipa": "/ˌlʊk ˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to turn one's head to see what is behind; to walk around a place to examine it",
+          "meaning_vi": "ngoái nhìn, xem quanh (quay đầu nhìn phía sau; đi quanh một nơi để xem)",
+          "examples": [
+            {
+              "en": "She looked round when she heard her name called.",
+              "vi": "Cô ấy look-round khi nghe gọi tên."
+            },
+            {
+              "en": "We looked round the museum for two hours.",
+              "vi": "Chúng tôi look-round bảo tàng trong hai giờ."
+            },
+            {
+              "en": "Vietnamese tourists like to look round Hà Nội's Old Quarter on foot.",
+              "vi": "Du khách Việt thích look-round Phố Cổ Hà Nội bằng đi bộ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["glance around", "explore"],
+      "antonyms": [],
+      "collocations": ["look round a city", "look round a shop", "look round to see"],
+      "mnemonic_vi": "LOOK (nhìn) + ROUND (vòng) = nhìn vòng. Look-round = nhìn quanh, xem khắp."
+    },
+    {
+      "word": "fill-in",
+      "lemma": "fill in",
+      "ipa": "/ˌfɪl ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to write information in a form or document; to substitute for someone temporarily",
+          "meaning_vi": "điền vào, thay thế tạm (điền thông tin vào biểu mẫu; làm thay ai đó tạm thời)",
+          "examples": [
+            {
+              "en": "Please fill in your name and date of birth.",
+              "vi": "Vui lòng fill-in tên và ngày sinh."
+            },
+            {
+              "en": "Can you fill in for me at the meeting tomorrow?",
+              "vi": "Bạn fill-in giùm tôi cuộc họp mai được không?"
+            },
+            {
+              "en": "Vietnamese officials still ask citizens to fill in many paper forms.",
+              "vi": "Cán bộ Việt vẫn yêu cầu dân fill-in nhiều biểu mẫu giấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complete", "substitute"],
+      "antonyms": ["leave blank"],
+      "collocations": ["fill in a form", "fill in the blanks", "fill in for someone"],
+      "mnemonic_vi": "FILL (điền) + IN (vào) = điền vào. Fill-in = điền form HOẶC làm thay."
+    },
+    {
+      "word": "fill-out",
+      "lemma": "fill out",
+      "ipa": "/ˌfɪl ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to complete a form by adding the required information (American English variant of fill in)",
+          "meaning_vi": "điền đầy đủ (Mỹ thường dùng — hoàn thành biểu mẫu)",
+          "examples": [
+            {
+              "en": "Fill out this application and return it by Friday.",
+              "vi": "Fill-out đơn này và nộp lại trước thứ Sáu."
+            },
+            {
+              "en": "Online forms are faster to fill out than paper ones.",
+              "vi": "Form online nhanh fill-out hơn form giấy."
+            },
+            {
+              "en": "Vietnamese expats abroad often fill out visa renewals each year.",
+              "vi": "Người Việt định cư nước ngoài thường fill-out gia hạn visa hằng năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complete", "fill in"],
+      "antonyms": ["leave blank"],
+      "collocations": ["fill out a form", "fill out an application", "fill out paperwork"],
+      "mnemonic_vi": "FILL (điền) + OUT (ra hết) = điền cho đầy. Fill-out = điền form (American)."
+    },
+    {
+      "word": "fill-up",
+      "lemma": "fill up",
+      "ipa": "/ˌfɪl ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make something completely full (gas tank, bottle, room); to feel full from eating",
+          "meaning_vi": "đổ đầy, no (làm đầy bình xăng/chai/phòng; no sau khi ăn)",
+          "examples": [
+            {
+              "en": "I need to fill up the bike at the next station.",
+              "vi": "Tôi cần fill-up xe máy ở trạm tiếp."
+            },
+            {
+              "en": "Phở fills me up for the whole morning.",
+              "vi": "Phở fill-up tôi cả buổi sáng."
+            },
+            {
+              "en": "Saigon's cafés fill up quickly during the morning coffee rush.",
+              "vi": "Quán cà phê Sài Gòn fill-up nhanh trong giờ cao điểm sáng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["top up", "satisfy"],
+      "antonyms": ["empty"],
+      "collocations": ["fill up the tank", "fill up with food", "places fill up fast"],
+      "mnemonic_vi": "FILL (đổ) + UP (lên) = đổ đầy lên. Fill-up = đổ đầy."
+    }
+  ]
+}

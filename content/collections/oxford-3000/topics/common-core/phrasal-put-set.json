@@ -1,0 +1,629 @@
+{
+  "slug": "phrasal-put-set",
+  "name": "Phrasal Verbs: Put & Set",
+  "description": "Phrasal verbs với PUT, SET, SWITCH — 20 cụm cho đặt vật, bố trí, và bật/tắt.",
+  "order_index": 15,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "put-on",
+      "lemma": "put on",
+      "ipa": "/ˌpʊt ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to dress in clothes or accessories; to start playing music or a video; to gain weight",
+          "meaning_vi": "mặc vào, bật phát, tăng cân (mặc đồ; bật nhạc/video; lên cân)",
+          "examples": [
+            {
+              "en": "Put on a jacket — it's chilly outside.",
+              "vi": "Put-on áo khoác — bên ngoài lạnh."
+            },
+            {
+              "en": "Let's put on some lo-fi music while we study.",
+              "vi": "Put-on chút nhạc lo-fi trong lúc học nào."
+            },
+            {
+              "en": "Vietnamese students often put on weight during Tết feasting.",
+              "vi": "Học sinh Việt thường put-on cân nặng trong tiệc Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wear", "play", "gain"],
+      "antonyms": ["take off"],
+      "collocations": ["put on a coat", "put on music", "put on weight"],
+      "mnemonic_vi": "PUT (đặt) + ON (lên) = đặt lên. Put-on = mặc vào, bật nhạc, hoặc tăng cân."
+    },
+    {
+      "word": "put-off",
+      "lemma": "put off",
+      "ipa": "/ˌpʊt ˈɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to postpone or delay something; to discourage someone from doing something",
+          "meaning_vi": "trì hoãn, làm nản (dời sang sau; làm ai chán/nản)",
+          "examples": [
+            {
+              "en": "Don't put off your homework until the last minute.",
+              "vi": "Đừng put-off bài tập đến phút chót."
+            },
+            {
+              "en": "The smell of durian puts some foreigners off.",
+              "vi": "Mùi sầu riêng put-off một số người nước ngoài."
+            },
+            {
+              "en": "Vietnamese exams are often put off when typhoons hit.",
+              "vi": "Kỳ thi Việt thường được put-off khi có bão."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["delay", "discourage"],
+      "antonyms": ["bring forward", "attract"],
+      "collocations": ["put off a decision", "put off the meeting", "put someone off"],
+      "mnemonic_vi": "PUT (đặt) + OFF (xa/sau) = đặt sang sau. Put-off = hoãn lại, làm nản."
+    },
+    {
+      "word": "put-up",
+      "lemma": "put up",
+      "ipa": "/ˌpʊt ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to build or erect; to provide accommodation for someone; to display something publicly",
+          "meaning_vi": "dựng lên, cho ở nhờ, trưng bày (xây/dựng; chỗ ngủ tạm cho ai; trưng bày công khai)",
+          "examples": [
+            {
+              "en": "We put up a tent by the lake.",
+              "vi": "Ta put-up lều bên hồ."
+            },
+            {
+              "en": "Can you put me up for a few nights?",
+              "vi": "Bạn put-up tôi vài đêm được không?"
+            },
+            {
+              "en": "Vietnamese families put up red banners at Tết.",
+              "vi": "Gia đình Việt put-up băng đỏ vào Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["erect", "host"],
+      "antonyms": ["take down"],
+      "collocations": ["put up a tent", "put up a poster", "put up for the night"],
+      "mnemonic_vi": "PUT (đặt) + UP (lên) = đặt lên. Put-up = dựng lên, treo lên, cho ở nhờ."
+    },
+    {
+      "word": "put-down",
+      "lemma": "put down",
+      "ipa": "/ˌpʊt ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to place something on a surface; to suppress a rebellion; to criticize someone harshly",
+          "meaning_vi": "đặt xuống, dập tắt, hạ thấp (đặt vật lên mặt; dập nổi loạn; phê phán nặng)",
+          "examples": [
+            {
+              "en": "Please put down the phone during dinner.",
+              "vi": "Vui lòng put-down điện thoại trong bữa cơm."
+            },
+            {
+              "en": "The police put down the protest peacefully.",
+              "vi": "Cảnh sát put-down biểu tình một cách hòa bình."
+            },
+            {
+              "en": "Vietnamese teachers traditionally don't put down students publicly.",
+              "vi": "Giáo viên Việt truyền thống không put-down học sinh công khai."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["place", "suppress", "criticize"],
+      "antonyms": ["pick up", "praise"],
+      "collocations": ["put down the phone", "put down the pen", "put down a riot"],
+      "mnemonic_vi": "PUT (đặt) + DOWN (xuống) = đặt xuống. Put-down = đặt xuống, dập tắt, chê bai."
+    },
+    {
+      "word": "put-away",
+      "lemma": "put away",
+      "ipa": "/ˌpʊt əˈweɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return something to its proper place; to save money for the future",
+          "meaning_vi": "cất đi, để dành (trả vật về chỗ; để dành tiền cho tương lai)",
+          "examples": [
+            {
+              "en": "Put away your toys before bedtime.",
+              "vi": "Put-away đồ chơi trước khi ngủ."
+            },
+            {
+              "en": "She puts away a small amount each month for emergencies.",
+              "vi": "Cô ấy put-away một khoản nhỏ mỗi tháng phòng khẩn cấp."
+            },
+            {
+              "en": "Vietnamese grandmas put away rice in clay jars to keep it fresh.",
+              "vi": "Bà nội Việt put-away gạo trong lu sành để giữ tươi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["store", "save"],
+      "antonyms": ["take out"],
+      "collocations": ["put away toys", "put away money", "put away laundry"],
+      "mnemonic_vi": "PUT (đặt) + AWAY (đi) = đặt đi. Put-away = cất đi, để dành."
+    },
+    {
+      "word": "put-back",
+      "lemma": "put back",
+      "ipa": "/ˌpʊt ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return something to its original place; to delay or postpone an event",
+          "meaning_vi": "đặt lại, dời lùi (trả vật về vị trí cũ; hoãn sự kiện sang sau)",
+          "examples": [
+            {
+              "en": "Please put back the book on the shelf.",
+              "vi": "Vui lòng put-back sách lên kệ."
+            },
+            {
+              "en": "The launch was put back by three months.",
+              "vi": "Buổi ra mắt bị put-back lại 3 tháng."
+            },
+            {
+              "en": "Vietnamese students always put back their pens after exams.",
+              "vi": "Học sinh Việt luôn put-back bút sau khi thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return", "postpone"],
+      "antonyms": ["take out", "bring forward"],
+      "collocations": ["put back on the shelf", "put back the deadline", "put back in place"],
+      "mnemonic_vi": "PUT (đặt) + BACK (lại) = đặt lại. Put-back = trả về chỗ cũ HOẶC dời lùi."
+    },
+    {
+      "word": "put-out",
+      "lemma": "put out",
+      "ipa": "/ˌpʊt ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to extinguish a fire or light; to release an album, statement, or product; to inconvenience someone",
+          "meaning_vi": "dập tắt, phát hành, làm phiền (tắt lửa/đèn; ra mắt; gây bất tiện)",
+          "examples": [
+            {
+              "en": "Firefighters put out the blaze in three hours.",
+              "vi": "Cứu hỏa put-out đám cháy trong 3 giờ."
+            },
+            {
+              "en": "She put out a statement on social media.",
+              "vi": "Cô ấy put-out tuyên bố trên mạng xã hội."
+            },
+            {
+              "en": "I hope I'm not putting you out by visiting unexpectedly.",
+              "vi": "Hy vọng tôi không put-out bạn khi ghé đột xuất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extinguish", "release"],
+      "antonyms": ["start"],
+      "collocations": ["put out a fire", "put out a statement", "put someone out"],
+      "mnemonic_vi": "PUT (đặt) + OUT (ra/tắt) = đặt ra/tắt. Put-out = dập tắt, ra mắt, hoặc làm phiền."
+    },
+    {
+      "word": "put-into",
+      "lemma": "put into",
+      "ipa": "/ˌpʊt ˈɪntə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to invest time, energy, or money into something; to insert or place inside",
+          "meaning_vi": "đầu tư vào, đưa vào (bỏ thời gian/sức/tiền vào; đặt vào trong)",
+          "examples": [
+            {
+              "en": "He puts a lot of effort into his startup every day.",
+              "vi": "Anh ấy put-into nhiều công sức vào startup mỗi ngày."
+            },
+            {
+              "en": "Put the documents into the folder marked 'urgent'.",
+              "vi": "Put-into tài liệu vào folder ghi 'urgent'."
+            },
+            {
+              "en": "Vietnamese parents put their savings into their children's education.",
+              "vi": "Cha mẹ Việt put-into tiền dành dụm vào giáo dục con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["invest", "insert"],
+      "antonyms": ["take out"],
+      "collocations": ["put effort into", "put money into", "put into practice"],
+      "mnemonic_vi": "PUT (đặt) + INTO (vào trong) = đặt vào. Put-into = đầu tư vào, đưa vào."
+    },
+    {
+      "word": "put-up-with",
+      "lemma": "put up with",
+      "ipa": "/ˌpʊt ˈʌp wɪð/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to tolerate or endure something unpleasant without complaining",
+          "meaning_vi": "chịu đựng, nhẫn nhịn (chấp nhận điều khó chịu mà không phàn nàn)",
+          "examples": [
+            {
+              "en": "I can't put up with this noise any longer.",
+              "vi": "Tôi không thể put-up-with tiếng ồn này nữa."
+            },
+            {
+              "en": "She had to put up with rude clients in her first job.",
+              "vi": "Cô ấy phải put-up-with khách hàng thô lỗ trong công việc đầu."
+            },
+            {
+              "en": "Vietnamese commuters put up with morning traffic for hours daily.",
+              "vi": "Người đi làm Việt put-up-with kẹt xe buổi sáng hằng ngày nhiều giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tolerate", "endure"],
+      "antonyms": ["refuse"],
+      "collocations": ["put up with noise", "have to put up with", "refuse to put up with"],
+      "mnemonic_vi": "PUT (đặt) + UP (lên) + WITH (cùng) = chịu đặt lên cùng. Put-up-with = chịu đựng."
+    },
+    {
+      "word": "put-together",
+      "lemma": "put together",
+      "ipa": "/ˌpʊt təˈɡeðə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to assemble parts into a whole; to organize or prepare something carefully",
+          "meaning_vi": "ráp lại, tổ chức (gom các phần thành tổng thể; chuẩn bị/sắp xếp cẩn thận)",
+          "examples": [
+            {
+              "en": "He put together a new IKEA shelf in two hours.",
+              "vi": "Anh ấy put-together kệ IKEA mới trong 2 giờ."
+            },
+            {
+              "en": "She put together a presentation for the investors.",
+              "vi": "Cô ấy put-together một bài thuyết trình cho nhà đầu tư."
+            },
+            {
+              "en": "Vietnamese wedding planners put together full-day events with extreme detail.",
+              "vi": "Wedding planner Việt put-together sự kiện cả ngày chi tiết cực đỉnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assemble", "compile"],
+      "antonyms": ["take apart"],
+      "collocations": ["put together a plan", "put together furniture", "put together a team"],
+      "mnemonic_vi": "PUT (đặt) + TOGETHER (cùng) = đặt cùng nhau. Put-together = ráp lại, tổ chức."
+    },
+    {
+      "word": "set-up",
+      "lemma": "set up",
+      "ipa": "/ˌset ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to establish or arrange something new (a business, system, equipment); to prepare for an event",
+          "meaning_vi": "thành lập, cài đặt, chuẩn bị (lập công ty/hệ thống/thiết bị; chuẩn bị cho sự kiện)",
+          "examples": [
+            {
+              "en": "She set up her own design agency last year.",
+              "vi": "Cô ấy set-up agency thiết kế riêng năm ngoái."
+            },
+            {
+              "en": "Let me set up the projector before the meeting.",
+              "vi": "Để tôi set-up máy chiếu trước cuộc họp."
+            },
+            {
+              "en": "Vietnamese startups can be set up entirely online now.",
+              "vi": "Startup Việt có thể set-up hoàn toàn online giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["establish", "arrange"],
+      "antonyms": ["dismantle"],
+      "collocations": ["set up a business", "set up a meeting", "set up the equipment"],
+      "mnemonic_vi": "SET (đặt) + UP (lên) = dựng lên. Set-up = thành lập, cài đặt."
+    },
+    {
+      "word": "set-off",
+      "lemma": "set off",
+      "ipa": "/ˌset ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to begin a journey; to cause something to start (an alarm, explosion, reaction)",
+          "meaning_vi": "khởi hành, kích hoạt (bắt đầu chuyến đi; làm bùng nổ/phản ứng)",
+          "examples": [
+            {
+              "en": "We set off for Sa Pa at 5 a.m.",
+              "vi": "Chúng tôi set-off đi Sa Pa lúc 5 giờ sáng."
+            },
+            {
+              "en": "The smoke set off the fire alarm.",
+              "vi": "Khói set-off chuông báo cháy."
+            },
+            {
+              "en": "Vietnamese fireworks set off the new year celebration.",
+              "vi": "Pháo hoa Việt set-off lễ mừng năm mới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["depart", "trigger"],
+      "antonyms": ["arrive", "stop"],
+      "collocations": ["set off on a journey", "set off the alarm", "set off fireworks"],
+      "mnemonic_vi": "SET (đặt) + OFF (đi) = đặt đi. Set-off = khởi hành HOẶC kích hoạt."
+    },
+    {
+      "word": "set-out",
+      "lemma": "set out",
+      "ipa": "/ˌset ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to start a journey or activity with a specific goal; to present or arrange items neatly",
+          "meaning_vi": "lên đường, trình bày (khởi hành với mục tiêu; bày biện gọn)",
+          "examples": [
+            {
+              "en": "They set out to climb Mount Fansipan at dawn.",
+              "vi": "Họ set-out leo Fansipan lúc rạng đông."
+            },
+            {
+              "en": "She set out her plans in a clear presentation.",
+              "vi": "Cô ấy set-out kế hoạch trong một bài thuyết trình rõ ràng."
+            },
+            {
+              "en": "Vietnamese street vendors set out their goods at 5 a.m. each day.",
+              "vi": "Hàng rong Việt set-out hàng vào 5 giờ sáng mỗi ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["begin", "arrange"],
+      "antonyms": ["arrive", "pack up"],
+      "collocations": ["set out on a journey", "set out a plan", "set out to achieve"],
+      "mnemonic_vi": "SET (đặt) + OUT (ra) = đặt ra. Set-out = bắt đầu HOẶC bày biện."
+    },
+    {
+      "word": "set-down",
+      "lemma": "set down",
+      "ipa": "/ˌset ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to put something down on a surface; to write down rules or principles formally",
+          "meaning_vi": "đặt xuống, đặt thành quy tắc (đặt vật lên mặt; ghi quy tắc/nguyên tắc chính thức)",
+          "examples": [
+            {
+              "en": "She set down her bag and sat on the bench.",
+              "vi": "Cô ấy set-down túi và ngồi xuống ghế."
+            },
+            {
+              "en": "The rules are set down clearly in the employee handbook.",
+              "vi": "Quy tắc được set-down rõ trong sổ tay nhân viên."
+            },
+            {
+              "en": "Vietnamese constitutional reforms set down new economic principles in 1986.",
+              "vi": "Cải cách hiến pháp Việt set-down nguyên tắc kinh tế mới năm 1986."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["place", "establish"],
+      "antonyms": ["pick up"],
+      "collocations": ["set down on paper", "set down rules", "set down standards"],
+      "mnemonic_vi": "SET (đặt) + DOWN (xuống) = đặt xuống. Set-down = đặt xuống HOẶC ghi thành quy tắc."
+    },
+    {
+      "word": "put-forward",
+      "lemma": "put forward",
+      "ipa": "/ˌpʊt ˈfɔːwəd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to suggest or propose an idea, plan, candidate, or theory for consideration",
+          "meaning_vi": "đề xuất (gợi ý, đưa ra ý kiến/kế hoạch/ứng cử viên/giả thuyết để xét)",
+          "examples": [
+            {
+              "en": "She put forward a creative solution at the brainstorming session.",
+              "vi": "Cô ấy put-forward giải pháp sáng tạo trong buổi brainstorm."
+            },
+            {
+              "en": "Several names were put forward for the new CEO role.",
+              "vi": "Vài cái tên được put-forward cho vị trí CEO mới."
+            },
+            {
+              "en": "Vietnamese delegates put forward proposals at every ASEAN summit.",
+              "vi": "Đại biểu Việt put-forward đề xuất tại mỗi hội nghị ASEAN."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["propose", "suggest"],
+      "antonyms": ["withdraw"],
+      "collocations": ["put forward a proposal", "put forward a name", "put forward an idea"],
+      "mnemonic_vi": "PUT (đặt) + FORWARD (trước) = đặt ra phía trước. Put-forward = đề xuất, đưa ra."
+    },
+    {
+      "word": "set-back",
+      "lemma": "set back",
+      "ipa": "/ˌset ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to delay progress; (as noun) a difficulty that delays achievement",
+          "meaning_vi": "làm chậm, gây trở ngại (làm chậm tiến độ; danh từ: trở ngại)",
+          "examples": [
+            {
+              "en": "The bad weather set back the construction by weeks.",
+              "vi": "Thời tiết xấu set-back tiến độ xây dựng nhiều tuần."
+            },
+            {
+              "en": "She experienced a setback when she failed the certification exam.",
+              "vi": "Cô ấy gặp setback khi trượt kỳ thi chứng chỉ."
+            },
+            {
+              "en": "Vietnamese startups face many setbacks before product-market fit.",
+              "vi": "Startup Việt gặp nhiều set-back trước khi đạt product-market fit."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["delay", "obstacle"],
+      "antonyms": ["advance"],
+      "collocations": ["major setback", "set back the clock", "suffer a setback"],
+      "mnemonic_vi": "SET (đặt) + BACK (lùi) = đặt lùi. Set-back = lùi tiến độ, trở ngại."
+    },
+    {
+      "word": "shut-down",
+      "lemma": "shut down",
+      "ipa": "/ˌʃʌt ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stop operating (computer, business, machine); to close permanently or temporarily",
+          "meaning_vi": "tắt, đóng cửa (ngừng vận hành máy tính/doanh nghiệp/máy móc; đóng tạm/vĩnh viễn)",
+          "examples": [
+            {
+              "en": "Shut down your laptop before you leave the office.",
+              "vi": "Shut-down laptop trước khi rời văn phòng."
+            },
+            {
+              "en": "Many cafés had to shut down during the pandemic.",
+              "vi": "Nhiều quán cà phê phải shut-down trong đại dịch."
+            },
+            {
+              "en": "Vietnamese tax inspectors can shut down businesses for unpaid taxes.",
+              "vi": "Thanh tra thuế Việt có thể shut-down doanh nghiệp nợ thuế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["close", "turn off"],
+      "antonyms": ["start up"],
+      "collocations": ["shut down a computer", "shut down a factory", "complete shutdown"],
+      "mnemonic_vi": "SHUT (đóng) + DOWN (xuống) = đóng xuống. Shut-down = tắt, đóng cửa."
+    },
+    {
+      "word": "plug-in",
+      "lemma": "plug in",
+      "ipa": "/ˌplʌɡ ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to connect a device to an electrical source by inserting its plug into a socket",
+          "meaning_vi": "cắm điện (kết nối thiết bị vào nguồn điện qua ổ cắm)",
+          "examples": [
+            {
+              "en": "Don't forget to plug in your phone before bed.",
+              "vi": "Đừng quên plug-in điện thoại trước khi ngủ."
+            },
+            {
+              "en": "The TV won't work unless you plug it in.",
+              "vi": "TV không hoạt động trừ khi bạn plug-in nó."
+            },
+            {
+              "en": "Vietnamese cafés often advertise free wifi and plug-in stations for laptops.",
+              "vi": "Quán cà phê Việt thường quảng cáo wifi và ổ plug-in miễn phí cho laptop."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["connect"],
+      "antonyms": ["unplug"],
+      "collocations": ["plug in the charger", "plug in the device", "forgot to plug in"],
+      "mnemonic_vi": "PLUG (phích cắm) + IN (vào) = cắm vào. Plug-in = cắm điện."
+    },
+    {
+      "word": "switch-on",
+      "lemma": "switch on",
+      "ipa": "/ˌswɪtʃ ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to operate a device by turning a switch to the 'on' position; to start working actively",
+          "meaning_vi": "bật lên (vận hành thiết bị bằng cách bật công tắc; bắt đầu hoạt động)",
+          "examples": [
+            {
+              "en": "Switch on the air conditioner — it's hot in here.",
+              "vi": "Switch-on máy lạnh đi — trong này nóng."
+            },
+            {
+              "en": "Her brain switches on the moment she has coffee.",
+              "vi": "Não cô ấy switch-on ngay khi có cà phê."
+            },
+            {
+              "en": "Vietnamese cities switch on holiday lights in mid-December.",
+              "vi": "Các thành phố Việt switch-on đèn lễ giữa tháng 12."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["turn on", "activate"],
+      "antonyms": ["switch off"],
+      "collocations": ["switch on the light", "switch on the TV", "switch on quickly"],
+      "mnemonic_vi": "SWITCH (công tắc) + ON (bật) = bật công tắc. Switch-on = bật máy."
+    },
+    {
+      "word": "switch-off",
+      "lemma": "switch off",
+      "ipa": "/ˌswɪtʃ ˈɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to turn off a device by operating a switch; to stop paying attention or relax mentally",
+          "meaning_vi": "tắt, thả lỏng (tắt thiết bị; ngừng chú ý hoặc thư giãn đầu óc)",
+          "examples": [
+            {
+              "en": "Switch off the lights before leaving the room.",
+              "vi": "Switch-off đèn trước khi rời phòng."
+            },
+            {
+              "en": "I switch off my brain by watching cooking shows.",
+              "vi": "Tôi switch-off đầu óc bằng cách xem show nấu ăn."
+            },
+            {
+              "en": "Vietnamese workers struggle to switch off during evenings and weekends.",
+              "vi": "Người làm Việt vật lộn để switch-off vào tối và cuối tuần."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["turn off", "unwind"],
+      "antonyms": ["switch on"],
+      "collocations": ["switch off the lights", "switch off mentally", "completely switch off"],
+      "mnemonic_vi": "SWITCH (công tắc) + OFF (tắt) = tắt công tắc. Switch-off = tắt máy HOẶC thư giãn."
+    }
+  ]
+}
