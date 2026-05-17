@@ -1,0 +1,408 @@
+{
+  "slug": "adverbs-degree",
+  "name": "Adverbs of Degree",
+  "description": "Trạng từ mức độ A2-B2 — quite, rather, totally, hardly — 20 từ điều chỉnh cường độ.",
+  "order_index": 19,
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "word": "quite",
+      "ipa": "/kwaɪt/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to a moderate degree; fairly",
+          "meaning_vi": "khá (mức độ vừa phải)",
+          "examples": [
+            { "en": "The exam was quite difficult.", "vi": "Bài thi quite khó." },
+            { "en": "Saigon's coffee is quite strong.", "vi": "Cà phê Sài Gòn quite mạnh." }
+          ]
+        }
+      ],
+      "collocations": ["quite good", "quite a lot"],
+      "mnemonic_vi": "QUITE = khá. Mức độ trung bình-cao."
+    },
+    {
+      "word": "rather",
+      "ipa": "/ˈrɑːðə(r)/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to a moderate degree; somewhat; used to express preference",
+          "meaning_vi": "khá, thà rằng (mức độ; cũng dùng diễn tả ưu tiên)",
+          "examples": [
+            { "en": "It's rather cold today.", "vi": "Hôm nay rather lạnh." },
+            { "en": "I'd rather stay home.", "vi": "Tôi rather ở nhà hơn." }
+          ]
+        }
+      ],
+      "collocations": ["rather than", "I'd rather"],
+      "mnemonic_vi": "RATHER = khá, hoặc 'thà rằng'. I'd rather = tôi thà."
+    },
+    {
+      "word": "fairly",
+      "ipa": "/ˈfeəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to a reasonable extent; moderately; in a fair manner",
+          "meaning_vi": "khá, vừa phải, công bằng (mức trung bình; cách công bằng)",
+          "examples": [
+            { "en": "The restaurant is fairly good.", "vi": "Quán fairly ngon." },
+            { "en": "Judge the team fairly.", "vi": "Đánh giá đội fairly." }
+          ]
+        }
+      ],
+      "collocations": ["fairly good", "fairly treated"],
+      "mnemonic_vi": "FAIR (công bằng) + LY = công bằng. Fairly = khá HOẶC công bằng."
+    },
+    {
+      "word": "somewhat",
+      "ipa": "/ˈsʌmwɒt/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to some extent; a little",
+          "meaning_vi": "phần nào (ở mức độ nào đó; hơi)",
+          "examples": [
+            { "en": "He felt somewhat tired.", "vi": "Anh ấy cảm thấy somewhat mệt." },
+            { "en": "The results are somewhat surprising.", "vi": "Kết quả somewhat bất ngờ." }
+          ]
+        }
+      ],
+      "collocations": ["somewhat better", "somewhat surprised"],
+      "mnemonic_vi": "SOME + WHAT (cái gì) = một chút gì đó. Somewhat = phần nào."
+    },
+    {
+      "word": "slightly",
+      "ipa": "/ˈslaɪtli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to a small degree; a little bit",
+          "meaning_vi": "hơi, một chút (mức rất nhỏ)",
+          "examples": [
+            { "en": "She moved slightly to the left.", "vi": "Cô ấy dịch slightly sang trái." },
+            {
+              "en": "The Vietnamese version is slightly different.",
+              "vi": "Bản Việt slightly khác."
+            }
+          ]
+        }
+      ],
+      "collocations": ["slightly better", "slightly different"],
+      "mnemonic_vi": "SLIGHT (nhỏ, nhẹ) + LY = một chút. Slightly = hơi."
+    },
+    {
+      "word": "totally",
+      "ipa": "/ˈtəʊtəli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "completely; entirely; in every way",
+          "meaning_vi": "hoàn toàn (hết mức; tất cả)",
+          "examples": [
+            { "en": "I'm totally exhausted.", "vi": "Tôi totally kiệt sức." },
+            {
+              "en": "Vietnamese youth are totally on TikTok.",
+              "vi": "Tuổi trẻ Việt totally trên TikTok."
+            }
+          ]
+        }
+      ],
+      "collocations": ["totally agree", "totally different"],
+      "mnemonic_vi": "TOTAL (toàn bộ) + LY = toàn bộ. Totally = hoàn toàn."
+    },
+    {
+      "word": "absolutely",
+      "ipa": "/ˌæbsəˈluːtli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "completely and without doubt; used to emphasize agreement",
+          "meaning_vi": "tuyệt đối (hoàn toàn, không nghi ngờ; nhấn mạnh đồng ý)",
+          "examples": [
+            { "en": "I absolutely agree with you.", "vi": "Tôi absolutely đồng ý." },
+            { "en": "The food was absolutely delicious.", "vi": "Đồ ăn absolutely ngon." }
+          ]
+        }
+      ],
+      "collocations": ["absolutely right", "absolutely not"],
+      "mnemonic_vi": "ABSOLUTE (tuyệt đối) + LY = tuyệt đối. Absolutely = đồng ý mạnh."
+    },
+    {
+      "word": "entirely",
+      "ipa": "/ɪnˈtaɪəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "completely; in every way; fully",
+          "meaning_vi": "hoàn toàn (đầy đủ mọi mặt; toàn phần)",
+          "examples": [
+            {
+              "en": "I'm entirely satisfied with the service.",
+              "vi": "Tôi entirely hài lòng với dịch vụ."
+            },
+            { "en": "It's entirely up to you.", "vi": "Hoàn toàn entirely tùy bạn." }
+          ]
+        }
+      ],
+      "collocations": ["entirely different", "entirely up to"],
+      "mnemonic_vi": "ENTIRE (toàn bộ) + LY = toàn bộ. Entirely = trọn vẹn."
+    },
+    {
+      "word": "fully",
+      "ipa": "/ˈfʊli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "completely; in full measure; thoroughly",
+          "meaning_vi": "đầy đủ (hoàn toàn; đến mức cao nhất)",
+          "examples": [
+            {
+              "en": "Make sure your phone is fully charged.",
+              "vi": "Đảm bảo điện thoại fully sạc."
+            },
+            { "en": "I fully understand the situation.", "vi": "Tôi fully hiểu tình huống." }
+          ]
+        }
+      ],
+      "collocations": ["fully aware", "fully booked"],
+      "mnemonic_vi": "FULL (đầy) + LY = đầy đủ. Fully = hoàn toàn."
+    },
+    {
+      "word": "partly",
+      "ipa": "/ˈpɑːtli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to some degree but not completely; in part",
+          "meaning_vi": "một phần (không hoàn toàn; phần nào đó)",
+          "examples": [
+            { "en": "The delay was partly my fault.", "vi": "Trễ partly là lỗi của tôi." },
+            {
+              "en": "Vietnamese culture is partly influenced by Chinese.",
+              "vi": "Văn hóa Việt partly bị ảnh hưởng từ Trung."
+            }
+          ]
+        }
+      ],
+      "collocations": ["partly because", "partly true"],
+      "mnemonic_vi": "PART (phần) + LY = một phần. Partly = một phần thôi."
+    },
+    {
+      "word": "partially",
+      "ipa": "/ˈpɑːʃəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to a limited extent; not completely; in parts",
+          "meaning_vi": "một phần, không trọn (mức hạn chế; chia phần)",
+          "examples": [
+            { "en": "The road is partially closed.", "vi": "Đường partially đóng." },
+            { "en": "She's partially blind in her left eye.", "vi": "Cô ấy partially mù mắt trái." }
+          ]
+        }
+      ],
+      "collocations": ["partially blocked", "partially correct"],
+      "mnemonic_vi": "PARTIAL (cục bộ) + LY = cục bộ. Partially = một phần."
+    },
+    {
+      "word": "hardly",
+      "ipa": "/ˈhɑːdli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "almost not; barely; with great difficulty",
+          "meaning_vi": "hầu như không (gần như không; khó khăn)",
+          "examples": [
+            { "en": "I can hardly hear you.", "vi": "Tôi hardly nghe bạn." },
+            { "en": "She had hardly slept all night.", "vi": "Cô ấy hardly ngủ cả đêm." }
+          ]
+        }
+      ],
+      "collocations": ["hardly ever", "hardly any"],
+      "mnemonic_vi": "HARDLY = hầu như không. Khác hard (chăm chỉ)! Hardly any = gần như không có."
+    },
+    {
+      "word": "scarcely",
+      "ipa": "/ˈskeəsli/",
+      "pos": "adverb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "barely; almost not; with difficulty (more formal than 'hardly')",
+          "meaning_vi": "khó khăn lắm mới (hầu như không; ít — trang trọng hơn 'hardly')",
+          "examples": [
+            { "en": "I could scarcely believe my eyes.", "vi": "Tôi scarcely tin mắt mình." },
+            {
+              "en": "Vietnamese rural villages scarcely have internet.",
+              "vi": "Làng quê Việt scarcely có internet."
+            }
+          ]
+        }
+      ],
+      "collocations": ["scarcely any", "scarcely believe"],
+      "mnemonic_vi": "SCARCE (hiếm) + LY = hiếm. Scarcely = hiếm khi, hầu như không."
+    },
+    {
+      "word": "barely",
+      "ipa": "/ˈbeəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "only just; almost not; by the smallest amount",
+          "meaning_vi": "vừa vặn, suýt (chỉ vừa đủ; gần như không; sát nút)",
+          "examples": [
+            { "en": "I barely passed the test.", "vi": "Tôi barely đậu bài thi." },
+            { "en": "We barely caught the train.", "vi": "Ta barely kịp tàu." }
+          ]
+        }
+      ],
+      "collocations": ["barely able", "barely enough"],
+      "mnemonic_vi": "BARE (trần) + LY = trơ trụi vừa đủ. Barely = vừa vặn, suýt."
+    },
+    {
+      "word": "nearly",
+      "ipa": "/ˈnɪəli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "almost but not quite",
+          "meaning_vi": "gần như, sắp (gần đạt nhưng chưa hẳn)",
+          "examples": [
+            { "en": "I'm nearly done with my work.", "vi": "Tôi nearly xong việc." },
+            {
+              "en": "Vietnam nearly won the AFC final.",
+              "vi": "Việt Nam nearly thắng chung kết AFC."
+            }
+          ]
+        }
+      ],
+      "collocations": ["nearly always", "nearly there"],
+      "mnemonic_vi": "NEAR (gần) + LY = gần. Nearly = gần như."
+    },
+    {
+      "word": "particularly",
+      "ipa": "/pəˈtɪkjələli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "especially; more than usual; to a notable degree",
+          "meaning_vi": "đặc biệt (hơn bình thường; mức đáng chú ý)",
+          "examples": [
+            { "en": "I particularly enjoyed the pho.", "vi": "Tôi particularly thích phở." },
+            {
+              "en": "Vietnamese students particularly excel in math contests.",
+              "vi": "Học sinh Việt particularly giỏi thi toán."
+            }
+          ]
+        }
+      ],
+      "collocations": ["particularly good", "particularly important"],
+      "mnemonic_vi": "PARTICULAR (cụ thể) + LY = cụ thể là. Particularly = đặc biệt."
+    },
+    {
+      "word": "especially",
+      "ipa": "/ɪˈspeʃəli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "particularly; more than other things or people",
+          "meaning_vi": "đặc biệt (đặc biệt là; hơn các thứ/người khác)",
+          "examples": [
+            {
+              "en": "I love Vietnamese food, especially phở.",
+              "vi": "Tôi yêu đồ Việt, especially phở."
+            },
+            { "en": "Saigon is especially hot in April.", "vi": "Sài Gòn especially nóng tháng 4." }
+          ]
+        }
+      ],
+      "collocations": ["especially when", "especially good"],
+      "mnemonic_vi": "ESPECIAL (đặc biệt) + LY = đặc biệt. Especially = nhất là."
+    },
+    {
+      "word": "mostly",
+      "ipa": "/ˈməʊstli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "for the most part; mainly; usually",
+          "meaning_vi": "chủ yếu (phần lớn; chính yếu; thường)",
+          "examples": [
+            { "en": "I work mostly from home.", "vi": "Tôi mostly làm việc tại nhà." },
+            {
+              "en": "Vietnamese students mostly study English from age 6.",
+              "vi": "Học sinh Việt mostly học tiếng Anh từ 6 tuổi."
+            }
+          ]
+        }
+      ],
+      "collocations": ["mostly because", "mostly true"],
+      "mnemonic_vi": "MOST (phần lớn) + LY = phần lớn. Mostly = chủ yếu."
+    },
+    {
+      "word": "generally",
+      "ipa": "/ˈdʒenrəli/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "in most cases; usually; broadly speaking",
+          "meaning_vi": "nhìn chung (đa số trường hợp; thông thường; nói rộng)",
+          "examples": [
+            {
+              "en": "Generally, the weather is nice in October.",
+              "vi": "Generally, thời tiết tốt vào tháng 10."
+            },
+            {
+              "en": "Vietnamese people are generally friendly.",
+              "vi": "Người Việt generally thân thiện."
+            }
+          ]
+        }
+      ],
+      "collocations": ["generally speaking", "generally accepted"],
+      "mnemonic_vi": "GENERAL (chung) + LY = chung. Generally = nhìn chung."
+    },
+    {
+      "word": "extremely",
+      "ipa": "/ɪkˈstriːmli/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to an extreme or very great degree",
+          "meaning_vi": "vô cùng (mức độ cực cao)",
+          "examples": [
+            { "en": "The food was extremely spicy.", "vi": "Đồ ăn extremely cay." },
+            {
+              "en": "Saigon traffic is extremely chaotic.",
+              "vi": "Giao thông Sài Gòn extremely hỗn loạn."
+            }
+          ]
+        }
+      ],
+      "collocations": ["extremely good", "extremely difficult"],
+      "mnemonic_vi": "EXTREME (cực đoan) + LY = cực. Extremely = vô cùng."
+    }
+  ]
+}
