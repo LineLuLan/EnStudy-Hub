@@ -5,6 +5,40 @@
 
 ---
 
+## 2026-05-17 (P11c — P11 CLOSED 15/15) — 5 lessons / 100 cards (182/192, ~95%) — Claude Opus 4.7
+
+### Đã ship — P11 ĐÓNG (15 lessons / 300 multi-word entries)
+
+5 lessons cuối P11: set-phrases-logic, set-phrases-time, compound-services, compound-people, compound-adjective. P11 CLOSED 15/15.
+
+**Collision pivots**: full-time/part-time (taken career), self-employed (taken freelance-remote) → last-minute. landlord/tenant/classmate/host-family dropped cho compound-people. Tổng 6 swaps.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files.
+- File sizes: 28-32 KB/lesson.
+- Lint-staged prettier reformat khi commit.
+- Commit-msg hook reject 1 lần vì body line dài > 100 chars → retry với version ngắn hơn.
+
+### SHA cuối session (P11c)
+
+- main `eb18493`, dev `[docs TBD]`, be `3d09c45`, fe sẽ sync sau.
+
+### PICKUP — P12 FINAL FILL (15 lessons để đóng 100%)
+
+Cần gen 15 lessons / 300 cards specialized vocab từ Oxford 3000 chưa cover. Đề xuất:
+
+- daily-life: kitchen-tools, bathroom-items, garden-flowers, weather-extreme
+- people: professions-trades, personality-traits-2
+- places: airport-extended, hotel-services, transport-extended
+- work: tools-equipment, office-supplies
+- nature: animals-extended-1, animals-extended-2, plants-flowers
+- abstract: emotions-extended, opinion-evaluation, abstract-time
+
+Sau P12 → 192/192 = 100% Oxford 3000. Bài học cuối cùng để ship app.
+
+---
+
 ## 2026-05-17 (P11b phrasal verbs — P11 10/15) — Multi-word: 5 lessons / 100 cards (172/192, ~90%) — Claude Opus 4.7
 
 ### Đã ship
