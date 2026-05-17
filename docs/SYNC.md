@@ -8,9 +8,9 @@
 | Branch | Last commit (short SHA) | Last sync FROM dev     | Last merge TO dev      | Notes                                                     |
 | ------ | ----------------------- | ---------------------- | ---------------------- | --------------------------------------------------------- |
 | main   | `eb18493`               | —                      | 2026-05-13 (`eb18493`) | release v0.2.0 — Dashboard + Stats + Settings + Minigames |
-| dev    | `c68502d`               | base                   | 2026-05-17 (`c68502d`) | P11b phrasal verbs — 172/192 lessons / 3440 cards (90%)   |
-| be     | `354f567`               | 2026-05-17 (`3f8a697`) | 2026-05-17 (`354f567`) | P11b phrasal content commit on be                         |
-| fe     | `c303ae3`               | 2026-05-17 (`c303ae3`) | —                      | P11a sync — pending P11b sync sau docs commit dev         |
+| dev    | `9f78585`               | base                   | 2026-05-17 (`9f78585`) | **P11 CLOSED** — 182/192 lessons / 3640 cards (95%)       |
+| be     | `3d09c45`               | 2026-05-17 (`388fe02`) | 2026-05-17 (`3d09c45`) | P11c content commit on be                                 |
+| fe     | `e4512fe`               | 2026-05-17 (`e4512fe`) | —                      | P11b sync — pending P11c sync sau docs commit dev         |
 
 > SHA hiện tại của `dev` thay đổi sau mỗi commit — chạy `git rev-parse --short HEAD` trên dev để lấy mới nhất.
 
