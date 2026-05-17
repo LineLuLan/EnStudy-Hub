@@ -1,0 +1,574 @@
+{
+  "slug": "phrasal-pick-pull",
+  "name": "Phrasal Verbs: Pick & Pull",
+  "description": "Phrasal verbs với PICK, PULL, PUSH, PASS — 20 cụm cho động tác và chuyển động.",
+  "order_index": 18,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "pick-up",
+      "lemma": "pick up",
+      "ipa": "/ˌpɪk ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to lift something from a surface; to collect someone in a vehicle; to learn something casually",
+          "meaning_vi": "nhặt lên, đón, học nhanh (nhấc vật từ mặt phẳng; đón ai bằng xe; học không chính thức)",
+          "examples": [
+            { "en": "Pick up your toys before dinner.", "vi": "Pick-up đồ chơi trước bữa cơm." },
+            { "en": "I'll pick you up at the airport.", "vi": "Tôi sẽ pick-up bạn ở sân bay." },
+            {
+              "en": "She picked up Vietnamese quickly after moving to Saigon.",
+              "vi": "Cô ấy pick-up tiếng Việt nhanh sau khi chuyển đến Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lift", "collect", "learn"],
+      "antonyms": ["drop off", "put down"],
+      "collocations": ["pick up the kids", "pick up a language", "pick up the phone"],
+      "mnemonic_vi": "PICK (nhặt) + UP (lên) = nhặt lên. Pick-up = nhặt lên, đón, học nhanh."
+    },
+    {
+      "word": "pick-out",
+      "lemma": "pick out",
+      "ipa": "/ˌpɪk ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to select or choose carefully from a group; to identify or recognize among many",
+          "meaning_vi": "chọn ra, nhận ra (lựa cẩn thận từ một nhóm; nhận diện giữa nhiều thứ)",
+          "examples": [
+            {
+              "en": "Pick out a tie that matches your suit.",
+              "vi": "Pick-out cà vạt hợp với suit."
+            },
+            {
+              "en": "I picked her out in the crowd immediately.",
+              "vi": "Tôi pick-out cô ấy giữa đám đông ngay."
+            },
+            {
+              "en": "Vietnamese shoppers carefully pick out the freshest mangoes.",
+              "vi": "Người Việt mua sắm cẩn thận pick-out xoài tươi nhất."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["select", "identify"],
+      "antonyms": [],
+      "collocations": ["pick out a gift", "pick out the best", "carefully pick out"],
+      "mnemonic_vi": "PICK (chọn) + OUT (ra) = chọn ra. Pick-out = lựa ra, nhận diện."
+    },
+    {
+      "word": "pull-down",
+      "lemma": "pull down",
+      "ipa": "/ˌpʊl ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to demolish a building; to lower something by pulling; to reduce a score or rating",
+          "meaning_vi": "phá dỡ, kéo xuống, làm giảm (phá nhà; hạ vật xuống bằng kéo; giảm điểm/xếp hạng)",
+          "examples": [
+            {
+              "en": "They pulled down the old factory last year.",
+              "vi": "Họ pull-down nhà máy cũ năm ngoái."
+            },
+            {
+              "en": "Pull down the blinds before going to bed.",
+              "vi": "Pull-down rèm trước khi ngủ."
+            },
+            {
+              "en": "Bad reviews can pull down a restaurant's rating quickly.",
+              "vi": "Đánh giá xấu có thể pull-down xếp hạng quán nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["demolish", "lower"],
+      "antonyms": ["build up"],
+      "collocations": ["pull down a building", "pull down the curtains", "pull down ratings"],
+      "mnemonic_vi": "PULL (kéo) + DOWN (xuống) = kéo xuống. Pull-down = phá xuống, hạ xuống."
+    },
+    {
+      "word": "pull-off",
+      "lemma": "pull off",
+      "ipa": "/ˌpʊl ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to succeed in doing something difficult; to remove by pulling (clothes, stickers)",
+          "meaning_vi": "thực hiện thành công, kéo rời (làm được điều khó; kéo bỏ áo/nhãn)",
+          "examples": [
+            {
+              "en": "She pulled off an amazing performance.",
+              "vi": "Cô ấy pull-off màn trình diễn tuyệt vời."
+            },
+            { "en": "Pull off your wet shoes at the door.", "vi": "Pull-off giày ướt ở cửa." },
+            {
+              "en": "Vietnamese startups occasionally pull off David-vs-Goliath wins.",
+              "vi": "Startup Việt thi thoảng pull-off chiến thắng kiểu David-vs-Goliath."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accomplish", "remove"],
+      "antonyms": ["fail"],
+      "collocations": ["pull off a victory", "pull off a stunt", "pull off the deal"],
+      "mnemonic_vi": "PULL (kéo) + OFF (ra) = kéo ra. Pull-off = làm được HOẶC kéo bỏ."
+    },
+    {
+      "word": "pull-out",
+      "lemma": "pull out",
+      "ipa": "/ˌpʊl ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to remove or extract; to withdraw from an agreement, race, or area",
+          "meaning_vi": "rút ra, rút lui (lấy ra; rút khỏi thoả thuận/cuộc đua/khu vực)",
+          "examples": [
+            {
+              "en": "Pull out the plug when the device is fully charged.",
+              "vi": "Pull-out phích cắm khi thiết bị sạc đầy."
+            },
+            {
+              "en": "Russia pulled out of the treaty in 2019.",
+              "vi": "Nga pull-out khỏi hiệp ước năm 2019."
+            },
+            {
+              "en": "Vietnamese investors pulled out of the troubled fund.",
+              "vi": "Nhà đầu tư Việt pull-out khỏi quỹ gặp rắc rối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extract", "withdraw"],
+      "antonyms": ["join"],
+      "collocations": ["pull out of a deal", "pull out a tooth", "troops pull out"],
+      "mnemonic_vi": "PULL (kéo) + OUT (ra) = kéo ra. Pull-out = rút ra, rút lui."
+    },
+    {
+      "word": "pull-over",
+      "lemma": "pull over",
+      "ipa": "/ˌpʊl ˈəʊvə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to drive a vehicle to the side of the road and stop, often when signaled by police",
+          "meaning_vi": "tấp xe vào lề (lái xe tấp vào lề và dừng, thường khi cảnh sát ra hiệu)",
+          "examples": [
+            {
+              "en": "The officer signaled the driver to pull over.",
+              "vi": "Cảnh sát ra hiệu tài xế pull-over."
+            },
+            {
+              "en": "Pull over here — I need to check the map.",
+              "vi": "Pull-over đây — tôi cần xem bản đồ."
+            },
+            {
+              "en": "Vietnamese traffic police often pull drivers over for routine checks.",
+              "vi": "Cảnh sát giao thông Việt thường pull-over tài xế kiểm tra định kỳ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stop", "park"],
+      "antonyms": [],
+      "collocations": ["pull over the car", "police pull over", "pull over safely"],
+      "mnemonic_vi": "PULL (kéo) + OVER (qua) = kéo qua lề. Pull-over = tấp xe vào lề."
+    },
+    {
+      "word": "pull-through",
+      "lemma": "pull through",
+      "ipa": "/ˌpʊl ˈθruː/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to survive a serious illness, difficulty, or crisis",
+          "meaning_vi": "vượt qua, hồi phục (sống sót qua bệnh nặng, khó khăn, khủng hoảng)",
+          "examples": [
+            {
+              "en": "The patient is critical but should pull through.",
+              "vi": "Bệnh nhân nguy kịch nhưng có thể pull-through."
+            },
+            {
+              "en": "We'll pull through this tough quarter together.",
+              "vi": "Ta sẽ pull-through quý khó khăn này cùng nhau."
+            },
+            {
+              "en": "Vietnamese families pulled through the pandemic by relying on each other.",
+              "vi": "Gia đình Việt pull-through đại dịch bằng cách dựa vào nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["survive", "recover"],
+      "antonyms": ["succumb"],
+      "collocations": ["pull through the crisis", "pull through illness", "help pull through"],
+      "mnemonic_vi": "PULL (kéo) + THROUGH (xuyên qua) = kéo xuyên qua. Pull-through = vượt qua."
+    },
+    {
+      "word": "pull-apart",
+      "lemma": "pull apart",
+      "ipa": "/ˌpʊl əˈpɑːt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to separate something into pieces; to harshly criticize a work or argument",
+          "meaning_vi": "tách ra, phê phán nặng (chia thành mảnh; chỉ trích mạnh tác phẩm/lập luận)",
+          "examples": [
+            {
+              "en": "Pull apart the bread before serving.",
+              "vi": "Pull-apart bánh mì trước khi dọn."
+            },
+            {
+              "en": "The reviewer pulled apart the argument in the essay.",
+              "vi": "Người review pull-apart luận điểm trong bài."
+            },
+            {
+              "en": "Vietnamese critics can pull apart a film in detailed reviews.",
+              "vi": "Nhà phê bình Việt có thể pull-apart phim qua review chi tiết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["separate", "criticize"],
+      "antonyms": ["join", "praise"],
+      "collocations": ["pull apart an argument", "pull apart bread", "pulled apart by criticism"],
+      "mnemonic_vi": "PULL (kéo) + APART (rời) = kéo rời. Pull-apart = tách ra HOẶC chỉ trích."
+    },
+    {
+      "word": "pull-in",
+      "lemma": "pull in",
+      "ipa": "/ˌpʊl ˈɪn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of a vehicle) to arrive and stop; to attract a large crowd or audience",
+          "meaning_vi": "đỗ vào, thu hút (xe đến và dừng; thu hút đông người)",
+          "examples": [
+            { "en": "The train pulled in five minutes late.", "vi": "Tàu pull-in trễ 5 phút." },
+            {
+              "en": "The concert pulled in over 50,000 fans.",
+              "vi": "Concert pull-in hơn 50,000 fan."
+            },
+            {
+              "en": "Vietnamese street-food stalls pull in huge lunch crowds.",
+              "vi": "Quán ăn vặt Việt pull-in đám đông lớn vào trưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["arrive", "attract"],
+      "antonyms": ["pull out"],
+      "collocations": ["pull in to the station", "pull in a crowd", "pull in revenue"],
+      "mnemonic_vi": "PULL (kéo) + IN (vào) = kéo vào. Pull-in = đỗ vào HOẶC thu hút vào."
+    },
+    {
+      "word": "push-back",
+      "lemma": "push back",
+      "ipa": "/ˌpʊʃ ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to delay an event to a later time; to resist or oppose a decision or change",
+          "meaning_vi": "hoãn lại, phản đối (dời sự kiện sang sau; chống lại quyết định/thay đổi)",
+          "examples": [
+            {
+              "en": "We need to push back the launch by two weeks.",
+              "vi": "Ta cần push-back buổi ra mắt 2 tuần."
+            },
+            {
+              "en": "Employees pushed back against the new return-to-office policy.",
+              "vi": "Nhân viên push-back chính sách RTO mới."
+            },
+            {
+              "en": "Vietnamese citizens push back against unfair tax hikes.",
+              "vi": "Công dân Việt push-back tăng thuế bất công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["delay", "resist"],
+      "antonyms": ["accept"],
+      "collocations": ["push back the deadline", "push back against", "strong pushback"],
+      "mnemonic_vi": "PUSH (đẩy) + BACK (lùi) = đẩy lùi. Push-back = dời lùi HOẶC phản đối."
+    },
+    {
+      "word": "pass-by",
+      "lemma": "pass by",
+      "ipa": "/ˌpɑːs ˈbaɪ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to go past someone or something; for time to elapse",
+          "meaning_vi": "đi ngang qua, trôi qua (đi qua ai/cái gì; thời gian trôi)",
+          "examples": [
+            { "en": "She passed by without saying hello.", "vi": "Cô ấy pass-by không chào." },
+            {
+              "en": "Years pass by quickly when you're happy.",
+              "vi": "Năm tháng pass-by nhanh khi bạn hạnh phúc."
+            },
+            {
+              "en": "Vietnamese cyclos pass by tourists hoping for a ride.",
+              "vi": "Xích lô Việt pass-by du khách mong có khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["go past", "elapse"],
+      "antonyms": ["stop"],
+      "collocations": ["passers-by", "pass by quickly", "let time pass by"],
+      "mnemonic_vi": "PASS (đi qua) + BY (qua) = đi qua. Pass-by = đi ngang HOẶC trôi qua."
+    },
+    {
+      "word": "pass-on",
+      "lemma": "pass on",
+      "ipa": "/ˌpɑːs ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give information or items to someone else; to die (euphemism)",
+          "meaning_vi": "chuyển cho, qua đời (chuyển thông tin/vật; chết — uyển ngữ)",
+          "examples": [
+            {
+              "en": "Pass on my regards to your family.",
+              "vi": "Pass-on lời chào của tôi cho gia đình bạn."
+            },
+            {
+              "en": "Her grandmother passed on last spring.",
+              "vi": "Bà của cô ấy pass-on mùa xuân trước."
+            },
+            {
+              "en": "Vietnamese recipes are passed on through generations.",
+              "vi": "Công thức Việt được pass-on qua các thế hệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["transmit", "die"],
+      "antonyms": ["keep"],
+      "collocations": ["pass on the message", "pass on a tradition", "pass on peacefully"],
+      "mnemonic_vi": "PASS (chuyển) + ON (tiếp) = chuyển tiếp. Pass-on = truyền lại HOẶC qua đời."
+    },
+    {
+      "word": "pass-out",
+      "lemma": "pass out",
+      "ipa": "/ˌpɑːs ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to lose consciousness; to distribute items to many people",
+          "meaning_vi": "ngất, phân phát (bất tỉnh; chia cho nhiều người)",
+          "examples": [
+            { "en": "He passed out from the heat.", "vi": "Anh ấy pass-out vì nóng." },
+            {
+              "en": "Volunteers passed out water bottles at the marathon.",
+              "vi": "Tình nguyện viên pass-out chai nước tại marathon."
+            },
+            {
+              "en": "Vietnamese students sometimes pass out from exam stress.",
+              "vi": "Học sinh Việt đôi khi pass-out vì stress thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["faint", "distribute"],
+      "antonyms": ["wake up", "collect"],
+      "collocations": ["pass out from heat", "pass out flyers", "nearly pass out"],
+      "mnemonic_vi": "PASS (qua) + OUT (ra) = qua ra. Pass-out = ngất HOẶC phát ra."
+    },
+    {
+      "word": "pass-round",
+      "lemma": "pass round",
+      "ipa": "/ˌpɑːs ˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hand something to each person in a group in turn",
+          "meaning_vi": "chuyền tay (đưa vật cho từng người trong nhóm theo lượt)",
+          "examples": [
+            {
+              "en": "Pass round the snacks during the meeting.",
+              "vi": "Pass-round đồ ăn vặt trong cuộc họp."
+            },
+            {
+              "en": "The teacher passed round the test papers.",
+              "vi": "Giáo viên pass-round bài kiểm tra."
+            },
+            {
+              "en": "Vietnamese tea hosts pass round small cups to each guest.",
+              "vi": "Chủ tiệc trà Việt pass-round chén nhỏ cho từng khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["distribute", "circulate"],
+      "antonyms": ["keep"],
+      "collocations": ["pass round the food", "pass round the photos", "pass round a hat"],
+      "mnemonic_vi": "PASS (chuyền) + ROUND (vòng) = chuyền vòng. Pass-round = chuyền lần lượt mỗi người."
+    },
+    {
+      "word": "pile-up",
+      "lemma": "pile up",
+      "ipa": "/ˌpaɪl ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to accumulate in a heap; to gather in large quantities over time (work, problems, traffic)",
+          "meaning_vi": "chất đống (gom thành đống; tích lũy nhiều theo thời gian — việc, vấn đề, xe cộ)",
+          "examples": [
+            {
+              "en": "Work piles up when I take a vacation.",
+              "vi": "Việc pile-up khi tôi đi nghỉ."
+            },
+            { "en": "Cars piled up at the toll booth.", "vi": "Xe pile-up ở trạm thu phí." },
+            {
+              "en": "Vietnamese laundry piles up during rainy season.",
+              "vi": "Đồ giặt Việt pile-up trong mùa mưa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accumulate", "stack"],
+      "antonyms": ["clear"],
+      "collocations": ["work piles up", "pile up the dishes", "pile-up on the highway"],
+      "mnemonic_vi": "PILE (đống) + UP (lên) = chất đống lên. Pile-up = chất đống dần."
+    },
+    {
+      "word": "plug-into",
+      "lemma": "plug into",
+      "ipa": "/ˌplʌɡ ˈɪntə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to connect electrical devices into a power source; to become involved or connected with a network",
+          "meaning_vi": "cắm vào, kết nối (nối thiết bị vào nguồn điện; tham gia/kết nối với mạng lưới)",
+          "examples": [
+            {
+              "en": "Plug the charger into the wall socket.",
+              "vi": "Plug-into bộ sạc vào ổ tường."
+            },
+            {
+              "en": "Young founders plug into the global startup community via X.",
+              "vi": "Founder trẻ plug-into cộng đồng startup toàn cầu qua X."
+            },
+            {
+              "en": "Vietnamese cafés let customers plug into power and Wi-Fi.",
+              "vi": "Quán cà phê Việt cho khách plug-into điện và Wi-Fi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["connect"],
+      "antonyms": ["unplug"],
+      "collocations": ["plug into the socket", "plug into the network", "plug into a community"],
+      "mnemonic_vi": "PLUG (phích cắm) + INTO (vào) = cắm vào. Plug-into = kết nối vào."
+    },
+    {
+      "word": "point-out",
+      "lemma": "point out",
+      "ipa": "/ˌpɔɪnt ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to draw attention to a fact, error, or detail; to indicate by pointing",
+          "meaning_vi": "chỉ ra (nêu/khiến chú ý đến sự thật, lỗi, chi tiết; ra hiệu bằng tay)",
+          "examples": [
+            {
+              "en": "Let me point out a few issues with the design.",
+              "vi": "Để tôi point-out vài vấn đề trong thiết kế."
+            },
+            {
+              "en": "She pointed out the mistake in my essay.",
+              "vi": "Cô ấy point-out lỗi trong bài của tôi."
+            },
+            {
+              "en": "Vietnamese tour guides love to point out hidden historical details.",
+              "vi": "Hướng dẫn viên Việt thích point-out chi tiết lịch sử ẩn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["indicate", "highlight"],
+      "antonyms": ["overlook"],
+      "collocations": ["point out an error", "point out a fact", "kindly point out"],
+      "mnemonic_vi": "POINT (chỉ) + OUT (ra) = chỉ ra. Point-out = chỉ ra, nêu lên."
+    },
+    {
+      "word": "print-off",
+      "lemma": "print off",
+      "ipa": "/ˌprɪnt ˈɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to produce a printed copy of a document or image from a computer",
+          "meaning_vi": "in ra (sản xuất bản in tài liệu/hình ảnh từ máy tính)",
+          "examples": [
+            { "en": "Print off three copies of the contract.", "vi": "Print-off 3 bản hợp đồng." },
+            {
+              "en": "I'll print off the boarding pass at home.",
+              "vi": "Tôi sẽ print-off vé máy bay ở nhà."
+            },
+            {
+              "en": "Vietnamese offices still print off most documents despite digital tools.",
+              "vi": "Văn phòng Việt vẫn print-off đa số tài liệu dù có công cụ số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["print out"],
+      "antonyms": [],
+      "collocations": ["print off a copy", "print off the ticket", "print off the document"],
+      "mnemonic_vi": "PRINT (in) + OFF (ra) = in ra. Print-off = in từ máy ra giấy."
+    },
+    {
+      "word": "pull-back",
+      "lemma": "pull back",
+      "ipa": "/ˌpʊl ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to retreat or withdraw from a situation; to reduce activity, spending, or involvement",
+          "meaning_vi": "rút lui, giảm bớt (rút khỏi tình huống; giảm hoạt động/chi tiêu/can dự)",
+          "examples": [
+            {
+              "en": "The army pulled back from the front line.",
+              "vi": "Quân đội pull-back khỏi tuyến đầu."
+            },
+            {
+              "en": "Investors pulled back during the market dip.",
+              "vi": "Nhà đầu tư pull-back khi thị trường giảm."
+            },
+            {
+              "en": "Vietnamese consumers pull back on spending before Tết bonuses.",
+              "vi": "Người tiêu dùng Việt pull-back chi tiêu trước thưởng Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["retreat", "reduce"],
+      "antonyms": ["advance"],
+      "collocations": ["pull back forces", "pull back on spending", "pullback in market"],
+      "mnemonic_vi": "PULL (kéo) + BACK (lùi) = kéo lùi. Pull-back = rút lui, giảm bớt."
+    }
+  ]
+}

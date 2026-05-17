@@ -1,0 +1,614 @@
+{
+  "slug": "phrasal-call-check",
+  "name": "Phrasal Verbs: Call & Check",
+  "description": "Phrasal verbs với CALL, CHECK, CLEAN, CLEAR — 20 cụm cho giao tiếp và xác minh.",
+  "order_index": 16,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "call-back",
+      "lemma": "call back",
+      "ipa": "/ˌkɔːl ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return a phone call to someone who called earlier",
+          "meaning_vi": "gọi lại (trả lời cuộc gọi đến trước đó)",
+          "examples": [
+            {
+              "en": "I'll call you back in five minutes.",
+              "vi": "Tôi sẽ call-back bạn trong 5 phút."
+            },
+            {
+              "en": "She missed three calls and had to call back each one.",
+              "vi": "Cô ấy bỏ lỡ 3 cuộc và phải call-back từng người."
+            },
+            {
+              "en": "Vietnamese customer service usually calls back within an hour.",
+              "vi": "Chăm sóc khách hàng Việt thường call-back trong vòng 1 giờ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return a call"],
+      "antonyms": [],
+      "collocations": ["call back later", "promise to call back", "missed call to call back"],
+      "mnemonic_vi": "CALL (gọi) + BACK (lại) = gọi lại. Call-back = gọi điện trả lại."
+    },
+    {
+      "word": "call-for",
+      "lemma": "call for",
+      "ipa": "/ˌkɔːl ˈfɔː(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to demand or require something; to publicly ask for action",
+          "meaning_vi": "đòi hỏi, kêu gọi (yêu cầu công khai; cần đến)",
+          "examples": [
+            {
+              "en": "This situation calls for immediate action.",
+              "vi": "Tình huống này call-for hành động ngay."
+            },
+            {
+              "en": "Activists called for a boycott of the brand.",
+              "vi": "Nhà hoạt động call-for tẩy chay thương hiệu."
+            },
+            {
+              "en": "Vietnamese law calls for strict food safety standards.",
+              "vi": "Luật Việt call-for chuẩn an toàn thực phẩm nghiêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["demand", "require"],
+      "antonyms": [],
+      "collocations": ["call for action", "call for help", "situation calls for"],
+      "mnemonic_vi": "CALL (gọi) + FOR (vì) = gọi vì cần. Call-for = đòi hỏi, kêu gọi."
+    },
+    {
+      "word": "call-off",
+      "lemma": "call off",
+      "ipa": "/ˌkɔːl ˈɒf/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to cancel an event, plan, or activity that was scheduled",
+          "meaning_vi": "hủy bỏ (sự kiện/kế hoạch/hoạt động đã định)",
+          "examples": [
+            {
+              "en": "They called off the wedding two weeks before the date.",
+              "vi": "Họ call-off đám cưới 2 tuần trước ngày diễn."
+            },
+            {
+              "en": "The outdoor concert was called off due to rain.",
+              "vi": "Concert ngoài trời bị call-off vì mưa."
+            },
+            {
+              "en": "Vietnamese schools call off classes during severe typhoons.",
+              "vi": "Trường Việt call-off lớp khi có bão lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cancel"],
+      "antonyms": ["confirm"],
+      "collocations": ["call off the wedding", "call off the deal", "call off the search"],
+      "mnemonic_vi": "CALL (gọi) + OFF (hủy) = gọi hủy. Call-off = hủy bỏ kế hoạch."
+    },
+    {
+      "word": "call-up",
+      "lemma": "call up",
+      "ipa": "/ˌkɔːl ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to phone someone; to summon someone for military service or a team",
+          "meaning_vi": "gọi điện, triệu tập (gọi điện thoại; gọi đi nghĩa vụ/lên đội tuyển)",
+          "examples": [
+            { "en": "Call me up if you need any help.", "vi": "Call-up tôi nếu bạn cần giúp." },
+            {
+              "en": "He was called up to the national football team.",
+              "vi": "Anh ấy được call-up lên đội tuyển bóng đá quốc gia."
+            },
+            {
+              "en": "Vietnamese males may be called up for military service at 18.",
+              "vi": "Nam Việt có thể bị call-up nghĩa vụ quân sự tuổi 18."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["phone", "summon"],
+      "antonyms": [],
+      "collocations": ["call up a friend", "called up to the team", "call up for duty"],
+      "mnemonic_vi": "CALL (gọi) + UP (lên) = gọi lên. Call-up = gọi điện HOẶC triệu tập lên."
+    },
+    {
+      "word": "check-in",
+      "lemma": "check in",
+      "ipa": "/ˌtʃek ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to register your arrival at a hotel, airport, or event; to briefly contact someone to update them",
+          "meaning_vi": "làm thủ tục, báo tin (đăng ký đến tại khách sạn/sân bay/sự kiện; báo nhanh tình hình)",
+          "examples": [
+            {
+              "en": "We need to check in at the airport two hours before departure.",
+              "vi": "Ta cần check-in sân bay 2 giờ trước khi bay."
+            },
+            {
+              "en": "Please check in with the front desk on arrival.",
+              "vi": "Vui lòng check-in ở quầy lễ tân khi đến."
+            },
+            {
+              "en": "Vietnamese expats often check in with family weekly on Zalo.",
+              "vi": "Việt kiều thường check-in với gia đình hằng tuần qua Zalo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["register", "report"],
+      "antonyms": ["check out"],
+      "collocations": ["check in at the hotel", "online check-in", "check in with someone"],
+      "mnemonic_vi": "CHECK (xác minh) + IN (vào) = xác minh vào. Check-in = nhận phòng/báo đến."
+    },
+    {
+      "word": "check-out",
+      "lemma": "check out",
+      "ipa": "/ˌtʃek ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to leave a hotel after paying; to examine something out of curiosity or interest; to die (informal)",
+          "meaning_vi": "trả phòng, xem thử, qua đời (informal)",
+          "examples": [
+            { "en": "We need to check out by noon.", "vi": "Ta cần check-out trước trưa." },
+            {
+              "en": "Check out this new café in District 3 — the coffee is amazing.",
+              "vi": "Check-out quán mới ở Quận 3 đi — cà phê tuyệt vời."
+            },
+            {
+              "en": "Vietnamese students check out the latest TikTok trends daily.",
+              "vi": "Học sinh Việt check-out xu hướng TikTok mới hằng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leave", "examine"],
+      "antonyms": ["check in"],
+      "collocations": ["check out of the hotel", "check it out", "check out the menu"],
+      "mnemonic_vi": "CHECK (xác minh) + OUT (ra) = xác minh ra. Check-out = trả phòng HOẶC xem thử."
+    },
+    {
+      "word": "check-on",
+      "lemma": "check on",
+      "ipa": "/ˌtʃek ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to make sure someone or something is safe, healthy, or functioning correctly",
+          "meaning_vi": "kiểm tra tình trạng (xem ai/cái gì có an toàn/khỏe/hoạt động đúng không)",
+          "examples": [
+            {
+              "en": "Can you check on the baby? She's been quiet.",
+              "vi": "Bạn check-on em bé giùm? Cháu im ru."
+            },
+            {
+              "en": "I'll check on dinner — it should be ready soon.",
+              "vi": "Để tôi check-on bữa tối — sắp xong rồi."
+            },
+            {
+              "en": "Vietnamese neighbors often check on each other's elderly parents.",
+              "vi": "Hàng xóm Việt thường check-on cha mẹ già của nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["check up on"],
+      "antonyms": ["ignore"],
+      "collocations": ["check on the kids", "check on the situation", "regularly check on"],
+      "mnemonic_vi": "CHECK (xem) + ON (trên/về) = xem về. Check-on = kiểm tra tình trạng."
+    },
+    {
+      "word": "check-up-on",
+      "lemma": "check up on",
+      "ipa": "/ˌtʃek ˈʌp ɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to verify or monitor someone's progress, behavior, or situation, often with concern or suspicion",
+          "meaning_vi": "kiểm tra giám sát (xác minh/theo dõi tiến độ/hành vi/tình huống của ai, thường có quan tâm hoặc nghi ngờ)",
+          "examples": [
+            {
+              "en": "Her mother checks up on her every weekend.",
+              "vi": "Mẹ check-up-on cô ấy mỗi cuối tuần."
+            },
+            {
+              "en": "The manager checks up on the team's progress weekly.",
+              "vi": "Quản lý check-up-on tiến độ đội hằng tuần."
+            },
+            {
+              "en": "Vietnamese aunts traditionally check up on single nieces about marriage prospects.",
+              "vi": "Cô bác Việt theo truyền thống check-up-on cháu gái độc thân về chuyện chồng con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["monitor", "supervise"],
+      "antonyms": [],
+      "collocations": ["check up on a friend", "check up on progress", "constantly check up on"],
+      "mnemonic_vi": "CHECK + UP + ON = giám sát kỹ. Check-up-on = kiểm tra theo dõi sát."
+    },
+    {
+      "word": "check-over",
+      "lemma": "check over",
+      "ipa": "/ˌtʃek ˈəʊvə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to examine something carefully to ensure it is correct, complete, or in good condition",
+          "meaning_vi": "soát kỹ (xem cẩn thận để đảm bảo đúng/đầy đủ/tốt)",
+          "examples": [
+            {
+              "en": "Please check over this report before I submit it.",
+              "vi": "Vui lòng check-over báo cáo này trước khi tôi nộp."
+            },
+            {
+              "en": "The mechanic checked over the engine for issues.",
+              "vi": "Thợ máy check-over động cơ tìm lỗi."
+            },
+            {
+              "en": "Vietnamese parents check over their kids' homework every evening.",
+              "vi": "Cha mẹ Việt check-over bài tập của con mỗi tối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["review", "inspect"],
+      "antonyms": ["overlook"],
+      "collocations": ["check over a document", "check over a car", "thoroughly check over"],
+      "mnemonic_vi": "CHECK (xem) + OVER (qua) = xem qua. Check-over = soát kỹ qua."
+    },
+    {
+      "word": "clean-up",
+      "lemma": "clean up",
+      "ipa": "/ˌkliːn ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to make a place clean and tidy; to remove dirt, mess, or unwanted material",
+          "meaning_vi": "dọn sạch (làm chỗ sạch sẽ; loại bụi/rác/đồ thừa)",
+          "examples": [
+            {
+              "en": "Let's clean up the kitchen before bed.",
+              "vi": "Hãy clean-up bếp trước khi ngủ."
+            },
+            {
+              "en": "Volunteers cleaned up the beach last weekend.",
+              "vi": "Tình nguyện viên clean-up bãi biển cuối tuần qua."
+            },
+            {
+              "en": "Vietnamese students often clean up classrooms together after school.",
+              "vi": "Học sinh Việt thường clean-up lớp sau giờ học cùng nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["tidy up"],
+      "antonyms": ["mess up"],
+      "collocations": ["clean up the mess", "clean up after yourself", "beach cleanup"],
+      "mnemonic_vi": "CLEAN (sạch) + UP (lên) = làm sạch lên. Clean-up = dọn sạch."
+    },
+    {
+      "word": "clear-up",
+      "lemma": "clear up",
+      "ipa": "/ˌklɪə(r) ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to resolve a misunderstanding or problem; (of weather) to become clear after rain",
+          "meaning_vi": "giải quyết, hửng nắng (giải hiểu lầm; trời tạnh hửng)",
+          "examples": [
+            {
+              "en": "Let's clear up this misunderstanding right now.",
+              "vi": "Hãy clear-up hiểu lầm này ngay."
+            },
+            { "en": "The sky cleared up by afternoon.", "vi": "Trời clear-up vào buổi chiều." },
+            {
+              "en": "Vietnamese teachers often need to clear up cultural misunderstandings.",
+              "vi": "Giáo viên Việt thường cần clear-up hiểu lầm văn hóa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resolve", "brighten"],
+      "antonyms": ["complicate", "cloud over"],
+      "collocations": ["clear up a problem", "weather clears up", "clear up doubts"],
+      "mnemonic_vi": "CLEAR (rõ, sạch) + UP (lên) = làm rõ lên. Clear-up = giải quyết HOẶC trời tạnh."
+    },
+    {
+      "word": "clear-out",
+      "lemma": "clear out",
+      "ipa": "/ˌklɪə(r) ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to remove unwanted items from a place; to leave a place quickly",
+          "meaning_vi": "dọn sạch ra, đi nhanh (loại bỏ đồ thừa; rời nơi nhanh)",
+          "examples": [
+            {
+              "en": "I need to clear out my closet — it's full of unused clothes.",
+              "vi": "Tôi cần clear-out tủ đồ — đầy đồ không dùng."
+            },
+            { "en": "Clear out — the building is on fire!", "vi": "Clear-out đi — toà nhà cháy!" },
+            {
+              "en": "Vietnamese families clear out their homes thoroughly before Tết.",
+              "vi": "Gia đình Việt clear-out nhà kỹ lưỡng trước Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["empty", "evacuate"],
+      "antonyms": ["fill up"],
+      "collocations": ["clear out the closet", "clear out the room", "complete clearout"],
+      "mnemonic_vi": "CLEAR (sạch) + OUT (ra) = dọn ra. Clear-out = dọn sạch ra HOẶC chạy ra."
+    },
+    {
+      "word": "calm-down",
+      "lemma": "calm down",
+      "ipa": "/ˌkɑːm ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to become or make someone less anxious, angry, or excited",
+          "meaning_vi": "bình tĩnh lại (bớt căng/giận/hào hứng)",
+          "examples": [
+            {
+              "en": "Calm down — everything will be okay.",
+              "vi": "Calm-down đi — mọi chuyện sẽ ổn."
+            },
+            {
+              "en": "It took her a few minutes to calm down after the argument.",
+              "vi": "Cô ấy mất vài phút để calm-down sau cãi vã."
+            },
+            {
+              "en": "Vietnamese yoga classes help busy professionals calm down.",
+              "vi": "Lớp yoga Việt giúp dân chuyên nghiệp bận rộn calm-down."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relax", "settle"],
+      "antonyms": ["get worked up"],
+      "collocations": ["calm down quickly", "calm yourself down", "help calm down"],
+      "mnemonic_vi": "CALM (bình tĩnh) + DOWN (xuống) = lắng xuống. Calm-down = bình tĩnh lại."
+    },
+    {
+      "word": "carry-on",
+      "lemma": "carry on",
+      "ipa": "/ˌkæri ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to continue doing something despite difficulty; small luggage allowed in an airplane cabin",
+          "meaning_vi": "tiếp tục, hành lý xách tay (làm tiếp dù khó; vali tay mang lên máy bay)",
+          "examples": [
+            {
+              "en": "Carry on with your work — I'll be right back.",
+              "vi": "Carry-on việc đi — tôi sẽ quay lại ngay."
+            },
+            {
+              "en": "Pack only carry-on luggage for short trips.",
+              "vi": "Đóng gói chỉ carry-on cho chuyến ngắn."
+            },
+            {
+              "en": "Vietnamese workers carry on through Tết deadlines.",
+              "vi": "Người lao động Việt carry-on qua deadline Tết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["continue", "proceed"],
+      "antonyms": ["stop"],
+      "collocations": ["carry on working", "carry-on luggage", "carry on regardless"],
+      "mnemonic_vi": "CARRY (mang) + ON (tiếp) = mang tiếp. Carry-on = tiếp tục HOẶC hành lý mang lên máy bay."
+    },
+    {
+      "word": "carry-out",
+      "lemma": "carry out",
+      "ipa": "/ˌkæri ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to perform or complete a task, plan, order, or experiment as instructed",
+          "meaning_vi": "thực hiện (làm/hoàn thành công việc/kế hoạch/lệnh/thí nghiệm theo chỉ thị)",
+          "examples": [
+            {
+              "en": "The team carried out the plan flawlessly.",
+              "vi": "Đội carry-out kế hoạch hoàn hảo."
+            },
+            {
+              "en": "Scientists carry out experiments under strict protocols.",
+              "vi": "Nhà khoa học carry-out thí nghiệm theo quy trình chặt."
+            },
+            {
+              "en": "Vietnamese health workers carried out massive vaccination drives in 2021.",
+              "vi": "Cán bộ y tế Việt carry-out tiêm vaccine quy mô lớn năm 2021."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["execute", "perform"],
+      "antonyms": ["abandon"],
+      "collocations": ["carry out a plan", "carry out an order", "carry out research"],
+      "mnemonic_vi": "CARRY (mang) + OUT (ra) = mang ra. Carry-out = thực hiện đến cùng."
+    },
+    {
+      "word": "catch-up",
+      "lemma": "catch up",
+      "ipa": "/ˌkætʃ ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to reach the same level or position as someone ahead; to chat with someone about recent events",
+          "meaning_vi": "bắt kịp, hàn huyên (đuổi kịp ai trước; tâm sự tin tức mới)",
+          "examples": [
+            {
+              "en": "Run faster to catch up with the group.",
+              "vi": "Chạy nhanh hơn để catch-up nhóm."
+            },
+            {
+              "en": "Let's catch up over coffee this Saturday.",
+              "vi": "Catch-up bên cà phê thứ Bảy này nhé."
+            },
+            {
+              "en": "Vietnamese friends love catching up at street-food stalls.",
+              "vi": "Bạn bè Việt thích catch-up tại quán ăn vặt vỉa hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reach", "chat"],
+      "antonyms": ["fall behind"],
+      "collocations": ["catch up with friends", "catch up on work", "catch up on sleep"],
+      "mnemonic_vi": "CATCH (bắt) + UP (lên) = bắt lên. Catch-up = đuổi kịp HOẶC hàn huyên."
+    },
+    {
+      "word": "cool-down",
+      "lemma": "cool down",
+      "ipa": "/ˌkuːl ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to become cooler in temperature; to become less angry or emotional",
+          "meaning_vi": "nguội đi, hạ giận (hạ nhiệt độ; bớt nóng giận)",
+          "examples": [
+            {
+              "en": "Let the soup cool down before serving.",
+              "vi": "Để súp cool-down trước khi múc."
+            },
+            {
+              "en": "He needed a few minutes to cool down after the argument.",
+              "vi": "Anh ấy cần vài phút để cool-down sau cãi vã."
+            },
+            {
+              "en": "Vietnamese summer evenings cool down by the river.",
+              "vi": "Tối hè Việt cool-down bên bờ sông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chill", "calm"],
+      "antonyms": ["heat up"],
+      "collocations": ["cool down quickly", "cool-down exercise", "cool down a bit"],
+      "mnemonic_vi": "COOL (mát) + DOWN (xuống) = mát xuống. Cool-down = nguội đi HOẶC hạ giận."
+    },
+    {
+      "word": "count-on",
+      "lemma": "count on",
+      "ipa": "/ˌkaʊnt ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to rely or depend on someone or something with confidence",
+          "meaning_vi": "tin cậy (dựa vào ai/cái gì với sự tin tưởng)",
+          "examples": [
+            {
+              "en": "You can count on me to be there.",
+              "vi": "Bạn có thể count-on tôi sẽ có mặt."
+            },
+            {
+              "en": "Don't count on the bus arriving on time.",
+              "vi": "Đừng count-on xe buýt đến đúng giờ."
+            },
+            {
+              "en": "Vietnamese families count on each other through hardships.",
+              "vi": "Gia đình Việt count-on lẫn nhau qua khó khăn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rely on", "depend on"],
+      "antonyms": [],
+      "collocations": ["count on someone", "you can count on", "don't count on it"],
+      "mnemonic_vi": "COUNT (đếm) + ON (vào) = đếm vào. Count-on = đếm dựa vào = tin cậy."
+    },
+    {
+      "word": "cover-up",
+      "lemma": "cover up",
+      "ipa": "/ˌkʌvə(r) ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hide a mistake, crime, or fact to prevent it from being known; to wear more clothes",
+          "meaning_vi": "che giấu, mặc thêm (giấu sai phạm/tội/sự thật; mặc thêm đồ)",
+          "examples": [
+            {
+              "en": "The company tried to cover up the data leak.",
+              "vi": "Công ty cố cover-up vụ rò rỉ dữ liệu."
+            },
+            {
+              "en": "Cover up — it's getting cold outside.",
+              "vi": "Cover-up đi — bên ngoài lạnh."
+            },
+            {
+              "en": "Vietnamese scandals often unravel when cover-ups fail.",
+              "vi": "Bê bối Việt thường lộ ra khi cover-up thất bại."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conceal", "hide"],
+      "antonyms": ["reveal"],
+      "collocations": ["cover up a crime", "cover-up scandal", "cover up the truth"],
+      "mnemonic_vi": "COVER (che) + UP (lên) = che lên. Cover-up = che giấu."
+    },
+    {
+      "word": "cross-out",
+      "lemma": "cross out",
+      "ipa": "/ˌkrɒs ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to draw a line through a word or item to show it is wrong, deleted, or no longer needed",
+          "meaning_vi": "gạch bỏ (vẽ đường qua từ/mục để thể hiện sai/xoá/không cần)",
+          "examples": [
+            {
+              "en": "Cross out the wrong answer and write the correct one.",
+              "vi": "Cross-out câu trả lời sai và viết câu đúng."
+            },
+            { "en": "Just cross it out — don't erase it.", "vi": "Cứ cross-out — đừng tẩy." },
+            {
+              "en": "Vietnamese teachers cross out errors with red pen.",
+              "vi": "Giáo viên Việt cross-out lỗi bằng bút đỏ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["strike out", "delete"],
+      "antonyms": [],
+      "collocations": ["cross out a name", "cross out the word", "neatly cross out"],
+      "mnemonic_vi": "CROSS (chéo) + OUT (ra/xoá) = vẽ chéo xoá. Cross-out = gạch bỏ."
+    }
+  ]
+}

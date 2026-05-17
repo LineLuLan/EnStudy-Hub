@@ -1,0 +1,584 @@
+{
+  "slug": "phrasal-hand-hold",
+  "name": "Phrasal Verbs: Hand & Hold",
+  "description": "Phrasal verbs với HAND, HOLD, HANG, HURRY — 20 cụm cho trao tay và chờ đợi.",
+  "order_index": 19,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "hand-in",
+      "lemma": "hand in",
+      "ipa": "/ˌhænd ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to submit something officially, like homework, a resignation, or a form",
+          "meaning_vi": "nộp (trình chính thức bài tập, đơn từ chức, biểu mẫu)",
+          "examples": [
+            { "en": "Hand in your homework before class.", "vi": "Hand-in bài tập trước giờ học." },
+            {
+              "en": "She handed in her resignation last Friday.",
+              "vi": "Cô ấy hand-in đơn từ chức thứ Sáu trước."
+            },
+            {
+              "en": "Vietnamese students hand in essays both digitally and on paper.",
+              "vi": "Học sinh Việt hand-in bài luận cả số và giấy."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["submit", "turn in"],
+      "antonyms": [],
+      "collocations": ["hand in homework", "hand in your resignation", "hand in on time"],
+      "mnemonic_vi": "HAND (tay) + IN (vào) = đưa tay vào. Hand-in = nộp bài/đơn."
+    },
+    {
+      "word": "hand-out",
+      "lemma": "hand out",
+      "ipa": "/ˌhænd ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to distribute items to many people; (as noun) a printed sheet of information given to a group",
+          "meaning_vi": "phát, tờ phát (chia cho nhiều người; danh từ: tờ thông tin in cho nhóm)",
+          "examples": [
+            {
+              "en": "Volunteers handed out water at the marathon.",
+              "vi": "Tình nguyện viên hand-out nước ở marathon."
+            },
+            {
+              "en": "The professor distributed handouts before the lecture.",
+              "vi": "Giáo sư chia hand-out trước bài giảng."
+            },
+            {
+              "en": "Vietnamese pagodas hand out free meals on the 1st of each lunar month.",
+              "vi": "Chùa Việt hand-out bữa ăn miễn phí ngày mùng 1 âm lịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["distribute"],
+      "antonyms": ["collect"],
+      "collocations": ["hand out leaflets", "hand out food", "lecture handouts"],
+      "mnemonic_vi": "HAND (tay) + OUT (ra) = đưa tay ra. Hand-out = phát đồ ra."
+    },
+    {
+      "word": "hand-over",
+      "lemma": "hand over",
+      "ipa": "/ˌhænd ˈəʊvə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give something or transfer responsibility/authority to someone else",
+          "meaning_vi": "trao, bàn giao (đưa vật hoặc chuyển trách nhiệm/quyền hành cho ai)",
+          "examples": [
+            {
+              "en": "Hand over your phone — it's evidence.",
+              "vi": "Hand-over điện thoại — đó là chứng cứ."
+            },
+            {
+              "en": "The CEO handed over leadership to his successor.",
+              "vi": "CEO hand-over lãnh đạo cho người kế nhiệm."
+            },
+            {
+              "en": "Vietnamese workers hand over shifts at exact change-over times.",
+              "vi": "Công nhân Việt hand-over ca đúng giờ chuyển ca."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["transfer", "deliver"],
+      "antonyms": ["receive"],
+      "collocations": ["hand over the keys", "hand over power", "smooth handover"],
+      "mnemonic_vi": "HAND (tay) + OVER (qua) = đưa qua. Hand-over = trao, bàn giao."
+    },
+    {
+      "word": "hand-back",
+      "lemma": "hand back",
+      "ipa": "/ˌhænd ˈbæk/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to return something to the person who gave it to you",
+          "meaning_vi": "trả lại tận tay (đưa lại vật cho người đã trao)",
+          "examples": [
+            { "en": "Hand back the keys when you leave.", "vi": "Hand-back chìa khóa khi rời đi." },
+            {
+              "en": "The teacher handed back our graded essays.",
+              "vi": "Giáo viên hand-back bài luận đã chấm."
+            },
+            {
+              "en": "Vietnamese borrowers hand back books on time at university libraries.",
+              "vi": "Người mượn Việt hand-back sách đúng giờ tại thư viện đại học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return"],
+      "antonyms": ["keep"],
+      "collocations": ["hand back the change", "hand back the documents", "promptly hand back"],
+      "mnemonic_vi": "HAND (tay) + BACK (lại) = đưa lại tay. Hand-back = trả lại."
+    },
+    {
+      "word": "hand-down",
+      "lemma": "hand down",
+      "ipa": "/ˌhænd ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to pass tradition, knowledge, or items from one generation to the next; to deliver a judgment in court",
+          "meaning_vi": "truyền lại, phán quyết (truyền truyền thống/kiến thức/vật giữa các thế hệ; tòa ra phán quyết)",
+          "examples": [
+            {
+              "en": "This necklace has been handed down from my grandmother.",
+              "vi": "Sợi dây chuyền này được hand-down từ bà ngoại tôi."
+            },
+            {
+              "en": "The judge handed down a 5-year sentence.",
+              "vi": "Thẩm phán hand-down bản án 5 năm."
+            },
+            {
+              "en": "Vietnamese recipes are often handed down orally.",
+              "vi": "Công thức Việt thường được hand-down bằng miệng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pass down", "deliver"],
+      "antonyms": [],
+      "collocations": ["hand down tradition", "hand down a sentence", "hand-me-down"],
+      "mnemonic_vi": "HAND (tay) + DOWN (xuống) = đưa xuống. Hand-down = truyền xuống thế hệ sau."
+    },
+    {
+      "word": "hand-round",
+      "lemma": "hand round",
+      "ipa": "/ˌhænd ˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to give an item to each person in a group, in turn (similar to pass round)",
+          "meaning_vi": "chuyền tay (đưa cho từng người trong nhóm, lần lượt)",
+          "examples": [
+            {
+              "en": "Could you hand round these snacks?",
+              "vi": "Bạn hand-round những món vặt này được không?"
+            },
+            {
+              "en": "The host handed round drinks at the dinner party.",
+              "vi": "Chủ tiệc hand-round đồ uống tại bữa tối."
+            },
+            {
+              "en": "Vietnamese tea ceremonies involve handing round small cups carefully.",
+              "vi": "Nghi thức trà Việt liên quan đến hand-round chén nhỏ cẩn thận."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pass round", "circulate"],
+      "antonyms": [],
+      "collocations": ["hand round snacks", "hand round cards", "hand round drinks"],
+      "mnemonic_vi": "HAND (tay) + ROUND (vòng) = chuyền vòng. Hand-round = phát từng người."
+    },
+    {
+      "word": "hold-back",
+      "lemma": "hold back",
+      "ipa": "/ˌhəʊld ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to restrain emotions, information, or someone's progress; to refuse to share or release",
+          "meaning_vi": "kìm nén, giữ lại (kìm cảm xúc/thông tin/tiến độ ai; không chia sẻ)",
+          "examples": [
+            {
+              "en": "She couldn't hold back her tears.",
+              "vi": "Cô ấy không thể hold-back nước mắt."
+            },
+            {
+              "en": "The report holds back several key facts.",
+              "vi": "Báo cáo hold-back vài sự thật chính."
+            },
+            {
+              "en": "Vietnamese parents sometimes hold back praise to avoid spoiling children.",
+              "vi": "Cha mẹ Việt đôi khi hold-back lời khen để tránh chiều con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["restrain", "withhold"],
+      "antonyms": ["release"],
+      "collocations": ["hold back tears", "hold back information", "don't hold back"],
+      "mnemonic_vi": "HOLD (giữ) + BACK (lại) = giữ lại. Hold-back = kìm, giữ lại."
+    },
+    {
+      "word": "hold-on",
+      "lemma": "hold on",
+      "ipa": "/ˌhəʊld ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to wait for a short time; to grip something tightly to prevent falling",
+          "meaning_vi": "đợi một chút, bám chặt (chờ ngắn; nắm chắc để không ngã)",
+          "examples": [
+            { "en": "Hold on — I need to grab my keys.", "vi": "Hold-on — tôi cần lấy chìa khóa." },
+            { "en": "Hold on tight when the bus turns.", "vi": "Hold-on chặt khi xe buýt rẽ." },
+            {
+              "en": "Vietnamese phone customer service often asks callers to hold on.",
+              "vi": "Tổng đài Việt thường yêu cầu khách hold-on."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wait", "grip"],
+      "antonyms": ["let go"],
+      "collocations": ["hold on tight", "hold on a minute", "please hold on"],
+      "mnemonic_vi": "HOLD (giữ) + ON (trên) = giữ trên. Hold-on = chờ HOẶC bám chặt."
+    },
+    {
+      "word": "hold-on-to",
+      "lemma": "hold on to",
+      "ipa": "/ˌhəʊld ˈɒn tə/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to keep something rather than give it away or lose it; to grip firmly",
+          "meaning_vi": "giữ chặt, giữ lại (không bỏ; nắm chắc)",
+          "examples": [
+            {
+              "en": "Hold on to your ticket — you'll need it at the exit.",
+              "vi": "Hold-on-to vé — bạn cần ở cửa ra."
+            },
+            {
+              "en": "She held on to her old letters for sentimental reasons.",
+              "vi": "Cô ấy hold-on-to thư cũ vì kỷ niệm."
+            },
+            {
+              "en": "Vietnamese families hold on to ancestral homes for generations.",
+              "vi": "Gia đình Việt hold-on-to nhà tổ qua các thế hệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["keep", "retain"],
+      "antonyms": ["release", "give up"],
+      "collocations": ["hold on to your dreams", "hold on to your money", "hold on to memories"],
+      "mnemonic_vi": "HOLD + ON + TO = giữ chặt vào. Hold-on-to = giữ không thả."
+    },
+    {
+      "word": "hold-out",
+      "lemma": "hold out",
+      "ipa": "/ˌhəʊld ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to extend something with your hand; to resist or last longer than expected; to refuse to agree",
+          "meaning_vi": "đưa tay ra, chịu đựng, từ chối (đưa vật bằng tay; trụ vững lâu hơn dự kiến; không đồng ý)",
+          "examples": [
+            {
+              "en": "He held out his hand for a handshake.",
+              "vi": "Anh ấy hold-out tay để bắt tay."
+            },
+            { "en": "The defenders held out for two months.", "vi": "Bên thủ hold-out 2 tháng." },
+            {
+              "en": "Vietnamese resistance fighters famously held out against larger forces.",
+              "vi": "Quân kháng chiến Việt nổi tiếng hold-out trước quân số lớn hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extend", "resist"],
+      "antonyms": ["give up"],
+      "collocations": ["hold out hope", "hold out a hand", "hold out against"],
+      "mnemonic_vi": "HOLD (giữ) + OUT (ra) = giữ ra. Hold-out = đưa tay ra HOẶC chịu đựng dai."
+    },
+    {
+      "word": "hold-up",
+      "lemma": "hold up",
+      "ipa": "/ˌhəʊld ˈʌp/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to delay or slow down progress; to rob using a weapon; to lift something high",
+          "meaning_vi": "làm chậm, cướp có vũ khí, giơ lên (gây chậm; cướp dùng súng; nhấc lên cao)",
+          "examples": [
+            { "en": "Traffic is holding up the bus.", "vi": "Kẹt xe hold-up xe buýt." },
+            {
+              "en": "Two masked men held up the bank.",
+              "vi": "Hai người bịt mặt hold-up ngân hàng."
+            },
+            { "en": "Hold up the trophy for the photo!", "vi": "Hold-up cúp lên cho chụp ảnh!" }
+          ]
+        }
+      ],
+      "synonyms": ["delay", "rob"],
+      "antonyms": ["speed up"],
+      "collocations": ["hold up traffic", "armed hold-up", "hold up a sign"],
+      "mnemonic_vi": "HOLD (giữ) + UP (lên) = giữ trên. Hold-up = chậm, cướp HOẶC giơ lên."
+    },
+    {
+      "word": "hang-around",
+      "lemma": "hang around",
+      "ipa": "/ˌhæŋ əˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stay or wait in a place without a clear purpose; to spend time with someone informally",
+          "meaning_vi": "lảng vảng, chơi cùng (chờ/ở một nơi không mục đích rõ; dành thời gian với ai không trang trọng)",
+          "examples": [
+            {
+              "en": "Don't hang around the parking lot at night.",
+              "vi": "Đừng hang-around bãi đậu xe đêm khuya."
+            },
+            {
+              "en": "I like to hang around with my college friends on weekends.",
+              "vi": "Tôi thích hang-around với bạn đại học cuối tuần."
+            },
+            {
+              "en": "Vietnamese teens hang around at boba shops after school.",
+              "vi": "Teen Việt hang-around quán trà sữa sau giờ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["loiter", "hang out"],
+      "antonyms": [],
+      "collocations": ["hang around the corner", "hang around with friends", "just hang around"],
+      "mnemonic_vi": "HANG (treo) + AROUND (quanh) = lảng quanh. Hang-around = quanh quẩn không mục đích."
+    },
+    {
+      "word": "hang-on",
+      "lemma": "hang on",
+      "ipa": "/ˌhæŋ ˈɒn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to wait briefly (informal); to keep gripping something; to depend on",
+          "meaning_vi": "đợi tí, bám chặt, phụ thuộc (chờ ngắn; nắm chặt; tùy thuộc vào)",
+          "examples": [
+            { "en": "Hang on — let me finish this thought.", "vi": "Hang-on — để tôi nói hết ý." },
+            { "en": "Hang on tight — the road is bumpy.", "vi": "Hang-on chặt — đường gập ghềnh." },
+            {
+              "en": "Everything hangs on the test results.",
+              "vi": "Tất cả hang-on kết quả xét nghiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wait", "depend"],
+      "antonyms": ["let go"],
+      "collocations": ["hang on a sec", "hang on tight", "hang on the result"],
+      "mnemonic_vi": "HANG (treo) + ON (trên) = treo trên. Hang-on = đợi tí HOẶC bám chặt."
+    },
+    {
+      "word": "hang-up",
+      "lemma": "hang up",
+      "ipa": "/ˌhæŋ ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to end a phone call by replacing the receiver or pressing the end button; to suspend an item (clothes, painting)",
+          "meaning_vi": "tắt máy, treo lên (cúp điện thoại; treo đồ — áo, tranh)",
+          "examples": [
+            {
+              "en": "Don't hang up — we're not done talking!",
+              "vi": "Đừng hang-up — ta chưa nói xong!"
+            },
+            { "en": "Hang up your coat by the door.", "vi": "Hang-up áo khoác cạnh cửa." },
+            {
+              "en": "Vietnamese grandmothers know how to politely hang up on telemarketers.",
+              "vi": "Bà nội Việt biết hang-up lịch sự với telemarketer."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["end call", "suspend"],
+      "antonyms": ["pick up"],
+      "collocations": ["hang up the phone", "hang up the coat", "rude to hang up"],
+      "mnemonic_vi": "HANG (treo) + UP (lên) = treo lên. Hang-up = tắt máy HOẶC treo đồ."
+    },
+    {
+      "word": "hurry-up",
+      "lemma": "hurry up",
+      "ipa": "/ˌhʌri ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to do something faster or to encourage someone else to act quickly",
+          "meaning_vi": "vội lên, gấp lên (làm nhanh hơn; thúc ai làm nhanh)",
+          "examples": [
+            { "en": "Hurry up — we'll miss the train!", "vi": "Hurry-up — ta sẽ trễ tàu!" },
+            {
+              "en": "Can you hurry up with the order?",
+              "vi": "Bạn có thể hurry-up gọi món không?"
+            },
+            {
+              "en": "Vietnamese mothers say 'hurry up' a hundred times each school morning.",
+              "vi": "Mẹ Việt nói 'hurry-up' cả trăm lần mỗi sáng đi học."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rush", "speed up"],
+      "antonyms": ["slow down"],
+      "collocations": ["hurry up now", "hurry up please", "tell to hurry up"],
+      "mnemonic_vi": "HURRY (vội) + UP (lên) = vội lên. Hurry-up = nhanh lên."
+    },
+    {
+      "word": "help-out",
+      "lemma": "help out",
+      "ipa": "/ˌhelp ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to assist someone, especially when they are busy, in difficulty, or need extra effort",
+          "meaning_vi": "giúp đỡ (hỗ trợ ai khi họ bận, khó khăn, hoặc cần thêm nỗ lực)",
+          "examples": [
+            {
+              "en": "Can you help out with the dishes?",
+              "vi": "Bạn help-out rửa chén được không?"
+            },
+            {
+              "en": "Neighbors help out when families have new babies.",
+              "vi": "Hàng xóm help-out khi gia đình có em bé mới."
+            },
+            {
+              "en": "Vietnamese village communities help out at funerals as a tradition.",
+              "vi": "Cộng đồng làng Việt help-out tại đám tang như truyền thống."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assist", "support"],
+      "antonyms": [],
+      "collocations": ["help out a friend", "happy to help out", "help out around the house"],
+      "mnemonic_vi": "HELP (giúp) + OUT (ra) = ra tay giúp. Help-out = giúp đỡ."
+    },
+    {
+      "word": "heat-up",
+      "lemma": "heat up",
+      "ipa": "/ˌhiːt ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to warm or make food/water hotter; (of a situation) to become more intense or exciting",
+          "meaning_vi": "hâm nóng, căng thẳng lên (làm đồ ăn/nước nóng hơn; tình huống trở nên căng/náo nhiệt)",
+          "examples": [
+            { "en": "Heat up the leftover phở for breakfast.", "vi": "Heat-up phở thừa làm sáng." },
+            { "en": "The argument heated up quickly.", "vi": "Cuộc cãi heat-up nhanh chóng." },
+            {
+              "en": "Vietnamese tea hawkers heat up water all day in big metal kettles.",
+              "vi": "Người bán trà Việt heat-up nước cả ngày trong ấm kim loại lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["warm", "intensify"],
+      "antonyms": ["cool down"],
+      "collocations": ["heat up food", "heat up the debate", "things heat up"],
+      "mnemonic_vi": "HEAT (nhiệt) + UP (lên) = nóng lên. Heat-up = hâm nóng HOẶC càng căng."
+    },
+    {
+      "word": "join-in",
+      "lemma": "join in",
+      "ipa": "/ˌdʒɔɪn ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to participate in an activity that others are already doing",
+          "meaning_vi": "tham gia (cùng hoạt động đang diễn ra)",
+          "examples": [
+            {
+              "en": "Come join in — we're playing cards.",
+              "vi": "Đến join-in — ta đang chơi bài."
+            },
+            {
+              "en": "Don't be shy — join in the conversation.",
+              "vi": "Đừng ngại — join-in câu chuyện."
+            },
+            {
+              "en": "Vietnamese karaoke parties invite everyone to join in.",
+              "vi": "Tiệc karaoke Việt mời tất cả join-in."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["participate"],
+      "antonyms": ["watch"],
+      "collocations": ["join in the fun", "join in the game", "feel free to join in"],
+      "mnemonic_vi": "JOIN (tham gia) + IN (vào) = tham gia vào. Join-in = vào cùng làm."
+    },
+    {
+      "word": "knock-down",
+      "lemma": "knock down",
+      "ipa": "/ˌnɒk ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hit or strike something so hard that it falls; to demolish a building; to reduce a price",
+          "meaning_vi": "đánh ngã, phá dỡ, hạ giá (đập cho rơi; phá nhà; giảm giá)",
+          "examples": [
+            { "en": "The motorbike knocked down a tree.", "vi": "Xe máy knock-down cái cây." },
+            {
+              "en": "They knocked down the old hotel to build apartments.",
+              "vi": "Họ knock-down khách sạn cũ để xây căn hộ."
+            },
+            {
+              "en": "Vietnamese vendors often knock down prices for regular customers.",
+              "vi": "Người bán Việt thường knock-down giá cho khách quen."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hit", "demolish", "lower"],
+      "antonyms": ["raise"],
+      "collocations": ["knock down a wall", "knock down the price", "knock down a pedestrian"],
+      "mnemonic_vi": "KNOCK (đập) + DOWN (xuống) = đập xuống. Knock-down = đánh ngã, phá, hoặc hạ giá."
+    },
+    {
+      "word": "knock-out",
+      "lemma": "knock out",
+      "ipa": "/ˌnɒk ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to hit someone unconscious; to eliminate from a competition; (informal) very impressive",
+          "meaning_vi": "đánh ngất, loại, ấn tượng (đánh bất tỉnh; loại khỏi cuộc thi; informal: rất ấn tượng)",
+          "examples": [
+            {
+              "en": "The boxer knocked out his opponent in round three.",
+              "vi": "Võ sĩ knock-out đối thủ ở hiệp 3."
+            },
+            {
+              "en": "Vietnam was knocked out of the World Cup qualifiers.",
+              "vi": "Việt Nam bị knock-out khỏi vòng loại World Cup."
+            },
+            { "en": "That sunset was a knockout!", "vi": "Hoàng hôn đó thật knockout!" }
+          ]
+        }
+      ],
+      "synonyms": ["eliminate", "stun"],
+      "antonyms": ["qualify"],
+      "collocations": ["knock out a tooth", "knockout punch", "knockout round"],
+      "mnemonic_vi": "KNOCK (đập) + OUT (ra) = đánh ra. Knock-out = đánh ngất, loại."
+    }
+  ]
+}

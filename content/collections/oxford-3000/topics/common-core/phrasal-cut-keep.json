@@ -1,0 +1,591 @@
+{
+  "slug": "phrasal-cut-keep",
+  "name": "Phrasal Verbs: Cut & Keep",
+  "description": "Phrasal verbs với CUT, KEEP, LEAVE, LET — 20 cụm cho giảm bớt, giữ lại, và cho phép.",
+  "order_index": 20,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "cut-back",
+      "lemma": "cut back",
+      "ipa": "/ˌkʌt ˈbæk/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to reduce the amount or frequency of something, usually spending, eating, or working",
+          "meaning_vi": "cắt giảm (giảm lượng/tần suất, thường chi tiêu/ăn/làm việc)",
+          "examples": [
+            {
+              "en": "We need to cut back on spending this month.",
+              "vi": "Ta cần cut-back chi tiêu tháng này."
+            },
+            {
+              "en": "He cut back on coffee to sleep better.",
+              "vi": "Anh ấy cut-back cà phê để ngủ tốt hơn."
+            },
+            {
+              "en": "Vietnamese households cut back during economic uncertainty.",
+              "vi": "Hộ gia đình Việt cut-back trong thời kinh tế bất ổn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["reduce"],
+      "antonyms": ["increase"],
+      "collocations": ["cut back on spending", "cut back on caffeine", "drastically cut back"],
+      "mnemonic_vi": "CUT (cắt) + BACK (lùi) = cắt lùi. Cut-back = cắt giảm."
+    },
+    {
+      "word": "cut-down",
+      "lemma": "cut down",
+      "ipa": "/ˌkʌt ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to chop down a tree; to reduce the amount of something (smoking, drinking)",
+          "meaning_vi": "chặt, giảm (chặt cây; giảm lượng — thuốc lá, rượu)",
+          "examples": [
+            {
+              "en": "Workers cut down the old tree last week.",
+              "vi": "Công nhân cut-down cây cũ tuần trước."
+            },
+            { "en": "I'm trying to cut down on sugar.", "vi": "Tôi đang cut-down đường." },
+            {
+              "en": "Vietnamese deforestation laws now prohibit cutting down protected trees.",
+              "vi": "Luật chống phá rừng Việt giờ cấm cut-down cây bảo vệ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chop", "reduce"],
+      "antonyms": ["plant", "increase"],
+      "collocations": ["cut down a tree", "cut down on smoking", "cut down expenses"],
+      "mnemonic_vi": "CUT (cắt) + DOWN (xuống) = cắt xuống. Cut-down = chặt HOẶC giảm."
+    },
+    {
+      "word": "cut-off",
+      "lemma": "cut off",
+      "ipa": "/ˌkʌt ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to disconnect or end something (phone call, power, supply); to interrupt while speaking",
+          "meaning_vi": "ngắt, cắt đứt (kết nối cuộc gọi/điện/nguồn cung; ngắt lời)",
+          "examples": [
+            {
+              "en": "We were cut off in the middle of the call.",
+              "vi": "Ta bị cut-off giữa cuộc gọi."
+            },
+            {
+              "en": "The power was cut off due to non-payment.",
+              "vi": "Điện bị cut-off vì chưa đóng tiền."
+            },
+            {
+              "en": "Don't cut me off — let me finish.",
+              "vi": "Đừng cut-off tôi — để tôi nói hết."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disconnect", "interrupt"],
+      "antonyms": ["connect"],
+      "collocations": ["cut off the supply", "get cut off", "cut-off date"],
+      "mnemonic_vi": "CUT (cắt) + OFF (rời) = cắt rời. Cut-off = ngắt, cắt đứt."
+    },
+    {
+      "word": "cut-out",
+      "lemma": "cut out",
+      "ipa": "/ˌkʌt ˈaʊt/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to remove something by cutting; to stop doing something; (of a machine) to stop working suddenly",
+          "meaning_vi": "cắt bỏ, ngừng, hỏng (cắt khỏi; thôi làm gì; máy ngừng đột ngột)",
+          "examples": [
+            { "en": "Cut out the article and save it.", "vi": "Cut-out bài báo và giữ." },
+            {
+              "en": "Cut out the noise — I'm studying.",
+              "vi": "Cut-out tiếng ồn đi — tôi đang học."
+            },
+            { "en": "The engine cut out on the highway.", "vi": "Động cơ cut-out trên cao tốc." }
+          ]
+        }
+      ],
+      "synonyms": ["remove", "stop"],
+      "antonyms": [],
+      "collocations": ["cut out the noise", "cut out sugar", "engine cuts out"],
+      "mnemonic_vi": "CUT (cắt) + OUT (ra) = cắt ra. Cut-out = cắt bỏ, ngưng, hỏng."
+    },
+    {
+      "word": "cut-up",
+      "lemma": "cut up",
+      "ipa": "/ˌkʌt ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to cut something into many small pieces; to be emotionally upset (informal)",
+          "meaning_vi": "cắt nhỏ, buồn (cắt thành nhiều mảnh nhỏ; buồn nhiều — informal)",
+          "examples": [
+            { "en": "Cut up the vegetables for the soup.", "vi": "Cut-up rau cho canh." },
+            {
+              "en": "She was cut up about her grandmother's passing.",
+              "vi": "Cô ấy cut-up vì bà ngoại qua đời."
+            },
+            {
+              "en": "Vietnamese cooks cut up ingredients very small and uniform.",
+              "vi": "Người nấu Việt cut-up nguyên liệu rất nhỏ và đều."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chop", "upset"],
+      "antonyms": [],
+      "collocations": ["cut up vegetables", "cut up onions", "really cut up"],
+      "mnemonic_vi": "CUT (cắt) + UP (nhiều) = cắt nhiều. Cut-up = cắt nhỏ HOẶC buồn lòng."
+    },
+    {
+      "word": "keep-out",
+      "lemma": "keep out",
+      "ipa": "/ˌkiːp ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to prevent someone or something from entering a place",
+          "meaning_vi": "không cho vào (ngăn người/vật vào một nơi)",
+          "examples": [
+            {
+              "en": "The fence keeps out wild animals.",
+              "vi": "Hàng rào keep-out động vật hoang."
+            },
+            { "en": "Keep out — private property.", "vi": "Keep-out — tài sản riêng." },
+            {
+              "en": "Vietnamese homes use mosquito nets to keep out bugs.",
+              "vi": "Nhà Việt dùng mùng để keep-out muỗi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["block", "exclude"],
+      "antonyms": ["let in"],
+      "collocations": ["keep out trespassers", "keep out the cold", "keep-out sign"],
+      "mnemonic_vi": "KEEP (giữ) + OUT (ngoài) = giữ ngoài. Keep-out = không cho vào."
+    },
+    {
+      "word": "keep-up",
+      "lemma": "keep up",
+      "ipa": "/ˌkiːp ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to continue at the same pace; to maintain something (effort, fitness, reputation)",
+          "meaning_vi": "theo kịp, duy trì (tiếp tục cùng nhịp; giữ vững nỗ lực/thể lực/danh tiếng)",
+          "examples": [
+            {
+              "en": "I can't keep up with the news these days.",
+              "vi": "Tôi không thể keep-up tin tức gần đây."
+            },
+            { "en": "Keep up the good work!", "vi": "Keep-up việc tốt!" },
+            {
+              "en": "Vietnamese students keep up busy schedules of school and extra classes.",
+              "vi": "Học sinh Việt keep-up lịch bận của trường và lớp thêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["maintain", "follow"],
+      "antonyms": ["fall behind"],
+      "collocations": ["keep up the pace", "keep up with news", "keep up appearances"],
+      "mnemonic_vi": "KEEP (giữ) + UP (lên) = giữ lên. Keep-up = theo kịp, duy trì."
+    },
+    {
+      "word": "keep-up-with",
+      "lemma": "keep up with",
+      "ipa": "/ˌkiːp ˈʌp wɪð/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to stay informed about something; to move at the same speed as someone; to maintain regular contact",
+          "meaning_vi": "theo kịp, giữ liên lạc (cập nhật thông tin; đi cùng tốc độ; giữ liên lạc đều)",
+          "examples": [
+            {
+              "en": "It's hard to keep up with all the AI news.",
+              "vi": "Khó keep-up-with tin AI."
+            },
+            {
+              "en": "I try to keep up with old friends through Zalo.",
+              "vi": "Tôi cố keep-up-with bạn cũ qua Zalo."
+            },
+            {
+              "en": "Vietnamese fashion lovers keep up with global trends via TikTok.",
+              "vi": "Tín đồ thời trang Việt keep-up-with xu hướng toàn cầu qua TikTok."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["follow", "track"],
+      "antonyms": [],
+      "collocations": ["keep up with trends", "keep up with friends", "keep up with technology"],
+      "mnemonic_vi": "KEEP + UP + WITH = giữ lên cùng. Keep-up-with = bắt kịp."
+    },
+    {
+      "word": "leave-out",
+      "lemma": "leave out",
+      "ipa": "/ˌliːv ˈaʊt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to omit or exclude something or someone from a list, group, or activity",
+          "meaning_vi": "bỏ qua, không tính (bỏ ai/cái gì khỏi danh sách/nhóm/hoạt động)",
+          "examples": [
+            {
+              "en": "Don't leave out any details when telling the story.",
+              "vi": "Đừng leave-out chi tiết nào khi kể."
+            },
+            {
+              "en": "She was left out of the team photo.",
+              "vi": "Cô ấy bị leave-out khỏi ảnh tập thể."
+            },
+            {
+              "en": "Vietnamese essays often leave out personal opinions in formal style.",
+              "vi": "Bài luận Việt thường leave-out ý kiến cá nhân trong văn trang trọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["omit", "exclude"],
+      "antonyms": ["include"],
+      "collocations": ["leave out the details", "feel left out", "leave out important parts"],
+      "mnemonic_vi": "LEAVE (rời) + OUT (ngoài) = để ngoài. Leave-out = bỏ qua, không tính."
+    },
+    {
+      "word": "let-down",
+      "lemma": "let down",
+      "ipa": "/ˌlet ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to disappoint someone by failing to meet expectations; to lower something",
+          "meaning_vi": "làm thất vọng, hạ xuống (không đạt kỳ vọng; hạ vật xuống)",
+          "examples": [
+            { "en": "I'm sorry — I let you down.", "vi": "Tôi xin lỗi — tôi let-down bạn." },
+            { "en": "Let down the rope so we can climb.", "vi": "Let-down dây để ta leo lên." },
+            {
+              "en": "Vietnamese parents fear letting down their children's expectations.",
+              "vi": "Cha mẹ Việt sợ let-down kỳ vọng của con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disappoint", "lower"],
+      "antonyms": ["uplift"],
+      "collocations": ["let someone down", "feel let down", "big letdown"],
+      "mnemonic_vi": "LET (cho) + DOWN (xuống) = để xuống. Let-down = làm thất vọng HOẶC thả xuống."
+    },
+    {
+      "word": "let-off",
+      "lemma": "let off",
+      "ipa": "/ˌlet ˈɒf/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to release or excuse someone from punishment or duty; to fire a gun or set off fireworks",
+          "meaning_vi": "tha, miễn, đốt (cho ai khỏi phạt/nhiệm vụ; bắn súng/đốt pháo)",
+          "examples": [
+            {
+              "en": "The teacher let him off with a warning.",
+              "vi": "Giáo viên let-off anh ấy với một lời cảnh báo."
+            },
+            {
+              "en": "They let off fireworks at midnight.",
+              "vi": "Họ let-off pháo hoa lúc nửa đêm."
+            },
+            {
+              "en": "Vietnamese traffic police sometimes let off tourists for minor violations.",
+              "vi": "Cảnh sát giao thông Việt đôi khi let-off du khách vi phạm nhẹ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["excuse", "discharge"],
+      "antonyms": ["punish"],
+      "collocations": ["let off a warning", "let off fireworks", "let off the hook"],
+      "mnemonic_vi": "LET (cho) + OFF (đi) = cho đi. Let-off = tha, miễn, đốt."
+    },
+    {
+      "word": "let-in",
+      "lemma": "let in",
+      "ipa": "/ˌlet ˈɪn/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to allow someone or something to enter a place",
+          "meaning_vi": "cho vào (cho phép vào một nơi)",
+          "examples": [
+            {
+              "en": "Let in some fresh air — open the window.",
+              "vi": "Let-in không khí trong lành — mở cửa sổ."
+            },
+            {
+              "en": "Security wouldn't let her in without ID.",
+              "vi": "Bảo vệ không let-in cô ấy nếu không có ID."
+            },
+            {
+              "en": "Vietnamese homes let in sunlight through wide windows.",
+              "vi": "Nhà Việt let-in ánh nắng qua cửa sổ rộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["admit"],
+      "antonyms": ["keep out"],
+      "collocations": ["let in fresh air", "let someone in", "let in light"],
+      "mnemonic_vi": "LET (cho) + IN (vào) = cho vào. Let-in = cho phép vào."
+    },
+    {
+      "word": "live-on",
+      "lemma": "live on",
+      "ipa": "/ˌlɪv ˈɒn/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to continue to exist or be remembered; to survive on a limited amount of money or food",
+          "meaning_vi": "tồn tại tiếp, sống bằng (vẫn nhớ/tồn tại; sống bằng số tiền/đồ ăn hạn chế)",
+          "examples": [
+            {
+              "en": "His memory lives on through his music.",
+              "vi": "Trí nhớ về anh ấy live-on qua âm nhạc."
+            },
+            {
+              "en": "Many students live on instant noodles.",
+              "vi": "Nhiều sinh viên live-on mì gói."
+            },
+            {
+              "en": "Vietnamese folk songs live on through grandparents' singing.",
+              "vi": "Dân ca Việt live-on qua tiếng hát của ông bà."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["survive", "endure"],
+      "antonyms": ["die out"],
+      "collocations": ["live on memories", "live on a small budget", "legacy lives on"],
+      "mnemonic_vi": "LIVE (sống) + ON (tiếp) = sống tiếp. Live-on = tồn tại tiếp HOẶC sống bằng."
+    },
+    {
+      "word": "lock-up",
+      "lemma": "lock up",
+      "ipa": "/ˌlɒk ˈʌp/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to secure a building or item with a lock; to put someone in prison",
+          "meaning_vi": "khóa lại, nhốt (khóa nhà/đồ; bỏ tù ai)",
+          "examples": [
+            { "en": "Lock up the shop before leaving.", "vi": "Lock-up cửa hàng trước khi rời." },
+            {
+              "en": "The judge locked him up for ten years.",
+              "vi": "Thẩm phán lock-up anh ấy 10 năm."
+            },
+            {
+              "en": "Vietnamese shop owners lock up shutters every night manually.",
+              "vi": "Chủ quán Việt lock-up cửa cuốn mỗi đêm thủ công."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["secure", "imprison"],
+      "antonyms": ["release"],
+      "collocations": ["lock up the house", "lock up the prisoner", "lock-up store"],
+      "mnemonic_vi": "LOCK (khóa) + UP (lên) = khóa lên. Lock-up = khóa lại HOẶC nhốt."
+    },
+    {
+      "word": "lie-down",
+      "lemma": "lie down",
+      "ipa": "/ˌlaɪ ˈdaʊn/",
+      "pos": "verb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "to rest in a horizontal position, usually on a bed or sofa",
+          "meaning_vi": "nằm xuống (nghỉ ở tư thế nằm ngang, thường trên giường/sofa)",
+          "examples": [
+            { "en": "I need to lie down for a while.", "vi": "Tôi cần lie-down một chút." },
+            {
+              "en": "Lie down on your back for the exam.",
+              "vi": "Lie-down ngửa lưng cho bài khám."
+            },
+            {
+              "en": "Vietnamese seniors lie down on cool tile floors during summer.",
+              "vi": "Người già Việt lie-down trên nền gạch mát vào hè."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recline", "rest"],
+      "antonyms": ["stand up"],
+      "collocations": ["lie down for a nap", "go lie down", "lie down quickly"],
+      "mnemonic_vi": "LIE (nằm) + DOWN (xuống) = nằm xuống. Lie-down = nằm nghỉ."
+    },
+    {
+      "word": "lie-around",
+      "lemma": "lie around",
+      "ipa": "/ˌlaɪ əˈraʊnd/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "(of objects) to be left somewhere untidily; (of people) to relax doing nothing",
+          "meaning_vi": "vứt lung tung, nằm lười (đồ để bừa bộn; người nghỉ lười không làm gì)",
+          "examples": [
+            { "en": "Don't leave your books lying around.", "vi": "Đừng để sách lie-around." },
+            {
+              "en": "She lay around on Sunday watching Netflix.",
+              "vi": "Cô ấy lie-around chủ nhật xem Netflix."
+            },
+            {
+              "en": "Vietnamese teens lie around during the long Tết holidays.",
+              "vi": "Teen Việt lie-around trong kỳ nghỉ Tết dài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["loaf", "scatter"],
+      "antonyms": [],
+      "collocations": ["lie around the house", "books lying around", "just lie around"],
+      "mnemonic_vi": "LIE (nằm) + AROUND (vòng quanh) = nằm khắp. Lie-around = vứt bừa HOẶC nằm lười."
+    },
+    {
+      "word": "look-out-for",
+      "lemma": "look out for",
+      "ipa": "/ˌlʊk ˈaʊt fə(r)/",
+      "pos": "verb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "to actively watch for someone or something; to take care of someone's interests",
+          "meaning_vi": "để ý đến, chăm lo cho (chủ động chú ý; quan tâm lợi ích của ai)",
+          "examples": [
+            {
+              "en": "Look out for pickpockets in busy markets.",
+              "vi": "Look-out-for móc túi ở chợ đông."
+            },
+            {
+              "en": "Always look out for your younger siblings.",
+              "vi": "Luôn look-out-for em nhỏ."
+            },
+            {
+              "en": "Vietnamese mentors look out for promising young engineers.",
+              "vi": "Mentor Việt look-out-for kỹ sư trẻ triển vọng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["watch for", "protect"],
+      "antonyms": ["ignore"],
+      "collocations": [
+        "look out for scams",
+        "look out for each other",
+        "look out for opportunities"
+      ],
+      "mnemonic_vi": "LOOK + OUT + FOR = nhìn ra cho. Look-out-for = để ý, chăm lo cho ai/cái gì."
+    },
+    {
+      "word": "laugh-at",
+      "lemma": "laugh at",
+      "ipa": "/ˌlɑːf ˈæt/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to find someone or something funny in a friendly way; to mock or ridicule (negative)",
+          "meaning_vi": "cười (vì vui hoặc chế giễu) (thấy vui/chế nhạo ai)",
+          "examples": [
+            { "en": "We laughed at the silly cat video.", "vi": "Ta laugh-at video mèo ngớ ngẩn." },
+            {
+              "en": "Don't laugh at people who try and fail.",
+              "vi": "Đừng laugh-at người cố mà thất bại."
+            },
+            {
+              "en": "Vietnamese stand-up comedy lets audiences laugh at everyday absurdities.",
+              "vi": "Stand-up Việt cho khán giả laugh-at sự vô lý hằng ngày."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mock"],
+      "antonyms": ["respect"],
+      "collocations": ["laugh at a joke", "laugh at someone", "afraid to be laughed at"],
+      "mnemonic_vi": "LAUGH (cười) + AT (vào) = cười vào. Laugh-at = cười vì vui HOẶC chế giễu."
+    },
+    {
+      "word": "lead-to",
+      "lemma": "lead to",
+      "ipa": "/ˌliːd ˈtə/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to cause a result; to direct someone to a place",
+          "meaning_vi": "dẫn đến (gây kết quả; chỉ đường tới một nơi)",
+          "examples": [
+            {
+              "en": "Lack of sleep leads to poor health.",
+              "vi": "Thiếu ngủ lead-to sức khỏe kém."
+            },
+            { "en": "This path leads to the temple.", "vi": "Đường này lead-to ngôi đền." },
+            {
+              "en": "Studying abroad often leads to better career opportunities for Vietnamese students.",
+              "vi": "Du học thường lead-to cơ hội nghề tốt hơn cho học sinh Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cause", "result in"],
+      "antonyms": ["prevent"],
+      "collocations": ["lead to success", "lead to a discovery", "lead to nothing"],
+      "mnemonic_vi": "LEAD (dẫn) + TO (đến) = dẫn đến. Lead-to = gây ra, dẫn tới."
+    },
+    {
+      "word": "let-go",
+      "lemma": "let go",
+      "ipa": "/ˌlet ˈɡəʊ/",
+      "pos": "verb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "to release something from your grip; to fire someone from a job (euphemism); to stop dwelling on a feeling",
+          "meaning_vi": "thả ra, sa thải, buông bỏ (thả khỏi tay; cho thôi việc — uyển ngữ; ngừng vương vấn)",
+          "examples": [
+            { "en": "Let go of my hand!", "vi": "Let-go tay tôi!" },
+            {
+              "en": "The company had to let go of 100 employees.",
+              "vi": "Công ty phải let-go 100 nhân viên."
+            },
+            {
+              "en": "Vietnamese Buddhists practice letting go of attachments.",
+              "vi": "Phật tử Việt thực hành let-go chấp niệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["release", "fire"],
+      "antonyms": ["hold on"],
+      "collocations": ["let go of the past", "let go of an employee", "have to let go"],
+      "mnemonic_vi": "LET (cho) + GO (đi) = cho đi. Let-go = thả ra, buông bỏ, sa thải."
+    }
+  ]
+}
