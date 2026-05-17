@@ -489,6 +489,14 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P10c B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `2843b9e` → merge `fdb67e8`) — P10 15/25, token-efficient triage levers ON:
+    - `society-culture/social-movements` — civil-rights, abolition, march, boycott, demonstration, strike, picket, uprising, revolution, emancipation, segregation, solidarity, mobilize, whistleblower, dissent, nonviolence, rally, militant, collective-bargaining, unionize
+    - `daily-life/sustainable-living` — minimalism, decluttering, carbon-footprint, upcycle, secondhand, reusable, veganism, ethical-consumption, fast-fashion, slow-fashion, thrift, refill, capsule-wardrobe, meal-prep, staycation, carbon-neutral, locally-sourced, offset, conscious-consumer, low-waste
+    - `work-business/legal-business` — liability, breach, intellectual-property, patent, trademark, copyright, lawsuit, plaintiff, defendant, arbitration, mediation, tribunal, statute, clause, nondisclosure, compliance, due-diligence, indemnity, verdict, injunction
+    - `abstract-academic/research-methodology` — methodology, citation, literature-review, longitudinal-study, qualitative, quantitative, survey, focus-group, sample-size, causation, control-group, confounding, validity, reliability, ethics-board, cross-sectional, meta-analysis, ethnography, case-study, mixed-methods
+    - `entertainment/streaming-economy` — paywall, exclusive, freemium, microtransaction, ad-supported, cord-cutting, binge-watching, simulcast, on-demand, content-creator, monetization, watchlist, royalties, licensing, piracy, ad-blocker, creator-economy, platform-exclusive, engagement-rate, ad-revenue
+    - **Lever D (etymology selective)**: 49/100 cards bỏ etymology (heavy compound topics — sustainable-living 16, streaming-economy 12, plus civil-rights/strike/uprising/whistleblower/nonviolence từ social-movements). **Lever E (collocation triage 3-5)**: tier theo độ phổ thông. **Lever C SKIP** vẫn 5 lessons/batch.
+    - Heavy collision pivots round 1: dropped 9 social-movements words (reform/activism/grassroots/suffrage/inequality/equality/protest/discrimination/petition); 10 sustainable-living (vs nature-environment/sustainability); 2 legal-business (contract/jurisdiction); 8 research-methodology (hypothesis/peer-review/variable/etc); 5 streaming-economy (subscription/stream/algorithm/influencer/recommendation). Round 2 grep: ZERO collision. Zod schema green tất cả 5. IPA flags 85/100 (range P10b 83/100). Seed live: **pending user manual run** (target 152 lessons / 3040 cards).
   - [x] **P10b B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `0390931` → merge `7567909`) — P10 10/25, token-efficient triage levers ON:
     - `work-business/finance-advanced` — derivative, arbitrage, volatility, par-value, capital-gain, amortization, depreciation, fiscal, monetary, forex, commodity, securities, benchmark, index-fund, short-selling, margin (2-def), collateral, maturity, premium (2-def), spread
     - `abstract-academic/linguistics` — morphology, semantics, pragmatics, phoneme, syntax, lexicon, cognate, inflection, orthography, phonetic, allophone, morpheme, syllable, intonation, discourse, corpus, phonology, sociolinguistics, grapheme, philology
@@ -547,11 +555,11 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a/b done (10/25), TODO P10c-e
+- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a/b/c done (15/25), TODO P10d/e
 - [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 147/192 lessons (77%), 2940/3840 cards (77%), ~77% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 10/25 (B2 đang gen, levers D+E ON)**, next: P10c (5 lessons).
+**Progress**: 152/192 lessons (79%), 3040/3840 cards (79%), ~79% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 15/25 (B2 đang gen, levers D+E ON)**, next: P10d (5 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 

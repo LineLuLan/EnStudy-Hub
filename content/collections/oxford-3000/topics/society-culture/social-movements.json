@@ -1,0 +1,729 @@
+{
+  "slug": "social-movements",
+  "name": "Social Movements",
+  "description": "Phong trào xã hội B2 — civil-rights, boycott, solidarity, whistleblower và 20 thuật ngữ cho công dân tích cực.",
+  "order_index": 8,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "civil-rights",
+      "lemma": "civil-rights",
+      "ipa": "/ˌsɪvl ˈraɪts/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the rights of citizens to political and social freedom and equality, especially regarding race, gender, religion, and other identities",
+          "meaning_vi": "quyền dân sự (quyền tự do và bình đẳng chính trị/xã hội của công dân)",
+          "examples": [
+            {
+              "en": "The civil rights movement of the 1960s reshaped American law and culture.",
+              "vi": "Phong trào civil rights thập niên 1960 định hình lại luật pháp và văn hóa Mỹ."
+            },
+            {
+              "en": "Activists fight for the civil rights of marginalized groups every day.",
+              "vi": "Nhà hoạt động đấu tranh hằng ngày cho civil rights của các nhóm yếu thế."
+            },
+            {
+              "en": "Vietnamese activists have campaigned for the civil rights of ethnic minorities.",
+              "vi": "Các nhà hoạt động Việt vận động civil rights cho dân tộc thiểu số."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["citizen rights"],
+      "antonyms": ["oppression", "disenfranchisement"],
+      "collocations": [
+        "civil rights movement",
+        "civil rights leader",
+        "civil rights act",
+        "civil rights protest",
+        "civil rights violation"
+      ],
+      "mnemonic_vi": "CIVIL (công dân) + RIGHTS (quyền) = quyền công dân. Hai từ ghép — quyền của người dân."
+    },
+    {
+      "word": "abolition",
+      "lemma": "abolition",
+      "ipa": "/ˌæbəˈlɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the formal ending of a system, practice, or institution, especially slavery or the death penalty",
+          "meaning_vi": "sự bãi bỏ, hủy bỏ (đặc biệt chế độ nô lệ hoặc án tử hình)",
+          "examples": [
+            {
+              "en": "The abolition of slavery in the US came with the 13th Amendment in 1865.",
+              "vi": "Abolition chế độ nô lệ ở Mỹ đến cùng Tu chính án thứ 13 năm 1865."
+            },
+            {
+              "en": "Vietnam abolished the imperial examination system in 1919.",
+              "vi": "Việt Nam abolish chế độ khoa cử năm 1919."
+            },
+            {
+              "en": "Many countries are debating the abolition of the death penalty in the 21st century.",
+              "vi": "Nhiều nước đang tranh luận abolition án tử hình trong thế kỷ 21."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["elimination", "ending"],
+      "antonyms": ["preservation", "establishment"],
+      "collocations": [
+        "abolition of slavery",
+        "abolition movement",
+        "call for abolition",
+        "complete abolition",
+        "abolition of the death penalty"
+      ],
+      "etymology_hint": "From Latin 'abolere' (to destroy, do away with) — same root as 'abolish'.",
+      "mnemonic_vi": "AB (khỏi) + OLITION (xóa, abolere) = xóa đi. Abolition = bãi bỏ chính thức một hệ thống."
+    },
+    {
+      "word": "march",
+      "lemma": "march",
+      "ipa": "/mɑːtʃ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an organized walk by a large group of people from one place to another to express a political or social cause",
+          "meaning_vi": "cuộc tuần hành (đi bộ tập thể có tổ chức để biểu thị quan điểm chính trị/xã hội)",
+          "examples": [
+            {
+              "en": "The Selma to Montgomery march was a turning point in US civil rights history.",
+              "vi": "March từ Selma đến Montgomery là bước ngoặt trong lịch sử civil rights Mỹ."
+            },
+            {
+              "en": "Tens of thousands joined the climate march in Hanoi last year.",
+              "vi": "Hàng chục nghìn người tham gia march về khí hậu ở Hà Nội năm ngoái."
+            },
+            {
+              "en": "A peaceful march can put more pressure on leaders than violent protest.",
+              "vi": "Một cuộc march hòa bình có thể tạo áp lực hơn cả bạo lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["procession", "rally"],
+      "antonyms": [],
+      "collocations": [
+        "peace march",
+        "protest march",
+        "lead a march",
+        "join a march",
+        "civil rights march"
+      ],
+      "etymology_hint": "From Old French 'marcher' (to walk, tread) — military 'marching' came first, political marches followed.",
+      "mnemonic_vi": "MARCH = đi đều, hành quân. Cuộc tuần hành = nhóm người đi đều cùng nhau vì cause."
+    },
+    {
+      "word": "boycott",
+      "lemma": "boycott",
+      "ipa": "/ˈbɔɪkɒt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an organized refusal to buy, use, or engage with a product, service, or organization as a form of protest",
+          "meaning_vi": "tẩy chay (từ chối có tổ chức việc mua/dùng sản phẩm hoặc dịch vụ để phản đối)",
+          "examples": [
+            {
+              "en": "The Montgomery bus boycott lasted 381 days and ended segregated seating.",
+              "vi": "Boycott xe buýt Montgomery kéo dài 381 ngày và chấm dứt việc phân chia chỗ ngồi."
+            },
+            {
+              "en": "Consumers boycott brands that use sweatshop labor or harm the environment.",
+              "vi": "Người tiêu dùng boycott các thương hiệu dùng lao động bóc lột hoặc hại môi trường."
+            },
+            {
+              "en": "Vietnamese netizens boycott products from companies that disrespect local culture.",
+              "vi": "Cộng đồng mạng Việt boycott sản phẩm từ công ty thiếu tôn trọng văn hóa địa phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["embargo", "ban"],
+      "antonyms": ["patronize", "support"],
+      "collocations": [
+        "consumer boycott",
+        "lift the boycott",
+        "call for a boycott",
+        "economic boycott",
+        "boycott a brand"
+      ],
+      "etymology_hint": "From Captain Charles Boycott (1832-1897), an Irish land agent ostracized by tenants — his name became a verb.",
+      "mnemonic_vi": "BOYCOTT từ tên Đại úy Boycott bị dân Ireland tẩy chay (1880). Tên ông biến thành động từ luôn!"
+    },
+    {
+      "word": "demonstration",
+      "lemma": "demonstration",
+      "ipa": "/ˌdemənˈstreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a public gathering of people who express their views on a political or social issue, often by marching, chanting, or holding signs",
+          "meaning_vi": "cuộc biểu tình (tụ tập công khai để bày tỏ quan điểm chính trị/xã hội)",
+          "examples": [
+            {
+              "en": "Thousands attended the demonstration against the new education law.",
+              "vi": "Hàng nghìn người dự demonstration phản đối luật giáo dục mới."
+            },
+            {
+              "en": "Police monitored the peaceful demonstration in the city center.",
+              "vi": "Cảnh sát giám sát demonstration ôn hòa ở trung tâm thành phố."
+            },
+            {
+              "en": "Saigon's demonstrations during the Vietnam War shaped global anti-war sentiment.",
+              "vi": "Các cuộc demonstration ở Sài Gòn thời chiến tranh Việt Nam định hình tinh thần phản chiến toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["protest", "rally"],
+      "antonyms": [],
+      "collocations": [
+        "peaceful demonstration",
+        "mass demonstration",
+        "anti-war demonstration",
+        "stage a demonstration"
+      ],
+      "etymology_hint": "From Latin 'demonstrare' (to show, point out) — 'showing' grievances publicly.",
+      "mnemonic_vi": "DE + MONSTRA (chỉ, show, monstrare) + TION = chỉ cho thấy. Demonstration = biểu lộ công khai."
+    },
+    {
+      "word": "strike",
+      "lemma": "strike",
+      "ipa": "/straɪk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an organized work stoppage by employees to protest working conditions, wages, or company policies",
+          "meaning_vi": "đình công (ngừng làm việc tập thể để phản đối điều kiện làm việc, lương hoặc chính sách công ty)",
+          "examples": [
+            {
+              "en": "Vietnamese factory workers held a strike over unpaid overtime in 2023.",
+              "vi": "Công nhân nhà máy Việt tổ chức strike vì tiền tăng ca chưa trả năm 2023."
+            },
+            {
+              "en": "The teachers' strike forced schools to close for two weeks.",
+              "vi": "Strike của giáo viên buộc trường học đóng cửa hai tuần."
+            },
+            {
+              "en": "A hunger strike is a non-violent tactic sometimes used by political prisoners.",
+              "vi": "Strike tuyệt thực là chiến thuật phi bạo lực mà tù nhân chính trị đôi khi dùng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["walkout", "work stoppage"],
+      "antonyms": ["work", "operation"],
+      "collocations": [
+        "go on strike",
+        "hunger strike",
+        "general strike",
+        "wildcat strike",
+        "strike action"
+      ],
+      "mnemonic_vi": "STRIKE (đánh, ngừng đánh) = ngừng làm việc tập thể. 'Đình công' = công nhân đình công cụ."
+    },
+    {
+      "word": "picket",
+      "lemma": "picket",
+      "ipa": "/ˈpɪkɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person or group standing outside a workplace or building to protest, often during a strike",
+          "meaning_vi": "người căng biểu ngữ phản đối (đứng bên ngoài nơi đình công để cản hoặc phản đối)",
+          "examples": [
+            {
+              "en": "Workers formed a picket outside the factory gate at 6 AM.",
+              "vi": "Công nhân lập picket ngoài cổng nhà máy lúc 6 giờ sáng."
+            },
+            {
+              "en": "Crossing the picket line is considered a betrayal by union members.",
+              "vi": "Vượt qua picket line bị coi là phản bội bởi thành viên công đoàn."
+            },
+            {
+              "en": "Pickets carry signs and chant slogans to draw media attention.",
+              "vi": "Các picket cầm biểu ngữ và hô khẩu hiệu để thu hút truyền thông."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["protester", "demonstrator"],
+      "antonyms": [],
+      "collocations": ["picket line", "picket sign", "form a picket"],
+      "etymology_hint": "From French 'piquet' (pointed stake) — pickets were originally stakes driven into ground to mark boundary.",
+      "mnemonic_vi": "PICKET = cọc nhọn. Nhóm 'cọc' người đứng cản. Hình ảnh: vài người đứng như cọc canh gác."
+    },
+    {
+      "word": "uprising",
+      "lemma": "uprising",
+      "ipa": "/ˈʌpraɪzɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an act of organized resistance or rebellion against a government, authority, or social order",
+          "meaning_vi": "cuộc nổi dậy (kháng cự có tổ chức chống chính quyền hoặc trật tự xã hội)",
+          "examples": [
+            {
+              "en": "The 1956 Hungarian uprising was crushed by Soviet tanks within weeks.",
+              "vi": "Cuộc uprising Hungary 1956 bị xe tăng Liên Xô đè bẹp trong vài tuần."
+            },
+            {
+              "en": "Many modern uprisings begin online before they spread to the streets.",
+              "vi": "Nhiều cuộc uprising hiện đại bắt đầu trên mạng trước khi lan ra đường phố."
+            },
+            {
+              "en": "Vietnam has a long history of peasant uprisings against feudal rulers.",
+              "vi": "Việt Nam có lịch sử dài về uprising nông dân chống lại tầng lớp phong kiến."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["rebellion", "revolt"],
+      "antonyms": ["submission"],
+      "collocations": [
+        "popular uprising",
+        "armed uprising",
+        "crush an uprising",
+        "lead an uprising"
+      ],
+      "mnemonic_vi": "UP (lên) + RISING (đứng dậy) = đứng dậy chống. Uprising = nổi dậy. 'Đứng lên' nghĩa đen!"
+    },
+    {
+      "word": "revolution",
+      "lemma": "revolution",
+      "ipa": "/ˌrevəˈluːʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a forcible overthrow of a government or social order, often replacing it with a new system",
+          "meaning_vi": "cuộc cách mạng (lật đổ một chính quyền hoặc trật tự xã hội, thường thay bằng hệ thống mới)",
+          "examples": [
+            {
+              "en": "The August Revolution of 1945 founded the Democratic Republic of Vietnam.",
+              "vi": "Cách mạng Tháng Tám 1945 thành lập Việt Nam Dân chủ Cộng hòa."
+            },
+            {
+              "en": "The French Revolution introduced the concepts of liberty, equality, and fraternity.",
+              "vi": "Cách mạng Pháp đưa ra các khái niệm tự do, bình đẳng, bác ái."
+            },
+            {
+              "en": "The digital revolution has transformed nearly every industry on Earth.",
+              "vi": "Revolution kỹ thuật số đã biến đổi hầu hết mọi ngành nghề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["uprising", "rebellion"],
+      "antonyms": ["status quo"],
+      "collocations": [
+        "industrial revolution",
+        "digital revolution",
+        "violent revolution",
+        "lead a revolution",
+        "revolution and reform"
+      ],
+      "etymology_hint": "From Latin 'revolvere' (to turn back, revolve) — political 'turning' of society into a new form.",
+      "mnemonic_vi": "RE (lại) + VOLU (cuộn, như 'revolve') + TION = cuộn lại trật tự. Revolution = đảo chiều xã hội."
+    },
+    {
+      "word": "emancipation",
+      "lemma": "emancipation",
+      "ipa": "/ɪˌmænsɪˈpeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of being set free from legal, social, or political restrictions, especially slavery or oppression",
+          "meaning_vi": "sự giải phóng (khỏi nô lệ hoặc các ràng buộc pháp lý/xã hội)",
+          "examples": [
+            {
+              "en": "Lincoln's Emancipation Proclamation freed slaves in Confederate states in 1863.",
+              "vi": "Tuyên ngôn Emancipation của Lincoln giải phóng nô lệ ở các bang ly khai năm 1863."
+            },
+            {
+              "en": "Women's emancipation was a major political struggle throughout the 20th century.",
+              "vi": "Emancipation phụ nữ là cuộc đấu tranh chính trị lớn suốt thế kỷ 20."
+            },
+            {
+              "en": "Vietnam's emancipation from French colonial rule took decades of struggle.",
+              "vi": "Emancipation của Việt Nam khỏi thực dân Pháp đòi hỏi nhiều thập kỷ đấu tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["liberation", "freedom"],
+      "antonyms": ["enslavement", "oppression"],
+      "collocations": [
+        "emancipation proclamation",
+        "women's emancipation",
+        "political emancipation"
+      ],
+      "etymology_hint": "From Latin 'ex' (out of) + 'mancipium' (ownership, slave-holding) — literally 'out from being owned'.",
+      "mnemonic_vi": "E (ra) + MANCIP (nắm giữ, ownership) + ATION = thoát khỏi sở hữu. Emancipation = giải phóng."
+    },
+    {
+      "word": "segregation",
+      "lemma": "segregation",
+      "ipa": "/ˌseɡrɪˈɡeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the enforced separation of different racial, ethnic, or social groups, often by law or social custom",
+          "meaning_vi": "sự phân biệt, cách ly (tách các nhóm chủng tộc/sắc tộc bằng luật pháp hoặc tập quán)",
+          "examples": [
+            {
+              "en": "Racial segregation was legally enforced in the American South until the 1960s.",
+              "vi": "Segregation chủng tộc bị luật buộc ở miền Nam Mỹ đến thập niên 1960."
+            },
+            {
+              "en": "Schools in apartheid South Africa practiced strict segregation by race.",
+              "vi": "Trường học ở Nam Phi thời apartheid thực hành segregation chủng tộc nghiêm ngặt."
+            },
+            {
+              "en": "Modern cities sometimes show economic segregation between rich and poor neighborhoods.",
+              "vi": "Các thành phố hiện đại đôi khi cho thấy segregation kinh tế giữa khu giàu và nghèo."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["separation", "apartheid"],
+      "antonyms": ["integration"],
+      "collocations": [
+        "racial segregation",
+        "school segregation",
+        "enforced segregation",
+        "end segregation"
+      ],
+      "etymology_hint": "From Latin 'segregare' (to set apart from the flock) — 'se-' (apart) + 'grex' (flock, herd).",
+      "mnemonic_vi": "SE (riêng) + GREG (đàn, như 'gregarious') + ATION = tách khỏi đàn. Segregation = tách nhóm."
+    },
+    {
+      "word": "solidarity",
+      "lemma": "solidarity",
+      "ipa": "/ˌsɒlɪˈdærəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "unity and mutual support among members of a group, especially in pursuit of a common political or social cause",
+          "meaning_vi": "tinh thần đoàn kết (sự ủng hộ lẫn nhau trong nhóm vì mục tiêu chung)",
+          "examples": [
+            {
+              "en": "Solidarity among workers is the foundation of every successful labor union.",
+              "vi": "Solidarity giữa công nhân là nền tảng của mọi công đoàn thành công."
+            },
+            {
+              "en": "Vietnam expressed solidarity with developing nations at the latest climate summit.",
+              "vi": "Việt Nam thể hiện solidarity với các nước đang phát triển tại hội nghị khí hậu gần nhất."
+            },
+            {
+              "en": "We stand in solidarity with refugees fleeing war and persecution worldwide.",
+              "vi": "Chúng tôi đứng solidarity với người tị nạn chạy trốn chiến tranh và đàn áp trên toàn thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["unity", "togetherness"],
+      "antonyms": ["division", "discord"],
+      "collocations": [
+        "express solidarity",
+        "stand in solidarity",
+        "international solidarity",
+        "solidarity movement",
+        "show solidarity with"
+      ],
+      "etymology_hint": "From Latin 'solidus' (firm, whole) via French 'solidarité' — 'firmness together'.",
+      "mnemonic_vi": "SOLID (chắc) + ARITY = sự chắc chắn cùng nhau. Đoàn kết = đứng 'solid' (chắc) cùng nhau."
+    },
+    {
+      "word": "mobilize",
+      "lemma": "mobilize",
+      "ipa": "/ˈməʊbəlaɪz/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to organize people, resources, or efforts to take action, especially for a political, social, or military purpose",
+          "meaning_vi": "huy động, vận động (tổ chức người hoặc nguồn lực để hành động vì mục tiêu)",
+          "examples": [
+            {
+              "en": "Social media has made it easier to mobilize protesters within just a few hours.",
+              "vi": "Mạng xã hội giúp dễ mobilize người biểu tình chỉ trong vài giờ."
+            },
+            {
+              "en": "The party mobilized millions of voters during the recent election campaign.",
+              "vi": "Đảng đã mobilize hàng triệu cử tri trong chiến dịch bầu cử gần đây."
+            },
+            {
+              "en": "Vietnam mobilized international aid quickly after the 2020 floods in central provinces.",
+              "vi": "Việt Nam mobilize viện trợ quốc tế nhanh chóng sau lũ lụt 2020 ở miền Trung."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organize", "rally"],
+      "antonyms": ["demobilize", "disband"],
+      "collocations": [
+        "mobilize supporters",
+        "mobilize troops",
+        "mobilize resources",
+        "mobilize public opinion",
+        "fully mobilize"
+      ],
+      "etymology_hint": "From French 'mobile' (movable) + '-ize' — making people 'movable' for action.",
+      "mnemonic_vi": "MOBILE (di động) + IZE = làm cho di động. Mobilize = huy động (cho người di chuyển vì cause)."
+    },
+    {
+      "word": "whistleblower",
+      "lemma": "whistleblower",
+      "ipa": "/ˈwɪslˌbləʊə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who exposes wrongdoing, fraud, or unethical activity within an organization, often to the public or authorities",
+          "meaning_vi": "người tố giác (vạch trần hành vi sai trái, gian lận trong một tổ chức)",
+          "examples": [
+            {
+              "en": "Edward Snowden became the most famous whistleblower of the digital age.",
+              "vi": "Edward Snowden trở thành whistleblower nổi tiếng nhất thời đại kỹ thuật số."
+            },
+            {
+              "en": "Whistleblower protection laws shield employees from retaliation by their employers.",
+              "vi": "Luật bảo vệ whistleblower che chở nhân viên khỏi sự trả đũa của chủ lao động."
+            },
+            {
+              "en": "A Vietnamese whistleblower exposed massive fraud at a state-owned bank in 2018.",
+              "vi": "Một whistleblower Việt vạch trần gian lận quy mô lớn ở ngân hàng nhà nước năm 2018."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["informant", "leaker"],
+      "antonyms": ["accomplice"],
+      "collocations": [
+        "whistleblower protection",
+        "anonymous whistleblower",
+        "corporate whistleblower",
+        "whistleblower hotline"
+      ],
+      "mnemonic_vi": "WHISTLE (huýt còi) + BLOWER (thổi) = người thổi còi báo động. Whistleblower = người báo còi."
+    },
+    {
+      "word": "dissent",
+      "lemma": "dissent",
+      "ipa": "/dɪˈsent/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "expressed disagreement with official, majority, or established views, policies, or decisions",
+          "meaning_vi": "sự bất đồng (bày tỏ không đồng ý với quan điểm chính thống hoặc đa số)",
+          "examples": [
+            {
+              "en": "Political dissent is suppressed in many authoritarian regimes around the world.",
+              "vi": "Dissent chính trị bị đàn áp ở nhiều chế độ độc tài trên thế giới."
+            },
+            {
+              "en": "Justice Ginsburg was famous for her sharp dissent opinions on the Supreme Court.",
+              "vi": "Thẩm phán Ginsburg nổi tiếng vì các ý kiến dissent sắc bén tại Tối cao Pháp viện."
+            },
+            {
+              "en": "Dissent should be welcomed in any healthy democracy, not punished.",
+              "vi": "Dissent nên được hoan nghênh trong mọi nền dân chủ lành mạnh, không trừng phạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["disagreement", "objection"],
+      "antonyms": ["consent", "agreement"],
+      "collocations": ["political dissent", "voice of dissent", "express dissent"],
+      "etymology_hint": "From Latin 'dis-' (apart) + 'sentire' (to feel) — feeling apart from the majority view.",
+      "mnemonic_vi": "DIS (khác) + SENT (cảm, sentire) = cảm khác. Dissent = bất đồng quan điểm."
+    },
+    {
+      "word": "nonviolence",
+      "lemma": "nonviolence",
+      "ipa": "/ˌnɒnˈvaɪələns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the philosophy and practice of using peaceful methods rather than force to bring about political or social change",
+          "meaning_vi": "bất bạo động (triết lý và thực hành dùng biện pháp hòa bình thay vì vũ lực)",
+          "examples": [
+            {
+              "en": "Gandhi's philosophy of nonviolence inspired civil rights leaders worldwide for decades.",
+              "vi": "Triết lý nonviolence của Gandhi truyền cảm hứng cho lãnh đạo civil rights toàn cầu nhiều thập kỷ."
+            },
+            {
+              "en": "Nonviolence is much harder to maintain than violent resistance when provoked.",
+              "vi": "Nonviolence khó giữ hơn nhiều so với kháng cự bạo lực khi bị khiêu khích."
+            },
+            {
+              "en": "Vietnam's Buddhist monks practiced nonviolence in opposition to the war.",
+              "vi": "Tăng ni Phật giáo Việt Nam thực hành nonviolence trong phản đối chiến tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pacifism", "peaceful resistance"],
+      "antonyms": ["violence"],
+      "collocations": ["philosophy of nonviolence", "civil nonviolence", "nonviolence movement"],
+      "mnemonic_vi": "NON (không) + VIOLENCE (bạo lực) = không bạo lực. Nonviolence = bất bạo động."
+    },
+    {
+      "word": "rally",
+      "lemma": "rally",
+      "ipa": "/ˈræli/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large public gathering held to support or oppose a cause, often featuring speeches and chants",
+          "meaning_vi": "cuộc tập hợp (tụ tập đông người để ủng hộ hoặc phản đối một mục tiêu)",
+          "examples": [
+            {
+              "en": "Thousands attended the rally for women's rights in central Hanoi last March.",
+              "vi": "Hàng nghìn người dự rally vì quyền phụ nữ ở trung tâm Hà Nội tháng Ba vừa qua."
+            },
+            {
+              "en": "Political rallies before an election can draw enormous crowds.",
+              "vi": "Các rally chính trị trước bầu cử có thể thu hút đám đông khổng lồ."
+            },
+            {
+              "en": "The peace rally featured speeches from former soldiers and victims of war.",
+              "vi": "Rally hòa bình có bài phát biểu của cựu chiến binh và nạn nhân chiến tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["gathering", "assembly"],
+      "antonyms": [],
+      "collocations": ["political rally", "campaign rally", "peace rally", "hold a rally"],
+      "etymology_hint": "From French 'rallier' (to reunite, regather) — bringing people back together.",
+      "mnemonic_vi": "RALLY = tập hợp lại. Từ Pháp 're-ally' (liên kết lại). Cuộc tập hợp ủng hộ một bên."
+    },
+    {
+      "word": "militant",
+      "lemma": "militant",
+      "ipa": "/ˈmɪlɪtənt/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "favoring confrontational or aggressive methods, especially in support of a political or social cause",
+          "meaning_vi": "đấu tranh quyết liệt (ủng hộ phương pháp đối đầu, cứng rắn)",
+          "examples": [
+            {
+              "en": "Militant environmentalists chained themselves to old-growth trees to stop logging.",
+              "vi": "Các nhà môi trường militant tự xích mình vào cây cổ thụ để ngăn chặt cây."
+            },
+            {
+              "en": "She took a militant stance against animal cruelty after volunteering at a shelter.",
+              "vi": "Cô ấy giữ lập trường militant chống ngược đãi động vật sau khi tình nguyện ở trại cứu hộ."
+            },
+            {
+              "en": "Militant labor unions have shaped Vietnamese factory worker rights since the 1990s.",
+              "vi": "Các công đoàn militant đã định hình quyền công nhân nhà máy Việt từ thập niên 1990."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["aggressive", "confrontational"],
+      "antonyms": ["moderate", "pacifist"],
+      "collocations": [
+        "militant activist",
+        "militant group",
+        "militant stance",
+        "militant tactics"
+      ],
+      "etymology_hint": "From Latin 'militare' (to serve as a soldier) — same root as 'military'.",
+      "mnemonic_vi": "MILITANT cùng họ với MILITARY (quân sự). Militant = cứng rắn như lính — đấu tranh quyết liệt."
+    },
+    {
+      "word": "collective-bargaining",
+      "lemma": "collective-bargaining",
+      "ipa": "/kəˌlektɪv ˈbɑːɡənɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of negotiation between employers and a group of employees, usually represented by a union, over wages, hours, and working conditions",
+          "meaning_vi": "thương lượng tập thể (đàm phán giữa nhà tuyển dụng và nhóm lao động qua công đoàn)",
+          "examples": [
+            {
+              "en": "Collective bargaining gives workers more leverage than individual negotiation with their boss.",
+              "vi": "Collective-bargaining cho công nhân đòn bẩy hơn đàm phán cá nhân với sếp."
+            },
+            {
+              "en": "Many Asian factories now have collective-bargaining agreements with worker representatives.",
+              "vi": "Nhiều nhà máy ở châu Á giờ có thỏa thuận collective-bargaining với đại diện công nhân."
+            },
+            {
+              "en": "The right to collective bargaining is protected in many international labor conventions.",
+              "vi": "Quyền collective-bargaining được bảo vệ trong nhiều công ước lao động quốc tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["union negotiation"],
+      "antonyms": ["individual negotiation"],
+      "collocations": [
+        "collective-bargaining agreement",
+        "right to collective bargaining",
+        "collective-bargaining unit"
+      ],
+      "mnemonic_vi": "COLLECTIVE (tập thể) + BARGAINING (mặc cả, đàm phán) = đàm phán tập thể. Ghép từ là rõ."
+    },
+    {
+      "word": "unionize",
+      "lemma": "unionize",
+      "ipa": "/ˈjuːniənaɪz/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to form a labor union or organize workers into a union to collectively represent their interests",
+          "meaning_vi": "tổ chức công đoàn (lập công đoàn hoặc kết nạp người vào công đoàn)",
+          "examples": [
+            {
+              "en": "Amazon workers in several US warehouses voted to unionize in 2022 and 2023.",
+              "vi": "Công nhân Amazon ở vài kho hàng Mỹ bỏ phiếu unionize năm 2022 và 2023."
+            },
+            {
+              "en": "Tech companies have historically resisted attempts to unionize their workforce.",
+              "vi": "Các công ty công nghệ trước nay chống lại nỗ lực unionize lực lượng lao động."
+            },
+            {
+              "en": "Vietnam's labor laws encourage workers to unionize, though political constraints exist.",
+              "vi": "Luật lao động Việt khuyến khích người lao động unionize, dù vẫn tồn tại ràng buộc chính trị."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["organize"],
+      "antonyms": ["decertify"],
+      "collocations": [
+        "unionize workers",
+        "right to unionize",
+        "vote to unionize",
+        "unionize a workplace"
+      ],
+      "etymology_hint": "From Latin 'unus' (one) + Greek '-ize' (to make) — to make many into one body.",
+      "mnemonic_vi": "UNION (đoàn) + IZE = thành đoàn. Unionize = tổ chức thành công đoàn."
+    }
+  ]
+}

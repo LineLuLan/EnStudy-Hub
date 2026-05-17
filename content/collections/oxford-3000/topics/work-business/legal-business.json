@@ -1,0 +1,733 @@
+{
+  "slug": "legal-business",
+  "name": "Legal & Business Law",
+  "description": "Pháp lý doanh nghiệp B2 — liability, breach, patent, lawsuit, arbitration và 20 thuật ngữ cho founder và nhà quản lý.",
+  "order_index": 19,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "liability",
+      "lemma": "liability",
+      "ipa": "/ˌlaɪəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the state of being legally responsible for something, especially for damages, debts, or losses",
+          "meaning_vi": "trách nhiệm pháp lý (nghĩa vụ phải chịu hậu quả pháp luật, đặc biệt cho thiệt hại/nợ)",
+          "examples": [
+            {
+              "en": "Limited liability companies protect owners from personal responsibility for company debts.",
+              "vi": "Công ty trách nhiệm hữu hạn (limited liability) bảo vệ chủ khỏi liability cá nhân cho nợ công ty."
+            },
+            {
+              "en": "Product liability laws hold manufacturers responsible for defective items.",
+              "vi": "Luật product liability buộc nhà sản xuất chịu trách nhiệm cho hàng lỗi."
+            },
+            {
+              "en": "Vietnamese startups often choose the LLC structure to limit personal liability.",
+              "vi": "Startup Việt thường chọn cấu trúc TNHH để giới hạn personal liability."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["legal responsibility", "obligation"],
+      "antonyms": ["immunity"],
+      "collocations": [
+        "limited liability",
+        "personal liability",
+        "product liability",
+        "accept liability",
+        "liability insurance"
+      ],
+      "etymology_hint": "From Latin 'ligare' (to bind) — being legally 'bound' to consequences.",
+      "mnemonic_vi": "LIA (buộc, từ ligare) + BILITY = sự bị buộc. Liability = bị ràng buộc pháp lý."
+    },
+    {
+      "word": "breach",
+      "lemma": "breach",
+      "ipa": "/briːtʃ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a violation or failure to fulfill the terms of a contract, law, or agreement",
+          "meaning_vi": "sự vi phạm (không thực hiện đúng điều khoản hợp đồng, luật, hoặc thỏa thuận)",
+          "examples": [
+            {
+              "en": "Late delivery without notice is a breach of the supply contract.",
+              "vi": "Giao hàng trễ không báo trước là breach hợp đồng cung ứng."
+            },
+            {
+              "en": "Data breaches at major companies have eroded consumer trust in the digital age.",
+              "vi": "Data breach ở các công ty lớn làm xói mòn niềm tin người dùng thời số."
+            },
+            {
+              "en": "Vietnamese courts increasingly enforce penalties for breach of confidentiality clauses.",
+              "vi": "Tòa án Việt ngày càng thực thi nghiêm phạt cho breach điều khoản bảo mật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["violation", "infringement"],
+      "antonyms": ["compliance", "observance"],
+      "collocations": [
+        "breach of contract",
+        "data breach",
+        "security breach",
+        "material breach",
+        "breach of trust"
+      ],
+      "mnemonic_vi": "BREACH = vết nứt (hình thực thể) → vi phạm = phá vỡ thỏa thuận. Nứt = vỡ = breach."
+    },
+    {
+      "word": "intellectual-property",
+      "lemma": "intellectual-property",
+      "ipa": "/ˌɪntəˌlektʃuəl ˈprɒpəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "creations of the mind such as inventions, designs, brands, and artistic works that are legally protected as the owner's property",
+          "meaning_vi": "tài sản trí tuệ (sáng tạo của trí óc như sáng chế, thiết kế, thương hiệu được pháp luật bảo hộ)",
+          "examples": [
+            {
+              "en": "Intellectual property includes patents, trademarks, copyrights, and trade secrets.",
+              "vi": "Intellectual-property bao gồm patent, trademark, copyright và bí mật thương mại."
+            },
+            {
+              "en": "Software companies invest heavily in protecting their intellectual property.",
+              "vi": "Các công ty phần mềm đầu tư mạnh vào bảo vệ intellectual-property."
+            },
+            {
+              "en": "Vietnam joined the WTO partly to strengthen its intellectual property protection framework.",
+              "vi": "Việt Nam gia nhập WTO một phần để củng cố khung bảo hộ intellectual-property."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["IP", "intangible assets"],
+      "antonyms": ["public domain"],
+      "collocations": [
+        "intellectual property rights",
+        "intellectual property law",
+        "protect intellectual property",
+        "intellectual property theft",
+        "intellectual property portfolio"
+      ],
+      "mnemonic_vi": "INTELLECTUAL (trí tuệ) + PROPERTY (tài sản) = tài sản trí tuệ. Ghép từ là rõ. IP = tắt cho gọn."
+    },
+    {
+      "word": "patent",
+      "lemma": "patent",
+      "ipa": "/ˈpætnt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an exclusive legal right granted to an inventor to make, use, or sell an invention for a set period, typically 20 years",
+          "meaning_vi": "bằng sáng chế (quyền độc quyền sản xuất/sử dụng/bán một sáng chế, thường 20 năm)",
+          "examples": [
+            {
+              "en": "Apple holds thousands of patents on iPhone design and technology.",
+              "vi": "Apple nắm hàng nghìn patent cho thiết kế và công nghệ iPhone."
+            },
+            {
+              "en": "Pharmaceutical patents allow companies to recoup R&D costs before generics appear.",
+              "vi": "Patent dược phẩm cho công ty thu hồi chi phí R&D trước khi thuốc generic xuất hiện."
+            },
+            {
+              "en": "Vietnamese inventors filed over 8,000 patent applications domestically in 2023.",
+              "vi": "Người Việt nộp hơn 8,000 đơn patent trong nước năm 2023."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["letters patent"],
+      "antonyms": ["public-domain invention"],
+      "collocations": [
+        "patent application",
+        "file a patent",
+        "patent infringement",
+        "patent holder",
+        "patent expires"
+      ],
+      "etymology_hint": "From Latin 'patere' (to lie open) — letters patent were 'open letters' from a monarch granting rights.",
+      "mnemonic_vi": "PATENT từ 'patere' (mở) — thư công khai vua ban quyền. Giờ = bằng sáng chế (công khai cho mọi người biết bạn sở hữu)."
+    },
+    {
+      "word": "trademark",
+      "lemma": "trademark",
+      "ipa": "/ˈtreɪdmɑːk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a legally registered word, phrase, symbol, or design that identifies and distinguishes a brand's goods or services from others",
+          "meaning_vi": "nhãn hiệu, thương hiệu đăng ký (từ, biểu tượng, thiết kế nhận diện hàng hóa/dịch vụ của một thương hiệu)",
+          "examples": [
+            {
+              "en": "Nike's swoosh logo is one of the most valuable trademarks in the world.",
+              "vi": "Logo swoosh của Nike là một trong những trademark giá trị nhất thế giới."
+            },
+            {
+              "en": "Filing a trademark takes 9-12 months in Vietnam through the IP Office.",
+              "vi": "Đăng ký trademark mất 9-12 tháng ở Việt Nam qua Cục Sở hữu Trí tuệ."
+            },
+            {
+              "en": "Counterfeit goods that copy registered trademarks face heavy fines.",
+              "vi": "Hàng giả mạo sao chép trademark đã đăng ký bị phạt nặng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["brand mark", "service mark"],
+      "antonyms": [],
+      "collocations": [
+        "register a trademark",
+        "trademark infringement",
+        "trademark application",
+        "registered trademark"
+      ],
+      "mnemonic_vi": "TRADE (thương mại) + MARK (dấu) = dấu thương mại. Trademark = nhãn hiệu thương mại đăng ký."
+    },
+    {
+      "word": "copyright",
+      "lemma": "copyright",
+      "ipa": "/ˈkɒpiraɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the exclusive legal right of an author or creator to reproduce, distribute, perform, or display an original work",
+          "meaning_vi": "bản quyền (quyền độc quyền tác giả được sao chép, phân phối, biểu diễn tác phẩm gốc)",
+          "examples": [
+            {
+              "en": "Copyright protects books, music, films, and software for the creator's lifetime plus 50-70 years.",
+              "vi": "Copyright bảo vệ sách, nhạc, phim, phần mềm suốt đời tác giả cộng 50-70 năm."
+            },
+            {
+              "en": "Posting copyrighted music on YouTube without permission can result in takedown notices.",
+              "vi": "Đăng nhạc có copyright lên YouTube không xin phép có thể bị thông báo gỡ."
+            },
+            {
+              "en": "Vietnamese music platforms now pay copyright royalties to international labels.",
+              "vi": "Các nền tảng nhạc Việt giờ trả tiền copyright royalty cho hãng đĩa quốc tế."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["author rights"],
+      "antonyms": ["public domain"],
+      "collocations": [
+        "copyright infringement",
+        "copyright holder",
+        "copyright protection",
+        "copyright violation",
+        "fair use"
+      ],
+      "mnemonic_vi": "COPY (sao) + RIGHT (quyền) = quyền sao chép. Copyright = bản quyền. Ghép từ trực tiếp."
+    },
+    {
+      "word": "lawsuit",
+      "lemma": "lawsuit",
+      "ipa": "/ˈlɔːsuːt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a legal dispute brought before a court of law for resolution, in which one party sues another",
+          "meaning_vi": "vụ kiện (tranh chấp pháp lý đưa ra tòa, bên này kiện bên kia)",
+          "examples": [
+            {
+              "en": "Apple and Samsung fought patent lawsuits for years across many countries.",
+              "vi": "Apple và Samsung kiện nhau patent lawsuit suốt nhiều năm khắp các nước."
+            },
+            {
+              "en": "She filed a lawsuit against her former employer for unpaid wages.",
+              "vi": "Cô ấy nộp lawsuit kiện chủ cũ về tiền lương chưa trả."
+            },
+            {
+              "en": "Class-action lawsuits allow many plaintiffs to sue together over the same issue.",
+              "vi": "Class-action lawsuit cho nhiều plaintiff kiện chung cùng một vấn đề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["legal action", "litigation"],
+      "antonyms": ["settlement"],
+      "collocations": [
+        "file a lawsuit",
+        "class-action lawsuit",
+        "civil lawsuit",
+        "win a lawsuit",
+        "lawsuit against"
+      ],
+      "mnemonic_vi": "LAW (luật) + SUIT (theo đuổi, vụ việc) = vụ theo đuổi luật pháp. Lawsuit = vụ kiện ra tòa."
+    },
+    {
+      "word": "plaintiff",
+      "lemma": "plaintiff",
+      "ipa": "/ˈpleɪntɪf/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the person or party who brings a legal case against another in a court of law",
+          "meaning_vi": "nguyên đơn (người/bên khởi kiện tại tòa)",
+          "examples": [
+            {
+              "en": "The plaintiff must prove their case by a preponderance of evidence in civil court.",
+              "vi": "Plaintiff phải chứng minh vụ kiện bằng đa số bằng chứng ở tòa dân sự."
+            },
+            {
+              "en": "Plaintiffs in class-action suits sometimes number in the millions.",
+              "vi": "Plaintiff trong class-action có khi lên đến hàng triệu người."
+            },
+            {
+              "en": "The Vietnamese plaintiff sued a tech giant over data misuse.",
+              "vi": "Plaintiff người Việt kiện một ông lớn công nghệ về việc lạm dụng dữ liệu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["complainant", "claimant"],
+      "antonyms": ["defendant"],
+      "collocations": ["lead plaintiff", "plaintiff and defendant", "represent the plaintiff"],
+      "etymology_hint": "From Old French 'plaintif' (lamenting) from Latin 'plangere' (to lament, beat the breast).",
+      "mnemonic_vi": "PLAINT (kêu, than, từ 'complain') + IFF = người than. Plaintiff = người 'than' ra tòa = nguyên đơn."
+    },
+    {
+      "word": "defendant",
+      "lemma": "defendant",
+      "ipa": "/dɪˈfendənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the person or party against whom a legal action or claim is brought in court",
+          "meaning_vi": "bị đơn (người/bên bị khởi kiện hoặc bị buộc tội)",
+          "examples": [
+            {
+              "en": "The defendant has the right to a fair trial and legal representation.",
+              "vi": "Defendant có quyền được xét xử công bằng và có người đại diện pháp lý."
+            },
+            {
+              "en": "In criminal cases, the defendant is presumed innocent until proven guilty.",
+              "vi": "Trong vụ hình sự, defendant được coi vô tội cho đến khi chứng minh có tội."
+            },
+            {
+              "en": "Corporate defendants often hire teams of expensive lawyers in big lawsuits.",
+              "vi": "Defendant doanh nghiệp thường thuê đội luật sư đắt tiền trong các lawsuit lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["accused", "respondent"],
+      "antonyms": ["plaintiff"],
+      "collocations": [
+        "criminal defendant",
+        "defendant's lawyer",
+        "name the defendant",
+        "defendant's rights"
+      ],
+      "etymology_hint": "From Latin 'defendere' (to ward off, defend) — the one who must 'defend' against accusation.",
+      "mnemonic_vi": "DEFEND (bảo vệ) + ANT (người) = người phải bảo vệ mình. Defendant = bị đơn."
+    },
+    {
+      "word": "arbitration",
+      "lemma": "arbitration",
+      "ipa": "/ˌɑːbɪˈtreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a method of resolving disputes outside of court by referring them to one or more neutral arbitrators whose decision is binding",
+          "meaning_vi": "trọng tài (giải quyết tranh chấp ngoài tòa qua trọng tài viên trung lập, phán quyết có hiệu lực)",
+          "examples": [
+            {
+              "en": "International business contracts often specify arbitration in Singapore or Hong Kong.",
+              "vi": "Hợp đồng kinh doanh quốc tế thường chỉ định arbitration ở Singapore hoặc Hồng Kông."
+            },
+            {
+              "en": "Arbitration is faster and more private than going through public courts.",
+              "vi": "Arbitration nhanh hơn và riêng tư hơn so với qua tòa công khai."
+            },
+            {
+              "en": "Vietnam International Arbitration Centre handles thousands of commercial disputes annually.",
+              "vi": "Trung tâm Arbitration Quốc tế Việt Nam xử lý hàng nghìn tranh chấp thương mại hằng năm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["mediation (loose)", "alternative dispute resolution"],
+      "antonyms": ["litigation"],
+      "collocations": [
+        "binding arbitration",
+        "international arbitration",
+        "arbitration clause",
+        "arbitration agreement"
+      ],
+      "etymology_hint": "From Latin 'arbitrari' (to judge) — same root as 'arbitrate' and 'arbitrary'.",
+      "mnemonic_vi": "ARBIT (phán xét, judge) + RATION = phán xét. Arbitration = trọng tài phân xử ngoài tòa."
+    },
+    {
+      "word": "mediation",
+      "lemma": "mediation",
+      "ipa": "/ˌmiːdiˈeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a method of resolving disputes in which a neutral third party helps the disputing sides reach a voluntary agreement, without imposing a binding decision",
+          "meaning_vi": "hòa giải (bên thứ ba trung lập giúp các bên đạt thỏa thuận tự nguyện, không bắt buộc)",
+          "examples": [
+            {
+              "en": "Divorce mediation is often cheaper and less hostile than going to court.",
+              "vi": "Mediation ly hôn thường rẻ hơn và ít thù địch hơn ra tòa."
+            },
+            {
+              "en": "Workplace conflicts can sometimes be solved through HR-led mediation.",
+              "vi": "Xung đột công sở đôi khi giải quyết được qua mediation do HR dẫn dắt."
+            },
+            {
+              "en": "Mediation succeeds when both sides genuinely want to resolve the issue.",
+              "vi": "Mediation thành công khi cả hai bên thực sự muốn giải quyết vấn đề."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["conciliation", "mediation"],
+      "antonyms": ["litigation"],
+      "collocations": ["voluntary mediation", "mediation process", "court-ordered mediation"],
+      "etymology_hint": "From Latin 'mediare' (to be in the middle) — the mediator stands 'in the middle' of the dispute.",
+      "mnemonic_vi": "MEDIA (giữa, middle) + TION = đứng giữa. Mediation = hòa giải, đứng giữa hai bên."
+    },
+    {
+      "word": "tribunal",
+      "lemma": "tribunal",
+      "ipa": "/traɪˈbjuːnl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a body, similar to a court of law, that is authorized to make legally binding decisions on specific types of disputes",
+          "meaning_vi": "tòa phán quyết, ban xét xử (cơ quan giống tòa án có thẩm quyền phán quyết các tranh chấp cụ thể)",
+          "examples": [
+            {
+              "en": "An employment tribunal heard her unfair dismissal case last spring.",
+              "vi": "Một tribunal lao động xử vụ sa thải bất công của cô ấy mùa xuân vừa rồi."
+            },
+            {
+              "en": "The International Criminal Tribunal for Rwanda was established in 1994.",
+              "vi": "Tribunal Hình sự Quốc tế cho Rwanda được lập năm 1994."
+            },
+            {
+              "en": "Vietnam's commercial tribunals handle business disputes faster than regular courts.",
+              "vi": "Các tribunal thương mại Việt xử tranh chấp doanh nghiệp nhanh hơn tòa thường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["court", "panel"],
+      "antonyms": [],
+      "collocations": ["employment tribunal", "international tribunal", "war crimes tribunal"],
+      "etymology_hint": "From Latin 'tribunus' (chief, leader of a tribe) — originally a raised platform where Roman tribunes sat.",
+      "mnemonic_vi": "TRIBUN (đại diện bộ tộc La Mã) + AL = nơi xét xử có tribune ngồi. Tribunal = ban xét xử."
+    },
+    {
+      "word": "statute",
+      "lemma": "statute",
+      "ipa": "/ˈstætʃuːt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a written law passed by a legislative body, distinct from common law or judicial decisions",
+          "meaning_vi": "đạo luật, luật thành văn (luật do cơ quan lập pháp ban hành, khác với án lệ)",
+          "examples": [
+            {
+              "en": "The statute of limitations gives victims a specific time window to file a lawsuit.",
+              "vi": "Statute of limitations cho nạn nhân khoảng thời gian cụ thể để nộp lawsuit."
+            },
+            {
+              "en": "Most modern statutes are too long for ordinary citizens to read in full.",
+              "vi": "Đa số statute hiện đại quá dài để dân thường đọc hết."
+            },
+            {
+              "en": "Vietnam's labor statute was updated significantly in 2019.",
+              "vi": "Statute lao động của Việt Nam được cập nhật đáng kể năm 2019."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["law", "legislation"],
+      "antonyms": ["common law"],
+      "collocations": [
+        "statute of limitations",
+        "federal statute",
+        "labor statute",
+        "criminal statute"
+      ],
+      "etymology_hint": "From Latin 'statutum' (something set up, decreed) from 'statuere' (to set up).",
+      "mnemonic_vi": "STATUT (lập, set up) + E = thứ được lập (luật). Statute = đạo luật chính thức."
+    },
+    {
+      "word": "clause",
+      "lemma": "clause",
+      "ipa": "/klɔːz/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a particular section or provision in a legal document, contract, or statute that addresses a specific subject",
+          "meaning_vi": "điều khoản (phần cụ thể trong văn bản pháp lý/hợp đồng nêu một vấn đề riêng)",
+          "examples": [
+            {
+              "en": "The non-compete clause prevents her from joining a rival firm for two years.",
+              "vi": "Clause non-compete ngăn cô ấy gia nhập đối thủ trong hai năm."
+            },
+            {
+              "en": "Always read the termination clause carefully before signing any employment contract.",
+              "vi": "Luôn đọc kỹ clause chấm dứt trước khi ký bất kỳ hợp đồng lao động."
+            },
+            {
+              "en": "Vietnamese rental agreements often include a clause about property maintenance.",
+              "vi": "Hợp đồng thuê nhà Việt thường có clause về bảo trì bất động sản."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["provision", "article"],
+      "antonyms": [],
+      "collocations": [
+        "non-compete clause",
+        "confidentiality clause",
+        "termination clause",
+        "penalty clause",
+        "force majeure clause"
+      ],
+      "etymology_hint": "From Latin 'claudere' (to close, conclude) — a clause 'closes' off a discrete idea.",
+      "mnemonic_vi": "CLAUSE từ 'claudere' (đóng) — đóng gọn một ý. Clause = điều khoản trong hợp đồng."
+    },
+    {
+      "word": "nondisclosure",
+      "lemma": "nondisclosure",
+      "ipa": "/ˌnɒndɪˈskləʊʒə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the agreement or obligation not to reveal confidential information, often formalized as an NDA between parties",
+          "meaning_vi": "thỏa thuận không tiết lộ (NDA, cam kết giữ bí mật thông tin)",
+          "examples": [
+            {
+              "en": "Job candidates often sign a nondisclosure before viewing sensitive product plans.",
+              "vi": "Ứng viên thường ký nondisclosure trước khi xem kế hoạch sản phẩm nhạy cảm."
+            },
+            {
+              "en": "Nondisclosure agreements protect trade secrets and unreleased technology.",
+              "vi": "Nondisclosure agreement bảo vệ bí mật thương mại và công nghệ chưa ra mắt."
+            },
+            {
+              "en": "Some courts refuse to enforce nondisclosure clauses that hide harassment claims.",
+              "vi": "Một số tòa từ chối thực thi nondisclosure clause che giấu cáo buộc quấy rối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["NDA", "confidentiality agreement"],
+      "antonyms": ["disclosure"],
+      "collocations": ["nondisclosure agreement", "sign a nondisclosure", "break a nondisclosure"],
+      "mnemonic_vi": "NON (không) + DISCLOSURE (tiết lộ) = không tiết lộ. Nondisclosure = thỏa thuận giữ bí mật."
+    },
+    {
+      "word": "compliance",
+      "lemma": "compliance",
+      "ipa": "/kəmˈplaɪəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of conforming to rules, laws, regulations, or standards set by authorities or industries",
+          "meaning_vi": "sự tuân thủ (làm đúng theo quy tắc, luật, chuẩn mực do cơ quan/ngành đặt ra)",
+          "examples": [
+            {
+              "en": "Banks have huge compliance teams to meet anti-money-laundering regulations.",
+              "vi": "Ngân hàng có đội compliance lớn để đáp ứng quy định chống rửa tiền."
+            },
+            {
+              "en": "GDPR compliance is mandatory for any company handling European user data.",
+              "vi": "Compliance GDPR là bắt buộc với mọi công ty xử lý dữ liệu người Âu."
+            },
+            {
+              "en": "Vietnamese export factories must demonstrate compliance with EU labor standards.",
+              "vi": "Nhà máy xuất khẩu Việt phải chứng minh compliance với chuẩn lao động EU."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["adherence", "conformity"],
+      "antonyms": ["noncompliance", "violation"],
+      "collocations": [
+        "compliance officer",
+        "regulatory compliance",
+        "in full compliance",
+        "compliance team",
+        "tax compliance"
+      ],
+      "etymology_hint": "From Latin 'complere' (to fill up, complete) via 'comply' — fully completing one's obligations.",
+      "mnemonic_vi": "COMPLI (đầy đủ, complete) + ANCE = đầy đủ. Compliance = làm đầy đủ theo luật = tuân thủ."
+    },
+    {
+      "word": "due-diligence",
+      "lemma": "due-diligence",
+      "ipa": "/ˌdjuː ˈdɪlɪdʒəns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the careful investigation and review of a business, person, or transaction before making a major decision, especially in finance or M&A",
+          "meaning_vi": "thẩm định kỹ lưỡng (kiểm tra cẩn thận trước khi đưa ra quyết định lớn, đặc biệt trong M&A)",
+          "examples": [
+            {
+              "en": "Acquirers conduct months of due diligence before closing a major deal.",
+              "vi": "Bên mua tiến hành due-diligence nhiều tháng trước khi chốt thương vụ lớn."
+            },
+            {
+              "en": "Skipping due diligence on a real estate purchase is a costly mistake.",
+              "vi": "Bỏ qua due-diligence khi mua bất động sản là sai lầm đắt giá."
+            },
+            {
+              "en": "Vietnamese investors increasingly perform thorough due diligence on overseas startups.",
+              "vi": "Nhà đầu tư Việt ngày càng thực hiện due-diligence kỹ lưỡng cho startup nước ngoài."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["thorough investigation"],
+      "antonyms": [],
+      "collocations": [
+        "perform due diligence",
+        "financial due diligence",
+        "legal due diligence",
+        "due-diligence report"
+      ],
+      "etymology_hint": "From Latin 'diligentia' (carefulness) — 'due' care that is owed before action.",
+      "mnemonic_vi": "DUE (đáng ra phải) + DILIGENCE (cần mẫn) = sự cần mẫn đáng có. Due-diligence = thẩm định kỹ trước khi quyết."
+    },
+    {
+      "word": "indemnity",
+      "lemma": "indemnity",
+      "ipa": "/ɪnˈdemnəti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a contractual or legal obligation to compensate another party for loss, damage, or harm they have suffered",
+          "meaning_vi": "khoản bồi thường (cam kết bồi hoàn thiệt hại cho bên kia trong hợp đồng/pháp lý)",
+          "examples": [
+            {
+              "en": "The contract includes an indemnity clause protecting the buyer from past tax issues.",
+              "vi": "Hợp đồng có clause indemnity bảo vệ bên mua khỏi vấn đề thuế cũ."
+            },
+            {
+              "en": "Doctors carry professional indemnity insurance against malpractice claims.",
+              "vi": "Bác sĩ có bảo hiểm indemnity nghề nghiệp chống lại cáo buộc sai sót."
+            },
+            {
+              "en": "An indemnity payment can settle a dispute without admitting fault.",
+              "vi": "Khoản indemnity có thể dàn xếp tranh chấp mà không thừa nhận lỗi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compensation", "reimbursement"],
+      "antonyms": [],
+      "collocations": [
+        "indemnity clause",
+        "professional indemnity",
+        "indemnity insurance",
+        "pay indemnity"
+      ],
+      "etymology_hint": "From Latin 'indemnis' (unharmed) — keeping the other party 'unharmed' financially.",
+      "mnemonic_vi": "IN (không) + DEMN (hại, như 'damage') + ITY = giữ không bị thiệt. Indemnity = bồi thường."
+    },
+    {
+      "word": "verdict",
+      "lemma": "verdict",
+      "ipa": "/ˈvɜːdɪkt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the formal decision or finding made by a jury or judge at the end of a trial regarding guilt, liability, or facts in dispute",
+          "meaning_vi": "phán quyết (quyết định chính thức của bồi thẩm/thẩm phán cuối phiên xử)",
+          "examples": [
+            {
+              "en": "The jury reached a unanimous verdict of not guilty after three days of deliberation.",
+              "vi": "Bồi thẩm đoàn đạt verdict không có tội đồng thuận sau ba ngày nghị án."
+            },
+            {
+              "en": "The verdict in the high-profile fraud case sent shockwaves through the industry.",
+              "vi": "Verdict trong vụ gian lận đình đám gây chấn động ngành."
+            },
+            {
+              "en": "An appeal can sometimes overturn a verdict on legal grounds.",
+              "vi": "Một đơn kháng cáo đôi khi có thể lật ngược verdict trên cơ sở pháp lý."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["judgment", "decision"],
+      "antonyms": ["acquittal (specific)", "mistrial"],
+      "collocations": [
+        "reach a verdict",
+        "unanimous verdict",
+        "guilty verdict",
+        "overturn a verdict",
+        "final verdict"
+      ],
+      "etymology_hint": "From Latin 'vere dictum' (truly said) — 'vere' (truly) + 'dictum' (said) — the truthful statement of judgment.",
+      "mnemonic_vi": "VER (thật, vere) + DICT (nói, dictum) = lời nói thật. Verdict = phán quyết = lời sự thật của tòa."
+    },
+    {
+      "word": "injunction",
+      "lemma": "injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a court order requiring a party to do a specific act or refrain from doing a specific act, used to prevent harm",
+          "meaning_vi": "lệnh tòa yêu cầu/cấm hành động (mệnh lệnh buộc phải làm hoặc không được làm việc gì)",
+          "examples": [
+            {
+              "en": "The judge issued an injunction blocking the demolition until the appeal is heard.",
+              "vi": "Thẩm phán ban injunction chặn việc phá dỡ cho đến khi kháng cáo được xét."
+            },
+            {
+              "en": "A temporary injunction can halt construction or business activity quickly.",
+              "vi": "Injunction tạm thời có thể dừng xây dựng hoặc hoạt động kinh doanh nhanh chóng."
+            },
+            {
+              "en": "Vietnamese courts rarely issue injunctions in commercial disputes compared to common-law countries.",
+              "vi": "Tòa án Việt hiếm khi ra injunction trong tranh chấp thương mại so với các nước common-law."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["court order", "restraining order"],
+      "antonyms": [],
+      "collocations": [
+        "court injunction",
+        "temporary injunction",
+        "permanent injunction",
+        "lift an injunction",
+        "issue an injunction"
+      ],
+      "etymology_hint": "From Latin 'injungere' (to join, impose) — 'in-' (on) + 'jungere' (to join) — imposed upon a party.",
+      "mnemonic_vi": "IN (vào) + JUNCTION (nối, junction) = áp đặt lên. Injunction = lệnh tòa áp đặt phải/cấm làm gì."
+    }
+  ]
+}
