@@ -1,0 +1,697 @@
+{
+  "slug": "migration-flows",
+  "name": "Migration Flows",
+  "description": "Dòng chảy di cư B2 — expatriate, remittance, brain-drain, naturalization và 20 thuật ngữ cho người làm chính sách dân cư.",
+  "order_index": 9,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "expatriate",
+      "lemma": "expatriate",
+      "ipa": "/eksˈpætriət/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who lives outside their native country, often for work, study, or lifestyle reasons, while keeping their original citizenship",
+          "meaning_vi": "kiều dân (người sống ngoài quê hương vì công việc, học hành, hoặc lối sống, vẫn giữ quốc tịch gốc)",
+          "examples": [
+            {
+              "en": "Many Western expatriates settle in Ho Chi Minh City for the food and weather.",
+              "vi": "Nhiều expatriate phương Tây định cư ở TP HCM vì đồ ăn và thời tiết."
+            },
+            {
+              "en": "Expatriate communities often gather around their national embassies and cultural centers.",
+              "vi": "Cộng đồng expatriate thường tụ tập quanh đại sứ quán và trung tâm văn hóa nước mình."
+            },
+            {
+              "en": "Vietnamese expatriates in Japan number over 500,000 today.",
+              "vi": "Số expatriate Việt ở Nhật ngày nay vượt 500,000 người."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expat"],
+      "antonyms": ["native", "local"],
+      "collocations": [
+        "expatriate community",
+        "expatriate worker",
+        "expatriate assignment",
+        "Vietnamese expatriate"
+      ],
+      "etymology_hint": "From Latin 'ex-' (out of) + 'patria' (native land) — 'out of one's native land'.",
+      "mnemonic_vi": "EX (ra) + PATRIATE (quê hương, patria) = ra khỏi quê. Expatriate = sống xa quê (vẫn giữ quốc tịch)."
+    },
+    {
+      "word": "remittance",
+      "lemma": "remittance",
+      "ipa": "/rɪˈmɪtns/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "money sent by people working abroad back to their family or country of origin, often a major source of foreign income for developing nations",
+          "meaning_vi": "kiều hối (tiền người làm việc ở nước ngoài gửi về gia đình/quê hương, thường là nguồn thu ngoại tệ lớn của nước đang phát triển)",
+          "examples": [
+            {
+              "en": "Vietnamese remittances reached over 19 billion USD in recent years.",
+              "vi": "Remittance về Việt Nam đạt hơn 19 tỷ USD trong các năm gần đây."
+            },
+            {
+              "en": "Mobile money services have made cross-border remittances faster and cheaper.",
+              "vi": "Dịch vụ tiền di động làm remittance xuyên biên giới nhanh và rẻ hơn."
+            },
+            {
+              "en": "Philippine and Indian economies also rely heavily on remittances from overseas workers.",
+              "vi": "Kinh tế Philippines và Ấn Độ cũng phụ thuộc nhiều vào remittance từ lao động ngoài nước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["money transfer"],
+      "antonyms": [],
+      "collocations": [
+        "send remittances",
+        "remittance flow",
+        "remittance fee",
+        "annual remittances"
+      ],
+      "etymology_hint": "From Latin 'remittere' (to send back) — same root as 'remit'.",
+      "mnemonic_vi": "RE (lại) + MIT (gửi, mittere) + ANCE = gửi lại. Remittance = tiền gửi về quê."
+    },
+    {
+      "word": "brain-drain",
+      "lemma": "brain-drain",
+      "ipa": "/ˈbreɪn dreɪn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the emigration of highly skilled or educated people from one country to another, depleting the talent pool of the source country",
+          "meaning_vi": "chảy máu chất xám (sự di cư của người trình độ cao hoặc có học từ nước này sang nước khác, làm cạn nguồn nhân tài nước gốc)",
+          "examples": [
+            {
+              "en": "Eastern European countries lost millions to brain drain after joining the EU.",
+              "vi": "Các nước Đông Âu mất hàng triệu người vì brain-drain sau khi gia nhập EU."
+            },
+            {
+              "en": "Brain drain hurts developing nations that train doctors who then leave for higher salaries.",
+              "vi": "Brain-drain hại các nước đang phát triển vốn đào tạo bác sĩ rồi bị mất sang nước trả lương cao hơn."
+            },
+            {
+              "en": "Vietnam's tech sector worries about brain drain to Singapore and Silicon Valley.",
+              "vi": "Ngành tech Việt lo brain-drain sang Singapore và Silicon Valley."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talent flight"],
+      "antonyms": ["brain gain"],
+      "collocations": ["suffer brain drain", "brain-drain crisis", "reverse brain drain"],
+      "mnemonic_vi": "BRAIN (não, nhân tài) + DRAIN (rút cạn) = rút cạn não. Chảy máu chất xám = nhân tài đi mất."
+    },
+    {
+      "word": "brain-gain",
+      "lemma": "brain-gain",
+      "ipa": "/ˈbreɪn ɡeɪn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the immigration of skilled or educated people into a country, or the return of expatriate talent bringing experience and connections home",
+          "meaning_vi": "thu hút chất xám (sự di cư đến của người có kỹ năng/học vấn vào một nước, hoặc sự trở về của kiều bào mang kinh nghiệm và mạng lưới)",
+          "examples": [
+            {
+              "en": "Singapore has built a strong brain-gain story by attracting global tech talent.",
+              "vi": "Singapore xây câu chuyện brain-gain mạnh bằng cách thu hút tài năng tech toàn cầu."
+            },
+            {
+              "en": "Returning Vietnamese-Americans contribute to a growing brain gain in Saigon's startup scene.",
+              "vi": "Người Việt-Mỹ trở về đóng góp vào brain-gain ngày càng tăng trong giới startup Sài Gòn."
+            },
+            {
+              "en": "Brain gain often follows political stability and competitive salaries.",
+              "vi": "Brain-gain thường theo sau ổn định chính trị và lương cạnh tranh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["talent inflow", "reverse brain drain"],
+      "antonyms": ["brain drain"],
+      "collocations": ["encourage brain gain", "policy of brain gain", "brain-gain effect"],
+      "mnemonic_vi": "BRAIN (não) + GAIN (được) = được nhân tài. Đối lập brain-drain. Nước nhận nhân tài."
+    },
+    {
+      "word": "repatriation",
+      "lemma": "repatriation",
+      "ipa": "/ˌriːˌpætriˈeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of returning a person, group, or asset to their country of origin, either voluntarily or by government action",
+          "meaning_vi": "hồi hương (quá trình đưa người, nhóm, hoặc tài sản về nước gốc, tự nguyện hoặc do nhà nước)",
+          "examples": [
+            {
+              "en": "After the war ended, mass repatriation of refugees took years.",
+              "vi": "Sau khi chiến tranh kết thúc, repatriation hàng loạt người tị nạn mất nhiều năm."
+            },
+            {
+              "en": "Some countries also debate the repatriation of cultural artifacts from museums.",
+              "vi": "Một số nước cũng tranh luận về repatriation hiện vật văn hóa từ bảo tàng."
+            },
+            {
+              "en": "Vietnam organized repatriation flights for stranded citizens during the pandemic.",
+              "vi": "Việt Nam tổ chức chuyến bay repatriation cho công dân mắc kẹt trong đại dịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return home"],
+      "antonyms": ["expatriation"],
+      "collocations": [
+        "voluntary repatriation",
+        "forced repatriation",
+        "repatriation flight",
+        "artifact repatriation"
+      ],
+      "etymology_hint": "From Latin 're-' (back) + 'patria' (native land) — 'back to native land'.",
+      "mnemonic_vi": "RE (lại) + PATRIATION (quê hương, patria) = về quê. Repatriation = hồi hương."
+    },
+    {
+      "word": "integration",
+      "lemma": "integration",
+      "ipa": "/ˌɪntɪˈɡreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process by which immigrants become part of the social, economic, and cultural life of a host country while often keeping aspects of their heritage",
+          "meaning_vi": "hòa nhập (quá trình người nhập cư trở thành một phần của đời sống xã hội, kinh tế, văn hóa nước sở tại, thường vẫn giữ một phần di sản gốc)",
+          "examples": [
+            {
+              "en": "Successful integration usually requires language learning and employment access.",
+              "vi": "Integration thành công thường đòi hỏi học ngôn ngữ và có cơ hội việc làm."
+            },
+            {
+              "en": "European debates about integration policies vary widely between countries.",
+              "vi": "Tranh luận châu Âu về chính sách integration khác biệt nhiều giữa các nước."
+            },
+            {
+              "en": "Vietnamese immigrants in Germany show high rates of integration into local workforces.",
+              "vi": "Người Việt nhập cư Đức cho thấy tỷ lệ integration cao vào lực lượng lao động địa phương."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assimilation (loose)"],
+      "antonyms": ["segregation", "isolation"],
+      "collocations": [
+        "social integration",
+        "economic integration",
+        "successful integration",
+        "integration policy"
+      ],
+      "etymology_hint": "From Latin 'integer' (whole, complete) — making someone 'whole' with the host society.",
+      "mnemonic_vi": "INTEGRA (toàn, nguyên) + TION = làm thành toàn vẹn. Integration = hòa nhập = thành một phần nguyên vẹn của xã hội."
+    },
+    {
+      "word": "naturalization",
+      "lemma": "naturalization",
+      "ipa": "/ˌnætʃrəlaɪˈzeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the legal process by which a foreign citizen acquires the citizenship of a new country, typically after meeting residency and other requirements",
+          "meaning_vi": "nhập tịch (quá trình pháp lý để người nước ngoài nhận quốc tịch mới, thường sau khi đạt yêu cầu cư trú và các điều kiện khác)",
+          "examples": [
+            {
+              "en": "US naturalization usually requires five years of permanent residency and an English test.",
+              "vi": "Naturalization Mỹ thường yêu cầu 5 năm thường trú và bài thi tiếng Anh."
+            },
+            {
+              "en": "Naturalization ceremonies are emotional moments for many new citizens.",
+              "vi": "Lễ naturalization là khoảnh khắc xúc động với nhiều công dân mới."
+            },
+            {
+              "en": "Many Vietnamese in Australia pursue naturalization after meeting the four-year residency rule.",
+              "vi": "Nhiều người Việt ở Úc theo đuổi naturalization sau khi đạt quy định 4 năm thường trú."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["citizenship grant"],
+      "antonyms": ["denaturalization"],
+      "collocations": [
+        "naturalization process",
+        "naturalization ceremony",
+        "naturalization test",
+        "apply for naturalization"
+      ],
+      "etymology_hint": "From Latin 'naturalis' (natural) — becoming 'natural' (a native) of the new country.",
+      "mnemonic_vi": "NATURAL (tự nhiên, thành dân tự nhiên) + IZATION = quá trình thành dân. Naturalization = nhập tịch."
+    },
+    {
+      "word": "citizenship",
+      "lemma": "citizenship",
+      "ipa": "/ˈsɪtɪzənʃɪp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the legal status of being a recognized member of a country, with associated rights such as voting and protection, and duties such as paying taxes",
+          "meaning_vi": "quốc tịch (tư cách thành viên hợp pháp của một quốc gia, với quyền như bỏ phiếu, được bảo vệ, và nghĩa vụ như đóng thuế)",
+          "examples": [
+            {
+              "en": "Dual citizenship is allowed in some countries but forbidden in others.",
+              "vi": "Citizenship kép được phép ở một số nước nhưng cấm ở nước khác."
+            },
+            {
+              "en": "Vietnam's citizenship law was updated in 2024 to allow more flexibility for overseas Vietnamese.",
+              "vi": "Luật citizenship Việt Nam cập nhật năm 2024 cho phép linh hoạt hơn với Việt kiều."
+            },
+            {
+              "en": "Citizenship by investment programs are controversial but legal in some EU states.",
+              "vi": "Chương trình citizenship qua đầu tư gây tranh cãi nhưng hợp pháp ở vài nước EU."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["nationality"],
+      "antonyms": ["statelessness"],
+      "collocations": [
+        "dual citizenship",
+        "acquire citizenship",
+        "citizenship by birth",
+        "citizenship by investment",
+        "renounce citizenship"
+      ],
+      "mnemonic_vi": "CITIZEN (công dân) + SHIP (quyền) = tư cách công dân. Citizenship = quốc tịch."
+    },
+    {
+      "word": "migrant",
+      "lemma": "migrant",
+      "ipa": "/ˈmaɪɡrənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who moves from one place to another, often crossing national borders, in search of better work, education, or living conditions",
+          "meaning_vi": "người di cư (người di chuyển từ nơi này sang nơi khác, thường vượt biên giới quốc gia, tìm việc, học, hoặc điều kiện sống tốt hơn)",
+          "examples": [
+            {
+              "en": "Economic migrants make up the largest share of global cross-border movement.",
+              "vi": "Migrant kinh tế chiếm phần lớn dòng người vượt biên giới toàn cầu."
+            },
+            {
+              "en": "International law distinguishes migrants from refugees by their reason for moving.",
+              "vi": "Luật quốc tế phân biệt migrant với người tị nạn theo lý do di chuyển."
+            },
+            {
+              "en": "Vietnamese migrants in Eastern Europe have built strong wholesale trading communities.",
+              "vi": "Migrant Việt ở Đông Âu đã xây cộng đồng buôn sỉ vững mạnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["immigrant", "emigrant"],
+      "antonyms": ["native"],
+      "collocations": ["economic migrant", "labor migrant", "migrant worker", "migrant community"],
+      "etymology_hint": "From Latin 'migrare' (to move from one place to another) — same root as 'migrate'.",
+      "mnemonic_vi": "MIGRA (di chuyển) + NT = người di chuyển. Migrant = người di cư."
+    },
+    {
+      "word": "diaspora",
+      "lemma": "diaspora",
+      "ipa": "/daɪˈæspərə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a large community of people from a single ethnic or national origin who live scattered across many countries while maintaining cultural ties",
+          "meaning_vi": "cộng đồng hải ngoại (cộng đồng lớn cùng gốc dân tộc/quốc gia sống rải rác nhiều nước nhưng giữ liên kết văn hóa)",
+          "examples": [
+            {
+              "en": "The Vietnamese diaspora numbers around 5 million people across many continents.",
+              "vi": "Diaspora Việt khoảng 5 triệu người trên nhiều châu lục."
+            },
+            {
+              "en": "Diaspora communities often play crucial roles in homeland economies through remittances.",
+              "vi": "Cộng đồng diaspora thường đóng vai trò quan trọng với kinh tế quê hương qua remittance."
+            },
+            {
+              "en": "The Jewish diaspora is one of history's oldest and most studied.",
+              "vi": "Diaspora Do Thái là một trong những diaspora cổ và được nghiên cứu nhiều nhất lịch sử."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["overseas community"],
+      "antonyms": [],
+      "collocations": [
+        "Vietnamese diaspora",
+        "diaspora community",
+        "global diaspora",
+        "diaspora bonds"
+      ],
+      "etymology_hint": "From Greek 'diaspeirein' (to scatter) — 'dia-' (across) + 'speirein' (to sow). Originally referred to the Jewish people scattered after exile.",
+      "mnemonic_vi": "DIA (qua, across) + SPORA (rải, sow seeds) = rải khắp nơi. Diaspora = cộng đồng tan rải khắp thế giới."
+    },
+    {
+      "word": "displacement",
+      "lemma": "displacement",
+      "ipa": "/dɪsˈpleɪsmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the forced or involuntary movement of people from their homes due to war, persecution, disaster, or development projects",
+          "meaning_vi": "sự dời chỗ (việc di chuyển bắt buộc hoặc không tự nguyện khỏi nhà do chiến tranh, đàn áp, thiên tai, dự án phát triển)",
+          "examples": [
+            {
+              "en": "Climate change is expected to cause unprecedented displacement in coming decades.",
+              "vi": "Biến đổi khí hậu được dự báo gây displacement chưa từng có trong vài thập kỷ tới."
+            },
+            {
+              "en": "Dam construction often leads to displacement of communities living downstream.",
+              "vi": "Xây đập thường dẫn đến displacement cộng đồng sống vùng hạ lưu."
+            },
+            {
+              "en": "Vietnamese central highland farmers have faced displacement from large infrastructure projects.",
+              "vi": "Nông dân Tây Nguyên Việt đã đối mặt với displacement từ các dự án hạ tầng lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["forced relocation"],
+      "antonyms": ["resettlement"],
+      "collocations": [
+        "internal displacement",
+        "forced displacement",
+        "mass displacement",
+        "climate displacement"
+      ],
+      "etymology_hint": "From Latin 'dis-' (apart) + 'placere' (to place) — 'placed apart from home'.",
+      "mnemonic_vi": "DIS (khỏi) + PLACE (chỗ) + MENT = bị đẩy khỏi chỗ. Displacement = mất nhà do bị buộc đi."
+    },
+    {
+      "word": "deportation",
+      "lemma": "deportation",
+      "ipa": "/ˌdiːpɔːˈteɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the formal expulsion of a foreign national from a country, usually for immigration violations or criminal activity",
+          "meaning_vi": "trục xuất (việc đẩy chính thức một công dân nước ngoài ra khỏi nước, thường do vi phạm nhập cư hoặc tội phạm)",
+          "examples": [
+            {
+              "en": "Mass deportation policies are highly controversial in immigrant-heavy economies.",
+              "vi": "Chính sách deportation hàng loạt gây tranh cãi mạnh trong các nền kinh tế có nhiều dân nhập cư."
+            },
+            {
+              "en": "Deportation hearings can take months and require legal representation.",
+              "vi": "Phiên deportation có thể kéo dài nhiều tháng và cần có luật sư."
+            },
+            {
+              "en": "Several Vietnamese citizens have faced deportation from the US for old criminal records.",
+              "vi": "Vài công dân Việt đối mặt deportation từ Mỹ vì hồ sơ tội phạm cũ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["expulsion", "removal"],
+      "antonyms": ["asylum granting"],
+      "collocations": [
+        "face deportation",
+        "deportation order",
+        "mass deportation",
+        "halt deportation"
+      ],
+      "etymology_hint": "From Latin 'deportare' (to carry away) — 'de-' (away) + 'portare' (to carry).",
+      "mnemonic_vi": "DE (đi, bỏ) + PORT (mang, port) + ATION = mang đi. Deportation = trục xuất ra khỏi nước."
+    },
+    {
+      "word": "exile",
+      "lemma": "exile",
+      "ipa": "/ˈeksaɪl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "forced or chosen absence from one's home country for an extended time, often for political or punitive reasons",
+          "meaning_vi": "lưu vong (sự vắng mặt khỏi quê hương trong thời gian dài — bắt buộc hoặc tự chọn, thường vì lý do chính trị hoặc trừng phạt)",
+          "examples": [
+            {
+              "en": "The Dalai Lama has lived in exile from Tibet for decades.",
+              "vi": "Đạt Lai Lạt Ma đã sống exile khỏi Tây Tạng nhiều thập kỷ."
+            },
+            {
+              "en": "Voluntary exile during periods of political turmoil is an old strategy.",
+              "vi": "Exile tự nguyện thời chính trị động loạn là chiến lược xưa."
+            },
+            {
+              "en": "Many Vietnamese intellectuals lived in exile in France during the 20th century.",
+              "vi": "Nhiều trí thức Việt sống exile ở Pháp trong thế kỷ 20."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["banishment"],
+      "antonyms": ["repatriation"],
+      "collocations": ["self-imposed exile", "in exile", "political exile", "return from exile"],
+      "etymology_hint": "From Latin 'exilium' (banishment) from 'exul' (banished person).",
+      "mnemonic_vi": "EX (ra) + ILE (đi xa) = đi xa khỏi quê. Exile = lưu vong = sống xa quê, thường vì chính trị."
+    },
+    {
+      "word": "emigrate",
+      "lemma": "emigrate",
+      "ipa": "/ˈemɪɡreɪt/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to leave one's own country in order to settle permanently in another, viewed from the perspective of the country one is leaving",
+          "meaning_vi": "di cư đi (rời nước mình để định cư lâu dài ở nước khác, nhìn từ góc nước đang rời)",
+          "examples": [
+            {
+              "en": "Many Vietnamese families emigrated after 1975 to Australia, Canada, and the US.",
+              "vi": "Nhiều gia đình Việt emigrate sau 1975 sang Úc, Canada và Mỹ."
+            },
+            {
+              "en": "Irish farmers emigrated to America in massive numbers during the 1840s famine.",
+              "vi": "Nông dân Ireland emigrate sang Mỹ ồ ạt trong nạn đói thập niên 1840."
+            },
+            {
+              "en": "Skilled workers emigrate when local salaries cannot match foreign offers.",
+              "vi": "Lao động kỹ năng emigrate khi lương trong nước không bằng các nước ngoài chào mời."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["leave one's country"],
+      "antonyms": ["immigrate"],
+      "collocations": ["emigrate to", "decide to emigrate", "emigrate permanently"],
+      "etymology_hint": "From Latin 'emigrare' (to move away) — 'e-' (out) + 'migrare' (to move).",
+      "mnemonic_vi": "E (ra) + MIGRATE (di chuyển) = di chuyển ra. Emigrate = rời nước mình. Đối lập immigrate (đến)."
+    },
+    {
+      "word": "immigrate",
+      "lemma": "immigrate",
+      "ipa": "/ˈɪmɪɡreɪt/",
+      "pos": "verb",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "to come to live permanently in a country that is not one's native country, viewed from the perspective of the destination country",
+          "meaning_vi": "di cư đến (đến sống lâu dài ở một nước không phải quê mình, nhìn từ góc nước đến)",
+          "examples": [
+            {
+              "en": "Her grandparents immigrated to Canada from Vietnam in the 1980s.",
+              "vi": "Ông bà cô ấy immigrate đến Canada từ Việt Nam thập niên 1980."
+            },
+            {
+              "en": "Countries with aging populations actively encourage skilled workers to immigrate.",
+              "vi": "Các nước có dân số già khuyến khích lao động kỹ năng immigrate."
+            },
+            {
+              "en": "Vietnamese students who immigrate to Australia often stay after graduation.",
+              "vi": "Sinh viên Việt immigrate đến Úc thường ở lại sau khi tốt nghiệp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["move to a new country"],
+      "antonyms": ["emigrate"],
+      "collocations": ["immigrate to", "legally immigrate", "immigrate permanently"],
+      "etymology_hint": "From Latin 'immigrare' (to move into) — 'in-' (into) + 'migrare' (to move).",
+      "mnemonic_vi": "IM (vào) + MIGRATE (di chuyển) = di chuyển vào. Immigrate = đến nước mới. Đối lập emigrate (đi)."
+    },
+    {
+      "word": "resettlement",
+      "lemma": "resettlement",
+      "ipa": "/ˌriːˈsetlmənt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the process of relocating people, especially refugees or displaced communities, to a new permanent home where they can rebuild their lives",
+          "meaning_vi": "tái định cư (quá trình đưa người, đặc biệt người tị nạn hoặc displaced, đến nơi ở lâu dài mới để xây lại đời sống)",
+          "examples": [
+            {
+              "en": "UNHCR coordinates resettlement of refugees across more than 30 countries each year.",
+              "vi": "UNHCR điều phối resettlement người tị nạn qua hơn 30 nước mỗi năm."
+            },
+            {
+              "en": "Resettlement programs often include language training, housing, and job support.",
+              "vi": "Chương trình resettlement thường gồm đào tạo ngôn ngữ, nhà ở và hỗ trợ việc làm."
+            },
+            {
+              "en": "Hundreds of thousands of Vietnamese refugees underwent resettlement after 1975.",
+              "vi": "Hàng trăm nghìn người tị nạn Việt đã trải qua resettlement sau 1975."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["relocation"],
+      "antonyms": ["displacement"],
+      "collocations": [
+        "refugee resettlement",
+        "resettlement program",
+        "resettlement country",
+        "voluntary resettlement"
+      ],
+      "mnemonic_vi": "RE (lại) + SETTLEMENT (định cư) = định cư lại. Resettlement = tái định cư ở nơi mới."
+    },
+    {
+      "word": "green-card",
+      "lemma": "green-card",
+      "ipa": "/ˌɡriːn ˈkɑːd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the informal name for the US Permanent Resident Card, which gives a foreign national the legal right to live and work permanently in the United States",
+          "meaning_vi": "thẻ xanh (tên thân mật của thẻ Permanent Resident Mỹ, cho người nước ngoài quyền sống và làm việc lâu dài ở Mỹ)",
+          "examples": [
+            {
+              "en": "A green card holder can apply for US citizenship after five years of permanent residency.",
+              "vi": "Người có green-card có thể nộp đơn xin quốc tịch Mỹ sau 5 năm thường trú."
+            },
+            {
+              "en": "The annual diversity visa lottery is one common path to a green card.",
+              "vi": "Xổ số visa đa dạng hằng năm là một con đường phổ biến tới green-card."
+            },
+            {
+              "en": "Many Vietnamese-Americans got green cards through family sponsorship.",
+              "vi": "Nhiều người Việt-Mỹ nhận green-card qua bảo lãnh gia đình."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["permanent residency", "PR card"],
+      "antonyms": ["temporary visa"],
+      "collocations": [
+        "apply for a green card",
+        "green-card holder",
+        "green-card lottery",
+        "win a green card"
+      ],
+      "mnemonic_vi": "GREEN (xanh) + CARD (thẻ) = thẻ xanh. Thẻ thường trú nhân Mỹ — màu xanh từ 1940s."
+    },
+    {
+      "word": "push-factor",
+      "lemma": "push-factor",
+      "ipa": "/ˈpʊʃ fæktə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a condition or circumstance in a person's home country that drives them to leave, such as war, poverty, unemployment, or persecution",
+          "meaning_vi": "yếu tố đẩy (điều kiện ở quê hương khiến người ta phải rời đi — chiến tranh, nghèo đói, thất nghiệp, đàn áp)",
+          "examples": [
+            {
+              "en": "War and political instability are the strongest push factors for refugees.",
+              "vi": "Chiến tranh và bất ổn chính trị là push-factor mạnh nhất cho người tị nạn."
+            },
+            {
+              "en": "Economic push factors include high unemployment and inflation in the home country.",
+              "vi": "Push-factor kinh tế gồm thất nghiệp cao và lạm phát ở quê nhà."
+            },
+            {
+              "en": "Climate change is becoming a new major push factor for global migration.",
+              "vi": "Biến đổi khí hậu đang trở thành push-factor mới quan trọng cho di cư toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["pull factor"],
+      "collocations": ["main push factor", "economic push factor", "political push factor"],
+      "mnemonic_vi": "PUSH (đẩy) + FACTOR (yếu tố) = yếu tố đẩy. Đẩy người ta phải rời quê hương."
+    },
+    {
+      "word": "pull-factor",
+      "lemma": "pull-factor",
+      "ipa": "/ˈpʊl fæktə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a condition or attraction in a destination country that draws migrants in, such as job opportunities, higher wages, safety, or family connections",
+          "meaning_vi": "yếu tố kéo (điều kiện ở nước đích thu hút người di cư — cơ hội việc làm, lương cao, an toàn, có gia đình)",
+          "examples": [
+            {
+              "en": "Higher wages are the most common pull factor for economic migrants.",
+              "vi": "Lương cao hơn là pull-factor phổ biến nhất với migrant kinh tế."
+            },
+            {
+              "en": "Pull factors and push factors together explain global migration patterns.",
+              "vi": "Pull-factor và push-factor cộng lại giải thích các mẫu di cư toàn cầu."
+            },
+            {
+              "en": "Vietnam's growing economy has become a pull factor for returning overseas Vietnamese.",
+              "vi": "Kinh tế Việt đang tăng đã trở thành pull-factor cho Việt kiều trở về."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["push factor"],
+      "collocations": ["main pull factor", "economic pull factor", "strong pull factor"],
+      "mnemonic_vi": "PULL (kéo) + FACTOR (yếu tố) = yếu tố kéo. Đối lập push-factor. Đẩy đi vs Kéo đến."
+    },
+    {
+      "word": "statelessness",
+      "lemma": "statelessness",
+      "ipa": "/ˈsteɪtləsnəs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the condition of not being recognized as a citizen of any country, leaving a person without basic rights like passports, education, or healthcare access",
+          "meaning_vi": "trạng thái vô quốc tịch (không được công nhận là công dân nước nào, khiến người đó không có quyền cơ bản như hộ chiếu, học hành, y tế)",
+          "examples": [
+            {
+              "en": "Statelessness affects an estimated 10 million people around the world.",
+              "vi": "Statelessness ảnh hưởng khoảng 10 triệu người trên toàn thế giới."
+            },
+            {
+              "en": "The Rohingya people in Myanmar suffer one of the largest cases of statelessness today.",
+              "vi": "Người Rohingya ở Myanmar chịu một trong những vụ statelessness lớn nhất hiện nay."
+            },
+            {
+              "en": "Children born to undocumented migrants sometimes inherit statelessness.",
+              "vi": "Trẻ em sinh ra từ migrant không giấy tờ đôi khi thừa hưởng statelessness."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["citizenship"],
+      "collocations": ["end statelessness", "risk of statelessness", "statelessness crisis"],
+      "mnemonic_vi": "STATE (nhà nước, quốc gia) + LESS (không có) + NESS = không có quốc tịch. Statelessness = vô tổ quốc."
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "slug": "remote-work-culture",
+  "name": "Remote Work Culture",
+  "description": "Văn hóa làm việc từ xa B2 — async, hybrid, work-from-home, zoom-fatigue và 20 thuật ngữ cho thời đại distributed teams.",
+  "order_index": 21,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "async-communication",
+      "lemma": "async-communication",
+      "ipa": "/ˌeɪsɪŋk kəˌmjuːnɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a style of work communication where people respond on their own schedule rather than in real time, common in distributed teams across time zones",
+          "meaning_vi": "giao tiếp bất đồng bộ (phong cách làm việc nơi mọi người trả lời theo lịch riêng thay vì thời gian thực, phổ biến với đội phân tán qua múi giờ)",
+          "examples": [
+            {
+              "en": "GitLab built one of the largest fully async-communication companies in the world.",
+              "vi": "GitLab xây một trong những công ty async-communication hoàn toàn lớn nhất thế giới."
+            },
+            {
+              "en": "Async communication respects deep work but requires excellent written clarity.",
+              "vi": "Async-communication tôn trọng deep work nhưng đòi hỏi viết rõ ràng xuất sắc."
+            },
+            {
+              "en": "Vietnamese remote teams working with US clients rely on async communication overnight.",
+              "vi": "Đội remote Việt làm việc với khách Mỹ phụ thuộc vào async-communication qua đêm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["asynchronous communication"],
+      "antonyms": ["synchronous communication"],
+      "collocations": [
+        "async-first culture",
+        "async communication tools",
+        "embrace async communication"
+      ],
+      "etymology_hint": "From Greek 'a-' (without) + 'synchronos' (at the same time) — 'not at the same time'.",
+      "mnemonic_vi": "ASYNC (không cùng lúc) + COMMUNICATION (giao tiếp) = giao tiếp khác giờ. Khác synchronous (cùng giờ, real-time)."
+    },
+    {
+      "word": "hybrid-model",
+      "lemma": "hybrid-model",
+      "ipa": "/ˈhaɪbrɪd ˌmɒdl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a work arrangement that combines in-office days with remote-work days, giving employees flexibility while preserving some face-to-face collaboration",
+          "meaning_vi": "mô hình kết hợp (sắp xếp công việc kết hợp ngày lên văn phòng và ngày làm xa, cho nhân viên linh hoạt mà vẫn giữ một số gặp mặt trực tiếp)",
+          "examples": [
+            {
+              "en": "Many tech firms settled on a 3-day in-office, 2-day remote hybrid model after the pandemic.",
+              "vi": "Nhiều công ty tech chốt hybrid-model 3 ngày văn phòng + 2 ngày remote sau đại dịch."
+            },
+            {
+              "en": "The hybrid model demands stronger meeting discipline to avoid 'remote second-class' workers.",
+              "vi": "Hybrid-model đòi kỷ luật họp tốt hơn để tránh nhân viên remote bị 'hạng hai'."
+            },
+            {
+              "en": "Vietnamese banks have moved to hybrid models for non-customer-facing teams.",
+              "vi": "Ngân hàng Việt đã chuyển sang hybrid-model cho các đội không tiếp khách."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hybrid work"],
+      "antonyms": ["fully remote", "fully in-office"],
+      "collocations": ["adopt a hybrid model", "hybrid-model schedule", "flexible hybrid model"],
+      "mnemonic_vi": "HYBRID (lai) + MODEL (mô hình) = mô hình lai. Vừa văn phòng vừa remote."
+    },
+    {
+      "word": "work-from-home",
+      "lemma": "work-from-home",
+      "ipa": "/ˌwɜːk frəm ˈhəʊm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a working arrangement where an employee performs their job from home instead of commuting to an office, often abbreviated as WFH",
+          "meaning_vi": "làm việc tại nhà (sắp xếp công việc cho nhân viên làm việc từ nhà thay vì đến văn phòng, thường viết tắt WFH)",
+          "examples": [
+            {
+              "en": "Work-from-home went mainstream during the 2020 pandemic.",
+              "vi": "Work-from-home trở thành phổ biến trong đại dịch 2020."
+            },
+            {
+              "en": "Effective work-from-home requires a dedicated workspace and clear boundaries.",
+              "vi": "Work-from-home hiệu quả đòi hỏi không gian làm việc riêng và ranh giới rõ ràng."
+            },
+            {
+              "en": "Vietnamese parents particularly value work-from-home for childcare flexibility.",
+              "vi": "Cha mẹ Việt đặc biệt coi trọng work-from-home vì linh hoạt chăm con."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["WFH", "telework"],
+      "antonyms": ["office work"],
+      "collocations": [
+        "work-from-home policy",
+        "full-time work-from-home",
+        "WFH setup",
+        "work-from-home day"
+      ],
+      "mnemonic_vi": "WORK + FROM + HOME = làm việc từ nhà. WFH = viết tắt phổ biến nhất."
+    },
+    {
+      "word": "digital-nomad",
+      "lemma": "digital-nomad",
+      "ipa": "/ˈdɪdʒɪtl ˈnəʊmæd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a person who works remotely while traveling and living in different countries or cities, often using laptops and a stable internet connection",
+          "meaning_vi": "digital nomad (người làm việc từ xa trong khi đi du lịch và sống ở các quốc gia/thành phố khác nhau, dùng laptop và internet ổn định)",
+          "examples": [
+            {
+              "en": "Bali, Lisbon, and Mexico City have become major digital-nomad hubs.",
+              "vi": "Bali, Lisbon và Mexico City đã trở thành trung tâm digital-nomad lớn."
+            },
+            {
+              "en": "Several countries now offer special digital-nomad visas for stays of 6-12 months.",
+              "vi": "Vài nước giờ có visa digital-nomad đặc biệt cho ở 6-12 tháng."
+            },
+            {
+              "en": "Hội An and Đà Lạt are increasingly popular with digital nomads in Vietnam.",
+              "vi": "Hội An và Đà Lạt ngày càng phổ biến với digital-nomad ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["office-bound worker"],
+      "collocations": [
+        "digital-nomad lifestyle",
+        "digital-nomad visa",
+        "digital-nomad hub",
+        "remote digital nomad"
+      ],
+      "mnemonic_vi": "DIGITAL (số) + NOMAD (du mục) = du mục số. Đi khắp nơi, làm việc qua laptop."
+    },
+    {
+      "word": "virtual-meeting",
+      "lemma": "virtual-meeting",
+      "ipa": "/ˈvɜːtʃuəl ˈmiːtɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a meeting conducted online through video-conferencing software like Zoom, Google Meet, or Microsoft Teams instead of in person",
+          "meaning_vi": "họp ảo (cuộc họp tiến hành online qua phần mềm video như Zoom, Google Meet, Microsoft Teams thay vì gặp mặt trực tiếp)",
+          "examples": [
+            {
+              "en": "Virtual meetings are great for quick check-ins but bad for creative brainstorming.",
+              "vi": "Virtual-meeting tốt cho check-in nhanh nhưng kém cho brainstorm sáng tạo."
+            },
+            {
+              "en": "Always test your camera and mic before joining an important virtual meeting.",
+              "vi": "Luôn thử camera và mic trước khi tham gia virtual-meeting quan trọng."
+            },
+            {
+              "en": "Vietnamese teachers have built fluency with virtual meetings since 2020.",
+              "vi": "Giáo viên Việt đã quen virtual-meeting từ 2020."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["online meeting", "video conference"],
+      "antonyms": ["in-person meeting"],
+      "collocations": [
+        "host a virtual meeting",
+        "virtual meeting platform",
+        "back-to-back virtual meetings"
+      ],
+      "mnemonic_vi": "VIRTUAL (ảo) + MEETING (họp) = họp ảo. Trên Zoom/Meet/Teams."
+    },
+    {
+      "word": "slack-fatigue",
+      "lemma": "slack-fatigue",
+      "ipa": "/ˈslæk fəˈtiːɡ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "mental exhaustion caused by constantly responding to messages on Slack or similar workplace chat platforms throughout the day",
+          "meaning_vi": "mệt mỏi vì Slack (kiệt sức tinh thần do liên tục trả lời tin nhắn trên Slack hoặc nền tảng chat công sở suốt ngày)",
+          "examples": [
+            {
+              "en": "Slack fatigue made many remote workers turn off all channel notifications.",
+              "vi": "Slack-fatigue khiến nhiều người làm remote tắt mọi notification kênh."
+            },
+            {
+              "en": "Batching Slack replies twice a day reduces slack fatigue significantly.",
+              "vi": "Gộp trả lời Slack 2 lần/ngày giảm slack-fatigue đáng kể."
+            },
+            {
+              "en": "Vietnamese tech employees on global teams report widespread slack fatigue.",
+              "vi": "Nhân viên tech Việt trên đội toàn cầu báo slack-fatigue lan rộng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["chat fatigue"],
+      "antonyms": [],
+      "collocations": ["suffer slack fatigue", "reduce slack fatigue", "chronic slack fatigue"],
+      "mnemonic_vi": "SLACK (app chat công ty) + FATIGUE (mệt) = mệt vì Slack. Bị đập tin nhắn cả ngày."
+    },
+    {
+      "word": "zoom-fatigue",
+      "lemma": "zoom-fatigue",
+      "ipa": "/ˈzuːm fəˈtiːɡ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the tiredness, anxiety, or burnout caused by an overload of video calls, especially when many are scheduled back-to-back in one day",
+          "meaning_vi": "mệt vì Zoom (mệt mỏi, lo âu, kiệt sức do quá nhiều cuộc gọi video, đặc biệt khi lịch xếp liền nhau cả ngày)",
+          "examples": [
+            {
+              "en": "Zoom fatigue is real — studies show video calls are more draining than phone calls.",
+              "vi": "Zoom-fatigue là thật — nghiên cứu cho thấy gọi video kiệt sức hơn gọi điện."
+            },
+            {
+              "en": "Cure zoom fatigue by adding camera-off breaks and walking meetings.",
+              "vi": "Chữa zoom-fatigue bằng cách thêm break tắt cam và họp đi bộ."
+            },
+            {
+              "en": "Vietnamese university lecturers reported severe zoom fatigue during 2021 lockdowns.",
+              "vi": "Giảng viên đại học Việt báo zoom-fatigue nghiêm trọng trong phong tỏa 2021."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["video-call fatigue"],
+      "antonyms": [],
+      "collocations": ["combat zoom fatigue", "experience zoom fatigue", "zoom-fatigue symptoms"],
+      "mnemonic_vi": "ZOOM (app gọi video) + FATIGUE (mệt) = mệt vì Zoom. 8 cuộc Zoom/ngày → kiệt sức."
+    },
+    {
+      "word": "in-office-day",
+      "lemma": "in-office-day",
+      "ipa": "/ɪn ˈɒfɪs deɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a designated day when employees in a hybrid arrangement are expected to be physically present at the company's office",
+          "meaning_vi": "ngày lên văn phòng (ngày được chỉ định trong sắp xếp hybrid mà nhân viên cần có mặt tại văn phòng công ty)",
+          "examples": [
+            {
+              "en": "Many hybrid teams hold their team meeting on a Tuesday in-office day.",
+              "vi": "Nhiều đội hybrid tổ chức họp đội vào in-office-day thứ Ba."
+            },
+            {
+              "en": "Strict in-office-day policies often face pushback from remote-loving employees.",
+              "vi": "Chính sách in-office-day nghiêm thường vấp phải phản đối từ nhân viên thích remote."
+            },
+            {
+              "en": "Vietnamese hybrid offices often pick Monday and Friday as their in-office days for full attendance.",
+              "vi": "Văn phòng hybrid Việt thường chọn thứ Hai và thứ Sáu làm in-office-day để full đông đủ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["office day"],
+      "antonyms": ["remote day"],
+      "collocations": ["weekly in-office day", "mandatory in-office day", "in-office-day schedule"],
+      "mnemonic_vi": "IN OFFICE (ở văn phòng) + DAY (ngày) = ngày ở văn phòng. Đối lập remote day."
+    },
+    {
+      "word": "presenteeism",
+      "lemma": "presenteeism",
+      "ipa": "/prɪˈzentiɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of being physically present at work but not actually productive, often due to illness, exhaustion, or pressure to appear committed",
+          "meaning_vi": "presenteeism (có mặt ở chỗ làm nhưng không thực sự làm việc hiệu quả, thường do ốm, kiệt sức, hoặc áp lực phải tỏ ra tận tụy)",
+          "examples": [
+            {
+              "en": "Presenteeism is often more costly to companies than absenteeism.",
+              "vi": "Presenteeism thường tốn kém với công ty hơn absenteeism (vắng mặt)."
+            },
+            {
+              "en": "Hybrid work has shifted presenteeism from desk-warming to camera-staying-on.",
+              "vi": "Hybrid work đã chuyển presenteeism từ ngồi bàn sang giữ cam luôn bật."
+            },
+            {
+              "en": "Vietnamese white-collar culture has historically valued presenteeism over outcomes.",
+              "vi": "Văn hóa văn phòng Việt xưa nay coi trọng presenteeism hơn kết quả."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["showing-up-itis"],
+      "antonyms": ["absenteeism", "productive work"],
+      "collocations": ["culture of presenteeism", "combat presenteeism", "digital presenteeism"],
+      "etymology_hint": "From English 'present' + '-eeism' (suffix paralleling absenteeism) — coined 1930s.",
+      "mnemonic_vi": "PRESENT (có mặt) + EEISM = chủ nghĩa có mặt. Có mặt mà không làm gì. Trái với absenteeism."
+    },
+    {
+      "word": "stand-up",
+      "lemma": "stand-up",
+      "ipa": "/ˈstænd ʌp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a short, daily team meeting where members briefly share what they did, what they will do, and what's blocking them, often used in agile workflows",
+          "meaning_vi": "stand-up (cuộc họp đội ngắn hằng ngày — mỗi thành viên báo hôm qua làm gì, hôm nay làm gì, đang vướng gì — phổ biến trong agile)",
+          "examples": [
+            {
+              "en": "Most agile teams hold a 15-minute stand-up every morning.",
+              "vi": "Đa số đội agile tổ chức stand-up 15 phút mỗi sáng."
+            },
+            {
+              "en": "The name 'stand-up' comes from the practice of staying on your feet to keep the meeting short.",
+              "vi": "Tên 'stand-up' từ thói quen đứng để giữ cuộc họp ngắn."
+            },
+            {
+              "en": "Vietnamese remote teams often hold async stand-ups through Slack thread updates.",
+              "vi": "Đội remote Việt thường stand-up bất đồng bộ qua thread Slack."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["daily scrum"],
+      "antonyms": [],
+      "collocations": ["daily stand-up", "morning stand-up", "async stand-up", "stand-up meeting"],
+      "mnemonic_vi": "STAND (đứng) + UP (lên) = đứng lên (cho cuộc họp ngắn). Stand-up = họp đứng — đứng mới nhanh xong."
+    },
+    {
+      "word": "office-culture",
+      "lemma": "office-culture",
+      "ipa": "/ˈɒfɪs ˌkʌltʃə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the shared values, behaviors, norms, and traditions of a workplace, shaping how employees interact and how decisions are made",
+          "meaning_vi": "văn hóa công sở (giá trị, hành vi, chuẩn mực, truyền thống chung của nơi làm việc, định hình cách nhân viên tương tác và ra quyết định)",
+          "examples": [
+            {
+              "en": "A strong office culture can attract and retain talent without the highest salaries.",
+              "vi": "Office-culture mạnh có thể thu hút và giữ tài năng không cần lương cao nhất."
+            },
+            {
+              "en": "Toxic office cultures push people to quit even when salary and benefits are good.",
+              "vi": "Office-culture toxic đẩy người ta nghỉ việc dù lương và phúc lợi tốt."
+            },
+            {
+              "en": "Vietnamese startups often build informal, dinner-together office cultures.",
+              "vi": "Startup Việt thường xây office-culture thân mật, ăn tối cùng nhau."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["workplace culture", "company culture"],
+      "antonyms": [],
+      "collocations": ["toxic office culture", "strong office culture", "build an office culture"],
+      "mnemonic_vi": "OFFICE (văn phòng) + CULTURE (văn hóa) = văn hóa nơi làm. Ghép từ rõ luôn."
+    },
+    {
+      "word": "workplace-flexibility",
+      "lemma": "workplace-flexibility",
+      "ipa": "/ˈwɜːkpleɪs ˌfleksəˈbɪləti/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the degree to which a job allows employees to choose where, when, or how they work, including remote options and flexible schedules",
+          "meaning_vi": "linh hoạt nơi làm việc (mức độ công việc cho nhân viên chọn nơi, giờ, hoặc cách làm — bao gồm tùy chọn remote và lịch linh hoạt)",
+          "examples": [
+            {
+              "en": "Workplace flexibility ranks among the top three benefits younger workers demand.",
+              "vi": "Workplace-flexibility xếp top 3 phúc lợi mà lao động trẻ đòi hỏi."
+            },
+            {
+              "en": "Companies offering strong workplace flexibility tend to retain working parents better.",
+              "vi": "Công ty có workplace-flexibility tốt thường giữ cha mẹ đi làm tốt hơn."
+            },
+            {
+              "en": "Vietnamese global companies are pushing workplace flexibility to compete for top talent.",
+              "vi": "Công ty toàn cầu ở Việt Nam đang đẩy workplace-flexibility để cạnh tranh thu hút tài năng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["work flexibility"],
+      "antonyms": ["rigid schedule"],
+      "collocations": [
+        "offer workplace flexibility",
+        "demand workplace flexibility",
+        "high workplace flexibility"
+      ],
+      "mnemonic_vi": "WORKPLACE (nơi làm) + FLEXIBILITY (linh hoạt) = linh hoạt công việc. Cho chọn giờ/chỗ/cách làm."
+    },
+    {
+      "word": "remote-first",
+      "lemma": "remote-first",
+      "ipa": "/rɪˌməʊt ˈfɜːst/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "describing a company whose default work mode is remote, with offices being optional rather than central, designing all systems for distributed teams",
+          "meaning_vi": "remote-first (mô tả công ty mặc định làm việc từ xa, văn phòng là tùy chọn không phải trung tâm, mọi hệ thống thiết kế cho đội phân tán)",
+          "examples": [
+            {
+              "en": "Automattic and Zapier are well-known remote-first companies.",
+              "vi": "Automattic và Zapier là các công ty remote-first nổi tiếng."
+            },
+            {
+              "en": "Remote-first companies invest heavily in documentation and async tools.",
+              "vi": "Công ty remote-first đầu tư mạnh vào tài liệu hóa và công cụ async."
+            },
+            {
+              "en": "Several Vietnamese startups have gone fully remote-first to hire from any province.",
+              "vi": "Vài startup Việt đã chuyển hoàn toàn remote-first để tuyển từ mọi tỉnh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["remote-by-default"],
+      "antonyms": ["office-first"],
+      "collocations": ["remote-first company", "remote-first policy", "remote-first culture"],
+      "mnemonic_vi": "REMOTE (từ xa) + FIRST (đầu tiên) = ưu tiên remote. Mặc định remote, văn phòng chỉ phụ."
+    },
+    {
+      "word": "return-to-office",
+      "lemma": "return-to-office",
+      "ipa": "/rɪˌtɜːn tə ˈɒfɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a corporate policy requiring employees who had been working remotely to come back to the physical office, often partially or fully, frequently abbreviated as RTO",
+          "meaning_vi": "trở lại văn phòng (chính sách công ty yêu cầu nhân viên từng làm remote trở lại văn phòng vật lý, một phần hoặc toàn phần, viết tắt RTO)",
+          "examples": [
+            {
+              "en": "Big tech RTO mandates sparked employee protests in 2023.",
+              "vi": "Lệnh RTO của big tech gây làn sóng phản đối nhân viên năm 2023."
+            },
+            {
+              "en": "A gradual return-to-office plan often works better than a sudden full-time mandate.",
+              "vi": "Kế hoạch return-to-office dần thường hiệu quả hơn lệnh toàn thời gian đột ngột."
+            },
+            {
+              "en": "Vietnamese corporations completed return-to-office faster than Western firms after the pandemic.",
+              "vi": "Doanh nghiệp Việt hoàn thành return-to-office nhanh hơn công ty phương Tây sau đại dịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["RTO mandate"],
+      "antonyms": ["remote work expansion"],
+      "collocations": [
+        "return-to-office policy",
+        "phased return-to-office",
+        "mandatory return-to-office"
+      ],
+      "mnemonic_vi": "RETURN (trở lại) + TO + OFFICE (văn phòng) = trở lại văn phòng. RTO = viết tắt phổ biến."
+    },
+    {
+      "word": "RTO",
+      "lemma": "RTO",
+      "ipa": "/ˌɑː tiː ˈəʊ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the abbreviation for Return To Office, used to describe policies, debates, and mandates around bringing employees back from remote work",
+          "meaning_vi": "RTO (viết tắt Return To Office — dùng để chỉ chính sách, tranh luận, mệnh lệnh đưa nhân viên về từ remote work)",
+          "examples": [
+            {
+              "en": "Amazon's 5-day RTO order in 2024 became one of the most controversial RTO moves.",
+              "vi": "Lệnh RTO 5 ngày của Amazon năm 2024 thành một trong những RTO gây tranh cãi nhất."
+            },
+            {
+              "en": "Many workers cite RTO as a reason for changing jobs.",
+              "vi": "Nhiều người lao động viện dẫn RTO làm lý do đổi việc."
+            },
+            {
+              "en": "Vietnamese tech employees discuss RTO trends from global headquarters on LinkedIn.",
+              "vi": "Nhân viên tech Việt thảo luận xu hướng RTO từ HQ toàn cầu trên LinkedIn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["return to office"],
+      "antonyms": [],
+      "collocations": ["RTO mandate", "RTO policy", "fight RTO", "soft RTO"],
+      "mnemonic_vi": "R(eturn) T(o) O(ffice) = RTO. Viết tắt phổ biến trong tin tức công ty 2023-2024."
+    },
+    {
+      "word": "four-day-week",
+      "lemma": "four-day-week",
+      "ipa": "/ˈfɔː deɪ wiːk/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a working arrangement where employees work four days instead of five per week, often with the same pay, aimed at improving wellbeing and productivity",
+          "meaning_vi": "tuần 4 ngày (sắp xếp làm việc 4 ngày thay vì 5 mỗi tuần, thường giữ nguyên lương, nhằm cải thiện sức khỏe và năng suất)",
+          "examples": [
+            {
+              "en": "Iceland's national four-day-week trial reported higher productivity and wellbeing.",
+              "vi": "Thử nghiệm four-day-week toàn quốc của Iceland báo năng suất và sức khỏe đều tăng."
+            },
+            {
+              "en": "Critics worry four-day weeks may overload remaining workdays.",
+              "vi": "Người chỉ trích lo four-day-week có thể chất quá tải lên các ngày còn lại."
+            },
+            {
+              "en": "A few Vietnamese boutique agencies have piloted four-day weeks since 2023.",
+              "vi": "Vài agency boutique Việt đã thí điểm four-day-week từ 2023."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["4-day workweek"],
+      "antonyms": ["five-day week"],
+      "collocations": ["trial a four-day week", "four-day-week policy", "compressed four-day week"],
+      "mnemonic_vi": "FOUR (bốn) + DAY (ngày) + WEEK (tuần) = tuần 4 ngày. Nghỉ thêm 1 ngày, lương như cũ."
+    },
+    {
+      "word": "workation",
+      "lemma": "workation",
+      "ipa": "/wɜːˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a trip combining remote work and vacation, where someone works during the day from a holiday destination and explores in their off-hours",
+          "meaning_vi": "workation (chuyến đi kết hợp làm việc remote và đi chơi — làm việc ban ngày từ điểm du lịch, khám phá ngoài giờ làm)",
+          "examples": [
+            {
+              "en": "Many digital nomads do informal workations even without official remote permission.",
+              "vi": "Nhiều digital nomad làm workation không chính thức dù không có phép remote chính thức."
+            },
+            {
+              "en": "A workation in Phú Quốc can mix client calls with afternoon beach time.",
+              "vi": "Workation ở Phú Quốc có thể trộn họp khách với buổi chiều ra biển."
+            },
+            {
+              "en": "Hotels in Đà Lạt now offer 'workation' packages with desks and fast Wi-Fi.",
+              "vi": "Khách sạn ở Đà Lạt giờ có gói 'workation' với bàn làm và Wi-Fi nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["workcation"],
+      "antonyms": ["full vacation"],
+      "collocations": ["take a workation", "workation package", "weekend workation"],
+      "etymology_hint": "Portmanteau of 'work' + 'vacation' — coined in the 2010s as remote work spread.",
+      "mnemonic_vi": "WORK (làm) + VACATION (kỳ nghỉ) = WORKATION. Vừa làm vừa nghỉ. Như staycation nhưng đi xa."
+    },
+    {
+      "word": "hot-desking",
+      "lemma": "hot-desk",
+      "ipa": "/ˈhɒt ˌdeskɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the practice of not assigning specific desks to specific employees, so workers share desks on a first-come, first-served basis when they come to the office",
+          "meaning_vi": "hot-desking (không phân bàn cố định, nhân viên chia sẻ bàn theo nguyên tắc đến trước được trước khi lên văn phòng)",
+          "examples": [
+            {
+              "en": "Hot-desking cuts office space costs significantly for hybrid companies.",
+              "vi": "Hot-desking cắt chi phí mặt bằng đáng kể cho công ty hybrid."
+            },
+            {
+              "en": "Some employees dislike hot-desking because they lose personalized workspaces.",
+              "vi": "Một số nhân viên ghét hot-desking vì mất chỗ làm cá nhân hóa."
+            },
+            {
+              "en": "Vietnamese co-working spaces have practiced hot-desking since the late 2010s.",
+              "vi": "Không gian co-working Việt đã hot-desking từ cuối thập niên 2010."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["desk sharing"],
+      "antonyms": ["assigned desk"],
+      "collocations": ["hot-desking policy", "introduce hot-desking", "hot-desking office"],
+      "mnemonic_vi": "HOT (nóng — vừa người đứng dậy bàn còn 'ấm') + DESKING (làm bàn) = bàn vừa có người. Hot-desking = ai đến trước ngồi trước."
+    },
+    {
+      "word": "focus-time",
+      "lemma": "focus-time",
+      "ipa": "/ˈfəʊkəs taɪm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a block of working time deliberately set aside for deep, uninterrupted work on important tasks, free from meetings and notifications",
+          "meaning_vi": "thời gian tập trung (khoảng thời gian cố tình dành cho deep work không gián đoạn — không họp, không thông báo)",
+          "examples": [
+            {
+              "en": "Many calendar apps now let you block focus time visible to colleagues.",
+              "vi": "Nhiều app lịch giờ cho block focus-time để đồng nghiệp thấy."
+            },
+            {
+              "en": "Two hours of focus time in the morning can be worth a whole afternoon of fragmented work.",
+              "vi": "Hai giờ focus-time buổi sáng có thể bằng cả buổi chiều làm việc rời rạc."
+            },
+            {
+              "en": "Vietnamese software engineers schedule focus time before stand-up meetings.",
+              "vi": "Kỹ sư phần mềm Việt lên lịch focus-time trước stand-up meeting."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["deep work block"],
+      "antonyms": ["meeting time"],
+      "collocations": ["schedule focus time", "protect focus time", "morning focus time"],
+      "mnemonic_vi": "FOCUS (tập trung) + TIME (thời gian) = thời gian tập trung. Block lịch để code/viết không bị quấy."
+    },
+    {
+      "word": "no-meeting-day",
+      "lemma": "no-meeting-day",
+      "ipa": "/ˌnəʊ ˈmiːtɪŋ deɪ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a designated day of the week when a team or company prohibits all internal meetings, giving employees uninterrupted time for deep work",
+          "meaning_vi": "ngày không họp (ngày trong tuần đội/công ty cấm họp nội bộ, cho nhân viên thời gian deep work liền mạch)",
+          "examples": [
+            {
+              "en": "Many tech companies adopt a Wednesday no-meeting day to protect productivity.",
+              "vi": "Nhiều công ty tech áp dụng no-meeting-day vào thứ Tư để bảo vệ năng suất."
+            },
+            {
+              "en": "No-meeting days are especially valuable for engineers, designers, and writers.",
+              "vi": "No-meeting-day đặc biệt giá trị với kỹ sư, designer và người viết."
+            },
+            {
+              "en": "Vietnamese remote teams piloting no-meeting Fridays have reported less zoom fatigue.",
+              "vi": "Đội remote Việt thí điểm no-meeting-day thứ Sáu đã báo ít zoom-fatigue hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["meeting-free day"],
+      "antonyms": ["meeting-heavy day"],
+      "collocations": [
+        "weekly no-meeting day",
+        "company no-meeting day",
+        "respect the no-meeting day"
+      ],
+      "mnemonic_vi": "NO (không) + MEETING (họp) + DAY (ngày) = ngày không họp. Một ngày trong tuần cấm họp để deep work."
+    }
+  ]
+}
