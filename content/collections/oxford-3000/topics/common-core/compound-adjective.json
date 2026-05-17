@@ -1,0 +1,617 @@
+{
+  "slug": "compound-adjective",
+  "name": "Compound Adjectives",
+  "description": "Tính từ ghép B1 — well-known, time-consuming, easy-going, open-minded — 20 tính từ mô tả người và vật.",
+  "order_index": 25,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "well-known",
+      "lemma": "well-known",
+      "ipa": "/ˌwel ˈnəʊn/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "familiar to many people; famous in a particular field or area",
+          "meaning_vi": "nổi tiếng (được nhiều người biết; nổi tiếng trong lĩnh vực nào đó)",
+          "examples": [
+            {
+              "en": "She's a well-known author in Vietnam.",
+              "vi": "Cô ấy là tác giả well-known ở Việt Nam."
+            },
+            {
+              "en": "Phở is a well-known dish worldwide.",
+              "vi": "Phở là món well-known toàn cầu."
+            },
+            {
+              "en": "He runs a well-known coffee shop in Saigon.",
+              "vi": "Anh ấy điều hành quán cà phê well-known ở Sài Gòn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["famous"],
+      "antonyms": ["obscure", "unknown"],
+      "collocations": ["well-known fact", "well-known author"],
+      "mnemonic_vi": "WELL (tốt) + KNOWN (biết đến) = được biết đến nhiều. Well-known = nổi tiếng."
+    },
+    {
+      "word": "time-consuming",
+      "lemma": "time-consuming",
+      "ipa": "/ˈtaɪm kənsjuːmɪŋ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "taking a lot of time to complete; requiring much time and effort",
+          "meaning_vi": "tốn thời gian (mất nhiều thời gian để hoàn thành; cần nhiều thời gian/công sức)",
+          "examples": [
+            {
+              "en": "Cleaning the entire house is time-consuming.",
+              "vi": "Dọn cả nhà rất time-consuming."
+            },
+            {
+              "en": "Vietnamese visa applications can be time-consuming.",
+              "vi": "Nộp visa Việt có thể time-consuming."
+            },
+            {
+              "en": "Cooking phở from scratch is delicious but time-consuming.",
+              "vi": "Nấu phở từ đầu thì ngon nhưng time-consuming."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lengthy", "tedious"],
+      "antonyms": ["quick"],
+      "collocations": ["highly time-consuming", "time-consuming task"],
+      "mnemonic_vi": "TIME (thời gian) + CONSUMING (tiêu thụ) = tiêu hao thời gian. Time-consuming = tốn thời gian."
+    },
+    {
+      "word": "hand-made",
+      "lemma": "hand-made",
+      "ipa": "/ˌhænd ˈmeɪd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "made by hand rather than by machine, often suggesting higher quality or care",
+          "meaning_vi": "làm thủ công (làm bằng tay không phải máy, thường gợi ý chất lượng cao/cẩn thận)",
+          "examples": [
+            {
+              "en": "She bought a hand-made silk scarf in Hội An.",
+              "vi": "Cô ấy mua khăn lụa hand-made ở Hội An."
+            },
+            {
+              "en": "Hand-made products are more expensive but unique.",
+              "vi": "Sản phẩm hand-made đắt hơn nhưng độc đáo."
+            },
+            {
+              "en": "Vietnamese hand-made lacquerware is famous worldwide.",
+              "vi": "Đồ sơn mài hand-made Việt nổi tiếng thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["handcrafted"],
+      "antonyms": ["machine-made"],
+      "collocations": ["hand-made gift", "hand-made jewelry"],
+      "mnemonic_vi": "HAND (tay) + MADE (làm) = làm tay. Hand-made = làm thủ công."
+    },
+    {
+      "word": "second-hand",
+      "lemma": "second-hand",
+      "ipa": "/ˌsekənd ˈhænd/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "not new; previously owned or used by someone else",
+          "meaning_vi": "đã qua sử dụng (không mới; đã có chủ trước)",
+          "examples": [
+            { "en": "She bought a second-hand bike.", "vi": "Cô ấy mua xe đạp second-hand." },
+            {
+              "en": "Second-hand bookshops are common in old Hanoi.",
+              "vi": "Hiệu sách second-hand phổ biến ở Hà Nội cũ."
+            },
+            {
+              "en": "Vietnamese 'hàng si' shops sell second-hand brand clothes.",
+              "vi": "Cửa hàng 'hàng si' Việt bán quần áo hàng hiệu second-hand."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["used"],
+      "antonyms": ["brand-new"],
+      "collocations": ["second-hand shop", "second-hand car"],
+      "mnemonic_vi": "SECOND (thứ hai) + HAND (tay) = qua tay thứ hai. Second-hand = đồ cũ."
+    },
+    {
+      "word": "long-term",
+      "lemma": "long-term",
+      "ipa": "/ˌlɒŋ ˈtɜːm/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening or existing over a long period of time; for the distant future",
+          "meaning_vi": "dài hạn (xảy ra/tồn tại trong thời gian dài; cho tương lai xa)",
+          "examples": [
+            {
+              "en": "We need a long-term solution, not a quick fix.",
+              "vi": "Ta cần giải pháp long-term, không phải vá tạm."
+            },
+            {
+              "en": "Long-term savings are essential for retirement.",
+              "vi": "Tiết kiệm long-term thiết yếu cho hưu trí."
+            },
+            {
+              "en": "Vietnam's long-term goal is to become a high-income country by 2045.",
+              "vi": "Mục tiêu long-term của Việt Nam là trở thành nước thu nhập cao vào 2045."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["lasting"],
+      "antonyms": ["short-term"],
+      "collocations": ["long-term plan", "long-term investment", "long-term goal"],
+      "mnemonic_vi": "LONG (dài) + TERM (kỳ hạn) = kỳ hạn dài. Long-term = dài hạn."
+    },
+    {
+      "word": "short-term",
+      "lemma": "short-term",
+      "ipa": "/ˌʃɔːt ˈtɜːm/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "happening or existing over a short period of time; for the near future only",
+          "meaning_vi": "ngắn hạn (xảy ra/tồn tại trong thời gian ngắn; chỉ cho tương lai gần)",
+          "examples": [
+            {
+              "en": "These are short-term solutions only.",
+              "vi": "Đây chỉ là giải pháp short-term."
+            },
+            {
+              "en": "She took a short-term contract for 6 months.",
+              "vi": "Cô ấy nhận hợp đồng short-term 6 tháng."
+            },
+            {
+              "en": "Short-term tourism visas are common in Vietnam.",
+              "vi": "Visa du lịch short-term phổ biến ở Việt Nam."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["temporary"],
+      "antonyms": ["long-term"],
+      "collocations": ["short-term goal", "short-term rental"],
+      "mnemonic_vi": "SHORT (ngắn) + TERM (kỳ hạn) = kỳ hạn ngắn. Short-term = ngắn hạn."
+    },
+    {
+      "word": "broken-down",
+      "lemma": "broken-down",
+      "ipa": "/ˌbrəʊkən ˈdaʊn/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "no longer working or functioning; in poor or dilapidated condition",
+          "meaning_vi": "hỏng hóc, tã (không còn hoạt động; ở tình trạng cũ kỹ/đổ nát)",
+          "examples": [
+            { "en": "A broken-down car blocked the road.", "vi": "Một xe broken-down chắn đường." },
+            { "en": "She lives in a broken-down old house.", "vi": "Cô ấy ở nhà cũ broken-down." },
+            {
+              "en": "Vietnamese mountain roads sometimes have broken-down trucks.",
+              "vi": "Đường núi Việt đôi khi có xe tải broken-down."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["dilapidated"],
+      "antonyms": ["new", "working"],
+      "collocations": ["broken-down vehicle", "broken-down state"],
+      "mnemonic_vi": "BROKEN (vỡ) + DOWN (xuống) = vỡ xuống. Broken-down = hỏng hóc, tã."
+    },
+    {
+      "word": "double-decker",
+      "lemma": "double-decker",
+      "ipa": "/ˌdʌbl ˈdekə(r)/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having two levels or decks, especially a bus, plane, or sandwich",
+          "meaning_vi": "hai tầng (có 2 tầng/lớp, đặc biệt xe buýt/máy bay/bánh sandwich)",
+          "examples": [
+            {
+              "en": "Tourists love riding London's double-decker buses.",
+              "vi": "Du khách thích đi xe buýt double-decker London."
+            },
+            {
+              "en": "She ordered a double-decker sandwich.",
+              "vi": "Cô ấy gọi bánh sandwich double-decker."
+            },
+            {
+              "en": "Saigon's tourist buses include double-decker models.",
+              "vi": "Xe buýt du lịch Sài Gòn có dòng double-decker."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["single-decker"],
+      "collocations": ["double-decker bus", "double-decker sandwich"],
+      "mnemonic_vi": "DOUBLE (đôi) + DECKER (tầng) = hai tầng. Double-decker = xe/máy bay 2 tầng."
+    },
+    {
+      "word": "easy-going",
+      "lemma": "easy-going",
+      "ipa": "/ˌiːzi ˈɡəʊɪŋ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "relaxed and tolerant; not easily upset or worried by problems",
+          "meaning_vi": "dễ tính (thư giãn và bao dung; không dễ bị stress hay lo)",
+          "examples": [
+            {
+              "en": "He's so easy-going that everyone gets along with him.",
+              "vi": "Anh ấy easy-going đến mức ai cũng hợp."
+            },
+            {
+              "en": "Vietnamese countryside people are typically easy-going.",
+              "vi": "Người miền quê Việt thường easy-going."
+            },
+            {
+              "en": "Easy-going parents make for happy households.",
+              "vi": "Cha mẹ easy-going tạo gia đình hạnh phúc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["laid-back", "relaxed"],
+      "antonyms": ["uptight", "strict"],
+      "collocations": ["very easy-going", "easy-going personality"],
+      "mnemonic_vi": "EASY (dễ) + GOING (đi) = dễ đi. Easy-going = dễ tính."
+    },
+    {
+      "word": "good-looking",
+      "lemma": "good-looking",
+      "ipa": "/ˌɡʊd ˈlʊkɪŋ/",
+      "pos": "adjective",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "physically attractive; pleasing in appearance",
+          "meaning_vi": "ưa nhìn, đẹp trai/gái (đẹp về ngoại hình; trông hấp dẫn)",
+          "examples": [
+            {
+              "en": "He's tall, kind, and good-looking.",
+              "vi": "Anh ấy cao, tốt bụng và good-looking."
+            },
+            {
+              "en": "She's not just good-looking — she's also smart.",
+              "vi": "Cô ấy không chỉ good-looking — còn thông minh."
+            },
+            {
+              "en": "Vietnamese matchmakers used to rank good-looking suitors.",
+              "vi": "Mai mối Việt từng xếp hạng các suitor good-looking."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["attractive", "handsome"],
+      "antonyms": ["plain"],
+      "collocations": ["very good-looking", "good-looking guy"],
+      "mnemonic_vi": "GOOD (tốt) + LOOKING (nhìn) = nhìn tốt. Good-looking = ưa nhìn."
+    },
+    {
+      "word": "old-fashioned",
+      "lemma": "old-fashioned",
+      "ipa": "/ˌəʊld ˈfæʃnd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "according to an old style; no longer modern or fashionable; preferring traditional ways",
+          "meaning_vi": "lỗi thời, cổ điển (theo phong cách cũ; không còn hiện đại; ưa cách truyền thống)",
+          "examples": [
+            {
+              "en": "He has old-fashioned views about marriage.",
+              "vi": "Anh ấy có quan điểm old-fashioned về hôn nhân."
+            },
+            {
+              "en": "Old-fashioned wooden houses still stand in Hà Nội Old Quarter.",
+              "vi": "Nhà gỗ old-fashioned vẫn đứng ở Phố Cổ Hà Nội."
+            },
+            {
+              "en": "She prefers old-fashioned letters to emails.",
+              "vi": "Cô ấy thích thư old-fashioned hơn email."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outdated", "traditional"],
+      "antonyms": ["modern"],
+      "collocations": ["old-fashioned values", "old-fashioned style"],
+      "mnemonic_vi": "OLD (cũ) + FASHIONED (kiểu) = kiểu cũ. Old-fashioned = lỗi thời/cổ điển."
+    },
+    {
+      "word": "open-minded",
+      "lemma": "open-minded",
+      "ipa": "/ˌəʊpən ˈmaɪndɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "willing to consider new ideas, opinions, or experiences without prejudice",
+          "meaning_vi": "cởi mở (sẵn sàng tiếp nhận ý tưởng/quan điểm/trải nghiệm mới không định kiến)",
+          "examples": [
+            {
+              "en": "Travel makes you more open-minded.",
+              "vi": "Du lịch làm bạn open-minded hơn."
+            },
+            {
+              "en": "Open-minded leaders adapt to change quickly.",
+              "vi": "Lãnh đạo open-minded thích nghi thay đổi nhanh."
+            },
+            {
+              "en": "Younger Vietnamese tend to be more open-minded than their parents.",
+              "vi": "Người Việt trẻ thường open-minded hơn cha mẹ họ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["receptive"],
+      "antonyms": ["narrow-minded"],
+      "collocations": ["truly open-minded", "open-minded attitude"],
+      "mnemonic_vi": "OPEN (mở) + MINDED (tâm trí) = tâm trí mở. Open-minded = cởi mở."
+    },
+    {
+      "word": "narrow-minded",
+      "lemma": "narrow-minded",
+      "ipa": "/ˌnærəʊ ˈmaɪndɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "not willing to accept new ideas or different opinions; prejudiced or limited in outlook",
+          "meaning_vi": "hẹp hòi, định kiến (không chấp nhận ý mới/quan điểm khác; có định kiến/tầm nhìn hạn chế)",
+          "examples": [
+            {
+              "en": "Narrow-minded people miss out on great experiences.",
+              "vi": "Người narrow-minded bỏ lỡ trải nghiệm hay."
+            },
+            {
+              "en": "His narrow-minded comments offended everyone.",
+              "vi": "Bình luận narrow-minded của anh ấy xúc phạm mọi người."
+            },
+            {
+              "en": "Older Vietnamese sometimes hold narrow-minded views on dating.",
+              "vi": "Người Việt lớn tuổi đôi khi có quan điểm narrow-minded về hẹn hò."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prejudiced"],
+      "antonyms": ["open-minded"],
+      "collocations": ["narrow-minded view", "narrow-minded attitude"],
+      "mnemonic_vi": "NARROW (hẹp) + MINDED (tâm trí) = tâm trí hẹp. Narrow-minded = hẹp hòi."
+    },
+    {
+      "word": "self-confident",
+      "lemma": "self-confident",
+      "ipa": "/ˌself ˈkɒnfɪdənt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having confidence in oneself, one's abilities, and one's judgment",
+          "meaning_vi": "tự tin (có niềm tin vào bản thân, khả năng và phán đoán của mình)",
+          "examples": [
+            { "en": "She's a self-confident speaker.", "vi": "Cô ấy là speaker self-confident." },
+            {
+              "en": "Practice helps you become more self-confident.",
+              "vi": "Luyện tập giúp bạn self-confident hơn."
+            },
+            {
+              "en": "Vietnamese students are training to be more self-confident in English presentations.",
+              "vi": "Học sinh Việt đang luyện self-confident hơn trong thuyết trình tiếng Anh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["assured"],
+      "antonyms": ["insecure"],
+      "collocations": ["very self-confident", "self-confident woman"],
+      "mnemonic_vi": "SELF (mình) + CONFIDENT (tin) = tin mình. Self-confident = tự tin."
+    },
+    {
+      "word": "last-minute",
+      "lemma": "last-minute",
+      "ipa": "/ˌlɑːst ˈmɪnɪt/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "done, arranged, or decided at the very end of the available time; at the latest possible moment",
+          "meaning_vi": "phút chót (làm/sắp xếp/quyết định ngay cuối thời gian có sẵn; vào khoảnh khắc cuối)",
+          "examples": [
+            {
+              "en": "She made a last-minute decision to travel.",
+              "vi": "Cô ấy quyết định last-minute đi du lịch."
+            },
+            {
+              "en": "Last-minute flight deals are often the cheapest.",
+              "vi": "Vé bay last-minute thường rẻ nhất."
+            },
+            {
+              "en": "Vietnamese students often pull last-minute all-nighters before exams.",
+              "vi": "Học sinh Việt thường thức trắng đêm last-minute trước kỳ thi."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["eleventh-hour"],
+      "antonyms": ["planned"],
+      "collocations": ["last-minute change", "last-minute deal", "last-minute decision"],
+      "mnemonic_vi": "LAST (cuối) + MINUTE (phút) = phút cuối. Last-minute = phút chót."
+    },
+    {
+      "word": "ready-made",
+      "lemma": "ready-made",
+      "ipa": "/ˌredi ˈmeɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "already prepared and not needing to be made or designed; available off the shelf",
+          "meaning_vi": "làm sẵn (đã chuẩn bị, không cần tự làm; có sẵn trên kệ)",
+          "examples": [
+            {
+              "en": "She bought a ready-made cake from the bakery.",
+              "vi": "Cô ấy mua bánh ready-made từ tiệm bánh."
+            },
+            {
+              "en": "Ready-made meals save time but cost more.",
+              "vi": "Đồ ăn ready-made tiết kiệm thời gian nhưng đắt hơn."
+            },
+            {
+              "en": "Vietnamese supermarkets sell more ready-made meals than 10 years ago.",
+              "vi": "Siêu thị Việt bán nhiều đồ ăn ready-made hơn 10 năm trước."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prepared", "off-the-shelf"],
+      "antonyms": ["custom-made"],
+      "collocations": ["ready-made solution", "ready-made meal"],
+      "mnemonic_vi": "READY (sẵn) + MADE (làm) = đã làm sẵn. Ready-made = có sẵn."
+    },
+    {
+      "word": "low-cost",
+      "lemma": "low-cost",
+      "ipa": "/ˌləʊ ˈkɒst/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "cheap or inexpensive; offering goods or services at low prices",
+          "meaning_vi": "giá rẻ (chi phí thấp; bán hàng/dịch vụ giá thấp)",
+          "examples": [
+            {
+              "en": "Low-cost airlines have transformed budget travel.",
+              "vi": "Hãng bay low-cost đã biến đổi du lịch ngân sách thấp."
+            },
+            {
+              "en": "VietJet is Vietnam's biggest low-cost carrier.",
+              "vi": "VietJet là hãng low-cost lớn nhất Việt Nam."
+            },
+            {
+              "en": "Low-cost housing is a big issue in Asian megacities.",
+              "vi": "Nhà ở low-cost là vấn đề lớn ở megacity châu Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["budget", "cheap"],
+      "antonyms": ["luxury"],
+      "collocations": ["low-cost airline", "low-cost option"],
+      "mnemonic_vi": "LOW (thấp) + COST (chi phí) = chi phí thấp. Low-cost = giá rẻ."
+    },
+    {
+      "word": "kind-hearted",
+      "lemma": "kind-hearted",
+      "ipa": "/ˌkaɪnd ˈhɑːtɪd/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "having a kind and generous nature; sympathetic and willing to help others",
+          "meaning_vi": "tốt bụng (có bản tính tốt, hào phóng; cảm thông và sẵn lòng giúp)",
+          "examples": [
+            {
+              "en": "Her grandmother is the most kind-hearted person I know.",
+              "vi": "Bà của cô ấy là người kind-hearted nhất tôi biết."
+            },
+            {
+              "en": "Kind-hearted neighbors brought food when she was sick.",
+              "vi": "Hàng xóm kind-hearted mang đồ ăn khi cô ấy ốm."
+            },
+            {
+              "en": "Vietnamese culture honors kind-hearted elders as role models.",
+              "vi": "Văn hóa Việt tôn vinh người lớn tuổi kind-hearted là gương mẫu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["compassionate"],
+      "antonyms": ["cruel"],
+      "collocations": ["truly kind-hearted", "kind-hearted gesture"],
+      "mnemonic_vi": "KIND (tốt) + HEARTED (có tim) = trái tim tốt. Kind-hearted = tốt bụng."
+    },
+    {
+      "word": "cost-effective",
+      "lemma": "cost-effective",
+      "ipa": "/ˌkɒst ɪˈfektɪv/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "giving good value for the money spent; achieving the most benefit at the lowest cost",
+          "meaning_vi": "hiệu quả về chi phí (giá trị tốt so với tiền bỏ ra; lợi ích cao nhất với chi phí thấp nhất)",
+          "examples": [
+            {
+              "en": "Solar panels are now cost-effective for many homeowners.",
+              "vi": "Pin mặt trời giờ cost-effective với nhiều chủ nhà."
+            },
+            {
+              "en": "We need a more cost-effective marketing strategy.",
+              "vi": "Ta cần chiến lược marketing cost-effective hơn."
+            },
+            {
+              "en": "Vietnamese factories are famous for cost-effective production.",
+              "vi": "Nhà máy Việt nổi tiếng vì sản xuất cost-effective."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["economical"],
+      "antonyms": ["wasteful"],
+      "collocations": ["highly cost-effective", "cost-effective solution"],
+      "mnemonic_vi": "COST (chi phí) + EFFECTIVE (hiệu quả) = chi phí hiệu quả. Cost-effective = đáng đồng tiền."
+    },
+    {
+      "word": "eye-catching",
+      "lemma": "eye-catching",
+      "ipa": "/ˈaɪ kætʃɪŋ/",
+      "pos": "adjective",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "immediately noticeable; visually striking and attracting attention",
+          "meaning_vi": "bắt mắt (nổi bật ngay; gây ấn tượng thị giác và thu hút chú ý)",
+          "examples": [
+            {
+              "en": "She wore an eye-catching red dress to the gala.",
+              "vi": "Cô ấy mặc váy đỏ eye-catching đến dạ tiệc."
+            },
+            {
+              "en": "The poster has eye-catching colors.",
+              "vi": "Poster có màu sắc eye-catching."
+            },
+            {
+              "en": "Vietnamese street murals are often eye-catching tourist attractions.",
+              "vi": "Tranh tường đường phố Việt thường là điểm du lịch eye-catching."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["striking", "attention-grabbing"],
+      "antonyms": ["dull"],
+      "collocations": ["eye-catching design", "eye-catching headline"],
+      "mnemonic_vi": "EYE (mắt) + CATCHING (bắt) = bắt mắt. Eye-catching = thu hút mắt nhìn."
+    }
+  ]
+}

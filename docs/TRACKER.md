@@ -489,6 +489,14 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P11c set phrases + compounds — P11 CLOSED 15/15** (5 lessons / 100 cards, 2026-05-17, commit `3d09c45` → merge `9f78585`):
+    - set-phrases-logic (20 connectors): in-fact, of-course, as-a-result, for-example, by-the-way, on-the-other-hand, in-addition, in-other-words, in-conclusion, according-to, apart-from, instead-of, in-spite-of, as-well-as, in-particular, on-the-whole, no-doubt, each-other, one-another, regardless-of
+    - set-phrases-time (20 time/degree): at-last, at-first, at-least, at-most, at-once, in-time, on-time, in-the-end, all-of-a-sudden, sooner-or-later, from-now-on, in-advance, in-the-meantime, for-now, for-ages, in-a-moment, just-in-case, on-the-spot, all-the-time, at-the-same-time
+    - compound-services (20 objects/places): post-office, traffic-light, swimming-pool, ice-cream, cell-phone, mobile-phone, credit-card, alarm-clock, washing-machine, vending-machine, hair-dryer, coffee-shop, shopping-mall, parking-lot, movie-theater, prime-minister, sleeping-bag, dining-room, living-room, fire-engine
+    - compound-people (20 relations): son/daughter/brother/sister/mother/father-in-law (6), grandson, granddaughter, grandparent, godfather, godmother, roommate, schoolmate, teammate, businesswoman, businessman, sportsman, breadwinner, housewife, babysitter
+    - compound-adjective (20 traits): well-known, time-consuming, hand-made, second-hand, long-term, short-term, broken-down, double-decker, easy-going, good-looking, old-fashioned, open-minded, narrow-minded, self-confident, last-minute, ready-made, low-cost, kind-hearted, cost-effective, eye-catching
+    - Collision pivots: full-time/part-time (taken career), self-employed (taken freelance-remote) → last-minute. landlord/tenant/classmate/host-family dropped. Zod green. Seed live: **pending user manual run** (target 182 lessons / 3640 cards).
+    - **P11 CLOSED**: 15 lessons / 300 multi-word entries. Phrasal + set phrases + compounds done.
   - [x] **P11b phrasal verbs** (5 lessons / 100 cards, 2026-05-17, commit `354f567` → merge `c68502d`) — P11 10/15: call-check, break-build, pick-pull, hand-hold, cut-keep — 100 phrasal verbs từ Oxford 3000 wordlist. Bug fix: phrasal-pick-pull có duplicate pile-up + placeholder pull-off-2 đã fix trước commit.
   - [x] **P11a phrasal verbs** (5 lessons / 100 cards, 2026-05-17, commit `bf3ce79` → merge `2e43495`) — P11 5/15:
     - `common-core/phrasal-get-give` — get-up, get-out, get-back, get-on, get-off, get-by, get-in, get-into, get-away, get-over, get-through, get-around, give-up, give-back, give-in, give-out, give-away, give-off, get-along, get-rid-of
@@ -580,10 +588,10 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
 - [x] **P10 B2 expansion** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P11 Phrasal & Compound** (15 lessons / 300 cards) — P11a/b done (10/15), TODO P11c
-- [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
+- [x] **P11 Phrasal & Compound** (15 lessons / 300 cards) — **CLOSED 15/15**
+- [~] **P12 Final fill** (15 lessons / 300 cards) — TODO (next phase)
 
-**Progress**: 172/192 lessons (90%), 3440/3840 cards (90%), ~90% Oxford 3000 coverage. **P7-P10 CLOSED**, **P11 10/15 (phrasal verbs)**, next: P11c (set phrases + compounds — 5 lessons để đóng P11).
+**Progress**: 182/192 lessons (95%), 3640/3840 cards (95%), ~95% Oxford 3000 coverage. **P7-P11 CLOSED**, next: **P12 final fill** (15 lessons để đóng 100% Oxford 3000 = 192/192).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 

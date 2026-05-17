@@ -1,0 +1,614 @@
+{
+  "slug": "set-phrases-logic",
+  "name": "Set Phrases: Logic & Connectors",
+  "description": "Cụm cố định B1 — in fact, of course, as a result, by the way — 20 cụm nối câu cho viết và nói.",
+  "order_index": 21,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "in-fact",
+      "lemma": "in fact",
+      "ipa": "/ɪn ˈfækt/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "used to give more detailed or surprising information that confirms or emphasizes the previous statement",
+          "meaning_vi": "thực ra (đưa thông tin chi tiết/bất ngờ xác nhận hoặc nhấn mạnh câu trước)",
+          "examples": [
+            {
+              "en": "He's good at math. In fact, he won a national contest.",
+              "vi": "Anh ấy giỏi toán. In-fact, anh thắng giải quốc gia."
+            },
+            {
+              "en": "I'm not tired. In fact, I'm wide awake.",
+              "vi": "Tôi không mệt. In-fact, tôi tỉnh như sáo."
+            },
+            {
+              "en": "Vietnamese coffee is strong. In fact, it's among the strongest in the world.",
+              "vi": "Cà phê Việt mạnh. In-fact, mạnh nhất nhì thế giới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["actually", "indeed"],
+      "antonyms": [],
+      "collocations": ["in fact, ...", "as a matter of fact"],
+      "mnemonic_vi": "IN + FACT (sự thật) = trong sự thật. In-fact = thực ra."
+    },
+    {
+      "word": "of-course",
+      "lemma": "of course",
+      "ipa": "/əv ˈkɔːs/",
+      "pos": "adverb",
+      "cefr": "A1",
+      "definitions": [
+        {
+          "meaning_en": "used to confirm something that is expected, obvious, or already known; a polite way to say yes",
+          "meaning_vi": "tất nhiên (xác nhận điều dĩ nhiên/đã biết; cách nói 'có' lịch sự)",
+          "examples": [
+            {
+              "en": "Of course you can borrow my book.",
+              "vi": "Of-course bạn có thể mượn sách của tôi."
+            },
+            {
+              "en": "Of course Vietnam is in Southeast Asia.",
+              "vi": "Of-course Việt Nam nằm ở Đông Nam Á."
+            },
+            {
+              "en": "She'll come, of course — she promised.",
+              "vi": "Cô ấy sẽ đến, of-course — cô ấy đã hứa."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["certainly", "naturally"],
+      "antonyms": [],
+      "collocations": ["of course not", "yes of course", "of course you can"],
+      "mnemonic_vi": "OF + COURSE (đường đi) = đi cùng đường. Of-course = tất nhiên."
+    },
+    {
+      "word": "as-a-result",
+      "lemma": "as a result",
+      "ipa": "/əz ə rɪˈzʌlt/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce the consequence or outcome of a previous action or situation",
+          "meaning_vi": "kết quả là (giới thiệu hậu quả/kết quả từ hành động/tình huống trước)",
+          "examples": [
+            {
+              "en": "It rained heavily. As a result, the match was canceled.",
+              "vi": "Mưa lớn. As-a-result, trận đấu bị hủy."
+            },
+            {
+              "en": "She studied hard. As a result, she got a scholarship.",
+              "vi": "Cô ấy học chăm. As-a-result, cô có học bổng."
+            },
+            {
+              "en": "Saigon's traffic worsened. As a result, the metro project sped up.",
+              "vi": "Giao thông Sài Gòn tệ hơn. As-a-result, dự án metro được tăng tốc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consequently", "therefore"],
+      "antonyms": [],
+      "collocations": ["as a result of", "as a direct result"],
+      "mnemonic_vi": "AS + A + RESULT (kết quả) = như kết quả. As-a-result = do đó."
+    },
+    {
+      "word": "for-example",
+      "lemma": "for example",
+      "ipa": "/fər ɪɡˈzɑːmpl/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a specific case that illustrates or proves a general statement",
+          "meaning_vi": "ví dụ (giới thiệu trường hợp cụ thể minh họa/chứng minh cho câu chung)",
+          "examples": [
+            {
+              "en": "I love tropical fruit, for example mango and dragon fruit.",
+              "vi": "Tôi yêu trái nhiệt đới, for-example xoài và thanh long."
+            },
+            {
+              "en": "Vietnamese cuisine is diverse — for example, phở, bún bò, and bánh mì.",
+              "vi": "Ẩm thực Việt đa dạng — for-example, phở, bún bò và bánh mì."
+            },
+            {
+              "en": "Take this dish, for example — it has both Chinese and French influences.",
+              "vi": "Lấy món này for-example — có cả ảnh hưởng Trung và Pháp."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["e.g.", "for instance"],
+      "antonyms": [],
+      "collocations": ["for example, like...", "such as for example"],
+      "mnemonic_vi": "FOR + EXAMPLE (ví dụ) = cho ví dụ. For-example = ví dụ. Viết tắt e.g. (Latin: exempli gratia)."
+    },
+    {
+      "word": "by-the-way",
+      "lemma": "by the way",
+      "ipa": "/baɪ ðə ˈweɪ/",
+      "pos": "adverb",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a new topic that is related but not the main point; abbreviated as BTW",
+          "meaning_vi": "nhân tiện (đưa chủ đề mới có liên quan nhưng không phải trọng tâm; viết tắt BTW)",
+          "examples": [
+            {
+              "en": "By the way, did you hear about Linh's promotion?",
+              "vi": "By-the-way, bạn nghe tin Linh thăng chức chưa?"
+            },
+            {
+              "en": "By the way, the meeting was moved to 3 p.m.",
+              "vi": "By-the-way, cuộc họp dời sang 3 giờ chiều."
+            },
+            {
+              "en": "By the way, what's the Vietnamese word for 'mindfulness'?",
+              "vi": "By-the-way, từ tiếng Việt cho 'mindfulness' là gì?"
+            }
+          ]
+        }
+      ],
+      "synonyms": ["incidentally", "BTW"],
+      "antonyms": [],
+      "collocations": ["by the way, ...", "oh, by the way"],
+      "mnemonic_vi": "BY + THE + WAY (đường) = bên đường. By-the-way = nhân tiện, tiện thể."
+    },
+    {
+      "word": "on-the-other-hand",
+      "lemma": "on the other hand",
+      "ipa": "/ɒn ði ˌʌðə ˈhænd/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce a contrasting fact, opinion, or perspective to balance the previous statement",
+          "meaning_vi": "mặt khác (giới thiệu sự thật/ý kiến/góc nhìn đối lập để cân bằng câu trước)",
+          "examples": [
+            {
+              "en": "Tokyo is expensive. On the other hand, it's very safe.",
+              "vi": "Tokyo đắt. On-the-other-hand, rất an toàn."
+            },
+            {
+              "en": "She loves Saigon's energy. On the other hand, the heat is exhausting.",
+              "vi": "Cô ấy yêu năng lượng Sài Gòn. On-the-other-hand, cái nóng kiệt sức."
+            },
+            {
+              "en": "Studying alone is quiet. On the other hand, group study makes you accountable.",
+              "vi": "Học một mình yên tĩnh. On-the-other-hand, học nhóm khiến bạn có trách nhiệm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["however", "conversely"],
+      "antonyms": [],
+      "collocations": ["on the one hand... on the other hand"],
+      "mnemonic_vi": "ON + THE + OTHER + HAND (tay) = ở tay kia. On-the-other-hand = mặt khác."
+    },
+    {
+      "word": "in-addition",
+      "lemma": "in addition",
+      "ipa": "/ɪn əˈdɪʃn/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "used to add information that supports or extends the previous statement",
+          "meaning_vi": "thêm vào đó (thêm thông tin hỗ trợ/mở rộng câu trước)",
+          "examples": [
+            {
+              "en": "The course is online. In addition, all materials are free.",
+              "vi": "Khóa học online. In-addition, mọi tài liệu miễn phí."
+            },
+            {
+              "en": "She speaks English. In addition, she's fluent in Mandarin.",
+              "vi": "Cô ấy nói tiếng Anh. In-addition, thông thạo Trung."
+            },
+            {
+              "en": "Vietnamese coffee shops serve drinks. In addition, they offer free Wi-Fi.",
+              "vi": "Quán cà phê Việt phục vụ đồ uống. In-addition, có Wi-Fi miễn phí."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["moreover", "furthermore"],
+      "antonyms": [],
+      "collocations": ["in addition to", "in addition, ..."],
+      "mnemonic_vi": "IN + ADDITION (thêm) = thêm vào. In-addition = thêm vào đó."
+    },
+    {
+      "word": "in-other-words",
+      "lemma": "in other words",
+      "ipa": "/ɪn ˌʌðə ˈwɜːdz/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "used to restate something more simply or clearly, often paraphrasing the previous idea",
+          "meaning_vi": "nói cách khác (diễn đạt lại đơn giản hơn, thường là viết lại ý trước)",
+          "examples": [
+            {
+              "en": "He's an introvert. In other words, he prefers being alone.",
+              "vi": "Anh ấy hướng nội. In-other-words, anh thích ở một mình."
+            },
+            {
+              "en": "She failed. In other words, she didn't pass the exam.",
+              "vi": "Cô ấy thất bại. In-other-words, cô không đậu kỳ thi."
+            },
+            {
+              "en": "Vietnamese reformers wanted Đổi Mới. In other words, market-based change.",
+              "vi": "Cải cách Việt muốn Đổi Mới. In-other-words, thay đổi theo thị trường."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["that is", "i.e."],
+      "antonyms": [],
+      "collocations": ["in other words, ..."],
+      "mnemonic_vi": "IN + OTHER + WORDS (từ) = bằng từ khác. In-other-words = nói cách khác."
+    },
+    {
+      "word": "in-conclusion",
+      "lemma": "in conclusion",
+      "ipa": "/ɪn kənˈkluːʒn/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "used to introduce the final part of a discussion, essay, or speech, summarizing the key points",
+          "meaning_vi": "kết luận (giới thiệu phần cuối của thảo luận/bài luận/diễn văn, tóm tắt ý chính)",
+          "examples": [
+            {
+              "en": "In conclusion, exercise improves both mental and physical health.",
+              "vi": "In-conclusion, tập thể dục cải thiện cả tinh thần lẫn thể chất."
+            },
+            {
+              "en": "In conclusion, three factors drove the company's growth.",
+              "vi": "In-conclusion, ba yếu tố thúc đẩy tăng trưởng công ty."
+            },
+            {
+              "en": "Vietnamese essays traditionally end with 'in conclusion' before the final paragraph.",
+              "vi": "Bài luận Việt truyền thống kết bằng 'in-conclusion' trước đoạn cuối."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["finally", "to sum up"],
+      "antonyms": ["to begin with"],
+      "collocations": ["in conclusion, therefore"],
+      "mnemonic_vi": "IN + CONCLUSION (kết luận) = trong kết luận. In-conclusion = tóm lại."
+    },
+    {
+      "word": "according-to",
+      "lemma": "according to",
+      "ipa": "/əˈkɔːdɪŋ tə/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "as stated by a source; based on what someone or something says",
+          "meaning_vi": "theo (như nguồn nói; dựa vào điều ai/cái gì cho biết)",
+          "examples": [
+            {
+              "en": "According to the news, it will rain tomorrow.",
+              "vi": "According-to bản tin, mai sẽ mưa."
+            },
+            {
+              "en": "According to Wikipedia, Vietnam has 54 ethnic groups.",
+              "vi": "According-to Wikipedia, Việt Nam có 54 dân tộc."
+            },
+            {
+              "en": "According to my doctor, I should drink more water.",
+              "vi": "According-to bác sĩ, tôi nên uống nhiều nước hơn."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["per", "as per"],
+      "antonyms": [],
+      "collocations": ["according to research", "according to the law", "according to plan"],
+      "mnemonic_vi": "ACCORDING (theo) + TO = theo. According-to = theo lời ai/nguồn nào."
+    },
+    {
+      "word": "apart-from",
+      "lemma": "apart from",
+      "ipa": "/əˈpɑːt frəm/",
+      "pos": "preposition",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "except for; in addition to (depending on context)",
+          "meaning_vi": "ngoài ra, trừ (loại trừ; cộng thêm — tùy ngữ cảnh)",
+          "examples": [
+            {
+              "en": "Apart from sushi, I love everything Japanese.",
+              "vi": "Apart-from sushi, tôi yêu mọi thứ Nhật."
+            },
+            {
+              "en": "Apart from her age, she's qualified for the job.",
+              "vi": "Apart-from tuổi, cô ấy đủ tiêu chuẩn cho công việc."
+            },
+            {
+              "en": "Apart from Tết, Vietnamese also celebrate the mid-autumn festival.",
+              "vi": "Apart-from Tết, người Việt còn ăn mừng Trung Thu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["except for", "besides"],
+      "antonyms": [],
+      "collocations": ["apart from that", "apart from this"],
+      "mnemonic_vi": "APART (riêng) + FROM (từ) = riêng khỏi. Apart-from = ngoài ra/trừ."
+    },
+    {
+      "word": "instead-of",
+      "lemma": "instead of",
+      "ipa": "/ɪnˈsted əv/",
+      "pos": "preposition",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "in place of; as a substitute for someone or something",
+          "meaning_vi": "thay vì (thay cho ai/cái gì)",
+          "examples": [
+            { "en": "Drink water instead of soda.", "vi": "Uống nước instead-of nước ngọt." },
+            { "en": "I'll go instead of you.", "vi": "Tôi sẽ đi instead-of bạn." },
+            {
+              "en": "Vietnamese health campaigns promote walking instead of driving.",
+              "vi": "Chiến dịch y tế Việt khuyến khích đi bộ instead-of lái xe."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["in place of", "rather than"],
+      "antonyms": [],
+      "collocations": ["instead of doing", "use X instead of Y"],
+      "mnemonic_vi": "IN + STEAD (chỗ) + OF (của) = vào chỗ của. Instead-of = thay vì."
+    },
+    {
+      "word": "in-spite-of",
+      "lemma": "in spite of",
+      "ipa": "/ɪn ˈspaɪt əv/",
+      "pos": "preposition",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "regardless of; despite something that might prevent or affect the outcome",
+          "meaning_vi": "mặc dù (bất kể; bất chấp điều gì có thể ngăn cản hoặc ảnh hưởng)",
+          "examples": [
+            {
+              "en": "She went out in spite of the heavy rain.",
+              "vi": "Cô ấy đi ra in-spite-of mưa lớn."
+            },
+            {
+              "en": "In spite of the long journey, they arrived smiling.",
+              "vi": "In-spite-of chặng đường dài, họ đến nơi vẫn cười."
+            },
+            {
+              "en": "Vietnam grew in spite of global economic headwinds.",
+              "vi": "Việt Nam tăng trưởng in-spite-of khó khăn kinh tế toàn cầu."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["despite", "regardless of"],
+      "antonyms": [],
+      "collocations": ["in spite of everything", "in spite of the fact"],
+      "mnemonic_vi": "IN + SPITE (sự bất chấp) + OF = trong bất chấp. In-spite-of = bất chấp, mặc dù."
+    },
+    {
+      "word": "as-well-as",
+      "lemma": "as well as",
+      "ipa": "/əz ˈwel əz/",
+      "pos": "conjunction",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "in addition to; not only X but also Y",
+          "meaning_vi": "cũng như, ngoài X còn Y (thêm vào; không chỉ X mà cả Y)",
+          "examples": [
+            {
+              "en": "She speaks French as well as Spanish.",
+              "vi": "Cô ấy nói tiếng Pháp as-well-as tiếng Tây Ban Nha."
+            },
+            {
+              "en": "Vietnam exports rice as well as coffee.",
+              "vi": "Việt Nam xuất gạo as-well-as cà phê."
+            },
+            { "en": "Work hard as well as play hard.", "vi": "Làm chăm as-well-as chơi chăm." }
+          ]
+        }
+      ],
+      "synonyms": ["and", "also"],
+      "antonyms": [],
+      "collocations": ["X as well as Y", "as well as that"],
+      "mnemonic_vi": "AS + WELL (tốt) + AS = cũng tốt như. As-well-as = và, ngoài ra."
+    },
+    {
+      "word": "in-particular",
+      "lemma": "in particular",
+      "ipa": "/ɪn pəˈtɪkjələ(r)/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "especially; used to single out a specific case or example",
+          "meaning_vi": "đặc biệt (chỉ ra trường hợp/ví dụ cụ thể)",
+          "examples": [
+            {
+              "en": "I love Asian cuisine, Vietnamese in particular.",
+              "vi": "Tôi yêu ẩm thực Á, đặc biệt in-particular Việt."
+            },
+            {
+              "en": "In particular, the older generation has strong opinions on this.",
+              "vi": "In-particular, thế hệ già có ý kiến mạnh về việc này."
+            },
+            {
+              "en": "Saigon, in particular, is famous for street food.",
+              "vi": "Sài Gòn, in-particular, nổi tiếng vì ẩm thực đường phố."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["especially", "specifically"],
+      "antonyms": [],
+      "collocations": ["in particular, ...", "nothing in particular"],
+      "mnemonic_vi": "IN + PARTICULAR (cụ thể) = vào chỗ cụ thể. In-particular = đặc biệt là."
+    },
+    {
+      "word": "on-the-whole",
+      "lemma": "on the whole",
+      "ipa": "/ɒn ðə ˈhəʊl/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "generally; considering everything as a whole; usually",
+          "meaning_vi": "nhìn chung (tổng quan; xét tất cả; thông thường)",
+          "examples": [
+            {
+              "en": "On the whole, the project was successful.",
+              "vi": "On-the-whole, dự án thành công."
+            },
+            {
+              "en": "On the whole, Vietnamese students are diligent.",
+              "vi": "On-the-whole, học sinh Việt cần cù."
+            },
+            {
+              "en": "On the whole, I prefer Saigon's weather to Hanoi's.",
+              "vi": "On-the-whole, tôi thích thời tiết Sài Gòn hơn Hà Nội."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["generally", "overall"],
+      "antonyms": [],
+      "collocations": ["on the whole, ..."],
+      "mnemonic_vi": "ON + THE + WHOLE (toàn bộ) = trên toàn bộ. On-the-whole = nhìn chung."
+    },
+    {
+      "word": "no-doubt",
+      "lemma": "no doubt",
+      "ipa": "/ˌnəʊ ˈdaʊt/",
+      "pos": "adverb",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "used to express certainty or to acknowledge what is likely true",
+          "meaning_vi": "không nghi ngờ, chắc chắn (thể hiện sự chắc chắn hoặc thừa nhận điều có khả năng đúng)",
+          "examples": [
+            {
+              "en": "No doubt the weather will improve by Sunday.",
+              "vi": "No-doubt thời tiết sẽ tốt hơn vào Chủ nhật."
+            },
+            {
+              "en": "She's tired, no doubt, after the long flight.",
+              "vi": "Cô ấy mệt, no-doubt, sau chuyến bay dài."
+            },
+            {
+              "en": "No doubt Vietnam will continue to grow rapidly.",
+              "vi": "No-doubt Việt Nam sẽ tiếp tục tăng trưởng nhanh."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["certainly", "undoubtedly"],
+      "antonyms": ["maybe"],
+      "collocations": ["no doubt about it", "no doubt that"],
+      "mnemonic_vi": "NO + DOUBT (nghi ngờ) = không nghi ngờ. No-doubt = chắc chắn."
+    },
+    {
+      "word": "each-other",
+      "lemma": "each other",
+      "ipa": "/iːtʃ ˈʌðə(r)/",
+      "pos": "pronoun",
+      "cefr": "A2",
+      "definitions": [
+        {
+          "meaning_en": "a reciprocal pronoun referring to two or more people doing the same thing to one another",
+          "meaning_vi": "lẫn nhau (đại từ tương hỗ chỉ hai+ người làm điều gì với nhau)",
+          "examples": [
+            { "en": "They love each other very much.", "vi": "Họ yêu each-other rất nhiều." },
+            {
+              "en": "We help each other with homework.",
+              "vi": "Chúng tôi giúp each-other làm bài tập."
+            },
+            {
+              "en": "Vietnamese siblings often look after each other.",
+              "vi": "Anh chị em Việt thường chăm sóc each-other."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["one another"],
+      "antonyms": [],
+      "collocations": ["love each other", "help each other", "support each other"],
+      "mnemonic_vi": "EACH (mỗi) + OTHER (người khác) = mỗi người khác. Each-other = lẫn nhau."
+    },
+    {
+      "word": "one-another",
+      "lemma": "one another",
+      "ipa": "/wʌn əˈnʌðə(r)/",
+      "pos": "pronoun",
+      "cefr": "B1",
+      "definitions": [
+        {
+          "meaning_en": "a reciprocal pronoun similar to 'each other', traditionally used for three or more people but now interchangeable",
+          "meaning_vi": "lẫn nhau (đại từ tương hỗ giống 'each other', truyền thống dùng cho 3+ người, giờ dùng thay nhau được)",
+          "examples": [
+            {
+              "en": "The team members support one another.",
+              "vi": "Thành viên đội ủng hộ one-another."
+            },
+            { "en": "Help one another in times of need.", "vi": "Giúp one-another lúc cần." },
+            {
+              "en": "Vietnamese villagers traditionally rely on one another during the harvest.",
+              "vi": "Người làng Việt truyền thống dựa one-another mùa thu hoạch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["each other"],
+      "antonyms": [],
+      "collocations": ["help one another", "support one another"],
+      "mnemonic_vi": "ONE + ANOTHER (người khác) = một người với người khác. One-another = lẫn nhau."
+    },
+    {
+      "word": "regardless-of",
+      "lemma": "regardless of",
+      "ipa": "/rɪˈɡɑːdləs əv/",
+      "pos": "preposition",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "without being affected by; despite something",
+          "meaning_vi": "bất kể (không bị ảnh hưởng bởi; bất chấp)",
+          "examples": [
+            {
+              "en": "She runs every morning regardless of the weather.",
+              "vi": "Cô ấy chạy mỗi sáng regardless-of thời tiết."
+            },
+            {
+              "en": "Everyone is welcome regardless of background.",
+              "vi": "Mọi người được chào đón regardless-of xuất thân."
+            },
+            {
+              "en": "Vietnamese street food is delicious regardless of the price.",
+              "vi": "Đồ ăn đường phố Việt ngon regardless-of giá."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["despite", "irrespective of"],
+      "antonyms": [],
+      "collocations": ["regardless of cost", "regardless of the outcome"],
+      "mnemonic_vi": "REGARDLESS (không quan tâm) + OF (của) = không quan tâm về. Regardless-of = bất kể."
+    }
+  ]
+}
