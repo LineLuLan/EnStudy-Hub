@@ -1,0 +1,670 @@
+{
+  "slug": "space-astronomy",
+  "name": "Space & Astronomy",
+  "description": "Vũ trụ & thiên văn B2 — nebula, supernova, black-hole, dark-matter và 20 thuật ngữ cho người mê sao.",
+  "order_index": 15,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "nebula",
+      "lemma": "nebula",
+      "ipa": "/ˈnebjələ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a giant cloud of gas and dust in space, often the birthplace of new stars or the remnant of a dying one",
+          "meaning_vi": "tinh vân (đám mây khí và bụi khổng lồ trong không gian, thường là nơi sinh sao mới hoặc tàn dư của sao chết)",
+          "examples": [
+            {
+              "en": "The Orion Nebula is visible to the naked eye on a clear winter night.",
+              "vi": "Nebula Orion có thể nhìn bằng mắt thường trong đêm đông trong vắt."
+            },
+            {
+              "en": "Hubble photos of nebulae stunned the world in the 1990s.",
+              "vi": "Ảnh Hubble chụp nebula làm cả thế giới sửng sốt thập niên 1990."
+            },
+            {
+              "en": "Vietnamese amateur astronomers regularly photograph nebulae from Đà Lạt highlands.",
+              "vi": "Nhà thiên văn nghiệp dư Việt thường chụp nebula từ vùng cao Đà Lạt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["interstellar cloud"],
+      "antonyms": [],
+      "collocations": ["stellar nebula", "Orion nebula", "planetary nebula", "photograph a nebula"],
+      "etymology_hint": "From Latin 'nebula' (mist, cloud) — early astronomers saw them as 'fuzzy clouds' through telescopes.",
+      "mnemonic_vi": "NEBULA (Latin: sương mù) — đám sương vũ trụ. Tinh = sao + Vân = mây. Tinh vân = mây sao."
+    },
+    {
+      "word": "supernova",
+      "lemma": "supernova",
+      "ipa": "/ˌsuːpəˈnəʊvə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a massive explosion of a dying star that briefly outshines an entire galaxy, releasing heavy elements into space",
+          "meaning_vi": "siêu tân tinh (vụ nổ khổng lồ của một ngôi sao đang chết, sáng hơn cả một thiên hà, giải phóng nguyên tố nặng vào không gian)",
+          "examples": [
+            {
+              "en": "A supernova in 1054 was so bright that Chinese astronomers recorded it in daylight.",
+              "vi": "Một supernova năm 1054 sáng đến mức nhà thiên văn Trung Hoa ghi nhận giữa ban ngày."
+            },
+            {
+              "en": "Every heavy atom in your body was forged in a supernova billions of years ago.",
+              "vi": "Mọi nguyên tử nặng trong cơ thể bạn được tôi luyện trong supernova hàng tỷ năm trước."
+            },
+            {
+              "en": "Astronomers are watching Betelgeuse closely, since it may go supernova soon.",
+              "vi": "Nhà thiên văn theo dõi Betelgeuse sát sao, vì nó có thể nổ supernova sắp tới."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["stellar explosion"],
+      "antonyms": [],
+      "collocations": ["go supernova", "type-I supernova", "supernova remnant", "spot a supernova"],
+      "etymology_hint": "From Latin 'super' (above, beyond) + 'nova' (new star) — 'beyond a nova', vastly more energetic.",
+      "mnemonic_vi": "SUPER (siêu) + NOVA (sao mới) = sao mới cực siêu. Cái chết của sao = sáng nhất vũ trụ tạm thời."
+    },
+    {
+      "word": "exoplanet",
+      "lemma": "exoplanet",
+      "ipa": "/ˈeksəʊplænɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a planet orbiting a star outside our solar system, of which over 5,000 have been confirmed",
+          "meaning_vi": "ngoại hành tinh (hành tinh quay quanh sao bên ngoài hệ Mặt Trời, đã xác nhận hơn 5,000)",
+          "examples": [
+            {
+              "en": "The Kepler space telescope discovered thousands of exoplanets between 2009 and 2018.",
+              "vi": "Kính thiên văn Kepler đã phát hiện hàng nghìn exoplanet từ 2009 đến 2018."
+            },
+            {
+              "en": "Some exoplanets sit in the 'Goldilocks zone' where liquid water could exist.",
+              "vi": "Một số exoplanet nằm trong 'vùng Goldilocks' nơi nước lỏng có thể tồn tại."
+            },
+            {
+              "en": "Vietnamese physics students compete to predict exoplanet candidates from real data.",
+              "vi": "Sinh viên vật lý Việt thi dự đoán ứng viên exoplanet từ dữ liệu thật."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["extrasolar planet"],
+      "antonyms": [],
+      "collocations": [
+        "habitable exoplanet",
+        "exoplanet discovery",
+        "exoplanet candidate",
+        "rocky exoplanet"
+      ],
+      "etymology_hint": "From Greek 'exo' (outside) + 'planet' — a planet 'outside' our solar system.",
+      "mnemonic_vi": "EXO (ngoài, exotic) + PLANET (hành tinh) = hành tinh ngoài hệ ta. Exoplanet = ngoại hành tinh."
+    },
+    {
+      "word": "black-hole",
+      "lemma": "black-hole",
+      "ipa": "/ˌblæk ˈhəʊl/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a region of space with gravity so strong that nothing, not even light, can escape from inside it",
+          "meaning_vi": "hố đen (vùng không gian có trọng lực mạnh đến mức không vật gì, kể cả ánh sáng, thoát ra được)",
+          "examples": [
+            {
+              "en": "The first direct image of a black hole was released in 2019.",
+              "vi": "Bức ảnh trực tiếp đầu tiên của một black-hole được công bố năm 2019."
+            },
+            {
+              "en": "Most galaxies, including ours, host a supermassive black hole at their center.",
+              "vi": "Đa số thiên hà, kể cả của ta, có black-hole siêu khối ở trung tâm."
+            },
+            {
+              "en": "Stephen Hawking proposed that black holes slowly evaporate via Hawking radiation.",
+              "vi": "Stephen Hawking đề xuất rằng black-hole bốc hơi chậm qua bức xạ Hawking."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["singularity"],
+      "antonyms": [],
+      "collocations": [
+        "supermassive black hole",
+        "stellar-mass black hole",
+        "fall into a black hole",
+        "black-hole image"
+      ],
+      "mnemonic_vi": "BLACK (đen) + HOLE (hố) = hố đen. Không gì thoát được — kể cả ánh sáng. Cái tên trực tiếp luôn."
+    },
+    {
+      "word": "light-year",
+      "lemma": "light-year",
+      "ipa": "/ˈlaɪt jɪə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the distance light travels in one year, about 9.46 trillion kilometers, used to measure interstellar and intergalactic distances",
+          "meaning_vi": "năm ánh sáng (khoảng cách ánh sáng đi trong 1 năm, khoảng 9.46 nghìn tỷ km, dùng đo khoảng cách giữa sao và thiên hà)",
+          "examples": [
+            {
+              "en": "The nearest star outside the Sun is 4.24 light-years away.",
+              "vi": "Sao gần nhất ngoài Mặt Trời cách 4.24 light-year."
+            },
+            {
+              "en": "When we look at a star 100 light-years away, we see it as it was 100 years ago.",
+              "vi": "Khi ta nhìn một sao cách 100 light-year, ta thấy nó như cách đây 100 năm."
+            },
+            {
+              "en": "The Milky Way is roughly 100,000 light-years across.",
+              "vi": "Dải Ngân Hà rộng khoảng 100,000 light-year."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["ly"],
+      "antonyms": [],
+      "collocations": ["light-years away", "billions of light-years", "thousands of light-years"],
+      "mnemonic_vi": "LIGHT (ánh sáng) + YEAR (năm) = năm ánh sáng. Đơn vị đo khoảng cách vũ trụ, không phải đo thời gian!"
+    },
+    {
+      "word": "telescope",
+      "lemma": "telescope",
+      "ipa": "/ˈtelɪskəʊp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an instrument that uses lenses or mirrors to make distant objects appear larger and brighter, especially for observing space",
+          "meaning_vi": "kính thiên văn (thiết bị dùng thấu kính hoặc gương để làm vật ở xa to và sáng hơn, đặc biệt để quan sát vũ trụ)",
+          "examples": [
+            {
+              "en": "Galileo's telescope changed humanity's view of the cosmos in 1609.",
+              "vi": "Telescope của Galileo thay đổi cách nhân loại nhìn vũ trụ năm 1609."
+            },
+            {
+              "en": "The James Webb Space Telescope can see galaxies from the early universe.",
+              "vi": "James Webb Space Telescope có thể thấy thiên hà từ thuở đầu vũ trụ."
+            },
+            {
+              "en": "A small backyard telescope in Hanoi can show Saturn's rings clearly.",
+              "vi": "Một telescope sân vườn nhỏ ở Hà Nội cũng có thể cho thấy rõ vành của Sao Thổ."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": [
+        "space telescope",
+        "radio telescope",
+        "reflecting telescope",
+        "look through a telescope"
+      ],
+      "etymology_hint": "From Greek 'tele' (far) + 'skopein' (to look) — 'to look at far things'.",
+      "mnemonic_vi": "TELE (xa) + SCOPE (nhìn) = nhìn xa. Telescope = kính thiên văn. So với 'microscope' (nhìn nhỏ)."
+    },
+    {
+      "word": "constellation",
+      "lemma": "constellation",
+      "ipa": "/ˌkɒnstəˈleɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a group of stars forming a recognizable pattern in the sky, traditionally named after mythological figures, animals, or objects",
+          "meaning_vi": "chòm sao (nhóm sao tạo thành hình dễ nhận trên bầu trời, thường đặt theo nhân vật thần thoại hoặc động vật)",
+          "examples": [
+            {
+              "en": "Orion is one of the easiest constellations to spot from the Northern Hemisphere.",
+              "vi": "Orion là một trong những constellation dễ tìm nhất từ Bán cầu Bắc."
+            },
+            {
+              "en": "Astrology assigns personalities to people born under each constellation.",
+              "vi": "Chiêm tinh học gán tính cách cho người sinh dưới mỗi constellation."
+            },
+            {
+              "en": "Vietnamese fishermen historically used constellations like the Plough to navigate at sea.",
+              "vi": "Ngư dân Việt xưa dùng constellation như Cái Cày để định hướng trên biển."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["star pattern"],
+      "antonyms": [],
+      "collocations": [
+        "zodiac constellation",
+        "summer constellation",
+        "name a constellation",
+        "navigate by the constellations"
+      ],
+      "etymology_hint": "From Latin 'com-' (together) + 'stella' (star) — 'stars grouped together'.",
+      "mnemonic_vi": "CON (cùng) + STELLA (sao) + TION = sao gom lại. Constellation = chòm sao."
+    },
+    {
+      "word": "dwarf-planet",
+      "lemma": "dwarf-planet",
+      "ipa": "/ˌdwɔːf ˈplænɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a celestial body smaller than a full planet but larger than an asteroid, like Pluto, which has not cleared its orbital neighborhood",
+          "meaning_vi": "hành tinh lùn (thiên thể nhỏ hơn hành tinh đầy đủ, lớn hơn tiểu hành tinh, như Pluto — chưa làm sạch quỹ đạo)",
+          "examples": [
+            {
+              "en": "Pluto was reclassified as a dwarf planet in 2006, sparking public outrage.",
+              "vi": "Pluto bị phân loại lại thành dwarf-planet năm 2006, gây phẫn nộ công chúng."
+            },
+            {
+              "en": "Ceres, in the asteroid belt, is also officially a dwarf planet.",
+              "vi": "Ceres trong vành đai tiểu hành tinh cũng là dwarf-planet chính thức."
+            },
+            {
+              "en": "Schoolchildren still learn 'nine planets' even though Pluto is now a dwarf planet.",
+              "vi": "Học sinh vẫn học 'chín hành tinh' dù Pluto giờ là dwarf-planet."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["true planet"],
+      "collocations": ["classified as a dwarf planet", "Pluto dwarf planet"],
+      "mnemonic_vi": "DWARF (lùn) + PLANET (hành tinh) = hành tinh lùn. Cái tên trực tiếp. Pluto là dwarf-planet không phải planet."
+    },
+    {
+      "word": "big-bang",
+      "lemma": "big-bang",
+      "ipa": "/ˌbɪɡ ˈbæŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the cosmological theory that the universe began as an extremely hot, dense point about 13.8 billion years ago and has been expanding ever since",
+          "meaning_vi": "thuyết Vụ Nổ Lớn (lý thuyết vũ trụ học cho rằng vũ trụ bắt đầu từ một điểm cực nóng cực đặc khoảng 13.8 tỷ năm trước, không ngừng giãn nở)",
+          "examples": [
+            {
+              "en": "The Big Bang theory is supported by cosmic microwave background radiation.",
+              "vi": "Big-bang được hỗ trợ bởi bức xạ nền vi sóng vũ trụ."
+            },
+            {
+              "en": "Edwin Hubble's observations of distant galaxies first hinted at the Big Bang.",
+              "vi": "Quan sát của Edwin Hubble về các thiên hà xa đã gợi ý big-bang đầu tiên."
+            },
+            {
+              "en": "There's a famous Western sitcom called 'The Big Bang Theory' that aired 2007-2019.",
+              "vi": "Có sitcom Mỹ nổi tiếng 'The Big Bang Theory' phát sóng 2007-2019."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cosmic origin event"],
+      "antonyms": ["steady state"],
+      "collocations": ["Big Bang theory", "moments after the Big Bang", "Big Bang model"],
+      "mnemonic_vi": "BIG (lớn) + BANG (nổ) = vụ nổ lớn. Vũ trụ khai sinh 13.8 tỷ năm trước. Trớ trêu: tên do người chỉ trích đặt!"
+    },
+    {
+      "word": "dark-matter",
+      "lemma": "dark-matter",
+      "ipa": "/ˌdɑːk ˈmætə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an invisible form of matter that does not emit light or interact with electromagnetic forces but exerts gravity, making up about 27% of the universe",
+          "meaning_vi": "vật chất tối (dạng vật chất vô hình không phát ánh sáng/không tương tác điện từ nhưng có trọng lực, chiếm khoảng 27% vũ trụ)",
+          "examples": [
+            {
+              "en": "Dark matter explains why galaxies rotate faster than visible matter alone would predict.",
+              "vi": "Dark-matter giải thích vì sao thiên hà quay nhanh hơn dự đoán dựa trên vật chất nhìn thấy."
+            },
+            {
+              "en": "Scientists have searched for dark matter particles for decades without direct detection.",
+              "vi": "Nhà khoa học đã tìm hạt dark-matter nhiều thập kỷ mà chưa phát hiện trực tiếp."
+            },
+            {
+              "en": "Vietnamese physics students learn dark matter as one of the biggest open questions in cosmology.",
+              "vi": "Sinh viên vật lý Việt học dark-matter là một trong những câu hỏi mở lớn nhất của vũ trụ học."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["luminous matter"],
+      "collocations": ["dark matter halo", "search for dark matter", "dark matter particle"],
+      "mnemonic_vi": "DARK (tối) + MATTER (vật chất) = vật chất tối. 'Tối' vì không phát sáng, không thấy được."
+    },
+    {
+      "word": "dark-energy",
+      "lemma": "dark-energy",
+      "ipa": "/ˌdɑːk ˈenədʒi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the unknown form of energy thought to make up about 68% of the universe and drive its accelerating expansion",
+          "meaning_vi": "năng lượng tối (dạng năng lượng chưa rõ chiếm khoảng 68% vũ trụ, đẩy vũ trụ giãn nở nhanh dần)",
+          "examples": [
+            {
+              "en": "Dark energy is the leading explanation for why the universe's expansion is accelerating.",
+              "vi": "Dark-energy là giải thích chủ đạo cho việc vũ trụ giãn nở gia tốc."
+            },
+            {
+              "en": "The 2011 Nobel Prize in Physics went to scientists who discovered the effects of dark energy.",
+              "vi": "Nobel Vật lý 2011 trao cho các nhà khoa học phát hiện hiệu ứng của dark-energy."
+            },
+            {
+              "en": "Dark energy and dark matter together make up 95% of the universe — and we barely understand either.",
+              "vi": "Dark-energy và dark-matter cộng lại chiếm 95% vũ trụ — mà ta gần như không hiểu cả hai."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["dark energy density", "dark energy mystery", "study dark energy"],
+      "mnemonic_vi": "DARK (tối) + ENERGY (năng lượng) = năng lượng tối. Khác dark-matter ở chỗ đây là 'năng lượng' đẩy vũ trụ ra."
+    },
+    {
+      "word": "comet",
+      "lemma": "comet",
+      "ipa": "/ˈkɒmɪt/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a small icy body that orbits the Sun and develops a glowing tail of gas and dust when it gets close to the Sun",
+          "meaning_vi": "sao chổi (thiên thể nhỏ băng giá quay quanh Mặt Trời, mọc đuôi sáng từ khí và bụi khi đến gần Mặt Trời)",
+          "examples": [
+            {
+              "en": "Halley's Comet visits Earth every 75-76 years and is due back in 2061.",
+              "vi": "Sao chổi Halley ghé Trái Đất mỗi 75-76 năm và sẽ trở lại 2061."
+            },
+            {
+              "en": "Comets are leftover ice and dust from the early solar system.",
+              "vi": "Comet là băng và bụi còn lại từ hệ Mặt Trời thuở sơ khai."
+            },
+            {
+              "en": "A bright comet visible from Saigon in 2020 drew crowds to local observation spots.",
+              "vi": "Một sao chổi sáng nhìn thấy từ Sài Gòn năm 2020 thu hút đám đông đến điểm quan sát."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["Halley's comet", "comet tail", "spot a comet", "long-period comet"],
+      "etymology_hint": "From Greek 'komē' (hair) — comets were called 'stars with hair' because of their flowing tails.",
+      "mnemonic_vi": "COMET từ Hy Lạp 'komē' (tóc) — sao có tóc dài (đuôi). Comet = sao chổi (đuôi như cái chổi)."
+    },
+    {
+      "word": "asteroid",
+      "lemma": "asteroid",
+      "ipa": "/ˈæstərɔɪd/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a small rocky body that orbits the Sun, mostly found in the asteroid belt between Mars and Jupiter",
+          "meaning_vi": "tiểu hành tinh (vật thể đá nhỏ quay quanh Mặt Trời, chủ yếu trong vành đai tiểu hành tinh giữa Sao Hỏa và Sao Mộc)",
+          "examples": [
+            {
+              "en": "A large asteroid impact 66 million years ago likely killed the dinosaurs.",
+              "vi": "Một asteroid lớn va chạm 66 triệu năm trước có thể đã tuyệt diệt khủng long."
+            },
+            {
+              "en": "NASA's DART mission deliberately crashed into an asteroid to test planetary defense.",
+              "vi": "Sứ mệnh DART của NASA cố tình đâm vào một asteroid để thử phòng thủ hành tinh."
+            },
+            {
+              "en": "Vietnamese astronomy clubs track potentially hazardous asteroids on shared databases.",
+              "vi": "Câu lạc bộ thiên văn Việt theo dõi asteroid có thể nguy hiểm trên cơ sở dữ liệu chung."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["minor planet"],
+      "antonyms": [],
+      "collocations": [
+        "asteroid belt",
+        "asteroid impact",
+        "asteroid strike",
+        "near-Earth asteroid"
+      ],
+      "etymology_hint": "From Greek 'aster' (star) + '-oid' (like) — 'star-like', though they're not actually stars.",
+      "mnemonic_vi": "ASTER (sao) + OID (giống) = giống sao (nhưng không phải sao). Asteroid = tiểu hành tinh."
+    },
+    {
+      "word": "meteor",
+      "lemma": "meteor",
+      "ipa": "/ˈmiːtiə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a streak of light in the sky caused by a small piece of rock or ice burning up as it enters Earth's atmosphere, also called a 'shooting star'",
+          "meaning_vi": "sao băng (vệt sáng trên trời do mảnh đá hoặc băng cháy khi vào khí quyển Trái Đất, còn gọi là sao rơi)",
+          "examples": [
+            {
+              "en": "The Perseid meteor shower peaks in August every year.",
+              "vi": "Mưa meteor Perseid đạt đỉnh tháng 8 mỗi năm."
+            },
+            {
+              "en": "Vietnamese tradition holds that you should make a wish on a shooting meteor.",
+              "vi": "Truyền thống Việt cho rằng nên ước khi thấy meteor đang rơi."
+            },
+            {
+              "en": "When a meteor survives and lands on Earth, it becomes a meteorite.",
+              "vi": "Khi một meteor sống sót và rơi xuống Trái Đất, nó thành meteorite (thiên thạch)."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["shooting star"],
+      "antonyms": [],
+      "collocations": ["meteor shower", "meteor strike", "bright meteor", "meteor trail"],
+      "etymology_hint": "From Greek 'meteōros' (lifted up, in the air) — same root as 'meteorology' (study of weather, 'things in the air').",
+      "mnemonic_vi": "METEOR từ Hy Lạp = vật trên không. Meteor = sao băng (cháy trên trời). Cùng họ 'meteorology' (khí tượng học)."
+    },
+    {
+      "word": "cosmos",
+      "lemma": "cosmos",
+      "ipa": "/ˈkɒzmɒs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the universe seen as a complete, harmonious system, often used in scientific and philosophical contexts",
+          "meaning_vi": "vũ trụ (toàn bộ vũ trụ nhìn như hệ thống hoàn chỉnh, hài hòa, thường dùng trong khoa học và triết học)",
+          "examples": [
+            {
+              "en": "Carl Sagan's 'Cosmos' series brought astronomy to millions of homes.",
+              "vi": "Series 'Cosmos' của Carl Sagan đưa thiên văn học đến hàng triệu gia đình."
+            },
+            {
+              "en": "Ancient philosophers believed the cosmos had a hidden mathematical order.",
+              "vi": "Triết gia cổ tin rằng cosmos có một trật tự toán học ẩn giấu."
+            },
+            {
+              "en": "Looking at the cosmos reminds Vietnamese stargazers how small daily worries really are.",
+              "vi": "Nhìn lên cosmos nhắc người ngắm sao Việt biết lo âu hằng ngày nhỏ bé thế nào."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["universe", "creation"],
+      "antonyms": ["chaos"],
+      "collocations": ["the cosmos", "explore the cosmos", "wonders of the cosmos"],
+      "etymology_hint": "From Greek 'kosmos' (order, world) — opposed to 'chaos'. The universe as ordered beauty.",
+      "mnemonic_vi": "COSMOS = trật tự (Hy Lạp) — vũ trụ là một trật tự đẹp. Đối lập với 'chaos' (hỗn loạn)."
+    },
+    {
+      "word": "stellar",
+      "lemma": "stellar",
+      "ipa": "/ˈstelə(r)/",
+      "pos": "adjective",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "relating to stars; also used informally to mean exceptionally good or outstanding",
+          "meaning_vi": "thuộc về sao; cũng dùng nghĩa bóng là xuất sắc, vượt trội",
+          "examples": [
+            {
+              "en": "Stellar nucleosynthesis is the process by which stars create heavier elements.",
+              "vi": "Stellar nucleosynthesis là quá trình sao tạo các nguyên tố nặng."
+            },
+            {
+              "en": "She gave a stellar performance in her debut film.",
+              "vi": "Cô ấy có màn trình diễn stellar (xuất sắc) trong phim đầu tay."
+            },
+            {
+              "en": "The Vietnamese national football team had a stellar 2018 with the AFF Cup title.",
+              "vi": "Đội tuyển bóng đá Việt Nam có 2018 stellar với chức vô địch AFF Cup."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["outstanding", "excellent"],
+      "antonyms": ["mediocre"],
+      "collocations": [
+        "stellar performance",
+        "stellar career",
+        "stellar object",
+        "stellar evolution"
+      ],
+      "etymology_hint": "From Latin 'stella' (star) — same root as 'constellation' and 'stellar'.",
+      "mnemonic_vi": "STELLA (sao) + R = thuộc về sao. Stellar = thuộc sao HOẶC xuất sắc 'sáng như sao'."
+    },
+    {
+      "word": "redshift",
+      "lemma": "redshift",
+      "ipa": "/ˈredʃɪft/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the increase in the wavelength of light from distant cosmic objects moving away from us, used to measure how fast galaxies are receding",
+          "meaning_vi": "dịch chuyển đỏ (sự tăng bước sóng ánh sáng từ vật thể vũ trụ xa đang đi ra xa ta, dùng đo tốc độ thiên hà lùi xa)",
+          "examples": [
+            {
+              "en": "The redshift of distant galaxies first proved that the universe is expanding.",
+              "vi": "Redshift của các thiên hà xa lần đầu chứng minh vũ trụ đang giãn nở."
+            },
+            {
+              "en": "James Webb has detected redshift values from the earliest galaxies ever observed.",
+              "vi": "James Webb đã đo được giá trị redshift từ thiên hà sớm nhất từng quan sát."
+            },
+            {
+              "en": "Redshift is to light what the Doppler shift is to sound waves.",
+              "vi": "Redshift với ánh sáng giống như Doppler shift với sóng âm."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["blueshift"],
+      "collocations": ["redshift measurement", "high redshift", "cosmological redshift"],
+      "mnemonic_vi": "RED (đỏ) + SHIFT (chuyển) = chuyển về phía đỏ. Ánh sáng từ sao xa bị kéo dài bước sóng → ngả đỏ."
+    },
+    {
+      "word": "event-horizon",
+      "lemma": "event-horizon",
+      "ipa": "/ɪˈvent həˌraɪzn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the boundary around a black hole beyond which nothing, not even light, can escape and from which no information can return",
+          "meaning_vi": "chân trời sự kiện (ranh giới quanh black-hole mà ngoài đó không gì, kể cả ánh sáng, thoát ra được)",
+          "examples": [
+            {
+              "en": "Once you cross the event horizon, return is mathematically impossible.",
+              "vi": "Khi vượt event-horizon, quay về là không thể về mặt toán học."
+            },
+            {
+              "en": "The Event Horizon Telescope captured the first image of a black hole in 2019.",
+              "vi": "Event-horizon Telescope chụp được ảnh black-hole đầu tiên năm 2019."
+            },
+            {
+              "en": "The event horizon is not a physical wall but a one-way information barrier.",
+              "vi": "Event-horizon không phải bức tường vật lý mà là rào cản thông tin một chiều."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "collocations": ["cross the event horizon", "Event Horizon Telescope"],
+      "mnemonic_vi": "EVENT (sự kiện) + HORIZON (chân trời) = chân trời sự kiện. Qua đó là không thấy được sự kiện nào nữa."
+    },
+    {
+      "word": "pulsar",
+      "lemma": "pulsar",
+      "ipa": "/ˈpʌlsɑː(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a highly magnetized rotating neutron star that emits regular pulses of radio waves and other electromagnetic radiation",
+          "meaning_vi": "sao xung (sao neutron quay với từ trường mạnh, phát xung sóng radio đều đặn)",
+          "examples": [
+            {
+              "en": "The first pulsar was discovered in 1967 and nicknamed 'LGM-1' for Little Green Men.",
+              "vi": "Pulsar đầu tiên phát hiện 1967 có biệt danh 'LGM-1' (Little Green Men — người ngoài hành tinh tí hon)."
+            },
+            {
+              "en": "Pulsars spin so precisely that they rival the best atomic clocks.",
+              "vi": "Pulsar quay chính xác đến mức cạnh tranh với đồng hồ nguyên tử tốt nhất."
+            },
+            {
+              "en": "Voyager spacecraft carry a map showing Earth's location relative to 14 pulsars.",
+              "vi": "Tàu Voyager mang theo bản đồ chỉ vị trí Trái Đất so với 14 pulsar."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["pulsating star"],
+      "antonyms": [],
+      "collocations": ["millisecond pulsar", "pulsar signal", "binary pulsar"],
+      "etymology_hint": "Portmanteau of 'pulsating' + 'star' or 'radio source' — coined 1968 by Antony Hewish's team.",
+      "mnemonic_vi": "PULSE (xung) + AR (star) = sao xung. Pulsar phát xung sóng vô tuyến đều như đồng hồ vũ trụ."
+    },
+    {
+      "word": "antimatter",
+      "lemma": "antimatter",
+      "ipa": "/ˌæntiˈmætə(r)/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "matter composed of particles with opposite electrical charges to ordinary matter, which annihilates with normal matter on contact, releasing huge energy",
+          "meaning_vi": "phản vật chất (vật chất gồm hạt có điện tích ngược với vật chất thường — gặp nhau là hủy diệt, giải phóng năng lượng khổng lồ)",
+          "examples": [
+            {
+              "en": "Antimatter is extraordinarily expensive to produce — costing billions of dollars per gram.",
+              "vi": "Antimatter sản xuất cực kỳ đắt — tỷ đô mỗi gram."
+            },
+            {
+              "en": "PET scans in hospitals use a small amount of antimatter to image the body.",
+              "vi": "Máy quét PET trong bệnh viện dùng lượng nhỏ antimatter để chụp ảnh cơ thể."
+            },
+            {
+              "en": "Why the universe contains more matter than antimatter remains a deep mystery.",
+              "vi": "Vì sao vũ trụ có nhiều vật chất hơn antimatter vẫn là bí ẩn lớn."
+            }
+          ]
+        }
+      ],
+      "synonyms": [],
+      "antonyms": ["matter"],
+      "collocations": ["antimatter particle", "matter and antimatter", "produce antimatter"],
+      "mnemonic_vi": "ANTI (ngược) + MATTER (vật chất) = vật chất ngược. Gặp matter thì cả hai hủy diệt thành năng lượng."
+    }
+  ]
+}

@@ -489,6 +489,14 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/argument-logic` — rebuttal, premise, assumption, fallacy, valid, invalid, sound, reasoning, deduce, prove, disprove, contradict, imply, assertion, bias, objective, subjective, refute, justify, counter
     - `daily-life/aging-life-stages` — mature, prime, youth, infant, toddler, teen, adolescence, adulthood, midlife, retirement, pension, aging, wrinkle, birthday, milestone, lifespan, ancient, juvenile, nostalgic, legacy
     - Gates green. Seed live: **107 lessons / 2140 cards** (~56% Oxford 3000).
+  - [x] **P10e B2 expansion — P10 CLOSED 25/25** (5 lessons / 100 cards, 2026-05-17, commit `9bc8b35` → merge `ef3c57e`):
+    - `nature-environment/space-astronomy` — nebula, supernova, exoplanet, black-hole, light-year, telescope, constellation, dwarf-planet, big-bang, dark-matter, dark-energy, comet, asteroid, meteor, cosmos, stellar, redshift, event-horizon, pulsar, antimatter
+    - `daily-life/digital-wellbeing` — screen-time, digital-detox, doom-scrolling, notification-fatigue, blue-light, social-comparison, fomo, jomo, app-blocker, dopamine-loop, attention-span, info-overload, tech-balance, grayscale, focus-mode, mindless-scrolling, night-mode, airplane-mode, do-not-disturb, tech-addiction
+    - `entertainment/gaming-culture` — raid, guild, prize-pool, speedrun, lan-party, modding, cosmetic-item, battle-royale, player-base, loot-box, matchmaking, leaderboard, grind, respawn, cheat-code, console, gamertag, nerf, buff, noob
+    - `society-culture/migration-flows` — expatriate, remittance, brain-drain, brain-gain, repatriation, integration, naturalization, citizenship, migrant, diaspora, displacement, deportation, exile, emigrate, immigrate, resettlement, green-card, push-factor, pull-factor, statelessness
+    - `work-business/remote-work-culture` — async-communication, hybrid-model, work-from-home, digital-nomad, virtual-meeting, slack-fatigue, zoom-fatigue, in-office-day, presenteeism, stand-up, office-culture, workplace-flexibility, remote-first, return-to-office, RTO, four-day-week, workation, hot-desking, focus-time, no-meeting-day
+    - Collision pivots: 4 space-astronomy (gravity/universe/galaxy/orbit từ science-basics), 3 gaming-culture (tournament/streamer/esports), 4 migration-flows (refugee/visa/asylum/host-country), 1 remote-work (coworking), 0 digital-wellbeing (cleanest lesson). Round 2: ZERO collision. Zod schema green all 5. IPA flags 91/100 (slang+compound dày: 19-20/20 cho gaming/digital-wellbeing/remote-work-culture). Seed live: **pending user manual run** (target 162 lessons / 3240 cards).
+    - **P10 CLOSED**: 25 lessons / 500 cards B2 hoàn tất (a/b/c/d/e). Levers D+E từ memory `feedback_raised_quality_bar` đã chứng minh hiệu quả qua 5 batches.
   - [x] **P10d B2 expansion** (5 lessons / 100 cards, 2026-05-17, commit `87e2d73` → merge `f967e39`) — P10 20/25, token-efficient triage levers ON:
     - `time-numbers/historical-eras` — antiquity, medieval, renaissance, enlightenment, industrial-age, postwar, modern-era, prehistoric, millennium, epoch, colonial-era, cold-war, gilded-age, reformation, crusades, baroque, bronze-age, iron-age, victorian-era, atomic-age
     - `people/leadership-styles` — autocratic, democratic, transformational, charismatic, hands-off, micromanage, servant-leader, authoritarian, laissez-faire, inspirational, figurehead, directive, adaptive, emotional-intelligence, bureaucratic, pacesetting, coercive, affiliative, transactional, decisive
@@ -563,11 +571,11 @@ Plan tổng: `docs/CONTENT_PLAN_FULL.md`. Target 192 lessons / 3840 cards.
     - `abstract-academic/identity-self` — persona, ego, mindset, character, belief, conviction, dignity, autonomy, agency, introspection, individuality, authentic, genuine, worldview, self-image, self-esteem, self-aware, humility, reputation, narrative
     - Zod schema green tất cả 5. Quality bar raised: diverse example contexts, VN cultural refs, etymology + mnemonic_vi required mọi card. Seed live: **pending user manual run** (target 112 lessons / 2240 cards).
 - [x] **P9 B1 part 2** (25 lessons / 500 cards) — **CLOSED 25/25**
-- [~] **P10 B2 expansion** (25 lessons / 500 cards) — P10a/b/c/d done (20/25), TODO P10e
-- [ ] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO
+- [x] **P10 B2 expansion** (25 lessons / 500 cards) — **CLOSED 25/25**
+- [~] **P11 Phrasal & Compound** (15 lessons / 300 cards) — TODO (next phase)
 - [ ] **P12 Final fill** (15 lessons / 300 cards) — TODO
 
-**Progress**: 157/192 lessons (82%), 3140/3840 cards (82%), ~82% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 20/25 (B2 đang gen, levers D+E ON)**, next: P10e (5 lessons để đóng P10 25/25).
+**Progress**: 162/192 lessons (84%), 3240/3840 cards (84%), ~84% Oxford 3000 coverage. **P7 CLOSED (20/20)**, **P8 CLOSED (25/25)**, **P9 CLOSED (25/25)**, **P10 CLOSED (25/25)**, next: **P11 phrasal & compound** (15 lessons).
 
 **Deferred**: light/dark mode bug (light mode broken) — user-requested fix sau khi gen toàn bộ Oxford 3000.
 

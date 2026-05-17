@@ -5,6 +5,69 @@
 
 ---
 
+## 2026-05-17 (P10e content batch — P10 CLOSED 25/25) — B2: 5 lessons / 100 cards (162/192, ~84%) — Claude Opus 4.7
+
+### Đã ship — P10 ĐÓNG (25 lessons / 500 cards B2)
+
+User "tiếp P10e đi" + "cho phép bạn làm xong cứ tiếp tục move qua phần content tiếp theo cho đến khi 100% cuốn oxford 3000". AI gen 5 lessons B2 cuối đóng P10. Memory Levers D+E giữ. Còn lại: P11 (15 phrasal/compound) + P12 (15 final fill) = 30 lessons / 600 cards để chạm 192/192.
+
+**5 lessons mới (B2, 100/100 NEW so với 3140 existing)** — space + digital wellbeing + gaming + migration + remote work:
+
+| #   | Lesson              | Topic              | order |
+| --- | ------------------- | ------------------ | ----- |
+| 1   | space-astronomy     | nature-environment | 15    |
+| 2   | digital-wellbeing   | daily-life         | 25    |
+| 3   | gaming-culture      | entertainment      | 17    |
+| 4   | migration-flows     | society-culture    | 9     |
+| 5   | remote-work-culture | work-business      | 21    |
+
+### Collision pivots
+
+Round 1: 12 collision trên 120 candidates. Pivot:
+
+- **space-astronomy** (4 drops): gravity + universe + galaxy + orbit (science-basics). Đổi sang exoplanet, dark-matter, dark-energy, redshift, event-horizon, pulsar, antimatter.
+- **digital-wellbeing** (ZERO drops) — cleanest lesson P10e round 1.
+- **gaming-culture** (3 drops): tournament (sports-games), streamer + esports (digital-culture). Đổi sang gamertag, nerf, buff.
+- **migration-flows** (4 drops): refugee + visa + asylum + host-country. Đổi sang green-card, push-factor, pull-factor, statelessness.
+- **remote-work-culture** (1 drop): coworking (freelance-remote). Đổi sang focus-time, no-meeting-day.
+
+Round 2 grep trên 100 wordlist final: **ZERO collision**.
+
+### Verify
+
+- Zod schema: ALL VALID 5 files, 20 cards each.
+- IPA notation flags: 16 + 19 + 19 + 18 + 19 = **91/100** — cao nhất trong các batch P10 do nhiều slang gaming (raid, noob, nerf, buff), modern compound (doom-scrolling, work-from-home, slack-fatigue, RTO), acronym (FOMO, JOMO, RTO).
+- Lint-staged prettier reformat 5 JSON files khi commit.
+- File sizes: 32-35 KB/lesson, avg ~33.5 KB.
+
+### SHA cuối session (P10e)
+
+- main `eb18493` (v0.2.0 không đổi)
+- dev `[dev-docs-sha TBD]` (P10e merge + docs commit)
+- be `9bc8b35` (P10e content) → sẽ sync sau docs
+- fe `0b8ae59` (P10d sync) → sẽ sync sau docs
+
+### PICKUP cho session sau — P11 PHRASAL & COMPOUND (15 lessons)
+
+Sau khi đóng P10, chuyển sang P11. Đề xuất topic candidates:
+
+- `daily-life/phrasal-verbs-1` — get up, wake up, look after, take off, put on, give up, hang out, dress up, clean up, throw away
+- `daily-life/phrasal-verbs-2` — break down, run out (of), pick up, drop off, set up, fill in, sign up, log in, check out, turn down
+- `work-business/phrasal-verbs-3` — carry out, deal with, follow up, go over, hand in, look into, point out, put off, sort out, take over
+- `people/phrasal-verbs-relations` — get along, fall out, make up, look up to, put up with, come across, fall for, get over, hit it off, drift apart
+- `abstract-academic/phrasal-verbs-think` — think over, work out, figure out, sort through, weigh up, come up with, mull over, brood on, sleep on
+- `common-core/idioms-1` — once in a blue moon, hit the nail on the head, piece of cake, break a leg, the ball is in your court, etc
+- `common-core/idioms-2`, `common-core/idioms-business`, `common-core/idioms-emotion`, `common-core/idioms-time`, etc
+
+Plan P11/P12 chi tiết sẽ tự lên từ `docs/CONTENT_PLAN_FULL.md` nếu có hoặc improvise dựa trên Oxford 3000 wordlist còn lại.
+
+### Files state khi handoff (P10e)
+
+- All 3 branches will be pushed to origin after docs commit + sync.
+- Docs updated (HANDOFF, TRACKER, SYNC).
+
+---
+
 ## 2026-05-17 (P10d content batch — Levers D+E persistent, P10 20/25) — B2: 5 lessons / 100 cards (157/192, ~82%) — Claude Opus 4.7
 
 ### Đã ship
