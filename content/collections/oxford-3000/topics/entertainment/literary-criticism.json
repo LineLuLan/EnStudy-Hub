@@ -1,0 +1,682 @@
+{
+  "slug": "literary-criticism",
+  "name": "Literary Criticism",
+  "description": "Phê bình văn học B2 — symbolism, motif, archetype, hyperbole và 20 thuật ngữ phân tích văn chương.",
+  "order_index": 15,
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "word": "symbolism",
+      "lemma": "symbolism",
+      "ipa": "/ˈsɪmbəlɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the use of symbols to represent ideas, qualities, or themes, especially in art and literature",
+          "meaning_vi": "biểu tượng học, dùng biểu tượng (sử dụng vật thể/hình ảnh để thể hiện ý tưởng trừu tượng)",
+          "examples": [
+            {
+              "en": "The white whale in 'Moby Dick' is rich with religious and existential symbolism.",
+              "vi": "Cá voi trắng trong 'Moby Dick' đầy biểu tượng tôn giáo và hiện sinh."
+            },
+            {
+              "en": "In Vietnamese culture, the lotus carries strong symbolism of purity rising from mud.",
+              "vi": "Trong văn hóa Việt, hoa sen mang biểu tượng mạnh mẽ về sự thanh khiết vươn lên từ bùn."
+            },
+            {
+              "en": "Color symbolism varies across cultures: white means mourning in many Asian countries.",
+              "vi": "Biểu tượng màu sắc khác nhau giữa các nền văn hóa: trắng là tang ở nhiều nước châu Á."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["symbolic representation"],
+      "antonyms": ["literalism"],
+      "collocations": [
+        "religious symbolism",
+        "rich symbolism",
+        "color symbolism",
+        "use of symbolism",
+        "literary symbolism"
+      ],
+      "etymology_hint": "From Greek 'symbolon' (sign, token) — originally a token broken in two so parties could rejoin halves.",
+      "mnemonic_vi": "SYMBOL (biểu tượng) + ISM (chủ nghĩa) = dùng biểu tượng. Symbolism = phép biểu tượng."
+    },
+    {
+      "word": "motif",
+      "lemma": "motif",
+      "ipa": "/məʊˈtiːf/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a recurring element with symbolic significance in a work of art, literature, or music",
+          "meaning_vi": "mô-típ (chi tiết hoặc ý tưởng lặp lại mang ý nghĩa biểu tượng)",
+          "examples": [
+            {
+              "en": "The motif of the green light in 'The Great Gatsby' represents Gatsby's unreachable dreams.",
+              "vi": "Mô-típ ánh đèn xanh trong 'Gatsby Vĩ Đại' biểu trưng cho giấc mơ không với tới của Gatsby."
+            },
+            {
+              "en": "The motif of fate appears throughout 'Truyện Kiều' by Nguyễn Du.",
+              "vi": "Mô-típ định mệnh xuất hiện xuyên suốt 'Truyện Kiều' của Nguyễn Du."
+            },
+            {
+              "en": "A recurring musical motif gives a film score its identity, like 'The Imperial March' in Star Wars.",
+              "vi": "Một motif âm nhạc lặp lại tạo bản sắc cho nhạc phim, như 'The Imperial March' của Star Wars."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["recurring theme", "leitmotif"],
+      "antonyms": [],
+      "collocations": ["recurring motif", "central motif", "musical motif", "visual motif"],
+      "etymology_hint": "From French 'motif' from Latin 'motivus' (moving) — what 'moves' or drives the work thematically.",
+      "mnemonic_vi": "MOTIF = mô-típ (chính nó!). Hình mẫu lặp đi lặp lại. Pháp gốc → 'mô típ' tiếng Việt."
+    },
+    {
+      "word": "archetype",
+      "lemma": "archetype",
+      "ipa": "/ˈɑːkitaɪp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a typical or recurring character, situation, or symbol that represents universal patterns of human nature",
+          "meaning_vi": "nguyên mẫu (nhân vật hoặc biểu tượng tiêu biểu, lặp lại trong văn hóa, đại diện bản chất con người)",
+          "examples": [
+            {
+              "en": "The hero, the mentor, and the trickster are classic archetypes in storytelling.",
+              "vi": "Anh hùng, người dẫn dắt và kẻ lừa lọc là những archetype kinh điển trong kể chuyện."
+            },
+            {
+              "en": "Carl Jung argued that archetypes live in our collective unconscious.",
+              "vi": "Carl Jung lập luận rằng archetype tồn tại trong vô thức tập thể của con người."
+            },
+            {
+              "en": "Sơn Tinh and Thủy Tinh are archetypal Vietnamese figures of natural rivalry.",
+              "vi": "Sơn Tinh và Thủy Tinh là archetype của đối đầu thiên nhiên trong văn hóa Việt."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["prototype", "original model"],
+      "antonyms": [],
+      "collocations": [
+        "classic archetype",
+        "hero archetype",
+        "cultural archetype",
+        "archetypal character"
+      ],
+      "etymology_hint": "From Greek 'archē' (origin, beginning) + 'typos' (model, impression) — 'original model'.",
+      "mnemonic_vi": "ARCH (đầu, gốc, như 'archeology') + TYPE (kiểu) = mẫu gốc. Archetype = nguyên mẫu."
+    },
+    {
+      "word": "hyperbole",
+      "lemma": "hyperbole",
+      "ipa": "/haɪˈpɜːbəli/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "deliberate exaggeration used for emphasis or rhetorical effect, not meant to be taken literally",
+          "meaning_vi": "cường điệu, phóng đại (nói quá để nhấn mạnh, không hiểu theo nghĩa đen)",
+          "examples": [
+            {
+              "en": "'I've told you a million times!' is a classic example of hyperbole.",
+              "vi": "'Tôi đã nói với bạn cả triệu lần!' là ví dụ kinh điển của hyperbole."
+            },
+            {
+              "en": "Advertisements often use hyperbole to make products sound more impressive than they are.",
+              "vi": "Quảng cáo thường dùng hyperbole để làm sản phẩm nghe ấn tượng hơn thực tế."
+            },
+            {
+              "en": "Vietnamese rappers love hyperbole — 'đỉnh nhất Sài Gòn' is hyperbole-laced flex.",
+              "vi": "Rapper Việt thích hyperbole — 'đỉnh nhất Sài Gòn' là kiểu khoe đậm hyperbole."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["exaggeration", "overstatement"],
+      "antonyms": ["understatement"],
+      "collocations": [
+        "use hyperbole",
+        "obvious hyperbole",
+        "comic hyperbole",
+        "without hyperbole"
+      ],
+      "etymology_hint": "From Greek 'hyper' (over, beyond) + 'ballein' (to throw) — 'throwing over' the truth.",
+      "mnemonic_vi": "HYPER (siêu, quá) + BOLE (ném, ballein) = ném quá xa. Hyperbole = nói quá tay."
+    },
+    {
+      "word": "juxtaposition",
+      "lemma": "juxtaposition",
+      "ipa": "/ˌdʒʌkstəpəˈzɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the act of placing two or more contrasting elements close together to highlight their differences or relationships",
+          "meaning_vi": "phép đặt cạnh đối lập (xếp 2 thứ tương phản gần nhau để làm nổi sự khác biệt)",
+          "examples": [
+            {
+              "en": "The novel uses the juxtaposition of wealth and poverty to highlight social injustice.",
+              "vi": "Cuốn tiểu thuyết dùng juxtaposition giàu - nghèo để làm nổi bất công xã hội."
+            },
+            {
+              "en": "In Saigon, the juxtaposition of glass skyscrapers and street-food carts is striking.",
+              "vi": "Ở Sài Gòn, juxtaposition giữa toà nhà kính chọc trời và xe đẩy bán phở rất ấn tượng."
+            },
+            {
+              "en": "Photographers often use juxtaposition to create visual tension in their compositions.",
+              "vi": "Nhiếp ảnh gia thường dùng juxtaposition để tạo căng thẳng thị giác trong bố cục."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["side-by-side placement", "contrast"],
+      "antonyms": [],
+      "collocations": [
+        "stark juxtaposition",
+        "ironic juxtaposition",
+        "visual juxtaposition",
+        "deliberate juxtaposition"
+      ],
+      "etymology_hint": "From Latin 'juxta' (next to) + 'positio' (placement) — 'placed next to'.",
+      "mnemonic_vi": "JUXTA (cạnh) + POSITION (vị trí) = đặt cạnh nhau. Juxtaposition = phép đặt cạnh."
+    },
+    {
+      "word": "personification",
+      "lemma": "personification",
+      "ipa": "/pəˌsɒnɪfɪˈkeɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the literary device of giving human characteristics or emotions to non-human things or abstract ideas",
+          "meaning_vi": "nhân hóa (gán đặc điểm hoặc cảm xúc con người cho vật, hiện tượng, ý niệm)",
+          "examples": [
+            {
+              "en": "'The wind whispered through the trees' is a simple example of personification.",
+              "vi": "'Gió thì thầm qua hàng cây' là ví dụ đơn giản của nhân hóa."
+            },
+            {
+              "en": "Children's stories rely heavily on personification of animals and toys.",
+              "vi": "Truyện thiếu nhi dùng nhiều nhân hóa cho động vật và đồ chơi."
+            },
+            {
+              "en": "Vietnamese folk poetry often uses personification of nature — 'mountains weep, rivers cry'.",
+              "vi": "Ca dao Việt thường nhân hóa thiên nhiên — 'núi khóc, sông than'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["anthropomorphism", "humanization"],
+      "antonyms": [],
+      "collocations": [
+        "use personification",
+        "extended personification",
+        "personification of nature"
+      ],
+      "etymology_hint": "From Latin 'persona' (person, character) + 'facere' (to make) — 'making into a person'.",
+      "mnemonic_vi": "PERSON (người) + IFICATION (biến thành) = biến thành người. Personification = nhân hóa."
+    },
+    {
+      "word": "denouement",
+      "lemma": "denouement",
+      "ipa": "/deɪˈnuːmɒ̃/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the final part of a narrative where the plot strands are tied together and conflicts are resolved",
+          "meaning_vi": "đoạn kết, gỡ nút (phần cuối tác phẩm nơi các tình tiết được giải quyết)",
+          "examples": [
+            {
+              "en": "The denouement of 'The Sixth Sense' shocked audiences with a single revelation.",
+              "vi": "Đoạn denouement của 'Giác Quan Thứ Sáu' khiến khán giả sốc với một mặc khải duy nhất."
+            },
+            {
+              "en": "A rushed denouement can ruin even the best-built story.",
+              "vi": "Một denouement vội vàng có thể phá hỏng cả câu chuyện được dựng tốt."
+            },
+            {
+              "en": "Vietnamese folk tales often end with a moral lesson in the denouement.",
+              "vi": "Truyện cổ Việt thường kết bằng bài học đạo đức trong phần denouement."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["resolution", "conclusion"],
+      "antonyms": ["climax", "rising action"],
+      "collocations": ["satisfying denouement", "rushed denouement", "final denouement"],
+      "etymology_hint": "From French 'dénouement' from 'dénouer' (to untie) — 'untying' the knot of the plot.",
+      "mnemonic_vi": "DE (tháo) + NOUEMENT (nút, từ 'noeud' Pháp) = tháo nút thắt. Denouement = gỡ nút."
+    },
+    {
+      "word": "catharsis",
+      "lemma": "catharsis",
+      "ipa": "/kəˈθɑːsɪs/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the emotional release and purification felt by an audience after experiencing intense art, especially tragedy",
+          "meaning_vi": "thanh lọc cảm xúc (cảm giác giải tỏa sâu sắc sau khi xem bi kịch)",
+          "examples": [
+            {
+              "en": "Aristotle argued that great tragedies should produce catharsis in the audience.",
+              "vi": "Aristotle lập luận rằng bi kịch lớn phải tạo catharsis cho khán giả."
+            },
+            {
+              "en": "Crying during 'Inside Out' provides genuine emotional catharsis for many viewers.",
+              "vi": "Khóc khi xem 'Inside Out' tạo catharsis cảm xúc thực sự cho nhiều người."
+            },
+            {
+              "en": "Vietnamese audiences often experience catharsis watching wartime films like 'Mùi Cỏ Cháy'.",
+              "vi": "Khán giả Việt thường trải catharsis khi xem phim chiến tranh như 'Mùi Cỏ Cháy'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["emotional release", "purification"],
+      "antonyms": [],
+      "collocations": ["emotional catharsis", "achieve catharsis", "moment of catharsis"],
+      "etymology_hint": "From Greek 'katharsis' (purification, cleansing) — same root as 'cathartic'.",
+      "mnemonic_vi": "CATHAR (sạch, purify) + SIS = quá trình thanh lọc. Catharsis = thanh lọc cảm xúc."
+    },
+    {
+      "word": "anachronism",
+      "lemma": "anachronism",
+      "ipa": "/əˈnækrənɪzəm/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "something or someone placed in the wrong time period in a story, film, or historical context",
+          "meaning_vi": "lỗi thời gian, vật/người không đúng thời đại (vd điện thoại di động trong phim cổ trang)",
+          "examples": [
+            {
+              "en": "The wristwatch on a Roman soldier in 'Spartacus' became a famous anachronism.",
+              "vi": "Đồng hồ đeo tay trên người lính La Mã trong 'Spartacus' trở thành anachronism nổi tiếng."
+            },
+            {
+              "en": "Spotting anachronisms in period dramas is a popular online pastime.",
+              "vi": "Bắt lỗi anachronism trong phim cổ trang là thú vui phổ biến trên mạng."
+            },
+            {
+              "en": "A character using 'okay' in 1500s England is a linguistic anachronism.",
+              "vi": "Nhân vật nói 'okay' ở Anh năm 1500 là anachronism ngôn ngữ."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["time-period error"],
+      "antonyms": [],
+      "collocations": ["historical anachronism", "deliberate anachronism", "obvious anachronism"],
+      "etymology_hint": "From Greek 'ana' (against) + 'khronos' (time) — literally 'against time'.",
+      "mnemonic_vi": "ANA (ngược) + CHRON (thời gian, như 'chronicle') + ISM = ngược thời gian. Anachronism = sai thời."
+    },
+    {
+      "word": "allusion",
+      "lemma": "allusion",
+      "ipa": "/əˈluːʒn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an indirect or passing reference to a person, event, or work of art, often expecting the audience to recognize it",
+          "meaning_vi": "ám chỉ, gợi nhắc (nhắc đến gián tiếp một tác phẩm hoặc sự kiện, kỳ vọng người đọc nhận ra)",
+          "examples": [
+            {
+              "en": "The poem is full of biblical allusions that reward a careful reader.",
+              "vi": "Bài thơ đầy allusion Kinh Thánh, thưởng cho người đọc kỹ."
+            },
+            {
+              "en": "Modern rap is filled with allusions to past hits and rival artists.",
+              "vi": "Rap hiện đại đầy allusion tới các hit cũ và rapper đối thủ."
+            },
+            {
+              "en": "A Vietnamese writer might make an allusion to Kiều to evoke a sense of tragic beauty.",
+              "vi": "Nhà văn Việt có thể dùng allusion tới Kiều để gợi vẻ đẹp bi kịch."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["indirect reference", "hint"],
+      "antonyms": ["direct mention"],
+      "collocations": [
+        "biblical allusion",
+        "literary allusion",
+        "make an allusion",
+        "subtle allusion"
+      ],
+      "etymology_hint": "From Latin 'alludere' (to play with, hint at) — playfully pointing to something.",
+      "mnemonic_vi": "AL (tới) + LUS (chơi đùa, ludere) + ION = chơi đùa với tham chiếu. Allusion = ám chỉ."
+    },
+    {
+      "word": "foreshadowing",
+      "lemma": "foreshadow",
+      "ipa": "/fɔːˈʃædəʊɪŋ/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a literary device that hints at events to come later in a story, building suspense or anticipation",
+          "meaning_vi": "gợi báo trước (chi tiết báo hiệu sự kiện sẽ xảy ra, tạo hồi hộp)",
+          "examples": [
+            {
+              "en": "Romeo's line 'I fear too early' is famous foreshadowing of his coming death.",
+              "vi": "Câu 'I fear too early' của Romeo là foreshadowing nổi tiếng về cái chết sắp đến."
+            },
+            {
+              "en": "A storm gathering in chapter one often acts as foreshadowing of conflict.",
+              "vi": "Một cơn bão tụ ở chương một thường đóng vai foreshadowing cho xung đột."
+            },
+            {
+              "en": "Good foreshadowing makes the ending feel inevitable but not predictable.",
+              "vi": "Foreshadowing tốt khiến cái kết có cảm giác tất yếu nhưng không dễ đoán."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["hinting", "premonition"],
+      "antonyms": [],
+      "collocations": ["subtle foreshadowing", "heavy-handed foreshadowing", "use foreshadowing"],
+      "mnemonic_vi": "FORE (trước) + SHADOW (bóng) + ING = bóng đổ trước. Foreshadowing = bóng tương lai đổ vào hiện tại."
+    },
+    {
+      "word": "imagery",
+      "lemma": "imagery",
+      "ipa": "/ˈɪmɪdʒri/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "vivid descriptive language that appeals to the senses, helping readers visualize or feel the scene",
+          "meaning_vi": "hình ảnh ngôn từ (ngôn ngữ gợi hình tượng, đánh vào giác quan người đọc)",
+          "examples": [
+            {
+              "en": "Sylvia Plath's poetry is famous for its dark, visceral imagery.",
+              "vi": "Thơ Sylvia Plath nổi tiếng vì imagery u ám và đầy thể chất."
+            },
+            {
+              "en": "The novelist used sensory imagery — smell of fish sauce, heat of midday — to evoke Vietnam.",
+              "vi": "Nhà văn dùng imagery giác quan — mùi nước mắm, cái nóng giữa trưa — để gợi nhớ Việt Nam."
+            },
+            {
+              "en": "Strong imagery makes prose come alive in a reader's mind.",
+              "vi": "Imagery mạnh làm văn xuôi sống dậy trong tâm trí người đọc."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["descriptive language", "mental pictures"],
+      "antonyms": [],
+      "collocations": ["vivid imagery", "sensory imagery", "visual imagery", "religious imagery"],
+      "etymology_hint": "From Old French 'imagerie' from Latin 'imago' (image, likeness).",
+      "mnemonic_vi": "IMAGE (hình ảnh) + RY (tập hợp) = tập hợp hình ảnh trong văn. Imagery = hình ảnh ngôn từ."
+    },
+    {
+      "word": "diction",
+      "lemma": "diction",
+      "ipa": "/ˈdɪkʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the writer's or speaker's choice of words and style of expression, contributing to tone and effect",
+          "meaning_vi": "cách chọn từ, văn phong (lựa chọn từ ngữ và cách diễn đạt của tác giả)",
+          "examples": [
+            {
+              "en": "Hemingway's spare, simple diction contrasts with Faulkner's elaborate prose.",
+              "vi": "Diction tinh giản của Hemingway tương phản với văn xuôi cầu kỳ của Faulkner."
+            },
+            {
+              "en": "Formal diction is expected in academic writing, casual diction in blogs.",
+              "vi": "Diction trang trọng được mong đợi trong văn học thuật, diction thân mật trong blog."
+            },
+            {
+              "en": "Sơn Tùng M-TP's lyrical diction mixes Vietnamese with occasional English words.",
+              "vi": "Diction lời nhạc của Sơn Tùng M-TP pha trộn tiếng Việt với từ tiếng Anh thi thoảng."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["word choice", "vocabulary style"],
+      "antonyms": [],
+      "collocations": ["formal diction", "poetic diction", "elevated diction", "informal diction"],
+      "etymology_hint": "From Latin 'dictio' (saying, speaking) from 'dicere' (to say) — the same root as 'dictionary'.",
+      "mnemonic_vi": "DICT (nói, như 'dictionary') + ION = cách nói. Diction = cách chọn lời."
+    },
+    {
+      "word": "alliteration",
+      "lemma": "alliteration",
+      "ipa": "/əˌlɪtəˈreɪʃn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the repetition of initial consonant sounds in closely placed words, used for poetic or rhetorical effect",
+          "meaning_vi": "điệp âm đầu (lặp âm phụ âm đầu ở nhiều từ gần nhau)",
+          "examples": [
+            {
+              "en": "'Peter Piper picked a peck of pickled peppers' is full of alliteration.",
+              "vi": "'Peter Piper picked a peck of pickled peppers' đầy alliteration."
+            },
+            {
+              "en": "Brand names often use alliteration: Coca-Cola, PayPal, Krispy Kreme.",
+              "vi": "Tên thương hiệu thường dùng alliteration: Coca-Cola, PayPal, Krispy Kreme."
+            },
+            {
+              "en": "Vietnamese rappers love alliteration like 'mưa rơi mau mau'.",
+              "vi": "Rapper Việt thích alliteration kiểu 'mưa rơi mau mau'."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["consonant repetition"],
+      "antonyms": [],
+      "collocations": ["use alliteration", "heavy alliteration", "alliteration and assonance"],
+      "etymology_hint": "From Latin 'ad' (to) + 'litera' (letter) — letters 'going to' each other.",
+      "mnemonic_vi": "AL (tới) + LITER (chữ cái) + ATION = lặp chữ cái đầu. Alliteration = điệp âm đầu."
+    },
+    {
+      "word": "onomatopoeia",
+      "lemma": "onomatopoeia",
+      "ipa": "/ˌɒnəmætəˈpiːə/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "the formation or use of words that phonetically imitate the sounds they describe, like 'buzz' or 'crash'",
+          "meaning_vi": "từ tượng thanh (từ mô phỏng âm thanh, như 'buzz', 'crash', 'meo meo')",
+          "examples": [
+            {
+              "en": "'Bang!', 'splash', and 'hiss' are common English onomatopoeia.",
+              "vi": "'Bang!', 'splash' và 'hiss' là các từ onomatopoeia phổ biến tiếng Anh."
+            },
+            {
+              "en": "Comic books rely heavily on onomatopoeia for sound effects.",
+              "vi": "Truyện tranh dựa nhiều vào onomatopoeia cho hiệu ứng âm thanh."
+            },
+            {
+              "en": "Vietnamese has rich onomatopoeia: 'lộp bộp' for rain, 'ầm ầm' for thunder.",
+              "vi": "Tiếng Việt có onomatopoeia phong phú: 'lộp bộp' cho mưa, 'ầm ầm' cho sấm."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["sound-imitation words"],
+      "antonyms": [],
+      "collocations": ["use of onomatopoeia", "onomatopoeic word"],
+      "etymology_hint": "From Greek 'onoma' (name) + 'poiein' (to make) — 'name-making' from sound.",
+      "mnemonic_vi": "ONOMA (tên) + POEIA (làm) = làm tên từ âm thanh. Onomatopoeia = từ tượng thanh."
+    },
+    {
+      "word": "oxymoron",
+      "lemma": "oxymoron",
+      "ipa": "/ˌɒksiˈmɔːrɒn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a figure of speech that joins two seemingly contradictory terms for striking effect, like 'deafening silence' or 'bittersweet'",
+          "meaning_vi": "nghịch ngữ (ghép 2 từ trái nghĩa để tạo hiệu ứng, vd 'sự im lặng đinh tai', 'ngọt đắng')",
+          "examples": [
+            {
+              "en": "'Jumbo shrimp' and 'open secret' are everyday oxymorons.",
+              "vi": "'Jumbo shrimp' (tôm to khổng lồ) và 'open secret' (bí mật công khai) là oxymoron hằng ngày."
+            },
+            {
+              "en": "Shakespeare loved oxymorons: 'sweet sorrow', 'loving hate'.",
+              "vi": "Shakespeare yêu thích oxymoron: 'sweet sorrow' (nỗi buồn ngọt ngào), 'loving hate' (ghét đầy yêu)."
+            },
+            {
+              "en": "'Beautiful chaos' captures Saigon's traffic with a single oxymoron.",
+              "vi": "'Beautiful chaos' (hỗn loạn đẹp đẽ) gói gọn giao thông Sài Gòn bằng một oxymoron."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["contradictory pairing"],
+      "antonyms": [],
+      "collocations": ["perfect oxymoron", "deliberate oxymoron", "famous oxymoron"],
+      "etymology_hint": "From Greek 'oxus' (sharp) + 'mōros' (dull, foolish) — itself an oxymoron, 'sharp-dull'.",
+      "mnemonic_vi": "OXY (sắc) + MORON (đần) = sắc + đần. Bản thân chữ oxymoron đã là một oxymoron!"
+    },
+    {
+      "word": "epiphany",
+      "lemma": "epiphany",
+      "ipa": "/ɪˈpɪfəni/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a sudden, profound realization or insight, often experienced by a character in a story",
+          "meaning_vi": "khoảnh khắc giác ngộ (nhận thức bất ngờ và sâu sắc của nhân vật)",
+          "examples": [
+            {
+              "en": "James Joyce built short stories around small epiphanies that change a character's view.",
+              "vi": "James Joyce xây truyện ngắn quanh các epiphany nhỏ thay đổi cách nhìn nhân vật."
+            },
+            {
+              "en": "She had an epiphany while walking through a Saigon market: she had to write again.",
+              "vi": "Cô ấy có một epiphany khi đi qua chợ Sài Gòn: cô phải bắt đầu viết lại."
+            },
+            {
+              "en": "Newton's apple is the mythical moment of his epiphany about gravity.",
+              "vi": "Quả táo của Newton là khoảnh khắc epiphany huyền thoại về trọng lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["revelation", "insight"],
+      "antonyms": [],
+      "collocations": [
+        "sudden epiphany",
+        "moment of epiphany",
+        "have an epiphany",
+        "personal epiphany"
+      ],
+      "etymology_hint": "From Greek 'epiphainein' (to appear, manifest) — a sudden 'appearing' of truth.",
+      "mnemonic_vi": "EPI (trên) + PHAN (xuất hiện, như 'phantom') + Y = xuất hiện đột ngột. Epiphany = giác ngộ."
+    },
+    {
+      "word": "pun",
+      "lemma": "pun",
+      "ipa": "/pʌn/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a humorous play on words that exploits multiple meanings or similar sounds for comic effect",
+          "meaning_vi": "chơi chữ (dùng từ có nhiều nghĩa hoặc âm giống nhau để gây cười)",
+          "examples": [
+            {
+              "en": "'I used to be a banker but I lost interest' is a classic pun.",
+              "vi": "'I used to be a banker but I lost interest' là kiểu pun kinh điển ('interest' = lãi/quan tâm)."
+            },
+            {
+              "en": "Shakespeare's plays are full of bawdy puns that surprise modern readers.",
+              "vi": "Kịch Shakespeare đầy pun tục tĩu khiến độc giả hiện đại bất ngờ."
+            },
+            {
+              "en": "Vietnamese rap loves puns — Đen Vâu and Rhymastic build whole verses around them.",
+              "vi": "Rap Việt yêu pun — Đen Vâu và Rhymastic xây cả đoạn quanh các pun."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["wordplay", "play on words"],
+      "antonyms": [],
+      "collocations": ["intended pun", "bad pun", "clever pun"],
+      "mnemonic_vi": "PUN ngắn gọn = chơi chữ. Pun = một cú chơi chữ. 'Pun intended' = 'có ý chơi chữ'."
+    },
+    {
+      "word": "trope",
+      "lemma": "trope",
+      "ipa": "/trəʊp/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "a common or recurring theme, device, or convention used in literature, film, and media",
+          "meaning_vi": "mô-típ quen, lối mòn nghệ thuật (chủ đề/thủ pháp được dùng đi dùng lại)",
+          "examples": [
+            {
+              "en": "'The reluctant hero' is a classic trope in action movies and fantasy novels.",
+              "vi": "'Anh hùng miễn cưỡng' là trope kinh điển trong phim hành động và truyện kỳ ảo."
+            },
+            {
+              "en": "Many Korean dramas reuse the rich-boy-poor-girl trope endlessly.",
+              "vi": "Nhiều phim Hàn dùng đi dùng lại trope chàng trai nhà giàu - cô gái nghèo."
+            },
+            {
+              "en": "Vietnamese folk tales rely on the trope of the clever underdog who outwits the powerful.",
+              "vi": "Truyện cổ Việt dựa vào trope kẻ thông minh thấp cổ bé họng thắng kẻ quyền lực."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["cliché", "convention"],
+      "antonyms": ["original idea"],
+      "collocations": ["common trope", "subvert a trope", "classic trope", "tired trope"],
+      "etymology_hint": "From Greek 'tropos' (a turn, way, manner) — a 'turn' of language or convention.",
+      "mnemonic_vi": "TROPE = vòng quay (turn) quen thuộc. Lối mòn nghệ thuật."
+    },
+    {
+      "word": "parody",
+      "lemma": "parody",
+      "ipa": "/ˈpærədi/",
+      "pos": "noun",
+      "cefr": "B2",
+      "definitions": [
+        {
+          "meaning_en": "an imitation of a serious work or genre exaggerated for comic or satirical effect",
+          "meaning_vi": "nhại lại (mô phỏng tác phẩm nghiêm túc để gây cười hoặc châm biếm)",
+          "examples": [
+            {
+              "en": "'Scary Movie' is a parody of horror films, exaggerating their tropes for laughs.",
+              "vi": "'Scary Movie' là parody của phim kinh dị, phóng đại trope của thể loại để gây cười."
+            },
+            {
+              "en": "Weird Al Yankovic built a career on parody of popular songs.",
+              "vi": "Weird Al Yankovic xây sự nghiệp từ parody các bài hát nổi tiếng."
+            },
+            {
+              "en": "Vietnamese YouTubers often parody famous TV shows for viral effect.",
+              "vi": "YouTuber Việt thường làm parody chương trình TV nổi tiếng để gây viral."
+            }
+          ]
+        }
+      ],
+      "synonyms": ["spoof", "send-up"],
+      "antonyms": ["serious imitation"],
+      "collocations": ["biting parody", "musical parody", "political parody", "parody of a film"],
+      "etymology_hint": "From Greek 'parodia' (counter-song) — 'para' (beside, counter) + 'oide' (song).",
+      "mnemonic_vi": "PARA (cạnh, ngược) + ODY (bài hát) = bài hát nhái. Parody = nhại bài hát/phim."
+    }
+  ]
+}
